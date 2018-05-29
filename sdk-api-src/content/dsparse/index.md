@@ -2,12 +2,11 @@
 UID: NA:dsparse
 ms.assetid: 52894d62-a539-32b9-97d7-886b29466afd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ad
 ---
 

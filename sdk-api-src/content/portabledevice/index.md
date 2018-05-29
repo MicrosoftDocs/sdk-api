@@ -2,7 +2,7 @@
 UID: NA:portabledevice
 ms.assetid: af23d5df-ed4e-31fc-943a-f10d0e075c6e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

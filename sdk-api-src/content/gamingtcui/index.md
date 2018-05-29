@@ -2,7 +2,7 @@
 UID: NA:gamingtcui
 ms.assetid: ff15fd6d-c38d-3f75-9bae-10508dda883c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

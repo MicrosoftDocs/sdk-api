@@ -2,7 +2,7 @@
 UID: NA:olectl
 ms.assetid: 45e30d9a-3704-39ca-81f2-259e91d1dffc
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:mshtmlc
 ms.assetid: d293427d-f6c9-3cb9-ba55-303c5dd6bd14
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

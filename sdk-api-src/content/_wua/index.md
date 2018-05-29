@@ -2,12 +2,11 @@
 UID: TP:wua
 ms.assetid: 8285445c-2c5e-3d96-a56d-f25ac3be142a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Wua

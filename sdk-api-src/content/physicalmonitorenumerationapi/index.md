@@ -2,7 +2,7 @@
 UID: NA:physicalmonitorenumerationapi
 ms.assetid: 26f74544-9748-38a0-85bd-5cc72fb0997d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

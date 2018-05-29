@@ -2,7 +2,7 @@
 UID: NA:sdoias
 ms.assetid: d33bb8ba-58d0-3db9-a5ab-c02cf0cb9156
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: nps
 
 This header is used by whqlprov. For more information, see:
 
-- [<built-in method title of str object at 0x0000020496777830>](../_whqlprov/index.md)
+- [<built-in method title of str object at 0x0000016F37A976F0>](../_whqlprov/index.md)

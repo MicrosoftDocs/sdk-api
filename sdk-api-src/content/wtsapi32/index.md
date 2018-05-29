@@ -2,12 +2,11 @@
 UID: NA:wtsapi32
 ms.assetid: c382edfa-3d15-3b93-9cf9-3fd6a08595cd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: termserv
 ---
 

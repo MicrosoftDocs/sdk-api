@@ -2,11 +2,12 @@
 UID: NA:msajtransport
 ms.assetid: c59fe873-368c-3798-a004-f41c3063785b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
+archived: true
 tech.root: alljoyn
 ---
 

@@ -2,7 +2,7 @@
 UID: TP:xaml_diagnostics
 ms.assetid: 9fd3de2c-6dbc-307e-b52e-afb4af9c54d0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

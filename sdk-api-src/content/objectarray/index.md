@@ -2,7 +2,7 @@
 UID: NA:objectarray
 ms.assetid: 296fdb47-32cd-30d3-a096-a42bd27b4b62
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

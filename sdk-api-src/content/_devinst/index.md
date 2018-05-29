@@ -2,7 +2,7 @@
 UID: TP:devinst
 ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,9 +153,13 @@ For the programming guide, see [Device and Driver Installation Reference](/windo
 | [CM_Uninstall_DevNode function](..\cfgmgr32\nf-cfgmgr32-cm_uninstall_devnode.md) | The CM_Uninstall_DevNode function removes all persistent state associated with a device instance. |
 | [CM_Unregister_Notification function](..\cfgmgr32\nf-cfgmgr32-cm_unregister_notification.md) | Use UnregisterDeviceNotification instead of CM_Unregister_Notification if your code targets Windows 7 or earlier versions of Windows. |
 | [DiInstallDevice function](..\newdev\nf-newdev-diinstalldevice.md) | The DiInstallDevice function installs a specified driver that is preinstalled in the driver store on a specified device that is present in the system. |
+| [DiInstallDriverA function](..\newdev\nf-newdev-diinstalldrivera.md) | The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports. |
+| [DiInstallDriverW function](..\newdev\nf-newdev-diinstalldriverw.md) | The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports. |
 | [DiRollbackDriver function](..\newdev\nf-newdev-dirollbackdriver.md) | The DiRollbackDriver function rolls back the driver that is installed on a specified device. |
 | [DiShowUpdateDevice function](..\newdev\nf-newdev-dishowupdatedevice.md) | The DiShowUpdateDevice function displays the Hardware Update wizard for a specified device. |
 | [DiUninstallDevice function](..\newdev\nf-newdev-diuninstalldevice.md) | The DiUninstallDevice function uninstalls a device and removes its device node (devnode) from the system. |
+| [UpdateDriverForPlugAndPlayDevicesA function](..\newdev\nf-newdev-updatedriverforplugandplaydevicesa.md) | Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID. |
+| [UpdateDriverForPlugAndPlayDevicesW function](..\newdev\nf-newdev-updatedriverforplugandplaydevicesw.md) | Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID. |
 
 ## Structures
 

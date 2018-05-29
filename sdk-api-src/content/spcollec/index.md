@@ -2,7 +2,7 @@
 UID: NA:spcollec
 ms.assetid: 20836cfc-591d-3fde-b089-767fc22df410
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
