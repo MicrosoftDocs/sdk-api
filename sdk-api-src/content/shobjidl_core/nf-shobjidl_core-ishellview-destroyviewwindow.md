@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.DestroyViewWindow
 title: IShellView::DestroyViewWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys the view window.
 old-location: shell\IShellView_DestroyViewWindow.htm
 old-project: shell
 ms.assetid: b0dfc200-4438-4f11-a426-c82eeb9cc745
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DestroyViewWindow, DestroyViewWindow method [Windows Shell], DestroyViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],DestroyViewWindow method, IShellView.DestroyViewWindow, IShellView::DestroyViewWindow, _win32_IShellView_DestroyViewWindow, shell.IShellView_DestroyViewWindow, shobjidl_core/IShellView::DestroyViewWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

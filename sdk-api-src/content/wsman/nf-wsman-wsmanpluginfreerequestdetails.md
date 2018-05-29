@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManPluginFreeRequestDetails
 title: WSManPluginFreeRequestDetails function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases memory that is allocated for the WSMAN_PLUGIN_REQUEST structure, which is passed into operation plug-in entry points.
 old-location: winrm\wsmanpluginfreerequestdetails.htm
 old-project: WinRM
 ms.assetid: 43716391-536c-49ae-9266-a8ae72621a0b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManPluginFreeRequestDetails, WSManPluginFreeRequestDetails function [Windows Remote Management], winrm.wsmanpluginfreerequestdetails, wsman/WSManPluginFreeRequestDetails
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

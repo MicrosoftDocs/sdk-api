@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IParentAndItem
 title: IParentAndItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that get and set the parent and the parent's child ID. While IParentAndItem is typically implemented on IShellItems, it is not specific to IShellItem.
 old-location: shell\IParentAndItem.htm
 old-project: shell
 ms.assetid: 5cca426f-73fb-4b39-8eb0-16c01673c311
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IParentAndItem, IParentAndItem interface [Windows Shell], IParentAndItem interface [Windows Shell],described, _shell_IParentAndItem, shell.IParentAndItem, shobjidl_core/IParentAndItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

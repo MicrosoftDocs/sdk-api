@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.GetChar2
 title: ITextRange2::GetChar2
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the character at the specified offset from the end of this range.
 old-location: controls\itextrange2_getchar2.htm
 old-project: Controls
 ms.assetid: 8ece8ca0-fd05-481c-9ce2-b2b7a3df354e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetChar2, GetChar2 method [Windows Controls], GetChar2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetChar2 method, ITextRange2.GetChar2, ITextRange2::GetChar2, controls.itextrange2_getchar2, tom/ITextRange2::GetChar2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

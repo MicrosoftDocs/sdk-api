@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetRecordName
 title: IWMMutualExclusion2::SetRecordName
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetRecordName method assigns a name to a record. You should assign a name to every record so that you can easily identify the records in the future.
 old-location: wmformat\iwmmutualexclusion2_setrecordname.htm
 old-project: wmformat
 ms.assetid: 9527024e-2d52-4a81-90a5-4ef5241ba6dd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetRecordName method, IWMMutualExclusion2.SetRecordName, IWMMutualExclusion2::SetRecordName, IWMMutualExclusion2SetRecordName, SetRecordName, SetRecordName method [windows Media Format], SetRecordName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setrecordname, wmsdkidl/IWMMutualExclusion2::SetRecordName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

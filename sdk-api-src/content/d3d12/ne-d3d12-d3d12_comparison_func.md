@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_COMPARISON_FUNC
 title: D3D12_COMPARISON_FUNC
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies comparison options.
 old-location: direct3d12\d3d12_comparison_func.htm
 old-project: direct3d12
 ms.assetid: 68223746-59B3-4FDD-B7EF-44557F1C46E3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_COMPARISON_FUNC, D3D12_COMPARISON_FUNC enumeration, D3D12_COMPARISON_FUNC_ALWAYS, D3D12_COMPARISON_FUNC_EQUAL, D3D12_COMPARISON_FUNC_GREATER, D3D12_COMPARISON_FUNC_GREATER_EQUAL, D3D12_COMPARISON_FUNC_LESS, D3D12_COMPARISON_FUNC_LESS_EQUAL, D3D12_COMPARISON_FUNC_NEVER, D3D12_COMPARISON_FUNC_NOT_EQUAL, d3d12/D3D12_COMPARISON_FUNC, d3d12/D3D12_COMPARISON_FUNC_ALWAYS, d3d12/D3D12_COMPARISON_FUNC_EQUAL, d3d12/D3D12_COMPARISON_FUNC_GREATER, d3d12/D3D12_COMPARISON_FUNC_GREATER_EQUAL, d3d12/D3D12_COMPARISON_FUNC_LESS, d3d12/D3D12_COMPARISON_FUNC_LESS_EQUAL, d3d12/D3D12_COMPARISON_FUNC_NEVER, d3d12/D3D12_COMPARISON_FUNC_NOT_EQUAL, direct3d12.d3d12_comparison_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

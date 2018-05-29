@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capPaletteSave
 title: capPaletteSave macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capPaletteSave macro saves the current palette to a palette file. Palette files typically use the filename extension .PAL. You can use this macro or explicitly send the WM_CAP_PAL_SAVE message.
 old-location: multimedia\cappalettesave.htm
 old-project: Multimedia
 ms.assetid: 11309b32-bc42-41fd-a0cd-e356caade849
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capPaletteSave, capPaletteSave, capPaletteSave macro [Windows Multimedia], multimedia.cappalettesave, vfw/capPaletteSave"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

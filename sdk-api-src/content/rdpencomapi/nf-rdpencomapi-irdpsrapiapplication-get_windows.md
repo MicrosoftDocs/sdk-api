@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Windows
 title: IRDPSRAPIApplication::get_Windows
-author: windows-driver-content
+author: windows-sdk-content
 description: The list of windows.
 old-location: rdp\irdpsrapiapplication_windows.htm
 old-project: Rdp
 ms.assetid: 6e6cf29d-e19a-43bd-a4e7-993c10bac92b
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Windows property, IRDPSRAPIApplication.Windows, IRDPSRAPIApplication.get_Windows, IRDPSRAPIApplication::Windows, IRDPSRAPIApplication::get_Windows, RDPSRAPIApplication object [RDP],Windows property, Windows property [RDP], Windows property [RDP],IRDPSRAPIApplication interface, Windows property [RDP],RDPSRAPIApplication object, get_Windows, rdp.irdpsrapiapplication_windows, rdpencomapi/IRDPSRAPIApplication::Windows, rdpencomapi/IRDPSRAPIApplication::get_Windows
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

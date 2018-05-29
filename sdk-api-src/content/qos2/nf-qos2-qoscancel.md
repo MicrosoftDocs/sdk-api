@@ -1,16 +1,16 @@
 ---
 UID: NF:qos2.QOSCancel
 title: QOSCancel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a pending overlapped operation, like QOSSetFlow.
 old-location: qos\qoscancel.htm
 old-project: QOS
 ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

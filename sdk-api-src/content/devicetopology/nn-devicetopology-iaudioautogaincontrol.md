@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IAudioAutoGainControl
 title: IAudioAutoGainControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioAutoGainControl interface provides access to a hardware automatic gain control (AGC).
 old-location: coreaudio\iaudioautogaincontrol.htm
 old-project: CoreAudio
 ms.assetid: f21e27e6-f3a0-418a-ad2e-e3e104dd6da2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioAutoGainControl, IAudioAutoGainControl interface [Core Audio], IAudioAutoGainControl interface [Core Audio],described, coreaudio.iaudioautogaincontrol, devicetopology/IAudioAutoGainControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

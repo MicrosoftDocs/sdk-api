@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_ProcAmpValues
 title: "_DXVA2_ProcAmpValues"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values for DirectX Video Acceleration (DXVA) video processing operations.
 old-location: mf\dxva2_procampvalues.htm
 old-project: medfound
 ms.assetid: c84acd34-e922-46bb-9913-0f94c7c47155
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVA2_ProcAmpValues, DXVA2_ProcAmpValues structure [Media Foundation], _DXVA2_ProcAmpValues, c84acd34-e922-46bb-9913-0f94c7c47155, dxva2api/DXVA2_ProcAmpValues, mf.dxva2_procampvalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

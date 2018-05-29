@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheIsCorrupted
 title: IOfflineFilesEvents::CacheIsCorrupted
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cacheiscorrupted.htm
 old-project: OfflineFiles
 ms.assetid: d76d9af4-bfc4-4584-b014-31a62a2894cf
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CacheIsCorrupted, CacheIsCorrupted method [Offline Files], CacheIsCorrupted method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsCorrupted method, IOfflineFilesEvents.CacheIsCorrupted, IOfflineFilesEvents::CacheIsCorrupted, cscobj/IOfflineFilesEvents::CacheIsCorrupted, of.iofflinefilesevents_cacheiscorrupted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

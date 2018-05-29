@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10.ID3D10View
 title: ID3D10View
-author: windows-driver-content
+author: windows-sdk-content
 description: A view interface specifies the parts of a resource the pipeline can access during rendering (see view).
 old-location: direct3d10\id3d10view.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10view.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ID3D10View, ID3D10View interface [Direct3D 10], ID3D10View interface [Direct3D 10],described, d3d10/ID3D10View, direct3d10.id3d10view, f36206a8-55f1-ac58-4818-8c308ce6e81f
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
 title: IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to retrieve information about a device's available pipes as configured in the registry.
 old-location: buses\ioctl_genericusbfn_get_class_info_ex.htm
 old-project: usbref
 ms.assetid: 9FC6E1F4-65AF-4315-B7F2-241E74820742
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control code [Buses], buses.ioctl_genericusbfn_get_class_info_ex, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h

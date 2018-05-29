@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyPort
 title: IWMPNetwork::getProxyPort
-author: windows-driver-content
+author: windows-sdk-content
 description: The getProxyPort method retrieves the proxy port being used.
 old-location: wmp\iwmpnetwork_getproxyport.htm
 old-project: WMP
 ms.assetid: 0d636e61-a5c1-495a-8d1d-ce2937dd3f18
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyPort method, IWMPNetwork.getProxyPort, IWMPNetwork::getProxyPort, IWMPNetworkgetProxyPort, getProxyPort, getProxyPort method [Windows Media Player], getProxyPort method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyport, wmp/IWMPNetwork::getProxyPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

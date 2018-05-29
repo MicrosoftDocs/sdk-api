@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IIsdbAudioComponentDescriptor
 title: IIsdbAudioComponentDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor.htm
 old-project: mstv
 ms.assetid: f771b318-5fd5-4c7f-a22b-6966aec5c0fa
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbAudioComponentDescriptor, mstv.iisdbaudiocomponentdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

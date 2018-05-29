@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.SetEventWhenCallbackReturns
 title: SetEventWhenCallbackReturns function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the event that the thread pool will set when the current callback completes.
 old-location: base\seteventwhencallbackreturns.htm
 old-project: ProcThread
 ms.assetid: 50e127bc-d518-4f84-88ea-b262572d5248
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetEventWhenCallbackReturns, SetEventWhenCallbackReturns function, base.seteventwhencallbackreturns, threadpoolapiset/SetEventWhenCallbackReturns, winbase/SetEventWhenCallbackReturns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_DeviceName
 title: IFaxRoutingMethod::get_DeviceName
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeviceName property is a null-terminated string that contains the user-friendly display name for a fax port.
 old-location: fax\_mfax_ifaxroutingmethod_get_devicename_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0tk5.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRoutingMethod object [Fax Service],get_DeviceName property, FaxRoutingMethod.get_DeviceName, IFaxRoutingMethod.get_DeviceName, IFaxRoutingMethod::get_DeviceName, _mfax_ifaxroutingmethod_get_devicename, fax._mfax_ifaxroutingmethod_get_devicename, fax._mfax_ifaxroutingmethod_get_devicename_vb, get_DeviceName, get_DeviceName property [Fax Service], get_DeviceName property [Fax Service],FaxRoutingMethod object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

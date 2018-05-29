@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.IntServTspecBody
 title: IntServTspecBody
-author: windows-driver-content
+author: windows-sdk-content
 description: The IntServTspecBody structure contains information for an RSVP Tspec.
 old-location: qos\intservtspecbody.htm
 old-project: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

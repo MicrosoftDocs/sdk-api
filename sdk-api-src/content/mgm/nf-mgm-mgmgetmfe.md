@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmGetMfe
 title: MgmGetMfe function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmGetMfe function retrieves a specific MFE.
 old-location: rras\mgmgetmfe.htm
 old-project: RRAS
 ms.assetid: 15b1b096-9044-4983-9039-e7a13c2cca25
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MgmGetMfe, MgmGetMfe function [RAS], _mpr_mgmgetmfe, mgm/MgmGetMfe, rras.mgmgetmfe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

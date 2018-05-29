@@ -1,16 +1,16 @@
 ---
 UID: NS:stm._MPR50_SERVICE_CHARACTERISTICS
 title: "_MPR50_SERVICE_CHARACTERISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
 old-location: rras\mpr_service_characteristics.htm
 old-project: RRAS
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR50_SERVICE_CHARACTERISTICS, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: stm.h
 req.include-header: 

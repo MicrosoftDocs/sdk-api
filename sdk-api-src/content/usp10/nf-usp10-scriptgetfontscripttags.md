@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptGetFontScriptTags
 title: ScriptGetFontScriptTags function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of scripts available in the font for OpenType processing. Scripts comprising the list are retrieved from the font located in the supplied device context or from the script shaping engine that processes the font of the current run.
 old-location: intl\scriptgetfontscripttags.htm
 old-project: Intl
 ms.assetid: d93dd2d6-93c5-4781-8645-fd3f0b45c9b7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptGetFontScriptTags, ScriptGetFontScriptTags function [Internationalization for Windows Applications], _win32_ScriptGetFontScriptTags, intl.scriptgetfontscripttags, usp10/ScriptGetFontScriptTags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

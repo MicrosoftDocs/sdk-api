@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordSourceId
 title: IATSC_VCT::GetRecordSourceId
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordsourceid.htm
 old-project: mstv
 ms.assetid: c5edc529-ca54-4f18-8859-b7eb168bff0a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordSourceId, GetRecordSourceId method [Microsoft TV Technologies], GetRecordSourceId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordSourceId method, IATSC_VCT.GetRecordSourceId, IATSC_VCT::GetRecordSourceId, IATSC_VCTGetRecordSourceId, atscpsipparser/IATSC_VCT::GetRecordSourceId, mstv.iatsc_vct_getrecordsourceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.SetPosition
 title: IMathInputControl::SetPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the location and size of the control.
 old-location: tablet\imathinputcontrol_setposition.htm
 old-project: tablet
 ms.assetid: 9b5fc988-7c93-47d4-8661-4cef56cab0d0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPosition method, IMathInputControl.SetPosition, IMathInputControl::SetPosition, SetPosition, SetPosition method [Tablet PC], SetPosition method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPosition, tablet.imathinputcontrol_setposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpOpen
 title: SnmpOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpOpen function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpopen.htm
 old-project: SNMP
 ms.assetid: 45085cad-2bfb-4f6c-9e42-6041fed681b8
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

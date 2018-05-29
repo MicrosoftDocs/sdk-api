@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.EnumProfiles
 title: ITfInputProcessorProfileMgr::EnumProfiles
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::EnumProfiles method returns profiles to be enumerated.
 old-location: tsf\itfinputprocessorprofilemgr_enumprofiles.htm
 old-project: TSF
 ms.assetid: d4728d12-9073-41b8-94bc-eaf7c1df19b6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumProfiles, EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],EnumProfiles method, ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

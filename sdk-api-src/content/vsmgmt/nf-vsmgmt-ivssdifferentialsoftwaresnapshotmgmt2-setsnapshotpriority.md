@@ -1,16 +1,16 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 title: IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority.htm
 old-project: VSS
 ms.assetid: 4b98d4d8-5b32-4be5-8e80-852305731a7e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,SetSnapshotPriority method, IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority, IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority, SetSnapshotPriority, SetSnapshotPriority method, SetSnapshotPriority method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

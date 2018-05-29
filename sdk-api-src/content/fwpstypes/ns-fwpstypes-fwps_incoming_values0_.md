@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpstypes.FWPS_INCOMING_VALUES0_
 title: FWPS_INCOMING_VALUES0_
-author: windows-driver-content
+author: windows-sdk-content
 description: The FWPS_INCOMING_VALUES0 structure defines data values that are passed by the filter engine to a callout's classifyFn callout function.Note  FWPS_INCOMING_VALUES0 is a specific version of FWPS_INCOMING_VALUES.
 old-location: netvista\fwps_incoming_values0.htm
 old-project: netvista
 ms.assetid: 62cec782-3d55-4bf0-a3a1-4eb2f11d5813
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FWPS_INCOMING_VALUES0, FWPS_INCOMING_VALUES0 structure [Network Drivers Starting with Windows Vista], FWPS_INCOMING_VALUES0_, fwpstypes/FWPS_INCOMING_VALUES0, netvista.fwps_incoming_values0, wfp_ref_3_struct_3_fwps_F-O_8a5ec685-98ff-49f2-9e78-72d409fece93.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h

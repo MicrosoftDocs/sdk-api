@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetCredentialAt
 title: ICredentialProvider::GetCredentialAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a specific credential.
 old-location: shell\ICredentialProvider_GetCredentialAt.htm
 old-project: shell
 ms.assetid: eec370b7-0db8-492f-8dc3-4f391e1a55e7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCredentialAt, GetCredentialAt method [Windows Shell], GetCredentialAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialAt method, ICredentialProvider.GetCredentialAt, ICredentialProvider::GetCredentialAt, credentialprovider/ICredentialProvider::GetCredentialAt, shell.ICredentialProvider_GetCredentialAt, shell_ICredentialProvider_GetCredentialAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

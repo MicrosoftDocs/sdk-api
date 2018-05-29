@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreFlush
 title: IFunctionDiscoveryProvider::InstancePropertyStoreFlush
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a mechanism for the provider to persist properties.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreflush.htm
 old-project: FunDisc
 ms.assetid: 7ad29f46-fb21-4287-9fc9-9ab86d44d298
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreFlush method, IFunctionDiscoveryProvider.InstancePropertyStoreFlush, IFunctionDiscoveryProvider::InstancePropertyStoreFlush, InstancePropertyStoreFlush, InstancePropertyStoreFlush method, InstancePropertyStoreFlush method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush, ncd.ifunctiondiscoveryprovider_instancepropertystoreflush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

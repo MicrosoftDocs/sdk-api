@@ -1,16 +1,16 @@
 ---
 UID: NE:appxpackaging.APPX_CAPABILITIES
 title: APPX_CAPABILITIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the capabilities or privileges requested by a package.
 old-location: appxpkg\appx_capabilities.htm
 old-project: appxpkg
 ms.assetid: 4912BCB0-424B-40F9-BBD1-3AD0A60B3320
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: APPX_CAPABILITIES, APPX_CAPABILITIES enumeration [App packaging and management], APPX_CAPABILITY_DOCUMENTS_LIBRARY, APPX_CAPABILITY_ENTERPRISE_AUTHENTICATION, APPX_CAPABILITY_INTERNET_CLIENT, APPX_CAPABILITY_INTERNET_CLIENT_SERVER, APPX_CAPABILITY_MUSIC_LIBRARY, APPX_CAPABILITY_PICTURES_LIBRARY, APPX_CAPABILITY_PRIVATE_NETWORK_CLIENT_SERVER, APPX_CAPABILITY_REMOVABLE_STORAGE, APPX_CAPABILITY_SHARED_USER_CERTIFICATES, APPX_CAPABILITY_VIDEOS_LIBRARY, appxpackaging/APPX_CAPABILITIES, appxpackaging/APPX_CAPABILITY_DOCUMENTS_LIBRARY, appxpackaging/APPX_CAPABILITY_ENTERPRISE_AUTHENTICATION, appxpackaging/APPX_CAPABILITY_INTERNET_CLIENT, appxpackaging/APPX_CAPABILITY_INTERNET_CLIENT_SERVER, appxpackaging/APPX_CAPABILITY_MUSIC_LIBRARY, appxpackaging/APPX_CAPABILITY_PICTURES_LIBRARY, appxpackaging/APPX_CAPABILITY_PRIVATE_NETWORK_CLIENT_SERVER, appxpackaging/APPX_CAPABILITY_REMOVABLE_STORAGE, appxpackaging/APPX_CAPABILITY_SHARED_USER_CERTIFICATES, appxpackaging/APPX_CAPABILITY_VIDEOS_LIBRARY, appxpkg.appx_capabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: appxpackaging.h
 req.include-header: 

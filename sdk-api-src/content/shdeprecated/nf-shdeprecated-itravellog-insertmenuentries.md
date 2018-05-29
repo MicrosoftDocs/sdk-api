@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.ITravelLog.InsertMenuEntries
 title: ITravelLog::InsertMenuEntries
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Inserts entries into the specified menu.
 old-location: shell\ITravelLog_InsertMenuEntries.htm
 old-project: shell
 ms.assetid: 5e75c524-5fa6-4d76-8fe9-a69ee1b509e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITravelLog interface [Windows Shell],InsertMenuEntries method, ITravelLog.InsertMenuEntries, ITravelLog::InsertMenuEntries, InsertMenuEntries, InsertMenuEntries method [Windows Shell], InsertMenuEntries method [Windows Shell],ITravelLog interface, TLMENUF_BACK, TLMENUF_BACKANDFORTH, TLMENUF_CHECKCURRENT, TLMENUF_FORE, TLMENUF_INCLUDECURRENT, shdeprecated/ITravelLog::InsertMenuEntries, shell.ITravelLog_InsertMenuEntries, zone_ITravelLog_InsertMenuEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

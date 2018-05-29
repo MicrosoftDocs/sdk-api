@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationManagerEventHandler2
 title: IUIAnimationManagerEventHandler2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a method for handling updates to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler2.htm
 old-project: UIAnimation
 ms.assetid: 3D3DAC6C-6904-4962-BB17-18FA97678834
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationManagerEventHandler2, IUIAnimationManagerEventHandler2 interface [Windows Animation], IUIAnimationManagerEventHandler2 interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler2, uianimation/IUIAnimationManagerEventHandler2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

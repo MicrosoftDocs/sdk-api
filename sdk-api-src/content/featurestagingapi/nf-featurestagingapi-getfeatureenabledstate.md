@@ -1,16 +1,16 @@
 ---
 UID: NF:featurestagingapi.GetFeatureEnabledState
 title: GetFeatureEnabledState function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeatureenabledstate.htm
 old-project: DevNotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.ICallFactory
 title: ICallFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a call object for processing calls to the methods of an asynchronous interface.
 old-location: com\icallfactory.htm
 old-project: com
 ms.assetid: 323dc627-3867-4170-b278-0bce46077729
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

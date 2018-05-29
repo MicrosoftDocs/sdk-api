@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ExecuteCommandList
 title: ID3D11DeviceContext::ExecuteCommandList
-author: windows-driver-content
+author: windows-sdk-content
 description: Queues commands from a command list onto a device.
 old-location: direct3d11\id3d11devicecontext_executecommandlist.htm
 old-project: direct3d11
 ms.assetid: 54e74f7d-b8a4-458d-bb39-3d8a824f06ef
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 451c8cc4-04fc-6682-9b16-549845617e3e, ExecuteCommandList, ExecuteCommandList method [Direct3D 11], ExecuteCommandList method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ExecuteCommandList method, ID3D11DeviceContext.ExecuteCommandList, ID3D11DeviceContext::ExecuteCommandList, d3d11/ID3D11DeviceContext::ExecuteCommandList, direct3d11.id3d11devicecontext_executecommandlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

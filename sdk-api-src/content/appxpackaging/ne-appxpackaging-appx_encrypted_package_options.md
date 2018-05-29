@@ -1,16 +1,16 @@
 ---
 UID: NE:appxpackaging.APPX_ENCRYPTED_PACKAGE_OPTIONS
 title: APPX_ENCRYPTED_PACKAGE_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypted app package options.
 old-location: appxpkg\appx_encrypted_package_options.htm
 old-project: appxpkg
 ms.assetid: BEF0AA21-AC0F-4DA5-BA5C-404E54B67953
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_OPTIONS, APPX_ENCRYPTED_PACKAGE_OPTIONS enumeration [App packaging and management], APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION, APPX_ENCRYPTED_PACKAGE_OPTION_NONE, APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTIONS, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_NONE, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING, appxpkg.appx_encrypted_package_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: appxpackaging.h
 req.include-header: 

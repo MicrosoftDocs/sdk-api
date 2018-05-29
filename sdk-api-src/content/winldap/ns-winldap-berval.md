@@ -1,16 +1,16 @@
 ---
 UID: NS:winldap.berval
 title: berval
-author: windows-driver-content
+author: windows-sdk-content
 description: The berval structure represents arbitrary binary data that is encoded according to Basic Encoding Rules (BER). Use a berval to represent any attribute that cannot be represented by a null-terminated string.
 old-location: ldap\berval.htm
 old-project: LDAP
 ms.assetid: 1f279905-ab02-4a8b-9b77-e8ea2b56e882
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "*PBERVAL, *PLDAP_BERVAL, BERVAL, BERVAL structure [LDAP], BerValue, BerValue structure [LDAP], LDAP_BERVAL, LDAP_BERVAL structure [LDAP], PBERVAL, PBERVAL structure pointer [LDAP], PLDAP_BERVAL, PLDAP_BERVAL structure pointer [LDAP], _ldap_berval, berval, berval structure [LDAP], ldap.berval, winldap/BERVAL, winldap/BerValue, winldap/PBERVAL, winldap/PLDAP_BERVAL, winldap/berval"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 

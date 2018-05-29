@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetXStateFeaturesMask
 title: SetXStateFeaturesMask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the mask of XState features set within a CONTEXT structure.
 old-location: base\setxstatefeaturesmask.htm
 old-project: Debug
 ms.assetid: 64ADEA8A-DE78-437E-AE68-A68E7214C5FD
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetXStateFeaturesMask, SetXStateFeaturesMask function, base.setxstatefeaturesmask, winbase/SetXStateFeaturesMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

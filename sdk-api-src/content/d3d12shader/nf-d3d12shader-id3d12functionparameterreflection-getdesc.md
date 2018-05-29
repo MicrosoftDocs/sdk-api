@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionParameterReflection.GetDesc
 title: ID3D12FunctionParameterReflection::GetDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Fills the parameter descriptor structure for the function's parameter.
 old-location: direct3d12\id3d12functionparameterreflection_getdesc.htm
 old-project: direct3d12
 ms.assetid: E10ACB2E-EF77-4C71-A5C7-CEFA31218091
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,GetDesc method, ID3D12FunctionParameterReflection.GetDesc, ID3D12FunctionParameterReflection::GetDesc, d3d12shader/ID3D12FunctionParameterReflection::GetDesc, direct3d12.id3d12functionparameterreflection_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

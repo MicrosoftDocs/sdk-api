@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MF_QUALITY_DROP_MODE
 title: "_MF_QUALITY_DROP_MODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how aggressively a pipeline component should drop samples.
 old-location: mf\mf_quality_drop_mode.htm
 old-project: medfound
 ms.assetid: e40751d2-9abf-4fe6-8829-9b1fbf4531e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_DROP_MODE_1, MF_DROP_MODE_2, MF_DROP_MODE_3, MF_DROP_MODE_4, MF_DROP_MODE_5, MF_DROP_MODE_NONE, MF_NUM_DROP_MODES, MF_QUALITY_DROP_MODE, MF_QUALITY_DROP_MODE enumeration [Media Foundation], _MF_QUALITY_DROP_MODE, e40751d2-9abf-4fe6-8829-9b1fbf4531e8, mf.mf_quality_drop_mode, mfidl/MF_DROP_MODE_1, mfidl/MF_DROP_MODE_2, mfidl/MF_DROP_MODE_3, mfidl/MF_DROP_MODE_4, mfidl/MF_DROP_MODE_5, mfidl/MF_DROP_MODE_NONE, mfidl/MF_NUM_DROP_MODES, mfidl/MF_QUALITY_DROP_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

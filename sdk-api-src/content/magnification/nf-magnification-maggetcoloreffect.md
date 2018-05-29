@@ -1,16 +1,16 @@
 ---
 UID: NF:magnification.MagGetColorEffect
 title: MagGetColorEffect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the color transformation matrix for a magnifier control.
 old-location: magapi\magapi_MagGetColorEffect.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetcoloreffect.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagGetColorEffect, MagGetColorEffect function [Magnification API], magapi.magapi_MagGetColorEffect, magapi_MagGetColorEffect, magnification/MagGetColorEffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

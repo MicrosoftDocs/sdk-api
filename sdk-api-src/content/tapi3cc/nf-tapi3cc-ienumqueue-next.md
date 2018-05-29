@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.IEnumQueue.Next
 title: IEnumQueue::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumqueue_next.htm
 old-project: Tapi
 ms.assetid: 95c1a919-4138-49c1-ad3a-2b15d928e84f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumQueue interface [TAPI 2.2],Next method, IEnumQueue.Next, IEnumQueue::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumQueue interface, _tapi3_ienumqueue_next, tapi3.ienumqueue_next, tapi3cc/IEnumQueue::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

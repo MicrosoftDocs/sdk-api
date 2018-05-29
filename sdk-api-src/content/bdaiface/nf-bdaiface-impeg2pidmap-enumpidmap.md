@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.EnumPIDMap
 title: IMPEG2PIDMap::EnumPIDMap
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumPIDMap method returns a collection of all the currently mapped PIDs on this pin.
 old-location: dshow\impeg2pidmap_enumpidmap.htm
 old-project: DirectShow
 ms.assetid: 9e5dbc92-e072-4e59-b7b2-07ae39cb9d59
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnumPIDMap, EnumPIDMap method [DirectShow], EnumPIDMap method [DirectShow],IMPEG2PIDMap interface, IMPEG2PIDMap interface [DirectShow],EnumPIDMap method, IMPEG2PIDMap.EnumPIDMap, IMPEG2PIDMap::EnumPIDMap, IMPEG2PIDMapEnumPIDMap, bdaiface/IMPEG2PIDMap::EnumPIDMap, dshow.impeg2pidmap_enumpidmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

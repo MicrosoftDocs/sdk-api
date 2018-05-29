@@ -1,16 +1,16 @@
 ---
 UID: NS:winsvc._SERVICE_REQUIRED_PRIVILEGES_INFOW
 title: "_SERVICE_REQUIRED_PRIVILEGES_INFOW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the required privileges for a service.
 old-location: base\service_required_privileges_info.htm
 old-project: Services
 ms.assetid: 15a2e042-cfd5-443e-a3b8-822f48eb9654
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*LPSERVICE_REQUIRED_PRIVILEGES_INFOW, LPSERVICE_REQUIRED_PRIVILEGES_INFO, LPSERVICE_REQUIRED_PRIVILEGES_INFO structure pointer, SERVICE_REQUIRED_PRIVILEGES_INFO, SERVICE_REQUIRED_PRIVILEGES_INFO structure, SERVICE_REQUIRED_PRIVILEGES_INFOA, SERVICE_REQUIRED_PRIVILEGES_INFOW, _SERVICE_REQUIRED_PRIVILEGES_INFOW, base.service_required_privileges_info, winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFO, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h

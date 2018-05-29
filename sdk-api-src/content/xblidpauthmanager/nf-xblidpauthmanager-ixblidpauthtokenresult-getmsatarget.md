@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaTarget
 title: IXblIdpAuthTokenResult::GetMsaTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmsatarget.htm
 old-project: xblidp
 ms.assetid: 5289E451-58E7-4233-8498-555BFD7C3732
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetMsaTarget, GetMsaTarget method, GetMsaTarget method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaTarget method, IXblIdpAuthTokenResult.GetMsaTarget, IXblIdpAuthTokenResult::GetMsaTarget, xblidp.ixblidpauthtokenresult_getmsatarget, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

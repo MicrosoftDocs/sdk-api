@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_QUERY_DATA_SO_STATISTICS
 title: D3D12_QUERY_DATA_SO_STATISTICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes query data for stream output.
 old-location: direct3d12\d3d12_query_data_so_statistics.htm
 old-project: direct3d12
 ms.assetid: 7A71F6DA-AAC2-4070-90E9-F91F090AD1A1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_QUERY_DATA_SO_STATISTICS, D3D12_QUERY_DATA_SO_STATISTICS structure, d3d12/D3D12_QUERY_DATA_SO_STATISTICS, direct3d12.d3d12_query_data_so_statistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

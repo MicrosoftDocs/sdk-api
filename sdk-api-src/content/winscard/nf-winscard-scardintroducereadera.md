@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardIntroduceReaderA
 title: SCardIntroduceReaderA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Introduces a new name for an existing smart card reader.
 old-location: security\scardintroducereader.htm
 old-project: SecAuthN
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardIntroduceReader, SCardIntroduceReader function [Security], SCardIntroduceReaderA, SCardIntroduceReaderW, _smart_scardintroducereader, security.scardintroducereader, winscard/SCardIntroduceReader, winscard/SCardIntroduceReaderA, winscard/SCardIntroduceReaderW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

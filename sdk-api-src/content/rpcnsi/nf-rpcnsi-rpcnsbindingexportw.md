@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingExportW
 title: RpcNsBindingExportW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsBindingExport function establishes a name service&#8211;database entry with multiple binding handles and multiple objects for a server.
 old-location: rpc\rpcnsbindingexport.htm
 old-project: Rpc
 ms.assetid: c89d04d7-f607-48cc-8cb6-b6aebab41671
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsBindingExport, RpcNsBindingExport function [RPC], RpcNsBindingExportA, RpcNsBindingExportW, _rpc_rpcnsbindingexport, rpc.rpcnsbindingexport, rpcnsi/RpcNsBindingExport, rpcnsi/RpcNsBindingExportA, rpcnsi/RpcNsBindingExportW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

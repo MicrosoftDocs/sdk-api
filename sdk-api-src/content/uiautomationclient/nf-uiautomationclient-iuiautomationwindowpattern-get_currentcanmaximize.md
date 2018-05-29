@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentCanMaximize
 title: IUIAutomationWindowPattern::get_CurrentCanMaximize
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the window can be maximized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMaximize.htm
 old-project: WinAuto
 ms.assetid: fa367c47-57be-4e4e-909a-02cca682d1c0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentCanMaximize property [Windows Accessibility], CurrentCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentCanMaximize property, IUIAutomationWindowPattern.CurrentCanMaximize, IUIAutomationWindowPattern.get_CurrentCanMaximize, IUIAutomationWindowPattern::CurrentCanMaximize, IUIAutomationWindowPattern::get_CurrentCanMaximize, get_CurrentCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

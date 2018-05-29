@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore
 title: IAzAuthorizationStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the container that is the root of the authorization policy store.
 old-location: security\azauthorizationstore.htm
 old-project: SecAuthZ
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

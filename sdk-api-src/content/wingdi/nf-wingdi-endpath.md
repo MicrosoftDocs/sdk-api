@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.EndPath
 title: EndPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndPath function closes a path bracket and selects the path defined by the bracket into the specified device context.
 old-location: gdi\endpath.htm
 old-project: gdi
 ms.assetid: 0b4daf81-d1d6-45c1-b081-855b7cd8527a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EndPath, EndPath function [Windows GDI], _win32_EndPath, gdi.endpath, wingdi/EndPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

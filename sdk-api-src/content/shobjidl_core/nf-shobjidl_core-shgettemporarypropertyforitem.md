@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHGetTemporaryPropertyForItem
 title: SHGetTemporaryPropertyForItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the temporary property for the given item. A temporary property is a read/write store that holds properties only for the lifetime of the IShellItem object, rather than being persisted back into the item.
 old-location: shell\SHGetTemporaryPropertyForItem.htm
 old-project: shell
 ms.assetid: 53953a5a-04a2-4749-a03b-8cbd5ac889f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetTemporaryPropertyForItem, SHGetTemporaryPropertyForItem function [Windows Shell], _shell_SHGetTemporaryPropertyForItem, shell.SHGetTemporaryPropertyForItem, shobjidl_core/SHGetTemporaryPropertyForItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:oaidl.tagPARAMDESCEX
 title: tagPARAMDESCEX
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the default value of a parameter.
 old-location: automat\paramdescex.htm
 old-project: automat
 ms.assetid: a7da5ded-f0b9-4f6e-8cea-750a338d6328
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: "*LPPARAMDESCEX, LPPARAMDESCEX, LPPARAMDESCEX structure pointer [Automation], PARAMDESCEX, PARAMDESCEX structure [Automation], _oa96_PARAMDESCEX, automat.paramdescex, oaidl/LPPARAMDESCEX, oaidl/PARAMDESCEX, tagPARAMDESCEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

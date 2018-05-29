@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IXDSCodec.put_CCSubstreamService
 title: IXDSCodec::put_CCSubstreamService
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_CCSubstreamService method specifies which line 21 data channels the XDS Codec filter sends to the XDSToRat object. By default, only the Extended Data Services (XDS) channel is supported.
 old-location: mstv\ixdscodec_put_ccsubstreamservice.htm
 old-project: mstv
 ms.assetid: e8e4a43a-3e9f-468a-8df3-7ff05d23b20b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],put_CCSubstreamService method, IXDSCodec.put_CCSubstreamService, IXDSCodec::put_CCSubstreamService, IXDSCodecput_CCSubstreamService, encdec/IXDSCodec::put_CCSubstreamService, mstv.ixdscodec_put_ccsubstreamservice, put_CCSubstreamService, put_CCSubstreamService method [Microsoft TV Technologies], put_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

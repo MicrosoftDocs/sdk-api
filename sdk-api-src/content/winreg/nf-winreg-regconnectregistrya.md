@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegConnectRegistryA
 title: RegConnectRegistryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a connection to a predefined registry key on another computer.
 old-location: base\regconnectregistry.htm
 old-project: SysInfo
 ms.assetid: d7fb41cc-4855-4ad7-879c-b1ac85ac5803
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistryA, RegConnectRegistryW, _win32_regconnectregistry, base.regconnectregistry, winreg/RegConnectRegistry, winreg/RegConnectRegistryA, winreg/RegConnectRegistryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupCreatePasswordInvitation
 title: PeerGroupCreatePasswordInvitation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an XML string that can be used by the specified peer to join a group with a matching password.
 old-location: p2p\peergroupcreatepasswordinvitation.htm
 old-project: P2PSdk
 ms.assetid: 12d2920d-35b6-41e3-9129-1f11ce4cb5eb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupCreatePasswordInvitation, PeerGroupCreatePasswordInvitation function [Peer Networking], p2p.peergroupcreatepasswordinvitation, p2p/PeerGroupCreatePasswordInvitation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateDigitalSignatureManager
 title: IOpcFactory::CreateDigitalSignatureManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a digital signature manager object for a package object.
 old-location: opc\iopcfactory_createdigitalsignaturemanager.htm
 old-project: OPC
 ms.assetid: ec0fe8b6-e968-4bcb-b468-bbf72ffce675
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CreateDigitalSignatureManager, CreateDigitalSignatureManager method [Open Packaging Conventions], CreateDigitalSignatureManager method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateDigitalSignatureManager method, IOpcFactory.CreateDigitalSignatureManager, IOpcFactory::CreateDigitalSignatureManager, msopc/IOpcFactory::CreateDigitalSignatureManager, opc.iopcfactory_createdigitalsignaturemanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

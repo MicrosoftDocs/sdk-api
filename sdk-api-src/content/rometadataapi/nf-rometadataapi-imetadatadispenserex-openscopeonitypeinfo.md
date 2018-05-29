@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.OpenScopeOnITypeInfo
 title: IMetaDataDispenserEx::OpenScopeOnITypeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the specified scope type.
 old-location: winrt\imetadatadispenserex_openscopeonitypeinfo.htm
 old-project: WinRT
 ms.assetid: e76d295a-bce9-42c2-9a9b-a4d31741f47f
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],OpenScopeOnITypeInfo method, IMetaDataDispenserEx.OpenScopeOnITypeInfo, IMetaDataDispenserEx::OpenScopeOnITypeInfo, OpenScopeOnITypeInfo, OpenScopeOnITypeInfo method [Windows Runtime], OpenScopeOnITypeInfo method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::OpenScopeOnITypeInfo, winrt.imetadatadispenserex_openscopeonitypeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

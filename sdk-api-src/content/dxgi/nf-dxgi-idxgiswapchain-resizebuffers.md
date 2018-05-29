@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.ResizeBuffers
 title: IDXGISwapChain::ResizeBuffers
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the swap chain's back buffer size, format, and number of buffers. This should be called when the application window is resized.
 old-location: direct3ddxgi\idxgiswapchain_resizebuffers.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizebuffers.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 615c7678-59c9-07b2-5960-4a5b881f779d, IDXGISwapChain interface [DXGI],ResizeBuffers method, IDXGISwapChain.ResizeBuffers, IDXGISwapChain::ResizeBuffers, ResizeBuffers, ResizeBuffers method [DXGI], ResizeBuffers method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizebuffers, dxgi/IDXGISwapChain::ResizeBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

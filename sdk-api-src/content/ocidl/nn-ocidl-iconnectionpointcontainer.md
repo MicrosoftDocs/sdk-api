@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IConnectionPointContainer
 title: IConnectionPointContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: Supports connection points for connectable objects.
 old-location: com\iconnectionpointcontainer.htm
 old-project: com
 ms.assetid: 5e2be055-7baa-4c42-bd20-b338da296ab0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IConnectionPointContainer, IConnectionPointContainer interface [COM], IConnectionPointContainer interface [COM],described, _com_iconnectionpointcontainer, com.iconnectionpointcontainer, ocidl/IConnectionPointContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

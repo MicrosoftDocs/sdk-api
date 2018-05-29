@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.GetStoryLength
 title: ITextRange::GetStoryLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the count of characters in the range's story.
 old-location: controls\ITextRange_GetStoryLength.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorylength.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetStoryLength, GetStoryLength method [Windows Controls], GetStoryLength method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStoryLength method, ITextRange.GetStoryLength, ITextRange::GetStoryLength, _win32_ITextRange_GetStoryLength, _win32_ITextRange_GetStoryLength_cpp, controls.ITextRange_GetStoryLength, controls._win32_ITextRange_GetStoryLength, tom/ITextRange::GetStoryLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

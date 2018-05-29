@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.ArcSegment
 title: ArcSegment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_ARC_SEGMENT structure.
 old-location: direct2d\arcsegment.htm
 old-project: Direct2D
 ms.assetid: 0a2e7b92-2d0a-4898-ad3e-2142347e8c31
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: ArcSegment, ArcSegment function [Direct2D], d2d1helper/ArcSegment, direct2d.arcsegment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

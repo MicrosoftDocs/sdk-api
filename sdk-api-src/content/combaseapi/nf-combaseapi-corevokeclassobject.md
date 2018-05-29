@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoRevokeClassObject
 title: CoRevokeClassObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs OLE that a class object, previously registered with the CoRegisterClassObject function, is no longer available for use.
 old-location: com\corevokeclassobject.htm
 old-project: com
 ms.assetid: 90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoRevokeClassObject, CoRevokeClassObject function [COM], _com_CoRevokeClassObject, com.corevokeclassobject, combaseapi/CoRevokeClassObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

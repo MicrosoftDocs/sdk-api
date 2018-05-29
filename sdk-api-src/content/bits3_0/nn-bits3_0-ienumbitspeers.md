@@ -1,16 +1,16 @@
 ---
 UID: NN:bits3_0.IEnumBitsPeers
 title: IEnumBitsPeers
-author: windows-driver-content
+author: windows-sdk-content
 description: Use IEnumBitsPeers to enumerate the list of peers that BITS has discovered.
 old-location: bits\ienumbitspeers.htm
 old-project: Bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], IEnumBitsPeers interface [BITS],described, bits.ienumbitspeers, bits3_0/IEnumBitsPeers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h

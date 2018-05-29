@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ISurrogate.FreeSurrogate
 title: ISurrogate::FreeSurrogate
-author: windows-driver-content
+author: windows-sdk-content
 description: Unloads a DLL server.
 old-location: com\isurrogate_freesurrogate.htm
 old-project: com
 ms.assetid: d897b02a-2540-4274-a0e3-e5c9299104a2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FreeSurrogate, FreeSurrogate method [COM], FreeSurrogate method [COM],ISurrogate interface, ISurrogate interface [COM],FreeSurrogate method, ISurrogate.FreeSurrogate, ISurrogate::FreeSurrogate, _com_isurrogate_freesurrogate, com.isurrogate_freesurrogate, objidlbase/ISurrogate::FreeSurrogate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

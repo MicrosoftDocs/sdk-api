@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_VOICE_CALL_STATE
 title: MBN_VOICE_CALL_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_VOICE_CALL_STATE enumerated type specifies the current voice call state of the device.
 old-location: mbn\mbn_voice_call_state.htm
 old-project: mbn
 ms.assetid: 1b94b210-e50f-4d7b-a738-9c372364c4f8
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_VOICE_CALL_STATE, MBN_VOICE_CALL_STATE enumeration [Microsoft Broadband Networks], MBN_VOICE_CALL_STATE_HANGUP, MBN_VOICE_CALL_STATE_IN_PROGRESS, MBN_VOICE_CALL_STATE_NONE, mbn.mbn_voice_call_state, mbnapi/MBN_VOICE_CALL_STATE, mbnapi/MBN_VOICE_CALL_STATE_HANGUP, mbnapi/MBN_VOICE_CALL_STATE_IN_PROGRESS, mbnapi/MBN_VOICE_CALL_STATE_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

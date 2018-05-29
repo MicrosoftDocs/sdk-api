@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.Clone
 title: IXpsOMGeometryFigure::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomgeometryfigure_clone.htm
 old-project: printdocs
 ms.assetid: 97876b95-7b68-4c91-ab15-0708bad3876f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],Clone method, IXpsOMGeometryFigure.Clone, IXpsOMGeometryFigure::Clone, xps.ixpsomgeometryfigure_clone, xpsobjectmodel/IXpsOMGeometryFigure::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

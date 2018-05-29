@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdevlicensing.RemoveDeveloperLicense
 title: RemoveDeveloperLicense function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a developer license.
 old-location: devlic\removedeveloperlicense.htm
 old-project: devlic
 ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdevlicensing.h
 req.include-header: 

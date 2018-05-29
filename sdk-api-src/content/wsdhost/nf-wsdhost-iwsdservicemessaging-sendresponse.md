@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.SendResponse
 title: IWSDServiceMessaging::SendResponse
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a response message matching a given request context.
 old-location: ncd\iwsdservicemessaging_sendresponse.htm
 old-project: WsdApi
 ms.assetid: ec136c44-b8f5-42db-a965-2dd5b3cd18ad
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDServiceMessaging interface,SendResponse method, IWSDServiceMessaging.SendResponse, IWSDServiceMessaging::SendResponse, SendResponse, SendResponse method, SendResponse method,IWSDServiceMessaging interface, ncd.iwsdservicemessaging_sendresponse, wsdhost/IWSDServiceMessaging::SendResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

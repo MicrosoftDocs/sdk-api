@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.importPlaylist
 title: IWMPPlaylistCollection::importPlaylist
-author: windows-driver-content
+author: windows-sdk-content
 description: The importPlaylist method adds a static playlist to the library.
 old-location: wmp\iwmpplaylistcollection_importplaylist.htm
 old-project: WMP
 ms.assetid: 421a1bd3-65c1-4d8f-be75-918b1cfa06d2
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],importPlaylist method, IWMPPlaylistCollection.importPlaylist, IWMPPlaylistCollection::importPlaylist, IWMPPlaylistCollectionimportPlaylist, importPlaylist, importPlaylist method [Windows Media Player], importPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_importplaylist, wmp/IWMPPlaylistCollection::importPlaylist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

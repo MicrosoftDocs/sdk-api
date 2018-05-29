@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_ENUM_KEYID_PROP
 title: PFN_CRYPT_ENUM_KEYID_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPT_ENUM_KEYID_PROP callback function is used with the CryptEnumKeyIdentifierProperties function.
 old-location: security\crypt_enum_keyid_prop.htm
 old-project: SecCrypto
 ms.assetid: c4461b79-d216-4d4a-bd5d-9260ec897c14
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_ENUM_KEYID_PROP, CRYPT_ENUM_KEYID_PROP callback function [Security], PFN_CRYPT_ENUM_KEYID_PROP, PFN_CRYPT_ENUM_KEYID_PROP callback, security.crypt_enum_keyid_prop, wincrypt/CRYPT_ENUM_KEYID_PROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

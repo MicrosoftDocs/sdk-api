@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsSecurityUtility.SetSecurityDescriptor
 title: IADsSecurityUtility::SetSecurityDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the security descriptor for the specified file, file share, or registry key.
 old-location: adsi\iadssecurityutility_setsecuritydescriptor.htm
 old-project: ADSI
 ms.assetid: f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: File, File share, IADsSecurityUtility interface [ADSI],SetSecurityDescriptor method, IADsSecurityUtility.SetSecurityDescriptor, IADsSecurityUtility::SetSecurityDescriptor, Registry key, SetSecurityDescriptor, SetSecurityDescriptor method [ADSI], SetSecurityDescriptor method [ADSI],IADsSecurityUtility interface, _ds_iadssecurityutility_setsecuritydescriptor, adsi.iadssecurityutility__setsecuritydescriptor, adsi.iadssecurityutility_setsecuritydescriptor, iads/IADsSecurityUtility::SetSecurityDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

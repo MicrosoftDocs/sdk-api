@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_CurrentPage
 title: IFaxStatus::get_CurrentPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the CurrentPage property for the FaxStatus object of a parent FaxPort object. The CurrentPage property is a number that identifies the current page of an active outbound fax job on a specific port.
 old-location: fax\_mfax_ifaxstatus_get_currentpage_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kx1.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],CurrentPage property, FaxStatus.CurrentPage, IFaxStatus.get_CurrentPage, IFaxStatus::get_CurrentPage, _mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage_vb, get_CurrentPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleVector
 title: PropVariantToDoubleVector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a vector of doubles from a PROPVARIANT structure.
 old-location: properties\PropVariantToDoubleVector.htm
 old-project: properties
 ms.assetid: 2d90bf96-8a3f-4949-8480-bb75f0deeb2e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToDoubleVector, PropVariantToDoubleVector function [Windows Properties], _shell_PropVariantToDoubleVector, properties.PropVariantToDoubleVector, propvarutil/PropVariantToDoubleVector, shell.PropVariantToDoubleVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

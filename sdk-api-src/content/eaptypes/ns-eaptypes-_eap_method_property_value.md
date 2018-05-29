@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE
 title: "_EAP_METHOD_PROPERTY_VALUE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the value of an EAP method property.
 old-location: eaphost\eap_method_property_value.htm
 old-project: EAPHost
 ms.assetid: 298b59d3-245f-4a29-b8a1-2265d65d30e6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE, EAP_METHOD_PROPERTY_VALUE union [EAPHost], _EAP_METHOD_PROPERTY_VALUE, eaphost.eap_method_property_value, eaptypes/EAP_METHOD_PROPERTY_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

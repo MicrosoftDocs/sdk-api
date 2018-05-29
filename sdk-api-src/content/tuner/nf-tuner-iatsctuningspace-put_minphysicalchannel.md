@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.put_MinPhysicalChannel
 title: IATSCTuningSpace::put_MinPhysicalChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_MinPhysicalChannel method sets the lowest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_put_minphysicalchannel.htm
 old-project: mstv
 ms.assetid: 57192470-8013-4812-af95-cb6ce92bea83
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MinPhysicalChannel method, IATSCTuningSpace.put_MinPhysicalChannel, IATSCTuningSpace::put_MinPhysicalChannel, IATSCTuningSpaceput_MinPhysicalChannel, mstv.iatsctuningspace_put_minphysicalchannel, put_MinPhysicalChannel, put_MinPhysicalChannel method [Microsoft TV Technologies], put_MinPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MinPhysicalChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

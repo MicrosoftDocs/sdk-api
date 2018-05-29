@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXW
 title: tagENUMLOGFONTEXW
-author: windows-driver-content
+author: windows-sdk-content
 description: The ENUMLOGFONTEX structure contains information about an enumerated font.
 old-location: gdi\enumlogfontex.htm
 old-project: gdi
 ms.assetid: 2e848e47-5b5f-46ad-9963-55d6bb6748a9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPENUMLOGFONTEXW, ENUMLOGFONTEX, ENUMLOGFONTEX structure [Windows GDI], ENUMLOGFONTEXA, ENUMLOGFONTEXW, LPENUMLOGFONTEX, LPENUMLOGFONTEX structure pointer [Windows GDI], _win32_ENUMLOGFONTEX_str, gdi.enumlogfontex, tagENUMLOGFONTEXW, wingdi/ENUMLOGFONTEX, wingdi/ENUMLOGFONTEXA, wingdi/ENUMLOGFONTEXW, wingdi/LPENUMLOGFONTEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

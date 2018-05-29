@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.IsValueCanonical
 title: IPropertyDescription::IsValueCanonical
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether a property is canonical according to the definition of the property description.
 old-location: properties\IPropertyDescription_IsValueCanonical.htm
 old-project: properties
 ms.assetid: e0eedb58-82ed-4481-8319-633ddf20949c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyDescription interface [Windows Properties],IsValueCanonical method, IPropertyDescription.IsValueCanonical, IPropertyDescription::IsValueCanonical, IsValueCanonical, IsValueCanonical method [Windows Properties], IsValueCanonical method [Windows Properties],IPropertyDescription interface, properties.IPropertyDescription_IsValueCanonical, propsys/IPropertyDescription::IsValueCanonical, shell.IPropertyDescription_IsValueCanonical, shell_IPropertyDescription_IsValueCanonical
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BufferSize
 title: ITraceDataCollector::get_BufferSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session.
 old-location: pla\itracedatacollector_buffersize.htm
 old-project: PLA
 ms.assetid: 2a735f9e-964a-4949-8660-fe3b40ce711e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: BufferSize property [PLA], BufferSize property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BufferSize property, ITraceDataCollector.BufferSize, ITraceDataCollector.get_BufferSize, ITraceDataCollector::BufferSize, ITraceDataCollector::get_BufferSize, ITraceDataCollector::put_BufferSize, base.itracedatacollector_buffersize, get_BufferSize, pla.itracedatacollector_buffersize, pla/ITraceDataCollector::BufferSize, pla/ITraceDataCollector::get_BufferSize, pla/ITraceDataCollector::put_BufferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

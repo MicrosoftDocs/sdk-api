@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecInfoCount
 title: IWMCodecInfo::GetCodecInfoCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCodecInfoCount method retrieves the number of supported codecs for a specified major type of digital media (audio or video).
 old-location: wmformat\iwmcodecinfo_getcodecinfocount.htm
 old-project: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCodecInfoCount, GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecInfoCount method, IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

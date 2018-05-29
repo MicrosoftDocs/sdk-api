@@ -1,16 +1,16 @@
 ---
 UID: NL:mspaddr.CMSPAddress
 title: CMSPAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: The CMSPAddress class implements the MSP address object and supports the ITMSPAddress interface. This class is defined in MSPaddr.h. The following documents the class.
 old-location: tapi3\cmspaddress.htm
 old-project: Tapi
 ms.assetid: 864bf814-43dd-4d2b-a5a7-fff12520accb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPAddress, CMSPAddress object [TAPI 2.2], CMSPAddress object [TAPI 2.2],described, _tapi3_cmspaddress, mspaddr/CMSPAddress, tapi3.cmspaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: mspaddr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetFieldCount
 title: SetupGetFieldCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetFieldCount function retrieves the number of fields in the specified line in an INF file.
 old-location: setup\setupgetfieldcount.htm
 old-project: SetupApi
 ms.assetid: 7353d52c-7553-4f50-beab-7fcc4db1fe40
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetFieldCount, SetupGetFieldCount function [Setup API], _setupapi_setupgetfieldcount, setup.setupgetfieldcount, setupapi/SetupGetFieldCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

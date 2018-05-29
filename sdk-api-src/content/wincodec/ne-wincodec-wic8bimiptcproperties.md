@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WIC8BIMIptcProperties
 title: WIC8BIMIptcProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the identifiers of the metadata items in an 8BIM IPTC block.
 old-location: wic\_wic_codec_wic8bimiptcproperties.htm
 old-project: wic
 ms.assetid: c752790c-6392-4406-b006-8f5da9f4e23d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WIC8BIMEmbeddedIPTC, WIC8BIMIptcPString, WIC8BIMIptcProperties, WIC8BIMIptcProperties enumeration [Windows Imaging Component], _wic_codec_wic8bimiptcproperties, wic._wic_codec_wic8bimiptcproperties, wincodec/WIC8BIMEmbeddedIPTC, wincodec/WIC8BIMIptcPString, wincodec/WIC8BIMIptcProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

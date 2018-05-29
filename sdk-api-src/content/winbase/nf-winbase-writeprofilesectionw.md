@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WriteProfileSectionW
 title: WriteProfileSectionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces the contents of the specified section in the Win.ini file with specified keys and values.
 old-location: base\writeprofilesection.htm
 old-project: SysInfo
 ms.assetid: f712a7b4-d945-499c-b003-22204bc590d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WriteProfileSection, WriteProfileSection function, WriteProfileSectionA, WriteProfileSectionW, _win32_writeprofilesection, base.writeprofilesection, winbase/WriteProfileSection, winbase/WriteProfileSectionA, winbase/WriteProfileSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:networkisolation.NetworkIsolationSetAppContainerConfig
 title: NetworkIsolationSetAppContainerConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to set the configuration of one or more app containers.
 old-location: ics\networkisolationsetappcontainerconfig.htm
 old-project: ICS
 ms.assetid: 88f97650-1896-43f9-acfa-f8411ded5cb8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NetworkIsolationSetAppContainerConfig, NetworkIsolationSetAppContainerConfig function [ICS/ICF], ics.networkisolationsetappcontainerconfig, networkisolation/NetworkIsolationSetAppContainerConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: networkisolation.h
 req.include-header: Netfw.h

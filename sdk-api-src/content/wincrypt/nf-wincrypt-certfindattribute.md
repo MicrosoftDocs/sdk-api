@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertFindAttribute
 title: CertFindAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertFindAttribute function finds the first attribute in the CRYPT_ATTRIBUTE array, as identified by its object identifier (OID).
 old-location: security\certfindattribute.htm
 old-project: SecCrypto
 ms.assetid: 99d690fb-ea85-4cb1-9fb0-bdb02e4ac50a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertFindAttribute, CertFindAttribute function [Security], _crypto2_certfindattribute, security.certfindattribute, wincrypt/CertFindAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

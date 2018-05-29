@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtSeek
 title: EvtSeek function
-author: windows-driver-content
+author: windows-sdk-content
 description: Seeks to a specific event in a query result set.
 old-location: wes\evtseek.htm
 old-project: WES
 ms.assetid: 62cf5039-f7c5-4f16-b7e3-dcc8907e6b7c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtSeek, EvtSeek function [EventLog], wes.evtseek, winevt/EvtSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

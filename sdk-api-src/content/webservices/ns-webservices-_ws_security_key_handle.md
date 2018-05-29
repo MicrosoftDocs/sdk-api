@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_KEY_HANDLE
 title: "_WS_SECURITY_KEY_HANDLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The abstract base type for all types that specify a cryptographic key. Such a key is typically specified for a generic XML security token or a custom security token.
 old-location: wsw\ws_security_key_handle.htm
 old-project: wsw
 ms.assetid: 89e90c32-edf7-47f4-9126-4c3539d9fbc1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_KEY_HANDLE, WS_SECURITY_KEY_HANDLE structure [Web Services for Windows], _WS_SECURITY_KEY_HANDLE, webservices/WS_SECURITY_KEY_HANDLE, wsw.ws_security_key_handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

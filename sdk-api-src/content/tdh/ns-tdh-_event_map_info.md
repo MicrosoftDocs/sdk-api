@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._EVENT_MAP_INFO
 title: "_EVENT_MAP_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the metadata about the event map.
 old-location: etw\event_map_info_struct.htm
 old-project: ETW
 ms.assetid: dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_MAP_INFO, EVENT_MAP_INFO, EVENT_MAP_INFO structure [ETW], _EVENT_MAP_INFO, etw.event_map_info_struct, tdh.event_map_info_struct, tdh/EVENT_MAP_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

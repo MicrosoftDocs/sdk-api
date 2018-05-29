@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.IsSameOrigin
 title: IMFNetCrossOriginSupport::IsSameOrigin
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns true when the specified URL has the same origin as the HTML5 media element.
 old-location: mf\imfnetcrossoriginsupport_issameorigin.htm
 old-project: medfound
 ms.assetid: E19294E1-92F5-4387-8C9E-FC0F9F9E46E3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFNetCrossOriginSupport interface [Media Foundation],IsSameOrigin method, IMFNetCrossOriginSupport.IsSameOrigin, IMFNetCrossOriginSupport::IsSameOrigin, IsSameOrigin, IsSameOrigin method [Media Foundation], IsSameOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, mf.imfnetcrossoriginsupport_issameorigin, mfidl/IMFNetCrossOriginSupport::IsSameOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

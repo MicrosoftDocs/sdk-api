@@ -1,16 +1,16 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSink
 title: IMFCaptureSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls a capture sink, which is an object that receives one or more streams from a capture device.
 old-location: mf\imfcapturesink.htm
 old-project: medfound
 ms.assetid: FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], IMFCaptureSink interface [Media Foundation],described, mf.imfcapturesink, mfcaptureengine/IMFCaptureSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

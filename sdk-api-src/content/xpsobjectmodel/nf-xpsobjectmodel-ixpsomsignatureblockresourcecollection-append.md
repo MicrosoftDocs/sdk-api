@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.Append
 title: IXpsOMSignatureBlockResourceCollection::Append
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends an IXpsOMSignatureBlockResource interface to the end of the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_append.htm
 old-project: printdocs
 ms.assetid: 4643df46-aa6f-4ffb-90f1-8834e16b4321
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMSignatureBlockResourceCollection.Append, IXpsOMSignatureBlockResourceCollection::Append, xps.ixpsomsignatureblockresourcecollection_append, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

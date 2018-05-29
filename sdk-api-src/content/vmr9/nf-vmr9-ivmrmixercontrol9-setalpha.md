@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetAlpha
 title: IVMRMixerControl9::SetAlpha
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAlpha method sets a constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol9_setalpha.htm
 old-project: DirectShow
 ms.assetid: c746d473-bfa4-403c-8775-3f7270836a73
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetAlpha method, IVMRMixerControl9.SetAlpha, IVMRMixerControl9::SetAlpha, IVMRMixerControl9SetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setalpha, vmr9/IVMRMixerControl9::SetAlpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

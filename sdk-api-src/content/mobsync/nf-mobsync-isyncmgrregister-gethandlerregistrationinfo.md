@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.GetHandlerRegistrationInfo
 title: ISyncMgrRegister::GetHandlerRegistrationInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the registered application's handler to get current registration information.
 old-location: shell\syncmgr_isyncmgrregister_gethandlerregistrationinfo.htm
 old-project: shell
 ms.assetid: 35241829-58b8-448a-ae69-1d43b4d0ba10
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetHandlerRegistrationInfo, GetHandlerRegistrationInfo method [Windows Shell], GetHandlerRegistrationInfo method [Windows Shell],ISyncMgrRegister interface, ISyncMgrRegister interface [Windows Shell],GetHandlerRegistrationInfo method, ISyncMgrRegister.GetHandlerRegistrationInfo, ISyncMgrRegister::GetHandlerRegistrationInfo, mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo, shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo, syncmgr.isyncmgrregister_gethandlerregistrationinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

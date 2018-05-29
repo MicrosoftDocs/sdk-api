@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DocumentName
 title: IFaxStatus::get_DocumentName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the DocumentName property for the FaxStatus object of a parent FaxPort object. The DocumentName property is a null-terminated string that contains the user-friendly name associated with an active fax document.
 old-location: fax\_mfax_ifaxstatus_get_documentname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jvp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DocumentName property, FaxStatus.DocumentName, IFaxStatus.get_DocumentName, IFaxStatus::get_DocumentName, _mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_get_documentname_vb, get_DocumentName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

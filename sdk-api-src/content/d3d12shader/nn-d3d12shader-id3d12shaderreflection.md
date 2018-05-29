@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflection
 title: ID3D12ShaderReflection
-author: windows-driver-content
+author: windows-sdk-content
 description: A shader-reflection interface accesses shader information.
 old-location: direct3d12\id3d12shaderreflection.htm
 old-project: direct3d12
 ms.assetid: 145F2CCB-C076-42BE-8AF4-74349CDF6B02
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12ShaderReflection, ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,described, d3d12shader/ID3D12ShaderReflection, direct3d12.id3d12shaderreflection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 

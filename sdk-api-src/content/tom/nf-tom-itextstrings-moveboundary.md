@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.MoveBoundary
 title: ITextStrings::MoveBoundary
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the start boundary of a string, by index, for a selected number of characters.
 old-location: controls\itextstrings_moveboundary.htm
 old-project: Controls
 ms.assetid: db0eff33-f20a-481e-bcae-8a72674ab906
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStrings interface [Windows Controls],MoveBoundary method, ITextStrings.MoveBoundary, ITextStrings::MoveBoundary, MoveBoundary, MoveBoundary method [Windows Controls], MoveBoundary method [Windows Controls],ITextStrings interface, controls.itextstrings_moveboundary, tom/ITextStrings::MoveBoundary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

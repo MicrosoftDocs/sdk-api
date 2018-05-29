@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Reset
 title: IEnumFullIDList::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the enumerator to the beginning of the enumeration sequence.
 old-location: shell\IEnumFullIDList_Reset.htm
 old-project: shell
 ms.assetid: 9682cfc4-544b-43bd-bd57-edbce50dce75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Reset method, IEnumFullIDList.Reset, IEnumFullIDList::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Reset, shell.IEnumFullIDList_Reset, shobjidl_core/IEnumFullIDList::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

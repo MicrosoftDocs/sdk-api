@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Clone
 title: GraphicsPath::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The GraphicsPath::Clone method creates a new GraphicsPath object, and initializes it with the contents of this GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\clone_97.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],Clone method, GraphicsPath.Clone, GraphicsPath::Clone, _gdiplus_CLASS_GraphicsPath_Clone_, gdiplus._gdiplus_CLASS_GraphicsPath_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

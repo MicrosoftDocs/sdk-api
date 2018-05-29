@@ -1,16 +1,16 @@
 ---
 UID: NF:compressapi.SetDecompressorInformation
 title: SetDecompressorInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information in a decompressor for a particular compression algorithm.
 old-location: cmpapi\setdecompressorinformation.htm
 old-project: cmpapi
 ms.assetid: 804B73D3-E68E-43A3-8F23-6A46ABDECB23
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: SetDecompressorInformation, SetDecompressorInformation function [Compression API], cmpapi.setdecompressorinformation, compressapi/SetDecompressorInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

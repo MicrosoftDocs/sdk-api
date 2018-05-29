@@ -1,16 +1,16 @@
 ---
 UID: NS:dinputd.DIJOYUSERVALUES
 title: DIJOYUSERVALUES
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIJOYUSERVALUES structure contains information about the user's joystick settings.
 old-location: hid\dijoyuservalues.htm
 old-project: hid
 ms.assetid: 15424c18-c9ae-4058-97b4-f55b56daea72
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPDIJOYUSERVALUES, DIJOYUSERVALUES, DIJOYUSERVALUES structure [Human Input Devices], di_ref_bbcc635e-bb11-4ddb-9e15-0b84b4d28ea5.xml, dinputd/DIJOYUSERVALUES, hid.dijoyuservalues"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMOpenProgress.QueryProgress
 title: IAMOpenProgress::QueryProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryProgress method retrieves the progress of the file-open operation.
 old-location: dshow\iamopenprogress_queryprogress.htm
 old-project: DirectShow
 ms.assetid: 8471271d-36cc-4660-8a4e-4c234ba6b406
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMOpenProgress interface [DirectShow],QueryProgress method, IAMOpenProgress.QueryProgress, IAMOpenProgress::QueryProgress, IAMOpenProgressQueryProgress, QueryProgress, QueryProgress method [DirectShow], QueryProgress method [DirectShow],IAMOpenProgress interface, dshow.iamopenprogress_queryprogress, strmif/IAMOpenProgress::QueryProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

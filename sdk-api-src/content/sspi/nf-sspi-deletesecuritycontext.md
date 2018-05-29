@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.DeleteSecurityContext
 title: DeleteSecurityContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the local data structures associated with the specified security context initiated by a previous call to the InitializeSecurityContext (General) function or the AcceptSecurityContext (General) function.
 old-location: security\deletesecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 2a4dd697-ef90-4c37-ab74-0e5ab92794cd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _ssp_deletesecuritycontext, security.deletesecuritycontext, sspi/DeleteSecurityContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

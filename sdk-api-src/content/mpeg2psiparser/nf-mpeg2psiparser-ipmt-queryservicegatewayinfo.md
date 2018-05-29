@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.QueryServiceGatewayInfo
 title: IPMT::QueryServiceGatewayInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryServiceGatewayInfo method returns the DSM-CC service gateway information in the PMT, if any.
 old-location: mstv\ipmt_queryservicegatewayinfo.htm
 old-project: mstv
 ms.assetid: fead4140-5585-44eb-9d1f-7a686b79ac26
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryServiceGatewayInfo method, IPMT.QueryServiceGatewayInfo, IPMT::QueryServiceGatewayInfo, IPMTQueryServiceGatewayInfo, QueryServiceGatewayInfo, QueryServiceGatewayInfo method [Microsoft TV Technologies], QueryServiceGatewayInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryServiceGatewayInfo, mstv.ipmt_queryservicegatewayinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

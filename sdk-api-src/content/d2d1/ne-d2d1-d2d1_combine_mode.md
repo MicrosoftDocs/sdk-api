@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1.D2D1_COMBINE_MODE
 title: D2D1_COMBINE_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the different methods by which two geometries can be combined.
 old-location: direct2d\D2D1_COMBINE_MODE.htm
 old-project: Direct2D
 ms.assetid: 7526379a-5f57-4a9f-b85d-415f131528e2
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_COMBINE_MODE, D2D1_COMBINE_MODE enumeration [Direct2D], D2D1_COMBINE_MODE_EXCLUDE, D2D1_COMBINE_MODE_INTERSECT, D2D1_COMBINE_MODE_UNION, D2D1_COMBINE_MODE_XOR, d2d1/D2D1_COMBINE_MODE, d2d1/D2D1_COMBINE_MODE_EXCLUDE, d2d1/D2D1_COMBINE_MODE_INTERSECT, d2d1/D2D1_COMBINE_MODE_UNION, d2d1/D2D1_COMBINE_MODE_XOR, direct2d.D2D1_COMBINE_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:bits5_0.IBackgroundCopyFile5
 title: IBackgroundCopyFile5
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to get or set generic properties of BITS file transfers.
 old-location: bits\ibackgroundcopyfile5.htm
 old-project: Bits
 ms.assetid: 548b507a-4874-4ccf-829e-13e1ca6cc958
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], IBackgroundCopyFile5 interface [BITS],described, bits.ibackgroundcopyfile5, bits5_0/IBackgroundCopyFile5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits5_0.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.GetStreamActiveState
 title: IVMRVideoStreamControl::GetStreamActiveState
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStreamActiveState method retrieves the state of the stream.
 old-location: dshow\ivmrvideostreamcontrol_getstreamactivestate.htm
 old-project: DirectShow
 ms.assetid: 619ba669-c2a0-46fe-9c12-52105b107351
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetStreamActiveState, GetStreamActiveState method [DirectShow], GetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, IVMRVideoStreamControl interface [DirectShow],GetStreamActiveState method, IVMRVideoStreamControl.GetStreamActiveState, IVMRVideoStreamControl::GetStreamActiveState, IVMRVideoStreamControlGetStreamActiveState, dshow.ivmrvideostreamcontrol_getstreamactivestate, strmif/IVMRVideoStreamControl::GetStreamActiveState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

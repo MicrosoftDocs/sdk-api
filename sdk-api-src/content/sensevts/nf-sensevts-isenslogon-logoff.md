@@ -1,16 +1,16 @@
 ---
 UID: NF:sensevts.ISensLogon.Logoff
 title: ISensLogon::Logoff
-author: windows-driver-content
+author: windows-sdk-content
 description: The Logoff method notifies an application that a user is logged off.
 old-location: sens\isenslogon_logoff.htm
 old-project: Sens
 ms.assetid: b45658a1-d427-42b2-912c-5e5c36dab280
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensLogon interface [SENS],Logoff method, ISensLogon.Logoff, ISensLogon::Logoff, Logoff, Logoff method [SENS], Logoff method [SENS],ISensLogon interface, _zaw_isenslogon_logoff, sens.isenslogon_logoff, sensevts/ISensLogon::Logoff, syncmgr.isenslogon_logoff
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

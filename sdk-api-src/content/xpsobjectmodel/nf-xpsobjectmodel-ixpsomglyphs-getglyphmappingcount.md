@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphMappingCount
 title: IXpsOMGlyphs::GetGlyphMappingCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of glyph mappings.
 old-location: xps\ixpsomglyphs_getglyphmappingcount.htm
 old-project: printdocs
 ms.assetid: 6c580aaf-72ed-4eff-b26e-8438d64f29e2
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphs.GetGlyphMappingCount, IXpsOMGlyphs::GetGlyphMappingCount, xps.ixpsomglyphs_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphMappingCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

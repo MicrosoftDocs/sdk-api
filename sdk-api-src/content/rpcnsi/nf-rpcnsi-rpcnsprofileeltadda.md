@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltAddA
 title: RpcNsProfileEltAddA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry.
 old-location: rpc\rpcnsprofileeltadd.htm
 old-project: Rpc
 ms.assetid: e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsProfileEltAdd, RpcNsProfileEltAdd function [RPC], RpcNsProfileEltAddA, RpcNsProfileEltAddW, _rpc_rpcnsprofileeltadd, rpc.rpcnsprofileeltadd, rpcnsi/RpcNsProfileEltAdd, rpcnsi/RpcNsProfileEltAddA, rpcnsi/RpcNsProfileEltAddW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

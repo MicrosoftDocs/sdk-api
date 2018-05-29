@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget
 title: IReferenceTrackerTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an interface implemented by a garbage collector object referenced from XAML.
 old-location: winrt\ireferencetrackertarget.htm
 old-project: WinRT
 ms.assetid: 204c647d-65c0-4b0e-b0fa-1abe9e8fdedd
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IReferenceTrackerTarget, IReferenceTrackerTarget interface [Windows Runtime], IReferenceTrackerTarget interface [Windows Runtime],described, windows/IReferenceTrackerTarget, winrt.ireferencetrackertarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

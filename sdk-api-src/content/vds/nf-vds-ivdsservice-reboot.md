@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsService.Reboot
 title: IVdsService::Reboot
-author: windows-driver-content
+author: windows-sdk-content
 description: Restarts the computer hosting the provider.
 old-location: base\ivdsservice_reboot.htm
 old-project: VDS
 ms.assetid: c22be0a5-d7ed-4f76-961d-2455ca99f220
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsService interface [VDS],Reboot method, IVdsService.Reboot, IVdsService::Reboot, Reboot, Reboot method [VDS], Reboot method [VDS],IVdsService interface, base.ivdsservice_reboot, vds/IVdsService::Reboot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

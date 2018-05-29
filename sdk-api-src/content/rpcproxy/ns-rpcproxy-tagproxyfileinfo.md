@@ -1,16 +1,16 @@
 ---
 UID: NS:rpcproxy.tagProxyFileInfo
 title: tagProxyFileInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The ProxyFileInfo structure contains information about the interface proxies in the proxy DLL.
 old-location: rpc\proxyfileinfo.htm
 old-project: Rpc
 ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC], rpc.proxyfileinfo, rpcproxy/ProxyFileInfo, tagProxyFileInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcproxy.h
 req.include-header: 

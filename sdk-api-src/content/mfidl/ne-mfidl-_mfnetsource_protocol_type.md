@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_PROTOCOL_TYPE
 title: "_MFNETSOURCE_PROTOCOL_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the type of control protocol that is used in streaming or downloading.
 old-location: mf\mfnetsource_protocol_type.htm
 old-project: medfound
 ms.assetid: dd628b9e-3c52-4c14-aa0f-5e0b811d3f57
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFNETSOURCE_FILE, MFNETSOURCE_HTTP, MFNETSOURCE_MULTICAST, MFNETSOURCE_PROTOCOL_TYPE, MFNETSOURCE_PROTOCOL_TYPE enumeration [Media Foundation], MFNETSOURCE_RTSP, MFNETSOURCE_UNDEFINED, _MFNETSOURCE_PROTOCOL_TYPE, dd628b9e-3c52-4c14-aa0f-5e0b811d3f57, mf.mfnetsource_protocol_type, mfidl/MFNETSOURCE_FILE, mfidl/MFNETSOURCE_HTTP, mfidl/MFNETSOURCE_MULTICAST, mfidl/MFNETSOURCE_PROTOCOL_TYPE, mfidl/MFNETSOURCE_RTSP, mfidl/MFNETSOURCE_UNDEFINED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

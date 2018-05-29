@@ -1,16 +1,16 @@
 ---
 UID: NS:nb30._SESSION_HEADER
 title: "_SESSION_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SESSION_HEADER structure contains information about a network session.
 old-location: netbios\session_header.htm
 old-project: NetBIOS
 ms.assetid: 0b466bc7-6d20-477f-9e64-1d3dc0744484
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.author: windowssdkdev
+ms.date: 05/02/2018
 ms.keywords: "*PSESSION_HEADER, PSESSION_HEADER, PSESSION_HEADER structure pointer [NetBIOS], SESSION_HEADER, SESSION_HEADER structure [NetBIOS], _SESSION_HEADER, nb30/PSESSION_HEADER, nb30/SESSION_HEADER, netbios.session_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

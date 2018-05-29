@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetTransform
 title: SetTransform function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Transform property of this visual. The Transform property specifies a 3D transform used to modify the coordinate system of this visual. The property can specify either a 4-by-4 transform matrix or a transform object.
 old-location: directcomp\idcompositionvisual3_settransform_overloaded.htm
 old-project: directcomp
 ms.assetid: a59498c2-8659-dd35-8dc2-87457f493965
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionVisual3::SetTransform, SetTransform, SetTransform methods [DirectComposition], dcomp/SetTransform, directcomp.idcompositionvisual3_settransform_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

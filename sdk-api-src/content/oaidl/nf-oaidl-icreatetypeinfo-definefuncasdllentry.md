@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.DefineFuncAsDllEntry
 title: ICreateTypeInfo::DefineFuncAsDllEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a DLL entry point with the function that has the specified index.
 old-location: automat\icreatetypeinfo_definefuncasdllentry.htm
 old-project: automat
 ms.assetid: 47ec09af-0642-4645-b946-acabbb7c028a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: DefineFuncAsDllEntry, DefineFuncAsDllEntry method [Automation], DefineFuncAsDllEntry method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],DefineFuncAsDllEntry method, ICreateTypeInfo.DefineFuncAsDllEntry, ICreateTypeInfo::DefineFuncAsDllEntry, _oa96_ICreateTypeInfo_DefineFuncAsDllEntry, automat.icreatetypeinfo_definefuncasdllentry, oaidl/ICreateTypeInfo::DefineFuncAsDllEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

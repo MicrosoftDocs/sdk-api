@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumChildItems
 title: IWiaItem::EnumChildItems
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaItem::EnumChildItems method creates an enumerator object and passes back a pointer to its IEnumWiaItem interface for non-empty folders in a IWiaItem tree of a Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaItem_EnumChildItems.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumchilditems.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: EnumChildItems, EnumChildItems method [WIA], EnumChildItems method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumChildItems method, IWiaItem.EnumChildItems, IWiaItem::EnumChildItems, _wia_IWiaItem_EnumChildItems, wia._wia_IWiaItem_EnumChildItems, wia_xp/IWiaItem::EnumChildItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:werapi._WER_EXCEPTION_INFORMATION
 title: "_WER_EXCEPTION_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains exception information for the WerReportAddDump function.
 old-location: wer\wer_exception_information.htm
 old-project: wer
 ms.assetid: 4548068a-e654-40c9-9654-c5178575b42c
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: "*PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_EXCEPTION_INFORMATION, WER_EXCEPTION_INFORMATION structure [Windows Error Reporting], _WER_EXCEPTION_INFORMATION, base.wer_exception_information, wer.wer_exception_information, werapi/PWER_EXCEPTION_INFORMATION, werapi/WER_EXCEPTION_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 

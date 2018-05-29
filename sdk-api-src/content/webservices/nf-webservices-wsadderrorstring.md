@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAddErrorString
 title: WsAddErrorString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a specified error string to the error object.
 old-location: wsw\wsadderrorstring.htm
 old-project: wsw
 ms.assetid: 5fdad296-5024-4360-b1c5-f0192929c612
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAddErrorString, WsAddErrorString function [Web Services for Windows], webservices/WsAddErrorString, wsw.wsadderrorstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

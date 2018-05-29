@@ -1,16 +1,16 @@
 ---
 UID: NE:sessdirpublictypes._RDV_TASK_STATUS
 title: "_RDV_TASK_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the IRDVTaskPluginNotifySink::OnTaskStateChange method to indicate the status of a task.
 old-location: termserv\rdv_task_status.htm
 old-project: TermServ
 ms.assetid: 69278A29-9100-4855-B5B3-C790563B8B72
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RDV_TASK_STATUS, RDV_TASK_STATUS enumeration [Remote Desktop Services], RDV_TASK_STATUS_APPLYING, RDV_TASK_STATUS_DOWNLOADING, RDV_TASK_STATUS_FAILED, RDV_TASK_STATUS_REBOOTED, RDV_TASK_STATUS_REBOOTING, RDV_TASK_STATUS_SEARCHING, RDV_TASK_STATUS_SUCCESS, RDV_TASK_STATUS_TIMEOUT, RDV_TASK_STATUS_UNKNOWN, _RDV_TASK_STATUS, sessdirpublictypes/RDV_TASK_STATUS, sessdirpublictypes/RDV_TASK_STATUS_APPLYING, sessdirpublictypes/RDV_TASK_STATUS_DOWNLOADING, sessdirpublictypes/RDV_TASK_STATUS_FAILED, sessdirpublictypes/RDV_TASK_STATUS_REBOOTED, sessdirpublictypes/RDV_TASK_STATUS_REBOOTING, sessdirpublictypes/RDV_TASK_STATUS_SEARCHING, sessdirpublictypes/RDV_TASK_STATUS_SUCCESS, sessdirpublictypes/RDV_TASK_STATUS_TIMEOUT, sessdirpublictypes/RDV_TASK_STATUS_UNKNOWN, termserv.rdv_task_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 

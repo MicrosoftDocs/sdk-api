@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxmldom._WSDXML_NAMESPACE
 title: "_WSDXML_NAMESPACE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an XML namespace.
 old-location: ncd\wsdxml_namespace_struct.htm
 old-project: WsdApi
 ms.assetid: dcf27f38-e628-4b0c-859c-ad12d3ed0924
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXML_NAMESPACE, WSDXML_NAMESPACE structure, _WSDXML_NAMESPACE, ncd.wsdxml_namespace_struct, wsdxmldom/WSDXML_NAMESPACE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

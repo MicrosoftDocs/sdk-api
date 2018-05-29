@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrToIntExW
 title: StrToIntExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string representing a decimal or hexadecimal number to an integer.
 old-location: shell\StrToIntEx.htm
 old-project: shell
 ms.assetid: 2e8286c7-585f-441b-904b-f3b4e8cf95f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: STIF_DEFAULT, STIF_SUPPORT_HEX, StrToIntEx, StrToIntEx function [Windows Shell], StrToIntExA, StrToIntExW, _win32_StrToIntEx, shell.StrToIntEx, shlwapi/StrToIntEx, shlwapi/StrToIntExA, shlwapi/StrToIntExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

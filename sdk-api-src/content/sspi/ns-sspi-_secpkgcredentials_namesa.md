@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgCredentials_NamesA
 title: "_SecPkgCredentials_NamesA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_names.htm
 old-project: SecAuthN
 ms.assetid: 38123a10-72a4-46eb-974b-3c01142dfc74
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgCredentials_NamesA, PSecPkgCredentials_Names, PSecPkgCredentials_Names structure pointer [Security], SecPkgCredentials_Names, SecPkgCredentials_Names structure [Security], SecPkgCredentials_NamesA, SecPkgCredentials_NamesW, _SecPkgCredentials_NamesA, _ssp_secpkgcredentials_names, security.secpkgcredentials_names, sspi/PSecPkgCredentials_Names, sspi/SecPkgCredentials_Names, sspi/SecPkgCredentials_NamesA, sspi/SecPkgCredentials_NamesW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

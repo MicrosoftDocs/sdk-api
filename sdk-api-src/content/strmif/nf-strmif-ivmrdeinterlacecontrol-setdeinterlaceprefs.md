@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.SetDeinterlacePrefs
 title: IVMRDeinterlaceControl::SetDeinterlacePrefs
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
 old-location: dshow\ivmrdeinterlacecontrol_setdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 5a78b8cc-ecf8-4e0a-87f0-56b7aac6abdd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRDeinterlaceControl interface [DirectShow],SetDeinterlacePrefs method, IVMRDeinterlaceControl.SetDeinterlacePrefs, IVMRDeinterlaceControl::SetDeinterlacePrefs, IVMRDeinterlaceControlSetDeinterlacePrefs, SetDeinterlacePrefs, SetDeinterlacePrefs method [DirectShow], SetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl interface, dshow.ivmrdeinterlacecontrol_setdeinterlaceprefs, strmif/IVMRDeinterlaceControl::SetDeinterlacePrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

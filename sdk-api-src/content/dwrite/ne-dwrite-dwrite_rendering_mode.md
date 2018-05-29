@@ -1,17 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_RENDERING_MODE
 title: DWRITE_RENDERING_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a method of rendering glyphs.
 old-location: directwrite\dwrite_rendering_mode.htm
 old-project: DirectWrite
 ms.assetid: c6b2c15a-be22-49ce-affd-1369e23f4d6b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_RENDERING_MODE, DWRITE_RENDERING_MODE (Windows 8 and later)
     , DWRITE_RENDERING_MODE enumeration [Direct Write], DWRITE_RENDERING_MODE_ALIASED, DWRITE_RENDERING_MODE_DEFAULT, DWRITE_RENDERING_MODE_GDI_CLASSIC, DWRITE_RENDERING_MODE_GDI_NATURAL, DWRITE_RENDERING_MODE_NATURAL, DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE_OUTLINE, directwrite.dwrite_rendering_mode, dwrite/DWRITE_RENDERING_MODE, dwrite/DWRITE_RENDERING_MODE_ALIASED, dwrite/DWRITE_RENDERING_MODE_DEFAULT, dwrite/DWRITE_RENDERING_MODE_GDI_CLASSIC, dwrite/DWRITE_RENDERING_MODE_GDI_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, dwrite/DWRITE_RENDERING_MODE_OUTLINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

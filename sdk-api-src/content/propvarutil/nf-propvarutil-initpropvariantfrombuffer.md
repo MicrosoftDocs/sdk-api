@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBuffer
 title: InitPropVariantFromBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure using the contents of a buffer.
 old-location: properties\InitPropVariantFromBuffer.htm
 old-project: properties
 ms.assetid: a6780070-d8de-40f9-8163-e5306e2aa1cc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromBuffer, InitPropVariantFromBuffer function [Windows Properties], properties.InitPropVariantFromBuffer, propvarutil/InitPropVariantFromBuffer, shell.InitPropVariantFromBuffer, shell_InitPropVariantFromBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

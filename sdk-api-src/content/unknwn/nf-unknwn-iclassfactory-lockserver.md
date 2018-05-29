@@ -1,16 +1,16 @@
 ---
 UID: NF:unknwn.IClassFactory.LockServer
 title: IClassFactory::LockServer
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks an object application open in memory. This enables instances to be created more quickly.
 old-location: com\iclassfactory_lockserver.htm
 old-project: com
 ms.assetid: 4c817b89-013d-477f-a713-5e320896dfa0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.LockServer, IClassFactory::LockServer, LockServer, LockServer method [COM], LockServer method [COM],IClassFactory interface, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: unknwn.h
 req.include-header: Unknwn.h

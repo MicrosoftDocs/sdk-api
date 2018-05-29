@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVISaveOptionsFree
 title: AVISaveOptionsFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVISaveOptionsFree function frees the resources allocated by the AVISaveOptions function.
 old-location: multimedia\avisaveoptionsfree.htm
 old-project: Multimedia
 ms.assetid: c88a786f-d008-4eb6-af3d-59a0f62ac09d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVISaveOptionsFree, AVISaveOptionsFree function [Windows Multimedia], _win32_AVISaveOptionsFree, multimedia.avisaveoptionsfree, vfw/AVISaveOptionsFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

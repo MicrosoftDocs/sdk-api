@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcOpenSubscriptionEnum
 title: EcOpenSubscriptionEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a subscription enumerator to enumerate all registered subscriptions on the local machine.
 old-location: wec\ecopensubscriptionenum.htm
 old-project: WEC
 ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

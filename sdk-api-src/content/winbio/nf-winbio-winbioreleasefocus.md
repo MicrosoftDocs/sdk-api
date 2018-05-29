@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioReleaseFocus
 title: WinBioReleaseFocus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases window focus.
 old-location: secbiomet\winbioreleasefocus.htm
 old-project: SecBioMet
 ms.assetid: 260f24e9-4527-4bec-b18a-64781060714b
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioReleaseFocus, WinBioReleaseFocus function [Windows Biometric Framework API], secbiomet.winbioreleasefocus, winbio/WinBioReleaseFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

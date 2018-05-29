@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.AutomaticEnable
 title: IMFContentEnabler::AutomaticEnable
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a content enabling action without any user interaction.
 old-location: mf\imfcontentenabler_automaticenable.htm
 old-project: medfound
 ms.assetid: 7be4c32f-d116-4a08-857f-1a59b5ccfb12
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7be4c32f-d116-4a08-857f-1a59b5ccfb12, AutomaticEnable, AutomaticEnable method [Media Foundation], AutomaticEnable method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],AutomaticEnable method, IMFContentEnabler.AutomaticEnable, IMFContentEnabler::AutomaticEnable, mf.imfcontentenabler_automaticenable, mfidl/IMFContentEnabler::AutomaticEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

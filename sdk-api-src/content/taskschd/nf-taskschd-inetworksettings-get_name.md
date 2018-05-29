@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.INetworkSettings.get_Name
 title: INetworkSettings::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the name of a network profile.
 old-location: taskschd\inetworksettings_name.htm
 old-project: TaskSchd
 ms.assetid: 4f1c8327-c4e2-4cb6-aeeb-b72f9ebc250b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: INetworkSettings interface [Task Scheduler],Name property, INetworkSettings.Name, INetworkSettings.get_Name, INetworkSettings::Name, INetworkSettings::get_Name, INetworkSettings::put_Name, Name property [Task Scheduler], Name property [Task Scheduler],INetworkSettings interface, get_Name, taskschd.inetworksettings_name, taskschd/INetworkSettings::Name, taskschd/INetworkSettings::get_Name, taskschd/INetworkSettings::put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

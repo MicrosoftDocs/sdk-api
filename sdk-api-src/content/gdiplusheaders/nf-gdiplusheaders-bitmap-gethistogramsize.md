@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetHistogramSize
 title: Bitmap::GetHistogramSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The Bitmap::GetHistogramSize returns the number of elements (in an array of UINTs) that you must allocate before you call the Bitmap::GetHistogram method of a Bitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHistogramSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\gethistogramsize.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Bitmap class [GDI+],GetHistogramSize method, Bitmap.GetHistogramSize, Bitmap::GetHistogramSize, GetHistogramSize, GetHistogramSize method [GDI+], GetHistogramSize method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetHistogramSize_, gdiplus._gdiplus_CLASS_Bitmap_GetHistogramSize_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

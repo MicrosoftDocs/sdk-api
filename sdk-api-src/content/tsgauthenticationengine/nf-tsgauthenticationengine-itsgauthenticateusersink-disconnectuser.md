@@ -1,16 +1,16 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.DisconnectUser
 title: ITSGAuthenticateUserSink::DisconnectUser
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should disconnect the client.
 old-location: termserv\itsgauthenticateusersink_disconnectuser.htm
 old-project: TermServ
 ms.assetid: 03385453-066d-40a9-bcbb-9623e4fdfadc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DisconnectUser, DisconnectUser method [Remote Desktop Services], DisconnectUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, ITSGAuthenticateUserSink interface [Remote Desktop Services],DisconnectUser method, ITSGAuthenticateUserSink.DisconnectUser, ITSGAuthenticateUserSink::DisconnectUser, termserv.itsgauthenticateusersink_disconnectuser, tsgauthenticationengine/ITSGAuthenticateUserSink::DisconnectUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 

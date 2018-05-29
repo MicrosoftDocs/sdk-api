@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.LoadPolicy
 title: IX509EnrollmentPolicyServer::LoadPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves policy information from the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_loadpolicy.htm
 old-project: SecCertEnroll
 ms.assetid: 5b617c6e-91bc-4a22-acd6-41083102850a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],LoadPolicy method, IX509EnrollmentPolicyServer.LoadPolicy, IX509EnrollmentPolicyServer::LoadPolicy, LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, LoadPolicy, LoadPolicy method [Security], LoadPolicy method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::LoadPolicy, security.ix509enrollmentpolicyserver_loadpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

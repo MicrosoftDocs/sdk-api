@@ -1,16 +1,16 @@
 ---
 UID: NN:spellcheckprovider.ISpellCheckProvider
 title: ISpellCheckProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a particular spell checker provider for a particular language, to be used by the spell checking infrastructure.
 old-location: intl\ispellcheckprovider.htm
 old-project: Intl
 ms.assetid: D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], ISpellCheckProvider interface [Internationalization for Windows Applications],described, intl.ispellcheckprovider, spellcheckprovider/ISpellCheckProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheckprovider.h
 req.include-header: 

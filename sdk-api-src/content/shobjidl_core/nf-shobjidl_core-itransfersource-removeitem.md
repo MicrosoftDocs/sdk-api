@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.RemoveItem
 title: ITransferSource::RemoveItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the item without moving the item to the Recycle Bin.
 old-location: shell\ITransferSource_RemoveItem.htm
 old-project: shell
 ms.assetid: 53084f0d-cf78-437a-ae04-43fd78cb9839
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITransferSource interface [Windows Shell],RemoveItem method, ITransferSource.RemoveItem, ITransferSource::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RemoveItem, shell.ITransferSource_RemoveItem, shobjidl_core/ITransferSource::RemoveItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

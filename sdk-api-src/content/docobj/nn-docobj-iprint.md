@@ -1,16 +1,16 @@
 ---
 UID: NN:docobj.IPrint
 title: IPrint
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables compound documents in general and active documents in particular to support programmatic printing.
 old-location: com\iprint.htm
 old-project: com
 ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM],described, _ctrl_iprint, com.iprint, docobj/IPrint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

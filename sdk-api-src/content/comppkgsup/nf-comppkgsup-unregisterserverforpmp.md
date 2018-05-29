@@ -1,16 +1,16 @@
 ---
 UID: NF:comppkgsup.UnregisterServerForPMP
 title: UnregisterServerForPMP function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a COM Server CLSID and a class factory that were previously registered for Protected Media Process (PMP) usage.
 old-location: winprog\unregisterserverforpmp.htm
 old-project: DevNotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fdi.FDICopy
 title: FDICopy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FDICopy function extracts files from cabinets.
 old-location: winprog\fdicopy.htm
 old-project: DevNotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fdi.h
 req.include-header: 

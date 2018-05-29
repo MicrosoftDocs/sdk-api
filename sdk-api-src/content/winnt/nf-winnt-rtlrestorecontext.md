@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlRestoreContext
 title: RtlRestoreContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores the context of the caller to the specified context record.
 old-location: base\rtlrestorecontext.htm
 old-project: Debug
 ms.assetid: f5304d17-bc67-4e0f-a535-efca4e65c74c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlRestoreContext, RtlRestoreContext function, base.rtlrestorecontext, winnt/RtlRestoreContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

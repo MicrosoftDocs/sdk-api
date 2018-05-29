@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_AntiClogControl
 title: IAMExtTransport::get_AntiClogControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AntiClogControl method determines whether the anti-headclog control is enabled or disabled.
 old-location: dshow\iamexttransport_get_anticlogcontrol.htm
 old-project: DirectShow
 ms.assetid: e0175b44-d1e6-4f3a-8aa7-893b41d0c487
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_AntiClogControl method, IAMExtTransport.get_AntiClogControl, IAMExtTransport::get_AntiClogControl, IAMExtTransportget_AntiClogControl, dshow.iamexttransport_get_anticlogcontrol, get_AntiClogControl, get_AntiClogControl method [DirectShow], get_AntiClogControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_AntiClogControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

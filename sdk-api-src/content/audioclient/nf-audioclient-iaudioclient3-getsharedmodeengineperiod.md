@@ -1,16 +1,16 @@
 ---
 UID: NF:audioclient.IAudioClient3.GetSharedModeEnginePeriod
 title: IAudioClient3::GetSharedModeEnginePeriod
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the range of periodicities supported by the engine for the specified stream format.
 old-location: coreaudio\iaudioclient3_getsharedmodeengineperiod.htm
 old-project: CoreAudio
 ms.assetid: 41ED045F-0C47-40BE-9ECD-6A925E166E6D
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSharedModeEnginePeriod, GetSharedModeEnginePeriod method [Core Audio], GetSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetSharedModeEnginePeriod method, IAudioClient3.GetSharedModeEnginePeriod, IAudioClient3::GetSharedModeEnginePeriod, audioclient/IAudioClient3::GetSharedModeEnginePeriod, coreaudio.iaudioclient3_getsharedmodeengineperiod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

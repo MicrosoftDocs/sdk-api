@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputStreamInfo
 title: IMediaObject::GetOutputStreamInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOutputStreamInfo method retrieves information about an output stream; for example, whether the stream is discardable, and whether it uses a fixed sample size. This information never changes.
 old-location: dshow\imediaobject_getoutputstreaminfo.htm
 old-project: DirectShow
 ms.assetid: a21e9943-4aaf-4f0e-a92a-5fcd551fe7e1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOutputStreamInfo, GetOutputStreamInfo method [DirectShow], GetOutputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputStreamInfo method, IMediaObject.GetOutputStreamInfo, IMediaObject::GetOutputStreamInfo, IMediaObjectGetOutputStreamInfo, dshow.imediaobject_getoutputstreaminfo, mediaobj/IMediaObject::GetOutputStreamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

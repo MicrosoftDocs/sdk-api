@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.Close
 title: IUIAutomationWindowPattern::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_Close.htm
 old-project: WinAuto
 ms.assetid: 925484e2-6ad1-49ca-b2d4-a6436e7a3ddd
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],Close method, IUIAutomationWindowPattern.Close, IUIAutomationWindowPattern::Close, uiauto.uiauto_IUIAutomationWindowPattern_Close, uiauto_IUIAutomationWindowPattern_Close, uiautomationclient/IUIAutomationWindowPattern::Close, winauto.uiauto_IUIAutomationWindowPattern_Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

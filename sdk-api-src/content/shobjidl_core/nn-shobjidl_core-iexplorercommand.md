@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommand
 title: IExplorerCommand
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that get the command appearance, enumerate subcommands, or invoke the command.
 old-location: shell\IExplorerCommand.htm
 old-project: shell
 ms.assetid: 61e94e50-9e12-4a2c-a6c7-64a9181f80b8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExplorerCommand, IExplorerCommand interface [Windows Shell], IExplorerCommand interface [Windows Shell],described, _shell_IExplorerCommand, shell.IExplorerCommand, shobjidl_core/IExplorerCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

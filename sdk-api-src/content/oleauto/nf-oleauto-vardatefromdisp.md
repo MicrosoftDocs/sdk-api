@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDateFromDisp
 title: VarDateFromDisp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a date value.
 old-location: automat\vardatefromdisp.htm
 old-project: automat
 ms.assetid: 54935d65-d5d2-4b36-9b0e-8d5b83f7ef93
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDateFromDisp, VarDateFromDisp function [Automation], _oa96_VarDateFromDisp, automat.vardatefromdisp, oleauto/VarDateFromDisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

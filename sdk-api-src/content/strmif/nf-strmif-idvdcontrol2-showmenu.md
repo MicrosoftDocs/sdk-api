@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.ShowMenu
 title: IDvdControl2::ShowMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: The ShowMenu method displays the specified menu, if available.
 old-location: dshow\idvdcontrol2_showmenu.htm
 old-project: DirectShow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ShowMenu method, IDvdControl2.ShowMenu, IDvdControl2::ShowMenu, IDvdControl2ShowMenu, ShowMenu, ShowMenu method [DirectShow], ShowMenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_showmenu, strmif/IDvdControl2::ShowMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

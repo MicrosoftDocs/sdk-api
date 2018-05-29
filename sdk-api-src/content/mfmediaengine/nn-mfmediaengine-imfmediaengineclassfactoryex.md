@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineClassFactoryEx
 title: IMFMediaEngineClassFactoryEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Extension for the IMFMediaEngineClassFactory interface.
 old-location: mf\imfmediaengineclassfactoryex.htm
 old-project: medfound
 ms.assetid: d672ee59-f702-49c7-8ccf-5ba0260c9b23
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation],described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

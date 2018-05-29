@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcEpResolveBinding
 title: RpcEpResolveBinding function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcEpResolveBinding function resolves a partially-bound server binding handle into a fully-bound server binding handle.
 old-location: rpc\rpcepresolvebinding.htm
 old-project: Rpc
 ms.assetid: 839eefea-f06d-412b-9637-4af01b783121
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcEpResolveBinding, RpcEpResolveBinding function [RPC], _rpc_rpcepresolvebinding, rpc.rpcepresolvebinding, rpcdce/RpcEpResolveBinding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

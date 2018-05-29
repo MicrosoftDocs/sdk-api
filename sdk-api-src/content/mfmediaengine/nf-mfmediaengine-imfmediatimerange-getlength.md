@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetLength
 title: IMFMediaTimeRange::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of time ranges contained in the object.
 old-location: mf\imfmediatimerange_getlength.htm
 old-project: medfound
 ms.assetid: 0865A667-A09E-4F42-A420-4A155AD34394
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetLength method, IMFMediaTimeRange.GetLength, IMFMediaTimeRange::GetLength, mf.imfmediatimerange_getlength, mfmediaengine/IMFMediaTimeRange::GetLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

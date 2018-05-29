@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_ATLAS_PROP
 title: D2D1_ATLAS_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for properties of the Atlas effect.
 old-location: direct2d\d2d1_atlas_prop.htm
 old-project: Direct2D
 ms.assetid: 7450C113-F1F0-433C-928B-19B0FF21B69B
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_ATLAS_PROP, D2D1_ATLAS_PROP enumeration [Direct2D], D2D1_ATLAS_PROP_INPUT_PADDING_RECT, D2D1_ATLAS_PROP_INPUT_RECT, d2d1effects/D2D1_ATLAS_PROP, d2d1effects/D2D1_ATLAS_PROP_INPUT_PADDING_RECT, d2d1effects/D2D1_ATLAS_PROP_INPUT_RECT, direct2d.d2d1_atlas_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

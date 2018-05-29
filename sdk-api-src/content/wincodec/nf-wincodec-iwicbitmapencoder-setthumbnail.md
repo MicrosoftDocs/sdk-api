@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetThumbnail
 title: IWICBitmapEncoder::SetThumbnail
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the global thumbnail for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setthumbnail.htm
 old-project: wic
 ms.assetid: ecabfde8-0079-4059-8691-bbe3f0baa934
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetThumbnail method, IWICBitmapEncoder.SetThumbnail, IWICBitmapEncoder::SetThumbnail, SetThumbnail, SetThumbnail method [Windows Imaging Component], SetThumbnail method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setthumbnail, wic._wic_codec_iwicbitmapencoder_setthumbnail, wincodec/IWICBitmapEncoder::SetThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

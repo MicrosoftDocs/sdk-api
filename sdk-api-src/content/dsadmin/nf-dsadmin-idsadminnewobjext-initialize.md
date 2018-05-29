@@ -1,16 +1,16 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.Initialize
 title: IDsAdminNewObjExt::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDsAdminNewObjExt::Initialize method initializes an object creation wizard extension.
 old-location: ad\idsadminnewobjext_initialize.htm
 old-project: AD
 ms.assetid: 38dd4f43-6f8f-460a-9c5d-0a506d993101
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],Initialize method, IDsAdminNewObjExt.Initialize, IDsAdminNewObjExt::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_initialize, ad.idsadminnewobjext__initialize, ad.idsadminnewobjext_initialize, dsadmin/IDsAdminNewObjExt::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 

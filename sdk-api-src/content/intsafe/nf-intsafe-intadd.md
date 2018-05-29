@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntAdd
 title: IntAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds two values of type INT.
 old-location: shell\IntAdd.htm
 old-project: shell
 ms.assetid: 0ae27240-2923-4caf-955a-0b10bd9e2515
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntAdd, IntAdd function [Windows Shell], intsafe/IntAdd, shell.IntAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

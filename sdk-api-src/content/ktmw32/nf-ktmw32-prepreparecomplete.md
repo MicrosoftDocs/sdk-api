@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.PrePrepareComplete
 title: PrePrepareComplete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.
 old-location: fs\prepreparecomplete.htm
 old-project: Ktm
 ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

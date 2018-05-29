@@ -1,16 +1,16 @@
 ---
 UID: NN:winsxs.IAssemblyName
 title: IAssemblyName
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAssemblyName interface represents a side-by-side assembly name.
 old-location: setup\iassemblyname.htm
 old-project: SbsCs
 ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsxs.h
 req.include-header: 

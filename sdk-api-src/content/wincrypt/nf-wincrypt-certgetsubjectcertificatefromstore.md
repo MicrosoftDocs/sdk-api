@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertGetSubjectCertificateFromStore
 title: CertGetSubjectCertificateFromStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns from a certificate store a subject certificate context uniquely identified by its issuer and serial number.
 old-location: security\certgetsubjectcertificatefromstore.htm
 old-project: SecCrypto
 ms.assetid: 61d73501-91b1-4498-b1a3-17392360c700
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

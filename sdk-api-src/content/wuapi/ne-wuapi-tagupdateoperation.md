@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapi.tagUpdateOperation
 title: tagUpdateOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines operations that can be attempted on an update.
 old-location: wua\updateoperation.htm
 old-project: Wua_Sdk
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], tagUpdateOperation, uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

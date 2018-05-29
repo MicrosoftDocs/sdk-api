@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentProtectionDevice.InvokeFunction
 title: IMFContentProtectionDevice::InvokeFunction
-author: windows-driver-content
+author: windows-sdk-content
 description: Calls into the implementation of the protection system in the security processor.
 old-location: mf\imfcontentprotectiondevice_invokefunction.htm
 old-project: medfound
 ms.assetid: 1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFContentProtectionDevice interface [Media Foundation],InvokeFunction method, IMFContentProtectionDevice.InvokeFunction, IMFContentProtectionDevice::InvokeFunction, InvokeFunction, InvokeFunction method [Media Foundation], InvokeFunction method [Media Foundation],IMFContentProtectionDevice interface, mf.imfcontentprotectiondevice_invokefunction, mfidl/IMFContentProtectionDevice::InvokeFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

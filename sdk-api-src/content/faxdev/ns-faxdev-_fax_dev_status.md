@@ -1,16 +1,16 @@
 ---
 UID: NS:faxdev._FAX_DEV_STATUS
 title: "_FAX_DEV_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_DEV_STATUS structure contains status and identification information about an individual active fax operation.
 old-location: fax\_mfax_fax_dev_status_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_0wz6.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FAX_DEV_STATUS, FAX_DEV_STATUS structure [Fax Service], PFAX_DEV_STATUS, PFAX_DEV_STATUS structure pointer [Fax Service], _FAX_DEV_STATUS, _mfax_fax_dev_status_str, fax._mfax_fax_dev_status_str, faxdev/FAX_DEV_STATUS, faxdev/PFAX_DEV_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: faxdev.h
 req.include-header: 

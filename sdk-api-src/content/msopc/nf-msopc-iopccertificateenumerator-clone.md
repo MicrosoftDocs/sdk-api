@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.Clone
 title: IOpcCertificateEnumerator::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the current IOpcCertificateEnumerator interface pointer and all its descendants.
 old-location: opc\iopccertificateenumerator_clone.htm
 old-project: OPC
 ms.assetid: 4cf4bed8-4a6f-48f4-b72f-a13efc127b2a
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],Clone method, IOpcCertificateEnumerator.Clone, IOpcCertificateEnumerator::Clone, msopc/IOpcCertificateEnumerator::Clone, opc.iopccertificateenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

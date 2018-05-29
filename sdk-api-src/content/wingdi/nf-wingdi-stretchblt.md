@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.StretchBlt
 title: StretchBlt function
-author: windows-driver-content
+author: windows-sdk-content
 description: The StretchBlt function copies a bitmap from a source rectangle into a destination rectangle, stretching or compressing the bitmap to fit the dimensions of the destination rectangle, if necessary.
 old-location: gdi\stretchblt.htm
 old-project: gdi
 ms.assetid: 5130c88e-08e8-4faa-a1cb-a8106c86cea0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StretchBlt, StretchBlt function [Windows GDI], _win32_StretchBlt, gdi.stretchblt, wingdi/StretchBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

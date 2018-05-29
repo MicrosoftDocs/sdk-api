@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IRangeException
 title: IRangeException
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an item ID range to exclude from a knowledge object.
 old-location: winsync\irangeexception.htm
 old-project: winsync
 ms.assetid: 7eea9fe0-80e7-43a9-a797-df12d4d809dc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, winsync.irangeexception, winsync/IRangeException
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

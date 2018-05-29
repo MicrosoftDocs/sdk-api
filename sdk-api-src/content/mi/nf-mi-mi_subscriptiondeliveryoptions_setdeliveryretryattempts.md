@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts
 title: MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the number of times a push delivery subscription will try to deliver a result.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliveryretryattempts.htm
 old-project: wmi_v2
 ms.assetid: d00e94bc-83c7-4cb6-869d-c6e7c02c678c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts, MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts, wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryretryattempts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

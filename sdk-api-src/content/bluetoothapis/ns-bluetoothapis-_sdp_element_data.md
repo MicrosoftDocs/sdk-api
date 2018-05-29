@@ -1,16 +1,16 @@
 ---
 UID: NS:bluetoothapis._SDP_ELEMENT_DATA
 title: "_SDP_ELEMENT_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SDP_ELEMENT_DATA structure stores SDP element data.
 old-location: bluetooth\sdp_element_data.htm
 old-project: Bluetooth
 ms.assetid: 9c9d6103-cc49-41d2-bbb3-6b6888fb93e7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PSDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA structure [Bluetooth], SDP_ELEMENT_DATA, SDP_ELEMENT_DATA structure [Bluetooth], _SDP_ELEMENT_DATA, bluetooth.sdp_element_data, bluetoothapis/*PSDP_ELEMENT_DATA, bluetoothapis/SDP_ELEMENT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFFieldOfUseMFTUnlock
 title: IMFFieldOfUseMFTUnlock
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application to use a Media Foundation transform (MFT) that has restrictions on its use.
 old-location: mf\imffieldofusemftunlock.htm
 old-project: medfound
 ms.assetid: b144589b-d559-4686-b617-0e3c393380e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFFieldOfUseMFTUnlock, IMFFieldOfUseMFTUnlock interface [Media Foundation], IMFFieldOfUseMFTUnlock interface [Media Foundation],described, mf.imffieldofusemftunlock, mfidl/IMFFieldOfUseMFTUnlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

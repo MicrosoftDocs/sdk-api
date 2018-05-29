@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsSetOutputToBuffer
 title: WsSetOutputToBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: This operation positions the Writer at the end of the specified buffer.
 old-location: wsw\wssetoutputtobuffer.htm
 old-project: wsw
 ms.assetid: b969700d-7145-45eb-ad4b-c6e643975709
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsSetOutputToBuffer, WsSetOutputToBuffer function [Web Services for Windows], webservices/WsSetOutputToBuffer, wsw.wssetoutputtobuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

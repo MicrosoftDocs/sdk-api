@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.GetCurrent
 title: IOpcCertificateEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the CERT_CONTEXT structure at the current position of the enumerator.
 old-location: opc\iopccertificateenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: edd2afc1-cafd-4a52-b2df-1a1fcdf1d6fa
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcCertificateEnumerator.GetCurrent, IOpcCertificateEnumerator::GetCurrent, msopc/IOpcCertificateEnumerator::GetCurrent, opc.iopccertificateenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.DWordPtrSub
 title: DWordPtrSub function
-author: windows-driver-content
+author: windows-sdk-content
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: shell\DWordPtrSub.htm
 old-project: shell
 ms.assetid: cfe9ec32-ed6a-42fa-9891-3ce2e88cd5d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordPtrSub, DWordPtrSub function [Windows Shell], _shell_DWordPtrSub, intsafe/DWordPtrSub, shell.DWordPtrSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

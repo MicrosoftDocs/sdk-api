@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CheckMenuRadioItem
 title: CheckMenuRadioItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks a specified menu item and makes it a radio item. At the same time, the function clears all other menu items in the associated group and clears the radio-item type flag for those items.
 old-location: menurc\checkmenuradioitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuradioitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CheckMenuRadioItem, CheckMenuRadioItem function [Menus and Other Resources], _win32_CheckMenuRadioItem, _win32_checkmenuradioitem_cpp, menurc.checkmenuradioitem, winui._win32_checkmenuradioitem, winuser/CheckMenuRadioItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPushContext
 title: ITfThreadMgrEventSink::OnPushContext
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnPushContext method
 old-location: tsf\itfthreadmgreventsink_onpushcontext.htm
 old-project: TSF
 ms.assetid: 80fbb861-1a12-4a9a-8f96-332c2f736f2d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPushContext method, ITfThreadMgrEventSink.OnPushContext, ITfThreadMgrEventSink::OnPushContext, OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

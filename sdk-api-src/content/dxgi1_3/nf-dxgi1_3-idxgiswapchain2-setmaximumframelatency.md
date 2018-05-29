@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetMaximumFrameLatency
 title: IDXGISwapChain2::SetMaximumFrameLatency
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the number of frames that the swap chain is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgiswapchain2_setmaximumframelatency.htm
 old-project: direct3ddxgi
 ms.assetid: AF3F03F2-38B4-474A-8A66-86A93D776EA0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMaximumFrameLatency method, IDXGISwapChain2.SetMaximumFrameLatency, IDXGISwapChain2::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [DXGI], SetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmaximumframelatency, dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMSyncReader
 title: IWMSyncReader
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMSyncReader interface provides the ability to read ASF files using synchronous calls.
 old-location: wmformat\iwmsyncreader.htm
 old-project: wmformat
 ms.assetid: 2a46e79f-084e-4173-ad0f-211d3065d81a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], IWMSyncReader interface [windows Media Format],described, IWMSyncReaderInterface, wmformat.iwmsyncreader, wmsdkidl/IWMSyncReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

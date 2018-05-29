@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumRegisterEventInfo
 title: IWiaItem::EnumRegisterEventInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaItem::EnumRegisterEventInfo method creates an enumerator used to obtain information about events for which an application is registered.
 old-location: wia\_wia_IWiaItem_EnumRegisterEventInfo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumregistereventinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: EnumRegisterEventInfo, EnumRegisterEventInfo method [WIA], EnumRegisterEventInfo method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumRegisterEventInfo method, IWiaItem.EnumRegisterEventInfo, IWiaItem::EnumRegisterEventInfo, _wia_IWiaItem_EnumRegisterEventInfo, wia._wia_IWiaItem_EnumRegisterEventInfo, wia_xp/IWiaItem::EnumRegisterEventInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

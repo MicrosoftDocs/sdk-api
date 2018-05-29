@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.SetOperationMode
 title: IDMOVideoOutputOptimizations::SetOperationMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetOperationMode method notifies the DMO of the optimization features that are in effect.
 old-location: dshow\idmovideooutputoptimizations_setoperationmode.htm
 old-project: DirectShow
 ms.assetid: 07dc29aa-d3ee-409e-9fe8-0c54d2d6f759
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],SetOperationMode method, IDMOVideoOutputOptimizations.SetOperationMode, IDMOVideoOutputOptimizations::SetOperationMode, IDMOVideoOutputOptimizationsSetOperationMode, SetOperationMode, SetOperationMode method [DirectShow], SetOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_setoperationmode, mediaobj/IDMOVideoOutputOptimizations::SetOperationMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

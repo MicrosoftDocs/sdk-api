@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_RST.GetRecordTransportStreamId
 title: IDVB_RST::GetRecordTransportStreamId
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_rst_getrecordtransportstreamid.htm
 old-project: mstv
 ms.assetid: 40fd889e-eae8-4532-935e-07a7a5b2b6c2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_RST.GetRecordTransportStreamId, IDVB_RST::GetRecordTransportStreamId, IDVB_RSTGetRecordTransportStreamId, dvbsiparser/IDVB_RST::GetRecordTransportStreamId, mstv.idvb_rst_getrecordtransportstreamid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

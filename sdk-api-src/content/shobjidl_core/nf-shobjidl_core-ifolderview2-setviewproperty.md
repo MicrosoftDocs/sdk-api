@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetViewProperty
 title: IFolderView2::SetViewProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Caches a property for an item in the view's property cache.
 old-location: shell\IFolderView2_SetViewProperty.htm
 old-project: shell
 ms.assetid: 76d91df0-8c90-45dc-9637-910b0874e9fa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetViewProperty method, IFolderView2.SetViewProperty, IFolderView2::SetViewProperty, SetViewProperty, SetViewProperty method [Windows Shell], SetViewProperty method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetViewProperty, shell.IFolderView2_SetViewProperty, shobjidl_core/IFolderView2::SetViewProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

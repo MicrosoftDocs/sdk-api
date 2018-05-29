@@ -1,16 +1,16 @@
 ---
 UID: NF:ncryptprotect.NCryptProtectSecret
 title: NCryptProtectSecret function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts data to a specified protection descriptor.
 old-location: security\ncryptprotectsecret.htm
 old-project: SecCNG
 ms.assetid: 8726F92B-34D5-4696-8803-3D7F50F1006D
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptProtectSecret, NCryptProtectSecret function [Security], ncryptprotect/NCryptProtectSecret, security.ncryptprotectsecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.ComputeApplicationSize
 title: IApplicationDesignModeSettings::ComputeApplicationSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size of the Windows Store app, based on the current set of spoofed settings.
 old-location: shell\IApplicationDesignModeSettings_ComputeApplicationSize.htm
 old-project: shell
 ms.assetid: 1ac42bb8-1c24-4369-8d0d-db3ad4062501
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ComputeApplicationSize, ComputeApplicationSize method [Windows Shell], ComputeApplicationSize method [Windows Shell],IApplicationDesignModeSettings interface, IApplicationDesignModeSettings interface [Windows Shell],ComputeApplicationSize method, IApplicationDesignModeSettings.ComputeApplicationSize, IApplicationDesignModeSettings::ComputeApplicationSize, shell.IApplicationDesignModeSettings_ComputeApplicationSize, shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

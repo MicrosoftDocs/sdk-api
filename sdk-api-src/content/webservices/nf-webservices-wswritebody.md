@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteBody
 title: WsWriteBody function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a value in the body of a message. This is a helper function that serializes a value to the XML Writer of the message. The message state must be set to WS_MESSAGE_STATE_WRITING. This function does not cause any state transitions.
 old-location: wsw\wswritebody.htm
 old-project: wsw
 ms.assetid: 70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteBody, WsWriteBody function [Web Services for Windows], webservices/WsWriteBody, wsw.wswritebody
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

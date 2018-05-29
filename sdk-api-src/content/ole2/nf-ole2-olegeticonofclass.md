@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleGetIconOfClass
 title: OleGetIconOfClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a handle to a metafile containing an icon and a string label for the specified CLSID.
 old-location: com\olegeticonofclass.htm
 old-project: com
 ms.assetid: 88ac1c14-b5a8-4100-9fa5-d7af35052b48
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleGetIconOfClass, OleGetIconOfClass function [COM], _com_OleGetIconOfClass, com.olegeticonofclass, ole2/OleGetIconOfClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

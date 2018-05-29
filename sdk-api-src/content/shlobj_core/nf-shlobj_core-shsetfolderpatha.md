@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHSetFolderPathA
 title: SHSetFolderPathA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Assigns a new path to a system folder identified by its CSIDL.
 old-location: shell\SHSetFolderPath.htm
 old-project: shell
 ms.assetid: 9da142fa-4765-4889-bd4c-d8167a16f86b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHSetFolderPath, SHSetFolderPath function [Windows Shell], SHSetFolderPathA, SHSetFolderPathW, _win32_SHSetFolderPath, shell.SHSetFolderPath, shlobj_core/SHSetFolderPath, shlobj_core/SHSetFolderPathA, shlobj_core/SHSetFolderPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

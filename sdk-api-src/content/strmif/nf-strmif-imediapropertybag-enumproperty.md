@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaPropertyBag.EnumProperty
 title: IMediaPropertyBag::EnumProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumProperty method retrieves a property/value pair.
 old-location: dshow\imediapropertybag_enumproperty.htm
 old-project: DirectShow
 ms.assetid: 88cd9016-ef6f-467a-9e84-10b2ac578211
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnumProperty, EnumProperty method [DirectShow], EnumProperty method [DirectShow],IMediaPropertyBag interface, IMediaPropertyBag interface [DirectShow],EnumProperty method, IMediaPropertyBag.EnumProperty, IMediaPropertyBag::EnumProperty, IMediaPropertyBagEnumProperty, dshow.imediapropertybag_enumproperty, strmif/IMediaPropertyBag::EnumProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

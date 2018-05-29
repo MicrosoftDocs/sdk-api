@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemServices.GetObject
 title: IWbemServices::GetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemServices::GetObject method retrieves a class or instance. This method only retrieves objects from the namespace associated with the current IWbemServices object.
 old-location: wmi\iwbemservices_getobject.htm
 old-project: WmiSdk
 ms.assetid: 68150273-c4ec-46f1-a3e6-d7169824b69d
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],GetObject method, IWbemServices.GetObject, IWbemServices::GetObject, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_RETURN_WBEM_COMPLETE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobject, wbemcli/IWbemServices::GetObject, wmi.iwbemservices_getobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

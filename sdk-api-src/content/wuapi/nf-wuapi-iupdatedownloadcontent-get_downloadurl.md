@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContent.get_DownloadUrl
 title: IUpdateDownloadContent::get_DownloadUrl
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the location of the download content on the server that hosts the update.
 old-location: wua\iupdatedownloadcontent_downloadurl.htm
 old-project: Wua_Sdk
 ms.assetid: bcdc751c-6af6-49f0-93da-c73b2091d7f6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DownloadUrl property [Windows Update Agent], DownloadUrl property [Windows Update Agent],IUpdateDownloadContent interface, IUpdateDownloadContent interface [Windows Update Agent],DownloadUrl property, IUpdateDownloadContent.DownloadUrl, IUpdateDownloadContent.get_DownloadUrl, IUpdateDownloadContent::DownloadUrl, IUpdateDownloadContent::get_DownloadUrl, get_DownloadUrl, wua.iupdatedownloadcontent_downloadurl, wuapi/IUpdateDownloadContent::DownloadUrl, wuapi/IUpdateDownloadContent::get_DownloadUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

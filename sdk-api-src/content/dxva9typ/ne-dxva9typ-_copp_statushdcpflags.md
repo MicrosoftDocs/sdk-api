@@ -1,16 +1,16 @@
 ---
 UID: NE:dxva9typ._COPP_StatusHDCPFlags
 title: "_COPP_StatusHDCPFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains HDCP status flags. This enumeration is used in the DXVA_COPPStatusHDCPKeyData structure.
 old-location: dshow\copp_statushdcpflags.htm
 old-project: DirectShow
 ms.assetid: 40ad7f00-9b4f-4c2d-8c6b-05725a072bfc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COPP_HDCPFlagsReserved, COPP_HDCPRepeater, COPP_StatusHDCPFlags, COPP_StatusHDCPFlags , COPP_StatusHDCPFlags enumeration [DirectShow], COPP_StatusHDCPFlagsEnumeration, _COPP_StatusHDCPFlags, dshow.copp_statushdcpflags, dxva9typ/COPP_HDCPFlagsReserved, dxva9typ/COPP_HDCPRepeater, dxva9typ/COPP_StatusHDCPFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h

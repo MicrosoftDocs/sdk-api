@@ -1,16 +1,16 @@
 ---
 UID: NE:msctf.__MIDL_ITfRange_0001
 title: "__MIDL_ITfRange_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TfGravity enumeration specify the type of gravity associated with the anchor of an ITfRange object.
 old-location: tsf\tfgravity.htm
 old-project: TSF
 ms.assetid: 844925e7-4c3e-41e7-b560-586c85530cb4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_GRAVITY_BACKWARD, TF_GRAVITY_FORWARD, TfGravity, TfGravity enumeration [Text Services Framework], __MIDL_ITfRange_0001, _tsf_tfgravity_ref, msctf/TF_GRAVITY_BACKWARD, msctf/TF_GRAVITY_FORWARD, msctf/TfGravity, tsf.tfgravity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 

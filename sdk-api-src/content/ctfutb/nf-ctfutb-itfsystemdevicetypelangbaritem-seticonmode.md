@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfSystemDeviceTypeLangBarItem.SetIconMode
 title: ITfSystemDeviceTypeLangBarItem::SetIconMode
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfSystemDeviceTypeLangBarItem::SetIconMode method
 old-location: tsf\itfsystemdevicetypelangbaritem_seticonmode.htm
 old-project: TSF
 ms.assetid: 25124539-4bf9-4299-b441-9a5fac18b60d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: 0, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],SetIconMode method, ITfSystemDeviceTypeLangBarItem.SetIconMode, ITfSystemDeviceTypeLangBarItem::SetIconMode, SetIconMode, SetIconMode method [Text Services Framework], SetIconMode method [Text Services Framework],ITfSystemDeviceTypeLangBarItem interface, TF_DTLBI_USEPROFILEICON, _tsf_itfsystemdevicetypelangbaritem_seticonmode_ref, ctfutb/ITfSystemDeviceTypeLangBarItem::SetIconMode, tsf.itfsystemdevicetypelangbaritem_seticonmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

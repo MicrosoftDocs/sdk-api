@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_PageCount
 title: IFaxStatus::get_PageCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the PageCount property for the FaxStatus object of a parent FaxPort object. The PageCount property represents the total number of pages in an outbound fax transmission.
 old-location: fax\_mfax_ifaxstatus_get_pagecount_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6xv8.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxStatus object [Fax Service],PageCount property, FaxStatus.PageCount, IFaxStatus.get_PageCount, IFaxStatus::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_get_pagecount_vb, get_PageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

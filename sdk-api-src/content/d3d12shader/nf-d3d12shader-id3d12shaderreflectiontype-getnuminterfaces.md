@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetNumInterfaces
 title: ID3D12ShaderReflectionType::GetNumInterfaces
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of interfaces.
 old-location: direct3d12\id3d12shaderreflectiontype_getnuminterfaces.htm
 old-project: direct3d12
 ms.assetid: 6BE5DACB-EDAB-4A95-A071-F36046858FFE
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetNumInterfaces, GetNumInterfaces method, GetNumInterfaces method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetNumInterfaces method, ID3D12ShaderReflectionType.GetNumInterfaces, ID3D12ShaderReflectionType::GetNumInterfaces, d3d12shader/ID3D12ShaderReflectionType::GetNumInterfaces, direct3d12.id3d12shaderreflectiontype_getnuminterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

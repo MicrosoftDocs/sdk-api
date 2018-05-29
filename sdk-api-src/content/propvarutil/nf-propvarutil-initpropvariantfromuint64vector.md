@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromUInt64Vector
 title: InitPropVariantFromUInt64Vector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a vector of 64-bit unsigned integers.
 old-location: properties\InitPropVariantFromUInt64Vector.htm
 old-project: properties
 ms.assetid: 17c52a7d-c3d3-4132-8f44-7d0b250aa7ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromUInt64Vector, InitPropVariantFromUInt64Vector function [Windows Properties], properties.InitPropVariantFromUInt64Vector, propvarutil/InitPropVariantFromUInt64Vector, shell.InitPropVariantFromUInt64Vector, shell_InitPropVariantFromUInt64Vector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

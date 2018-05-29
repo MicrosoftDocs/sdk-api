@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Append2
 title: IStreamConcatenate::Append2
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends an array of streams to this stream.
 old-location: imapi\istreamconcatenate_append2.htm
 old-project: imapi
 ms.assetid: 75e7f4cd-f3c8-494d-b049-7fe32c486659
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Append2, Append2 method [IMAPI], Append2 method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append2 method, IStreamConcatenate.Append2, IStreamConcatenate::Append2, imapi.istreamconcatenate_append2, imapi2/IStreamConcatenate::Append2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

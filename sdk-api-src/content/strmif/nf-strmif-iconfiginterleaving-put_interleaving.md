@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IConfigInterleaving.put_Interleaving
 title: IConfigInterleaving::put_Interleaving
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Interleaving method sets the audio preroll time and the frequency of interleaving for an AVI file.
 old-location: dshow\iconfiginterleaving_put_interleaving.htm
 old-project: DirectShow
 ms.assetid: 4b1363c4-9cdd-4b28-a5ea-e5e554597be2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Interleaving method, IConfigInterleaving.put_Interleaving, IConfigInterleaving::put_Interleaving, IConfigInterleavingput_Interleaving, dshow.iconfiginterleaving_put_interleaving, put_Interleaving, put_Interleaving method [DirectShow], put_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Interleaving
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

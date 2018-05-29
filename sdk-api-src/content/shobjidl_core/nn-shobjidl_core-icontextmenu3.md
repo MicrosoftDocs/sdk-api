@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IContextMenu3
 title: IContextMenu3
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that either create or merge a shortcut menu associated with a Shell object. Allows client objects to handle messages associated with owner-drawn menu items and extends IContextMenu2 by accepting a return value from that message handling.
 old-location: shell\IContextMenu3.htm
 old-project: shell
 ms.assetid: c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IContextMenu3, IContextMenu3 interface [Windows Shell], IContextMenu3 interface [Windows Shell],described, _win32_IContextMenu3, shell.IContextMenu3, shobjidl_core/IContextMenu3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

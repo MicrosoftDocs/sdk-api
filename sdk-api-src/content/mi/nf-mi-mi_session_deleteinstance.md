@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Session_DeleteInstance
 title: MI_Session_DeleteInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an instance on the server represented by the session.
 old-location: wmi_v2\mi_session_deleteinstance.htm
 old-project: wmi_v2
 ms.assetid: 10d49e33-adbc-4202-91f6-7df9b4cff133
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Session_DeleteInstance, MI_Session_DeleteInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_DeleteInstance, wmi_v2.mi_session_deleteinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

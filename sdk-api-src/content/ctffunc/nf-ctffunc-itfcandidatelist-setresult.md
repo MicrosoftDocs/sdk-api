@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.SetResult
 title: ITfCandidateList::SetResult
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCandidateList::SetResult method
 old-location: tsf\itfcandidatelist_setresult.htm
 old-project: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

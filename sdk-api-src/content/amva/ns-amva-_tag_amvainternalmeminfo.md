@@ -1,16 +1,16 @@
 ---
 UID: NS:amva._tag_AMVAInternalMemInfo
 title: "_tag_AMVAInternalMemInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMVAInternalMemInfo structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 old-location: dshow\amvainternalmeminfo.htm
 old-project: DirectShow
 ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], _tag_AMVAInternalMemInfo, amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IHolder.AllocResource
 title: IHolder::AllocResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a resource from the inventory.
 old-location: cos\iholder_allocresource.htm
 old-project: cossdk
 ms.assetid: 2b6c5d54-4917-460f-9740-abe4b578761f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AllocResource, AllocResource method [COM+], AllocResource method [COM+],IHolder interface, IHolder interface [COM+],AllocResource method, IHolder.AllocResource, IHolder::AllocResource, _dtc_IHolder_AllocResource, comsvcs/IHolder::AllocResource, cos.iholder_allocresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

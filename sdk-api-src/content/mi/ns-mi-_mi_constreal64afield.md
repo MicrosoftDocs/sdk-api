@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstReal64AField
 title: "_MI_ConstReal64AField"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constreal64afield.htm
 old-project: wmi_v2
 ms.assetid: 7e70a27c-4c25-4511-8bda-90ab06bcebb5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstReal64AField, MI_ConstReal64AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstReal64AField, mi/MI_ConstReal64AField, wmi._mi_constreal64afield, wmi_v2.mi_constreal64afield
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

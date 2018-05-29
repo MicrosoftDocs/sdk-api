@@ -1,16 +1,16 @@
 ---
 UID: NS:imm.tagIMECHARPOSITION
 title: tagIMECHARPOSITION
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the character position in the composition window.
 old-location: intl\imecharposition.htm
 old-project: Intl
 ms.assetid: 5c278df0-ce90-4f9d-915e-45dadc823360
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPIMECHARPOSITION, *NPIMECHARPOSITION, *PIMECHARPOSITION, IMECHARPOSITION, IMECHARPOSITION structure [Internationalization for Windows Applications], PIMECHARPOSITION, PIMECHARPOSITION structure pointer [Internationalization for Windows Applications], _win32_IMECHARPOSITION_str, imm/IMECHARPOSITION, imm/PIMECHARPOSITION, intl.imecharposition, tagIMECHARPOSITION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h

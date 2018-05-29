@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.ICertAdmin2.ImportKey
 title: ICertAdmin2::ImportKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an encrypted key set to an item in the Certificate Services database. The key set is encrypted to one or several key recovery agent (KRA) certificates.
 old-location: security\icertadmin2_importkey.htm
 old-project: SecCrypto
 ms.assetid: d71f20d7-5b27-41e5-adc1-6f0ae4160210
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin2 interface [Security],ImportKey method, ICertAdmin2.ImportKey, ICertAdmin2::ImportKey, IKF_OVERWRITE, ImportKey, ImportKey method [Security], ImportKey method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportKey, security.icertadmin2_importkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidFilePlayback.get_FileName
 title: IMSVidFilePlayback::get_FileName
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_FileName method retrieves the name of the file to play.
 old-location: mstv\imsvidfileplayback_get_filename.htm
 old-project: mstv
 ms.assetid: c8e01204-fb8e-4ebb-97d9-04dda15c491a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],get_FileName method, IMSVidFilePlayback.get_FileName, IMSVidFilePlayback::get_FileName, IMSVidFilePlaybackget_FileName, get_FileName, get_FileName method [Microsoft TV Technologies], get_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, mstv.imsvidfileplayback_get_filename, segment/IMSVidFilePlayback::get_FileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

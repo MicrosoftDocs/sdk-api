@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetMonitor
 title: IVMRMonitorConfig::GetMonitor
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMonitor method retrieves the monitor that this instance of the VMR is using for video playback.
 old-location: dshow\ivmrmonitorconfig_getmonitor.htm
 old-project: DirectShow
 ms.assetid: 8d71f1d1-4f8b-4ff8-9a4f-d25050821622
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetMonitor method, IVMRMonitorConfig.GetMonitor, IVMRMonitorConfig::GetMonitor, IVMRMonitorConfigGetMonitor, dshow.ivmrmonitorconfig_getmonitor, strmif/IVMRMonitorConfig::GetMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

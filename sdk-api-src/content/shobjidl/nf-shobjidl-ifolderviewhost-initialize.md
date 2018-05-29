@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IFolderViewHost.Initialize
 title: IFolderViewHost::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object that hosts an IFolderView object.
 old-location: shell\IFolderViewHost_Initialize.htm
 old-project: shell
 ms.assetid: 77740dfc-6423-451d-859b-7c894122309d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderViewHost interface [Windows Shell],Initialize method, IFolderViewHost.Initialize, IFolderViewHost::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IFolderViewHost interface, _shell_IFolderViewHost_Initialize, shell.IFolderViewHost_Initialize, shobjidl/IFolderViewHost::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

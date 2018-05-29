@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkExtendedProperties
 title: IInkExtendedProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of IInkExtendedProperty objects that contain application-defined data.
 old-location: tablet\iinkextendedproperties.htm
 old-project: tablet
 ms.assetid: c7b7f40f-0c28-4848-83d6-d5db73eef998
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], IInkExtendedProperties interface [Tablet PC],described, c7b7f40f-0c28-4848-83d6-d5db73eef998, msinkaut/IInkExtendedProperties, tablet.iinkextendedproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

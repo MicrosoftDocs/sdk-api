@@ -1,16 +1,16 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 title: tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration defines values that specify the origin or 'type' of a password.
 old-location: wcn\wcn_value_type_device_password_id.htm
 old-project: wcn
 ms.assetid: 3642bb5d-ef19-4ff3-a8bc-b0f01ad197ce
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WCN_VALUE_DP_DEFAULT, WCN_VALUE_DP_MACHINE_SPECIFIED, WCN_VALUE_DP_PUSHBUTTON, WCN_VALUE_DP_REGISTRAR_SPECIFIED, WCN_VALUE_DP_REKEY, WCN_VALUE_DP_USER_SPECIFIED, WCN_VALUE_TYPE_DEVICE_PASSWORD_ID, WCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID, wcn.wcn_value_type_device_password_id, wcntypes/WCN_VALUE_DP_DEFAULT, wcntypes/WCN_VALUE_DP_MACHINE_SPECIFIED, wcntypes/WCN_VALUE_DP_PUSHBUTTON, wcntypes/WCN_VALUE_DP_REGISTRAR_SPECIFIED, wcntypes/WCN_VALUE_DP_REKEY, wcntypes/WCN_VALUE_DP_USER_SPECIFIED, wcntypes/WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 

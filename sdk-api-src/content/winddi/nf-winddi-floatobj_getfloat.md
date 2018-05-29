@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_GetFloat
 title: FLOATOBJ_GetFloat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_GetFloat function calculates and returns the FLOAT-equivalent value of the specified FLOATOBJ.
 old-location: display\floatobj_getfloat.htm
 old-project: display
 ms.assetid: 1deddee5-c987-45b0-bb0f-ff4f766fdde0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_GetFloat, FLOATOBJ_GetFloat function [Display Devices], display.floatobj_getfloat, gdifncs_6f6c6936-a1f3-41d0-835d-52abc1140cc2.xml, winddi/FLOATOBJ_GetFloat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

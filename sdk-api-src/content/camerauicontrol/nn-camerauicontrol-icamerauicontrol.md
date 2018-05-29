@@ -1,16 +1,16 @@
 ---
 UID: NN:camerauicontrol.ICameraUIControl
 title: ICameraUIControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a user interface control for a camera device..
 old-location: winprog\icamerauicontrol.htm
 old-project: DevNotes
 ms.assetid: e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ICameraUIControl, ICameraUIControl interface [Windows API], ICameraUIControl interface [Windows API],described, camerauicontrol/ICameraUIControl, winprog.icamerauicontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: camerauicontrol.h
 req.include-header: 

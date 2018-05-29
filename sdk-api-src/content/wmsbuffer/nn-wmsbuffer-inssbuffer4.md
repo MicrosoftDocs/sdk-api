@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer4
 title: INSSBuffer4
-author: windows-driver-content
+author: windows-sdk-content
 description: The INSSBuffer4 interface provides methods to enumerate buffer properties.
 old-location: wmformat\inssbuffer4.htm
 old-project: wmformat
 ms.assetid: d6531e52-b58b-46ed-a47b-444cd98e1ec5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: INSSBuffer4, INSSBuffer4 interface [windows Media Format], INSSBuffer4 interface [windows Media Format],described, INSSBuffer4Interface, wmformat.inssbuffer4, wmsbuffer/INSSBuffer4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 

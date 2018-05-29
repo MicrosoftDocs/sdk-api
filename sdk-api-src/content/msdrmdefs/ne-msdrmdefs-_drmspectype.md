@@ -1,16 +1,16 @@
 ---
 UID: NE:msdrmdefs._DRMSPECTYPE
 title: "_DRMSPECTYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DRMSPECTYPE enumeration indicates what type of security or library providers are used.
 old-location: rm\drmspectype.htm
 old-project: AdRms_Sdk
 ms.assetid: 40997883-2636-4dd1-adf4-deff997abcc8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMSPECTYPE, DRMSPECTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSPECTYPE_FILENAME, DRMSPECTYPE_UNKNOWN, _DRMSPECTYPE, msdrmdefs/DRMSPECTYPE, msdrmdefs/DRMSPECTYPE_FILENAME, msdrmdefs/DRMSPECTYPE_UNKNOWN, rm.drmspectype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 

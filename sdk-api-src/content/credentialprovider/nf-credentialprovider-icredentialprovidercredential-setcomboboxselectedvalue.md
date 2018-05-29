@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetComboBoxSelectedValue
 title: ICredentialProviderCredential::SetComboBoxSelectedValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a Logon UI and Credential UI to indicate that a combo box value has been selected.
 old-location: shell\ICredentialProviderCredential_SetComboBoxSelectedValue.htm
 old-project: shell
 ms.assetid: fe33500b-ab34-4f28-b244-692e62d6d30c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetComboBoxSelectedValue method, ICredentialProviderCredential.SetComboBoxSelectedValue, ICredentialProviderCredential::SetComboBoxSelectedValue, SetComboBoxSelectedValue, SetComboBoxSelectedValue method [Windows Shell], SetComboBoxSelectedValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetComboBoxSelectedValue, credentialprovider/ICredentialProviderCredential::SetComboBoxSelectedValue, shell.ICredentialProviderCredential_SetComboBoxSelectedValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IATSCChannelTuneRequest.get_MinorChannel
 title: IATSCChannelTuneRequest::get_MinorChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MinorChannel method gets the current minor channel.
 old-location: mstv\iatscchanneltunerequest_get_minorchannel.htm
 old-project: mstv
 ms.assetid: 2b8aa006-faba-472b-836b-0ff1ae134232
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],get_MinorChannel method, IATSCChannelTuneRequest.get_MinorChannel, IATSCChannelTuneRequest::get_MinorChannel, IATSCChannelTuneRequestget_MinorChannel, get_MinorChannel, get_MinorChannel method [Microsoft TV Technologies], get_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, mstv.iatscchanneltunerequest_get_minorchannel, tuner/IATSCChannelTuneRequest::get_MinorChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

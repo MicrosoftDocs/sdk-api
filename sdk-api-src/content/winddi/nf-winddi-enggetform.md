@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngGetForm
 title: EngGetForm function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngGetForm function gets the FORM_INFO_1 details for the specified form.
 old-location: display\enggetform.htm
 old-project: display
 ms.assetid: b5cc37b1-3e5e-4d3b-b23f-1f737c8dcd28
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngGetForm, EngGetForm function [Display Devices], display.enggetform, gdifncs_178cf402-6353-453e-99c8-0164b0552231.xml, winddi/EngGetForm
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

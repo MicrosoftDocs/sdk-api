@@ -1,16 +1,16 @@
 ---
 UID: NF:commoncontrols.IImageList.GetOverlayImage
 title: IImageList::GetOverlayImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified image from the list of images used as overlay masks.
 old-location: controls\IImageList_GetOverlayImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getoverlayimage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetOverlayImage, GetOverlayImage method [Windows Controls], GetOverlayImage method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetOverlayImage method, IImageList.GetOverlayImage, IImageList::GetOverlayImage, comctl_IImageList_GetOverlayImage, comctl_IImageList_GetOverlayImage_cpp, commoncontrols/IImageList::GetOverlayImage, controls.IImageList_GetOverlayImage, controls.comctl_IImageList_GetOverlayImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

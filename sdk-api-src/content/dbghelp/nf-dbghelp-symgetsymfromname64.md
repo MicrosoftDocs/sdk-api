@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetSymFromName64
 title: SymGetSymFromName64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates a symbol for the specified name.
 old-location: base\symgetsymfromname64.htm
 old-project: Debug
 ms.assetid: 9c9a1a57-06c2-422a-b078-5b7725d54bd4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetSymFromName, SymGetSymFromName function, SymGetSymFromName64, SymGetSymFromName64 function, _win32_symgetsymfromname64, base.symgetsymfromname64, dbghelp/SymGetSymFromName, dbghelp/SymGetSymFromName64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

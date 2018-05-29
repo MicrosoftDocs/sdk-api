@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.CIRestrictionToFullTree
 title: CIRestrictionToFullTree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a query restriction tree with columns, sort columns, and grouping columns to a DBCOMMANDTREE structure.
 old-location: indexsrv\cirestrictiontofulltree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2c2t.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CIRestrictionToFullTree, CIRestrictionToFullTree function [Indexing Service], _idxs_CIRestrictionToFullTree, indexsrv.cirestrictiontofulltree, ntquery/CIRestrictionToFullTree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

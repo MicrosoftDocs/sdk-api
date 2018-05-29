@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMBrush.GetOpacity
 title: IXpsOMBrush::GetOpacity
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the opacity of the brush.
 old-location: xps\ixpsombrush_getopacity.htm
 old-project: printdocs
 ms.assetid: 53819ce0-4b81-4720-8c1d-6e9031b228c9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, IXpsOMBrush interface [XPS Documents and Packaging],GetOpacity method, IXpsOMBrush.GetOpacity, IXpsOMBrush::GetOpacity, xps.ixpsombrush_getopacity, xpsobjectmodel/IXpsOMBrush::GetOpacity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

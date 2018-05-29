@@ -1,16 +1,16 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0004
 title: "__MIDL___MIDL_itf_pla_0001_0043_0004"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the running status of the data collector set.
 old-location: pla\datacollectorsetstatus.htm
 old-project: PLA
 ms.assetid: 7cccb588-c530-46dc-99e8-84e763cb0a8b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DataCollectorSetStatus, DataCollectorSetStatus enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0004, base.datacollectorsetstatus, pla.datacollectorsetstatus, pla/DataCollectorSetStatus, pla/plaCompiling, pla/plaPending, pla/plaRunning, pla/plaStopped, pla/plaUndefined, plaCompiling, plaPending, plaRunning, plaStopped, plaUndefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dwrite_3.GetGlyphImageFormats
 title: GetGlyphImageFormats function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets supported glyph image formats.
 old-location: directwrite\idwritefontface4_getglyphimageformats_overload.htm
 old-project: DirectWrite
 ms.assetid: bbbb399a-fdcd-5e08-4c50-1bec4784d696
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetGlyphImageFormats, GetGlyphImageFormats methods [Direct Write], IDWriteFontFace4::GetGlyphImageFormats, directwrite.idwritefontface4_getglyphimageformats_overload, dwrite_3/GetGlyphImageFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwrite_3.h
 req.include-header: 

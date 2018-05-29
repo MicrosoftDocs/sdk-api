@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_VIDEO_COMPRESSION
 title: tagDVD_VIDEO_COMPRESSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible DVD video compression types.
 old-location: dshow\dvd_video_compression.htm
 old-project: DirectShow
 ms.assetid: e147a860-4c69-4da0-96d1-dfc4957880d9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_VIDEO_COMPRESSION, DVD_VIDEO_COMPRESSION , DVD_VIDEO_COMPRESSION enumeration [DirectShow], DVD_VIDEO_COMPRESSIONEnumeration, DVD_VideoCompression_MPEG1, DVD_VideoCompression_MPEG2, DVD_VideoCompression_Other, dshow.dvd_video_compression, strmif/DVD_VIDEO_COMPRESSION, strmif/DVD_VideoCompression_MPEG1, strmif/DVD_VideoCompression_MPEG2, strmif/DVD_VideoCompression_Other, tagDVD_VIDEO_COMPRESSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

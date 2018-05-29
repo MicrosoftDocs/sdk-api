@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineConfigProvider
 title: lineConfigProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineConfigProvider function causes a service provider to display its configuration dialog box.
 old-location: tapi2\lineconfigprovider.htm
 old-project: Tapi
 ms.assetid: 3149b353-6380-4fa9-a6ef-cf4566aaff58
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineconfigprovider, lineConfigProvider, lineConfigProvider function [TAPI 2.2], tapi/lineConfigProvider, tapi2.lineconfigprovider"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

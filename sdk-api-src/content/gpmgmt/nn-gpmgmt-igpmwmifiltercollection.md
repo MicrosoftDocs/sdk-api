@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMWMIFilterCollection
 title: IGPMWMIFilterCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMWMIFilterCollection interface contains methods that enable applications to access a collection of WMI filters when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmwmifiltercollection.htm
 old-project: GPMC
 ms.assetid: 8f65e6f6-fca3-46b7-aa0d-804470feb5bb
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMWMIFilterCollection, IGPMWMIFilterCollection, IGPMWMIFilterCollection interface [GPMC], IGPMWMIFilterCollection interface [GPMC],described, _win32_igpmwmifiltercollection, gpmc.igpmwmifiltercollection, gpmgmt/IGPMWMIFilterCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

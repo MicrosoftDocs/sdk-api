@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ILaunchSourceAppUserModelId.GetAppUserModelId
 title: ILaunchSourceAppUserModelId::GetAppUserModelId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an AppUserModelId from the source application.
 old-location: shell\ILaunchSourceAppUserModelId_GetAppUserModelId.htm
 old-project: shell
 ms.assetid: 1B5E57E2-6870-4A52-BA61-3113385F03F5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAppUserModelId, GetAppUserModelId method [Windows Shell], GetAppUserModelId method [Windows Shell],ILaunchSourceAppUserModelId interface, ILaunchSourceAppUserModelId interface [Windows Shell],GetAppUserModelId method, ILaunchSourceAppUserModelId.GetAppUserModelId, ILaunchSourceAppUserModelId::GetAppUserModelId, shell.ILaunchSourceAppUserModelId_GetAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId::GetAppUserModelId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

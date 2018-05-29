@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3cc.IEnumQueue
 title: IEnumQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumQueue interface provides COM-standard enumeration methods for the ITQueue interface. The ITACDGroup::EnumerateQueues method returns a pointer to IEnumQueue.
 old-location: tapi3\ienumqueue.htm
 old-project: Tapi
 ms.assetid: 0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumQueue, IEnumQueue interface [TAPI 2.2], IEnumQueue interface [TAPI 2.2],described, _tapi3_ienumqueue, tapi3.ienumqueue, tapi3cc/IEnumQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

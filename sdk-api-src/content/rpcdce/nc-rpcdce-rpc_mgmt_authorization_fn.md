@@ -1,16 +1,16 @@
 ---
 UID: NC:rpcdce.RPC_MGMT_AUTHORIZATION_FN
 title: RPC_MGMT_AUTHORIZATION_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: The RPC_MGMT_AUTHORIZATION_FN enables server programs to implement custom RPC authorization techniques.
 old-location: rpc\rpc_mgmt_authorization_fn.htm
 old-project: Rpc
 ms.assetid: 9b7ab901-1dcf-458c-858f-f411825f324b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RPC_MGMT_AUTHORIZATION_FN, RPC_MGMT_AUTHORIZATION_FN callback, RPC_MGMT_AUTHORIZATION_FN callback function [RPC], RpcMgmtInqIfIds, RpcMgmtInqServerPrincName, RpcMgmtInqStats, RpcMgmtIsServerListening, RpcMgmtStopServerListening, _rpc_rpc_mgmt_authorization_fn, rpc.rpc_mgmt_authorization_fn, rpcdce/RPC_MGMT_AUTHORIZATION_FN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: rpcdce.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IGraphBuilder.Abort
 title: IGraphBuilder::Abort
-author: windows-driver-content
+author: windows-sdk-content
 description: The Abort method requests the Filter Graph Manager to halt its current task as quickly as possible.
 old-location: dshow\igraphbuilder_abort.htm
 old-project: DirectShow
 ms.assetid: e9a46959-afa0-4e12-80c3-c4b95feb96e5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Abort, Abort method [DirectShow], Abort method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Abort method, IGraphBuilder.Abort, IGraphBuilder::Abort, IGraphBuilderAbort, dshow.igraphbuilder_abort, strmif/IGraphBuilder::Abort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetMimeTypes
 title: IWICBitmapCodecInfo::GetMimeTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a comma delimited sequence of mime types associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getmimetypes.htm
 old-project: wic
 ms.assetid: fbca8068-a57d-402b-85e1-0dd284824efa
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetMimeTypes, GetMimeTypes method [Windows Imaging Component], GetMimeTypes method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetMimeTypes method, IWICBitmapCodecInfo.GetMimeTypes, IWICBitmapCodecInfo::GetMimeTypes, _wic_codec_iwicbitmapcodecinfo_getmimetypes, wic._wic_codec_iwicbitmapcodecinfo_getmimetypes, wincodec/IWICBitmapCodecInfo::GetMimeTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

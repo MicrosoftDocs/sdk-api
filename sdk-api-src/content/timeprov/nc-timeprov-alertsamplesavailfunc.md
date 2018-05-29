@@ -1,16 +1,16 @@
 ---
 UID: NC:timeprov.AlertSamplesAvailFunc
 title: AlertSamplesAvailFunc
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the system that there are new time samples available.
 old-location: base\alertsamplesavail.htm
 old-project: SysInfo
 ms.assetid: f90da019-072e-46c9-8e05-0321a9960968
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AlertSamplesAvailFunc, AlertSamplesAvailFunc callback, AlertSamplesAvailFunc callback function, _win32_alertsamplesavail, base.alertsamplesavail, timeprov/AlertSamplesAvailFunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: timeprov.h
 req.include-header: 

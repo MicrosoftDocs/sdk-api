@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.DXVA2_Fixed32OpaqueAlpha
 title: DXVA2_Fixed32OpaqueAlpha function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a DXVA2_Fixed32 structure that contains an opaque alpha value.
 old-location: mf\dxva2_fixed32opaquealpha.htm
 old-project: medfound
 ms.assetid: de2f8aa8-0e06-4f47-9d69-dfff07bc4c0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVA2_Fixed32OpaqueAlpha, DXVA2_Fixed32OpaqueAlpha function [Media Foundation], de2f8aa8-0e06-4f47-9d69-dfff07bc4c0f, dxva2api/DXVA2_Fixed32OpaqueAlpha, mf.dxva2_fixed32opaquealpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 

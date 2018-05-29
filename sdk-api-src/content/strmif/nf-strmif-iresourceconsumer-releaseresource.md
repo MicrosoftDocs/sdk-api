@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IResourceConsumer.ReleaseResource
 title: IResourceConsumer::ReleaseResource
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReleaseResource method requests the resource consumer to release the specified resource.
 old-location: dshow\iresourceconsumer_releaseresource.htm
 old-project: DirectShow
 ms.assetid: 9f0a5830-dcaa-4020-9e78-0cbe64e13360
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IResourceConsumer interface [DirectShow],ReleaseResource method, IResourceConsumer.ReleaseResource, IResourceConsumer::ReleaseResource, IResourceConsumerReleaseResource, ReleaseResource, ReleaseResource method [DirectShow], ReleaseResource method [DirectShow],IResourceConsumer interface, dshow.iresourceconsumer_releaseresource, strmif/IResourceConsumer::ReleaseResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

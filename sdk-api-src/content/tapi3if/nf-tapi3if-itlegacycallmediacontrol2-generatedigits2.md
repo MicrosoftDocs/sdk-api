@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GenerateDigits2
 title: ITLegacyCallMediaControl2::GenerateDigits2
-author: windows-driver-content
+author: windows-sdk-content
 description: The GenerateDigits2 method causes digits to be output on the current call. This method extends the ITLegacyCallMediaControl::GenerateDigits method by adding a duration parameter.
 old-location: tapi3\itlegacycallmediacontrol2_generatedigits2.htm
 old-project: Tapi
 ms.assetid: 63ea18ef-18ca-4771-a7d9-60d4e8c514a5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GenerateDigits2, GenerateDigits2 method [TAPI 2.2], GenerateDigits2 method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateDigits2 method, ITLegacyCallMediaControl2.GenerateDigits2, ITLegacyCallMediaControl2::GenerateDigits2, _tapi3_itlegacycallmediacontrol2_generatedigits2, tapi3.itlegacycallmediacontrol2_generatedigits2, tapi3if/ITLegacyCallMediaControl2::GenerateDigits2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

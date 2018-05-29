@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetCoefficient3
 title: SetCoefficient3 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the third coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient3_overloaded.htm
 old-project: directcomp
 ms.assetid: 1d330b4e-6ddd-2a9a-6a30-e459c9669c85
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetCoefficient3, dcomp/setcoefficient3, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient3_overloaded, idcompositionarithmeticcompositeeffect::setcoefficient3, setcoefficient3, setcoefficient3 methods [DirectComposition]
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

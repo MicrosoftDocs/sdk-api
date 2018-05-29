@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMProfileManager
 title: IWMProfileManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMProfileManager interface is used to create profiles, load existing profiles, and save profiles.
 old-location: wmformat\iwmprofilemanager.htm
 old-project: wmformat
 ms.assetid: e5ec945c-4513-48ad-8bef-e0fb54826991
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], IWMProfileManager interface [windows Media Format],described, IWMProfileManagerInterface, wmformat.iwmprofilemanager, wmsdkidl/IWMProfileManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

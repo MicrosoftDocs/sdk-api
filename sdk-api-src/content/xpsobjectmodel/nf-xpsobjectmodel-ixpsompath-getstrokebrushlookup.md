@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLookup
 title: IXpsOMPath::GetStrokeBrushLookup
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the lookup key of the brush that is stored in a resource dictionary and is to be used as the stroke brush for the path.
 old-location: xps\ixpsompath_getstrokebrushlookup.htm
 old-project: printdocs
 ms.assetid: af70b6a3-203a-4189-b44d-763539e0302a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetStrokeBrushLookup, GetStrokeBrushLookup method [XPS Documents and Packaging], GetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLookup method, IXpsOMPath.GetStrokeBrushLookup, IXpsOMPath::GetStrokeBrushLookup, xps.ixpsompath_getstrokebrushlookup, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

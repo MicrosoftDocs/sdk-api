@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupGetRecord
 title: PeerGroupGetRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupGetRecord function retrieves a specific group record.
 old-location: p2p\peergroupgetrecord.htm
 old-project: P2PSdk
 ms.assetid: cf24bf5f-8ffc-4b86-80f7-dcb7621f49d2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupGetRecord, PeerGroupGetRecord function [Peer Networking], p2p.peergroupgetrecord, p2p/PeerGroupGetRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:msctf.TF_LANGUAGEPROFILE
 title: TF_LANGUAGEPROFILE
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_LANGUAGEPROFILE structure contains information about a language profile.
 old-location: tsf\tf_languageprofile.htm
 old-project: TSF
 ms.assetid: f9dbd701-d893-409b-b033-3e37d12ccaa7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_LANGUAGEPROFILE, TF_LANGUAGEPROFILE structure [Text Services Framework], _tsf_tf_languageprofile_ref, msctf/TF_LANGUAGEPROFILE, tsf.tf_languageprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

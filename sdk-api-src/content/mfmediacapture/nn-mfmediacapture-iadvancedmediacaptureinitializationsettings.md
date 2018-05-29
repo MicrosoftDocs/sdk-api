@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCaptureInitializationSettings
 title: IAdvancedMediaCaptureInitializationSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides initialization settings for advanced media capture.
 old-location: mf\iadvancedmediacaptureInitializationsettings.htm
 old-project: medfound
 ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediacapture.h
 req.include-header: 

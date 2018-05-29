@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.GetParentState
 title: IOleParentUndoUnit::GetParentState
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves state information about the innermost open parent undo unit.
 old-location: com\ioleparentundounit_getparentstate.htm
 old-project: com
 ms.assetid: 23eb1768-b68a-4b97-94a4-eeb7b840dda8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetParentState, GetParentState method [COM], GetParentState method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],GetParentState method, IOleParentUndoUnit.GetParentState, IOleParentUndoUnit::GetParentState, _ole_ioleparentundounit_getparentstate, com.ioleparentundounit_getparentstate, ocidl/IOleParentUndoUnit::GetParentState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

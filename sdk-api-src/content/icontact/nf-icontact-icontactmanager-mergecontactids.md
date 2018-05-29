@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactManager.MergeContactIDs
 title: IContactManager::MergeContactIDs
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes an old Contact ID resolve to the same value as a new Contact ID. Subsequent calls to IContactManager::Load with the old contact ID now loads the new contact ID contact.
 old-location: wincontacts\_wincontacts_IContactManager_MergeContactIDs.htm
 old-project: wincontacts
 ms.assetid: 1a3aea59-ef92-4775-b942-7383a5e8a63c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IContactManager interface [Windows Contacts],MergeContactIDs method, IContactManager.MergeContactIDs, IContactManager::MergeContactIDs, MergeContactIDs, MergeContactIDs method [Windows Contacts], MergeContactIDs method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_MergeContactIDs, icontact/IContactManager::MergeContactIDs, wincontacts._wincontacts_IContactManager_MergeContactIDs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

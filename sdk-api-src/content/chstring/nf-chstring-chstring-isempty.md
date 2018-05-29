@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.IsEmpty
 title: CHString::IsEmpty
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsEmpty method tests a CHString string for the empty condition.
 old-location: wmi\chstring_isempty.htm
 old-project: WmiSdk
 ms.assetid: 06af1063-1e5a-4a09-a0d7-b5567b9efcff
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],IsEmpty method, CHString.IsEmpty, CHString::IsEmpty, IsEmpty, IsEmpty method [Windows Management Instrumentation], IsEmpty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_isempty, chstring/CHString::IsEmpty, wmi.chstring_isempty"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WTHelperProvDataFromStateData
 title: WTHelperProvDataFromStateData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves trust provider information from a specified handle.
 old-location: security\wthelperprovdatafromstatedata.htm
 old-project: SecCrypto
 ms.assetid: ca2ca612-2da6-4fe1-8b1e-bc6307eb92af
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData function [Security], security.wthelperprovdatafromstatedata, wintrust/WTHelperProvDataFromStateData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

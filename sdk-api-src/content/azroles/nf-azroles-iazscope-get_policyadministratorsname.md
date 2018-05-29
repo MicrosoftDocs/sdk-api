@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyAdministratorsName
 title: IAzScope::get_PolicyAdministratorsName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the account names of principals that act as policy administrators.
 old-location: security\iazscope_policyadministratorsname.htm
 old-project: SecAuthZ
 ms.assetid: 291aa2f8-f08e-45f5-ade7-b456c962dd3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzScope object [Security],PolicyAdministratorsName property, IAzScope interface [Security],PolicyAdministratorsName property, IAzScope.PolicyAdministratorsName, IAzScope.get_PolicyAdministratorsName, IAzScope::PolicyAdministratorsName, IAzScope::get_PolicyAdministratorsName, PolicyAdministratorsName property [Security], PolicyAdministratorsName property [Security],AzScope object, PolicyAdministratorsName property [Security],IAzScope interface, azroles/IAzScope::PolicyAdministratorsName, azroles/IAzScope::get_PolicyAdministratorsName, get_PolicyAdministratorsName, security.iazscope_policyadministratorsname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

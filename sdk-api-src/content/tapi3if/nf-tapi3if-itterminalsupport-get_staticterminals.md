@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.get_StaticTerminals
 title: ITTerminalSupport::get_StaticTerminals
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_StaticTerminals method creates a collection of currently available static terminals.
 old-location: tapi3\itterminalsupport_get_staticterminals.htm
 old-project: Tapi
 ms.assetid: f4cdd3f5-ca8c-4660-b37c-c38779a516dd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTerminalSupport interface [TAPI 2.2],get_StaticTerminals method, ITTerminalSupport.get_StaticTerminals, ITTerminalSupport::get_StaticTerminals, _tapi3_itterminalsupport_get_staticterminals, get_StaticTerminals, get_StaticTerminals method [TAPI 2.2], get_StaticTerminals method [TAPI 2.2],ITTerminalSupport interface, tapi3.itterminalsupport_get_staticterminals, tapi3if/ITTerminalSupport::get_StaticTerminals
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

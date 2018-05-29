@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IBinaryConverter.VariantByteArrayToString
 title: IBinaryConverter::VariantByteArrayToString
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Unicode encoded string from a byte array.
 old-location: security\ibinaryconverter_variantbytearraytostring_method.htm
 old-project: SecCertEnroll
 ms.assetid: c10c93c1-10b1-4724-9df5-3c17c593c2b9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBinaryConverter interface [Security],VariantByteArrayToString method, IBinaryConverter.VariantByteArrayToString, IBinaryConverter::VariantByteArrayToString, VariantByteArrayToString, VariantByteArrayToString method [Security], VariantByteArrayToString method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::VariantByteArrayToString, security.ibinaryconverter_variantbytearraytostring_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

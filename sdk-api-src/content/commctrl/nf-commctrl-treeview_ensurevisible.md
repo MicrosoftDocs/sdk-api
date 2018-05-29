@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_EnsureVisible
 title: TreeView_EnsureVisible macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the TVM_ENSUREVISIBLE message explicitly.
 old-location: controls\TreeView_EnsureVisible.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_ensurevisible.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_EnsureVisible, TreeView_EnsureVisible macro [Windows Controls], _win32_TreeView_EnsureVisible, _win32_TreeView_EnsureVisible_cpp, commctrl/TreeView_EnsureVisible, controls.TreeView_EnsureVisible, controls._win32_TreeView_EnsureVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

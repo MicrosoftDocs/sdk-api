@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.EscapeCommFunction
 title: EscapeCommFunction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Directs the specified communications device to perform an extended function.
 old-location: base\escapecommfunction.htm
 old-project: DevIO
 ms.assetid: 27c4ebdf-1c06-4a60-8e49-dcccba10789c
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: CLRBREAK, CLRDTR, CLRRTS, EscapeCommFunction, EscapeCommFunction function, SETBREAK, SETDTR, SETRTS, SETXOFF, SETXON, _win32_escapecommfunction, base.escapecommfunction, winbase/EscapeCommFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

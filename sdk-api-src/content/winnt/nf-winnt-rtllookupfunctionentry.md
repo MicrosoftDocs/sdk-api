@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlLookupFunctionEntry
 title: RtlLookupFunctionEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches the active function tables for an entry that corresponds to the specified PC value.
 old-location: base\rtllookupfunctionentry.htm
 old-project: Debug
 ms.assetid: 624b97fb-0453-4f47-b6bd-92aa14705e78
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllookupfunctionentry, winnt/RtlLookupFunctionEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

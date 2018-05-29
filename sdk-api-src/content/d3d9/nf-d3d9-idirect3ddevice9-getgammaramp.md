@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetGammaRamp
 title: IDirect3DDevice9::GetGammaRamp
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the gamma correction ramp for the swap chain.
 old-location: direct3d9\idirect3ddevice9__getgammaramp.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getgammaramp.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: GetGammaRamp, GetGammaRamp method [Direct3D 9], GetGammaRamp method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetGammaRamp method, IDirect3DDevice9.GetGammaRamp, IDirect3DDevice9::GetGammaRamp, b52b118d-254d-ca5b-efc0-a7e22cf186ef, d3d9helper/IDirect3DDevice9::GetGammaRamp, direct3d9.idirect3ddevice9__getgammaramp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

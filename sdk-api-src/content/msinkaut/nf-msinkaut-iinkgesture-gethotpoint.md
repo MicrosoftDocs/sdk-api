@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkGesture.GetHotPoint
 title: IInkGesture::GetHotPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the hot point of the gesture, in ink space coordinates.
 old-location: tablet\iinkgesture_gethotpoint.htm
 old-project: tablet
 ms.assetid: 6c047cf7-2162-4146-906b-47c4006daeeb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 6c047cf7-2162-4146-906b-47c4006daeeb, GetHotPoint, GetHotPoint method [Tablet PC], GetHotPoint method [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],GetHotPoint method, IInkGesture.GetHotPoint, IInkGesture::GetHotPoint, msinkaut/IInkGesture::GetHotPoint, tablet.iinkgesture_gethotpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaContextDestroyEnumHandle0
 title: IPsecSaContextDestroyEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a handle returned by IPsecSaContextCreateEnumHandle0.
 old-location: fwp\ipsecsacontextdestroyenumhandle0.htm
 old-project: FWP
 ms.assetid: 2d8cb6e2-3923-473f-85d0-26638781651b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaContextDestroyEnumHandle0, IPsecSaContextDestroyEnumHandle0 function [Filtering], fwp.ipsecsacontextdestroyenumhandle0, fwpmu/IPsecSaContextDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

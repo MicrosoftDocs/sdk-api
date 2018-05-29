@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorTechnologyType
 title: GetMonitorTechnologyType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of technology used by a monitor.
 old-location: monitor\getmonitortechnologytype.htm
 old-project: Monitor
 ms.assetid: da3a5f64-2638-464b-973b-33cbe4cc64e7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetMonitorTechnologyType, GetMonitorTechnologyType function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorTechnologyType, monitor.getmonitortechnologytype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

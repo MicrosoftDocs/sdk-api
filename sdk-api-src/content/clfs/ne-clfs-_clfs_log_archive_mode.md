@@ -1,16 +1,16 @@
 ---
 UID: NE:clfs._CLFS_LOG_ARCHIVE_MODE
 title: "_CLFS_LOG_ARCHIVE_MODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether a log is ephemeral.
 old-location: fs\clfs_log_archive_mode.htm
 old-project: Clfs
 ms.assetid: 448d79cd-d959-4585-877e-0f70b44f3172
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_MODE enumeration [Files], ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, PCLFS_LOG_ARCHIVE_MODE, PCLFS_LOG_ARCHIVE_MODE enumeration pointer [Files], _CLFS_LOG_ARCHIVE_MODE, clfs/CLFS_LOG_ARCHIVE_MODE, clfs/ClfsLogArchiveDisabled, clfs/ClfsLogArchiveEnabled, clfs/PCLFS_LOG_ARCHIVE_MODE, fs.clfs_log_archive_mode"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: clfs.h
 req.include-header: 

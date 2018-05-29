@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterMetadataCount
 title: IVssBackupComponents::GetWriterMetadataCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetWriterMetadataCount method returns the number of writers with metadata.
 old-location: base\ivssbackupcomponents_getwritermetadatacount.htm
 old-project: VSS
 ms.assetid: cf8c4782-2850-4847-a7a1-95bd2bd547a1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetWriterMetadataCount, GetWriterMetadataCount method [VSS], GetWriterMetadataCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadataCount method, IVssBackupComponents.GetWriterMetadataCount, IVssBackupComponents::GetWriterMetadataCount, _win32_ivssbackupcomponents_getwritermetadatacount, base.ivssbackupcomponents_getwritermetadatacount, vsbackup/IVssBackupComponents::GetWriterMetadataCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

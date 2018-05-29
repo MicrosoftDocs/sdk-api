@@ -1,16 +1,16 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0004
 title: "__MIDL___MIDL_itf_winsync_0000_0000_0004"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the action to be taken by an application in response to ISyncCallback::OnFullEnumerationNeeded.
 old-location: winsync\sync_full_enumeration_action.htm
 old-project: winsync
 ms.assetid: 4fdb7123-d8c8-4ed7-9009-0e772252bbb7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SFEA_ABORT, SFEA_FULL_ENUMERATION, SFEA_PARTIAL_SYNC, SYNC_FULL_ENUMERATION_ACTION, SYNC_FULL_ENUMERATION_ACTION enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0004, winsync.sync_full_enumeration_action, winsync/SFEA_ABORT, winsync/SFEA_FULL_ENUMERATION, winsync/SFEA_PARTIAL_SYNC, winsync/SYNC_FULL_ENUMERATION_ACTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

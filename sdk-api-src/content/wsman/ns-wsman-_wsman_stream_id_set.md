@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_STREAM_ID_SET
 title: "_WSMAN_STREAM_ID_SET"
-author: windows-driver-content
+author: windows-sdk-content
 description: Lists all the streams that are used for either input or output for the shell and commands.
 old-location: winrm\wsman_stream_id_set.htm
 old-project: WinRM
 ms.assetid: a5705afa-e0b3-4a74-8c13-5abf3f53a209
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_STREAM_ID_SET, WSMAN_STREAM_ID_SET structure [Windows Remote Management], _WSMAN_STREAM_ID_SET, winrm.wsman_stream_id_set, wsman/WSMAN_STREAM_ID_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

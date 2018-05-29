@@ -1,16 +1,16 @@
 ---
 UID: NS:appmodel.PACKAGE_VERSION
 title: PACKAGE_VERSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the package version information.
 old-location: appxpkg\package_version.htm
 old-project: appxpkg
 ms.assetid: 8543DF84-A908-4DF5-AEE6-169FECB2AA97
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: PACKAGE_VERSION, PACKAGE_VERSION structure [App packaging and management], appmodel/PACKAGE_VERSION, appxpkg.package_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmodel.h
 req.include-header: 

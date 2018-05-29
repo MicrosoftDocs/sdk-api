@@ -1,16 +1,16 @@
 ---
 UID: NS:clfs._CLS_INFORMATION
 title: "_CLS_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes general information about a log.
 old-location: fs\clfs_information.htm
 old-project: Clfs
 ms.assetid: 06f5919e-b98f-4502-9653-9ef42c1ebe5a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, CLFS_INFORMATION, CLFS_INFORMATION structure [Files], CLS_INFORMATION, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Files], PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Files], _CLS_INFORMATION, clfs/PCLFS_INFORMATION, clfs/PPCLFS_INFORMATION, clfs/_CLFS_INFORMATION, fs.clfs_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

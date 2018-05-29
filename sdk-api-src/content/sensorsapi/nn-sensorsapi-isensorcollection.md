@@ -1,16 +1,16 @@
 ---
 UID: NN:sensorsapi.ISensorCollection
 title: ISensorCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of sensors, such as all the sensors connected to a computer.
 old-location: winsensors\isensorcollection.htm
 old-project: SensorsAPI
 ms.assetid: 54d8572a-40a2-49d0-a8bf-2161b63eee42
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensorCollection, ISensorCollection interface [WinSensors], ISensorCollection interface [WinSensors],described, sensorsapi/ISensorCollection, winsensors.isensorcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 

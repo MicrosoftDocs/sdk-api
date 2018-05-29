@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzRole
 title: IAzRole
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of operations that can be performed by a set of users within a scope.
 old-location: security\iazrole.htm
 old-project: SecAuthZ
 ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzRole, IAzRole interface [Security], IAzRole interface [Security],described, azroles/IAzRole, security.iazrole
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

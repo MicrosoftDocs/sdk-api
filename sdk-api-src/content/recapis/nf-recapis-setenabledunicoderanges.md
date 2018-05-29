@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.SetEnabledUnicodeRanges
 title: SetEnabledUnicodeRanges function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables one or more Unicode point ranges on the context.
 old-location: tablet\setenabledunicoderanges.htm
 old-project: tablet
 ms.assetid: 68c7c06b-eab1-419d-ad58-22cbd4c3065e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 68c7c06b-eab1-419d-ad58-22cbd4c3065e, SetEnabledUnicodeRanges, SetEnabledUnicodeRanges function [Tablet PC], recapis/SetEnabledUnicodeRanges, tablet.setenabledunicoderanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

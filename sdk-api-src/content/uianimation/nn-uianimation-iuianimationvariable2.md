@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationVariable2
 title: IUIAnimationVariable2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an animation variable, which represents a visual element that can be animated in multiple dimensions.
 old-location: uianimation\iuianimationvariable2.htm
 old-project: UIAnimation
 ms.assetid: A676EF27-B59D-4D2D-AD5B-8F46EE337E69
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], IUIAnimationVariable2 interface [Windows Animation],described, uianimation.iuianimationvariable2, uianimation/IUIAnimationVariable2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

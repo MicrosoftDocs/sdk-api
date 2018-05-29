@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectMatrixVariable
 title: ID3D10EffectMatrixVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: A matrix-variable interface accesses a matrix.
 old-location: direct3d10\id3d10effectmatrixvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 04e04746-d9a8-5507-39e7-6dbc6cf434c2, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], ID3D10EffectMatrixVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectMatrixVariable, direct3d10.id3d10effectmatrixvariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

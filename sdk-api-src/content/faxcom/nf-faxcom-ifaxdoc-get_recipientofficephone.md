@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientOfficePhone
 title: IFaxDoc::get_RecipientOfficePhone
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the RecipientOfficePhone property of a FaxDoc object. The RecipientOfficePhone property is a null-terminated string that contains the office telephone number of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientofficephone_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3945.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientOfficePhone property, FaxDoc.RecipientOfficePhone, IFaxDoc.get_RecipientOfficePhone, IFaxDoc::get_RecipientOfficePhone, RecipientOfficePhone property [Fax Service], RecipientOfficePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone_vb, get_RecipientOfficePhone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StopWatchMode
 title: StopWatchMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: StopWatchMode may be altered or unavailable.
 old-location: shell\StopWatchMode.htm
 old-project: shell
 ms.assetid: 3db69040-0720-41a3-ba88-db885a2685aa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopWatchMode, shell.StopWatchMode, shlwapi/StopWatchMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

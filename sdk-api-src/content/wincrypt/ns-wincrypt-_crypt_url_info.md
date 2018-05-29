@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_URL_INFO
 title: "_CRYPT_URL_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about groupings of URLs.
 old-location: security\crypt_url_info.htm
 old-project: SecCrypto
 ms.assetid: 58289a66-6580-468c-b001-5da08cf6d4a9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_URL_INFO, CRYPT_URL_INFO, CRYPT_URL_INFO structure [Security], PCRYPT_URL_INFO, PCRYPT_URL_INFO structure pointer [Security], _CRYPT_URL_INFO, _crypto2_crypt_url_info, security.crypt_url_info, wincrypt/CRYPT_URL_INFO, wincrypt/PCRYPT_URL_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

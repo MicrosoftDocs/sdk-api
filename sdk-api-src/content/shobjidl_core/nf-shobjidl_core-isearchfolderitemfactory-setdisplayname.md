@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetDisplayName
 title: ISearchFolderItemFactory::SetDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the search folder display name, as specified.
 old-location: shell\ISearchFolderItemFactory_SetDisplayName.htm
 old-project: shell
 ms.assetid: 2552677b-7907-4a2b-8a2f-6769bca64029
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetDisplayName method, ISearchFolderItemFactory.SetDisplayName, ISearchFolderItemFactory::SetDisplayName, SetDisplayName, SetDisplayName method [Windows Shell], SetDisplayName method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetDisplayName, shell.ISearchFolderItemFactory_SetDisplayName, shobjidl_core/ISearchFolderItemFactory::SetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

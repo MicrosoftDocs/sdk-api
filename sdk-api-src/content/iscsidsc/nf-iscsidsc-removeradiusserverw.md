@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.RemoveRadiusServerW
 title: RemoveRadiusServerW function
-author: windows-driver-content
+author: windows-sdk-content
 description: RemoveRadiusServer function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured.
 old-location: iscsidisc\removeradiusserver.htm
 old-project: iSCSIDisc
 ms.assetid: e096a91b-84de-4b7d-a0d6-1364746ec488
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: RemoveRadiusServer, RemoveRadiusServer function [iSCSI Discovery Library API], RemoveRadiusServerA, RemoveRadiusServerW, iscsidisc.removeradiusserver, iscsidsc/RemoveRadiusServer, iscsidsc/RemoveRadiusServerA, iscsidsc/RemoveRadiusServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:amstream.IDirectDrawMediaSample.GetSurfaceAndReleaseLock
 title: IDirectDrawMediaSample::GetSurfaceAndReleaseLock
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSurfaceAndReleaseLock method retrieves and unlocks the surface that the sample represents.
 old-location: dshow\idirectdrawmediasample_getsurfaceandreleaselock.htm
 old-project: DirectShow
 ms.assetid: f2b30974-ed4a-4783-bda5-9e7f4f9b4aab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetSurfaceAndReleaseLock, GetSurfaceAndReleaseLock method [DirectShow], GetSurfaceAndReleaseLock method [DirectShow],IDirectDrawMediaSample interface, IDirectDrawMediaSample interface [DirectShow],GetSurfaceAndReleaseLock method, IDirectDrawMediaSample.GetSurfaceAndReleaseLock, IDirectDrawMediaSample::GetSurfaceAndReleaseLock, IDirectDrawMediaSampleGetSurfaceAndReleaseLock, amstream/IDirectDrawMediaSample::GetSurfaceAndReleaseLock, dshow.idirectdrawmediasample_getsurfaceandreleaselock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_OFFLINE_REASON
 title: tagOFFLINEFILES_OFFLINE_REASON
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the reason why an item is offline.
 old-location: of\offlinefiles_offline_reason.htm
 old-project: OfflineFiles
 ms.assetid: 0c55b7c6-f39d-4e04-bf16-a102c4b7d4fa
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: OFFLINEFILES_OFFLINE_REASON, OFFLINEFILES_OFFLINE_REASON enumeration [Offline Files], OFFLINEFILES_OFFLINE_REASON_CONNECTION_ERROR, OFFLINEFILES_OFFLINE_REASON_CONNECTION_FORCED, OFFLINEFILES_OFFLINE_REASON_CONNECTION_SLOW, OFFLINEFILES_OFFLINE_REASON_ITEM_SUSPENDED, OFFLINEFILES_OFFLINE_REASON_ITEM_VERSION_CONFLICT, OFFLINEFILES_OFFLINE_REASON_NOT_APPLICABLE, OFFLINEFILES_OFFLINE_REASON_UNKNOWN, cscobj/OFFLINEFILES_OFFLINE_REASON, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_ERROR, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_FORCED, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_SLOW, cscobj/OFFLINEFILES_OFFLINE_REASON_ITEM_SUSPENDED, cscobj/OFFLINEFILES_OFFLINE_REASON_ITEM_VERSION_CONFLICT, cscobj/OFFLINEFILES_OFFLINE_REASON_NOT_APPLICABLE, cscobj/OFFLINEFILES_OFFLINE_REASON_UNKNOWN, of.offlinefiles_offline_reason, tagOFFLINEFILES_OFFLINE_REASON
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 

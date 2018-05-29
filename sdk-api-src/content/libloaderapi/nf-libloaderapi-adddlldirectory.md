@@ -1,16 +1,16 @@
 ---
 UID: NF:libloaderapi.AddDllDirectory
 title: AddDllDirectory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a directory to the process DLL search path.
 old-location: base\adddlldirectory.htm
 old-project: Dlls
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

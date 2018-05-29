@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAsyncReader.BeginFlush
 title: IAsyncReader::BeginFlush
-author: windows-driver-content
+author: windows-sdk-content
 description: The BeginFlush method begins a flush operation.
 old-location: dshow\iasyncreader_beginflush.htm
 old-project: DirectShow
 ms.assetid: 29153592-dbc1-42b4-bd4e-2f1aef8d4c19
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],BeginFlush method, IAsyncReader.BeginFlush, IAsyncReader::BeginFlush, IAsyncReaderBeginFlush, dshow.iasyncreader_beginflush, strmif/IAsyncReader::BeginFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

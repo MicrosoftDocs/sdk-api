@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCSC_TrackerConfig
 title: tagCSC_TrackerConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the tracker property is added to the context in which the enclosed code runs.
 old-location: cos\csc_trackerconfig.htm
 old-project: cossdk
 ms.assetid: 48f01634-9802-4824-b251-ccb6e71aa099
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CSC_DontUseTracker, CSC_TrackerConfig, CSC_TrackerConfig enumeration [COM+], CSC_UseTracker, _cos_CSC_TrackerConfig, comsvcs/CSC_DontUseTracker, comsvcs/CSC_TrackerConfig, comsvcs/CSC_UseTracker, cos.csc_trackerconfig, tagCSC_TrackerConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

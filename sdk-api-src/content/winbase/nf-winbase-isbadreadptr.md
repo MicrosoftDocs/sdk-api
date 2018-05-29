@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.IsBadReadPtr
 title: IsBadReadPtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that the calling process has read access to the specified range of memory.
 old-location: base\isbadreadptr.htm
 old-project: Memory
 ms.assetid: c1561403-2b77-4c93-80f1-261f26629d4b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsBadReadPtr, IsBadReadPtr function, _win32_isbadreadptr, base.isbadreadptr, winbase/IsBadReadPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

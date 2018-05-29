@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.GetOutputTrustAuthorityCount
 title: IMFTrustedOutput::GetOutputTrustAuthorityCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of output trust authorities (OTAs) provided by this trusted output. Each OTA reports a single action.
 old-location: mf\imftrustedoutput_getoutputtrustauthoritycount.htm
 old-project: medfound
 ms.assetid: 3aae6859-0b32-4705-9045-b98d0bbf43a6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3aae6859-0b32-4705-9045-b98d0bbf43a6, GetOutputTrustAuthorityCount, GetOutputTrustAuthorityCount method [Media Foundation], GetOutputTrustAuthorityCount method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityCount method, IMFTrustedOutput.GetOutputTrustAuthorityCount, IMFTrustedOutput::GetOutputTrustAuthorityCount, mf.imftrustedoutput_getoutputtrustauthoritycount, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

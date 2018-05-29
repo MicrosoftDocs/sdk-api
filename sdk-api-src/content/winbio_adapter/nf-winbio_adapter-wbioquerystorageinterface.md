@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio_adapter.WbioQueryStorageInterface
 title: WbioQueryStorageInterface function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_STORAGE_INTERFACE structure for the storage adapter.
 old-location: secbiomet\wbioquerystorageinterface.htm
 old-project: SecBioMet
 ms.assetid: ff7297ee-8d0a-41f4-8abf-66ab5163dae7
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WbioQueryStorageInterface, WbioQueryStorageInterface function [Windows Biometric Framework API], secbiomet.wbioquerystorageinterface, winbio_adapter/WbioQueryStorageInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

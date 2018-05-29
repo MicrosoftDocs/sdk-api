@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateWaveFormatExFromMFMediaType
 title: MFCreateWaveFormatExFromMFMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Media Foundation audio media type to a WAVEFORMATEX structure.
 old-location: mf\mfcreatewaveformatexfrommfmediatype.htm
 old-project: medfound
 ms.assetid: b124bac2-90de-4358-a079-f509a89c3776
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateWaveFormatExFromMFMediaType, MFCreateWaveFormatExFromMFMediaType function [Media Foundation], b124bac2-90de-4358-a079-f509a89c3776, mf.mfcreatewaveformatexfrommfmediatype, mfapi/MFCreateWaveFormatExFromMFMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

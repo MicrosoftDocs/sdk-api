@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService3.IEParseDisplayNameEx
 title: IBrowserService3::IEParseDisplayNameEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Parses a URL into a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService3_IEParseDisplayNameEx.htm
 old-project: shell
 ms.assetid: 9e36418e-026b-4682-9074-4caec5370f8b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService3 interface [Windows Shell],IEParseDisplayNameEx method, IBrowserService3.IEParseDisplayNameEx, IBrowserService3::IEParseDisplayNameEx, IEPDN_BINDINGUI, IEParseDisplayNameEx, IEParseDisplayNameEx method [Windows Shell], IEParseDisplayNameEx method [Windows Shell],IBrowserService3 interface, shdeprecated/IBrowserService3::IEParseDisplayNameEx, shell.IBrowserService3_IEParseDisplayNameEx, zone_IBrowserService3_IEParseDisplayNameEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

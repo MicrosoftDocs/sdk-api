@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_2.D2D1ComputeMaximumScaleFactor
 title: D2D1ComputeMaximumScaleFactor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Computes the maximum factor by which a given transform can stretch any vector.
 old-location: direct2d\d2d1computemaximumscalefactor.htm
 old-project: Direct2D
 ms.assetid: 5BC10305-436F-4528-9647-E70713130505
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1ComputeMaximumScaleFactor, D2D1ComputeMaximumScaleFactor function [Direct2D], d2d1_2/D2D1ComputeMaximumScaleFactor, direct2d.d2d1computemaximumscalefactor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_2.h
 req.include-header: D2d1_1.h

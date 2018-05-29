@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D9_OPTIONS
 title: D3D11_FEATURE_DATA_D3D9_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes Direct3D 9 feature options in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d9_options.htm
 old-project: direct3d11
 ms.assetid: E5262261-28D7-4F7A-AB9A-A73FEADAE8FD
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D9_OPTIONS, D3D11_FEATURE_DATA_D3D9_OPTIONS structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D9_OPTIONS, direct3d11.d3d11_feature_data_d3d9_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

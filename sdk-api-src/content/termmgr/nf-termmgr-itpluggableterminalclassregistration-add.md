@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.Add
 title: ITPluggableTerminalClassRegistration::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: The Add method adds terminal information to the registry. If an entry for the terminal already exists, the method edits the entry.
 old-location: tapi3\itpluggableterminalclassregistration_add.htm
 old-project: Tapi
 ms.assetid: 2e5104e1-5276-4c5b-9a1a-404904432982
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, ITPluggableTerminalClassRegistration interface [TAPI 2.2],Add method, ITPluggableTerminalClassRegistration.Add, ITPluggableTerminalClassRegistration::Add, _tapi3_itpluggableterminalclassregistration_add, tapi3.itpluggableterminalclassregistration_add, termmgr/ITPluggableTerminalClassRegistration::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

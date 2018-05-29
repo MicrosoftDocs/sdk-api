@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteStreamParameter
 title: IWbemObjectSinkEx::WriteStreamParameter
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writestreamparameter.htm
 old-project: WmiSdk
 ms.assetid: 609ed388-3d6a-49ba-91ae-78a34bddd100
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteStreamParameter method, IWbemObjectSinkEx.WriteStreamParameter, IWbemObjectSinkEx::WriteStreamParameter, WriteStreamParameter, WriteStreamParameter method [Windows Management Instrumentation], WriteStreamParameter method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteStreamParameter, wmi.iwbemobjectsinkex_writestreamparameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

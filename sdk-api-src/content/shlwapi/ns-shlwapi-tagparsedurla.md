@@ -1,16 +1,16 @@
 ---
 UID: NS:shlwapi.tagPARSEDURLA
 title: tagPARSEDURLA
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the ParseURL function to return the parsed URL.
 old-location: shell\PARSEDURL.htm
 old-project: shell
 ms.assetid: 9092dd7a-ff5b-465f-a808-ef4e0067f540
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PPARSEDURLA, PARSEDURL, PARSEDURL structure [Windows Shell], PARSEDURLA, PARSEDURLW, PPARSEDURL, PPARSEDURL structure pointer [Windows Shell], _win32_PARSEDURL, shell.PARSEDURL, shlwapi/PARSEDURL, shlwapi/PARSEDURLA, shlwapi/PARSEDURLW, shlwapi/PPARSEDURL, tagPARSEDURLA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlwapi.h
 req.include-header: 

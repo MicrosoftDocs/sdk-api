@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linecallhubtrackinginfo_tag
 title: linecallhubtrackinginfo_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINECALLHUBTRACKINGINFO structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.
 old-location: tapi2\linecallhubtrackinginfo_str.htm
 old-project: Tapi
 ms.assetid: 1f4eaf7d-fc80-4131-af5a-30c6869c74ef
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO structure [TAPI 2.2], LPLINECALLHUBTRACKINGINFO, LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2], _tapi2_linecallhubtrackinginfo_str, linecallhubtrackinginfo_tag, tapi/LINECALLHUBTRACKINGINFO, tapi/LPLINECALLHUBTRACKINGINFO, tapi2.linecallhubtrackinginfo_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

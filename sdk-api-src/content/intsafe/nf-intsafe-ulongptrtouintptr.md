@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongPtrToUIntPtr
 title: ULongPtrToUIntPtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type UINT_PTR.
 old-location: shell\ULongPtrToUIntPtr.htm
 old-project: shell
 ms.assetid: 512f7db7-af3b-4cf8-aad5-138c5da344da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordPtrToUIntPtr, ULongPtrToUIntPtr, ULongPtrToUIntPtr function [Windows Shell], _shell_ULongPtrToUIntPtr, intsafe/ULongPtrToUIntPtr, shell.ULongPtrToUIntPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

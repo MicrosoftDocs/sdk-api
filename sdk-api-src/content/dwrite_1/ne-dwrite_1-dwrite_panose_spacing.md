@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SPACING
 title: DWRITE_PANOSE_SPACING
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_PANOSE_SPACING enumeration contains values that specify character spacing (monospace versus proportional).
 old-location: directwrite\dwrite_panose_spacing.htm
 old-project: DirectWrite
 ms.assetid: BA841315-2B57-4B35-A6E4-2343EBE67AC8
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_PANOSE_SPACING, DWRITE_PANOSE_SPACING enumeration [Direct Write], DWRITE_PANOSE_SPACING_, DWRITE_PANOSE_SPACING_ANY, DWRITE_PANOSE_SPACING_NO_FIT, DWRITE_PANOSE_SPACING_PROPORTIONAL_SPACED, directwrite.dwrite_panose_spacing, dwrite_1/DWRITE_PANOSE_SPACING, dwrite_1/DWRITE_PANOSE_SPACING_, dwrite_1/DWRITE_PANOSE_SPACING_ANY, dwrite_1/DWRITE_PANOSE_SPACING_NO_FIT, dwrite_1/DWRITE_PANOSE_SPACING_PROPORTIONAL_SPACED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

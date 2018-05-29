@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEnumerator.GetCount
 title: IAudioSessionEnumerator::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCount method gets the total number of audio sessions that are open on the audio device.
 old-location: coreaudio\iaudiosessionenumerator_getcount.htm
 old-project: CoreAudio
 ms.assetid: a1fbfbf5-a79b-40bc-97c7-a76a181bbfec
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioSessionEnumerator interface, IAudioSessionEnumerator interface [Core Audio],GetCount method, IAudioSessionEnumerator.GetCount, IAudioSessionEnumerator::GetCount, audiopolicy/IAudioSessionEnumerator::GetCount, coreaudio.iaudiosessionenumerator_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

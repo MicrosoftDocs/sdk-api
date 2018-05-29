@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFGetSystemId
 title: MFGetSystemId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an IMFSystemId object for retrieving system id data.
 old-location: mf\mfgetsystemid.htm
 old-project: medfound
 ms.assetid: E68B4DFF-EBB1-410E-9B6F-C9933A171E27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFGetSystemId, MFGetSystemId function [Media Foundation], mf.mfgetsystemid, mfidl/MFGetSystemId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

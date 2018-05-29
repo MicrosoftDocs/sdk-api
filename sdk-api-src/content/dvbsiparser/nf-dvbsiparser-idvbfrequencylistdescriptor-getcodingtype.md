@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetCodingType
 title: IDvbFrequencyListDescriptor::GetCodingType
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_getcodingtype.htm
 old-project: mstv
 ms.assetid: 0d458f42-bea5-4503-a2d7-89efd1abc1a8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCodingType, GetCodingType method [Microsoft TV Technologies], GetCodingType method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetCodingType method, IDvbFrequencyListDescriptor.GetCodingType, IDvbFrequencyListDescriptor::GetCodingType, IDvbFrequencyListDescriptorGetCodingType, dvbsiparser/IDvbFrequencyListDescriptor::GetCodingType, mstv.idvbfrequencylistdescriptor_getcodingtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

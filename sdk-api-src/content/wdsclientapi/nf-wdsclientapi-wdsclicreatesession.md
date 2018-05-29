@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliCreateSession
 title: WdsCliCreateSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a new session with a WDS server.
 old-location: wds\wdsclicreatesession.htm
 old-project: Wds
 ms.assetid: c66801b2-ad5c-464b-ace3-269214621c20
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliCreateSession, WdsCliCreateSession function [Windows Deployment Services], wds.wdsclicreatesession, wdsclientapi/WdsCliCreateSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

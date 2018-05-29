@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAPoll
 title: WSAPoll function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAPoll function determines status of one or more sockets.
 old-location: winsock\wsapoll.htm
 old-project: WinSock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

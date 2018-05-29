@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetProfileIntA
 title: GetProfileIntA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an integer from a key in the specified section of the Win.ini file.
 old-location: base\getprofileint.htm
 old-project: SysInfo
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIntW, _win32_getprofileint, base.getprofileint, winbase/GetProfileInt, winbase/GetProfileIntA, winbase/GetProfileIntW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

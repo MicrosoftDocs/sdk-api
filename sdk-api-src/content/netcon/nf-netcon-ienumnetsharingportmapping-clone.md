@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Clone
 title: IEnumNetSharingPortMapping::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingportmapping_clone.htm
 old-project: ICS
 ms.assetid: 7d8606ec-d8a2-40c5-9406-fcf16f30e999
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPortMapping interface, IEnumNetSharingPortMapping interface [ICS/ICF],Clone method, IEnumNetSharingPortMapping.Clone, IEnumNetSharingPortMapping::Clone, _ics_ienumnetsharingportmapping_clone, ics.ienumnetsharingportmapping_clone, netcon/IEnumNetSharingPortMapping::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

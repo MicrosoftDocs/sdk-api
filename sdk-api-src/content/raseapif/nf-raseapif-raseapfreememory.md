@@ -1,16 +1,16 @@
 ---
 UID: NF:raseapif.RasEapFreeMemory
 title: RasEapFreeMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RAS connection manager calls RasEapFreeMemory to free memory buffers returned by RasEapInvokeConfigUI, RasEapGetIdentity, and RasEapInvokeInteractiveUI.
 old-location: eap\raseapfreememory.htm
 old-project: EAP
 ms.assetid: d6eb6afd-0d92-4050-b6a9-7bd90788e01c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RasEapFreeMemory, RasEapFreeMemory callback, RasEapFreeMemory callback function [EAP], _eap_raseapfreememory, eap.raseapfreememory, raseapif/RasEapFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetTextExtentPointW
 title: GetTextExtentPointW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTextExtentPoint function computes the width and height of the specified string of text.
 old-location: gdi\gettextextentpoint.htm
 old-project: gdi
 ms.assetid: 731085ce-009d-42e1-885f-2f5151e0f6d3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTextExtentPoint, GetTextExtentPoint function [Windows GDI], GetTextExtentPointA, GetTextExtentPointW, _win32_GetTextExtentPoint, gdi.gettextextentpoint, wingdi/GetTextExtentPoint, wingdi/GetTextExtentPointA, wingdi/GetTextExtentPointW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

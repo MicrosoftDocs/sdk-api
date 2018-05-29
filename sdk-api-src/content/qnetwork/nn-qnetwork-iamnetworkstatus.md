@@ -1,16 +1,16 @@
 ---
 UID: NN:qnetwork.IAMNetworkStatus
 title: IAMNetworkStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMNetworkStatus interface reports the quality of the network connection for the legacy Windows Media Player 6.4 source filter.
 old-location: dshow\iamnetworkstatus.htm
 old-project: DirectShow
 ms.assetid: 51d56b76-f9fc-44e1-88f0-d35d861a4697
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow],described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPControls.previous
 title: IWMPControls::previous
-author: windows-driver-content
+author: windows-sdk-content
 description: The previous method sets the previous item in the playlist as the current item.
 old-location: wmp\iwmpcontrols_previous.htm
 old-project: WMP
 ms.assetid: e26eca59-1e2d-4a1f-b133-e337a934014b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPControls interface [Windows Media Player],previous method, IWMPControls.previous, IWMPControls::previous, IWMPControlsprevious, previous, previous method [Windows Media Player], previous method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_previous, wmp/IWMPControls::previous
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

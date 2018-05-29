@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetSequenceZeroPadding
 title: IPhotoAcquireSettings::GetSequenceZeroPadding
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSequenceZeroPadding method retrieves a value that indicates whether zeros or spaces will be used to pad sequential file names.
 old-location: picacq\iphotoacquiresettings_getsequencezeropadding.htm
 old-project: acquisition
 ms.assetid: 72dc052a-bf8e-4876-8ab6-d0f6857941d5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetSequenceZeroPadding, GetSequenceZeroPadding method [Picture Acquisition], GetSequenceZeroPadding method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetSequenceZeroPadding method, IPhotoAcquireSettings.GetSequenceZeroPadding, IPhotoAcquireSettings::GetSequenceZeroPadding, IPhotoAcquireSettingsGetSequenceZeroPadding, photoacquire/IPhotoAcquireSettings::GetSequenceZeroPadding, picacq.iphotoacquiresettings_getsequencezeropadding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindFirstStreamW
 title: FindFirstStreamW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the first stream with a ::$DATA stream type in the specified file or directory.
 old-location: fs\findfirststreamw.htm
 old-project: FileIO
 ms.assetid: aab3af94-a2e0-45ad-a846-f457408a19d5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindFirstStreamW, FindFirstStreamW function [Files], FindStreamInfoStandard, _win32_findfirststreamw, base.findfirststreamw, fileapi/FindFirstStreamW, fs.findfirststreamw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

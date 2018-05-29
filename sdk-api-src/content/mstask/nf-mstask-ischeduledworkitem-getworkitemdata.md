@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetWorkItemData
 title: IScheduledWorkItem::GetWorkItemData
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves application-defined data associated with the work item.
 old-location: taskschd\ischeduledworkitem_getworkitemdata.htm
 old-project: TaskSchd
 ms.assetid: 1b37c412-80ed-44fb-8b3a-b142a9669080
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetWorkItemData, GetWorkItemData method [Task Scheduler], GetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetWorkItemData method, IScheduledWorkItem.GetWorkItemData, IScheduledWorkItem::GetWorkItemData, _msb_ischeduledworkitem_getworkitemdata, mstask/IScheduledWorkItem::GetWorkItemData, taskschd.ischeduledworkitem_getworkitemdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

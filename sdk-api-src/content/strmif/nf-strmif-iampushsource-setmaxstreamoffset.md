@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMPushSource.SetMaxStreamOffset
 title: IAMPushSource::SetMaxStreamOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetMaxStreamOffset method specifies the stream offset that will be allowed in the filter graph.
 old-location: dshow\iampushsource_setmaxstreamoffset.htm
 old-project: DirectShow
 ms.assetid: bbe0aa06-f680-4637-beb3-b94139ee0d54
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetMaxStreamOffset method, IAMPushSource.SetMaxStreamOffset, IAMPushSource::SetMaxStreamOffset, IAMPushSourceSetMaxStreamOffset, SetMaxStreamOffset, SetMaxStreamOffset method [DirectShow], SetMaxStreamOffset method [DirectShow],IAMPushSource interface, dshow.iampushsource_setmaxstreamoffset, strmif/IAMPushSource::SetMaxStreamOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

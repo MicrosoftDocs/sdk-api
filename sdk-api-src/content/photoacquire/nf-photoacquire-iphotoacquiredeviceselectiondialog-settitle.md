@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.SetTitle
 title: IPhotoAcquireDeviceSelectionDialog::SetTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetTitle method sets the title of the device selection dialog box.
 old-location: picacq\iphotoacquiredeviceselectiondialog_settitle.htm
 old-project: acquisition
 ms.assetid: e8338978-3232-41b2-87ee-11eee3e90fc6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetTitle method, IPhotoAcquireDeviceSelectionDialog.SetTitle, IPhotoAcquireDeviceSelectionDialog::SetTitle, IPhotoAcquireDeviceSelectionDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle, picacq.iphotoacquiredeviceselectiondialog_settitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

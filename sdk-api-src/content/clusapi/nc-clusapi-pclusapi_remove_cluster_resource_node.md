@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE
 title: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a node from the list of nodes that can host a resource.
 old-location: mscs\removeclusterresourcenode.htm
 old-project: MsCS
 ms.assetid: 1a5b59b9-5c19-4920-b150-b0b404629fb3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE callback, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE callback function [Failover Cluster], _wolf_removeclusterresourcenode, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, mscs.removeclusterresourcenode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

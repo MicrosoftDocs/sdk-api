@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteList
 title: RtmDeleteRouteList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmDeleteRouteList function removes all routes from a client-specific route list, then frees any resources allocated to the list.
 old-location: rras\rtmdeleteroutelist.htm
 old-project: RRAS
 ms.assetid: 0f8f04af-6ef6-42a7-a086-ba1706815ccb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmDeleteRouteList, RtmDeleteRouteList function [RAS], _rtmv2ref_rtmdeleteroutelist, rras.rtmdeleteroutelist, rtmv2/RtmDeleteRouteList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

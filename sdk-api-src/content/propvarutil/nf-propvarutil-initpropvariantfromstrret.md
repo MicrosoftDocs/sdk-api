@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromStrRet
 title: InitPropVariantFromStrRet function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a string stored in a STRRET structure.
 old-location: properties\InitPropVariantFromStrRet.htm
 old-project: properties
 ms.assetid: 5c02e2ee-14c2-4966-83e7-16dfbf81b879
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromStrRet, InitPropVariantFromStrRet function [Windows Properties], properties.InitPropVariantFromStrRet, propvarutil/InitPropVariantFromStrRet, shell.InitPropVariantFromStrRet, shell_InitPropVariantFromStrRet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

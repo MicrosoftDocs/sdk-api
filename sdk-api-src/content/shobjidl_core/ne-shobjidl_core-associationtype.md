@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.ASSOCIATIONTYPE
 title: ASSOCIATIONTYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of association for an application. Used by methods of the IApplicationAssociationRegistration interface.
 old-location: shell\ASSOCIATIONTYPE.htm
 old-project: shell
 ms.assetid: 3dbbe748-5e83-4103-932a-b51a2a55f9fd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ASSOCIATIONTYPE, ASSOCIATIONTYPE enumeration [Windows Shell], AT_FILEEXTENSION, AT_MIMETYPE, AT_STARTMENUCLIENT, AT_URLPROTOCOL, _shell_ASSOCIATIONTYPE, shell.ASSOCIATIONTYPE, shobjidl_core/ASSOCIATIONTYPE, shobjidl_core/AT_FILEEXTENSION, shobjidl_core/AT_MIMETYPE, shobjidl_core/AT_STARTMENUCLIENT, shobjidl_core/AT_URLPROTOCOL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:bits.IBackgroundCopyJob
 title: IBackgroundCopyJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
 old-location: bits\ibackgroundcopyjob.htm
 old-project: Bits
 ms.assetid: 91dd1ae1-1740-4d95-a476-fc18aead1dc2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroundCopyJob interface [BITS],described, _drz_ibackgroundcopyjob, bits.ibackgroundcopyjob, bits/IBackgroundCopyJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_VideoCounter
 title: IMSVidStreamBufferSink3::get_VideoCounter
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_videocounter.htm
 old-project: mstv
 ms.assetid: 0213f84b-7b82-4326-92c9-86459c8c60ba
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_VideoCounter method, IMSVidStreamBufferSink3.get_VideoCounter, IMSVidStreamBufferSink3::get_VideoCounter, IMSVidStreamBufferSink3get_VideoCounter, get_VideoCounter, get_VideoCounter method [Microsoft TV Technologies], get_VideoCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_videocounter, segment/IMSVidStreamBufferSink3::get_VideoCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

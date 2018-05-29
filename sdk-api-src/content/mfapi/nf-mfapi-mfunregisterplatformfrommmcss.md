@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFUnregisterPlatformFromMMCSS
 title: MFUnregisterPlatformFromMMCSS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters the Microsoft Media Foundation platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfunregisterplatformfrommmcss.htm
 old-project: medfound
 ms.assetid: B080E515-AD0E-492D-A9EF-8391DCEC3891
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFUnregisterPlatformFromMMCSS, MFUnregisterPlatformFromMMCSS function [Media Foundation], mf.mfunregisterplatformfrommmcss, mfapi/MFUnregisterPlatformFromMMCSS, mfplat/MFUnregisterPlatformFromMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

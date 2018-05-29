@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_ENCRYPTED_BLOCK_INFO
 title: D3D11_ENCRYPTED_BLOCK_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which bytes in a video surface are encrypted.
 old-location: mf\d3d11_encrypted_block_info.htm
 old-project: medfound
 ms.assetid: C52E2007-1E2B-4259-BE32-A96BB439F7C0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_ENCRYPTED_BLOCK_INFO, D3D11_ENCRYPTED_BLOCK_INFO structure [Media Foundation], d3d11/D3D11_ENCRYPTED_BLOCK_INFO, mf.d3d11_encrypted_block_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

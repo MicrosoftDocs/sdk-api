@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.SetCredential
 title: IX509EnrollmentPolicyServer::SetCredential
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the credential used to contact the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_setcredential.htm
 old-project: SecCertEnroll
 ms.assetid: 64ea6d9e-8eca-4a1b-95a0-ecc5c0d37df3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],SetCredential method, IX509EnrollmentPolicyServer.SetCredential, IX509EnrollmentPolicyServer::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::SetCredential, security.ix509enrollmentpolicyserver_setcredential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

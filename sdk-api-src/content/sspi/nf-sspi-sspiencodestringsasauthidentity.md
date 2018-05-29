@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiEncodeStringsAsAuthIdentity
 title: SspiEncodeStringsAsAuthIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes a set of three credential strings as an authentication identity structure.
 old-location: security\sspiencodestringsasauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 0aea2f00-fcf1-4c4e-a22f-a669dd4fb294
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiEncodeStringsAsAuthIdentity, SspiEncodeStringsAsAuthIdentity function [Security], security.sspiencodestringsasauthidentity, sspi/SspiEncodeStringsAsAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

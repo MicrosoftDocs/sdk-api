@@ -1,16 +1,16 @@
 ---
 UID: NN:cluadmex.IGetClusterResourceInfo
 title: IGetClusterResourceInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a resource.
 old-location: mscs\igetclusterresourceinfo.htm
 old-project: MsCS
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster],described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

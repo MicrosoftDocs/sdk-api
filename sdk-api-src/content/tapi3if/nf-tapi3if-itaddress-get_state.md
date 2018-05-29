@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddress.get_State
 title: ITAddress::get_State
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_State method gets the current state of the address in pAddressState.
 old-location: tapi3\itaddress_get_state.htm
 old-project: Tapi
 ms.assetid: f68d0fb0-126d-4464-9d5a-0ffae4d40cb7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_State method, ITAddress.get_State, ITAddress::get_State, _tapi3_itaddress_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_state, tapi3if/ITAddress::get_State
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

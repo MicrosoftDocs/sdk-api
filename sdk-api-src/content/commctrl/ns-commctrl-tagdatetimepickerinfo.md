@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagDATETIMEPICKERINFO
 title: tagDATETIMEPICKERINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a date and time picker (DTP) control.
 old-location: controls\DATETIMEPICKERINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\datetimepickerinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPDATETIMEPICKERINFO, DATETIMEPICKERINFO, DATETIMEPICKERINFO structure [Windows Controls], LPDATETIMEPICKERINFO, LPDATETIMEPICKERINFO structure pointer [Windows Controls], _shell_DATETIMEPICKERINFO, _shell_DATETIMEPICKERINFO_cpp, commctrl/DATETIMEPICKERINFO, commctrl/LPDATETIMEPICKERINFO, controls.DATETIMEPICKERINFO, controls._shell_DATETIMEPICKERINFO, tagDATETIMEPICKERINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

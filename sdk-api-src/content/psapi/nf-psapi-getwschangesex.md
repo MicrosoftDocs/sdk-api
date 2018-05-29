@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.GetWsChangesEx
 title: GetWsChangesEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves extended information about the pages that have been added to the working set of the specified process since the last time this function or the InitializeProcessForWsWatch function was called.
 old-location: psapi\getwschangesex.htm
 old-project: psapi
 ms.assetid: 8572db5c-2ffc-424f-8cec-b6a6902fed62
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetWsChangesEx, GetWsChangesEx function [PSAPI], K32GetWsChangesEx, base.getwschangesex, psapi.getwschangesex, psapi/GetWsChangesEx, psapi/K32GetWsChangesEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Reset
 title: IEnumExplorerCommand::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumeration to 0.
 old-location: shell\IEnumExplorerCommand_Reset.htm
 old-project: shell
 ms.assetid: 296ff94a-81ec-49ac-95a3-92c7ca76c9bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Reset method, IEnumExplorerCommand.Reset, IEnumExplorerCommand::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Reset, shell.IEnumExplorerCommand_Reset, shobjidl_core/IEnumExplorerCommand::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

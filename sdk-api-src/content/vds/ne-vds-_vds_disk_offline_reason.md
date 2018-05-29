@@ -1,16 +1,16 @@
 ---
 UID: NE:vds._VDS_DISK_OFFLINE_REASON
 title: "_VDS_DISK_OFFLINE_REASON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of reasons for a disk to be offline.
 old-location: base\vds_disk_offline_reason.htm
 old-project: VDS
 ms.assetid: 45115cd5-52bb-4cb8-978b-208a2bc3c148
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDSDiskOfflineReasonCollision, VDSDiskOfflineReasonNone, VDSDiskOfflineReasonPolicy, VDSDiskOfflineReasonRedundantPath, VDSDiskOfflineReasonSnapshot, VDS_DISK_OFFLINE_REASON, VDS_DISK_OFFLINE_REASON enumeration, _VDS_DISK_OFFLINE_REASON, base.vds_disk_offline_reason, vds/VDSDiskOfflineReasonCollision, vds/VDSDiskOfflineReasonNone, vds/VDSDiskOfflineReasonPolicy, vds/VDSDiskOfflineReasonRedundantPath, vds/VDSDiskOfflineReasonSnapshot, vds/VDS_DISK_OFFLINE_REASON
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

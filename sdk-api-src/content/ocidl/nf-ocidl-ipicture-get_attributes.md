@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPicture.get_Attributes
 title: IPicture::get_Attributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current set of the picture's bit attributes.
 old-location: com\ipicture_get_attributes.htm
 old-project: com
 ms.assetid: ed71f0eb-3af4-463f-93e1-29d5dd1cc684
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPicture interface [COM],get_Attributes method, IPicture.get_Attributes, IPicture::get_Attributes, _ctrl_ipicture_get_attributes, com.ipicture_get_attributes, get_Attributes, get_Attributes method [COM], get_Attributes method [COM],IPicture interface, ocidl/IPicture::get_Attributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

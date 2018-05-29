@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoCreateGuid
 title: CoCreateGuid function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers.
 old-location: com\cocreateguid.htm
 old-project: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

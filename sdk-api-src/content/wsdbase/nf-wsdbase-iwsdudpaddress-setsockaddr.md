@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetSockaddr
 title: IWSDUdpAddress::SetSockaddr
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the socket address information.
 old-location: ncd\iwsdudpaddress_setsockaddr.htm
 old-project: WsdApi
 ms.assetid: a8c6cc53-bba6-44ef-8c1e-f357e11793b4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDUdpAddress interface,SetSockaddr method, IWSDUdpAddress.SetSockaddr, IWSDUdpAddress::SetSockaddr, SetSockaddr, SetSockaddr method, SetSockaddr method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setsockaddr, wsdbase/IWSDUdpAddress::SetSockaddr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.UpdateTopologyFlags
 title: IMFSequencerSource::UpdateTopologyFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the flags for a topology in the queue.
 old-location: mf\imfsequencersource_updatetopologyflags.htm
 old-project: medfound
 ms.assetid: ee71b574-0456-4091-bbb0-da5c57a7506e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSequencerSource interface [Media Foundation],UpdateTopologyFlags method, IMFSequencerSource.UpdateTopologyFlags, IMFSequencerSource::UpdateTopologyFlags, UpdateTopologyFlags, UpdateTopologyFlags method [Media Foundation], UpdateTopologyFlags method [Media Foundation],IMFSequencerSource interface, ee71b574-0456-4091-bbb0-da5c57a7506e, mf.imfsequencersource_updatetopologyflags, mfidl/IMFSequencerSource::UpdateTopologyFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

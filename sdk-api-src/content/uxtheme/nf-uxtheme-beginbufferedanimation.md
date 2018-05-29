@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.BeginBufferedAnimation
 title: BeginBufferedAnimation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
 old-location: controls\BeginBufferedAnimation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.UnlockServiceDatabase
 title: UnlockServiceDatabase function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks a service control manager database by releasing the specified lock.
 old-location: base\unlockservicedatabase.htm
 old-project: Services
 ms.assetid: 3277d175-ab0b-43ce-965f-f8087d0124e4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: UnlockServiceDatabase, UnlockServiceDatabase function, _win32_unlockservicedatabase, base.unlockservicedatabase, winsvc/UnlockServiceDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

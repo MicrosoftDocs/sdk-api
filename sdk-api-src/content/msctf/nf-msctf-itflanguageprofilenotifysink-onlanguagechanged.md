@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfLanguageProfileNotifySink.OnLanguageChanged
 title: ITfLanguageProfileNotifySink::OnLanguageChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLanguageProfileNotifySink::OnLanguageChanged method
 old-location: tsf\itflanguageprofilenotifysink_onlanguagechanged.htm
 old-project: TSF
 ms.assetid: 505b3353-90cc-4b78-90af-b0151abc703f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLanguageProfileNotifySink interface [Text Services Framework],OnLanguageChanged method, ITfLanguageProfileNotifySink.OnLanguageChanged, ITfLanguageProfileNotifySink::OnLanguageChanged, OnLanguageChanged, OnLanguageChanged method [Text Services Framework], OnLanguageChanged method [Text Services Framework],ITfLanguageProfileNotifySink interface, _tsf_itflanguageprofilenotifysink_onlanguagechanged_ref, msctf/ITfLanguageProfileNotifySink::OnLanguageChanged, tsf.itflanguageprofilenotifysink_onlanguagechanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

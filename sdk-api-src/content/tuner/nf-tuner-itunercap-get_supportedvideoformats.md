@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITunerCap.get_SupportedVideoFormats
 title: ITunerCap::get_SupportedVideoFormats
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itunercap_get_supportedvideoformats.htm
 old-project: mstv
 ms.assetid: 301402bd-8c9c-4dab-a00b-29aaa8efb2a2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_SupportedVideoFormats method, ITunerCap.get_SupportedVideoFormats, ITunerCap::get_SupportedVideoFormats, ITunerCapget_SupportedVideoFormats, get_SupportedVideoFormats, get_SupportedVideoFormats method [Microsoft TV Technologies], get_SupportedVideoFormats method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_supportedvideoformats, tuner/ITunerCap::get_SupportedVideoFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

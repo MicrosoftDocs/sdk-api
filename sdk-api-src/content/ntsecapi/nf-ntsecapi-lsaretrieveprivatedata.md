@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaRetrievePrivateData
 title: LsaRetrievePrivateData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
 old-location: security\lsaretrieveprivatedata.htm
 old-project: SecMgmt
 ms.assetid: 005460db-0919-46eb-b057-37c5b6042243
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: G$, L$, LsaRetrievePrivateData, LsaRetrievePrivateData function [Security], M$, _lsa_lsaretrieveprivatedata, ntsecapi/LsaRetrievePrivateData, security.lsaretrieveprivatedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

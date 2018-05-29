@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.AddPropertySheetPages
 title: IShellView::AddPropertySheetPages
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the view to add pages to the Options property sheet from the View menu.
 old-location: shell\IShellView_AddPropertySheetPages.htm
 old-project: shell
 ms.assetid: 6f05ddf7-190e-41f5-b24a-d18112b34600
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddPropertySheetPages, AddPropertySheetPages method [Windows Shell], AddPropertySheetPages method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],AddPropertySheetPages method, IShellView.AddPropertySheetPages, IShellView::AddPropertySheetPages, _win32_IShellView_AddPropertySheetPages, shell.IShellView_AddPropertySheetPages, shobjidl_core/IShellView::AddPropertySheetPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTLINEDATA
 title: "_DD_GETVPORTLINEDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_GETVPORTLINEDATA structure contains the current line number of the hardware video port.
 old-location: display\dd_getvportlinedata.htm
 old-project: display
 ms.assetid: d8b2803c-38be-40ea-b46b-4bab1ce55534
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA structure [Display Devices], _DD_GETVPORTLINEDATA, ddrawint/DD_GETVPORTLINEDATA, ddstrcts_81a8dc13-0681-4135-a74a-f7aa22408156.xml, display.dd_getvportlinedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

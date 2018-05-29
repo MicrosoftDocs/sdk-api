@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Texture1D.Map
 title: ID3D10Texture1D::Map
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a pointer to the data contained in a subresource, and deny the GPU access to that subresource.
 old-location: direct3d10\id3d10texture1d_map.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture1d_map.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 5214af3e-18cb-ccc4-745e-e8e5f90ef5cc, ID3D10Texture1D interface [Direct3D 10],Map method, ID3D10Texture1D.Map, ID3D10Texture1D::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Texture1D interface, d3d10/ID3D10Texture1D::Map, direct3d10.id3d10texture1d_map
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

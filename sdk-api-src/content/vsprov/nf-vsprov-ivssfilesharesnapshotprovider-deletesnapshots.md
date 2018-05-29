@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.DeleteSnapshots
 title: IVssFileShareSnapshotProvider::DeleteSnapshots
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes specific snapshots, or all snapshots in a specified snapshot set.
 old-location: base\ivssfilesharesnapshotprovider_deletesnapshots.htm
 old-project: VSS
 ms.assetid: 3fd48346-8a85-4ddf-9a6d-ac0cb82d4133
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],DeleteSnapshots method, IVssFileShareSnapshotProvider.DeleteSnapshots, IVssFileShareSnapshotProvider::DeleteSnapshots, base.ivssfilesharesnapshotprovider_deletesnapshots, vsprov/IVssFileShareSnapshotProvider::DeleteSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

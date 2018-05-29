@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.Initialize
 title: IDVB_BAT::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_initialize.htm
 old-project: mstv
 ms.assetid: 76c0eabe-b2af-44ed-9afb-9b97e7e8c5df
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVB_BAT interface [Microsoft TV Technologies],Initialize method, IDVB_BAT.Initialize, IDVB_BAT::Initialize, IDVB_BATInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_BAT interface, dvbsiparser/IDVB_BAT::Initialize, mstv.idvb_bat_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

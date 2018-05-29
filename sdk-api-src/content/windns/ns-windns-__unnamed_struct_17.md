@@ -1,16 +1,16 @@
 ---
 UID: NS:windns.__unnamed_struct_17
 title: DNS_SIG_DATAA
-author: windows-driver-content
+author: windows-sdk-content
 description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034.
 old-location: dns\dns_rrsig_data.htm
 old-project: DNS
 ms.assetid: 09c2f515-acc1-402f-8e62-a0d273031633
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_RRSIG_DATA, *PDNS_RRSIG_DATAA, *PDNS_SIG_DATA, *PDNS_SIG_DATAA, 1, 2, 3, 4, 5, DNS_RRSIG_DATA, DNS_RRSIG_DATA structure [DNS], DNS_RRSIG_DATAA, DNS_SIG_DATA, DNS_SIG_DATAA, PDNS_RRSIG_DATA, PDNS_RRSIG_DATA structure pointer [DNS], dns.dns_rrsig_data, windns/DNS_RRSIG_DATA, windns/PDNS_RRSIG_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

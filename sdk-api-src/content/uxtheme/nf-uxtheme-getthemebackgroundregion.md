@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundRegion
 title: GetThemeBackgroundRegion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Computes the region for a regular or partially transparent background that is bounded by a specified rectangle.
 old-location: controls\GetThemeBackgroundRegion.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundregion.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeBackgroundRegion, GetThemeBackgroundRegion function [Windows Controls], controls.GetThemeBackgroundRegion, controls.inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion_cpp, uxtheme/GetThemeBackgroundRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

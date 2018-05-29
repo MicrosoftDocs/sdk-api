@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFGetUncompressedVideoFormat
 title: MFGetUncompressedVideoFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the FOURCC or D3DFORMAT value for an uncompressed video format.
 old-location: mf\mfgetuncompressedvideoformat.htm
 old-project: medfound
 ms.assetid: 7869025a-dacf-47e6-b129-db5b2daefa3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat, MFGetUncompressedVideoFormat function [Media Foundation], mf.mfgetuncompressedvideoformat, mfapi/MFGetUncompressedVideoFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

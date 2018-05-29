@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.GetPresentationContext
 title: IMFSequencerSource::GetPresentationContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps a presentation descriptor to its associated sequencer element identifier and the topology it represents.
 old-location: mf\imfsequencersource_getpresentationcontext.htm
 old-project: medfound
 ms.assetid: c444ccad-68b8-40eb-9e87-0b4d61ac725d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPresentationContext, GetPresentationContext method [Media Foundation], GetPresentationContext method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],GetPresentationContext method, IMFSequencerSource.GetPresentationContext, IMFSequencerSource::GetPresentationContext, c444ccad-68b8-40eb-9e87-0b4d61ac725d, mf.imfsequencersource_getpresentationcontext, mfidl/IMFSequencerSource::GetPresentationContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

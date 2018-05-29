@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElements
 title: IMFMediaEngineSrcElements
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the Media Engine with a list of media resources.
 old-location: mf\imfmediaenginesrcelements.htm
 old-project: medfound
 ms.assetid: 37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], IMFMediaEngineSrcElements interface [Media Foundation],described, mf.imfmediaenginesrcelements, mfmediaengine/IMFMediaEngineSrcElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

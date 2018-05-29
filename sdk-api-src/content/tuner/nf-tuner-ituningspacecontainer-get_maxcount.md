@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_MaxCount
 title: ITuningSpaceContainer::get_MaxCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MaxCount method retrieves the maximum number of tuning spaces allowed on the system.
 old-location: mstv\ituningspacecontainer_get_maxcount.htm
 old-project: mstv
 ms.assetid: 72692bc6-a210-4e60-9c04-14a7ea531cb4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_MaxCount method, ITuningSpaceContainer.get_MaxCount, ITuningSpaceContainer::get_MaxCount, ITuningSpaceContainerget_MaxCount, get_MaxCount, get_MaxCount method [Microsoft TV Technologies], get_MaxCount method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_maxcount, tuner/ITuningSpaceContainer::get_MaxCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

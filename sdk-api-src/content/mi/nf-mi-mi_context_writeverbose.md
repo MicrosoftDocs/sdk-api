@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_WriteVerbose
 title: MI_Context_WriteVerbose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a verbose message to the client.
 old-location: wmi_v2\mi_context_writeverbose.htm
 old-project: wmi_v2
 ms.assetid: 55f46e42-3649-40f0-9bd6-4564afc2f8e2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_WriteVerbose, MI_Context_WriteVerbose function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteVerbose, wmi.mi_writeverbose, wmi_v2.mi_context_writeverbose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetUILanguageInfo
 title: GetUILanguageInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a variety of information about an installed UI language:
 old-location: intl\getuilanguageinfo.htm
 old-project: Intl
 ms.assetid: 7eb17073-f79a-4a87-a85b-94007e77888a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUILanguageInfo, GetUILanguageInfo function [Internationalization for Windows Applications], MUI_FULL_LANGUAGE, MUI_LANGUAGE_ID, MUI_LANGUAGE_INSTALLED, MUI_LANGUAGE_LICENSED, MUI_LANGUAGE_NAME, MUI_LIP_LANGUAGE, MUI_PARTIAL_LANGUAGE, _win32_GetUILanguageInfo, intl.getuilanguageinfo, winnls/GetUILanguageInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

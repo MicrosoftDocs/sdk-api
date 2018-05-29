@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.WaitForThreadpoolTimerCallbacks
 title: WaitForThreadpoolTimerCallbacks function
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits for outstanding timer callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 old-location: base\waitforthreadpooltimercallbacks.htm
 old-project: ProcThread
 ms.assetid: 511488b8-9e92-47b9-8b3c-7ece9d9f996c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: WaitForThreadpoolTimerCallbacks, WaitForThreadpoolTimerCallbacks function, base.waitforthreadpooltimercallbacks, threadpoolapiset/WaitForThreadpoolTimerCallbacks, winbase/WaitForThreadpoolTimerCallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

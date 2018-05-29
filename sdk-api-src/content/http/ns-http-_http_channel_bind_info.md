@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_CHANNEL_BIND_INFO
 title: "_HTTP_CHANNEL_BIND_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: HTTP_CHANNEL_BIND_INFO.
 old-location: http\http_channel_bind_info.htm
 old-project: Http
 ms.assetid: 60428e66-9c08-418b-99e1-6824c638f2be
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO structure [HTTP], PHTTP_CHANNEL_BIND_INFO, PHTTP_CHANNEL_BIND_INFO structure pointer [HTTP], _HTTP_CHANNEL_BIND_INFO, http.http_channel_bind_info, http/HTTP_CHANNEL_BIND_INFO, http/PHTTP_CHANNEL_BIND_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

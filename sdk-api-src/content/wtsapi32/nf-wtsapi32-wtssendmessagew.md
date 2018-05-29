@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSSendMessageW
 title: WTSSendMessageW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
 old-location: termserv\wtssendmessage.htm
 old-project: TermServ
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDABORT, IDASYNC, IDCANCEL, IDCONTINUE, IDIGNORE, IDNO, IDOK, IDRETRY, IDTIMEOUT, IDTRYAGAIN, IDYES, WTSSendMessage, WTSSendMessage function [Remote Desktop Services], WTSSendMessageA, WTSSendMessageW, _win32_wtssendmessage, termserv.wtssendmessage, wtsapi32/WTSSendMessage, wtsapi32/WTSSendMessageA, wtsapi32/WTSSendMessageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

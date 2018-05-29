@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.IEnumTerminal
 title: IEnumTerminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTerminal interface provides COM-standard enumeration methods for the ITTerminal interface.
 old-location: tapi3\ienumterminal.htm
 old-project: Tapi
 ms.assetid: a364e466-1d10-402f-935d-ff2713522fed
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumTerminal, IEnumTerminal interface [TAPI 2.2], IEnumTerminal interface [TAPI 2.2],described, _tapi3_ienumterminal, tapi3.ienumterminal, tapi3if/IEnumTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

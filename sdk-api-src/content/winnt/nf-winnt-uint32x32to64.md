@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.UInt32x32To64
 title: UInt32x32To64 macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two unsigned 32-bit integers, returning an unsigned 64-bit integer result.
 old-location: winprog\uint32x32to64.htm
 old-project: WinProg
 ms.assetid: 369e0574-df8b-4e65-bbba-7a7961caebe7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32to64, winnt/UInt32x32To64, winprog.uint32x32to64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

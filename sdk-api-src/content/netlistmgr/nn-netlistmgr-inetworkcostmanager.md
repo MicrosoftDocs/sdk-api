@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkCostManager
 title: INetworkCostManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to query for machine-wide cost and data plan status information associated with either a connection used for machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager.htm
 old-project: NLA
 ms.assetid: A6316E94-398D-4D87-B631-6BEF416895EE
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkCostManager, INetworkCostManager interface [Network Awareness], INetworkCostManager interface [Network Awareness],described, netlistmgr/INetworkCostManager, nla.inetworkcostmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

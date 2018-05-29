@@ -1,16 +1,16 @@
 ---
 UID: NF:lmuse.NetUseDel
 title: NetUseDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetUseDel function ends a connection to a shared resource.
 old-location: netmgmt\netusedel.htm
 old-project: NetMgmt
 ms.assetid: 200b0640-71e9-4f60-bf4c-c8df10bfe095
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetUseDel, NetUseDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netusedel, lmuse/NetUseDel, netmgmt.netusedel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmuse.h
 req.include-header: Lm.h

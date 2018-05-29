@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhEnumLogSetNamesW
 title: PdhEnumLogSetNamesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the names of the log sets within the DSN.
 old-location: perf\pdhenumlogsetnames.htm
 old-project: PerfCtrs
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

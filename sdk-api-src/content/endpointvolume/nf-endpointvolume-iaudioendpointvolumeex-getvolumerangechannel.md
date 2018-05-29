@@ -1,16 +1,16 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolumeEx.GetVolumeRangeChannel
 title: IAudioEndpointVolumeEx::GetVolumeRangeChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetVolumeRangeChannel method gets the volume range for a specified channel.
 old-location: coreaudio\iaudioendpointvolumeex_getvolumerangechannel.htm
 old-project: CoreAudio
 ms.assetid: 869fe1cc-aa32-45e5-899f-3ae0d0f1b256
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio],IAudioEndpointVolumeEx interface, IAudioEndpointVolumeEx interface [Core Audio],GetVolumeRangeChannel method, IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

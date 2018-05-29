@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.StartDocA
 title: StartDocA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartDoc function starts a print job.
 old-location: gdi\startdoc.htm
 old-project: printdocs
 ms.assetid: 53143463-b9fc-4378-aea9-da6c73a7cd03
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: StartDoc, StartDoc function [Windows GDI], StartDocA, StartDocW, _win32_StartDoc, gdi.startdoc, wingdi/StartDoc, wingdi/StartDocA, wingdi/StartDocW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

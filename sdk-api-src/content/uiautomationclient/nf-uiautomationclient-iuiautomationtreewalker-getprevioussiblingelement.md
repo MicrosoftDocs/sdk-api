@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetPreviousSiblingElement
 title: IUIAutomationTreeWalker::GetPreviousSiblingElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the previous sibling element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetPreviousSibling.htm
 old-project: WinAuto
 ms.assetid: 6e05f421-d037-4d3b-908e-44ddd818a3f1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetPreviousSiblingElement, GetPreviousSiblingElement method [Windows Accessibility], GetPreviousSiblingElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetPreviousSiblingElement method, IUIAutomationTreeWalker.GetPreviousSiblingElement, IUIAutomationTreeWalker::GetPreviousSiblingElement, uiauto.uiauto_IUIAutomationTreeWalker_GetPreviousSibling, uiauto_IUIAutomationTreeWalker_GetPreviousSibling, uiautomationclient/IUIAutomationTreeWalker::GetPreviousSiblingElement, winauto.uiauto_IUIAutomationTreeWalker_GetPreviousSibling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

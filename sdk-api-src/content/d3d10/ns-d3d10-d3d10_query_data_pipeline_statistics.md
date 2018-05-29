@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10.D3D10_QUERY_DATA_PIPELINE_STATISTICS
 title: D3D10_QUERY_DATA_PIPELINE_STATISTICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Query information about graphics-pipeline activity in between calls to ID3D10Asynchronous::Begin and ID3D10Asynchronous::End.
 old-location: direct3d10\d3d10_query_data_pipeline_statistics.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_pipeline_statistics.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 0f1e36bb-cb67-6e39-ddb2-784ed615c5bb, D3D10_QUERY_DATA_PIPELINE_STATISTICS, D3D10_QUERY_DATA_PIPELINE_STATISTICS structure [Direct3D 10], d3d10/D3D10_QUERY_DATA_PIPELINE_STATISTICS, direct3d10.d3d10_query_data_pipeline_statistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

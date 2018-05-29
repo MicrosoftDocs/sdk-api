@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetIfTable2Ex
 title: GetIfTable2Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the MIB-II interface table.
 old-location: iphlp\getiftable2ex.htm
 old-project: IpHlp
 ms.assetid: d8663894-50b1-4ca2-a1f4-6ca0970795a7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIfTable2Ex, GetIfTable2Ex function [IP Helper], MibIfTableNormal, MibIfTableRaw, iphlp.getiftable2ex, netioapi/GetIfTable2Ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

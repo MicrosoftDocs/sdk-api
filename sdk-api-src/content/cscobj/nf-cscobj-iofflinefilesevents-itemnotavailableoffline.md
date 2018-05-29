@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemNotAvailableOffline
 title: IOfflineFilesEvents::ItemNotAvailableOffline
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an item in the Offline Files cache is no longer available for offline use should the remote copy become unavailable.
 old-location: of\iofflinefilesevents_itemnotavailableoffline.htm
 old-project: OfflineFiles
 ms.assetid: 868938fd-9da2-45fd-a00e-5dda85b4fd61
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotAvailableOffline method, IOfflineFilesEvents.ItemNotAvailableOffline, IOfflineFilesEvents::ItemNotAvailableOffline, ItemNotAvailableOffline, ItemNotAvailableOffline method [Offline Files], ItemNotAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotAvailableOffline, of.iofflinefilesevents_itemnotavailableoffline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

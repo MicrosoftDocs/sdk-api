@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.OleUIEditLinksA
 title: OleUIEditLinksA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects.
 old-location: com\oleuieditlinks.htm
 old-project: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleUIEditLinks, OleUIEditLinks function [COM], OleUIEditLinksA, OleUIEditLinksW, _ole_OleUIEditLinks, com.oleuieditlinks, oledlg/OleUIEditLinks, oledlg/OleUIEditLinksA, oledlg/OleUIEditLinksW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

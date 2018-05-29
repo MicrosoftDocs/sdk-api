@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.DoEnvironmentSubstA
 title: DoEnvironmentSubstA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
 old-location: shell\DoEnvironmentSubst.htm
 old-project: shell
 ms.assetid: cdf8bf2d-f446-4e0d-8664-bff2c45f74ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DoEnvironmentSubst, DoEnvironmentSubst function [Windows Shell], DoEnvironmentSubstA, DoEnvironmentSubstW, _win32_DoEnvironmentSubst, shell.DoEnvironmentSubst, shellapi/DoEnvironmentSubst, shellapi/DoEnvironmentSubstA, shellapi/DoEnvironmentSubstW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

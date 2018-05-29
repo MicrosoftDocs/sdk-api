@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetCASetupProperty
 title: ICertSrvSetup::SetCASetupProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a property value for a certification authority (CA) configuration.
 old-location: security\icertsrvsetup_setcasetupproperty.htm
 old-project: SecCrypto
 ms.assetid: 91df1926-a4b6-4ba2-ab59-0258293fc1c0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCASetupProperty method, ICertSrvSetup.SetCASetupProperty, ICertSrvSetup::SetCASetupProperty, SetCASetupProperty, SetCASetupProperty method [Security], SetCASetupProperty method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCASetupProperty, security.icertsrvsetup_setcasetupproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

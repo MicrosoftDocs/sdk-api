@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.BeginSession
 title: IKnowledgeSyncProvider::BeginSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the provider that it is joining a synchronization session.
 old-location: winsync\iknowledgesyncprovider_beginsession.htm
 old-project: winsync
 ms.assetid: 15aae98e-96c6-45f3-906f-1729fa79ebdb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: BeginSession, BeginSession method [Windows Sync], BeginSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],BeginSession method, IKnowledgeSyncProvider.BeginSession, IKnowledgeSyncProvider::BeginSession, winsync.iknowledgesyncprovider_beginsession, winsync/IKnowledgeSyncProvider::BeginSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

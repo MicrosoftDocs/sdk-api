@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_RemoteAddresses
 title: INetFwOpenPort::put_RemoteAddresses
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a set of remote addresses from which the port can listen for traffic.
 old-location: ics\inetfwopenport_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 5c38a9fc-b7d9-436d-92e6-8b0aec5e8628
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],RemoteAddresses property, INetFwOpenPort.RemoteAddresses, INetFwOpenPort.put_RemoteAddresses, INetFwOpenPort::RemoteAddresses, INetFwOpenPort::get_RemoteAddresses, INetFwOpenPort::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_remoteaddresses, netfw/INetFwOpenPort::RemoteAddresses, netfw/INetFwOpenPort::get_RemoteAddresses, netfw/INetFwOpenPort::put_RemoteAddresses, put_RemoteAddresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

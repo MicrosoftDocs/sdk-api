@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetMetadataProperty
 title: WsGetMetadataProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified WS_METADATA object property.
 old-location: wsw\wsgetmetadataproperty.htm
 old-project: wsw
 ms.assetid: 21d8dbca-e8a5-4b2f-a1f7-951532922024
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetMetadataProperty, WsGetMetadataProperty function [Web Services for Windows], webservices/WsGetMetadataProperty, wsw.wsgetmetadataproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

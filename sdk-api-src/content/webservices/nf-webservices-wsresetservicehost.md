@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsResetServiceHost
 title: WsResetServiceHost function
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets service host so that it can be opened again.
 old-location: wsw\wsresetservicehost.htm
 old-project: wsw
 ms.assetid: 99f57173-8d7e-41e6-bf1e-4e8177b740b7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsResetServiceHost, WsResetServiceHost function [Web Services for Windows], webservices/WsResetServiceHost, wsw.wsresetservicehost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

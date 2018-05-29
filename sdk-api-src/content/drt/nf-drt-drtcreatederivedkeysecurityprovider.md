@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtCreateDerivedKeySecurityProvider
 title: DrtCreateDerivedKeySecurityProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtCreateDerivedKeySecurityProvider function creates the derived key security provider for a Distributed Routing Table.
 old-location: p2p\drtcreatederivedkeysecurityprovider.htm
 old-project: P2PSdk
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

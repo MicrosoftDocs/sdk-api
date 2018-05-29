@@ -1,16 +1,16 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlSync
 title: IDeviceIoControl::DeviceIoControlSync
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeviceIoControlSync method sends a synchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolsync.htm
 old-project: deviceaccess
 ms.assetid: 7b17ab14-e9bb-40be-a463-ca9031ba9bb3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DeviceIoControlSync, DeviceIoControlSync method [Device Access Broker API], DeviceIoControlSync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlSync method, IDeviceIoControl.DeviceIoControlSync, IDeviceIoControl::DeviceIoControlSync, deviceaccess.ideviceiocontrol_deviceiocontrolsync, deviceaccess/IDeviceIoControl::DeviceIoControlSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 

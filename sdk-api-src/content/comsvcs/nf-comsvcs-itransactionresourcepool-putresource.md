@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ITransactionResourcePool.PutResource
 title: ITransactionResourcePool::PutResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an object to the list of pooled objects.
 old-location: cos\itransactionresourcepool_putresource.htm
 old-project: cossdk
 ms.assetid: 6e05f075-0fa8-4605-9f68-3ef7fc9f0132
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITransactionResourcePool.PutResource, ITransactionResourcePool::PutResource, PutResource, PutResource method [COM+], PutResource method [COM+],ITransactionResourcePool interface, _cos_ITransactionResourcePool_PutResource, comsvcs/ITransactionResourcePool::PutResource, cos.itransactionresourcepool_putresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

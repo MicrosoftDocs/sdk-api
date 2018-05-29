@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_SYNCVIDEOPORTDATA
 title: "_DD_SYNCVIDEOPORTDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_SYNCVIDEOPORTDATA structure contains the video port extensions (VPE) object information.
 old-location: display\dd_syncvideoportdata.htm
 old-project: display
 ms.assetid: babe7d53-f278-44f7-9346-b4661b603123
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_SYNCVIDEOPORTDATA, DD_SYNCVIDEOPORTDATA, DD_SYNCVIDEOPORTDATA structure [Display Devices], _DD_SYNCVIDEOPORTDATA, ddrawint/DD_SYNCVIDEOPORTDATA, ddstrcts_7a531397-4c11-491f-8cec-8db6b9dfdd0d.xml, display.dd_syncvideoportdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

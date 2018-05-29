@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.AMOVERLAYFX
 title: AMOVERLAYFX
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies effects on a DirectDraw hardware overlay surface.
 old-location: dshow\amoverlayfx.htm
 old-project: DirectShow
 ms.assetid: fa984504-5175-4b94-8a75-d294cd9546a4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AMOVERFX_DEINTERLACE, AMOVERFX_MIRRORLEFTRIGHT, AMOVERFX_MIRRORUPDOWN, AMOVERFX_NOFX, AMOVERLAYFX, AMOVERLAYFX enumeration [DirectShow], AMOVERLAYFXEnumeration, dshow.amoverlayfx, strmif/AMOVERFX_DEINTERLACE, strmif/AMOVERFX_MIRRORLEFTRIGHT, strmif/AMOVERFX_MIRRORUPDOWN, strmif/AMOVERFX_NOFX, strmif/AMOVERLAYFX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICENEXT
 title: LPNSPLOOKUPSERVICENEXT
-author: windows-driver-content
+author: windows-sdk-content
 description: Called after obtaining a handle from a previous call to NSPLookupServiceBegin in order to retrieve the requested service information.
 old-location: winsock\nsplookupservicenext_2.htm
 old-project: WinSock
 ms.assetid: 321732e4-5d48-48f4-8795-ffac208852dc
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPLOOKUPSERVICENEXT, NSPLookupServiceNext, NSPLookupServiceNext function [Winsock], _win32_nsplookupservicenext_2, winsock.nsplookupservicenext_2, ws2spi/NSPLookupServiceNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

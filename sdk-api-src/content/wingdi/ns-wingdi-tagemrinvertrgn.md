@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRINVERTRGN
 title: tagEMRINVERTRGN
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRINVERTRGN and EMRPAINTRGN structures contain members for the InvertRgn and PaintRgn enhanced metafile records.
 old-location: gdi\emrinvertrgn__emrpaintrgn.htm
 old-project: gdi
 ms.assetid: 91c0badc-bd26-418a-9cdb-3e70e7337021
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRINVERTRGN, *PEMRPAINTRGN, EMRINVERTRGN, EMRINVERTRGN structure [Windows GDI], EMRINVERTRGN,EMRPAINTRGN, EMRINVERTRGN,EMRPAINTRGN structure [Windows GDI], EMRPAINTRGN, EMRPAINTRGN structure [Windows GDI], PEMRINVERTRGN, PEMRINVERTRGN structure pointer [Windows GDI], PEMRPAINTRGN, PEMRPAINTRGN structure pointer [Windows GDI], _win32_EMRINVERTRGN_str, gdi.emrinvertrgn__emrpaintrgn, tagEMRINVERTRGN, wingdi/EMRINVERTRGN,EMRPAINTRGN, wingdi/EMRPAINTRGN, wingdi/PEMRINVERTRGN, wingdi/PEMRPAINTRGN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

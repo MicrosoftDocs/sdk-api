@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Shutdown
 title: IUIAnimationManager::Shutdown
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down the animation manager and all its associated objects.
 old-location: uianimation\iuianimationmanager_shutdown.htm
 old-project: UIAnimation
 ms.assetid: 3bcce52c-d29a-423c-ae76-eb88cbe8c8df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Shutdown method, IUIAnimationManager.Shutdown, IUIAnimationManager::Shutdown, Shutdown, Shutdown method [Windows Animation], Shutdown method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_shutdown, uianimation/IUIAnimationManager::Shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

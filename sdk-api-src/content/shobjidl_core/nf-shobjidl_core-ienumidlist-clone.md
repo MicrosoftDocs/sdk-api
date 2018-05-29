@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Clone
 title: IEnumIDList::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new item enumeration object with the same contents and state as the current one.
 old-location: shell\IEnumIDList_Clone.htm
 old-project: shell
 ms.assetid: f0118153-25ea-42d6-90bf-b85ffd99b74b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumIDList interface, IEnumIDList interface [Windows Shell],Clone method, IEnumIDList.Clone, IEnumIDList::Clone, _win32_IEnumIDList_Clone, shell.IEnumIDList_Clone, shobjidl_core/IEnumIDList::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

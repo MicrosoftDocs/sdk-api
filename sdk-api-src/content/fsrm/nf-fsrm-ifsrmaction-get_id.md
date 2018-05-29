@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_Id
 title: IFsrmAction::get_Id
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the identifier of the action.
 old-location: fsrm\ifsrmaction_id.htm
 old-project: Fsrm
 ms.assetid: 7add9be2-75ae-4da7-a6b1-8d39a8ff374c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],Id property, IFsrmAction.Id, IFsrmAction.get_Id, IFsrmAction::Id, IFsrmAction::get_Id, Id property [File Server Resource Manager], Id property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_id, fsrm.ifsrmaction_id, fsrm/IFsrmAction::Id, fsrm/IFsrmAction::get_Id, get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

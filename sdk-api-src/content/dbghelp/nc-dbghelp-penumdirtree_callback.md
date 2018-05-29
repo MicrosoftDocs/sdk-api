@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PENUMDIRTREE_CALLBACK
 title: PENUMDIRTREE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the EnumDirTree function. It is called every time a match is found.
 old-location: base\enumdirtreeproc.htm
 old-project: Debug
 ms.assetid: eae41b83-bba5-4656-9a5c-b6ef56845954
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnumDirTreeProc, EnumDirTreeProc callback, EnumDirTreeProc callback function, PENUMDIRTREE_CALLBACK, PENUMDIRTREE_CALLBACKW, _win32_enumdirtreeproc, base.enumdirtreeproc, dbghelp/EnumDirTreeProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

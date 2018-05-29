@@ -1,16 +1,16 @@
 ---
 UID: NS:textstor.TS_SELECTION_ACP
 title: TS_SELECTION_ACP
-author: windows-driver-content
+author: windows-sdk-content
 description: The TS_SELECTION_ACP structure contains ACP-based text selection data.
 old-location: tsf\ts_selection_acp.htm
 old-project: TSF
 ms.assetid: 739c87c5-3e9c-41f3-ad79-0b417347604b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TS_SELECTION_ACP, TS_SELECTION_ACP structure [Text Services Framework], _tsf_ts_selection_acp_ref, textstor/TS_SELECTION_ACP, tsf.ts_selection_acp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 

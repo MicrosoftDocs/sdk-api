@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11Device
 title: ID3D11Device
-author: windows-driver-content
+author: windows-sdk-content
 description: The device interface represents a virtual adapter; it is used to create resources.
 old-location: direct3d11\id3d11device.htm
 old-project: direct3d11
 ms.assetid: 2f2559d9-1cd6-44f6-90e2-ee0f86e39f78
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Device, ID3D11Device interface [Direct3D 11], ID3D11Device interface [Direct3D 11],described, b37b606f-bf79-e387-57c4-bebf1cf88722, d3d11/ID3D11Device, direct3d11.id3d11device
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

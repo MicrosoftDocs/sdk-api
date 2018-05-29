@@ -1,16 +1,16 @@
 ---
 UID: NS:schannel._SecPkgContext_SessionAppData
 title: "_SecPkgContext_SessionAppData"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores application data for a session context.
 old-location: security\secpkgcontext_sessionappdata.htm
 old-project: SecAuthN
 ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], _SecPkgContext_SessionAppData, schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Schnlsp.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SaveAllChanges
 title: ICreateTypeLib::SaveAllChanges
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the ICreateTypeLib instance following the layout of type information.
 old-location: automat\icreatetypelib_saveallchanges.htm
 old-project: automat
 ms.assetid: 67824f38-e515-487e-8f4b-6682a5ac669c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeLib interface [Automation],SaveAllChanges method, ICreateTypeLib.SaveAllChanges, ICreateTypeLib::SaveAllChanges, SaveAllChanges, SaveAllChanges method [Automation], SaveAllChanges method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SaveAllChanges, automat.icreatetypelib_saveallchanges, oaidl/ICreateTypeLib::SaveAllChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

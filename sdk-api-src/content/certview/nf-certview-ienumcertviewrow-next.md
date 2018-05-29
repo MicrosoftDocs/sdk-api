@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Next
 title: IEnumCERTVIEWROW::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves to the next row in the row-enumeration sequence.
 old-location: security\ienumcertviewrow_next.htm
 old-project: SecCrypto
 ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Next method, IEnumCERTVIEWROW.Next, IEnumCERTVIEWROW::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWROW interface, _certsrv_ienumcertviewrow_next, certview/IEnumCERTVIEWROW::Next, security.ienumcertviewrow_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

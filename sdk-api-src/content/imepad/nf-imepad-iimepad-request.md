@@ -1,16 +1,16 @@
 ---
 UID: NF:imepad.IImePad.Request
 title: IImePad::Request
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by an IImePadApplet to insert text into an app.
 old-location: intl\iimepad_request.htm
 old-project: Intl
 ms.assetid: C74B0374-D6C7-44C7-94EF-E97B46534462
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IImePad interface [Internationalization for Windows Applications],Request method, IImePad.Request, IImePad::Request, IMEPADREQ_CHANGESTRING, IMEPADREQ_DELETESTRING, IMEPADREQ_FORCEIMEPADWINDOWSHOW, IMEPADREQ_GETAPPLETUISTYLE, IMEPADREQ_GETAPPLHWND, IMEPADREQ_GETCOMPOSITIONSTRING, IMEPADREQ_GETCOMPOSITIONSTRINGINFO, IMEPADREQ_GETCONVERSIONSTATUS, IMEPADREQ_GETCURRENTIMEINFO, IMEPADREQ_GETCURRENTUILANG, IMEPADREQ_GETDEFAULTUILANGID, IMEPADREQ_GETVERSION, IMEPADREQ_INSERTSTRING, IMEPADREQ_ISAPPLETACTIVE, IMEPADREQ_ISIMEPADWINDOWVISIBLE, IMEPADREQ_POSTMODALNOTIFY, IMEPADREQ_SENDCONTROL, IMEPADREQ_SETAPPLETMINMAXSIZE, IMEPADREQ_SETAPPLETSIZE, IMEPADREQ_SETAPPLETUISTYLE, Request, Request method [Internationalization for Windows Applications], Request method [Internationalization for Windows Applications],IImePad interface, imepad/IImePad::Request, intl.iimepad_request
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imepad.h
 req.include-header: 

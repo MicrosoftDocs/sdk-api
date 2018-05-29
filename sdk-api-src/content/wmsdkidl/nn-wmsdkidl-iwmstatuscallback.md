@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMStatusCallback
 title: IWMStatusCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMStatusCallback interface is implemented by the application to receive status information from various objects.
 old-location: wmformat\iwmstatuscallback.htm
 old-project: wmformat
 ms.assetid: a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStatusCallback, IWMStatusCallback interface [windows Media Format], IWMStatusCallback interface [windows Media Format],described, IWMStatusCallbackInterface, wmformat.iwmstatuscallback, wmsdkidl/IWMStatusCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

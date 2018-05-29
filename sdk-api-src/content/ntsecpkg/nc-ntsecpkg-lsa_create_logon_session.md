@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_LOGON_SESSION
 title: LSA_CREATE_LOGON_SESSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates logon sessions.
 old-location: security\createlogonsession.htm
 old-project: SecAuthN
 ms.assetid: 383c935c-a1f2-4d1b-bb02-e7e37f154771
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateLogonSession, CreateLogonSession function [Security], LSA_CREATE_LOGON_SESSION, _lsa_createlogonsession, ntsecpkg/CreateLogonSession, security.createlogonsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

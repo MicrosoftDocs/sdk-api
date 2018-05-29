@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetDescriptorValue
 title: BluetoothGATTGetDescriptorValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the specified descriptor.
 old-location: bltooth\bluetoothgattgetdescriptorvalue.htm
 old-project: bltooth
 ms.assetid: 06820384-7098-415A-A350-3A755162FAA3
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: BluetoothGATTGetDescriptorValue, BluetoothGATTGetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptorvalue, bluetoothleapis/BluetoothGATTGetDescriptorValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

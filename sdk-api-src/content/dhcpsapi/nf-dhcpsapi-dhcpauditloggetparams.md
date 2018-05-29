@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpAuditLogGetParams
 title: DhcpAuditLogGetParams function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the audit log configuration settings from the DHCP server.
 old-location: dhcp\dhcpauditloggetparams.htm
 old-project: DHCP
 ms.assetid: 3d0f8f06-d6a6-40b0-a3e8-0e155caee883
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpAuditLogGetParams, DhcpAuditLogGetParams function [DHCP], dhcp.dhcpauditloggetparams, dhcpsapi/DhcpAuditLogGetParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

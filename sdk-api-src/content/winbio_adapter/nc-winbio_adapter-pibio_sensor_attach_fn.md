@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_ATTACH_FN
 title: PIBIO_SENSOR_ATTACH_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a sensor adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\sensoradapterattach.htm
 old-project: SecBioMet
 ms.assetid: 91243128-0543-4df9-bde8-74ef5ae46914
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_SENSOR_ATTACH_FN, PIBIO_SENSOR_ATTACH_FN callback, SensorAdapterAttach, SensorAdapterAttach callback function [Windows Biometric Framework API], secbiomet.sensoradapterattach, winbio_adapter/SensorAdapterAttach
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

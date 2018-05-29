@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateGeometryShader
 title: ID3D11Device::CreateGeometryShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a geometry shader.
 old-location: direct3d11\id3d11device_creategeometryshader.htm
 old-project: direct3d11
 ms.assetid: fb9357d7-ac63-4515-9118-24a2d775e697
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CreateGeometryShader, CreateGeometryShader method [Direct3D 11], CreateGeometryShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateGeometryShader method, ID3D11Device.CreateGeometryShader, ID3D11Device::CreateGeometryShader, c0fe27f5-e83c-fa7e-faca-a34ea90a0c53, d3d11/ID3D11Device::CreateGeometryShader, direct3d11.id3d11device_creategeometryshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

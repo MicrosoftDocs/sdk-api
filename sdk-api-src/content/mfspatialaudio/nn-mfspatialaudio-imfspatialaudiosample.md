@@ -1,16 +1,16 @@
 ---
 UID: NN:mfspatialaudio.IMFSpatialAudioSample
 title: IMFSpatialAudioSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a multimedia sample with spatial sound information. Every IMFSpatialAudioSample contains one or more IMFSpatialAudioObjectBuffer objects.
 old-location: mf\imfspatialaudiosample.htm
 old-project: medfound
 ms.assetid: EA0277BF-C9C8-42FE-9206-A87FC3C50A9F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Foundation], IMFSpatialAudioSample interface [Media Foundation],described, mf.imfspatialaudiosample, mfspatialaudio/IMFSpatialAudioSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h

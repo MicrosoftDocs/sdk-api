@@ -1,16 +1,16 @@
 ---
 UID: NS:searchapi._ITEM_INFO
 title: "_ITEM_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information passed to the IUrlAccessor object about the current item; for example, the application name and catalog name.
 old-location: search\_search_ITEM_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\item_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITEM_INFO, ITEM_INFO structure [search], _ITEM_INFO, _search_ITEM_INFO, search._search_ITEM_INFO, searchapi/ITEM_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

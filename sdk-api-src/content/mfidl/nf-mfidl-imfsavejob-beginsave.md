@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSaveJob.BeginSave
 title: IMFSaveJob::BeginSave
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins saving a Windows Media file to the application's byte stream.
 old-location: mf\imfsavejob_beginsave.htm
 old-project: medfound
 ms.assetid: ff137b76-2a05-4e58-8d4f-d12cdd89656b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginSave, BeginSave method [Media Foundation], BeginSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],BeginSave method, IMFSaveJob.BeginSave, IMFSaveJob::BeginSave, ff137b76-2a05-4e58-8d4f-d12cdd89656b, mf.imfsavejob_beginsave, mfidl/IMFSaveJob::BeginSave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

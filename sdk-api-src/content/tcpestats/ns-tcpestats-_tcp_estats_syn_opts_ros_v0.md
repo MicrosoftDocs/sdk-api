@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SYN_OPTS_ROS_v0
 title: "_TCP_ESTATS_SYN_OPTS_ROS_v0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains read-only static information for extended TCP statistics on SYN exchange for a TCP connection.
 old-location: iphlp\tcp_estats_syn_opts_ros_v0.htm
 old-project: IpHlp
 ms.assetid: e183b23c-ce87-4818-b6d6-2305a3aa345d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0 structure pointer [IP Helper], TCP_ESTATS_SYN_OPTS_ROS_v0, TCP_ESTATS_SYN_OPTS_ROS_v0 structure [IP Helper], _TCP_ESTATS_SYN_OPTS_ROS_v0, iphlp.tcp_estats_syn_opts_ros_v0, tcpestats/PTCP_ESTATS_SYN_OPTS_ROS_v0, tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 

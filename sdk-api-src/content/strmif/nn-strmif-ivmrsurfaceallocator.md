@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRSurfaceAllocator
 title: IVMRSurfaceAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRSurfaceAllocator interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurfaceallocator.htm
 old-project: DirectShow
 ms.assetid: bbcbe152-80fd-469b-a79b-c8db6f97da22
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], IVMRSurfaceAllocator interface [DirectShow],described, IVMRSurfaceAllocatorInterface, dshow.ivmrsurfaceallocator, strmif/IVMRSurfaceAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

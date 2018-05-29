@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.GetViewStateStream
 title: IShellBrowser::GetViewStateStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IStream interface that can be used for storage of view-specific state information.
 old-location: shell\IShellBrowser_GetViewStateStream.htm
 old-project: shell
 ms.assetid: 887ebe9f-8bde-46dd-a7a2-7b2ca66bf905
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetViewStateStream, GetViewStateStream method [Windows Shell], GetViewStateStream method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetViewStateStream method, IShellBrowser.GetViewStateStream, IShellBrowser::GetViewStateStream, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_IShellBrowser_GetViewStateStream, shell.IShellBrowser_GetViewStateStream, shobjidl_core/IShellBrowser::GetViewStateStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

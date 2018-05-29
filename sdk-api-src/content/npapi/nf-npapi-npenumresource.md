@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPEnumResource
 title: NPEnumResource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an enumeration based on a handle returned by NPOpenEnum.
 old-location: security\npenumresource.htm
 old-project: SecAuthN
 ms.assetid: 286a6865-478a-41e5-a48f-42f9fc117f14
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPEnumResource, NPEnumResource function [Security], _mnp_npenumresource, npapi/NPEnumResource, security.npenumresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

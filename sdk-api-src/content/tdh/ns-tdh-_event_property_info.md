@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._EVENT_PROPERTY_INFO
 title: "_EVENT_PROPERTY_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about a single property of the event or filter.
 old-location: etw\event_property_info_struct.htm
 old-project: ETW
 ms.assetid: 06b82b31-1f0e-45d5-88ec-9b9835af10df
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO structure [ETW], _EVENT_PROPERTY_INFO, etw.event_property_info_struct, tdh.event_property_info_struct, tdh/EVENT_PROPERTY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

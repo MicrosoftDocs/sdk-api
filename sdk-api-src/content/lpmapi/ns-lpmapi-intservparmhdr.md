@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.IntServParmHdr
 title: IntServParmHdr
-author: windows-driver-content
+author: windows-sdk-content
 description: The IntServParmHdr structure is a header for Integrated Services parameters.
 old-location: qos\intservparmhdr.htm
 old-project: QOS
 ms.assetid: 56ca242e-d5e9-4c16-9c8e-70a356375683
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IntServParmHdr, IntServParmHdr structure [QOS], lpmapi/IntServParmHdr, qos.intservparmhdr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

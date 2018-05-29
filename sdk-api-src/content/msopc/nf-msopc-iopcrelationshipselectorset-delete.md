@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorSet.Delete
 title: IOpcRelationshipSelectorSet::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a specified IOpcRelationshipSelector interface pointer from the set.
 old-location: opc\iopcrelationshipselectorset_delete.htm
 old-project: OPC
 ms.assetid: a90757f7-bdb1-4cff-9a46-64ec953f2172
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],Delete method, IOpcRelationshipSelectorSet.Delete, IOpcRelationshipSelectorSet::Delete, msopc/IOpcRelationshipSelectorSet::Delete, opc.iopcrelationshipselectorset_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

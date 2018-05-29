@@ -1,16 +1,16 @@
 ---
 UID: NF:loadperf.LoadPerfCounterTextStringsA
 title: LoadPerfCounterTextStringsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
 old-location: perf\loadperfcountertextstrings.htm
 old-project: PerfCtrs
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: loadperf.h
 req.include-header: 

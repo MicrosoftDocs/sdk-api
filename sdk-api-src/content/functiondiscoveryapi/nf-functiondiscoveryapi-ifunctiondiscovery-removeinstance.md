@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.RemoveInstance
 title: IFunctionDiscovery::RemoveInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified function instance, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_removeinstance_method.htm
 old-project: FunDisc
 ms.assetid: 743ec310-ea35-4c4b-92f0-bbfe0a2f6f30
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscovery interface,RemoveInstance method, IFunctionDiscovery.RemoveInstance, IFunctionDiscovery::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IFunctionDiscovery interface, functiondiscoveryapi/IFunctionDiscovery::RemoveInstance, ncd.ifunctiondiscovery_removeinstance_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreatePalette
 title: CreatePalette function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreatePalette function creates a logical palette.
 old-location: gdi\createpalette.htm
 old-project: gdi
 ms.assetid: f3462198-9360-4b77-ac62-9fe21ec666be
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreatePalette, gdi.createpalette, wingdi/CreatePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

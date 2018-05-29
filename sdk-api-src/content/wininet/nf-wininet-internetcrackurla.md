@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetCrackUrlA
 title: InternetCrackUrlA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cracks a URL into its component parts.
 old-location: wininet\internetcrackurl.htm
 old-project: WinInet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

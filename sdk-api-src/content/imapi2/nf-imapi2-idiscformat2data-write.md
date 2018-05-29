@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.Write
 title: IDiscFormat2Data::Write
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the data stream to the device.
 old-location: imapi\idiscformat2data_write.htm
 old-project: imapi
 ms.assetid: 9daf31f3-84c2-48b2-ab21-a3809b6ed9af
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],Write method, IDiscFormat2Data.Write, IDiscFormat2Data::Write, Write, Write method [IMAPI], Write method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_write, imapi2/IDiscFormat2Data::Write
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

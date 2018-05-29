@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d9.IDirect3DCryptoSession9
 title: IDirect3DCryptoSession9
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a cryptographic session.To get a pointer to this interface, call IDirect3DDevice9Video::CreateCryptoSession.
 old-location: mf\idirect3dcryptosession9.htm
 old-project: medfound
 ms.assetid: 2511c9da-e696-4e49-b180-7fc1317c1652
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], IDirect3DCryptoSession9 interface [Media Foundation],described, d3d9/IDirect3DCryptoSession9, mf.idirect3dcryptosession9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: 

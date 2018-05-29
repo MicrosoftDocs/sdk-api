@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2spi._WSPPROC_TABLE
 title: "_WSPPROC_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of pointers to service provider functions.
 old-location: winsock\wspproc_table.htm
 old-project: WinSock
 ms.assetid: f6fbf6da-58c5-4cef-8897-789a1e02aabb
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE structure [Winsock], WSPPROC_TABLE, WSPPROC_TABLE structure [Winsock], _WSPPROC_TABLE, winsock.wspproc_table, ws2spi/FAR * LPWSPPROC_TABLE, ws2spi/WSPPROC_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 

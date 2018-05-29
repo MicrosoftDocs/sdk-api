@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymEnumerateSymbols64
 title: SymEnumerateSymbols64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all the symbols for a specified module.
 old-location: base\symenumeratesymbols64.htm
 old-project: Debug
 ms.assetid: f1aa710c-fbe5-4c9a-9956-5bd872b4b5be
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymEnumerateSymbols, SymEnumerateSymbols function, SymEnumerateSymbols64, SymEnumerateSymbols64 function, SymEnumerateSymbolsW, SymEnumerateSymbolsW64, _win32_symenumeratesymbols64, base.symenumeratesymbols64, dbghelp/SymEnumerateSymbols, dbghelp/SymEnumerateSymbols64, dbghelp/SymEnumerateSymbolsW, dbghelp/SymEnumerateSymbolsW64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpQueryServiceConfiguration
 title: HttpQueryServiceConfiguration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves one or more HTTP Server API configuration records.
 old-location: http\httpqueryserviceconfiguration.htm
 old-project: Http
 ms.assetid: bbd2c3c4-d2d0-4590-9b5c-6916b91600cd
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

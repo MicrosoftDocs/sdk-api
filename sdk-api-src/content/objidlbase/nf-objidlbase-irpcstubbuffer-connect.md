@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Connect
 title: IRpcStubBuffer::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a server stub, binding it to the specified interface.
 old-location: com\irpcstubbuffer_connect.htm
 old-project: com
 ms.assetid: 0a452287-b674-4b51-9690-316beeab4482
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Connect method, IRpcStubBuffer.Connect, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

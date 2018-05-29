@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WSCUpdateProvider32
 title: WSCUpdateProvider32 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the specified 32-bit transport provider in the system configuration database.Note  This call is a strictly 32-bit version of WSCUpdateProvider for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
 old-location: winsock\wscupdateprovider32.htm
 old-project: WinSock
 ms.assetid: 803ef58a-853b-491c-bed1-e02275fef258
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSCUpdateProvider32, WSCUpdateProvider32 function [Winsock], winsock.wscupdateprovider32, ws2spi/WSCUpdateProvider32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

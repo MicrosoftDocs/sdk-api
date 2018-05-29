@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMLanguageList
 title: IWMLanguageList
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMLanguageList interface manages a list of languages supported by an ASF file.
 old-location: wmformat\iwmlanguagelist.htm
 old-project: wmformat
 ms.assetid: 63ef282c-d1ab-4ce9-a56b-209407c7839b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMLanguageList, IWMLanguageList interface [windows Media Format], IWMLanguageList interface [windows Media Format],described, IWMLanguageListInterface, wmformat.iwmlanguagelist, wmsdkidl/IWMLanguageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

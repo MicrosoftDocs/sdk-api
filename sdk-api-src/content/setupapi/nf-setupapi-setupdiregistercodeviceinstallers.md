@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiRegisterCoDeviceInstallers
 title: SetupDiRegisterCoDeviceInstallers function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiRegisterCoDeviceInstallers function is the default handler for DIF_REGISTER_COINSTALLERS.
 old-location: devinst\setupdiregistercodeviceinstallers.htm
 old-project: devinst
 ms.assetid: 75d0275b-9eb8-45ec-ac8e-b18d59e0c011
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiRegisterCoDeviceInstallers, SetupDiRegisterCoDeviceInstallers function [Device and Driver Installation], devinst.setupdiregistercodeviceinstallers, di-rtns_03f0dc0a-f133-4280-b32d-9a811d04a844.xml, setupapi/SetupDiRegisterCoDeviceInstallers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

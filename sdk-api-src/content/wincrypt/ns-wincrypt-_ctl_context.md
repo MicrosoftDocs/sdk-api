@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CTL_CONTEXT
 title: "_CTL_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CTL_CONTEXT structure contains both the encoded and decoded representations of a CTL.
 old-location: security\ctl_context.htm
 old-project: SecCrypto
 ms.assetid: 780edddf-1b44-4292-9156-4dfd5100adb8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCTL_CONTEXT, CTL_CONTEXT, CTL_CONTEXT structure [Security], PCCTL_CONTEXT, PCCTL_CONTEXT structure pointer [Security], PCTL_CONTEXT, PCTL_CONTEXT structure pointer [Security], _CTL_CONTEXT, _crypto2_ctl_context, security.ctl_context, wincrypt/CTL_CONTEXT, wincrypt/PCCTL_CONTEXT, wincrypt/PCTL_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

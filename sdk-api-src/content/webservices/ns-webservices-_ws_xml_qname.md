@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_QNAME
 title: "_WS_XML_QNAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: A structure used to specify an XML name (of an element or an attribute) as a local name, namespace pair.
 old-location: wsw\ws_xml_qname.htm
 old-project: wsw
 ms.assetid: 54095ad5-e9ba-4fa8-92e2-87b3a8950d5c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_QNAME, WS_XML_QNAME structure [Web Services for Windows], _WS_XML_QNAME, webservices/WS_XML_QNAME, wsw.ws_xml_qname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

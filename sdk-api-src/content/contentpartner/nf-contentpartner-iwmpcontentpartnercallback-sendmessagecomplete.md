@@ -1,16 +1,16 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.SendMessageComplete
 title: IWMPContentPartnerCallback::SendMessageComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_sendmessagecomplete.htm
 old-project: WMP
 ms.assetid: fa5c6b8f-5797-4703-9be8-e3c3a1f1f5f3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],SendMessageComplete method, IWMPContentPartnerCallback.SendMessageComplete, IWMPContentPartnerCallback::SendMessageComplete, IWMPContentPartnerCallbackSendMessageComplete, SendMessageComplete, SendMessageComplete method [Windows Media Player], SendMessageComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::SendMessageComplete, wmp.iwmpcontentpartnercallback_sendmessagecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

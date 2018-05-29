@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantVectorFromPropVariant
 title: InitPropVariantVectorFromPropVariant function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a vector element in a PROPVARIANT structure with a value stored in another PROPVARIANT.
 old-location: properties\InitPropVariantVectorFromPropVariant.htm
 old-project: properties
 ms.assetid: 579f80af-38e0-4d3a-9307-5aa5e3fd6770
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantVectorFromPropVariant, InitPropVariantVectorFromPropVariant function [Windows Properties], properties.InitPropVariantVectorFromPropVariant, propvarutil/InitPropVariantVectorFromPropVariant, shell.InitPropVariantVectorFromPropVariant, shell_InitPropVariantVectorFromPropVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

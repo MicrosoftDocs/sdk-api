@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ICrmMonitor
 title: ICrmMonitor
-author: windows-driver-content
+author: windows-sdk-content
 description: Captures a snapshot of the current state of the CRM and holds a specific CRM clerk.
 old-location: cos\icrmmonitor.htm
 old-project: cossdk
 ms.assetid: ead5f782-8512-4387-b8f3-7be960f35bbe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmMonitor, ICrmMonitor interface [COM+], ICrmMonitor interface [COM+],described, _dtc_ICrmMonitor_Interface, comsvcs/ICrmMonitor, cos.icrmmonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

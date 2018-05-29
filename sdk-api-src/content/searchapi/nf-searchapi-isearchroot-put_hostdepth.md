@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_HostDepth
 title: ISearchRoot::put_HostDepth
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value that indicates how far into a host tree to crawl when indexing.
 old-location: search\_search_ISearchRoot_put_HostDepth.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_hostdepth.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchRoot interface [search],put_HostDepth method, ISearchRoot.put_HostDepth, ISearchRoot::put_HostDepth, _search_ISearchRoot_put_HostDepth, put_HostDepth, put_HostDepth method [search], put_HostDepth method [search],ISearchRoot interface, search._search_ISearchRoot_put_HostDepth, searchapi/ISearchRoot::put_HostDepth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

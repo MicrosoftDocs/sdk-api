@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFMediaSink
 title: IMFMediaSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by media sink objects.
 old-location: mf\imfmediasink.htm
 old-project: medfound
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

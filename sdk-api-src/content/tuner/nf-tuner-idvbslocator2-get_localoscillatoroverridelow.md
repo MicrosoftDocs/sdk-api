@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBSLocator2.get_LocalOscillatorOverrideLow
 title: IDVBSLocator2::get_LocalOscillatorOverrideLow
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the low oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
 old-location: mstv\idvbslocator2_localoscillatoroverridelow.htm
 old-project: mstv
 ms.assetid: 141295c9-1129-4996-84e9-5ad63d70da05
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillatorOverrideLow property, IDVBSLocator2.LocalOscillatorOverrideLow, IDVBSLocator2.get_LocalOscillatorOverrideLow, IDVBSLocator2::LocalOscillatorOverrideLow, IDVBSLocator2::get_LocalOscillatorOverrideLow, IDVBSLocator2::put_LocalOscillatorOverrideLow, LocalOscillatorOverrideLow property [Microsoft TV Technologies], LocalOscillatorOverrideLow property [Microsoft TV Technologies],IDVBSLocator2 interface, get_LocalOscillatorOverrideLow, mstv.idvbslocator2_localoscillatoroverridelow, tuner/IDVBSLocator2::LocalOscillatorOverrideLow, tuner/IDVBSLocator2::get_LocalOscillatorOverrideLow, tuner/IDVBSLocator2::put_LocalOscillatorOverrideLow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

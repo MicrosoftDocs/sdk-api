@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Resume
 title: IMDSPDeviceControl::Resume
-author: windows-driver-content
+author: windows-sdk-content
 description: The Resume method resumes the current playback or record operation from the file position saved during the call to Pause.
 old-location: wmdm\imdspdevicecontrol_resume.htm
 old-project: WMDM
 ms.assetid: 6c7e26dc-05cd-4dfd-86c8-0b7b216b6772
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Resume method, IMDSPDeviceControl.Resume, IMDSPDeviceControl::Resume, IMDSPDeviceControlResume, Resume, Resume method [windows Media Device Manager], Resume method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Resume, wmdm.imdspdevicecontrol_resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

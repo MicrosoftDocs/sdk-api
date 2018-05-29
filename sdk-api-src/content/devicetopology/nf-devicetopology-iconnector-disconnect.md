@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IConnector.Disconnect
 title: IConnector::Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Disconnect method disconnects this connector from another connector.
 old-location: coreaudio\iconnector_disconnect.htm
 old-project: CoreAudio
 ms.assetid: f1ca8863-4756-4d08-97b3-959a76d6f991
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Disconnect, Disconnect method [Core Audio], Disconnect method [Core Audio],IConnector interface, IConnector interface [Core Audio],Disconnect method, IConnector.Disconnect, IConnector::Disconnect, IConnectorDisconnect, coreaudio.iconnector_disconnect, devicetopology/IConnector::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

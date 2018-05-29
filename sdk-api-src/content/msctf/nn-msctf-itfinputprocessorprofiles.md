@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfiles
 title: ITfInputProcessorProfiles
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfInputProcessorProfiles interface is implemented by the TSF manager and used by an application or text service to manipulate the language profile of one or more text services.
 old-location: tsf\itfinputprocessorprofiles.htm
 old-project: TSF
 ms.assetid: 9fa722a4-1e3f-4845-aea7-3b24b517f2a5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ITfInputProcessorProfiles interface [Text Services Framework],described, _tsf_itfinputprocessorprofiles_ref, msctf/ITfInputProcessorProfiles, tsf.itfinputprocessorprofiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

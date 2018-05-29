@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyFromI2
 title: VarCyFromI2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a short value to a currency value.
 old-location: automat\varcyfromi2.htm
 old-project: automat
 ms.assetid: 987ec4cd-345c-43b9-b2ca-e7746afc2c59
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarCyFromI2, VarCyFromI2 function [Automation], _oa96_VarCyFromI2, automat.varcyfromi2, oleauto/VarCyFromI2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

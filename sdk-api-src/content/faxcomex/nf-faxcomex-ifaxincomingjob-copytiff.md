@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.CopyTiff
 title: IFaxIncomingJob::CopyTiff
-author: windows-driver-content
+author: windows-sdk-content
 description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax job to a file on the local computer.
 old-location: fax\_mfax_faxincomingjob_copytiff_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_136u.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],CopyTiff method, FaxIncomingJob.CopyTiff, IFaxIncomingJob.CopyTiff, IFaxIncomingJob::CopyTiff, _mfax_faxincomingjob.copytiff, fax._mfax_faxincomingjob_copytiff, fax._mfax_faxincomingjob_copytiff_vb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

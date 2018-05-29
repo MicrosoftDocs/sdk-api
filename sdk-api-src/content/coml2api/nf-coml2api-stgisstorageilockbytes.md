@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgIsStorageILockBytes
 title: StgIsStorageILockBytes function
-author: windows-driver-content
+author: windows-sdk-content
 description: The StgIsStorageILockBytes function indicates whether the specified byte array contains a storage object.
 old-location: stg\stgisstorageilockbytes.htm
 old-project: Stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgIsStorageILockBytes, StgIsStorageILockBytes function [Structured Storage], _stg_stgisstorageilockbytes, coml2api/StgIsStorageILockBytes, stg.stgisstorageilockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

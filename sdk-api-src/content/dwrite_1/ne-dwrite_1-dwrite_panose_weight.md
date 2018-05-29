@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_WEIGHT
 title: DWRITE_PANOSE_WEIGHT
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_PANOSE_WEIGHT enumeration contains values that specify the weight of characters.
 old-location: directwrite\dwrite_panose_weight.htm
 old-project: DirectWrite
 ms.assetid: 9309C68B-1193-47EF-A577-9DC0EEE18F4C
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_PANOSE_WEIGHT, DWRITE_PANOSE_WEIGHT enumeration [Direct Write], DWRITE_PANOSE_WEIGHT_ANY, DWRITE_PANOSE_WEIGHT_BLACK, DWRITE_PANOSE_WEIGHT_BOLD, DWRITE_PANOSE_WEIGHT_BOOK, DWRITE_PANOSE_WEIGHT_DEMI, DWRITE_PANOSE_WEIGHT_EXTRA_BLACK, DWRITE_PANOSE_WEIGHT_HEAVY, DWRITE_PANOSE_WEIGHT_LIGHT, DWRITE_PANOSE_WEIGHT_MEDIUM, DWRITE_PANOSE_WEIGHT_NORD, DWRITE_PANOSE_WEIGHT_NO_FIT, DWRITE_PANOSE_WEIGHT_THIN, DWRITE_PANOSE_WEIGHT_VERY_LIGHT, directwrite.dwrite_panose_weight, dwrite_1/DWRITE_PANOSE_WEIGHT, dwrite_1/DWRITE_PANOSE_WEIGHT_ANY, dwrite_1/DWRITE_PANOSE_WEIGHT_BLACK, dwrite_1/DWRITE_PANOSE_WEIGHT_BOLD, dwrite_1/DWRITE_PANOSE_WEIGHT_BOOK, dwrite_1/DWRITE_PANOSE_WEIGHT_DEMI, dwrite_1/DWRITE_PANOSE_WEIGHT_EXTRA_BLACK, dwrite_1/DWRITE_PANOSE_WEIGHT_HEAVY, dwrite_1/DWRITE_PANOSE_WEIGHT_LIGHT, dwrite_1/DWRITE_PANOSE_WEIGHT_MEDIUM, dwrite_1/DWRITE_PANOSE_WEIGHT_NORD, dwrite_1/DWRITE_PANOSE_WEIGHT_NO_FIT, dwrite_1/DWRITE_PANOSE_WEIGHT_THIN, dwrite_1/DWRITE_PANOSE_WEIGHT_VERY_LIGHT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

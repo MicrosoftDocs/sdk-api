@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteText
 title: WsWriteText function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the specified text to the XML writer.
 old-location: wsw\wswritetext.htm
 old-project: wsw
 ms.assetid: a4ffc05e-d04a-4cc3-bdb6-71b2090bc32f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteText, WsWriteText function [Web Services for Windows], webservices/WsWriteText, wsw.wswritetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

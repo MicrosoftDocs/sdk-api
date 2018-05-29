@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateConflicts
 title: ISyncMgrControl::UpdateConflicts
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs Sync Center that conflicts have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateConflicts.htm
 old-project: shell
 ms.assetid: 606df5fb-0c4b-49c7-82ed-28f22927953a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateConflicts method, ISyncMgrControl.UpdateConflicts, ISyncMgrControl::UpdateConflicts, UpdateConflicts, UpdateConflicts method [Windows Shell], UpdateConflicts method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateConflicts, shell.ISyncMgrControl_UpdateConflicts, syncmgr/ISyncMgrControl::UpdateConflicts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymUnloadModule
 title: SymUnloadModule function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unloads the symbol table.
 old-location: base\symunloadmodule64.htm
 old-project: Debug
 ms.assetid: f4801039-eba2-4ec3-8c23-706ab89bb442
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.WaitForNtmsNotification
 title: WaitForNtmsNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WaitForNtmsNotification function waits for the next object change notification.
 old-location: fs\waitforntmsnotification.htm
 old-project: Rsm
 ms.assetid: ecb39bac-f062-4835-bbae-f9f643ffde9b
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], _zaw_waitforntmsnotification, base.waitforntmsnotification, fs.waitforntmsnotification, ntmsapi/WaitForNtmsNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

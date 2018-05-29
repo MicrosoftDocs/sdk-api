@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerStoreQueryReportMetadataV2
 title: WerStoreQueryReportMetadataV2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves metadata about a report in the store.
 old-location: wer\werstorequeryreportmetadatav2.htm
 old-project: wer
 ms.assetid: ADF6619C-1F3E-4AFF-9E25-4F6F83D1353C
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerStoreQueryReportMetadataV2, WerStoreQueryReportMetadataV2 function [Windows Error Reporting], wer.werstorequeryreportmetadatav2, werapi/WerStoreQueryReportMetadataV2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

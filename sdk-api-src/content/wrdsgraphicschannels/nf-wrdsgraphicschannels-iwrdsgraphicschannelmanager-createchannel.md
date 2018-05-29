@@ -1,16 +1,16 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelManager.CreateChannel
 title: IWRdsGraphicsChannelManager::CreateChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to create a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm
 old-project: TermServ
 ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateChannel, CreateChannel method [Remote Desktop Services], CreateChannel method [Remote Desktop Services],IWRdsGraphicsChannelManager interface, IWRdsGraphicsChannelManager interface [Remote Desktop Services],CreateChannel method, IWRdsGraphicsChannelManager.CreateChannel, IWRdsGraphicsChannelManager::CreateChannel, termserv.iwrdsgraphicschannelmanager_createchannel, wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 

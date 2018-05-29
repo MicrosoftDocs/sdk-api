@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_parse_result
 title: ldap_parse_result function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_parse_result function parses responses from the server and returns the appropriate fields.
 old-location: ldap\ldap_parse_result.htm
 old-project: LDAP
 ms.assetid: 6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_parse_result, ldap.ldap__parse__result, ldap.ldap_parse_result, ldap_parse_result, ldap_parse_result function [LDAP], ldap_parse_resultA, ldap_parse_resultW, winldap/ldap_parse_result, winldap/ldap_parse_resultA, winldap/ldap_parse_resultW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

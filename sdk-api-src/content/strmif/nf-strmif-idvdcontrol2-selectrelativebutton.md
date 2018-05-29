@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectRelativeButton
 title: IDvdControl2::SelectRelativeButton
-author: windows-driver-content
+author: windows-sdk-content
 description: The SelectRelativeButton method sets the specified relative button (upper, lower, right, or left).
 old-location: dshow\idvdcontrol2_selectrelativebutton.htm
 old-project: DirectShow
 ms.assetid: 2eb6243a-6f69-45d2-9b72-2dd28d02e86d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectRelativeButton method, IDvdControl2.SelectRelativeButton, IDvdControl2::SelectRelativeButton, IDvdControl2SelectRelativeButton, SelectRelativeButton, SelectRelativeButton method [DirectShow], SelectRelativeButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectrelativebutton, strmif/IDvdControl2::SelectRelativeButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

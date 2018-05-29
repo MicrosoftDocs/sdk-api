@@ -1,16 +1,16 @@
 ---
 UID: NN:certpol.ICertPolicy
 title: ICertPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides communications between the Certificate Services server engine and the policy module.
 old-location: security\icertpolicy.htm
 old-project: SecCrypto
 ms.assetid: 14031490-be8e-47f9-8c66-ae27f7d3599c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certpol.h
 req.include-header: Certsrv.h

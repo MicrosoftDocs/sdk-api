@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagDELETEITEMSTRUCT
 title: tagDELETEITEMSTRUCT
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a deleted list box or combo box item.
 old-location: controls\DELETEITEMSTRUCT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxstructures\deleteitemstruct.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPDELETEITEMSTRUCT, *PDELETEITEMSTRUCT, DELETEITEMSTRUCT, DELETEITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, PDELETEITEMSTRUCT, PDELETEITEMSTRUCT structure pointer [Windows Controls], _win32_DELETEITEMSTRUCT_str, _win32_DELETEITEMSTRUCT_str_cpp, controls.DELETEITEMSTRUCT, controls._win32_DELETEITEMSTRUCT_str, tagDELETEITEMSTRUCT, winuser/DELETEITEMSTRUCT, winuser/PDELETEITEMSTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

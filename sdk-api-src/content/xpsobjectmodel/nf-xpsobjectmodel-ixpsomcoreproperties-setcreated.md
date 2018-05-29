@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCreated
 title: IXpsOMCoreProperties::SetCreated
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the created property.
 old-location: xps\ixpsomcoreproperties_setcreated.htm
 old-project: printdocs
 ms.assetid: 1a71d338-a34e-40df-ade0-130cd8e0a176
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCreated method, IXpsOMCoreProperties.SetCreated, IXpsOMCoreProperties::SetCreated, SetCreated, SetCreated method [XPS Documents and Packaging], SetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcreated, xpsobjectmodel/IXpsOMCoreProperties::SetCreated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12.ID3D12PipelineLibrary
 title: ID3D12PipelineLibrary
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a pipeline library, in particular loading and retrieving individual PSOs.
 old-location: direct3d12\id3d12pipelinelibrary.htm
 old-project: direct3d12
 ms.assetid: 7A1D750D-51F1-48F6-9D74-6439A147F1EC
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,described, d3d12/ID3D12PipelineLibrary, direct3d12.id3d12pipelinelibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

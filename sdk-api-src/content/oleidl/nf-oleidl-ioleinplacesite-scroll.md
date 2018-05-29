@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.Scroll
 title: IOleInPlaceSite::Scroll
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs the container to scroll the view of the object by the specified number of pixels.
 old-location: com\ioleinplacesite_scroll.htm
 old-project: com
 ms.assetid: a169c4c6-b600-4812-bf71-d7fcd7486ff1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceSite interface [COM],Scroll method, IOleInPlaceSite.Scroll, IOleInPlaceSite::Scroll, IOleInPlaceSiteWindowless.Scroll, Scroll, Scroll method [COM], Scroll method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_scroll, com.ioleinplacesite_scroll, oleidl/IOleInPlaceSite::Scroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

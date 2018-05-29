@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._USER_INFO_24
 title: "_USER_INFO_24"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains user account information on an account which is connected to an Internet identity. This information includes the Internet provider name for the user, the user's Internet name, and the user's security identifier (SID).
 old-location: netmgmt\user_info_24.htm
 old-project: NetMgmt
 ms.assetid: CE65EDE0-F4AE-4582-9D7F-6667BBA98C75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_INFO_24, *PUSER_INFO_24, LPUSER_INFO_24, LPUSER_INFO_24 structure pointer [Network Management], PUSER_INFO_24, PUSER_INFO_24 structure pointer [Network Management], USER_INFO_24, USER_INFO_24 structure [Network Management], _USER_INFO_24, lmaccess/LPUSER_INFO_24, lmaccess/PUSER_INFO_24, lmaccess/USER_INFO_24, netmgmt.user_info_24"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

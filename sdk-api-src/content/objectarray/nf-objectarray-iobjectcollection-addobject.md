@@ -1,16 +1,16 @@
 ---
 UID: NF:objectarray.IObjectCollection.AddObject
 title: IObjectCollection::AddObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a single object to the collection.
 old-location: shell\IObjectCollection_AddObject.htm
 old-project: shell
 ms.assetid: 0898160d-46e5-4b38-9fc9-f74bd6a0385b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddObject method, IObjectCollection.AddObject, IObjectCollection::AddObject, _shell_IObjectCollection_AddObject, objectarray/IObjectCollection::AddObject, shell.IObjectCollection_AddObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objectarray.h
 req.include-header: Shobjidl.h

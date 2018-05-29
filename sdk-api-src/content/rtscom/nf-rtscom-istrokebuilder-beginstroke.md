@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.BeginStroke
 title: IStrokeBuilder::BeginStroke
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins a stroke on an ink object by using packet data from a RealTimeStylus Class object.
 old-location: tablet\istrokebuilder_beginstroke.htm
 old-project: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

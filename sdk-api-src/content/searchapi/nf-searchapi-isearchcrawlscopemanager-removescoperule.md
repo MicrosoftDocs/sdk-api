@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveScopeRule
 title: ISearchCrawlScopeManager::RemoveScopeRule
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a scope rule from the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_RemoveScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removescoperule.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveScopeRule method, ISearchCrawlScopeManager.RemoveScopeRule, ISearchCrawlScopeManager::RemoveScopeRule, RemoveScopeRule, RemoveScopeRule method [search], RemoveScopeRule method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveScopeRule, search._search_ISearchCrawlScopeManager_RemoveScopeRule, searchapi/ISearchCrawlScopeManager::RemoveScopeRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

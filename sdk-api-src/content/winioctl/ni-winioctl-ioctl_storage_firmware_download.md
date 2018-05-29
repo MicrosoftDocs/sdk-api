@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_FIRMWARE_DOWNLOAD
 title: IOCTL_STORAGE_FIRMWARE_DOWNLOAD
-author: windows-driver-content
+author: windows-sdk-content
 description: Windows applications can use this control code to download a firmware image to the target device, but not activate it.
 old-location: fs\ioctl_storage_firmware_download.htm
 old-project: FileIO
 ms.assetid: 77E50787-1E71-4D90-A1D3-E6665CE0EFDC
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_DOWNLOAD, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control code [Files], fs.ioctl_storage_firmware_download, winioctl/IOCTL_STORAGE_FIRMWARE_DOWNLOAD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

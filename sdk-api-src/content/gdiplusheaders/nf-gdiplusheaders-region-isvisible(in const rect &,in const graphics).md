@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.IsVisible(IN const Rect &,IN const Graphics)
 title: Region::IsVisible(IN const Rect &,IN const Graphics)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the IsVisible methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsVisible, IsVisible methods [GDI+], Region.IsVisible, Region.IsVisible(IN const Rect &,IN const Graphics), Region::IsVisible, Region::IsVisible(IN const Rect &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Methods, gdiplus._gdiplus_CLASS_Region_IsVisible_Methods, gdiplusheaders/IsVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

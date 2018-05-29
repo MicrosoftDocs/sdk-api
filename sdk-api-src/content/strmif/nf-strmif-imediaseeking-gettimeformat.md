@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetTimeFormat
 title: IMediaSeeking::GetTimeFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTimeFormat method retrieves the time format that is currently being used for seek operations.
 old-location: dshow\imediaseeking_gettimeformat.htm
 old-project: DirectShow
 ms.assetid: aa6dc75e-f124-4404-b8fd-ef227d8cada0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [DirectShow], GetTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetTimeFormat method, IMediaSeeking.GetTimeFormat, IMediaSeeking::GetTimeFormat, IMediaSeekingGetTimeFormat, dshow.imediaseeking_gettimeformat, strmif/IMediaSeeking::GetTimeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

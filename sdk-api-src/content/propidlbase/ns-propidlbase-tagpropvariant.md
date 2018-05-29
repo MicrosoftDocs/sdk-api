@@ -1,16 +1,16 @@
 ---
 UID: NS:propidlbase.tagPROPVARIANT
 title: tagPROPVARIANT
-author: windows-driver-content
+author: windows-sdk-content
 description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
 old-location: stg\propvariant.htm
 old-project: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: propidlbase.h
 req.include-header: Propidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11shadertracing.D3D11_TRACE_GS_INPUT_PRIMITIVE
 title: D3D11_TRACE_GS_INPUT_PRIMITIVE
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of geometry shader input primitive.
 old-location: direct3d11\d3d11_trace_gs_input_primitive.htm
 old-project: direct3d11
 ms.assetid: 9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TRACE_GS_INPUT_PRIMITIVE, D3D11_TRACE_GS_INPUT_PRIMITIVE enumeration [Direct3D 11], D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE, D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ, D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT, D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE, D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ, D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED, direct3d11.d3d11_trace_gs_input_primitive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11shadertracing.h
 req.include-header: 

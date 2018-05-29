@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvQueryTrueTypeOutline
 title: DrvQueryTrueTypeOutline function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvQueryTrueTypeOutline function retrieves glyph outlines in native TrueType format.
 old-location: display\drvquerytruetypeoutline.htm
 old-project: display
 ms.assetid: 49123a0c-5096-4a0f-9444-2018b49b2010
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvQueryTrueTypeOutline, DrvQueryTrueTypeOutline function [Display Devices], ddifncs_77215092-0dde-45d4-93f2-11a7b9e69360.xml, display.drvquerytruetypeoutline, winddi/DrvQueryTrueTypeOutline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

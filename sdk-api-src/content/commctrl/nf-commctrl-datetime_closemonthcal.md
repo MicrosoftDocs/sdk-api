@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.DateTime_CloseMonthCal
 title: DateTime_CloseMonthCal macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the date and time picker (DTP) control. Use this macro or send the DTM_CLOSEMONTHCAL message explicitly.
 old-location: controls\DateTime_CloseMonthCal.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_closemonthcal.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DateTime_CloseMonthCal, DateTime_CloseMonthCal macro [Windows Controls], _shell_DateTime_CloseMonthCal, _shell_DateTime_CloseMonthCal_cpp, commctrl/DateTime_CloseMonthCal, controls.DateTime_CloseMonthCal, controls._shell_DateTime_CloseMonthCal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

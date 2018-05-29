@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFRemovePeriodicCallback
 title: MFRemovePeriodicCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a callback function that was set by the MFAddPeriodicCallback function.
 old-location: mf\mfremoveperiodiccallback.htm
 old-project: medfound
 ms.assetid: e70cdad3-c330-4368-8ef8-d616157b5e72
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFRemovePeriodicCallback, MFRemovePeriodicCallback function [Media Foundation], e70cdad3-c330-4368-8ef8-d616157b5e72, mf.mfremoveperiodiccallback, mfapi/MFRemovePeriodicCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

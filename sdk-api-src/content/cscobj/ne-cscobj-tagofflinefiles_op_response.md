@@ -1,16 +1,16 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_OP_RESPONSE
 title: tagOFFLINEFILES_OP_RESPONSE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether to continue, retry, or stop processing items.
 old-location: of\offlinefiles_op_response.htm
 old-project: OfflineFiles
 ms.assetid: a4b16256-7f6a-4e26-8cf2-3ef7c59ac3af
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: OFFLINEFILES_OP_ABORT, OFFLINEFILES_OP_CONTINUE, OFFLINEFILES_OP_RESPONSE, OFFLINEFILES_OP_RESPONSE enumeration [Offline Files], OFFLINEFILES_OP_RETRY, cscobj/OFFLINEFILES_OP_ABORT, cscobj/OFFLINEFILES_OP_CONTINUE, cscobj/OFFLINEFILES_OP_RESPONSE, cscobj/OFFLINEFILES_OP_RETRY, of.offlinefiles_op_response, tagOFFLINEFILES_OP_RESPONSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 

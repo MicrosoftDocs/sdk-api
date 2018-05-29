@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRWindowlessControl9
 title: IVMRWindowlessControl9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRWindowlessControl9 interface controls how the Video Mixing Renderer Filter 9 (VMR-9) renders a video stream within a container window.
 old-location: dshow\ivmrwindowlesscontrol9.htm
 old-project: DirectShow
 ms.assetid: 9db99c31-65b5-4ff1-9c0d-22140a3687e8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], IVMRWindowlessControl9 interface [DirectShow],described, IVMRWindowlessControl9Interface, dshow.ivmrwindowlesscontrol9, vmr9/IVMRWindowlessControl9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

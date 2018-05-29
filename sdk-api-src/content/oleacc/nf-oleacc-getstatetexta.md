@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.GetStateTextA
 title: GetStateTextA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a localized string that describes an object's state for a single predefined state bit flag. Because state values are a combination of one or more bit flags, clients call this function more than once to retrieve all state strings.
 old-location: winauto\getstatetext.htm
 old-project: WinAuto
 ms.assetid: 2a136883-870e-48c3-b182-1cdc64768894
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetStateText, GetStateText function [Windows Accessibility], GetStateTextA, GetStateTextW, _msaa_GetStateText, msaa.getstatetext, oleacc/GetStateText, oleacc/GetStateTextA, oleacc/GetStateTextW, winauto.getstatetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

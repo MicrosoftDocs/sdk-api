@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IContextProperties
 title: IContextProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to context object properties.
 old-location: cos\icontextproperties.htm
 old-project: cossdk
 ms.assetid: 95a5cfda-7587-496e-ba16-0dd2e8a4db32
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextProperties interface [COM+],described, _cos_IContextProperties, comsvcs/IContextProperties, cos.icontextproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

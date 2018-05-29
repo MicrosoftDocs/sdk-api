@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpCheckPlatform
 title: WinHttpCheckPlatform function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinHttpCheckPlatform function determines whether the current platform is supported by this version of Microsoft Windows HTTP Services (WinHTTP).
 old-location: http\winhttpcheckplatform.htm
 old-project: WinHttp
 ms.assetid: 0daec97f-c1c9-4d87-8e24-485e262d8a85
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http.winhttpcheckplatform, winhttp.winhttpcheckplatform_function, winhttp/WinHttpCheckPlatform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_Property_ExW
 title: CM_Get_Device_Interface_Property_ExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Device_Interface_Property_ExW function retrieves a device property that is set for a device interface.
 old-location: devinst\cm_get_device_interface_property_exw.htm
 old-project: devinst
 ms.assetid: A367AF27-BF99-4322-9D11-8792AA2863B9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Device_Interface_Property_ExW, CM_Get_Device_Interface_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Device_Interface_Property_ExW, devinst.cm_get_device_interface_property_exw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

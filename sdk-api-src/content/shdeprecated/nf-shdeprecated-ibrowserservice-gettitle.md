@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetTitle
 title: IBrowserService::GetTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Retrieves the title of a browser window.
 old-location: shell\IBrowserService_GetTitle.htm
 old-project: shell
 ms.assetid: e5b514e3-8729-4902-961f-177dc1e77aee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetTitle method, IBrowserService.GetTitle, IBrowserService::GetTitle, shdeprecated/IBrowserService::GetTitle, shell.IBrowserService_GetTitle, zone_IBrowserService_GetTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IPersistTuneXmlUtility2
 title: IPersistTuneXmlUtility2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines utility methods for serializing tuning requests (objects that implement the ITuneRequest interface) to XML tuning request strings.
 old-location: mstv\ipersisttunexmlutility2.htm
 old-project: mstv
 ms.assetid: d909d505-2ae9-4488-b4c1-42ca32661bf3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistTuneXmlUtility2, IPersistTuneXmlUtility2 interface [Microsoft TV Technologies], IPersistTuneXmlUtility2 interface [Microsoft TV Technologies],described, mstv.ipersisttunexmlutility2, tuner/IPersistTuneXmlUtility2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

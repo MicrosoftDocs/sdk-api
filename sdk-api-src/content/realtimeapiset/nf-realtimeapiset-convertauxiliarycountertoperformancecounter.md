@@ -1,16 +1,16 @@
 ---
 UID: NF:realtimeapiset.ConvertAuxiliaryCounterToPerformanceCounter
 title: ConvertAuxiliaryCounterToPerformanceCounter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the specified auxiliary counter value to the corresponding performance counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
 old-location: base\convertauxiliarycountertoperformancecounter.htm
 old-project: SysInfo
 ms.assetid: 94664D63-D1B0-443B-BB88-C8A8771577A6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ConvertAuxiliaryCounterToPerformanceCounter, ConvertAuxiliaryCounterToPerformanceCounter function, base.convertauxiliarycountertoperformancecounter, realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 

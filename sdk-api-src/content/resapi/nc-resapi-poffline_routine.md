@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.POFFLINE_ROUTINE
 title: POFFLINE_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks a resource as unavailable for use after cleanup processing is complete.
 old-location: mscs\offline.htm
 old-project: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Offline, Offline callback, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

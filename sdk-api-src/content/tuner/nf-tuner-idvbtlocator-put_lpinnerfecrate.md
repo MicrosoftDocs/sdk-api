@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_LPInnerFECRate
 title: IDVBTLocator::put_LPInnerFECRate
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_LPInnerFECRate method sets the inner FEC rate of the low-priority stream.
 old-location: mstv\idvbtlocator_put_lpinnerfecrate.htm
 old-project: mstv
 ms.assetid: 4fcce13b-1cc4-4ee7-b010-2c5ffd55a5f7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_LPInnerFECRate method, IDVBTLocator.put_LPInnerFECRate, IDVBTLocator::put_LPInnerFECRate, IDVBTLocatorput_LPInnerFECRate, mstv.idvbtlocator_put_lpinnerfecrate, put_LPInnerFECRate, put_LPInnerFECRate method [Microsoft TV Technologies], put_LPInnerFECRate method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_LPInnerFECRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

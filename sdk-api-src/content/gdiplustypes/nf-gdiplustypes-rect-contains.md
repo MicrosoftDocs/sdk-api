@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.Rect.Contains
 title: Rect::Contains
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the Contains methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect::Contains, _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 

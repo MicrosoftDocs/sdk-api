@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationDockPattern
 title: IUIAutomationDockPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a control that enables child elements to be arranged horizontally and vertically, relative to each other.
 old-location: winauto\uiauto_IUIAutomationDockPattern.htm
 old-project: WinAuto
 ms.assetid: 2da816f0-9674-4b48-bb82-4eba941a7fa4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationDockPattern, IUIAutomationDockPattern interface [Windows Accessibility], IUIAutomationDockPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationDockPattern, uiauto_IUIAutomationDockPattern, uiautomationclient/IUIAutomationDockPattern, winauto.uiauto_IUIAutomationDockPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

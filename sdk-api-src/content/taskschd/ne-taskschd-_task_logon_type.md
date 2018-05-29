@@ -1,16 +1,16 @@
 ---
 UID: NE:taskschd._TASK_LOGON_TYPE
 title: "_TASK_LOGON_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines what logon technique is required to run a task.
 old-location: taskschd\task_logon_type.htm
 old-project: TaskSchd
 ms.assetid: 93952769-6076-4e71-9ea4-d7e7c3c908d8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_LOGON_TYPE, TASK_LOGON_TYPE enumeration [Task Scheduler], _TASK_LOGON_TYPE, taskschd.task_logon_type, taskschd/TASK_LOGON_GROUP, taskschd/TASK_LOGON_INTERACTIVE_TOKEN, taskschd/TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, taskschd/TASK_LOGON_NONE, taskschd/TASK_LOGON_PASSWORD, taskschd/TASK_LOGON_S4U, taskschd/TASK_LOGON_SERVICE_ACCOUNT, taskschd/TASK_LOGON_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

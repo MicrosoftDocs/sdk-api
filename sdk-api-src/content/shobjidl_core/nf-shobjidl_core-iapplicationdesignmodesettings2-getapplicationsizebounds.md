@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.GetApplicationSizeBounds
 title: IApplicationDesignModeSettings2::GetApplicationSizeBounds
-author: windows-driver-content
+author: windows-sdk-content
 description: This methods retrieves the size bounds supported by the application.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationSizeBounds.htm
 old-project: shell
 ms.assetid: 7DFAFE5A-8F19-471C-9B09-43645F26F156
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetApplicationSizeBounds, GetApplicationSizeBounds method [Windows Shell], GetApplicationSizeBounds method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationSizeBounds method, IApplicationDesignModeSettings2.GetApplicationSizeBounds, IApplicationDesignModeSettings2::GetApplicationSizeBounds, shell.IApplicationDesignModeSettings2_GetApplicationSizeBounds, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationSizeBounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCurrentDeviceMediaType
 title: IMFCaptureSource::GetCurrentDeviceMediaType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current media type for a capture stream.
 old-location: mf\imfcapturesource_getcurrentdevicemediatype.htm
 old-project: medfound
 ms.assetid: 8F263F5C-D1B4-4DF7-AFCB-E27575FBAAA2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCurrentDeviceMediaType, GetCurrentDeviceMediaType method [Media Foundation], GetCurrentDeviceMediaType method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCurrentDeviceMediaType method, IMFCaptureSource.GetCurrentDeviceMediaType, IMFCaptureSource::GetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESEvent.GetStringData
 title: IESEvent::GetStringData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the data from an event that is derived from the IESEvent interface, in Unicode string format. The data is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_getstringdata.htm
 old-project: mstv
 ms.assetid: 6a1c98af-a753-40e5-bea8-825863f94172
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStringData, GetStringData method [Microsoft TV Technologies], GetStringData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetStringData method, IESEvent.GetStringData, IESEvent::GetStringData, mstv.iesevent_getstringdata, tuner/IESEvent::GetStringData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

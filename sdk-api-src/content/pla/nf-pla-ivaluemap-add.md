@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IValueMap.Add
 title: IValueMap::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: pla\ivaluemap_add.htm
 old-project: PLA
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IValueMap interface, IValueMap interface [PLA],Add method, IValueMap.Add, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

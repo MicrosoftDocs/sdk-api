@@ -1,16 +1,16 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_SystemRating
 title: IProvideWinSATResultsInfo::get_SystemRating
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the base score for the computer.
 old-location: winsat\iprovidewinsatresultsinfo_systemrating.htm
 old-project: WinSAT
 ms.assetid: 4fe20830-bf86-4551-ba73-534740cabab5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],SystemRating property, IProvideWinSATResultsInfo.SystemRating, IProvideWinSATResultsInfo.get_SystemRating, IProvideWinSATResultsInfo::SystemRating, IProvideWinSATResultsInfo::get_SystemRating, SystemRating property [WinSAT], SystemRating property [WinSAT],IProvideWinSATResultsInfo interface, get_SystemRating, winsat.iprovidewinsatresultsinfo_systemrating, winsatcominterfacei/IProvideWinSATResultsInfo::SystemRating, winsatcominterfacei/IProvideWinSATResultsInfo::get_SystemRating
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

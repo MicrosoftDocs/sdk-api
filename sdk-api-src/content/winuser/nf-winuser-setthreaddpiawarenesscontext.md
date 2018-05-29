@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetThreadDpiAwarenessContext
 title: SetThreadDpiAwarenessContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Set the DPI awareness for the current thread to the provided value.
 old-location: hidpi\setthreaddpiawarenesscontext.htm
 old-project: hidpi
 ms.assetid: 95531BDC-3D45-4BB6-8C63-0D845C66B88F
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: SetThreadDpiAwarenessContext, SetThreadDpiAwarenessContext function [High DPI], hidpi.setthreaddpiawarenesscontext, winuser/SetThreadDpiAwarenessContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

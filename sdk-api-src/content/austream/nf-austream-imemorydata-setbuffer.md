@@ -1,16 +1,16 @@
 ---
 UID: NF:austream.IMemoryData.SetBuffer
 title: IMemoryData::SetBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Initializes a memory buffer with a pointer to memory and length.
 old-location: dshow\imemorydata_setbuffer.htm
 old-project: DirectShow
 ms.assetid: d565b493-0ee6-4a10-9af3-ff9d9ba48ba8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMemoryData interface [DirectShow],SetBuffer method, IMemoryData.SetBuffer, IMemoryData::SetBuffer, IMemoryDataSetBuffer, SetBuffer, SetBuffer method [DirectShow], SetBuffer method [DirectShow],IMemoryData interface, austream/IMemoryData::SetBuffer, dshow.imemorydata_setbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: austream.h
 req.include-header: 

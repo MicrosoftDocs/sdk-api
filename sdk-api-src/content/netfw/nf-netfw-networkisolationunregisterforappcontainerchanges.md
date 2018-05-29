@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.NetworkIsolationUnregisterForAppContainerChanges
 title: NetworkIsolationUnregisterForAppContainerChanges function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to cancel an app container change registration and stop receiving notifications.
 old-location: ics\networkisolationunregisterforappcontainerchanges.htm
 old-project: ICS
 ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h

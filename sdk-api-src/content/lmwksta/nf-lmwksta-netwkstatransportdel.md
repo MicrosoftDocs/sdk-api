@@ -1,16 +1,16 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportDel
 title: NetWkstaTransportDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netwkstatransportdel.htm
 old-project: NetMgmt
 ms.assetid: 6d0ec459-8d7b-41fe-96dd-203e6a42164f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetWkstaTransportDel, NetWkstaTransportDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netwkstatransportdel, lmwksta/NetWkstaTransportDel, netmgmt.netwkstatransportdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmwksta.h
 req.include-header: Lm.h, Lmwksta.h

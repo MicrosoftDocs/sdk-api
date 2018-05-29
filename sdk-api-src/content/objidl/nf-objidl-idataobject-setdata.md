@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IDataObject.SetData
 title: IDataObject::SetData
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by an object containing a data source to transfer data to the object that implements this method.
 old-location: com\idataobject_setdata.htm
 old-project: com
 ms.assetid: 7430d12c-ab07-4a9c-a845-4743818afbc7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDataObject interface [COM],SetData method, IDataObject.SetData, IDataObject::SetData, SetData, SetData method [COM], SetData method [COM],IDataObject interface, _ole_idataobject_setdata, com.idataobject_setdata, objidl/IDataObject::SetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

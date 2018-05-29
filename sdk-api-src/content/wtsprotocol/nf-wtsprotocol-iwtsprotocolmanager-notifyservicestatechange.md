@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifyServiceStateChange
 title: IWTSProtocolManager::NotifyServiceStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolManager::NotifyServiceStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifyServiceStateChange.
 old-location: termserv\iwtsprotocolmanager_notifyservicestatechange.htm
 old-project: TermServ
 ms.assetid: 303a53b3-b297-486c-9422-706ec60441f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWTSProtocolManager.NotifyServiceStateChange, IWTSProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifyservicestatechange, wtsprotocol/IWTSProtocolManager::NotifyServiceStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

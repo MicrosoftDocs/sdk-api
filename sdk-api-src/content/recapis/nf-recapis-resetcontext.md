@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.ResetContext
 title: ResetContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the current ink and recognition results from the context.The current settings of the recognizer context are preserved.
 old-location: tablet\resetcontext.htm
 old-project: tablet
 ms.assetid: 92446aca-e611-42b2-8b55-2d1c47ccaa5c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 92446aca-e611-42b2-8b55-2d1c47ccaa5c, ResetContext, ResetContext function [Tablet PC], recapis/ResetContext, tablet.resetcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

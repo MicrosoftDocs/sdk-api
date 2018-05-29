@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeBrushLocal
 title: IXpsOMPath::SetStrokeBrushLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a pointer to a local, unshared IXpsOMBrush interface to be used as a stroke brush.
 old-location: xps\ixpsompath_setstrokebrushlocal.htm
 old-project: printdocs
 ms.assetid: 551bc4e2-2bf3-455b-a7f1-35b3b66697c0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLocal method, IXpsOMPath.SetStrokeBrushLocal, IXpsOMPath::SetStrokeBrushLocal, SetStrokeBrushLocal, SetStrokeBrushLocal method [XPS Documents and Packaging], SetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlocal, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

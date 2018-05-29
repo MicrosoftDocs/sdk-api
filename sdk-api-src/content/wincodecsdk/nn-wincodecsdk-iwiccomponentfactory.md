@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodecsdk.IWICComponentFactory
 title: IWICComponentFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create components used by component developers. This includes metadata readers, writers and other services for use by codec and metadata handler developers.
 old-location: wic\_wic_codec_iwiccomponentfactory.htm
 old-project: wic
 ms.assetid: 7aac7268-8f80-4169-9208-1002ca9703e5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], IWICComponentFactory interface [Windows Imaging Component],described, _wic_codec_iwiccomponentfactory, wic._wic_codec_iwiccomponentfactory, wincodecsdk/IWICComponentFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

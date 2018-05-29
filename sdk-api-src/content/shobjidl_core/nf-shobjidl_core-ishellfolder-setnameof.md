@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.SetNameOf
 title: IShellFolder::SetNameOf
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the display name of a file object or subfolder, changing the item identifier in the process.
 old-location: shell\IShellFolder_SetNameOf.htm
 old-project: shell
 ms.assetid: b975df89-9289-4344-9c55-f11ee83229dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellFolder interface [Windows Shell],SetNameOf method, IShellFolder.SetNameOf, IShellFolder2 interface [Windows Shell],SetNameOf method, IShellFolder2::SetNameOf, IShellFolder::SetNameOf, SetNameOf, SetNameOf method [Windows Shell], SetNameOf method [Windows Shell],IShellFolder interface, SetNameOf method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_SetNameOf, shell.IShellFolder_SetNameOf, shobjidl_core/IShellFolder2::SetNameOf, shobjidl_core/IShellFolder::SetNameOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

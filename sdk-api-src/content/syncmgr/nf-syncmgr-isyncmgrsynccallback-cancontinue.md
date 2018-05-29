@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.CanContinue
 title: ISyncMgrSyncCallback::CanContinue
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the synchronization has been canceled.
 old-location: shell\ISyncMgrSyncCallback_CanContinue.htm
 old-project: shell
 ms.assetid: 02106b6f-4c1c-4bd6-b120-2948b1e6d25c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CanContinue, CanContinue method [Windows Shell], CanContinue method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CanContinue method, ISyncMgrSyncCallback.CanContinue, ISyncMgrSyncCallback::CanContinue, _shell_ISyncMgrSyncCallback_CanContinue, shell.ISyncMgrSyncCallback_CanContinue, syncmgr/ISyncMgrSyncCallback::CanContinue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

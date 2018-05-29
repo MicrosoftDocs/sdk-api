@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateColorSpaceA
 title: CreateColorSpaceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateColorSpace function creates a logical color space.
 old-location: wcs\createcolorspace.htm
 old-project: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System], CreateColorSpaceA, CreateColorSpaceW, _color_CreateColorSpace, wcs.createcolorspace, wingdi/CreateColorSpace, wingdi/CreateColorSpaceA, wingdi/CreateColorSpaceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

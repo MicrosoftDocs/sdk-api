@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Reset
 title: IEnumEventObject::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: cos\ienumeventobject_reset.htm
 old-project: cossdk
 ms.assetid: 9a92c9de-e259-4b62-8f74-dff3f9947d1a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumEventObject interface [COM+],Reset method, IEnumEventObject.Reset, IEnumEventObject::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumEventObject interface, _cos_ienumeventobject_reset, cos.ienumeventobject_reset, eventsys/IEnumEventObject::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

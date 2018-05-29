@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetImageList
 title: ListView_SetImageList macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns an image list to a list-view control. You can use this macro or send the LVM_SETIMAGELIST message explicitly.
 old-location: controls\ListView_SetImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setimagelist.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_SetImageList, ListView_SetImageList macro [Windows Controls], _win32_ListView_SetImageList, _win32_ListView_SetImageList_cpp, commctrl/ListView_SetImageList, controls.ListView_SetImageList, controls._win32_ListView_SetImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

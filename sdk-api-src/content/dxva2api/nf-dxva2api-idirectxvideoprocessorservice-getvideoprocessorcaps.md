@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorCaps
 title: IDirectXVideoProcessorService::GetVideoProcessorCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the capabilities of a specified video processor device.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorcaps.htm
 old-project: medfound
 ms.assetid: bb94f221-cca7-48e1-96ef-b5a6f7c24a47
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorCaps method, IDirectXVideoProcessorService.GetVideoProcessorCaps, IDirectXVideoProcessorService::GetVideoProcessorCaps, bb94f221-cca7-48e1-96ef-b5a6f7c24a47, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorCaps, mf.idirectxvideoprocessorservice_getvideoprocessorcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

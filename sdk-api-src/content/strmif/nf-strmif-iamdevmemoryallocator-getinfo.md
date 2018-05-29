@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.GetInfo
 title: IAMDevMemoryAllocator::GetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves information about the memory capabilities.
 old-location: dshow\iamdevmemoryallocator_getinfo.htm
 old-project: DirectShow
 ms.assetid: ee3070ed-98df-4f20-a91f-bb3c3492f3d8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetInfo method, IAMDevMemoryAllocator.GetInfo, IAMDevMemoryAllocator::GetInfo, IAMDevMemoryAllocatorGetInfo, dshow.iamdevmemoryallocator_getinfo, strmif/IAMDevMemoryAllocator::GetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_HASHINFO
 title: "_KERB_CERTIFICATE_HASHINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the payload information of the certificate hash.
 old-location: security\kerb_certificate_hashinfo.htm
 old-project: SecAuthN
 ms.assetid: 09D78E91-5873-481D-A5FC-B7F39F8F9BB8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO structure [Security], PKERB_CERTIFICATE_HASHINFO, PKERB_CERTIFICATE_HASHINFO structure pointer [Security], _KERB_CERTIFICATE_HASHINFO, ntsecapi/KERB_CERTIFICATE_HASHINFO, ntsecapi/PKERB_CERTIFICATE_HASHINFO, security.kerb_certificate_hashinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

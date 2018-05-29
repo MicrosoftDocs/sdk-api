@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReportCallback.OnActivitiesReport
 title: IMFSensorActivitiesReportCallback::OnActivitiesReport
-author: windows-driver-content
+author: windows-sdk-content
 description: Raised by the media pipeline when a new IMFSensorActivitiesReport is available.
 old-location: mf\imfsensoractivitiesreportcallback_onactivitiesreport.htm
 old-project: medfound
 ms.assetid: B4D2332C-757F-4A2A-A12B-81BB503B02A4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorActivitiesReportCallback interface [Media Foundation],OnActivitiesReport method, IMFSensorActivitiesReportCallback.OnActivitiesReport, IMFSensorActivitiesReportCallback::OnActivitiesReport, OnActivitiesReport, OnActivitiesReport method [Media Foundation], OnActivitiesReport method [Media Foundation],IMFSensorActivitiesReportCallback interface, mf.imfsensoractivitiesreportcallback_onactivitiesreport, mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetAccountInformation
 title: IScheduledWorkItem::GetAccountInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the account name for the work item.
 old-location: taskschd\ischeduledworkitem_getaccountinformation.htm
 old-project: TaskSchd
 ms.assetid: d5f279ac-bf03-4af5-9bad-58eadaba0ca1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetAccountInformation, GetAccountInformation method [Task Scheduler], GetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetAccountInformation method, IScheduledWorkItem.GetAccountInformation, IScheduledWorkItem::GetAccountInformation, _msb_ischeduledworkitem_getaccountinformation, mstask/IScheduledWorkItem::GetAccountInformation, taskschd.ischeduledworkitem_getaccountinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

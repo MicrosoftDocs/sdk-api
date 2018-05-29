@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetWindowDC
 title: GetWindowDC function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetWindowDC function retrieves the device context (DC) for the entire window, including title bar, menus, and scroll bars.
 old-location: gdi\getwindowdc.htm
 old-project: gdi
 ms.assetid: 9e6a135e-e337-4129-a3ad-faf9a8ac9b2d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWindowDC, GetWindowDC function [Windows GDI], _win32_GetWindowDC, gdi.getwindowdc, winuser/GetWindowDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

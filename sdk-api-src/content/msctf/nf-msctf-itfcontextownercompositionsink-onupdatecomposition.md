@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnUpdateComposition
 title: ITfContextOwnerCompositionSink::OnUpdateComposition
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContextOwnerCompositionSink::OnUpdateComposition method
 old-location: tsf\itfcontextownercompositionsink_onupdatecomposition.htm
 old-project: TSF
 ms.assetid: 18c13a32-918b-4178-a72d-0f7d10c2a68d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnUpdateComposition method, ITfContextOwnerCompositionSink.OnUpdateComposition, ITfContextOwnerCompositionSink::OnUpdateComposition, OnUpdateComposition, OnUpdateComposition method [Text Services Framework], OnUpdateComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onupdatecomposition_ref, msctf/ITfContextOwnerCompositionSink::OnUpdateComposition, tsf.itfcontextownercompositionsink_onupdatecomposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

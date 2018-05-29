@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetAnnotationByIndex
 title: ID3D10EffectPass::GetAnnotationByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Get an annotation by index.
 old-location: direct3d10\id3d10effectpass_getannotationbyindex.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getannotationbyindex.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetAnnotationByIndex, GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetAnnotationByIndex method, ID3D10EffectPass.GetAnnotationByIndex, ID3D10EffectPass::GetAnnotationByIndex, b11d6e71-cc4e-38a9-fd93-a67effc5a2b5, d3d10effect/ID3D10EffectPass::GetAnnotationByIndex, direct3d10.id3d10effectpass_getannotationbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

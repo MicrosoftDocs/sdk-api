@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmFilterChooseA
 title: acmFilterChooseA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter.
 old-location: multimedia\acmfilterchoose.htm
 old-project: Multimedia
 ms.assetid: 9d8f659f-46f7-4399-a538-24c887c0fbee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmFilterChoose, acmFilterChoose, acmFilterChoose function [Windows Multimedia], acmFilterChooseA, acmFilterChooseW, msacm/acmFilterChoose, msacm/acmFilterChooseA, msacm/acmFilterChooseW, multimedia.acmfilterchoose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:coml2api.tagSTGOPTIONS
 title: tagSTGOPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
 old-location: stg\stgoptions.htm
 old-project: Stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: STGOPTIONS, STGOPTIONS structure [Structured Storage], _stg_stgoptions, coml2api/STGOPTIONS, stg.stgoptions, tagSTGOPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: coml2api.h
 req.include-header: Objbase.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPCore
 title: IWMPCore
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPCore interface is the root interface for the Windows Media Player control. It can be used to retrieve pointers to other interfaces supported by the control and to access some basic features.
 old-location: wmp\iwmpcore.htm
 old-project: WMP
 ms.assetid: 24fbb34d-4a5e-4a00-85fc-9659a31dc650
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], IWMPCore interface [Windows Media Player],described, IWMPCoreInterface, wmp.iwmpcore, wmp/IWMPCore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.GetImageType
 title: IXpsOMImageResource::GetImageType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the type of image resource.
 old-location: xps\ixpsomimageresource_getimagetype.htm
 old-project: printdocs
 ms.assetid: c38af0c0-e05c-4ba4-92d5-114350cae05f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetImageType, GetImageType method [XPS Documents and Packaging], GetImageType method [XPS Documents and Packaging],IXpsOMImageResource interface, IXpsOMImageResource interface [XPS Documents and Packaging],GetImageType method, IXpsOMImageResource.GetImageType, IXpsOMImageResource::GetImageType, xps.ixpsomimageresource_getimagetype, xpsobjectmodel/IXpsOMImageResource::GetImageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

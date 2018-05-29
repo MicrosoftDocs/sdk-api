@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Name
 title: IFaxPort::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The Name property is a null-terminated string that contains the user-friendly display name for a fax port.
 old-location: fax\_mfax_ifaxport_get_name_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1ep1.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxPort object [Fax Service],Name property, FaxPort.Name, IFaxPort.get_Name, IFaxPort::get_Name, Name property [Fax Service], Name property [Fax Service],FaxPort object, _mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name_vb, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

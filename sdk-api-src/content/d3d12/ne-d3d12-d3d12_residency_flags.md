@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_RESIDENCY_FLAGS
 title: D3D12_RESIDENCY_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the EnqueuMakeResident function to choose how residency operations proceed when the memory budget is exceeded.
 old-location: direct3d12\d3d12_residency_flags.htm
 old-project: direct3d12
 ms.assetid: 87AC193A-4754-4E92-A08C-082C3C1513D6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_RESIDENCY_FLAGS, D3D12_RESIDENCY_FLAGS enumeration, D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET, D3D12_RESIDENCY_FLAG_NONE, d3d12/D3D12_RESIDENCY_FLAGS, d3d12/D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET, d3d12/D3D12_RESIDENCY_FLAG_NONE, direct3d12.d3d12_residency_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

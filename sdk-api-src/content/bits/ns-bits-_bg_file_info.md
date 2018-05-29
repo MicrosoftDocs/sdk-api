@@ -1,16 +1,16 @@
 ---
 UID: NS:bits._BG_FILE_INFO
 title: "_BG_FILE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BG_FILE_INFO structure provides the local and remote names of the file to transfer.
 old-location: bits\bg_file_info.htm
 old-project: Bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _BG_FILE_INFO, _drz_bg_file_info, bits.bg_file_info, bits/BG_FILE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits.h
 req.include-header: 

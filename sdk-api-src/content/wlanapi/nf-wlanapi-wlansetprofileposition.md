@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanSetProfilePosition
 title: WlanSetProfilePosition function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the position of a single, specified profile in the preference list.
 old-location: nwifi\wlansetprofileposition.htm
 old-project: NativeWiFi
 ms.assetid: 06ef9f55-b425-4f61-9b9e-3c27cc3796f6
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI], nwifi.wlansetprofileposition, wlanapi/WlanSetProfilePosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

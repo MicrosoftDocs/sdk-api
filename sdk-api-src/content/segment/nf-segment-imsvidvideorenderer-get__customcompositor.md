@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get__CustomCompositor
 title: IMSVidVideoRenderer::get__CustomCompositor
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__CustomCompositor method retrieves the Video Mixing Renderer's current image compositor.
 old-location: mstv\imsvidvideorenderer_get__customcompositor.htm
 old-project: mstv
 ms.assetid: cafdc512-2994-4374-9396-b0bb946bc490
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__CustomCompositor method, IMSVidVideoRenderer.get__CustomCompositor, IMSVidVideoRenderer::get__CustomCompositor, IMSVidVideoRendererget__CustomCompositor, get__CustomCompositor, get__CustomCompositor method [Microsoft TV Technologies], get__CustomCompositor method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__customcompositor, segment/IMSVidVideoRenderer::get__CustomCompositor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

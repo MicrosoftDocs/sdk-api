@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.UnregisterGPNotification
 title: UnregisterGPNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnregisterGPNotification function unregisters the specified policy-notification handle from receiving policy change notifications.
 old-location: policy\unregistergpnotification.htm
 old-project: Policy
 ms.assetid: 39ac1361-0160-44e3-8b99-ff50978cc425
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: UnregisterGPNotification, UnregisterGPNotification function [Group Policy], _win32_unregistergpnotification, policy.unregistergpnotification, userenv/UnregisterGPNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

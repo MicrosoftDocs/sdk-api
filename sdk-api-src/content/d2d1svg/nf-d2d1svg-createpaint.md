@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1svg.CreatePaint
 title: CreatePaint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
 old-location: direct2d\id2d1svgdocument_createpaint_overload.htm
 old-project: Direct2D
 ms.assetid: dba9be4a-1670-7ab9-e0a8-d9f2895011f4
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CreatePaint, CreatePaint methods [Direct2D], ID2D1SvgDocument::CreatePaint, d2d1svg/CreatePaint, direct2d.id2d1svgdocument_createpaint_overload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1svg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESEventService.FireESEvent
 title: IESEventService::FireESEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Raises an event derived from the IESEvent interface.
 old-location: mstv\ieseventservice_fireesevent.htm
 old-project: mstv
 ms.assetid: 3781e50c-ab19-4bfa-86d6-af12223019ca
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FireESEvent, FireESEvent method [Microsoft TV Technologies], FireESEvent method [Microsoft TV Technologies],IESEventService interface, IESEventService interface [Microsoft TV Technologies],FireESEvent method, IESEventService.FireESEvent, IESEventService::FireESEvent, mstv.ieseventservice_fireesevent, tuner/IESEventService::FireESEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

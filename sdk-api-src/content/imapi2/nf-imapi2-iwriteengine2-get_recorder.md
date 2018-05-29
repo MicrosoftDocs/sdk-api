@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_Recorder
 title: IWriteEngine2::get_Recorder
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the recording device to use in the write operation.
 old-location: imapi\iwriteengine2_get_recorder.htm
 old-project: imapi
 ms.assetid: f42c5289-0896-4e2f-902e-9c6bdbf23b40
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_Recorder method, IWriteEngine2.get_Recorder, IWriteEngine2::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_recorder, imapi2/IWriteEngine2::get_Recorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

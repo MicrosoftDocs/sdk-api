@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngProbeForReadAndWrite
 title: EngProbeForReadAndWrite function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngProbeForReadAndWrite function probes a structure for read and write accessibility.
 old-location: display\engprobeforreadandwrite.htm
 old-project: display
 ms.assetid: 1b618bee-7069-410b-9a3d-65ee4b25874c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngProbeForReadAndWrite, EngProbeForReadAndWrite function [Display Devices], display.engprobeforreadandwrite, gdifncs_a27f9e58-49c2-4c85-9f84-3aadc8776752.xml, winddi/EngProbeForReadAndWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

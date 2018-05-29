@@ -1,16 +1,16 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Send
 title: IXMLHTTPRequest2::Send
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an HTTP request to the server asynchronously. On success, methods on the IXMLHTTPRequest2Callback interface implemented by the app are called to process the response.
 old-location: ixhr2\ixmlhttprequest2_send.htm
 old-project: ixhr2
 ms.assetid: E46DB550-8346-41F2-9B35-4DFD9732B0D8
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Send method, IXMLHTTPRequest2.Send, IXMLHTTPRequest2::Send, Send, Send method [XMLHttpRequest2], Send method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_send, msxml6/IXMLHTTPRequest2::Send
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

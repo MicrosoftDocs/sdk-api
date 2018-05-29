@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetOriginatorCode
 title: ISCTE_EAS::GetOriginatorCode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOriginatorCode method returns the EAS originator code.
 old-location: mstv\iscte_eas_getoriginatorcode.htm
 old-project: mstv
 ms.assetid: a46f0922-9733-411a-8a03-59e1c98dbdd8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOriginatorCode, GetOriginatorCode method [Microsoft TV Technologies], GetOriginatorCode method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetOriginatorCode method, ISCTE_EAS.GetOriginatorCode, ISCTE_EAS::GetOriginatorCode, ISCTE_EASGetOriginatorCode, atscpsipparser/ISCTE_EAS::GetOriginatorCode, mstv.iscte_eas_getoriginatorcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

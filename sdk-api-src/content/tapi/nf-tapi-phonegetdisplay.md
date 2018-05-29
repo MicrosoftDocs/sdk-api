@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneGetDisplay
 title: phoneGetDisplay function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneGetDisplay function returns the current contents of the specified phone display.
 old-location: tapi2\phonegetdisplay.htm
 old-project: Tapi
 ms.assetid: f9176550-f48a-451d-be98-ad4bd593276b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonegetdisplay, phoneGetDisplay, phoneGetDisplay function [TAPI 2.2], tapi/phoneGetDisplay, tapi2.phonegetdisplay"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

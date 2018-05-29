@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.SetMonitor
 title: IVMRMonitorConfig::SetMonitor
-author: windows-driver-content
+author: windows-sdk-content
 description: On a multi-monitor system, the SetMonitor method specifies the monitor that this instance of the VMR should use for video playback.
 old-location: dshow\ivmrmonitorconfig_setmonitor.htm
 old-project: DirectShow
 ms.assetid: d443592e-23d8-425c-9f88-f4f786fb19c6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetMonitor method, IVMRMonitorConfig.SetMonitor, IVMRMonitorConfig::SetMonitor, IVMRMonitorConfigSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setmonitor, strmif/IVMRMonitorConfig::SetMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

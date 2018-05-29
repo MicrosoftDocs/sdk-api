@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetAlpha
 title: IVMRMixerControl::SetAlpha
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAlpha method sets a constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol_setalpha.htm
 old-project: DirectShow
 ms.assetid: aab95d45-b8f1-40cb-811f-c1d00aa37c97
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetAlpha method, IVMRMixerControl.SetAlpha, IVMRMixerControl::SetAlpha, IVMRMixerControlSetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setalpha, strmif/IVMRMixerControl::SetAlpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerDeterminePlatformRole
 title: PowerDeterminePlatformRole function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
 old-location: base\powerdetermineplatformrole.htm
 old-project: Power
 ms.assetid: a0311454-3908-49a6-95c0-c118dca259ac
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

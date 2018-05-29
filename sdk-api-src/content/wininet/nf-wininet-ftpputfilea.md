@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FtpPutFileA
 title: FtpPutFileA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores a file on the FTP server.
 old-location: wininet\ftpputfile.htm
 old-project: WinInet
 ms.assetid: 161d4c04-c928-4178-b75b-f4552ac051ea
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FTP_TRANSFER_TYPE_UNKNOWN, FtpPutFile, FtpPutFile function [WinINet], FtpPutFileA, FtpPutFileW, INTERNET_FLAG_HYPERLINK, INTERNET_FLAG_NEED_FILE, INTERNET_FLAG_RELOAD, INTERNET_FLAG_RESYNCHRONIZE, INTERNET_FLAG_TRANSFER_ASCII, INTERNET_FLAG_TRANSFER_BINARY, _inet_ftpputfile_function, wininet.ftpputfile, wininet/FtpPutFile, wininet/FtpPutFileA, wininet/FtpPutFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

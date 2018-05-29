@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwPolicy2.EnableRuleGroup
 title: INetFwPolicy2::EnableRuleGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables a specified group of firewall rules.
 old-location: ics\inetfwpolicy2_enablerulegroup.htm
 old-project: ICS
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EnableRuleGroup, EnableRuleGroup method [ICS/ICF], EnableRuleGroup method [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],EnableRuleGroup method, INetFwPolicy2.EnableRuleGroup, INetFwPolicy2::EnableRuleGroup, ics.inetfwpolicy2_enablerulegroup, netfw/INetFwPolicy2::EnableRuleGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

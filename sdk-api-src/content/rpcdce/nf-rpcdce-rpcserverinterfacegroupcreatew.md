@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupCreateW
 title: RpcServerInterfaceGroupCreateW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application.
 old-location: rpc\rpcserverinterfacegroupcreate.htm
 old-project: Rpc
 ms.assetid: 7B648221-8256-42C9-B200-0EFD3B0DBA91
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate function [RPC], RpcServerInterfaceGroupCreateA, RpcServerInterfaceGroupCreateW, rpc.rpcserverinterfacegroupcreate, rpcdce/RpcServerInterfaceGroupCreate, rpcdce/RpcServerInterfaceGroupCreateA, rpcdce/RpcServerInterfaceGroupCreateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

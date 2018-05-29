@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_SET_LISTENER_PROPERTY_CALLBACK
 title: WS_SET_LISTENER_PROPERTY_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsSetListenerProperty call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_set_listener_property_callback.htm
 old-project: wsw
 ms.assetid: ed3cc3b3-eeb2-4f70-8e2f-8c25aadac4a9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SET_LISTENER_PROPERTY_CALLBACK, WS_SET_LISTENER_PROPERTY_CALLBACK callback, WS_SET_LISTENER_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_SET_LISTENER_PROPERTY_CALLBACK, wsw.ws_set_listener_property_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

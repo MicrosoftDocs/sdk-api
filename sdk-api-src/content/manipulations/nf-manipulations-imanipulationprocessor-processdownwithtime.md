@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessDownWithTime
 title: IManipulationProcessor::ProcessDownWithTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Feeds touch down data, including a timestamp, to the manipulation processor associated with a target.
 old-location: wintouch\imanpiulationprocessor_processdownwithtime.htm
 old-project: wintouch
 ms.assetid: a76c9150-49b8-4a74-8ef0-bfa5ce9ec28a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDownWithTime method, IManipulationProcessor.ProcessDownWithTime, IManipulationProcessor::ProcessDownWithTime, ProcessDownWithTime, ProcessDownWithTime method [Windows Touch], ProcessDownWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDownWithTime, wintouch.imanpiulationprocessor_processdownwithtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_FAULT_DISCLOSURE
 title: WS_FAULT_DISCLOSURE
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls how much error information is included in a fault. Since the error object may contain sensitive data as part of the error string, it is not always appropriate to include the error strings information in all faults.
 old-location: wsw\ws_fault_disclosure.htm
 old-project: wsw
 ms.assetid: 1dca9074-b329-4293-8a44-d0ced00ae59e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_FAULT_DISCLOSURE, WS_FAULT_DISCLOSURE enumeration [Web Services for Windows], WS_FULL_FAULT_DISCLOSURE, WS_MINIMAL_FAULT_DISCLOSURE, webservices/WS_FAULT_DISCLOSURE, webservices/WS_FULL_FAULT_DISCLOSURE, webservices/WS_MINIMAL_FAULT_DISCLOSURE, wsw.ws_fault_disclosure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

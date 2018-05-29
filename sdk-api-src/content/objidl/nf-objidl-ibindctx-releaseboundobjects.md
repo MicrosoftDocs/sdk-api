@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IBindCtx.ReleaseBoundObjects
 title: IBindCtx::ReleaseBoundObjects
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases all pointers to all objects that were previously registered by calls to RegisterObjectBound.
 old-location: com\ibindctx_releaseboundobjects.htm
 old-project: com
 ms.assetid: 12107633-6e7f-4d41-8e5c-5739cff98552
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IBindCtx interface [COM],ReleaseBoundObjects method, IBindCtx.ReleaseBoundObjects, IBindCtx::ReleaseBoundObjects, ReleaseBoundObjects, ReleaseBoundObjects method [COM], ReleaseBoundObjects method [COM],IBindCtx interface, _com_ibindctx_releaseboundobjects, com.ibindctx_releaseboundobjects, objidl/IBindCtx::ReleaseBoundObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

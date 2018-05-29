@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqAllocateWorkQueue
 title: RtwqAllocateWorkQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new work queue.
 old-location: base\rtwqallocateworkqueue.htm
 old-project: ProcThread
 ms.assetid: B8FF907A-1448-43A4-B249-9D3D859D8F95
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RtwqAllocateWorkQueue, RtwqAllocateWorkQueue function, base.rtwqallocateworkqueue, rtworkq/RtwqAllocateWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

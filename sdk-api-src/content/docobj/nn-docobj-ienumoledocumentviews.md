@@ -1,16 +1,16 @@
 ---
 UID: NN:docobj.IEnumOleDocumentViews
 title: IEnumOleDocumentViews
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the views supported by a document object.
 old-location: com\ienumoledocumentviews.htm
 old-project: com
 ms.assetid: cd8fa8b8-17b1-4d77-9611-473725899351
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnumOleDocumentViews interface [COM],described, _ole_ienumoledocumentviews, com.ienumoledocumentviews, docobj/IEnumOleDocumentViews
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

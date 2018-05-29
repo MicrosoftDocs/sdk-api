@@ -1,16 +1,16 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_CONNECTION_TYPE
 title: tagWCN_VALUE_TYPE_CONNECTION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: WCN_VALUE_TYPE_CONNECTION_TYPE.
 old-location: wcn\wcn_value_type_connection_type.htm
 old-project: wcn
 ms.assetid: bb3bfdff-f5eb-4417-bf79-13d79886d468
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WCN_VALUE_CT_ESS, WCN_VALUE_CT_IBSS, WCN_VALUE_TYPE_CONNECTION_TYPE, WCN_VALUE_TYPE_CONNECTION_TYPE enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_CONNECTION_TYPE, wcn.wcn_value_type_connection_type, wcntypes/WCN_VALUE_CT_ESS, wcntypes/WCN_VALUE_CT_IBSS, wcntypes/WCN_VALUE_TYPE_CONNECTION_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 

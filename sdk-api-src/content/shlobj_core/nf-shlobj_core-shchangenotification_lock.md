@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHChangeNotification_Lock
 title: SHChangeNotification_Lock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks the shared memory associated with a Shell change notification event.
 old-location: shell\SHChangeNotification_Lock.htm
 old-project: shell
 ms.assetid: 8e22d5d0-64be-403c-982d-c23705d85223
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHChangeNotification_Lock, SHChangeNotification_Lock function [Windows Shell], _win32_SHChangeNotification_Lock, shell.SHChangeNotification_Lock, shlobj_core/SHChangeNotification_Lock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

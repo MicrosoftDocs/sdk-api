@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegQueryInfoKey
 title: ClusterRegQueryInfoKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information about a cluster database key.
 old-location: mscs\clusterregqueryinfokey.htm
 old-project: MsCS
 ms.assetid: 90feb6ae-bd15-4431-ba99-0116fa20e94a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegQueryInfoKey, ClusterRegQueryInfoKey function [Failover Cluster], _wolf_clusterregqueryinfokey, clusapi/ClusterRegQueryInfoKey, mscs.clusterregqueryinfokey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

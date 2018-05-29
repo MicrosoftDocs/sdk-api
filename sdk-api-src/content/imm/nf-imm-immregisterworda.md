@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmRegisterWordA
 title: ImmRegisterWordA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a string with the dictionary of the IME associated with the specified input locale.
 old-location: intl\immregisterword.htm
 old-project: Intl
 ms.assetid: c5a507f3-5908-4f44-be7a-7feba8bfe378
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmRegisterWord, ImmRegisterWord function [Internationalization for Windows Applications], ImmRegisterWordA, ImmRegisterWordW, _win32_ImmRegisterWord, imm/ImmRegisterWord, imm/ImmRegisterWordA, imm/ImmRegisterWordW, intl.immregisterword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

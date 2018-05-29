@@ -1,16 +1,16 @@
 ---
 UID: NS:amvideo.tagMPEG1VIDEOINFO
 title: tagMPEG1VIDEOINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 old-location: dshow\mpeg1videoinfo.htm
 old-project: DirectShow
 ms.assetid: ae5b8825-7c1c-4a44-b665-098732e6c3bc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MPEG1VIDEOINFO, MPEG1VIDEOINFO structure [DirectShow], MPEG1VIDEOINFOStructure, amvideo/MPEG1VIDEOINFO, dshow.mpeg1videoinfo, tagMPEG1VIDEOINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

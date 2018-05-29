@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetNetwork
 title: INetworkConnection::GetNetwork
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNetwork method returns the network associated with the connection.
 old-location: nla\inetworkconnection_getnetwork.htm
 old-project: NLA
 ms.assetid: 7de83422-58f6-40fc-b26f-074cec550247
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetNetwork method, INetworkConnection.GetNetwork, INetworkConnection::GetNetwork, netlistmgr/INetworkConnection::GetNetwork, nla.inetworkconnection_getnetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

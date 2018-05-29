@@ -1,16 +1,16 @@
 ---
 UID: NS:mbnapi.MBN_SMS_FILTER
 title: MBN_SMS_FILTER
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_SMS_FILTER structure contains the values that describe a set of SMS messages.
 old-location: mbn\mbn_sms_filter.htm
 old-project: mbn
 ms.assetid: f8dffd7b-3c12-43da-b61c-3c9aa8f1136f
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_SMS_FILTER, MBN_SMS_FILTER structure [Microsoft Broadband Networks], mbn.mbn_sms_filter, mbnapi/MBN_SMS_FILTER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

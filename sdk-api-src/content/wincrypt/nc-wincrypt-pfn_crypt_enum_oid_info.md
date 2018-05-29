@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_ENUM_OID_INFO
 title: PFN_CRYPT_ENUM_OID_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPT_ENUM_OID_INFO callback function is used with the CryptEnumOIDInfo function.
 old-location: security\crypt_enum_oid_info.htm
 old-project: SecCrypto
 ms.assetid: 30ae4274-631d-4c6a-96c5-18f096607cad
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_ENUM_OID_INFO, CRYPT_ENUM_OID_INFO callback function [Security], PFN_CRYPT_ENUM_OID_INFO, PFN_CRYPT_ENUM_OID_INFO callback, security.crypt_enum_oid_info, wincrypt/CRYPT_ENUM_OID_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

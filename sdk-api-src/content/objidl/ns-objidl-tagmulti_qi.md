@@ -1,16 +1,16 @@
 ---
 UID: NS:objidl.tagMULTI_QI
 title: tagMULTI_QI
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an interface in a query for multiple interfaces.
 old-location: com\multi_qi.htm
 old-project: com
 ms.assetid: 845040c9-fad4-4ac8-856d-d35edbf48ec9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MULTI_QI, MULTI_QI structure [COM], _com_MULTI_QI, com.multi_qi, objidlbase/MULTI_QI, tagMULTI_QI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: Objidl.h

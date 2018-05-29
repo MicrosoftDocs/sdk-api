@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IBDACreateTuneRequestEx
 title: IBDACreateTuneRequestEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements the CreateTuneRequestEx method, which creates a new tuning request for a tuning space.
 old-location: mstv\ibdacreatetunerequestex.htm
 old-project: mstv
 ms.assetid: b22ccd86-b8d7-4dd7-af4b-b99c9fea0de5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDACreateTuneRequestEx, IBDACreateTuneRequestEx interface [Microsoft TV Technologies], IBDACreateTuneRequestEx interface [Microsoft TV Technologies],described, mstv.ibdacreatetunerequestex, tuner/IBDACreateTuneRequestEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndSubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_endsubscribetomultipleoperations.htm
 old-project: WsdApi
 ms.assetid: 2e3cdb10-fde9-4936-9a7d-61404a754faa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EndSubscribeToMultipleOperations, EndSubscribeToMultipleOperations method, EndSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndSubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndSubscribeToMultipleOperations, IWSDServiceProxyEventing::EndSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI1FromDec
 title: VarUI1FromDec function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a decimal value to an unsigned char value.
 old-location: automat\varui1fromdec.htm
 old-project: automat
 ms.assetid: 9a8a8403-473e-47da-a7ee-11568ae1588f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI1FromDec, VarUI1FromDec function [Automation], _oa96_VarUI1FromDec, automat.varui1fromdec, oleauto/VarUI1FromDec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

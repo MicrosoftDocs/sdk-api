@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHGetImageList
 title: SHGetImageList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an image list.
 old-location: shell\SHGetImageList.htm
 old-project: shell
 ms.assetid: 6ae80c1f-f2b7-4da9-b588-30391c8aef0e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetImageList, SHGetImageList function [Windows Shell], SHIL_EXTRALARGE, SHIL_JUMBO, SHIL_LARGE, SHIL_LAST, SHIL_SMALL, SHIL_SYSSMALL, _shell_SHGetImageList, shell.SHGetImageList, shellapi/SHGetImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

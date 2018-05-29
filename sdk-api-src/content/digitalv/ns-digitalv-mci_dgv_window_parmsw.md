@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_WINDOW_PARMSW
 title: MCI_DGV_WINDOW_PARMSW
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_WINDOW_PARMS structure contains parameters for MCI_WINDOW command for digital-video devices.
 old-location: multimedia\mci_dgv_window_parms.htm
 old-project: Multimedia
 ms.assetid: 89c16949-4501-4ca0-87b6-c5f2524879a7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_WINDOW_PARMSW, MCI_DGV_WINDOW_PARMS, MCI_DGV_WINDOW_PARMS structure [Windows Multimedia], MCI_DGV_WINDOW_PARMSW, _win32_MCI_DGV_WINDOW_PARMS_str, digitalv/MCI_DGV_WINDOW_PARMS, multimedia.mci_dgv_window_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get_Count
 title: IAlternativeNames::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ialternativenames_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: ef7f588a-f877-4626-ada6-782db6202c65
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Count property [Security], Count property [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Count property, IAlternativeNames.Count, IAlternativeNames.get_Count, IAlternativeNames::Count, IAlternativeNames::get_Count, certenroll/IAlternativeNames::Count, certenroll/IAlternativeNames::get_Count, get_Count, security.ialternativenames_count_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

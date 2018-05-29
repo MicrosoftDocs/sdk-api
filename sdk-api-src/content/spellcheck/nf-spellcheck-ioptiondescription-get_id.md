@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Id
 title: IOptionDescription::get_Id
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier of the spell checker option.
 old-location: intl\ioptiondescription_id.htm
 old-project: Intl
 ms.assetid: 09dba873-4302-46ee-9de0-cd480a424144
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Id property, IOptionDescription.Id, IOptionDescription.get_Id, IOptionDescription::Id, IOptionDescription::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],IOptionDescription interface, get_Id, intl.ioptiondescription_id, spellcheck/IOptionDescription::Id, spellcheck/IOptionDescription::get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

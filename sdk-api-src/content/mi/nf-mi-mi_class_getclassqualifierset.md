@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Class_GetClassQualifierSet
 title: MI_Class_GetClassQualifierSet function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the qualifier set that is associated with the specified class object.
 old-location: wmi_v2\mi_class_getclassqualifierset.htm
 old-project: wmi_v2
 ms.assetid: 900ae879-a728-43a9-8dcb-de20a50f8dce
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Class_GetClassQualifierSet, MI_Class_GetClassQualifierSet function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassQualifierSet, wmi_v2.mi_class_getclassqualifierset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

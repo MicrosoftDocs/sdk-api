@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetwork.get_IsConnected
 title: INetwork::get_IsConnected
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_IsConnected property specifies if the network has any network connectivity.
 old-location: nla\inetwork_get_isconnected.htm
 old-project: NLA
 ms.assetid: 24bfcd98-b9c3-44f5-9f7b-13c05dcc8974
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetwork interface [Network Awareness],get_IsConnected method, INetwork.get_IsConnected, INetwork::get_IsConnected, get_IsConnected, get_IsConnected method [Network Awareness], get_IsConnected method [Network Awareness],INetwork interface, netlistmgr/INetwork::get_IsConnected, nla.inetwork_get_isconnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetNativeVideoSize
 title: IVMRWindowlessControl::GetNativeVideoSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNativeVideoSize method retrieves the un-stretched video size and aspect ratio of the video.
 old-location: dshow\ivmrwindowlesscontrol_getnativevideosize.htm
 old-project: DirectShow
 ms.assetid: cc8fd96d-e9a8-4911-9330-a4cf71a2d926
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [DirectShow], GetNativeVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetNativeVideoSize method, IVMRWindowlessControl.GetNativeVideoSize, IVMRWindowlessControl::GetNativeVideoSize, IVMRWindowlessControlGetNativeVideoSize, dshow.ivmrwindowlesscontrol_getnativevideosize, strmif/IVMRWindowlessControl::GetNativeVideoSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcore.UiaPoint
 title: UiaPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the coordinates of a point.
 old-location: winauto\uiauto_UiaPointStruct.htm
 old-project: WinAuto
 ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto_UiaPointStruct, uiauto_UiaPointStruct, uiautomationcore/UiaPoint, winauto.uiauto_UiaPointStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

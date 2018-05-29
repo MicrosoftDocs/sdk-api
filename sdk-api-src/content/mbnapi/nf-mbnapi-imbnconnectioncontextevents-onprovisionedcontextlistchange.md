@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContextEvents.OnProvisionedContextListChange
 title: IMbnConnectionContextEvents::OnProvisionedContextListChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a provisioned context stored in the device is available or updated.
 old-location: mbn\imbnconnectioncontextevents_onprovisionedcontextlistchange.htm
 old-project: mbn
 ms.assetid: 3c8fa150-7c36-4ad8-ada8-2b17693671d9
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionContextEvents interface [Microsoft Broadband Networks],OnProvisionedContextListChange method, IMbnConnectionContextEvents.OnProvisionedContextListChange, IMbnConnectionContextEvents::OnProvisionedContextListChange, OnProvisionedContextListChange, OnProvisionedContextListChange method [Microsoft Broadband Networks], OnProvisionedContextListChange method [Microsoft Broadband Networks],IMbnConnectionContextEvents interface, mbn.imbnconnectioncontextevents_onprovisionedcontextlistchange, mbnapi/IMbnConnectionContextEvents::OnProvisionedContextListChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

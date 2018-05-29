@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.GetTimecode
 title: IAMTimecodeReader::GetTimecode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTimecode method retrieves the most recent timecode, userbit, and flag values available in the stream.
 old-location: dshow\iamtimecodereader_gettimecode.htm
 old-project: DirectShow
 ms.assetid: c4ed646f-677e-4703-8197-036636f20561
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTimecode method, IAMTimecodeReader.GetTimecode, IAMTimecodeReader::GetTimecode, IAMTimecodeReaderGetTimecode, dshow.iamtimecodereader_gettimecode, strmif/IAMTimecodeReader::GetTimecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

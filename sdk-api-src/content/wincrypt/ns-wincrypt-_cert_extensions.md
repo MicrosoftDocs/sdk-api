@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_EXTENSIONS
 title: "_CERT_EXTENSIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_EXTENSIONS structure contains an array of extensions.
 old-location: security\cert_extensions.htm
 old-project: SecCrypto
 ms.assetid: b393ef08-cedb-4840-a427-10ead315d6ea
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_EXTENSIONS, CERT_EXTENSIONS, CERT_EXTENSIONS structure [Security], PCERT_EXTENSIONS, PCERT_EXTENSIONS structure pointer [Security], _CERT_EXTENSIONS, _crypto2_cert_extensions, security.cert_extensions, wincrypt/CERT_EXTENSIONS, wincrypt/PCERT_EXTENSIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

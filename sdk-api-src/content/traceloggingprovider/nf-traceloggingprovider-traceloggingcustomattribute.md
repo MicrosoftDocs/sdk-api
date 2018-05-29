@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustomAttribute
 title: TraceLoggingCustomAttribute macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper macro for adding custom information about an event to the PDB.
 old-location: tracelogging\traceloggingcustomattribute.htm
 old-project: tracelogging
 ms.assetid: D58950A3-105D-43C7-8B8B-61CC1F0D4DA0
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingCustomAttribute, TraceLoggingCustomAttribute macro, tracelogging.traceloggingcustomattribute, traceloggingprovider/TraceLoggingCustomAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

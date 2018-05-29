@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingQueue
 title: IFaxOutgoingQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutgoingQueue interface defines a FaxOutgoingQueue configuration object used by a fax client application to set and retrieve the configuration parameters on the outbound fax queue on a fax server.
 old-location: fax\_mfax_faxoutgoingqueue_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0dyd_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxOutgoingQueue, IFaxOutgoingQueue interface [Fax Service], IFaxOutgoingQueue interface [Fax Service],described, _mfax_faxoutgoingqueue_cpp, fax._mfax_faxoutgoingqueue_cpp, faxcomex/IFaxOutgoingQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

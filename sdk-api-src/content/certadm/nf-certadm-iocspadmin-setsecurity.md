@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetSecurity
 title: IOCSPAdmin::SetSecurity
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_setsecurity.htm
 old-project: SecCrypto
 ms.assetid: 7ff94496-4347-4c08-8c71-0c53af902d9d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPAdmin interface [Security],SetSecurity method, IOCSPAdmin.SetSecurity, IOCSPAdmin::SetSecurity, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetSecurity, security.iocspadmin_setsecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

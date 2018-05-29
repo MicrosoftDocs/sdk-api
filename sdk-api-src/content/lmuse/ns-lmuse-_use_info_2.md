@@ -1,16 +1,16 @@
 ---
 UID: NS:lmuse._USE_INFO_2
 title: "_USE_INFO_2"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
 old-location: netmgmt\use_info_2_str.htm
 old-project: NetMgmt
 ms.assetid: 4cc36108-085a-47c4-9dfa-b46f7e208c8b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSE_INFO_2, *PUSE_INFO_2, LPUSE_INFO_2, LPUSE_INFO_2 structure pointer [Network Management], PUSE_INFO_2, PUSE_INFO_2 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_2, USE_INFO_2 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _USE_INFO_2, _win32_use_info_2_str, lmuse/LPUSE_INFO_2, lmuse/PUSE_INFO_2, lmuse/USE_INFO_2, netmgmt.use_info_2_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmuse.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WriteEncryptedFileRaw
 title: WriteEncryptedFileRaw function
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores (import) encrypted files.
 old-location: fs\writeencryptedfileraw.htm
 old-project: FileIO
 ms.assetid: f44e291e-dbc6-4a44-92ba-92a81e043764
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WriteEncryptedFileRaw, WriteEncryptedFileRaw function [Files], base.writeencryptedfileraw, fs.writeencryptedfileraw, winbase/WriteEncryptedFileRaw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

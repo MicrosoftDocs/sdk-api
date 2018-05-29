@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.IsImmersiveProcess
 title: IsImmersiveProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the process belongs to a Windows Store app.
 old-location: base\isimmersiveprocess.htm
 old-project: ProcThread
 ms.assetid: E95FD9C0-8E4A-44FA-BBA6-0A7F53A0E584
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IsImmersiveProcess, IsImmersiveProcess function, base.isimmersiveprocess, winuser/IsImmersiveProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

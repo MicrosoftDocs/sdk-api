@@ -1,16 +1,16 @@
 ---
 UID: NF:t2embapi.TTRunValidationTestsEx
 title: TTRunValidationTestsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates part or all glyph data of a UCS-4 character (32-bit) font, in the size range specified.
 old-location: gdi\ttrunvalidationtestsex.htm
 old-project: gdi
 ms.assetid: 4b4fdd3f-c07c-407c-87eb-5bd8a1620d75
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GDI], _win32_TTRunValidationTestsEx, gdi.ttrunvalidationtestsex, t2embapi/TTRunValidationTestsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

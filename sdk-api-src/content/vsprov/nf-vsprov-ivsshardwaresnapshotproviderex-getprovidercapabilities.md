@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.GetProviderCapabilities
 title: IVssHardwareSnapshotProviderEx::GetProviderCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_getprovidercapabilities.htm
 old-project: VSS
 ms.assetid: cf95ba6c-b4da-4e9e-969e-58c492cf7901
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProviderCapabilities, GetProviderCapabilities method, GetProviderCapabilities method,IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,GetProviderCapabilities method, IVssHardwareSnapshotProviderEx.GetProviderCapabilities, IVssHardwareSnapshotProviderEx::GetProviderCapabilities, base.ivsshardwaresnapshotproviderex_getprovidercapabilities, vsprov/IVssHardwareSnapshotProviderEx::GetProviderCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

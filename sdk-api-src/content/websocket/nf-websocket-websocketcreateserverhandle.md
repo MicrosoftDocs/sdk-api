@@ -1,16 +1,16 @@
 ---
 UID: NF:websocket.WebSocketCreateServerHandle
 title: WebSocketCreateServerHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a server-side WebSocket session handle.
 old-location: websock\websocketcreateserverhandle.htm
 old-project: WebSock
 ms.assetid: f8c44a86-c586-48e3-b948-ed119bebf951
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WebSocketCreateServerHandle, WebSocketCreateServerHandle function [Websocket Protocol Component API], websock.websocketcreateserverhandle, websocket/WebSocketCreateServerHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

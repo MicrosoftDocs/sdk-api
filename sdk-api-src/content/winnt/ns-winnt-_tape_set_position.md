@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TAPE_SET_POSITION
 title: "_TAPE_SET_POSITION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes how and where to position the tape.
 old-location: backup\tape_set_position_str.htm
 old-project: Backup
 ms.assetid: ee5e3f0f-b3dd-49a7-889d-d7b96107dc45
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SET_POSITION, TAPE_SET_POSITION structure [Backup], TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _TAPE_SET_POSITION, _win32_tape_set_position_str, backup.tape_set_position_str, winnt/PTAPE_SET_POSITION, winnt/TAPE_SET_POSITION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

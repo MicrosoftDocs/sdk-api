@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMSG_CMS_SIGNER_INFO
 title: "_CMSG_CMS_SIGNER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the content of the defined SignerInfo in signed or signed and enveloped messages.
 old-location: security\cmsg_cms_signer_info.htm
 old-project: SecCrypto
 ms.assetid: 177323ef-4e26-4681-a474-1a99fb6900af
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO structure [Security], PCMSG_CMS_SIGNER_INFO, PCMSG_CMS_SIGNER_INFO structure pointer [Security], _CMSG_CMS_SIGNER_INFO, _crypto2_cmsg_cms_signer_info, security.cmsg_cms_signer_info, wincrypt/CMSG_CMS_SIGNER_INFO, wincrypt/PCMSG_CMS_SIGNER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

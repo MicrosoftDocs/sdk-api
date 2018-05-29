@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.ITrayDeskBand
 title: ITrayDeskBand
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that show, hide, and query deskbands.
 old-location: shell\ITrayDeskBand.htm
 old-project: shell
 ms.assetid: 4542bd20-b7ca-4ab9-9c25-9f6eeabd7c2e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ITrayDeskBand interface [Windows Shell],described, _shell_ITrayDeskBand, shell.ITrayDeskBand, shobjidl/ITrayDeskBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

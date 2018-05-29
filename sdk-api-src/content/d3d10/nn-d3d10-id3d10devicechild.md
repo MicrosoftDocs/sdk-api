@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10.ID3D10DeviceChild
 title: ID3D10DeviceChild
-author: windows-driver-content
+author: windows-sdk-content
 description: A device-child interface accesses data used by a device.
 old-location: direct3d10\id3d10devicechild.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], ID3D10DeviceChild interface [Direct3D 10],described, d3d10/ID3D10DeviceChild, direct3d10.id3d10devicechild, e38df520-7753-67fb-6fb9-7bd65b783c01
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 

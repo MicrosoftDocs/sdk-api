@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_SetLong
 title: FLOATOBJ_SetLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_SetLong function assigns the value of type LONG to the FLOATOBJ.
 old-location: display\floatobj_setlong.htm
 old-project: display
 ms.assetid: 4fa1b8a6-8172-4047-9ee2-fe00f0924487
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_SetLong, FLOATOBJ_SetLong function [Display Devices], display.floatobj_setlong, gdifncs_b0a076a3-766b-42fb-a04d-5da69177656b.xml, winddi/FLOATOBJ_SetLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

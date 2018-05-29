@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectRenderStreamNotify
 title: ISpatialAudioObjectRenderStreamNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamnotify.htm
 old-project: CoreAudio
 ms.assetid: 3729D985-9040-43AD-A8B0-045509FE2F20
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStreamNotify interface [Core Audio], ISpatialAudioObjectRenderStreamNotify interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamnotify, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudioclient.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignaturePartName
 title: IXpsSigningOptions::GetSignaturePartName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the part name of the document's signature part.
 old-location: xps\ixpssigningoptions_getsignaturepartname.htm
 old-project: printdocs
 ms.assetid: 8c5dfbda-0ceb-4694-bc5d-7e16e6f6d3bc
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignaturePartName method, IXpsSigningOptions.GetSignaturePartName, IXpsSigningOptions::GetSignaturePartName, xps.ixpssigningoptions_getsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::GetSignaturePartName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

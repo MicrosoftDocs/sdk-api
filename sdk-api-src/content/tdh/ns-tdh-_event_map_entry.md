@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._EVENT_MAP_ENTRY
 title: "_EVENT_MAP_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a single value map entry.
 old-location: etw\event_map_entry_struct.htm
 old-project: ETW
 ms.assetid: e5b12f7a-4a00-41a0-90df-7d1317d63a4a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY, EVENT_MAP_ENTRY structure [ETW], EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY structure [ETW], _EVENT_MAP_ENTRY, etw.event_map_entry_struct, tdh.event_map_entry_struct, tdh/EVENT_MAP_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

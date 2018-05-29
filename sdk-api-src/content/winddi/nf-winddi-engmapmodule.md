@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngMapModule
 title: EngMapModule function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngMapModule function returns the address and size of a file that was loaded by EngLoadModule, EngLoadModuleForWrite, EngLoadImage, or EngMapFile.
 old-location: display\engmapmodule.htm
 old-project: display
 ms.assetid: f8bd9b2c-11a3-454f-a4ce-cbda28115564
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngMapModule, EngMapModule function [Display Devices], display.engmapmodule, gdifncs_c3731e1a-e853-403b-958b-370494e79ae7.xml, winddi/EngMapModule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

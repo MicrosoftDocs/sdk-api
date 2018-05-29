@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateDIBPatternBrushPt
 title: CreateDIBPatternBrushPt function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateDIBPatternBrushPt function creates a logical brush that has the pattern specified by the device-independent bitmap (DIB).
 old-location: gdi\createdibpatternbrushpt.htm
 old-project: gdi
 ms.assetid: 0e34d108-fd35-4512-9eb3-c7710af36e95
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateDIBPatternBrushPt, CreateDIBPatternBrushPt function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrushPt, gdi.createdibpatternbrushpt, wingdi/CreateDIBPatternBrushPt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCbLengthA
 title: StringCbLengthA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a string exceeds the specified length, in bytes.
 old-location: menurc\stringcblength.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcblength.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
-ms.keywords: StringCbLength, StringCbLength function [Menus and Other Resources], StringCbLengthA, StringCbLengthW, _shell_StringCbLength, _shell_stringcblength_cpp, menurc.stringcblength, strsafe/StringCbLength, strsafe/StringCbLengthA, strsafe/StringCbLengthW, winui._shell_stringcblength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: StringCbLength, StringCbLength function [Menus and Other Resources], StringCbLengthA, StringCbLengthW, UnalignedStringCbLength, _shell_StringCbLength, _shell_stringcblength_cpp, menurc.stringcblength, strsafe/StringCbLength, strsafe/StringCbLengthA, strsafe/StringCbLengthW, winui._shell_stringcblength
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
@@ -166,6 +166,9 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
 </tr>
 </table>
  
+
+
+<a href="https://msdn.microsoft.com/2aa104f8-44e2-4896-86d8-5e2b6d9d7b73">UnalignedStringCbLength</a> is an alias for this function.
 
 
 

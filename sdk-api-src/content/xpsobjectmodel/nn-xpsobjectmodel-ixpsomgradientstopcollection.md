@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStopCollection
 title: IXpsOMGradientStopCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IXpsOMGradientStop interface pointers.
 old-location: xps\ixpsomgradientstopcollection.htm
 old-project: printdocs
 ms.assetid: 1f51f818-e9bb-4d88-9795-4e6890d24b8c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], IXpsOMGradientStopCollection interface [XPS Documents and Packaging],described, xps.ixpsomgradientstopcollection, xpsobjectmodel/IXpsOMGradientStopCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

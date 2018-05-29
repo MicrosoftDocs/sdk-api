@@ -1,16 +1,16 @@
 ---
 UID: NN:amsi.IAmsiStream
 title: IAmsiStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a stream to be scanned.
 old-location: amsi\iamsistream.htm
 old-project: AMSI
 ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface],described, amsi.iamsistream, amsi/IAmsiStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: amsi.h
 req.include-header: 

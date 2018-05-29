@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsResetListener
 title: WsResetListener function
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets a Listener object so it can be reused. Use of this function requires that the Listener state be set to WS_LISTENER_STATE_CREATED or WS_LISTENER_STATE_CLOSED.
 old-location: wsw\wsresetlistener.htm
 old-project: wsw
 ms.assetid: c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsResetListener, WsResetListener function [Web Services for Windows], webservices/WsResetListener, wsw.wsresetlistener
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

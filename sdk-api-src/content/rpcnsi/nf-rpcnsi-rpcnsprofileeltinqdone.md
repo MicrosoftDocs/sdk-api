@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqDone
 title: RpcNsProfileEltInqDone function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsProfileEltInqDone function deletes the inquiry context for viewing the elements in a profile.
 old-location: rpc\rpcnsprofileeltinqdone.htm
 old-project: Rpc
 ms.assetid: 957cdfb6-2b5a-4339-8197-897999df5ea0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsProfileEltInqDone, RpcNsProfileEltInqDone function [RPC], _rpc_rpcnsprofileeltinqdone, rpc.rpcnsprofileeltinqdone, rpcnsi/RpcNsProfileEltInqDone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

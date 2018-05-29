@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CRACK_SINGLE_NAME
 title: LSA_CRACK_SINGLE_NAME
-author: windows-driver-content
+author: windows-sdk-content
 description: The CrackSingleName function converts a name from one format to another.
 old-location: security\cracksinglename.htm
 old-project: SecAuthN
 ms.assetid: de42ca97-4ce2-4bfb-abd1-7409cc5c09a8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CrackSingleName, CrackSingleName function [Security], DS_CANONICAL_NAME, DS_CANONICAL_NAME_EX, DS_DISPLAY_NAME, DS_FQDN_1779_NAME, DS_NT4_ACCOUNT_NAME, DS_SERVICE_PRINCIPAL_NAME, DS_SID_OR_SID_HISTORY_NAME, DS_UNIQUE_ID_NAME, DS_UNKNOWN_NAME, DS_USER_PRINCIPAL_NAME, LSA_CRACK_SINGLE_NAME, _ssp_cracksinglename, ntsecpkg/CrackSingleName, security.cracksinglename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

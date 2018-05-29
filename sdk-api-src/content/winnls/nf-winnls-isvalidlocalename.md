@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.IsValidLocaleName
 title: IsValidLocaleName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the specified locale name is valid for a locale that is installed or supported on the operating system.Note  An application running only on Windows Vista and later should call this function in preference to IsValidLocale to determine the validity of a supplemental locale.
 old-location: intl\isvalidlocalename.htm
 old-project: Intl
 ms.assetid: cd1b5a4e-7a9c-47a1-9ece-284fce3d5be4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsValidLocaleName, IsValidLocaleName function [Internationalization for Windows Applications], _win32_IsValidLocaleName, intl.isvalidlocalename, winnls/IsValidLocaleName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

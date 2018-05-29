@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSourceResolver
 title: IMFSourceResolver
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media source from a URL or a byte stream.
 old-location: mf\imfsourceresolver.htm
 old-project: medfound
 ms.assetid: 079c61c5-7a29-4411-840e-9349190726ac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation],described, mf.imfsourceresolver, mfidl/IMFSourceResolver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

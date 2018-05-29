@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_POLICIES_INFO
 title: "_CERT_POLICIES_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_POLICIES_INFO structure contains an array of CERT_POLICY_INFO.
 old-location: security\cert_policies_info.htm
 old-project: SecCrypto
 ms.assetid: cf5fafd9-6129-4f25-8d61-189b46585e57
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_POLICIES_INFO, CERT_POLICIES_INFO, CERT_POLICIES_INFO structure [Security], PCERT_POLICIES_INFO, PCERT_POLICIES_INFO structure pointer [Security], _CERT_POLICIES_INFO, _crypto2_cert_policies_info, security.cert_policies_info, wincrypt/CERT_POLICIES_INFO, wincrypt/PCERT_POLICIES_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

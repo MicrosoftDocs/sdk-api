@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpmib._MIB_TCPROW_OWNER_MODULE
 title: "_MIB_TCPROW_OWNER_MODULE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that describes an IPv4 TCP connection with ownership data, IPv4 addresses, ports used by the TCP connection, and the specific process ID (PID) associated with connection.
 old-location: mib\mib_tcprow_owner_module.htm
 old-project: MIB
 ms.assetid: 5fc1e95a-4ab1-4a15-aedc-47cfd811c035
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_TCPROW_OWNER_MODULE, MIB_TCPROW_OWNER_MODULE, MIB_TCPROW_OWNER_MODULE structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW_OWNER_MODULE, PMIB_TCPROW_OWNER_MODULE structure pointer [MIB], _MIB_TCPROW_OWNER_MODULE, iprtrmib/MIB_TCPROW_OWNER_MODULE, iprtrmib/PMIB_TCPROW_OWNER_MODULE, mib.mib_tcprow_owner_module, tcpmib/MIB_TCPROW_OWNER_MODULE, tcpmib/PMIB_TCPROW_OWNER_MODULE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

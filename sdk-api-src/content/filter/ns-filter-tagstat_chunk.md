@@ -1,16 +1,16 @@
 ---
 UID: NS:filter.tagSTAT_CHUNK
 title: tagSTAT_CHUNK
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the characteristics of a chunk.
 old-location: indexsrv\stat_chunk.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6a5n.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: filter.h
 req.include-header: 

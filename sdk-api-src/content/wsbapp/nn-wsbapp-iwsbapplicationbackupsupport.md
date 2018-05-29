@@ -1,16 +1,16 @@
 ---
 UID: NN:wsbapp.IWsbApplicationBackupSupport
 title: IWsbApplicationBackupSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a method for checking the consistency of the application's VSS writer's components.
 old-location: wsb\iwsbapplicationbackupsupport.htm
 old-project: wsb
 ms.assetid: 45865f1b-0f0a-46fc-b1f3-f2fd7c49f56f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWsbApplicationBackupSupport, IWsbApplicationBackupSupport interface [Windows Server Backup], IWsbApplicationBackupSupport interface [Windows Server Backup],described, wsb.iwsbapplicationbackupsupport, wsbapp/IWsbApplicationBackupSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsbapp.h
 req.include-header: 

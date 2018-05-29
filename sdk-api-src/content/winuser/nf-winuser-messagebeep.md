@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.MessageBeep
 title: MessageBeep function
-author: windows-driver-content
+author: windows-sdk-content
 description: Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the registry.
 old-location: base\messagebeep.htm
 old-project: Debug
 ms.assetid: 70681472-36a5-4ae3-b769-0421cf97ff2a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.messagebeep, winuser/MessageBeep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

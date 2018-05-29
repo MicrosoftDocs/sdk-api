@@ -1,16 +1,16 @@
 ---
 UID: NS:comsvcs.__MIDL___MIDL_itf_autosvcs_0000_0013_0001
 title: "__MIDL___MIDL_itf_autosvcs_0000_0013_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents contextual information about an event, such as the time it was generated and which process server and COM+ application generated it.
 old-location: cos\comsvcseventinfo.htm
 old-project: cossdk
 ms.assetid: f4aa0892-4c93-42ea-adc6-1b304b917389
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], __MIDL___MIDL_itf_autosvcs_0000_0013_0001, _dtc_Event_Structure, comsvcs/COMSVCSEVENTINFO, cos.comsvcseventinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

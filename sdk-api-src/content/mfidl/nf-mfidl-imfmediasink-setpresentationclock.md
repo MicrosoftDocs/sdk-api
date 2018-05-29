@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSink.SetPresentationClock
 title: IMFMediaSink::SetPresentationClock
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the presentation clock on the media sink.
 old-location: mf\imfmediasink_setpresentationclock.htm
 old-project: medfound
 ms.assetid: 844fc3b3-b56e-4048-b589-e24457bcc419
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 844fc3b3-b56e-4048-b589-e24457bcc419, IMFMediaSink interface [Media Foundation],SetPresentationClock method, IMFMediaSink.SetPresentationClock, IMFMediaSink::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFMediaSink interface, mf.imfmediasink_setpresentationclock, mfidl/IMFMediaSink::SetPresentationClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetStringValue
 title: ICredentialProviderCredential::SetStringValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a Logon UI or Credential UI to update the text for a CPFT_EDIT_TEXT fields as the user types in them.
 old-location: shell\ICredentialProviderCredential_SetStringValue.htm
 old-project: shell
 ms.assetid: ea2007b9-fff1-4cd2-8656-61ec050a8e96
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetStringValue method, ICredentialProviderCredential.SetStringValue, ICredentialProviderCredential::SetStringValue, SetStringValue, SetStringValue method [Windows Shell], SetStringValue method [Windows Shell],ICredentialProviderCredential interface, credentialprovider/ICredentialProviderCredential::SetStringValue, shell.ICredentialProviderCredential_SetStringValue, shell_ICredentialProviderCredential_SetStringValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

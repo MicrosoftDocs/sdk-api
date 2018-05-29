@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsFileSpecW
 title: PathIsFileSpecW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a path for any path-delimiting characters (for example, ':' or '\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
 old-location: shell\PathIsFileSpec.htm
 old-project: shell
 ms.assetid: c69d6cca-44e7-4792-8fb2-3c4ecd2e57f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsFileSpec, PathIsFileSpec function [Windows Shell], PathIsFileSpecA, PathIsFileSpecW, _win32_PathIsFileSpec, shell.PathIsFileSpec, shlwapi/PathIsFileSpec, shlwapi/PathIsFileSpecA, shlwapi/PathIsFileSpecW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

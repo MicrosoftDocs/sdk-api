@@ -1,16 +1,16 @@
 ---
 UID: NF:expandedresources.GetExpandedResourceExclusiveCpuCount
 title: GetExpandedResourceExclusiveCpuCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the expected number of exclusive CPU sets that are available to the app when in Game Mode.
 old-location: gamemode\getexpandedresourceexclusivecpucount.htm
 old-project: gamemode
 ms.assetid: C87BE7FE-9CC7-4B6B-AC25-606A967D70C6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetExpandedResourceExclusiveCpuCount, GetExpandedResourceExclusiveCpuCount function, expandedresources/GetExpandedResourceExclusiveCpuCount, gamemode.getexpandedresourceexclusivecpucount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: expandedresources.h
 req.include-header: 

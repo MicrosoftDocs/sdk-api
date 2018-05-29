@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRTRANSPARENTBLT
 title: tagEMRTRANSPARENTBLT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRTRANSPARENTBLT structure contains members for the TransparentBLT enhanced metafile record.
 old-location: gdi\emrtransparentblt.htm
 old-project: gdi
 ms.assetid: f343bc6a-87b8-4c6b-b2cb-3d7f2f515fc1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT structure [Windows GDI], EMRTRANSPARENTBLT, EMRTRANSPARENTBLT structure [Windows GDI], PEMREMRTRANSPARENTBLT, PEMREMRTRANSPARENTBLT structure pointer [Windows GDI], _win32_EMRTRANSPARENTBLT_str, gdi.emrtransparentblt, tagEMRTRANSPARENTBLT, wingdi/EMRTRANSPARENTBLT, wingdi/PEMREMRTRANSPARENTBLT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

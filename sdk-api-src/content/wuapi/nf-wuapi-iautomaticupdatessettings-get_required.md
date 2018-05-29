@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_Required
 title: IAutomaticUpdatesSettings::get_Required
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value that indicates whether Group Policy requires the Automatic Updates service.
 old-location: wua\iautomaticupdatessettings_required.htm
 old-project: Wua_Sdk
 ms.assetid: d3700208-4e87-495e-98cf-cc495b380528
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Required property, IAutomaticUpdatesSettings.Required, IAutomaticUpdatesSettings.get_Required, IAutomaticUpdatesSettings::Required, IAutomaticUpdatesSettings::get_Required, Required property [Windows Update Agent], Required property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_Required, wua.iautomaticupdatessettings_required, wuapi/IAutomaticUpdatesSettings::Required, wuapi/IAutomaticUpdatesSettings::get_Required
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

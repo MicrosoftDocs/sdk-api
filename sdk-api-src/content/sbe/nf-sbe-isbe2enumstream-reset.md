@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Reset
 title: ISBE2EnumStream::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: mstv\isbe2enumstream_reset.htm
 old-project: mstv
 ms.assetid: db74d4b5-6564-4fbe-9ea3-0c373be4af44
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Reset method, ISBE2EnumStream.Reset, ISBE2EnumStream::Reset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_reset, sbe/ISBE2EnumStream::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.InitializeOptions
 title: IQueryParserManager::InitializeOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters for the specified query parser.
 old-location: search\_search_IQueryParserManager_InitializeOptions.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\initializeoptions.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IQueryParserManager interface [search],InitializeOptions method, IQueryParserManager.InitializeOptions, IQueryParserManager::InitializeOptions, InitializeOptions, InitializeOptions method [search], InitializeOptions method [search],IQueryParserManager interface, _search_IQueryParserManager_InitializeOptions, search._search_IQueryParserManager_InitializeOptions, structuredquery/IQueryParserManager::InitializeOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

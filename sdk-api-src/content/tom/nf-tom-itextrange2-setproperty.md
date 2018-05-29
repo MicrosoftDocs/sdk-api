@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.SetProperty
 title: ITextRange2::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextrange2_setproperty.htm
 old-project: Controls
 ms.assetid: 0d6c2f44-40e9-48b2-850d-d74d7a50fa0d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetProperty method, ITextRange2.SetProperty, ITextRange2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextRange2 interface, controls.itextrange2_setproperty, tom/ITextRange2::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

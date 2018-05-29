@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_PropertySet_AddElement
 title: MI_PropertySet_AddElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a name to the property list.
 old-location: wmi_v2\mi_propertyset_addelement.htm
 old-project: wmi_v2
 ms.assetid: b7676ebd-bc65-4aad-b3c7-263ceb976b20
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_PropertySet_AddElement, MI_PropertySet_AddElement function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_AddElement, wmi_v2.mi_propertyset_addelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

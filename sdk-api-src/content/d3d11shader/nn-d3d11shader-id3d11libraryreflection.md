@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11shader.ID3D11LibraryReflection
 title: ID3D11LibraryReflection
-author: windows-driver-content
+author: windows-sdk-content
 description: A library-reflection interface accesses library info.
 old-location: direct3d11\id3d11libraryreflection.htm
 old-project: direct3d11
 ms.assetid: 59792EC6-B739-4D86-84F6-DC03AD3016F1
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11LibraryReflection, ID3D11LibraryReflection interface [Direct3D 11], ID3D11LibraryReflection interface [Direct3D 11],described, d3d11shader/ID3D11LibraryReflection, direct3d11.id3d11libraryreflection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 

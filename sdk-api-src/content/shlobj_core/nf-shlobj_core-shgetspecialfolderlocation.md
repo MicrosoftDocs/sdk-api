@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetSpecialFolderLocation
 title: SHGetSpecialFolderLocation function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHGetSpecialFolderLocation is not supported and may be altered or unavailable in the future. Instead, use SHGetFolderLocation.
 old-location: shell\SHGetSpecialFolderLocation.htm
 old-project: shell
 ms.assetid: 10b00497-fc3b-4e34-acd8-bc0721c0dc05
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetSpecialFolderLocation, SHGetSpecialFolderLocation function [Windows Shell], _win32_SHGetSpecialFolderLocation, _win32_SHGetSpecialFolderLocation_cpp, shell.SHGetSpecialFolderLocation, shlobj_core/SHGetSpecialFolderLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

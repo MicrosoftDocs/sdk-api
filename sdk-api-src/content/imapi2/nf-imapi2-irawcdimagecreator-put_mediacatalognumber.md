@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_MediaCatalogNumber
 title: IRawCDImageCreator::put_MediaCatalogNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Media Catalog Number (MCN) for the entire audio disc.
 old-location: imapi\irawcdimagecreator_put_mediacatalognumber.htm
 old-project: imapi
 ms.assetid: 0ba2eaac-3bbc-4625-9c5d-1f1d23bbfa66
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_MediaCatalogNumber method, IRawCDImageCreator.put_MediaCatalogNumber, IRawCDImageCreator::put_MediaCatalogNumber, imapi.irawcdimagecreator_put_mediacatalognumber, imapi2/IRawCDImageCreator::put_MediaCatalogNumber, put_MediaCatalogNumber, put_MediaCatalogNumber method [IMAPI], put_MediaCatalogNumber method [IMAPI],IRawCDImageCreator interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

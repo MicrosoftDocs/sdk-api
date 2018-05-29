@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PTRANSLATE_ADDRESS_ROUTINE64
 title: PTRANSLATE_ADDRESS_ROUTINE64
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It provides address translation for 16-bit addresses.
 old-location: base\translateaddressproc64.htm
 old-project: Debug
 ms.assetid: 56c374df-6b48-4649-a914-5cb2f9575bf3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PTRANSLATE_ADDRESS_ROUTINE, PTRANSLATE_ADDRESS_ROUTINE64, TranslateAddressProc64, TranslateAddressProc64 callback, TranslateAddressProc64 callback function, _win32_translateaddressproc64, base.translateaddressproc64, dbghelp/TranslateAddressProc64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

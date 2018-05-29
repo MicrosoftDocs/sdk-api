@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_DISK_INFO
 title: "_SR_RESOURCE_TYPE_DISK_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a set of information that indicates whether a disk is eligible for replication.
 old-location: mscs\sr_resource_type_disk_info.htm
 old-project: MsCS
 ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_DISK_INFO, SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster], _SR_RESOURCE_TYPE_DISK_INFO, clusapi/PSR_RESOURCE_TYPE_DISK_INFO, clusapi/SR_RESOURCE_TYPE_DISK_INFO, msclus/PSR_RESOURCE_TYPE_DISK_INFO, msclus/SR_RESOURCE_TYPE_DISK_INFO, mscs.sr_resource_type_disk_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

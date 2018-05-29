@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcSigningOptions
 title: IOpcSigningOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to set and access information required to generate a signature.
 old-location: opc\iopcsigningoptions.htm
 old-project: OPC
 ms.assetid: 5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], IOpcSigningOptions interface [Open Packaging Conventions],described, msopc/IOpcSigningOptions, opc.iopcsigningoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

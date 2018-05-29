@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.GetNtmsUIOptionsW
 title: GetNtmsUIOptionsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNtmsUIOptions function obtains the list of computer names to which the specified type of user interface is being directed for the given object.
 old-location: fs\getntmsuioptions.htm
 old-project: Rsm
 ms.assetid: 69267981-1d68-4af9-ae4b-5d4cb3a18c57
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: GetNtmsUIOptions, GetNtmsUIOptions function [Files], GetNtmsUIOptionsA, GetNtmsUIOptionsW, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, _zaw_getntmsuioptions, base.getntmsuioptions, fs.getntmsuioptions, ntmsapi/GetNtmsUIOptions, ntmsapi/GetNtmsUIOptionsA, ntmsapi/GetNtmsUIOptionsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

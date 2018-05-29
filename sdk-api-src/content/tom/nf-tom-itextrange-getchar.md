@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.GetChar
 title: ITextRange::GetChar
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the character at the start position of the range.
 old-location: controls\ITextRange_GetChar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getchar.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetChar, GetChar method [Windows Controls], GetChar method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetChar method, ITextRange.GetChar, ITextRange::GetChar, _win32_ITextRange_GetChar, _win32_ITextRange_GetChar_cpp, controls.ITextRange_GetChar, controls._win32_ITextRange_GetChar, tom/ITextRange::GetChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

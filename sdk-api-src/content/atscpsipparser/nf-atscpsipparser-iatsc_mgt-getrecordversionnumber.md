@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetRecordVersionNumber
 title: IATSC_MGT::GetRecordVersionNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecordversionnumber.htm
 old-project: mstv
 ms.assetid: 1a5ec8e9-d1e6-4514-8d0d-7992be52ba8c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordVersionNumber, GetRecordVersionNumber method [Microsoft TV Technologies], GetRecordVersionNumber method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordVersionNumber method, IATSC_MGT.GetRecordVersionNumber, IATSC_MGT::GetRecordVersionNumber, IATSC_MGTGetRecordVersionNumber, atscpsipparser/IATSC_MGT::GetRecordVersionNumber, mstv.iatsc_mgt_getrecordversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServiceTrackerConfig
 title: IServiceTrackerConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the tracker property for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicetrackerconfig.htm
 old-project: cossdk
 ms.assetid: 342713d0-be5e-4d47-85ba-b18673a17fb5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceTrackerConfig, IServiceTrackerConfig interface [COM+], IServiceTrackerConfig interface [COM+],described, _cos_IServiceTrackerConfig, comsvcs/IServiceTrackerConfig, cos.iservicetrackerconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

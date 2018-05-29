@@ -1,16 +1,16 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandRegisterNotification
 title: OnDemandRegisterNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnDemandRegisterNotification function allows an application to register to be notified when the Route Requests cache is modified.
 old-location: nla\ondemandregisternotification.htm
 old-project: NLA
 ms.assetid: 1C9BB656-B1A7-49A6-97B9-414946BF9BE0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: OnDemandRegisterNotification, OnDemandRegisterNotification function [Network Awareness], nla.ondemandregisternotification, ondemandconnroutehelper/OnDemandRegisterNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ondemandconnroutehelper.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsOU
 title: IADsOU
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage organizationalUnit objects.
 old-location: adsi\iadsou.htm
 old-project: ADSI
 ms.assetid: 3ac61a48-faa3-4457-8842-7e57175e35e5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsOU, IADsOU interface [ADSI], IADsOU interface [ADSI],described, _ds_iadsou, adsi.iadsou, iads/IADsOU
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

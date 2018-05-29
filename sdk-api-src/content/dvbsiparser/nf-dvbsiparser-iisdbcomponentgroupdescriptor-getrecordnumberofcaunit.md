@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit
 title: IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of conditional access unit records in a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordnumberofcaunit.htm
 old-project: mstv
 ms.assetid: 239d952f-908d-4aa9-86c0-f58f7616987f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordNumberOfCAUnit, GetRecordNumberOfCAUnit method [Microsoft TV Technologies], GetRecordNumberOfCAUnit method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfCAUnit method, IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit, IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit, mstv.iisdbcomponentgroupdescriptor_getrecordnumberofcaunit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

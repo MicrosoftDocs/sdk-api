@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetVersionHash
 title: IISDB_SDTT::GetVersionHash
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getversionhash.htm
 old-project: mstv
 ms.assetid: 269b96c7-7748-44b3-9e6d-2089bcc56664
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_SDTT.GetVersionHash, IISDB_SDTT::GetVersionHash, dvbsiparser/IISDB_SDTT::GetVersionHash, mstv.iisdb_sdtt_getversionhash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

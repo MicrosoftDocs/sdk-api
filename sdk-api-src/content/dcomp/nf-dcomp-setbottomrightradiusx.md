@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetBottomRightRadiusX
 title: SetBottomRightRadiusX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the BottomRightRadiusX property of this clip. The BottomRightRadiusX property specifies the x radius of the ellipse that rounds the lower-right corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_setbottomrightradiusx.htm
 old-project: directcomp
 ms.assetid: 036E842C-320B-4C6B-9D83-561B2A107A59
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRectangleClip::SetBottomRightRadiusX, SetBottomRightRadiusX, SetBottomRightRadiusX methods [DirectComposition], dcomp/SetBottomRightRadiusX, directcomp.idcompositionrectangleclip_setbottomrightradiusx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

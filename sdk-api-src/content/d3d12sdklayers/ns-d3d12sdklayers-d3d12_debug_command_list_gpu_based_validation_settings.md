@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS
 title: D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes per-command-list settings used by GPU-Based Validation.
 old-location: direct3d12\d3d12_debug_command_list_gpu_based_validation_settings.htm
 old-project: direct3d12
 ms.assetid: CAFEFC8D-9A7A-4DB2-AFEC-69B1ABE87C82
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS structure, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS, direct3d12.d3d12_debug_command_list_gpu_based_validation_settings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12sdklayers.h
 req.include-header: D3d12sdklayers_RS1.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6Initialize
 title: PxeDhcpv6Initialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a response packet as a DHCPv6 reply packet.
 old-location: wds\pxedhcpv6initialize.htm
 old-project: Wds
 ms.assetid: B9287BDA-3C7A-457C-8D70-E27A0B9BAE99
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PxeDhcpv6Initialize, PxeDhcpv6Initialize function [Windows Deployment Services], wds.pxedhcpv6initialize, wdspxe/PxeDhcpv6Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

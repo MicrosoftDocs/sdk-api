@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpQueryServerSessionProperty
 title: HttpQueryServerSessionProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries a server property on the specified server session.
 old-location: http\httpqueryserversessionproperty.htm
 old-project: Http
 ms.assetid: 653b286b-dc86-4896-8f03-1628b7178680
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpQueryServerSessionProperty, HttpQueryServerSessionProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryserversessionproperty, http/HttpQueryServerSessionProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

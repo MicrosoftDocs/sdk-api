@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetAcquisitionTime
 title: IPhotoAcquireSettings::SetAcquisitionTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAcquisitionTime method sets the acquisition time explicitly.
 old-location: picacq\iphotoacquiresettings_setacquisitiontime.htm
 old-project: acquisition
 ms.assetid: fc43be78-f35b-4159-a15c-c21cddee6c9e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetAcquisitionTime method, IPhotoAcquireSettings.SetAcquisitionTime, IPhotoAcquireSettings::SetAcquisitionTime, IPhotoAcquireSettingsSetAcquisitionTime, SetAcquisitionTime, SetAcquisitionTime method [Picture Acquisition], SetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetAcquisitionTime, picacq.iphotoacquiresettings_setacquisitiontime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

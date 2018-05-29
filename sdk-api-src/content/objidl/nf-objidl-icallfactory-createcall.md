@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ICallFactory.CreateCall
 title: ICallFactory::CreateCall
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the call object that corresponds to a specified asynchronous interface.
 old-location: com\icallfactory_createcall.htm
 old-project: com
 ms.assetid: 8df51aeb-4852-4dab-b1e9-e149ee115ea8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateCall, CreateCall method [COM], CreateCall method [COM],ICallFactory interface, ICallFactory interface [COM],CreateCall method, ICallFactory.CreateCall, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardBeginTransaction
 title: SCardBeginTransaction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a transaction.
 old-location: security\scardbegintransaction.htm
 old-project: SecAuthN
 ms.assetid: 91f61060-4b0b-4890-9372-25ba0aacb642
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardBeginTransaction, SCardBeginTransaction function [Security], _smart_scardbegintransaction, security.scardbegintransaction, winscard/SCardBeginTransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

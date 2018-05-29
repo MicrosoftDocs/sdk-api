@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICRawParameterSet
 title: WICRawParameterSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the parameter set used by a raw codec.
 old-location: wic\_wic_codec_wicrawparameterset.htm
 old-project: wic
 ms.assetid: 0c39b769-9523-42ce-942f-761e6d39ec5b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICAsShotParameterSet, WICAutoAdjustedParameterSet, WICRawParameterSet, WICRawParameterSet enumeration [Windows Imaging Component], WICUserAdjustedParameterSet, _wic_codec_wicrawparameterset, wic._wic_codec_wicrawparameterset, wincodec/WICAsShotParameterSet, wincodec/WICAutoAdjustedParameterSet, wincodec/WICRawParameterSet, wincodec/WICUserAdjustedParameterSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

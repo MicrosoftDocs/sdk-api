@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get_Count
 title: IFsrmCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of items in the collection.
 old-location: fsrm\ifsrmcollection_count.htm
 old-project: Fsrm
 ms.assetid: 47ea1193-0afe-4036-b8b5-511fa2e013be
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Count property [File Server Resource Manager], Count property [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],Count property, IFsrmCollection.Count, IFsrmCollection.get_Count, IFsrmCollection::Count, IFsrmCollection::get_Count, fs.ifsrmcollection_count, fsrm.ifsrmcollection_count, fsrm/IFsrmCollection::Count, fsrm/IFsrmCollection::get_Count, get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

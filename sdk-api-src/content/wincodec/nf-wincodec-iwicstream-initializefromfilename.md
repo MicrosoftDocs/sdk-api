@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromFilename
 title: IWICStream::InitializeFromFilename
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a stream from a particular file.
 old-location: wic\_wic_codec_iwicstream_initializefromfilename.htm
 old-project: wic
 ms.assetid: b0942d23-9c49-4726-9d84-bf0d448124b3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GENERIC_READ, GENERIC_WRITE, IWICStream interface [Windows Imaging Component],InitializeFromFilename method, IWICStream.InitializeFromFilename, IWICStream::InitializeFromFilename, InitializeFromFilename, InitializeFromFilename method [Windows Imaging Component], InitializeFromFilename method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromfilename, wic._wic_codec_iwicstream_initializefromfilename, wincodec/IWICStream::InitializeFromFilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

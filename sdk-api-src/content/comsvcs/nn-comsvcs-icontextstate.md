@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IContextState
 title: IContextState
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls object deactivation and transaction voting by manipulating context state flags.
 old-location: cos\icontextstate.htm
 old-project: cossdk
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

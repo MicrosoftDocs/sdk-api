@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_LargeChange
 title: IRangeValueProvider::get_LargeChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the value that is added to or subtracted from the IRangeValueProvider::Value property when a large change is made, such as when the PAGE DOWN key is pressed.
 old-location: winauto\uiauto_IRangeValueProvider_LargeChange.htm
 old-project: WinAuto
 ms.assetid: 5f6d5a05-f91d-48ee-8782-f39661051584
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],LargeChange property, IRangeValueProvider.LargeChange, IRangeValueProvider.get_LargeChange, IRangeValueProvider::LargeChange, IRangeValueProvider::get_LargeChange, LargeChange property [Windows Accessibility], LargeChange property [Windows Accessibility],IRangeValueProvider interface, get_LargeChange, uiauto.uiauto_IRangeValueProvider_LargeChange, uiauto_IRangeValueProvider_LargeChange, uiautomationcore/IRangeValueProvider::LargeChange, uiautomationcore/IRangeValueProvider::get_LargeChange, winauto.uiauto_IRangeValueProvider_LargeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

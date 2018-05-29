@@ -1,16 +1,16 @@
 ---
 UID: NE:mi._MI_CallbackMode
 title: "_MI_CallbackMode"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the callback mode for the CIM extensions for WriteError and PromptUser functions.
 old-location: wmi_v2\mi_callbackmode.htm
 old-project: wmi_v2
 ms.assetid: 742610a4-3276-4bab-877d-8e74c6dc80cd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_CallbackMode, MI_CallbackMode enumeration [Windows Management Infrastructure (MI)], _MI_CallbackMode, mi/MI_CALLBACKMODE_INQUIRE, mi/MI_CALLBACKMODE_REPORT, mi/MI_CallbackMode, wmi._mi_callbackmode, wmi_v2.mi_callbackmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mi.h
 req.include-header: 

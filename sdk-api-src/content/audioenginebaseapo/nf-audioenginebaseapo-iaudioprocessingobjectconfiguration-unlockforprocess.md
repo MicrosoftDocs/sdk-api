@@ -1,16 +1,16 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectConfiguration.UnlockForProcess
 title: IAudioProcessingObjectConfiguration::UnlockForProcess
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnlockForProcess method releases the lock that was imposed on the APO by the LockForProcess method.
 old-location: audio\iaudioprocessingobjectconfiguration_unlockforprocess.htm
 old-project: audio
 ms.assetid: 54221040-71b8-4b31-81df-46435f7b2b80
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IAudioProcessingObjectConfiguration interface [Audio Devices],UnlockForProcess method, IAudioProcessingObjectConfiguration.UnlockForProcess, IAudioProcessingObjectConfiguration::UnlockForProcess, UnlockForProcess, UnlockForProcess method [Audio Devices], UnlockForProcess method [Audio Devices],IAudioProcessingObjectConfiguration interface, audio.iaudioprocessingobjectconfiguration_unlockforprocess, audio_syseffects_r_23133166-d468-4449-82e1-2fba54e220c6.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration::UnlockForProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 

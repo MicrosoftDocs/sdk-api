@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusNodes
 title: ISClusNodes
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the nodes in a cluster.
 old-location: mscs\clusnodes_collection.htm
 old-project: MsCS
 ms.assetid: f35d610f-014a-48cf-aaa4-93e320bcd890
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusNodes, ClusNodes collection [Failover Cluster], ClusNodes collection [Failover Cluster],described, ISClusNodes, _wolf_clusnodes_collection, msclus/ClusNodes, mscs.clusnodes_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

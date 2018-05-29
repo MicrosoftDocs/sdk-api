@@ -1,16 +1,16 @@
 ---
 UID: NN:wsmandisp.IWSManEnumerator
 title: IWSManEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a stream of results returned from operations such as a WS-Management protocol WS-Enumeration:Enumerate operation.
 old-location: winrm\iwsmanenumerator.htm
 old-project: WinRM
 ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 

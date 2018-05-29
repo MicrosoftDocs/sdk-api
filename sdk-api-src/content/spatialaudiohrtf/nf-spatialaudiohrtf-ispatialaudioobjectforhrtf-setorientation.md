@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetOrientation
 title: ISpatialAudioObjectForHrtf::SetOrientation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the orientation in 3D space, relative to the listener's frame of reference, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setorientation.htm
 old-project: CoreAudio
 ms.assetid: 2B88643A-C81A-4F11-BFD0-EEF4C65861C8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetOrientation method, ISpatialAudioObjectForHrtf.SetOrientation, ISpatialAudioObjectForHrtf::SetOrientation, SetOrientation, SetOrientation method [Core Audio], SetOrientation method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setorientation, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 

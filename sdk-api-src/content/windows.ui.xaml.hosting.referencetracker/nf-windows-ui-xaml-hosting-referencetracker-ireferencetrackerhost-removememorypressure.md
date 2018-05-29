@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.RemoveMemoryPressure
 title: IReferenceTrackerHost::xaml
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs the host of reduced memory allocations since the last notification.
 old-location: winrt\ireferencetrackerhost_removememorypressure.htm
 old-project: WinRT
 ms.assetid: 686a8a17-d6a6-4062-9f14-add132685b66
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IReferenceTrackerHost interface [Windows Runtime],RemoveMemoryPressure method, IReferenceTrackerHost.RemoveMemoryPressure, IReferenceTrackerHost.xaml, IReferenceTrackerHost::RemoveMemoryPressure, IReferenceTrackerHost::xaml, RemoveMemoryPressure, RemoveMemoryPressure method [Windows Runtime], RemoveMemoryPressure method [Windows Runtime],IReferenceTrackerHost interface, windows/IReferenceTrackerHost::RemoveMemoryPressure, winrt.ireferencetrackerhost_removememorypressure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

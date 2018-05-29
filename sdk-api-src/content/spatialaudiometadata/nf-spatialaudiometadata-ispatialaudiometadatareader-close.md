@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.Close
 title: ISpatialAudioMetadataReader::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.
 old-location: coreaudio\ispatialaudiometadatareader_close.htm
 old-project: CoreAudio
 ms.assetid: A9E878E8-A319-4DB3-86A7-4499EDA567F7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataReader interface, ISpatialAudioMetadataReader interface [Core Audio],Close method, ISpatialAudioMetadataReader.Close, ISpatialAudioMetadataReader::Close, coreaudio.ispatialaudiometadatareader_close, spatialaudiometadata/ISpatialAudioMetadataReader::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ITransactionResourcePool.GetResource
 title: ITransactionResourcePool::GetResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object from the list of pooled objects.
 old-location: cos\itransactionresourcepool_getresource.htm
 old-project: cossdk
 ms.assetid: 68e71746-e3a1-4f33-a3b8-fa8bf9608776
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetResource, GetResource method [COM+], GetResource method [COM+],ITransactionResourcePool interface, ITransactionResourcePool interface [COM+],GetResource method, ITransactionResourcePool.GetResource, ITransactionResourcePool::GetResource, _cos_ITransactionResourcePool_GetResource, comsvcs/ITransactionResourcePool::GetResource, cos.itransactionresourcepool_getresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

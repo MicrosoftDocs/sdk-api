@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetGain
 title: ISpatialAudioObjectForHrtf::SetGain
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the gain for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setgain.htm
 old-project: CoreAudio
 ms.assetid: 7DE268DC-5AA0-4866-8495-34292AEFB142
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetGain method, ISpatialAudioObjectForHrtf.SetGain, ISpatialAudioObjectForHrtf::SetGain, SetGain, SetGain method [Core Audio], SetGain method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setgain, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 title: "_ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_compatibility_information.htm
 old-project: SbsCs
 ms.assetid: d8c1ef4a-8e64-45bd-a185-b4af7932a0d2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure [Setup API], PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure pointer [Setup API], _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, setup.activation_context_compatibility_information, winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, winnt/PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

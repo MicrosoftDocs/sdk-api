@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngGetFilePath
 title: EngGetFilePath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngGetFilePath function determines the file path associated with the specified font file.
 old-location: display\enggetfilepath.htm
 old-project: display
 ms.assetid: 751a9bef-f1ee-43a0-958b-f90ac63b2f37
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngGetFilePath, EngGetFilePath function [Display Devices], display.enggetfilepath, gdifncs_219a84bc-93a3-4a5f-bf0e-d0087737fdb0.xml, winddi/EngGetFilePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

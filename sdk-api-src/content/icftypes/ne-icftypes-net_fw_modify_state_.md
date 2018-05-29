@@ -1,16 +1,16 @@
 ---
 UID: NE:icftypes.NET_FW_MODIFY_STATE_
 title: NET_FW_MODIFY_STATE_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the effect of modifications to the current policy.
 old-location: ics\net_fw_modify_state.htm
 old-project: ICS
 ms.assetid: c9bfe7e8-2668-499f-9b75-3457235655b8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NET_FW_MODIFY_STATE, NET_FW_MODIFY_STATE enumeration [ICS/ICF], NET_FW_MODIFY_STATE_, NET_FW_MODIFY_STATE_GP_OVERRIDE, NET_FW_MODIFY_STATE_INBOUND_BLOCKED, NET_FW_MODIFY_STATE_OK, icftypes/NET_FW_MODIFY_STATE, icftypes/NET_FW_MODIFY_STATE_GP_OVERRIDE, icftypes/NET_FW_MODIFY_STATE_INBOUND_BLOCKED, icftypes/NET_FW_MODIFY_STATE_OK, ics.net_fw_modify_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 

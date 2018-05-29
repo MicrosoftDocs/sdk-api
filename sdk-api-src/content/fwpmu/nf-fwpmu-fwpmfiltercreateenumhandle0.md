@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmFilterCreateEnumHandle0
 title: FwpmFilterCreateEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a handle used to enumerate a set of filter objects.
 old-location: fwp\fwpmfiltercreateenumhandle0_func.htm
 old-project: FWP
 ms.assetid: fd8ffa91-a205-441c-9145-da8b441cef28
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmFilterCreateEnumHandle0, FwpmFilterCreateEnumHandle0 function [Filtering], fwp.fwpmfiltercreateenumhandle0_func, fwpmu/FwpmFilterCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

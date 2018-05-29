@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.CopyPixels
 title: IWICBitmapSourceTransform::CopyPixels
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies pixel data using the supplied input parameters.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_copypixels.htm
 old-project: wic
 ms.assetid: c4c36750-bf30-4e58-aca6-bbb49c7cde4b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICBitmapSourceTransform.CopyPixels, IWICBitmapSourceTransform::CopyPixels, _wic_codec_iwicbitmapsourcetransform_copypixels, wic._wic_codec_iwicbitmapsourcetransform_copypixels, wincodec/IWICBitmapSourceTransform::CopyPixels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

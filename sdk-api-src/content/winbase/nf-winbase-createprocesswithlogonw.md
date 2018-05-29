@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateProcessWithLogonW
 title: CreateProcessWithLogonW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new process and its primary thread. Then the new process runs the specified executable file in the security context of the specified credentials (user, domain, and password). It can optionally load the user profile for a specified user.
 old-location: base\createprocesswithlogonw.htm
 old-project: ProcThread
 ms.assetid: dcfdcd5b-0269-4081-b1db-e272171c27a2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithLogonW, CreateProcessWithLogonW function, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, _win32_createprocesswithlogonw, base.createprocesswithlogonw, winbase/CreateProcessWithLogonW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

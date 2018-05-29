@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemProviderInit.Initialize
 title: IWbemProviderInit::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by Windows Management to initialize a provider to receive client requests. All types of providers must implement this method.
 old-location: wmi\iwbemproviderinit_initialize.htm
 old-project: WmiSdk
 ms.assetid: 437d803d-b916-4209-bbf0-64b1ec3b7068
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],Initialize method, IWbemProviderInit.Initialize, IWbemProviderInit::Initialize, Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation],IWbemProviderInit interface, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

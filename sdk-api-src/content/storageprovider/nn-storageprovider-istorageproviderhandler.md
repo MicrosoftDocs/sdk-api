@@ -1,16 +1,16 @@
 ---
 UID: NN:storageprovider.IStorageProviderHandler
 title: IStorageProviderHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IStorageProviderPropertyHandler associated with a specific file or folder.
 old-location: shell\istorageproviderhandler.htm
 old-project: shell
 ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell],described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: storageprovider.h
 req.include-header: 

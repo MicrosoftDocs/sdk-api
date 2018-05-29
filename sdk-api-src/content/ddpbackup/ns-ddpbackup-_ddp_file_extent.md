@@ -1,16 +1,16 @@
 ---
 UID: NS:ddpbackup._DDP_FILE_EXTENT
 title: "_DDP_FILE_EXTENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: DDP_FILE_EXTENT represents the extent of data in a file that is to be read in a pending call to ReadBackupFile.
 old-location: dedup\ddp_file_extent.htm
 old-project: dedup
 ms.assetid: B4AB7297-6FFE-4B93-ABDE-C15D7C90FA5B
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DDP_FILE_EXTENT, DDP_FILE_EXTENT structure [Data Deduplication API], PDDP_FILE_EXTENT, PDDP_FILE_EXTENT structure pointer [Data Deduplication API], _DDP_FILE_EXTENT, ddpbackup/DDP_FILE_EXTENT, ddpbackup/PDDP_FILE_EXTENT, dedup.ddp_file_extent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddpbackup.h
 req.include-header: 

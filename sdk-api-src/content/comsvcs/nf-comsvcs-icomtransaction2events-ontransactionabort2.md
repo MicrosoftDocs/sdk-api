@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionAbort2
 title: IComTransaction2Events::OnTransactionAbort2
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a transaction aborts.
 old-location: cos\icomtransaction2events_ontransactionabort2.htm
 old-project: cossdk
 ms.assetid: 8c74410c-c9a0-4115-876b-4b4db798e54f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionAbort2 method, IComTransaction2Events.OnTransactionAbort2, IComTransaction2Events::OnTransactionAbort2, OnTransactionAbort2, OnTransactionAbort2 method [COM+], OnTransactionAbort2 method [COM+],IComTransaction2Events interface, _dtc_icomtransaction2events_ontransactionabort2, comsvcs/IComTransaction2Events::OnTransactionAbort2, cos.icomtransaction2events_ontransactionabort2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

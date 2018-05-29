@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFOutputTrustAuthority
 title: IMFOutputTrustAuthority
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates the functionality of one or more output protection systems that a trusted output supports.
 old-location: mf\imfoutputtrustauthority.htm
 old-project: medfound
 ms.assetid: 21594ac0-7e3c-44a3-bbee-64316dd51824
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 21594ac0-7e3c-44a3-bbee-64316dd51824, IMFOutputTrustAuthority, IMFOutputTrustAuthority interface [Media Foundation], IMFOutputTrustAuthority interface [Media Foundation],described, mf.imfoutputtrustauthority, mfidl/IMFOutputTrustAuthority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

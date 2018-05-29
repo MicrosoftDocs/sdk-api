@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizFreeDigitalSignContext
 title: CryptUIWizFreeDigitalSignContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure allocated by the CryptUIWizDigitalSign function.
 old-location: security\cryptuiwizfreedigitalsigncontext.htm
 old-project: SecCrypto
 ms.assetid: 039615ee-0485-4698-944f-23359253767a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

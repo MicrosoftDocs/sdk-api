@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetContainerElementData
 title: BluetoothSdpGetContainerElementData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Iterates a container stream and returns each element contained within the container element.
 old-location: bluetooth\bluetoothsdpgetcontainerelementdata.htm
 old-project: Bluetooth
 ms.assetid: 7dbf44f6-8a80-419e-9db7-60ada9ca9647
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothSdpGetContainerElementData, BluetoothSdpGetContainerElementData function [Bluetooth], bluetooth.bluetoothsdpgetcontainerelementdata, bluetoothapis/BluetoothSdpGetContainerElementData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

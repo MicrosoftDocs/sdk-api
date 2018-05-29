@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.Commit
 title: IWICFastMetadataEncoder::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: Finalizes metadata changes to the image stream.
 old-location: wic\_wic_codec_iwicfastmetadataencoder_commit.htm
 old-project: wic
 ms.assetid: 24f3b0f8-8991-4f55-aeb6-a2bbf09a29c7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],Commit method, IWICFastMetadataEncoder.Commit, IWICFastMetadataEncoder::Commit, _wic_codec_iwicfastmetadataencoder_commit, wic._wic_codec_iwicfastmetadataencoder_commit, wincodec/IWICFastMetadataEncoder::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

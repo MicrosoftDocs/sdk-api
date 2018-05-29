@@ -1,16 +1,16 @@
 ---
 UID: NS:wtypes.tagQUERYCONTEXT
 title: tagQUERYCONTEXT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a list of attributes used to look up a class implementation.
 old-location: com\querycontext.htm
 old-project: com
 ms.assetid: 5d6a17e1-dcdd-4691-aec2-f63dbcb26027
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.querycontext, tagQUERYCONTEXT, wtypes/tagQUERYCONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 

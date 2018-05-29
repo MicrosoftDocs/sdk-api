@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.Item
 title: IInkDivisionUnits::Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionunits_item.htm
 old-project: tablet
 ms.assetid: 332a9365-526e-43df-841f-20eed07762e7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits interface [Tablet PC],Item method, IInkDivisionUnits.Item, IInkDivisionUnits::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkDivisionUnits interface, msinkaut15/IInkDivisionUnits::Item, tablet.iinkdivisionunits_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 

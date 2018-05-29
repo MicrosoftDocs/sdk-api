@@ -1,16 +1,16 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.GetPackageTarget
 title: IPrintDocumentPackageTarget::GetPackageTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the pointer to the specific document package target, which allows the client to add a document with the given target type. Clients can call this method multiple times but they always have to use the same target ID.
 old-location: xps\iprintdocumentpackagetarget_getpackagetarget.htm
 old-project: printdocs
 ms.assetid: 7D9A749D-954E-43BA-A522-98CBAD79D18C
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPackageTarget, GetPackageTarget method [XPS Documents and Packaging], GetPackageTarget method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTarget method, IPrintDocumentPackageTarget.GetPackageTarget, IPrintDocumentPackageTarget::GetPackageTarget, documenttarget/IPrintDocumentPackageTarget::GetPackageTarget, xps.iprintdocumentpackagetarget_getpackagetarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: documenttarget.h
 req.include-header: 

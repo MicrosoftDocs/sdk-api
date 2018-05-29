@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetTooltipString
 title: ITfLangBarItem::GetTooltipString
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarItem::GetTooltipString method
 old-location: tsf\itflangbaritem_gettooltipstring.htm
 old-project: TSF
 ms.assetid: f0bb3c7f-c21e-443a-965a-0601de0210b5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetTooltipString, GetTooltipString method [Text Services Framework], GetTooltipString method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetTooltipString method, ITfLangBarItem.GetTooltipString, ITfLangBarItem::GetTooltipString, _tsf_itflangbaritem_gettooltipstring_ref, ctfutb/ITfLangBarItem::GetTooltipString, tsf.itflangbaritem_gettooltipstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

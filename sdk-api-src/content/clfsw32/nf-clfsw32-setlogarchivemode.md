@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.SetLogArchiveMode
 title: SetLogArchiveMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables log archive support for a specified log.
 old-location: fs\setlogarchivemode.htm
 old-project: Clfs
 ms.assetid: 9f8a9ab9-2873-44c2-aa8d-78514ffe42bb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

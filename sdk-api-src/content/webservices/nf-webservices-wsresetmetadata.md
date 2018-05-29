@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsResetMetadata
 title: WsResetMetadata function
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets a metadata object state to WS_METADATA_STATE_CREATED. In this state the Metadata object can be reused. WS_POLICY objects that were retrieved using the Metadata object will be released.
 old-location: wsw\wsresetmetadata.htm
 old-project: wsw
 ms.assetid: 091a227a-62d4-4625-9e96-b03f96e2304a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows], webservices/WsResetMetadata, wsw.wsresetmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

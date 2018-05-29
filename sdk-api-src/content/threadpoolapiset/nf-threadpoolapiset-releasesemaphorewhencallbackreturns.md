@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.ReleaseSemaphoreWhenCallbackReturns
 title: ReleaseSemaphoreWhenCallbackReturns function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the semaphore that the thread pool will release when the current callback completes.
 old-location: base\releasesemaphorewhencallbackreturns.htm
 old-project: ProcThread
 ms.assetid: d5c8d6a0-6bb1-4ecb-aaba-665d81cb3d14
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ReleaseSemaphoreWhenCallbackReturns, ReleaseSemaphoreWhenCallbackReturns function, base.releasesemaphorewhencallbackreturns, threadpoolapiset/ReleaseSemaphoreWhenCallbackReturns, winbase/ReleaseSemaphoreWhenCallbackReturns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

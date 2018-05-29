@@ -1,16 +1,16 @@
 ---
 UID: NS:wcmapi._WCM_TIME_INTERVAL
 title: "_WCM_TIME_INTERVAL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a time interval.
 old-location: wcm\wcm_time_interval.htm
 old-project: wcm
 ms.assetid: 7744a577-5f3d-4cdd-b74d-a1430ea20b37
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WCM_TIME_INTERVAL, WCM_TIME_INTERVAL structure [Windows Connection Manager], _WCM_TIME_INTERVAL, wcm.wcm_time_interval, wcmapi/WCM_TIME_INTERVAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

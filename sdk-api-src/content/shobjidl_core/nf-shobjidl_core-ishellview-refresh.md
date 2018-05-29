@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.Refresh
 title: IShellView::Refresh
-author: windows-driver-content
+author: windows-sdk-content
 description: Refreshes the view's contents in response to user input.
 old-location: shell\IShellView_Refresh.htm
 old-project: shell
 ms.assetid: 510aea71-5885-4d23-8fe9-1fef4881cb18
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellView interface [Windows Shell],Refresh method, IShellView.Refresh, IShellView::Refresh, Refresh, Refresh method [Windows Shell], Refresh method [Windows Shell],IShellView interface, _win32_IShellView_Refresh, shell.IShellView_Refresh, shobjidl_core/IShellView::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

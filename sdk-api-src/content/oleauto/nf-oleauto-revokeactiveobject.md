@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.RevokeActiveObject
 title: RevokeActiveObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends an object's status as active.
 old-location: automat\revokeactiveobject.htm
 old-project: automat
 ms.assetid: 47e7b47b-dddc-445d-918f-02b1b6a37075
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: RevokeActiveObject, RevokeActiveObject function [Automation], _oa96_RevokeActiveObject, automat.revokeactiveobject, oleauto/RevokeActiveObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

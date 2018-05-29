@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_connect
 title: ldap_connect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_connect function establishes a connection with the server.
 old-location: ldap\ldap_connect.htm
 old-project: LDAP
 ms.assetid: 783e52fd-d758-47ba-b350-878a2efec8a3
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_connect, ldap.ldap__connect, ldap.ldap_connect, ldap_connect, ldap_connect function [LDAP], winldap/ldap_connect"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

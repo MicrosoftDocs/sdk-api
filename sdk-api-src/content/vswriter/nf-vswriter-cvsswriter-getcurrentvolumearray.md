@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriter.GetCurrentVolumeArray
 title: CVssWriter::GetCurrentVolumeArray
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentVolumeArray method returns the names of the original volumes and the UNC paths of the original remote file shares that belong to the shadow copy set as an array of null-terminated wide character strings.Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  Remote file shares are not supported until Windows 8 and Windows Server 2012.
 old-location: base\cvsswriter_getcurrentvolumearray.htm
 old-project: VSS
 ms.assetid: 75f72b51-e940-4b1d-88a1-7c35de5a3d87
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentVolumeArray method, CVssWriter.GetCurrentVolumeArray, CVssWriter::GetCurrentVolumeArray, GetCurrentVolumeArray, GetCurrentVolumeArray method [VSS], GetCurrentVolumeArray method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentvolumearray, base.cvsswriter_getcurrentvolumearray, vswriter/CVssWriter::GetCurrentVolumeArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

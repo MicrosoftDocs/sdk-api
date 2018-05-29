@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollector.get_LatestOutputLocation
 title: IDataCollector::get_LatestOutputLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the fully decorated file name that PLA used the last time it created the file.
 old-location: pla\idatacollector_latestoutputlocation.htm
 old-project: PLA
 ms.assetid: e451c3a7-aec3-4fa7-9313-730bfac55f19
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],LatestOutputLocation property, IDataCollector.LatestOutputLocation, IDataCollector.get_LatestOutputLocation, IDataCollector::LatestOutputLocation, IDataCollector::get_LatestOutputLocation, IDataCollector::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA],IDataCollector interface, base.idatacollector_latestoutputlocation, get_LatestOutputLocation, pla.idatacollector_latestoutputlocation, pla/IDataCollector::LatestOutputLocation, pla/IDataCollector::get_LatestOutputLocation, pla/IDataCollector::put_LatestOutputLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

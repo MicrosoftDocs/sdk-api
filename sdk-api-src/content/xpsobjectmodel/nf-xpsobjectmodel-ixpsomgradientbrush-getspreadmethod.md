@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetSpreadMethod
 title: IXpsOMGradientBrush::GetSpreadMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region will be rendered.
 old-location: xps\ixpsomgradientbrush_getspreadmethod.htm
 old-project: printdocs
 ms.assetid: c4c62817-735b-4ef1-84cf-1c9fa63f55ee
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSpreadMethod, GetSpreadMethod method [XPS Documents and Packaging], GetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetSpreadMethod method, IXpsOMGradientBrush.GetSpreadMethod, IXpsOMGradientBrush::GetSpreadMethod, xps.ixpsomgradientbrush_getspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::GetSpreadMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

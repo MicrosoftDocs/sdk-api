@@ -1,16 +1,16 @@
 ---
 UID: NF:fdi.FNOPEN
 title: FNOPEN macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The FNOPEN macro provides the declaration for the application-defined callback function to open a file in an FDI context.
 old-location: winprog\fnopen.htm
 old-project: DevNotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 

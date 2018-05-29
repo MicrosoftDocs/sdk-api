@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.FreeADsMem
 title: FreeADsMem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory allocated by AllocADsMem or ReallocADsMem.
 old-location: adsi\freeadsmem.htm
 old-project: ADSI
 ms.assetid: e43f050a-5b96-406e-87ed-88a39ea747da
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FreeADsMem, FreeADsMem function [ADSI], _ds_freeadsmem, adshlp/FreeADsMem, adsi.freeadsmem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

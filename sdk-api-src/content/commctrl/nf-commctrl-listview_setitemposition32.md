@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetItemPosition32
 title: ListView_SetItemPosition32 macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves an item to a specified position in a list-view control (in icon or small icon view).
 old-location: controls\ListView_SetItemPosition32.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition32.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetItemPosition32, ListView_SetItemPosition32 macro [Windows Controls], _win32_ListView_SetItemPosition32, _win32_ListView_SetItemPosition32_cpp, commctrl/ListView_SetItemPosition32, controls.ListView_SetItemPosition32, controls._win32_ListView_SetItemPosition32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

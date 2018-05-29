@@ -1,16 +1,16 @@
 ---
 UID: NE:vdslun._VDS_STORAGE_IDENTIFIER_CODE_SET
 title: "_VDS_STORAGE_IDENTIFIER_CODE_SET"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of the valid code sets (encodings) of a storage identifier.
 old-location: base\vds_storage_identifier_code_set.htm
 old-project: VDS
 ms.assetid: 6b4a3282-dc0c-4974-8c4c-777a28fb9005
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDSStorageIdCodeSetAscii, VDSStorageIdCodeSetBinary, VDSStorageIdCodeSetReserved, VDSStorageIdCodeSetUtf8, VDS_STORAGE_IDENTIFIER_CODE_SET, VDS_STORAGE_IDENTIFIER_CODE_SET enumeration [VDS], _VDS_STORAGE_IDENTIFIER_CODE_SET, base.vds_storage_identifier_code_set, vdslun/VDSStorageIdCodeSetAscii, vdslun/VDSStorageIdCodeSetBinary, vdslun/VDSStorageIdCodeSetReserved, vdslun/VDSStorageIdCodeSetUtf8, vdslun/VDS_STORAGE_IDENTIFIER_CODE_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

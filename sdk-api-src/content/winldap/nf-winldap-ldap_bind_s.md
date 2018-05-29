@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_bind_s
 title: ldap_bind_s function
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronously authenticates a client to the LDAP server.
 old-location: ldap\ldap_bind_s.htm
 old-project: LDAP
 ms.assetid: 67d30a7b-2f42-4e1a-8c59-5ba22ed3fad4
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_bind_s, ldap.ldap__bind__s, ldap.ldap_bind_s, ldap_bind_s, ldap_bind_s function [LDAP], ldap_bind_sA, ldap_bind_sW, winldap/ldap_bind_s, winldap/ldap_bind_sA, winldap/ldap_bind_sW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

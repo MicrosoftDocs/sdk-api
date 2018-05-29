@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceEnum
 title: ClusterNetInterfaceEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the network interfaces installed on a cluster, returning one name with each call.
 old-location: mscs\clusternetinterfaceenum.htm
 old-project: MsCS
 ms.assetid: 691362e9-88ba-4f10-8fde-eebcc72157b4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterNetInterfaceEnum, ClusterNetInterfaceEnum function [Failover Cluster], clusapi/ClusterNetInterfaceEnum, mscs.clusternetinterfaceenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

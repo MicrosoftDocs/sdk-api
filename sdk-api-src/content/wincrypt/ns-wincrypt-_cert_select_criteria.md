@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_SELECT_CRITERIA
 title: "_CERT_SELECT_CRITERIA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies selection criteria that is passed to the CertSelectCertificateChains function.
 old-location: security\cert_select_criteria.htm
 old-project: SecCrypto
 ms.assetid: 246722a9-5db6-4a82-8f29-f60f0a2263e3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_SELECT_CRITERIA, CERT_SELECT_BY_ENHKEY_USAGE, CERT_SELECT_BY_EXTENSION, CERT_SELECT_BY_ISSUER_ATTR, CERT_SELECT_BY_ISSUER_NAME, CERT_SELECT_BY_KEY_USAGE, CERT_SELECT_BY_POLICY_OID, CERT_SELECT_BY_PROV_NAME, CERT_SELECT_BY_PUBLIC_KEY, CERT_SELECT_BY_SUBJECT_ATTR, CERT_SELECT_BY_SUBJECT_HOST_NAME, CERT_SELECT_BY_TLS_SIGNATURES, CERT_SELECT_CRITERIA, CERT_SELECT_CRITERIA structure [Security], PCCERT_SELECT_CRITERIA, PCCERT_SELECT_CRITERIA structure pointer [Security], PCERT_SELECT_CRITERIA, PCERT_SELECT_CRITERIA structure pointer [Security], _CERT_SELECT_CRITERIA, security.cert_select_criteria, wincrypt/CERT_SELECT_CRITERIA, wincrypt/PCCERT_SELECT_CRITERIA, wincrypt/PCERT_SELECT_CRITERIA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

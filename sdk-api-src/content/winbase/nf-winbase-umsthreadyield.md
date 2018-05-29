@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.UmsThreadYield
 title: UmsThreadYield function
-author: windows-driver-content
+author: windows-sdk-content
 description: Yields control to the user-mode scheduling (UMS) scheduler thread on which the calling UMS worker thread is running.
 old-location: base\umsthreadyield.htm
 old-project: ProcThread
 ms.assetid: d7c94ed5-9536-4c39-8658-27e4237cc9ba
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: UmsThreadYield, UmsThreadYield function, base.umsthreadyield, winbase/UmsThreadYield
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Transfer
 title: IPortableDeviceContent::Transfer
-author: windows-driver-content
+author: windows-sdk-content
 description: The Transfer method retrieves an interface that is used to read from or write to the content data of an existing object resource.
 old-location: wpdsdk\iportabledevicecontent_transfer.htm
 old-project: wpd_sdk
 ms.assetid: 52fd2ca7-56ba-4e7a-9dcc-5b28f344c1df
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Transfer method, IPortableDeviceContent.Transfer, IPortableDeviceContent::Transfer, IPortableDeviceContentTransfer, Transfer, Transfer method [Windows Portable Devices SDK], Transfer method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Transfer, wpdsdk.iportabledevicecontent_transfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

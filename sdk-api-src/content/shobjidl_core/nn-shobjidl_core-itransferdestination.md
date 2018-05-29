@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ITransferDestination
 title: ITransferDestination
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create a destination Shell item for a copy or move operation. This interface is provided to allow more control over file operations by providing an ITransferDestination::Advise method.
 old-location: shell\ITransferDestination.htm
 old-project: shell
 ms.assetid: 8d0049e0-e227-40ae-a282-cdc17f227e24
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITransferDestination, ITransferDestination interface [Windows Shell], ITransferDestination interface [Windows Shell],described, _shell_ITransferDestination, shell.ITransferDestination, shobjidl_core/ITransferDestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

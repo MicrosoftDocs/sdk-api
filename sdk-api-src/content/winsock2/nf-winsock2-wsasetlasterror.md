@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSASetLastError
 title: WSASetLastError function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSASetLastError function sets the error code that can be retrieved through the WSAGetLastError function.
 old-location: winsock\wsasetlasterror_2.htm
 old-project: WinSock
 ms.assetid: 596155ee-3dcc-4ae3-97ab-0653e019cbee
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetlasterror_2, winsock.wsasetlasterror_2, winsock/WSASetLastError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

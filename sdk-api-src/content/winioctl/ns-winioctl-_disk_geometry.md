@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DISK_GEOMETRY
 title: "_DISK_GEOMETRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the geometry of disk devices and media.
 old-location: fs\disk_geometry_str.htm
 old-project: FileIO
 ms.assetid: 5e5955b4-1319-42c9-9df8-9910c05dec69
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Files], _DISK_GEOMETRY, _win32_disk_geometry_str, base.disk_geometry_str, fs.disk_geometry_str, winioctl/DISK_GEOMETRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

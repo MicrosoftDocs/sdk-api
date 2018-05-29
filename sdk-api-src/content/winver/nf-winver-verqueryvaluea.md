@@ -1,16 +1,16 @@
 ---
 UID: NF:winver.VerQueryValueA
 title: VerQueryValueA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves specified version information from the specified version-information resource.
 old-location: menurc\verqueryvalue.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verqueryvalue.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: VerQueryValue, VerQueryValue function [Menus and Other Resources], VerQueryValueA, VerQueryValueW, _win32_VerQueryValue, _win32_verqueryvalue_cpp, menurc.verqueryvalue, winui._win32_verqueryvalue, winver/VerQueryValue, winver/VerQueryValueA, winver/VerQueryValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h

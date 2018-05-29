@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_RTV
 title: D3D12_TEX2D_RTV
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the subresource from a 2D texture to use in a render-target view.
 old-location: direct3d12\d3d12_tex2d_rtv.htm
 old-project: direct3d12
 ms.assetid: E85CC5DF-96A9-488E-95A3-60175FA7B63E
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEX2D_RTV, D3D12_TEX2D_RTV structure, d3d12/D3D12_TEX2D_RTV, direct3d12.d3d12_tex2d_rtv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

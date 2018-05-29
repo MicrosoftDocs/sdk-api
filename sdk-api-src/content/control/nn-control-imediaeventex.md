@@ -1,16 +1,16 @@
 ---
 UID: NN:control.IMediaEventEx
 title: IMediaEventEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaEventEx interface inherits the IMediaEvent interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events.
 old-location: dshow\imediaeventex.htm
 old-project: DirectShow
 ms.assetid: 9d367b0a-c7ec-49d4-a41e-045ac81d2c51
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], IMediaEventEx interface [DirectShow],described, IMediaEventExInterface, control/IMediaEventEx, dshow.imediaeventex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

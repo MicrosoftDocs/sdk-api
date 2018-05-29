@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_CallerId
 title: IFaxStatus::get_CallerId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the CallerId property for the FaxStatus object of a parent FaxPort object. The CallerId property is a string that identifies the calling device that sent an inbound fax job.
 old-location: fax\_mfax_ifaxstatus_get_callerid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kx0.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],CallerId property, FaxStatus.CallerId, IFaxStatus.get_CallerId, IFaxStatus::get_CallerId, _mfax_ifaxstatus_get_callerid, fax._mfax_ifaxstatus_get_callerid, fax._mfax_ifaxstatus_get_callerid_vb, get_CallerId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

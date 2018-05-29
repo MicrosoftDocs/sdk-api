@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.put_Name
 title: ITPluggableTerminalSuperclassRegistration::put_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Name method sets the friendly name for the terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_name.htm
 old-project: Tapi
 ms.assetid: fe9b569b-bfb7-401b-98a8-5db7f3739d41
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],put_Name method, ITPluggableTerminalSuperclassRegistration.put_Name, ITPluggableTerminalSuperclassRegistration::put_Name, _tapi3_itpluggableterminalsuperclassregistration_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_put_name, termmgr/ITPluggableTerminalSuperclassRegistration::put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

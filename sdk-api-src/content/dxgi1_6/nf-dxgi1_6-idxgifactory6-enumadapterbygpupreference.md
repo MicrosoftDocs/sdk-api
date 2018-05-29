@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_6.IDXGIFactory6.EnumAdapterByGpuPreference
 title: IDXGIFactory6::EnumAdapterByGpuPreference
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates graphics adapters based on a given GPU preference.
 old-location: direct3ddxgi\idxgifactory6_enumadapterbygpupreference.htm
 old-project: direct3ddxgi
 ms.assetid: E5F835FB-3699-4E27-B990-4C1CF6E6DD48
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI], EnumAdapterByGpuPreference method [DXGI],IDXGIFactory6 interface, IDXGIFactory6 interface [DXGI],EnumAdapterByGpuPreference method, IDXGIFactory6.EnumAdapterByGpuPreference, IDXGIFactory6::EnumAdapterByGpuPreference, direct3ddxgi.idxgifactory6_enumadapterbygpupreference, dxgi1_6/IDXGIFactory6::EnumAdapterByGpuPreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_6.h
 req.include-header: 

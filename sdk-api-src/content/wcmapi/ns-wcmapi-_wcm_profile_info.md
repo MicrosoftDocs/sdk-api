@@ -1,16 +1,16 @@
 ---
 UID: NS:wcmapi._WCM_PROFILE_INFO
 title: "_WCM_PROFILE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a specific profile.
 old-location: wcm\wcm_profile_info.htm
 old-project: wcm
 ms.assetid: bf917afa-c6c5-408a-bd34-b4a4c7b991b9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWCM_PROFILE_INFO, PWCM_PROFILE_INFO, PWCM_PROFILE_INFO structure pointer [Windows Connection Manager], WCM_PROFILE_INFO, WCM_PROFILE_INFO structure [Windows Connection Manager], _WCM_PROFILE_INFO, wcm.wcm_profile_info, wcmapi/PWCM_PROFILE_INFO, wcmapi/WCM_PROFILE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

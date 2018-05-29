@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetPatchInfoW
 title: MsiGetPatchInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetPatchInfo function returns information about a patch.
 old-location: setup\msigetpatchinfo.htm
 old-project: Msi
 ms.assetid: 4ff951df-5c1b-4874-9f09-f4ac23702e87
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLPROPERTY_LOCALPACKAGE, MsiGetPatchInfo, MsiGetPatchInfo function, MsiGetPatchInfoA, MsiGetPatchInfoW, _msi_msigetpatchinfo, msi/MsiGetPatchInfo, msi/MsiGetPatchInfoA, msi/MsiGetPatchInfoW, setup.msigetpatchinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

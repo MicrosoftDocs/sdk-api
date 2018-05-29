@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSCALEVIEWPORTEXTEX
 title: tagEMRSCALEVIEWPORTEXTEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSCALEVIEWPORTEXTEX and EMRSCALEWINDOWEXTEX structures contain members for the ScaleViewportExtEx and ScaleWindowExtEx enhanced metafile records.
 old-location: gdi\emrscaleviewportextex__emrscalewindowextex.htm
 old-project: gdi
 ms.assetid: 712e8b00-d9ab-4b23-aed4-d7aadd0cb3e1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSCALEVIEWPORTEXTEX, *PEMRSCALEWINDOWEXTEX, EMRSCALEVIEWPORTEXTEX, EMRSCALEVIEWPORTEXTEX structure [Windows GDI], EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX, EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX structure [Windows GDI], EMRSCALEWINDOWEXTEX, EMRSCALEWINDOWEXTEX structure [Windows GDI], PEMRSCALEVIEWPORTEXTEX, PEMRSCALEVIEWPORTEXTEX structure pointer [Windows GDI], PEMRSCALEWINDOWEXTEX, PEMRSCALEWINDOWEXTEX structure pointer [Windows GDI], _win32_EMRSCALEVIEWPORTEXTEX_str, gdi.emrscaleviewportextex__emrscalewindowextex, tagEMRSCALEVIEWPORTEXTEX, wingdi/EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX, wingdi/EMRSCALEWINDOWEXTEX, wingdi/PEMRSCALEVIEWPORTEXTEX, wingdi/PEMRSCALEWINDOWEXTEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

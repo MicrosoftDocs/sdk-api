@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnConnectionManagerEvents
 title: IMbnConnectionManagerEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: This notification interface signals an application about the arrival and removal of IMbnConnection interfaces in the system.
 old-location: mbn\imbnconnectionmanagerevents.htm
 old-project: mbn
 ms.assetid: 153ab8c5-2b39-44a7-8c12-9f1df0012270
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionManagerEvents, IMbnConnectionManagerEvents interface [Microsoft Broadband Networks], IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionmanagerevents, mbnapi/IMbnConnectionManagerEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

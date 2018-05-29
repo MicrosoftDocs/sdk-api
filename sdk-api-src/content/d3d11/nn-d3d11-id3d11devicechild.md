@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11DeviceChild
 title: ID3D11DeviceChild
-author: windows-driver-content
+author: windows-sdk-content
 description: A device-child interface accesses data used by a device.
 old-location: direct3d11\id3d11devicechild.htm
 old-project: direct3d11
 ms.assetid: bed17239-0358-4768-8655-9a1d92f25a2e
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11DeviceChild, ID3D11DeviceChild interface [Direct3D 11], ID3D11DeviceChild interface [Direct3D 11],described, d3d11/ID3D11DeviceChild, direct3d11.id3d11devicechild, ea2a7e4d-06b6-a8d0-51ff-52cc4806e595
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

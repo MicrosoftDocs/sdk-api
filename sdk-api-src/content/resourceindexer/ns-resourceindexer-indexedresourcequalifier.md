@@ -1,16 +1,16 @@
 ---
 UID: NS:resourceindexer.IndexedResourceQualifier
 title: IndexedResourceQualifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the context under which a resource is appropriate.
 old-location: menurc\indexedresourcequalifier.htm
 old-project: menurc
 ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resourceindexer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FtpRenameFileA
 title: FtpRenameFileA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Renames a file stored on the FTP server.
 old-location: wininet\ftprenamefile.htm
 old-project: WinInet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

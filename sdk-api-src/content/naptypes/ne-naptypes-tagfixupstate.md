@@ -1,16 +1,16 @@
 ---
 UID: NE:naptypes.tagFixupState
 title: tagFixupState
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the fix-up state of the System Health Agent (SHA).
 old-location: nap\fixupstate_enum.htm
 old-project: NAP
 ms.assetid: cde1f9df-f4d9-4601-a513-e00639ee9b6e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FixupState, FixupState enumeration [NAP], fixupStateCouldNotUpdate, fixupStateInProgress, fixupStateSuccess, nap.fixupstate_enum, naptypes/FixupState, naptypes/fixupStateCouldNotUpdate, naptypes/fixupStateInProgress, naptypes/fixupStateSuccess, tagFixupState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 

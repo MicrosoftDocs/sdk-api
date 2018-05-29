@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_OutgoingQueueAgeLimit
 title: IFaxConfiguration::put_OutgoingQueueAgeLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted.
 old-location: fax\_mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\outgoingqueueagelimit.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueueAgeLimit property, FaxConfiguration.OutgoingQueueAgeLimit, IFaxConfiguration.put_OutgoingQueueAgeLimit, IFaxConfiguration::put_OutgoingQueueAgeLimit, OutgoingQueueAgeLimit property [Fax Service], OutgoingQueueAgeLimit property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_OutgoingQueueAgeLimit, fax._mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb, put_OutgoingQueueAgeLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

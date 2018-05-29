@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThread
 title: GetCurrentThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pseudo handle for the calling thread.
 old-location: base\getcurrentthread.htm
 old-project: ProcThread
 ms.assetid: 91a11552-66c1-42bd-b837-8a7685977bc9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetCurrentThread, GetCurrentThread function, _win32_getcurrentthread, base.getcurrentthread, processthreadsapi/GetCurrentThread, winbase/GetCurrentThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

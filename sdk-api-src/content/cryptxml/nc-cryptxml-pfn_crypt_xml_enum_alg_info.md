@@ -1,16 +1,16 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_ENUM_ALG_INFO
 title: PFN_CRYPT_XML_ENUM_ALG_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates predefined and registered CRYPT_XML_ALGORITHM_INFO entries.
 old-location: security\pfn_crypt_xml_enum_alg_info.htm
 old-project: SecCrypto
 ms.assetid: d4e4752a-347c-45b0-97f2-6a692088c908
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PFN_CRYPT_XML_ENUM_ALG_INFO, PFN_CRYPT_XML_ENUM_ALG_INFO callback, PFN_CRYPT_XML_ENUM_ALG_INFO callback function [Security], cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO, security.pfn_crypt_xml_enum_alg_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

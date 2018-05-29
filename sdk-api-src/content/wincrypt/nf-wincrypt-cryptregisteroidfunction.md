@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptRegisterOIDFunction
 title: CryptRegisterOIDFunction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a DLL that contains the function to be called for the specified encoding type, function name, and object identifier (OID).
 old-location: security\cryptregisteroidfunction.htm
 old-project: SecCrypto
 ms.assetid: b625597d-28fd-4a40-afbe-a09201d36512
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Security], _crypto2_cryptregisteroidfunction, security.cryptregisteroidfunction, wincrypt/CryptRegisterOIDFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

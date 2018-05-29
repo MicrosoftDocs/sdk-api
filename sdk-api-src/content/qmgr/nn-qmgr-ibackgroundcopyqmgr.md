@@ -1,16 +1,16 @@
 ---
 UID: NN:qmgr.IBackgroundCopyQMgr
 title: IBackgroundCopyQMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IBackgroundCopyQMgr interface to create a new group, retrieve an existing group, or enumerate all groups in the queue. A group contains a download job.
 old-location: bits\ibackgroundcopyqmgr.htm
 old-project: Bits
 ms.assetid: 040662c3-0d96-416a-b5e6-a16a6d3034fc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], IBackgroundCopyQMgr interface [BITS],described, bits.ibackgroundcopyqmgr, qmgr/IBackgroundCopyQMgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: qmgr.h
 req.include-header: 

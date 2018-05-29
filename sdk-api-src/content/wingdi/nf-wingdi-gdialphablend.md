@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GdiAlphaBlend
 title: GdiAlphaBlend function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GdiAlphaBlend function displays bitmaps that have transparent or semitransparent pixels.
 old-location: gdi\gdialphablend.htm
 old-project: gdi
 ms.assetid: 703d2a6a-0f3f-4f8f-90bd-e1e821dfbcde
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GdiAlphaBlend, GdiAlphaBlend function [Windows GDI], gdi.gdialphablend, wingdi/GdiAlphaBlend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

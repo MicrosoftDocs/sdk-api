@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpGetIEProxyConfigForCurrentUser
 title: WinHttpGetIEProxyConfigForCurrentUser function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Internet Explorer proxy configuration for the current user.
 old-location: http\winhttpgetieproxyconfigforcurrentuser.htm
 old-project: WinHttp
 ms.assetid: 3de4dfb9-881f-47db-9fdf-af0ce162e380
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpGetIEProxyConfigForCurrentUser, WinHttpGetIEProxyConfigForCurrentUser function [WinHTTP], http.winhttpgetieproxyconfigforcurrentuser, winhttp/WinHttpGetIEProxyConfigForCurrentUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

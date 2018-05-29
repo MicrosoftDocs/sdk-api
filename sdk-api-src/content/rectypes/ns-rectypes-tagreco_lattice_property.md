@@ -1,16 +1,16 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_PROPERTY
 title: tagRECO_LATTICE_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a property used in the lattice.
 old-location: tablet\reco_lattice_property.htm
 old-project: tablet
 ms.assetid: cbf35f4e-cc13-4d5e-886f-22a6f0e26411
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RECO_LATTICE_PROPERTY, RECO_LATTICE_PROPERTY structure [Tablet PC], cbf35f4e-cc13-4d5e-886f-22a6f0e26411, rectypes/RECO_LATTICE_PROPERTY, tablet.reco_lattice_property, tagRECO_LATTICE_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

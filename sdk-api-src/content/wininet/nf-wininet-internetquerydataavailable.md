@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetQueryDataAvailable
 title: InternetQueryDataAvailable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the server to determine the amount of data available.
 old-location: wininet\internetquerydataavailable.htm
 old-project: WinInet
 ms.assetid: fea8250d-f260-421f-b4dd-14b8685e8dac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetQueryDataAvailable, InternetQueryDataAvailable function [WinINet], _inet_internetquerydataavailable_function, wininet.internetquerydataavailable, wininet/InternetQueryDataAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

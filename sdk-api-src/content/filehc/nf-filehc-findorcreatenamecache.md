@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.FindOrCreateNameCache
 title: FindOrCreateNameCache function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds or creates a name cache.
 old-location: winprog\_findorcreatenamecache.htm
 old-project: DevNotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

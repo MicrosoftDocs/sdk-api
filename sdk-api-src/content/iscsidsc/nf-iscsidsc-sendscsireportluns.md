@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.SendScsiReportLuns
 title: SendScsiReportLuns function
-author: windows-driver-content
+author: windows-sdk-content
 description: SendScsiReportLuns function sends a SCSI REPORT LUNS command to a specified target.
 old-location: iscsidisc\sendscsireportluns.htm
 old-project: iSCSIDisc
 ms.assetid: 0898daf0-67ae-47a4-90bf-2112b6e6b20c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: SendScsiReportLuns, SendScsiReportLuns function [iSCSI Discovery Library API], iscsidisc.sendscsireportluns, iscsidsc/SendScsiReportLuns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

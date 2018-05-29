@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.EditStreamSetNameW
 title: EditStreamSetNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EditStreamSetName function assigns a descriptive string to a stream.
 old-location: multimedia\editstreamsetname.htm
 old-project: Multimedia
 ms.assetid: 33542ad1-4bee-4051-8b75-f5328086250b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EditStreamSetName, EditStreamSetName function [Windows Multimedia], EditStreamSetNameA, EditStreamSetNameW, _win32_EditStreamSetName, multimedia.editstreamsetname, vfw/EditStreamSetName, vfw/EditStreamSetNameA, vfw/EditStreamSetNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

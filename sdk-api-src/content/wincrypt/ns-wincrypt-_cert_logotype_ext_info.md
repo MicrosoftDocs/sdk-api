@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_EXT_INFO
 title: "_CERT_LOGOTYPE_EXT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a set of logotype information.
 old-location: security\cert_logotype_ext_info.htm
 old-project: SecCrypto
 ms.assetid: 5013241b-439e-4aea-9161-699ee69c65c9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_LOGOTYPE_EXT_INFO, CERT_LOGOTYPE_EXT_INFO, CERT_LOGOTYPE_EXT_INFO structure [Security], PCERT_LOGOTYPE_EXT_INFO, PCERT_LOGOTYPE_EXT_INFO structure pointer [Security], _CERT_LOGOTYPE_EXT_INFO, security.cert_logotype_ext_info, wincrypt/CERT_LOGOTYPE_EXT_INFO, wincrypt/PCERT_LOGOTYPE_EXT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

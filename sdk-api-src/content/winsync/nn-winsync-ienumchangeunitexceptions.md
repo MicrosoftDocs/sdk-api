@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IEnumChangeUnitExceptions
 title: IEnumChangeUnitExceptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates change unit exceptions that are stored in a knowledge object.
 old-location: winsync\ienumchangeunitexceptions.htm
 old-project: winsync
 ms.assetid: 40b2977e-f3ae-4ad2-89ed-aacf32b1171e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], IEnumChangeUnitExceptions interface [Windows Sync],described, winsync.ienumchangeunitexceptions, winsync/IEnumChangeUnitExceptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

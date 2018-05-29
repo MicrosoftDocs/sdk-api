@@ -1,16 +1,16 @@
 ---
 UID: NN:webapplication.IWebApplicationScriptEvents
 title: IWebApplicationScriptEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a debugging or authoring app to receive notification of scripting engine events.
 old-location: debug\iwebapplicationscriptevents.htm
 old-project: debug_wwahost
 ms.assetid: a33f99a0-7c2d-45df-8a6a-d3257d537c9b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWebApplicationScriptEvents, IWebApplicationScriptEvents interface [Debugging Windows Store apps], IWebApplicationScriptEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationscriptevents, webapplication/IWebApplicationScriptEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: webapplication.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMemAllocator.GetProperties
 title: IMemAllocator::GetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetProperties method retrieves the number of buffers that the allocator will create, and the buffer properties.
 old-location: dshow\imemallocator_getproperties.htm
 old-project: DirectShow
 ms.assetid: d7b7153c-24c4-4508-925b-b5cfbc26badc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetProperties method, IMemAllocator.GetProperties, IMemAllocator::GetProperties, IMemAllocatorGetProperties, dshow.imemallocator_getproperties, strmif/IMemAllocator::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

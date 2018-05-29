@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IStringCollection.Clear
 title: IStringCollection::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\istringcollection_clear.htm
 old-project: Wua_Sdk
 ms.assetid: 480b8a8a-ecf1-4f1c-b53d-98a0151c57b5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Clear method, IStringCollection.Clear, IStringCollection::Clear, wua.istringcollection_clear, wuapi/IStringCollection::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Problem
 title: CM_Set_DevNode_Problem function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Set_DevNode_Problem function sets a problem code for a device that is installed in a local machine.
 old-location: devinst\cm_set_devnode_problem.htm
 old-project: devinst
 ms.assetid: 94bbedfc-aeef-46e7-bcf7-477e274f9d17
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Set_DevNode_Problem, CM_Set_DevNode_Problem function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Problem, cfgmgrfn_86b84150-4e79-4eab-83ff-4a7bf5921021.xml, devinst.cm_set_devnode_problem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

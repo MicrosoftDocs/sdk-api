@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetWorkEstimateForBatch
 title: ISyncChangeBatchBase::GetWorkEstimateForBatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the work estimate for the batch.
 old-location: winsync\isyncchangebatchbase_getworkestimateforbatch.htm
 old-project: winsync
 ms.assetid: 4abf4027-814a-461d-b179-b2510abccc5e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetWorkEstimateForBatch, GetWorkEstimateForBatch method [Windows Sync], GetWorkEstimateForBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetWorkEstimateForBatch method, ISyncChangeBatchBase.GetWorkEstimateForBatch, ISyncChangeBatchBase::GetWorkEstimateForBatch, winsync.isyncchangebatchbase_getworkestimateforbatch, winsync/ISyncChangeBatchBase::GetWorkEstimateForBatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

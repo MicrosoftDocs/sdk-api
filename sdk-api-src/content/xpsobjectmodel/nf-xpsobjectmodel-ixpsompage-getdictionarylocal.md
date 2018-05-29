@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionaryLocal
 title: IXpsOMPage::GetDictionaryLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary that is associated with this page.
 old-location: xps\ixpsompage_getdictionarylocal.htm
 old-project: printdocs
 ms.assetid: 1eece7d5-2f2d-4fae-a2f4-8e52236f57c4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMPage.GetDictionaryLocal, IXpsOMPage::GetDictionaryLocal, xps.ixpsompage_getdictionarylocal, xpsobjectmodel/IXpsOMPage::GetDictionaryLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

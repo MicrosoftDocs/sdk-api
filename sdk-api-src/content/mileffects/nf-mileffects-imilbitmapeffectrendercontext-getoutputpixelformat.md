@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetOutputPixelFormat
 title: IMILBitmapEffectRenderContext::GetOutputPixelFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the output pixel format GUID.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getoutputpixelformat.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getoutputpixelformat.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: GetOutputPixelFormat, GetOutputPixelFormat method [WPF Bitmap Effects], GetOutputPixelFormat method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetOutputPixelFormat method, IMILBitmapEffectRenderContext.GetOutputPixelFormat, IMILBitmapEffectRenderContext::GetOutputPixelFormat, _wibe_imilbitmapeffectrendercontext_getoutputpixelformat, mileffects/IMILBitmapEffectRenderContext::GetOutputPixelFormat, wibe._wibe_imilbitmapeffectrendercontext_getoutputpixelformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

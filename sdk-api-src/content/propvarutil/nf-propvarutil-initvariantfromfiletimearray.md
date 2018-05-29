@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromFileTimeArray
 title: InitVariantFromFileTimeArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure with an array of FILETIME structures.
 old-location: properties\InitVariantFromFileTimeArray.htm
 old-project: properties
 ms.assetid: d1b25aec-f302-4d39-93c1-0fcb2d7dbf45
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromFileTimeArray, InitVariantFromFileTimeArray function [Windows Properties], _shell_InitVariantFromFileTimeArray, properties.InitVariantFromFileTimeArray, propvarutil/InitVariantFromFileTimeArray, shell.InitVariantFromFileTimeArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

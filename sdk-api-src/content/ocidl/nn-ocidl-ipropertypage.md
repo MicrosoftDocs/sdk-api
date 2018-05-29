@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IPropertyPage
 title: IPropertyPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the main features of a property page object that manages a particular page within a property sheet.
 old-location: com\ipropertypage.htm
 old-project: com
 ms.assetid: ad2cb3ae-dd24-4774-95bd-f5a0773c68b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], IPropertyPage interface [COM],described, _ctrl_ipropertypage, com.ipropertypage, ocidl/IPropertyPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

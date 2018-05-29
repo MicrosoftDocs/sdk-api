@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAllSPRMs
 title: IDvdInfo2::GetAllSPRMs
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllSPRMs method retrieves the current contents of all system parameter registers (SPRMs).
 old-location: dshow\idvdinfo2_getallsprms.htm
 old-project: DirectShow
 ms.assetid: 4a5fb447-670d-4f1f-838e-266843185efe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllSPRMs method, IDvdInfo2.GetAllSPRMs, IDvdInfo2::GetAllSPRMs, IDvdInfo2GetAllSPRMs, dshow.idvdinfo2_getallsprms, strmif/IDvdInfo2::GetAllSPRMs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

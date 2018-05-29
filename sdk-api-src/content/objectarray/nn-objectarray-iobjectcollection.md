@@ -1,16 +1,16 @@
 ---
 UID: NN:objectarray.IObjectCollection
 title: IObjectCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IObjectArray interface by providing methods that enable clients to add and remove objects that support IUnknown in a collection.
 old-location: shell\IObjectCollection.htm
 old-project: shell
 ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objectarray.h
 req.include-header: Shobjidl.h

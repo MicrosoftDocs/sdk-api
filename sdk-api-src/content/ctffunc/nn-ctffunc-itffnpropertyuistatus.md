@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnPropertyUIStatus
 title: ITfFnPropertyUIStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnPropertyUIStatus interface is implemented by a text service and used by an application or text service to obtain and set the status of the text service property UI.
 old-location: tsf\itffnpropertyuistatus.htm
 old-project: TSF
 ms.assetid: 5583ae98-02a5-4303-9674-b8a85b52442a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnPropertyUIStatus, ITfFnPropertyUIStatus interface [Text Services Framework], ITfFnPropertyUIStatus interface [Text Services Framework],described, _tsf_itffnpropertyuistatus_ref, ctffunc/ITfFnPropertyUIStatus, tsf.itffnpropertyuistatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpOpen
 title: WinHttpOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes, for an application, the use of WinHTTP functions and returns a WinHTTP-session handle.
 old-location: http\winhttpopen.htm
 old-project: WinHttp
 ms.assetid: 34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_FLAG_ASYNC, WinHttpOpen, WinHttpOpen function [WinHTTP], http.winhttpopen, winhttp.winhttpopen_function, winhttp/WinHttpOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

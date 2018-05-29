@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_PostError
 title: MI_Context_PostError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Providers call this function to post a return code to the client in response to a request.
 old-location: wmi_v2\mi_context_posterror.htm
 old-project: wmi_v2
 ms.assetid: b52e3b28-a4b7-4017-9670-09b10363544b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_PostError, MI_Context_PostError function [Windows Management Infrastructure (MI)], MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, mi/MI_Context_PostError, wmi.mi_posterror, wmi_v2.mi_context_posterror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

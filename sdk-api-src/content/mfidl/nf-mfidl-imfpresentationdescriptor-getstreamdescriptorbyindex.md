@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.GetStreamDescriptorByIndex
 title: IMFPresentationDescriptor::GetStreamDescriptorByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a stream descriptor for a stream in the presentation. The stream descriptor contains information about the stream.
 old-location: mf\imfpresentationdescriptor_getstreamdescriptorbyindex.htm
 old-project: medfound
 ms.assetid: 1db28049-cd62-4b1b-932b-b4d4e12fd671
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1db28049-cd62-4b1b-932b-b4d4e12fd671, GetStreamDescriptorByIndex, GetStreamDescriptorByIndex method [Media Foundation], GetStreamDescriptorByIndex method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],GetStreamDescriptorByIndex method, IMFPresentationDescriptor.GetStreamDescriptorByIndex, IMFPresentationDescriptor::GetStreamDescriptorByIndex, mf.imfpresentationdescriptor_getstreamdescriptorbyindex, mfidl/IMFPresentationDescriptor::GetStreamDescriptorByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

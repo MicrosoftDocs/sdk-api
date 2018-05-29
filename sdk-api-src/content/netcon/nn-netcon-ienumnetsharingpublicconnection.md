@@ -1,16 +1,16 @@
 ---
 UID: NN:netcon.IEnumNetSharingPublicConnection
 title: IEnumNetSharingPublicConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumNetSharingPublicConnection interface provides methods for enumerating the currently configured publicly-shared connections.
 old-location: ics\ienumnetsharingpublicconnection.htm
 old-project: ICS
 ms.assetid: 69f2d4c0-7c25-4a50-988b-3ca6babb489a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], IEnumNetSharingPublicConnection interface [ICS/ICF],described, _ics_ienumnetsharingpublicconnection, ics.ienumnetsharingpublicconnection, netcon/IEnumNetSharingPublicConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateFiberEx
 title: CreateFiberEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a fiber object, assigns it a stack, and sets up execution to begin at the specified start address, typically the fiber function. This function does not schedule the fiber.
 old-location: base\createfiberex.htm
 old-project: ProcThread
 ms.assetid: eb27cfcf-6086-47df-a5b4-93c51a5e1577
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateFiberEx, CreateFiberEx function, _win32_createfiberex, base.createfiberex, winbase/CreateFiberEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

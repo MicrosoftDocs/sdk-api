@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.ITuningSpaces
 title: ITuningSpaces
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITuningSpaces interface represents a collection of tuning spaces.
 old-location: mstv\ituningspaces.htm
 old-project: mstv
 ms.assetid: db252e22-8efe-4bfc-8fd3-2be7022bbbbd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpaces, ITuningSpaces interface [Microsoft TV Technologies], ITuningSpaces interface [Microsoft TV Technologies],described, ITuningSpacesInterface, mstv.ituningspaces, tuner/ITuningSpaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

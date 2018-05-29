@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.Edit_LimitText
 title: Edit_LimitText macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Limits the length of text that can be entered into an edit control. You can use this macro or send the EM_LIMITTEXT message explicitly.
 old-location: controls\Edit_LimitText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_limittext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Edit_LimitText, Edit_LimitText macro [Windows Controls], _win32_Edit_LimitText, _win32_Edit_LimitText_cpp, controls.Edit_LimitText, controls._win32_Edit_LimitText, windowsx/Edit_LimitText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

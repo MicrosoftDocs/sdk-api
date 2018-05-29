@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecpkg._LSA_DISPATCH_TABLE
 title: "_LSA_DISPATCH_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains pointers to the Local Security Authority (LSA) functions that Windows authentication packages can call.
 old-location: security\lsa_dispatch_table.htm
 old-project: SecAuthN
 ms.assetid: 2e144ce0-e8c9-457a-8b12-7d21dda6adf3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PLSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE structure [Security], PLSA_DISPATCH_TABLE, PLSA_DISPATCH_TABLE structure pointer [Security], _LSA_DISPATCH_TABLE, _lsa_lsa_dispatch_table, ntsecpkg/LSA_DISPATCH_TABLE, ntsecpkg/PLSA_DISPATCH_TABLE, security.lsa_dispatch_table"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

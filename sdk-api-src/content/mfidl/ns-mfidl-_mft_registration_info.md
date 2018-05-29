@@ -1,16 +1,16 @@
 ---
 UID: NS:mfidl._MFT_REGISTRATION_INFO
 title: "_MFT_REGISTRATION_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.
 old-location: mf\mft_registration_info.htm
 old-project: medfound
 ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFT_REGISTRATION_INFO, MFT_REGISTRATION_INFO structure [Media Foundation], _MFT_REGISTRATION_INFO, mf.mft_registration_info, mfidl/MFT_REGISTRATION_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

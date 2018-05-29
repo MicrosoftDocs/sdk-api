@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_DISK_PROP
 title: "_VDS_DISK_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a disk object.
 old-location: base\vds_disk_prop.htm
 old-project: VDS
 ms.assetid: c7c09f95-9489-46fd-8b03-cabdee4521cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_DISK_PROP, PVDS_DISK_PROP, PVDS_DISK_PROP structure pointer [VDS], VDS_DISK_PROP, VDS_DISK_PROP structure [VDS], VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, _VDS_DISK_PROP, base.vds_disk_prop, vds/PVDS_DISK_PROP, vds/_VDS_DISK_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

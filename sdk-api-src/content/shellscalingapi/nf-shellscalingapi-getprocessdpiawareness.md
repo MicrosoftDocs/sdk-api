@@ -1,16 +1,16 @@
 ---
 UID: NF:shellscalingapi.GetProcessDpiAwareness
 title: GetProcessDpiAwareness function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the dots per inch (dpi) awareness of the specified process.
 old-location: hidpi\getprocessdpiawareness.htm
 old-project: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

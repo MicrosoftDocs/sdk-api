@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 title: IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether the application window will be adjacent to the edge of the emulated display.
 old-location: shell\IApplicationDesignModeSettings2_SetAdjacentDisplayEdges.htm
 old-project: shell
 ms.assetid: FD8B2436-1ADD-4371-AEB4-27EBDEC5BA04
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ADE_LEFT, ADE_NONE, ADE_RIGHT, IApplicationDesignModeSettings2 interface [Windows Shell],SetAdjacentDisplayEdges method, IApplicationDesignModeSettings2.SetAdjacentDisplayEdges, IApplicationDesignModeSettings2::SetAdjacentDisplayEdges, SetAdjacentDisplayEdges, SetAdjacentDisplayEdges method [Windows Shell], SetAdjacentDisplayEdges method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetAdjacentDisplayEdges, shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

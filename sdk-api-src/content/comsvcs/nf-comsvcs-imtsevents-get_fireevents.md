@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMtsEvents.get_FireEvents
 title: IMtsEvents::get_FireEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves whether events are enabled or disabled for an event sink.
 old-location: cos\imtsevents_get_fireevents.htm
 old-project: cossdk
 ms.assetid: fad889d2-412e-4dc7-8380-408bda456037
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsEvents interface [COM+],get_FireEvents method, IMtsEvents.get_FireEvents, IMtsEvents::get_FireEvents, _dtc_IMtsEvents_get_FireEvents, comsvcs/IMtsEvents::get_FireEvents, cos.imtsevents_get_fireevents, get_FireEvents, get_FireEvents method [COM+], get_FireEvents method [COM+],IMtsEvents interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

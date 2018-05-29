@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIFactory.CreateSoftwareAdapter
 title: IDXGIFactory::CreateSoftwareAdapter
-author: windows-driver-content
+author: windows-sdk-content
 description: Create an adapter interface that represents a software adapter.
 old-location: direct3ddxgi\idxgifactory_createsoftwareadapter.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_createsoftwareadapter.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateSoftwareAdapter, CreateSoftwareAdapter method [DXGI], CreateSoftwareAdapter method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],CreateSoftwareAdapter method, IDXGIFactory.CreateSoftwareAdapter, IDXGIFactory::CreateSoftwareAdapter, direct3ddxgi.idxgifactory_createsoftwareadapter, dxgi/IDXGIFactory::CreateSoftwareAdapter, eb1643db-ba87-e9e9-56a9-b7f505fcd700
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

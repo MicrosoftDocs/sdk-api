@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._getcontextmenuex
 title: "_getcontextmenuex"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains context menu information that is passed to the IRichEditOleCallback::GetContextMenu method.
 old-location: controls\getcontextmenuex.htm
 old-project: Controls
 ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], _getcontextmenuex, controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

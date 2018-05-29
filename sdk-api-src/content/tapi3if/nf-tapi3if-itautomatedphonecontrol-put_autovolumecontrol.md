@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoVolumeControl
 title: ITAutomatedPhoneControl::put_AutoVolumeControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AutoVolumeControl method sets the AutoVolumeControl property for this phone.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrol.htm
 old-project: Tapi
 ms.assetid: 3d45ef58-a7d7-41ab-b06a-9d53bf79690a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControl method, ITAutomatedPhoneControl.put_AutoVolumeControl, ITAutomatedPhoneControl::put_AutoVolumeControl, _tapi3_itautomatedphonecontrol_put_autovolumecontrol, put_AutoVolumeControl, put_AutoVolumeControl method [TAPI 2.2], put_AutoVolumeControl method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrol, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

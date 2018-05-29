@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorActivityMonitor.Stop
 title: IMFSensorActivityMonitor::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops the sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor_stop.htm
 old-project: medfound
 ms.assetid: A40BD926-66BB-498C-B26B-BBDE0A122456
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Stop method, IMFSensorActivityMonitor.Stop, IMFSensorActivityMonitor::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_stop, mfidl/IMFSensorActivityMonitor::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

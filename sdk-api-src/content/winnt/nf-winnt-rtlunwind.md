@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlUnwind
 title: RtlUnwind function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwind.htm
 old-project: Debug
 ms.assetid: 254b2547-9d3d-468f-a360-20a12e9dd82e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

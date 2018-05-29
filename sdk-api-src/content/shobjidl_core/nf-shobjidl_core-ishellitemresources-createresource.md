@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.CreateResource
 title: IShellItemResources::CreateResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a specified resource.
 old-location: shell\IShellItemResources_CreateResource.htm
 old-project: shell
 ms.assetid: b854ee5f-ee4c-49e8-b0de-249154ec9b43
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateResource, CreateResource method [Windows Shell], CreateResource method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],CreateResource method, IShellItemResources.CreateResource, IShellItemResources::CreateResource, _shell_IShellItemResources_CreateResource, shell.IShellItemResources_CreateResource, shobjidl_core/IShellItemResources::CreateResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPart.GetName
 title: IPart::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetName method gets the friendly name of this part.
 old-location: coreaudio\ipart_getname.htm
 old-project: CoreAudio
 ms.assetid: a583f445-ebb2-4072-a272-6f186aef71b3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetName, GetName method [Core Audio], GetName method [Core Audio],IPart interface, IPart interface [Core Audio],GetName method, IPart.GetName, IPart::GetName, IPartGetName, coreaudio.ipart_getname, devicetopology/IPart::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

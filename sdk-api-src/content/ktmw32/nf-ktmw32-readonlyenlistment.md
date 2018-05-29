@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.ReadOnlyEnlistment
 title: ReadOnlyEnlistment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests that the specified enlistment be converted to a read-only enlistment. A read-only enlistment cannot participate in the outcome of the transaction and is not durably recorded for recovery.
 old-location: fs\readonlyenlistment.htm
 old-project: Ktm
 ms.assetid: a6411fad-8ad0-4a31-9e09-0c18dd384634
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

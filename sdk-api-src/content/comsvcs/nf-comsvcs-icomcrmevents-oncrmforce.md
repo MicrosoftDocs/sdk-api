@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMForce
 title: IComCRMEvents::OnCRMForce
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a CRM clerk receives a request to force log records to disk, either from the CRM worker or from the CRM compensator.
 old-location: cos\icomcrmevents_oncrmforce.htm
 old-project: cossdk
 ms.assetid: 92f2088b-4d74-4d33-9953-0f5229f6303c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMForce method, IComCRMEvents.OnCRMForce, IComCRMEvents::OnCRMForce, OnCRMForce, OnCRMForce method [COM+], OnCRMForce method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMForce, comsvcs/IComCRMEvents::OnCRMForce, cos.icomcrmevents_oncrmforce
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

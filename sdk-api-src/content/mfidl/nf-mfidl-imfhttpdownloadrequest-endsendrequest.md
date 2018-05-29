@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.EndSendRequest
 title: IMFHttpDownloadRequest::EndSendRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginSendRequest.
 old-location: mf\imfhttpdownloadrequest_endsendrequest.htm
 old-project: medfound
 ms.assetid: 2B1554C7-2814-4A9E-BBAC-B25C78775420
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndSendRequest, EndSendRequest method [Media Foundation], EndSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndSendRequest method, IMFHttpDownloadRequest.EndSendRequest, IMFHttpDownloadRequest::EndSendRequest, mf.imfhttpdownloadrequest_endsendrequest, mfidl/IMFHttpDownloadRequest::EndSendRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

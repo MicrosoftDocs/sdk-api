@@ -1,16 +1,16 @@
 ---
 UID: NF:mspcall.CMSPCallBase.CreateStreamObject
 title: CMSPCallBase::CreateStreamObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateStreamObject method is called by InternalCreateStream.
 old-location: tapi3\cmspcallbase_createstreamobject.htm
 old-project: Tapi
 ms.assetid: ac98dd08-4250-40f6-91a8-e1f67b94b51f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],CreateStreamObject method, CMSPCallBase.CreateStreamObject, CMSPCallBase::CreateStreamObject, CreateStreamObject, CreateStreamObject method [TAPI 2.2], CreateStreamObject method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_createstreamobject, mspcall/CMSPCallBase::CreateStreamObject, tapi3.cmspcallbase_createstreamobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 

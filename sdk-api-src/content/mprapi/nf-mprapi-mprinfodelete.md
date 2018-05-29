@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprInfoDelete
 title: MprInfoDelete function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprInfoDelete function deletes an information header created using MprInfoCreate, or retrieved by MprInfoBlockAdd, MprInfoBlockRemove, or MprInfoBlockSet.
 old-location: rras\mprinfodelete.htm
 old-project: RRAS
 ms.assetid: c81b92c2-a977-40e0-b971-e4e70e1a1371
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mprapi/MprInfoDelete, rras.mprinfodelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

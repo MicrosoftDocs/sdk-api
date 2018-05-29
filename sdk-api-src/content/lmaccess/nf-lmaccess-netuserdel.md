@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetUserDel
 title: NetUserDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetUserDel function deletes a user account from a server.
 old-location: netmgmt\netuserdel.htm
 old-project: NetMgmt
 ms.assetid: c1429b82-4fd1-48b6-8957-04dee0426077
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuserdel, lmaccess/NetUserDel, netmgmt.netuserdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

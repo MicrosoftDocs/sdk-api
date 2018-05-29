@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLoggingManager.CreateLogger
 title: IRDPSRAPIPerfCounterLoggingManager::CreateLogger
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new IRDPSRAPIPerfCounterLogger object.
 old-location: rdp\irdpsrapiperfcounterloggingmanager_createlogger.htm
 old-project: Rdp
 ms.assetid: 24C57AE8-208B-4254-B5B1-8AB77E2D4044
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: CreateLogger, CreateLogger method [RDP], CreateLogger method [RDP],IRDPSRAPIPerfCounterLoggingManager interface, IRDPSRAPIPerfCounterLoggingManager interface [RDP],CreateLogger method, IRDPSRAPIPerfCounterLoggingManager.CreateLogger, IRDPSRAPIPerfCounterLoggingManager::CreateLogger, rdp.irdpsrapiperfcounterloggingmanager_createlogger, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager::CreateLogger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

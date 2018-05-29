@@ -1,16 +1,16 @@
 ---
 UID: NS:wabapi._WABIMPORTPARAM
 title: "_WABIMPORTPARAM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Structure passed to Import that gives information about importing .wab files.
 old-location: wab\_wab_WABIMPORTPARAM.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabimportparam.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPWABIMPORTPARAM, LPWABIMPORTPARAM, LPWABIMPORTPARAM structure pointer [Windows Address Book], MAPI_DIALOG, WABIMPORTPARAM, WABIMPORTPARAM structure [Windows Address Book], _WABIMPORTPARAM, _wab_WABIMPORTPARAM, wab._wab_WABIMPORTPARAM, wabapi/LPWABIMPORTPARAM, wabapi/WABIMPORTPARAM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskOperationProgress
 title: GetVirtualDiskOperationProgress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks the progress of an asynchronous virtual hard disk (VHD) operation.
 old-location: vhd\getvirtualdiskoperationprogress.htm
 old-project: VStor
 ms.assetid: 392a5258-306d-4c06-a632-85e6fc65ddc9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetVirtualDiskOperationProgress, GetVirtualDiskOperationProgress function [VHD], vhd.getvirtualdiskoperationprogress, virtdisk/GetVirtualDiskOperationProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

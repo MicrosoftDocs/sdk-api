@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqStats
 title: RpcMgmtInqStats function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtInqStats function returns RPC run-time statistics.
 old-location: rpc\rpcmgmtinqstats.htm
 old-project: Rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtInqStats, RpcMgmtInqStats function [RPC], _rpc_rpcmgmtinqstats, rpc.rpcmgmtinqstats, rpcdce/RpcMgmtInqStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:ipsectypes.IPSEC_FAILURE_POINT_
 title: IPSEC_FAILURE_POINT_
-author: windows-driver-content
+author: windows-sdk-content
 description: At what point IPsec has failed.
 old-location: fwp\ipsec_failure_point.htm
 old-project: FWP
 ms.assetid: 750a5643-1157-4d15-9564-127756cd08cd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_FAILURE_ME, IPSEC_FAILURE_NONE, IPSEC_FAILURE_PEER, IPSEC_FAILURE_POINT, IPSEC_FAILURE_POINT enumeration [Filtering], IPSEC_FAILURE_POINT_, IPSEC_FAILURE_POINT_MAX, fwp.ipsec_failure_point, ipsectypes/IPSEC_FAILURE_ME, ipsectypes/IPSEC_FAILURE_NONE, ipsectypes/IPSEC_FAILURE_PEER, ipsectypes/IPSEC_FAILURE_POINT, ipsectypes/IPSEC_FAILURE_POINT_MAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 

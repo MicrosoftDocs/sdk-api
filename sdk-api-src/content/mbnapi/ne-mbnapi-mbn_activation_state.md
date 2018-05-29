@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_ACTIVATION_STATE
 title: MBN_ACTIVATION_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_ACTIVATION_STATE enumerated type indicates the current data connection state.
 old-location: mbn\mbn_activation_state.htm
 old-project: mbn
 ms.assetid: 712b9ead-8e38-45b1-8dff-b8906056d3d6
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_ACTIVATION_STATE, MBN_ACTIVATION_STATE enumeration [Microsoft Broadband Networks], MBN_ACTIVATION_STATE_ACTIVATED, MBN_ACTIVATION_STATE_ACTIVATING, MBN_ACTIVATION_STATE_DEACTIVATED, MBN_ACTIVATION_STATE_DEACTIVATING, MBN_ACTIVATION_STATE_NONE, mbn.mbn_activation_state, mbnapi/MBN_ACTIVATION_STATE, mbnapi/MBN_ACTIVATION_STATE_ACTIVATED, mbnapi/MBN_ACTIVATION_STATE_ACTIVATING, mbnapi/MBN_ACTIVATION_STATE_DEACTIVATED, mbnapi/MBN_ACTIVATION_STATE_DEACTIVATING, mbnapi/MBN_ACTIVATION_STATE_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

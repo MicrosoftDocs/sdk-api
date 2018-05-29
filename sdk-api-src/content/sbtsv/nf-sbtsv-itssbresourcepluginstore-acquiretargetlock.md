@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AcquireTargetLock
 title: ITsSbResourcePluginStore::AcquireTargetLock
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks a target.
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
 old-project: TermServ
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AcquireTargetLock, AcquireTargetLock method [Remote Desktop Services], AcquireTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AcquireTargetLock method, ITsSbResourcePluginStore.AcquireTargetLock, ITsSbResourcePluginStore::AcquireTargetLock, sbtsv/ITsSbResourcePluginStore::AcquireTargetLock, termserv.itssbresourcepluginstore_acquiretargetlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

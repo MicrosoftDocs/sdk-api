@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.SetHelpStringDll
 title: ICreateTypeLib2::SetHelpStringDll
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the DLL name to be used for Help string lookup (for localization purposes).
 old-location: automat\icreatetypelib2_sethelpstringdll.htm
 old-project: automat
 ms.assetid: f00a3dbf-7205-48fd-abeb-1d2d80be7743
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeLib2 interface [Automation],SetHelpStringDll method, ICreateTypeLib2.SetHelpStringDll, ICreateTypeLib2::SetHelpStringDll, SetHelpStringDll, SetHelpStringDll method [Automation], SetHelpStringDll method [Automation],ICreateTypeLib2 interface, _oa96_ICreateTypeLib2_SetHelpStringDll, automat.icreatetypelib2_sethelpstringdll, oaidl/ICreateTypeLib2::SetHelpStringDll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

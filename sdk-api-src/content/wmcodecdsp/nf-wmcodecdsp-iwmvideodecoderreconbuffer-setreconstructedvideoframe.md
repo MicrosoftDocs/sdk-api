@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
 title: IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This method is obsolete and should not be used. Restores the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffersetreconstructedvideoframe.htm
 old-project: medfound
 ms.assetid: baffb56f-b2c5-464f-a2ae-1cb9677b8b83
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/ IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

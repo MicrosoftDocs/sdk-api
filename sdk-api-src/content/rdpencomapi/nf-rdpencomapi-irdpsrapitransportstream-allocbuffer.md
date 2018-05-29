@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.AllocBuffer
 title: IRDPSRAPITransportStream::AllocBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
 old-location: rdp\irdpsrapitransportstream_allocbuffer.htm
 old-project: Rdp
 ms.assetid: 5e53aedb-d3a2-4468-9df9-f058485d7bc4
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: AllocBuffer, AllocBuffer method [RDP], AllocBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],AllocBuffer method, IRDPSRAPITransportStream.AllocBuffer, IRDPSRAPITransportStream::AllocBuffer, rdp.irdpsrapitransportstream_allocbuffer, rdpencomapi/IRDPSRAPITransportStream::AllocBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

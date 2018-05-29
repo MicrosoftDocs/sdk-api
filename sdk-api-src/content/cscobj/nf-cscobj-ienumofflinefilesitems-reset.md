@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesItems.Reset
 title: IEnumOfflineFilesItems::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumeration to the beginning.
 old-location: of\ienumofflinefilesitems_reset.htm
 old-project: OfflineFiles
 ms.assetid: fa4d1313-e05d-49be-80c3-cbb70463dfb1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Reset method, IEnumOfflineFilesItems.Reset, IEnumOfflineFilesItems::Reset, Reset, Reset method [Offline Files], Reset method [Offline Files],IEnumOfflineFilesItems interface, cscobj/IEnumOfflineFilesItems::Reset, of.ienumofflinefilesitems_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

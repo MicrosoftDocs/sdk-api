@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll.put_ContainerNameWStr
 title: IEnroll::put_ContainerNameWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the name of the key container to use.
 old-location: security\ienroll4_containernamewstr.htm
 old-project: SecCrypto
 ms.assetid: 6740378a-342b-4520-89c7-32d44e23cfca
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [Security],IEnroll interface, IEnroll interface [Security],ContainerNameWStr property, IEnroll.ContainerNameWStr, IEnroll.put_ContainerNameWStr, IEnroll::ContainerNameWStr, IEnroll::get_ContainerNameWStr, IEnroll::put_ContainerNameWStr, put_ContainerNameWStr, security.ienroll4_containernamewstr, xenroll/IEnroll::ContainerNameWStr, xenroll/IEnroll::get_ContainerNameWStr, xenroll/IEnroll::put_ContainerNameWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDecimateVideoImage
 title: IDecimateVideoImage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDecimateVideoImage interface specifies decimation on a decoder filter.
 old-location: dshow\idecimatevideoimage.htm
 old-project: DirectShow
 ms.assetid: 0d338d41-546f-41da-bc1f-b1dd74b399ef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDecimateVideoImage, IDecimateVideoImage interface [DirectShow], IDecimateVideoImage interface [DirectShow],described, IDecimateVideoImageInterface, dshow.idecimatevideoimage, strmif/IDecimateVideoImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

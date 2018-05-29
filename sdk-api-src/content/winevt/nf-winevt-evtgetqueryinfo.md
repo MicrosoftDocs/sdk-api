@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetQueryInfo
 title: EvtGetQueryInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about a query that you ran that identifies the list of channels or log files that the query attempted to access. The function also gets a list of return codes that indicates the success or failure of each access.
 old-location: wes\evtgetqueryinfo.htm
 old-project: WES
 ms.assetid: 311a2060-90d9-41ec-b489-c07d3e813187
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetQueryInfo, EvtGetQueryInfo function [EventLog], wes.evtgetqueryinfo, winevt/EvtGetQueryInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

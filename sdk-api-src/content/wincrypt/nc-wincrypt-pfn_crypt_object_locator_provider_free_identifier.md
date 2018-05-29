@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases memory for an object identifier.
 old-location: security\pfn_crypt_object_locator_provider_free_identifier.htm
 old-project: SecCrypto
 ms.assetid: C2ED3B51-8B98-412C-A571-D107F2BEC5F1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER function pointer [Security], security.pfn_crypt_object_locator_provider_free_identifier, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

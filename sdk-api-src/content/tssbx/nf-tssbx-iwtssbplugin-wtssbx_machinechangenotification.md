@@ -1,16 +1,16 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_MachineChangeNotification
 title: IWTSSBPlugin::WTSSBX_MachineChangeNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the plug-in that a change occurred in the server environment.
 old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm
 old-project: TermServ
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_MachineChangeNotification method, IWTSSBPlugin.WTSSBX_MachineChangeNotification, IWTSSBPlugin::WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification method [Remote Desktop Services], WTSSBX_MachineChangeNotification method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_machinechangenotification, tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tssbx.h
 req.include-header: 

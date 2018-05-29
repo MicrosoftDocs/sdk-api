@@ -1,16 +1,16 @@
 ---
 UID: NF:lmremutl.NetRemoteComputerSupports
 title: NetRemoteComputerSupports function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.
 old-location: netmgmt\netremotecomputersupports.htm
 old-project: NetMgmt
 ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetRemoteComputerSupports, NetRemoteComputerSupports function [Network Management], SUPPORTS_LOCAL, SUPPORTS_REMOTE_ADMIN_PROTOCOL, SUPPORTS_RPC, SUPPORTS_SAM_PROTOCOL, SUPPORTS_UNICODE, _win32_netremotecomputersupports, lmremutl/NetRemoteComputerSupports, netmgmt.netremotecomputersupports
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmremutl.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyPort
 title: IWMReaderNetworkConfig::SetProxyPort
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetProxyPort method specifies the proxy port.
 old-location: wmformat\iwmreadernetworkconfig_setproxyport.htm
 old-project: wmformat
 ms.assetid: e2f4e8ff-6ac8-45b5-af93-a278bf92a07a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyPort method, IWMReaderNetworkConfig.SetProxyPort, IWMReaderNetworkConfig::SetProxyPort, IWMReaderNetworkConfigSetProxyPort, SetProxyPort, SetProxyPort method [windows Media Format], SetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyport, wmsdkidl/IWMReaderNetworkConfig::SetProxyPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

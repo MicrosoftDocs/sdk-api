@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.RequestUIActivate
 title: IOleInPlaceSiteEx::RequestUIActivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the container that the object is about to enter the UI-active state.
 old-location: com\ioleinplacesiteex_requestuiactivate.htm
 old-project: com
 ms.assetid: 60baefc0-eaf6-4d73-975c-987a7720955b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],RequestUIActivate method, IOleInPlaceSiteEx.RequestUIActivate, IOleInPlaceSiteEx::RequestUIActivate, RequestUIActivate, RequestUIActivate method [COM], RequestUIActivate method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_requestuiactivate, com.ioleinplacesiteex_requestuiactivate, ocidl/IOleInPlaceSiteEx::RequestUIActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

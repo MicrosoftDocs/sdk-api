@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetClientTitle
 title: IAttachmentExecute::SetClientTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies and stores the title of the prompt window.
 old-location: shell\IAttachmentExecute_SetClientTitle.htm
 old-project: shell
 ms.assetid: 24840acd-c2d1-43d8-99aa-8614e55d6604
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetClientTitle method, IAttachmentExecute.SetClientTitle, IAttachmentExecute::SetClientTitle, SetClientTitle, SetClientTitle method [Windows Shell], SetClientTitle method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetClientTitle, shell.IAttachmentExecute_SetClientTitle, shobjidl_core/IAttachmentExecute::SetClientTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

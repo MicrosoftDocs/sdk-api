@@ -1,16 +1,16 @@
 ---
 UID: NE:nsemail.napi_provider_type_tag
 title: napi_provider_type_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of hosting expected for a namespace provider.
 old-location: winsock\napi_provider_type.htm
 old-project: WinSock
 ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], ProviderType_Application, ProviderType_Service, napi_provider_type_tag, nsemail/NAPI_PROVIDER_TYPE, nsemail/ProviderType_Application, nsemail/ProviderType_Service, winsock.napi_provider_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: nsemail.h
 req.include-header: 

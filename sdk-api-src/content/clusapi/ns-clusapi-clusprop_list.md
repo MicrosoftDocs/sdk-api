@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi.CLUSPROP_LIST
 title: CLUSPROP_LIST
-author: windows-driver-content
+author: windows-sdk-content
 description: Accesses the beginning of a property list.
 old-location: mscs\clusprop_list.htm
 old-project: MsCS
 ms.assetid: 1f76104f-99eb-4376-8d92-e04b7f00c46d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUSPROP_LIST, CLUSPROP_LIST, CLUSPROP_LIST structure [Failover Cluster], PCLUSPROP_LIST, PCLUSPROP_LIST structure pointer [Failover Cluster], _wolf_clusprop_list, clusapi/CLUSPROP_LIST, clusapi/PCLUSPROP_LIST, mscs.clusprop_list"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

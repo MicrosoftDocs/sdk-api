@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_DaysSinceFileCreated
 title: IFsrmFileManagementJob::put_DaysSinceFileCreated
-author: windows-driver-content
+author: windows-sdk-content
 description: The number of days that have elapsed since the file was created.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilecreated.htm
 old-project: Fsrm
 ms.assetid: f897321f-3e32-4965-b6c0-33d156601481
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: DaysSinceFileCreated property [File Server Resource Manager], DaysSinceFileCreated property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileCreated property, IFsrmFileManagementJob.DaysSinceFileCreated, IFsrmFileManagementJob.put_DaysSinceFileCreated, IFsrmFileManagementJob::DaysSinceFileCreated, IFsrmFileManagementJob::get_DaysSinceFileCreated, IFsrmFileManagementJob::put_DaysSinceFileCreated, fs.ifsrmfilemanagementjob_dayssincefilecreated, fsrm.ifsrmfilemanagementjob_dayssincefilecreated, fsrmreports/IFsrmFileManagementJob::DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileCreated, put_DaysSinceFileCreated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

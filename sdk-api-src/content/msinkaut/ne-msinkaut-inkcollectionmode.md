@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkCollectionMode
 title: InkCollectionMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that determine whether ink, gestures, or ink and gestures are recognized as the user writes.
 old-location: tablet\inkcollectionmode.htm
 old-project: tablet
 ms.assetid: 41928d0a-e485-4542-860c-5ffd260d3cb8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 41928d0a-e485-4542-860c-5ffd260d3cb8, ICM_GestureOnly, ICM_InkAndGesture, ICM_InkOnly, InkCollectionMode, InkCollectionMode enumeration [Tablet PC], msinkaut/ICM_GestureOnly, msinkaut/ICM_InkAndGesture, msinkaut/ICM_InkOnly, msinkaut/InkCollectionMode, tablet.inkcollectionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IInstallationCompletedCallback
 title: IInstallationCompletedCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the notification that indicates that an asynchronous installation or uninstallation is complete.
 old-location: wua\iinstallationcompletedcallback.htm
 old-project: Wua_Sdk
 ms.assetid: 930d33e1-e407-4306-acc6-1d64c385a41d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], IInstallationCompletedCallback interface [Windows Update Agent],described, wua.iinstallationcompletedcallback, wuapi/IInstallationCompletedCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

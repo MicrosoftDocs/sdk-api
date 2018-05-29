@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_uiMode
 title: IWMPPlayer::get_uiMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_uiMode method retrieves a value indicating which controls are shown in the user interface.
 old-location: wmp\iwmpplayer_get_uimode.htm
 old-project: WMP
 ms.assetid: 8e05342f-812a-4dca-a491-b237f9a9f1bd
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_uiMode method, IWMPPlayer.get_uiMode, IWMPPlayer::get_uiMode, IWMPPlayerget_uiMode, get_uiMode, get_uiMode method [Windows Media Player], get_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_uimode, wmp/IWMPPlayer::get_uiMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

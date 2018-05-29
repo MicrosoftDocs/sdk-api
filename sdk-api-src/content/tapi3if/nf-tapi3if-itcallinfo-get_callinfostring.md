@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallInfoString
 title: ITCallInfo::get_CallInfoString
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CallInfoString method gets call information items described by a string, such as the displayable address.
 old-location: tapi3\itcallinfo_get_callinfostring.htm
 old-project: Tapi
 ms.assetid: 248022e7-c6cf-4c46-be94-ee1b79b9f39a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoString method, ITCallInfo.get_CallInfoString, ITCallInfo::get_CallInfoString, _tapi3_itcallinfo_get_callinfostring, get_CallInfoString, get_CallInfoString method [TAPI 2.2], get_CallInfoString method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfostring, tapi3if/ITCallInfo::get_CallInfoString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

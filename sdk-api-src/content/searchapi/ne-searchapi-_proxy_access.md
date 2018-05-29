@@ -1,16 +1,16 @@
 ---
 UID: NE:searchapi._PROXY_ACCESS
 title: "_PROXY_ACCESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by ISearchManager to state proxy use.
 old-location: search\_search_PROXY_ACCESS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\proxy_access.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PROXY_ACCESS, PROXY_ACCESS enumeration [search], PROXY_ACCESS_DIRECT, PROXY_ACCESS_PRECONFIG, PROXY_ACCESS_PROXY, _PROXY_ACCESS, _search_PROXY_ACCESS, search._search_PROXY_ACCESS, searchapi/PROXY_ACCESS, searchapi/PROXY_ACCESS_DIRECT, searchapi/PROXY_ACCESS_PRECONFIG, searchapi/PROXY_ACCESS_PROXY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

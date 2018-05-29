@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_UPDATENONLOCALHEAPDATA
 title: "_DD_UPDATENONLOCALHEAPDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_UPDATENONLOCALHEAPDATA structure contains the required heap information.
 old-location: display\dd_updatenonlocalheapdata.htm
 old-project: display
 ms.assetid: ef16df6f-dbc6-40ee-9c86-be9c3d132b28
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA structure [Display Devices], _DD_UPDATENONLOCALHEAPDATA, ddrawint/DD_UPDATENONLOCALHEAPDATA, ddstrcts_e53429c7-6fc5-4528-ab0e-c9768fdf75ae.xml, display.dd_updatenonlocalheapdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

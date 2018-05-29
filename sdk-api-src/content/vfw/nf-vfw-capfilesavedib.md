@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capFileSaveDIB
 title: capFileSaveDIB macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capFileSaveDIB macro copies the current frame to a DIB file. You can use this macro or explicitly call the WM_CAP_FILE_SAVEDIB message.
 old-location: multimedia\capfilesavedib.htm
 old-project: Multimedia
 ms.assetid: bab1c97d-e84e-43ff-9b66-79b903a610eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capFileSaveDIB, capFileSaveDIB, capFileSaveDIB macro [Windows Multimedia], multimedia.capfilesavedib, vfw/capFileSaveDIB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

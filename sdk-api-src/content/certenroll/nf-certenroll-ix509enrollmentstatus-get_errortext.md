@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_ErrorText
 title: IX509EnrollmentStatus::get_ErrorText
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string that contains the message associated with the error result code returned by the Error property.
 old-location: security\ix509enrollmentstatus_errortext_property.htm
 old-project: SecCertEnroll
 ms.assetid: 3dc46598-5fd6-4462-be93-2358605d6783
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ErrorText property [Security], ErrorText property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],ErrorText property, IX509EnrollmentStatus.ErrorText, IX509EnrollmentStatus.get_ErrorText, IX509EnrollmentStatus::ErrorText, IX509EnrollmentStatus::get_ErrorText, certenroll/IX509EnrollmentStatus::ErrorText, certenroll/IX509EnrollmentStatus::get_ErrorText, get_ErrorText, security.ix509enrollmentstatus_errortext_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

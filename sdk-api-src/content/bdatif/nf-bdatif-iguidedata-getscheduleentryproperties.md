@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IGuideData.GetScheduleEntryProperties
 title: IGuideData::GetScheduleEntryProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetScheduleEntryProperties method retrieves the properties for a specified schedule entry.
 old-location: mstv\iguidedata_getscheduleentryproperties.htm
 old-project: mstv
 ms.assetid: 7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetScheduleEntryProperties, GetScheduleEntryProperties method [Microsoft TV Technologies], GetScheduleEntryProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryProperties method, IGuideData.GetScheduleEntryProperties, IGuideData::GetScheduleEntryProperties, IGuideDataGetScheduleEntryProperties, bdatif/IGuideData::GetScheduleEntryProperties, mstv.iguidedata_getscheduleentryproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

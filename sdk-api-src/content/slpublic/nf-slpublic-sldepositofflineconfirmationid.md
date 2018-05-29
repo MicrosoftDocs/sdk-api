@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLDepositOfflineConfirmationId
 title: SLDepositOfflineConfirmationId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deposits Installation ID (IID) and Confirmation ID (CID) for offline activation.
 old-location: security\sldepositofflineconfirmationid.htm
 old-project: SecSLApi
 ms.assetid: 5cea5bba-7bdd-422f-a3fe-ec69d3877efd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLDepositOfflineConfirmationId, SLDepositOfflineConfirmationId function [Security], security.sldepositofflineconfirmationid, slpublic/SLDepositOfflineConfirmationId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

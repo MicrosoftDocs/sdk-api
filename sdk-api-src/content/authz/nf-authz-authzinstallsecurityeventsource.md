@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzInstallSecurityEventSource
 title: AuthzInstallSecurityEventSource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs the specified source as a security event source.
 old-location: security\authzinstallsecurityeventsource.htm
 old-project: SecAuthZ
 ms.assetid: 77cb5c6c-1634-4449-8d05-ce6357ad4e4b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzInstallSecurityEventSource, AuthzInstallSecurityEventSource function [Security], authz/AuthzInstallSecurityEventSource, security.authzinstallsecurityeventsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

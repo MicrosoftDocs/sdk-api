@@ -1,16 +1,16 @@
 ---
 UID: NF:magnification.MagSetFullscreenColorEffect
 title: MagSetFullscreenColorEffect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the color transformation matrix associated with the full-screen magnifier.
 old-location: magapi\magapi_magsetfullscreencoloreffect.htm
 old-project: magapi
 ms.assetid: F6CE5453-E427-46E4-81E8-6E96BA28C05C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagSetFullscreenColorEffect, MagSetFullscreenColorEffect function [Magnification API], magapi.magapi_magsetfullscreencoloreffect, magnification/MagSetFullscreenColorEffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

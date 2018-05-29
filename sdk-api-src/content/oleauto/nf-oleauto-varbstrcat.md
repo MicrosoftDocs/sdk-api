@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBstrCat
 title: VarBstrCat function
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates two variants of type BSTR and returns the resulting BSTR.
 old-location: automat\varbstrcat.htm
 old-project: automat
 ms.assetid: e23e1130-dd95-43ec-8ea3-c213fd6b0b25
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarBstrCat, VarBstrCat function [Automation], _oa96_VarBstrCat, automat.varbstrcat, oleauto/VarBstrCat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.Suspend
 title: IShellDispatch::Suspend
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IShellDispatch_Suspend.htm
 old-project: shell
 ms.assetid: EC67DE5B-3A3B-486f-BDF2-D49195CFAFB3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],Suspend method, IShellDispatch.Suspend, IShellDispatch::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Suspend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

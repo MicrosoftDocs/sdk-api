@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.EndBufferedAnimation
 title: EndBufferedAnimation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Renders the first frame of a buffered animation operation and starts the animation timer.
 old-location: controls\EndBufferedAnimation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedanimation.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndBufferedAnimation, EndBufferedAnimation function [Windows Controls], _shell_EndBufferedAnimation, _shell_EndBufferedAnimation_cpp, controls.EndBufferedAnimation, controls._shell_EndBufferedAnimation, uxtheme/EndBufferedAnimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

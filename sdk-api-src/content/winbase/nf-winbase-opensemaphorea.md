@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.OpenSemaphoreA
 title: OpenSemaphoreA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing named semaphore object.
 old-location: base\opensemaphore.htm
 old-project: Sync
 ms.assetid: 2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: OpenSemaphore, OpenSemaphore function, OpenSemaphoreA, OpenSemaphoreW, _win32_opensemaphore, base.opensemaphore, winbase/OpenSemaphore, winbase/OpenSemaphoreA, winbase/OpenSemaphoreW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

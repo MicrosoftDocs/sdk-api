@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
 title: MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a video media type from a BITMAPINFOHEADER structure.
 old-location: mf\mfcreatevideomediatypefrombitmapinfoheaderex.htm
 old-project: medfound
 ms.assetid: 27160995-e934-4050-a231-d69d4f75dfce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateVideoMediaTypeFromBitMapInfoHeaderEx, MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheaderex, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

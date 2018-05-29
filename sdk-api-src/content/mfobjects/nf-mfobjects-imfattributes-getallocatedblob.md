@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetAllocatedBlob
 title: IMFAttributes::GetAllocatedBlob
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a byte array associated with a key. This method allocates the memory for the array.
 old-location: mf\imfattributes_getallocatedblob.htm
 old-project: medfound
 ms.assetid: 380e0e3a-b5c5-4d31-8793-417262377fef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 380e0e3a-b5c5-4d31-8793-417262377fef, GetAllocatedBlob, GetAllocatedBlob method [Media Foundation], GetAllocatedBlob method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetAllocatedBlob method, IMFAttributes.GetAllocatedBlob, IMFAttributes::GetAllocatedBlob, mf.imfattributes_getallocatedblob, mfobjects/IMFAttributes::GetAllocatedBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

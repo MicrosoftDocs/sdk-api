@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetPacketIntegrity
 title: MI_DestinationOptions_GetPacketIntegrity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the packet integrity setting.
 old-location: wmi_v2\mi_destinationoptions_getpacketintegrity.htm
 old-project: wmi_v2
 ms.assetid: 7f30822b-38c4-4d5e-b176-59aa403fa3fa
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DestinationOptions_GetPacketIntegrity, MI_DestinationOptions_GetPacketIntegrity function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetPacketIntegrity, wmi_v2.mi_destinationoptions_getpacketintegrity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

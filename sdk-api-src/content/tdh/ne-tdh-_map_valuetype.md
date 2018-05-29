@@ -1,16 +1,16 @@
 ---
 UID: NE:tdh._MAP_VALUETYPE
 title: "_MAP_VALUETYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines if the value map value is in a ULONG data type or a string.
 old-location: etw\map_valuetype_enum.htm
 old-project: ETW
 ms.assetid: a17e5214-29d3-465f-9785-0cc8965a42c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EVENTMAP_ENTRY_VALUETYPE_STRING, EVENTMAP_ENTRY_VALUETYPE_ULONG, MAP_VALUETYPE, MAP_VALUETYPE enumeration [ETW], _MAP_VALUETYPE, etw.map_valuetype_enum, tdh.map_valuetype_enum, tdh/EVENTMAP_ENTRY_VALUETYPE_STRING, tdh/EVENTMAP_ENTRY_VALUETYPE_ULONG, tdh/MAP_VALUETYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 

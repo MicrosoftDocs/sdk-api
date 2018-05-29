@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetCenter
 title: IXpsOMRadialGradientBrush::GetCenter
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the center point of the radial gradient region ellipse.
 old-location: xps\ixpsomradialgradientbrush_getcenter.htm
 old-project: printdocs
 ms.assetid: 92ce3433-6c3d-4759-81f8-055fdcc58dcf
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCenter, GetCenter method [XPS Documents and Packaging], GetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetCenter method, IXpsOMRadialGradientBrush.GetCenter, IXpsOMRadialGradientBrush::GetCenter, xps.ixpsomradialgradientbrush_getcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

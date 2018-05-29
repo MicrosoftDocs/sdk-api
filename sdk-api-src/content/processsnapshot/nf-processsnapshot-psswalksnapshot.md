@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssWalkSnapshot
 title: PssWalkSnapshot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information from the current walk position and advanced the walk marker to the next position.
 old-location: proc_snap\psswalksnapshot.htm
 old-project: proc_snap
 ms.assetid: C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapshot, processsnapshot/PssWalkSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

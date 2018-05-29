@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfDocumentMgr
 title: ITfDocumentMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfDocumentMgr interface is implemented by the TSF manager and used by an application or text service to create and manage text contexts. To obtain an instance of this interface call ITfThreadMgr::CreateDocumentMgr.
 old-location: tsf\itfdocumentmgr.htm
 old-project: TSF
 ms.assetid: e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], ITfDocumentMgr interface [Text Services Framework],described, _tsf_itfdocumentmgr_ref, msctf/ITfDocumentMgr, tsf.itfdocumentmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

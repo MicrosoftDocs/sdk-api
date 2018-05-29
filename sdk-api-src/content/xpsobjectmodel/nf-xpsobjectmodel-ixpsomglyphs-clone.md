@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.Clone
 title: IXpsOMGlyphs::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomglyphs_clone.htm
 old-project: printdocs
 ms.assetid: 5c402f5a-1d7c-4d2d-87de-954ceba59b51
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],Clone method, IXpsOMGlyphs.Clone, IXpsOMGlyphs::Clone, xps.ixpsomglyphs_clone, xpsobjectmodel/IXpsOMGlyphs::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

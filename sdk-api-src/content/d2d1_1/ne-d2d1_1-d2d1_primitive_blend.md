@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_1.D2D1_PRIMITIVE_BLEND
 title: D2D1_PRIMITIVE_BLEND
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to specify the geometric blend mode for all Direct2D primitives.
 old-location: direct2d\__d2d1_primitive_blend.htm
 old-project: Direct2D
 ms.assetid: 411a42c9-f8d7-46f3-a6e6-51afc83375ad
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_PRIMITIVE_BLEND, D2D1_PRIMITIVE_BLEND enumeration [Direct2D], D2D1_PRIMITIVE_BLEND_ADD, D2D1_PRIMITIVE_BLEND_COPY, D2D1_PRIMITIVE_BLEND_MAX, D2D1_PRIMITIVE_BLEND_MIN, D2D1_PRIMITIVE_BLEND_SOURCE_OVER, d2d1_1/D2D1_PRIMITIVE_BLEND, d2d1_1/D2D1_PRIMITIVE_BLEND_ADD, d2d1_1/D2D1_PRIMITIVE_BLEND_COPY, d2d1_1/D2D1_PRIMITIVE_BLEND_MAX, d2d1_1/D2D1_PRIMITIVE_BLEND_MIN, d2d1_1/D2D1_PRIMITIVE_BLEND_SOURCE_OVER, direct2d.__d2d1_primitive_blend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

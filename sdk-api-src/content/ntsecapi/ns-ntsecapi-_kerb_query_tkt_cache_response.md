@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_TKT_CACHE_RESPONSE
 title: "_KERB_QUERY_TKT_CACHE_RESPONSE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the results of querying the ticket cache.
 old-location: security\kerb_query_tkt_cache_response.htm
 old-project: SecAuthN
 ms.assetid: 2101c1de-f304-4d44-899f-f9f03cd50934
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE structure [Security], PKERB_QUERY_TKT_CACHE_RESPONSE, PKERB_QUERY_TKT_CACHE_RESPONSE structure pointer [Security], _KERB_QUERY_TKT_CACHE_RESPONSE, _lsa_kerb_query_tkt_cache_response, ntsecapi/KERB_QUERY_TKT_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_TKT_CACHE_RESPONSE, security.kerb_query_tkt_cache_response"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

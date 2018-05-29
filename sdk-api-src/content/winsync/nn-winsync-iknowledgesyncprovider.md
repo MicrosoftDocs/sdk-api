@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IKnowledgeSyncProvider
 title: IKnowledgeSyncProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a synchronization provider that uses knowledge to perform synchronization.
 old-location: winsync\iknowledgesyncprovider.htm
 old-project: winsync
 ms.assetid: 396bbf7e-7fd0-4a2e-8304-f87097cd5e50
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], IKnowledgeSyncProvider interface [Windows Sync],described, winsync.iknowledgesyncprovider, winsync/IKnowledgeSyncProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

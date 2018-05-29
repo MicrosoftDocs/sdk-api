@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetEnumDests
 title: RtmGetEnumDests function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetEnumDests function retrieves the next set of destinations in the specified enumeration.
 old-location: rras\rtmgetenumdests.htm
 old-project: RRAS
 ms.assetid: f793b54e-9591-4b9f-b109-8487013c7af5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetEnumDests, RtmGetEnumDests function [RAS], _rtmv2ref_rtmgetenumdests, rras.rtmgetenumdests, rtmv2/RtmGetEnumDests
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeString
 title: GetThemeString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a string property.
 old-location: controls\GetThemeString.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestring.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeString, GetThemeString function [Windows Controls], controls.GetThemeString, controls.inet_GetThemeString, inet_GetThemeString, inet_GetThemeString_cpp, uxtheme/GetThemeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasSetAutodialAddressW
 title: RasSetAutodialAddressW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database.
 old-location: rras\rassetautodialaddress.htm
 old-project: RRAS
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

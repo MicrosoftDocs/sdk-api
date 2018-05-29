@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManRunShellCommandEx
 title: WSManRunShellCommandEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.
 old-location: winrm\wsmanrunshellcommandex.htm
 old-project: WinRM
 ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Remote Management], winrm.wsmanrunshellcommandex, wsman/WSManRunShellCommandEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

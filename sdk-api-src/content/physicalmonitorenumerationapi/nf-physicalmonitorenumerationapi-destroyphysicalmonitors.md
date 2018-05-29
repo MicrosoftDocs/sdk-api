@@ -1,16 +1,16 @@
 ---
 UID: NF:physicalmonitorenumerationapi.DestroyPhysicalMonitors
 title: DestroyPhysicalMonitors function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes an array of physical monitor handles.
 old-location: monitor\destroyphysicalmonitors.htm
 old-project: Monitor
 ms.assetid: ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DestroyPhysicalMonitors, DestroyPhysicalMonitors function [Monitor Configuration], monitor.destroyphysicalmonitors, physicalmonitorenumerationapi/DestroyPhysicalMonitors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 

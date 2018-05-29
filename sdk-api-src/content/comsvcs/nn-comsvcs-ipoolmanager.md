@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IPoolManager
 title: IPoolManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the caller to control an object pool.
 old-location: cos\ipoolmanager.htm
 old-project: cossdk
 ms.assetid: 7811ad0c-e7b6-423b-8c52-ab8b1b97d6f4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPoolManager, IPoolManager interface [COM+], IPoolManager interface [COM+],described, _cos_IPoolManager, comsvcs/IPoolManager, cos.ipoolmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

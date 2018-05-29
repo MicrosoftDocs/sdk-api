@@ -1,16 +1,16 @@
 ---
 UID: NN:sdoias.ISdoCollection
 title: ISdoCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the ISdoCollection interface to manipulate a collection of SDO objects.
 old-location: nps\SDO_isdocollection.htm
 old-project: Nps
 ms.assetid: 26470906-1cba-41fc-96f3-078208ab3d51
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], ISdoCollection interface [Network Policy Server],described, _sdo_isdocollection, nps.SDO_isdocollection, sdo.isdocollection, sdoias/ISdoCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sdoias.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControl2
 title: INameSpaceTreeControl2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the INameSpaceTreeControl interface by providing methods that get and set the display styles of treeview controls for use with Shell namespace items.
 old-location: shell\INameSpaceTreeControl2.htm
 old-project: shell
 ms.assetid: 5f9514db-35fe-44c7-9324-d69022628913
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControl2, INameSpaceTreeControl2 interface [Windows Shell], INameSpaceTreeControl2 interface [Windows Shell],described, _shell_INameSpaceTreeControl2, shell.INameSpaceTreeControl2, shobjidl/INameSpaceTreeControl2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

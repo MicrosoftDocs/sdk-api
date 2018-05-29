@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DEVICE_COPY_OFFLOAD_DESCRIPTOR
 title: "_DEVICE_COPY_OFFLOAD_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the copy offload capabilities for a storage device.
 old-location: fs\device_copy_offload_descriptor.htm
 old-project: FileIO
 ms.assetid: ff100db5-f244-4d34-8b55-9b6b21b9e382
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Files], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Files], _DEVICE_COPY_OFFLOAD_DESCRIPTOR, fs.device_copy_offload_descriptor, winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR, winioctl/PDEVICE_COPY_OFFLOAD_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

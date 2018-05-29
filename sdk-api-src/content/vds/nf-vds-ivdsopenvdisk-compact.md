@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Compact
 title: IVdsOpenVDisk::Compact
-author: windows-driver-content
+author: windows-sdk-content
 description: Compacts the virtual disk to reduce the physical size of the backing file.
 old-location: base\ivdsopenvdisk_compact.htm
 old-project: VDS
 ms.assetid: 011adaae-3a17-4643-ae8d-400753019c83
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Compact, Compact method, Compact method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Compact method, IVdsOpenVDisk.Compact, IVdsOpenVDisk::Compact, base.ivdsopenvdisk_compact, vds/IVdsOpenVDisk::Compact
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

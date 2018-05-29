@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_LINING
 title: DWRITE_PANOSE_LINING
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_PANOSE_LINING enumeration contains values that specify the handling of the outline for the decorative typeface.
 old-location: directwrite\dwrite_panose_lining.htm
 old-project: DirectWrite
 ms.assetid: 988F14D9-9609-494C-A8DA-CAC75C30C1F5
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_PANOSE_LINING, DWRITE_PANOSE_LINING enumeration [Direct Write], DWRITE_PANOSE_LINING_ANY, DWRITE_PANOSE_LINING_BACKDROP, DWRITE_PANOSE_LINING_ENGRAVED, DWRITE_PANOSE_LINING_INLINE, DWRITE_PANOSE_LINING_NONE, DWRITE_PANOSE_LINING_NO_FIT, DWRITE_PANOSE_LINING_OUTLINE, DWRITE_PANOSE_LINING_RELIEF, DWRITE_PANOSE_LINING_SHADOW, directwrite.dwrite_panose_lining, dwrite_1/DWRITE_PANOSE_LINING, dwrite_1/DWRITE_PANOSE_LINING_ANY, dwrite_1/DWRITE_PANOSE_LINING_BACKDROP, dwrite_1/DWRITE_PANOSE_LINING_ENGRAVED, dwrite_1/DWRITE_PANOSE_LINING_INLINE, dwrite_1/DWRITE_PANOSE_LINING_NONE, dwrite_1/DWRITE_PANOSE_LINING_NO_FIT, dwrite_1/DWRITE_PANOSE_LINING_OUTLINE, dwrite_1/DWRITE_PANOSE_LINING_RELIEF, dwrite_1/DWRITE_PANOSE_LINING_SHADOW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

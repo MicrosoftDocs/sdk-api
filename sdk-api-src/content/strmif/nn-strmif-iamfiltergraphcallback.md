@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMFilterGraphCallback
 title: IAMFilterGraphCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMFilterGraphCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.
 old-location: dshow\iamfiltergraphcallback.htm
 old-project: DirectShow
 ms.assetid: 064acc6a-ba2f-4394-a3bf-a9b70e30e07e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMFilterGraphCallback, IAMFilterGraphCallback interface [DirectShow], IAMFilterGraphCallback interface [DirectShow],described, IAMFilterGraphCallbackInterface, dshow.iamfiltergraphcallback, strmif/IAMFilterGraphCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

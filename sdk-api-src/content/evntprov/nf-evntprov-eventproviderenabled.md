@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventProviderEnabled
 title: EventProviderEnabled function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the event is enabled for any session.
 old-location: etw\eventproviderenabled_func.htm
 old-project: ETW
 ms.assetid: 84c035b1-cdc7-47b7-b887-e5b508f17266
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventProviderEnabled, EventProviderEnabled function [ETW], WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO, WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING, base.eventproviderenabled_func, etw.eventproviderenabled_func, evntprov/EventProviderEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

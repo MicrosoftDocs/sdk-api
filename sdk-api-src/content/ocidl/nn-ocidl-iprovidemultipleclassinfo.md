@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IProvideMultipleClassInfo
 title: IProvideMultipleClassInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: An extension to IProvideClassInfo2 that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior.
 old-location: com\iprovidemultipleclassinfo.htm
 old-project: com
 ms.assetid: 87407830-b34b-4d4e-a5cc-551f47cffb75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IProvideMultipleClassInfo, IProvideMultipleClassInfo interface [COM], IProvideMultipleClassInfo interface [COM],described, _com_iprovidemultipleclassinfo, com.iprovidemultipleclassinfo, ocidl/IProvideMultipleClassInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

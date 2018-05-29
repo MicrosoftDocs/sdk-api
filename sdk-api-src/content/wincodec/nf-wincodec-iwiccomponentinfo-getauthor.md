@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetAuthor
 title: IWICComponentInfo::GetAuthor
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of component's author.
 old-location: wic\_wic_codec_iwiccomponentinfo_getauthor.htm
 old-project: wic
 ms.assetid: c92f707f-6077-4da0-9ac4-6d1f30fb5b75
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetAuthor, GetAuthor method [Windows Imaging Component], GetAuthor method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetAuthor method, IWICComponentInfo.GetAuthor, IWICComponentInfo::GetAuthor, _wic_codec_iwiccomponentinfo_getauthor, wic._wic_codec_iwiccomponentinfo_getauthor, wincodec/IWICComponentInfo::GetAuthor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

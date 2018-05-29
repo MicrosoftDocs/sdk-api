@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.RectInRegion
 title: RectInRegion function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RectInRegion function determines whether any part of the specified rectangle is within the boundaries of a region.
 old-location: gdi\rectinregion.htm
 old-project: gdi
 ms.assetid: 198a02f1-120c-4f65-aa7c-a41f2e5e81a9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RectInRegion, RectInRegion function [Windows GDI], _win32_RectInRegion, gdi.rectinregion, wingdi/RectInRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oobenotification.RegisterWaitUntilOOBECompleted
 title: RegisterWaitUntilOOBECompleted function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a callback to be called once OOBE (Windows Welcome) has been completed.
 old-location: windowssetupandmigration\registerwaituntiloobecompleted.htm
 old-project: WNF
 ms.assetid: D1581B09-06A7-483F-929D-1AF93832942D
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RegisterWaitUntilOOBECompleted, RegisterWaitUntilOOBECompleted function, oobenotification/RegisterWaitUntilOOBECompleted, windowssetupandmigration.registerwaituntiloobecompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oobenotification.h
 req.include-header: 

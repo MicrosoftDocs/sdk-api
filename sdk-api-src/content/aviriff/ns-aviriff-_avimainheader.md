@@ -1,16 +1,16 @@
 ---
 UID: NS:aviriff._avimainheader
 title: "_avimainheader"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIMAINHEADER structure defines global information in an AVI file.
 old-location: dshow\avimainheader.htm
 old-project: DirectShow
 ms.assetid: 3b8a326c-ebb2-4fb7-a167-7382d2e78ec2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AVIF_COPYRIGHTED, AVIF_HASINDEX, AVIF_ISINTERLEAVED, AVIF_MUSTUSEINDEX, AVIF_WASCAPTUREFILE, AVIMAINHEADER, AVIMAINHEADER structure [DirectShow], AVIMAINHEADERStructure, _avimainheader, aviriff/AVIMAINHEADER, dshow.avimainheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

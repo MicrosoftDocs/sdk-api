@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.GetType
 title: IWMBandwidthSharing::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetType method retrieves the type of sharing for the bandwidth sharing object.
 old-location: wmformat\iwmbandwidthsharing_gettype.htm
 old-project: wmformat
 ms.assetid: acef383f-83cb-45be-80fa-1339b391f32b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetType method, IWMBandwidthSharing.GetType, IWMBandwidthSharing::GetType, IWMBandwidthSharingGetType, wmformat.iwmbandwidthsharing_gettype, wmsdkidl/IWMBandwidthSharing::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

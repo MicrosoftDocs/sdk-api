@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_BLOB
 title: "_CRYPT_XML_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an arbitrary array of bytes.
 old-location: security\crypt_xml_blob.htm
 old-project: SecCrypto
 ms.assetid: b70aae53-919b-4d4a-b284-ea6bc223842f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_XML_BLOB, CRYPT_XML_BLOB, CRYPT_XML_BLOB structure [Security], PCRYPT_XML_BLOB, PCRYPT_XML_BLOB structure pointer [Security], _CRYPT_XML_BLOB, cryptxml/CRYPT_XML_BLOB, cryptxml/PCRYPT_XML_BLOB, security.crypt_xml_blob"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

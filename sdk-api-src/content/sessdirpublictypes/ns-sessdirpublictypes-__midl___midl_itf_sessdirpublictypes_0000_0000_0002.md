@@ -1,16 +1,16 @@
 ---
 UID: NS:sessdirpublictypes.__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002
 title: "__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the IP address of a target.
 old-location: termserv\tssd_connectionpoint.htm
 old-project: TermServ
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PTSSD_ConnectionPoint, PTSSD_ConnectionPoint, PTSSD_ConnectionPoint structure pointer [Remote Desktop Services], TSSD_ConnectionPoint, TSSD_ConnectionPoint structure [Remote Desktop Services], __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002, sessdirpublictypes/PTSSD_ConnectionPoint, sessdirpublictypes/TSSD_ConnectionPoint, termserv.tssd_connectionpoint"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sessdirpublictypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI1FromI1
 title: VarUI1FromI1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a char value to an unsigned char value.
 old-location: automat\varui1fromi1.htm
 old-project: automat
 ms.assetid: 712a93d1-3b5b-4e8f-90bf-f51d1dca923a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI1FromI1, VarUI1FromI1 function [Automation], _oa96_VarUI1FromI1, automat.varui1fromi1, oleauto/VarUI1FromI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

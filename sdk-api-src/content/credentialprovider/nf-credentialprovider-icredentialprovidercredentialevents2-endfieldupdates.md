@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.EndFieldUpdates
 title: ICredentialProviderCredentialEvents2::EndFieldUpdates
-author: windows-driver-content
+author: windows-sdk-content
 description: Finishes and commits the batch updates started by BeginFieldUpdates.
 old-location: shell\ICredentialProviderCredentialEvents2_EndFieldUpdates.htm
 old-project: shell
 ms.assetid: D05A558E-79D9-4063-A714-F54D8EB8BBF8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EndFieldUpdates, EndFieldUpdates method [Windows Shell], EndFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],EndFieldUpdates method, ICredentialProviderCredentialEvents2.EndFieldUpdates, ICredentialProviderCredentialEvents2::EndFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::EndFieldUpdates, shell.ICredentialProviderCredentialEvents2_EndFieldUpdates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

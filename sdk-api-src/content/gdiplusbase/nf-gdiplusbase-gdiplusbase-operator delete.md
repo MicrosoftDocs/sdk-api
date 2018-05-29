@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusbase.GdiplusBase.operator delete
 title: GdiplusBase::operator delete
-author: windows-driver-content
+author: windows-sdk-content
 description: The GdiplusBase::operator delete method deallocates memory for one Windows GDI+ object.
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatordelete.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GdiplusBase class [GDI+],operator delete method, GdiplusBase.operator delete, GdiplusBase::operator delete, _gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, operator delete, operator delete method [GDI+], operator delete method [GDI+],GdiplusBase class
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h

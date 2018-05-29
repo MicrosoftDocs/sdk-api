@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.TranslateAccelerator
 title: IShellView::TranslateAccelerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Translates keyboard shortcut (accelerator) key strokes when a namespace extension's view has the focus.
 old-location: shell\IShellView_TranslateAccelerator.htm
 old-project: shell
 ms.assetid: 425a281e-2d34-4bb3-92b9-05ae4cf70a9f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellView interface [Windows Shell],TranslateAccelerator method, IShellView.TranslateAccelerator, IShellView::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IShellView interface, _win32_IShellView_TranslateAccelerator, shell.IShellView_TranslateAccelerator, shobjidl_core/IShellView::TranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

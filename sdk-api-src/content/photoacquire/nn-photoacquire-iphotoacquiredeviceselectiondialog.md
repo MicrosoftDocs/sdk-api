@@ -1,16 +1,16 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireDeviceSelectionDialog
 title: IPhotoAcquireDeviceSelectionDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a dialog box for selecting the device to acquire images from.
 old-location: picacq\iphotoacquiredeviceselectiondialog.htm
 old-project: acquisition
 ms.assetid: 7ec649d2-9fd7-4c07-ad64-f3bc4acfc40d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition], IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],described, IPhotoAcquireDeviceSelectionDialogInterface, photoacquire/IPhotoAcquireDeviceSelectionDialog, picacq.iphotoacquiredeviceselectiondialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

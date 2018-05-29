@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.GetData
 title: CHString::GetData
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetData method to get the data from the CHString object.
 old-location: wmi\chstring_getdata.htm
 old-project: WmiSdk
 ms.assetid: eb463c0d-8cb3-40b8-9c81-ce98c859068a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetData method, CHString.GetData, CHString::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHString interface, chstring/CHString::GetData, wmi.chstring_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

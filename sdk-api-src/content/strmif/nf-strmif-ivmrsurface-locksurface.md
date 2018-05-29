@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRSurface.LockSurface
 title: IVMRSurface::LockSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: The LockSurface method locks the attached DirectDraw surface.
 old-location: dshow\ivmrsurface_locksurface.htm
 old-project: DirectShow
 ms.assetid: 119a6983-3639-4047-b8b4-7a8b0cb5583d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurface interface [DirectShow],LockSurface method, IVMRSurface.LockSurface, IVMRSurface::LockSurface, IVMRSurfaceLockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_locksurface, strmif/IVMRSurface::LockSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

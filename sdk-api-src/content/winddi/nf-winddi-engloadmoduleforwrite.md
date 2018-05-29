@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngLoadModuleForWrite
 title: EngLoadModuleForWrite function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngLoadModuleForWrite function loads the specified executable module into system memory for writing.
 old-location: display\engloadmoduleforwrite.htm
 old-project: display
 ms.assetid: e5509142-624e-4c57-93b0-2579c6fb7089
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngLoadModuleForWrite, EngLoadModuleForWrite function [Display Devices], display.engloadmoduleforwrite, gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml, winddi/EngLoadModuleForWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

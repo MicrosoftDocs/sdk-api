@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhUnloadManifest
 title: TdhUnloadManifest function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unloads the manifest that was loaded by the TdhLoadManifest function.
 old-location: etw\tdhunloadmanifest.htm
 old-project: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

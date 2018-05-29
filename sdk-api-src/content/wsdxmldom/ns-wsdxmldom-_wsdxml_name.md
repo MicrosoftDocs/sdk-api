@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxmldom._WSDXML_NAME
 title: "_WSDXML_NAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an XML qualified name.
 old-location: ncd\wsdxml_name_struct.htm
 old-project: WsdApi
 ms.assetid: 9dce71d2-700c-4f86-9308-dee6a69010bb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXML_NAME, WSDXML_NAME structure, _WSDXML_NAME, ncd.wsdxml_name_struct, wsdxmldom/WSDXML_NAME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

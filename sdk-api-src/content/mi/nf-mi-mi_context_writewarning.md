@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_WriteWarning
 title: MI_Context_WriteWarning function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a warning message to the client.
 old-location: wmi_v2\mi_context_writewarning.htm
 old-project: wmi_v2
 ms.assetid: b353eff6-2d62-4dfc-8a21-bf21cf2f6437
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_WriteWarning, MI_Context_WriteWarning function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteWarning, wmi.mi_writewarning, wmi_v2.mi_context_writewarning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

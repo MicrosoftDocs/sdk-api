@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_next_entry
 title: ldap_next_entry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_next_entry function retrieves an entry from a search result chain.
 old-location: ldap\ldap_next_entry.htm
 old-project: LDAP
 ms.assetid: a0920107-6f99-4d28-a12f-c7f952933472
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_next_entry, ldap.ldap__next__entry, ldap.ldap_next_entry, ldap_next_entry, ldap_next_entry function [LDAP], winldap/ldap_next_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

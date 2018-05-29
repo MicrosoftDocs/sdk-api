@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl._HD_HITTESTINFO
 title: "_HD_HITTESTINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a hit test. This structure is used with the HDM_HITTEST message and it supersedes the HD_HITTESTINFO structure.
 old-location: controls\HDHITTESTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdhittestinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPHDHITTESTINFO, HDHITTESTINFO, HDHITTESTINFO structure [Windows Controls], HHT_ABOVE, HHT_BELOW, HHT_NOWHERE, HHT_ONDIVIDER, HHT_ONDIVOPEN, HHT_ONDROPDOWN, HHT_ONFILTER, HHT_ONFILTERBUTTON, HHT_ONHEADER, HHT_ONITEMSTATEICON, HHT_ONOVERFLOW, HHT_TOLEFT, HHT_TORIGHT, LPHDHITTESTINFO, LPHDHITTESTINFO structure pointer [Windows Controls], _HD_HITTESTINFO, _win32_HDHITTESTINFO, _win32_HDHITTESTINFO_cpp, commctrl/HDHITTESTINFO, commctrl/LPHDHITTESTINFO, controls.HDHITTESTINFO, controls._win32_HDHITTESTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

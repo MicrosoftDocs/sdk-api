@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingProgress
 title: IAMNetworkStatus::get_BufferingProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_BufferingProgress method retrieves a value indicating the buffering progress.
 old-location: dshow\iamnetworkstatus_get_bufferingprogress.htm
 old-project: DirectShow
 ms.assetid: 76276bdc-1f19-4fb9-8ae9-1edeb5639741
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingProgress method, IAMNetworkStatus.get_BufferingProgress, IAMNetworkStatus::get_BufferingProgress, IAMNetworkStatusget_BufferingProgress, dshow.iamnetworkstatus_get_bufferingprogress, get_BufferingProgress, get_BufferingProgress method [DirectShow], get_BufferingProgress method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

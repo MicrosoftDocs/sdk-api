@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsProperty
 title: IADsProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsProperty interface is designed to manage a single attribute definition for a schema class object.
 old-location: adsi\iadsproperty.htm
 old-project: ADSI
 ms.assetid: ebf03974-371b-4bf4-91b4-f137339bd784
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsProperty, IADsProperty interface [ADSI], IADsProperty interface [ADSI],described, _ds_iadsproperty, adsi.iadsproperty, iads/IADsProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

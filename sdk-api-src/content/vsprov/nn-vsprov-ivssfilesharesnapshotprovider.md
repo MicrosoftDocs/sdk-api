@@ -1,16 +1,16 @@
 ---
 UID: NN:vsprov.IVssFileShareSnapshotProvider
 title: IVssFileShareSnapshotProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: base\ivssfilesharesnapshotprovider.htm
 old-project: VSS
 ms.assetid: 1af45503-2f6f-4266-a0d2-ffc74a7be16f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], IVssFileShareSnapshotProvider interface [VSS],described, base.ivssfilesharesnapshotprovider, vsprov/IVssFileShareSnapshotProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 

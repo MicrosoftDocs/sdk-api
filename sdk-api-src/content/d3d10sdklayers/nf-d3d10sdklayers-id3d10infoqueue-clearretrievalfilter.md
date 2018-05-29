@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.ClearRetrievalFilter
 title: ID3D10InfoQueue::ClearRetrievalFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Remove a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3d10\id3d10infoqueue_clearretrievalfilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_clearretrievalfilter.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 024cefe8-f34c-33c0-a0f9-773160473fbb, ClearRetrievalFilter, ClearRetrievalFilter method [Direct3D 10], ClearRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],ClearRetrievalFilter method, ID3D10InfoQueue.ClearRetrievalFilter, ID3D10InfoQueue::ClearRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::ClearRetrievalFilter, direct3d10.id3d10infoqueue_clearretrievalfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

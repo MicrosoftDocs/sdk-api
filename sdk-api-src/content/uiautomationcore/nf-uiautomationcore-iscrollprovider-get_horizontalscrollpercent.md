@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_HorizontalScrollPercent
 title: IScrollProvider::get_HorizontalScrollPercent
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the horizontal scroll position.
 old-location: winauto\uiauto_IScrollProvider_HorizontalScrollPercent.htm
 old-project: WinAuto
 ms.assetid: 02affb6c-cacb-4305-beb3-7ccef8f0662a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: HorizontalScrollPercent property [Windows Accessibility], HorizontalScrollPercent property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontalScrollPercent property, IScrollProvider.HorizontalScrollPercent, IScrollProvider.get_HorizontalScrollPercent, IScrollProvider::HorizontalScrollPercent, IScrollProvider::get_HorizontalScrollPercent, get_HorizontalScrollPercent, uiauto.uiauto_IScrollProvider_HorizontalScrollPercent, uiauto_IScrollProvider_HorizontalScrollPercent, uiautomationcore/IScrollProvider::HorizontalScrollPercent, uiautomationcore/IScrollProvider::get_HorizontalScrollPercent, winauto.uiauto_IScrollProvider_HorizontalScrollPercent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

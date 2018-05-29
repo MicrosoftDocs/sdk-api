@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVTILEINFO
 title: tagLVTILEINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about an item in a list-view control when it is displayed in tile view.
 old-location: controls\LVTILEINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PLVTILEINFO, LVTILEINFO, LVTILEINFO structure [Windows Controls], PLVTILEINFO, PLVTILEINFO structure pointer [Windows Controls], commctrl/LVTILEINFO, commctrl/PLVTILEINFO, controls.LVTILEINFO, controls.inet_LVTILEINFO, inet_LVTILEINFO, inet_LVTILEINFO_cpp, tagLVTILEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

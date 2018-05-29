@@ -1,16 +1,16 @@
 ---
 UID: NF:txlogpub.ILog.Force
 title: ILog::Force
-author: windows-driver-content
+author: windows-sdk-content
 description: Forces the contents of the log to disk, at least up through the specified LSN.
 old-location: com\ilog_force.htm
 old-project: com
 ms.assetid: 91df6049-37ce-4a46-b401-9af7d9c09f14
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Force, Force method [COM], Force method [COM],ILog interface, ILog interface [COM],Force method, ILog.Force, ILog::Force, _com_ilog_force, com.ilog_force, txlogpub/ILog::Force
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

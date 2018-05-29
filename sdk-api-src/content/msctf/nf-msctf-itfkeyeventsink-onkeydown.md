@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnKeyDown
 title: ITfKeyEventSink::OnKeyDown
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfKeyEventSink::OnKeyDown method
 old-location: tsf\itfkeyeventsink_onkeydown.htm
 old-project: TSF
 ms.assetid: aceeb367-0963-484b-afae-26a2c4fb24c7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnKeyDown method, ITfKeyEventSink.OnKeyDown, ITfKeyEventSink::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onkeydown_ref, msctf/ITfKeyEventSink::OnKeyDown, tsf.itfkeyeventsink_onkeydown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

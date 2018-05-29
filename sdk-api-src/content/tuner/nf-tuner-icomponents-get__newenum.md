@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponents.get__NewEnum
 title: IComponents::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__NewEnum enumeration method supports For...Each loops in Automation clients.
 old-location: mstv\icomponents_get__newenum.htm
 old-project: mstv
 ms.assetid: fcb965f4-8fd6-415f-8fb6-a80d0c92731d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get__NewEnum method, IComponents.get__NewEnum, IComponents::get__NewEnum, IComponentsget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get__newenum, tuner/IComponents::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

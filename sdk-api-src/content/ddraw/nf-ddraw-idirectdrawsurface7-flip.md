@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Flip
 title: IDirectDrawSurface7::Flip
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface become associated with the front-buffer surface.
 old-location: directdraw\idirectdrawsurface7_flip.htm
 old-project: directdraw
 ms.assetid: 6c0c23e7-7567-4e07-9ba0-5e50b758f711
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DDFLIP_DONOTWAIT, DDFLIP_EVEN, DDFLIP_INTERVAL2, DDFLIP_INTERVAL3, DDFLIP_INTERVAL4, DDFLIP_NOVSYNC, DDFLIP_ODD, DDFLIP_STEREO, DDFLIP_WAIT, Flip, Flip method [DirectDraw], Flip method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],Flip method, IDirectDrawSurface7.Flip, IDirectDrawSurface7::Flip, ddraw/IDirectDrawSurface7::Flip, directdraw.idirectdrawsurface7_flip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

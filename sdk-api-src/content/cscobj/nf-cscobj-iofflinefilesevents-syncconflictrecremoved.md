@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecRemoved
 title: IOfflineFilesEvents::SyncConflictRecRemoved
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecremoved.htm
 old-project: OfflineFiles
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

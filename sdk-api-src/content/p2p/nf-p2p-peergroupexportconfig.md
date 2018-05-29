@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupExportConfig
 title: PeerGroupExportConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupExportConfig function exports the group configuration for a peer as an XML string that contains the identity, group name, and the GMC for the identity.
 old-location: p2p\peergroupexportconfig.htm
 old-project: P2PSdk
 ms.assetid: 95fe1336-4bf2-4a4b-a451-90f2ae2639c2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupExportConfig, PeerGroupExportConfig function [Peer Networking], p2p.peergroupexportconfig, p2p/PeerGroupExportConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

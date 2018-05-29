@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_3.IDXGIOutput3
 title: IDXGIOutput3
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput3 interface exposes a method to check for overlay support.
 old-location: direct3ddxgi\idxgioutput3.htm
 old-project: direct3ddxgi
 ms.assetid: A116286A-F948-49AA-9D3B-F104E3312920
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIOutput3, IDXGIOutput3 interface [DXGI], IDXGIOutput3 interface [DXGI],described, direct3ddxgi.idxgioutput3, dxgi1_3/IDXGIOutput3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

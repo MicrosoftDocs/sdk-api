@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_EnumerationDepth
 title: ISearchRoot::put_EnumerationDepth
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the enumeration depth for this search root.
 old-location: search\_search_ISearchRoot_put_EnumerationDepth.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_enumerationdepth.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchRoot interface [search],put_EnumerationDepth method, ISearchRoot.put_EnumerationDepth, ISearchRoot::put_EnumerationDepth, _search_ISearchRoot_put_EnumerationDepth, put_EnumerationDepth, put_EnumerationDepth method [search], put_EnumerationDepth method [search],ISearchRoot interface, search._search_ISearchRoot_put_EnumerationDepth, searchapi/ISearchRoot::put_EnumerationDepth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

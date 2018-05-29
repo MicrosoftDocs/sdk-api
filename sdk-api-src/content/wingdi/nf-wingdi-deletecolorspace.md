@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.DeleteColorSpace
 title: DeleteColorSpace function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteColorSpace function removes and destroys a specified color space.
 old-location: wcs\deletecolorspace.htm
 old-project: WCS
 ms.assetid: 5b241224-2994-4533-9629-d2a4b129ce86
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DeleteColorSpace, DeleteColorSpace function [Windows Color System], _color_DeleteColorSpace, wcs.deletecolorspace, wingdi/DeleteColorSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

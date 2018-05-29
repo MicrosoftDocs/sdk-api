@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIDisplayControl.IsStereoEnabled
 title: IDXGIDisplayControl::IsStereoEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
 old-location: direct3ddxgi\idxgidisplaycontrol_IsStereoEnabled.htm
 old-project: direct3ddxgi
 ms.assetid: AE6AA254-3534-4E0F-A206-BAC4536B8B80
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDisplayControl interface [DXGI],IsStereoEnabled method, IDXGIDisplayControl.IsStereoEnabled, IDXGIDisplayControl::IsStereoEnabled, IsStereoEnabled, IsStereoEnabled method [DXGI], IsStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_IsStereoEnabled, dxgi1_2/IDXGIDisplayControl::IsStereoEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

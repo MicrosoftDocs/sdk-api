@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegCloseKey
 title: ClusterRegCloseKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the handle of a cluster database key.
 old-location: mscs\clusterregclosekey.htm
 old-project: MsCS
 ms.assetid: 2216ac42-6beb-4ceb-bd15-12bb2886bc6a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegCloseKey, ClusterRegCloseKey function [Failover Cluster], _wolf_clusterregclosekey, clusapi/ClusterRegCloseKey, mscs.clusterregclosekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

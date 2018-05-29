@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.ISynchronize.Wait
 title: ISynchronize::Wait
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits for the synchronization object to be signaled or for a specified timeout period to elapse, whichever comes first.
 old-location: com\isynchronize_wait.htm
 old-project: com
 ms.assetid: 1abed0be-b4e3-41f4-af6c-e327ce934b59
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynchronize::Wait, Wait, Wait method [COM], Wait method [COM],ISynchronize interface, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

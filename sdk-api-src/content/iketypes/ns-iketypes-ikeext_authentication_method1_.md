@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_AUTHENTICATION_METHOD1_
 title: IKEEXT_AUTHENTICATION_METHOD1_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies various parameters for IKE/Authip authentication.
 old-location: fwp\ikeext_authentication_method1.htm
 old-project: FWP
 ms.assetid: 55894ac3-2cb7-4828-8346-9ca66ce3253a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_AUTHENTICATION_METHOD1, IKEEXT_AUTHENTICATION_METHOD1 structure [Filtering], IKEEXT_AUTHENTICATION_METHOD1_, fwp.ikeext_authentication_method1, iketypes/IKEEXT_AUTHENTICATION_METHOD1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_1.ID3DUserDefinedAnnotation
 title: ID3DUserDefinedAnnotation
-author: windows-driver-content
+author: windows-sdk-content
 description: The ID3DUserDefinedAnnotation interface enables an application to describe conceptual sections and markers within the application's code flow.
 old-location: direct3d11\id3duserdefinedannotation.htm
 old-project: direct3d11
 ms.assetid: 255DE24B-3D6D-49D9-B6A8-D296AB99B4C9
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3DUserDefinedAnnotation, ID3DUserDefinedAnnotation interface [Direct3D 11], ID3DUserDefinedAnnotation interface [Direct3D 11],described, d3d11_1/ID3DUserDefinedAnnotation, direct3d11.id3duserdefinedannotation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 

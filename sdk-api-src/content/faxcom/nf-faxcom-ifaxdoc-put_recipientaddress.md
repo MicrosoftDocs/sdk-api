@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientAddress
 title: IFaxDoc::put_RecipientAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the RecipientAddress property of a FaxDoc object. The RecipientAddress property is a null-terminated string that contains the street address of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientaddress_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_83w3.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientAddress property, FaxDoc.RecipientAddress, IFaxDoc.put_RecipientAddress, IFaxDoc::put_RecipientAddress, RecipientAddress property [Fax Service], RecipientAddress property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress_vb, put_RecipientAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

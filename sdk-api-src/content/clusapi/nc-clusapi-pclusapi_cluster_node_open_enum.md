@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_NODE_OPEN_ENUM
 title: PCLUSAPI_CLUSTER_NODE_OPEN_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an enumerator for iterating through the network interfaces or groups installed on a node.
 old-location: mscs\clusternodeopenenum.htm
 old-project: MsCS
 ms.assetid: f187f4d7-24c8-477d-91fc-0ef738b66f22
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_NODE_ENUM_ALL, CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM callback, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM callback function [Failover Cluster], _wolf_clusternodeopenenum, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, mscs.clusternodeopenenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

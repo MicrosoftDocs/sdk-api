@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeRuntimeMemory
 title: EapHostPeerFreeRuntimeMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the memory space used during run-time.
 old-location: eaphost\eaphostpeerfreeruntimememory.htm
 old-project: EAPHost
 ms.assetid: d27233a0-b41f-43f6-a934-1ab8df8b0581
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerFreeRuntimeMemory, EapHostPeerFreeRuntimeMemory function [EAPHost], eaphost.eaphostpeerfreeruntimememory, eappapis/ EapHostPeerFreeRuntimeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

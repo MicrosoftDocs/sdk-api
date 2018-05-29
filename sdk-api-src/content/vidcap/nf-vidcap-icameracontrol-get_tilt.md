@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Tilt
 title: ICameraControl::get_Tilt
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Tilt method returns the camera's tilt angle.
 old-location: dshow\icameracontrol_get_tilt.htm
 old-project: DirectShow
 ms.assetid: 8e9d9176-fb27-4221-876b-49f407289877
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Tilt method, ICameraControl.get_Tilt, ICameraControl::get_Tilt, ICameraControlget_Tilt, dshow.icameracontrol_get_tilt, get_Tilt, get_Tilt method [DirectShow], get_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Tilt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

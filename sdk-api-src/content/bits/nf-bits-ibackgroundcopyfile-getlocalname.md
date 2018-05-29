@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetLocalName
 title: IBackgroundCopyFile::GetLocalName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the local name of the file.
 old-location: bits\ibackgroundcopyfile_getlocalname.htm
 old-project: Bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

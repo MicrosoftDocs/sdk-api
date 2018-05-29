@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.IsBadWritePtr
 title: IsBadWritePtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that the calling process has write access to the specified range of memory.
 old-location: base\isbadwriteptr.htm
 old-project: Memory
 ms.assetid: 2b353a8e-45cf-4108-9522-bcbde9c71ec4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsBadWritePtr, IsBadWritePtr function, _win32_isbadwriteptr, base.isbadwriteptr, winbase/IsBadWritePtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

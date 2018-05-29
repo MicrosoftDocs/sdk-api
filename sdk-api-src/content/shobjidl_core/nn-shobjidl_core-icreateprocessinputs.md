@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ICreateProcessInputs
 title: ICreateProcessInputs
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the ICreatingProcess interface to alter some parameters of the process that is being created.
 old-location: shell\icreateprocessinputs.htm
 old-project: shell
 ms.assetid: 2C1756A3-FF40-4FBF-860D-06BB415DB695
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICreateProcessInputs, ICreateProcessInputs interface [Windows Shell], ICreateProcessInputs interface [Windows Shell],described, shell.icreateprocessinputs, shobjidl_core/ICreateProcessInputs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

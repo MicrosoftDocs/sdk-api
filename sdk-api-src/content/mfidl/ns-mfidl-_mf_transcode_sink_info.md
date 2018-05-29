@@ -1,16 +1,16 @@
 ---
 UID: NS:mfidl._MF_TRANSCODE_SINK_INFO
 title: "_MF_TRANSCODE_SINK_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the audio and video streams for the transcode sink activation object.
 old-location: mf\mf_transcode_sink_info.htm
 old-project: medfound
 ms.assetid: b8f66128-88d5-4fe0-99f3-59621080be5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_TRANSCODE_SINK_INFO, MF_TRANSCODE_SINK_INFO structure [Media Foundation], _MF_TRANSCODE_SINK_INFO, mf.mf_transcode_sink_info, mfidl/MF_TRANSCODE_SINK_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

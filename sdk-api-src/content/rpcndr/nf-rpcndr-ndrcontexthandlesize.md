@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrContextHandleSize
 title: NdrContextHandleSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrContextHandleSize function returns the size of the supplied RPC context handle.
 old-location: rpc\ndrcontexthandlesize.htm
 old-project: Rpc
 ms.assetid: f5f90887-67b2-4796-96b2-2607b9284387
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrContextHandleSize, NdrContextHandleSize function [RPC], rpc.ndrcontexthandlesize, rpcndr/NdrContextHandleSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

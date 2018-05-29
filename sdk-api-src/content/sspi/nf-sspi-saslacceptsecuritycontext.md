@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SaslAcceptSecurityContext
 title: SaslAcceptSecurityContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Wraps a standard call to the Security Support Provider Interface AcceptSecurityContext (General) function and includes creation of SASL server cookies.
 old-location: security\saslacceptsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

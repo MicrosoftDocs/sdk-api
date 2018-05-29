@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfRepairIncident
 title: NdfRepairIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Repairs an incident without displaying a user interface.
 old-location: ndf\ndfrepairincident.htm
 old-project: NDF
 ms.assetid: 570e7824-463f-4fc1-bc1a-16a1da31e8a3
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfRepairIncident, NdfRepairIncident function [NDF], ndf.ndfrepairincident, ndfapi/NdfRepairIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

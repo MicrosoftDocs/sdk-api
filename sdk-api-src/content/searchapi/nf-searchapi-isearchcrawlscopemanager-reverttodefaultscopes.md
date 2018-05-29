@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RevertToDefaultScopes
 title: ISearchCrawlScopeManager::RevertToDefaultScopes
-author: windows-driver-content
+author: windows-sdk-content
 description: Reverts to the default scopes.
 old-location: search\_search_ISearchCrawlScopeManager_RevertToDefaultScopes.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\reverttodefaultscopes.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RevertToDefaultScopes method, ISearchCrawlScopeManager.RevertToDefaultScopes, ISearchCrawlScopeManager::RevertToDefaultScopes, RevertToDefaultScopes, RevertToDefaultScopes method [search], RevertToDefaultScopes method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RevertToDefaultScopes, search._search_ISearchCrawlScopeManager_RevertToDefaultScopes, searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

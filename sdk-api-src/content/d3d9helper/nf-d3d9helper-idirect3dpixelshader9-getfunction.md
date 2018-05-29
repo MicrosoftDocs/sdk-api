@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DPixelShader9.GetFunction
 title: IDirect3DPixelShader9::GetFunction
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the shader data.
 old-location: direct3d9\idirect3dpixelshader9__getfunction.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dpixelshader9__getfunction.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 3fd5e480-51b4-f6cc-c9eb-1fa92415018a, GetFunction, GetFunction method [Direct3D 9], GetFunction method [Direct3D 9],IDirect3DPixelShader9 interface, IDirect3DPixelShader9 interface [Direct3D 9],GetFunction method, IDirect3DPixelShader9.GetFunction, IDirect3DPixelShader9::GetFunction, d3d9helper/IDirect3DPixelShader9::GetFunction, direct3d9.idirect3dpixelshader9__getfunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

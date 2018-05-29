@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpFormatCredentialsFn
 title: SpFormatCredentialsFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats credentials to be stored in a user object.
 old-location: security\spformatcredentials.htm
 old-project: SecAuthN
 ms.assetid: c6036636-7f22-4f64-b507-59212d37638b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpFormatCredentials, SpFormatCredentials function [Security], SpFormatCredentialsFn, _ssp_spformatcredentials, ntsecpkg/SpFormatCredentials, security.spformatcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

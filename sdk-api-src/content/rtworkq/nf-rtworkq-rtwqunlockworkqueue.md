@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqUnlockWorkQueue
 title: RtwqUnlockWorkQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks a work queue.
 old-location: base\rtwqunlockworkqueue.htm
 old-project: ProcThread
 ms.assetid: a7c4c8e2-ad35-4b39-9174-41e2a605304e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqUnlockWorkQueue, RtwqUnlockWorkQueue function, base.rtwqunlockworkqueue, rtworkq/RtwqUnlockWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._FILESHARE_CHANGE_LIST
 title: "_FILESHARE_CHANGE_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an event notification list for file shares managed by the File Server resource.
 old-location: mscs\fileshare_change_list.htm
 old-project: MsCS
 ms.assetid: 7bc77f09-8984-497c-9d86-d8e8d4b55b94
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PFILESHARE_CHANGE_LIST, FILESHARE_CHANGE_LIST, FILESHARE_CHANGE_LIST structure [Failover Cluster], PFILESHARE_CHANGE_LIST, PFILESHARE_CHANGE_LIST structure pointer [Failover Cluster], _FILESHARE_CHANGE_LIST, clusapi/FILESHARE_CHANGE_LIST, clusapi/PFILESHARE_CHANGE_LIST, mscs.fileshare_change_list"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

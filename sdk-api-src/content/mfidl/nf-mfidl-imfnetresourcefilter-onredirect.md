@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFNetResourceFilter.OnRedirect
 title: IMFNetResourceFilter::OnRedirect
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the byte stream redirects to a URL.
 old-location: mf\imfnetresourcefilter_onredirect.htm
 old-project: medfound
 ms.assetid: 418EA3E0-9732-43B7-BF80-A85ECB7A9485
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnRedirect method, IMFNetResourceFilter.OnRedirect, IMFNetResourceFilter::OnRedirect, OnRedirect, OnRedirect method [Media Foundation], OnRedirect method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onredirect, mfidl/IMFNetResourceFilter::OnRedirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

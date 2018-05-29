@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceSet.Create
 title: IOpcSignatureReferenceSet::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IOpcSignatureReference interface pointer that represents a reference to an XML element to be signed.
 old-location: opc\iopcsignaturereferenceset_create.htm
 old-project: OPC
 ms.assetid: 5e943769-a043-4354-80e7-d471a1dbde7a
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureReferenceSet interface, IOpcSignatureReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureReferenceSet.Create, IOpcSignatureReferenceSet::Create, msopc/IOpcSignatureReferenceSet::Create, opc.iopcsignaturereferenceset_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

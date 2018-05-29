@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Bass
 title: IAMAudioInputMixer::put_Bass
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Bass method sets the bass equalization.
 old-location: dshow\iamaudioinputmixer_put_bass.htm
 old-project: DirectShow
 ms.assetid: cf752767-826d-487d-ae05-9737765975c8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Bass method, IAMAudioInputMixer.put_Bass, IAMAudioInputMixer::put_Bass, IAMAudioInputMixerput_Bass, dshow.iamaudioinputmixer_put_bass, put_Bass, put_Bass method [DirectShow], put_Bass method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Bass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

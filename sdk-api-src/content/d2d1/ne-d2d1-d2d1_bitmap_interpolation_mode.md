@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1.D2D1_BITMAP_INTERPOLATION_MODE
 title: D2D1_BITMAP_INTERPOLATION_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the algorithm that is used when images are scaled or rotated.
 old-location: direct2d\D2D1_BITMAP_INTERPOLATION_MODE.htm
 old-project: Direct2D
 ms.assetid: b53b7e0a-aa8b-4788-896c-9825c9e6cceb
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_BITMAP_INTERPOLATION_MODE, D2D1_BITMAP_INTERPOLATION_MODE enumeration [Direct2D], D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1/D2D1_BITMAP_INTERPOLATION_MODE, d2d1/D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, d2d1/D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.D2D1_BITMAP_INTERPOLATION_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

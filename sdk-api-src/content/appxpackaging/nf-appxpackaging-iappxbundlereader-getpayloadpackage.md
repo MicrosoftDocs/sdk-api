@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetPayloadPackage
 title: IAppxBundleReader::GetPayloadPackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an appx file object for the payload package with the specified file name.
 old-location: appxpkg\iappxbundlereader_getpayloadpackage.htm
 old-project: appxpkg
 ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPayloadPackage, GetPayloadPackage method [App packaging and management], GetPayloadPackage method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackage method, IAppxBundleReader.GetPayloadPackage, IAppxBundleReader::GetPayloadPackage, appxpackaging/IAppxBundleReader::GetPayloadPackage, appxpkg.iappxbundlereader_getpayloadpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

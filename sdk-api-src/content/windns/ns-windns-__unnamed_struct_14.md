@@ -1,16 +1,16 @@
 ---
 UID: NS:windns.__unnamed_struct_14
 title: DNS_WKS_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_WKS_DATA structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of RFC 1035.
 old-location: dns\dns_wks_data.htm
 old-project: DNS
 ms.assetid: 94477345-74e7-40bf-a75b-e4bf67f1c17b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_WKS_DATA, DNS_WKS_DATA, DNS_WKS_DATA structure [DNS], PDNS_WKS_DATA, PDNS_WKS_DATA structure pointer [DNS], Transmission Control Protocol (TCP), User Datagram Protocol (UDP), _dns_dns_wks_data, dns.dns_wks_data, windns/DNS_WKS_DATA, windns/PDNS_WKS_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

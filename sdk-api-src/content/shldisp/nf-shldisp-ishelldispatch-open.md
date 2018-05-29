@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.Open
 title: IShellDispatch::Open
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the specified folder.
 old-location: shell\IShellDispatch_Open.htm
 old-project: shell
 ms.assetid: 30FE669A-4AFD-4dfa-9F62-E62E744469C7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],Open method, IShellDispatch.Open, IShellDispatch::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

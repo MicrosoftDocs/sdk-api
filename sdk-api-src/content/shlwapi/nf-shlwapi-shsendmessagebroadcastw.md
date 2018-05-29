@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHSendMessageBroadcastW
 title: SHSendMessageBroadcastW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a message to all top-level windows in the system.
 old-location: shell\SHSendMessageBroadcast.htm
 old-project: shell
 ms.assetid: 98671f0f-2386-486f-ac96-14dd44c776c6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHSendMessageBroadcast, SHSendMessageBroadcast function [Windows Shell], SHSendMessageBroadcastA, SHSendMessageBroadcastW, _shell_SHSendMessageBroadcast, shell.SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcastA, shlwapi/SHSendMessageBroadcastW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

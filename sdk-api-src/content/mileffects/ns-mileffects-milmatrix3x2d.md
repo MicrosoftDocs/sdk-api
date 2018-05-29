@@ -1,16 +1,16 @@
 ---
 UID: NS:mileffects.MilMatrix3x2D
 title: MilMatrix3x2D
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a 3x3 matrix.
 old-location: wibe\_wibe_mil_matrix3x2d.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_matrix3x2d.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [WPF Bitmap Effects], _wibe_mil_matrix3x2d, mileffects/MilMatrix3x2D, wibe._wibe_mil_matrix3x2d
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mileffects.h
 req.include-header: 

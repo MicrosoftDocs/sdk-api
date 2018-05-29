@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Add
 title: IWSDiscoveryProviderNotify::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
 old-location: ncd\iwsdiscoveryprovidernotify_add.htm
 old-project: WsdApi
 ms.assetid: 4e36157f-444d-4e59-bc30-c6def9c51cea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Add, Add method, Add method,IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,Add method, IWSDiscoveryProviderNotify.Add, IWSDiscoveryProviderNotify::Add, ncd.iwsdiscoveryprovidernotify_add, wsddisco/IWSDiscoveryProviderNotify::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

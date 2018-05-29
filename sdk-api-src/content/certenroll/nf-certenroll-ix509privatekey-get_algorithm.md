@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_Algorithm
 title: IX509PrivateKey::get_Algorithm
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509privatekey_algorithm.htm
 old-project: SecCertEnroll
 ms.assetid: 40d2eae1-733a-4e5b-bb15-71301d73f438
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Algorithm property, IX509PrivateKey.Algorithm, IX509PrivateKey.get_Algorithm, IX509PrivateKey::Algorithm, IX509PrivateKey::get_Algorithm, IX509PrivateKey::put_Algorithm, certenroll/IX509PrivateKey::Algorithm, certenroll/IX509PrivateKey::get_Algorithm, certenroll/IX509PrivateKey::put_Algorithm, get_Algorithm, security.ix509privatekey_algorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

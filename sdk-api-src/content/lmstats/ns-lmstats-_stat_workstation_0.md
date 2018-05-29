@@ -1,16 +1,16 @@
 ---
 UID: NS:lmstats._STAT_WORKSTATION_0
 title: "_STAT_WORKSTATION_0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains statistical information about the specified workstation.
 old-location: fs\stat_workstation_0_str.htm
 old-project: NetShare
 ms.assetid: 7a29fe54-fd15-499d-b255-f49025421861
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPSTAT_WORKSTATION_0, *PSTAT_WORKSTATION_0, LPSTAT_WORKSTATION_0, LPSTAT_WORKSTATION_0 structure pointer [Files], PSTAT_WORKSTATION_0, PSTAT_WORKSTATION_0 structure pointer [Files], STAT_WORKSTATION_0, STAT_WORKSTATION_0 structure [Files], _STAT_WORKSTATION_0, _win32_stat_workstation_0_str, fs.stat_workstation_0_str, lmstats/LPSTAT_WORKSTATION_0, lmstats/PSTAT_WORKSTATION_0, lmstats/STAT_WORKSTATION_0, netmgmt.stat_workstation_0_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmstats.h
 req.include-header: Lm.h

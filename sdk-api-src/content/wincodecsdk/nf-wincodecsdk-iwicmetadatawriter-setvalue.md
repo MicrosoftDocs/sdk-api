@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValue
 title: IWICMetadataWriter::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the given metadata item.
 old-location: wic\_wic_codec_iwicmetadatawriter_setvalue.htm
 old-project: wic
 ms.assetid: bda3f959-40d1-45df-a82c-3eba2be33859
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValue method, IWICMetadataWriter.SetValue, IWICMetadataWriter::SetValue, SetValue, SetValue method [Windows Imaging Component], SetValue method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvalue, wic._wic_codec_iwicmetadatawriter_setvalue, wincodecsdk/IWICMetadataWriter::SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCreateProcess
 title: IHandlerActivationHost::BeforeCreateProcess
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: shell\IHandlerActivationHost_BeforeCreateProcess.htm
 old-project: shell
 ms.assetid: aa0ea3cb-7fe3-498c-a105-b78492166f65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BeforeCreateProcess, BeforeCreateProcess method [Windows Shell], BeforeCreateProcess method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCreateProcess method, IHandlerActivationHost.BeforeCreateProcess, IHandlerActivationHost::BeforeCreateProcess, shell.IHandlerActivationHost_BeforeCreateProcess, shobjidl_core/IHandlerActivationHost::BeforeCreateProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkCostManagerEvents
 title: INetworkCostManagerEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface to notify an application of machine-wide cost and data plan related events.
 old-location: nla\inetworkcostmanagerevents.htm
 old-project: NLA
 ms.assetid: A8F4194E-6E9A-4173-8F88-FC2923B11CF0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkCostManagerEvents, INetworkCostManagerEvents interface [Network Awareness], INetworkCostManagerEvents interface [Network Awareness],described, netlistmgr/INetworkCostManagerEvents, nla.inetworkcostmanagerevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

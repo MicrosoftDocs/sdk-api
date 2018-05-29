@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiPortal
 title: IVdsIscsiPortal
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on an iSCSI portal.
 old-location: base\ivdsiscsiportal.htm
 old-project: VDS
 ms.assetid: 1f3131a6-01ab-41e5-9e2f-6ffcdcd0e3a6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiPortal, IVdsIscsiPortal interface [VDS], IVdsIscsiPortal interface [VDS],described, base.ivdsiscsiportal, vds/IVdsIscsiPortal, vdshwprv/IVdsIscsiPortal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

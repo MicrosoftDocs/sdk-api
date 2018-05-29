@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsstoragecom.IStorageFolderHandleAccess.Create
 title: IStorageFolderHandleAccess::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a handle to a file that is in a storage folder.
 old-location: winrt\istoragefolderhandleaccess_create.htm
 old-project: WinRT
 ms.assetid: CAA79CEC-FB04-48F0-BCF8-19613FA6D108
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageFolderHandleAccess interface, IStorageFolderHandleAccess interface [Windows Runtime],Create method, IStorageFolderHandleAccess.Create, IStorageFolderHandleAccess::Create, windowsstoragecom/IStorageFolderHandleAccess::Create, winrt.istoragefolderhandleaccess_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 

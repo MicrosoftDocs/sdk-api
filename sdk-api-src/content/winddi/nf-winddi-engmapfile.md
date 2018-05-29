@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngMapFile
 title: EngMapFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngMapFile function creates or opens a file and maps it into system space.
 old-location: display\engmapfile.htm
 old-project: display
 ms.assetid: 6887f7e1-f94f-421c-be7a-14a41d621ce1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngMapFile, EngMapFile function [Display Devices], display.engmapfile, gdifncs_efc9de46-c5dc-446b-9686-8cf868bfa1e9.xml, winddi/EngMapFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

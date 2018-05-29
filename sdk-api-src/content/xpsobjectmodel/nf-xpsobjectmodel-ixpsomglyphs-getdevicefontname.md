@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetDeviceFontName
 title: IXpsOMGlyphs::GetDeviceFontName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the device font.
 old-location: xps\ixpsomglyphs_getdevicefontname.htm
 old-project: printdocs
 ms.assetid: cb288d73-da4d-4b46-95e5-c451c9ee2dc7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetDeviceFontName method, IXpsOMGlyphs.GetDeviceFontName, IXpsOMGlyphs::GetDeviceFontName, xps.ixpsomglyphs_getdevicefontname, xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

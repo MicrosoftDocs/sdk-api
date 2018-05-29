@@ -1,16 +1,16 @@
 ---
 UID: NS:netsh._CMD_GROUP_ENTRY
 title: "_CMD_GROUP_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a group of helper commands.
 old-location: netshell\cmd_group_entry.htm
 old-project: NetShell
 ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _CMD_GROUP_ENTRY, _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netsh.h
 req.include-header: 

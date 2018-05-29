@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetDefaultCommConfigW
 title: SetDefaultCommConfigW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default configuration for a communications device.
 old-location: base\setdefaultcommconfig.htm
 old-project: DevIO
 ms.assetid: 3b228b56-34ca-4b37-af67-4e4e1fa60df2
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: SetDefaultCommConfig, SetDefaultCommConfig function, SetDefaultCommConfigA, SetDefaultCommConfigW, _win32_setdefaultcommconfig, base.setdefaultcommconfig, winbase/SetDefaultCommConfig, winbase/SetDefaultCommConfigA, winbase/SetDefaultCommConfigW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

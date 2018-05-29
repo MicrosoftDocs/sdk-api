@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.FlushProcessWriteBuffers
 title: FlushProcessWriteBuffers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Flushes the write queue of each processor that is running a thread of the current process.
 old-location: base\flushprocesswritebuffers.htm
 old-project: ProcThread
 ms.assetid: 6dcf6851-59ee-4f6e-b2cb-e36ac5328b92
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: FlushProcessWriteBuffers, FlushProcessWriteBuffers function, base.flushprocesswritebuffers, processthreadsapi/FlushProcessWriteBuffers, winbase/FlushProcessWriteBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

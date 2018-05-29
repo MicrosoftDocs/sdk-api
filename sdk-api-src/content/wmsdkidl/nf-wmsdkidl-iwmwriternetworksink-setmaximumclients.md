@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.SetMaximumClients
 title: IWMWriterNetworkSink::SetMaximumClients
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetMaximumClients method sets the maximum number of clients that can connect to this sink. Call this method before streaming begins.
 old-location: wmformat\iwmwriternetworksink_setmaximumclients.htm
 old-project: wmformat
 ms.assetid: 619f0684-28bb-4412-acbf-27434672083a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],SetMaximumClients method, IWMWriterNetworkSink.SetMaximumClients, IWMWriterNetworkSink::SetMaximumClients, IWMWriterNetworkSinkSetMaximumClients, SetMaximumClients, SetMaximumClients method [windows Media Format], SetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setmaximumclients, wmsdkidl/IWMWriterNetworkSink::SetMaximumClients
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

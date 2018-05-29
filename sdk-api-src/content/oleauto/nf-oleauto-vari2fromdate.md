@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI2FromDate
 title: VarI2FromDate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a date value to a short value.
 old-location: automat\vari2fromdate.htm
 old-project: automat
 ms.assetid: e4b86c29-5fc5-45dd-9ed1-7aa2bf8946dc
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI2FromDate, VarI2FromDate function [Automation], _oa96_VarI2FromDate, automat.vari2fromdate, oleauto/VarI2FromDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.RequestLicensingCapabilities
 title: IWTSProtocolLicenseConnection::RequestLicensingCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::RequestLicensingCapabilities is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestLicensingCapabilities.
 old-location: termserv\iwtsprotocollicenseconnection_requestlicensingcapabilities.htm
 old-project: TermServ
 ms.assetid: ff6123f6-4d78-41d1-8093-916f01de09ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWTSProtocolLicenseConnection.RequestLicensingCapabilities, IWTSProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

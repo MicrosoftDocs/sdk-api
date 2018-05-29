@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.get_ForwardTypeDestinationAddressType
 title: ITForwardInformation2::get_ForwardTypeDestinationAddressType
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ForwardTypeDestinationAddressType method gets the destination address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypedestinationaddresstype.htm
 old-project: Tapi
 ms.assetid: de40538a-e2ba-49ec-bde6-6803da6515da
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],get_ForwardTypeDestinationAddressType method, ITForwardInformation2.get_ForwardTypeDestinationAddressType, ITForwardInformation2::get_ForwardTypeDestinationAddressType, _tapi3_itforwardinformation2_get_forwardtypedestinationaddresstype, get_ForwardTypeDestinationAddressType, get_ForwardTypeDestinationAddressType method [TAPI 2.2], get_ForwardTypeDestinationAddressType method [TAPI 2.2],ITForwardInformation2 interface, tapi3.itforwardinformation2_get_forwardtypedestinationaddresstype, tapi3if/ITForwardInformation2::get_ForwardTypeDestinationAddressType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

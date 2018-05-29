@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll4.addNameValuePairToRequest
 title: ICEnroll4::addNameValuePairToRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an unauthenticated name-value string pair to the request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_addnamevaluepairtorequest.htm
 old-project: SecCrypto
 ms.assetid: 252d1789-1207-4281-b044-e1f1ca6cd585
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],addNameValuePairToRequest method, ICEnroll4 interface [Security],addNameValuePairToRequest method, ICEnroll4.addNameValuePairToRequest, ICEnroll4::addNameValuePairToRequest, _xen_icenroll4_addnamevaluepairtorequest, addNameValuePairToRequest, addNameValuePairToRequest method [Security], addNameValuePairToRequest method [Security],CEnroll object, addNameValuePairToRequest method [Security],ICEnroll4 interface, security.icenroll4_addnamevaluepairtorequest, xenroll/ICEnroll4::addNameValuePairToRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.TransferVideoFrame
 title: IMFMediaEngine::TransferVideoFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the current video frame to a DXGI surface or WIC bitmap.
 old-location: mf\imfmediaengine_transfervideoframe.htm
 old-project: medfound
 ms.assetid: 07DB29E2-9F09-46CB-B138-197D95EC37F0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],TransferVideoFrame method, IMFMediaEngine.TransferVideoFrame, IMFMediaEngine::TransferVideoFrame, TransferVideoFrame, TransferVideoFrame method [Media Foundation], TransferVideoFrame method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_transfervideoframe, mfmediaengine/IMFMediaEngine::TransferVideoFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

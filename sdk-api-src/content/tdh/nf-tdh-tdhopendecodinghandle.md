@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhOpenDecodingHandle
 title: TdhOpenDecodingHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a decoding handle.
 old-location: etw\tdhopendecodinghandle.htm
 old-project: ETW
 ms.assetid: ea437d31-a688-4602-8453-f891e83af9ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhOpenDecodingHandle, TdhOpenDecodingHandle function [ETW], etw.tdhopendecodinghandle, tdh/TdhOpenDecodingHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

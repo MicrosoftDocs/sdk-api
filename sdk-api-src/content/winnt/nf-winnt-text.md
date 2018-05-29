@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.TEXT
 title: TEXT macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a string as Unicode when UNICODE is defined by a preprocessor directive during compilation. Otherwise, the macro identifies a string as an ANSI string.
 old-location: intl\text.htm
 old-project: Intl
 ms.assetid: 427d365f-2277-460c-8120-3ccb6c6cea4f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _win32_TEXT_Macro, intl.text, winnt/TEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

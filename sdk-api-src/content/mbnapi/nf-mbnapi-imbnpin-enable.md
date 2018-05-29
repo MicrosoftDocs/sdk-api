@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnPin.Enable
 title: IMbnPin::Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a PIN.
 old-location: mbn\imbnpin_enable.htm
 old-project: mbn
 ms.assetid: bbdd767b-f08a-4e94-bccf-9ed0d1b4af29
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Enable, Enable method [Microsoft Broadband Networks], Enable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enable method, IMbnPin.Enable, IMbnPin::Enable, mbn.imbnpin_enable, mbnapi/IMbnPin::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

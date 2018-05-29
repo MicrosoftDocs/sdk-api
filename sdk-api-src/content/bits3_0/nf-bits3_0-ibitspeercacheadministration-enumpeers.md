@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumPeers
 title: IBitsPeerCacheAdministration::EnumPeers
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IEnumBitsPeers interface pointer that you use to enumerate the peers that can serve content. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumpeers.htm
 old-project: Bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EnumPeers, EnumPeers method [BITS], EnumPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumPeers method, IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

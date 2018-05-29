@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.get_PolicyAdministrators
 title: IAzApplication::get_PolicyAdministrators
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
 old-location: security\iazapplication_policyadministrators.htm
 old-project: SecAuthZ
 ms.assetid: a0b66213-3dc7-4886-9c93-0d27d43a7d92
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],PolicyAdministrators property, IAzApplication interface [Security],PolicyAdministrators property, IAzApplication.PolicyAdministrators, IAzApplication.get_PolicyAdministrators, IAzApplication::PolicyAdministrators, IAzApplication::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzApplication object, PolicyAdministrators property [Security],IAzApplication interface, azroles/IAzApplication::PolicyAdministrators, azroles/IAzApplication::get_PolicyAdministrators, get_PolicyAdministrators, security.iazapplication_policyadministrators
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI1FromCy
 title: VarI1FromCy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a currency value to a char value.
 old-location: automat\vari1fromcy.htm
 old-project: automat
 ms.assetid: 9ceaabd0-8d36-4706-92a1-73a675b2ae34
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI1FromCy, VarI1FromCy function [Automation], _oa96_VarI1FromCy, automat.vari1fromcy, oleauto/VarI1FromCy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

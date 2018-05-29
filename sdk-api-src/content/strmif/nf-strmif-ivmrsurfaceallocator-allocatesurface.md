@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.AllocateSurface
 title: IVMRSurfaceAllocator::AllocateSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateSurface method allocates a DirectDraw surface.
 old-location: dshow\ivmrsurfaceallocator_allocatesurface.htm
 old-project: DirectShow
 ms.assetid: 6783df91-c92f-45d0-b299-16cdbc4bb630
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AllocateSurface, AllocateSurface method [DirectShow], AllocateSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],AllocateSurface method, IVMRSurfaceAllocator.AllocateSurface, IVMRSurfaceAllocator::AllocateSurface, IVMRSurfaceAllocatorAllocateSurface, dshow.ivmrsurfaceallocator_allocatesurface, strmif/IVMRSurfaceAllocator::AllocateSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

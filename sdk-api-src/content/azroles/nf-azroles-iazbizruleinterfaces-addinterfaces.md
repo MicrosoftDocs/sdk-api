@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.AddInterfaces
 title: IAzBizRuleInterfaces::AddInterfaces
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified interfaces to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_addinterfaces_method.htm
 old-project: SecAuthZ
 ms.assetid: 91822c84-4daa-4d3c-bbe2-9ceb7fc642b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddInterfaces, AddInterfaces method [Security], AddInterfaces method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterfaces method, IAzBizRuleInterfaces.AddInterfaces, IAzBizRuleInterfaces::AddInterfaces, azroles/IAzBizRuleInterfaces::AddInterfaces, security.iazbizruleinterfaces_addinterfaces_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

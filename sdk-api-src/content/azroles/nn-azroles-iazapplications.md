@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzApplications
 title: IAzApplications
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of IAzApplication objects.
 old-location: security\iazapplications.htm
 old-project: SecAuthZ
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationVirtualizedItemPattern
 title: IUIAutomationVirtualizedItemPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern.htm
 old-project: WinAuto
 ms.assetid: 48f066f3-c78c-47a2-9668-ab79b1438130
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationVirtualizedItemPattern, IUIAutomationVirtualizedItemPattern interface [Windows Accessibility], IUIAutomationVirtualizedItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationVirtualizedItemPattern, uiauto_IUIAutomationVirtualizedItemPattern, uiautomationclient/IUIAutomationVirtualizedItemPattern, winauto.uiauto_IUIAutomationVirtualizedItemPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

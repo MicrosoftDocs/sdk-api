@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_contact_tag
 title: peer_contact_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_CONTACT structure contains information about a specific contact.
 old-location: p2p\peer_contact.htm
 old-project: P2PSdk
 ms.assetid: b84a17fc-35d6-4098-9bb3-18e708541a80
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_CONTACT, PCPEER_CONTACT, PCPEER_CONTACT structure pointer [Peer Networking], PEER_CONTACT, PEER_CONTACT structure [Peer Networking], PPEER_CONTACT, PPEER_CONTACT structure pointer [Peer Networking], p2p.peer_contact, p2p/PCPEER_CONTACT, p2p/PEER_CONTACT, p2p/PPEER_CONTACT, peer_contact_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

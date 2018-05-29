@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._MSV1_0_LM20_LOGON
 title: "_MSV1_0_LM20_LOGON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains logon information used in network logons.
 old-location: security\msv1_0_lm20_logon.htm
 old-project: SecAuthN
 ms.assetid: 0736ab5b-a475-4593-a15e-970b5d4c64d0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMSV1_0_LM20_LOGON, MSV1_0_ALLOW_MSVCHAPV2, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_ALLOW_WORKSTATION_TRUST_ACCOUNT, MSV1_0_CHECK_LOGONHOURS_FOR_S4U, MSV1_0_CLEARTEXT_PASSWORD_ALLOWED, MSV1_0_CLEARTEXT_PASSWORD_SUPPLIED, MSV1_0_DONT_TRY_GUEST_ACCOUNT, MSV1_0_INTERNET_DOMAIN, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON structure [Security], MSV1_0_RETURN_PASSWORD_EXPIRY, MSV1_0_RETURN_PROFILE_PATH, MSV1_0_RETURN_USER_PARAMETERS, MSV1_0_S4U2SELF, MSV1_0_TRY_GUEST_ACCOUNT_ONLY, MSV1_0_TRY_SPECIFIED_DOMAIN_ONLY, MSV1_0_UPDATE_LOGON_STATISTICS, MSV1_0_USE_CLIENT_CHALLENGE, MSV1_0_USE_DOMAIN_FOR_ROUTING_ONLY, PMSV1_0_LM20_LOGON, PMSV1_0_LM20_LOGON structure pointer [Security], _MSV1_0_LM20_LOGON, _lsa_msv1_0_lm20_logon, ntsecapi/MSV1_0_LM20_LOGON, ntsecapi/PMSV1_0_LM20_LOGON, security.msv1_0_lm20_logon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

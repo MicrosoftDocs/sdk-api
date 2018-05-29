@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITMediaRecord.get_FileName
 title: ITMediaRecord::get_FileName
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_FileName method retrieves the name of the file that was used for recording by this terminal.
 old-location: tapi3\itmediarecord_get_filename.htm
 old-project: Tapi
 ms.assetid: fd97665c-ff9e-4621-baf9-7c0b603400c5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],get_FileName method, ITMediaRecord.get_FileName, ITMediaRecord::get_FileName, _tapi3_itmediarecord_get_filename, get_FileName, get_FileName method [TAPI 2.2], get_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_get_filename, tapi3if/ITMediaRecord::get_FileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

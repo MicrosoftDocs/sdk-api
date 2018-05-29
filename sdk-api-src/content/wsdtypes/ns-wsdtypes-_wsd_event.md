@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_EVENT
 title: "_WSD_EVENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an internal representation of a SOAP message.
 old-location: ncd\wsd_event_struct.htm
 old-project: WsdApi
 ms.assetid: d8697474-bfe5-4704-b1ac-15cf96f2ca92
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_EVENT, WSD_EVENT structure, _WSD_EVENT, ncd.wsd_event_struct, wsdtypes/WSD_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_2.IDXGIFactory2
 title: IDXGIFactory2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDXGIFactory2 interface includes methods to create a newer version swap chain with more features than IDXGISwapChain and to monitor stereoscopic 3D capabilities.
 old-location: direct3ddxgi\idxgifactory2.htm
 old-project: direct3ddxgi
 ms.assetid: D4F210E1-E184-410A-947A-22ED47B3E9F3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIFactory2, IDXGIFactory2 interface [DXGI], IDXGIFactory2 interface [DXGI],described, direct3ddxgi.idxgifactory2, dxgi1_2/IDXGIFactory2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_2.h
 req.include-header: 

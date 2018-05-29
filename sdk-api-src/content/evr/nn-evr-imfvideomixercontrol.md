@@ -1,16 +1,16 @@
 ---
 UID: NN:evr.IMFVideoMixerControl
 title: IMFVideoMixerControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls how the Enhanced Video Renderer (EVR) mixes video substreams.
 old-location: mf\imfvideomixercontrol.htm
 old-project: medfound
 ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

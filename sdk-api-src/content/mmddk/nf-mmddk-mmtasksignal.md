@@ -1,16 +1,16 @@
 ---
 UID: NF:mmddk.mmTaskSignal
 title: mmTaskSignal function
-author: windows-driver-content
+author: windows-sdk-content
 description: The mmTaskSignal function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtasksignal.htm
 old-project: Multimedia
 ms.assetid: 99063f94-efe6-43f5-87e4-1d52b83650e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: mmTaskSignal, mmTaskSignal function [Windows Multimedia], mmddk/mmTaskSignal, multimedia.mmtasksignal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mmddk.h
 req.include-header: 

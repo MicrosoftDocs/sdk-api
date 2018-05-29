@@ -1,16 +1,16 @@
 ---
 UID: NS:vptype._AMVPDIMINFO
 title: "_AMVPDIMINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMVPDIMINFO structure specifies the dimensional characteristics of a video port (VP) input stream.
 old-location: dshow\amvpdiminfo.htm
 old-project: DirectShow
 ms.assetid: e39cbb85-33f0-4810-aa32-cc96676da123
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMVPDIMINFO, AMVPDIMINFO, AMVPDIMINFO structure [DirectShow], AMVPDIMINFOStructure, LPAMVPDIMINFO, LPAMVPDIMINFO structure pointer [DirectShow], _AMVPDIMINFO, dshow.amvpdiminfo, vptype/AMVPDIMINFO, vptype/LPAMVPDIMINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vptype.h
 req.include-header: 

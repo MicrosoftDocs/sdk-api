@@ -1,16 +1,16 @@
 ---
 UID: NS:ntmsmli.MediaLabelInfo
 title: MediaLabelInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The MediaLabelInfo structure conveys information to the RSM database about a tape OMID. The media label library fills in this structure for all media labels the library recognizes.
 old-location: fs\medialabelinfo.htm
 old-project: Rsm
 ms.assetid: 8641e9e6-e251-4bf9-935a-f8888705f9a1
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: "*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsmli.h
 req.include-header: 

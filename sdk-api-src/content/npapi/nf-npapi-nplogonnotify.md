@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPLogonNotify
 title: NPLogonNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script.
 old-location: security\nplogonnotify.htm
 old-project: SecAuthN
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

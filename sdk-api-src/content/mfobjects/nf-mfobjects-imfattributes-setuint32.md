@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetUINT32
 title: IMFAttributes::SetUINT32
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a UINT32 value with a key.
 old-location: mf\imfattributes_setuint32.htm
 old-project: medfound
 ms.assetid: 9c30fd56-719f-4831-8fbf-cefcf9d72709
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9c30fd56-719f-4831-8fbf-cefcf9d72709, IMFAttributes interface [Media Foundation],SetUINT32 method, IMFAttributes.SetUINT32, IMFAttributes::SetUINT32, SetUINT32, SetUINT32 method [Media Foundation], SetUINT32 method [Media Foundation],IMFAttributes interface, mf.imfattributes_setuint32, mfobjects/IMFAttributes::SetUINT32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

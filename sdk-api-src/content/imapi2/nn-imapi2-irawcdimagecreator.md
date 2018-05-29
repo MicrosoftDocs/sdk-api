@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IRawCDImageCreator
 title: IRawCDImageCreator
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to create a RAW CD image for use in writing to CD media in Disc-at-Once (DAO) mode. Images created with this interface can be written to CD media using the IDiscFormat2RawCD interface.
 old-location: imapi\irawcdimagecreator.htm
 old-project: imapi
 ms.assetid: b5fe1a32-545e-417d-9996-34d12862a0ea
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], IRawCDImageCreator interface [IMAPI],described, imapi.irawcdimagecreator, imapi2/IRawCDImageCreator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

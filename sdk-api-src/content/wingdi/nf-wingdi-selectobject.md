@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SelectObject
 title: SelectObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SelectObject function selects an object into the specified device context (DC). The new object replaces the previous object of the same type.
 old-location: gdi\selectobject.htm
 old-project: gdi
 ms.assetid: a89b875e-923d-4048-bc61-8dea132cc56d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject function [Windows GDI], _win32_SelectObject, gdi.selectobject, wingdi/SelectObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

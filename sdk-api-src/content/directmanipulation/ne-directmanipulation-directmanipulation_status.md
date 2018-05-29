@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_STATUS
 title: DIRECTMANIPULATION_STATUS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible states of Direct Manipulation.
 old-location: directmanipulation\directmanipulation_status.htm
 old-project: directmanipulation
 ms.assetid: 6120702f-56f0-489d-a3b2-5f6ecac82b5e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_BUILDING, DIRECTMANIPULATION_DISABLED, DIRECTMANIPULATION_ENABLED, DIRECTMANIPULATION_INERTIA, DIRECTMANIPULATION_READY, DIRECTMANIPULATION_RUNNING, DIRECTMANIPULATION_STATUS, DIRECTMANIPULATION_STATUS enumeration [Direct Manipulation], DIRECTMANIPULATION_SUSPENDED, directmanipulation.directmanipulation_status, directmanipulation/DIRECTMANIPULATION_BUILDING, directmanipulation/DIRECTMANIPULATION_DISABLED, directmanipulation/DIRECTMANIPULATION_ENABLED, directmanipulation/DIRECTMANIPULATION_INERTIA, directmanipulation/DIRECTMANIPULATION_READY, directmanipulation/DIRECTMANIPULATION_RUNNING, directmanipulation/DIRECTMANIPULATION_STATUS, directmanipulation/DIRECTMANIPULATION_SUSPENDED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

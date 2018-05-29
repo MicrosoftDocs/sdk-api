@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqUnregisterPlatformEvents
 title: RtwqUnregisterPlatformEvents function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a listener event from the callback platform.
 old-location: base\rtwqunregisterplatformevents.htm
 old-project: ProcThread
 ms.assetid: C1AB42C4-745B-46D6-9A1C-B5FD2443F48B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function, base.rtwqunregisterplatformevents, rtworkq/RtwqUnregisterPlatformEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

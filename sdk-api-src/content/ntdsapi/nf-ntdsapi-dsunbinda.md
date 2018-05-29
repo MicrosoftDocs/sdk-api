@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsUnBindA
 title: DsUnBindA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS).
 old-location: ad\dsunbind.htm
 old-project: AD
 ms.assetid: 7106d67f-d421-4a7c-b775-440e5944f25e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsUnBind, DsUnBind function [Active Directory], DsUnBindA, DsUnBindW, _glines_dsunbind, ad.dsunbind, ntdsapi/DsUnBind, ntdsapi/DsUnBindA, ntdsapi/DsUnBindW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

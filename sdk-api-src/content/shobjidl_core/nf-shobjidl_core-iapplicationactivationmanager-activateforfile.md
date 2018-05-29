@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateForFile
 title: IApplicationActivationManager::ActivateForFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates the specified Windows Store app for the file contract (Windows.File).
 old-location: shell\IApplicationActivationManager_ActivateForFile.htm
 old-project: shell
 ms.assetid: E7EBB743-4847-4966-A2EA-486BBA6A4A6F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateForFile method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForFile method, IApplicationActivationManager.ActivateForFile, IApplicationActivationManager::ActivateForFile, shell.IApplicationActivationManager_ActivateForFile, shobjidl_core/IApplicationActivationManager::ActivateForFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

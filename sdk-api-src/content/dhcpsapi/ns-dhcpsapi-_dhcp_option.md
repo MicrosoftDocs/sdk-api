@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION
 title: "_DHCP_OPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_OPTION structure defines a single DHCP option and any data elements associated with it.
 old-location: dhcp\dhcp_option.htm
 old-project: DHCP
 ms.assetid: 1be34eb4-a226-4f07-b763-173a4f8a0671
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_OPTION, DHCP_OPTION, DHCP_OPTION structure [DHCP], LPDHCP_OPTION, LPDHCP_OPTION structure pointer [DHCP], _DHCP_OPTION, dhcp.dhcp_option, dhcpsapi/DHCP_OPTION, dhcpsapi/LPDHCP_OPTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

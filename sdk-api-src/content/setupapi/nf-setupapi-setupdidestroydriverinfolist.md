@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiDestroyDriverInfoList
 title: SetupDiDestroyDriverInfoList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiDestroyDriverInfoList function deletes a driver list.
 old-location: devinst\setupdidestroydriverinfolist.htm
 old-project: devinst
 ms.assetid: d8067609-1046-4641-9f57-b0ee2be5a3b2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiDestroyDriverInfoList, SetupDiDestroyDriverInfoList function [Device and Driver Installation], devinst.setupdidestroydriverinfolist, di-rtns_6eade614-a4f8-40cc-beb7-0d6728b1ad53.xml, setupapi/SetupDiDestroyDriverInfoList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

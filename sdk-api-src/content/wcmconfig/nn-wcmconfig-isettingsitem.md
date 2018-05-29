@@ -1,16 +1,16 @@
 ---
 UID: NN:wcmconfig.ISettingsItem
 title: ISettingsItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Navigates the settings tree, retrieves the metadata for a particular setting, and retrieves or modify its value.
 old-location: smi\isettingsitem.htm
 old-project: SMI
 ms.assetid: a743d942-69f9-426b-be88-adf88b9bb1e0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISettingsItem, ISettingsItem interface [SMI], ISettingsItem interface [SMI],described, smi.isettingsitem, wcmconfig/ISettingsItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

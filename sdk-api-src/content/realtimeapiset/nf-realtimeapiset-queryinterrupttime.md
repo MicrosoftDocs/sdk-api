@@ -1,16 +1,16 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTime
 title: QueryInterruptTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current interrupt-time count.
 old-location: base\queryinterrupttime.htm
 old-project: SysInfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QueryInterruptTime, QueryInterruptTime function, base.queryinterrupttime, realtimeapiset/QueryInterruptTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 

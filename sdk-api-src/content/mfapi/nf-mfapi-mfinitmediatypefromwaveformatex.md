@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromWaveFormatEx
 title: MFInitMediaTypeFromWaveFormatEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a media type from a WAVEFORMATEX structure.
 old-location: mf\mfinitmediatypefromwaveformatex.htm
 old-project: medfound
 ms.assetid: 91a201a6-06cf-4445-ad62-fdabb3848d51
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormatEx, MFInitMediaTypeFromWaveFormatEx function [Media Foundation], mf.mfinitmediatypefromwaveformatex, mfapi/MFInitMediaTypeFromWaveFormatEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo.GetVMGAttributes
 title: IDvdInfo::GetVMGAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for video manager (VMG) menus.
 old-location: dshow\idvdinfo_getvmgattributes.htm
 old-project: DirectShow
 ms.assetid: 449e7139-ed9f-46de-ac92-d1d67757799b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetVMGAttributes, GetVMGAttributes method [DirectShow], GetVMGAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetVMGAttributes method, IDvdInfo.GetVMGAttributes, IDvdInfo::GetVMGAttributes, IDvdInfoGetVMGAttributes, dshow.idvdinfo_getvmgattributes, strmif/IDvdInfo::GetVMGAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMPortNumberRange
 title: "_WMPortNumberRange"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_PORT_NUMBER_RANGE structure describes the range of port numbers used by the IWMReaderNetworkConfig interface.
 old-location: wmformat\wm_port_number_range.htm
 old-project: wmformat
 ms.assetid: 122db3fa-36bb-4d0c-9d05-0b7ae37f9187
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_PORT_NUMBER_RANGE, WM_PORT_NUMBER_RANGE structure [windows Media Format], _WMPortNumberRange, structure [windows Media Format], wmformat.wm_port_number_range, wmsdkidl/WM_PORT_NUMBER_RANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICJpegYCrCbSubsamplingOption
 title: WICJpegYCrCbSubsamplingOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the JPEG YCrCB subsampling options.
 old-location: wic\_wic_codec_wicjpegycrcbsubsamplingoption.htm
 old-project: wic
 ms.assetid: 6ff16a79-35c9-4230-8f1c-a5c40aecc09e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICJpegYCrCbSubsampling420, WICJpegYCrCbSubsampling422, WICJpegYCrCbSubsampling440, WICJpegYCrCbSubsampling444, WICJpegYCrCbSubsamplingDefault, WICJpegYCrCbSubsamplingOption, WICJpegYCrCbSubsamplingOption enumeration [Windows Imaging Component], _wic_codec_wicjpegycrcbsubsamplingoption, wic._wic_codec_wicjpegycrcbsubsamplingoption, wincodec/WICJpegYCrCbSubsampling420, wincodec/WICJpegYCrCbSubsampling422, wincodec/WICJpegYCrCbSubsampling440, wincodec/WICJpegYCrCbSubsampling444, wincodec/WICJpegYCrCbSubsamplingDefault, wincodec/WICJpegYCrCbSubsamplingOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:snmp.SnmpExtensionInit
 title: SnmpExtensionInit function
-author: windows-driver-content
+author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionInit function to initialize the SNMP extension agent DLL. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensioninit.htm
 old-project: SNMP
 ms.assetid: 015f2be2-8e10-4abd-afd0-f76834856733
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpExtensionInit, SnmpExtensionInit callback, SnmpExtensionInit callback function [SNMP], _snmp_snmpextensioninit, snmp.snmpextensioninit, snmp/SnmpExtensionInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

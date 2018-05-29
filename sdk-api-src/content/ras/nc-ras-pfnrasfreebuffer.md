@@ -1,16 +1,16 @@
 ---
 UID: NC:ras.PFNRASFREEBUFFER
 title: PFNRASFREEBUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.
 old-location: rras\rasfreebuffer.htm
 old-project: RRAS
 ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

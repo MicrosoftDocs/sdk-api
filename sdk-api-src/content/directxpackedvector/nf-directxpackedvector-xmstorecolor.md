@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMStoreColor
 title: XMStoreColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an XMVECTOR in an XMCOLOR.
 old-location: dxmath\xmstorecolor.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreColor(XMCOLOR@,XMVECTOR)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreColor, XMStoreColor, XMStoreColor method [DirectX Math Support APIs], dxmath.xmstorecolor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

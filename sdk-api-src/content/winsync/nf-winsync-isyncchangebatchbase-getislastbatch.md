@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetIsLastBatch
 title: ISyncChangeBatchBase::GetIsLastBatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a flag that indicates whether the changes in this change batch are the last batch of a synchronization session.
 old-location: winsync\isyncchangebatchbase_getislastbatch.htm
 old-project: winsync
 ms.assetid: 74b82fde-c492-4d5f-a680-62b836420cee
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetIsLastBatch method, ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

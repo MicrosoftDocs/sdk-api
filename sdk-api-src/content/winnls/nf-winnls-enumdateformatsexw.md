@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.EnumDateFormatsExW
 title: EnumDateFormatsExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the long date, short date, or year/month formats that are available for a specified locale.Note  Any application that runs only on Windows Vista and later should use EnumDateFormatsExEx in preference to this function.
 old-location: intl\enumdateformatsex.htm
 old-project: Intl
 ms.assetid: 523ef50f-722a-48b9-a2ce-20786b7c79e1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumDateFormatsEx, EnumDateFormatsEx function [Internationalization for Windows Applications], EnumDateFormatsExA, EnumDateFormatsExW, _win32_EnumDateFormatsEx, intl.enumdateformatsex, winnls/EnumDateFormatsEx, winnls/EnumDateFormatsExA, winnls/EnumDateFormatsExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

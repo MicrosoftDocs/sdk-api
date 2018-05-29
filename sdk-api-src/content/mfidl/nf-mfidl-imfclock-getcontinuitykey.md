@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFClock.GetContinuityKey
 title: IMFClock::GetContinuityKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the clock's continuity key. (Not supported.).
 old-location: mf\imfclock_getcontinuitykey.htm
 old-project: medfound
 ms.assetid: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f, GetContinuityKey, GetContinuityKey method [Media Foundation], GetContinuityKey method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetContinuityKey method, IMFClock.GetContinuityKey, IMFClock::GetContinuityKey, mf.imfclock_getcontinuitykey, mfidl/IMFClock::GetContinuityKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

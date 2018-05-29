@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.ResolveIpNetEntry2
 title: ResolveIpNetEntry2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Resolves the physical address for a neighbor IP address entry on the local computer.
 old-location: iphlp\resolveipnetentry2.htm
 old-project: IpHlp
 ms.assetid: 37f9dc58-362d-413e-a593-4dda52fb7d8b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

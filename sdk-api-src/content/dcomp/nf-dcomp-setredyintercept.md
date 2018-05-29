@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetRedYIntercept
 title: SetRedYIntercept function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the red channel.
 old-location: directcomp\idcompositionlineartransfereffect_setredyintercept_overloaded.htm
 old-project: directcomp
 ms.assetid: 1ecb0d5e-a180-f135-a732-ebc0ea84e7b4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionLinearTransferEffect::setredyintercept, SetRedYIntercept, SetRedYIntercept methods [DirectComposition], dcomp/SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

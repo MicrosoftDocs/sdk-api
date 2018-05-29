@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATCDFClose
 title: CryptCATCDFClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
 old-location: security\cryptcatcdfclose.htm
 old-project: SecCrypto
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATCDFClose, CryptCATCDFClose function [Security], mscat/CryptCATCDFClose, security.cryptcatcdfclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

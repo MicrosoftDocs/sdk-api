@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi.DXGI_SWAP_CHAIN_DESC
 title: DXGI_SWAP_CHAIN_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a swap chain.
 old-location: direct3ddxgi\dxgi_swap_chain_desc.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_chain_desc.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 04b5d6e7-f014-9f92-ee14-6dd943b40ce5, DXGI_SWAP_CHAIN_DESC, DXGI_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_swap_chain_desc, dxgi/DXGI_SWAP_CHAIN_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 

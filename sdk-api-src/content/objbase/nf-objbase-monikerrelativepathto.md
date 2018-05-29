@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.MonikerRelativePathTo
 title: MonikerRelativePathTo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a moniker that, when composed onto the end of the first specified moniker (or one with a similar structure), yields the second specified moniker.
 old-location: com\monikerrelativepathto.htm
 old-project: com
 ms.assetid: 55ab4db3-a94e-48ba-abe3-44963c35e062
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MonikerRelativePathTo, MonikerRelativePathTo function [COM], _com_MonikerRelativePathTo, com.monikerrelativepathto, objbase/MonikerRelativePathTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoDisconnectContext
 title: CoDisconnectContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects all proxy connections that are being maintained on behalf of all interface pointers that point to objects in the current context.
 old-location: com\codisconnectcontext.htm
 old-project: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

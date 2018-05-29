@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOpenDialog.GetSelectedItems
 title: IFileOpenDialog::GetSelectedItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
 old-location: shell\IFileOpenDialog_GetSelectedItems.htm
 old-project: shell
 ms.assetid: 5fc53607-60d2-4d23-b11e-779c26c02b0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetSelectedItems method, IFileOpenDialog.GetSelectedItems, IFileOpenDialog::GetSelectedItems, shell.IFileOpenDialog_GetSelectedItems, shell_IFileOpenDialog_GetSelectedItems, shobjidl_core/IFileOpenDialog::GetSelectedItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

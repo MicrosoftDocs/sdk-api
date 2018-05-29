@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLUninstallLicense
 title: SLUninstallLicense function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uninstalls the license specified by the license file ID and target user option.
 old-location: security\sluninstalllicense.htm
 old-project: SecSLApi
 ms.assetid: 1f79a26e-7605-46ad-9854-e90e73320184
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLUninstallLicense, SLUninstallLicense function [Security], security.sluninstalllicense, slpublic/SLUninstallLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

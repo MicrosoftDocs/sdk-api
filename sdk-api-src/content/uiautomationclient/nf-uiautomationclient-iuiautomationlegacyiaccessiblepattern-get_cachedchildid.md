@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedChildId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility child identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId.htm
 old-project: WinAuto
 ms.assetid: 31b64e45-51dc-485a-8318-2e8db690f3c0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedChildId property [Windows Accessibility], CachedChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedChildId property, IUIAutomationLegacyIAccessiblePattern.CachedChildId, IUIAutomationLegacyIAccessiblePattern.get_CachedChildId, IUIAutomationLegacyIAccessiblePattern::CachedChildId, IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, get_CachedChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

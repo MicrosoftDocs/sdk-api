@@ -1,16 +1,16 @@
 ---
 UID: NC:cryptdlg.PFNCMHOOKPROC
 title: PFNCMHOOKPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: Called before messages are processed by the certificate selection dialog box produced by the CertSelectCertificate function.
 old-location: security\pfncmhookproc.htm
 old-project: SecCrypto
 ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 

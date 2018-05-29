@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagGESTURENOTIFYSTRUCT
 title: tagGESTURENOTIFYSTRUCT
-author: windows-driver-content
+author: windows-sdk-content
 description: When transmitted with WM_GESTURENOTIFY messages, passes information about a gesture.
 old-location: wintouch\gesturenotifystruct.htm
 old-project: wintouch
 ms.assetid: e887c026-9300-4d20-8925-9939a664cd53
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*PGESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT structure [Windows Touch], PGESTURENOTIFYSTRUCT, PGESTURENOTIFYSTRUCT structure pointer [Windows Touch], tagGESTURENOTIFYSTRUCT, wintouch.gesturenotifystruct, winuser/GESTURENOTIFYSTRUCT, winuser/PGESTURENOTIFYSTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

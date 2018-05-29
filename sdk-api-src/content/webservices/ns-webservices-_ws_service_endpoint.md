@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT
 title: "_WS_SERVICE_ENDPOINT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an individual endpoint on a service host. The properties on the endpoint are used to specify the address, binding and contract.
 old-location: wsw\ws_service_endpoint.htm
 old-project: wsw
 ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_ENDPOINT, WS_SERVICE_ENDPOINT structure [Web Services for Windows], _WS_SERVICE_ENDPOINT, webservices/WS_SERVICE_ENDPOINT, wsw.ws_service_endpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcQueryFlowA
 title: TcQueryFlowA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcQueryFlow function queries traffic control for the value of a specific flow parameter based on the name of the flow. The name of a flow can be retrieved from the TcEnumerateFlows function or from the TcGetFlowName function.
 old-location: qos\tcqueryflow.htm
 old-project: QOS
 ms.assetid: 3662fdac-9d8c-4e8d-a56e-2b34d9597211
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcQueryFlow, TcQueryFlow function [QOS], TcQueryFlowA, TcQueryFlowW, _gqos_tcqueryflow, qos.tcqueryflow, traffic/TcQueryFlow, traffic/TcQueryFlowA, traffic/TcQueryFlowW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

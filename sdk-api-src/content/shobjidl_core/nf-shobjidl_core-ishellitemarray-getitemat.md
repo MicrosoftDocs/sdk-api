@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetItemAt
 title: IShellItemArray::GetItemAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the item at the given index in the IShellItemArray.
 old-location: shell\IShellItemArray_GetItemAt.htm
 old-project: shell
 ms.assetid: 58307102-1ae3-4249-81e0-25c1166500d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetItemAt, GetItemAt method [Windows Shell], GetItemAt method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetItemAt method, IShellItemArray.GetItemAt, IShellItemArray::GetItemAt, _shell_IShellItemArray_GetItemAt, shell.IShellItemArray_GetItemAt, shobjidl_core/IShellItemArray::GetItemAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmConnectionDestroyEnumHandle0
 title: FwpmConnectionDestroyEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a handle returned by FwpmConnectionCreateEnumHandle0.
 old-location: fwp\fwpmconnectiondestroyenumhandle0.htm
 old-project: FWP
 ms.assetid: 0325908e-4d2b-4cdb-9cfa-f2985a76dba9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmConnectionDestroyEnumHandle0, FwpmConnectionDestroyEnumHandle0 function [Filtering], fwp.fwpmconnectiondestroyenumhandle0, fwpmu/FwpmConnectionDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:wofapi.WofEnumFilesProc
 title: WofEnumFilesProc
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback function that gets called for each file backed by an external data source, such as a WIM file.
 old-location: fs\wofenumfilesproc.htm
 old-project: FileIO
 ms.assetid: E710869D-68A9-4E30-96DE-6313A5A182D8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WofEnumFilesProc, WofEnumFilesProc function, WofEnumFilesProc function pointer [Files], fs.wofenumfilesproc, wofapi/WofEnumFilesProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wofapi.h
 req.include-header: 

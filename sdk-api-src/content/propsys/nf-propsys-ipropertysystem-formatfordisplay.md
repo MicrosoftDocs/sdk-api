@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertySystem.FormatForDisplay
 title: IPropertySystem::FormatForDisplay
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value.
 old-location: properties\IPropertySystem_FormatForDisplay.htm
 old-project: properties
 ms.assetid: 674b1651-6354-4995-abeb-271df3748e1b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplay method, IPropertySystem.FormatForDisplay, IPropertySystem::FormatForDisplay, properties.IPropertySystem_FormatForDisplay, propsys/IPropertySystem::FormatForDisplay, shell.IPropertySystem_FormatForDisplay, shell_IPropertySystem_FormatForDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

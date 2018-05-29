@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext2.GetAssignedScopesPage
 title: IAzClientContext2::GetAssignedScopesPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of the scopes in which the client represented by the current IAzClientContext2 object is assigned to at least one role.
 old-location: security\iazclientcontext2_getassignedscopespage.htm
 old-project: SecAuthZ
 ms.assetid: 496dd834-37d9-41f6-a552-39c558dd60b3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AZ_CLIENT_CONTEXT_SKIP_LDAP_QUERY, GetAssignedScopesPage, GetAssignedScopesPage method [Security], GetAssignedScopesPage method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],GetAssignedScopesPage method, IAzClientContext2.GetAssignedScopesPage, IAzClientContext2::GetAssignedScopesPage, azroles/IAzClientContext2::GetAssignedScopesPage, security.iazclientcontext2_getassignedscopespage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

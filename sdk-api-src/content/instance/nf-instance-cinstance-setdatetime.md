@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.SetDateTime
 title: CInstance::SetDateTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDateTime method sets a datetime property.
 old-location: wmi\cinstance_setdatetime.htm
 old-project: WmiSdk
 ms.assetid: 728ad7d3-f56d-472e-976d-59d8598f3bad
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z, ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z, CInstance interface [Windows Management Instrumentation],SetDateTime method, CInstance.SetDateTime, CInstance::SetDateTime, SetDateTime, SetDateTime method [Windows Management Instrumentation], SetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdatetime, instance/CInstance::SetDateTime, wmi.cinstance_setdatetime"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

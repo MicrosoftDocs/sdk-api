@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_CoverpageSubject
 title: IFaxDoc::put_CoverpageSubject
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_coverpagesubject_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6svo.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CoverpageSubject property [Fax Service], CoverpageSubject property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageSubject property, FaxDoc.CoverpageSubject, IFaxDoc.put_CoverpageSubject, IFaxDoc::put_CoverpageSubject, _mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject_vb, put_CoverpageSubject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

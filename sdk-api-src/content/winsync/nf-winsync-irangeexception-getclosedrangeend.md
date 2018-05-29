@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IRangeException.GetClosedRangeEnd
 title: IRangeException::GetClosedRangeEnd
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the upper bound of the range of item IDs to exclude.
 old-location: winsync\irangeexception_getclosedrangeend.htm
 old-project: winsync
 ms.assetid: 1725d0b8-2ecb-4cce-b20f-7e8d0da502de
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetClosedRangeEnd, GetClosedRangeEnd method [Windows Sync], GetClosedRangeEnd method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeEnd method, IRangeException.GetClosedRangeEnd, IRangeException::GetClosedRangeEnd, winsync.irangeexception_getclosedrangeend, winsync/IRangeException::GetClosedRangeEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

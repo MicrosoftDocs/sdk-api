@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.SetProperty
 title: IAzApplicationGroup::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the specified value to the IAzApplicationGroup object property with the specified property ID.
 old-location: security\iazapplicationgroup_setproperty.htm
 old-project: SecAuthZ
 ms.assetid: c1af01f2-bd86-4404-a281-2024777dafaa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AzApplicationGroup object [Security],SetProperty method, IAzApplicationGroup interface [Security],SetProperty method, IAzApplicationGroup.SetProperty, IAzApplicationGroup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplicationGroup object, SetProperty method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::SetProperty, security.iazapplicationgroup_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

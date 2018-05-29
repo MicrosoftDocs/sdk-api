@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcPackage
 title: IOpcPackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a package and provides methods to access the package's parts and relationships.
 old-location: opc\iopcpackage.htm
 old-project: OPC
 ms.assetid: e7052dd2-c910-41d8-a58a-8f3e68e09dd0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcPackage, IOpcPackage interface [Open Packaging Conventions], IOpcPackage interface [Open Packaging Conventions],described, msopc/IOpcPackage, opc.iopcpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

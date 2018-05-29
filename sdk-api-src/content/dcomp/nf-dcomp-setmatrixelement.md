@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetMatrixElement
 title: SetMatrixElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an element of the color matrix.
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement_overloaded.htm
 old-project: directcomp
 ms.assetid: 47fd4fa3-d10f-7750-c7ef-fd03e8cf933a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetMatrixElement, SetMatrixElement methods [DirectComposition], dcomp/SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement_overloaded, idcompositioncolormatrixeffect::SetMatrixElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

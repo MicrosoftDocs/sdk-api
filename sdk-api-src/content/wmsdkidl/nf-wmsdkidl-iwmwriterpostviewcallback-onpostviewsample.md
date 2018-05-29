@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.OnPostViewSample
 title: IWMWriterPostViewCallback::OnPostViewSample
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnPostViewSample method is called when new postview data is available. The application implements this method.
 old-location: wmformat\iwmwriterpostviewcallback_onpostviewsample.htm
 old-project: wmformat
 ms.assetid: 5d29a746-70fe-495e-a7f2-dbf085829496
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterPostViewCallback interface [windows Media Format],OnPostViewSample method, IWMWriterPostViewCallback.OnPostViewSample, IWMWriterPostViewCallback::OnPostViewSample, IWMWriterPostViewCallbackOnPostViewSample, OnPostViewSample, OnPostViewSample method [windows Media Format], OnPostViewSample method [windows Media Format],IWMWriterPostViewCallback interface, wmformat.iwmwriterpostviewcallback_onpostviewsample, wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

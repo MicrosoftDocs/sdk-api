@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi.CLUS_FTSET_INFO
 title: CLUS_FTSET_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an FT (fault tolerant) set. This structure is used by the CLUSPROP_FTSET_INFO structure to create an entry in a value list.
 old-location: mscs\clus_ftset_info.htm
 old-project: MsCS
 ms.assetid: 75F2589D-8F4F-4B65-AE05-DA48A1EED03F
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUS_FTSET_INFO, CLUS_FTSET_INFO, CLUS_FTSET_INFO structure [Failover Cluster], PCLUS_FTSET_INFO, PCLUS_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUS_FTSET_INFO, clusapi/PCLUS_FTSET_INFO, mscs.clus_ftset_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

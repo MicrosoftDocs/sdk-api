@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.IsFileValidated
 title: IBitsPeerCacheRecord::IsFileValidated
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the file has been validated.
 old-location: bits\ibitspeercacherecord_isfilevalidated.htm
 old-project: Bits
 ms.assetid: f492f009-bef7-412e-8626-ae84cd5ce03f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBitsPeerCacheRecord interface [BITS],IsFileValidated method, IBitsPeerCacheRecord.IsFileValidated, IBitsPeerCacheRecord::IsFileValidated, IsFileValidated, IsFileValidated method [BITS], IsFileValidated method [BITS],IBitsPeerCacheRecord interface, bits.ibitspeercacherecord_isfilevalidated, bits3_0/IBitsPeerCacheRecord::IsFileValidated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

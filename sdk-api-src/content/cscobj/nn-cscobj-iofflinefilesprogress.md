@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesProgress
 title: IOfflineFilesProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to report progress back to callers of lengthy Offline Files operations.
 old-location: of\iofflinefilesprogress.htm
 old-project: OfflineFiles
 ms.assetid: b568a8c6-119b-486e-94e3-fe4e54a395bb
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], IOfflineFilesProgress interface [Offline Files],described, cscobj/IOfflineFilesProgress, of.iofflinefilesprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

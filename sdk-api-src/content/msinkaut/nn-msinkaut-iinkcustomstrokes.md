@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkCustomStrokes
 title: IInkCustomStrokes
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a collection of user-defined InkStrokes collections.
 old-location: tablet\iinkcustomstrokes.htm
 old-project: tablet
 ms.assetid: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], IInkCustomStrokes interface [Tablet PC],described, msinkaut/IInkCustomStrokes, tablet.iinkcustomstrokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

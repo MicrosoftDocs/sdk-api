@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 title: "_SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the relationships of logical processors and related hardware. The GetLogicalProcessorInformationEx function uses this structure.
 old-location: base\system_logical_processor_information_ex.htm
 old-project: ProcThread
 ms.assetid: 6ff16cda-c1dc-4d5c-ac60-756653cd6b07
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure pointer, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, base.system_logical_processor_information_ex, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.OnWindowMessage
 title: IOleInPlaceObjectWindowless::OnWindowMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: Dispatches a message from a container to a windowless object that is in-place active.
 old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm
 old-project: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

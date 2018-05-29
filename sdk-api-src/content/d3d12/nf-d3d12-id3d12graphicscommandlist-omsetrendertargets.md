@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetRenderTargets
 title: ID3D12GraphicsCommandList::OMSetRenderTargets
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets CPU descriptor handles for the render targets and depth stencil.
 old-location: direct3d12\id3d12graphicscommandlist_omsetrendertargets.htm
 old-project: direct3d12
 ms.assetid: FE565AA2-FA34-4824-870E-9C4C7C19C93C
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList interface,OMSetRenderTargets method, ID3D12GraphicsCommandList.OMSetRenderTargets, ID3D12GraphicsCommandList::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method, OMSetRenderTargets method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetRenderTargets, direct3d12.id3d12graphicscommandlist_omsetrendertargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

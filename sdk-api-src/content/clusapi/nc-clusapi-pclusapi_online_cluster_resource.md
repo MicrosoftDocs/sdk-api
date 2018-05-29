@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_ONLINE_CLUSTER_RESOURCE
 title: PCLUSAPI_ONLINE_CLUSTER_RESOURCE
-author: windows-driver-content
+author: windows-sdk-content
 description: Brings an offline or failed resource online.
 old-location: mscs\onlineclusterresource.htm
 old-project: MsCS
 ms.assetid: 8ea8d741-f6f7-48eb-9678-bbb53f76a9ec
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_ONLINE_CLUSTER_RESOURCE, PCLUSAPI_ONLINE_CLUSTER_RESOURCE callback, PCLUSAPI_ONLINE_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_onlineclusterresource, clusapi/PCLUSAPI_ONLINE_CLUSTER_RESOURCE, mscs.onlineclusterresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

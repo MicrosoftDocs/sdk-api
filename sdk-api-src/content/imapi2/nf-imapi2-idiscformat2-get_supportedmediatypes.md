@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_SupportedMediaTypes
 title: IDiscFormat2::get_SupportedMediaTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the media types that are supported by the current implementation of the IDiscFormat2 interface.
 old-location: imapi\idiscformat2_get_supportedmediatypes.htm
 old-project: imapi
 ms.assetid: 281eacb5-f991-4d3f-95bb-6c2469d67a5c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_SupportedMediaTypes method, IDiscFormat2.get_SupportedMediaTypes, IDiscFormat2::get_SupportedMediaTypes, get_SupportedMediaTypes, get_SupportedMediaTypes method [IMAPI], get_SupportedMediaTypes method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_supportedmediatypes, imapi2/IDiscFormat2::get_SupportedMediaTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

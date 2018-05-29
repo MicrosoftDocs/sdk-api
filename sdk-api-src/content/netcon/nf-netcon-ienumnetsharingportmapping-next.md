@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Next
 title: IEnumNetSharingPortMapping::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method retrieves the specified number of port mappings that start from the current enumeration position.
 old-location: ics\ienumnetsharingportmapping_next.htm
 old-project: ICS
 ms.assetid: bf90fca7-0c4f-474f-a856-7d6865ea8f03
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Next method, IEnumNetSharingPortMapping.Next, IEnumNetSharingPortMapping::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_next, ics.ienumnetsharingportmapping_next, netcon/IEnumNetSharingPortMapping::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

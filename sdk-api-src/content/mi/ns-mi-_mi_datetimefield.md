@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_DatetimeField
 title: "_MI_DatetimeField"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_datetimefield.htm
 old-project: wmi_v2
 ms.assetid: aea7c78a-de7a-48ff-950f-836c1b6c5176
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DatetimeField, MI_DatetimeField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_DatetimeField, mi/MI_DatetimeField, wmi._mi_datetimefield, wmi_v2.mi_datetimefield
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

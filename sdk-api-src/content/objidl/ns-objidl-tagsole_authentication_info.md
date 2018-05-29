@@ -1,16 +1,16 @@
 ---
 UID: NS:objidl.tagSOLE_AUTHENTICATION_INFO
 title: tagSOLE_AUTHENTICATION_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies an authentication service, authorization service, and the authentication information for the specified authentication service.
 old-location: com\sole_authentication_info.htm
 old-project: com
 ms.assetid: 23beb1b1-e4b7-4282-9868-5caf40a69a61
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO structure pointer [COM], SOLE_AUTHENTICATION_INFO, SOLE_AUTHENTICATION_INFO structure [COM], _com_SOLE_AUTHENTICATION_INFO, com.sole_authentication_info, objidlbase/PSOLE_AUTHENTICATION_INFO, objidlbase/SOLE_AUTHENTICATION_INFO, tagSOLE_AUTHENTICATION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: Objidl.h

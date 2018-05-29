@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDistributorNotify.Pause
 title: IDistributorNotify::Pause
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pause method is called when the filter graph is entering a paused state.
 old-location: dshow\idistributornotify_pause.htm
 old-project: DirectShow
 ms.assetid: d8fcb5c0-4530-4084-adba-170a647588b1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Pause method, IDistributorNotify.Pause, IDistributorNotify::Pause, IDistributorNotifyPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_pause, strmif/IDistributorNotify::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

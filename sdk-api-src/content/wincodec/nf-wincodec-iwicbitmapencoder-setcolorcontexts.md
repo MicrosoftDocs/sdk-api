@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetColorContexts
 title: IWICBitmapEncoder::SetColorContexts
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the IWICColorContext objects for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_setcolorcontexts.htm
 old-project: wic
 ms.assetid: 68e64db9-ee6a-4dc3-bf74-34274211e2dc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetColorContexts method, IWICBitmapEncoder.SetColorContexts, IWICBitmapEncoder::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setcolorcontexts, wic._wic_codec_iwicbitmapencoder_setcolorcontexts, wincodec/IWICBitmapEncoder::SetColorContexts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

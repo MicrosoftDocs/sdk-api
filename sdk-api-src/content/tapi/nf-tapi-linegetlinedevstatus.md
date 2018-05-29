@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetLineDevStatus
 title: lineGetLineDevStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetLineDevStatus function enables an application to query the specified open line device for its current status.
 old-location: tapi2\linegetlinedevstatus.htm
 old-project: Tapi
 ms.assetid: 9c0fa2ba-1157-43d2-af56-aa4e0c28bd05
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetlinedevstatus, lineGetLineDevStatus, lineGetLineDevStatus function [TAPI 2.2], lineGetLineDevStatusA, lineGetLineDevStatusW, tapi/lineGetLineDevStatus, tapi/lineGetLineDevStatusA, tapi/lineGetLineDevStatusW, tapi2.linegetlinedevstatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

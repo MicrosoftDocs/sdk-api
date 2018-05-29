@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.D3D12CreateVersionedRootSignatureDeserializer
 title: D3D12CreateVersionedRootSignatureDeserializer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates an interface that can return the deserialized data structure, via GetUnconvertedRootSignatureDesc.
 old-location: direct3d12\d3d12createversionedrootsignaturedeserializer.htm
 old-project: direct3d12
 ms.assetid: 0C079508-C330-4391-82CB-54DAAFBACB87
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12CreateVersionedRootSignatureDeserializer, D3D12CreateVersionedRootSignatureDeserializer function, d3d12/D3D12CreateVersionedRootSignatureDeserializer, direct3d12.d3d12createversionedrootsignaturedeserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 

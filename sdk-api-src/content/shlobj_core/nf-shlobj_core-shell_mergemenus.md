@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.Shell_MergeMenus
 title: Shell_MergeMenus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shell_MergeMenus may be altered or unavailable.
 old-location: shell\Shell_MergeMenus.htm
 old-project: shell
 ms.assetid: f9e005fd-b1f2-4a5f-ad36-9c44998dc4eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MM_ADDSEPARATOR, MM_DONTREMOVESEPS, MM_SUBMENUSHAVEIDS, Shell_MergeMenus, Shell_MergeMenus function [Windows Shell], _win32_Shell_MergeMenus, shell.Shell_MergeMenus, shlobj_core/Shell_MergeMenus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

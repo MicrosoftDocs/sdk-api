@@ -1,16 +1,16 @@
 ---
 UID: NS:fwptypes.FWPM_DISPLAY_DATA0_
 title: FWPM_DISPLAY_DATA0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an optional friendly name and an optional description for an object.
 old-location: fwp\fwpm_display_data0_struct.htm
 old-project: FWP
 ms.assetid: b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_DISPLAY_DATA0_, fwp.fwpm_display_data0_struct, fwptypes/FWPM_DISPLAY_DATA0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

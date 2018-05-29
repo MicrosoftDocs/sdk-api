@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.SetConnectState
 title: IOfflineFilesConnectionInfo::SetConnectState
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the connection state for an item.
 old-location: of\iofflinefilesconnectioninfo_setconnectstate.htm
 old-project: OfflineFiles
 ms.assetid: 42412f42-7a70-4110-88ec-a38b3df7d2da
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],SetConnectState method, IOfflineFilesConnectionInfo.SetConnectState, IOfflineFilesConnectionInfo::SetConnectState, OFFLINEFILES_CONNECT_STATE_OFFLINE, OFFLINEFILES_CONNECT_STATE_ONLINE, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, SetConnectState, SetConnectState method [Offline Files], SetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::SetConnectState, of.iofflinefilesconnectioninfo_setconnectstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

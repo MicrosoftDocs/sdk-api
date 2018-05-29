@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminReleaseIpv6AddressForUser
 title: MprAdminReleaseIpv6AddressForUser function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminReleaseIpv6AddressForUser function is called once for each user that needs to release an IPv6 address.
 old-location: rras\mpradminreleaseipv6addressforuser.htm
 old-project: RRAS
 ms.assetid: c06433b3-d1b0-42d0-993d-5c1cde4cbc0f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminReleaseIpv6AddressForUser, MprAdminReleaseIpv6AddressForUser callback, MprAdminReleaseIpv6AddressForUser callback function [RAS], mprapi/MprAdminReleaseIpv6AddressForUser, rras.mpradminreleaseipv6addressforuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

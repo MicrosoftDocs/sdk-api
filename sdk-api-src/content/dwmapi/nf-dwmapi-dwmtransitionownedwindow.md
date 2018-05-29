@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmTransitionOwnedWindow
 title: DwmTransitionOwnedWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Coordinates the animations of tool windows with the Desktop Window Manager (DWM).
 old-location: dwm\dwmtransitionownedwindow.htm
 old-project: dwm
 ms.assetid: 12108F8D-7D9A-4459-9FC0-1856FD097CAA
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmTransitionOwnedWindow, DwmTransitionOwnedWindow function [Desktop Window Manager], dwm.dwmtransitionownedwindow, dwmapi/DwmTransitionOwnedWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

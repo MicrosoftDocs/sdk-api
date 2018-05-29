@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._SET_VIRTUAL_DISK_INFO_VERSION
 title: "_SET_VIRTUAL_DISK_INFO_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the version of the virtual disk SET_VIRTUAL_DISK_INFO structure to use in calls to VHD functions.
 old-location: vhd\set_virtual_disk_info_version.htm
 old-project: VStor
 ms.assetid: c9dd9d64-f96b-48f0-bc85-2f81ea3e2cb5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE, SET_VIRTUAL_DISK_INFO_IDENTIFIER, SET_VIRTUAL_DISK_INFO_PARENT_LOCATOR, SET_VIRTUAL_DISK_INFO_PARENT_PATH, SET_VIRTUAL_DISK_INFO_PARENT_PATH_WITH_DEPTH, SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE, SET_VIRTUAL_DISK_INFO_UNSPECIFIED, SET_VIRTUAL_DISK_INFO_VERSION, SET_VIRTUAL_DISK_INFO_VERSION enumeration [VHD], SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID, _SET_VIRTUAL_DISK_INFO_VERSION, vhd.set_virtual_disk_info_version, virtdisk/SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE, virtdisk/SET_VIRTUAL_DISK_INFO_IDENTIFIER, virtdisk/SET_VIRTUAL_DISK_INFO_PARENT_LOCATOR, virtdisk/SET_VIRTUAL_DISK_INFO_PARENT_PATH, virtdisk/SET_VIRTUAL_DISK_INFO_PARENT_PATH_WITH_DEPTH, virtdisk/SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE, virtdisk/SET_VIRTUAL_DISK_INFO_UNSPECIFIED, virtdisk/SET_VIRTUAL_DISK_INFO_VERSION, virtdisk/SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

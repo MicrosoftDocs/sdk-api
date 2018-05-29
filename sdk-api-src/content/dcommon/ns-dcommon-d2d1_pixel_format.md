@@ -1,16 +1,16 @@
 ---
 UID: NS:dcommon.D2D1_PIXEL_FORMAT
 title: D2D1_PIXEL_FORMAT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the data format and alpha mode for a bitmap or render target.
 old-location: direct2d\D2D1_PIXEL_FORMAT.htm
 old-project: Direct2D
 ms.assetid: e95afd9c-5793-4cb7-bcb8-aae4d28b6532
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_PIXEL_FORMAT, D2D1_PIXEL_FORMAT structure [Direct2D], dcommon/D2D1_PIXEL_FORMAT, direct2d.D2D1_PIXEL_FORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h

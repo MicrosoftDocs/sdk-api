@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadULONGLONG
 title: PSPropertyBag_ReadULONGLONG function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a ULONGLONG data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadULONGLONG.htm
 old-project: properties
 ms.assetid: 6DB59A95-D571-452b-8974-76B4CC3FA36F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadULONGLONG, PSPropertyBag_ReadULONGLONG function [Windows Properties], properties.PSPropertyBag_ReadULONGLONG, propsys/PSPropertyBag_ReadULONGLONG, shell.PSPropertyBag_ReadULONGLONG, shell_PSPropertyBag_ReadULONGLONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

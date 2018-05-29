@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.ISimilarity
 title: ISimilarity
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for storing and retrieving per-file similarity data and file IDs in a similarity file.
 old-location: rdc\isimilarity.htm
 old-project: Rdc
 ms.assetid: fe0cd874-a40c-4d82-99bf-b84008a4995c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISimilarity, ISimilarity interface [Remote Differential Compression], ISimilarity interface [Remote Differential Compression],described, fs.isimilarity, msrdc/ISimilarity, rdc.isimilarity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

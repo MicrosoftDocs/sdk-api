@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_RTV
 title: D3D10_TEX1D_RTV
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the subresource from a 1D texture to use in a render-target view.
 old-location: direct3d10\d3d10_tex1d_rtv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_rtv.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 591d1483-fde1-2aee-60bb-56aa133a09e4, D3D10_TEX1D_RTV, D3D10_TEX1D_RTV structure [Direct3D 10], d3d10/D3D10_TEX1D_RTV, direct3d10.d3d10_tex1d_rtv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

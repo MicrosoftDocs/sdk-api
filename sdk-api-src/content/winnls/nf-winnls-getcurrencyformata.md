@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetCurrencyFormatA
 title: GetCurrencyFormatA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a number string as a currency string for a locale specified by identifier.
 old-location: intl\getcurrencyformat.htm
 old-project: Intl
 ms.assetid: 43c51deb-ca92-4e14-8c27-3b588b7be061
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrencyFormat, GetCurrencyFormat function [Internationalization for Windows Applications], GetCurrencyFormatA, GetCurrencyFormatW, _win32_GetCurrencyFormat, intl.getcurrencyformat, winnls/GetCurrencyFormat, winnls/GetCurrencyFormatA, winnls/GetCurrencyFormatW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

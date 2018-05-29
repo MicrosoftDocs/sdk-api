@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.SetCredentialFlags
 title: IWMSInternalAdminNetSource::SetCredentialFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetCredentialFlags method is used to set the user preference for automatic password caching.
 old-location: wmformat\iwmsinternaladminnetsource_setcredentialflags.htm
 old-project: wmformat
 ms.assetid: af6208b3-84f6-44d1-9587-140044f2b2f0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],SetCredentialFlags method, IWMSInternalAdminNetSource.SetCredentialFlags, IWMSInternalAdminNetSource::SetCredentialFlags, IWMSInternalAdminNetSourceSetCredentialFlags, SetCredentialFlags, SetCredentialFlags method [windows Media Format], SetCredentialFlags method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_setcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentialFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 

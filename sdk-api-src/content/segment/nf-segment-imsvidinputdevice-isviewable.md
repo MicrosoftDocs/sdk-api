@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidInputDevice.IsViewable
 title: IMSVidInputDevice::IsViewable
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsViewable method determines whether this device can view the specified tune request.
 old-location: mstv\imsvidinputdevice_isviewable.htm
 old-project: mstv
 ms.assetid: 4f62bcc4-8c58-4663-9b1f-a5ed7d000a79
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],IsViewable method, IMSVidInputDevice.IsViewable, IMSVidInputDevice::IsViewable, IMSVidInputDeviceIsViewable, IsViewable, IsViewable method [Microsoft TV Technologies], IsViewable method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_isviewable, segment/IMSVidInputDevice::IsViewable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

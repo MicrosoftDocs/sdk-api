@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4EnumSubnetClients
 title: DhcpV4EnumSubnetClients function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all DHCP client records serviced from the specified IPv4 subnet.
 old-location: dhcp\dhcpv4enumsubnetclients.htm
 old-project: DHCP
 ms.assetid: f6c6113b-fabd-4094-a160-8da7a139bdc4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4EnumSubnetClients, DhcpV4EnumSubnetClients function [DHCP], dhcp.dhcpv4enumsubnetclients, dhcpsapi/DhcpV4EnumSubnetClients
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

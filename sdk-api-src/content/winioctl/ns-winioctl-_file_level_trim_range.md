@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._FILE_LEVEL_TRIM_RANGE
 title: "_FILE_LEVEL_TRIM_RANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a range of a file that is to be trimmed.
 old-location: fs\file_level_trim_range.htm
 old-project: FileIO
 ms.assetid: 2ee14239-68bb-40f6-b10b-2500d316dcc8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Files], PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE structure pointer [Files], _FILE_LEVEL_TRIM_RANGE, fs.file_level_trim_range, winioctl/FILE_LEVEL_TRIM_RANGE, winioctl/PFILE_LEVEL_TRIM_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

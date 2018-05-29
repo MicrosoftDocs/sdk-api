@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnFrameWindowActivateBS
 title: IBrowserService2::OnFrameWindowActivateBS
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class in response to a subframe window being activated or deactivated. The derived class determines what to do in response to the action.
 old-location: shell\IBrowserService2_OnFrameWindowActivateBS.htm
 old-project: shell
 ms.assetid: 02134f59-c162-4247-9508-7ba40eec388b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FALSE, IBrowserService2 interface [Windows Shell],OnFrameWindowActivateBS method, IBrowserService2.OnFrameWindowActivateBS, IBrowserService2::OnFrameWindowActivateBS, OnFrameWindowActivateBS, OnFrameWindowActivateBS method [Windows Shell], OnFrameWindowActivateBS method [Windows Shell],IBrowserService2 interface, TRUE, shdeprecated/IBrowserService2::OnFrameWindowActivateBS, shell.IBrowserService2_OnFrameWindowActivateBS, zone_IBrowserService2_OnFrameWindowActivateBS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

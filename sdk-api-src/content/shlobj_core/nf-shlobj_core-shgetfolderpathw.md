@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathW
 title: SHGetFolderPathW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated.
 old-location: shell\SHGetFolderPath.htm
 old-project: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

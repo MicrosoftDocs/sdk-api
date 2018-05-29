@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FtpCreateDirectoryA
 title: FtpCreateDirectoryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new directory on the FTP server.
 old-location: wininet\ftpcreatedirectory.htm
 old-project: WinInet
 ms.assetid: 51a33c5b-4e82-4148-8a3f-0cf7c0a8bac0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FtpCreateDirectory, FtpCreateDirectory function [WinINet], FtpCreateDirectoryA, FtpCreateDirectoryW, _inet_ftpcreatedirectory_function, wininet.ftpcreatedirectory, wininet/FtpCreateDirectory, wininet/FtpCreateDirectoryA, wininet/FtpCreateDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

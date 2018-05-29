@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventClass.get_Description
 title: IEventClass::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: A displayable text description of the event class object.
 old-location: cos\ieventclass_description.htm
 old-project: cossdk
 ms.assetid: 2232fd7e-2015-466f-afd1-15e5b546239a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Description property [COM+], Description property [COM+],IEventClass interface, IEventClass interface [COM+],Description property, IEventClass.Description, IEventClass.get_Description, IEventClass::Description, IEventClass::get_Description, IEventClass::put_Description, cos.ieventclass_description, eventsys/IEventClass::Description, eventsys/IEventClass::get_Description, eventsys/IEventClass::put_Description, get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h

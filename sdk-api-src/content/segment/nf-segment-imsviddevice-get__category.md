@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidDevice.get__Category
 title: IMSVidDevice::get__Category
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__Category method retrieves the category of the device as a GUID.
 old-location: mstv\imsviddevice_get__category.htm
 old-project: mstv
 ms.assetid: 2c5023ee-f38b-48c7-907d-363ca70bf94f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__Category method, IMSVidDevice.get__Category, IMSVidDevice::get__Category, IMSVidDeviceget__Category, get__Category, get__Category method [Microsoft TV Technologies], get__Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get__category, segment/IMSVidDevice::get__Category
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

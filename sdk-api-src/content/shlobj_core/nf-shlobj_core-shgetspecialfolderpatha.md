@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetSpecialFolderPathA
 title: SHGetSpecialFolderPathA function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHGetSpecialFolderPath is not supported. Instead, use ShGetFolderPath.
 old-location: shell\SHGetSpecialFolderPath.htm
 old-project: shell
 ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Shell], SHGetSpecialFolderPathA, SHGetSpecialFolderPathW, _win32_SHGetSpecialFolderPath, shell.SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPathA, shlobj_core/SHGetSpecialFolderPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

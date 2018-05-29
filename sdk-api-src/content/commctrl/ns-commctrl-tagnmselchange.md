@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMSELCHANGE
 title: tagNMSELCHANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Carries information required to process the MCN_SELCHANGE notification code.
 old-location: controls\NMSELCHANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmselchange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMSELCHANGE, *LPNMSELECT, LPNMSELCHANGE, LPNMSELCHANGE structure pointer [Windows Controls], NMSELCHANGE, NMSELCHANGE structure [Windows Controls], NMSELECT, _win32_NMSELCHANGE, _win32_NMSELCHANGE_cpp, commctrl/LPNMSELCHANGE, commctrl/NMSELCHANGE, controls.NMSELCHANGE, controls._win32_NMSELCHANGE, tagNMSELCHANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

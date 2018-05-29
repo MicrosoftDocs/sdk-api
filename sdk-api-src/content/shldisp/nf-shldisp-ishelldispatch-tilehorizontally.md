@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.TileHorizontally
 title: IShellDispatch::TileHorizontally
-author: windows-driver-content
+author: windows-sdk-content
 description: Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Show windows stacked.
 old-location: shell\IShellDispatch_TileHorizontally.htm
 old-project: shell
 ms.assetid: 85785510-6B75-450a-A9BB-6C3B4F6194E2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],TileHorizontally method, IShellDispatch.TileHorizontally, IShellDispatch::TileHorizontally, TileHorizontally, TileHorizontally method [Windows Shell], TileHorizontally method [Windows Shell],IShellDispatch object, shell.IShellDispatch_TileHorizontally
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

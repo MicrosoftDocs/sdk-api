@@ -1,16 +1,16 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE
 title: tagRECO_LATTICE
-author: windows-driver-content
+author: windows-sdk-content
 description: Serves as the entry point into a lattice.
 old-location: tablet\reco_lattice.htm
 old-project: tablet
 ms.assetid: 0fab8928-1632-4011-9d1d-2be5f6c5f22d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 0fab8928-1632-4011-9d1d-2be5f6c5f22d, RECO_LATTICE, RECO_LATTICE structure [Tablet PC], rectypes/RECO_LATTICE, tablet.reco_lattice, tagRECO_LATTICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

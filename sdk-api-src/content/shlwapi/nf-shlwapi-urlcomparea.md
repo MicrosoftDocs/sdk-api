@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlCompareA
 title: UrlCompareA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a case-sensitive comparison of two URL strings.
 old-location: shell\UrlCompare.htm
 old-project: shell
 ms.assetid: d5c9e003-b85b-4f9f-b231-e3e4b71d4ce6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCompareW, _win32_UrlCompare, shell.UrlCompare, shlwapi/UrlCompare, shlwapi/UrlCompareA, shlwapi/UrlCompareW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

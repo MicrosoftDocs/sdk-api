@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.IsInTransaction
 title: IObjectContextInfo::IsInTransaction
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the current object is executing in a transaction.
 old-location: cos\iobjectcontextinfo_isintransaction.htm
 old-project: cossdk
 ms.assetid: 8624e731-8296-4829-afae-fd48721a511c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IObjectContextInfo interface [COM+],IsInTransaction method, IObjectContextInfo.IsInTransaction, IObjectContextInfo::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],IObjectContextInfo interface, _cos_IObjectContextInfo_IsInTransaction, comsvcs/IObjectContextInfo::IsInTransaction, cos.iobjectcontextinfo_isintransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICPixelFormatNumericRepresentation
 title: WICPixelFormatNumericRepresentation
-author: windows-driver-content
+author: windows-sdk-content
 description: WICPixelFormatNumericRepresentation enumeration
 old-location: wic\_wic_codec_wicpixelformatnumericrepresentation.htm
 old-project: wic
 ms.assetid: 10f32ac9-4b0d-4d21-b54a-657513fbd142
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICPixelFormatNumericRepresentation, WICPixelFormatNumericRepresentation enumeration [Windows Imaging Component], WICPixelFormatNumericRepresentationFixed, WICPixelFormatNumericRepresentationFloat, WICPixelFormatNumericRepresentationIndexed, WICPixelFormatNumericRepresentationSignedInteger, WICPixelFormatNumericRepresentationUnsignedInteger, WICPixelFormatNumericRepresentationUnspecified, _wic_codec_wicpixelformatnumericrepresentation, wic._wic_codec_wicpixelformatnumericrepresentation, wincodec/WICPixelFormatNumericRepresentation, wincodec/WICPixelFormatNumericRepresentationFixed, wincodec/WICPixelFormatNumericRepresentationFloat, wincodec/WICPixelFormatNumericRepresentationIndexed, wincodec/WICPixelFormatNumericRepresentationSignedInteger, wincodec/WICPixelFormatNumericRepresentationUnsignedInteger, wincodec/WICPixelFormatNumericRepresentationUnspecified
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

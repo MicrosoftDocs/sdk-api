@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPError.get_item
 title: IWMPError::get_item
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_item method retrieves a pointer to an IWMPErrorItem interface from the error queue.
 old-location: wmp\iwmperror_get_item.htm
 old-project: WMP
 ms.assetid: 6fda2f53-e8d8-4b67-9aa1-72273fc68f6c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPError interface [Windows Media Player],get_item method, IWMPError.get_item, IWMPError::get_item, IWMPErrorget_item, get_item, get_item method [Windows Media Player], get_item method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_item, wmp/IWMPError::get_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

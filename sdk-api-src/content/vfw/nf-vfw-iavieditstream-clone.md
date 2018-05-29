@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.IAVIEditStream.Clone
 title: IAVIEditStream::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method duplicates a stream. Called when an application uses the EditStreamClone function.
 old-location: multimedia\iavieditstream_clone.htm
 old-project: Multimedia
 ms.assetid: 7112056e-5e25-4262-abe3-5cbb0675a475
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Clone, Clone method [Windows Multimedia], Clone method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Clone method, IAVIEditStream.Clone, IAVIEditStream::Clone, _win32_IAVIEditStream_Clone, multimedia.iavieditstream_clone, vfw/IAVIEditStream::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

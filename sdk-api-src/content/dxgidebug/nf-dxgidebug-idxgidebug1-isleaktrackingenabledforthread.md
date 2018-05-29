@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug1.IsLeakTrackingEnabledForThread
 title: IDXGIDebug1::IsLeakTrackingEnabledForThread
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value indicating whether leak tracking is turned on for the current thread.
 old-location: direct3ddxgi\idxgidebug1_isleaktrackingenabledforthread.htm
 old-project: direct3ddxgi
 ms.assetid: ACC57DDE-F019-415F-AAFA-E56ACE4F4197
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDebug1 interface [DXGI],IsLeakTrackingEnabledForThread method, IDXGIDebug1.IsLeakTrackingEnabledForThread, IDXGIDebug1::IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread method [DXGI], IsLeakTrackingEnabledForThread method [DXGI],IDXGIDebug1 interface, direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread, dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

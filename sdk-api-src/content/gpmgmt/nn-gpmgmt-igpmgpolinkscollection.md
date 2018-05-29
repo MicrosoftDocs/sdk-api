@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMGPOLinksCollection
 title: IGPMGPOLinksCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMGPOLinksCollection interface contains methods that enable applications to access a collection of GPO links when using the Group Policy Management (GPMC) interfaces.
 old-location: gpmc\igpmgpolinkscollection.htm
 old-project: GPMC
 ms.assetid: 37753a31-0ef8-4fb9-b542-a91ae47ed417
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMGPOLinksCollection, IGPMGPOLinksCollection, IGPMGPOLinksCollection interface [GPMC], IGPMGPOLinksCollection interface [GPMC],described, _win32_igpmgpolinkscollection, gpmc.igpmgpolinkscollection, gpmgmt/IGPMGPOLinksCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_DeviceControl
 title: IBDA_DeviceControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_DeviceControl interface is implemented on all BDA device filters.
 old-location: mstv\ibda_devicecontrol.htm
 old-project: mstv
 ms.assetid: 41e167b0-100e-41d2-8759-0411a10931ae
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], IBDA_DeviceControl interface [Microsoft TV Technologies],described, IBDA_DeviceControlInterface, bdaiface/IBDA_DeviceControl, mstv.ibda_devicecontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

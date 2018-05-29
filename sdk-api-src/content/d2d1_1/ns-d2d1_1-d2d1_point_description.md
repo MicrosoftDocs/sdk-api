@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1_1.D2D1_POINT_DESCRIPTION
 title: D2D1_POINT_DESCRIPTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a point on a path geometry.
 old-location: direct2d\d2d1_point_description.htm
 old-project: Direct2D
 ms.assetid: d6e7a4c1-135f-4ffe-91d7-486de8a9338d
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_POINT_DESCRIPTION, D2D1_POINT_DESCRIPTION structure [Direct2D], PD2D1_POINT_DESCRIPTION, PD2D1_POINT_DESCRIPTION structure pointer [Direct2D], d2d1_1/D2D1_POINT_DESCRIPTION, d2d1_1/PD2D1_POINT_DESCRIPTION, direct2d.d2d1_point_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

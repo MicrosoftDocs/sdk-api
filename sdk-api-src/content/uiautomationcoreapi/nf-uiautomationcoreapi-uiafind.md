@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaFind
 title: UiaFind function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves one or more UI Automation nodes that match the search criteria.
 old-location: winauto\uiauto_UiaFindAutoMeth.htm
 old-project: WinAuto
 ms.assetid: fe86b393-9c8d-46f1-85dc-5ac37f423ce0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaFind, UiaFind function [Windows Accessibility], uiauto.uiauto_UiaFindAutoMeth, uiauto_UiaFindAutoMeth, uiautomationcoreapi/UiaFind, winauto.uiauto_UiaFindAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

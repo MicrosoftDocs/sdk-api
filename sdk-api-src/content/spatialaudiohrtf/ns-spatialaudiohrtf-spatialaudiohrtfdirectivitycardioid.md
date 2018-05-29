@@ -1,16 +1,16 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCardioid
 title: SpatialAudioHrtfDirectivityCardioid
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a cardioid-shaped directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitycardioid.htm
 old-project: CoreAudio
 ms.assetid: 71E2E152-14DC-472B-B582-82D4412EAA85
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCardioid, PSpatialAudioHrtfDirectivityCardioid structure pointer [Core Audio], SpatialAudioHrtfDirectivityCardioid, SpatialAudioHrtfDirectivityCardioid structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycardioid, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivityCardioid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 

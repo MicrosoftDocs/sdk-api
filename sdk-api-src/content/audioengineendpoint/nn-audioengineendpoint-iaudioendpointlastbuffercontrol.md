@@ -1,16 +1,16 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointLastBufferControl
 title: IAudioEndpointLastBufferControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides functionality to allow an offload stream client to notify the endpoint that the last buffer has been sent only partially filled.
 old-location: coreaudio\iaudioendpointlastbuffercontrol.htm
 old-project: CoreAudio
 ms.assetid: 79f4b370-fd04-41a9-ad74-54f7edd084c2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl interface [Core Audio], IAudioEndpointLastBufferControl interface [Core Audio],described, audioengineendpoint/IAudioEndpointLastBufferControl, coreaudio.iaudioendpointlastbuffercontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

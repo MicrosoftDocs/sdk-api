@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.ErrorAdvise
 title: IPhotoAcquireProgressCB::ErrorAdvise
-author: windows-driver-content
+author: windows-sdk-content
 description: The ErrorAdvise method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the ErrorAdvise method.
 old-location: picacq\iphotoacquireprogresscb_erroradvise.htm
 old-project: acquisition
 ms.assetid: 60454ae7-9be9-4414-9865-2b874bbe54c1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ErrorAdvise, ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],ErrorAdvise method, IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

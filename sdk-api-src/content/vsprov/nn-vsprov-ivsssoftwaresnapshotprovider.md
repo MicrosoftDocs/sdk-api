@@ -1,16 +1,16 @@
 ---
 UID: NN:vsprov.IVssSoftwareSnapshotProvider
 title: IVssSoftwareSnapshotProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the methods used by VSS to manage shadow copy volumes. All software providers must support this interface.
 old-location: base\ivsssoftwaresnapshotprovider.htm
 old-project: VSS
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 

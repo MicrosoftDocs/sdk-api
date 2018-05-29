@@ -1,16 +1,16 @@
 ---
 UID: NF:gpedit.IRSOPInformation.GetEventLogEntryText
 title: IRSOPInformation::GetEventLogEntryText
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetEventLogEntryText method returns the text for a specific entry in the event log.
 old-location: policy\irsopinformation_geteventlogentrytext.htm
 old-project: Policy
 ms.assetid: ee408c0a-437e-4caa-90b7-9717d43e1452
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetEventLogEntryText, GetEventLogEntryText method [Group Policy], GetEventLogEntryText method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetEventLogEntryText method, IRSOPInformation.GetEventLogEntryText, IRSOPInformation::GetEventLogEntryText, _win32_irsopinformation_geteventlogentrytext, gpedit/IRSOPInformation::GetEventLogEntryText, policy.irsopinformation_geteventlogentrytext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

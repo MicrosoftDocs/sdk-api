@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Skip
 title: IEnumWIA_DEV_CAPS::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumWIA_DEV_CAPS::Skip method skips the specified number of hardware device capabilities during an enumeration of available device capabilities.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Skip.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\skip.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Skip method, IEnumWIA_DEV_CAPS.Skip, IEnumWIA_DEV_CAPS::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Skip, wia._wia_IEnumWIA_DEV_CAPS_Skip, wia_xp/IEnumWIA_DEV_CAPS::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

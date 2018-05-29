@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_LastBlock
 title: IProgressItem::get_LastBlock
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the last block in this segment of the result image.
 old-location: imapi\iprogressitem_get_lastblock.htm
 old-project: imapi
 ms.assetid: ad75e708-4a10-45b9-89c2-11270f6edd9e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IProgressItem interface [IMAPI],get_LastBlock method, IProgressItem.get_LastBlock, IProgressItem::get_LastBlock, get_LastBlock, get_LastBlock method [IMAPI], get_LastBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_lastblock, imapi2fs/IProgressItem::get_LastBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

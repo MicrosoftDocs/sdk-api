@@ -1,16 +1,16 @@
 ---
 UID: NS:imm.tagCOMPOSITIONFORM
 title: tagCOMPOSITIONFORM
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains style and position information for a composition window.
 old-location: intl\compositionform.htm
 old-project: Intl
 ms.assetid: 9b76474a-1ea9-4fcf-9fa8-deee5009a7ba
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h

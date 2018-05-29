@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfPreservedKeyNotifySink.OnUpdated
 title: ITfPreservedKeyNotifySink::OnUpdated
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfPreservedKeyNotifySink::OnUpdated method
 old-location: tsf\itfpreservedkeynotifysink_onupdated.htm
 old-project: TSF
 ms.assetid: 50654da7-60ee-4038-a02a-1055445f1e5d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfPreservedKeyNotifySink interface [Text Services Framework],OnUpdated method, ITfPreservedKeyNotifySink.OnUpdated, ITfPreservedKeyNotifySink::OnUpdated, OnUpdated, OnUpdated method [Text Services Framework], OnUpdated method [Text Services Framework],ITfPreservedKeyNotifySink interface, _tsf_itfpreservedkeynotifysink_onupdated_ref, msctf/ITfPreservedKeyNotifySink::OnUpdated, tsf.itfpreservedkeynotifysink_onupdated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

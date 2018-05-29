@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetName
 title: ISyncMgrEvent::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the event. This string can be a simple name for the event or a short summary. It is displayed in the folder and in the property sheet for the event.
 old-location: shell\ISyncMgrEvent_GetName.htm
 old-project: shell
 ms.assetid: d533ab62-f6b2-4be9-ac58-98250d99a8c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetName method, ISyncMgrEvent.GetName, ISyncMgrEvent::GetName, _shell_ISyncMgrEvent_GetName, shell.ISyncMgrEvent_GetName, syncmgr/ISyncMgrEvent::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

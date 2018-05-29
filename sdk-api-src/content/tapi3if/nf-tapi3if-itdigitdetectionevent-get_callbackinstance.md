@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_CallbackInstance
 title: ITDigitDetectionEvent::get_CallbackInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
 old-location: tapi3\itdigitdetectionevent_get_callbackinstance.htm
 old-project: Tapi
 ms.assetid: e24d6a37-8f72-42d7-8162-b201eed3cc9a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_CallbackInstance method, ITDigitDetectionEvent.get_CallbackInstance, ITDigitDetectionEvent::get_CallbackInstance, _tapi3_itdigitdetectionevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_callbackinstance, tapi3if/ITDigitDetectionEvent::get_CallbackInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

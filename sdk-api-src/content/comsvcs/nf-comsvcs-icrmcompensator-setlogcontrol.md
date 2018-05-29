@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.SetLogControl
 title: ICrmCompensator::SetLogControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers an ICrmLogControl interface to the CRM Compensator so that it can write further log records during transaction completion.
 old-location: cos\icrmcompensator_setlogcontrol.htm
 old-project: cossdk
 ms.assetid: a68e49c7-a0d3-4c37-b438-864578e4a680
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmCompensator interface [COM+],SetLogControl method, ICrmCompensator.SetLogControl, ICrmCompensator::SetLogControl, SetLogControl, SetLogControl method [COM+], SetLogControl method [COM+],ICrmCompensator interface, _dtc_ICrmCompensator_SetLogControl, comsvcs/ICrmCompensator::SetLogControl, cos.icrmcompensator_setlogcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

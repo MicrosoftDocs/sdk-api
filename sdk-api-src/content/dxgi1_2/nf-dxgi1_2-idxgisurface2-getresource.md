@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGISurface2.GetResource
 title: IDXGISurface2::GetResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the parent resource and subresource index that support a subresource surface.
 old-location: direct3ddxgi\idxgisurface2_getresource.htm
 old-project: direct3ddxgi
 ms.assetid: 0CDA5693-610F-4E7E-9540-353709E4FA8D
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetResource, GetResource method [DXGI], GetResource method [DXGI],IDXGISurface2 interface, IDXGISurface2 interface [DXGI],GetResource method, IDXGISurface2.GetResource, IDXGISurface2::GetResource, direct3ddxgi.idxgisurface2_getresource, dxgi1_2/IDXGISurface2::GetResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

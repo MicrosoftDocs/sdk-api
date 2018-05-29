@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.SetWindow
 title: IPreviewHandler::SetWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the parent window of the previewer window, as well as the area within the parent to be used for the previewer window.
 old-location: shell\IPreviewHandler_SetWindow.htm
 old-project: shell
 ms.assetid: a323811a-8244-40a0-a6b2-68572639be5f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetWindow method, IPreviewHandler.SetWindow, IPreviewHandler::SetWindow, SetWindow, SetWindow method [Windows Shell], SetWindow method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetWindow, shell.IPreviewHandler_SetWindow, shobjidl_core/IPreviewHandler::SetWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

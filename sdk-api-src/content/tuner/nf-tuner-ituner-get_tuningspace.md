@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuner.get_TuningSpace
 title: ITuner::get_TuningSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_TuningSpace method gets the tuning space currently in effect for the Network Provider.
 old-location: mstv\ituner_get_tuningspace.htm
 old-project: mstv
 ms.assetid: 01b6a280-d489-4b4f-ae87-17c9b9bb2838
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuningSpace method, ITuner.get_TuningSpace, ITuner::get_TuningSpace, ITunerget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tuningspace, tuner/ITuner::get_TuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

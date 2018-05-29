@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetPixelShaderConstantI
 title: IDirect3DDevice9::GetPixelShaderConstantI
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an integer shader constant.
 old-location: direct3d9\idirect3ddevice9__getpixelshaderconstanti.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getpixelshaderconstanti.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: GetPixelShaderConstantI, GetPixelShaderConstantI method [Direct3D 9], GetPixelShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPixelShaderConstantI method, IDirect3DDevice9.GetPixelShaderConstantI, IDirect3DDevice9::GetPixelShaderConstantI, d3d9helper/IDirect3DDevice9::GetPixelShaderConstantI, direct3d9.idirect3ddevice9__getpixelshaderconstanti, f6588a6e-ac30-9052-ae98-836dc602aab1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

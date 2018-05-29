@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.IUIManagerEventSink
 title: IUIManagerEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUIManagerEventSink interface is implemented by an app supporting IME UI integration to receive notifications of IME UI appearance.
 old-location: tsf\iuimanagereventsink.htm
 old-project: TSF
 ms.assetid: A514833B-BC60-4D87-B2C6-849003E4EA63
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], IUIManagerEventSink interface [Text Services Framework],described, ctffunc/IUIManagerEventSink, tsf.iuimanagereventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

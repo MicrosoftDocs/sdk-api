@@ -1,16 +1,16 @@
 ---
 UID: NS:tdiinfo.TDIEntityID
 title: TDIEntityID
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a part of the TDIObjectID structure to represent information about TDI drivers retrieved using the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\tdientityid.htm
 old-project: DevNotes
 ms.assetid: d95a96b5-c062-44c5-9a66-b27db531800a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AT_ENTITY, CL_NL_ENTITY, CL_TL_ENTITY, CO_NL_ENTITY, CO_TL_ENTITY, ER_ENTITY, GENERIC_ENTITY, IF_ENTITY, TDIEntityID, TDIEntityID structure [Windows API], tdiinfo/TDIEntityID, winprog.tdientityid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdiinfo.h
 req.include-header: 

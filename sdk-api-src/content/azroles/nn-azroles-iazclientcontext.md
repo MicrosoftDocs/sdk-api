@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzClientContext
 title: IAzClientContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Maintains the state that describes a particular client.
 old-location: security\iazclientcontext.htm
 old-project: SecAuthZ
 ms.assetid: e24184d2-a77b-4a8b-b2f3-78f1e0b902f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzClientContext, IAzClientContext interface [Security], IAzClientContext interface [Security],described, azroles/IAzClientContext, security.iazclientcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleControlSite.ShowPropertyFrame
 title: IOleControlSite::ShowPropertyFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs a container to display a property sheet for the control embedded in this site.
 old-location: com\iolecontrolsite_showpropertyframe.htm
 old-project: com
 ms.assetid: 88421303-8f90-4ff3-90e4-74cb6d64a541
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleControlSite interface [COM],ShowPropertyFrame method, IOleControlSite.ShowPropertyFrame, IOleControlSite::ShowPropertyFrame, ShowPropertyFrame, ShowPropertyFrame method [COM], ShowPropertyFrame method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_showpropertyframe, com.iolecontrolsite_showpropertyframe, ocidl/IOleControlSite::ShowPropertyFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocumentCallback.LoadComplete
 title: IUPnPDescriptionDocumentCallback::LoadComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: The LoadComplete method is invoked when the UPnP framework has finished loading a device description.
 old-location: upnp\iupnpdescriptiondocumentcallback_loadcomplete.htm
 old-project: UPnP
 ms.assetid: 899b1aa4-597c-4434-80cc-2ea22759fbc8
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPDescriptionDocumentCallback interface [UPnP APIs],LoadComplete method, IUPnPDescriptionDocumentCallback.LoadComplete, IUPnPDescriptionDocumentCallback::LoadComplete, LoadComplete, LoadComplete method [UPnP APIs], LoadComplete method [UPnP APIs],IUPnPDescriptionDocumentCallback interface, UPNP_E_DEVICE_ELEMENT_EXPECTED, UPNP_E_DEVICE_NODE_INCOMPLETE, UPNP_E_ICON_ELEMENT_EXPECTED, UPNP_E_ICON_NODE_INCOMPLETE, UPNP_E_ROOT_ELEMENT_EXPECTED, UPNP_E_SERVICE_ELEMENT_EXPECTED, UPNP_E_SERVICE_NODE_INCOMPLETE, _upnp_iupnpdescriptiondocumentcallback_loadcomplete, upnp.iupnpdescriptiondocumentcallback_loadcomplete, upnp/IUPnPDescriptionDocumentCallback::LoadComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

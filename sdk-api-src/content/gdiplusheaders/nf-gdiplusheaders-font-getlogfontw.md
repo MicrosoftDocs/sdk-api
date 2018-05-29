@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Font.GetLogFontW
 title: Font::GetLogFontW
-author: windows-driver-content
+author: windows-sdk-content
 description: The Font::GetLogFontW method uses a LOGFONTW structure to get the attributes of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontW_g_logfontW_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlogfontw.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Font class [GDI+],GetLogFontW method, Font.GetLogFontW, Font::GetLogFontW, GetLogFontW, GetLogFontW method [GDI+], GetLogFontW method [GDI+],Font class, _gdiplus_CLASS_Font_GetLogFontW_g_logfontW_, gdiplus._gdiplus_CLASS_Font_GetLogFontW_g_logfontW_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

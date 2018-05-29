@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.PrepareMedia
 title: IDiscFormat2TrackAtOnce::PrepareMedia
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks the current media for exclusive access.
 old-location: imapi\idiscformat2trackatonce_preparemedia.htm
 old-project: imapi
 ms.assetid: 29a0a857-c515-4265-b0b6-6e2048f3de18
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],PrepareMedia method, IDiscFormat2TrackAtOnce.PrepareMedia, IDiscFormat2TrackAtOnce::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_preparemedia, imapi2/IDiscFormat2TrackAtOnce::PrepareMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

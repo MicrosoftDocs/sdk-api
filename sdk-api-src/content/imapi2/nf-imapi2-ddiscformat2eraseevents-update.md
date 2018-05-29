@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.DDiscFormat2EraseEvents.Update
 title: DDiscFormat2EraseEvents::Update
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement this method to receive progress notification of the current erase operation.
 old-location: imapi\ddiscformat2eraseevents_update.htm
 old-project: imapi
 ms.assetid: 9cb52a79-84cf-49e5-a6b8-7baacb403ce9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DDiscFormat2EraseEvents interface [IMAPI],Update method, DDiscFormat2EraseEvents.Update, DDiscFormat2EraseEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2EraseEvents interface, imapi.ddiscformat2eraseevents_update, imapi2/DDiscFormat2EraseEvents::Update
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

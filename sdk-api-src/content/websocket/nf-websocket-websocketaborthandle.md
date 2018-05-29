@@ -1,16 +1,16 @@
 ---
 UID: NF:websocket.WebSocketAbortHandle
 title: WebSocketAbortHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Aborts a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.
 old-location: websock\websocketaborthandle.htm
 old-project: WebSock
 ms.assetid: fcfa67cf-9121-4f65-bba9-31ebca1291bd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WebSocketAbortHandle, WebSocketAbortHandle function [Websocket Protocol Component API], websock.websocketaborthandle, websocket/WebSocketAbortHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

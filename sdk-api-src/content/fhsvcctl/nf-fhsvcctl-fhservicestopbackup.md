@@ -1,16 +1,16 @@
 ---
 UID: NF:fhsvcctl.FhServiceStopBackup
 title: FhServiceStopBackup function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function stops an ongoing backup cycle for the current user.
 old-location: winprog\fhservicestopbackup.htm
 old-project: DevNotes
 ms.assetid: 17FCD464-2543-454A-B60E-E37EDF61C595
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhServiceStopBackup, FhServiceStopBackup function [Windows API], fhsvcctl/FhServiceStopBackup, winprog.fhservicestopbackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentLocalizedControlType
 title: IUIAutomationElement::get_CurrentLocalizedControlType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a localized description of the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLocalizedControlType.htm
 old-project: WinAuto
 ms.assetid: 72e60876-ecda-411a-8d90-a96827c66453
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentLocalizedControlType property [Windows Accessibility], CurrentLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLocalizedControlType property, IUIAutomationElement.CurrentLocalizedControlType, IUIAutomationElement.get_CurrentLocalizedControlType, IUIAutomationElement::CurrentLocalizedControlType, IUIAutomationElement::get_CurrentLocalizedControlType, get_CurrentLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CurrentLocalizedControlType, winauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

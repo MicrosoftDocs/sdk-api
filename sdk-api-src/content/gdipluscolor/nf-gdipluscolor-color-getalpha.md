@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluscolor.Color.GetAlpha
 title: Color::GetAlpha
-author: windows-driver-content
+author: windows-sdk-content
 description: The Color::GetAlpha method gets the alpha component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetAlpha_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getalpha.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Color class [GDI+],GetAlpha method, Color.GetAlpha, Color::GetAlpha, GetAlpha, GetAlpha method [GDI+], GetAlpha method [GDI+],Color class, _gdiplus_CLASS_Color_GetAlpha_, gdiplus._gdiplus_CLASS_Color_GetAlpha_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h

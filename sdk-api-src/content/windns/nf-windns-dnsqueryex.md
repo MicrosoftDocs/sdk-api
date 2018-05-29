@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsQueryEx
 title: DnsQueryEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The asynchronous generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
 old-location: dns\dnsqueryex.htm
 old-project: DNS
 ms.assetid: 22664B9A-5010-42E7-880B-8D5B16A9F2DC
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsQueryEx, DnsQueryEx function [DNS], dns.dnsqueryex, windns/DnsQueryEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

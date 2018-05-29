@@ -1,16 +1,16 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_MULTICAST_ADDRESS_XP
 title: "_IP_ADAPTER_MULTICAST_ADDRESS_XP"
-author: windows-driver-content
+author: windows-sdk-content
 description: The IP_ADAPTER_MULTICAST_ADDRESS structure stores a single multicast address in a linked-list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_multicast_address.htm
 old-project: IpHlp
 ms.assetid: b85a6e0a-df2c-4608-b07a-191b34440a43
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PIP_ADAPTER_MULTICAST_ADDRESS, *PIP_ADAPTER_MULTICAST_ADDRESS_XP, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_MULTICAST_ADDRESS, IP_ADAPTER_MULTICAST_ADDRESS structure [IP Helper], IP_ADAPTER_MULTICAST_ADDRESS_XP, PIP_ADAPTER_MULTICAST_ADDRESS, PIP_ADAPTER_MULTICAST_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_MULTICAST_ADDRESS_XP, _iphlp_ip_adapter_multicast_address, iphlp.ip_adapter_multicast_address, iptypes/IP_ADAPTER_MULTICAST_ADDRESS, iptypes/PIP_ADAPTER_MULTICAST_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

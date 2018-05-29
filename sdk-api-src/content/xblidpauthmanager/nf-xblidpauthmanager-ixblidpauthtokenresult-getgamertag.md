@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetGamertag
 title: IXblIdpAuthTokenResult::GetGamertag
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getgamertag.htm
 old-project: xblidp
 ms.assetid: 6357735A-C5B3-49CA-9E9C-A443A7D40929
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetGamertag, GetGamertag method, GetGamertag method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetGamertag method, IXblIdpAuthTokenResult.GetGamertag, IXblIdpAuthTokenResult::GetGamertag, xblidp.ixblidpauthtokenresult_getgamertag, xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

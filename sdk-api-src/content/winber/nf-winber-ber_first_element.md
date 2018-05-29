@@ -1,16 +1,16 @@
 ---
 UID: NF:winber.ber_first_element
 title: ber_first_element function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ber_first_element function is used to begin the traversal of a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the first element.
 old-location: ldap\ber_first_element.htm
 old-project: LDAP
 ms.assetid: 079ac0a6-1b73-433e-88b3-1ce16ddc2851
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ber_first_element, ber_first_element, ber_first_element function [LDAP], ldap.ber__first__element, ldap.ber_first_element, winber/ber_first_element"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winber.h
 req.include-header: 

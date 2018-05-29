@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._ABC
 title: "_ABC"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ABC structure contains the width of a character in a TrueType font.
 old-location: gdi\abc.htm
 old-project: gdi
 ms.assetid: 00000000-0000-0000-0000-000000000001
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPABC, *NPABC, *PABC, ABC, ABC structure [Windows GDI], PABC, PABC structure pointer [Windows GDI], _ABC, _win32_ABC_str, gdi.abc, wingdi/ABC, wingdi/PABC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IRecoverableError.GetChangeWithRecoverableError
 title: IRecoverableError::GetChangeWithRecoverableError
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the item change that caused the error.
 old-location: winsync\irecoverableerror_getchangewithrecoverableerror.htm
 old-project: winsync
 ms.assetid: c7ddc479-1428-43d9-9a26-4166cf4eec3d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetChangeWithRecoverableError, GetChangeWithRecoverableError method [Windows Sync], GetChangeWithRecoverableError method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetChangeWithRecoverableError method, IRecoverableError.GetChangeWithRecoverableError, IRecoverableError::GetChangeWithRecoverableError, winsync.irecoverableerror_getchangewithrecoverableerror, winsync/IRecoverableError::GetChangeWithRecoverableError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:vds.VDS_REPARSE_POINT_PROP
 title: VDS_REPARSE_POINT_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the reparse-point properties of a volume object.
 old-location: base\vds_reparse_point_prop.htm
 old-project: VDS
 ms.assetid: 7e224f49-c51f-447e-bc0b-6af3843e01ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP structure pointer [VDS], VDS_REPARSE_POINT_PROP, VDS_REPARSE_POINT_PROP structure [VDS], base.vds_reparse_point_prop, vds/PVDS_REPARSE_POINT_PROP, vds/VDS_REPARSE_POINT_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

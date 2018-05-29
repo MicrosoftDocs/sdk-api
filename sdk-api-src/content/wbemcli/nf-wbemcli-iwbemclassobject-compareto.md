@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.CompareTo
 title: IWbemClassObject::CompareTo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemClassObject::CompareTo method compares an object to another Windows Management object. Note that there are certain constraints in this comparison process.
 old-location: wmi\iwbemclassobject_compareto.htm
 old-project: WmiSdk
 ms.assetid: 246e5c2e-8d89-4ab5-b9ae-21a41eefa2e2
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CompareTo, CompareTo method [Windows Management Instrumentation], CompareTo method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],CompareTo method, IWbemClassObject.CompareTo, IWbemClassObject::CompareTo, WBEM_FLAG_IGNORE_CASE, WBEM_FLAG_IGNORE_CLASS, WBEM_FLAG_IGNORE_DEFAULT_VALUES, WBEM_FLAG_IGNORE_FLAVOR, WBEM_FLAG_IGNORE_OBJECT_SOURCE, WBEM_FLAG_IGNORE_QUALIFIERS, _hmm_iwbemclassobject_compareto, wbemcli/IWbemClassObject::CompareTo, wmi.iwbemclassobject_compareto
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

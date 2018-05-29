@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetPreferredProviders
 title: IMbnMultiCarrier::GetPreferredProviders
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of subscribed providers visible in the current area for a multi-carrier device minus the current registered provider.
 old-location: mbn\imbnmulticarrier_getpreferredproviders.htm
 old-project: mbn
 ms.assetid: 91D27D4D-5838-4D6D-BECF-B336B9F3B52A
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnMultiCarrier.GetPreferredProviders, IMbnMultiCarrier::GetPreferredProviders, mbn.imbnmulticarrier_getpreferredproviders, mbnapi/IMbnMultiCarrier::GetPreferredProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

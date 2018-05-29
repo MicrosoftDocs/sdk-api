@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.AddEntryByIndex
 title: ITocCollection::AddEntryByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddEntryByIndex adds an individual table of contents to the collection and associates a caller-supplied index with the table of contents.
 old-location: mf\itoccollection_addentrybyindex.htm
 old-project: medfound
 ms.assetid: 61f3103b-9b81-4729-a410-ab5ea63e072c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntryByIndex method, ITocCollection.AddEntryByIndex, ITocCollection::AddEntryByIndex, codecapi.itoccollection_addentrybyindex, mf.itoccollection_addentrybyindex, wmcodecdsp/ITocCollection::AddEntryByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

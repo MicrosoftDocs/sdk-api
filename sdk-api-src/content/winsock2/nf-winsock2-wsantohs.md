@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSANtohs
 title: WSANtohs function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSANtohs function converts a u_short from network byte order to host byte order.
 old-location: winsock\wsantohs_2.htm
 old-project: WinSock
 ms.assetid: 0a4bc3a9-9919-4dcb-8a37-af37e0243c8f
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSANtohs, WSANtohs function [Winsock], _win32_wsantohs_2, winsock.wsantohs_2, winsock2/WSANtohs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:ctfutb.ITfLangBarEventSink
 title: ITfLangBarEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfLangBarEventSink interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar.
 old-location: tsf\itflangbareventsink.htm
 old-project: TSF
 ms.assetid: 2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], ITfLangBarEventSink interface [Text Services Framework],described, _tsf_itflangbareventsink_ref, ctfutb/ITfLangBarEventSink, tsf.itflangbareventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

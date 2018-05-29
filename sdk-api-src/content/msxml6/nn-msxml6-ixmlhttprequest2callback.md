@@ -1,16 +1,16 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest2Callback
 title: IXMLHTTPRequest2Callback
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest2 request of events that affect HTTP request and response processing. Note  This interface is supported on Windows Phone 8.1.  .
 old-location: ixhr2\ixmlhttprequest2callback.htm
 old-project: ixhr2
 ms.assetid: AA4B3F4C-6E28-458B-BE25-6CCE8865FC71
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], IXMLHTTPRequest2Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2callback, msxml6/IXMLHTTPRequest2Callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 

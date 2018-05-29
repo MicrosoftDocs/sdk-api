@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchAddBackslash
 title: PathCchAddBackslash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a backslash to the end of a string to create the correct syntax for a path.
 old-location: shell\PathCchAddBackslash.htm
 old-project: shell
 ms.assetid: b50677cd-8815-4d84-b70a-c83863378c56
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchAddBackslash, PathCchAddBackslash function [Windows Shell], pathcch/PathCchAddBackslash, shell.PathCchAddBackslash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

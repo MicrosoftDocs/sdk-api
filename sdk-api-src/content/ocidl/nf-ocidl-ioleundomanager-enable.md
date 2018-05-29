@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Enable
 title: IOleUndoManager::Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables the undo manager.
 old-location: com\ioleundomanager_enable.htm
 old-project: com
 ms.assetid: d4d8582e-a9d1-48df-87ef-e378f3a81fa2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Enable, Enable method [COM], Enable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Enable method, IOleUndoManager.Enable, IOleUndoManager::Enable, _ole_ioleundomanager_enable, com.ioleundomanager_enable, ocidl/IOleUndoManager::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupInitDefaultQueueCallbackEx
 title: SetupInitDefaultQueueCallbackEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the context used by the default queue callback routine included with the Setup API in the same manner as SetupInitDefaultQueueCallback, except that an additional window is provided to the callback function to accept progress messages.
 old-location: setup\setupinitdefaultqueuecallbackex.htm
 old-project: SetupApi
 ms.assetid: 9376f55b-55ee-4064-8aed-264c43db0c7d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupInitDefaultQueueCallbackEx, SetupInitDefaultQueueCallbackEx function [Setup API], _setupapi_setupinitdefaultqueuecallbackex, setup.setupinitdefaultqueuecallbackex, setupapi/SetupInitDefaultQueueCallbackEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

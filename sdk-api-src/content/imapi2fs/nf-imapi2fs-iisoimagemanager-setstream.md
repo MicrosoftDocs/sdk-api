@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.SetStream
 title: IIsoImageManager::SetStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Stream property with the IStream object associated with the .iso image.
 old-location: imapi\iisoimagemanager_setstream.htm
 old-project: imapi
 ms.assetid: 3ee540aa-8ccc-40cb-afc8-b1790cabee6e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IIsoImageManager interface [IMAPI],SetStream method, IIsoImageManager.SetStream, IIsoImageManager::SetStream, SetStream, SetStream method [IMAPI], SetStream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_setstream, imapi2fs/IIsoImageManager::SetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

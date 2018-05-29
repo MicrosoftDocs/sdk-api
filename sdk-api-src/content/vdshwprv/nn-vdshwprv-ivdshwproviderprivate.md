@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderPrivate
 title: IVdsHwProviderPrivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that enables VDS to determine whether the hardware provider manages a specified LUN.
 old-location: base\ivdshwproviderprivate.htm
 old-project: VDS
 ms.assetid: 7e6dbf9e-9060-46bf-be11-9d9d640a3d36
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsHwProviderPrivate, IVdsHwProviderPrivate interface [VDS], IVdsHwProviderPrivate interface [VDS],described, base.ivdshwproviderprivate, vdshwprv/IVdsHwProviderPrivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

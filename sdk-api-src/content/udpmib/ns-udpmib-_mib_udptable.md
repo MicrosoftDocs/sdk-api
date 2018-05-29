@@ -1,16 +1,16 @@
 ---
 UID: NS:udpmib._MIB_UDPTABLE
 title: "_MIB_UDPTABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.
 old-location: mib\mib_udptable.htm
 old-project: MIB
 ms.assetid: 83608d38-e352-483a-b284-2f9cb444e64f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_UDPTABLE, MIB_UDPTABLE, MIB_UDPTABLE structure [MIB], PMIB_UDPTABLE, PMIB_UDPTABLE structure pointer [MIB], _MIB_UDPTABLE, _mpr_mib_udptable, iprtrmib/MIB_UDPTABLE, iprtrmib/PMIB_UDPTABLE, mib.mib_udptable, rras.mib_udptable, udpmib/MIB_UDPTABLE, udpmib/PMIB_UDPTABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_RequestMode
 title: ITRequestEvent::get_RequestMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_RequestMode method gets the mode of the request.
 old-location: tapi3\itrequestevent_get_requestmode.htm
 old-project: Tapi
 ms.assetid: 4c53d0ad-cb20-42f0-bd43-9b6bf18debcc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_RequestMode method, ITRequestEvent.get_RequestMode, ITRequestEvent::get_RequestMode, _tapi3_itrequestevent_get_requestmode, get_RequestMode, get_RequestMode method [TAPI 2.2], get_RequestMode method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_requestmode, tapi3if/ITRequestEvent::get_RequestMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

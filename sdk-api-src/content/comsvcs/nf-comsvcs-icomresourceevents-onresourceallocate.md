@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceAllocate
 title: IComResourceEvents::OnResourceAllocate
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an existing resource is allocated.
 old-location: cos\icomresourceevents_onresourceallocate.htm
 old-project: cossdk
 ms.assetid: f063230d-a0b8-46c5-845c-f94aefb706a7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceAllocate method, IComResourceEvents.OnResourceAllocate, IComResourceEvents::OnResourceAllocate, OnResourceAllocate, OnResourceAllocate method [COM+], OnResourceAllocate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceAllocate, comsvcs/IComResourceEvents::OnResourceAllocate, cos.icomresourceevents_onresourceallocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

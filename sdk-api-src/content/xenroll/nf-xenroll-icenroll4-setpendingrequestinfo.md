@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll4.setPendingRequestInfo
 title: ICEnroll4::setPendingRequestInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets properties for a pending request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_setpendingrequestinfo.htm
 old-project: SecCrypto
 ms.assetid: be369059-5852-4cde-8f78-d5883735b670
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],setPendingRequestInfo method, ICEnroll4 interface [Security],setPendingRequestInfo method, ICEnroll4.setPendingRequestInfo, ICEnroll4::setPendingRequestInfo, _xen_icenroll4_setpendingrequestinfo, security.icenroll4_setpendingrequestinfo, setPendingRequestInfo, setPendingRequestInfo method [Security], setPendingRequestInfo method [Security],CEnroll object, setPendingRequestInfo method [Security],ICEnroll4 interface, xenroll/ICEnroll4::setPendingRequestInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

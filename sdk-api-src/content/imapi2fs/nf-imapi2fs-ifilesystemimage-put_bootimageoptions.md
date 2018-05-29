@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_BootImageOptions
 title: IFileSystemImage::put_BootImageOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the boot image that you want to add to the file-system image. This method creates a complete copy of the passed-in boot options by copying the stream from the supplied IBootOptions interface.
 old-location: imapi\ifilesystemimage_put_bootimageoptions.htm
 old-project: imapi
 ms.assetid: 0556b72d-eabd-4649-b16b-fd66052504f4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_BootImageOptions method, IFileSystemImage.put_BootImageOptions, IFileSystemImage::put_BootImageOptions, imapi.ifilesystemimage_put_bootimageoptions, imapi2fs/IFileSystemImage::put_BootImageOptions, put_BootImageOptions, put_BootImageOptions method [IMAPI], put_BootImageOptions method [IMAPI],IFileSystemImage interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPicture.Render
 title: IPicture::Render
-author: windows-driver-content
+author: windows-sdk-content
 description: Renders (draws) a specified portion of the picture defined by the offset (xSrc,ySrc) of the source picture and the dimensions to copy (cxSrc,xySrc).
 old-location: com\ipicture_render.htm
 old-project: com
 ms.assetid: 45164225-2e0f-4415-a99c-dc0257d606d3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPicture interface [COM],Render method, IPicture.Render, IPicture::Render, Render, Render method [COM], Render method [COM],IPicture interface, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

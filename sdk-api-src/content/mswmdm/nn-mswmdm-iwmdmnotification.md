@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMNotification
 title: IWMDMNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: The optional, application-implemented IWMDMNotification interface allows applications and service providers to receive notifications when either devices or memory storages (such as RAM cards) are connected or disconnected from the computer.Note  This method will be called only for registered Plug and Play devices. Other device arrivals or departures will not cause this interface to be called. This interface GUID is not properly defined in mssachlp.lib; therefore, you must #include both mswmdm.h and mswmdm_i.c (from wmdm.idl) if implementing this interface, to get the proper definitions.
 old-location: wmdm\iwmdmnotification.htm
 old-project: WMDM
 ms.assetid: 3089a04d-24f5-4a4c-9df5-b4073fef358a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMNotification, IWMDMNotification interface [windows Media Device Manager], IWMDMNotification interface [windows Media Device Manager],described, IWMDMNotificationInterface, mswmdm/IWMDMNotification, wmdm.iwmdmnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

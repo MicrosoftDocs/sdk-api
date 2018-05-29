@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_WRITEBUFFERIMMEDIATE_MODE
 title: D3D12_WRITEBUFFERIMMEDIATE_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the mode used by a WriteBufferImmediate operation.
 old-location: direct3d12\d3d12_writebufferimmediate_mode.htm
 old-project: direct3d12
 ms.assetid: 0AB6674C-B73E-4C38-8B6F-18B9BE596B71
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_WRITEBUFFERIMMEDIATE_MODE, D3D12_WRITEBUFFERIMMEDIATE_MODE enumeration, D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT, D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN, D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT, d3d12/D3D12_WRITEBUFFERIMMEDIATE_MODE, d3d12/D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT, d3d12/D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN, d3d12/D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT, direct3d12.d3d12_writebufferimmediate_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

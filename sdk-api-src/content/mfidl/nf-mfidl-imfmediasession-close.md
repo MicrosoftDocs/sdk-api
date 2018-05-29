@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Close
 title: IMFMediaSession::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the Media Session and releases all of the resources it is using.
 old-location: mf\imfmediasession_close.htm
 old-project: medfound
 ms.assetid: 6ed118ae-7538-4ef6-81fc-b762f709838f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6ed118ae-7538-4ef6-81fc-b762f709838f, Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],Close method, IMFMediaSession.Close, IMFMediaSession::Close, mf.imfmediasession_close, mfidl/IMFMediaSession::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.SetHostNames
 title: IOleObject::SetHostNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an object with the names of its container application and the compound document in which it is embedded.
 old-location: com\ioleobject_sethostnames.htm
 old-project: com
 ms.assetid: 38cccb3d-e198-4996-991b-6c56451d25e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleObject interface [COM],SetHostNames method, IOleObject.SetHostNames, IOleObject::SetHostNames, SetHostNames, SetHostNames method [COM], SetHostNames method [COM],IOleObject interface, _ole_ioleobject_sethostnames, com.ioleobject_sethostnames, oleidl/IOleObject::SetHostNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

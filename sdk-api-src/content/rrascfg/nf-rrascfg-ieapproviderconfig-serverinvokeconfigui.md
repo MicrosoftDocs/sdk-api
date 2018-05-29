@@ -1,16 +1,16 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.ServerInvokeConfigUI
 title: IEAPProviderConfig::ServerInvokeConfigUI
-author: windows-driver-content
+author: windows-sdk-content
 description: The system calls the ServerInvokeConfigUI method to invoke the configuration user interface for EAP authentication between a remote access client and server.
 old-location: eap\ieapproviderconfig_serverinvokeconfigui.htm
 old-project: EAP
 ms.assetid: 95d98664-e108-41d5-8ed0-49867563df43
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEAPProviderConfig interface [EAP],ServerInvokeConfigUI method, IEAPProviderConfig.ServerInvokeConfigUI, IEAPProviderConfig::ServerInvokeConfigUI, ServerInvokeConfigUI, ServerInvokeConfigUI method [EAP], ServerInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_serverinvokeconfigui, eap.ieapproviderconfig_serverinvokeconfigui, rrascfg/IEAPProviderConfig::ServerInvokeConfigUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rrascfg.h
 req.include-header: 

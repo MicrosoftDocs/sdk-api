@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCreatePnrpIncident
 title: NdfCreatePnrpIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a session to diagnose issues with the Peer Name Resolution Protocol (PNRP) service.
 old-location: ndf\ndfcreatepnrpincident.htm
 old-project: NDF
 ms.assetid: e9ee6433-89b9-4b95-b02c-2778e009220c
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCreatePnrpIncident, NdfCreatePnrpIncident function [NDF], ndf.ndfcreatepnrpincident, ndfapi/NdfCreatePnrpIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

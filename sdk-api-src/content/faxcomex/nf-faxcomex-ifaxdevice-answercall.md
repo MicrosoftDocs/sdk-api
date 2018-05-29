@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxDevice.AnswerCall
 title: IFaxDevice::AnswerCall
-author: windows-driver-content
+author: windows-sdk-content
 description: The AnswerCall method causes the fax device to answer an incoming call.
 old-location: fax\_mfax_faxdevice_answercall_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_76uk.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AnswerCall, AnswerCall method [Fax Service], AnswerCall method [Fax Service],FaxDevice object, FaxDevice object [Fax Service],AnswerCall method, FaxDevice.AnswerCall, IFaxDevice.AnswerCall, IFaxDevice::AnswerCall, _mfax_faxdevice.answercall, fax._mfax_faxdevice_answercall, fax._mfax_faxdevice_answercall_vb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

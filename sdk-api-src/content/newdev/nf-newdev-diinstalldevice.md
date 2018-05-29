@@ -1,16 +1,16 @@
 ---
 UID: NF:newdev.DiInstallDevice
 title: DiInstallDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DiInstallDevice function installs a specified driver that is preinstalled in the driver store on a specified device that is present in the system.
 old-location: devinst\diinstalldevice.htm
 old-project: devinst
 ms.assetid: e107fc37-02cb-4d50-822c-1c6fd80d7532
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DiInstallDevice, DiInstallDevice function [Device and Driver Installation], devinst.diinstalldevice, di-rtns_a2abff84-96e6-43c3-85ab-fe095d11b689.xml, newdev/DiInstallDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SetContextAttributesW
 title: SetContextAttributesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package.
 old-location: security\setcontextattributes.htm
 old-project: SecAuthN
 ms.assetid: e3246c3e-3e8c-49fe-99d8-dfff1a10ab83
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SECPKG_ATTR_APP_DATA, SECPKG_ATTR_DTLS_MTU, SECPKG_ATTR_EAP_PRF_INFO, SECPKG_ATTR_EARLY_START, SECPKG_ATTR_KEYING_MATERIAL_INFO, SetContextAttributes, SetContextAttributes function [Security], SetContextAttributesA, SetContextAttributesW, security.setcontextattributes, sspi/SetContextAttributes, sspi/SetContextAttributesA, sspi/SetContextAttributesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

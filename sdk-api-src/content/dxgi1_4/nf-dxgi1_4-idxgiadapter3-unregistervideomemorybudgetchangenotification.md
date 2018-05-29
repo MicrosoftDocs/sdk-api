@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
 title: IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: This method stops notifying a CPU synchronization object whenever a budget change occurs. An application may switch back to polling the information regularly.
 old-location: direct3ddxgi\idxgiadapter3_unregistervideomemorybudgetchangenotification.htm
 old-project: direct3ddxgi
 ms.assetid: 11695B9E-75B5-44BF-BC09-D377BCEDA341
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterVideoMemoryBudgetChangeNotification method, IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification, IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification method [DXGI], UnregisterVideoMemoryBudgetChangeNotification method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification, dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h

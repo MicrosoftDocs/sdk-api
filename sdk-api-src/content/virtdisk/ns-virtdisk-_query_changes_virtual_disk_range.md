@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._QUERY_CHANGES_VIRTUAL_DISK_RANGE
 title: "_QUERY_CHANGES_VIRTUAL_DISK_RANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies an area on a virtual hard disk (VHD) that has changed as tracked by resilient change tracking (RCT).
 old-location: vhd\query_changes_virtual_disk_range.htm
 old-project: VStor
 ms.assetid: 9DA53F46-AE1E-425B-BA50-05DC4A327F75
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PQUERY_CHANGES_VIRTUAL_DISK_RANGE, PQUERY_CHANGES_VIRTUAL_DISK_RANGE, PQUERY_CHANGES_VIRTUAL_DISK_RANGE structure pointer [VHD], QUERY_CHANGES_VIRTUAL_DISK_RANGE, QUERY_CHANGES_VIRTUAL_DISK_RANGE structure [VHD], _QUERY_CHANGES_VIRTUAL_DISK_RANGE, __QUERY_CHANGES_VIRTUAL_DISK_RANGE, vhd.query_changes_virtual_disk_range, virtdisk/PQUERY_CHANGES_VIRTUAL_DISK_RANGE, virtdisk/QUERY_CHANGES_VIRTUAL_DISK_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingDevice
 title: IWindowsMediaLibrarySharingDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingDevice interface defines methods that provide access to an individual media device on the home network.
 old-location: wmlss\IWindowsMediaLibrarySharingDeviceInterface.htm
 old-project: WMLSS
 ms.assetid: 33fe649b-a688-435c-a019-9c308935532e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice, IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDeviceInterface, wmlss/IWindowsMediaLibrarySharingDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmlss.h
 req.include-header: Wmlss.h

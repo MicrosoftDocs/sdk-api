@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMMediaContent2.get_PlaylistCount
 title: IAMMediaContent2::get_PlaylistCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PlaylistCount method retrieves the number of entries in an ASX file.
 old-location: dshow\iammediacontent2_get_playlistcount.htm
 old-project: DirectShow
 ms.assetid: 6f1a388e-de23-4441-bc65-33ce13519d70
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_PlaylistCount method, IAMMediaContent2.get_PlaylistCount, IAMMediaContent2::get_PlaylistCount, IAMMediaContent2get_PlaylistCount, dshow.iammediacontent2_get_playlistcount, get_PlaylistCount, get_PlaylistCount method [DirectShow], get_PlaylistCount method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_PlaylistCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

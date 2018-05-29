@@ -1,16 +1,16 @@
 ---
 UID: NE:iprtrmib._TCPIP_OWNER_MODULE_INFO_CLASS
 title: "_TCPIP_OWNER_MODULE_INFO_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the type of module information structure passed to calls of the GetOwnerModuleFromXXXEntry family.
 old-location: iphlp\tcpip_owner_module_info_class.htm
 old-project: IpHlp
 ms.assetid: 8529dd62-8516-47d0-8118-95e6d33fc799
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTCPIP_OWNER_MODULE_INFO_CLASS, PTCPIP_OWNER_MODULE_INFO_CLASS, PTCPIP_OWNER_MODULE_INFO_CLASS enumeration pointer [IP Helper], TCPIP_OWNER_MODULE_INFO_BASIC, TCPIP_OWNER_MODULE_INFO_CLASS, TCPIP_OWNER_MODULE_INFO_CLASS enumeration [IP Helper], _TCPIP_OWNER_MODULE_INFO_CLASS, iphlp.tcpip_owner_module_info_class, iprtrmib/PTCPIP_OWNER_MODULE_INFO_CLASS, iprtrmib/TCPIP_OWNER_MODULE_INFO_BASIC, iprtrmib/TCPIP_OWNER_MODULE_INFO_CLASS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iprtrmib.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_VALUE_ARRAY
 title: "_DHCP_OPTION_VALUE_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_OPTION_VALUE_ARRAY structure defines a list of DHCP option values (just the option data with associated ID tags).
 old-location: dhcp\dhcp_option_value_array.htm
 old-project: DHCP
 ms.assetid: c68b9543-0d7a-46ab-babd-3868c1338d67
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY structure [DHCP], LPDHCP_OPTION_VALUE_ARRAY, LPDHCP_OPTION_VALUE_ARRAY structure pointer [DHCP], _DHCP_OPTION_VALUE_ARRAY, dhcp.dhcp_option_value_array, dhcpsapi/LPDHCP_OPTION_VALUE_ARRAY, dhcpsapi/_DHCP_OPTION_VALUE_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

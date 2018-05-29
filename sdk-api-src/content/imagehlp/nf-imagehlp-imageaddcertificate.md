@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.ImageAddCertificate
 title: ImageAddCertificate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a certificate to the specified file.
 old-location: base\imageaddcertificate.htm
 old-project: Debug
 ms.assetid: c0cf3845-749b-4d20-ab67-6ace2ac30793
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ImageAddCertificate, ImageAddCertificate function, _win32_imageaddcertificate, base.imageaddcertificate, imagehlp/ImageAddCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

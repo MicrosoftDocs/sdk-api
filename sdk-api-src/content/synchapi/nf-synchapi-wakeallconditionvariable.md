@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.WakeAllConditionVariable
 title: WakeAllConditionVariable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Wake all threads waiting on the specified condition variable.
 old-location: base\wakeallconditionvariable.htm
 old-project: Sync
 ms.assetid: 1a57562a-fbbc-4a5f-910c-7a52a8dccbe3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: WakeAllConditionVariable, WakeAllConditionVariable function, base.wakeallconditionvariable, synchapi/WakeAllConditionVariable, winbase/WakeAllConditionVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

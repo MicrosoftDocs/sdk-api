@@ -1,16 +1,16 @@
 ---
 UID: NN:sensorsapi.ILocationPermissions
 title: ILocationPermissions
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the status of the system setting that allows users to change location settings.
 old-location: winsensors\ilocationpermissions.htm
 old-project: SensorsAPI
 ms.assetid: f4b46f4a-60be-4428-a4b5-6100ae3f1e1b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 

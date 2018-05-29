@@ -1,16 +1,16 @@
 ---
 UID: NS:ipmib._MIB_IPADDRTABLE
 title: "_MIB_IPADDRTABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of IPv4 address entries.
 old-location: mib\mib_ipaddrtable.htm
 old-project: MIB
 ms.assetid: 12a929e5-813d-4dae-9ea0-5a3c0a88cf05
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPADDRTABLE, MIB_IPADDRTABLE, MIB_IPADDRTABLE structure [MIB], PMIB_IPADDRTABLE, PMIB_IPADDRTABLE structure pointer [MIB], _MIB_IPADDRTABLE, _mpr_mib_ipaddrtable, ipmib/MIB_IPADDRTABLE, ipmib/PMIB_IPADDRTABLE, iprtrmib/MIB_IPADDRTABLE, iprtrmib/PMIB_IPADDRTABLE, mib.mib_ipaddrtable, rras.mib_ipaddrtable"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

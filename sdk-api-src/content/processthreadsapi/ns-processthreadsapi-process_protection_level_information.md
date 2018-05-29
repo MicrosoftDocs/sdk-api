@@ -1,16 +1,16 @@
 ---
 UID: NS:processthreadsapi.PROCESS_PROTECTION_LEVEL_INFORMATION
 title: PROCESS_PROTECTION_LEVEL_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether Protected Process Light (PPL) is enabled.
 old-location: base\process_protection_level_information.htm
 old-project: ProcThread
 ms.assetid: E2A99AB0-33F1-4AF5-A05B-31D0929D9B4B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PPROCESS_PROTECTION_LEVEL_INFORMATION, PPROCESS_PROTECTION_LEVEL_INFORMATION structure pointer, PROCESS_PROTECTION_LEVEL_INFORMATION, PROCESS_PROTECTION_LEVEL_INFORMATION structure, PROTECTION_LEVEL_ANTIMALWARE_LIGHT, PROTECTION_LEVEL_AUTHENTICODE, PROTECTION_LEVEL_CODEGEN_LIGHT, PROTECTION_LEVEL_LSA_LIGHT, PROTECTION_LEVEL_NONE, PROTECTION_LEVEL_PPL_APP, PROTECTION_LEVEL_WINDOWS, PROTECTION_LEVEL_WINDOWS_LIGHT, PROTECTION_LEVEL_WINTCB, PROTECTION_LEVEL_WINTCB_LIGHT, base.process_protection_level_information, processthreadsapi/PPROCESS_PROTECTION_LEVEL_INFORMATION, processthreadsapi/PROCESS_PROTECTION_LEVEL_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PINTERFACE_STATUS
 title: PINTERFACE_STATUS
-author: windows-driver-content
+author: windows-sdk-content
 description: Router manager calls the InterfaceStatus function to change the status of an interface.
 old-location: rras\interfacestatus.htm
 old-project: RRAS
 ms.assetid: 8fd674a6-375e-450c-bd6b-4f252977dd8e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: InterfaceStatus, InterfaceStatus callback function [RAS], PINTERFACE_STATUS, PINTERFACE_STATUS callback, _mpr_interfacestatus, routprot/InterfaceStatus, rras.interfacestatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

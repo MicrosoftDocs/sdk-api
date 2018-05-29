@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhLookupPerfIndexByNameA
 title: PdhLookupPerfIndexByNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the counter index corresponding to the specified counter name.
 old-location: perf\pdhlookupperfindexbyname.htm
 old-project: PerfCtrs
 ms.assetid: b8530bf3-0a9b-49c2-9494-4dca14cd57ef
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhLookupPerfIndexByName, PdhLookupPerfIndexByName function [Perf], PdhLookupPerfIndexByNameA, PdhLookupPerfIndexByNameW, _win32_pdhlookupperfindexbyname, base.pdhlookupperfindexbyname, pdh/PdhLookupPerfIndexByName, pdh/PdhLookupPerfIndexByNameA, pdh/PdhLookupPerfIndexByNameW, perf.pdhlookupperfindexbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

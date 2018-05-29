@@ -1,16 +1,16 @@
 ---
 UID: NF:frquery.CFrameworkQuery.AllPropertiesAreRequired
 title: CFrameworkQuery::AllPropertiesAreRequired
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllPropertiesAreRequired method indicates whether all of the properties for the instance are requested.
 old-location: wmi\cframeworkquery_allpropertiesarerequired.htm
 old-project: WmiSdk
 ms.assetid: 5c17cae5-c68b-41a3-80ca-88d56be4ab74
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: AllPropertiesAreRequired, AllPropertiesAreRequired method [Windows Management Instrumentation], AllPropertiesAreRequired method [Windows Management Instrumentation],CFrameworkQuery interface, CFrameworkQuery interface [Windows Management Instrumentation],AllPropertiesAreRequired method, CFrameworkQuery.AllPropertiesAreRequired, CFrameworkQuery::AllPropertiesAreRequired, _hmm_cframeworkquery_allpropertiesarerequired, frquery/CFrameworkQuery::AllPropertiesAreRequired, wmi.cframeworkquery_allpropertiesarerequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h

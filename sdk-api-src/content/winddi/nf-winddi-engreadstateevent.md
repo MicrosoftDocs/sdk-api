@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngReadStateEvent
 title: EngReadStateEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngReadStateEvent function returns the current state of the specified event object:\_signaled or nonsignaled.
 old-location: display\engreadstateevent.htm
 old-project: display
 ms.assetid: 32dddcc0-4cf2-467f-b1a6-03c9892d3473
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngReadStateEvent, EngReadStateEvent function [Display Devices], display.engreadstateevent, gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml, winddi/EngReadStateEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

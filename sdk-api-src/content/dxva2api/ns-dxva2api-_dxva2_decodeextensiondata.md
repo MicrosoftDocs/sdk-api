@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_DecodeExtensionData
 title: "_DXVA2_DecodeExtensionData"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains private data for the IDirectXVideoDecoder::Execute method.
 old-location: mf\dxva2_decodeextensiondata.htm
 old-project: medfound
 ms.assetid: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DXVA2_DecodeExtensionData structure [Media Foundation], _DXVA2_DecodeExtensionData, dxva2api/DXVA2_DecodeExtensionData, mf.dxva2_decodeextensiondata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

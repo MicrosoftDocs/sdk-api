@@ -1,16 +1,16 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelManager
 title: IWTSVirtualChannelManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages all Remote Desktop Connection (RDC) client plug-ins and dynamic virtual channel (DVC) listeners.
 old-location: termserv\iwtsvirtualchannelmanager.htm
 old-project: TermServ
 ms.assetid: 289f76b8-dbb5-4f80-98e9-f39f7946494b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSVirtualChannelManager, IWTSVirtualChannelManager interface [Remote Desktop Services], IWTSVirtualChannelManager interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelmanager, tsvirtualchannels/IWTSVirtualChannelManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

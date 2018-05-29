@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzEnumerateSecurityEventSources
 title: AuthzEnumerateSecurityEventSources function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the registered security event sources that are not installed by default.
 old-location: security\authzenumeratesecurityeventsources.htm
 old-project: SecAuthZ
 ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

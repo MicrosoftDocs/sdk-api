@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.TextInserting
 title: ITextInputPanelEventSink::TextInserting
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when the Tablet PC Input Panel is about to insert text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
 old-location: tablet\itextinputpaneleventsink_textinserting.htm
 old-project: tablet
 ms.assetid: 8e2ca5e2-a407-44cd-b489-c118401ca21b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 8e2ca5e2-a407-44cd-b489-c118401ca21b, ITextInputPanelEventSink interface [Tablet PC],TextInserting method, ITextInputPanelEventSink.TextInserting, ITextInputPanelEventSink::TextInserting, TextInserting, TextInserting method [Tablet PC], TextInserting method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::TextInserting, tablet.itextinputpaneleventsink_textinserting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdbase.IWSDSignatureProperty
 title: IWSDSignatureProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides properties of signed messages.
 old-location: ncd\iwsdsignatureproperty.htm
 old-project: WsdApi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:activationregistration.InstancingType
 title: InstancingType
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the kind of instancing behavior for the out-of-process server.
 old-location: winrt\instancingtype.htm
 old-project: WinRT
 ms.assetid: 42E6A5EE-06B0-4F38-92D0-729922AD9FFF
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], MultipleInstances, SingleInstance, activationregistration/InstancingType, activationregistration/MultipleInstances, activationregistration/SingleInstance, winrt.instancingtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 

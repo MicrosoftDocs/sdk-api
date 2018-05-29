@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopyResource
 title: ID3D11DeviceContext::CopyResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Copy the entire contents of the source resource to the destination resource using the GPU.
 old-location: direct3d11\id3d11devicecontext_copyresource.htm
 old-project: direct3d11
 ms.assetid: 54c1c08a-792c-463d-8237-9f7947d15396
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CopyResource, CopyResource method [Direct3D 11], CopyResource method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopyResource method, ID3D11DeviceContext.CopyResource, ID3D11DeviceContext::CopyResource, b389573e-412e-6a72-6e59-396d4bd62341, d3d11/ID3D11DeviceContext::CopyResource, direct3d11.id3d11devicecontext_copyresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmCollection.WaitForCompletion
 title: IFsrmCollection::WaitForCompletion
-author: windows-driver-content
+author: windows-sdk-content
 description: Limits the time that an asynchronous collection can take to collect the objects.
 old-location: fsrm\ifsrmcollection_waitforcompletion.htm
 old-project: Fsrm
 ms.assetid: 83b9feb5-5f10-4c27-be3e-b267a0356aa2
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],WaitForCompletion method, IFsrmCollection.WaitForCompletion, IFsrmCollection::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_waitforcompletion, fsrm.ifsrmcollection_waitforcompletion, fsrm/IFsrmCollection::WaitForCompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

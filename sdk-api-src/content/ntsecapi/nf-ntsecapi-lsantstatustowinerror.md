@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaNtStatusToWinError
 title: LsaNtStatusToWinError function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LsaNtStatusToWinError function converts an NTSTATUS code returned by an LSA function to a Windows error code.
 old-location: security\lsantstatustowinerror.htm
 old-project: SecMgmt
 ms.assetid: fa91794c-c502-4b36-84cc-a8d77c8e9d9f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaNtStatusToWinError, LsaNtStatusToWinError function [Security], _lsa_lsantstatustowinerror, ntsecapi/LsaNtStatusToWinError, security.lsantstatustowinerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
 title: IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether at least one item must be selected at all times.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired.htm
 old-project: WinAuto
 ms.assetid: 608c9b6d-bc53-4d6d-8747-897ac9a24571
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentIsSelectionRequired property [Windows Accessibility], CurrentIsSelectionRequired property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CurrentIsSelectionRequired property, IUIAutomationSelectionPattern.CurrentIsSelectionRequired, IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired, IUIAutomationSelectionPattern::CurrentIsSelectionRequired, IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, get_CurrentIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

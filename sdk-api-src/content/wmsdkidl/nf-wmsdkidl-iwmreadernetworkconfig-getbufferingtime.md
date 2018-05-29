@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetBufferingTime
 title: IWMReaderNetworkConfig::GetBufferingTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBufferingTime method retrieves the amount of time that the network source buffers data before rendering it.
 old-location: wmformat\iwmreadernetworkconfig_getbufferingtime.htm
 old-project: wmformat
 ms.assetid: a3f35230-363c-48e7-bef9-b92e0b50b978
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetBufferingTime, GetBufferingTime method [windows Media Format], GetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetBufferingTime method, IWMReaderNetworkConfig.GetBufferingTime, IWMReaderNetworkConfig::GetBufferingTime, IWMReaderNetworkConfigGetBufferingTime, wmformat.iwmreadernetworkconfig_getbufferingtime, wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

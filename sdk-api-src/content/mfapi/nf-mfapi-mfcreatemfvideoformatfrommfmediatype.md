@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMFVideoFormatFromMFMediaType
 title: MFCreateMFVideoFormatFromMFMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an MFVIDEOFORMAT structure from a video media type.
 old-location: mf\mfcreatemfvideoformatfrommfmediatype.htm
 old-project: medfound
 ms.assetid: c83e3605-d345-4192-a6fd-26d1a78eb259
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMFVideoFormatFromMFMediaType, MFCreateMFVideoFormatFromMFMediaType function [Media Foundation], c83e3605-d345-4192-a6fd-26d1a78eb259, mf.mfcreatemfvideoformatfrommfmediatype, mfapi/MFCreateMFVideoFormatFromMFMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

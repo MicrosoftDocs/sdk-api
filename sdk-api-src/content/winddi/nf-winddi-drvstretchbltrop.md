@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvStretchBltROP
 title: DrvStretchBltROP function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvStretchBltROP function performs a stretching bit-block transfer using a ROP.
 old-location: display\drvstretchbltrop.htm
 old-project: display
 ms.assetid: eeaec7f4-2dfe-42a9-8789-a9ce11aec7b2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvStretchBltROP, DrvStretchBltROP function [Display Devices], ddifncs_c25f3aa6-9564-4189-b956-51cd2729576c.xml, display.drvstretchbltrop, winddi/DrvStretchBltROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

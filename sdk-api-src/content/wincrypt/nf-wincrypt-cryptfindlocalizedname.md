@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptFindLocalizedName
 title: CryptFindLocalizedName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the localized name for the specified name, such as the localize name of the &#0034;Root&#0034; system store.
 old-location: security\cryptfindlocalizedname.htm
 old-project: SecCrypto
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptFindLocalizedName, CryptFindLocalizedName function [Security], _crypto2_cryptfindlocalizedname, security.cryptfindlocalizedname, wincrypt/CryptFindLocalizedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

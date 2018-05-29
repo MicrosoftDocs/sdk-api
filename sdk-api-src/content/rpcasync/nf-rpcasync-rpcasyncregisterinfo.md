@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcAsyncRegisterInfo
 title: RpcAsyncRegisterInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcAsyncRegisterInfo function is obsolete.
 old-location: rpc\rpcasyncregisterinfo.htm
 old-project: Rpc
 ms.assetid: 57bb4579-caae-4ec5-8666-c5e2e98ae632
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcAsyncRegisterInfo, RpcAsyncRegisterInfo function [RPC], _rpc_rpcasyncregisterinfo, rpc.rpcasyncregisterinfo, rpcasync/RpcAsyncRegisterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

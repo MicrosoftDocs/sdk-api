@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SEC_WINNT_CREDUI_CONTEXT
 title: "_SEC_WINNT_CREDUI_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies unserialized credential information.
 old-location: security\sec_winnt_credui_context.htm
 old-project: SecAuthN
 ms.assetid: ac9410eb-ec1b-494c-8e8b-6d161ff2b41c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT structure pointer [Security], SEC_WINNT_CREDUI_CONTEXT, SEC_WINNT_CREDUI_CONTEXT structure [Security], _SEC_WINNT_CREDUI_CONTEXT, security.sec_winnt_credui_context, sspi/PSEC_WINNT_CREDUI_CONTEXT, sspi/SEC_WINNT_CREDUI_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

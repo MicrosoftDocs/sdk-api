@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WPUSetEvent
 title: WPUSetEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WPUSetEvent function sets the state of the specified event object to signaled. This call is safe for use within interrupt context.
 old-location: winsock\wpusetevent_2.htm
 old-project: WinSock
 ms.assetid: d5caa926-1223-4917-85ba-4f79731e955a
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WPUSetEvent, WPUSetEvent function [Winsock], _win32_wpusetevent_2, winsock.wpusetevent_2, ws2spi/WPUSetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

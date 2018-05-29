@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion.SetType
 title: IWMMutualExclusion::SetType
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetType method specifies the GUID of the type of mutual exclusion required.
 old-location: wmformat\iwmmutualexclusion_settype.htm
 old-project: wmformat
 ms.assetid: 18796219-bc33-41b7-b2af-a23585c2500a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMMutualExclusion interface [windows Media Format],SetType method, IWMMutualExclusion.SetType, IWMMutualExclusion::SetType, IWMMutualExclusionSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMMutualExclusion interface, wmformat.iwmmutualexclusion_settype, wmsdkidl/IWMMutualExclusion::SetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSetFeatureAttributesA
 title: MsiSetFeatureAttributesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSetFeatureAttributes function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the Feature table.
 old-location: setup\msisetfeatureattributes.htm
 old-project: Msi
 ms.assetid: d8dcd6db-9792-4b34-9c78-7d11ec2d4d0f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, INSTALLFEATUREATTRIBUTE_FOLLOWPARENT, INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE, MsiSetFeatureAttributes, MsiSetFeatureAttributes function, MsiSetFeatureAttributesA, MsiSetFeatureAttributesW, _msi_msisetfeatureattributes, msiquery/MsiSetFeatureAttributes, msiquery/MsiSetFeatureAttributesA, msiquery/MsiSetFeatureAttributesW, setup.msisetfeatureattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

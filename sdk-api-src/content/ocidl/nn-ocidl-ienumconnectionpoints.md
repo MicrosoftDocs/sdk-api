@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IEnumConnectionPoints
 title: IEnumConnectionPoints
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates connection points.
 old-location: com\ienumconnectionpoints.htm
 old-project: com
 ms.assetid: 893090f1-a0b4-46f1-a5d0-1da704ca7aa9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumConnectionPoints, IEnumConnectionPoints interface [COM], IEnumConnectionPoints interface [COM],described, _com_ienumconnectionpoints, com.ienumconnectionpoints, ocidl/IEnumConnectionPoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: ObjIdl.h

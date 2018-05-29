@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsComputerOperations.Status
 title: IADsComputerOperations::Status
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsComputerOperations::Status method retrieves the status of a computer.
 old-location: adsi\iadscomputeroperations_status.htm
 old-project: ADSI
 ms.assetid: 85243a67-3fe4-43f2-8173-4e9a507609ba
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsComputerOperations interface [ADSI],Status method, IADsComputerOperations.Status, IADsComputerOperations::Status, Status, Status method [ADSI], Status method [ADSI],IADsComputerOperations interface, _ds_iadscomputeroperations_status, adsi.iadscomputeroperations__status, adsi.iadscomputeroperations_status, iads/IADsComputerOperations::Status
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

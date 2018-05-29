@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FONTOBJ_pQueryGlyphAttrs
 title: FONTOBJ_pQueryGlyphAttrs function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FONTOBJ_pQueryGlyphAttrs function returns information about a font's glyphs.
 old-location: display\fontobj_pqueryglyphattrs.htm
 old-project: display
 ms.assetid: 6a619922-5ab6-4169-8b41-e645e9d7fe93
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FONTOBJ_pQueryGlyphAttrs, FONTOBJ_pQueryGlyphAttrs function [Display Devices], display.fontobj_pqueryglyphattrs, gdifncs_d646608d-3765-4cc7-aeff-bf5dc050d6b5.xml, winddi/FONTOBJ_pQueryGlyphAttrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

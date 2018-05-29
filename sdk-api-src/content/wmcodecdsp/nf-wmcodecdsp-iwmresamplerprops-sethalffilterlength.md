@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IWMResamplerProps.SetHalfFilterLength
 title: IWMResamplerProps::SetHalfFilterLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the quality of the output.
 old-location: mf\iwmresamplerpropssethalffilterlength.htm
 old-project: medfound
 ms.assetid: ac35fafa-d1f1-4470-b4e3-0e6fce792a11
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetHalfFilterLength method, IWMResamplerProps.SetHalfFilterLength, IWMResamplerProps::SetHalfFilterLength, SetHalfFilterLength, SetHalfFilterLength method [Media Foundation], SetHalfFilterLength method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssethalffilterlength, mf.iwmresamplerpropssethalffilterlength, wmcodecdsp/ IWMResamplerProps::SetHalfFilterLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

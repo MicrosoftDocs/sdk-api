@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.GridPattern_GetItem
 title: GridPattern_GetItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the node for an item in a grid.
 old-location: winauto\uiauto_GridPattern_GetItemConPat.htm
 old-project: WinAuto
 ms.assetid: 776b704b-479b-4b01-8522-b50500bf1c84
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GridPattern_GetItem, GridPattern_GetItem function [Windows Accessibility], uiauto.uiauto_GridPattern_GetItemConPat, uiauto_GridPattern_GetItemConPat, uiautomationcoreapi/GridPattern_GetItem, winauto.uiauto_GridPattern_GetItemConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

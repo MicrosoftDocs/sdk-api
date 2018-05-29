@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.ISearchItemsChangedSink
 title: ISearchItemsChangedSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides notifications for changes to indexed items. Also provides notification of the hierarchical scope that is being monitored for changed items.
 old-location: search\_search_ISearchItemsChangedSink.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\isearchitemschangedsink.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchItemsChangedSink, ISearchItemsChangedSink interface [search], ISearchItemsChangedSink interface [search],described, _search_ISearchItemsChangedSink, search._search_ISearchItemsChangedSink, searchapi/ISearchItemsChangedSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

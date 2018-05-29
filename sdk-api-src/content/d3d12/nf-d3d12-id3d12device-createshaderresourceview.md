@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateShaderResourceView
 title: ID3D12Device::CreateShaderResourceView
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a shader-resource view for accessing data in a resource.
 old-location: direct3d12\id3d12device_createshaderresourceview.htm
 old-project: direct3d12
 ms.assetid: 4FD7082D-2DA9-469E-BA74-6735D407D5FE
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CreateShaderResourceView, CreateShaderResourceView method, CreateShaderResourceView method,ID3D12Device interface, ID3D12Device interface,CreateShaderResourceView method, ID3D12Device.CreateShaderResourceView, ID3D12Device::CreateShaderResourceView, d3d12/ID3D12Device::CreateShaderResourceView, direct3d12.id3d12device_createshaderresourceview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

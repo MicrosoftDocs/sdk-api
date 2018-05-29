@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMStoreFloat3SE
 title: XMStoreFloat3SE function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an XMVECTOR in an XMFLOAT3SE.
 old-location: dxmath\xmstorefloat3se.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3SE(XMFLOAT3SE@,XMVECTOR)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreFloat3SE, XMStoreFloat3SE, XMStoreFloat3SE method [DirectX Math Support APIs], dxmath.xmstorefloat3se
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

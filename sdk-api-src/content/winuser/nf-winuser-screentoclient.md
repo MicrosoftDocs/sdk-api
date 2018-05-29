@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.ScreenToClient
 title: ScreenToClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ScreenToClient function converts the screen coordinates of a specified point on the screen to client-area coordinates.
 old-location: gdi\screentoclient.htm
 old-project: gdi
 ms.assetid: 5d3e65d1-e0c8-4063-b2e8-dd9f482d3378
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScreenToClient, ScreenToClient function [Windows GDI], _win32_ScreenToClient, gdi.screentoclient, winuser/ScreenToClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

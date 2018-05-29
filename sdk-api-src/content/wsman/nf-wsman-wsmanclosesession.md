@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManCloseSession
 title: WSManCloseSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a session object.
 old-location: winrm\wsmanclosesession.htm
 old-project: WinRM
 ms.assetid: b7d1ef66-0371-4d30-8053-813b229b2a62
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManCloseSession, WSManCloseSession function [Windows Remote Management], winrm.wsmanclosesession, wsman/WSManCloseSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferSink.IsProfileLocked
 title: IStreamBufferSink::IsProfileLocked
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\istreambuffersink_isprofilelocked.htm
 old-project: mstv
 ms.assetid: 941c1702-2ef2-4afe-933c-78ed9ee8690b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],IsProfileLocked method, IStreamBufferSink.IsProfileLocked, IStreamBufferSink::IsProfileLocked, IStreamBufferSinkIsProfileLocked, IsProfileLocked, IsProfileLocked method [Microsoft TV Technologies], IsProfileLocked method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_isprofilelocked, sbe/IStreamBufferSink::IsProfileLocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

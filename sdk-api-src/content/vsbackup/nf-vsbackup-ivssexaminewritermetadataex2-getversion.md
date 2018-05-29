@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetVersion
 title: IVssExamineWriterMetadataEx2::GetVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the version information for a writer application.
 old-location: base\ivssexaminewritermetadataex2_getversion.htm
 old-project: VSS
 ms.assetid: d702263e-0ea5-428c-bbd6-1ab8a7334a92
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetVersion, GetVersion method, GetVersion method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetVersion method, IVssExamineWriterMetadataEx2.GetVersion, IVssExamineWriterMetadataEx2::GetVersion, base.ivssexaminewritermetadataex2_getversion, vsbackup/IVssExamineWriterMetadataEx2::GetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

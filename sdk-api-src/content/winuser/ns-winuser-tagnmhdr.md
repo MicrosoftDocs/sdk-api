@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagNMHDR
 title: tagNMHDR
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a notification message.
 old-location: controls\NMHDR.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMHDR, NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR, tagNMHDR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Winuser.h

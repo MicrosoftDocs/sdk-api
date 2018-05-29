@@ -1,16 +1,16 @@
 ---
 UID: NF:objectarray.IObjectCollection.AddFromArray
 title: IObjectCollection::AddFromArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the objects contained in an IObjectArray to the collection.
 old-location: shell\IObjectCollection_AddFromArray.htm
 old-project: shell
 ms.assetid: fc51b2e0-a5e0-4440-a279-e94640b5dda7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddFromArray, AddFromArray method [Windows Shell], AddFromArray method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddFromArray method, IObjectCollection.AddFromArray, IObjectCollection::AddFromArray, _shell_IObjectCollection_AddFromArray, objectarray/IObjectCollection::AddFromArray, shell.IObjectCollection_AddFromArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objectarray.h
 req.include-header: Shobjidl.h

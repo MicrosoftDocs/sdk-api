@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
 title: "_CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the CryptUIWizDigitalSign function to contain information about a BLOB.
 old-location: security\cryptui_wiz_digital_sign_context.htm
 old-project: SecCrypto
 ms.assetid: 3e4eb745-0c28-4ce5-870b-d24565ef0cae
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, security.cryptui_wiz_digital_sign_context"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

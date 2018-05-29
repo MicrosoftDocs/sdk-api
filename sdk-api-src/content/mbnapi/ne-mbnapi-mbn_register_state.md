@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_REGISTER_STATE
 title: MBN_REGISTER_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device.
 old-location: mbn\mbn_register_state.htm
 old-project: mbn
 ms.assetid: cbe29357-b374-4764-9322-6308b98ddc3e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_REGISTER_STATE, MBN_REGISTER_STATE enumeration [Microsoft Broadband Networks], MBN_REGISTER_STATE_DENIED, MBN_REGISTER_STATE_DEREGISTERED, MBN_REGISTER_STATE_HOME, MBN_REGISTER_STATE_NONE, MBN_REGISTER_STATE_PARTNER, MBN_REGISTER_STATE_ROAMING, MBN_REGISTER_STATE_SEARCHING, mbn.mbn_register_state, mbnapi/MBN_REGISTER_STATE, mbnapi/MBN_REGISTER_STATE_DENIED, mbnapi/MBN_REGISTER_STATE_DEREGISTERED, mbnapi/MBN_REGISTER_STATE_HOME, mbnapi/MBN_REGISTER_STATE_NONE, mbnapi/MBN_REGISTER_STATE_PARTNER, mbnapi/MBN_REGISTER_STATE_ROAMING, mbnapi/MBN_REGISTER_STATE_SEARCHING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

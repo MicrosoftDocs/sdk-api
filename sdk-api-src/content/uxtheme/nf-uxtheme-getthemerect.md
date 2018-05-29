@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeRect
 title: GetThemeRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a RECT property.
 old-location: controls\GetThemeRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemerect.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeRect, GetThemeRect function [Windows Controls], controls.GetThemeRect, controls.inet_GetThemeRect, inet_GetThemeRect, inet_GetThemeRect_cpp, uxtheme/GetThemeRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

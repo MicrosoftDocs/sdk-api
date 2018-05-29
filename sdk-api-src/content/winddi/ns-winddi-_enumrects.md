@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._ENUMRECTS
 title: "_ENUMRECTS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ENUMRECTS structure is used by the CLIPOBJ_cEnumStart function to provide information about rectangles in a clip region for the CLIPOBJ_bEnum function.
 old-location: display\enumrects.htm
 old-project: display
 ms.assetid: f7b8787f-f383-4cae-970e-8f4eb34b00da
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ENUMRECTS, ENUMRECTS structure [Display Devices], _ENUMRECTS, display.enumrects, grstrcts_8ea2422f-1b57-4a7a-be86-adca8b830a36.xml, winddi/ENUMRECTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

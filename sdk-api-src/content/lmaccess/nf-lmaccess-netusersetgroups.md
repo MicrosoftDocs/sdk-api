@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetUserSetGroups
 title: NetUserSetGroups function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetUserSetGroups function sets global group memberships for a specified user account.
 old-location: netmgmt\netusersetgroups.htm
 old-project: NetMgmt
 ms.assetid: 7042c43a-09d1-4179-8074-eb055dc279a6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, NetUserSetGroups, NetUserSetGroups function [Network Management], _win32_netusersetgroups, lmaccess/NetUserSetGroups, netmgmt.netusersetgroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

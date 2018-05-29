@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.GetPropertyStorage
 title: IPersistSerializedPropStorage::GetPropertyStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the serialized property storage data from the property store instance.
 old-location: shell\IPersistSerializedPropStorage_GetPropertyStorage.htm
 old-project: shell
 ms.assetid: 86a1d7ec-759a-4b8a-91e1-4cfa28a17b41
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, IPersistSerializedPropStorage interface [Windows Shell],GetPropertyStorage method, IPersistSerializedPropStorage.GetPropertyStorage, IPersistSerializedPropStorage::GetPropertyStorage, _shell_IPersistSerializedPropStorage_GetPropertyStorage, propsys/IPersistSerializedPropStorage::GetPropertyStorage, shell.IPersistSerializedPropStorage_GetPropertyStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

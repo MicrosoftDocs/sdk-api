@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateAsyncResult
 title: MFCreateAsyncResult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
 old-location: mf\mfcreateasyncresult.htm
 old-project: medfound
 ms.assetid: 6ff773a9-961e-4a5e-ad37-46234022c575
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6ff773a9-961e-4a5e-ad37-46234022c575, MFCreateAsyncResult, MFCreateAsyncResult function [Media Foundation], mf.mfcreateasyncresult, mfapi/MFCreateAsyncResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

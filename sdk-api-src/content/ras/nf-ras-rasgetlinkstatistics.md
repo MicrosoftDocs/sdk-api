@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetLinkStatistics
 title: RasGetLinkStatistics function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasGetLinkStatistics function retrieves accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasgetlinkstatistics.htm
 old-project: RRAS
 ms.assetid: 825a80c9-8023-4b7f-a303-f1eaa650e1d8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.UpdateProfile
 title: IMbnConnectionProfile::UpdateProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the contents of the profile.
 old-location: mbn\imbnconnectionprofile_updateprofile.htm
 old-project: mbn
 ms.assetid: 3243ffec-1897-4f26-853d-81a7198a892d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionProfile interface [Microsoft Broadband Networks],UpdateProfile method, IMbnConnectionProfile.UpdateProfile, IMbnConnectionProfile::UpdateProfile, UpdateProfile, UpdateProfile method [Microsoft Broadband Networks], UpdateProfile method [Microsoft Broadband Networks],IMbnConnectionProfile interface, mbn.imbnconnectionprofile_updateprofile, mbnapi/IMbnConnectionProfile::UpdateProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

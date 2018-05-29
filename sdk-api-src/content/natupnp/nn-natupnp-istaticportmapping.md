@@ -1,16 +1,16 @@
 ---
 UID: NN:natupnp.IStaticPortMapping
 title: IStaticPortMapping
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStaticPortMapping interface provides methods to retrieve and change the information for a particular port mapping.
 old-location: ics\istaticportmapping.htm
 old-project: ICS
 ms.assetid: 5013fea2-e767-4600-a10c-6859b7be42e4
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: natupnp.h
 req.include-header: 

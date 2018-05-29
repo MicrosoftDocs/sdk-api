@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.AddStream
 title: IWMProfile::AddStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddStream method adds a stream to the profile by copying the stream configuration details into the profile.
 old-location: wmformat\iwmprofile_addstream.htm
 old-project: wmformat
 ms.assetid: 3024fd2b-c261-49bd-b9a7-c1f43b31645b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddStream, AddStream method [windows Media Format], AddStream method [windows Media Format],IWMProfile interface, AddStream method [windows Media Format],IWMProfile2 interface, AddStream method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],AddStream method, IWMProfile.AddStream, IWMProfile2 interface [windows Media Format],AddStream method, IWMProfile2::AddStream, IWMProfile3 interface [windows Media Format],AddStream method, IWMProfile3::AddStream, IWMProfile::AddStream, IWMProfileAddStream, wmformat.iwmprofile_addstream, wmsdkidl/IWMProfile2::AddStream, wmsdkidl/IWMProfile3::AddStream, wmsdkidl/IWMProfile::AddStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

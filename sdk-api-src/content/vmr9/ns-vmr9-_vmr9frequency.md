@@ -1,16 +1,16 @@
 ---
 UID: NS:vmr9._VMR9Frequency
 title: "_VMR9Frequency"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMR9Frequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 old-location: dshow\vmr9frequency.htm
 old-project: DirectShow
 ms.assetid: a2d19dcf-521e-4df0-8e28-5561f2617411
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMR9Frequency, VMR9Frequency structure [DirectShow], VMR9FrequencyStructure, _VMR9Frequency, dshow.vmr9frequency, vmr9/VMR9Frequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

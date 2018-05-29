@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataresolution.RoResolveNamespace
 title: RoResolveNamespace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determine the direct children, types, and sub-namespaces of the specified Windows Runtime namespace, from any programming language supported by the Windows Runtime.
 old-location: winrt\roresolvenamespace.htm
 old-project: WinRT
 ms.assetid: 597E8B18-B9D9-42E5-B260-595370BEEAC0
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoResolveNamespace, RoResolveNamespace function [Windows Runtime], rometadataresolution/RoResolveNamespace, winrt.roresolvenamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rometadataresolution.h
 req.include-header: 

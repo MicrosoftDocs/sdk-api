@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemcli.IMofCompiler
 title: IMofCompiler
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMofCompiler interface, implemented by Mofd.dll, provides a COM interface that is used by the Managed Object Format (MOF) compiler and any other applications that compile MOF files.
 old-location: wmi\imofcompiler.htm
 old-project: WmiSdk
 ms.assetid: 5e01c7ac-7090-4cde-b836-01fa9d3f27f5
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation],described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.GetColor
 title: SolidBrush::GetColor
-author: windows-driver-content
+author: windows-sdk-content
 description: The SolidBrush::GetColor method gets the color of this solid brush.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_GetColor_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrushmethods\getcolor_82color.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],GetColor method, SolidBrush.GetColor, SolidBrush::GetColor, _gdiplus_CLASS_SolidBrush_GetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_GetColor_color_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

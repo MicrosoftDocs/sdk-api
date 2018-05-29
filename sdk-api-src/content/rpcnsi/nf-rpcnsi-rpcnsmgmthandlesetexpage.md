@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtHandleSetExpAge
 title: RpcNsMgmtHandleSetExpAge function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsMgmtHandleSetExpAge function sets the expiration age of a name-service handle for local copies of name-service data.
 old-location: rpc\rpcnsmgmthandlesetexpage.htm
 old-project: Rpc
 ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

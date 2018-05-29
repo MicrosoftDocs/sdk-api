@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertProperties.InitializeFromCertificate
 title: ICertProperties::InitializeFromCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the collection from the properties contained in a certificate.
 old-location: security\icertproperties_initializefromcertificate_method.htm
 old-project: SecCertEnroll
 ms.assetid: 74de47cb-44fd-45d7-ba32-03824fc0995d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertProperties interface [Security],InitializeFromCertificate method, ICertProperties.InitializeFromCertificate, ICertProperties::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperties interface, certenroll/ICertProperties::InitializeFromCertificate, security.icertproperties_initializefromcertificate_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

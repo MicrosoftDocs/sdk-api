@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphUniversalTimeToPeerTime
 title: PeerGraphUniversalTimeToPeerTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphUniversalTimeToPeerTime function converts a universal time value from the peer's computer to a common peer graph time value.
 old-location: p2p\peergraphuniversaltimetopeertime.htm
 old-project: P2PSdk
 ms.assetid: 4d2c8943-cef5-4df3-96fe-447bd5bf37e8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphUniversalTimeToPeerTime, PeerGraphUniversalTimeToPeerTime function [Peer Networking], p2p.peergraphuniversaltimetopeertime, p2p/PeerGraphUniversalTimeToPeerTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

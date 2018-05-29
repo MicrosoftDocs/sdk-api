@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.RegisterPointerInputTarget
 title: RegisterPointerInputTarget function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the caller to register a target window to which all pointer input of the specified type is redirected.
 old-location: winauto\RegisterPointerInputTarget.htm
 old-project: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1830
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: RegisterPointerInputTarget, RegisterPointerInputTarget function [Windows Accessibility], inputmsg.registerpointerinputtarget, winauto.RegisterPointerInputTarget, winuser/RegisterPointerInputTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

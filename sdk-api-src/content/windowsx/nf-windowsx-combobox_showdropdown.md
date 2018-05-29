@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ComboBox_ShowDropdown
 title: ComboBox_ShowDropdown macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Shows or hides the list in a combo box. You can use this macro or send the CB_SHOWDROPDOWN message explicitly.
 old-location: controls\ComboBox_ShowDropdown.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_showdropdown.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ComboBox_ShowDropdown, ComboBox_ShowDropdown macro [Windows Controls], _win32_ComboBox_ShowDropdown, _win32_ComboBox_ShowDropdown_cpp, controls.ComboBox_ShowDropdown, controls._win32_ComboBox_ShowDropdown, windowsx/ComboBox_ShowDropdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

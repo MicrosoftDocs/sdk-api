@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetFileBandwidthReservation
 title: SetFileBandwidthReservation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests that bandwidth for the specified file stream be reserved. The reservation is specified as a number of bytes in a period of milliseconds for I/O requests on the specified file handle.
 old-location: fs\setfilebandwidthreservation_func.htm
 old-project: FileIO
 ms.assetid: a22bd8f3-4fbf-4f77-b8b6-7e786942615a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetFileBandwidthReservation, SetFileBandwidthReservation function [Files], fs.setfilebandwidthreservation_func, winbase/SetFileBandwidthReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

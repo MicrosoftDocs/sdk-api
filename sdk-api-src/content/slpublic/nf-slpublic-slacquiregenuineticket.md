@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLAcquireGenuineTicket
 title: SLAcquireGenuineTicket function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a XrML genuine ticket acquired from the Software Licensing Server (SLS).
 old-location: security\slacquiregenuineticket.htm
 old-project: SecSLApi
 ms.assetid: 028099c8-9116-4212-bc29-1065b22be593
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

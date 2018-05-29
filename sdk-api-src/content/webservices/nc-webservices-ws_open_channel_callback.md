@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_OPEN_CHANNEL_CALLBACK
 title: WS_OPEN_CHANNEL_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsOpenChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_open_channel_callback.htm
 old-project: wsw
 ms.assetid: 5f36b4f1-37e4-48ed-a331-d4edc7d3413b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_OPEN_CHANNEL_CALLBACK, WS_OPEN_CHANNEL_CALLBACK callback, WS_OPEN_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_OPEN_CHANNEL_CALLBACK, wsw.ws_open_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

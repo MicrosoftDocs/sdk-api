@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyPort
 title: IWMPNetwork::setProxyPort
-author: windows-driver-content
+author: windows-sdk-content
 description: The setProxyPort method specifies the proxy port to use.
 old-location: wmp\iwmpnetwork_setproxyport.htm
 old-project: WMP
 ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyPort method, IWMPNetwork.setProxyPort, IWMPNetwork::setProxyPort, IWMPNetworksetProxyPort, setProxyPort, setProxyPort method [Windows Media Player], setProxyPort method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyport, wmp/IWMPNetwork::setProxyPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteChars
 title: WsWriteChars function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a series of characters to an element or attribute.
 old-location: wsw\wswritechars.htm
 old-project: wsw
 ms.assetid: e435058f-62b5-4ae9-800e-e022033a9664
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteChars, WsWriteChars function [Web Services for Windows], webservices/WsWriteChars, wsw.wswritechars
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

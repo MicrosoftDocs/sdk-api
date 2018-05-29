@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetContextPropertyList
 title: GetContextPropertyList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of properties the recognizer supports.
 old-location: tablet\getcontextpropertylist.htm
 old-project: tablet
 ms.assetid: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6, GetContextPropertyList, GetContextPropertyList function [Tablet PC], recapis/GetContextPropertyList, tablet.getcontextpropertylist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

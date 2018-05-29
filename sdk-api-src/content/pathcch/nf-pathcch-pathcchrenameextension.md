@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchRenameExtension
 title: PathCchRenameExtension function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces a file name's extension at the end of a path string with a new extension.
 old-location: shell\PathCchRenameExtension.htm
 old-project: shell
 ms.assetid: 79cd9499-03b7-4482-abd3-a42edd1b2b67
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchRenameExtension, PathCchRenameExtension function [Windows Shell], pathcch/PathCchRenameExtension, shell.PathCchRenameExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

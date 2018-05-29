@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeSpecFromToken
 title: IMetaDataImport::GetTypeSpecFromToken
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the binary metadata signature of the type specification represented by the specified token.
 old-location: winrt\imetadataimport_gettypespecfromtoken.htm
 old-project: WinRT
 ms.assetid: e03b6c5f-c68a-44a9-a203-8ed00293b582
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetTypeSpecFromToken, GetTypeSpecFromToken method [Windows Runtime], GetTypeSpecFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeSpecFromToken method, IMetaDataImport.GetTypeSpecFromToken, IMetaDataImport::GetTypeSpecFromToken, rometadataapi/IMetaDataImport::GetTypeSpecFromToken, winrt.imetadataimport_gettypespecfromtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

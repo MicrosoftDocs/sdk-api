@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarR8FromI2
 title: VarR8FromI2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a short value to a double value.
 old-location: automat\varr8fromi2.htm
 old-project: automat
 ms.assetid: b633a41c-5a47-4b88-b8ce-590b5f6d5169
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarR8FromI2, VarR8FromI2 function [Automation], _oa96_VarR8FromI2, automat.varr8fromi2, oleauto/VarR8FromI2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

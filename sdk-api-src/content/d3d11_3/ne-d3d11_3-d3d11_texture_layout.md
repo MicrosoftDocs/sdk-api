@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11_3.D3D11_TEXTURE_LAYOUT
 title: D3D11_TEXTURE_LAYOUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies texture layout options.
 old-location: direct3d11\d3d11_texture_layout.htm
 old-project: direct3d11
 ms.assetid: E7786550-99FC-4F8E-B93F-C2877C052EC2
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TEXTURE_LAYOUT, D3D11_TEXTURE_LAYOUT enumeration [Direct3D 11], D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, D3D11_TEXTURE_LAYOUT_ROW_MAJOR, D3D11_TEXTURE_LAYOUT_UNDEFINED, d3d11_3/D3D11_TEXTURE_LAYOUT, d3d11_3/D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, d3d11_3/D3D11_TEXTURE_LAYOUT_ROW_MAJOR, d3d11_3/D3D11_TEXTURE_LAYOUT_UNDEFINED, direct3d11.d3d11_texture_layout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 

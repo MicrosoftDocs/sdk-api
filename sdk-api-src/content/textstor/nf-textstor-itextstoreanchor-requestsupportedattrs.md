@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestSupportedAttrs
 title: ITextStoreAnchor::RequestSupportedAttrs
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchor::RequestSupportedAttrs method
 old-location: tsf\itextstoreanchor_requestsupportedattrs.htm
 old-project: TSF
 ms.assetid: ab81d79d-e991-4c2d-9fb7-95393e002828
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreAnchor.RequestSupportedAttrs, ITextStoreAnchor::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RequestSupportedAttrs, tsf.itextstoreanchor_requestsupportedattrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

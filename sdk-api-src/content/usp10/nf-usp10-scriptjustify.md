@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptJustify
 title: ScriptJustify function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an advance widths table to allow text justification when passed to the ScriptTextOut function.
 old-location: intl\scriptjustify.htm
 old-project: Intl
 ms.assetid: 9419eb80-cd33-4974-a1f1-d43276cb7a91
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

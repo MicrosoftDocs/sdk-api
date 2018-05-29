@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVolumeMF.QueryAccessPaths
 title: IVdsVolumeMF::QueryAccessPaths
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of access paths and a drive letter, if one exists, for the current volume.
 old-location: base\ivdsvolumemf_queryaccesspaths.htm
 old-project: VDS
 ms.assetid: 7d541245-c189-4abe-ac72-2928c7aeed95
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVolumeMF interface [VDS],QueryAccessPaths method, IVdsVolumeMF.QueryAccessPaths, IVdsVolumeMF::QueryAccessPaths, QueryAccessPaths, QueryAccessPaths method [VDS], QueryAccessPaths method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_queryaccesspaths, vds/IVdsVolumeMF::QueryAccessPaths
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

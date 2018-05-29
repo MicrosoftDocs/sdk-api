@@ -1,16 +1,16 @@
 ---
 UID: NE:resapi._CLUSTER_ROLE_STATE
 title: "_CLUSTER_ROLE_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the potential return values for the ResUtilGetClusterRoleState function.
 old-location: mscs\cluster_role_state.htm
 old-project: MsCS
 ms.assetid: 21424e31-4eba-4ff9-95c1-0908827936df
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_ROLE_STATE, CLUSTER_ROLE_STATE enumeration [Failover Cluster], ClusterRoleClustered, ClusterRoleUnclustered, ClusterRoleUnknown, _CLUSTER_ROLE_STATE, mscs.cluster_role_state, resapi/CLUSTER_ROLE_STATE, resapi/ClusterRoleClustered, resapi/ClusterRoleUnclustered, resapi/ClusterRoleUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 

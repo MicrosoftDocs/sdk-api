@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_FlushPipe
 title: WinUsb_FlushPipe function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_FlushPipe function discards any data that is cached in a pipe. This is a synchronous operation.
 old-location: buses\winusb_flushpipe.htm
 old-project: usbref
 ms.assetid: 3f6d55c2-32df-4cb9-99bb-0e1a71c97394
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_FlushPipe, WinUsb_FlushPipe function [Buses], buses.winusb_flushpipe, winusb/WinUsb_FlushPipe, winusbfunc_44ebf8ef-770d-4102-8a2d-b0d996f36e41.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

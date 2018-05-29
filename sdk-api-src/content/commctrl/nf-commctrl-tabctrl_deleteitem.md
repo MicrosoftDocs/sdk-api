@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TabCtrl_DeleteItem
 title: TabCtrl_DeleteItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an item from a tab control. You can use this macro or send the TCM_DELETEITEM message explicitly.
 old-location: controls\TabCtrl_DeleteItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TabCtrl_DeleteItem, TabCtrl_DeleteItem macro [Windows Controls], _win32_TabCtrl_DeleteItem, _win32_TabCtrl_DeleteItem_cpp, commctrl/TabCtrl_DeleteItem, controls.TabCtrl_DeleteItem, controls._win32_TabCtrl_DeleteItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

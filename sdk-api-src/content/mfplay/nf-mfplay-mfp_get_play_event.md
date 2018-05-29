@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.MFP_GET_PLAY_EVENT
 title: MFP_GET_PLAY_EVENT macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PLAY_EVENT pointer.
 old-location: mf\mfp_get_play_event.htm
 old-project: medfound
 ms.assetid: 2a67965f-3429-4ce7-ae62-8952cacb00eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_GET_PLAY_EVENT, MFP_GET_PLAY_EVENT macro [Media Foundation], mf.mfp_get_play_event, mfplay/MFP_GET_PLAY_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: mfplay.h
 req.include-header: 

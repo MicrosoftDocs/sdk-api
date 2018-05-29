@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleSavePictureFile
 title: OleSavePictureFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves a picture to a file.
 old-location: automat\olesavepicturefile.htm
 old-project: automat
 ms.assetid: ac46d390-9e08-4f79-a621-60ea75f4acff
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: OleSavePictureFile, OleSavePictureFile function [Automation], _oa96_OleSavePictureFile, automat.olesavepicturefile, olectl/OleSavePictureFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

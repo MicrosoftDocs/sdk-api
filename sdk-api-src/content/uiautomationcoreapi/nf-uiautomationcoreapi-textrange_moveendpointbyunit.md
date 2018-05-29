@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_MoveEndpointByUnit
 title: TextRange_MoveEndpointByUnit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves an endpoint of the range the specified number of units.
 old-location: winauto\uiauto_TextRange_MoveEndpointByUnitConPat.htm
 old-project: WinAuto
 ms.assetid: 15afd438-c662-4cc1-b6b5-87e5bf82ccaa
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TextRange_MoveEndpointByUnit, TextRange_MoveEndpointByUnit function [Windows Accessibility], uiauto.uiauto_TextRange_MoveEndpointByUnitConPat, uiauto_TextRange_MoveEndpointByUnitConPat, uiautomationcoreapi/TextRange_MoveEndpointByUnit, winauto.uiauto_TextRange_MoveEndpointByUnitConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

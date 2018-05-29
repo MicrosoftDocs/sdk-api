@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleLoadPictureFileEx
 title: OleLoadPictureFileEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads a picture from a file.
 old-location: automat\oleloadpicturefileex.htm
 old-project: automat
 ms.assetid: 39a2c814-97f6-4157-8884-8b3f268d3f7f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LP_COLOR, LP_DEFAULT, LP_MONOCHROME, LP_VGACOLOR, OleLoadPictureFileEx, OleLoadPictureFileEx function [Automation], _oa96_OleLoadPictureFileEx, automat.oleloadpicturefileex, olectl/OleLoadPictureFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

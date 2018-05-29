@@ -1,16 +1,16 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0007
 title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0007"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for the type of window.
 old-location: rdp\rdpsrapi_wnd_flags.htm
 old-project: Rdp
 ms.assetid: 0ba626e0-b6dc-4331-9541-0c27c73b3de4
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: RDPSRAPI_WND_FLAGS, RDPSRAPI_WND_FLAGS enumeration [RDP], WND_FLAG_PRIVILEGED, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0007, rdp.rdpsrapi_wnd_flags, rdpencomapi/RDPSRAPI_WND_FLAGS, rdpencomapi/WND_FLAG_PRIVILEGED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 

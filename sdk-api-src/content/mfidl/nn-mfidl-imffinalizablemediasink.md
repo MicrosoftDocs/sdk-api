@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFFinalizableMediaSink
 title: IMFFinalizableMediaSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Optionally supported by media sinks to perform required tasks before shutdown.
 old-location: mf\imffinalizablemediasink.htm
 old-project: medfound
 ms.assetid: e60c2773-f2fc-469e-a698-036390cbed16
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], IMFFinalizableMediaSink interface [Media Foundation],described, e60c2773-f2fc-469e-a698-036390cbed16, mf.imffinalizablemediasink, mfidl/IMFFinalizableMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

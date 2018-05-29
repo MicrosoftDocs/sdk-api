@@ -1,16 +1,16 @@
 ---
 UID: NN:shappmgr.IEnumPublishedApps
 title: IEnumPublishedApps
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enumerate published applications to Add/Remove Programs in the Control Panel. The object exposing this interface is requested through IAppPublisher::EnumApps.
 old-location: shell\IEnumPublishedApps.htm
 old-project: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shappmgr.h
 req.include-header: 

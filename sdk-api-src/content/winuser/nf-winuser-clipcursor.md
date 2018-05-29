@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.ClipCursor
 title: ClipCursor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Confines the cursor to a rectangular area on the screen.
 old-location: menurc\clipcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\clipcursor.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ClipCursor, ClipCursor function [Menus and Other Resources], _win32_ClipCursor, _win32_clipcursor_cpp, menurc.clipcursor, winui._win32_clipcursor, winuser/ClipCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

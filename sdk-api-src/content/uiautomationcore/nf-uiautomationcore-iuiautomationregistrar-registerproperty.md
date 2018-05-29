@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterProperty
 title: IUIAutomationRegistrar::RegisterProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a third-party property.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterProperty.htm
 old-project: WinAuto
 ms.assetid: 225bbbec-5910-4711-b713-3409c9925be2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterProperty method, IUIAutomationRegistrar.RegisterProperty, IUIAutomationRegistrar::RegisterProperty, RegisterProperty, RegisterProperty method [Windows Accessibility], RegisterProperty method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterProperty, uiauto_IUIAutomationRegistrar_RegisterProperty, uiautomationcore/IUIAutomationRegistrar::RegisterProperty, winauto.uiauto_IUIAutomationRegistrar_RegisterProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

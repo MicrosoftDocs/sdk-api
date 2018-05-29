@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetCenterY
 title: SetCenterY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcentery_overloaded.htm
 old-project: directcomp
 ms.assetid: 19B3B065-BE8C-4CBD-8A94-54934CA0B421
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRotateTransform3D::SetCenterY, SetCenterY, SetCenterY methods [DirectComposition], dcomp/SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

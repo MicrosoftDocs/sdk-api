@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetACPFromPoint
 title: ITextStoreACP::GetACPFromPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACP::GetACPFromPoint method converts a point in screen coordinates to an application character position.
 old-location: tsf\itextstoreacp_getacpfrompoint.htm
 old-project: TSF
 ms.assetid: b6489391-a19e-405a-a129-f68054088860
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP.GetACPFromPoint, ITextStoreACP::GetACPFromPoint, _tsf_itextstoreacp_getacpfrompoint_ref, textstor/ITextStoreACP::GetACPFromPoint, tsf.itextstoreacp_getacpfrompoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

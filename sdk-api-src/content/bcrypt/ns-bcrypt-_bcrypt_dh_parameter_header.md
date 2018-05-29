@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_DH_PARAMETER_HEADER
 title: "_BCRYPT_DH_PARAMETER_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to contain parameter header information for a Diffie-Hellman key.
 old-location: security\bcrypt_dh_parameter_header.htm
 old-project: SecCNG
 ms.assetid: 5d023653-6197-4f08-8c71-e1d10f6b1860
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_DH_PARAMETERS_MAGIC, BCRYPT_DH_PARAMETER_HEADER, BCRYPT_DH_PARAMETER_HEADER structure [Security], _BCRYPT_DH_PARAMETER_HEADER, bcrypt/BCRYPT_DH_PARAMETER_HEADER, security.bcrypt_dh_parameter_header
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

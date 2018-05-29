@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.TabbedTextOutA
 title: TabbedTextOutA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TabbedTextOut function writes a character string at a specified location, expanding tabs to the values specified in an array of tab-stop positions. Text is written in the currently selected font, background color, and text color.
 old-location: gdi\tabbedtextout.htm
 old-project: gdi
 ms.assetid: 1cb78a75-752d-4e06-afdf-cd797f209114
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TabbedTextOut, TabbedTextOut function [Windows GDI], TabbedTextOutA, TabbedTextOutW, _win32_TabbedTextOut, gdi.tabbedtextout, winuser/TabbedTextOut, winuser/TabbedTextOutA, winuser/TabbedTextOutW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

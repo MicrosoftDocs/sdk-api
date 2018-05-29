@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetDisplayConfigBufferSizes
 title: GetDisplayConfigBufferSizes function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDisplayConfigBufferSizes function retrieves the size of the buffers that are required to call the QueryDisplayConfig function.
 old-location: display\getdisplayconfigbuffersizes.htm
 old-project: display
 ms.assetid: 5ec7f521-28b5-4922-a3fc-aa4433de69e0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

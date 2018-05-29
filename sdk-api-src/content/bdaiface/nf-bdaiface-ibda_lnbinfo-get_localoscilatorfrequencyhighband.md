@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.get_LocalOscilatorFrequencyHighBand
 title: IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_LocalOscilatorFrequencyHighBand method retrieves the high band of the local oscillator frequency.
 old-location: mstv\ibda_lnbinfo_get_localoscilatorfrequencyhighband.htm
 old-project: mstv
 ms.assetid: 21960718-818c-4efb-a2c2-577c3b938da4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],get_LocalOscilatorFrequencyHighBand method, IBDA_LNBInfo.get_LocalOscilatorFrequencyHighBand, IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand, IBDA_LNBInfoget_LocalOscilatorFrequencyHighBand, bdaiface/IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand, get_LocalOscilatorFrequencyHighBand, get_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies], get_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies],IBDA_LNBInfo interface, mstv.ibda_lnbinfo_get_localoscilatorfrequencyhighband
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

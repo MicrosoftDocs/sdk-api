@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindFirstVolumeW
 title: FindFirstVolumeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of a volume on a computer.
 old-location: fs\findfirstvolume.htm
 old-project: FileIO
 ms.assetid: 3eaf9903-ae20-47e7-b32c-943bf60e7bbd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindFirstVolume, FindFirstVolume function [Files], FindFirstVolumeA, FindFirstVolumeW, _win32_findfirstvolume, base.findfirstvolume, fileapi/FindFirstVolume, fileapi/FindFirstVolumeA, fileapi/FindFirstVolumeW, fs.findfirstvolume, winbase/FindFirstVolume, winbase/FindFirstVolumeA, winbase/FindFirstVolumeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

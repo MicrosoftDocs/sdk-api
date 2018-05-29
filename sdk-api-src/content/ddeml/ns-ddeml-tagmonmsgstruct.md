@@ -1,16 +1,16 @@
 ---
 UID: NS:ddeml.tagMONMSGSTRUCT
 title: tagMONMSGSTRUCT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) message. A DDE monitoring application can use this structure to obtain information about a DDE message that was sent or posted.
 old-location: dataxchg\monmsgstruct_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monmsgstruct.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMONMSGSTRUCT, MONMSGSTRUCT, MONMSGSTRUCT structure [Data Exchange], PMONMSGSTRUCT, PMONMSGSTRUCT structure pointer [Data Exchange], _win32_MONMSGSTRUCT_str, _win32_monmsgstruct_str_cpp, dataxchg.monmsgstruct_str, ddeml/MONMSGSTRUCT, ddeml/PMONMSGSTRUCT, tagMONMSGSTRUCT, winui._win32_monmsgstruct_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

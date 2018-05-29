@@ -1,16 +1,16 @@
 ---
 UID: NS:nsemail.napi_domain_description_blob_tag
 title: napi_domain_description_blob_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a domain handled by a namespace provider for the NS_EMAIL namespace.
 old-location: winsock\napi_domain_description_blob.htm
 old-project: WinSock
 ms.assetid: 543aa20c-eec2-4177-87ed-ba9c91251010
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: NAPI_DOMAIN_DESCRIPTION_BLOB, NAPI_DOMAIN_DESCRIPTION_BLOB structure [Winsock], PNAPI_DOMAIN_DESCRIPTION_BLOB, PNAPI_DOMAIN_DESCRIPTION_BLOB structure pointer [Winsock], napi_domain_description_blob_tag, nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB, nsemail/PNAPI_DOMAIN_DESCRIPTION_BLOB, winsock.napi_domain_description_blob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nsemail.h
 req.include-header: 

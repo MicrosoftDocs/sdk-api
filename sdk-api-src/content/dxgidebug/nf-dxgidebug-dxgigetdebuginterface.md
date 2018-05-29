@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.DXGIGetDebugInterface
 title: DXGIGetDebugInterface function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a debugging interface.
 old-location: direct3ddxgi\dxgigetdebuginterface.htm
 old-project: direct3ddxgi
 ms.assetid: 7702B842-6808-4CA9-A5B4-B1A1DC2479A7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGIGetDebugInterface, DXGIGetDebugInterface function [DXGI], direct3ddxgi.dxgigetdebuginterface, dxgidebug/DXGIGetDebugInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dxgidebug.h
 req.include-header: 

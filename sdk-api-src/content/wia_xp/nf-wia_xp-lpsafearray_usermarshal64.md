@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserMarshal64
 title: LPSAFEARRAY_UserMarshal64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side.
 old-location: automat\lpsafearray_usermarshal64.htm
 old-project: automat
 ms.assetid: 532CE1FB-FDE0-491A-90D2-CC6F45DB7FDF
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LPSAFEARRAY_UserMarshal64, LPSAFEARRAY_UserMarshal64 function [Automation], automat.lpsafearray_usermarshal64, wia_xp/LPSAFEARRAY_UserMarshal64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h

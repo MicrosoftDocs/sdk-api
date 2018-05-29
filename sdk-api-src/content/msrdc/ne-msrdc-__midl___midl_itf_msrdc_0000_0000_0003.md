@@ -1,16 +1,16 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0003
 title: "__MIDL___MIDL_itf_msrdc_0000_0000_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of data chunks used to generate a remote copy.
 old-location: rdc\rdcneedtype.htm
 old-project: Rdc
 ms.assetid: 93173b2e-a0df-445e-98a8-f7df02fbc7a8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RDCNEED_SEED, RDCNEED_SEED_MAX, RDCNEED_SOURCE, RDCNEED_TARGET, RdcNeedType, RdcNeedType enumeration [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0003, fs.rdcneedtype, msrdc/RDCNEED_SEED, msrdc/RDCNEED_SEED_MAX, msrdc/RDCNEED_SOURCE, msrdc/RDCNEED_TARGET, msrdc/RdcNeedType, rdc.rdcneedtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msrdc.h
 req.include-header: 

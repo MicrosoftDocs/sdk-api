@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchViewChangedSink.OnChange
 title: ISearchViewChangedSink::OnChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchViewChangedSink_OnChange.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\onchange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchViewChangedSink interface [search],OnChange method, ISearchViewChangedSink.OnChange, ISearchViewChangedSink::OnChange, OnChange, OnChange method [search], OnChange method [search],ISearchViewChangedSink interface, _search_ISearchViewChangedSink_OnChange, search._search_ISearchViewChangedSink_OnChange, searchapi/ISearchViewChangedSink::OnChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFTUnregister
 title: MFTUnregister function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a Media Foundation transform (MFT).
 old-location: mf\mftunregister.htm
 old-project: medfound
 ms.assetid: 2e63a098-5b83-4ea9-8149-4972f8ed0944
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2e63a098-5b83-4ea9-8149-4972f8ed0944, MFTUnregister, MFTUnregister function [Media Foundation], mf.mftunregister, mfapi/MFTUnregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

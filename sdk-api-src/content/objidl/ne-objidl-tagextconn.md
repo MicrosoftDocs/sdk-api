@@ -1,16 +1,16 @@
 ---
 UID: NE:objidl.tagEXTCONN
 title: tagEXTCONN
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of external connection existing on an embedded object.
 old-location: com\extconn.htm
 old-project: com
 ms.assetid: 95c7de47-9f81-4316-99b8-0f5f0aa54d65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EXTCONN, EXTCONN enumeration [COM], EXTCONN_CALLABLE, EXTCONN_STRONG, EXTCONN_WEAK, _com_EXTCONN, com.extconn, objidlbase/EXTCONN, objidlbase/EXTCONN_CALLABLE, objidlbase/EXTCONN_STRONG, objidlbase/EXTCONN_WEAK, tagEXTCONN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidl.h

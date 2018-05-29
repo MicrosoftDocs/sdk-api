@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.ITraceDataCollector
 title: ITraceDataCollector
-author: windows-driver-content
+author: windows-sdk-content
 description: Collects trace events from registered providers.This interface defines the trace session.
 old-location: pla\itracedatacollector.htm
 old-project: PLA
 ms.assetid: 1f57aa92-81f0-445f-baa3-274714e8291e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ITraceDataCollector interface [PLA],described, base.itracedatacollector, pla.itracedatacollector, pla/ITraceDataCollector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

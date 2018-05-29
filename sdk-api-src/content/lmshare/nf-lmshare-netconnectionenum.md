@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetConnectionEnum
 title: NetConnectionEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Lists all connections made to a shared resource on the server or all connections established from a particular computer.
 old-location: fs\netconnectionenum.htm
 old-project: NetShare
 ms.assetid: 935ac6e9-78e0-42ae-a454-0a14b03ddc21
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: 0, 1, NetConnectionEnum, NetConnectionEnum function [Files], _win32_netconnectionenum, fs.netconnectionenum, lmshare/NetConnectionEnum, netmgmt.netconnectionenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

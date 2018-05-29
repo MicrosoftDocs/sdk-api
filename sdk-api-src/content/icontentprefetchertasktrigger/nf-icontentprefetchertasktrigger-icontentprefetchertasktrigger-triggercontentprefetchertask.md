@@ -1,16 +1,16 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 title: IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Triggers a content prefetch background task for the specified app package.
 old-location: wsw\icontentprefetchertasktrigger_triggercontentprefetchertask.htm
 old-project: wsw
 ms.assetid: F7AC2CA1-3726-4685-ABA8-5F9EE8FD54FF
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],TriggerContentPrefetcherTask method, IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask, IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, TriggerContentPrefetcherTask, TriggerContentPrefetcherTask method [Web Services for Windows], TriggerContentPrefetcherTask method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, wsw.icontentprefetchertasktrigger_triggercontentprefetchertask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 

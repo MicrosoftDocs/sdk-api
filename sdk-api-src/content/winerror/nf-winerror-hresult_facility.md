@@ -1,16 +1,16 @@
 ---
 UID: NF:winerror.HRESULT_FACILITY
 title: HRESULT_FACILITY macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the facility of the specified HRESULT.
 old-location: com\hresult_facility_macro.htm
 old-project: com
 ms.assetid: 35beb1ed-9b63-4e44-a0ae-adaf561e6fd8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HRESULT_FACILITY, HRESULT_FACILITY macro [COM], _com_HRESULT_FACILITY, com.hresult_facility, com.hresult_facility_macro, winerror/HRESULT_FACILITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 

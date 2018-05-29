@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_VPDEVCAPS
 title: "_DXVAHD_VPDEVCAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_vpdevcaps.htm
 old-project: medfound
 ms.assetid: 340669d4-2a84-4030-83c3-a61469fdfd61
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_VPDEVCAPS, DXVAHD_VPDEVCAPS structure [Media Foundation], _DXVAHD_VPDEVCAPS, dxvahd/DXVAHD_VPDEVCAPS, mf.dxvahd_vpdevcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

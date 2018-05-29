@@ -1,16 +1,16 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_TRANSFER_OUT
 title: IOCTL_GENERICUSBFN_TRANSFER_OUT
-author: windows-driver-content
+author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to issue an OUT direction transfer on the endpoint that corresponds to the specified pipe ID in the input buffer.
 old-location: buses\ioctl_genericusbfn_transfer_out.htm
 old-project: usbref
 ms.assetid: 4D0D546C-588F-4616-B9AA-9F811843EBE5
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: IOCTL_GENERICUSBFN_TRANSFER_OUT, IOCTL_GENERICUSBFN_TRANSFER_OUT control, IOCTL_GENERICUSBFN_TRANSFER_OUT control code [Buses], buses.ioctl_genericusbfn_transfer_out, genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_OUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h

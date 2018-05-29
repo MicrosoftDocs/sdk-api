@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_ForceMediaToBeClosed
 title: IDiscFormat2Data::get_ForceMediaToBeClosed
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if further additions to the file system are prevented.
 old-location: imapi\idiscformat2data_get_forcemediatobeclosed.htm
 old-project: imapi
 ms.assetid: 9de0afa9-93b7-4a12-b8e2-a9c083692f98
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_ForceMediaToBeClosed method, IDiscFormat2Data.get_ForceMediaToBeClosed, IDiscFormat2Data::get_ForceMediaToBeClosed, get_ForceMediaToBeClosed, get_ForceMediaToBeClosed method [IMAPI], get_ForceMediaToBeClosed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_forcemediatobeclosed, imapi2/IDiscFormat2Data::get_ForceMediaToBeClosed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

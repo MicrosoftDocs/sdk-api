@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.GetWindowContext
 title: IOleInPlaceSite::GetWindowContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
 old-location: com\ioleinplacesite_getwindowcontext.htm
 old-project: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetWindowContext, GetWindowContext method [COM], GetWindowContext method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],GetWindowContext method, IOleInPlaceSite.GetWindowContext, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

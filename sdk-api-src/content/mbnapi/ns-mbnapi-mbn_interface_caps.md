@@ -1,16 +1,16 @@
 ---
 UID: NS:mbnapi.MBN_INTERFACE_CAPS
 title: MBN_INTERFACE_CAPS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_INTERFACE_CAPS structure represents the interface capabilities.
 old-location: mbn\mbn_interface_caps.htm
 old-project: mbn
 ms.assetid: faee7f53-b465-4240-b163-ce88fae764df
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_INTERFACE_CAPS, MBN_INTERFACE_CAPS structure [Microsoft Broadband Networks], mbn.mbn_interface_caps, mbnapi/MBN_INTERFACE_CAPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

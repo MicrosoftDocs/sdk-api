@@ -1,16 +1,16 @@
 ---
 UID: NE:mediaobj._DMO_PROCESS_OUTPUT_FLAGS
 title: "_DMO_PROCESS_OUTPUT_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMO_PROCESS_OUTPUT_FLAGS enumeration defines flags that specify output processing requests.
 old-location: dshow\dmo_process_output_flags.htm
 old-project: DirectShow
 ms.assetid: 7648f975-3753-41fe-a311-e86334ef7071
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, DMO_PROCESS_OUTPUT_FLAGS , DMO_PROCESS_OUTPUT_FLAGSEnumeration, _DMO_PROCESS_OUTPUT_FLAGS, _DMO_PROCESS_OUTPUT_FLAGS enumeration [DirectShow], dshow.dmo_process_output_flags, mediaobj/DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, mediaobj/_DMO_PROCESS_OUTPUT_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 

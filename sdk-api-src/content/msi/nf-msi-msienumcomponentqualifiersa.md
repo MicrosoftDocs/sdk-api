@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiEnumComponentQualifiersA
 title: MsiEnumComponentQualifiersA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
 old-location: setup\msienumcomponentqualifiers.htm
 old-project: Msi
 ms.assetid: f499cca3-ef24-4419-92b8-7794b3a6816b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiEnumComponentQualifiers, MsiEnumComponentQualifiers function, MsiEnumComponentQualifiersA, MsiEnumComponentQualifiersW, _msi_msienumcomponentqualifiers, msi/MsiEnumComponentQualifiers, msi/MsiEnumComponentQualifiersA, msi/MsiEnumComponentQualifiersW, setup.msienumcomponentqualifiers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.createPFXWStr
 title: IEnroll4::createPFXWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS #12.
 old-location: security\ienroll4_createpfxwstr.htm
 old-project: SecCrypto
 ms.assetid: 38ab5b07-2a84-484b-b413-58f0e11599e9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],createPFXWStr method, IEnroll4.createPFXWStr, IEnroll4::createPFXWStr, createPFXWStr, createPFXWStr method [Security], createPFXWStr method [Security],IEnroll4 interface, security.ienroll4_createpfxwstr, xenroll/IEnroll4::createPFXWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

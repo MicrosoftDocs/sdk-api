@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetState
 title: IMFAsyncResult::GetState
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the state object specified by the caller in the asynchronous Begin method.
 old-location: mf\imfasyncresult_getstate.htm
 old-project: medfound
 ms.assetid: f8ed8e71-6df7-4c94-b400-b4651a00db5b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetState method, IMFAsyncResult.GetState, IMFAsyncResult::GetState, f8ed8e71-6df7-4c94-b400-b4651a00db5b, mf.imfasyncresult_getstate, mfobjects/IMFAsyncResult::GetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

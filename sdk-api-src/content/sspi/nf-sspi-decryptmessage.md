@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.DecryptMessage
 title: DecryptMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts a message by using Digest.
 old-location: security\decryptmessage__digest_.htm
 old-project: SecAuthN
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DecryptMessage, DecryptMessage (Digest), DecryptMessage function [Security], SECQOP_WRAP_NO_ENCRYPT, SIGN_ONLY, UnsealMessage [Security], security.decryptmessage__digest_, sspi/DecryptMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

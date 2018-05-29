@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMallocSpy.PreAlloc
 title: IMallocSpy::PreAlloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs operations required before calling IMalloc::Alloc.
 old-location: com\imallocspy_prealloc.htm
 old-project: com
 ms.assetid: 43d8223b-a3fb-432c-ab4e-009d79ad8658
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMallocSpy interface [COM],PreAlloc method, IMallocSpy.PreAlloc, IMallocSpy::PreAlloc, PreAlloc, PreAlloc method [COM], PreAlloc method [COM],IMallocSpy interface, _com_imallocspy_prealloc, com.imallocspy_prealloc, objidl/IMallocSpy::PreAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

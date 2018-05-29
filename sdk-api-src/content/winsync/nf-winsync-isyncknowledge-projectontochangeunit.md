@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoChangeUnit
 title: ISyncKnowledge::ProjectOntoChangeUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the knowledge for the specified change unit.
 old-location: winsync\isyncknowledge_projectontochangeunit.htm
 old-project: winsync
 ms.assetid: 3c09284f-9866-49a4-adeb-561af3351ada
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoChangeUnit method, ISyncKnowledge.ProjectOntoChangeUnit, ISyncKnowledge::ProjectOntoChangeUnit, ProjectOntoChangeUnit, ProjectOntoChangeUnit method [Windows Sync], ProjectOntoChangeUnit method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontochangeunit, winsync/ISyncKnowledge::ProjectOntoChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

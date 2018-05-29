@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_NewDestinationOptions
 title: MI_Application_NewDestinationOptions function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an MI_DestinationOptions object that can be used with the MI_Application_NewSession function.
 old-location: wmi_v2\mi_application_newdestinationoptions.htm
 old-project: wmi_v2
 ms.assetid: efaa1244-7fe4-4484-b9ac-e7309e2012b6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_NewDestinationOptions, MI_Application_NewDestinationOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDestinationOptions, wmi_v2.mi_application_newdestinationoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

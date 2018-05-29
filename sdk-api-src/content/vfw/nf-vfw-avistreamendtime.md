@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamEndTime
 title: AVIStreamEndTime macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamEndTime macro returns the time representing the end of the stream.
 old-location: multimedia\avistreamendtime.htm
 old-project: Multimedia
 ms.assetid: 0fd3c0c7-34cc-4193-8e6a-9866a9d651a2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamEndTime, AVIStreamEndTime macro [Windows Multimedia], _win32_AVIStreamEndTime, multimedia.avistreamendtime, vfw/AVIStreamEndTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

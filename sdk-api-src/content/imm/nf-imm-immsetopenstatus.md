@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmSetOpenStatus
 title: ImmSetOpenStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens or closes the IME.
 old-location: intl\immsetopenstatus.htm
 old-project: Intl
 ms.assetid: 4c6dfc40-56d3-41bb-8094-1f30dbb27cf5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmSetOpenStatus, ImmSetOpenStatus function [Internationalization for Windows Applications], _win32_ImmSetOpenStatus, imm/ImmSetOpenStatus, intl.immsetopenstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

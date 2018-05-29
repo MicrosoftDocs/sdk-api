@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellItemFilter
 title: IShellItemFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposed by a client to specify how to filter the enumeration of a Shell item by a server application.
 old-location: shell\IShellItemFilter.htm
 old-project: shell
 ms.assetid: c2873385-a25d-4d9d-94ef-05dcdf284be1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellItemFilter, IShellItemFilter interface [Windows Shell], IShellItemFilter interface [Windows Shell],described, _shell_IShellItemFilter, shell.IShellItemFilter, shobjidl_core/IShellItemFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

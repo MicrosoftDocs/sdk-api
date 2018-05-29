@@ -1,16 +1,16 @@
 ---
 UID: NS:tabflicks.FLICK_DATA
 title: FLICK_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a pen flick.
 old-location: tablet\flick_data.htm
 old-project: tablet
 ms.assetid: f83994ca-7ebe-42bc-bb54-f101a0a62e52
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FLICK_DATA, FLICK_DATA structure [Tablet PC], f83994ca-7ebe-42bc-bb54-f101a0a62e52, tabflicks/FLICK_DATA, tablet.flick_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tabflicks.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCertificateEnumerator
 title: IXpsSignature::GetCertificateEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to an IOpcCertificateEnumerator interface, which enumerates the package certificates that are attached to the signature.
 old-location: xps\ixpssignature_getcertificateenumerator.htm
 old-project: printdocs
 ms.assetid: e4af0aa3-8420-4297-993c-dda4d4f7cf61
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [XPS Documents and Packaging], GetCertificateEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCertificateEnumerator method, IXpsSignature.GetCertificateEnumerator, IXpsSignature::GetCertificateEnumerator, xps.ixpssignature_getcertificateenumerator, xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

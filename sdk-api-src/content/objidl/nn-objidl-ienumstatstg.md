@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IEnumSTATSTG
 title: IEnumSTATSTG
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates an array of STATSTG structures.
 old-location: stg\ienumstatstg.htm
 old-project: Stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTATSTG interface [Structured Storage],described, _stg_ienumstatstg, objidl/IEnumSTATSTG, stg.ienumstatstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

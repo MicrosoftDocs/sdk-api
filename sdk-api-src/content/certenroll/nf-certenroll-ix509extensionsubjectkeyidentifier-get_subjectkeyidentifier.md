@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509ExtensionSubjectKeyIdentifier.get_SubjectKeyIdentifier
 title: IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a byte array that contains the key identifier.
 old-location: security\ix509extensionsubjectkeyidentifier_subjectkeyidentifier_property.htm
 old-project: SecCertEnroll
 ms.assetid: b055197c-d659-4b92-92b2-b7955beac08a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],SubjectKeyIdentifier property, IX509ExtensionSubjectKeyIdentifier.SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier.get_SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier::SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier, SubjectKeyIdentifier property [Security], SubjectKeyIdentifier property [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::SubjectKeyIdentifier, certenroll/IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier, get_SubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier_subjectkeyidentifier_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

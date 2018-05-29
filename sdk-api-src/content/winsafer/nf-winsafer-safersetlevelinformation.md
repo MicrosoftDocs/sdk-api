@@ -1,16 +1,16 @@
 ---
 UID: NF:winsafer.SaferSetLevelInformation
 title: SaferSetLevelInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the information about a policy level.
 old-location: security\safersetlevelinformation.htm
 old-project: SecMgmt
 ms.assetid: 8DB13F94-1736-4C05-B072-BFBFC076A726
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, SaferSetLevelInformation, SaferSetLevelInformation function [Security], security.safersetlevelinformation, winsafer/SaferSetLevelInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsafer.h
 req.include-header: 

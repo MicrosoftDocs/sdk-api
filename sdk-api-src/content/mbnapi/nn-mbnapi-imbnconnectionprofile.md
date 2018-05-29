@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfile
 title: IMbnConnectionProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface accesses connection parameters and preferences stored in Mobile Broadband profiles.
 old-location: mbn\imbnconnectionprofile.htm
 old-project: mbn
 ms.assetid: f7730efe-e367-4642-8482-2a23052bab0c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionProfile, IMbnConnectionProfile interface [Microsoft Broadband Networks], IMbnConnectionProfile interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofile, mbnapi/IMbnConnectionProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

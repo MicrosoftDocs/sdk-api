@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.CreateNtmsMediaPoolA
 title: CreateNtmsMediaPoolA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateNtmsMediaPool function creates a new application media pool.
 old-location: fs\createntmsmediapool.htm
 old-project: Rsm
 ms.assetid: a55a8952-2b64-4082-9422-31484c7e777f
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: CreateNtmsMediaPool, CreateNtmsMediaPool function [Files], CreateNtmsMediaPoolA, CreateNtmsMediaPoolW, NTMS_CREATE_NEW, NTMS_OPEN_ALWAYS, NTMS_OPEN_EXISTING, _zaw_createntmsmediapool, base.createntmsmediapool, fs.createntmsmediapool, ntmsapi/CreateNtmsMediaPool, ntmsapi/CreateNtmsMediaPoolA, ntmsapi/CreateNtmsMediaPoolW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

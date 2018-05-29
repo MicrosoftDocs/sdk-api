@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SetThreadIdealProcessorEx
 title: SetThreadIdealProcessorEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.
 old-location: base\setthreadidealprocessorex.htm
 old-project: ProcThread
 ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

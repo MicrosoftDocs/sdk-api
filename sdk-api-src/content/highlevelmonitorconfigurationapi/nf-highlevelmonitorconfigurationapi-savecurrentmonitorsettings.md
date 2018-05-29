@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SaveCurrentMonitorSettings
 title: SaveCurrentMonitorSettings function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the current monitor settings to the display's nonvolatile storage.
 old-location: monitor\savecurrentmonitorsettings.htm
 old-project: Monitor
 ms.assetid: 933106f7-970e-466b-8f66-741e8ba39450
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SaveCurrentMonitorSettings, SaveCurrentMonitorSettings function [Monitor Configuration], highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings, monitor.savecurrentmonitorsettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

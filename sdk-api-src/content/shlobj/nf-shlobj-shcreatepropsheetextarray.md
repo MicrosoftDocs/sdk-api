@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.SHCreatePropSheetExtArray
 title: SHCreatePropSheetExtArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHCreatePropSheetExtArray may be altered or unavailable.
 old-location: shell\SHCreatePropSheetExtArray.htm
 old-project: shell
 ms.assetid: 88a72529-325d-431e-bc26-bddca787e62b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Windows Shell], _win32_SHCreatePropSheetExtArray, shell.SHCreatePropSheetExtArray, shlobj/SHCreatePropSheetExtArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

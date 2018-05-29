@@ -1,16 +1,16 @@
 ---
 UID: NS:usp10.tagGOFFSET
 title: tagGOFFSET
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the x and y offsets of the combining glyph.
 old-location: intl\goffset.htm
 old-project: Intl
 ms.assetid: 63fa8741-c8c8-480d-9702-2f4eb13bc01c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GOFFSET, GOFFSET structure [Internationalization for Windows Applications], _win32_GOFFSET_str, intl.goffset, tagGOFFSET, usp10/GOFFSET
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

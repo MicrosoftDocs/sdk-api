@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EvaluateMode
 title: IDirectDraw7::EvaluateMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Used after a call to IDirectDraw7::StartModeTest to pass or fail each mode that the test presents and to step through the modes until the test is complete.
 old-location: directdraw\idirectdraw7_evaluatemode.htm
 old-project: directdraw
 ms.assetid: c8027183-07b5-4b7f-8c36-7bd711dac7dd
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DDEM_MODEFAILED, DDEM_MODEPASSED, EvaluateMode, EvaluateMode method [DirectDraw], EvaluateMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EvaluateMode method, IDirectDraw7.EvaluateMode, IDirectDraw7::EvaluateMode, ddraw/IDirectDraw7::EvaluateMode, directdraw.idirectdraw7_evaluatemode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

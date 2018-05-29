@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDistributorNotify.SetSyncSource
 title: IDistributorNotify::SetSyncSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetSyncSource method is called when a new clock is registered.
 old-location: dshow\idistributornotify_setsyncsource.htm
 old-project: DirectShow
 ms.assetid: 671af56f-a333-441e-9a97-04226b1c3225
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDistributorNotify interface [DirectShow],SetSyncSource method, IDistributorNotify.SetSyncSource, IDistributorNotify::SetSyncSource, IDistributorNotifySetSyncSource, SetSyncSource, SetSyncSource method [DirectShow], SetSyncSource method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_setsyncsource, strmif/IDistributorNotify::SetSyncSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Enable
 title: ISyncMgrHandler::Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests that an active handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 old-location: shell\ISyncMgrHandler_Enable.htm
 old-project: shell
 ms.assetid: ea3efba1-9b7c-4f93-aca5-08475a6005a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Enable method, ISyncMgrHandler.Enable, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

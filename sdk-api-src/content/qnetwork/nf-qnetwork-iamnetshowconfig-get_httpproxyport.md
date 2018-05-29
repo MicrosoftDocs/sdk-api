@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_HTTPProxyPort
 title: IAMNetShowConfig::get_HTTPProxyPort
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_HTTPProxyPort method retrieves the HTTP proxy port.
 old-location: dshow\iamnetshowconfig_get_httpproxyport.htm
 old-project: DirectShow
 ms.assetid: 4a0325bb-83d6-4fbc-a513-0b6002013a60
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyPort method, IAMNetShowConfig.get_HTTPProxyPort, IAMNetShowConfig::get_HTTPProxyPort, IAMNetShowConfigget_HTTPProxyPort, dshow.iamnetshowconfig_get_httpproxyport, get_HTTPProxyPort, get_HTTPProxyPort method [DirectShow], get_HTTPProxyPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

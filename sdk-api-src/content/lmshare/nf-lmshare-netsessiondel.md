@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetSessionDel
 title: NetSessionDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends a network session between a server and a workstation.
 old-location: fs\netsessiondel.htm
 old-project: NetShare
 ms.assetid: a1360f5d-9fd0-44af-b9f5-ab9bc057dfe6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel, fs.netsessiondel, lmshare/NetSessionDel, netmgmt.netsessiondel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

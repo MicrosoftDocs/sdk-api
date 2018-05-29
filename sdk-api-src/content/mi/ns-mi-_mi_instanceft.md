@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_InstanceFT
 title: "_MI_InstanceFT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A support structure used in the MI_Instance structure. Use the functions with the name prefix MI_Instance_ to manipulate these structures.
 old-location: wmi_v2\mi_instanceft.htm
 old-project: wmi_v2
 ms.assetid: a8cd93b7-c9e0-415e-811a-33826e38417f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_InstanceFT, MI_InstanceFT structure [Windows Management Infrastructure (MI)], _MI_InstanceFT, mi/MI_InstanceFT, wmi_v2.mi_instanceft
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

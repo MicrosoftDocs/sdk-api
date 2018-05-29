@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponent.get_DescLangID
 title: IComponent::get_DescLangID
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DescLangID method retrieves the language identifier for the description property.
 old-location: mstv\icomponent_get_desclangid.htm
 old-project: mstv
 ms.assetid: 1c041173-0c78-486e-93b5-a46c9dc0afb1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_DescLangID method, IComponent.get_DescLangID, IComponent::get_DescLangID, IComponentget_DescLangID, get_DescLangID, get_DescLangID method [Microsoft TV Technologies], get_DescLangID method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_desclangid, tuner/IComponent::get_DescLangID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

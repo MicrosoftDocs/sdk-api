@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Description
 title: IRegistrationInfo::put_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the description of the task.
 old-location: taskschd\iregistrationinfo_description.htm
 old-project: TaskSchd
 ms.assetid: 03b0f62c-0f2b-4e0a-8518-de3b94f6a197
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Description property [Task Scheduler], Description property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Description property, IRegistrationInfo.Description, IRegistrationInfo.put_Description, IRegistrationInfo::Description, IRegistrationInfo::get_Description, IRegistrationInfo::put_Description, put_Description, taskschd.iregistrationinfo_description, taskschd/IRegistrationInfo::Description, taskschd/IRegistrationInfo::get_Description, taskschd/IRegistrationInfo::put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

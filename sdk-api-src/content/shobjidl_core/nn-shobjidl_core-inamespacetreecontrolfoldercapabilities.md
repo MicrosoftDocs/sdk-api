@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.INameSpaceTreeControlFolderCapabilities
 title: INameSpaceTreeControlFolderCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a single method that retrieves the status of a folder's System.IsPinnedToNameSpaceTree filtering support.
 old-location: shell\INameSpaceTreeControlFolderCapabilities.htm
 old-project: shell
 ms.assetid: 2a5580f6-42cb-46c7-9507-a59d36b2cd91
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControlFolderCapabilities, INameSpaceTreeControlFolderCapabilities interface [Windows Shell], INameSpaceTreeControlFolderCapabilities interface [Windows Shell],described, _shell_INameSpaceTreeControlFolderCapabilities, shell.INameSpaceTreeControlFolderCapabilities, shobjidl_core/INameSpaceTreeControlFolderCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

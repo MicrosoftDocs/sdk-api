@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsRequestSecurityToken
 title: WsRequestSecurityToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a security token from a security token service (STS) that acts as the token issuer in a federation scenario.
 old-location: wsw\wsrequestsecuritytoken.htm
 old-project: wsw
 ms.assetid: ee754a7d-73a9-49ae-afc7-b443fbbe0cce
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsRequestSecurityToken, WsRequestSecurityToken function [Web Services for Windows], webservices/WsRequestSecurityToken, wsw.wsrequestsecuritytoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

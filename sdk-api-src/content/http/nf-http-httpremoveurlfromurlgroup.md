@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpRemoveUrlFromUrlGroup
 title: HttpRemoveUrlFromUrlGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified URL from the group identified by the URL Group ID.
 old-location: http\httpremoveurlfromurlgroup.htm
 old-project: Http
 ms.assetid: 9c5c1fec-f3b4-414f-a841-e360f5f4e4db
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HTTP_URL_FLAG_REMOVE_ALL, HttpRemoveUrlFromUrlGroup, HttpRemoveUrlFromUrlGroup function [HTTP], http.httpremoveurlfromurlgroup, http/HttpRemoveUrlFromUrlGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

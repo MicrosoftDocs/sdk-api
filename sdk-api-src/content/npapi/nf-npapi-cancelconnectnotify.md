@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.CancelConnectNotify
 title: CancelConnectNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calls CancelConnectNotify before and after each cancel connection operation (WNetCancelConnection and WNetCancelConnection2).
 old-location: security\cancelconnectnotify.htm
 old-project: SecAuthN
 ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

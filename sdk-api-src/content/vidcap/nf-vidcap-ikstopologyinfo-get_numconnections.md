@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumConnections
 title: IKsTopologyInfo::get_NumConnections
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NumConnections method returns the number of node connections within the filter.
 old-location: dshow\ikstopologyinfo_get_numconnections.htm
 old-project: DirectShow
 ms.assetid: 55f52b02-2768-4c59-9275-96e238ccf3f0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumConnections method, IKsTopologyInfo.get_NumConnections, IKsTopologyInfo::get_NumConnections, IKsTopologyInfoget_NumConnections, dshow.ikstopologyinfo_get_numconnections, get_NumConnections, get_NumConnections method [DirectShow], get_NumConnections method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumConnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

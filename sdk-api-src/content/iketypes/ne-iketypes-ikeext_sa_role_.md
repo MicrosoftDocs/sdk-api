@@ -1,16 +1,16 @@
 ---
 UID: NE:iketypes.IKEEXT_SA_ROLE_
 title: IKEEXT_SA_ROLE_
-author: windows-driver-content
+author: windows-sdk-content
 description: Security association (SA) role for Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) Main Mode or Quick Mode negotiations.
 old-location: fwp\ikeext_sa_role.htm
 old-project: FWP
 ms.assetid: 6bb1e264-6141-4545-add5-e12f09769e25
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_SA_ROLE, IKEEXT_SA_ROLE enumeration [Filtering], IKEEXT_SA_ROLE_, IKEEXT_SA_ROLE_INITIATOR, IKEEXT_SA_ROLE_MAX, IKEEXT_SA_ROLE_RESPONDER, fwp.ikeext_sa_role, iketypes/IKEEXT_SA_ROLE, iketypes/IKEEXT_SA_ROLE_INITIATOR, iketypes/IKEEXT_SA_ROLE_MAX, iketypes/IKEEXT_SA_ROLE_RESPONDER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iketypes.h
 req.include-header: 

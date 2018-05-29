@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataItems
 title: ISpatialAudioMetadataItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a buffer of spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataitems.htm
 old-project: CoreAudio
 ms.assetid: 54A6B7DE-A41E-4214-AF02-CC19250B9037
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], ISpatialAudioMetadataItems interface [Core Audio],described, coreaudio.ispatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 

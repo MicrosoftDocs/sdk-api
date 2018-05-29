@@ -1,16 +1,16 @@
 ---
 UID: NF:avrt.AvRtDeleteThreadOrderingGroup
 title: AvRtDeleteThreadOrderingGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified thread ordering group created by the caller. It cleans up resources for the thread ordering group, including the context information, and returns.
 old-location: base\avrtdeletethreadorderinggroup.htm
 old-project: ProcThread
 ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup function, avrt/AvRtDeleteThreadOrderingGroup, base.avrtdeletethreadorderinggroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: avrt.h
 req.include-header: 

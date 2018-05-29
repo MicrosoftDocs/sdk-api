@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.StopProgressDialog
 title: IOperationsProgressDialog::StopProgressDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops current progress dialog.
 old-location: shell\IOperationsProgressDialog_StopProgressDialog.htm
 old-project: shell
 ms.assetid: 1033b197-f11c-49ed-8186-914c1cb04250
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],StopProgressDialog method, IOperationsProgressDialog.StopProgressDialog, IOperationsProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_StopProgressDialog, shell.IOperationsProgressDialog_StopProgressDialog, shobjidl_core/IOperationsProgressDialog::StopProgressDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

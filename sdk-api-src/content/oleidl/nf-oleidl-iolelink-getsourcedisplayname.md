@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleLink.GetSourceDisplayName
 title: IOleLink::GetSourceDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name of the link source of the linked object.
 old-location: com\iolelink_getsourcedisplayname.htm
 old-project: com
 ms.assetid: a4c5bc82-f423-4a02-b8d4-49b38a9c0f42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSourceDisplayName, GetSourceDisplayName method [COM], GetSourceDisplayName method [COM],IOleLink interface, IOleLink interface [COM],GetSourceDisplayName method, IOleLink.GetSourceDisplayName, IOleLink::GetSourceDisplayName, _ole_iolelink_getsourcedisplayname, com.iolelink_getsourcedisplayname, oleidl/IOleLink::GetSourceDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

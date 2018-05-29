@@ -1,16 +1,16 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.InitializeBitmap
 title: ISharedBitmap::InitializeBitmap
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a new ISharedBitmap object with a given bitmap.
 old-location: shell\ISharedBitmap_InitializeBitmap.htm
 old-project: shell
 ms.assetid: 55018484-df70-43fa-b494-215035b90ceb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISharedBitmap interface [Windows Shell],InitializeBitmap method, ISharedBitmap.InitializeBitmap, ISharedBitmap::InitializeBitmap, InitializeBitmap, InitializeBitmap method [Windows Shell], InitializeBitmap method [Windows Shell],ISharedBitmap interface, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell__InitializeBitmap, shell.ISharedBitmap_InitializeBitmap, thumbcache/ISharedBitmap::InitializeBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 

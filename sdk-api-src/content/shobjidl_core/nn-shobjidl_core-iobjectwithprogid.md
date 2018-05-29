@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IObjectWithProgID
 title: IObjectWithProgID
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide access to the ProgID associated with an object.
 old-location: shell\IObjectWithProgID.htm
 old-project: shell
 ms.assetid: 3b66ba49-ed39-464e-b15a-c72fdff7f5e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectWithProgID, IObjectWithProgID interface [Windows Shell], IObjectWithProgID interface [Windows Shell],described, _shell_IObjectWithProgID, shell.IObjectWithProgID, shobjidl_core/IObjectWithProgID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

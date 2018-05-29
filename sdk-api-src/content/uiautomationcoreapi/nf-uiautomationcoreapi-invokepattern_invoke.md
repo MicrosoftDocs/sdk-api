@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.InvokePattern_Invoke
 title: InvokePattern_Invoke function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a request to activate a control and initiate its single, unambiguous action.
 old-location: winauto\uiauto_InvokePattern_InvokeConPat.htm
 old-project: WinAuto
 ms.assetid: 3677b34f-31fe-4e28-a768-a79082e63722
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: InvokePattern_Invoke, InvokePattern_Invoke function [Windows Accessibility], uiauto.uiauto_InvokePattern_InvokeConPat, uiauto_InvokePattern_InvokeConPat, uiautomationcoreapi/InvokePattern_Invoke, winauto.uiauto_InvokePattern_InvokeConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

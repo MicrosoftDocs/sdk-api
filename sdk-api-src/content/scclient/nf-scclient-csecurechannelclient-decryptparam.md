@@ -1,16 +1,16 @@
 ---
 UID: NF:scclient.CSecureChannelClient.DecryptParam
 title: CSecureChannelClient::DecryptParam
-author: windows-driver-content
+author: windows-sdk-content
 description: The DecryptParam method decrypts data received through a parameter. Encryption is performed in-place on the encrypted data.
 old-location: wmdm\csecurechannelclient_decryptparam.htm
 old-project: WMDM
 ms.assetid: 4e19b86c-9efc-4c20-bac9-8cd6b944f69e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],DecryptParam method, CSecureChannelClient.DecryptParam, CSecureChannelClient::DecryptParam, CSecureChannelClientDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::DecryptParam, wmdm.csecurechannelclient_decryptparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

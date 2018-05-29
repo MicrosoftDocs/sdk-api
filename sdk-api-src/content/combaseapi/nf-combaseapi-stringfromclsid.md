@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.StringFromCLSID
 title: StringFromCLSID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a CLSID into a string of printable characters. Different CLSIDs always convert to different strings.
 old-location: com\stringfromclsid.htm
 old-project: com
 ms.assetid: 61210ebd-cbf3-4e78-b077-53d2779053eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StringFromCLSID, StringFromCLSID function [COM], _com_StringFromCLSID, com.stringfromclsid, combaseapi/StringFromCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_CROSS_SLIDE
 title: INTERACTION_ARGUMENTS_CROSS_SLIDE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the state of the cross-slide interaction.
 old-location: input_intcontext\interaction_arguments_cross_slide.htm
 old-project: Input_IntContext
 ms.assetid: 365b0bed-888e-4e9c-ad13-254a241b9de9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: INTERACTION_ARGUMENTS_CROSS_SLIDE, INTERACTION_ARGUMENTS_CROSS_SLIDE structure, input_intcontext.interaction_arguments_cross_slide, interactioncontext.interaction_arguments_cross_slide, interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

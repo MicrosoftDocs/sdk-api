@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetPosition
 title: IDesktopWallpaper::GetPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current display value for the desktop background image.
 old-location: shell\IDesktopWallpaper_GetPosition.htm
 old-project: shell
 ms.assetid: 28D057DD-63CF-4078-9E0C-7DB61E1683EF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPosition, GetPosition method [Windows Shell], GetPosition method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetPosition method, IDesktopWallpaper.GetPosition, IDesktopWallpaper::GetPosition, shell.IDesktopWallpaper_GetPosition, shobjidl_core/IDesktopWallpaper::GetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

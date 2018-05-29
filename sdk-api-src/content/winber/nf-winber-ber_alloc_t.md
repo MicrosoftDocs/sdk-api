@@ -1,16 +1,16 @@
 ---
 UID: NF:winber.ber_alloc_t
 title: ber_alloc_t function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates and constructs a new BerElement structure.
 old-location: ldap\ber_alloc_t.htm
 old-project: LDAP
 ms.assetid: 2a6fd54a-5ef7-49e3-98dd-da26bd98f89b
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ber_alloc_t, ber_alloc_t, ber_alloc_t function [LDAP], ldap.ber__alloc__t, ldap.ber_alloc_t, winber/ber_alloc_t"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winber.h
 req.include-header: 

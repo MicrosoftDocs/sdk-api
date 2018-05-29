@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineShutdown
 title: lineShutdown function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineShutdown function shuts down the application's usage of the line abstraction of the API.
 old-location: tapi2\lineshutdown.htm
 old-project: Tapi
 ms.assetid: d512508a-fb6a-41ec-a80d-f625abfdd184
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineshutdown, lineShutdown, lineShutdown function [TAPI 2.2], tapi/lineShutdown, tapi2.lineshutdown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

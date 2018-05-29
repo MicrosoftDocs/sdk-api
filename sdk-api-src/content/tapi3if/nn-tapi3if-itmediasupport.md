@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITMediaSupport
 title: ITMediaSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITMediaSupport interface provides methods that allow an application to discover the media support capabilities for an Address Object that exposes this interface.
 old-location: tapi3\itmediasupport.htm
 old-project: Tapi
 ms.assetid: 196995f1-b8d0-4ec1-b94e-61a02a258087
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaSupport, ITMediaSupport interface [TAPI 2.2], ITMediaSupport interface [TAPI 2.2],described, _tapi3_itmediasupport, tapi3.itmediasupport, tapi3if/ITMediaSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

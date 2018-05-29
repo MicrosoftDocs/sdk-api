@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.SetCellVerticalText
 title: ITextRow::SetCellVerticalText
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the vertical-text setting of the active cell.
 old-location: controls\itextrow_setcellverticaltext.htm
 old-project: Controls
 ms.assetid: aa4c60c0-9c8f-4743-aff6-b87134ba2dd0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellVerticalText method, ITextRow.SetCellVerticalText, ITextRow::SetCellVerticalText, SetCellVerticalText, SetCellVerticalText method [Windows Controls], SetCellVerticalText method [Windows Controls],ITextRow interface, controls.itextrow_setcellverticaltext, tom/ITextRow::SetCellVerticalText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.SetValidationState
 title: IBackgroundCopyFile3::SetValidationState
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the validation state of this file.
 old-location: bits\ibackgroundcopyfile3_setvalidationstate.htm
 old-project: Bits
 ms.assetid: c032ce32-07a4-4ab2-ae57-f9d526d1371a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],SetValidationState method, IBackgroundCopyFile3.SetValidationState, IBackgroundCopyFile3::SetValidationState, SetValidationState, SetValidationState method [BITS], SetValidationState method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_setvalidationstate, bits3_0/IBackgroundCopyFile3::SetValidationState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

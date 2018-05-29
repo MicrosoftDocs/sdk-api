@@ -1,16 +1,16 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_INFO
 title: "_WSB_OB_STATUS_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information to update the cloud backup provider status in the Windows Server Backup MMC snap-in.
 old-location: wsb\wsb_ob_status_info.htm
 old-project: wsb
 ms.assetid: 5836B3FC-5590-4678-A6BE-AD7C59E0FAFD
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WSB_OB_STATUS_INFO, WSB_OB_STATUS_INFO structure [Windows Server Backup], _WSB_OB_STATUS_INFO, wsb.wsb_ob_status_info, wsbonline/WSB_OB_STATUS_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsbonline.h
 req.include-header: 

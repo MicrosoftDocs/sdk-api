@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d10.D3D10_RESOURCE_MISC_FLAG
 title: D3D10_RESOURCE_MISC_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies other, less common options for resources.
 old-location: direct3d10\d3d10_resource_misc_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_resource_misc_flag.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 933479cf-687a-018f-fa4e-e44396ff5c4b, D3D10_RESOURCE_MISC_FLAG, D3D10_RESOURCE_MISC_FLAG enumeration [Direct3D 10], D3D10_RESOURCE_MISC_GDI_COMPATIBLE, D3D10_RESOURCE_MISC_GENERATE_MIPS, D3D10_RESOURCE_MISC_SHARED, D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX, D3D10_RESOURCE_MISC_TEXTURECUBE, d3d10/D3D10_RESOURCE_MISC_FLAG, d3d10/D3D10_RESOURCE_MISC_GDI_COMPATIBLE, d3d10/D3D10_RESOURCE_MISC_GENERATE_MIPS, d3d10/D3D10_RESOURCE_MISC_SHARED, d3d10/D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX, d3d10/D3D10_RESOURCE_MISC_TEXTURECUBE, direct3d10.d3d10_resource_misc_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

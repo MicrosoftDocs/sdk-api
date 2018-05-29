@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetCoefficient1
 title: SetCoefficient1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the first coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1_overloaded.htm
 old-project: directcomp
 ms.assetid: 74b18201-5710-1213-51f8-2f97ba86c9a4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect::setcoefficient1, SetCoefficient1, SetCoefficient1 methods [DirectComposition], dcomp/SetCoefficient1, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

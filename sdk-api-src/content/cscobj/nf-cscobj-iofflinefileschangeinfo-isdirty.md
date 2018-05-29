@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsDirty
 title: IOfflineFilesChangeInfo::IsDirty
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache has been modified.
 old-location: of\iofflinefileschangeinfo_isdirty.htm
 old-project: OfflineFiles
 ms.assetid: 47b3bae2-d0fb-4e15-a03f-c9d5001e8786
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDirty method, IOfflineFilesChangeInfo.IsDirty, IOfflineFilesChangeInfo::IsDirty, IsDirty, IsDirty method [Offline Files], IsDirty method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDirty, of.iofflinefileschangeinfo_isdirty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

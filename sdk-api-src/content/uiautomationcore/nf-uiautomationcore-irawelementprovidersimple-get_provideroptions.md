@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple.get_ProviderOptions
 title: IRawElementProviderSimple::get_ProviderOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of Microsoft UI Automation provider; for example, whether it is a client-side (proxy) or server-side provider.
 old-location: winauto\uiauto_IRawElementProviderSimple_ProviderOptions.htm
 old-project: WinAuto
 ms.assetid: fd41bb43-bbf1-4022-9472-0ad2816074c6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IRawElementProviderSimple interface [Windows Accessibility],ProviderOptions property, IRawElementProviderSimple.ProviderOptions, IRawElementProviderSimple.get_ProviderOptions, IRawElementProviderSimple::ProviderOptions, IRawElementProviderSimple::get_ProviderOptions, ProviderOptions property [Windows Accessibility], ProviderOptions property [Windows Accessibility],IRawElementProviderSimple interface, get_ProviderOptions, uiauto.uiauto_IRawElementProviderSimple_ProviderOptions, uiauto_IRawElementProviderSimple_ProviderOptions, uiautomationcore/IRawElementProviderSimple::ProviderOptions, uiautomationcore/IRawElementProviderSimple::get_ProviderOptions, winauto.uiauto_IRawElementProviderSimple_ProviderOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

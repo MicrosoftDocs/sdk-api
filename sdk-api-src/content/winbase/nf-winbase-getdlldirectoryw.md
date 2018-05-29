@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetDllDirectoryW
 title: GetDllDirectoryW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the application-specific portion of the search path used to locate DLLs for the application.
 old-location: base\getdlldirectory.htm
 old-project: Dlls
 ms.assetid: f892546a-6c48-48f2-8d9a-46e448fffb89
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetDllDirectory, GetDllDirectory function, GetDllDirectoryA, GetDllDirectoryW, base.getdlldirectory, winbase/GetDllDirectory, winbase/GetDllDirectoryA, winbase/GetDllDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

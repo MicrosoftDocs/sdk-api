@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetSignatureBlockResources
 title: IXpsOMDocument::GetSignatureBlockResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMSignatureBlockResourceCollection interface, which refers to a collection of the document's digital signature block resources.
 old-location: xps\ixpsomdocument_getsignatureblockresources.htm
 old-project: printdocs
 ms.assetid: 87be3040-6113-4876-a847-93620207647f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSignatureBlockResources, GetSignatureBlockResources method [XPS Documents and Packaging], GetSignatureBlockResources method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetSignatureBlockResources method, IXpsOMDocument.GetSignatureBlockResources, IXpsOMDocument::GetSignatureBlockResources, xps.ixpsomdocument_getsignatureblockresources, xpsobjectmodel/IXpsOMDocument::GetSignatureBlockResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

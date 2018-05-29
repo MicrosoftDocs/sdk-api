@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_BacklightCompensation
 title: IVideoProcAmp::put_BacklightCompensation
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BacklightCompensation method sets the camera's backlight compensation.
 old-location: dshow\ivideoprocamp_put_backlightcompensation.htm
 old-project: DirectShow
 ms.assetid: 52a9a841-b3d0-41fe-b531-70fa6bac4517
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_BacklightCompensation method, IVideoProcAmp.put_BacklightCompensation, IVideoProcAmp::put_BacklightCompensation, IVideoProcAmpput_BacklightCompensation, dshow.ivideoprocamp_put_backlightcompensation, put_BacklightCompensation, put_BacklightCompensation method [DirectShow], put_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_BacklightCompensation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

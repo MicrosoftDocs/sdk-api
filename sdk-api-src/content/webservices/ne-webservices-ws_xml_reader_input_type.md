@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_XML_READER_INPUT_TYPE
 title: WS_XML_READER_INPUT_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of WS_XML_READER_INPUT structure.
 old-location: wsw\ws_xml_reader_input_type.htm
 old-project: wsw
 ms.assetid: a61b1850-cc93-4c63-9d6f-380a57bbae78
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_READER_INPUT_TYPE, WS_XML_READER_INPUT_TYPE enumeration [Web Services for Windows], WS_XML_READER_INPUT_TYPE_BUFFER, WS_XML_READER_INPUT_TYPE_STREAM, webservices/WS_XML_READER_INPUT_TYPE, webservices/WS_XML_READER_INPUT_TYPE_BUFFER, webservices/WS_XML_READER_INPUT_TYPE_STREAM, wsw.ws_xml_reader_input_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

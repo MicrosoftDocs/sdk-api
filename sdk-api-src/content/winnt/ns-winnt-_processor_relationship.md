@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._PROCESSOR_RELATIONSHIP
 title: "_PROCESSOR_RELATIONSHIP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about affinity within a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\processor_relationship.htm
 old-project: ProcThread
 ms.assetid: 1efda80d-cf5b-4312-801a-ea3585b152ac
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP structure pointer, PROCESSOR_RELATIONSHIP, PROCESSOR_RELATIONSHIP structure, _PROCESSOR_RELATIONSHIP, base.processor_relationship, winnt/PPROCESSOR_RELATIONSHIP, winnt/PROCESSOR_RELATIONSHIP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

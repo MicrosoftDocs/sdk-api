@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetType
 title: IWMDMDevice::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetType method retrieves the operations supported by the device.
 old-location: wmdm\iwmdmdevice_gettype.htm
 old-project: WMDM
 ms.assetid: b240d6ac-99bd-4cc2-92d8-e9c7c5834bd7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetType method, IWMDMDevice.GetType, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

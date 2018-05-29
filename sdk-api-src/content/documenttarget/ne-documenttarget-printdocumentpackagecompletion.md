@@ -1,16 +1,16 @@
 ---
 UID: NE:documenttarget.PrintDocumentPackageCompletion
 title: PrintDocumentPackageCompletion
-author: windows-driver-content
+author: windows-sdk-content
 description: The PrintDocumentPackageCompletion enumeration specifies the status of the print operation.
 old-location: xps\printdocumentpackagecompletion.htm
 old-project: printdocs
 ms.assetid: E8E1F5D3-8CA2-406A-B969-7F5C6F13E064
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PrintDocumentPackageCompletion, PrintDocumentPackageCompletion enumeration [XPS Documents and Packaging], PrintDocumentPackageCompletion_Canceled, PrintDocumentPackageCompletion_Completed, PrintDocumentPackageCompletion_Failed, PrintDocumentPackageCompletion_InProgress, documenttarget/PrintDocumentPackageCompletion, documenttarget/PrintDocumentPackageCompletion_Canceled, documenttarget/PrintDocumentPackageCompletion_Completed, documenttarget/PrintDocumentPackageCompletion_Failed, documenttarget/PrintDocumentPackageCompletion_InProgress, xps.printdocumentpackagecompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: documenttarget.h
 req.include-header: 

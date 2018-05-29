@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IDataObject.EnumDAdvise
 title: IDataObject::EnumDAdvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object that can be used to enumerate the current advisory connections.
 old-location: com\idataobject_enumdadvise.htm
 old-project: com
 ms.assetid: 319637fd-d9b5-4da0-ac92-4c52fa9f5231
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumDAdvise, EnumDAdvise method [COM], EnumDAdvise method [COM],IDataObject interface, IDataObject interface [COM],EnumDAdvise method, IDataObject.EnumDAdvise, IDataObject::EnumDAdvise, _ole_idataobject_enumdadvise, com.idataobject_enumdadvise, objidl/IDataObject::EnumDAdvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

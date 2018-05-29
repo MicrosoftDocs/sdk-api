@@ -1,16 +1,16 @@
 ---
 UID: NF:ndhelper.INetDiagHelperUtilFactory.CreateUtilityInstance
-title: INetDiagHelperUtilFactory::CreateUtilityInstance method
-author: windows-driver-content
+title: INetDiagHelperUtilFactory::CreateUtilityInstance
+author: windows-sdk-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperutilfactory_createutilityinstance.htm
 old-project: NDF
 ms.assetid: 6a56b5bf-1f1a-49c3-8535-34fe87c0c786
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateUtilityInstance method [NDF], CreateUtilityInstance method [NDF], INetDiagHelperInfo interface, CreateUtilityInstance,INetDiagHelperUtilFactory.CreateUtilityInstance, INetDiagHelperInfo interface [NDF], CreateUtilityInstance method, INetDiagHelperInfo::CreateUtilityInstance, INetDiagHelperUtilFactory, INetDiagHelperUtilFactory::CreateUtilityInstance, ndf.inetdiaghelperutilfactory_createutilityinstance, ndhelper/INetDiagHelperInfo::CreateUtilityInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CreateUtilityInstance, CreateUtilityInstance method [NDF], CreateUtilityInstance method [NDF],INetDiagHelperUtilFactory interface, INetDiagHelperUtilFactory interface [NDF],CreateUtilityInstance method, INetDiagHelperUtilFactory.CreateUtilityInstance, INetDiagHelperUtilFactory::CreateUtilityInstance, ndf.inetdiaghelperutilfactory_createutilityinstance, ndhelper/INetDiagHelperUtilFactory::CreateUtilityInstance
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
@@ -35,16 +35,16 @@ api_type:
 api_location:
 -	ndhelper.h
 api_name:
--	INetDiagHelperInfo.CreateUtilityInstance
+-	INetDiagHelperUtilFactory.CreateUtilityInstance
 product: Windows
 targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
-# INetDiagHelperUtilFactory::CreateUtilityInstance method
+# INetDiagHelperUtilFactory::CreateUtilityInstance
 
 
 ## -description
@@ -88,10 +88,6 @@ This method is reserved for system use.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/815e2338-0055-4078-a9a5-197db449c33d">INetDiagHelperInfo</a>
 
 
 

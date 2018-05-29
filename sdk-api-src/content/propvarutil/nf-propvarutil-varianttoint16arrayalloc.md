@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToInt16ArrayAlloc
 title: VariantToInt16ArrayAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a vector structure into a newly-allocated Int16 array.
 old-location: properties\VariantToInt16ArrayAlloc.htm
 old-project: properties
 ms.assetid: 616c9d03-f641-49e3-af95-80ebaea3e8aa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Windows Properties], _shell_VariantToInt16ArrayAlloc, properties.VariantToInt16ArrayAlloc, propvarutil/VariantToInt16ArrayAlloc, shell.VariantToInt16ArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

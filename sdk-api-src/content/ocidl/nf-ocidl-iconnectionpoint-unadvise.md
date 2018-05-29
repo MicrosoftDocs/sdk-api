@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IConnectionPoint.Unadvise
 title: IConnectionPoint::Unadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates an advisory connection previously established between a connection point object and a client's sink.
 old-location: com\iconnectionpoint_unadvise.htm
 old-project: com
 ms.assetid: 71641bad-2fd1-4d94-a6d0-116f5687a95b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IConnectionPoint interface [COM],Unadvise method, IConnectionPoint.Unadvise, IConnectionPoint::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IConnectionPoint interface, _com_iconnectionpoint_unadvise, com.iconnectionpoint_unadvise, ocidl/IConnectionPoint::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMBufferNegotiation.GetAllocatorProperties
 title: IAMBufferNegotiation::GetAllocatorProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllocatorProperties method retrieves the allocator properties that the pin is using.
 old-location: dshow\iambuffernegotiation_getallocatorproperties.htm
 old-project: DirectShow
 ms.assetid: 85bbb900-772c-4091-83e3-f2a5dd198d39
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [DirectShow], GetAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, IAMBufferNegotiation interface [DirectShow],GetAllocatorProperties method, IAMBufferNegotiation.GetAllocatorProperties, IAMBufferNegotiation::GetAllocatorProperties, IAMBufferNegotiationGetAllocatorProperties, dshow.iambuffernegotiation_getallocatorproperties, strmif/IAMBufferNegotiation::GetAllocatorProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

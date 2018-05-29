@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.Bind
 title: IFsrmPipelineModuleConnector::Bind
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds the pipeline module implementation to the FSRM communication channel.
 old-location: fsrm\ifsrmpipelinemoduleconnector_bind.htm
 old-project: Fsrm
 ms.assetid: 4ac8ecc7-a02e-46ce-ac95-35a7dd38e631
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Bind, Bind method [File Server Resource Manager], Bind method [File Server Resource Manager],FsrmPipelineModuleConnector class, Bind method [File Server Resource Manager],IFsrmPipelineModuleConnector interface, FsrmPipelineModuleConnector class [File Server Resource Manager],Bind method, IFsrmPipelineModuleConnector interface [File Server Resource Manager],Bind method, IFsrmPipelineModuleConnector.Bind, IFsrmPipelineModuleConnector::Bind, fs.ifsrmpipelinemoduleconnector_bind, fsrm.ifsrmpipelinemoduleconnector_bind, fsrmpipeline/IFsrmPipelineModuleConnector::Bind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

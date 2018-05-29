@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateQueryWriter
 title: IWICImagingFactory::CreateQueryWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of a query writer.
 old-location: wic\_wic_codec_iwicimagingfactory_createquerywriter.htm
 old-project: wic
 ms.assetid: c2998d22-68c5-45de-a651-6f67c6f5234a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateQueryWriter, CreateQueryWriter method [Windows Imaging Component], CreateQueryWriter method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateQueryWriter method, IWICImagingFactory.CreateQueryWriter, IWICImagingFactory::CreateQueryWriter, _wic_codec_iwicimagingfactory_createquerywriter, wic._wic_codec_iwicimagingfactory_createquerywriter, wincodec/IWICImagingFactory::CreateQueryWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetWinMetaFileBits
 title: SetWinMetaFileBits function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetWinMetaFileBits function converts a metafile from the older Windows format to the new enhanced format and stores the new metafile in memory.
 old-location: gdi\setwinmetafilebits.htm
 old-project: gdi
 ms.assetid: b7170c8a-da5f-4946-9c56-da3cffc84567
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetWinMetaFileBits, SetWinMetaFileBits function [Windows GDI], _win32_SetWinMetaFileBits, gdi.setwinmetafilebits, wingdi/SetWinMetaFileBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

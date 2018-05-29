@@ -1,16 +1,16 @@
 ---
 UID: NF:socketapi.SetSocketMediaStreamingMode
 title: SetSocketMediaStreamingMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the network is to be used for transferring streaming media that requires quality of service.
 old-location: winsock\setsocketmediastreamingmode.htm
 old-project: WinSock
 ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [Winsock], socketapi/SetSocketMediaStreamingMode, winsock.setsocketmediastreamingmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: socketapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:sensevts.SENS_QOCINFO
 title: SENS_QOCINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The SENS_QOCINFO structure is used by the ISensNetwork::ConnectionMade method. This structure contains Quality of Connection information to the sink object in an application that subscribes to SENS.
 old-location: sens\sens_qocinfo.htm
 old-project: Sens
 ms.assetid: 33f5e790-1100-46a9-a90c-3fc51379c175
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPSENS_QOCINFO, SENS_QOCINFO, SENS_QOCINFO structure [SENS], _zaw_sens_qocinfo, sens.sens_qocinfo, sensevts/SENS_QOCINFO, syncmgr.sens_qocinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sensevts.h
 req.include-header: 

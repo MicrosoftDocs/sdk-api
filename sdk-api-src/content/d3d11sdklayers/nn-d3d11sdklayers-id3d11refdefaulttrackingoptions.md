@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11RefDefaultTrackingOptions
 title: ID3D11RefDefaultTrackingOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: The default tracking interface sets reference default tracking options.
 old-location: direct3d11\id3d11refdefaulttrackingoptions.htm
 old-project: direct3d11
 ms.assetid: B6DD9810-275E-466B-8FE8-64EED0933B45
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions, ID3D11RefDefaultTrackingOptions interface [Direct3D 11], ID3D11RefDefaultTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefDefaultTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11sdklayers.h
 req.include-header: 

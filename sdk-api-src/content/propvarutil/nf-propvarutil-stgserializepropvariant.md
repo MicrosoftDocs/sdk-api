@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.StgSerializePropVariant
 title: StgSerializePropVariant function
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes a specified PROPVARIANT structure, creating a SERIALIZEDPROPERTYVALUE structure.
 old-location: properties\StgSerializePropVariant.htm
 old-project: properties
 ms.assetid: c588e239-616f-4569-88b5-6bfb504cefa1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgSerializePropVariant, StgSerializePropVariant function [Windows Properties], _shell_StgSerializePropVariant, properties.StgSerializePropVariant, propvarutil/StgSerializePropVariant, shell.StgSerializePropVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyKeyProvInfo.Initialize
 title: ICertPropertyKeyProvInfo::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from a private key.
 old-location: security\icertpropertykeyprovinfo_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: bc317b7b-c4d8-480b-9de7-3324e30898b8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],Initialize method, ICertPropertyKeyProvInfo.Initialize, ICertPropertyKeyProvInfo::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::Initialize, security.icertpropertykeyprovinfo_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

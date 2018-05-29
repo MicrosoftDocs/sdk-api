@@ -1,16 +1,16 @@
 ---
 UID: NC:timeprov.SetProviderStatusInfoFreeFunc
 title: SetProviderStatusInfoFreeFunc
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a SetProviderStatusInfo structure.
 old-location: base\setproviderstatusinfofreefunc.htm
 old-project: SysInfo
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: timeprov.h
 req.include-header: 

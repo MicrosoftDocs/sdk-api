@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_PROPOSAL0_
 title: IKEEXT_PROPOSAL0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store an IKE/AuthIP main mode proposal.
 old-location: fwp\ikeext_proposal0.htm
 old-project: FWP
 ms.assetid: 59568ef7-12bd-407a-a8ee-9bf261f49883
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_PROPOSAL0, IKEEXT_PROPOSAL0 structure [Filtering], IKEEXT_PROPOSAL0_, fwp.ikeext_proposal0, iketypes/IKEEXT_PROPOSAL0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

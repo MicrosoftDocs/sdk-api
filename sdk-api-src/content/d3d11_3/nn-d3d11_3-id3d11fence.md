@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_3.ID3D11Fence
 title: ID3D11Fence
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 old-location: direct3d11\id3d11fence.htm
 old-project: direct3d11
 ms.assetid: DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Fence, ID3D11Fence interface [Direct3D 11], ID3D11Fence interface [Direct3D 11],described, d3d11_3/ID3D11Fence, direct3d11.id3d11fence
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 

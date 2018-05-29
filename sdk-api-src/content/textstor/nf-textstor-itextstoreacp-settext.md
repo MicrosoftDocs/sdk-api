@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP.SetText
 title: ITextStoreACP::SetText
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACP::SetText method sets the text selection to the supplied character positions.
 old-location: tsf\itextstoreacp_settext.htm
 old-project: TSF
 ms.assetid: aebeb6bc-7791-4c45-8563-eec6a738bd63
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],SetText method, ITextStoreACP.SetText, ITextStoreACP::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_settext_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::SetText, tsf.itextstoreacp_settext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

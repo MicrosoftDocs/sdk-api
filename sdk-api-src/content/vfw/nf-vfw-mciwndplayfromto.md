@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndPlayFromTo
 title: MCIWndPlayFromTo macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndPlayFromTo macro plays a portion of content between specified starting and ending locations.
 old-location: multimedia\mciwndplayfromto.htm
 old-project: Multimedia
 ms.assetid: a592c28c-322f-4fd1-90e9-632703bf40c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndPlayFromTo, MCIWndPlayFromTo macro [Windows Multimedia], _win32_MCIWndPlayFromTo, multimedia.mciwndplayfromto, vfw/MCIWndPlayFromTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

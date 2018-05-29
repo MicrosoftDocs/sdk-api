@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetLocaleInfoW
 title: GetLocaleInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a locale specified by identifier.
 old-location: intl\getlocaleinfo.htm
 old-project: Intl
 ms.assetid: 091b3f17-ccf7-493c-8992-00425f37d0ec
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLocaleInfo, GetLocaleInfo function [Internationalization for Windows Applications], GetLocaleInfoA, GetLocaleInfoW, _win32_GetLocaleInfo, intl.getlocaleinfo, winnls/GetLocaleInfo, winnls/GetLocaleInfoA, winnls/GetLocaleInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

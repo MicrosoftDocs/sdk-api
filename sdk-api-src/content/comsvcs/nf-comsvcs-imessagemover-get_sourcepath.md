@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_SourcePath
 title: IMessageMover::get_SourcePath
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current path of the source (input) queue.
 old-location: cos\imessagemover_get_sourcepath.htm
 old-project: cossdk
 ms.assetid: 41fd8a17-1c9d-484c-b0f4-69f232214e48
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMessageMover interface [COM+],get_SourcePath method, IMessageMover.get_SourcePath, IMessageMover::get_SourcePath, comsvcs/IMessageMover::get_SourcePath, cos.imessagemover_get_sourcepath, get_SourcePath, get_SourcePath method [COM+], get_SourcePath method [COM+],IMessageMover interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

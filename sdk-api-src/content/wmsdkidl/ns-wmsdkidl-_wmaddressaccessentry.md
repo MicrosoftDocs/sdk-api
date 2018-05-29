@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMAddressAccessEntry
 title: "_WMAddressAccessEntry"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_ADDRESS_ACCESSENTRY structure specifies an entry in an IP address access list.
 old-location: wmformat\wm_address_accessentry.htm
 old-project: wmformat
 ms.assetid: 670c126f-c94b-4fac-b18c-d764f048f401
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_ADDRESS_ACCESSENTRY, WM_ADDRESS_ACCESSENTRY structure [windows Media Format], _WMAddressAccessEntry, wmformat.wm_address_accessentry, wmsdkidl/WM_ADDRESS_ACCESSENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

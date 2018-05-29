@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetIcon
 title: IShellLibrary::GetIcon
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the default icon for the library.
 old-location: shell\IShellLibrary_GetIcon.htm
 old-project: shell
 ms.assetid: e39bd663-3f2d-4b72-9882-1313ee457844
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetIcon method, IShellLibrary.GetIcon, IShellLibrary::GetIcon, _shell_IShellLibrary_GetIcon, shell.IShellLibrary_GetIcon, shobjidl_core/IShellLibrary::GetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

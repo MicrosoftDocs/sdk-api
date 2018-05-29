@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputCurrentType
 title: IMediaObject::GetOutputCurrentType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOutputCurrentType method retrieves the media type that was set for an output stream, if any.
 old-location: dshow\imediaobject_getoutputcurrenttype.htm
 old-project: DirectShow
 ms.assetid: f5ebcf96-d008-448e-852b-39bdf1f39c4b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [DirectShow], GetOutputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputCurrentType method, IMediaObject.GetOutputCurrentType, IMediaObject::GetOutputCurrentType, IMediaObjectGetOutputCurrentType, dshow.imediaobject_getoutputcurrenttype, mediaobj/IMediaObject::GetOutputCurrentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

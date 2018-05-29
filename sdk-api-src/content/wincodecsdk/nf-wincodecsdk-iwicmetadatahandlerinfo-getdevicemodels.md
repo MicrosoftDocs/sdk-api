@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetDeviceModels
 title: IWICMetadataHandlerInfo::GetDeviceModels
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the device models that support the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getdevicemodels.htm
 old-project: wic
 ms.assetid: 8ab47616-8097-441f-9d8e-6f1518246759
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetDeviceModels, GetDeviceModels method [Windows Imaging Component], GetDeviceModels method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetDeviceModels method, IWICMetadataHandlerInfo.GetDeviceModels, IWICMetadataHandlerInfo::GetDeviceModels, _wic_codec_iwicmetadatahandlerinfo_getdevicemodels, wic._wic_codec_iwicmetadatahandlerinfo_getdevicemodels, wincodecsdk/IWICMetadataHandlerInfo::GetDeviceModels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

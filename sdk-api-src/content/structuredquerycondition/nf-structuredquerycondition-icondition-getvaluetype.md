@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueType
 title: ICondition::GetValueType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the semantic type of the value of the search condition node.
 old-location: search\_search_ICondition_GetValueType.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluetype.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetValueType, GetValueType method [search], GetValueType method [search],ICondition interface, ICondition interface [search],GetValueType method, ICondition.GetValueType, ICondition::GetValueType, _search_ICondition_GetValueType, search._search_ICondition_GetValueType, structuredquerycondition/ICondition::GetValueType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h

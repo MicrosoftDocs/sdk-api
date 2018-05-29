@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ImportComponents
 title: ICOMAdminCatalog2::ImportComponents
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports the specified components that are already registered into an application.
 old-location: cos\icomadmincatalog2_importcomponents.htm
 old-project: cossdk
 ms.assetid: a7ae28f9-6be6-4774-974a-a5d7f3ebbc02
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportComponents method, ICOMAdminCatalog2.ImportComponents, ICOMAdminCatalog2::ImportComponents, ImportComponents, ImportComponents method [COM+], ImportComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportComponents, comadmin/ICOMAdminCatalog2::ImportComponents, cos.icomadmincatalog2_importcomponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:dxva2api.IDirectXVideoDecoderService
 title: IDirectXVideoDecoderService
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to DirectX Video Acceleration (DXVA) decoder services.
 old-location: mf\idirectxvideodecoderservice.htm
 old-project: medfound
 ms.assetid: eeb62178-b54d-45d3-a584-75865f0662fa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], IDirectXVideoDecoderService interface [Media Foundation],described, dxva2api/IDirectXVideoDecoderService, eeb62178-b54d-45d3-a584-75865f0662fa, mf.idirectxvideodecoderservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 

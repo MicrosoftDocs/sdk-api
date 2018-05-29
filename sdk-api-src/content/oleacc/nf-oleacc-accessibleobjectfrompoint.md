@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromPoint
 title: AccessibleObjectFromPoint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the address of the IAccessible interface pointer for the object displayed at a specified point on the screen.
 old-location: winauto\accessibleobjectfrompoint.htm
 old-project: WinAuto
 ms.assetid: b781b74f-5c36-4a65-a9b1-ecf7f8e5b531
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AccessibleObjectFromPoint, AccessibleObjectFromPoint function [Windows Accessibility], _msaa_AccessibleObjectFromPoint, msaa.accessibleobjectfrompoint, oleacc/AccessibleObjectFromPoint, winauto.accessibleobjectfrompoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

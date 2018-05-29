@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.TreeUnadvise
 title: INameSpaceTreeControl::TreeUnadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a client to unregister with the control.
 old-location: shell\INameSpaceTreeControl_TreeUnadvise.htm
 old-project: shell
 ms.assetid: 9a0ba832-503a-48d6-80a7-7f6c51d60215
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],TreeUnadvise method, INameSpaceTreeControl.TreeUnadvise, INameSpaceTreeControl::TreeUnadvise, TreeUnadvise, TreeUnadvise method [Windows Shell], TreeUnadvise method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_TreeUnadvise, shell.INameSpaceTreeControl_TreeUnadvise, shobjidl_core/INameSpaceTreeControl::TreeUnadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmjoin.NetFreeAadJoinInformation
 title: NetFreeAadJoinInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory allocated for the specified DSREG_JOIN_INFO structure, which contains join information for a tenant and which you retrieved by calling the NetGetAadJoinInformation function.
 old-location: netmgmt\netfreeaadjoininformation.htm
 old-project: NetMgmt
 ms.assetid: BDFB6179-4B8C-43E3-8D34-A2B470EA0D0B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetFreeAadJoinInformation, NetFreeAadJoinInformation function [Network Management], lmjoin/NetFreeAadJoinInformation, netmgmt.netfreeaadjoininformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: 

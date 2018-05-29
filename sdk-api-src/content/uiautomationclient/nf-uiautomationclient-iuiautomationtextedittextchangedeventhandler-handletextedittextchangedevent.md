@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 title: IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles an event that is raised when a Microsoft UI Automation provider for a text-edit control reports a programmatic text change.
 old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent.htm
 old-project: WinAuto
 ms.assetid: FA63086A-40C5-BE7B-DC4E-2C8547636AE8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: HandleTextEditTextChangedEvent, HandleTextEditTextChangedEvent method [Windows Accessibility], HandleTextEditTextChangedEvent method [Windows Accessibility],IUIAutomationTextEditTextChangedEventHandler interface, IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility],HandleTextEditTextChangedEvent method, IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent, IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, uiautomationclient/IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, winauto.uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

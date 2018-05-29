@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.ITTAPICallCenter.EnumerateAgentHandlers
 title: ITTAPICallCenter::EnumerateAgentHandlers
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateAgentHandlers method enumerates agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_enumerateagenthandlers.htm
 old-project: Tapi
 ms.assetid: 5bd0a926-0d99-4efe-a995-28654c97c97a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumerateAgentHandlers, EnumerateAgentHandlers method [TAPI 2.2], EnumerateAgentHandlers method [TAPI 2.2],ITTAPICallCenter interface, ITTAPICallCenter interface [TAPI 2.2],EnumerateAgentHandlers method, ITTAPICallCenter.EnumerateAgentHandlers, ITTAPICallCenter::EnumerateAgentHandlers, _tapi3_ittapicallcenter_enumerateagenthandlers, tapi3.ittapicallcenter_enumerateagenthandlers, tapi3cc/ITTAPICallCenter::EnumerateAgentHandlers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

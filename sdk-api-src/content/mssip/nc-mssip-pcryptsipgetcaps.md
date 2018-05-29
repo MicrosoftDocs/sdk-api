@@ -1,16 +1,16 @@
 ---
 UID: NC:mssip.pCryptSIPGetCaps
 title: pCryptSIPGetCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Is implemented by an subject interface package (SIP) to report capabilities.
 old-location: security\pfncryptsipgetcaps.htm
 old-project: SecCrypto
 ms.assetid: 8EA46B67-F542-4B15-81F4-3DD83DD45764
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps function, pCryptSIPGetCaps function pointer [Security], security.pfncryptsipgetcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mssip.h
 req.include-header: 

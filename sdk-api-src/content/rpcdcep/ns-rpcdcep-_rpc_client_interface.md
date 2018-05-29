@@ -1,16 +1,16 @@
 ---
 UID: NS:rpcdcep._RPC_CLIENT_INTERFACE
 title: "_RPC_CLIENT_INTERFACE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RPC_CLIENT_INTERFACE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.
 old-location: rpc\rpc_client_interface.htm
 old-project: Rpc
 ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: "*PRPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE structure [RPC], _RPC_CLIENT_INTERFACE, _rpc_rpc_client_interface, rpc.rpc_client_interface, rpcdcep/RPC_CLIENT_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdcep.h
 req.include-header: 

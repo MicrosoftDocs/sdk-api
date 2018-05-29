@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.GetSystemProfileCount
 title: IWMProfileManager::GetSystemProfileCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSystemProfileCount method retrieves the number of system profiles.
 old-location: wmformat\iwmprofilemanager_getsystemprofilecount.htm
 old-project: wmformat
 ms.assetid: 895fa99d-66a5-4f5f-82ce-394264a945f7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSystemProfileCount, GetSystemProfileCount method [windows Media Format], GetSystemProfileCount method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],GetSystemProfileCount method, IWMProfileManager.GetSystemProfileCount, IWMProfileManager::GetSystemProfileCount, IWMProfileManagerGetSystemProfileCount, wmformat.iwmprofilemanager_getsystemprofilecount, wmsdkidl/IWMProfileManager::GetSystemProfileCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

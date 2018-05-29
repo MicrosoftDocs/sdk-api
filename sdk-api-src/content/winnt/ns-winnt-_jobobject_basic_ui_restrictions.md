@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._JOBOBJECT_BASIC_UI_RESTRICTIONS
 title: "_JOBOBJECT_BASIC_UI_RESTRICTIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains basic user-interface restrictions for a job object.
 old-location: base\jobobject_basic_ui_restrictions_str.htm
 old-project: ProcThread
 ms.assetid: 69ce908c-fb15-40ba-8bd3-3dae3ee1539a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PJOBOBJECT_BASIC_UI_RESTRICTIONS, JOBOBJECT_BASIC_UI_RESTRICTIONS, JOBOBJECT_BASIC_UI_RESTRICTIONS structure, JOB_OBJECT_UILIMIT_DESKTOP, JOB_OBJECT_UILIMIT_DISPLAYSETTINGS, JOB_OBJECT_UILIMIT_EXITWINDOWS, JOB_OBJECT_UILIMIT_GLOBALATOMS, JOB_OBJECT_UILIMIT_HANDLES, JOB_OBJECT_UILIMIT_READCLIPBOARD, JOB_OBJECT_UILIMIT_SYSTEMPARAMETERS, JOB_OBJECT_UILIMIT_WRITECLIPBOARD, PJOBOBJECT_BASIC_UI_RESTRICTIONS, PJOBOBJECT_BASIC_UI_RESTRICTIONS structure pointer, _JOBOBJECT_BASIC_UI_RESTRICTIONS, _win32_jobobject_basic_ui_restrictions_str, base.jobobject_basic_ui_restrictions_str, winnt/JOBOBJECT_BASIC_UI_RESTRICTIONS, winnt/PJOBOBJECT_BASIC_UI_RESTRICTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:t2embapi.TTGetNewFontName
 title: TTGetNewFontName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the family name for the font loaded through TTLoadEmbeddedFont.
 old-location: gdi\ttgetnewfontname.htm
 old-project: gdi
 ms.assetid: 08636992-8dd8-461c-b360-f52a19d845bf
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TTGetNewFontName, TTGetNewFontName function [Windows GDI], _win32_TTGetNewFontName, gdi.ttgetnewfontname, t2embapi/TTGetNewFontName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

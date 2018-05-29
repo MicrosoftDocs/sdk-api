@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverCreateRelationship
 title: DhcpV4FailoverCreateRelationship function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new DHCPv4 failover relationship between two servers.
 old-location: dhcp\dhcpv4failovercreaterelationship.htm
 old-project: DHCP
 ms.assetid: 6e360dd4-b4a0-4652-8754-17c3c284271c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship function [DHCP], dhcp.dhcpv4failovercreaterelationship, dhcpsapi/DhcpV4FailoverCreateRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtlsupportapi.RtlRaiseException
 title: RtlRaiseException function
-author: windows-driver-content
+author: windows-sdk-content
 description: Raises an exception.
 old-location: winprog\rtlraiseexception.htm
 old-project: DevNotes
 ms.assetid: 0d43418a-1c80-4f5e-a0fe-5bc3adac847c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsupportapi/RtlRaiseException, winprog.rtlraiseexception
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtlsupportapi.h
 req.include-header: 

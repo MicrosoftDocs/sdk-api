@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Refresh
 title: IWdsTransportCacheable::Refresh
-author: windows-driver-content
+author: windows-sdk-content
 description: Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's IWdsTransportCacheable::Dirty property has been set.
 old-location: wds\iwdstransportcacheable_refresh.htm
 old-project: Wds
 ms.assetid: 2fd838b5-5623-4133-9ad8-ec051b2b698d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportCacheable interface [Windows Deployment Services],Refresh method, IWdsTransportCacheable.Refresh, IWdsTransportCacheable::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportCacheable interface, wds.iwdstransportcacheable_refresh, wdstptmgmt/IWdsTransportCacheable::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

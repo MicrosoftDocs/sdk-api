@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_RESET_LISTENER_CALLBACK
 title: WS_RESET_LISTENER_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsResetListener call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_reset_listener_callback.htm
 old-project: wsw
 ms.assetid: 98a48403-5ac6-44c2-8a43-c81746390a0d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_RESET_LISTENER_CALLBACK, WS_RESET_LISTENER_CALLBACK callback, WS_RESET_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_LISTENER_CALLBACK, wsw.ws_reset_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

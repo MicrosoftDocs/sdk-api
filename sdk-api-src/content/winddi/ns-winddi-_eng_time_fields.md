@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._ENG_TIME_FIELDS
 title: "_ENG_TIME_FIELDS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ENG_TIME_FIELDS structure is used by the EngQueryLocalTime function to return the local time.
 old-location: display\eng_time_fields.htm
 old-project: display
 ms.assetid: 482e1d15-d499-4ed2-87e7-760f03a454b5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PENG_TIME_FIELDS, ENG_TIME_FIELDS, ENG_TIME_FIELDS structure [Display Devices], PENG_TIME_FIELDS, PENG_TIME_FIELDS structure pointer [Display Devices], _ENG_TIME_FIELDS, display.eng_time_fields, grstrcts_3611274f-4217-48c5-af9d-9470df8a39e8.xml, winddi/ENG_TIME_FIELDS, winddi/PENG_TIME_FIELDS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

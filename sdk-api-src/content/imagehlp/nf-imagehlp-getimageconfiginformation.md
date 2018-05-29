@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.GetImageConfigInformation
 title: GetImageConfigInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates and returns the load configuration data of an image.
 old-location: base\getimageconfiginformation.htm
 old-project: Debug
 ms.assetid: 5d9b6705-7e65-4a60-912e-8ffcff9d7921
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetImageConfigInformation, GetImageConfigInformation function, _win32_getimageconfiginformation, base.getimageconfiginformation, imagehlp/GetImageConfigInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

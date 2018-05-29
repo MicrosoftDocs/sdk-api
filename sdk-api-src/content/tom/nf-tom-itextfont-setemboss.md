@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.SetEmboss
 title: ITextFont::SetEmboss
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether characters are embossed.
 old-location: controls\ITextFont_SetEmboss.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setemboss.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont interface [Windows Controls],SetEmboss method, ITextFont.SetEmboss, ITextFont::SetEmboss, SetEmboss, SetEmboss method [Windows Controls], SetEmboss method [Windows Controls],ITextFont interface, _win32_ITextFont_SetEmboss, _win32_ITextFont_SetEmboss_cpp, controls.ITextFont_SetEmboss, controls._win32_ITextFont_SetEmboss, tom/ITextFont::SetEmboss
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

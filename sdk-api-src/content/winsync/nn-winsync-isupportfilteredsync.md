@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISupportFilteredSync
 title: ISupportFilteredSync
-author: windows-driver-content
+author: windows-sdk-content
 description: When implemented by a derived class, represents a source provider that supports filtered change enumeration, and that can negotiate the type of filter that is used.
 old-location: winsync\isupportfilteredsync.htm
 old-project: winsync
 ms.assetid: cf07e322-7c75-49a4-a514-b4c782ceb2d7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISupportFilteredSync, ISupportFilteredSync interface [Windows Sync], ISupportFilteredSync interface [Windows Sync],described, winsync.isupportfilteredsync, winsync/ISupportFilteredSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

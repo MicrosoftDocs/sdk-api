@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Pause
 title: IMFMediaEngine::Pause
-author: windows-driver-content
+author: windows-sdk-content
 description: Pauses playback.
 old-location: mf\imfmediaengine_pause.htm
 old-project: medfound
 ms.assetid: 5C1FEBDA-18B5-4BF4-9AF4-FF6DBCDD880D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Pause method, IMFMediaEngine.Pause, IMFMediaEngine::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_pause, mfmediaengine/IMFMediaEngine::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetStatus
 title: IAMExtTransport::GetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStatus method returns information about the transport's status.
 old-location: dshow\iamexttransport_getstatus.htm
 old-project: DirectShow
 ms.assetid: 01d90527-4851-45a3-9481-929a9f4aa0cd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetStatus method, IAMExtTransport.GetStatus, IAMExtTransport::GetStatus, IAMExtTransportGetStatus, dshow.iamexttransport_getstatus, strmif/IAMExtTransport::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

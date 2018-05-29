@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IExplorerBrowserEvents
 title: IExplorerBrowserEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for notification of Explorer browser navigation and view creation events.
 old-location: shell\IExplorerBrowserEvents.htm
 old-project: shell
 ms.assetid: 802d547f-41c2-4c4a-9f07-be615d7b86eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExplorerBrowserEvents, IExplorerBrowserEvents interface [Windows Shell], IExplorerBrowserEvents interface [Windows Shell],described, _shell_IExplorerBrowserEvents, shell.IExplorerBrowserEvents, shobjidl_core/IExplorerBrowserEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

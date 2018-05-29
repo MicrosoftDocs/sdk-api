@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMTVAudio
 title: IAMTVAudio
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMTVAudio interface controls audio from a television source. The TV Audio filter implements this interface. Applications can use it to control television audio settings, including secondary audio program (SAP) and stereo or mono selection.
 old-location: dshow\iamtvaudio.htm
 old-project: DirectShow
 ms.assetid: de340594-4410-4896-b206-0f47d4035bc1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], IAMTVAudio interface [DirectShow],described, IAMTVAudioInterface, dshow.iamtvaudio, strmif/IAMTVAudio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_FilterType
 title: ITraceDataProvider::put_FilterType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a provider-defined filter type.
 old-location: pla\itracedataprovider_filtertype.htm
 old-project: PLA
 ms.assetid: adc9f89f-fffe-4df0-a9fd-72ae80fdf9b5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FilterType property [PLA], FilterType property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterType property, ITraceDataProvider.FilterType, ITraceDataProvider.put_FilterType, ITraceDataProvider::FilterType, ITraceDataProvider::get_FilterType, ITraceDataProvider::put_FilterType, base.itracedataprovider_filtertype, pla.itracedataprovider_filtertype, pla/ITraceDataProvider::FilterType, pla/ITraceDataProvider::get_FilterType, pla/ITraceDataProvider::put_FilterType, put_FilterType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmGetGraphicsStreamTransformHint
 title: DwmGetGraphicsStreamTransformHint function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is not implemented.
 old-location: dwm\dwmgetgraphicsstreamtransformhint.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetgraphicsstreamtransformhint.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmGetGraphicsStreamTransformHint, DwmGetGraphicsStreamTransformHint function [Desktop Window Manager], _udwm_dwmgetgraphicsstreamtransformhint, _udwm_dwmgetgraphicsstreamtransformhint_cpp, dwm.dwmgetgraphicsstreamtransformhint, dwmapi/DwmGetGraphicsStreamTransformHint, winui._udwm_dwmgetgraphicsstreamtransformhint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

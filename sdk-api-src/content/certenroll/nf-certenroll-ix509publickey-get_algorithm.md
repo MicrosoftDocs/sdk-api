@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_Algorithm
 title: IX509PublicKey::get_Algorithm
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509publickey_algorithm_property.htm
 old-project: SecCertEnroll
 ms.assetid: 6c34323e-669e-434c-946f-65fe53456a11
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],Algorithm property, IX509PublicKey.Algorithm, IX509PublicKey.get_Algorithm, IX509PublicKey::Algorithm, IX509PublicKey::get_Algorithm, certenroll/IX509PublicKey::Algorithm, certenroll/IX509PublicKey::get_Algorithm, get_Algorithm, security.ix509publickey_algorithm_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

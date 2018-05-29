@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.DXVA2_Fixed32TransparentAlpha
 title: DXVA2_Fixed32TransparentAlpha function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a DXVA2_Fixed32 structure that contains a transparent alpha value.
 old-location: mf\dxva2_fixed32transparentalpha.htm
 old-project: medfound
 ms.assetid: beb80542-f608-43e2-ab71-8ecee7884c62
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVA2_Fixed32TransparentAlpha, DXVA2_Fixed32TransparentAlpha function [Media Foundation], beb80542-f608-43e2-ab71-8ecee7884c62, dxva2api/DXVA2_Fixed32TransparentAlpha, mf.dxva2_fixed32transparentalpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 

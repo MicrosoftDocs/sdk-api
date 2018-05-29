@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPDevice2.GetCanonicalName
 title: IMDSPDevice2::GetCanonicalName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCanonicalPName method gets the canonical name of a device.
 old-location: wmdm\imdspdevice2_getcanonicalname.htm
 old-project: WMDM
 ms.assetid: 0888c780-e358-45ae-809b-34a19d496059
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [windows Media Device Manager], GetCanonicalName method [windows Media Device Manager],IMDSPDevice2 interface, IMDSPDevice2 interface [windows Media Device Manager],GetCanonicalName method, IMDSPDevice2.GetCanonicalName, IMDSPDevice2::GetCanonicalName, IMDSPDevice2GetPnPName, mswmdm/IMDSPDevice2::GetCanonicalName, wmdm.imdspdevice2_getcanonicalname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

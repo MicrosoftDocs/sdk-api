@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.D2D1CreateFactory
 title: D2D1CreateFactory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a factory object that can be used to create Direct2D resources.
 old-location: direct2d\d2d1createfactory.htm
 old-project: Direct2D
 ms.assetid: 8c0a685a-8f33-4072-a715-bb423cb44f03
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**), d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RetrieveRequestedAttrs
 title: ITextStoreAnchor::RetrieveRequestedAttrs
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchor::RetrieveRequestedAttrs method
 old-location: tsf\itextstoreanchor_retrieverequestedattrs.htm
 old-project: TSF
 ms.assetid: 36847680-bcf2-4db5-a587-90518f60cf5b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreAnchor.RetrieveRequestedAttrs, ITextStoreAnchor::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RetrieveRequestedAttrs, tsf.itextstoreanchor_retrieverequestedattrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.AddIPAddress
 title: AddIPAddress function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
 old-location: iphlp\addipaddress.htm
 old-project: IpHlp
 ms.assetid: 669264cd-a43c-4681-9416-2704d4232685
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AddIPAddress, AddIPAddress function [IP Helper], _iphlp_addipaddress, iphlp.addipaddress, iphlpapi/AddIPAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

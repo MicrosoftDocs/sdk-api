@@ -1,16 +1,16 @@
 ---
 UID: NS:wnvapi._WNV_IP_ADDRESS
 title: "_WNV_IP_ADDRESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an IP address object.
 old-location: wnv\wnv_ip_address.htm
 old-project: wnv
 ms.assetid: 1FD137B6-74F4-4E75-A77E-65F093938662
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWNV_IP_ADDRESS, PWNV_IP_ADDRESS, PWNV_IP_ADDRESS structure pointer [Windows Network Virtualization], WNV_IP_ADDRESS, WNV_IP_ADDRESS structure [Windows Network Virtualization], _WNV_IP_ADDRESS, wnv.wnv_ip_address, wnvapi/PWNV_IP_ADDRESS, wnvapi/WNV_IP_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 

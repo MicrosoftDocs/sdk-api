@@ -1,16 +1,16 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Logout
 title: IWMPContentPartner::Logout
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Logout method ends the user's online store session.
 old-location: wmp\iwmpcontentpartner_logout.htm
 old-project: WMP
 ms.assetid: 8919dd66-1ec0-4551-8132-7067957bb545
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Logout method, IWMPContentPartner.Logout, IWMPContentPartner::Logout, IWMPContentPartnerLogout, Logout, Logout method [Windows Media Player], Logout method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Logout, wmp.iwmpcontentpartner_logout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

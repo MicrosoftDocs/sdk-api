@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IShellFolderViewDual
 title: IShellFolderViewDual
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that modify the view and select items in the current folder.
 old-location: shell\IShellFolderViewDual.htm
 old-project: shell
 ms.assetid: 48135f9d-ee80-4dec-87dc-83f407c25777
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], IShellFolderViewDual interface [Windows Shell],described, _shell_IShellFolderViewDual, shell.IShellFolderViewDual, shldisp/IShellFolderViewDual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

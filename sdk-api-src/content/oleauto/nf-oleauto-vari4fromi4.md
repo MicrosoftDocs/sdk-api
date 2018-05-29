@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI4FromI4
 title: VarI4FromI4 macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an int value to a long value.
 old-location: automat\vari4fromint.htm
 old-project: automat
 ms.assetid: d2c387eb-02b9-4c11-b577-4c65ba8d0be9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI4FromI4, VarI4FromInt, VarI4FromInt function [Automation], _oa96_VarI4FromInt, automat.vari4fromint, oleauto/VarI4FromInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: oleauto.h
 req.include-header: 

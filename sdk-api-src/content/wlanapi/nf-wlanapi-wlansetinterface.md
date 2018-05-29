@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanSetInterface
 title: WlanSetInterface function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets user-configurable parameters.
 old-location: nwifi\wlansetinterface.htm
 old-project: NativeWiFi
 ms.assetid: 114a2a71-babd-4cd7-860a-fea523bcc865
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

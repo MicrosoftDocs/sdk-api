@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsService
 title: IVdsService
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to query and interact with VDS.
 old-location: base\ivdsservice.htm
 old-project: VDS
 ms.assetid: 6b081cc8-fe06-427f-b06d-831a1f1fef52
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsService, IVdsService interface [VDS], IVdsService interface [VDS],described, base.ivdsservice, vds/IVdsService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

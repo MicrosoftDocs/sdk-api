@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_OTHER_MSG
 title: "_CMC_TAGGED_OTHER_MSG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_other_msg.htm
 old-project: SecCrypto
 ms.assetid: cf70c245-fe22-4c02-9cfd-07690b930585
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG structure [Security], PCMC_TAGGED_OTHER_MSG, PCMC_TAGGED_OTHER_MSG structure pointer [Security], _CMC_TAGGED_OTHER_MSG, _crypto2_cmc_tagged_other_msg, security.cmc_tagged_other_msg, wincrypt/CMC_TAGGED_OTHER_MSG, wincrypt/PCMC_TAGGED_OTHER_MSG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

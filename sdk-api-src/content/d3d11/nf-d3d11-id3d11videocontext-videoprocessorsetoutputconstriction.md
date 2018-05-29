@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputConstriction
 title: ID3D11VideoContext::VideoProcessorSetOutputConstriction
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the amount of downsampling to perform on the output.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputconstriction.htm
 old-project: medfound
 ms.assetid: EA61A4B8-0853-4F17-B634-70A896DCF5F7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputConstriction method, ID3D11VideoContext.VideoProcessorSetOutputConstriction, ID3D11VideoContext::VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction method [Media Foundation], VideoProcessorSetOutputConstriction method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputConstriction, mf.id3d11videocontext_videoprocessorsetoutputconstriction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStream
 title: IMFASFProfile::CreateStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an Advanced Systems Format (ASF) stream configuration object.
 old-location: mf\imfasfprofile_createstream.htm
 old-project: medfound
 ms.assetid: 3da52c1a-24c0-456b-a9e8-57b5467eda2a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3da52c1a-24c0-456b-a9e8-57b5467eda2a, CreateStream, CreateStream method [Media Foundation], CreateStream method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStream method, IMFASFProfile.CreateStream, IMFASFProfile::CreateStream, mf.imfasfprofile_createstream, wmcontainer/IMFASFProfile::CreateStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcTestCancel
 title: RpcTestCancel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcTestCancel function checks for a cancel indication.
 old-location: rpc\rpctestcancel.htm
 old-project: Rpc
 ms.assetid: 1fd3b84d-ea45-4267-ac30-e4e2cf037c92
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcTestCancel, RpcTestCancel function [RPC], _rpc_rpctestcancel, rpc.rpctestcancel, rpcdce/RpcTestCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

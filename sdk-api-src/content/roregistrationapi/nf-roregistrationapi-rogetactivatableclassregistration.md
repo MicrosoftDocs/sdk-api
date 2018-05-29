@@ -1,16 +1,16 @@
 ---
 UID: NF:roregistrationapi.RoGetActivatableClassRegistration
 title: RoGetActivatableClassRegistration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables retrieving class registration information.
 old-location: winrt\rogetactivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 9D9B74C9-9D9A-4E10-A222-C8F3658F2C48
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoGetActivatableClassRegistration, RoGetActivatableClassRegistration function [Windows Runtime], roregistrationapi/RoGetActivatableClassRegistration, winrt.rogetactivatableclassregistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roregistrationapi.h
 req.include-header: 

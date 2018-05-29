@@ -1,16 +1,16 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPSP2OrGreater
 title: IsWindowsXPSP2OrGreater function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 2 (SP2) version.
 old-location: base\iswindowsxpsp2orgreater.htm
 old-project: SysInfo
 ms.assetid: DA957BA8-AD28-4096-8BE5-B77CA55B9324
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsWindowsXPSP2OrGreater, IsWindowsXPSP2OrGreater function, base.iswindowsxpsp2orgreater, versionhelpers/IsWindowsXPSP2OrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

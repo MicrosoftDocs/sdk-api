@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IImageRecompress
 title: IImageRecompress
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that recompress images.
 old-location: shell\IImageRecompress.htm
 old-project: shell
 ms.assetid: 48e07bc4-da70-406b-8024-3fa36416247f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IImageRecompress, IImageRecompress interface [Windows Shell], IImageRecompress interface [Windows Shell],described, _win32_IImageRecompress, shell.IImageRecompress, shobjidl/IImageRecompress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

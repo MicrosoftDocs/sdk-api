@@ -1,16 +1,16 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0012
 title: "__MIDL___MIDL_itf_pla_0001_0043_0012"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the action that the data manager takes when both the age and size limits are met.
 old-location: pla\folderactionsteps.htm
 old-project: PLA
 ms.assetid: 94d199a1-36f7-4064-a4fb-90dd26c37960
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FolderActionSteps, FolderActionSteps enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0012, base.folderactionsteps, pla.folderactionsteps, pla/FolderActionSteps, pla/plaCreateCab, pla/plaDeleteCab, pla/plaDeleteData, pla/plaDeleteReport, pla/plaSendCab, plaCreateCab, plaDeleteCab, plaDeleteData, plaDeleteReport, plaSendCab
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

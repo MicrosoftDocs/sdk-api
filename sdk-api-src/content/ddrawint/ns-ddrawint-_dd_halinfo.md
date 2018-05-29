@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_HALINFO
 title: "_DD_HALINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_HALINFO structure describes the capabilities of the hardware and driver.
 old-location: display\dd_halinfo.htm
 old-project: display
 ms.assetid: 99ecd219-1e85-4904-867d-3efcb378bb11
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_HALINFO, DD_HALINFO, DD_HALINFO structure [Display Devices], PDD_HALINFO, PDD_HALINFO structure pointer [Display Devices], _DD_HALINFO, ddrawint/DD_HALINFO, ddrawint/PDD_HALINFO, ddstrcts_3b4465cc-0f18-431c-b0a5-bf5bfb854f05.xml, display.dd_halinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

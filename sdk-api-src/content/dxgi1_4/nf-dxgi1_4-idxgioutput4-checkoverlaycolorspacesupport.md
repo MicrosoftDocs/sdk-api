@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_4.IDXGIOutput4.CheckOverlayColorSpaceSupport
 title: IDXGIOutput4::CheckOverlayColorSpaceSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks for overlay color space support.
 old-location: direct3ddxgi\idxgioutput4_checkoverlaycolorspacesupport.htm
 old-project: direct3ddxgi
 ms.assetid: C9F582EA-DB16-4FF3-B7BD-ACEA019FF7D4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CheckOverlayColorSpaceSupport, CheckOverlayColorSpaceSupport method [DXGI], CheckOverlayColorSpaceSupport method [DXGI],IDXGIOutput4 interface, IDXGIOutput4 interface [DXGI],CheckOverlayColorSpaceSupport method, IDXGIOutput4.CheckOverlayColorSpaceSupport, IDXGIOutput4::CheckOverlayColorSpaceSupport, direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport, dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 

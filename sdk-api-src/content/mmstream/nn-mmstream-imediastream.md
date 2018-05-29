@@ -1,16 +1,16 @@
 ---
 UID: NN:mmstream.IMediaStream
 title: IMediaStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\imediastream.htm
 old-project: DirectShow
 ms.assetid: 97f5dfdc-5941-4b58-a618-1c7e9f6665e1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaStream, IMediaStream interface [DirectShow], IMediaStream interface [DirectShow],described, IMediaStreamInterface, dshow.imediastream, mmstream/IMediaStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmstream.h
 req.include-header: 

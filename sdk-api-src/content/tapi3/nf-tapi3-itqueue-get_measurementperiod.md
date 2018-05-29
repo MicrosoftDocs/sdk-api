@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.ITQueue.get_MeasurementPeriod
 title: ITQueue::get_MeasurementPeriod
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itqueue_get_measurementperiod.htm
 old-project: Tapi
 ms.assetid: 931fb7dd-8c9b-4b1e-9296-6335e5a7e164
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_MeasurementPeriod method, ITQueue.get_MeasurementPeriod, ITQueue::get_MeasurementPeriod, _tapi3_itqueue_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_measurementperiod, tapi3cc/ITQueue::get_MeasurementPeriod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

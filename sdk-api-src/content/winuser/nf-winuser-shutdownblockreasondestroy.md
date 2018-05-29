@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonDestroy
 title: ShutdownBlockReasonDestroy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the system can be shut down and frees the reason string.
 old-location: base\shutdownblockreasondestroy.htm
 old-project: Shutdown
 ms.assetid: b7bf376a-79b5-4f63-b3ca-0d515c23d67c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ShutdownBlockReasonDestroy, ShutdownBlockReasonDestroy function, base.shutdownblockreasondestroy, winuser/ShutdownBlockReasonDestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromFileHandle
 title: IWICImagingFactory::CreateDecoderFromFileHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of the IWICBitmapDecoder based on the given file handle.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilehandle.htm
 old-project: wic
 ms.assetid: 94cf408c-bcea-419a-bf87-fac1e15e0a12
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateDecoderFromFileHandle, CreateDecoderFromFileHandle method [Windows Imaging Component], CreateDecoderFromFileHandle method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFileHandle method, IWICImagingFactory.CreateDecoderFromFileHandle, IWICImagingFactory::CreateDecoderFromFileHandle, _wic_codec_iwicimagingfactory_createdecoderfromfilehandle, wic._wic_codec_iwicimagingfactory_createdecoderfromfilehandle, wincodec/IWICImagingFactory::CreateDecoderFromFileHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

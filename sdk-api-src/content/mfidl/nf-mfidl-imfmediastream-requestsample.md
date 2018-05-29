@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaStream.RequestSample
 title: IMFMediaStream::RequestSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a sample from the media source.
 old-location: mf\imfmediastream_requestsample.htm
 old-project: medfound
 ms.assetid: 3838167b-5774-47f5-9b8d-2882eaa97167
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3838167b-5774-47f5-9b8d-2882eaa97167, IMFMediaStream interface [Media Foundation],RequestSample method, IMFMediaStream.RequestSample, IMFMediaStream::RequestSample, RequestSample, RequestSample method [Media Foundation], RequestSample method [Media Foundation],IMFMediaStream interface, mf.imfmediastream_requestsample, mfidl/IMFMediaStream::RequestSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

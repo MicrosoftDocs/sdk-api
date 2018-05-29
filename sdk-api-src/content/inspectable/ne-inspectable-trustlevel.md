@@ -1,16 +1,16 @@
 ---
 UID: NE:inspectable.TrustLevel
 title: TrustLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the trust level of an activatable class.
 old-location: winrt\trustlevel.htm
 old-project: WinRT
 ms.assetid: 75E30E4B-EE5F-41C4-AC22-91D542E920EB
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: BaseTrust, FullTrust, PartialTrust, TrustLevel, TrustLevel enumeration [Windows Runtime], inspectable/BaseTrust, inspectable/FullTrust, inspectable/PartialTrust, inspectable/TrustLevel, winrt.trustlevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: inspectable.h
 req.include-header: 

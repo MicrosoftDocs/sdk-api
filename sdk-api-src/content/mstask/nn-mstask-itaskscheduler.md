@@ -1,16 +1,16 @@
 ---
 UID: NN:mstask.ITaskScheduler
 title: ITaskScheduler
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods for scheduling tasks.
 old-location: taskschd\itaskscheduler.htm
 old-project: TaskSchd
 ms.assetid: 70c276e1-a45a-4a7d-aacc-3eb647675098
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], ITaskScheduler interface [Task Scheduler],described, _msb_itaskscheduler, mstask/ITaskScheduler, taskschd.itaskscheduler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 

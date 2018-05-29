@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterNoReplaceA
 title: RpcEpRegisterNoReplaceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcEpRegisterNoReplace function adds server-address information to the local endpoint-map database.
 old-location: rpc\rpcepregisternoreplace.htm
 old-project: Rpc
 ms.assetid: eaf132a8-0bc2-4201-945a-76b6c2eab559
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcEpRegisterNoReplace, RpcEpRegisterNoReplace function [RPC], RpcEpRegisterNoReplaceA, RpcEpRegisterNoReplaceW, _rpc_rpcepregisternoreplace, rpc.rpcepregisternoreplace, rpcdce/RpcEpRegisterNoReplace, rpcdce/RpcEpRegisterNoReplaceA, rpcdce/RpcEpRegisterNoReplaceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

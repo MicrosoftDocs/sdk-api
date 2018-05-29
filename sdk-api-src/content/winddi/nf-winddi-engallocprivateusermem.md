@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngAllocPrivateUserMem
 title: EngAllocPrivateUserMem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngAllocPrivateUserMem function allocates a block of user memory from the address space of a specified process and inserts a caller-supplied tag before the allocation.
 old-location: display\engallocprivateusermem.htm
 old-project: display
 ms.assetid: 416faebe-021b-4c00-9aba-d103a26348f6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngAllocPrivateUserMem, EngAllocPrivateUserMem function [Display Devices], display.engallocprivateusermem, gdifncs_e31cecee-3490-46b1-ad57-4cf8c2a4f378.xml, winddi/EngAllocPrivateUserMem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winddi.h
 req.include-header: Winddi.h

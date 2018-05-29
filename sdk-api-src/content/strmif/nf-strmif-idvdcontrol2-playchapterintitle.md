@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChapterInTitle
 title: IDvdControl2::PlayChapterInTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: The PlayChapterInTitle method starts playback from the beginning of the specified chapter of the specified title.
 old-location: dshow\idvdcontrol2_playchapterintitle.htm
 old-project: DirectShow
 ms.assetid: 1ac5072b-d397-4415-b4b9-656fd59a9269
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapterInTitle method, IDvdControl2.PlayChapterInTitle, IDvdControl2::PlayChapterInTitle, IDvdControl2PlayChapterInTitle, PlayChapterInTitle, PlayChapterInTitle method [DirectShow], PlayChapterInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapterintitle, strmif/IDvdControl2::PlayChapterInTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

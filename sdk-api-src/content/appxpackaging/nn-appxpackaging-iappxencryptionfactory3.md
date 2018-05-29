@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory3
 title: IAppxEncryptionFactory3
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates objects for encrypting, decrypting, reading, and writing Windows app packages and bundles.
 old-location: appxpkg\iappxencryptionfactory3.htm
 old-project: appxpkg
 ms.assetid: ABF2F4BE-FC6A-4AF5-BD15-243ABFA055D9
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxEncryptionFactory3, IAppxEncryptionFactory3 interface [App packaging and management], IAppxEncryptionFactory3 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory3, appxpkg.iappxencryptionfactory3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

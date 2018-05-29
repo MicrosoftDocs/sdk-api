@@ -1,16 +1,16 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0001
 title: "__MIDL_IWTSSBPlugin_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_drain.htm
 old-project: TermServ
 ms.assetid: 251d1534-0571-427a-a9a1-2327eba55c2d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSSBX_MACHINE_DRAIN, WTSSBX_MACHINE_DRAIN enumeration [Remote Desktop Services], WTSSBX_MACHINE_DRAIN_OFF, WTSSBX_MACHINE_DRAIN_ON, WTSSBX_MACHINE_DRAIN_UNSPEC, __MIDL_IWTSSBPlugin_0001, termserv.wtssbx_machine_drain, tssbx/WTSSBX_MACHINE_DRAIN, tssbx/WTSSBX_MACHINE_DRAIN_OFF, tssbx/WTSSBX_MACHINE_DRAIN_ON, tssbx/WTSSBX_MACHINE_DRAIN_UNSPEC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tssbx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcoreapi.UiaAndOrCondition
 title: UiaAndOrCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a complex condition.
 old-location: winauto\uiauto_UiaAndOrConditionStruct.htm
 old-project: WinAuto
 ms.assetid: de71d10e-ca81-4f66-a137-ae46adb47b4f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaAndOrCondition, UiaAndOrCondition structure [Windows Accessibility], uiauto.uiauto_UiaAndOrConditionStruct, uiauto_UiaAndOrConditionStruct, uiautomationcoreapi/UiaAndOrCondition, winauto.uiauto_UiaAndOrConditionStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

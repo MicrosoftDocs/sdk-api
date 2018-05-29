@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_VPOV_DIMENSION
 title: D3D11_VPOV_DIMENSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how to access a resource that is used in a video processor output view.
 old-location: mf\d3d11_vpov_dimension.htm
 old-project: medfound
 ms.assetid: EB334FA2-B174-45B2-8087-AAB72BB41795
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_VPOV_DIMENSION, D3D11_VPOV_DIMENSION enumeration [Media Foundation], D3D11_VPOV_DIMENSION_TEXTURE2D, D3D11_VPOV_DIMENSION_TEXTURE2DARRAY, D3D11_VPOV_DIMENSION_UNKNOWN, d3d11/D3D11_VPOV_DIMENSION, d3d11/D3D11_VPOV_DIMENSION_TEXTURE2D, d3d11/D3D11_VPOV_DIMENSION_TEXTURE2DARRAY, d3d11/D3D11_VPOV_DIMENSION_UNKNOWN, mf.d3d11_vpov_dimension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

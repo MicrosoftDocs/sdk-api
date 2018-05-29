@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
 title: IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the priority of the Multimedia Class Scheduler Service (MMCSS) priority associated with the specified platform work queue.
 old-location: mf\imfworkqueueservicesex_getplatformworkqueuemmcsspriority.htm
 old-project: medfound
 ms.assetid: e9271439-8785-4743-9e6f-81342af117f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPlatformWorkQueueMMCSSPriority, GetPlatformWorkQueueMMCSSPriority method [Media Foundation], GetPlatformWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetPlatformWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_getplatformworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

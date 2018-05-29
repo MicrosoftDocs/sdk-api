@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmGetFirstMfe
 title: MgmGetFirstMfe function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmGetFirstMfe function retrieves MFEs starting at the beginning of the MFE list.
 old-location: rras\mgmgetfirstmfe.htm
 old-project: RRAS
 ms.assetid: b270efc9-479c-4f70-a29d-1fee269c4f30
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MgmGetFirstMfe, MgmGetFirstMfe function [RAS], _mpr_mgmgetfirstmfe, mgm/MgmGetFirstMfe, rras.mgmgetfirstmfe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

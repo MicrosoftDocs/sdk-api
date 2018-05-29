@@ -1,16 +1,16 @@
 ---
 UID: NE:wtsapi32._WTS_CONFIG_CLASS
 title: "_WTS_CONFIG_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that indicate the type of user configuration information to set or retrieve in a call to the WTSQueryUserConfig and WTSSetUserConfig functions.
 old-location: termserv\wts_config_class_str.htm
 old-project: TermServ
 ms.assetid: 623b8a86-aa0d-497c-a2e6-5526f9b13d98
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSUserConfigBrokenTimeoutSettings, WTSUserConfigInitialProgram, WTSUserConfigModemCallbackPhoneNumber, WTSUserConfigModemCallbackSettings, WTSUserConfigReconnectSettings, WTSUserConfigShadowingSettings, WTSUserConfigTerminalServerHomeDir, WTSUserConfigTerminalServerHomeDirDrive, WTSUserConfigTerminalServerProfilePath, WTSUserConfigTimeoutSettingsConnections, WTSUserConfigTimeoutSettingsDisconnections, WTSUserConfigTimeoutSettingsIdle, WTSUserConfigUser, WTSUserConfigWorkingDirectory, WTSUserConfigfAllowLogonTerminalServer, WTSUserConfigfDeviceClientDefaultPrinter, WTSUserConfigfDeviceClientDrives, WTSUserConfigfDeviceClientPrinters, WTSUserConfigfInheritInitialProgram, WTSUserConfigfTerminalServerRemoteHomeDir, WTS_CONFIG_CLASS, WTS_CONFIG_CLASS enumeration [Remote Desktop Services], _WTS_CONFIG_CLASS, _win32_wts_config_class_str, termserv.wts_config_class_str, wtsapi32/WTSUserConfigBrokenTimeoutSettings, wtsapi32/WTSUserConfigInitialProgram, wtsapi32/WTSUserConfigModemCallbackPhoneNumber, wtsapi32/WTSUserConfigModemCallbackSettings, wtsapi32/WTSUserConfigReconnectSettings, wtsapi32/WTSUserConfigShadowingSettings, wtsapi32/WTSUserConfigTerminalServerHomeDir, wtsapi32/WTSUserConfigTerminalServerHomeDirDrive, wtsapi32/WTSUserConfigTerminalServerProfilePath, wtsapi32/WTSUserConfigTimeoutSettingsConnections, wtsapi32/WTSUserConfigTimeoutSettingsDisconnections, wtsapi32/WTSUserConfigTimeoutSettingsIdle, wtsapi32/WTSUserConfigUser, wtsapi32/WTSUserConfigWorkingDirectory, wtsapi32/WTSUserConfigfAllowLogonTerminalServer, wtsapi32/WTSUserConfigfDeviceClientDefaultPrinter, wtsapi32/WTSUserConfigfDeviceClientDrives, wtsapi32/WTSUserConfigfDeviceClientPrinters, wtsapi32/WTSUserConfigfInheritInitialProgram, wtsapi32/WTSUserConfigfTerminalServerRemoteHomeDir, wtsapi32/WTS_CONFIG_CLASS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtsapi32.h
 req.include-header: 

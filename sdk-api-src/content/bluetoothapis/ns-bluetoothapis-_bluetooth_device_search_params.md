@@ -1,16 +1,16 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_DEVICE_SEARCH_PARAMS
 title: "_BLUETOOTH_DEVICE_SEARCH_PARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies search criteria for Bluetooth device searches.
 old-location: bluetooth\bluetooth_device_search_params.htm
 old-project: Bluetooth
 ms.assetid: e267df61-d0f5-434f-b49c-6899c2abfa2a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BLUETOOTH_DEVICE_SEARCH_PARAMS, BLUETOOTH_DEVICE_SEARCH_PARAMS structure [Bluetooth], _BLUETOOTH_DEVICE_SEARCH_PARAMS, bluetooth.bluetooth_device_search_params, bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

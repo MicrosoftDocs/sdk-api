@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsbp.WdsBpAddOption
 title: WdsBpAddOption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an option to the packet.
 old-location: wds\wdsbpaddoption.htm
 old-project: Wds
 ms.assetid: 4418fe47-4d54-4874-9ab1-6747f9d9eb72
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsBpAddOption, WdsBpAddOption function [Windows Deployment Services], wds.wdsbpaddoption, wdsbp/WdsBpAddOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 

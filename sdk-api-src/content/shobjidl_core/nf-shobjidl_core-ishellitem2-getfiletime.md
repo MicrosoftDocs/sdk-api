@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetFileTime
 title: IShellItem2::GetFileTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the date and time value of a specified property key.
 old-location: shell\IShellItem2_GetFileTime.htm
 old-project: shell
 ms.assetid: bdd1834d-ce00-45e2-8fe7-825e18e12b96
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFileTime, GetFileTime method [Windows Shell], GetFileTime method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetFileTime method, IShellItem2.GetFileTime, IShellItem2::GetFileTime, _shell_IShellItem2_GetFileTime, shell.IShellItem2_GetFileTime, shobjidl_core/IShellItem2::GetFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

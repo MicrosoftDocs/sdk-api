@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_TURBULENCE_NOISE
 title: D2D1_TURBULENCE_NOISE
-author: windows-driver-content
+author: windows-sdk-content
 description: The turbulence noise mode for the Turbulence effect. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.
 old-location: direct2d\d2d1_turbulence_noise.htm
 old-project: Direct2D
 ms.assetid: 6D2C57B9-AE6E-43CF-AF76-299BC7FCFC06
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_TURBULENCE_NOISE, D2D1_TURBULENCE_NOISE enumeration [Direct2D], D2D1_TURBULENCE_NOISE_FRACTAL_SUM, D2D1_TURBULENCE_NOISE_TURBULENCE, d2d1effects/D2D1_TURBULENCE_NOISE, d2d1effects/D2D1_TURBULENCE_NOISE_FRACTAL_SUM, d2d1effects/D2D1_TURBULENCE_NOISE_TURBULENCE, direct2d.d2d1_turbulence_noise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

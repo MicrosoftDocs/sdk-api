@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestPkcs7
 title: IX509CertificateRequestPkcs7
-author: windows-driver-content
+author: windows-sdk-content
 description: The IX509CertificateRequestPkcs7 interface represents a PKCS #7 certificate message syntax (CMS) object.
 old-location: security\ix509certificaterequestpkcs7.htm
 old-project: SecCertEnroll
 ms.assetid: ae869557-6523-4387-835e-c9631898d864
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], IX509CertificateRequestPkcs7 interface [Security],described, certenroll/IX509CertificateRequestPkcs7, security.ix509certificaterequestpkcs7
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

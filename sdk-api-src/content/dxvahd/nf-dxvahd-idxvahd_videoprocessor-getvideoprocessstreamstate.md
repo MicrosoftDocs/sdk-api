@@ -1,16 +1,16 @@
 ---
 UID: NF:dxvahd.IDXVAHD_VideoProcessor.GetVideoProcessStreamState
 title: IDXVAHD_VideoProcessor::GetVideoProcessStreamState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of a state parameter for an input stream on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_videoprocessor_getvideoprocessstreamstate.htm
 old-project: medfound
 ms.assetid: 1ceeae95-d67d-4f11-b815-f4eef517e7ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetVideoProcessStreamState, GetVideoProcessStreamState method [Media Foundation], GetVideoProcessStreamState method [Media Foundation],IDXVAHD_VideoProcessor interface, IDXVAHD_VideoProcessor interface [Media Foundation],GetVideoProcessStreamState method, IDXVAHD_VideoProcessor.GetVideoProcessStreamState, IDXVAHD_VideoProcessor::GetVideoProcessStreamState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessStreamState, mf.idxvahd_videoprocessor_getvideoprocessstreamstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.SpanExcluding
 title: CHString::SpanExcluding
-author: windows-driver-content
+author: windows-sdk-content
 description: The SpanExcluding method extracts and returns all characters preceding the first occurrence of a character from lpszCharSet.
 old-location: wmi\chstring_spanexcluding.htm
 old-project: WmiSdk
 ms.assetid: 5ddadf16-0177-4f96-a5ca-e1b8891473e6
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanExcluding method, CHString.SpanExcluding, CHString::SpanExcluding, SpanExcluding, SpanExcluding method [Windows Management Instrumentation], SpanExcluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanexcluding, chstring/CHString::SpanExcluding, wmi.chstring_spanexcluding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

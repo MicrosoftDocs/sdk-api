@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteStr
 title: PSPropertyBag_WriteStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the string value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteStr.htm
 old-project: properties
 ms.assetid: D3614CAE-D594-4050-B80E-20D8BBB93744
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_WriteStr, PSPropertyBag_WriteStr function [Windows Properties], properties.PSPropertyBag_WriteStr, propsys/PSPropertyBag_WriteStr, shell.PSPropertyBag_WriteStr, shell_PSPropertyBag_WriteStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

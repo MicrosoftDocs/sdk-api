@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMClientConnections
 title: IWMClientConnections
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMClientConnections interface manages the collecting of information about clients connected to a writer network sink object.The writer network sink object exposes this interface.
 old-location: wmformat\iwmclientconnections.htm
 old-project: wmformat
 ms.assetid: fea7cd85-22ab-4f3b-8a0a-301496f0c788
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMClientConnections, IWMClientConnections interface [windows Media Format], IWMClientConnections interface [windows Media Format],described, IWMClientConnectionsInterface, wmformat.iwmclientconnections, wmsdkidl/IWMClientConnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

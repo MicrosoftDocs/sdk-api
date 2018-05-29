@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITTerminalControl.RunRenderFilter
 title: ITTerminalControl::RunRenderFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The RunRenderFilter method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_runrenderfilter.htm
 old-project: Tapi
 ms.assetid: ed02ed04-3665-47be-a77b-7804a2197767
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],RunRenderFilter method, ITTerminalControl.RunRenderFilter, ITTerminalControl::RunRenderFilter, RunRenderFilter, RunRenderFilter method [TAPI 2.2], RunRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_runrenderfilter, tapi3.itterminalcontrol_runrenderfilter, termmgr/ITTerminalControl::RunRenderFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

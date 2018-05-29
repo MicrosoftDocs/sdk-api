@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkById
 title: IMFMediaSink::GetStreamSinkById
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a stream sink, specified by stream identifier.
 old-location: mf\imfmediasink_getstreamsinkbyid.htm
 old-project: medfound
 ms.assetid: 267a8efc-6743-48ca-a1c4-da82f3770419
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 267a8efc-6743-48ca-a1c4-da82f3770419, GetStreamSinkById, GetStreamSinkById method [Media Foundation], GetStreamSinkById method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkById method, IMFMediaSink.GetStreamSinkById, IMFMediaSink::GetStreamSinkById, mf.imfmediasink_getstreamsinkbyid, mfidl/IMFMediaSink::GetStreamSinkById
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

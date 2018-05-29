@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriter.Initialize
 title: CVssWriter::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a CVssWriter object and allows a writer application to interact with VSS.
 old-location: base\cvsswriter_initialize.htm
 old-project: VSS
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriter interface [VSS],Initialize method, CVssWriter.Initialize, CVssWriter::Initialize, Initialize, Initialize method [VSS], Initialize method [VSS],CVssWriter interface, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

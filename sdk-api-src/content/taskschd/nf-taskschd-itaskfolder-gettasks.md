@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetTasks
 title: ITaskFolder::GetTasks
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets all the tasks in the folder.
 old-location: taskschd\itaskfolder_gettasks.htm
 old-project: TaskSchd
 ms.assetid: 2dcef962-d4b0-4fc9-845a-e33f020dba41
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetTasks, GetTasks method [Task Scheduler], GetTasks method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetTasks method, ITaskFolder.GetTasks, ITaskFolder::GetTasks, taskschd.itaskfolder_gettasks, taskschd/ITaskFolder::GetTasks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

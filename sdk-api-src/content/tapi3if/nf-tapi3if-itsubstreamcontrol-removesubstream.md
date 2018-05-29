@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.RemoveSubStream
 title: ITSubStreamControl::RemoveSubStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveSubStream method removes a substream.
 old-location: tapi3\itsubstreamcontrol_removesubstream.htm
 old-project: Tapi
 ms.assetid: 1a1be17c-2cae-4eea-a20a-3344915c5234
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],RemoveSubStream method, ITSubStreamControl.RemoveSubStream, ITSubStreamControl::RemoveSubStream, RemoveSubStream, RemoveSubStream method [TAPI 2.2], RemoveSubStream method [TAPI 2.2],ITSubStreamControl interface, _tapi3_itsubstreamcontrol_removesubstream, tapi3.itsubstreamcontrol_removesubstream, tapi3if/ITSubStreamControl::RemoveSubStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

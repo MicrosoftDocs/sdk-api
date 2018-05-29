@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyDefinition2
 title: IFsrmPropertyDefinition2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a property that you want to use to classify files.
 old-location: fsrm\ifsrmpropertydefinition2.htm
 old-project: Fsrm
 ms.assetid: b16e1d43-1d7d-4e6c-b0e7-60386ba9c2b5
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPropertyDefinition2, IFsrmPropertyDefinition2 interface [File Server Resource Manager], IFsrmPropertyDefinition2 interface [File Server Resource Manager],described, fs.ifsrmpropertydefinition2, fsrm.ifsrmpropertydefinition2, fsrmpipeline/IFsrmPropertyDefinition2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: 

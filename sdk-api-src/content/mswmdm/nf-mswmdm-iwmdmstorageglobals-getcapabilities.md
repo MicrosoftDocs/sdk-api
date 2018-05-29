@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetCapabilities
 title: IWMDMStorageGlobals::GetCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCapabilities method retrieves the capabilities of the root storage medium.
 old-location: wmdm\iwmdmstorageglobals_getcapabilities.htm
 old-project: WMDM
 ms.assetid: 0eea5448-f43d-4181-a497-476957fa7a08
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetCapabilities method, IWMDMStorageGlobals.GetCapabilities, IWMDMStorageGlobals::GetCapabilities, IWMDMStorageGlobalsGetCapabilities, mswmdm/IWMDMStorageGlobals::GetCapabilities, wmdm.iwmdmstorageglobals_getcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

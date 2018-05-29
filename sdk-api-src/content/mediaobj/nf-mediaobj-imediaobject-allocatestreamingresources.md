@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.AllocateStreamingResources
 title: IMediaObject::AllocateStreamingResources
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateStreamingResources method allocates any resources needed by the DMO. Calling this method is always optional.
 old-location: dshow\imediaobject_allocatestreamingresources.htm
 old-project: DirectShow
 ms.assetid: cd608bf2-50a5-4037-aeb5-c5c380c3d6df
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AllocateStreamingResources, AllocateStreamingResources method [DirectShow], AllocateStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],AllocateStreamingResources method, IMediaObject.AllocateStreamingResources, IMediaObject::AllocateStreamingResources, IMediaObjectAllocateStreamingResources, dshow.imediaobject_allocatestreamingresources, mediaobj/IMediaObject::AllocateStreamingResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

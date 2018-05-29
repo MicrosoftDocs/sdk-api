@@ -1,16 +1,16 @@
 ---
 UID: NN:icontact.IContactManager
 title: IContactManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Used for retrieving a contact, based on a contact ID string.
 old-location: wincontacts\_wincontacts_IContactManager.htm
 old-project: wincontacts
 ms.assetid: d0102659-488c-45db-931b-345013e21eed
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IContactManager, IContactManager interface [Windows Contacts], IContactManager interface [Windows Contacts],described, _wincontacts_IContactManager, icontact/IContactManager, wincontacts._wincontacts_IContactManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h

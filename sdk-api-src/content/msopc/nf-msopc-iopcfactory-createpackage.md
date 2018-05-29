@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackage
 title: IOpcFactory::CreatePackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a package object that represents an empty package.
 old-location: opc\iopcfactory_createpackage.htm
 old-project: OPC
 ms.assetid: 9cd4ef3a-f890-40d5-a398-cb8f9746c380
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CreatePackage, CreatePackage method [Open Packaging Conventions], CreatePackage method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackage method, IOpcFactory.CreatePackage, IOpcFactory::CreatePackage, msopc/IOpcFactory::CreatePackage, opc.iopcfactory_createpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

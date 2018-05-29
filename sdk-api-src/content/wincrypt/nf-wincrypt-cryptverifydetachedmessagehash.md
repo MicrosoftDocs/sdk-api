@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptVerifyDetachedMessageHash
 title: CryptVerifyDetachedMessageHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptVerifyDetachedMessageHash function verifies a detached hash.
 old-location: security\cryptverifydetachedmessagehash.htm
 old-project: SecCrypto
 ms.assetid: b529b9e2-9798-4548-a44f-c330524a3e6b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptVerifyDetachedMessageHash, CryptVerifyDetachedMessageHash function [Security], _crypto2_cryptverifydetachedmessagehash, security.cryptverifydetachedmessagehash, wincrypt/CryptVerifyDetachedMessageHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

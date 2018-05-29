@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictPresenter
 title: ISyncMgrConflictPresenter
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that presents a conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter.htm
 old-project: shell
 ms.assetid: ec9a2050-23ad-4478-a705-0a7324e8f84d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrConflictPresenter, ISyncMgrConflictPresenter interface [Windows Shell], ISyncMgrConflictPresenter interface [Windows Shell],described, _shell_ISyncMgrConflictPresenter, shell.ISyncMgrConflictPresenter, syncmgr/ISyncMgrConflictPresenter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

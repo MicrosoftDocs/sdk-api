@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVKEYDOWN
 title: tagLVKEYDOWN
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used in processing the LVN_KEYDOWN notification code. This structure is the same as the NMLVKEYDOWN structure but has been renamed to fit standard naming conventions.
 old-location: controls\NMLVKEYDOWN.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvkeydown.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMLVKEYDOWN, LPNMLVKEYDOWN, LPNMLVKEYDOWN structure pointer [Windows Controls], NMLVKEYDOWN, NMLVKEYDOWN structure [Windows Controls], _win32_NMLVKEYDOWN, _win32_NMLVKEYDOWN_cpp, commctrl/LPNMLVKEYDOWN, commctrl/NMLVKEYDOWN, controls.NMLVKEYDOWN, controls._win32_NMLVKEYDOWN, tagLVKEYDOWN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

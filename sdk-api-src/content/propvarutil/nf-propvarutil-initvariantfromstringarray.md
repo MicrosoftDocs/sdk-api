@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromStringArray
 title: InitVariantFromStringArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure with an array of strings.
 old-location: properties\InitVariantFromStringArray.htm
 old-project: properties
 ms.assetid: f46cfc71-9e27-4ba1-8a32-5b279b628732
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromStringArray, InitVariantFromStringArray function [Windows Properties], _shell_InitVariantFromStringArray, properties.InitVariantFromStringArray, propvarutil/InitVariantFromStringArray, shell.InitVariantFromStringArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

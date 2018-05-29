@@ -1,16 +1,16 @@
 ---
 UID: NE:wbemdisp.WbemPrivilegeEnum
 title: WbemPrivilegeEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Define privileges. These constants are used with SWbemSecurity to grant the privileges required for some operations.
 old-location: wmi\wbemprivilegeenum.htm
 old-project: WmiSdk
 ms.assetid: 235a1115-d8c4-4334-a4e0-fc539da4d2ae
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WbemPrivilegeEnum, WbemPrivilegeEnum enumeration [Windows Management Instrumentation], wbemPrivilegeAudit, wbemPrivilegeBackup, wbemPrivilegeChangeNotify, wbemPrivilegeCreatePagefile, wbemPrivilegeCreatePermanent, wbemPrivilegeCreateToken, wbemPrivilegeDebug, wbemPrivilegeEnableDelegation, wbemPrivilegeIncreaseBasePriority, wbemPrivilegeIncreaseQuota, wbemPrivilegeLoadDriver, wbemPrivilegeLockMemory, wbemPrivilegeMachineAccount, wbemPrivilegeManageVolume, wbemPrivilegePrimaryToken, wbemPrivilegeProfileSingleProcess, wbemPrivilegeRemoteShutdown, wbemPrivilegeRestore, wbemPrivilegeSecurity, wbemPrivilegeShutdown, wbemPrivilegeSyncAgent, wbemPrivilegeSystemEnvironment, wbemPrivilegeSystemProfile, wbemPrivilegeSystemtime, wbemPrivilegeTakeOwnership, wbemPrivilegeTcb, wbemPrivilegeUndock, wbemdisp/WbemPrivilegeEnum, wbemdisp/wbemPrivilegeAudit, wbemdisp/wbemPrivilegeBackup, wbemdisp/wbemPrivilegeChangeNotify, wbemdisp/wbemPrivilegeCreatePagefile, wbemdisp/wbemPrivilegeCreatePermanent, wbemdisp/wbemPrivilegeCreateToken, wbemdisp/wbemPrivilegeDebug, wbemdisp/wbemPrivilegeEnableDelegation, wbemdisp/wbemPrivilegeIncreaseBasePriority, wbemdisp/wbemPrivilegeIncreaseQuota, wbemdisp/wbemPrivilegeLoadDriver, wbemdisp/wbemPrivilegeLockMemory, wbemdisp/wbemPrivilegeMachineAccount, wbemdisp/wbemPrivilegeManageVolume, wbemdisp/wbemPrivilegePrimaryToken, wbemdisp/wbemPrivilegeProfileSingleProcess, wbemdisp/wbemPrivilegeRemoteShutdown, wbemdisp/wbemPrivilegeRestore, wbemdisp/wbemPrivilegeSecurity, wbemdisp/wbemPrivilegeShutdown, wbemdisp/wbemPrivilegeSyncAgent, wbemdisp/wbemPrivilegeSystemEnvironment, wbemdisp/wbemPrivilegeSystemProfile, wbemdisp/wbemPrivilegeSystemtime, wbemdisp/wbemPrivilegeTakeOwnership, wbemdisp/wbemPrivilegeTcb, wbemdisp/wbemPrivilegeUndock, wmi.wbemprivilegeenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

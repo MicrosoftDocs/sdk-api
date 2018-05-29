@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.DeleteFileW
 title: DeleteFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing file.
 old-location: fs\deletefile.htm
 old-project: FileIO
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteFile, DeleteFile function [Files], DeleteFileA, DeleteFileW, _win32_deletefile, base.deletefile, fileapi/DeleteFile, fileapi/DeleteFileA, fileapi/DeleteFileW, fs.deletefile, winbase/DeleteFile, winbase/DeleteFileA, winbase/DeleteFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

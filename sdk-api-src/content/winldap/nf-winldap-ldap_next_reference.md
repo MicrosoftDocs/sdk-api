@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_next_reference
 title: ldap_next_reference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a reference from a search result chain.
 old-location: ldap\ldap_next_reference.htm
 old-project: LDAP
 ms.assetid: ea67f0e9-5cf7-4755-9bfd-856e26589a8d
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_next_reference, ldap.ldap__next__reference, ldap.ldap_next_reference, ldap_next_reference, ldap_next_reference function [LDAP], winldap/ldap_next_reference"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

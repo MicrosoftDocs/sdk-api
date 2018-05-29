@@ -1,16 +1,16 @@
 ---
 UID: NE:msclus.CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 title: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the various snapshot states for a shared volume.
 old-location: mscs\cluster_shared_volume_snapshot_state.htm
 old-project: MsCS
 ms.assetid: FE8F2117-7D23-42FF-B6BD-CA42224570EF
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration [Failover Cluster], ClusterSharedVolumeHWSnapshotCompleted, ClusterSharedVolumePrepareForFreeze, ClusterSharedVolumePrepareForHWSnapshot, ClusterSharedVolumeSnapshotStateUnknown, clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, clusapi/ClusterSharedVolumeHWSnapshotCompleted, clusapi/ClusterSharedVolumePrepareForFreeze, clusapi/ClusterSharedVolumePrepareForHWSnapshot, clusapi/ClusterSharedVolumeSnapshotStateUnknown, msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, msclus/ClusterSharedVolumeHWSnapshotCompleted, msclus/ClusterSharedVolumePrepareForFreeze, msclus/ClusterSharedVolumePrepareForHWSnapshot, msclus/ClusterSharedVolumeSnapshotStateUnknown, mscs.cluster_shared_volume_snapshot_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

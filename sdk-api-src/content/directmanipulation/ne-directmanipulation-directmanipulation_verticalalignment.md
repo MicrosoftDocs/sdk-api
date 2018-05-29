@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_VERTICALALIGNMENT
 title: DIRECTMANIPULATION_VERTICALALIGNMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the vertical alignment settings for content within the viewport.
 old-location: directmanipulation\directmanipulation_verticalalignment.htm
 old-project: directmanipulation
 ms.assetid: 37e9a604-f713-4203-928c-0799206b76fe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_VERTICALALIGNMENT, DIRECTMANIPULATION_VERTICALALIGNMENT enumeration [Direct Manipulation], DIRECTMANIPULATION_VERTICALALIGNMENT_BOTTOM, DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER, DIRECTMANIPULATION_VERTICALALIGNMENT_NONE, DIRECTMANIPULATION_VERTICALALIGNMENT_TOP, DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER, directmanipulation.directmanipulation_verticalalignment, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_BOTTOM, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_NONE, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_TOP, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorContrast
 title: GetMonitorContrast function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a monitor's minimum, maximum, and current contrast settings.
 old-location: monitor\getmonitorcontrast.htm
 old-project: Monitor
 ms.assetid: 996d894d-3939-418f-b7d2-c0e9d667391e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetMonitorContrast, GetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorContrast, monitor.getmonitorcontrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

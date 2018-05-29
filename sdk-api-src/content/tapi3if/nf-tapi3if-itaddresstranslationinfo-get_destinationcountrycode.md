@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_DestinationCountryCode
 title: ITAddressTranslationInfo::get_DestinationCountryCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the country/region code for the call destination.
 old-location: tapi3\itaddresstranslationinfo_get_destinationcountrycode.htm
 old-project: Tapi
 ms.assetid: 29880773-ce19-489f-81d8-d2c91779350f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DestinationCountryCode method, ITAddressTranslationInfo.get_DestinationCountryCode, ITAddressTranslationInfo::get_DestinationCountryCode, _tapi3_itaddresstranslationinfo_get_destinationcountrycode, get_DestinationCountryCode, get_DestinationCountryCode method [TAPI 2.2], get_DestinationCountryCode method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_destinationcountrycode, tapi3if/ITAddressTranslationInfo::get_DestinationCountryCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

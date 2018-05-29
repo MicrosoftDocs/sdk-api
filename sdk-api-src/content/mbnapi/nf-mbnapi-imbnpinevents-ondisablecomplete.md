@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnDisableComplete
 title: IMbnPinEvents::OnDisableComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a PIN disable operation has completed.
 old-location: mbn\imbnpinevents_ondisablecomplete.htm
 old-project: mbn
 ms.assetid: 54fc0ec1-eb35-4403-b22a-4c50c4912604
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_FAILURE, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnDisableComplete method, IMbnPinEvents.OnDisableComplete, IMbnPinEvents::OnDisableComplete, OnDisableComplete, OnDisableComplete method [Microsoft Broadband Networks], OnDisableComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_ondisablecomplete, mbnapi/IMbnPinEvents::OnDisableComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

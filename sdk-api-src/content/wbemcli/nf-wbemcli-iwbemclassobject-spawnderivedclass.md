@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.SpawnDerivedClass
 title: IWbemClassObject::SpawnDerivedClass
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IWbemClassObject::SpawnDerivedClass method to create a newly derived class object from the current object.
 old-location: wmi\iwbemclassobject_spawnderivedclass.htm
 old-project: WmiSdk
 ms.assetid: 9b27c984-2261-4263-a32e-977aba5e3f06
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],SpawnDerivedClass method, IWbemClassObject.SpawnDerivedClass, IWbemClassObject::SpawnDerivedClass, SpawnDerivedClass, SpawnDerivedClass method [Windows Management Instrumentation], SpawnDerivedClass method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_spawnderivedclass, wbemcli/IWbemClassObject::SpawnDerivedClass, wmi.iwbemclassobject_spawnderivedclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

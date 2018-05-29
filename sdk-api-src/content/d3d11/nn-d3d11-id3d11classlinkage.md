@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11ClassLinkage
 title: ID3D11ClassLinkage
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface encapsulates an HLSL dynamic linkage.
 old-location: direct3d11\id3d11classlinkage.htm
 old-project: direct3d11
 ms.assetid: eac03911-d881-4304-9598-912321ac0b0c
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 6153eaad-32d7-c087-4631-725183e63035, ID3D11ClassLinkage, ID3D11ClassLinkage interface [Direct3D 11], ID3D11ClassLinkage interface [Direct3D 11],described, d3d11/ID3D11ClassLinkage, direct3d11.id3d11classlinkage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

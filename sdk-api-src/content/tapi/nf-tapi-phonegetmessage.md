@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneGetMessage
 title: phoneGetMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneGetMessage function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see phoneInitializeEx for further details).
 old-location: tapi2\phonegetmessage.htm
 old-project: Tapi
 ms.assetid: 8afa17ef-a47f-41af-b120-1e2d5acb4106
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonegetmessage, phoneGetMessage, phoneGetMessage function [TAPI 2.2], tapi/phoneGetMessage, tapi2.phonegetmessage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

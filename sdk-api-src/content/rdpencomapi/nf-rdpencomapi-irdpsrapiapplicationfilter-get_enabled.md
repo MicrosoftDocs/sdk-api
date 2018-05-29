@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Enabled
 title: IRDPSRAPIApplicationFilter::get_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: The enabled state of the application filter.
 old-location: rdp\irdpsrapiapplicationfilter_enabled.htm
 old-project: Rdp
 ms.assetid: 91d8fdea-3fe0-4623-ab83-ce3927321bbc
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: Enabled property [RDP], Enabled property [RDP],IRDPSRAPIApplicationFilter interface, Enabled property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Enabled property, IRDPSRAPIApplicationFilter.Enabled, IRDPSRAPIApplicationFilter.get_Enabled, IRDPSRAPIApplicationFilter::Enabled, IRDPSRAPIApplicationFilter::get_Enabled, IRDPSRAPIApplicationFilter::put_Enabled, RDPSRAPIApplicationFilter object [RDP],Enabled property, get_Enabled, rdp.irdpsrapiapplicationfilter_enabled, rdpencomapi/IRDPSRAPIApplicationFilter::Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::get_Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

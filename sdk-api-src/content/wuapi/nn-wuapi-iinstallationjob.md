@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IInstallationJob
 title: IInstallationJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains properties and methods that are available to an installation or uninstallation operation.
 old-location: wua\iinstallationjob.htm
 old-project: Wua_Sdk
 ms.assetid: 1a83a44e-cd3b-43b0-8741-a73fe9954063
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent], IInstallationJob interface [Windows Update Agent],described, wua.iinstallationjob, wuapi/IInstallationJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

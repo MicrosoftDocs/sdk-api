@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX
 title: PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a resource and returns a handle to it.
 old-location: mscs\openclusterresourceex.htm
 old-project: MsCS
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX callback, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

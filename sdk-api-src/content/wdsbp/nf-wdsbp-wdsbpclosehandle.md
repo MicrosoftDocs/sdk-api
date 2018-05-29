@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsbp.WdsBpCloseHandle
 title: WdsBpCloseHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified handle.
 old-location: wds\wdsbpclosehandle.htm
 old-project: Wds
 ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 

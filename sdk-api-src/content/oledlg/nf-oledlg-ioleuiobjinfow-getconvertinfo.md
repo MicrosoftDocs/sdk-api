@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.GetConvertInfo
 title: IOleUIObjInfoW::GetConvertInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the conversion information associated with the specified object.
 old-location: com\ioleuiobjinfo_getconvertinfo.htm
 old-project: com
 ms.assetid: 45416493-7f0b-4bef-b785-513d4f404541
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetConvertInfo, GetConvertInfo method [COM], GetConvertInfo method [COM],IOleUIObjInfo interface, GetConvertInfo method [COM],IOleUIObjInfoA interface, GetConvertInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetConvertInfo method, IOleUIObjInfo::GetConvertInfo, IOleUIObjInfoA interface [COM],GetConvertInfo method, IOleUIObjInfoA::GetConvertInfo, IOleUIObjInfoW interface [COM],GetConvertInfo method, IOleUIObjInfoW.GetConvertInfo, IOleUIObjInfoW::GetConvertInfo, _ole_IOleUIObjInfo_GetConvertInfo, com.ioleuiobjinfo_getconvertinfo, oledlg/IOleUIObjInfo::GetConvertInfo, oledlg/IOleUIObjInfoA::GetConvertInfo, oledlg/IOleUIObjInfoW::GetConvertInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 

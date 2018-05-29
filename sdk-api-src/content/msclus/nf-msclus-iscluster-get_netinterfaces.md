@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_NetInterfaces
 title: ISCluster::get_NetInterfaces
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a ClusNetInterfaces collection providing access to the network interfaces in a cluster.
 old-location: mscs\cluster_netinterfaces.htm
 old-project: MsCS
 ms.assetid: f4fbac67-f196-4fd8-a678-8f7877e70f6a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],NetInterfaces property, Cluster.NetInterfaces, ISCluster.get_NetInterfaces, ISCluster::get_NetInterfaces, NetInterfaces property [Failover Cluster], NetInterfaces property [Failover Cluster],Cluster object, _wolf_cluster.netinterfaces, get_NetInterfaces, mscs.cluster_netinterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

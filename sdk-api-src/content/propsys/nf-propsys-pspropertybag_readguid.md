@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadGUID
 title: PSPropertyBag_ReadGUID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the GUID data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadGUID.htm
 old-project: properties
 ms.assetid: BCC6E830-CF05-42c1-874F-CCC97E58A4BC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadGUID, PSPropertyBag_ReadGUID function [Windows Properties], properties.PSPropertyBag_ReadGUID, propsys/PSPropertyBag_ReadGUID, shell.PSPropertyBag_ReadGUID, shell_PSPropertyBag_ReadGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.idl

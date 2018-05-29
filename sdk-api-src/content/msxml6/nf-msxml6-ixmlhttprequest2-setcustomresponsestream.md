@@ -1,16 +1,16 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetCustomResponseStream
 title: IXMLHTTPRequest2::SetCustomResponseStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a custom stream to replace the standard stream for receiving an HTTP response.
 old-location: ixhr2\ixmlhttprequest2_setcustomresponsestream.htm
 old-project: ixhr2
 ms.assetid: 64341C82-85EC-402F-A875-85706DFD7B25
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCustomResponseStream method, IXMLHTTPRequest2.SetCustomResponseStream, IXMLHTTPRequest2::SetCustomResponseStream, SetCustomResponseStream, SetCustomResponseStream method [XMLHttpRequest2], SetCustomResponseStream method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setcustomresponsestream, msxml6/IXMLHTTPRequest2::SetCustomResponseStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

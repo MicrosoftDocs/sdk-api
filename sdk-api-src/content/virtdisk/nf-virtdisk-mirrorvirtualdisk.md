@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.MirrorVirtualDisk
 title: MirrorVirtualDisk function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates a mirror operation for a virtual disk.
 old-location: vhd\mirrorvirtualdisk.htm
 old-project: VStor
 ms.assetid: eb72043a-7515-42c0-900d-feed4503ea7a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, MirrorVirtualDisk, MirrorVirtualDisk function [VHD], vhd.mirrorvirtualdisk, virtdisk/MirrorVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:sensorsapi.ISensorEvents
 title: ISensorEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: The callback interface you must implement if you want to receive sensor events.
 old-location: winsensors\isensorevents.htm
 old-project: SensorsAPI
 ms.assetid: 41acbb4f-b4f8-4573-a993-ed93ec9494f0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensorEvents, ISensorEvents interface [WinSensors], ISensorEvents interface [WinSensors],described, sensorsapi/ISensorEvents, winsensors.isensorevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.AbortRecord
 title: ICrmCompensator::AbortRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers a log record to the CRM Compensator during the abort phase.
 old-location: cos\icrmcompensator_abortrecord.htm
 old-project: cossdk
 ms.assetid: 79dcf391-7ec9-4c9c-9f91-0e806d7c278c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AbortRecord, AbortRecord method [COM+], AbortRecord method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],AbortRecord method, ICrmCompensator.AbortRecord, ICrmCompensator::AbortRecord, _dtc_ICrmCompensator_AbortRecord, comsvcs/ICrmCompensator::AbortRecord, cos.icrmcompensator_abortrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

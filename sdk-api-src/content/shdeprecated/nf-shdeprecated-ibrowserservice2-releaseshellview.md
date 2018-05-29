@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.ReleaseShellView
 title: IBrowserService2::ReleaseShellView
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Coordinates the view lifetime between the base class and its derived class.
 old-location: shell\IBrowserService2_ReleaseShellView.htm
 old-project: shell
 ms.assetid: 722aee91-6a30-4818-95aa-ecb88b5ef215
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],ReleaseShellView method, IBrowserService2.ReleaseShellView, IBrowserService2::ReleaseShellView, ReleaseShellView, ReleaseShellView method [Windows Shell], ReleaseShellView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::ReleaseShellView, shell.IBrowserService2_ReleaseShellView, zone_IBrowserService2_ReleaseShellView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

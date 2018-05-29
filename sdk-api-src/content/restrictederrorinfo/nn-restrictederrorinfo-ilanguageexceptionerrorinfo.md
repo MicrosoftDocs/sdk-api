@@ -1,16 +1,16 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo
 title: ILanguageExceptionErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables retrieving the IUnknown pointer stored in the error info with the call to RoOriginateLanguageException.
 old-location: winrt\ilanguageexceptionerrorinfo.htm
 old-project: WinRT
 ms.assetid: 625C0DAF-8AF6-43EB-BC81-2B3189CF8963
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ILanguageExceptionErrorInfo, ILanguageExceptionErrorInfo interface [Windows Runtime], ILanguageExceptionErrorInfo interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: restrictederrorinfo.h
 req.include-header: 

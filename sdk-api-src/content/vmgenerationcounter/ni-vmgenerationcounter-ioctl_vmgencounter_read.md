@@ -1,16 +1,16 @@
 ---
 UID: NI:vmgenerationcounter.IOCTL_VMGENCOUNTER_READ
 title: IOCTL_VMGENCOUNTER_READ
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOCTL_VMGENCOUNTER_READ control code retrieves a virtual machine generation identifier.
 old-location: hyperv\ioctl_vmgencounter_read.htm
 old-project: HyperV_v2
 ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control, IOCTL_VMGENCOUNTER_READ control code, hyperv.ioctl_vmgencounter_read, vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: vmgenerationcounter.h
 req.include-header: 

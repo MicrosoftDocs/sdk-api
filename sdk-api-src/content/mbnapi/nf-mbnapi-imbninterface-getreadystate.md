@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetReadyState
 title: IMbnInterface::GetReadyState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the ready state.
 old-location: mbn\imbninterface_getreadystate.htm
 old-project: mbn
 ms.assetid: 4236fd9d-292a-4840-b52e-c28c3e6eea10
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetReadyState, GetReadyState method [Microsoft Broadband Networks], GetReadyState method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetReadyState method, IMbnInterface.GetReadyState, IMbnInterface::GetReadyState, mbn.imbninterface_getreadystate, mbnapi/IMbnInterface::GetReadyState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

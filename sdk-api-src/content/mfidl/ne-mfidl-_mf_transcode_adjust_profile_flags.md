@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 title: "_MF_TRANSCODE_ADJUST_PROFILE_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the profile flags that are set in the MF_TRANSCODE_ADJUST_PROFILE attribute.
 old-location: mf\mf_transcode_adjust_profile_flags.htm
 old-project: medfound
 ms.assetid: 65d7350f-a9d9-43c0-b3b6-c6169a727b4e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_TRANSCODE_ADJUST_PROFILE_DEFAULT, MF_TRANSCODE_ADJUST_PROFILE_FLAGS, MF_TRANSCODE_ADJUST_PROFILE_FLAGS enumeration [Media Foundation], MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES, _MF_TRANSCODE_ADJUST_PROFILE_FLAGS, mf.mf_transcode_adjust_profile_flags, mfidl/MF_TRANSCODE_ADJUST_PROFILE_DEFAULT, mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS, mfidl/MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

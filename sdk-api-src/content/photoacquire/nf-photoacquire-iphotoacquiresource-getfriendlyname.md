@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetFriendlyName
 title: IPhotoAcquireSource::GetFriendlyName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFriendlyName method retrieves the name of the device, formatted for display.
 old-location: picacq\iphotoacquiresource_getfriendlyname.htm
 old-project: acquisition
 ms.assetid: e6e1c5d7-b9d8-479a-a8e5-53124b55369d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Picture Acquisition], GetFriendlyName method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetFriendlyName method, IPhotoAcquireSource.GetFriendlyName, IPhotoAcquireSource::GetFriendlyName, IPhotoAcquireSourceGetFriendlyName, photoacquire/IPhotoAcquireSource::GetFriendlyName, picacq.iphotoacquiresource_getfriendlyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

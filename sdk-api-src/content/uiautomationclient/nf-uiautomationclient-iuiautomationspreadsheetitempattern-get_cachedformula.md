@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CachedFormula
 title: IUIAutomationSpreadsheetItemPattern::get_CachedFormula
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached formula for this cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula.htm
 old-project: WinAuto
 ms.assetid: BA4A13A3-6BB3-45B9-87A7-8239F148B1CE
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedFormula property [Windows Accessibility], CachedFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CachedFormula property, IUIAutomationSpreadsheetItemPattern.CachedFormula, IUIAutomationSpreadsheetItemPattern.get_CachedFormula, IUIAutomationSpreadsheetItemPattern::CachedFormula, IUIAutomationSpreadsheetItemPattern::get_CachedFormula, get_CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CachedFormula, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

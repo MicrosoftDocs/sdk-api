@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.UpdateMapping
 title: IStylusPlugin::UpdateMapping
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the plug-in when display properties, such as dpi or orientation, change.
 old-location: tablet\istylusplugin_updatemapping.htm
 old-project: tablet
 ms.assetid: 26cefb86-a21e-432d-b3db-1669d5b9cd05
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 26cefb86-a21e-432d-b3db-1669d5b9cd05, IStylusPlugin interface [Tablet PC],UpdateMapping method, IStylusPlugin.UpdateMapping, IStylusPlugin::UpdateMapping, UpdateMapping, UpdateMapping method [Tablet PC], UpdateMapping method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::UpdateMapping, tablet.istylusplugin_updatemapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

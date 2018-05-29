@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_FILE_SYSTEM_TYPE_PROP
 title: "_VDS_FILE_SYSTEM_TYPE_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a file system type.
 old-location: base\vds_file_system_type_prop.htm
 old-project: VDS
 ms.assetid: 92383a59-d7dd-419b-b6d0-959fef41ad4e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP structure pointer [VDS], VDS_FILE_SYSTEM_TYPE_PROP, VDS_FILE_SYSTEM_TYPE_PROP structure [VDS], _VDS_FILE_SYSTEM_TYPE_PROP, base.vds_file_system_type_prop, vds/PVDS_FILE_SYSTEM_TYPE_PROP, vds/_VDS_FILE_SYSTEM_TYPE_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

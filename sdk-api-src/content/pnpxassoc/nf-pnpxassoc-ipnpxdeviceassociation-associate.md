@@ -1,16 +1,16 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Associate
 title: IPNPXDeviceAssociation::Associate
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks an association database entry as associated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_associate.htm
 old-project: FunDisc
 ms.assetid: 2024c2b8-ef47-4352-80ea-c68b22f38d4c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Associate, Associate method, Associate method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Associate method, IPNPXDeviceAssociation.Associate, IPNPXDeviceAssociation::Associate, ncd.ipnpxdeviceassociation_associate, pnpxassoc/IPNPXDeviceAssociation::Associate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 

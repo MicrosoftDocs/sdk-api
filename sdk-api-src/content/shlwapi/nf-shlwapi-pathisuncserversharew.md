@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsUNCServerShareW
 title: PathIsUNCServerShareW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a string is a valid Universal Naming Convention (UNC) share path, \\server\share.
 old-location: shell\PathIsUNCServerShare.htm
 old-project: shell
 ms.assetid: 306cfc34-7cb2-4f60-af5c-8b567149c2fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsUNCServerShare, PathIsUNCServerShare function [Windows Shell], PathIsUNCServerShareA, PathIsUNCServerShareW, _win32_PathIsUNCServerShare, shell.PathIsUNCServerShare, shlwapi/PathIsUNCServerShare, shlwapi/PathIsUNCServerShareA, shlwapi/PathIsUNCServerShareW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

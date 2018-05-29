@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRMixerControl
 title: IVMRMixerControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRMixerControl interface is enables an application to manipulate the incoming video streams on the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrmixercontrol.htm
 old-project: DirectShow
 ms.assetid: 2aefaebc-14e7-4918-9256-c5e9e3449095
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], IVMRMixerControl interface [DirectShow],described, IVMRMixerControlInterface, dshow.ivmrmixercontrol, strmif/IVMRMixerControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetMaximumContentAge
 title: IBitsPeerCacheAdministration::GetMaximumContentAge
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the age by when files are removed from the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcontentage.htm
 old-project: Bits
 ms.assetid: 6b6b0c97-9906-464d-b267-5adde1919a45
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetMaximumContentAge, GetMaximumContentAge method [BITS], GetMaximumContentAge method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetMaximumContentAge method, IBitsPeerCacheAdministration.GetMaximumContentAge, IBitsPeerCacheAdministration::GetMaximumContentAge, bits.ibitspeercacheadministration_getmaximumcontentage, bits3_0/IBitsPeerCacheAdministration::GetMaximumContentAge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

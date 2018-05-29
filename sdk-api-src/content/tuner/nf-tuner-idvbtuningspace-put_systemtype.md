@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBTuningSpace.put_SystemType
 title: IDVBTuningSpace::put_SystemType
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_SystemType method sets the system type.
 old-location: mstv\idvbtuningspace_put_systemtype.htm
 old-project: mstv
 ms.assetid: 559f882a-4d1c-4fe1-af21-b3ad7ccd3ff2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBTuningSpace interface [Microsoft TV Technologies],put_SystemType method, IDVBTuningSpace.put_SystemType, IDVBTuningSpace::put_SystemType, IDVBTuningSpaceput_SystemType, mstv.idvbtuningspace_put_systemtype, put_SystemType, put_SystemType method [Microsoft TV Technologies], put_SystemType method [Microsoft TV Technologies],IDVBTuningSpace interface, tuner/IDVBTuningSpace::put_SystemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

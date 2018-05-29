@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceDelete
 title: MprConfigInterfaceDelete function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceDelete function removes a router interface from the router configuration. All transport information associated with this interface is also removed.
 old-location: rras\mprconfiginterfacedelete.htm
 old-project: RRAS
 ms.assetid: 1777f742-8037-40d9-8279-b4bb89ea6f0d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceDelete, MprConfigInterfaceDelete function [RAS], _mpr_mprconfiginterfacedelete, mprapi/MprConfigInterfaceDelete, rras.mprconfiginterfacedelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

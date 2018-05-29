@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.SetOwner
 title: IESEventServiceConfiguration::SetOwner
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an owner to an event service, where event service refers to a generic Windows event service that implements the IESEventService interface.
 old-location: mstv\ieseventserviceconfiguration_setowner.htm
 old-project: mstv
 ms.assetid: 7d8e1be1-b363-41ac-b60b-98415f0f44b6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetOwner method, IESEventServiceConfiguration.SetOwner, IESEventServiceConfiguration::SetOwner, SetOwner, SetOwner method [Microsoft TV Technologies], SetOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setowner, tuner/IESEventServiceConfiguration::SetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.FreeKnownFolderDefinitionFields
 title: FreeKnownFolderDefinitionFields function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the allocated fields in the result from IKnownFolder::GetFolderDefinition.
 old-location: shell\FreeKnownFolderDefinitionFields.htm
 old-project: shell
 ms.assetid: 0ad17dd3-e612-403a-b8c3-e93d5f259c1f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FreeKnownFolderDefinitionFields, FreeKnownFolderDefinitionFields function [Windows Shell], _shell_FreeKnownFolderDefinitionFields, shell.FreeKnownFolderDefinitionFields, shobjidl_core/FreeKnownFolderDefinitionFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

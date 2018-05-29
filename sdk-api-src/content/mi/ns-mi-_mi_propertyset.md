@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_PropertySet
 title: "_MI_PropertySet"
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements a set of property names.
 old-location: wmi_v2\mi_propertyset.htm
 old-project: wmi_v2
 ms.assetid: 7c9e41b0-818e-46aa-8900-5006904f78d5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_PropertySet, MI_PropertySet structure [Windows Management Infrastructure (MI)], _MI_PropertySet, mi/MI_PropertySet, wmi._mi_propertyset, wmi_v2.mi_propertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

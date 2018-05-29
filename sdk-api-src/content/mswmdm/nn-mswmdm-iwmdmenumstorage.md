@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMEnumStorage
 title: IWMDMEnumStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDMEnumStorage interface enumerates storages on a device.
 old-location: wmdm\iwmdmenumstorage.htm
 old-project: WMDM
 ms.assetid: 6ea80ab2-718b-464e-a805-9910460931bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device Manager], IWMDMEnumStorage interface [windows Media Device Manager],described, IWMDMEnumStorageInterface, mswmdm/IWMDMEnumStorage, wmdm.iwmdmenumstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

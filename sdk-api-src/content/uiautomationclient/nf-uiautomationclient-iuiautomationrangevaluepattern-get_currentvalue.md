@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentValue
 title: IUIAutomationRangeValuePattern::get_CurrentValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentValue.htm
 old-project: WinAuto
 ms.assetid: 0602822f-750e-49a3-afb4-cf5ce777ea61
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentValue property [Windows Accessibility], CurrentValue property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentValue property, IUIAutomationRangeValuePattern.CurrentValue, IUIAutomationRangeValuePattern.get_CurrentValue, IUIAutomationRangeValuePattern::CurrentValue, IUIAutomationRangeValuePattern::get_CurrentValue, get_CurrentValue, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentValue, uiauto_IUIAutomationRangeValuePattern_CurrentValue, uiautomationclient/IUIAutomationRangeValuePattern::CurrentValue, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentValue, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

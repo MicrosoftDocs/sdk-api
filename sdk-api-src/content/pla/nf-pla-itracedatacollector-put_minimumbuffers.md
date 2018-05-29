@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_MinimumBuffers
 title: ITraceDataCollector::put_MinimumBuffers
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_minimumbuffers.htm
 old-project: PLA
 ms.assetid: 67b53e9a-c72c-4da5-835f-5623a02a14e1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],MinimumBuffers property, ITraceDataCollector.MinimumBuffers, ITraceDataCollector.put_MinimumBuffers, ITraceDataCollector::MinimumBuffers, ITraceDataCollector::get_MinimumBuffers, ITraceDataCollector::put_MinimumBuffers, MinimumBuffers property [PLA], MinimumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_minimumbuffers, pla.itracedatacollector_minimumbuffers, pla/ITraceDataCollector::MinimumBuffers, pla/ITraceDataCollector::get_MinimumBuffers, pla/ITraceDataCollector::put_MinimumBuffers, put_MinimumBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

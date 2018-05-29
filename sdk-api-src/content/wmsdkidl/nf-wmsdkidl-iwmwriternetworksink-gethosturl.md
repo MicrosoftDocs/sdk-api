@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetHostURL
 title: IWMWriterNetworkSink::GetHostURL
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetHostURL method retrieves the URL from which the stream is broadcast. Clients will access the stream from this URL.
 old-location: wmformat\iwmwriternetworksink_gethosturl.htm
 old-project: wmformat
 ms.assetid: 66d4747e-aec5-47bd-ac4a-dc052e964601
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetHostURL, GetHostURL method [windows Media Format], GetHostURL method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetHostURL method, IWMWriterNetworkSink.GetHostURL, IWMWriterNetworkSink::GetHostURL, IWMWriterNetworkSinkGetHostURL, wmformat.iwmwriternetworksink_gethosturl, wmsdkidl/IWMWriterNetworkSink::GetHostURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

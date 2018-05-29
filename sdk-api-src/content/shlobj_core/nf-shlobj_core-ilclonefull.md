@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILCloneFull
 title: ILCloneFull function
-author: windows-driver-content
+author: windows-sdk-content
 description: Clones a full, or absolute, ITEMIDLIST structure.
 old-location: shell\ILCloneFull.htm
 old-project: shell
 ms.assetid: 60af0eb7-306a-45f8-b5ce-eb6451f380d5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILCloneFull, ILCloneFull function [Windows Shell], _shell_ILCloneFull, shell.ILCloneFull, shlobj_core/ILCloneFull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

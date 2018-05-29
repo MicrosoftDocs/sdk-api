@@ -1,16 +1,16 @@
 ---
 UID: NF:xaudio2.XAudio2DecibelsToAmplitudeRatio
 title: XAudio2DecibelsToAmplitudeRatio function
-author: windows-driver-content
+author: windows-sdk-content
 description: Inline function that converts a decibel value to an amplitude ratio value.
 old-location: xaudio2\xaudio2decibelstoamplituderatio.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2DecibelsToAmplitudeRatio(float)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: XAudio2DecibelsToAmplitudeRatio, XAudio2DecibelsToAmplitudeRatio function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2decibelstoamplituderatio, xaudio2/XAudio2DecibelsToAmplitudeRatio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: xaudio2.h
 req.include-header: 

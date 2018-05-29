@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_AllowPersonalCoverPages
 title: IFaxConfiguration::put_AllowPersonalCoverPages
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether personal cover pages are allowed.
 old-location: fax\_mfax_FaxConfiguration_AllowPersonalCoverPages_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguration\allowpersonalcoverpages.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],AllowPersonalCoverPages property, FaxConfiguration.AllowPersonalCoverPages, IFaxConfiguration.put_AllowPersonalCoverPages, IFaxConfiguration::put_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_FaxConfiguration_AllowPersonalCoverPages_vb, put_AllowPersonalCoverPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

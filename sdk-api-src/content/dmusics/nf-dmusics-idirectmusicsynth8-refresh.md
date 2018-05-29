@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.Refresh
 title: IDirectMusicSynth8::Refresh
-author: windows-driver-content
+author: windows-sdk-content
 description: Refresh is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_refresh.htm
 old-project: audio
 ms.assetid: BA04A6F5-19D9-471D-9F53-DAB555E9F1A5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirectMusicSynth8.Refresh, IDirectMusicSynth8::Refresh, Refresh, Refresh method [Audio Devices], Refresh method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_refresh, dmusics/IDirectMusicSynth8::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: 

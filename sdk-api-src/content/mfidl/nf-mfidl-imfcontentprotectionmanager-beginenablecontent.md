@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentProtectionManager.BeginEnableContent
 title: IMFContentProtectionManager::BeginEnableContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins an asynchronous request to perform a content enabling action.
 old-location: mf\imfcontentprotectionmanager_beginenablecontent.htm
 old-project: medfound
 ms.assetid: 2f422135-8e5f-41fb-a709-77636d1b451b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2f422135-8e5f-41fb-a709-77636d1b451b, BeginEnableContent, BeginEnableContent method [Media Foundation], BeginEnableContent method [Media Foundation],IMFContentProtectionManager interface, IMFContentProtectionManager interface [Media Foundation],BeginEnableContent method, IMFContentProtectionManager.BeginEnableContent, IMFContentProtectionManager::BeginEnableContent, mf.imfcontentprotectionmanager_beginenablecontent, mfidl/IMFContentProtectionManager::BeginEnableContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

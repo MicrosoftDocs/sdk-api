@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiGetTargetHostName
 title: SspiGetTargetHostName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the host name associated with the specified target.
 old-location: security\sspigettargethostname.htm
 old-project: SecAuthN
 ms.assetid: 84570dfc-1890-4b82-b411-1f9eaa75537b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiGetTargetHostName, SspiGetTargetHostName function [Security], security.sspigettargethostname, sspi/SspiGetTargetHostName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

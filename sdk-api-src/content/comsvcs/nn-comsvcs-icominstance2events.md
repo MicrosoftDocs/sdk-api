@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComInstance2Events
 title: IComInstance2Events
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if an object is created or released by a client.
 old-location: cos\icominstance2events.htm
 old-project: cossdk
 ms.assetid: 2fb2904d-7069-4303-bb3c-2caef9499c1e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComInstance2Events, IComInstance2Events interface [COM+], IComInstance2Events interface [COM+],described, _dtc_icominstance2events, comsvcs/IComInstance2Events, cos.icominstance2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

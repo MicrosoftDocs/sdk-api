@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegGetValueFromHKCUHKLM
 title: SHRegGetValueFromHKCUHKLM function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains specified information from the registry.
 old-location: shell\SHRegGetValueFromHKCUHKLM.htm
 old-project: shell
 ms.assetid: 5c4b13f4-0dd8-476e-9e89-ace23d541389
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRegGetValueFromHKCUHKLM, SHRegGetValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetValueFromHKCUHKLM, shell.SHRegGetValueFromHKCUHKLM, shlwapi/SHRegGetValueFromHKCUHKLM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

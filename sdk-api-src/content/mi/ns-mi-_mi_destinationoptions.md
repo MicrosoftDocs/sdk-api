@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_DestinationOptions
 title: "_MI_DestinationOptions"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a set of destination options. Destination options are a set of configurations that define the way an operation communicates with the server.
 old-location: wmi_v2\mi_destinationoptions.htm
 old-project: wmi_v2
 ms.assetid: 7f835ff4-3917-497c-bfe9-ca335cc35938
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DestinationOptions, MI_DestinationOptions structure [Windows Management Infrastructure (MI)], _MI_DestinationOptions, mi/MI_DestinationOptions, wmi_v2.mi_destinationoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

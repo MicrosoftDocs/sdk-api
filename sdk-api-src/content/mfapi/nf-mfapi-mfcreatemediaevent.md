@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMediaEvent
 title: MFCreateMediaEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media event object.
 old-location: mf\mfcreatemediaevent.htm
 old-project: medfound
 ms.assetid: 64da695e-5f56-4f23-9a06-0b0c358e3cc3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 64da695e-5f56-4f23-9a06-0b0c358e3cc3, MFCreateMediaEvent, MFCreateMediaEvent function [Media Foundation], mf.mfcreatemediaevent, mfapi/MFCreateMediaEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

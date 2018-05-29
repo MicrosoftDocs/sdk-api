@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY
 title: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a dependency relationship between two resources.
 old-location: mscs\removeclusterresourcedependency.htm
 old-project: MsCS
 ms.assetid: 3640ad8d-db0d-4e55-bff0-35fb5d26776f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY callback, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY callback function [Failover Cluster], _wolf_removeclusterresourcedependency, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, mscs.removeclusterresourcedependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

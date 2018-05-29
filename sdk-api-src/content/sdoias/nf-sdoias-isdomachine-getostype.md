@@ -1,16 +1,16 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetOSType
 title: ISdoMachine::GetOSType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOSType method retrieves the type of operating system running on the SDO computer.
 old-location: nps\SDO_isdomachine_getostype.htm
 old-project: Nps
 ms.assetid: aa4f31af-57b0-4ce2-b8b9-981e4ef30d31
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetOSType, GetOSType method [Network Policy Server], GetOSType method [Network Policy Server],ISdoMachine interface, GetOSType method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetOSType method, ISdoMachine.GetOSType, ISdoMachine::GetOSType, SdoMachine object [Network Policy Server],GetOSType method, _sdo_isdomachine_getostype, nps.SDO_isdomachine_getostype, sdo.isdomachine_getostype, sdoias/ISdoMachine::GetOSType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

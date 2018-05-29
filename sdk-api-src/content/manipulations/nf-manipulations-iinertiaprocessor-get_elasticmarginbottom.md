@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_ElasticMarginBottom
 title: IInertiaProcessor::get_ElasticMarginBottom
-author: windows-driver-content
+author: windows-sdk-content
 description: The ElasticMarginBottom property specifies the bottom region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginbottom.htm
 old-project: wintouch
 ms.assetid: 8a043ef6-3251-4179-b42f-f59c07287b49
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ElasticMarginBottom property [Windows Touch], ElasticMarginBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginBottom property, IInertiaProcessor.ElasticMarginBottom, IInertiaProcessor.get_ElasticMarginBottom, IInertiaProcessor::ElasticMarginBottom, IInertiaProcessor::get_ElasticMarginBottom, IInertiaProcessor::put_ElasticMarginBottom, get_ElasticMarginBottom, manipulations/IInertiaProcessor::ElasticMarginBottom, manipulations/IInertiaProcessor::get_ElasticMarginBottom, manipulations/IInertiaProcessor::put_ElasticMarginBottom, wintouch.iinertiaprocessor_elasticmarginbottom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

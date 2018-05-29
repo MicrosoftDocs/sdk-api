@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetOptionValueV6
 title: DhcpGetOptionValueV6 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the option value for a specific option defined on the DHCPv6 server for a specific user or vendor class.
 old-location: dhcp\dhcpgetoptionvaluev6.htm
 old-project: DHCP
 ms.assetid: 62ad5e0f-d5e2-42d2-9e09-a7f2736ee7ab
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionValueV6, DhcpGetOptionValueV6 function [DHCP], dhcp.dhcpgetoptionvaluev6, dhcpsapi/DhcpGetOptionValueV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.IRecordInfo
 title: IRecordInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the structure of a particular UDT.
 old-location: automat\irecordinfo.htm
 old-project: automat
 ms.assetid: 065ebfa8-bfac-4c75-a3f9-9dc0409ea454
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interface [Automation],described, _oa96_IRecordInfo_Interface, automat.irecordinfo, oaidl/IRecordInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dpa_dsa.DSA_AppendItem
 title: DSA_AppendItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends a new item to the end of a dynamic structure array (DSA).
 old-location: controls\DSA_AppendItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dsa_appenditem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DSA_AppendItem, DSA_AppendItem macro [Windows Controls], _shell_DSA_AppendItem, _shell_DSA_AppendItem_cpp, controls.DSA_AppendItem, controls._shell_DSA_AppendItem, dpa_dsa/DSA_AppendItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: dpa_dsa.h
 req.include-header: 

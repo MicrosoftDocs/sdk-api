@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetConfigBlobAndUserBlob
 title: EapPeerGetConfigBlobAndUserBlob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows EAP method developers to provide the various connection properties and user properties supported by the method. EAPHost invokes this function to create the connection property and user property of the EAP method.
 old-location: eaphost\eappeergetconfigblobanduserblob.htm
 old-project: EAPHost
 ms.assetid: 81817FAA-20AE-4556-BAA5-0EF2A955B6A3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerGetConfigBlobAndUserBlob, EapPeerGetConfigBlobAndUserBlob function [EAPHost], eaphost.eappeergetconfigblobanduserblob, eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

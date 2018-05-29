@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_HINTS2
 title: "_VDS_HINTS2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the automagic hints for a LUN in a storage pool.
 old-location: base\vds_hints2.htm
 old-project: VDS
 ms.assetid: e24935ac-17c8-4338-99cb-2408ca61da8a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_HINTS2, PVDS_HINTS2, PVDS_HINTS2 structure pointer, VDS_HINTS2, VDS_HINTS2 structure, VDS_HINT_ALLOCATEHOTSPARE, VDS_HINT_BUSTYPE, VDS_HINT_CONSISTENCYCHECKENABLED, VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MEDIASCANENABLED, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_READCACHINGENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_USEMIRROREDCACHE, VDS_HINT_WRITECACHINGENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, _VDS_HINTS2, base.vds_hints2, vds/PVDS_HINTS2, vds/VDS_HINTS2, vdshwprv/PVDS_HINTS2, vdshwprv/VDS_HINTS2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

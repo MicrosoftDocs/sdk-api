@@ -1,16 +1,16 @@
 ---
 UID: NF:dpapi.CryptUnprotectMemory
 title: CryptUnprotectMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts memory that was encrypted using the CryptProtectMemory function.
 old-location: security\cryptunprotectmemory.htm
 old-project: SecCrypto
 ms.assetid: 1c7980ac-4e9e-43fd-b6d7-c0d0a69c8040
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptUnprotectMemory, CryptUnprotectMemory function [Security], dpapi/CryptUnprotectMemory, security.cryptunprotectmemory, wincrypt/CryptUnprotectMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 

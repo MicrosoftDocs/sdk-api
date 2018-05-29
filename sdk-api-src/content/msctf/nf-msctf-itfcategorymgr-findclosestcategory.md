@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.FindClosestCategory
 title: ITfCategoryMgr::FindClosestCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCategoryMgr::FindClosestCategory method
 old-location: tsf\itfcategorymgr_findclosestcategory.htm
 old-project: TSF
 ms.assetid: 16a78457-b89c-43ef-8604-fd6c2f93f928
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FindClosestCategory, FindClosestCategory method [Text Services Framework], FindClosestCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],FindClosestCategory method, ITfCategoryMgr.FindClosestCategory, ITfCategoryMgr::FindClosestCategory, _tsf_itfcategorymgr_findclosestcategory_ref, msctf/ITfCategoryMgr::FindClosestCategory, tsf.itfcategorymgr_findclosestcategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mscat.CRYPTCATMEMBER_
 title: CRYPTCATMEMBER_
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPTCATMEMBER structure provides information about a catalog member. This structure is used by the CryptCATGetMemberInfo and CryptCATEnumerateAttr functions.
 old-location: security\cryptcatmember.htm
 old-project: SecCrypto
 ms.assetid: 08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], CRYPTCATMEMBER_, mscat/CRYPTCATMEMBER, security.cryptcatmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 

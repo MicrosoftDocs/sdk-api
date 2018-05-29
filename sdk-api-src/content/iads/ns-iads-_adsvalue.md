@@ -1,16 +1,16 @@
 ---
 UID: NS:iads._adsvalue
 title: "_adsvalue"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a value specified as an ADSI data type.
 old-location: adsi\adsvalue.htm
 old-project: ADSI
 ms.assetid: b53c4a14-9965-4025-95bc-37f460ea2bc9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPADSVALUE, *PADSVALUE, ADSVALUE, ADSVALUE structure [ADSI], LPADSVALUE, LPADSVALUE structure pointer [ADSI], PADSVALUE, PADSVALUE structure pointer [ADSI], _adsvalue, _ds_adsvalue, adsi.adsvalue, iads/ADSVALUE, iads/LPADSVALUE, iads/PADSVALUE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneClose
 title: phoneClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneClose function closes the specified open phone device.
 old-location: tapi2\phoneclose.htm
 old-project: Tapi
 ms.assetid: 9e5e66c6-a8d2-4e0a-a400-17f0a3637f63
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phoneclose, phoneClose, phoneClose function [TAPI 2.2], tapi/phoneClose, tapi2.phoneclose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcSignatureCustomObjectSet
 title: IOpcSignatureCustomObjectSet
-author: windows-driver-content
+author: windows-sdk-content
 description: An unordered set of IOpcSignatureCustomObject interface pointers that contain the XML markup of application-specific Object elements.
 old-location: opc\iopcsignaturecustomobjectset.htm
 old-project: OPC
 ms.assetid: eb2a561d-2723-45dc-98a6-ecf11101016b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectSet, opc.iopcsignaturecustomobjectset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

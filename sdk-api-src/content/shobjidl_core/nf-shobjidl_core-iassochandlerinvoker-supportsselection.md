@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAssocHandlerInvoker.SupportsSelection
 title: IAssocHandlerInvoker::SupportsSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an invoker supports its selection.
 old-location: shell\IAssocHandlerInvoker_SupportsSelection.htm
 old-project: shell
 ms.assetid: a4000557-2a89-494c-8b0e-c67a2e2c4445
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAssocHandlerInvoker interface [Windows Shell],SupportsSelection method, IAssocHandlerInvoker.SupportsSelection, IAssocHandlerInvoker::SupportsSelection, SupportsSelection, SupportsSelection method [Windows Shell], SupportsSelection method [Windows Shell],IAssocHandlerInvoker interface, _shell_IAssocHandlerInvoker_SupportsSelection, shell.IAssocHandlerInvoker_SupportsSelection, shobjidl_core/IAssocHandlerInvoker::SupportsSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

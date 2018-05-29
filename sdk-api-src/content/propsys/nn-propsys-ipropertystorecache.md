@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyStoreCache
 title: IPropertyStoreCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow a handler to manage various states for each property.
 old-location: properties\IPropertyStoreCache.htm
 old-project: properties
 ms.assetid: ac4f7e3b-6702-4239-b248-0645d961fbf8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], IPropertyStoreCache interface [Windows Properties],described, properties.IPropertyStoreCache, propsys/IPropertyStoreCache, shell.IPropertyStoreCache, shell_IPropertyStoreCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

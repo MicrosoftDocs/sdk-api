@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_XML_NODE_TYPE
 title: WS_XML_NODE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of WS_XML_NODE structure.
 old-location: wsw\ws_xml_node_type.htm
 old-project: wsw
 ms.assetid: eddef5db-432d-4615-9f0f-a712dffe42ab
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_NODE_TYPE, WS_XML_NODE_TYPE enumeration [Web Services for Windows], WS_XML_NODE_TYPE_BOF, WS_XML_NODE_TYPE_CDATA, WS_XML_NODE_TYPE_COMMENT, WS_XML_NODE_TYPE_ELEMENT, WS_XML_NODE_TYPE_END_CDATA, WS_XML_NODE_TYPE_END_ELEMENT, WS_XML_NODE_TYPE_EOF, WS_XML_NODE_TYPE_TEXT, webservices/WS_XML_NODE_TYPE, webservices/WS_XML_NODE_TYPE_BOF, webservices/WS_XML_NODE_TYPE_CDATA, webservices/WS_XML_NODE_TYPE_COMMENT, webservices/WS_XML_NODE_TYPE_ELEMENT, webservices/WS_XML_NODE_TYPE_END_CDATA, webservices/WS_XML_NODE_TYPE_END_ELEMENT, webservices/WS_XML_NODE_TYPE_EOF, webservices/WS_XML_NODE_TYPE_TEXT, wsw.ws_xml_node_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

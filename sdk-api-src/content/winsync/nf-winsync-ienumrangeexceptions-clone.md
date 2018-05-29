@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Clone
 title: IEnumRangeExceptions::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumrangeexceptions_clone.htm
 old-project: winsync
 ms.assetid: b9ba5d49-754f-4eb0-972b-67e9a6a41994
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumRangeExceptions interface, IEnumRangeExceptions interface [Windows Sync],Clone method, IEnumRangeExceptions.Clone, IEnumRangeExceptions::Clone, winsync.ienumrangeexceptions_clone, winsync/IEnumRangeExceptions::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:shtypes.tagLOGFONTA
 title: tagLOGFONTA
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the attributes of a font.
 old-location: shell\LOGFONT.htm
 old-project: shell
 ms.assetid: 759c54d9-5b8f-4b48-8380-79e7bcae5bdb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _shell_LOGFONT, _shell_LOGFONT_cpp, dimm/LOGFONT, dimm/LOGFONTA, dimm/LOGFONTW, shell.LOGFONT, tagLOGFONTA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: Shtypes.h, Dimm.h

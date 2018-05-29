@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFRateSupport.GetSlowestRate
 title: IMFRateSupport::GetSlowestRate
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the slowest playback rate supported by the object.
 old-location: mf\imfratesupport_getslowestrate.htm
 old-project: medfound
 ms.assetid: e10125e9-8bc7-4fb6-8a10-ba5717f1596f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSlowestRate, GetSlowestRate method [Media Foundation], GetSlowestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetSlowestRate method, IMFRateSupport.GetSlowestRate, IMFRateSupport::GetSlowestRate, e10125e9-8bc7-4fb6-8a10-ba5717f1596f, mf.imfratesupport_getslowestrate, mfidl/IMFRateSupport::GetSlowestRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_OperationOptions_Delete
 title: MI_OperationOptions_Delete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an option set and its associated memory.
 old-location: wmi_v2\mi_operationoptions_delete.htm
 old-project: wmi_v2
 ms.assetid: a9e43835-92a4-468a-9d45-1d4ab81d94f0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptions_Delete, MI_OperationOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_Delete, wmi_v2.mi_operationoptions_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

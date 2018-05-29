@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.DCompositionAttachMouseDragToHwnd
 title: DCompositionAttachMouseDragToHwnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an Interaction/InputSink to route mouse button down and any subsequent move and up events to the given HWND.
 old-location: directcomp\dcompositionattachmousedragtohwnd.htm
 old-project: directcomp
 ms.assetid: 2d976c27-b7a4-5546-488a-ceb341c4fb1a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseDragToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseDragToHwnd, directcomp.dcompositionattachmousedragtohwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

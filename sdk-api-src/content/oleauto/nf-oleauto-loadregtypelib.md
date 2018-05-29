@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.LoadRegTypeLib
 title: LoadRegTypeLib function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uses registry information to load a type library.
 old-location: automat\loadregtypelib.htm
 old-project: automat
 ms.assetid: 444b7768-2a4e-4de3-9f28-ef63ac23e8bc
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LoadRegTypeLib, LoadRegTypeLib function [Automation], _oa96_LoadRegTypeLib, automat.loadregtypelib, oleauto/LoadRegTypeLib
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

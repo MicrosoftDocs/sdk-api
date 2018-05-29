@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.RetrieveUrlCacheEntryStreamW
 title: RetrieveUrlCacheEntryStreamW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the most efficient and implementation-independent way to access the cache data.
 old-location: wininet\retrieveurlcacheentrystream.htm
 old-project: WinInet
 ms.assetid: 0414efb0-d91b-46f0-9fee-0b69ef823029
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RetrieveUrlCacheEntryStream, RetrieveUrlCacheEntryStream function [WinINet], RetrieveUrlCacheEntryStreamA, RetrieveUrlCacheEntryStreamW, _inet_retrieveurlcacheentrystream_function, wininet.retrieveurlcacheentrystream, wininet/RetrieveUrlCacheEntryStream, wininet/RetrieveUrlCacheEntryStreamA, wininet/RetrieveUrlCacheEntryStreamW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

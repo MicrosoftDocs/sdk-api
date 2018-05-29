@@ -1,16 +1,16 @@
 ---
 UID: NF:winenclaveapi.EnclaveVerifyAttestationReport
 title: EnclaveVerifyAttestationReport function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies an attestation report that was generated on the current system.
 old-location: base\enclaveverifyattestationreport.htm
 old-project: Memory
 ms.assetid: D74F89FB-9F06-4AA1-9E2E-C9265B3C5B44
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winenclaveapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_INDICATORS
 title: IOCTL_KEYBOARD_SET_INDICATORS
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOCTL_KEYBOARD_SET_INDICATORS request sets the keyboard indicators.
 old-location: hid\ioctl_keyboard_set_indicators.htm
 old-project: hid
 ms.assetid: 25631717-8aee-4eac-8337-46b13aa714a4
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: IOCTL_KEYBOARD_SET_INDICATORS, IOCTL_KEYBOARD_SET_INDICATORS control, IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_set_indicators, kref_de568d6c-e4d3-494b-a4fc-c5537e7b59b9.xml, ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

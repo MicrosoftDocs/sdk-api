@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextHost.TxGetCharFormat
 title: ITextHost::TxGetCharFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests the text host's default character format.
 old-location: controls\ITextHost_TxGetCharFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcharformat.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetCharFormat method, ITextHost.TxGetCharFormat, ITextHost::TxGetCharFormat, TxGetCharFormat, TxGetCharFormat method [Windows Controls], TxGetCharFormat method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetCharFormat, _win32_ITextHost_TxGetCharFormat_cpp, controls.ITextHost_TxGetCharFormat, controls._win32_ITextHost_TxGetCharFormat, textserv/ITextHost::TxGetCharFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

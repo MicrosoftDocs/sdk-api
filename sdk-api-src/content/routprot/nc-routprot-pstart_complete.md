@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PSTART_COMPLETE
 title: PSTART_COMPLETE
-author: windows-driver-content
+author: windows-sdk-content
 description: Router Manager calls the StartComplete function to inform the routing protocol that initialization is complete and all interfaces have been added. The routing protocol should wait for this call before starting any protocol-specific behavior.
 old-location: rras\startcomplete.htm
 old-project: RRAS
 ms.assetid: 1dace3a7-8e97-405c-b1fe-f5a67c05fb0c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PSTART_COMPLETE, PSTART_COMPLETE callback, StartComplete, StartComplete callback function [RAS], _mpr_startcomplete, routprot/StartComplete, rras.startcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

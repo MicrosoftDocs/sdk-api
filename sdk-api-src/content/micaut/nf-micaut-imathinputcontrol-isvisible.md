@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.IsVisible
 title: IMathInputControl::IsVisible
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the control is visible.
 old-location: tablet\imathinputcontrol_isvisible.htm
 old-project: tablet
 ms.assetid: 4efc0fd5-5f07-4664-8143-46a5695c04df
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMathInputControl interface [Tablet PC],IsVisible method, IMathInputControl.IsVisible, IMathInputControl::IsVisible, IsVisible, IsVisible method [Tablet PC], IsVisible method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::IsVisible, tablet.imathinputcontrol_isvisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

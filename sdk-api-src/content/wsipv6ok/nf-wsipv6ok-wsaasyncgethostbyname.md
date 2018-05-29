@@ -1,16 +1,16 @@
 ---
 UID: NF:wsipv6ok.WSAAsyncGetHostByName
 title: WSAAsyncGetHostByName macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
 old-location: winsock\wsaasyncgethostbyname_2.htm
 old-project: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h

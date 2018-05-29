@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.CLUS_WORKER
 title: CLUS_WORKER
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a worker thread.
 old-location: mscs\clus_worker.htm
 old-project: MsCS
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUS_WORKER, CLUS_WORKER, CLUS_WORKER structure [Failover Cluster], PCLUS_WORKER, PCLUS_WORKER structure pointer [Failover Cluster], _wolf_clus_worker, mscs.clus_worker, resapi/CLUS_WORKER, resapi/PCLUS_WORKER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UShortSub
 title: UShortSub function
-author: windows-driver-content
+author: windows-sdk-content
 description: Subtracts one value of type USHORT from another.
 old-location: shell\UShortSub.htm
 old-project: shell
 ms.assetid: 29365c4b-317f-4351-b684-a77b06593c2d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UShortSub, UShortSub function [Windows Shell], WordSub, _shell_UShortSub, intsafe/UShortSub, shell.UShortSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

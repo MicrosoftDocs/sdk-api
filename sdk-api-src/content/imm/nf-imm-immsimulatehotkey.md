@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmSimulateHotKey
 title: ImmSimulateHotKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Simulates the specified IME hot key, causing the same response as if the user presses the hot key in the specified window.
 old-location: intl\immsimulatehotkey.htm
 old-project: Intl
 ms.assetid: 24d5dd3c-01bd-4665-ad45-9f93edb212b3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization for Windows Applications], _win32_ImmSimulateHotKey, imm/ImmSimulateHotKey, intl.immsimulatehotkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

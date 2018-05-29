@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.IHandwrittenTextInsertion.InsertInkRecognitionResult
 title: IHandwrittenTextInsertion::InsertInkRecognitionResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts recognition results.
 old-location: tablet\ihandwrittentextinsertion_insertinkrecognitionresult.htm
 old-project: tablet
 ms.assetid: d519aff4-573d-4b06-aef5-e9cc6a5e8102
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertInkRecognitionResult method, IHandWrittenTextInsertion::InsertInkRecognitionResult, IHandwrittenTextInsertion.InsertInkRecognitionResult, IHandwrittenTextInsertion::InsertInkRecognitionResult, InsertInkRecognitionResult, InsertInkRecognitionResult method [Tablet PC], InsertInkRecognitionResult method [Tablet PC],IHandWrittenTextInsertion interface, d519aff4-573d-4b06-aef5-e9cc6a5e8102, peninputpanel/IHandWrittenTextInsertion::InsertInkRecognitionResult, tablet.ihandwrittentextinsertion_insertinkrecognitionresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

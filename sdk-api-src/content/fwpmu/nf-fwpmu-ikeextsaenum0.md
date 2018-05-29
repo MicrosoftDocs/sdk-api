@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IkeextSaEnum0
 title: IkeextSaEnum0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
 old-location: fwp\ikeextsaenum0.htm
 old-project: FWP
 ms.assetid: a38e266d-2155-4dd4-b12e-5f1a40ca776e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IkeextSaEnum0, IkeextSaEnum0 function [Filtering], fwp.ikeextsaenum0, fwpmu/IkeextSaEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

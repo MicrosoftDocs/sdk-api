@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsGroup.Remove
 title: IADsGroup::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsGroup::Remove method removes the specified user object from this group. The operation does not remove the group object itself even when there is no member remaining in the group.
 old-location: adsi\iadsgroup_remove.htm
 old-project: ADSI
 ms.assetid: bf309f0a-1ef5-4123-91c5-ae232ddd6340
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsGroup interface [ADSI],Remove method, IADsGroup.Remove, IADsGroup::Remove, Remove, Remove method [ADSI], Remove method [ADSI],IADsGroup interface, _ds_iadsgroup_remove, adsi.iadsgroup__remove, adsi.iadsgroup_remove, iads/IADsGroup::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

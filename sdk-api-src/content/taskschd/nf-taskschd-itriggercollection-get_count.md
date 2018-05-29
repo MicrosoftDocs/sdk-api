@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Count
 title: ITriggerCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of triggers in the collection.
 old-location: taskschd\itriggercollection_count.htm
 old-project: TaskSchd
 ms.assetid: ae4ff1b8-f030-420b-b96a-b5c1246c04ce
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Count property, ITriggerCollection.Count, ITriggerCollection.get_Count, ITriggerCollection::Count, ITriggerCollection::get_Count, get_Count, taskschd.itriggercollection_count, taskschd/ITriggerCollection::Count, taskschd/ITriggerCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

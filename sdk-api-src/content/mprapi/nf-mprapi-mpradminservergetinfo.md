@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminServerGetInfo
 title: MprAdminServerGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminServerGetInfo function retrieves information about the specified RRAS server.
 old-location: rras\mpradminservergetinfo.htm
 old-project: RRAS
 ms.assetid: d15dfb60-1239-4552-985f-d3c98f2981f4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminServerGetInfo, MprAdminServerGetInfo function [RAS], _mpr_mpradminservergetinfo, mprapi/MprAdminServerGetInfo, rras.mpradminservergetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

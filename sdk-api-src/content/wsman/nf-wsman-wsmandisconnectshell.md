@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManDisconnectShell
 title: WSManDisconnectShell function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects the network connection of an active shell and its associated commands.
 old-location: winrm\wsmandisconnectshell.htm
 old-project: WinRM
 ms.assetid: 018F6E37-477B-4823-8597-CF80367EEB88
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManDisconnectShell, WSManDisconnectShell function [Windows Remote Management], winrm.wsmandisconnectshell, wsman/WSManDisconnectShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw.ICDECOMPRESS
 title: ICDECOMPRESS
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDECOMPRESS structure contains decompression parameters used with the ICM_DECOMPRESS message.
 old-location: multimedia\icdecompress_struct.htm
 old-project: Multimedia
 ms.assetid: bc9c2416-cc1c-4571-82ee-7d93307f5114
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDECOMPRESS, ICDECOMPRESS structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompress_COLLISION813, multimedia.icdecompress_struct, vfw/ICDECOMPRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

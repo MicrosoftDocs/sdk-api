@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_ISOLATION_TYPE
 title: "_EVT_CHANNEL_ISOLATION_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the default access permissions to apply to the channel.
 old-location: wes\evt_channel_isolation_type.htm
 old-project: WES
 ms.assetid: 63b01c20-f413-451d-b34d-b2496ebf8181
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_CHANNEL_ISOLATION_TYPE, EVT_CHANNEL_ISOLATION_TYPE enumeration [EventLog], EvtChannelIsolationTypeApplication, EvtChannelIsolationTypeCustom, EvtChannelIsolationTypeSystem, _EVT_CHANNEL_ISOLATION_TYPE, wes.evt_channel_isolation_type, winevt/EVT_CHANNEL_ISOLATION_TYPE, winevt/EvtChannelIsolationTypeApplication, winevt/EvtChannelIsolationTypeCustom, winevt/EvtChannelIsolationTypeSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

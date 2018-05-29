@@ -1,16 +1,16 @@
 ---
 UID: NF:imepad.IImePadApplet.Initialize
 title: IImePadApplet::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Called from IImePad interface to initialize IImePadApplet.
 old-location: intl\iimepadapplet_initialize.htm
 old-project: Intl
 ms.assetid: E76FF3FC-717F-42B8-AC5E-45D5527882A7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Initialize method, IImePadApplet.Initialize, IImePadApplet::Initialize, Initialize, Initialize method [Internationalization for Windows Applications], Initialize method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Initialize, intl.iimepadapplet_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imepad.h
 req.include-header: 

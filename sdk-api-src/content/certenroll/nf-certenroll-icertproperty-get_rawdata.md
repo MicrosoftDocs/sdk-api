@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertProperty.get_RawData
 title: ICertProperty::get_RawData
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the certificate property.
 old-location: security\icertproperty_rawdata_property.htm
 old-project: SecCertEnroll
 ms.assetid: 1413f6da-0fcf-42ca-a79f-43f164368407
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertProperty interface [Security],RawData property, ICertProperty.RawData, ICertProperty.get_RawData, ICertProperty::RawData, ICertProperty::get_RawData, RawData property [Security], RawData property [Security],ICertProperty interface, certenroll/ICertProperty::RawData, certenroll/ICertProperty::get_RawData, get_RawData, security.icertproperty_rawdata_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

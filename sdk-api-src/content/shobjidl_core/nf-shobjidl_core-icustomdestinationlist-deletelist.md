@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.DeleteList
 title: ICustomDestinationList::DeleteList
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a custom Jump List for a specified application.
 old-location: shell\ICustomDestinationList_DeleteList.htm
 old-project: shell
 ms.assetid: ef246f5a-9fcf-4475-b19a-e676f0351f3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DeleteList, DeleteList method [Windows Shell], DeleteList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],DeleteList method, ICustomDestinationList.DeleteList, ICustomDestinationList::DeleteList, _shell_ICustomDestinationList_DeleteList, shell.ICustomDestinationList_DeleteList, shobjidl_core/ICustomDestinationList::DeleteList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

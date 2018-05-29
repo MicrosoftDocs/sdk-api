@@ -1,16 +1,16 @@
 ---
 UID: NS:docobj._tagOLECMD
 title: "_tagOLECMD"
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates command flags from the OLECMDF enumeration with a command identifier through a call to IOleCommandTarget::QueryStatus.
 old-location: com\olecmd.htm
 old-project: com
 ms.assetid: a75ca136-ed6a-43c5-b775-a50535431f1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OLECMD, OLECMD structure [COM], _ole_OLECMD, _tagOLECMD, com.olecmd, docobj/OLECMD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILSkip
 title: ILSkip function
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips a given number of bytes in a constant, unaligned, relative ITEMIDLIST structure.
 old-location: shell\ILSkip_PCUIDLIST_RELATIVE_UINT.htm
 old-project: shell
 ms.assetid: 0ed0409a-eab3-49b6-bd8d-06ad38ac2f8c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILSkip, ILSkip function [Windows Shell], ILSkip(PCUIDLIST_RELATIVE,UINT), _shell_ILSkip_PCUIDLIST_RELATIVE_UINT, shell.ILSkip_PCUIDLIST_RELATIVE_UINT, shlobj_core/ILSkip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

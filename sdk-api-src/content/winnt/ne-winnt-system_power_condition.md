@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt.SYSTEM_POWER_CONDITION
 title: SYSTEM_POWER_CONDITION
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the GUID_ACDC_POWER_SOURCE power event to indicate the current power source.
 old-location: base\system_power_condition.htm
 old-project: Power
 ms.assetid: 66636507-466c-43fd-b46c-0b4dddecc15d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PoAc, PoConditionMaximum, PoDc, PoHot, SYSTEM_POWER_CONDITION, SYSTEM_POWER_CONDITION enumeration, base.system_power_condition, winnt/PoAc, winnt/PoConditionMaximum, winnt/PoDc, winnt/PoHot, winnt/SYSTEM_POWER_CONDITION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

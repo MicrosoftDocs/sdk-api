@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.CommitAndUpdateDerived
 title: IFsrmAutoApplyQuota::CommitAndUpdateDerived
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the quota and then applies any changes to the derived quotas.
 old-location: fsrm\ifsrmautoapplyquota_commitandupdatederived.htm
 old-project: Fsrm
 ms.assetid: f988b78d-214a-4f4f-81d4-d7f59fecb02a
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmAutoApplyQuota.CommitAndUpdateDerived, IFsrmAutoApplyQuota::CommitAndUpdateDerived, fs.ifsrmautoapplyquota_commitandupdatederived, fsrm.ifsrmautoapplyquota_commitandupdatederived, fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 

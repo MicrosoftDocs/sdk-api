@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAWaitForMultipleEvents
 title: WSAWaitForMultipleEvents function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
 old-location: winsock\wsawaitformultipleevents_2.htm
 old-project: WinSock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

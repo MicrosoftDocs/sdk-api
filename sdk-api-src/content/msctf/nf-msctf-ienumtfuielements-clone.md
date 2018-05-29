@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Clone
 title: IEnumTfUIElements::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfUIElements::Clone method creates a copy of the enumerator object.
 old-location: tsf\ienumtfuielements_clone.htm
 old-project: TSF
 ms.assetid: 3949ea4d-9360-4524-9495-31a884cac309
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfUIElements interface, IEnumTfUIElements interface [Text Services Framework],Clone method, IEnumTfUIElements.Clone, IEnumTfUIElements::Clone, msctf/IEnumTfUIElements::Clone, tsf.ienumtfuielements_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

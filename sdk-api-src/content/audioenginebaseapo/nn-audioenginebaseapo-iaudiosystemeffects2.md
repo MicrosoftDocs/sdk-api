@@ -1,16 +1,16 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffects2
 title: IAudioSystemEffects2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioSystemEffects2 interface was introduced with Windows 8.1 for retrieving information about the processing objects in a given mode.
 old-location: audio\iaudiosystemeffects2.htm
 old-project: audio
 ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IAudioSystemEffects2, IAudioSystemEffects2 interface [Audio Devices], IAudioSystemEffects2 interface [Audio Devices],described, audio.iaudiosystemeffects2, audioenginebaseapo/IAudioSystemEffects2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 

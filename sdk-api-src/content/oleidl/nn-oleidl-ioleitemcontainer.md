@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleItemContainer
 title: IOleItemContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by item monikers when they are bound to the objects they identify.
 old-location: com\ioleitemcontainer.htm
 old-project: com
 ms.assetid: fe306a36-da24-4b1e-ab42-359d37962d36
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleItemContainer, IOleItemContainer interface [COM], IOleItemContainer interface [COM],described, _com_ioleitemcontainer, com.ioleitemcontainer, oleidl/IOleItemContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:tdh._PROPERTY_FLAGS
 title: "_PROPERTY_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines if the property is contained in a structure or array.
 old-location: etw\property_flags_enum.htm
 old-project: ETW
 ms.assetid: 517c1662-4230-44dc-94f0-a1996291bbee
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: PROPERTY_FLAGS, PROPERTY_FLAGS enumeration [ETW], PropertyHasCustomSchema, PropertyHasTags, PropertyParamCount, PropertyParamFixedCount, PropertyParamFixedLength, PropertyParamLength, PropertyStruct, PropertyWBEMXmlFragment, _PROPERTY_FLAGS, etw.property_flags_enum, tdh.property_flags_enum, tdh/, tdh/PROPERTY_FLAGS, tdh/PropertyHasCustomSchema, tdh/PropertyHasTags, tdh/PropertyParamCount, tdh/PropertyParamFixedCount, tdh/PropertyParamFixedLength, tdh/PropertyParamLength, tdh/PropertyStruct, tdh/PropertyWBEMXmlFragment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 

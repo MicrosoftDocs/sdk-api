@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagVMRPRESENTATIONINFO
 title: tagVMRPRESENTATIONINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMRPRESENTATIONINFO structure is used in the IVMRImagePresenter::PresentImage method (VMR-7 only).
 old-location: dshow\vmrpresentationinfo.htm
 old-project: DirectShow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO, tagVMRPRESENTATIONINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

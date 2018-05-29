@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFDeserializePresentationDescriptor
 title: MFDeserializePresentationDescriptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deserializes a presentation descriptor from a byte array.
 old-location: mf\mfdeserializepresentationdescriptor.htm
 old-project: medfound
 ms.assetid: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDescriptor, MFDeserializePresentationDescriptor function [Media Foundation], mf.mfdeserializepresentationdescriptor, mfidl/MFDeserializePresentationDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

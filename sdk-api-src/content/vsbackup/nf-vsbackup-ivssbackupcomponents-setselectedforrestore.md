@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetSelectedForRestore
 title: IVssBackupComponents::SetSelectedForRestore
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetSelectedForRestore method indicates whether the specified selectable component is selected for restoration.
 old-location: base\ivssbackupcomponents_setselectedforrestore.htm
 old-project: VSS
 ms.assetid: 8f8051d3-b1b6-418b-8a53-0ddc82a20bb3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetSelectedForRestore method, IVssBackupComponents.SetSelectedForRestore, IVssBackupComponents::SetSelectedForRestore, SetSelectedForRestore, SetSelectedForRestore method [VSS], SetSelectedForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setselectedforrestore, base.ivssbackupcomponents_setselectedforrestore, vsbackup/IVssBackupComponents::SetSelectedForRestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

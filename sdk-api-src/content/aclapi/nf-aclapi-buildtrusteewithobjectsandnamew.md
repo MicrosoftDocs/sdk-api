@@ -1,16 +1,16 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithObjectsAndNameW
 title: BuildTrusteeWithObjectsAndNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee.
 old-location: security\buildtrusteewithobjectsandname.htm
 old-project: SecAuthZ
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

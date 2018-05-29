@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantGetInt32Elem
 title: PropVariantGetInt32Elem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a single Int32 element from a PROPVARIANT of type VT_I4, VT_VECTOR | VT_I4, or VT_ARRAY | VT_I4.
 old-location: properties\PropVariantGetInt32Elem.htm
 old-project: properties
 ms.assetid: de7dc6d4-d85a-44cb-8af7-840fd6e68d5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantGetInt32Elem, PropVariantGetInt32Elem function [Windows Properties], _shell_PropVariantGetInt32Elem, properties.PropVariantGetInt32Elem, propvarutil/PropVariantGetInt32Elem, shell.PropVariantGetInt32Elem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

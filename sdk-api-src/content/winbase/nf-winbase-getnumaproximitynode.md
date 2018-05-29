@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetNumaProximityNode
 title: GetNumaProximityNode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the NUMA node number that corresponds to the specified proximity domain identifier.
 old-location: base\getnumaproximitynode.htm
 old-project: ProcThread
 ms.assetid: 9a2dbfe3-13e7-442d-a5f6-b2632878f618
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetNumaProximityNode, GetNumaProximityNode function, base.getnumaproximitynode, winbase/GetNumaProximityNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Delete
 title: IGPMStarterGPO::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the GPO from the current domain's system volume folder(SysVol).
 old-location: gpmc\igpmstartergpo_delete.htm
 old-project: GPMC
 ms.assetid: 1392326e-68f0-4d55-8a6b-3abbb60b51ee
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Delete method, IGPMStarterGPO.Delete, IGPMStarterGPO::Delete, gpmc.igpmstartergpo_delete, gpmgmt/IGPMStarterGPO::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

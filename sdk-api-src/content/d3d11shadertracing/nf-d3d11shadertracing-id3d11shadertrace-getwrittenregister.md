@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetWrittenRegister
 title: ID3D11ShaderTrace::GetWrittenRegister
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a register that was written by a step in the trace.
 old-location: direct3d11\id3d11shadertrace_getwrittenregister.htm
 old-project: direct3d11
 ms.assetid: 360BB797-D5A9-486A-94ED-AF1CD3A4E118
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetWrittenRegister, GetWrittenRegister method [Direct3D 11], GetWrittenRegister method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetWrittenRegister method, ID3D11ShaderTrace.GetWrittenRegister, ID3D11ShaderTrace::GetWrittenRegister, d3d11shadertracing/ID3D11ShaderTrace::GetWrittenRegister, direct3d11.id3d11shadertrace_getwrittenregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shadertracing.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsFillBody
 title: WsFillBody function
-author: windows-driver-content
+author: windows-sdk-content
 description: Ensures that there are a sufficient number of bytes available in a message for reading.
 old-location: wsw\wsfillbody.htm
 old-project: wsw
 ms.assetid: fe70338d-d2bf-4126-96b2-30ef6ebfa74d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsFillBody, WsFillBody function [Web Services for Windows], webservices/WsFillBody, wsw.wsfillbody
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:tabflicks.FLICK_POINT
 title: FLICK_POINT
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about a pen flick.
 old-location: tablet\flick_point.htm
 old-project: tablet
 ms.assetid: c9aacc05-02aa-47b5-be58-46321cf6a99d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FLICK_POINT, FLICK_POINT structure [Tablet PC], c9aacc05-02aa-47b5-be58-46321cf6a99d, tabflicks/FLICK_POINT, tablet.flick_point
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tabflicks.h
 req.include-header: 

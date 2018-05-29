@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get_Count
 title: ICryptAttributes::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of ICryptAttribute objects in the collection.
 old-location: security\icryptattributes_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: 64df062e-49f6-4ad2-86cd-8c68da52654c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Count property [Security], Count property [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Count property, ICryptAttributes.Count, ICryptAttributes.get_Count, ICryptAttributes::Count, ICryptAttributes::get_Count, certenroll/ICryptAttributes::Count, certenroll/ICryptAttributes::get_Count, get_Count, security.icryptattributes_count_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

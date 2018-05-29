@@ -1,16 +1,16 @@
 ---
 UID: NC:mapi.MAPISENDMAIL
 title: MAPISENDMAIL
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an ANSI message.
 old-location: mapi\mapisendmail.htm
 old-project: WindowsMAPI
 ms.assetid: 1d7da0f2-b736-401e-86bd-fc4375ccc0d1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function, mapi.mapisendmail, mapi/MAPISendMail
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

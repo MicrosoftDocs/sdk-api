@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackage
 title: IXpsOMObjectFactory::CreatePackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMPackage interface that serves as the root node of an XPS object model document tree.
 old-location: xps\ixpsomobjectfactory_createpackage.htm
 old-project: printdocs
 ms.assetid: c9319997-6c8f-4e2c-9401-ad269e3db8c8
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreatePackage, CreatePackage method [XPS Documents and Packaging], CreatePackage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackage method, IXpsOMObjectFactory.CreatePackage, IXpsOMObjectFactory::CreatePackage, xps.ixpsomobjectfactory_createpackage, xpsobjectmodel/IXpsOMObjectFactory::CreatePackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

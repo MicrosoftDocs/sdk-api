@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellMenu
 title: IShellMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that interact with Shell menus such as the Start menu, and the Favorites menu.
 old-location: shell\IShellMenu.htm
 old-project: shell
 ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellMenu, IShellMenu interface [Windows Shell], IShellMenu interface [Windows Shell],described, _shell_IShellMenu, shell.IShellMenu, shobjidl_core/IShellMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

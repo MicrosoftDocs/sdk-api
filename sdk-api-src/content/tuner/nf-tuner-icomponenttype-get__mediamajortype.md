@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponentType.get__MediaMajorType
 title: IComponentType::get__MediaMajorType
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__MediaMajorType method retrieves the DirectShow media format type as a GUID.
 old-location: mstv\icomponenttype_get__mediamajortype.htm
 old-project: mstv
 ms.assetid: b8732070-3560-461b-a04e-3c00d6b7b49e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaMajorType method, IComponentType.get__MediaMajorType, IComponentType::get__MediaMajorType, IComponentTypeget__MediaMajorType, get__MediaMajorType, get__MediaMajorType method [Microsoft TV Technologies], get__MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediamajortype, tuner/IComponentType::get__MediaMajorType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

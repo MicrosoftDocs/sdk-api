@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateCompletionMessages
 title: ITAddressCapabilities::EnumerateCompletionMessages
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateCompletionMessages method gets completion messages. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratecompletionmessages.htm
 old-project: Tapi
 ms.assetid: b7a3eb72-6c9f-4164-a082-8b0951733dcb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumerateCompletionMessages, EnumerateCompletionMessages method [TAPI 2.2], EnumerateCompletionMessages method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateCompletionMessages method, ITAddressCapabilities.EnumerateCompletionMessages, ITAddressCapabilities::EnumerateCompletionMessages, _tapi3_itaddresscapabilities_enumeratecompletionmessages, tapi3.itaddresscapabilities_enumeratecompletionmessages, tapi3if/ITAddressCapabilities::EnumerateCompletionMessages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

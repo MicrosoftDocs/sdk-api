@@ -1,16 +1,16 @@
 ---
 UID: NS:mfplay.MFP_MF_EVENT
 title: MFP_MF_EVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MF event.
 old-location: mf\mfp_mf_event.htm
 old-project: medfound
 ms.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_MF_EVENT, MFP_MF_EVENT structure [Media Foundation], mf.mfp_mf_event, mfplay/MFP_MF_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 

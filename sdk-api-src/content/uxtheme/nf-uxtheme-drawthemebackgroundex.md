@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.DrawThemeBackgroundEx
 title: DrawThemeBackgroundEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws the background image defined by the visual style for the specified control part.
 old-location: controls\DrawThemeBackgroundEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemebackgroundex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DrawThemeBackgroundEx, DrawThemeBackgroundEx function [Windows Controls], controls.DrawThemeBackgroundEx, controls.inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx_cpp, uxtheme/DrawThemeBackgroundEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

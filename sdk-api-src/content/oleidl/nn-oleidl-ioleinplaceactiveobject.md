@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleInPlaceActiveObject
 title: IOleInPlaceActiveObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a direct channel of communication between an in-place object and the associated application's outer-most frame window and the document window within the application that contains the embedded object.
 old-location: com\ioleinplaceactiveobject.htm
 old-project: com
 ms.assetid: b077c256-1109-494c-95c2-2d33bccbe47b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], IOleInPlaceActiveObject interface [COM],described, _ole_ioleinplaceactiveobject, com.ioleinplaceactiveobject, oleidl/IOleInPlaceActiveObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

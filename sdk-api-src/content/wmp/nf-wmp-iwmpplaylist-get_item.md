@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_item
 title: IWMPPlaylist::get_item
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_item method retrieves the media item at the specified index.
 old-location: wmp\iwmpplaylist_get_item.htm
 old-project: WMP
 ms.assetid: 20da6e49-720c-4291-9fb7-def441c7fc66
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_item method, IWMPPlaylist.get_item, IWMPPlaylist::get_item, IWMPPlaylistget_item, get_item, get_item method [Windows Media Player], get_item method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_item, wmp/IWMPPlaylist::get_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

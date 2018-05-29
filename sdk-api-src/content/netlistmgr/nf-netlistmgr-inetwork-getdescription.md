@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetwork.GetDescription
 title: INetwork::GetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDescription method returns a description string for the network.
 old-location: nla\inetwork_getdescription.htm
 old-project: NLA
 ms.assetid: 7d7c4f04-f11c-48ff-b579-dc4dd7599a6b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDescription, GetDescription method [Network Awareness], GetDescription method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetDescription method, INetwork.GetDescription, INetwork::GetDescription, netlistmgr/INetwork::GetDescription, nla.inetwork_getdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

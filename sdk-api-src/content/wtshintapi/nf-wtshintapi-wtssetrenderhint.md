@@ -1,16 +1,16 @@
 ---
 UID: NF:wtshintapi.WTSSetRenderHint
 title: WTSSetRenderHint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by an application that is displaying content that can be optimized for displaying in a remote session to identify the region of a window that is the actual content.
 old-location: termserv\wtssetrenderhint.htm
 old-project: TermServ
 ms.assetid: CF8AE408-AE3A-44AC-91F9-6F6D9858893F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RENDER_HINT_CLEAR, RENDER_HINT_MAPPEDWINDOW, RENDER_HINT_VIDEO, WTSSetRenderHint, WTSSetRenderHint function [Remote Desktop Services], termserv.wtssetrenderhint, wtshintapi/WTSSetRenderHint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtshintapi.h
 req.include-header: 

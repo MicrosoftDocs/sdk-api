@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagPrivateData
 title: tagPrivateData
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store and retrieve opaque data blobs.
 old-location: nap\privatedata_struct.htm
 old-project: NAP
 ms.assetid: e2859983-3780-464d-b878-e63d974ba386
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PrivateData, PrivateData structure [NAP], nap.privatedata_struct, naptypes/PrivateData, tagPrivateData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

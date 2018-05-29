@@ -1,16 +1,16 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetDisplayName
 title: IAssemblyName::GetDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDisplayName method gets a string representation of the side-by-side assembly name.
 old-location: setup\iassemblyname_getdisplayname.htm
 old-project: SbsCs
 ms.assetid: d2d74d67-a893-4f2f-8161-80bf3d5cbedb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Side-by-side Assemblies], GetDisplayName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetDisplayName method, IAssemblyName.GetDisplayName, IAssemblyName::GetDisplayName, setup.iassemblyname_getdisplayname, winsxs/IAssemblyName::GetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsRemoveHeader
 title: WsRemoveHeader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the standard WS_HEADER_TYPE object from a message.
 old-location: wsw\wsremoveheader.htm
 old-project: wsw
 ms.assetid: b240acbd-2c0e-4e2c-a334-a86440627e72
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsRemoveHeader, WsRemoveHeader function [Web Services for Windows], webservices/WsRemoveHeader, wsw.wsremoveheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

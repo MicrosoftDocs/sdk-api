@@ -1,16 +1,16 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialEvents
 title: ICredentialProviderCredentialEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an asynchronous callback mechanism used by a credential to notify it of state or text change events in the Logon UI or Credential UI.
 old-location: shell\ICredentialProviderCredentialEvents.htm
 old-project: shell
 ms.assetid: 258449a4-78e2-475e-ab16-6481207e7354
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], ICredentialProviderCredentialEvents interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents, shell.ICredentialProviderCredentialEvents, shell_ICredentialProviderCredentialEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorRedGreenOrBlueDrive
 title: SetMonitorRedGreenOrBlueDrive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a monitor's red, green, or blue drive value.
 old-location: monitor\setmonitorredgreenorbluedrive.htm
 old-project: Monitor
 ms.assetid: 9d000d86-02f8-442f-954c-c039c9dcc0cd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetMonitorRedGreenOrBlueDrive, SetMonitorRedGreenOrBlueDrive function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive, monitor.setmonitorredgreenorbluedrive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

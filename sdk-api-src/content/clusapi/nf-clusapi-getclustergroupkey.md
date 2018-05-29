@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.GetClusterGroupKey
 title: GetClusterGroupKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a group.
 old-location: mscs\getclustergroupkey.htm
 old-project: MsCS
 ms.assetid: 86f34e31-f240-485f-a5b6-e4de922b8d97
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetClusterGroupKey, GetClusterGroupKey function [Failover Cluster], _wolf_getclustergroupkey, clusapi/GetClusterGroupKey, mscs.getclustergroupkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

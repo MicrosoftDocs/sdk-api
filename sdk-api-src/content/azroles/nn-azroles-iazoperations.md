@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzOperations
 title: IAzOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of IAzOperation objects.
 old-location: security\iazoperations.htm
 old-project: SecAuthZ
 ms.assetid: 43db28af-86cb-4530-a87b-d11061533d84
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzOperations, IAzOperations interface [Security], IAzOperations interface [Security],described, azroles/IAzOperations, security.iazoperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_GetLocale
 title: MI_Context_GetLocale function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the requested locale information that the client specified for the operation.
 old-location: wmi_v2\mi_context_getlocale.htm
 old-project: wmi_v2
 ms.assetid: 7d2271e8-de76-4629-aedc-0ab882ab58eb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_GetLocale, MI_Context_GetLocale function [Windows Management Infrastructure (MI)], mi/MI_Context_GetLocale, wmi.mi_getlocale, wmi_v2.mi_context_getlocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsMinor
 title: ISCTE_EAS::GetDetailsMinor
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDetailsMinor method returns the minor channel number for the details channel.
 old-location: mstv\iscte_eas_getdetailsminor.htm
 old-project: mstv
 ms.assetid: 59d43d84-2120-4200-b1e7-4603c1693018
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDetailsMinor, GetDetailsMinor method [Microsoft TV Technologies], GetDetailsMinor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMinor method, ISCTE_EAS.GetDetailsMinor, ISCTE_EAS::GetDetailsMinor, ISCTE_EASGetDetailsMinor, atscpsipparser/ISCTE_EAS::GetDetailsMinor, mstv.iscte_eas_getdetailsminor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

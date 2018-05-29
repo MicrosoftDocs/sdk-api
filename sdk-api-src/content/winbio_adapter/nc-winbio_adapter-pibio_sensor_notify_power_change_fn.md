@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN
 title: PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives notification about a change in the computer power state and prepares the sensor adapter accordingly.
 old-location: secbiomet\sensoradapternotifypowerchange.htm
 old-project: SecBioMet
 ms.assetid: 7EA9D7E7-3DB9-4131-A747-B0388310ACB5
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN callback, SensorAdapterNotifyPowerChange, SensorAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.sensoradapternotifypowerchange, winbio_adapter/SensorAdapterNotifyPowerChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaItem.GetItemType
 title: IWiaItem::GetItemType
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaItem::GetItemType method is called by applications to obtain the type information of an item.
 old-location: wia\_wia_IWiaItem_GetItemType.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getitemtype.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: GetItemType, GetItemType method [WIA], GetItemType method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetItemType method, IWiaItem.GetItemType, IWiaItem::GetItemType, _wia_IWiaItem_GetItemType, wia._wia_IWiaItem_GetItemType, wia_xp/IWiaItem::GetItemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

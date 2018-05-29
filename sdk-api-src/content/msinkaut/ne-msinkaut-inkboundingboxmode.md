@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkBoundingBoxMode
 title: InkBoundingBoxMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which characteristics of a stroke, such as drawing attributes, are used to calculate the bounding box of the ink.The bounding box is the smallest rectangle that includes all points in the InkDisp object.
 old-location: tablet\inkboundingboxmode.htm
 old-project: tablet
 ms.assetid: 8c92fb43-1584-42fc-857e-aae5d5c222b4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 8c92fb43-1584-42fc-857e-aae5d5c222b4, IBBM_CurveFit, IBBM_Default, IBBM_NoCurveFit, IBBM_PointsOnly, IBBM_Union, InkBoundingBoxMode, InkBoundingBoxMode enumeration [Tablet PC], msinkaut/IBBM_CurveFit, msinkaut/IBBM_Default, msinkaut/IBBM_NoCurveFit, msinkaut/IBBM_PointsOnly, msinkaut/IBBM_Union, msinkaut/InkBoundingBoxMode, tablet.inkboundingboxmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

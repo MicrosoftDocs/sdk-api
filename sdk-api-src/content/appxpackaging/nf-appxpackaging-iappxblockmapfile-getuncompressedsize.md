@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetUncompressedSize
 title: IAppxBlockMapFile::GetUncompressedSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the uncompressed size of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getuncompressedsize.htm
 old-project: appxpkg
 ms.assetid: 35D3EADC-F8EF-4D8F-8016-2E30976965EC
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetUncompressedSize, GetUncompressedSize method [App packaging and management], GetUncompressedSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetUncompressedSize method, IAppxBlockMapFile.GetUncompressedSize, IAppxBlockMapFile::GetUncompressedSize, appxpackaging/IAppxBlockMapFile::GetUncompressedSize, appxpkg.iappxblockmapfile_getuncompressedsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

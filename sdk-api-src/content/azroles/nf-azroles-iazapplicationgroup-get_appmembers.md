@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_AppMembers
 title: IAzApplicationGroup::get_AppMembers
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the application groups that belong to this application group.
 old-location: security\iazapplicationgroup_appmembers.htm
 old-project: SecAuthZ
 ms.assetid: 74239ac2-b6ea-4839-b4c5-7a77d454aa0b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AppMembers property [Security], AppMembers property [Security],AzApplicationGroup object, AppMembers property [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AppMembers property, IAzApplicationGroup interface [Security],AppMembers property, IAzApplicationGroup.AppMembers, IAzApplicationGroup.get_AppMembers, IAzApplicationGroup::AppMembers, IAzApplicationGroup::get_AppMembers, azroles/IAzApplicationGroup::AppMembers, azroles/IAzApplicationGroup::get_AppMembers, get_AppMembers, security.iazapplicationgroup_appmembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

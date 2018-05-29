@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.LoadBitmapW
 title: LoadBitmapW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LoadBitmap function loads the specified bitmap resource from a module's executable file.
 old-location: gdi\loadbitmap.htm
 old-project: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:faxroute.PFAXROUTEGETFILE
 title: PFAXROUTEGETFILE
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax routing method calls the FaxRouteGetFile callback function to retrieve the name of a specific file from the fax file list associated with a received fax document.
 old-location: fax\_mfax_faxroutegetfile.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_4cf9.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRouteGetFile, FaxRouteGetFile callback function [Fax Service], PFAXROUTEGETFILE, PFAXROUTEGETFILE callback, _mfax_faxroutegetfile, fax._mfax_faxroutegetfile, faxroute/FaxRouteGetFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: faxroute.h
 req.include-header: 

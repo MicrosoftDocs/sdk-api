@@ -1,16 +1,16 @@
 ---
 UID: NS:mschapp._CYPHER_BLOCK
 title: "_CYPHER_BLOCK"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CYPHER_BLOCK is the basic unit of storage for the one-way function (OWF) password hashes.
 old-location: mschap\cypher_block.htm
 old-project: MsChap
 ms.assetid: eb0e38ed-8d12-4df2-be58-7ac18447121f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CYPHER_BLOCK, CYPHER_BLOCK structure [MS-CHAP], _CYPHER_BLOCK, mschap.cypher_block, mschapp/CYPHER_BLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mschapp.h
 req.include-header: 

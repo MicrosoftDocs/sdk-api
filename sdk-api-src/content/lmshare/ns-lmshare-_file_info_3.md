@@ -1,16 +1,16 @@
 ---
 UID: NS:lmshare._FILE_INFO_3
 title: "_FILE_INFO_3"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the identification number and other pertinent information about files, devices, and pipes.
 old-location: fs\file_info_3_str.htm
 old-project: NetShare
 ms.assetid: 67f5fa89-12c7-46fb-a118-de4bfed96923
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPFILE_INFO_3, *PFILE_INFO_3, FILE_INFO_3, FILE_INFO_3 structure [Files], LPFILE_INFO_3, LPFILE_INFO_3 structure pointer [Files], PERM_FILE_CREATE, PERM_FILE_READ, PERM_FILE_WRITE, PFILE_INFO_3, PFILE_INFO_3 structure pointer [Files], _FILE_INFO_3, _win32_file_info_3_str, fs.file_info_3_str, lmshare/FILE_INFO_3, lmshare/LPFILE_INFO_3, lmshare/PFILE_INFO_3, netmgmt.file_info_3_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

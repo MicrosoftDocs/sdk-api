@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpace.get_DefaultLocator
 title: ITuningSpace::get_DefaultLocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DefaultLocator method retrieves the default locator for this tuning space.
 old-location: mstv\ituningspace_get_defaultlocator.htm
 old-project: mstv
 ms.assetid: facc14bd-182e-4b8e-a567-1bf1d3c4ff36
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultLocator method, ITuningSpace.get_DefaultLocator, ITuningSpace::get_DefaultLocator, ITuningSpaceget_DefaultLocator, get_DefaultLocator, get_DefaultLocator method [Microsoft TV Technologies], get_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_defaultlocator, tuner/ITuningSpace::get_DefaultLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

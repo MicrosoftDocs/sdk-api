@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_PIPELINE_INIT_FN
 title: PIBIO_ENGINE_PIPELINE_INIT_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any initialization that remains incomplete.
 old-location: secbiomet\engineadapterpipelineinit.htm
 old-project: SecBioMet
 ms.assetid: 69D4BB35-2E00-4FF6-8A69-DFCEFA5785A0
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: EngineAdapterPipelineInit, EngineAdapterPipelineInit callback function [Windows Biometric Framework API], PIBIO_ENGINE_PIPELINE_INIT_FN, PIBIO_ENGINE_PIPELINE_INIT_FN callback, secbiomet.engineadapterpipelineinit, winbio_adapter/EngineAdapterPipelineInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

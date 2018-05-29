@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetRelationshipSigningOption
 title: IOpcSignatureRelationshipReference::GetRelationshipSigningOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that describes whether all or a subset of relationships that are stored in the referenced&#160;Relationships part are selected.
 old-location: opc\iopcsignaturerelationshipreference_getrelationshipsigningoption.htm
 old-project: OPC
 ms.assetid: 9960c67c-4f09-435e-b82c-ca449645f6e5
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetRelationshipSigningOption, GetRelationshipSigningOption method [Open Packaging Conventions], GetRelationshipSigningOption method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetRelationshipSigningOption method, IOpcSignatureRelationshipReference.GetRelationshipSigningOption, IOpcSignatureRelationshipReference::GetRelationshipSigningOption, msopc/IOpcSignatureRelationshipReference::GetRelationshipSigningOption, opc.iopcsignaturerelationshipreference_getrelationshipsigningoption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

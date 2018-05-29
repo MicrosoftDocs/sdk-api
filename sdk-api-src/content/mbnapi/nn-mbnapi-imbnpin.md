@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnPin
 title: IMbnPin
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the device PIN.
 old-location: mbn\imbnpin.htm
 old-project: mbn
 ms.assetid: 76764dbb-7de0-4b95-a210-60b8e6a4b24b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnPin, IMbnPin interface [Microsoft Broadband Networks], IMbnPin interface [Microsoft Broadband Networks],described, mbn.imbnpin, mbnapi/IMbnPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

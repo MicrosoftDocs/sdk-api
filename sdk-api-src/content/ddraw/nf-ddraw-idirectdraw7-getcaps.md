@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetCaps
 title: IDirectDraw7::GetCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the capabilities of the device driver for the hardware and the hardware emulation layer (HEL).
 old-location: directdraw\idirectdraw7_getcaps.htm
 old-project: directdraw
 ms.assetid: 4e93612c-9e28-4d51-a640-e8e9b5ed8e7a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetCaps method, IDirectDraw7.GetCaps, IDirectDraw7::GetCaps, ddraw/IDirectDraw7::GetCaps, directdraw.idirectdraw7_getcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

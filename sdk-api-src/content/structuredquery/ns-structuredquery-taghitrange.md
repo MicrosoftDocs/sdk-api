@@ -1,16 +1,16 @@
 ---
 UID: NS:structuredquery.tagHITRANGE
 title: tagHITRANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the range of matching data when query search conditions match indexed data.
 old-location: search\_search_HITRANGE.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._search_HITRANGE, structuredquery/HITRANGE, tagHITRANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: structuredquery.h
 req.include-header: 

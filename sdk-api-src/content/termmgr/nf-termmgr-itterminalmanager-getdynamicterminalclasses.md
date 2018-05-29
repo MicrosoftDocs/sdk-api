@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITTerminalManager.GetDynamicTerminalClasses
 title: ITTerminalManager::GetDynamicTerminalClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDynamicTerminalClasses method gets a list of terminal classes for a set of media types.
 old-location: tapi3\itterminalmanager_getdynamicterminalclasses.htm
 old-project: Tapi
 ms.assetid: 6e0ae94c-eab9-4ca2-a982-a5673f73130e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],GetDynamicTerminalClasses method, ITTerminalManager.GetDynamicTerminalClasses, ITTerminalManager::GetDynamicTerminalClasses, _tapi3_itterminalmanager_getdynamicterminalclasses, tapi3.itterminalmanager_getdynamicterminalclasses, termmgr/ITTerminalManager::GetDynamicTerminalClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

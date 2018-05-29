@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetLength
 title: IDvbExtendedEventDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the body length of a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 5109cdff-27a0-41e5-9b9e-25a82d176e14
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbExtendedEventDescriptor.GetLength, IDvbExtendedEventDescriptor::GetLength, dvbsiparser/IDvbExtendedEventDescriptor::GetLength, mstv.idvbextendedeventdescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

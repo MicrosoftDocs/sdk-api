@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusUp
 title: IStylusPlugin::StylusUp
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the implementing plug-in that the user has raised the tablet pen from the tablet digitizer surface.
 old-location: tablet\istylusplugin_stylusup.htm
 old-project: tablet
 ms.assetid: b0f9e49c-6a16-43c5-a653-d6142e58019a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusUp method, IStylusPlugin.StylusUp, IStylusPlugin::StylusUp, StylusUp, StylusUp method [Tablet PC], StylusUp method [Tablet PC],IStylusPlugin interface, b0f9e49c-6a16-43c5-a653-d6142e58019a, rtscom/IStylusPlugin::StylusUp, tablet.istylusplugin_stylusup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

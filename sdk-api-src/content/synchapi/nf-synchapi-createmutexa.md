@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.CreateMutexA
 title: CreateMutexA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or opens a named or unnamed mutex object.
 old-location: base\createmutex.htm
 old-project: Sync
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

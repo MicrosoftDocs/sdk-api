@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportSetInfo
 title: MprConfigInterfaceTransportSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceTransportSetInfo function updates the configuration information for the client on the specified interface and transport protocol.
 old-location: rras\mprconfiginterfacetransportsetinfo.htm
 old-project: RRAS
 ms.assetid: 1f46b528-d9a1-4967-afa2-424ee1eebbcb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceTransportSetInfo, MprConfigInterfaceTransportSetInfo function [RAS], _mpr_mprconfiginterfacetransportsetinfo, mprapi/MprConfigInterfaceTransportSetInfo, rras.mprconfiginterfacetransportsetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

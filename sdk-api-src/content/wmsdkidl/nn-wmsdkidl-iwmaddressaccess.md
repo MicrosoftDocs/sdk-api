@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMAddressAccess
 title: IWMAddressAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMAddressAccess interface controls IP access lists on the writer network sink object.
 old-location: wmformat\iwmaddressaccess.htm
 old-project: wmformat
 ms.assetid: 7251c600-90a2-4903-b26a-643b4d10b0ce
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMAddressAccess, IWMAddressAccess interface [windows Media Format], IWMAddressAccess interface [windows Media Format],described, IWMAddressAccessInterface, wmformat.iwmaddressaccess, wmsdkidl/IWMAddressAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

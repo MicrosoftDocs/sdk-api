@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.GetParentAccessible
 title: IAccessibleWindowlessSite::GetParentAccessible
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IAccessible pointer for the parent of a windowless Microsoft ActiveX control in the accessibility tree.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_GetParentAccessible.htm
 old-project: WinAuto
 ms.assetid: 579C2425-9C3E-4CFF-8A25-C661670FB636
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetParentAccessible, GetParentAccessible method [Windows Accessibility], GetParentAccessible method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],GetParentAccessible method, IAccessibleWindowlessSite.GetParentAccessible, IAccessibleWindowlessSite::GetParentAccessible, oleacc/IAccessibleWindowlessSite::GetParentAccessible, winauto.uiauto_IAccessibleWindowlessSite_GetParentAccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE
 title: "_WSD_PROBE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a Probe message.
 old-location: ncd\wsd_probe_struct.htm
 old-project: WsdApi
 ms.assetid: f84f7e77-ffe2-41af-a10f-a626466e9847
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_PROBE, WSD_PROBE structure, _WSD_PROBE, ncd.wsd_probe_struct, wsdtypes/WSD_PROBE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

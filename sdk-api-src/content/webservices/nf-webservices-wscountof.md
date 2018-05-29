@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCountOf
 title: WsCountOf macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of elements a specified array.
 old-location: wsw\wscountof.htm
 old-project: wsw
 ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: webservices.h
 req.include-header: 

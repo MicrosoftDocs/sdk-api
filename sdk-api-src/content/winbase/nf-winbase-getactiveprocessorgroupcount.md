@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetActiveProcessorGroupCount
 title: GetActiveProcessorGroupCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of active processor groups in the system.
 old-location: base\getactiveprocessorgroupcount.htm
 old-project: ProcThread
 ms.assetid: 566c6abe-9269-4e0e-9c98-e4607c808452
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetActiveProcessorGroupCount, GetActiveProcessorGroupCount function, base.getactiveprocessorgroupcount, winbase/GetActiveProcessorGroupCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

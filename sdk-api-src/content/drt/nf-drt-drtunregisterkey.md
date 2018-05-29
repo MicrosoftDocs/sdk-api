@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtUnregisterKey
 title: DrtUnregisterKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrtUnregisterKey function deregisters a key from the DRT.
 old-location: p2p\drtunregisterkey.htm
 old-project: P2PSdk
 ms.assetid: cf8f877b-44a8-4153-bf02-0b0061bc53d2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/DrtUnregisterKey, p2p.drtunregisterkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

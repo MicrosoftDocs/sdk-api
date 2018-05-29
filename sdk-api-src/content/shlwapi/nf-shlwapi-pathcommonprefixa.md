@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathCommonPrefixA
 title: PathCommonPrefixA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two paths to determine if they share a common prefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.
 old-location: shell\PathCommonPrefix.htm
 old-project: shell
 ms.assetid: 13c32b32-8541-41c4-82d8-48d3b2439f0c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCommonPrefix, PathCommonPrefix function [Windows Shell], PathCommonPrefixA, PathCommonPrefixW, _win32_PathCommonPrefix, shell.PathCommonPrefix, shlwapi/PathCommonPrefix, shlwapi/PathCommonPrefixA, shlwapi/PathCommonPrefixW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

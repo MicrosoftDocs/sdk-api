@@ -1,16 +1,16 @@
 ---
 UID: NN:rometadataapi.IMetaDataAssemblyImport
 title: IMetaDataAssemblyImport
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to access and examine the contents of an assembly manifest.
 old-location: winrt\imetadataassemblyimport.htm
 old-project: WinRT
 ms.assetid: c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], IMetaDataAssemblyImport interface [Windows Runtime],described, rometadataapi/IMetaDataAssemblyImport, winrt.imetadataassemblyimport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 

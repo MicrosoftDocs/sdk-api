@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMemInputPin.GetAllocator
 title: IMemInputPin::GetAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllocator method retrieves the memory allocator proposed by this pin. After the allocator has been selected, this method returns a pointer to the selected allocator.
 old-location: dshow\imeminputpin_getallocator.htm
 old-project: DirectShow
 ms.assetid: ab49028e-ae27-4d4e-a5f1-a086ade25c5e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAllocator, GetAllocator method [DirectShow], GetAllocator method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocator method, IMemInputPin.GetAllocator, IMemInputPin::GetAllocator, IMemInputPinGetAllocator, dshow.imeminputpin_getallocator, strmif/IMemInputPin::GetAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

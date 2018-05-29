@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.GetPriority
 title: IDirect3DResource9::GetPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the priority for this resource.
 old-location: direct3d9\idirect3dresource9__getpriority.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__getpriority.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 47c2760d-e108-6181-ef30-aa9368caa9c3, GetPriority, GetPriority method [Direct3D 9], GetPriority method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetPriority method, IDirect3DResource9.GetPriority, IDirect3DResource9::GetPriority, d3d9helper/IDirect3DResource9::GetPriority, direct3d9.idirect3dresource9__getpriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

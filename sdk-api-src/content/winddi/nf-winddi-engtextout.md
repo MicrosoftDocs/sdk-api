@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngTextOut
 title: EngTextOut function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngTextOut function causes GDI to render a set of glyphs at specified positions.
 old-location: display\engtextout.htm
 old-project: display
 ms.assetid: 7891692e-a4e1-401a-99e0-ed8135dc6f1d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngTextOut, EngTextOut function [Display Devices], display.engtextout, gdifncs_e383ce94-952d-48e3-a814-afd38822aad2.xml, winddi/EngTextOut
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

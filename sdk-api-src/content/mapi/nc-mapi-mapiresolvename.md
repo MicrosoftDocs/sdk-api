@@ -1,16 +1,16 @@
 ---
 UID: NC:mapi.MAPIRESOLVENAME
 title: MAPIRESOLVENAME
-author: windows-driver-content
+author: windows-sdk-content
 description: The MAPIResolveName function transforms a message recipient's name as entered by a user to an unambiguous address list entry.
 old-location: mapi\mapiresolvename.htm
 old-project: WindowsMAPI
 ms.assetid: c834ea40-62c6-44a8-b0e1-f569a92b4c83
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: MAPIResolveName, MAPIResolveName callback, MAPIResolveName callback function, MAPI_AB_NOMODIFY, MAPI_DIALOG, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiresolvename, mapi/MAPIResolveName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

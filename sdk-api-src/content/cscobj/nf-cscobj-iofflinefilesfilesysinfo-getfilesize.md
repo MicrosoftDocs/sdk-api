@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetFileSize
 title: IOfflineFilesFileSysInfo::GetFileSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of an item.
 old-location: of\iofflinefilesfilesysinfo_getfilesize.htm
 old-project: OfflineFiles
 ms.assetid: a24b7126-ee9a-40f8-9fcd-8696e756a6b9
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetFileSize method, IOfflineFilesFileSysInfo.GetFileSize, IOfflineFilesFileSysInfo::GetFileSize, cscobj/IOfflineFilesFileSysInfo::GetFileSize, of.iofflinefilesfilesysinfo_getfilesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

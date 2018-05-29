@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerRegisterMemoryBlock
 title: WerRegisterMemoryBlock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a memory block to be collected when WER creates an error report.
 old-location: wer\werregistermemoryblock.htm
 old-project: wer
 ms.assetid: 10fa2bf3-ec12-4c7c-b986-9b22cdaa7319
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Error Reporting], base.werregistermemoryblock, wer.werregistermemoryblock, werapi/WerRegisterMemoryBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

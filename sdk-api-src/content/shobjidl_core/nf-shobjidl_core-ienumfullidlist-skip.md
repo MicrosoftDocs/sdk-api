@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Skip
 title: IEnumFullIDList::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Skip.htm
 old-project: shell
 ms.assetid: f47bdab1-57be-4f40-a142-ad5edcf6fbfd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Skip method, IEnumFullIDList.Skip, IEnumFullIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Skip, shell.IEnumFullIDList_Skip, shobjidl_core/IEnumFullIDList::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

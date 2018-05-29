@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_
 title: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that describes a MAC layer drop failure.
 old-location: fwp\fwpm_net_event_classify_drop_mac0.htm
 old-project: FWP
 ms.assetid: 750c2cfa-6799-492d-9e10-b4260541ada7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0, FWPM_NET_EVENT_CLASSIFY_DROP_MAC0 structure [Filtering], FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_, FWP_DIRECTION_FORWARD, FWP_DIRECTION_IN, FWP_DIRECTION_OUT, fwp.fwpm_net_event_classify_drop_mac0, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

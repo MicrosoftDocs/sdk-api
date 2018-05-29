@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
 title: ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTerminalSuperclassInfo method gets class information from the registry for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_getterminalsuperclassinfo.htm
 old-project: Tapi
 ms.assetid: 2e7ac968-c8b7-4af9-95b1-522e1b37c23a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetTerminalSuperclassInfo, GetTerminalSuperclassInfo method [TAPI 2.2], GetTerminalSuperclassInfo method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],GetTerminalSuperclassInfo method, ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo, ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo, _tapi3_itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, termmgr/ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

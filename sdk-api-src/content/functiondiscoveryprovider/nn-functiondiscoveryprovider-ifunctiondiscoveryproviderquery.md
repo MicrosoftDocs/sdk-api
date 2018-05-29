@@ -1,16 +1,16 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery
 title: IFunctionDiscoveryProviderQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is passed to all IFunctionDiscoveryProvider::Query method calls and contains query definition information. Providers should use this to determine what the constraints are for each query request they receive.
 old-location: ncd\ifunctiondiscoveryproviderquery.htm
 old-project: FunDisc
 ms.assetid: 97468045-faa5-4690-8db5-50ee9656517b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscoveryProviderQuery, IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery, ncd.ifunctiondiscoveryproviderquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

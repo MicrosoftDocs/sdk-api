@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmActionType
 title: "_FsrmActionType"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the actions that can be triggered in response to a quota or file screen event (for example, a quota is exceeded or a file violates a file screen).
 old-location: fsrm\fsrmactiontype.htm
 old-project: Fsrm
 ms.assetid: 3e34395e-b8e6-4288-a040-dff6cf7f5fe6
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmActionType, FsrmActionType enumeration [File Server Resource Manager], FsrmActionType_Command, FsrmActionType_Email, FsrmActionType_EventLog, FsrmActionType_Report, FsrmActionType_Unknown, _FsrmActionType, fs.fsrmactiontype, fsrm.fsrmactiontype, fsrmenums/FsrmActionType, fsrmenums/FsrmActionType_Command, fsrmenums/FsrmActionType_Email, fsrmenums/FsrmActionType_EventLog, fsrmenums/FsrmActionType_Report, fsrmenums/FsrmActionType_Unknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

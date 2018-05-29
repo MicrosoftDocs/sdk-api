@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.RegisterSessionNotification
 title: IAudioSessionManager2::RegisterSessionNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterSessionNotification method registers the application to receive a notification when a session is created.
 old-location: coreaudio\iaudiosessionmanager2_registersessionnotification.htm
 old-project: CoreAudio
 ms.assetid: cff43da7-70b2-4887-8a6c-6100cf7d696e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterSessionNotification method, IAudioSessionManager2.RegisterSessionNotification, IAudioSessionManager2::RegisterSessionNotification, RegisterSessionNotification, RegisterSessionNotification method [Core Audio], RegisterSessionNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::RegisterSessionNotification, coreaudio.iaudiosessionmanager2_registersessionnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

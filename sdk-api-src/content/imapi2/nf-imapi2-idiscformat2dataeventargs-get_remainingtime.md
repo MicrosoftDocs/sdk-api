@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_RemainingTime
 title: IDiscFormat2DataEventArgs::get_RemainingTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the estimated remaining time of the write operation.
 old-location: imapi\idiscformat2dataeventargs_get_remainingtime.htm
 old-project: imapi
 ms.assetid: 1fc41d22-c85b-47dc-8d09-a8d135cfe95e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_RemainingTime method, IDiscFormat2DataEventArgs.get_RemainingTime, IDiscFormat2DataEventArgs::get_RemainingTime, get_RemainingTime, get_RemainingTime method [IMAPI], get_RemainingTime method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_remainingtime, imapi2/IDiscFormat2DataEventArgs::get_RemainingTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

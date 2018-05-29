@@ -1,16 +1,16 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReproduceFailure
 title: INetDiagHelperEx::ReproduceFailure
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperex_reproducefailure.htm
 old-project: NDF
 ms.assetid: a85e375b-78f3-494b-846e-8ea5dd4b5b37
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReproduceFailure method, INetDiagHelperEx.ReproduceFailure, INetDiagHelperEx::ReproduceFailure, ReproduceFailure, ReproduceFailure method [NDF], ReproduceFailure method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reproducefailure, ndhelper/INetDiagHelperEx::ReproduceFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

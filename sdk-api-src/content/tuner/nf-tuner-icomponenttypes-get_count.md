@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponentTypes.get_Count
 title: IComponentTypes::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Count method returns the number of component types in the collection.
 old-location: mstv\icomponenttypes_get_count.htm
 old-project: mstv
 ms.assetid: 9f353702-1be1-4fa0-9312-f76f23f63a2b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],get_Count method, IComponentTypes.get_Count, IComponentTypes::get_Count, IComponentTypesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_get_count, tuner/IComponentTypes::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

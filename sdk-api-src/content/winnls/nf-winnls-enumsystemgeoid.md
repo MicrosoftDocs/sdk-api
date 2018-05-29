@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.EnumSystemGeoID
 title: EnumSystemGeoID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the geographical location identifiers (type GEOID) that are available on the operating system.
 old-location: intl\enumsystemgeoid.htm
 old-project: Intl
 ms.assetid: b25d9eb3-baaa-4508-b7d6-e2bccc3c2b77
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumSystemGeoID, EnumSystemGeoID function [Internationalization for Windows Applications], _win32_EnumSystemGeoID, intl.enumsystemgeoid, winnls/EnumSystemGeoID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

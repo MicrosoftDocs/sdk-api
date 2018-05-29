@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongToUChar
 title: LongToUChar function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type LONG to a value of type UCHAR.
 old-location: shell\LongToUChar.htm
 old-project: shell
 ms.assetid: 04c675f0-8193-4a21-a00f-03f010896b31
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LongToUChar, LongToUChar function [Windows Shell], _shell_LongToUChar, intsafe/LongToUChar, shell.LongToUChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

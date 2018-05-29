@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasFreeEapUserIdentityA
 title: RasFreeEapUserIdentityA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the RasFreeEapUserIdentity function to free the memory buffer returned by RasGetEapUserIdentity.
 old-location: rras\rasfreeeapuseridentity.htm
 old-project: RRAS
 ms.assetid: 84102fdc-b44a-415e-b67e-58c82e662a23
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasFreeEapUserIdentity, RasFreeEapUserIdentity function [RAS], RasFreeEapUserIdentityA, RasFreeEapUserIdentityW, _ras_rasfreeeapuseridentity, ras/RasFreeEapUserIdentity, ras/RasFreeEapUserIdentityA, ras/RasFreeEapUserIdentityW, rras.rasfreeeapuseridentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

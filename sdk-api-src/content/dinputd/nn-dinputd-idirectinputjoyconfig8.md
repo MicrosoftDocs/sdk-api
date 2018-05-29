@@ -1,16 +1,16 @@
 ---
 UID: NN:dinputd.IDirectInputJoyConfig8
 title: IDirectInputJoyConfig8
-author: windows-driver-content
+author: windows-sdk-content
 description: IDirectInputJoyConfig8 interface contains methods that allow hardware developers who are writing property sheets to write and read information to and from the registry.
 old-location: hid\idirectinputjoyconfig8.htm
 old-project: hid
 ms.assetid: baae99bf-a826-45d0-bab2-76a5736bd378
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Input Devices], IDirectInputJoyConfig8 interface [Human Input Devices],described, di_ref_75413607-c6c1-4341-892a-7f313a0ed9d5.xml, dinputd/IDirectInputJoyConfig8, hid.idirectinputjoyconfig8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dinputd.h
 req.include-header: 

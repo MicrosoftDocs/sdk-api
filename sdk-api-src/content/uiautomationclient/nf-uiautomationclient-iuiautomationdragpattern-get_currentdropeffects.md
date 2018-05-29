@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CurrentDropEffects
 title: IUIAutomationDragPattern::get_CurrentDropEffects
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when this element as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_currentdropeffects.htm
 old-project: WinAuto
 ms.assetid: 393692C9-AA4E-4C50-8006-39457EB57153
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentDropEffects property [Windows Accessibility], CurrentDropEffects property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentDropEffects property, IUIAutomationDragPattern.CurrentDropEffects, IUIAutomationDragPattern.get_CurrentDropEffects, IUIAutomationDragPattern::CurrentDropEffects, IUIAutomationDragPattern::get_CurrentDropEffects, get_CurrentDropEffects, uiautomationclient/IUIAutomationDragPattern::CurrentDropEffects, uiautomationclient/IUIAutomationDragPattern::get_CurrentDropEffects, winauto.uiauto_iuiautomationdragpattern_currentdropeffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

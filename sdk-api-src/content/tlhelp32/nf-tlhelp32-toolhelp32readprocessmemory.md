@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.Toolhelp32ReadProcessMemory
 title: Toolhelp32ReadProcessMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies memory allocated to another process into an application-supplied buffer.
 old-location: toolhelp\toolhelp32readprocessmemory.htm
 old-project: ToolHelp
 ms.assetid: e579b813-32ef-481d-8dc6-f959ec9b6bad
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Toolhelp32ReadProcessMemory, Toolhelp32ReadProcessMemory function [ToolHelp], _win32_toolhelp32readprocessmemory, base.toolhelp32readprocessmemory, tlhelp32/Toolhelp32ReadProcessMemory, toolhelp.toolhelp32readprocessmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

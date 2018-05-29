@@ -1,16 +1,16 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.Seek
 title: IMultiMediaStream::Seek
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Seek method seeks all of the media streams to a new position.
 old-location: dshow\imultimediastream_seek.htm
 old-project: DirectShow
 ms.assetid: ac65613f-3fca-4043-83ad-740ebd7687a4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],Seek method, IMultiMediaStream.Seek, IMultiMediaStream::Seek, IMultiMediaStreamSeek, Seek, Seek method [DirectShow], Seek method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_seek, mmstream/IMultiMediaStream::Seek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

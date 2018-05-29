@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_ResultingImageType
 title: IRawCDImageCreator::get_ResultingImageType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value that specifies the type of image file that will be generated.
 old-location: imapi\irawcdimagecreator_get_resultingimagetype.htm
 old-project: imapi
 ms.assetid: 006486f7-f766-44a1-a088-71035567a75d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ResultingImageType method, IRawCDImageCreator.get_ResultingImageType, IRawCDImageCreator::get_ResultingImageType, get_ResultingImageType, get_ResultingImageType method [IMAPI], get_ResultingImageType method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_resultingimagetype, imapi2/IRawCDImageCreator::get_ResultingImageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

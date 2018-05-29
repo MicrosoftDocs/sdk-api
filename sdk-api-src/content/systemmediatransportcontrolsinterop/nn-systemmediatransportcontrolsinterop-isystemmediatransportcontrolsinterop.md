@@ -1,16 +1,16 @@
 ---
 UID: NN:systemmediatransportcontrolsinterop.ISystemMediaTransportControlsInterop
 title: ISystemMediaTransportControlsInterop
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows an app to get an instance of the ISystemMediaTransportControls interface.
 old-location: mediatransport\isystemmediatransportcontrolsinterop.htm
 old-project: mediatransport
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 

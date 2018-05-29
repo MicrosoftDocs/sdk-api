@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetOwner
 title: IXpsOMDictionary::GetOwner
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the interface that contains the dictionary.
 old-location: xps\ixpsomdictionary_getowner.htm
 old-project: printdocs
 ms.assetid: 3570ad03-2b68-4294-b236-86bd372876a2
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetOwner method, IXpsOMDictionary.GetOwner, IXpsOMDictionary::GetOwner, xps.ixpsomdictionary_getowner, xpsobjectmodel/IXpsOMDictionary::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

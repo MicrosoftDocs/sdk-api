@@ -1,16 +1,16 @@
 ---
 UID: NE:rectypes.enumCONFIDENCE_LEVEL
 title: enumCONFIDENCE_LEVEL
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the level of confidence the recognizer has in the recognition result.
 old-location: tablet\confidence_level.htm
 old-project: tablet
 ms.assetid: 94167a91-7d72-40c9-bce4-29babdb5bff9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 94167a91-7d72-40c9-bce4-29babdb5bff9, CFL_INTERMEDIATE, CFL_POOR, CFL_STRONG, CONFIDENCE_LEVEL, CONFIDENCE_LEVEL enumeration [Tablet PC], enumCONFIDENCE_LEVEL, rectypes/CFL_INTERMEDIATE, rectypes/CFL_POOR, rectypes/CFL_STRONG, rectypes/CONFIDENCE_LEVEL, tablet.confidence_level
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rectypes.h
 req.include-header: 

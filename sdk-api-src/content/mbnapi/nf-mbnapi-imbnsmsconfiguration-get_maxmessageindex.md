@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_MaxMessageIndex
 title: IMbnSmsConfiguration::get_MaxMessageIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: SMS message memory capacity.
 old-location: mbn\imbnsmsconfiguration_maxmessageindex.htm
 old-project: mbn
 ms.assetid: c7dee4b7-4a34-4d08-aae3-7455531a9556
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],MaxMessageIndex property, IMbnSmsConfiguration.MaxMessageIndex, IMbnSmsConfiguration.get_MaxMessageIndex, IMbnSmsConfiguration::MaxMessageIndex, IMbnSmsConfiguration::get_MaxMessageIndex, MaxMessageIndex property [Microsoft Broadband Networks], MaxMessageIndex property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, get_MaxMessageIndex, mbn.imbnsmsconfiguration_maxmessageindex, mbnapi/IMbnSmsConfiguration::MaxMessageIndex, mbnapi/IMbnSmsConfiguration::get_MaxMessageIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

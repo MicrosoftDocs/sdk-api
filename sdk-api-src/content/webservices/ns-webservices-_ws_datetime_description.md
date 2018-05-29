@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_DATETIME_DESCRIPTION
 title: "_WS_DATETIME_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: This type description is used with WS_DATETIME_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized. Only the ticks member of the WS_DATETIME is compared.
 old-location: wsw\ws_datetime_description.htm
 old-project: wsw
 ms.assetid: f6a7094f-56c0-4d8e-9050-fe41c4a82bf4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_DATETIME_DESCRIPTION, WS_DATETIME_DESCRIPTION structure [Web Services for Windows], _WS_DATETIME_DESCRIPTION, webservices/WS_DATETIME_DESCRIPTION, wsw.ws_datetime_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

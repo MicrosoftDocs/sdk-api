@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.GetCurrentFilter
 title: ICommDlgBrowser3::GetCurrentFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current filter as a Unicode string.
 old-location: shell\ICommDlgBrowser3_GetCurrentFilter.htm
 old-project: shell
 ms.assetid: 038f3478-82d0-4023-a787-b7a2c66ceb27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrentFilter, GetCurrentFilter method [Windows Shell], GetCurrentFilter method [Windows Shell],ICommDlgBrowser3 interface, ICommDlgBrowser3 interface [Windows Shell],GetCurrentFilter method, ICommDlgBrowser3.GetCurrentFilter, ICommDlgBrowser3::GetCurrentFilter, _shell_ICommDlgBrowser3_GetCurrentFilter, shell.ICommDlgBrowser3_GetCurrentFilter, shobjidl/ICommDlgBrowser3::GetCurrentFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

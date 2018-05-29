@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.HrInit
 title: ITaskbarList::HrInit
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the taskbar list object. This method must be called before any other ITaskbarList methods can be called.
 old-location: shell\ITaskbarList_HrInit.htm
 old-project: shell
 ms.assetid: 0344bf0b-b460-4516-88eb-09131cc9a4f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HrInit, HrInit method [Windows Shell], HrInit method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],HrInit method, ITaskbarList.HrInit, ITaskbarList::HrInit, _win32_ITaskbarList_HrInit, shell.ITaskbarList_HrInit, shobjidl_core/ITaskbarList::HrInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

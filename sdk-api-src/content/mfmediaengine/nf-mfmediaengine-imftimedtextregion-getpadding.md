@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetPadding
 title: IMFTimedTextRegion::GetPadding
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the padding that surrounds the region.
 old-location: mf\imftimedtextregion_getpadding.htm
 old-project: medfound
 ms.assetid: B97ECFD8-2E96-425F-B29E-49E7D53BBFCB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPadding, GetPadding method [Media Foundation], GetPadding method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPadding method, IMFTimedTextRegion.GetPadding, IMFTimedTextRegion::GetPadding, mf.imftimedtextregion_getpadding, mfmediaengine/IMFTimedTextRegion::GetPadding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

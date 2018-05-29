@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Edit_HideBalloonTip
 title: Edit_HideBalloonTip macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Hides any balloon tip associated with an edit control. You can use this macro or send the EM_HIDEBALLOONTIP message explicitly.
 old-location: controls\Edit_HideBalloonTip.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_hideballoontip.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Edit_HideBalloonTip, Edit_HideBalloonTip macro [Windows Controls], _win32_Edit_HideBalloonTip, _win32_Edit_HideBalloonTip_cpp, commctrl/Edit_HideBalloonTip, controls.Edit_HideBalloonTip, controls._win32_Edit_HideBalloonTip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptSignCertificate
 title: CryptSignCertificate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptSignCertificate function signs the &#0034;to be signed&#0034; information in the encoded signed content.
 old-location: security\cryptsigncertificate.htm
 old-project: SecCrypto
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSignCertificate, CryptSignCertificate function [Security], _crypto2_cryptsigncertificate, security.cryptsigncertificate, wincrypt/CryptSignCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

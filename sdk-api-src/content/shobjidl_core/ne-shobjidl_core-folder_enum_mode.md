@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.FOLDER_ENUM_MODE
 title: FOLDER_ENUM_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by IObjectWithFolderEnumMode::GetMode and IObjectWithFolderEnumMode::SetMode methods to get and set the display modes for the folders.
 old-location: shell\FOLDER_ENUM_MODE.htm
 old-project: shell
 ms.assetid: ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FEM_NAVIGATION, FEM_VIEWRESULT, FOLDER_ENUM_MODE, FOLDER_ENUM_MODE enumeration [Windows Shell], _shell_FOLDER_ENUM_MODE, shell.FOLDER_ENUM_MODE, shobjidl_core/FEM_NAVIGATION, shobjidl_core/FEM_VIEWRESULT, shobjidl_core/FOLDER_ENUM_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

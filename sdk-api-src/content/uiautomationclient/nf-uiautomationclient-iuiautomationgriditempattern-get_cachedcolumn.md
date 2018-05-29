@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedColumn
 title: IUIAutomationGridItemPattern::get_CachedColumn
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached zero-based index of the column that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedColumn.htm
 old-project: WinAuto
 ms.assetid: bc2ac0da-f41c-42c3-aff9-92bc0c5c9d64
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedColumn property [Windows Accessibility], CachedColumn property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedColumn property, IUIAutomationGridItemPattern.CachedColumn, IUIAutomationGridItemPattern.get_CachedColumn, IUIAutomationGridItemPattern::CachedColumn, IUIAutomationGridItemPattern::get_CachedColumn, get_CachedColumn, uiauto.uiauto_IUIAutomationGridItemPattern_CachedColumn, uiauto_IUIAutomationGridItemPattern_CachedColumn, uiautomationclient/IUIAutomationGridItemPattern::CachedColumn, uiautomationclient/IUIAutomationGridItemPattern::get_CachedColumn, winauto.uiauto_IUIAutomationGridItemPattern_CachedColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

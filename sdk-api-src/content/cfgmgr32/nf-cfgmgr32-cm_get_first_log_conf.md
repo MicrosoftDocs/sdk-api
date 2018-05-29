@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_First_Log_Conf
 title: CM_Get_First_Log_Conf function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_First_Log_Conf function obtains the first logical configuration, of a specified configuration type, associated with a specified device instance on the local machine.
 old-location: devinst\cm_get_first_log_conf.htm
 old-project: devinst
 ms.assetid: 7ef14797-ea67-40cb-ad8d-e8c846ae1fd4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_First_Log_Conf, CM_Get_First_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Get_First_Log_Conf, cfgmgrfn_5310503c-65cc-4185-9d26-bf29c1af74c4.xml, devinst.cm_get_first_log_conf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

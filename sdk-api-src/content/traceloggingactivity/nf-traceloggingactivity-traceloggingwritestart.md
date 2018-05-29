@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteStart
 title: TraceLoggingWriteStart macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts an activity and logs the start event.
 old-location: tracelogging\traceloggingwritestart.htm
 old-project: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingWriteStart, TraceLoggingWriteStart macro, tracelogging.traceloggingwritestart, traceloggingactivity/TraceLoggingWriteStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingactivity.h
 req.include-header: 

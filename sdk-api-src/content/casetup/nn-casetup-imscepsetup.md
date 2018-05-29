@@ -1,16 +1,16 @@
 ---
 UID: NN:casetup.IMSCEPSetup
 title: IMSCEPSetup
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines functionality to install and uninstall a Network Device Enrollment Service (NDES) role on a Certificate Services computer.
 old-location: security\imscepsetup.htm
 old-project: SecCrypto
 ms.assetid: 328c6c04-7ade-4b64-bd8a-4314b6e8dc78
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IMSCEPSetup interface [Security],described, casetup/IMSCEPSetup, security.imscepsetup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamRotation
 title: ID3D11VideoContext::VideoProcessorSetStreamRotation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the stream rotation for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamrotation.htm
 old-project: medfound
 ms.assetid: f94d283c-5eea-4248-8c06-46ef66e86b22
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamRotation method, ID3D11VideoContext.VideoProcessorSetStreamRotation, ID3D11VideoContext::VideoProcessorSetStreamRotation, VideoProcessorSetStreamRotation, VideoProcessorSetStreamRotation method [Media Foundation], VideoProcessorSetStreamRotation method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamRotation, mf.id3d11videocontext_videoprocessorsetstreamrotation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

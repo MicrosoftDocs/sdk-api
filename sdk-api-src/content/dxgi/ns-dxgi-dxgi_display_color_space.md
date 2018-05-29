@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi.DXGI_DISPLAY_COLOR_SPACE
 title: DXGI_DISPLAY_COLOR_SPACE
-author: windows-driver-content
+author: windows-sdk-content
 description: Don't use this structure; it is not supported and it will be removed from the header in a future release.
 old-location: direct3ddxgi\dxgi_display_color_space.htm
 old-project: direct3ddxgi
 ms.assetid: AE549DD8-240C-41F9-9223-728BFCA19DD7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_DISPLAY_COLOR_SPACE, DXGI_DISPLAY_COLOR_SPACE structure [DXGI], direct3ddxgi.dxgi_display_color_space, dxgi/DXGI_DISPLAY_COLOR_SPACE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 

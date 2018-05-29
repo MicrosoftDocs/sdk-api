@@ -1,16 +1,16 @@
 ---
 UID: NC:evr.MFCreateVideoSampleAllocator
 title: MFCreateVideoSampleAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object that allocates video samples.
 old-location: mf\mfcreatevideosampleallocator.htm
 old-project: medfound
 ms.assetid: 2d40a335-9948-40d9-b93f-18a6decf96c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IUnknown, MFCreateVideoSampleAllocator, MFCreateVideoSampleAllocator callback, MFCreateVideoSampleAllocator callback function [Media Foundation], evr/MFCreateVideoSampleAllocator, mf.mfcreatevideosampleallocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: evr.h
 req.include-header: 

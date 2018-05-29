@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.RegisterAudioSessionNotification
 title: IAudioSessionControl::RegisterAudioSessionNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterAudioSessionNotification method registers the client to receive notifications of session events, including changes in the stream state.
 old-location: coreaudio\iaudiosessioncontrol_registeraudiosessionnotification.htm
 old-project: CoreAudio
 ms.assetid: f0004eb6-1b3c-4f78-9ab4-17b30dec0d94
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],RegisterAudioSessionNotification method, IAudioSessionControl.RegisterAudioSessionNotification, IAudioSessionControl::RegisterAudioSessionNotification, IAudioSessionControlRegisterAudioSessionNotification, RegisterAudioSessionNotification, RegisterAudioSessionNotification method [Core Audio], RegisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::RegisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_registeraudiosessionnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

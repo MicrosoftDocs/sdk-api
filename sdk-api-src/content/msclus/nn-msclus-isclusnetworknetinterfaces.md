@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusNetworkNetInterfaces
 title: ISClusNetworkNetInterfaces
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the network interfaces available to a network.
 old-location: mscs\clusnetworknetinterfaces_collection.htm
 old-project: MsCS
 ms.assetid: 8b99f752-8aee-4c43-b49a-8ebaf20220f2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusNetworkNetInterfaces, ClusNetworkNetInterfaces collection [Failover Cluster], ClusNetworkNetInterfaces collection [Failover Cluster],described, ISClusNetworkNetInterfaces, _wolf_clusnetworknetinterfaces_collection, msclus/ClusNetworkNetInterfaces, mscs.clusnetworknetinterfaces_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

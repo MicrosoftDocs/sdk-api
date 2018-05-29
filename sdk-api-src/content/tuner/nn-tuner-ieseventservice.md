@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IESEventService
 title: IESEventService
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements an event service that includes methods that raise events derived from the IESEvent interface.
 old-location: mstv\ieseventservice.htm
 old-project: mstv
 ms.assetid: 2720d616-18a6-488e-98ef-565768c22c2a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESEventService, IESEventService interface [Microsoft TV Technologies], IESEventService interface [Microsoft TV Technologies],described, mstv.ieseventservice, tuner/IESEventService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

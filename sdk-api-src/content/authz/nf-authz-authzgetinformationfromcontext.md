@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzGetInformationFromContext
 title: AuthzGetInformationFromContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information about an Authz context.
 old-location: security\authzgetinformationfromcontext.htm
 old-project: SecAuthZ
 ms.assetid: c365029a-3ff3-49c1-9dfc-b52948e466f3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzGetInformationFromContext, AuthzGetInformationFromContext function [Security], _win32_authzgetinformationfromcontext, authz/AuthzGetInformationFromContext, security.authzgetinformationfromcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

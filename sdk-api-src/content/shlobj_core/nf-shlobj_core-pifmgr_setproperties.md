@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.PifMgr_SetProperties
 title: PifMgr_SetProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns values to a block of data from a .pif file.
 old-location: properties\PifMgr_SetProperties.htm
 old-project: properties
 ms.assetid: 720ed580-1867-4651-aef6-24ac4397ad39
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PifMgr_SetProperties, PifMgr_SetProperties function [Windows Properties], _win32_PifMgr_SetProperties, properties.PifMgr_SetProperties, shell.PifMgr_SetProperties, shlobj_core/PifMgr_SetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: 

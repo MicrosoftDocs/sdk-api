@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IGraphBuilder.Connect
 title: IGraphBuilder::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Connect method connects the two pins, using intermediates if necessary.
 old-location: dshow\igraphbuilder_connect.htm
 old-project: DirectShow
 ms.assetid: 8ddcbb73-8220-4d70-9ab3-58d99fa8a958
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Connect method, IGraphBuilder.Connect, IGraphBuilder::Connect, IGraphBuilderConnect, dshow.igraphbuilder_connect, strmif/IGraphBuilder::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

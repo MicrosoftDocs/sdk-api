@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.IPropertyStorage.SetTimes
 title: IPropertyStorage::SetTimes
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetTimes method sets the modification, access, and creation times of this property set, if supported by the implementation. Not all implementations support all these time values.
 old-location: stg\ipropertystorage_settimes.htm
 old-project: Stg
 ms.assetid: 23c7040a-e648-4898-806d-ad01d7027cc6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],SetTimes method, IPropertyStorage.SetTimes, IPropertyStorage::SetTimes, SetTimes, SetTimes method [Structured Storage], SetTimes method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_settimes, propidl/IPropertyStorage::SetTimes, stg.ipropertystorage_settimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h

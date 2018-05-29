@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_OMAC
 title: D3D11_OMAC
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a Message Authentication Code (MAC).
 old-location: mf\d3d11_omac.htm
 old-project: medfound
 ms.assetid: 68AEC018-1DFE-4811-A511-176E82C2E9E2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_OMAC, D3D11_OMAC structure [Media Foundation], d3d11/D3D11_OMAC, mf.d3d11_omac
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

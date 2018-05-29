@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Reset
 title: IEnumSyncMgrEvents::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the current location in the enumeration to zero.
 old-location: shell\IEnumSyncMgrEvents_Reset.htm
 old-project: shell
 ms.assetid: 68c99781-aedf-4676-bbd2-ab6cc14bba46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Reset method, IEnumSyncMgrEvents.Reset, IEnumSyncMgrEvents::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Reset, shell.IEnumSyncMgrEvents_Reset, syncmgr/IEnumSyncMgrEvents::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

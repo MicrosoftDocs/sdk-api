@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRSurface9
 title: IVMRSurface9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRSurface9 interface is implemented on the media samples used by the Video Mixing Renderer Filter 9.
 old-location: dshow\ivmrsurface9.htm
 old-project: DirectShow
 ms.assetid: b24dae7d-5e88-4973-8507-8bd13cdccbde
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IVMRSurface9 interface [DirectShow],described, IVMRSurface9Interface, dshow.ivmrsurface9, vmr9/IVMRSurface9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

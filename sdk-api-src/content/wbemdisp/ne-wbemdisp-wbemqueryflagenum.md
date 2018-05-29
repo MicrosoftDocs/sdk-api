@@ -1,16 +1,16 @@
 ---
 UID: NE:wbemdisp.WbemQueryFlagEnum
 title: WbemQueryFlagEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Define the depth of enumeration or query, which determines how many objects are returned by a call.
 old-location: wmi\wbemqueryflagenum.htm
 old-project: WmiSdk
 ms.assetid: 5da897fa-3dba-4360-bbbe-287da5717205
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WbemQueryFlagEnum, WbemQueryFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemqueryflagenum, wbemQueryFlagDeep, wbemQueryFlagPrototype, wbemQueryFlagShallow, wbemdisp/WbemQueryFlagEnum, wbemdisp/wbemQueryFlagDeep, wbemdisp/wbemQueryFlagPrototype, wbemdisp/wbemQueryFlagShallow, wmi.wbemqueryflagenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

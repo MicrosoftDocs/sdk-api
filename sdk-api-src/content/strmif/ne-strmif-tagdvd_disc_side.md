@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_DISC_SIDE
 title: tagDVD_DISC_SIDE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the sides of a DVD disc.
 old-location: dshow\dvd_disc_side.htm
 old-project: DirectShow
 ms.assetid: 50ea509c-15fc-4066-ad86-04e5e87fdfa6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_DISC_SIDE, DVD_DISC_SIDE , DVD_DISC_SIDE enumeration [DirectShow], DVD_DISC_SIDEEnumeration, DVD_SIDE_A, DVD_SIDE_B, dshow.dvd_disc_side, strmif/DVD_DISC_SIDE, strmif/DVD_SIDE_A, strmif/DVD_SIDE_B, tagDVD_DISC_SIDE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

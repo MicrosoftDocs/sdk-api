@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_STORAGE_POOL_PROP
 title: "_VDS_STORAGE_POOL_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a storage pool object.
 old-location: base\vds_storage_pool_prop.htm
 old-project: VDS
 ms.assetid: 2a82e872-2005-4b05-b67a-161b16c4f3aa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP structure pointer, VDS_H_DEGRADED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_STORAGE_POOL_PROP, VDS_STORAGE_POOL_PROP structure, _VDS_STORAGE_POOL_PROP, base.vds_storage_pool_prop, vds/PVDS_STORAGE_POOL_PROP, vds/VDS_STORAGE_POOL_PROP, vdshwprv/PVDS_STORAGE_POOL_PROP, vdshwprv/VDS_STORAGE_POOL_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

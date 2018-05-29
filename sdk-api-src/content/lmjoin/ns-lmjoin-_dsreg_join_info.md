@@ -1,16 +1,16 @@
 ---
 UID: NS:lmjoin._DSREG_JOIN_INFO
 title: "_DSREG_JOIN_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about how a device is joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_info.htm
 old-project: NetMgmt
 ms.assetid: 9B0F7BE3-BDCD-437E-9157-9A646A2A20E2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PDSREG_JOIN_INFO, DSREG_JOIN_INFO, DSREG_JOIN_INFO structure [Network Management], PDSREG_JOIN_INFO, PDSREG_JOIN_INFO structure pointer [Network Management], _DSREG_JOIN_INFO, lmjoin/DSREG_JOIN_INFO, lmjoin/PDSREG_JOIN_INFO, netmgmt.dsreg_join_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmjoin.h
 req.include-header: 

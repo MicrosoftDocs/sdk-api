@@ -1,16 +1,16 @@
 ---
 UID: NN:atscpsipparser.IAtscContentAdvisoryDescriptor
 title: IAtscContentAdvisoryDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor.htm
 old-project: mstv
 ms.assetid: b7379d66-c57b-45e0-9c63-901bf3637f21
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies], IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],described, IAtscContentAdvisoryDescriptorInterface, atscpsipparser/IAtscContentAdvisoryDescriptor, mstv.iatsccontentadvisorydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: 

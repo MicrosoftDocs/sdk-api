@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetTimeFromSystemTimeA
 title: InternetTimeFromSystemTimeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: wininet\internettimefromsystemtime.htm
 old-project: WinInet
 ms.assetid: b52ba402-bad1-4005-b9d0-7630194272d1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetTimeFromSystemTime, InternetTimeFromSystemTime function [WinINet], InternetTimeFromSystemTimeA, InternetTimeFromSystemTimeW, _inet_internettimefromsystemtime_function, wininet.internettimefromsystemtime, wininet/InternetTimeFromSystemTime, wininet/InternetTimeFromSystemTimeA, wininet/InternetTimeFromSystemTimeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

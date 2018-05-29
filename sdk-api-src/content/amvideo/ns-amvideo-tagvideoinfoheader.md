@@ -1,16 +1,16 @@
 ---
 UID: NS:amvideo.tagVIDEOINFOHEADER
 title: tagVIDEOINFOHEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: The VIDEOINFOHEADER structure describes the bitmap and color information for a video image.
 old-location: dshow\videoinfoheader.htm
 old-project: DirectShow
 ms.assetid: a175592b-0dc1-4001-b52f-785407965932
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOHEADERStructure, amvideo/VIDEOINFOHEADER, dshow.videoinfoheader, tagVIDEOINFOHEADER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

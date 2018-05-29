@@ -1,16 +1,16 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC
 title: "_RSVP_FILTERSPEC"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RSVP_FILTERSPEC structure provides RSVP FILTERSPEC information.
 old-location: qos\rsvp_filterspec.htm
 old-project: QOS
 ms.assetid: ce4af25d-6c31-43a2-a30a-1d28b18e8f8b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPRSVP_FILTERSPEC, *LPRSVP_FILTERSPEC structure [QOS], RSVP_FILTERSPEC, RSVP_FILTERSPEC structure [QOS], _RSVP_FILTERSPEC, qos.rsvp_filterspec, qossp/*LPRSVP_FILTERSPEC, qossp/RSVP_FILTERSPEC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

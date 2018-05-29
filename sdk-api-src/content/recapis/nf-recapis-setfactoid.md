@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.SetFactoid
 title: SetFactoid function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the factoid a recognizer uses to constrain its search for the result.You specify a factoid if an input field is of a known type, such as if the input field contains a date.
 old-location: tablet\setfactoid.htm
 old-project: tablet
 ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.UpdateTileMappings
 title: ID3D12CommandQueue::UpdateTileMappings
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
 old-location: direct3d12\id3d12commandqueue_updatetilemappings.htm
 old-project: direct3d12
 ms.assetid: 8A8017E5-AB55-4660-855B-D6F93F69CB52
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12CommandQueue interface,UpdateTileMappings method, ID3D12CommandQueue.UpdateTileMappings, ID3D12CommandQueue::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method, UpdateTileMappings method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::UpdateTileMappings, direct3d12.id3d12commandqueue_updatetilemappings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

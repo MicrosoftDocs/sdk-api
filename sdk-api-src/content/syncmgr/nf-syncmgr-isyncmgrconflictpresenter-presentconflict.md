@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictPresenter.PresentConflict
 title: ISyncMgrConflictPresenter::PresentConflict
-author: windows-driver-content
+author: windows-sdk-content
 description: Presents the conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter_PresentConflict.htm
 old-project: shell
 ms.assetid: 632c0e9c-facd-422e-9467-005c44adc175
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrConflictPresenter interface [Windows Shell],PresentConflict method, ISyncMgrConflictPresenter.PresentConflict, ISyncMgrConflictPresenter::PresentConflict, PresentConflict, PresentConflict method [Windows Shell], PresentConflict method [Windows Shell],ISyncMgrConflictPresenter interface, _shell_ISyncMgrConflictPresenter_PresentConflict, shell.ISyncMgrConflictPresenter_PresentConflict, syncmgr/ISyncMgrConflictPresenter::PresentConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

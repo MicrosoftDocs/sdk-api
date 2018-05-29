@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IStringCollection.get__NewEnum
 title: IStringCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\istringcollection__newenum.htm
 old-project: Wua_Sdk
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

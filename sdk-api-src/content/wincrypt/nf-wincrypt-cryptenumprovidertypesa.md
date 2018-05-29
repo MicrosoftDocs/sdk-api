@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptEnumProviderTypesA
 title: CryptEnumProviderTypesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
 old-location: security\cryptenumprovidertypes.htm
 old-project: SecCrypto
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

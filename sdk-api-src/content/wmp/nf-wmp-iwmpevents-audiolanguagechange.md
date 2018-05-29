@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.AudioLanguageChange
 title: IWMPEvents::AudioLanguageChange
-author: windows-driver-content
+author: windows-sdk-content
 description: The AudioLanguageChange event occurs when the current audio language changes.
 old-location: wmp\iwmpevents_iwmpevents__audiolanguagechange.htm
 old-project: WMP
 ms.assetid: c1dbe76f-5cc0-4c12-98bb-2586ee8773d5
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: AudioLanguageChange, AudioLanguageChange method [Windows Media Player], AudioLanguageChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],AudioLanguageChange method, IWMPEvents.AudioLanguageChange, IWMPEvents::AudioLanguageChange, IWMPEventsAudioLanguageChange, wmp.iwmpevents_iwmpevents__audiolanguagechange, wmp/IWMPEvents::AudioLanguageChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

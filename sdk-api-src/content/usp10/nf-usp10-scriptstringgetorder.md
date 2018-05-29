@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptStringGetOrder
 title: ScriptStringGetOrder function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an array that maps an original character position to a glyph position.
 old-location: intl\scriptstringgetorder.htm
 old-project: Intl
 ms.assetid: c9986143-af15-439b-8c99-e07b48344645
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptStringGetOrder, ScriptStringGetOrder function [Internationalization for Windows Applications], _win32_ScriptStringGetOrder, intl.scriptstringgetorder, usp10/ScriptStringGetOrder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

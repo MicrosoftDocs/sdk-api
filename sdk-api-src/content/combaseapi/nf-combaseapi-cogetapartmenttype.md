@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetApartmentType
 title: CoGetApartmentType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current apartment type and type qualifier.
 old-location: com\cogetapartmenttype.htm
 old-project: com
 ms.assetid: ab0b6008-397f-4210-ba26-1a041b709722
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetApartmentType, CoGetApartmentType function [COM], com.cogetapartmenttype, combaseapi/CoGetApartmentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

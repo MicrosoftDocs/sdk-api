@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateStoryboard
 title: IUIAnimationManager2::CreateStoryboard
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new storyboard.
 old-location: uianimation\iuianimationmanager2_createstoryboard.htm
 old-project: UIAnimation
 ms.assetid: 3D66B9DC-15F0-4660-ACF5-FBC801467FD9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateStoryboard, CreateStoryboard method [Windows Animation], CreateStoryboard method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateStoryboard method, IUIAnimationManager2.CreateStoryboard, IUIAnimationManager2::CreateStoryboard, uianimation.iuianimationmanager2_createstoryboard, uianimation/IUIAnimationManager2::CreateStoryboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

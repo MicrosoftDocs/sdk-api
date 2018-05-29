@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.BeginUnorderedGroup
 title: ISyncChangeBatch::BeginUnorderedGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an unordered group in the change batch. Item changes in this group can be in any order.
 old-location: winsync\isyncchangebatch_beginunorderedgroup.htm
 old-project: winsync
 ms.assetid: 8d44451a-9150-4b2c-b126-d4fa90c2e192
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: BeginUnorderedGroup, BeginUnorderedGroup method [Windows Sync], BeginUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],BeginUnorderedGroup method, ISyncChangeBatch.BeginUnorderedGroup, ISyncChangeBatch::BeginUnorderedGroup, winsync.isyncchangebatch_beginunorderedgroup, winsync/ISyncChangeBatch::BeginUnorderedGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

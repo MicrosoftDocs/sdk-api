@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.IsSystemSoundsSession
 title: IAudioSessionControl2::IsSystemSoundsSession
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsSystemSoundsSession method indicates whether the session is a system sounds session.
 old-location: coreaudio\iaudiosessioncontrol2_issystemsoundssession.htm
 old-project: CoreAudio
 ms.assetid: 9060f89c-83b1-433d-96e3-86ae4b1c7e7c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionControl2 interface [Core Audio],IsSystemSoundsSession method, IAudioSessionControl2.IsSystemSoundsSession, IAudioSessionControl2::IsSystemSoundsSession, IsSystemSoundsSession, IsSystemSoundsSession method [Core Audio], IsSystemSoundsSession method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::IsSystemSoundsSession, coreaudio.iaudiosessioncontrol2_issystemsoundssession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

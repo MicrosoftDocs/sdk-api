@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextHost.TxSetCaretPos
 title: ITextHost::TxSetCaretPos
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the caret position to the specified coordinates in the text host window.
 old-location: controls\ITextHost_TxSetCaretPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxsetcaretpos.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetCaretPos method, ITextHost.TxSetCaretPos, ITextHost::TxSetCaretPos, TxSetCaretPos, TxSetCaretPos method [Windows Controls], TxSetCaretPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCaretPos, _win32_ITextHost_TxSetCaretPos_cpp, controls.ITextHost_TxSetCaretPos, controls._win32_ITextHost_TxSetCaretPos, textserv/ITextHost::TxSetCaretPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

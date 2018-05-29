@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_OPTION
 title: "_WSMAN_OPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a specific option name and value pair.
 old-location: winrm\wsman_option.htm
 old-project: WinRM
 ms.assetid: 9ebb9b21-1418-476d-a7a2-395c77f26dc9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_OPTION, WSMAN_OPTION structure [Windows Remote Management], _WSMAN_OPTION, winrm.wsman_option, wsman/WSMAN_OPTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

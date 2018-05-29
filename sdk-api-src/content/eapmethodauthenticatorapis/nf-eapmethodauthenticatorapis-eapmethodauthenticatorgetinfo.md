@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetInfo
 title: EapMethodAuthenticatorGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains a set of function pointers for an implementation of the loaded EAP authenticator method.EapMethodAuthenticatorGetInfo is a function prototype.
 old-location: eaphost\eapmethodauthenticatorgetinfo.htm
 old-project: EAPHost
 ms.assetid: 83a643bb-5d2e-4227-b82e-e63035860f46
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorGetInfo, EapMethodAuthenticatorGetInfo function [EAPHost], eaphost.eapmethodauthenticatorgetinfo, eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

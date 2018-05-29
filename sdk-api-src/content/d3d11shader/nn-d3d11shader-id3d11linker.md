@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11shader.ID3D11Linker
 title: ID3D11Linker
-author: windows-driver-content
+author: windows-sdk-content
 description: A linker interface is used to link a shader module.
 old-location: direct3d11\id3d11linker.htm
 old-project: direct3d11
 ms.assetid: 08967A5F-AAAE-4352-A8A9-C7B1ED16EF25
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Linker, ID3D11Linker interface [Direct3D 11], ID3D11Linker interface [Direct3D 11],described, d3d11shader/ID3D11Linker, direct3d11.id3d11linker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 

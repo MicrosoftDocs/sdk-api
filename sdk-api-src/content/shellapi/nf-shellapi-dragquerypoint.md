@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.DragQueryPoint
 title: DragQueryPoint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the position of the mouse pointer at the time a file was dropped during a drag-and-drop operation.
 old-location: shell\DragQueryPoint.htm
 old-project: shell
 ms.assetid: 87794ab0-a075-4a1f-869f-5998bdc57a1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DragQueryPoint, DragQueryPoint function [Windows Shell], _win32_DragQueryPoint, shell.DragQueryPoint, shellapi/DragQueryPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

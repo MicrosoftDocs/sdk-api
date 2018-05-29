@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodException
 title: IComMethodEvents::OnMethodException
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an object's method generates an exception.
 old-location: cos\icommethodevents_onmethodexception.htm
 old-project: cossdk
 ms.assetid: b504a2db-0d18-42f1-8572-dc066c3e7740
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodException method, IComMethodEvents.OnMethodException, IComMethodEvents::OnMethodException, OnMethodException, OnMethodException method [COM+], OnMethodException method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodException, comsvcs/IComMethodEvents::OnMethodException, cos.icommethodevents_onmethodexception
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

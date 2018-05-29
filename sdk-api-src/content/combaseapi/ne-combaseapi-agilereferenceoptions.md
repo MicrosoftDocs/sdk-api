@@ -1,16 +1,16 @@
 ---
 UID: NE:combaseapi.AgileReferenceOptions
 title: AgileReferenceOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies options for the RoGetAgileReference function.
 old-location: winrt\agilereferenceoptions.htm
 old-project: WinRT
 ms.assetid: F46FD597-F278-4DA8-BC94-26836684AD7E
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: AGILEREFERENCE_DEFAULT, AGILEREFERENCE_DELAYEDMARSHAL, AgileReferenceOptions, AgileReferenceOptions enumeration [Windows Runtime], combaseapi/AGILEREFERENCE_DEFAULT, combaseapi/AGILEREFERENCE_DELAYEDMARSHAL, combaseapi/AgileReferenceOptions, winrt.agilereferenceoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: 

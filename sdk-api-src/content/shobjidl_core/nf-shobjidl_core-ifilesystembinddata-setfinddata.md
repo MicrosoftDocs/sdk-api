@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData.SetFindData
 title: IFileSystemBindData::SetFindData
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores file system information in a WIN32_FIND_DATA structure. This information is used by ParseDisplayName.
 old-location: shell\IFileSystemBindData_SetFindData.htm
 old-project: shell
 ms.assetid: 8e2af85f-5eca-46e4-b193-bf25e2366fac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileSystemBindData interface [Windows Shell],SetFindData method, IFileSystemBindData.SetFindData, IFileSystemBindData::SetFindData, SetFindData, SetFindData method [Windows Shell], SetFindData method [Windows Shell],IFileSystemBindData interface, _shell_ifilesystembinddata_setfinddata, shell.IFileSystemBindData_SetFindData, shobjidl_core/IFileSystemBindData::SetFindData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

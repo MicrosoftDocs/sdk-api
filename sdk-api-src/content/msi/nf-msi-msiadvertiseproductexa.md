@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiAdvertiseProductExA
 title: MsiAdvertiseProductExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiAdvertiseProductEx function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproductex.htm
 old-project: Msi
 ms.assetid: 27e8deb6-912f-4103-97a6-ec505340dccc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MSIADVERTISEOPTIONS_INSTANCE, MSIARCHITECTUREFLAGS_AMD64, MSIARCHITECTUREFLAGS_IA64, MSIARCHITECTUREFLAGS_X86, MsiAdvertiseProductEx, MsiAdvertiseProductEx function, MsiAdvertiseProductExA, MsiAdvertiseProductExW, _msi_msiadvertiseproductex, msi/MsiAdvertiseProductEx, msi/MsiAdvertiseProductExA, msi/MsiAdvertiseProductExW, none, setup.msiadvertiseproductex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

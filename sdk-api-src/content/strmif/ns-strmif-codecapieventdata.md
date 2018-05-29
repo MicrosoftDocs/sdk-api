@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.CodecAPIEventData
 title: CodecAPIEventData
-author: windows-driver-content
+author: windows-sdk-content
 description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface.
 old-location: dshow\codecapieventdata.htm
 old-project: DirectShow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

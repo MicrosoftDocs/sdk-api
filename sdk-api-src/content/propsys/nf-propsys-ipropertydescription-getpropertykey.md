@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetPropertyKey
 title: IPropertyDescription::GetPropertyKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a structure that acts as a property's unique identifier.
 old-location: properties\IPropertyDescription_GetPropertyKey.htm
 old-project: properties
 ms.assetid: 10942dff-234e-4f85-827b-f27a6f099818
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Properties], GetPropertyKey method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyKey method, IPropertyDescription.GetPropertyKey, IPropertyDescription::GetPropertyKey, properties.IPropertyDescription_GetPropertyKey, propsys/IPropertyDescription::GetPropertyKey, shell.IPropertyDescription_GetPropertyKey, shell_IPropertyDescription_GetPropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

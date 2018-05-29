@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.SetCLSID
 title: ICOMLBArguments::SetCLSID
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the object's CLSID.
 old-location: cos\icomlbarguments_setclsid.htm
 old-project: cossdk
 ms.assetid: 66f24611-0f98-4226-858b-90fef35cc257
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMLBArguments interface [COM+],SetCLSID method, ICOMLBArguments.SetCLSID, ICOMLBArguments::SetCLSID, SetCLSID, SetCLSID method [COM+], SetCLSID method [COM+],ICOMLBArguments interface, _cos_ICOMLBArguments_SetCLSID, comsvcs/ICOMLBArguments::SetCLSID, cos.icomlbarguments_setclsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

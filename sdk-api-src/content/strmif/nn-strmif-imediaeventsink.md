@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMediaEventSink
 title: IMediaEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the Filter Graph Manager of events that occur within the filter graph.
 old-location: dshow\imediaeventsink.htm
 old-project: DirectShow
 ms.assetid: 50aa04b4-9a04-4d0d-a558-42595a69aef7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaEventSink, IMediaEventSink interface [DirectShow], IMediaEventSink interface [DirectShow],described, IMediaEventSinkInterface, dshow.imediaeventsink, strmif/IMediaEventSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

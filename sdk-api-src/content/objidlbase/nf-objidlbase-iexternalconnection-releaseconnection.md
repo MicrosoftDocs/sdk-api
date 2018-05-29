@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IExternalConnection.ReleaseConnection
 title: IExternalConnection::ReleaseConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrements the count of an object's strong external connections.
 old-location: com\iexternalconnection_releaseconnection.htm
 old-project: com
 ms.assetid: 7ed598b2-9603-454a-99cf-849715e43ca1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IExternalConnection interface [COM],ReleaseConnection method, IExternalConnection.ReleaseConnection, IExternalConnection::ReleaseConnection, ReleaseConnection, ReleaseConnection method [COM], ReleaseConnection method [COM],IExternalConnection interface, _com_iexternalconnection_releaseconnection, com.iexternalconnection_releaseconnection, objidlbase/IExternalConnection::ReleaseConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

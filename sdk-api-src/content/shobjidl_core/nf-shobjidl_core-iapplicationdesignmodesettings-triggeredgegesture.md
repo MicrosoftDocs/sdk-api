@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.TriggerEdgeGesture
 title: IApplicationDesignModeSettings::TriggerEdgeGesture
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a spoofed edge gesture event to the proxy core window on the caller's thread. This gesture toggles the app's app bar, if the app supports one. The caller can specify the type of input that triggered the edge gesture.
 old-location: shell\IApplicationDesignModeSettings_TriggerEdgeGesture.htm
 old-project: shell
 ms.assetid: 0B74E779-543F-411F-B6BA-44F00C4D70BE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EGK_KEYBOARD, EGK_MOUSE, EGK_TOUCH, IApplicationDesignModeSettings interface [Windows Shell],TriggerEdgeGesture method, IApplicationDesignModeSettings.TriggerEdgeGesture, IApplicationDesignModeSettings::TriggerEdgeGesture, TriggerEdgeGesture, TriggerEdgeGesture method [Windows Shell], TriggerEdgeGesture method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_TriggerEdgeGesture, shobjidl_core/IApplicationDesignModeSettings::TriggerEdgeGesture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

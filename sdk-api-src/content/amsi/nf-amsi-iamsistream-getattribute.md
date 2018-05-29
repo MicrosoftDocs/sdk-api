@@ -1,16 +1,16 @@
 ---
 UID: NF:amsi.IAmsiStream.GetAttribute
 title: IAmsiStream::GetAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a requested attribute from the stream.
 old-location: amsi\iamsistream_getattribute.htm
 old-project: AMSI
 ms.assetid: 7AD74D85-1A1E-4AFD-91C1-670AC7280285
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: GetAttribute, GetAttribute method [Antimalware Scan Interface], GetAttribute method [Antimalware Scan Interface],IAmsiStream interface, IAmsiStream interface [Antimalware Scan Interface],GetAttribute method, IAmsiStream.GetAttribute, IAmsiStream::GetAttribute, amsi.iamsistream_getattribute, amsi/IAmsiStream::GetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amsi.h
 req.include-header: 

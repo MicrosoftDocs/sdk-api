@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Clone
 title: IEnumCERTVIEWATTRIBUTE::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the attribute-enumeration sequence object in its current state.
 old-location: security\ienumcertviewattribute_clone.htm
 old-project: SecCrypto
 ms.assetid: 6144514a-cd64-42ce-a856-ff942b129e5a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],Clone method, IEnumCERTVIEWATTRIBUTE.Clone, IEnumCERTVIEWATTRIBUTE::Clone, _certsrv_ienumcertviewattribute_clone, certview/IEnumCERTVIEWATTRIBUTE::Clone, security.ienumcertviewattribute_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

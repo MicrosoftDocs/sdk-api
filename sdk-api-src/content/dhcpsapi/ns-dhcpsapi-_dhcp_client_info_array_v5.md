@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_ARRAY_V5
 title: "_DHCP_CLIENT_INFO_ARRAY_V5"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an array of DHCP_CLIENT_INFO_V5 structures for use with enumeration functions.
 old-location: dhcp\dhcp_client_info_array_v5.htm
 old-project: DHCP
 ms.assetid: 2188f187-d8d3-4579-bb04-4c4712903a91
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_V5, DHCP_CLIENT_INFO_ARRAY_V5, DHCP_CLIENT_INFO_ARRAY_V5 structure [DHCP], LPDHCP_CLIENT_INFO_ARRAY_V5, LPDHCP_CLIENT_INFO_ARRAY_V5 structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_V5, dhcp.dhcp_client_info_array_v5, dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V5, dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V5"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

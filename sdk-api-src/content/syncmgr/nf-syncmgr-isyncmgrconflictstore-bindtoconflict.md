@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.BindToConflict
 title: ISyncMgrConflictStore::BindToConflict
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to a particular conflict specified by IID.
 old-location: shell\ISyncMgrConflictStore_BindToConflict.htm
 old-project: shell
 ms.assetid: 86414360-7dc5-4819-8372-0cede07ba41b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BindToConflict, BindToConflict method [Windows Shell], BindToConflict method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],BindToConflict method, ISyncMgrConflictStore.BindToConflict, ISyncMgrConflictStore::BindToConflict, _shell_ISyncMgrConflictStore_BindToConflict, shell.ISyncMgrConflictStore_BindToConflict, syncmgr/ISyncMgrConflictStore::BindToConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

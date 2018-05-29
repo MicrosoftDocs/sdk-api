@@ -1,16 +1,16 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_ARCHITECTURE
 title: APPX_PACKAGE_ARCHITECTURE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the processor architectures supported by a package.
 old-location: appxpkg\appx_package_architecture.htm
 old-project: appxpkg
 ms.assetid: 8BC7ABF0-448F-4405-AA82-49C6DB3F230C
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: APPX_PACKAGE_ARCHITECTURE, APPX_PACKAGE_ARCHITECTURE enumeration [App packaging and management], APPX_PACKAGE_ARCHITECTURE_ARM, APPX_PACKAGE_ARCHITECTURE_ARM64, APPX_PACKAGE_ARCHITECTURE_NEUTRAL, APPX_PACKAGE_ARCHITECTURE_X64, APPX_PACKAGE_ARCHITECTURE_X86, appxpackaging/APPX_PACKAGE_ARCHITECTURE, appxpackaging/APPX_PACKAGE_ARCHITECTURE_ARM, appxpackaging/APPX_PACKAGE_ARCHITECTURE_ARM64, appxpackaging/APPX_PACKAGE_ARCHITECTURE_NEUTRAL, appxpackaging/APPX_PACKAGE_ARCHITECTURE_X64, appxpackaging/APPX_PACKAGE_ARCHITECTURE_X86, appxpkg.appx_package_architecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: appxpackaging.h
 req.include-header: 

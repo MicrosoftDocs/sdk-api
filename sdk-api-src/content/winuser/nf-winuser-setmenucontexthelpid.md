@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetMenuContextHelpId
 title: SetMenuContextHelpId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a Help context identifier with a menu.
 old-location: shell\SetMenuContextHelpId.htm
 old-project: shell
 ms.assetid: 55d944db-d889-468a-991a-b9779c90b44f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetMenuContextHelpId, SetMenuContextHelpId function [Windows Shell], _win32_SetMenuContextHelpId, shell.SetMenuContextHelpId, winuser/SetMenuContextHelpId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

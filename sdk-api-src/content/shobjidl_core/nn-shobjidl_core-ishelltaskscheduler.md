@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellTaskScheduler
 title: IShellTaskScheduler
-author: windows-driver-content
+author: windows-sdk-content
 description: IShellTaskScheduler may be altered or unavailable.
 old-location: shell\IShellTaskScheduler.htm
 old-project: shell
 ms.assetid: 4898da7b-3d63-481f-a63a-d4f2554cfc8e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellTaskScheduler, IShellTaskScheduler interface [Windows Shell], IShellTaskScheduler interface [Windows Shell],described, _win32_IShellTaskScheduler, shell.IShellTaskScheduler, shobjidl_core/IShellTaskScheduler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

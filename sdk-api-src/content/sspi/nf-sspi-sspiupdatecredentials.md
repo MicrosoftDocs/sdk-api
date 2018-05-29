@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiUpdateCredentials
 title: SspiUpdateCredentials function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the credentials associated with the specified context.
 old-location: security\sspiupdatecredentials.htm
 old-project: SecAuthN
 ms.assetid: d00dc076-f0fc-44e9-8083-75ad715cf0c7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiUpdateCredentials, SspiUpdateCredentials function [Security], security.sspiupdatecredentials, sspi/SspiUpdateCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

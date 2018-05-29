@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE
 title: PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a resource type in a cluster.
 old-location: mscs\createclusterresourcetype.htm
 old-project: MsCS
 ms.assetid: 19b8e8cf-898c-4df5-959c-e3789b082a76
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE callback, PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE callback function [Failover Cluster], _wolf_createclusterresourcetype, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, mscs.createclusterresourcetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

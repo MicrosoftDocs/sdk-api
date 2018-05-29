@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerSettingAccessCheck
 title: PowerSettingAccessCheck function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries for a group policy override for specified power settings.
 old-location: base\powersettingaccesscheck.htm
 old-project: Power
 ms.assetid: 0b89c189-b162-44d4-aa50-d78385e40c27
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, PowerSettingAccessCheck, PowerSettingAccessCheck function, base.powersettingaccesscheck, powrprof/PowerSettingAccessCheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

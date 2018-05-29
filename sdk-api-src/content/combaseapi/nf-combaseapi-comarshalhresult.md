@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoMarshalHresult
 title: CoMarshalHresult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marshals an HRESULT to the specified stream, from which it can be unmarshaled using the CoUnmarshalHresult function.
 old-location: com\comarshalhresult.htm
 old-project: com
 ms.assetid: 37aaf404-49ca-4881-a369-44c5288abf1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoMarshalHresult, CoMarshalHresult function [COM], _com_CoMarshalHresult, com.comarshalhresult, combaseapi/CoMarshalHresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

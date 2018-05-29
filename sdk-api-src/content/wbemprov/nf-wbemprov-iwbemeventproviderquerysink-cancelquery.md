@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemEventProviderQuerySink.CancelQuery
 title: IWbemEventProviderQuerySink::CancelQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: Call the IWbemEventProviderQuerySink::CancelQuery method whenever a logical event consumer cancels a relevant event query filter with Windows Management.
 old-location: wmi\iwbemeventproviderquerysink_cancelquery.htm
 old-project: WmiSdk
 ms.assetid: fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CancelQuery, CancelQuery method [Windows Management Instrumentation], CancelQuery method [Windows Management Instrumentation],IWbemEventProviderQuerySink interface, IWbemEventProviderQuerySink interface [Windows Management Instrumentation],CancelQuery method, IWbemEventProviderQuerySink.CancelQuery, IWbemEventProviderQuerySink::CancelQuery, _hmm_iwbemeventproviderquerysink_cancelquery, wbemprov/IWbemEventProviderQuerySink::CancelQuery, wmi.iwbemeventproviderquerysink_cancelquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

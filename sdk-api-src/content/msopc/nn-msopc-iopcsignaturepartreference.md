@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReference
 title: IOpcSignaturePartReference
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a reference to a part that has been or will be signed.
 old-location: opc\iopcsignaturepartreference.htm
 old-project: OPC
 ms.assetid: b4bbf854-96b4-412b-a22d-c810423a3752
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignaturePartReference, IOpcSignaturePartReference interface [Open Packaging Conventions], IOpcSignaturePartReference interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReference, opc.iopcsignaturepartreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

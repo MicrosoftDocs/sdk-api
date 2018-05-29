@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.RemoveFromSelection
 title: ITextRangeProvider::RemoveFromSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the text range from the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
 old-location: winauto\uiauto_ITextRangeProvider_RemoveFromSelection.htm
 old-project: WinAuto
 ms.assetid: 057d784e-906a-4de8-bdd8-b58a2e26f37c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],RemoveFromSelection method, ITextRangeProvider.RemoveFromSelection, ITextRangeProvider::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_RemoveFromSelection, uiauto_ITextRangeProvider_RemoveFromSelection, uiautomationcore/ITextRangeProvider::RemoveFromSelection, winauto.uiauto_ITextRangeProvider_RemoveFromSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

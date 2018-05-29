@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetPKeyInformation
 title: SLGetPKeyInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the information of the specified product key.
 old-location: security\slgetpkeyinformation.htm
 old-project: SecSLApi
 ms.assetid: b7728d20-da39-4443-aaca-a6461880bb53
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetPKeyInformation, SLGetPKeyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_CHANNEL, SL_INFO_KEY_DIGITAL_PID, SL_INFO_KEY_DIGITAL_PID2, SL_INFO_KEY_PARTIAL_PRODUCT_KEY, SL_INFO_KEY_PRODUCT_SKU_ID, security.slgetpkeyinformation, slpublic/SLGetPKeyInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

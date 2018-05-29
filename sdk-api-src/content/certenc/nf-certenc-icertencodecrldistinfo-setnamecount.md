@@ -1,16 +1,16 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameCount
 title: ICertEncodeCRLDistInfo::SetNameCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a name count for the specified distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnamecount.htm
 old-project: SecCrypto
 ms.assetid: ce27adfd-e21a-4e8d-882e-72041f97958a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],SetNameCount method, ICertEncodeCRLDistInfo interface [Security],SetNameCount method, ICertEncodeCRLDistInfo.SetNameCount, ICertEncodeCRLDistInfo::SetNameCount, SetNameCount, SetNameCount method [Security], SetNameCount method [Security],CCertEncodeCRLDistInfo object, SetNameCount method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_setnamecount, certenc/ICertEncodeCRLDistInfo::SetNameCount, security.icertencodecrldistinfo_setnamecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigTransportCreate
 title: MprConfigTransportCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.
 old-location: rras\mprconfigtransportcreate.htm
 old-project: RRAS
 ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigTransportCreate, MprConfigTransportCreate function [RAS], _mpr_mprconfigtransportcreate, mprapi/MprConfigTransportCreate, rras.mprconfigtransportcreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

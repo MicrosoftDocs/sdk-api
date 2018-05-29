@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITWordWheel.Lookup(LONG,IITResultSet,LONG)
 title: IITWordWheel::Lookup(LONG,IITResultSet,LONG)
-author: windows-driver-content
+author: windows-sdk-content
 description: Looks up an entry and returns contents in a buffer.
 old-location: htmlhelp\iitwordwheel_lookup1.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheellookupbuffer.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordWheel.Lookup, IITWordWheel.Lookup(LONG,IITResultSet,LONG), IITWordWheel::Lookup, IITWordWheel::Lookup(,LPVOID,DWORD), IITWordWheel::Lookup(LONG,IITResultSet,LONG), Lookup, Lookup method [HTML Help Workshop], Lookup method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_lookup1, infotech/IITWordWheel::Lookup, refIITWordWheelLookupBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

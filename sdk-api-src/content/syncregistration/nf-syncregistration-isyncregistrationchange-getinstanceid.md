@@ -1,16 +1,16 @@
 ---
 UID: NF:syncregistration.ISyncRegistrationChange.GetInstanceId
 title: ISyncRegistrationChange::GetInstanceId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.
 old-location: winsync\isyncregistrationchange_getinstanceid.htm
 old-project: winsync
 ms.assetid: 2b2655f4-2a67-405d-93dc-dd8242992ce5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetInstanceId method, ISyncRegistrationChange.GetInstanceId, ISyncRegistrationChange::GetInstanceId, syncregistration/ISyncRegistrationChange::GetInstanceId, winsync.isyncregistrationchange_getinstanceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:exdisp.IShellWindows._NewEnum
 title: IShellWindows::_NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator for the collection of Shell windows.
 old-location: shell\IShellWindows_NewEnum.htm
 old-project: shell
 ms.assetid: e91b2be7-2be9-4460-9a2a-57090dcfc961
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],_NewEnum method, IShellWindows._NewEnum, IShellWindows::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],IShellWindows interface, _win32_IShellWindows_NewEnum, exdisp/IShellWindows::_NewEnum, shell.IShellWindows_NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 

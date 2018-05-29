@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
 title: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the client of the list of certificate issuers that are acceptable to the server.
 old-location: wsw\ws_cert_issuer_list_notification_callback.htm
 old-project: wsw
 ms.assetid: a8417d3f-5932-4993-b206-b43b6a93ef8f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, wsw.ws_cert_issuer_list_notification_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

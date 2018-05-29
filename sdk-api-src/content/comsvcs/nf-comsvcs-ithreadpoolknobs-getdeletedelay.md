@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetDeleteDelay
 title: IThreadPoolKnobs::GetDeleteDelay
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of milliseconds a pooled thread can idle before being destroyed.
 old-location: cos\ithreadpoolknobs_getdeletedelay.htm
 old-project: cossdk
 ms.assetid: 93404c39-b4f8-4247-a437-fd373b0b68fe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDeleteDelay, GetDeleteDelay method [COM+], GetDeleteDelay method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetDeleteDelay method, IThreadPoolKnobs.GetDeleteDelay, IThreadPoolKnobs::GetDeleteDelay, _cos_IThreadPoolKnobs_GetDeleteDelay, comsvcs/IThreadPoolKnobs::GetDeleteDelay, cos.ithreadpoolknobs_getdeletedelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

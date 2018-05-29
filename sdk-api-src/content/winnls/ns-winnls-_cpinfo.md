@@ -1,16 +1,16 @@
 ---
 UID: NS:winnls._cpinfo
 title: "_cpinfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a code page. This structure is used by the GetCPInfo function.
 old-location: intl\cpinfo.htm
 old-project: Intl
 ms.assetid: accb7ce8-c1d0-4f89-9390-be26d7014de7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Windows Applications], LPCPINFO, LPCPINFO structure pointer [Internationalization for Windows Applications], _cpinfo, _win32_CPINFO_str, intl.cpinfo, winnls/CPINFO, winnls/LPCPINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

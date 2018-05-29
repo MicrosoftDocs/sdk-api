@@ -1,16 +1,16 @@
 ---
 UID: NF:gb18030.NlsDllCodePageTranslation
 title: NlsDllCodePageTranslation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to get code page information or do conversion, depending on flag settings.
 old-location: intl\nlsdllcodepagetranslation.htm
 old-project: Intl
 ms.assetid: cc653877-de16-4ccc-b48e-8bd7cfacb43c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NLS_CP_CPINFO, NLS_CP_MBTOWC, NLS_CP_WCTOMB, NlsDllCodePageTranslation, NlsDllCodePageTranslation function [Internationalization for Windows Applications], _win32_NlsDllCodePageTranslation, gb18030/NlsDllCodePageTranslation, intl.nlsdllcodepagetranslation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: gb18030.h
 req.include-header: 

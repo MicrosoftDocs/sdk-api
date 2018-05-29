@@ -1,16 +1,16 @@
 ---
 UID: NS:winhttp._WINHTTP_WEB_SOCKET_ASYNC_RESULT
 title: "_WINHTTP_WEB_SOCKET_ASYNC_RESULT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_ASYNC_RESULT includes the result status of a WebSocket operation.
 old-location: http\winhttp_web_socket_async_result.htm
 old-project: WinHttp
 ms.assetid: 90424980-9e30-465d-b948-820251c05357
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WINHTTP_WEB_SOCKET_ASYNC_RESULT, WINHTTP_WEB_SOCKET_ASYNC_RESULT structure [HTTP], _WINHTTP_WEB_SOCKET_ASYNC_RESULT, http.http_web_socket_async_result, http.winhttp_web_socket_async_result, winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

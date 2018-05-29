@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICBitmapCreateCacheOption
 title: WICBitmapCreateCacheOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the desired cache usage.
 old-location: wic\_wic_codec_wicbitmapcreatecacheoption.htm
 old-project: wic
 ms.assetid: 121d394d-e818-44c5-bf44-3b01df61c780
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapCreateCacheOption, WICBitmapCreateCacheOption enumeration [Windows Imaging Component], WICBitmapNoCache, _wic_codec_wicbitmapcreatecacheoption, wic._wic_codec_wicbitmapcreatecacheoption, wincodec/WICBitmapCacheOnDemand, wincodec/WICBitmapCacheOnLoad, wincodec/WICBitmapCreateCacheOption, wincodec/WICBitmapNoCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

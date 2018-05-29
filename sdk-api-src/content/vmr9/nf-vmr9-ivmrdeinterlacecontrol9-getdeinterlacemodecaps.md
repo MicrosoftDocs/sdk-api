@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetDeinterlaceModeCaps
 title: IVMRDeinterlaceControl9::GetDeinterlaceModeCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDeinterlaceModeCaps method gets the capabilities of a deinterlacing mode supported by the graphics device driver.
 old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlacemodecaps.htm
 old-project: DirectShow
 ms.assetid: 62b71df5-7665-4023-90cd-e426b751c1df
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDeinterlaceModeCaps, GetDeinterlaceModeCaps method [DirectShow], GetDeinterlaceModeCaps method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetDeinterlaceModeCaps method, IVMRDeinterlaceControl9.GetDeinterlaceModeCaps, IVMRDeinterlaceControl9::GetDeinterlaceModeCaps, IVMRDeinterlaceControl9GetDeinterlaceModeCaps, dshow.ivmrdeinterlacecontrol9_getdeinterlacemodecaps, vmr9/IVMRDeinterlaceControl9::GetDeinterlaceModeCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:tpmvscmgr.ITpmVirtualSmartCardManager
 title: ITpmVirtualSmartCardManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages the TPM virtual smart cards.
 old-location: security\itpmvirtualsmartcardmanager.htm
 old-project: SecAuthN
 ms.assetid: 46CC703B-14A2-4588-BA13-837C76B70F07
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tpmvscmgr.h
 req.include-header: 

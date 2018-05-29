@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PSYMBOLSERVERCALLBACKPROC
 title: PSYMBOLSERVERCALLBACKPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: An entry point to the symbol server DLL.
 old-location: winprog\symbolservercallback.htm
 old-project: DevNotes
 ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

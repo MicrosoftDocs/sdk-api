@@ -1,16 +1,16 @@
 ---
 UID: NF:appmgmt.UninstallApplication
 title: UninstallApplication function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UninstallApplication function uninstalls a group policy application that handles setup and installation using Windows Installer .msi files.
 old-location: policy\uninstallapplication.htm
 old-project: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 

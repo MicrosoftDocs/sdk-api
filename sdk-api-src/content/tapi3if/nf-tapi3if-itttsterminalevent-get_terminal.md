@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTTSTerminalEvent.get_Terminal
 title: ITTTSTerminalEvent::get_Terminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Terminal method gets an ITTerminal interface pointer for the terminal object involved in the event.
 old-location: tapi3\itttsterminalevent_get_terminal.htm
 old-project: Tapi
 ms.assetid: ce37e074-8ce0-4fde-b16a-c85a9487f0db
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTTSTerminalEvent interface [TAPI 2.2],get_Terminal method, ITTTSTerminalEvent.get_Terminal, ITTTSTerminalEvent::get_Terminal, _tapi3_itttsterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITTTSTerminalEvent interface, tapi3.itttsterminalevent_get_terminal, tapi3if/ITTTSTerminalEvent::get_Terminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

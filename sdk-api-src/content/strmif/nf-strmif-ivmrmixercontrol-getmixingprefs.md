@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetMixingPrefs
 title: IVMRMixerControl::GetMixingPrefs
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol_getmixingprefs.htm
 old-project: DirectShow
 ms.assetid: ee410a7e-e021-408a-bf40-cb58dc8eca1c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetMixingPrefs method, IVMRMixerControl.GetMixingPrefs, IVMRMixerControl::GetMixingPrefs, IVMRMixerControlGetMixingPrefs, dshow.ivmrmixercontrol_getmixingprefs, strmif/IVMRMixerControl::GetMixingPrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

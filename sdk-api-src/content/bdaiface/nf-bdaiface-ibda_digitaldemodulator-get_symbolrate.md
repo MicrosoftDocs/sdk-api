@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_SymbolRate
 title: IBDA_DigitalDemodulator::get_SymbolRate
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_SymbolRate method retrieves the symbol rate for the signal.
 old-location: mstv\ibda_digitaldemodulator_get_symbolrate.htm
 old-project: mstv
 ms.assetid: d3640389-2533-4e6f-bc3e-7dceef76866b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_SymbolRate method, IBDA_DigitalDemodulator.get_SymbolRate, IBDA_DigitalDemodulator::get_SymbolRate, IBDA_DigitalDemodulatorget_SymbolRate, bdaiface/IBDA_DigitalDemodulator::get_SymbolRate, get_SymbolRate, get_SymbolRate method [Microsoft TV Technologies], get_SymbolRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_symbolrate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

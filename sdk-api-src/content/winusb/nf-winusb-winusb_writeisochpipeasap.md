@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_WriteIsochPipeAsap
 title: WinUsb_WriteIsochPipeAsap function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_WriteIsochPipeAsap submits a request for writing the contents of a buffer to an isochronous OUT endpoint.
 old-location: buses\winusb_writeisochpipeasap.htm
 old-project: usbref
 ms.assetid: CC8776DF-9DC6-4B75-A4CE-EAC644EABABA
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_WriteIsochPipeAsap, WinUsb_WriteIsochPipeAsap routine [Buses], buses.winusb_writeisochpipeasap, winusb/WinUsb_WriteIsochPipeAsap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

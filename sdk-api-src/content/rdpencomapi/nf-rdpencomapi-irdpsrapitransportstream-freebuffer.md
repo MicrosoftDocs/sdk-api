@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.FreeBuffer
 title: IRDPSRAPITransportStream::FreeBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to return a stream buffer to the stream.
 old-location: rdp\irdpsrapitransportstream_freebuffer.htm
 old-project: Rdp
 ms.assetid: db2f0bc2-cddf-44bd-9899-192e5eb014bb
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],FreeBuffer method, IRDPSRAPITransportStream.FreeBuffer, IRDPSRAPITransportStream::FreeBuffer, rdp.irdpsrapitransportstream_freebuffer, rdpencomapi/IRDPSRAPITransportStream::FreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

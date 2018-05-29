@@ -1,16 +1,16 @@
 ---
 UID: NE:dmoreg.DMO_ENUM_FLAGS
 title: DMO_ENUM_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMO_ENUM_FLAGS enumeration defines flags that specify search criteria when enumerating Microsoft DirectX Media Objects (DMOs).
 old-location: dshow\dmo_enum_flags.htm
 old-project: DirectShow
 ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DMO_ENUMF_INCLUDE_KEYED, DMO_ENUM_FLAGS, DMO_ENUM_FLAGS enumeration [DirectShow], DMO_ENUM_FLAGSEnumeration, dmoreg/DMO_ENUMF_INCLUDE_KEYED, dmoreg/DMO_ENUM_FLAGS, dshow.dmo_enum_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dmoreg.h
 req.include-header: 

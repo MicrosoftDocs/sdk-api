@@ -1,16 +1,16 @@
 ---
 UID: NS:tlhelp32.tagTHREADENTRY32
 title: tagTHREADENTRY32
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an entry from a list of the threads executing in the system when a snapshot was taken.
 old-location: toolhelp\threadentry32_str.htm
 old-project: ToolHelp
 ms.assetid: 923feca1-8807-4752-8a5a-79075688aabd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPTHREADENTRY32, *PTHREADENTRY32, PTHREADENTRY32, PTHREADENTRY32 structure pointer [ToolHelp], THREADENTRY32, THREADENTRY32 structure [ToolHelp], _win32_threadentry32_str, base.threadentry32_str, tagTHREADENTRY32, tlhelp32/PTHREADENTRY32, tlhelp32/THREADENTRY32, toolhelp.threadentry32_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 

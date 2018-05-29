@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_SIGNED_CONTENT_INFO
 title: "_CERT_SIGNED_CONTENT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_SIGNED_CONTENT_INFO structure contains encoded content to be signed and a BLOB to hold the signature. The ToBeSigned member is an encoded CERT_INFO, CRL_INFO, CTL_INFO or CERT_REQUEST_INFO.
 old-location: security\cert_signed_content_info.htm
 old-project: SecCrypto
 ms.assetid: f650765e-7a72-42a3-baf7-29779fd04adc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO structure [Security], PCERT_SIGNED_CONTENT_INFO, PCERT_SIGNED_CONTENT_INFO structure pointer [Security], _CERT_SIGNED_CONTENT_INFO, _crypto2_cert_signed_content_info, security.cert_signed_content_info, wincrypt/CERT_SIGNED_CONTENT_INFO, wincrypt/PCERT_SIGNED_CONTENT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

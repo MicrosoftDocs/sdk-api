@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Deserialize
 title: ISettingsContext::Deserialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Deserializes the data in the stream that is provided to this context.
 old-location: smi\isettingscontext_deserialize.htm
 old-project: SMI
 ms.assetid: 382f2864-047e-4095-929b-a8b67773eefb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Deserialize, Deserialize method [SMI], Deserialize method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],Deserialize method, ISettingsContext.Deserialize, ISettingsContext::Deserialize, smi.isettingscontext_deserialize, wcmconfig/ISettingsContext::Deserialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

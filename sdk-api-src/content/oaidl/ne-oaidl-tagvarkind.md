@@ -1,16 +1,16 @@
 ---
 UID: NE:oaidl.tagVARKIND
 title: tagVARKIND
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the variable type.
 old-location: automat\varkind.htm
 old-project: automat
 ms.assetid: 8b2df767-bba1-4e0a-be63-32d45fb2be07
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VARKIND, VARKIND enumeration [Automation], VAR_CONST, VAR_DISPATCH, VAR_PERINSTANCE, VAR_STATIC, _oa96_VARKIND, automat.varkind, oaidl/VARKIND, oaidl/VAR_CONST, oaidl/VAR_DISPATCH, oaidl/VAR_PERINSTANCE, oaidl/VAR_STATIC, tagVARKIND
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: 

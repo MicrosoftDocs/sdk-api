@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetRectRgn
 title: SetRectRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetRectRgn function converts a region into a rectangular region with the specified coordinates.
 old-location: gdi\setrectrgn.htm
 old-project: gdi
 ms.assetid: 9a024d61-f397-43d8-a48e-edb8102a6f55
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetRectRgn, SetRectRgn function [Windows GDI], _win32_SetRectRgn, gdi.setrectrgn, wingdi/SetRectRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

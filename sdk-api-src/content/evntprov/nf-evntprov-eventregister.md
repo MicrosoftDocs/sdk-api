@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventRegister
 title: EventRegister function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the provider.
 old-location: etw\eventregister_func.htm
 old-project: ETW
 ms.assetid: 6025c3a6-7d88-49dc-bbc3-655c172dde3c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventRegister, EventRegister function [ETW], base.eventregister_func, etw.eventregister_func, evntprov/EventRegister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

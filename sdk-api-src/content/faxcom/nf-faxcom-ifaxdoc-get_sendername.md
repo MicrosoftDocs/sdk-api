@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderName
 title: IFaxDoc::get_SenderName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the SenderName property of a FaxDoc object. The SenderName property is a null-terminated string that contains the name of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_sendername_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_986d.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],SenderName property, FaxDoc.SenderName, IFaxDoc.get_SenderName, IFaxDoc::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername_vb, get_SenderName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IIsdbLogoTransmissionDescriptor
 title: IIsdbLogoTransmissionDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor.htm
 old-project: mstv
 ms.assetid: 9c0930f6-6c05-48c9-91e4-2abdd3355a32
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbLogoTransmissionDescriptor, mstv.iisdblogotransmissiondescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

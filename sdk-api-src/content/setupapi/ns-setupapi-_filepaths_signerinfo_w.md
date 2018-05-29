@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._FILEPATHS_SIGNERINFO_W
 title: "_FILEPATHS_SIGNERINFO_W"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information.
 old-location: setup\filepaths_signerinfo.htm
 old-project: SetupApi
 ms.assetid: c651933f-cf61-4012-9d08-195336f2cb3d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PFILEPATHS_SIGNERINFO_W, FILEOP_COPY, FILEOP_DELETE, FILEPATHS_SIGNERINFO, FILEPATHS_SIGNERINFO structure [Setup API], FILEPATHS_SIGNERINFO_W, PFILEPATHS_SIGNERINFO, PFILEPATHS_SIGNERINFO structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _FILEPATHS_SIGNERINFO_W, _setupapi_filepaths_signerinfo, setup.filepaths_signerinfo, setupapi/FILEPATHS_SIGNERINFO, setupapi/PFILEPATHS_SIGNERINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

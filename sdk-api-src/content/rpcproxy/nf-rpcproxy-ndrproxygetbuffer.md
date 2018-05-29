@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.NdrProxyGetBuffer
 title: NdrProxyGetBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrProxyGetBuffer function obtains a network buffer from COM through the use of an IRpcChannelBuffer::GetBuffer method call.
 old-location: rpc\ndrproxygetbuffer.htm
 old-project: Rpc
 ms.assetid: cdc07d50-a6cf-4107-9676-f48156fed1ca
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrProxyGetBuffer, NdrProxyGetBuffer function [RPC], rpc.ndrproxygetbuffer, rpcproxy/NdrProxyGetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

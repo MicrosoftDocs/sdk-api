@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetOutputBitmapSource
 title: IMILBitmapEffectImpl::GetOutputBitmapSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the output bitmap source of the effect of the given render context.
 old-location: wibe\_wibe_imilbitmapeffectimpl_getoutputbitmapsource.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getoutputbitmapsource.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: GetOutputBitmapSource, GetOutputBitmapSource method [WPF Bitmap Effects], GetOutputBitmapSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetOutputBitmapSource method, IMILBitmapEffectImpl.GetOutputBitmapSource, IMILBitmapEffectImpl::GetOutputBitmapSource, _wibe_imilbitmapeffectimpl_getoutputbitmapsource, mileffects/IMILBitmapEffectImpl::GetOutputBitmapSource, wibe._wibe_imilbitmapeffectimpl_getoutputbitmapsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

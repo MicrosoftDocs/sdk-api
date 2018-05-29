@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagVMRMONITORINFO
 title: tagVMRMONITORINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMRMONITORINFO structure is used in the IVMRMonitorConfig::GetAvailableMonitors method to set and retrieve information about monitors on the system (VMR-7 only).
 old-location: dshow\vmrmonitorinfo.htm
 old-project: DirectShow
 ms.assetid: 87567836-c01e-4615-a8e7-9ca590b6f7c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMRMONITORINFO, VMRMONITORINFO structure [DirectShow], VMRMONITORINFOStructure, dshow.vmrmonitorinfo, strmif/VMRMONITORINFO, tagVMRMONITORINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

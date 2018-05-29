@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INewMenuClient.SelectAndEditItem
 title: INewMenuClient::SelectAndEditItem
-author: windows-driver-content
+author: windows-sdk-content
 description: INewMenuClient::SelectAndEditItem method
 old-location: shell\INewMenuClient_SelectAndEditItem.htm
 old-project: shell
 ms.assetid: f731e69f-8ff0-42ff-96f8-04236f53d962
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INewMenuClient interface [Windows Shell],SelectAndEditItem method, INewMenuClient.SelectAndEditItem, INewMenuClient::SelectAndEditItem, NMCSAEI_EDIT, NMCSAEI_SELECT, SelectAndEditItem, SelectAndEditItem method [Windows Shell], SelectAndEditItem method [Windows Shell],INewMenuClient interface, _shell_INewMenuClient_SelectAndEditItem, shell.INewMenuClient_SelectAndEditItem, shobjidl_core/INewMenuClient::SelectAndEditItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FONTOBJ_cGetGlyphs
 title: FONTOBJ_cGetGlyphs function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FONTOBJ_cGetGlyphs function is a service to the font consumer that translates glyph handles into pointers to glyph data, which are valid until the next call to FONTOBJ_cGetGlyphs.
 old-location: display\fontobj_cgetglyphs.htm
 old-project: display
 ms.assetid: 0174fc88-e665-427e-b22f-468ddbea5b47
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FONTOBJ_cGetGlyphs, FONTOBJ_cGetGlyphs function [Display Devices], display.fontobj_cgetglyphs, gdifncs_8e402f9d-4ce3-4907-921c-9c0335a3966b.xml, winddi/FONTOBJ_cGetGlyphs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

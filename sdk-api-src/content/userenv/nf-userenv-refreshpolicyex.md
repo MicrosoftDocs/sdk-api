@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.RefreshPolicyEx
 title: RefreshPolicyEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RefreshPolicyEx function causes policy to be applied immediately on the computer. The extended function allows you to specify the type of policy refresh to apply.
 old-location: policy\refreshpolicyex.htm
 old-project: Policy
 ms.assetid: 905ab96b-a7f2-4bb4-a539-385f78284644
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: RP_FORCE, RefreshPolicyEx, RefreshPolicyEx function [Group Policy], _win32_refreshpolicyex, policy.refreshpolicyex, userenv/RefreshPolicyEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

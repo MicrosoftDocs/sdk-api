@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrFormatKBSizeA
 title: StrFormatKBSizeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a numeric value into a string that represents the number expressed as a size value in kilobytes.
 old-location: shell\StrFormatKBSize.htm
 old-project: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

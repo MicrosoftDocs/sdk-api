@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponent.get_Description
 title: IComponent::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Description method retrieves the description of the component.
 old-location: mstv\icomponent_get_description.htm
 old-project: mstv
 ms.assetid: ef7d1308-27ff-4d4d-b88d-58a9f89abc7f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_Description method, IComponent.get_Description, IComponent::get_Description, IComponentget_Description, get_Description, get_Description method [Microsoft TV Technologies], get_Description method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_description, tuner/IComponent::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

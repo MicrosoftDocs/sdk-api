@@ -1,16 +1,16 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPass
 title: IAMWMBufferPass
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMWMBufferPass interface is implemented on the output pins of the WM ASF Reader and the input pins of the WM ASF Writer.
 old-location: dshow\iamwmbufferpass.htm
 old-project: DirectShow
 ms.assetid: c13fe4e0-0847-4799-92a6-da36375cfbf4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [DirectShow], IAMWMBufferPass interface [DirectShow],described, IAMWMBufferPassInterface, dshow.iamwmbufferpass, dshowasf/IAMWMBufferPass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 

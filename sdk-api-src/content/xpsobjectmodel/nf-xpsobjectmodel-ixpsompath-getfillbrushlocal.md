@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetFillBrushLocal
 title: IXpsOMPath::GetFillBrushLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the fill brush for the path.
 old-location: xps\ixpsompath_getfillbrushlocal.htm
 old-project: printdocs
 ms.assetid: 5c5a7150-19d6-40aa-871b-5600c0b0a947
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMPath.GetFillBrushLocal, IXpsOMPath::GetFillBrushLocal, xps.ixpsompath_getfillbrushlocal, xpsobjectmodel/IXpsOMPath::GetFillBrushLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

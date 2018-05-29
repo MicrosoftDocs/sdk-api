@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI2FromStr
 title: VarUI2FromStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an OLECHAR string to an unsigned short value.
 old-location: automat\varui2fromstr.htm
 old-project: automat
 ms.assetid: f709e66e-dc37-4a24-8792-e991626dfaf5
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarUI2FromStr, VarUI2FromStr function [Automation], _oa96_VarUI2FromStr, automat.varui2fromstr, oleauto/VarUI2FromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

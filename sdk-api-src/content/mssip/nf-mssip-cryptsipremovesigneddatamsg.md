@@ -1,16 +1,16 @@
 ---
 UID: NF:mssip.CryptSIPRemoveSignedDataMsg
 title: CryptSIPRemoveSignedDataMsg function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a specified Authenticode signature.
 old-location: security\cryptsipremovesigneddatamsg.htm
 old-project: SecCrypto
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSIPRemoveSignedDataMsg, CryptSIPRemoveSignedDataMsg function [Security], mssip/CryptSIPRemoveSignedDataMsg, security.cryptsipremovesigneddatamsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

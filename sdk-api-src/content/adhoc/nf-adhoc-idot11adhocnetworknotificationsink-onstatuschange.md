@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetworkNotificationSink.OnStatusChange
 title: IDot11AdHocNetworkNotificationSink::OnStatusChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the client that the connection status of the network has changed.
 old-location: nwifi\idot11adhocnetworknotificationsink_onstatuschange.htm
 old-project: NativeWiFi
 ms.assetid: 795057bf-d97e-40b8-b242-5e3859ad3038
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnStatusChange method, IDot11AdHocNetworkNotificationSink.OnStatusChange, IDot11AdHocNetworkNotificationSink::OnStatusChange, OnStatusChange, OnStatusChange method [NativeWIFI], OnStatusChange method [NativeWIFI],IDot11AdHocNetworkNotificationSink interface, adhoc/IDot11AdHocNetworkNotificationSink::OnStatusChange, nwifi.idot11adhocnetworknotificationsink_onstatuschange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:propsys.PROPDESC_RELATIVEDESCRIPTION_TYPE
 title: PROPDESC_RELATIVEDESCRIPTION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the relative description type for a property description, as determined by the relativeDescriptionType attribute of the displayInfo element.
 old-location: properties\PROPDESC_RELATIVEDESCRIPTION_TYPE.htm
 old-project: properties
 ms.assetid: cc9d59db-88d6-4726-ac1e-15b483afd637
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PDRDT_COUNT, PDRDT_DATE, PDRDT_DURATION, PDRDT_GENERAL, PDRDT_LENGTH, PDRDT_PRIORITY, PDRDT_RATE, PDRDT_RATING, PDRDT_REVISION, PDRDT_SIZE, PDRDT_SPEED, PROPDESC_RELATIVEDESCRIPTION_TYPE, PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration [Windows Properties], properties.PROPDESC_RELATIVEDESCRIPTION_TYPE, propsys/PDRDT_COUNT, propsys/PDRDT_DATE, propsys/PDRDT_DURATION, propsys/PDRDT_GENERAL, propsys/PDRDT_LENGTH, propsys/PDRDT_PRIORITY, propsys/PDRDT_RATE, propsys/PDRDT_RATING, propsys/PDRDT_REVISION, propsys/PDRDT_SIZE, propsys/PDRDT_SPEED, propsys/PROPDESC_RELATIVEDESCRIPTION_TYPE, shell.PROPDESC_RELATIVEDESCRIPTION_TYPE, shell_PROPDESC_RELATIVEDESCRIPTION_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 

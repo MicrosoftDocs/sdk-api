@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerFree
 title: PssWalkMarkerFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a walk marker created by PssWalkMarkerCreate.
 old-location: proc_snap\psswalkmarkerfree.htm
 old-project: proc_snap
 ms.assetid: 74158846-6A5F-4F81-B4D7-46DED1EE017C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssWalkMarkerFree, PssWalkMarkerFree function, proc_snap.psswalkmarkerfree, processsnapshot/PssWalkMarkerFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

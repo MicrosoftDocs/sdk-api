@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.BackupWrite
 title: BackupWrite function
-author: windows-driver-content
+author: windows-sdk-content
 description: Restore a file or directory that was backed up using BackupRead.
 old-location: backup\backupwrite.htm
 old-project: Backup
 ms.assetid: 92befb48-68eb-4af3-b58a-c5e17bf14098
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: BackupWrite, BackupWrite function [Backup], _win32_backupwrite, backup.backupwrite, base.backupwrite, winbase/BackupWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

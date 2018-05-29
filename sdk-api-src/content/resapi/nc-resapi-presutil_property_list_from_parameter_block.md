@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK
 title: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK
-author: windows-driver-content
+author: windows-sdk-content
 description: Constructs a property list from a property table and a parameter block.
 old-location: mscs\resutilpropertylistfromparameterblock.htm
 old-project: MsCS
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK callback, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilpropertylistfromparameterblock, mscs.resutilpropertylistfromparameterblock, resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

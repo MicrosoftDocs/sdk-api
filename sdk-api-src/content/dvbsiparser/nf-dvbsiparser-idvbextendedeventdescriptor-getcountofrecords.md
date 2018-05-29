@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetCountOfRecords
 title: IDvbExtendedEventDescriptor::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of item records in a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: db065f1a-8354-4207-b7f7-d67adf094c70
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbExtendedEventDescriptor.GetCountOfRecords, IDvbExtendedEventDescriptor::GetCountOfRecords, dvbsiparser/IDvbExtendedEventDescriptor::GetCountOfRecords, mstv.idvbextendedeventdescriptor_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

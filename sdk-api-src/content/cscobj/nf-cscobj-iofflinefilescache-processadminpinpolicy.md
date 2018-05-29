@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.ProcessAdminPinPolicy
 title: IOfflineFilesCache::ProcessAdminPinPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes Offline Files to process the &#0034;administratively assigned offline files&#0034; group policy.
 old-location: of\iofflinefilescache_processadminpinpolicy.htm
 old-project: OfflineFiles
 ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

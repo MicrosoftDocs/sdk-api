@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._compcolor
 title: "_compcolor"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains color settings for a composition string.
 old-location: controls\COMPCOLOR.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\compcolor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: COMPCOLOR, COMPCOLOR structure [Windows Controls], _compcolor, _win32_COMPCOLOR_str, _win32_COMPCOLOR_str_cpp, controls.COMPCOLOR, controls._win32_COMPCOLOR_str, richedit/COMPCOLOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

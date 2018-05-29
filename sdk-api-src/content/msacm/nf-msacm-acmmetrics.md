@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmMetrics
 title: acmMetrics function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmMetrics function returns various metrics for the ACM or related ACM objects.
 old-location: multimedia\acmmetrics.htm
 old-project: Multimedia
 ms.assetid: 30b6dc13-b523-4c42-aa35-c86b3ebe04c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmMetrics, acmMetrics, acmMetrics function [Windows Multimedia], msacm/acmMetrics, multimedia.acmmetrics"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

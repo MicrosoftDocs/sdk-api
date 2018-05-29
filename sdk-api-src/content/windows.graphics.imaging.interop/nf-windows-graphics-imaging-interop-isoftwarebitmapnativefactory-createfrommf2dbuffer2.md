@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
 title: ISoftwareBitmapNativeFactory::imaging
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ISoftwareBitmapNative from the provided IMF2DBuffer2.
 old-location: winrt\isoftwarebitmapnativefactory_createfrommf2dbuffer2.htm
 old-project: WinRT
 ms.assetid: F6B9E8B2-19CF-4921-9E9E-E387084E5F8B
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: CreateFromMF2DBuffer2, CreateFromMF2DBuffer2 method [Windows Runtime], CreateFromMF2DBuffer2 method [Windows Runtime],ISoftwareBitmapNativeFactory interface, ISoftwareBitmapNativeFactory interface [Windows Runtime],CreateFromMF2DBuffer2 method, ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory.imaging, ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory::imaging, windows/ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, winrt.isoftwarebitmapnativefactory_createfrommf2dbuffer2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 

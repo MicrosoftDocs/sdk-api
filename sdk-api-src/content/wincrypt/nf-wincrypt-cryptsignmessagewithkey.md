@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptSignMessageWithKey
 title: CryptSignMessageWithKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Signs a message by using a CSP's private key specified in the parameters.
 old-location: security\cryptsignmessagewithkey.htm
 old-project: SecCrypto
 ms.assetid: d31024bf-7022-440b-8134-a02578510357
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

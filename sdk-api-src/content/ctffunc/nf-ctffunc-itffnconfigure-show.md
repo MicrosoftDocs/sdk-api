@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnConfigure.Show
 title: ITfFnConfigure::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfFnConfigure::Show method
 old-location: tsf\itffnconfigure_show.htm
 old-project: TSF
 ms.assetid: 34670748-460b-4ece-b742-83b0cf87d901
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnConfigure interface [Text Services Framework],Show method, ITfFnConfigure.Show, ITfFnConfigure::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigure interface, _tsf_itffnconfigure_show_ref, ctffunc/ITfFnConfigure::Show, tsf.itffnconfigure_show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

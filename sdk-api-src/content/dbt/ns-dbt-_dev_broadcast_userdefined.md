@@ -1,16 +1,16 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_USERDEFINED
 title: "_DEV_BROADCAST_USERDEFINED"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the user-defined event and optional data associated with the DBT_USERDEFINED device event.
 old-location: base\_dev_broadcast_userdefined_str.htm
 old-project: DevIO
 ms.assetid: e90fbce2-cae7-4e78-b6f5-82b200390cb7
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "_DEV_BROADCAST_USERDEFINED, _DEV_BROADCAST_USERDEFINED structure, _win32__dev_broadcast_userdefined_str, base._dev_broadcast_userdefined_str, dbt/_DEV_BROADCAST_USERDEFINED"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbt.h
 req.include-header: 

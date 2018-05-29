@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_STRING
 title: "_MINIDUMP_STRING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a string.
 old-location: base\minidump_string_str.htm
 old-project: Debug
 ms.assetid: b90b2b29-9d39-4a73-b5fb-bb6e04c94811
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_STRING, MINIDUMP_STRING, MINIDUMP_STRING structure, PMINIDUMP_STRING, PMINIDUMP_STRING structure pointer, _MINIDUMP_STRING, _win32_minidump_string_str, base.minidump_string_str, minidumpapiset/MINIDUMP_STRING, minidumpapiset/PMINIDUMP_STRING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

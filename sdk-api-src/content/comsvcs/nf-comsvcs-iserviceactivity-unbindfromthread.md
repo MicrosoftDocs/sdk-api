@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceActivity.UnbindFromThread
 title: IServiceActivity::UnbindFromThread
-author: windows-driver-content
+author: windows-sdk-content
 description: Unbinds the user-defined batch work from the thread on which it is running.
 old-location: cos\iserviceactivity_unbindfromthread.htm
 old-project: cossdk
 ms.assetid: e28b413d-6e3e-4a1f-90ed-8b0ab88904aa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceActivity interface [COM+],UnbindFromThread method, IServiceActivity.UnbindFromThread, IServiceActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IServiceActivity interface, _cos_IServiceActivity_UnbindFromThread, comsvcs/IServiceActivity::UnbindFromThread, cos.iserviceactivity_unbindfromthread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

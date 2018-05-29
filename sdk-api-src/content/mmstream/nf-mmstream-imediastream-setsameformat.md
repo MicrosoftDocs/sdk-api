@@ -1,16 +1,16 @@
 ---
 UID: NF:mmstream.IMediaStream.SetSameFormat
 title: IMediaStream::SetSameFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the media stream to the same format as a previous stream.
 old-location: dshow\imediastream_setsameformat.htm
 old-project: DirectShow
 ms.assetid: 6a228547-7187-4a7a-8850-2681e0ccb13e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaStream interface [DirectShow],SetSameFormat method, IMediaStream.SetSameFormat, IMediaStream::SetSameFormat, IMediaStreamSetSameFormat, SetSameFormat, SetSameFormat method [DirectShow], SetSameFormat method [DirectShow],IMediaStream interface, dshow.imediastream_setsameformat, mmstream/IMediaStream::SetSameFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

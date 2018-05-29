@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataManager.get_ResourcePolicy
 title: IDataManager::get_ResourcePolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the action to take when one of the disk resource limits is exceeded.
 old-location: pla\idatamanager_resourcepolicy.htm
 old-project: PLA
 ms.assetid: 541cd28c-2e01-4b8a-9cd3-044896c8fb80
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],ResourcePolicy property, IDataManager.ResourcePolicy, IDataManager.get_ResourcePolicy, IDataManager::ResourcePolicy, IDataManager::get_ResourcePolicy, IDataManager::put_ResourcePolicy, ResourcePolicy property [PLA], ResourcePolicy property [PLA],IDataManager interface, base.idatamanager_resourcepolicy, get_ResourcePolicy, pla.idatamanager_resourcepolicy, pla/IDataManager::ResourcePolicy, pla/IDataManager::get_ResourcePolicy, pla/IDataManager::put_ResourcePolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.CreateRole
 title: IAzApplication::CreateRole
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IAzRole object with the specified name.
 old-location: security\iazapplication_createrole.htm
 old-project: SecAuthZ
 ms.assetid: abad30e8-a483-4c29-ae87-4218882e8319
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzApplication object, CreateRole method [Security],IAzApplication interface, IAzApplication interface [Security],CreateRole method, IAzApplication.CreateRole, IAzApplication::CreateRole, azroles/IAzApplication::CreateRole, security.iazapplication_createrole
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

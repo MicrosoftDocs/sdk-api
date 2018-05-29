@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.UnadviseItemsSink
 title: ITfLangBarItemMgr::UnadviseItemsSink
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarItemMgr::UnadviseItemsSink method
 old-location: tsf\itflangbaritemmgr_unadviseitemssink.htm
 old-project: TSF
 ms.assetid: e15fb870-bedc-412d-9561-4db6c0515799
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItemsSink method, ITfLangBarItemMgr.UnadviseItemsSink, ITfLangBarItemMgr::UnadviseItemsSink, UnadviseItemsSink, UnadviseItemsSink method [Text Services Framework], UnadviseItemsSink method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_unadviseitemssink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemsSink, tsf.itflangbaritemmgr_unadviseitemssink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

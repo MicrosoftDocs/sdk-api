@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite.DWRITE_TEXT_ALIGNMENT
 title: DWRITE_TEXT_ALIGNMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the alignment of paragraph text along the reading direction axis, relative to the leading and trailing edge of the layout box.
 old-location: directwrite\dwrite_text_alignment.htm
 old-project: DirectWrite
 ms.assetid: 76b347f8-185b-4da6-9647-4d066334ac12
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_TEXT_ALIGNMENT, DWRITE_TEXT_ALIGNMENT enumeration [Direct Write], DWRITE_TEXT_ALIGNMENT_CENTER, DWRITE_TEXT_ALIGNMENT_JUSTIFIED, DWRITE_TEXT_ALIGNMENT_LEADING, DWRITE_TEXT_ALIGNMENT_TRAILING, directwrite.dwrite_text_alignment, dwrite/DWRITE_TEXT_ALIGNMENT, dwrite/DWRITE_TEXT_ALIGNMENT_CENTER, dwrite/DWRITE_TEXT_ALIGNMENT_JUSTIFIED, dwrite/DWRITE_TEXT_ALIGNMENT_LEADING, dwrite/DWRITE_TEXT_ALIGNMENT_TRAILING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiEnumProductsExW
 title: MsiEnumProductsExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.
 old-location: setup\msienumproductsex.htm
 old-project: Msi
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumProductsEx, MsiEnumProductsEx function, MsiEnumProductsExA, MsiEnumProductsExW, NULL, User SID, msi/MsiEnumProductsEx, msi/MsiEnumProductsExA, msi/MsiEnumProductsExW, s-1-1-0, setup.msienumproductsex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

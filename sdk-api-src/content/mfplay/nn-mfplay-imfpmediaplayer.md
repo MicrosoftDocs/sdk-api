@@ -1,16 +1,16 @@
 ---
 UID: NN:mfplay.IMFPMediaPlayer
 title: IMFPMediaPlayer
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains methods to play media files. (Deprecated.).
 old-location: mf\imfpmediaplayer.htm
 old-project: medfound
 ms.assetid: fa57d465-1ee9-4f7a-9be8-66a6d73f65e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], IMFPMediaPlayer interface [Media Foundation],described, mf.imfpmediaplayer, mfplay/IMFPMediaPlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfplay.h
 req.include-header: 

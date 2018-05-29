@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITrigger.put_Enabled
 title: ITrigger::put_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether the trigger is enabled.
 old-location: taskschd\itrigger_enabled.htm
 old-project: TaskSchd
 ms.assetid: 20300470-e434-4296-b3e2-98c65b16e9f2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],Enabled property, ITrigger.Enabled, ITrigger.put_Enabled, ITrigger::Enabled, ITrigger::get_Enabled, ITrigger::put_Enabled, put_Enabled, taskschd.itrigger_enabled, taskschd/ITrigger::Enabled, taskschd/ITrigger::get_Enabled, taskschd/ITrigger::put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxGetPortA
 title: FaxGetPortA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxGetPort function returns information for a specified fax port to a fax client application.
 old-location: fax\_mfax_faxgetport.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3910.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxGetPort, FaxGetPort function [Fax Service], FaxGetPortA, FaxGetPortW, _mfax_faxgetport, fax._mfax_faxgetport, winfax/FaxGetPort, winfax/FaxGetPortA, winfax/FaxGetPortW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

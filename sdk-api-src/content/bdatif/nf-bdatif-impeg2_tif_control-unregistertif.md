@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.UnregisterTIF
 title: IMPEG2_TIF_CONTROL::UnregisterTIF
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnregisterTIF method unregisters the TIF with the Network Provider.
 old-location: mstv\impeg2_tif_control_unregistertif.htm
 old-project: mstv
 ms.assetid: e4fd151e-ec24-41b9-85df-fba05fc174d1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],UnregisterTIF method, IMPEG2_TIF_CONTROL.UnregisterTIF, IMPEG2_TIF_CONTROL::UnregisterTIF, IMPEG2_TIF_CONTROLUnregisterTIF, UnregisterTIF, UnregisterTIF method [Microsoft TV Technologies], UnregisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::UnregisterTIF, mstv.impeg2_tif_control_unregistertif
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

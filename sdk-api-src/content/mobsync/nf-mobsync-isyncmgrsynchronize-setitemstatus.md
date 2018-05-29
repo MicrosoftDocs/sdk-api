@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.SetItemStatus
 title: ISyncMgrSynchronize::SetItemStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the synchronization manager in a registered application's handler to change the status of an item in the following two cases:\_between the time the handler has returned from the ISyncMgrSynchronize::PrepareForSync method and called the PrepareForSyncCompleted callback method, or after the handler has returned from the ISyncMgrSynchronize::Synchronize method but has not yet called the SynchronizeCompleted callback method.
 old-location: shell\syncmgr_isyncmgrsynchronize_setitemstatus.htm
 old-project: shell
 ms.assetid: 311e916c-46a0-4eb2-a5e3-8da417ae7d71
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetItemStatus method, ISyncMgrSynchronize.SetItemStatus, ISyncMgrSynchronize::SetItemStatus, SetItemStatus, SetItemStatus method [Windows Shell], SetItemStatus method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetItemStatus, shell.syncmgr_isyncmgrsynchronize_setitemstatus, syncmgr.isyncmgrsynchronize_setitemstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

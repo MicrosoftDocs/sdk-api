@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_CHANGE0_
 title: FWPM_PROVIDER_CONTEXT_CHANGE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Change notification dispatched to subscribers.
 old-location: fwp\fwpm_provider_context_change0_struct.htm
 old-project: FWP
 ms.assetid: 78786d91-1e2f-4846-9636-8d5d6acf5a7d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_CHANGE0, FWPM_PROVIDER_CONTEXT_CHANGE0 structure [Filtering], FWPM_PROVIDER_CONTEXT_CHANGE0_, fwp.fwpm_provider_context_change0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_CHANGE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

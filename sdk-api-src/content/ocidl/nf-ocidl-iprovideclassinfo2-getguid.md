@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IProvideClassInfo2.GetGUID
 title: IProvideClassInfo2::GetGUID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified GUID for the object.
 old-location: com\iprovideclassinfo2_getguid.htm
 old-project: com
 ms.assetid: 1a424b93-93a9-4dc7-9c77-349522ee9e70
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetGUID, GetGUID method [COM], GetGUID method [COM],IProvideClassInfo2 interface, IProvideClassInfo2 interface [COM],GetGUID method, IProvideClassInfo2.GetGUID, IProvideClassInfo2::GetGUID, _com_iprovideclassinfo2_getguid, com.iprovideclassinfo2_getguid, ocidl/IProvideClassInfo2::GetGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

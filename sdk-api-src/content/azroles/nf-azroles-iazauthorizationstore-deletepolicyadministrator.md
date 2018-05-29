@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyAdministrator
 title: IAzAuthorizationStore::DeletePolicyAdministrator
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy administrators.
 old-location: security\azauthorizationstore_deletepolicyadministrator.htm
 old-project: SecAuthZ
 ms.assetid: c27ca754-7808-4c96-8966-0be3960f2926
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzAuthorizationStore object, DeletePolicyAdministrator method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyAdministrator method, IAzAuthorizationStore.DeletePolicyAdministrator, IAzAuthorizationStore::DeletePolicyAdministrator, azroles/IAzAuthorizationStore::DeletePolicyAdministrator, security.azauthorizationstore_deletepolicyadministrator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

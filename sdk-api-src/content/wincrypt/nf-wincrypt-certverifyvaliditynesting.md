@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertVerifyValidityNesting
 title: CertVerifyValidityNesting function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertVerifyValidityNesting function verifies that a subject certificate's time validity nests correctly within its issuer's time validity.
 old-location: security\certverifyvaliditynesting.htm
 old-project: SecCrypto
 ms.assetid: dc73a21d-5b55-45c4-80d2-220508d9f762
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertVerifyValidityNesting, CertVerifyValidityNesting function [Security], _crypto2_certverifyvaliditynesting, security.certverifyvaliditynesting, wincrypt/CertVerifyValidityNesting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

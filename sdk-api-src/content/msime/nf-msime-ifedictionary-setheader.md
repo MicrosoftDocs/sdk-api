@@ -1,16 +1,16 @@
 ---
 UID: NF:msime.IFEDictionary.SetHeader
 title: IFEDictionary::SetHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a dictionary header in a dictionary file.
 old-location: intl\ifedictionary_setheader.htm
 old-project: Intl
 ms.assetid: 8666DDE7-D90E-4423-984B-EF526FC34320
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],SetHeader method, IFEDictionary.SetHeader, IFEDictionary::SetHeader, SetHeader, SetHeader method [Internationalization for Windows Applications], SetHeader method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_setheader, msime/IFEDictionary::SetHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msime.h
 req.include-header: 

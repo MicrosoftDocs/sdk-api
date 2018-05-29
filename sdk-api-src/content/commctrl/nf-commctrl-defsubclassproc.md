@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.DefSubclassProc
 title: DefSubclassProc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calls the next handler in a window's subclass chain. The last handler in the subclass chain calls the original window procedure for the window.
 old-location: shell\DefSubclassProc.htm
 old-project: shell
 ms.assetid: 43b1efa5-11da-4a95-8d81-b0d8ae64733a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl/DefSubclassProc, inet_DefSubclassProc, shell.DefSubclassProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

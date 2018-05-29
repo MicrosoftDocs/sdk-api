@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CachedIsSelectionRequired
 title: IUIAutomationSelectionPattern::get_CachedIsSelectionRequired
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached value that indicates whether at least one item must be selected at all times.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired.htm
 old-project: WinAuto
 ms.assetid: 74846653-bf18-4289-9ad8-aedc20a56f29
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedIsSelectionRequired property [Windows Accessibility], CachedIsSelectionRequired property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedIsSelectionRequired property, IUIAutomationSelectionPattern.CachedIsSelectionRequired, IUIAutomationSelectionPattern.get_CachedIsSelectionRequired, IUIAutomationSelectionPattern::CachedIsSelectionRequired, IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, get_CachedIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

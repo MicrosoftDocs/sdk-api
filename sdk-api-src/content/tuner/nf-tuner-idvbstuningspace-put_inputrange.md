@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_InputRange
 title: IDVBSTuningSpace::put_InputRange
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_InputRange method sets a value indicating which option or switch contains the requested signal source.
 old-location: mstv\idvbstuningspace_put_inputrange.htm
 old-project: mstv
 ms.assetid: fa7c065e-91c7-4780-a33a-c5f6bf77a2c4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_InputRange method, IDVBSTuningSpace.put_InputRange, IDVBSTuningSpace::put_InputRange, IDVBSTuningSpaceput_InputRange, mstv.idvbstuningspace_put_inputrange, put_InputRange, put_InputRange method [Microsoft TV Technologies], put_InputRange method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_InputRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_3.ID3D11ShaderResourceView1
 title: ID3D11ShaderResourceView1
-author: windows-driver-content
+author: windows-sdk-content
 description: A shader-resource-view interface represents the subresources a shader can access during rendering. Examples of shader resources include a constant buffer, a texture buffer, and a texture.
 old-location: direct3d11\id3d11shaderresourceview1.htm
 old-project: direct3d11
 ms.assetid: 5AF5DCAC-2C3A-45A7-A165-3FBE3E0D5CAB
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11ShaderResourceView1, ID3D11ShaderResourceView1 interface [Direct3D 11], ID3D11ShaderResourceView1 interface [Direct3D 11],described, d3d11_3/ID3D11ShaderResourceView1, direct3d11.id3d11shaderresourceview1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 

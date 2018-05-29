@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetResourceDescription
 title: IShellItemResources::GetResourceDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a resource description.
 old-location: shell\IShellItemResources_GetResourceDescription.htm
 old-project: shell
 ms.assetid: f5e20d50-510d-4d30-903e-6953846957a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetResourceDescription, GetResourceDescription method [Windows Shell], GetResourceDescription method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetResourceDescription method, IShellItemResources.GetResourceDescription, IShellItemResources::GetResourceDescription, _shell_IShellItemResources_GetResourceDescription, shell.IShellItemResources_GetResourceDescription, shobjidl_core/IShellItemResources::GetResourceDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

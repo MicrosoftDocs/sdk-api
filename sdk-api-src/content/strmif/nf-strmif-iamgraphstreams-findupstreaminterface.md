@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMGraphStreams.FindUpstreamInterface
 title: IAMGraphStreams::FindUpstreamInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The FindUpstreamInterface method searches the filter graph for a specified interface, upstream from a specified pin.
 old-location: dshow\iamgraphstreams_findupstreaminterface.htm
 old-project: DirectShow
 ms.assetid: 23106ef0-e5ce-47a6-97b0-518bb78ec67c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindUpstreamInterface, FindUpstreamInterface method [DirectShow], FindUpstreamInterface method [DirectShow],IAMGraphStreams interface, IAMGraphStreams interface [DirectShow],FindUpstreamInterface method, IAMGraphStreams.FindUpstreamInterface, IAMGraphStreams::FindUpstreamInterface, IAMGraphStreamsFindUpstreamInterface, dshow.iamgraphstreams_findupstreaminterface, strmif/IAMGraphStreams::FindUpstreamInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

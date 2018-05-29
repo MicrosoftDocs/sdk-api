@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpSetDefaultProxyConfiguration
 title: WinHttpSetDefaultProxyConfiguration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default WinHTTP proxy configuration in the registry.
 old-location: http\winhttpsetdefaultproxyconfiguration.htm
 old-project: WinHttp
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

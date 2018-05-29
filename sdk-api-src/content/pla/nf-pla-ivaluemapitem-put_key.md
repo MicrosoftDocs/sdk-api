@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IValueMapItem.put_Key
 title: IValueMapItem::put_Key
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the name of the item.
 old-location: pla\ivaluemapitem_key.htm
 old-project: PLA
 ms.assetid: 965a5ac4-a811-4fd3-8862-51d82d27c0e9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IValueMapItem interface [PLA],Key property, IValueMapItem.Key, IValueMapItem.put_Key, IValueMapItem::Key, IValueMapItem::get_Key, IValueMapItem::put_Key, Key property [PLA], Key property [PLA],IValueMapItem interface, base.ivaluemapitem_key, pla.ivaluemapitem_key, pla/IValueMapItem::Key, pla/IValueMapItem::get_Key, pla/IValueMapItem::put_Key, put_Key
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

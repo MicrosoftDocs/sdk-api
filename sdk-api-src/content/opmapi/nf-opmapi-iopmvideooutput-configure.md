@@ -1,16 +1,16 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.Configure
 title: IOPMVideoOutput::Configure
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures a video output.
 old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm
 old-project: medfound
 ms.assetid: b8eb3561-7e81-4f4c-bcb1-1657f8556aea
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],Configure method, IOPMVideoOutput.Configure, IOPMVideoOutput::Configure, mf.iopmvideooutput_iopmvideooutput__configure, opmapi/IOPMVideoOutput::Configure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 

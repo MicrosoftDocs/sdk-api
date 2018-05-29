@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509PrivateKey
 title: IX509PrivateKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an asymmetric private key that can be used for encryption, signing, and key agreement.
 old-location: security\ix509privatekey.htm
 old-project: SecCertEnroll
 ms.assetid: 72612ea4-ed45-46ac-9dad-614a9a754d83
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

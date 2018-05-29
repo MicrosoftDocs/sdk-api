@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi1_2.DXGI_MODE_DESC1
 title: DXGI_MODE_DESC1
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a display mode and whether the display mode supports stereo.
 old-location: direct3ddxgi\dxgi_mode_desc1.htm
 old-project: direct3ddxgi
 ms.assetid: 8F44CF77-D3A1-44F7-AB7F-69E5727A4378
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_MODE_DESC1, DXGI_MODE_DESC1 structure [DXGI], direct3ddxgi.dxgi_mode_desc1, dxgi1_2/DXGI_MODE_DESC1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

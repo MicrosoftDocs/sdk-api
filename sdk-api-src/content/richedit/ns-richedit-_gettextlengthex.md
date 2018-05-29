@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._gettextlengthex
 title: "_gettextlengthex"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the wParam in the EM_GETTEXTLENGTHEX message.
 old-location: controls\GETTEXTLENGTHEX.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextlengthex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GETTEXTLENGTHEX, GETTEXTLENGTHEX structure [Windows Controls], GTL_CLOSE, GTL_DEFAULT, GTL_NUMBYTES, GTL_NUMCHARS, GTL_PRECISE, GTL_USECRLF, _gettextlengthex, _win32_GETTEXTLENGTHEX_str, _win32_GETTEXTLENGTHEX_str_cpp, controls.GETTEXTLENGTHEX, controls._win32_GETTEXTLENGTHEX_str, richedit/GETTEXTLENGTHEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

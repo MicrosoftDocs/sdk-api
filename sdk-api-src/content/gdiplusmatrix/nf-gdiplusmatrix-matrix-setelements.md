@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.SetElements
 title: Matrix::SetElements
-author: windows-driver-content
+author: windows-sdk-content
 description: The Matrix::SetElements method sets the elements of this matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\setelements.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Matrix class [GDI+],SetElements method, Matrix.SetElements, Matrix::SetElements, SetElements, SetElements method [GDI+], SetElements method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_, gdiplus._gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

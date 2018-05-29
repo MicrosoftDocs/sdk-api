@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManagerLanguage.GetUserLanguageID
 title: IWMProfileManagerLanguage::GetUserLanguageID
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUserLanguageID method retrieves the language identifier for the system profiles loaded by the profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage_getuserlanguageid.htm
 old-project: wmformat
 ms.assetid: 92d18ac9-8f68-47c6-91d7-de7653df69a6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetUserLanguageID, GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, IWMProfileManagerLanguage interface [windows Media Format],GetUserLanguageID method, IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

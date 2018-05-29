@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.NtClose
 title: NtClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Closes the specified handle. NtClose is superseded by CloseHandle.
 old-location: winprog\ntclose.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntclose.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NtClose, NtClose function [Windows API], winprog.ntclose, winternl/NtClose, winui.ntclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

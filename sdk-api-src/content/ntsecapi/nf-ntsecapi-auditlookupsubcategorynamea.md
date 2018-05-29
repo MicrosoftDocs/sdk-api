@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditLookupSubCategoryNameA
 title: AuditLookupSubCategoryNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name of the specified audit-policy subcategory.
 old-location: security\auditlookupsubcategoryname_func.htm
 old-project: SecAuthZ
 ms.assetid: 65ccd0f6-ee43-4b4d-98fd-b7a49f23ad9d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditLookupSubCategoryName, AuditLookupSubCategoryName function [Security], AuditLookupSubCategoryNameA, AuditLookupSubCategoryNameW, ntsecapi/AuditLookupSubCategoryName, ntsecapi/AuditLookupSubCategoryNameA, ntsecapi/AuditLookupSubCategoryNameW, security.auditlookupsubcategoryname_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

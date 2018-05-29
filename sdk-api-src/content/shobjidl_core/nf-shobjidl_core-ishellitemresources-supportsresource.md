@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.SupportsResource
 title: IShellItemResources::SupportsResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves whether an item supports a specified resource.
 old-location: shell\IShellItemResources_SupportsResource.htm
 old-project: shell
 ms.assetid: d4ef7190-0056-423b-b958-bf746a66462d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellItemResources interface [Windows Shell],SupportsResource method, IShellItemResources.SupportsResource, IShellItemResources::SupportsResource, SupportsResource, SupportsResource method [Windows Shell], SupportsResource method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_SupportsResource, shell.IShellItemResources_SupportsResource, shobjidl_core/IShellItemResources::SupportsResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

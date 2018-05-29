@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflectionVariable
 title: ID3D10ShaderReflectionVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: This shader-reflection interface provides access to a variable.
 old-location: direct3d10\id3d10shaderreflectionvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ID3D10ShaderReflectionVariable, ID3D10ShaderReflectionVariable interface [Direct3D 10], ID3D10ShaderReflectionVariable interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionVariable, direct3d10.id3d10shaderreflectionvariable, e8b67520-bfa7-7e41-f594-a51d5ad0301e
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10shader.h
 req.include-header: 

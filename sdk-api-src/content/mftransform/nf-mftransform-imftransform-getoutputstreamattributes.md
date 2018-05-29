@@ -1,16 +1,16 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStreamAttributes
 title: IMFTransform::GetOutputStreamAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the attribute store for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputstreamattributes.htm
 old-project: medfound
 ms.assetid: d54ce20c-8ef9-4480-9ddd-908751fc0a7e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Media Foundation], GetOutputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamAttributes method, IMFTransform.GetOutputStreamAttributes, IMFTransform::GetOutputStreamAttributes, d54ce20c-8ef9-4480-9ddd-908751fc0a7e, mf.imftransform_getoutputstreamattributes, mftransform/IMFTransform::GetOutputStreamAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

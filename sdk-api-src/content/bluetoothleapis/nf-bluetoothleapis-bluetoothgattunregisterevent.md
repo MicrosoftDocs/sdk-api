@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTUnregisterEvent
 title: BluetoothGATTUnregisterEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters the given characteristic value change event.
 old-location: bltooth\bluetoothgattunregisterevent.htm
 old-project: bltooth
 ms.assetid: 4E0E8D6C-DC12-4F15-9D29-B38AE680894B
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: BluetoothGATTUnregisterEvent, BluetoothGATTUnregisterEvent function [Bluetooth Devices], bltooth.bluetoothgattunregisterevent, bluetoothleapis/BluetoothGATTUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

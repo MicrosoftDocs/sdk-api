@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_Quality
 title: IAMVideoCompression::put_Quality
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Quality method sets the compression quality.
 old-location: dshow\iamvideocompression_put_quality.htm
 old-project: DirectShow
 ms.assetid: 7ecc00f9-73d4-4d26-b7b0-1b6419027d69
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_Quality method, IAMVideoCompression.put_Quality, IAMVideoCompression::put_Quality, IAMVideoCompressionput_Quality, dshow.iamvideocompression_put_quality, put_Quality, put_Quality method [DirectShow], put_Quality method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_Quality
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamName
 title: IWMStreamConfig::GetStreamName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStreamName method retrieves the stream name.
 old-location: wmformat\iwmstreamconfig_getstreamname.htm
 old-project: wmformat
 ms.assetid: 86c65cfe-d482-461b-a187-ce1ce9a30609
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetStreamName, GetStreamName method [windows Media Format], GetStreamName method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamName method, IWMStreamConfig.GetStreamName, IWMStreamConfig::GetStreamName, IWMStreamConfigGetStreamName, wmformat.iwmstreamconfig_getstreamname, wmsdkidl/IWMStreamConfig::GetStreamName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

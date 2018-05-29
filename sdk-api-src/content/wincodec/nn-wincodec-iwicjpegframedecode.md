@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICJpegFrameDecode
 title: IWICJpegFrameDecode
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for decoding JPEG images. Provides access to the Start Of Frame (SOF) header, Start of Scan (SOS) header, the Huffman and Quantization tables, and the compressed JPEG JPEG data. Also enables indexing for efficient random access.
 old-location: wic\iwicjpegframedecode.htm
 old-project: wic
 ms.assetid: E6310320-53A8-40F1-8964-D21D8054E1B8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], IWICJpegFrameDecode interface [Windows Imaging Component],described, wic.iwicjpegframedecode, wincodec/IWICJpegFrameDecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

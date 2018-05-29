@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPQuery.addCondition
 title: IWMPQuery::addCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: The addCondition method adds a condition to the compound query using AND logic.
 old-location: wmp\iwmpquery_addcondition.htm
 old-project: WMP
 ms.assetid: d60474ce-a785-40b1-a4fb-80dc22fddedb
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],addCondition method, IWMPQuery.addCondition, IWMPQuery::addCondition, IWMPQueryaddCondition, addCondition, addCondition method [Windows Media Player], addCondition method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_addcondition, wmp/IWMPQuery::addCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

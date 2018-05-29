@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.SORTVERSIONFROMLCID
 title: SORTVERSIONFROMLCID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the sort version from a locale identifier.
 old-location: intl\sortversionfromlcid.htm
 old-project: Intl
 ms.assetid: 2a851ec1-ccb9-42d3-bbb5-70cb9cf02cc7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SORTVERSIONFROMLCID, SORTVERSIONFROMLCID macro [Internationalization for Windows Applications], _win32_SORTVERSIONFROMLCID, intl.sortversionfromlcid, winnt/SORTVERSIONFROMLCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

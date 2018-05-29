@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMedia
 title: DeleteNtmsMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteNtmsMedia function deletes a physical piece of offline media from RSM by removing all references to the specified media from the database.
 old-location: fs\deletentmsmedia.htm
 old-project: Rsm
 ms.assetid: d8e6b441-be8b-4f10-b241-d95221cebed8
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: DeleteNtmsMedia, DeleteNtmsMedia function [Files], _zaw_deletentmsmedia, base.deletentmsmedia, fs.deletentmsmedia, ntmsapi/DeleteNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

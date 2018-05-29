@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMIStyleName
 title: IWMPClosedCaption2::getSAMIStyleName
-author: windows-driver-content
+author: windows-sdk-content
 description: The getSAMIStyleName method retrieves the name of a style supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamistylename.htm
 old-project: WMP
 ms.assetid: 0dfdbe70-2aa8-4cae-8886-6b770707652e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMIStyleName method, IWMPClosedCaption2.getSAMIStyleName, IWMPClosedCaption2::getSAMIStyleName, IWMPClosedCaption2getSAMIStyleName, getSAMIStyleName, getSAMIStyleName method [Windows Media Player], getSAMIStyleName method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamistylename, wmp/IWMPClosedCaption2::getSAMIStyleName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

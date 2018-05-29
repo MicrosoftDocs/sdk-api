@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPError.get_errorCount
 title: IWMPError::get_errorCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_errorCount method retrieves the number of errors in the error queue.
 old-location: wmp\iwmperror_get_errorcount.htm
 old-project: WMP
 ms.assetid: 0ad21e08-4566-4f3a-8506-308432996481
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPError interface [Windows Media Player],get_errorCount method, IWMPError.get_errorCount, IWMPError::get_errorCount, IWMPErrorget_errorCount, get_errorCount, get_errorCount method [Windows Media Player], get_errorCount method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_errorcount, wmp/IWMPError::get_errorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

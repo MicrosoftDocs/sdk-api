@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellItemImageFactory
 title: IShellItemImageFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method to return either icons or thumbnails for Shell items. If no thumbnail or icon is available for the requested item, a per-class icon may be provided from the Shell.
 old-location: shell\IShellItemImageFactory.htm
 old-project: shell
 ms.assetid: a6eea412-553a-4bdd-afc2-cc002c4500a4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellItemImageFactory, IShellItemImageFactory interface [Windows Shell], IShellItemImageFactory interface [Windows Shell],described, _shell_IShellItemImageFactory, shell.IShellItemImageFactory, shobjidl_core/IShellItemImageFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

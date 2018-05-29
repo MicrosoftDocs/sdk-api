@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_OPERATION_CANCEL_CALLBACK
 title: WS_OPERATION_CANCEL_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Gives notification of the cancellation of an asynchronous service operation call as a result of an aborted shutdown of service host.
 old-location: wsw\ws_operation_cancel_callback.htm
 old-project: wsw
 ms.assetid: 177f9abb-861d-42a9-8044-25076b026f1d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_OPERATION_CANCEL_CALLBACK, WS_OPERATION_CANCEL_CALLBACK callback, WS_OPERATION_CANCEL_CALLBACK callback function [Web Services for Windows], webservices/WS_OPERATION_CANCEL_CALLBACK, wsw.ws_operation_cancel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

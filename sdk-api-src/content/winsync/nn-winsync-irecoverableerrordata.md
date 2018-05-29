@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IRecoverableErrorData
 title: IRecoverableErrorData
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about a recoverable error.
 old-location: winsync\irecoverableerrordata.htm
 old-project: winsync
 ms.assetid: e99779ef-87c9-45ac-93dc-53ee1a201402
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], IRecoverableErrorData interface [Windows Sync],described, winsync.irecoverableerrordata, winsync/IRecoverableErrorData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

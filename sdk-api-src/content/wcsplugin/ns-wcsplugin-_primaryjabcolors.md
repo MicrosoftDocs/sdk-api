@@ -1,16 +1,16 @@
 ---
 UID: NS:wcsplugin._PrimaryJabColors
 title: "_PrimaryJabColors"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure contains eight primary colors in Jab coordinates.
 old-location: wcs\primaryjabcolors.htm
 old-project: WCS
 ms.assetid: 510dce85-23de-4c1c-a794-8ad53cc9fdfb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PrimaryJabColors, PrimaryJabColors structure [Windows Color System], _PrimaryJabColors, _color_PrimaryJabColors_str, wcs.primaryjabcolors, wcsplugin/PrimaryJabColors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

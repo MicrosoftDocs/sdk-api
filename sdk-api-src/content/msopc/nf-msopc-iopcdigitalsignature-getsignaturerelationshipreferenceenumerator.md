@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator
 title: IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator of IOpcSignatureRelationshipReference interface pointers, which represent references to relationships that have been signed.
 old-location: opc\iopcdigitalsignature_getsignaturerelationshipreferenceenumerator.htm
 old-project: OPC
 ms.assetid: ffb74828-1177-4c3d-8a8c-e40bb0c4cbf0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSignatureRelationshipReferenceEnumerator, GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions], GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureRelationshipReferenceEnumerator method, IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator, IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, opc.iopcdigitalsignature_getsignaturerelationshipreferenceenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

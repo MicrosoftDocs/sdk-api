@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMStoreUByteN2
 title: XMStoreUByteN2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an XMVECTOR in an XMUBYTEN2.
 old-location: dxmath\xmstoreubyten2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUByteN2(XMUBYTEN2@,XMVECTOR)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreUByteN2, XMStoreUByteN2, XMStoreUByteN2 method [DirectX Math Support APIs], dxmath.xmstoreubyten2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

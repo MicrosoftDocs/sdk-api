@@ -1,16 +1,16 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.UnregisterDevice
 title: IUPnPRegistrar::UnregisterDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnregisterDevice method unregisters the device from the device host. A device is either temporarily or permanently unregistered.
 old-location: upnp\iupnpregistrar_unregisterdevice.htm
 old-project: UPnP
 ms.assetid: 76fca00c-8638-4e2f-8dd1-20b24cde0108
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],UnregisterDevice method, IUPnPRegistrar.UnregisterDevice, IUPnPRegistrar::UnregisterDevice, UnregisterDevice, UnregisterDevice method [UPnP APIs], UnregisterDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_unregisterdevice, upnp.iupnpregistrar_unregisterdevice, upnphost/IUPnPRegistrar::UnregisterDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

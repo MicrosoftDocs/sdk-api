@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollector.put_FileNameFormatPattern
 title: IDataCollector::put_FileNameFormatPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the format pattern to use when decorating the file name.
 old-location: pla\idatacollector_filenameformatpattern.htm
 old-project: PLA
 ms.assetid: 94e6bb13-fb99-4968-8a7f-fbda1f6ea42e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FileNameFormatPattern property [PLA], FileNameFormatPattern property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileNameFormatPattern property, IDataCollector.FileNameFormatPattern, IDataCollector.put_FileNameFormatPattern, IDataCollector::FileNameFormatPattern, IDataCollector::get_FileNameFormatPattern, IDataCollector::put_FileNameFormatPattern, base.idatacollector_filenameformatpattern, pla.idatacollector_filenameformatpattern, pla/IDataCollector::FileNameFormatPattern, pla/IDataCollector::get_FileNameFormatPattern, pla/IDataCollector::put_FileNameFormatPattern, put_FileNameFormatPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

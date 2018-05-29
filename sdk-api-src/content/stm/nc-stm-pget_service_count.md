@@ -1,16 +1,16 @@
 ---
 UID: NC:stm.PGET_SERVICE_COUNT
 title: PGET_SERVICE_COUNT
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetServiceCount function returns the number of services in the table.
 old-location: rras\getservicecount.htm
 old-project: RRAS
 ms.assetid: 44ba90c0-a019-4aca-92e2-1e795cbd335d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetServiceCount, GetServiceCount callback function [RAS], PGET_SERVICE_COUNT, PGET_SERVICE_COUNT callback, _mpr_getservicecount, rras.getservicecount, stm/GetServiceCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

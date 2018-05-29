@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgOpenPropStg
 title: StgOpenPropStg function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a specified property set in a specified storage or stream object.
 old-location: stg\stgopenpropstg.htm
 old-project: Stg
 ms.assetid: ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgOpenPropStg, StgOpenPropStg function [Structured Storage], _stg_stgopenpropstg, coml2api/StgOpenPropStg, stg.stgopenpropstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h

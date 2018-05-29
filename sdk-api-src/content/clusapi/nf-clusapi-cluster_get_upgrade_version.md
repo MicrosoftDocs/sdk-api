@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.CLUSTER_GET_UPGRADE_VERSION
 title: CLUSTER_GET_UPGRADE_VERSION macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the upgrade version portion of a Cluster service version number.
 old-location: mscs\cluster_get_upgrade_version.htm
 old-project: MsCS
 ms.assetid: 28C51A05-7BCC-4394-B4D7-505750C045E2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_GET_UPGRADE_VERSION, CLUSTER_GET_UPGRADE_VERSION macro [Failover Cluster], clusapi/CLUSTER_GET_UPGRADE_VERSION, mscs.cluster_get_upgrade_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 

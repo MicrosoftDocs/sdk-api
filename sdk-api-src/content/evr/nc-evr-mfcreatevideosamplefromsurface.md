@@ -1,16 +1,16 @@
 ---
 UID: NC:evr.MFCreateVideoSampleFromSurface
 title: MFCreateVideoSampleFromSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media sample that manages a Direct3D surface.
 old-location: mf\mfcreatevideosamplefromsurface.htm
 old-project: medfound
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: evr.h
 req.include-header: 

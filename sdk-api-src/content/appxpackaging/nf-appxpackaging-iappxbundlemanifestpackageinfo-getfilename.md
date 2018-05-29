@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetFileName
 title: IAppxBundleManifestPackageInfo::GetFileName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the file-name attribute of the package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getfilename.htm
 old-project: appxpkg
 ms.assetid: D8E827D4-0256-4598-A99A-EDB5FA14EDC2
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetFileName, GetFileName method [App packaging and management], GetFileName method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetFileName method, IAppxBundleManifestPackageInfo.GetFileName, IAppxBundleManifestPackageInfo::GetFileName, appxpackaging/IAppxBundleManifestPackageInfo::GetFileName, appxpkg.iappxbundlemanifestpackageinfo_getfilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

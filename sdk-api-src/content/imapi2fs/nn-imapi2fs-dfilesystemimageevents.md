@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.DFileSystemImageEvents
 title: DFileSystemImageEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement this interface to receive notifications of the current write operation.
 old-location: imapi\dfilesystemimageevents.htm
 old-project: imapi
 ms.assetid: cff27ceb-d14a-48c2-941e-d27d6505e2c5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DFileSystemImageEvents, DFileSystemImageEvents interface [IMAPI], DFileSystemImageEvents interface [IMAPI],described, imapi.dfilesystemimageevents, imapi2fs/DFileSystemImageEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

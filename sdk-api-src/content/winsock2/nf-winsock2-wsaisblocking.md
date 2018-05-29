@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAIsBlocking
 title: WSAIsBlocking function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 old-location: winsock\wsaisblocking_2.htm
 old-project: WinSock
 ms.assetid: 2721fb73-4c2e-43c4-aea8-232ba531122f
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAIsBlocking, WSAIsBlocking function [Winsock], _win32_wsaisblocking_2, winsock.wsaisblocking_2, winsock2/WSAIsBlocking
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.OpenTransaction
 title: OpenTransaction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing transaction.
 old-location: fs\opentransaction.htm
 old-project: Ktm
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

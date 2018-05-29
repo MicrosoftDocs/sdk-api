@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgi1_3.DXGI_FRAME_PRESENTATION_MODE
 title: DXGI_FRAME_PRESENTATION_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates options for presenting frames to the swap chain.
 old-location: direct3ddxgi\dxgi_frame_presentation_mode.htm
 old-project: direct3ddxgi
 ms.assetid: F9D26722-E8E8-4A2F-A411-D461B96F3F9C
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_FRAME_PRESENTATION_MODE, DXGI_FRAME_PRESENTATION_MODE enumeration [DXGI], DXGI_FRAME_PRESENTATION_MODE_COMPOSED, DXGI_FRAME_PRESENTATION_MODE_COMPOSITION_FAILURE, DXGI_FRAME_PRESENTATION_MODE_NONE, DXGI_FRAME_PRESENTATION_MODE_OVERLAY, direct3ddxgi.dxgi_frame_presentation_mode, dxgi1_3/DXGI_FRAME_PRESENTATION_MODE, dxgi1_3/DXGI_FRAME_PRESENTATION_MODE_COMPOSED, dxgi1_3/DXGI_FRAME_PRESENTATION_MODE_COMPOSITION_FAILURE, dxgi1_3/DXGI_FRAME_PRESENTATION_MODE_NONE, dxgi1_3/DXGI_FRAME_PRESENTATION_MODE_OVERLAY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_3.h
 req.include-header: DXGIPartner.h

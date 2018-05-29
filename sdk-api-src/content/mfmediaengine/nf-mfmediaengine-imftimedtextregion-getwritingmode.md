@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWritingMode
 title: IMFTimedTextRegion::GetWritingMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the writing mode of the region.
 old-location: mf\imftimedtextregion_getwritingmode.htm
 old-project: medfound
 ms.assetid: BCF99D3C-554A-4788-B54B-236F463B1EAE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetWritingMode, GetWritingMode method [Media Foundation], GetWritingMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWritingMode method, IMFTimedTextRegion.GetWritingMode, IMFTimedTextRegion::GetWritingMode, mf.imftimedtextregion_getwritingmode, mfmediaengine/IMFTimedTextRegion::GetWritingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

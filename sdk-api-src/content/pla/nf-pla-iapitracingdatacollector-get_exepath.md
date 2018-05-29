@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_ExePath
 title: IApiTracingDataCollector::get_ExePath
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the path to the executable file whose API calls you want to trace.
 old-location: pla\iapitracingdatacollector_exepath.htm
 old-project: PLA
 ms.assetid: aa2239f0-b70e-491f-8a88-b41d429e8bb2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ExePath property [PLA], ExePath property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExePath property, IApiTracingDataCollector.ExePath, IApiTracingDataCollector.get_ExePath, IApiTracingDataCollector::ExePath, IApiTracingDataCollector::get_ExePath, IApiTracingDataCollector::put_ExePath, base.iapitracingdatacollector_exepath, get_ExePath, pla.iapitracingdatacollector_exepath, pla/IApiTracingDataCollector::ExePath, pla/IApiTracingDataCollector::get_ExePath, pla/IApiTracingDataCollector::put_ExePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMDRMEditor.GetDRMProperty
 title: IWMDRMEditor::GetDRMProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDRMProperty method retrieves the specified DRM property.
 old-location: wmformat\iwmdrmeditor_getdrmproperty.htm
 old-project: wmformat
 ms.assetid: b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMEditor interface, IWMDRMEditor interface [windows Media Format],GetDRMProperty method, IWMDRMEditor.GetDRMProperty, IWMDRMEditor::GetDRMProperty, IWMDRMEditorGetDRMProperty, wmformat.iwmdrmeditor_getdrmproperty, wmsdkidl/IWMDRMEditor::GetDRMProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateMP3MediaSink
 title: MFCreateMP3MediaSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the MP3 media sink.
 old-location: mf\mfcreatemp3mediasink.htm
 old-project: medfound
 ms.assetid: b555e9c8-5a2a-452d-8edf-c41c0e24296b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMP3MediaSink, MFCreateMP3MediaSink function [Media Foundation], mf.mfcreatemp3mediasink, mfidl/MFCreateMP3MediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

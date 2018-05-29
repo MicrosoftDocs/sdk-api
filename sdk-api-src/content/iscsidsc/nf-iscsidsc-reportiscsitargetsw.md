@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetsW
 title: ReportIScsiTargetsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list.
 old-location: iscsidisc\reportiscsitargets.htm
 old-project: iSCSIDisc
 ms.assetid: c4b2bcc4-d9d3-4fd3-bbca-03b13670054f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ReportIScsiTargetsW, ReportIscsiTargets, ReportIscsiTargets function [iSCSI Discovery Library API], ReportIscsiTargetsA, ReportIscsiTargetsW, iscsidisc.reportiscsitargets, iscsidsc/ReportIscsiTargets, iscsidsc/ReportIscsiTargetsA, iscsidsc/ReportIscsiTargetsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

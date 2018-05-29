@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoImpersonateClient
 title: CoImpersonateClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the server to impersonate the client of the current call for the duration of the call.
 old-location: com\coimpersonateclient.htm
 old-project: com
 ms.assetid: a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

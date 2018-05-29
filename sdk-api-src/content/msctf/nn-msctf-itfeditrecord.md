@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfEditRecord
 title: ITfEditRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfEditRecord interface is implemented by the TSF manager and is used by a text edit sink to determine what was changed during an edit session.
 old-location: tsf\itfeditrecord.htm
 old-project: TSF
 ms.assetid: 2106cd97-9e1f-4d7c-a7a4-55676cf8923b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfEditRecord, ITfEditRecord interface [Text Services Framework], ITfEditRecord interface [Text Services Framework],described, _tsf_itfeditrecord_ref, msctf/ITfEditRecord, tsf.itfeditrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2List
 title: ItsPubPlugin2::GetResource2List
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of resources assigned to the specified user.
 old-location: termserv\itspubplugin2_getresource2list.htm
 old-project: TermServ
 ms.assetid: 58b30088-be32-4aa0-88a4-459df52db7af
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetResource2List, GetResource2List method [Remote Desktop Services], GetResource2List method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2List method, ItsPubPlugin2.GetResource2List, ItsPubPlugin2::GetResource2List, termserv.itspubplugin2_getresource2list, tspubplugin2com/ItsPubPlugin2::GetResource2List
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tspubplugin2com.h
 req.include-header: 

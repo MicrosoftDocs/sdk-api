@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportAudioParameters
 title: IAMExtTransport::SetTransportAudioParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetTransportAudioParameters assigns audio parameter settings for external transport.
 old-location: dshow\iamexttransport_settransportaudioparameters.htm
 old-project: DirectShow
 ms.assetid: e013dd73-7276-48b3-bf5f-ffb4b3d49419
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportAudioParameters method, IAMExtTransport.SetTransportAudioParameters, IAMExtTransport::SetTransportAudioParameters, IAMExtTransportSetTransportAudioParameters, SetTransportAudioParameters, SetTransportAudioParameters method [DirectShow], SetTransportAudioParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportaudioparameters, strmif/IAMExtTransport::SetTransportAudioParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

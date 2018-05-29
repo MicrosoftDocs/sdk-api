@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsComputerOperations.Shutdown
 title: IADsComputerOperations::Shutdown
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsComputerOperations::Shutdown method causes a computer under ADSI control to execute the shutdown operation with an optional reboot.
 old-location: adsi\iadscomputeroperations_shutdown.htm
 old-project: ADSI
 ms.assetid: b13502d6-11eb-406b-bed0-e9d14e61e424
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsComputerOperations interface [ADSI],Shutdown method, IADsComputerOperations.Shutdown, IADsComputerOperations::Shutdown, Shutdown, Shutdown method [ADSI], Shutdown method [ADSI],IADsComputerOperations interface, _ds_iadscomputeroperations_shutdown, adsi.iadscomputeroperations__shutdown, adsi.iadscomputeroperations_shutdown, iads/IADsComputerOperations::Shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

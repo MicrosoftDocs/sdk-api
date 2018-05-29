@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._POLICY_LSA_SERVER_ROLE_INFO
 title: "_POLICY_LSA_SERVER_ROLE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to set and query the role of an LSA server.
 old-location: security\policy_lsa_server_role_info.htm
 old-project: SecMgmt
 ms.assetid: f66abe33-d8c8-45b8-9b94-d6890d786aaa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPOLICY_LSA_SERVER_ROLE_INFO, POLICY_LSA_SERVER_ROLE_INFO, POLICY_LSA_SERVER_ROLE_INFO structure [Security], PPOLICY_LSA_SERVER_ROLE_INFO, PPOLICY_LSA_SERVER_ROLE_INFO structure pointer [Security], _POLICY_LSA_SERVER_ROLE_INFO, _lsa_policy_lsa_server_role_info, ntsecapi/POLICY_LSA_SERVER_ROLE_INFO, ntsecapi/PPOLICY_LSA_SERVER_ROLE_INFO, security.policy_lsa_server_role_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

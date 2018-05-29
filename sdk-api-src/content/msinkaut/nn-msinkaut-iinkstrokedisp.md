@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkStrokeDisp
 title: IInkStrokeDisp
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a single ink stroke.
 old-location: tablet\iinkstrokedisp.htm
 old-project: tablet
 ms.assetid: b18464ba-feb6-4bb5-9fcf-82feff9bcce4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDisp interface [Tablet PC],described, b18464ba-feb6-4bb5-9fcf-82feff9bcce4, msinkaut/IInkStrokeDisp, tablet.iinkstrokedisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

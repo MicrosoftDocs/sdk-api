@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the serial number of a USB device.
 old-location: base\ioctl_storage_get_media_serial_number.htm
 old-project: DevIO
 ms.assetid: 379c236d-c6f5-4a12-8adc-aa6377e81e6c
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code, _win32_ioctl_storage_get_media_serial_number, base.ioctl_storage_get_media_serial_number, winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

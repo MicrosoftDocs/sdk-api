@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetTotalAudioTracks
 title: IRedbookDiscMaster::GetTotalAudioTracks
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the total number of tracks that have either been staged or are being staged.
 old-location: imapi\iredbookdiscmaster_gettotalaudiotracks.htm
 old-project: imapi
 ms.assetid: ef284941-0724-4e0a-8ce9-c47d5a53a30e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetTotalAudioTracks, GetTotalAudioTracks method [IMAPI], GetTotalAudioTracks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetTotalAudioTracks method, IRedbookDiscMaster.GetTotalAudioTracks, IRedbookDiscMaster::GetTotalAudioTracks, _win32_iredbookdiscmaster_gettotalaudiotracks, base.iredbookdiscmaster_gettotalaudiotracks, imapi.iredbookdiscmaster_gettotalaudiotracks, imapi/IRedbookDiscMaster::GetTotalAudioTracks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

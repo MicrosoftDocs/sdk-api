@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsRecordSetDetach
 title: DnsRecordSetDetach function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DnsRecordSetDetach function detaches the first record set from a specified list of DNS records.
 old-location: dns\dnsrecordsetdetach.htm
 old-project: DNS
 ms.assetid: 434dc11f-19a9-434f-a024-9cdbb560f24c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsRecordSetDetach, DnsRecordSetDetach function [DNS], _dns_dnsrecordsetdetach, dns.dnsrecordsetdetach, windns/DnsRecordSetDetach
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

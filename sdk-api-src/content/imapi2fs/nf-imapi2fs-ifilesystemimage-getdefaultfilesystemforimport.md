@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.GetDefaultFileSystemForImport
 title: IFileSystemImage::GetDefaultFileSystemForImport
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the file system to import by default.
 old-location: imapi\ifilesystemimage_getdefaultfilesystemforimport.htm
 old-project: imapi
 ms.assetid: bbac5b93-669f-45ea-9a3d-e2dd7f8bdcf6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetDefaultFileSystemForImport, GetDefaultFileSystemForImport method [IMAPI], GetDefaultFileSystemForImport method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],GetDefaultFileSystemForImport method, IFileSystemImage.GetDefaultFileSystemForImport, IFileSystemImage::GetDefaultFileSystemForImport, imapi.ifilesystemimage_getdefaultfilesystemforimport, imapi2fs/IFileSystemImage::GetDefaultFileSystemForImport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

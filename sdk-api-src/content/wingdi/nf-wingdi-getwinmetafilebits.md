@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetWinMetaFileBits
 title: GetWinMetaFileBits function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetWinMetaFileBits function converts the enhanced-format records from a metafile into Windows-format records and stores the converted records in the specified buffer.
 old-location: gdi\getwinmetafilebits.htm
 old-project: gdi
 ms.assetid: db61ea3a-44d0-4769-acb4-05a982d3f06f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWinMetaFileBits, GetWinMetaFileBits function [Windows GDI], _win32_GetWinMetaFileBits, gdi.getwinmetafilebits, wingdi/GetWinMetaFileBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropertySheetA
 title: PropertySheetA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
 old-location: controls\PropertySheet.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropertySheet, PropertySheet function [Windows Controls], PropertySheetA, PropertySheetW, _win32_PropertySheet, _win32_PropertySheet_cpp, controls.PropertySheet, controls._win32_PropertySheet, prsht/PropertySheet, prsht/PropertySheetA, prsht/PropertySheetW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: prsht.h
 req.include-header: 

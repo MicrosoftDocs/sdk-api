@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.CIDLData_CreateFromIDArray
 title: CIDLData_CreateFromIDArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: CIDLData_CreateFromIDArray may be altered or unavailable.
 old-location: shell\CIDLData_CreateFromIDArray.htm
 old-project: shell
 ms.assetid: 4949c701-a375-450a-89a3-3fd146557d11
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CIDLData_CreateFromIDArray, CIDLData_CreateFromIDArray function [Windows Shell], _shell_CIDLData_CreateFromIDArray, shell.CIDLData_CreateFromIDArray, shlobj_core/CIDLData_CreateFromIDArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

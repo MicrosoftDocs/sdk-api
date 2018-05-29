@@ -1,16 +1,16 @@
 ---
 UID: NF:networkisolation.NetworkIsolationDiagnoseConnectFailureAndGetInfo
 title: NetworkIsolationDiagnoseConnectFailureAndGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about a network isolation connection failure due to a missing capability.
 old-location: ics\networkisolationdiagnoseconnectfailureandgetinfo.htm
 old-project: ICS
 ms.assetid: fb59b2bb-03c1-472d-bb97-6fd9d5f7169d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF], ics.networkisolationdiagnoseconnectfailureandgetinfo, networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: networkisolation.h
 req.include-header: Netfw.h

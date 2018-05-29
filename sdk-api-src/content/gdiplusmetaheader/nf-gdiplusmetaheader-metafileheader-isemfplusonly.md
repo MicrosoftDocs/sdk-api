@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmfPlusOnly
 title: MetafileHeader::IsEmfPlusOnly
-author: windows-driver-content
+author: windows-sdk-content
 description: The MetafileHeader::IsEmfPlusOnly method determines whether the associated metafile is in the EMF+ Only format.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplusonly.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsEmfPlusOnly, IsEmfPlusOnly method [GDI+], IsEmfPlusOnly method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfPlusOnly method, MetafileHeader.IsEmfPlusOnly, MetafileHeader::IsEmfPlusOnly, _gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

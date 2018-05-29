@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_MinLength
 title: ICspAlgorithm::get_MinLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the minimum permitted length for a key.
 old-location: security\icspalgorithm_minlength_property.htm
 old-project: SecCertEnroll
 ms.assetid: 1df00a2d-4004-4c5d-ab70-5d39ca517ebd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm.get_MinLength, ICspAlgorithm::MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength, security.icspalgorithm_minlength_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

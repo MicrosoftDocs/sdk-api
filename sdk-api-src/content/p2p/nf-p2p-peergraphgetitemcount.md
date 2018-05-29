@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphGetItemCount
 title: PeerGraphGetItemCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphGetItemCount function retrieves the number of items in an enumeration.
 old-location: p2p\peergraphgetitemcount.htm
 old-project: P2PSdk
 ms.assetid: db97b7e0-6f85-4b61-843f-efb4bc93149b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphGetItemCount, PeerGraphGetItemCount function [Peer Networking], p2p.peergraphgetitemcount, p2p/PeerGraphGetItemCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

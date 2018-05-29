@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_ClientName
 title: IDiscFormat2Data::get_ClientName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2data_get_clientname.htm
 old-project: imapi
 ms.assetid: faf5009a-395a-49ed-a0c7-e6bc44f17b7c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_ClientName method, IDiscFormat2Data.get_ClientName, IDiscFormat2Data::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_clientname, imapi2/IDiscFormat2Data::get_ClientName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

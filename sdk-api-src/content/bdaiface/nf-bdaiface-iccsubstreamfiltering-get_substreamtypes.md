@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.ICCSubStreamFiltering.get_SubstreamTypes
 title: ICCSubStreamFiltering::get_SubstreamTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iccsubstreamfiltering_get_substreamtypes.htm
 old-project: mstv
 ms.assetid: da622981-d2a6-4e91-9e59-b084932b5ff2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],get_SubstreamTypes method, ICCSubStreamFiltering.get_SubstreamTypes, ICCSubStreamFiltering::get_SubstreamTypes, ICCSubStreamFilteringget_SubstreamTypes, bdaiface/ICCSubStreamFiltering::get_SubstreamTypes, get_SubstreamTypes, get_SubstreamTypes method [Microsoft TV Technologies], get_SubstreamTypes method [Microsoft TV Technologies],ICCSubStreamFiltering interface, mstv.iccsubstreamfiltering_get_substreamtypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

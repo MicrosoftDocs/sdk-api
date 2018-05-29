@@ -1,16 +1,16 @@
 ---
 UID: NF:roapi.RoRevokeActivationFactories
 title: RoRevokeActivationFactories function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an array of registered activation factories from the Windows Runtime.
 old-location: winrt\rorevokeactivationfactories.htm
 old-project: WinRT
 ms.assetid: 0311bd92-3b12-46bc-a21d-13bd57a2c545
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoRevokeActivationFactories, RoRevokeActivationFactories function [Windows Runtime], WinRTRevokeActivationFactories, roapi/RoRevokeActivationFactories, roapi/WinRTRevokeActivationFactories, winrt.rorevokeactivationfactories, winrt.winrtrevokeactivationfactories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roapi.h
 req.include-header: 

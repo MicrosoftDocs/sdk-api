@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.EnableThemeDialogTexture
 title: EnableThemeDialogTexture function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables the visual style of the background of a dialog window.
 old-location: controls\EnableThemeDialogTexture.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enablethemedialogtexture.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnableThemeDialogTexture, EnableThemeDialogTexture function [Windows Controls], controls.EnableThemeDialogTexture, controls.inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture_cpp, uxtheme/EnableThemeDialogTexture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

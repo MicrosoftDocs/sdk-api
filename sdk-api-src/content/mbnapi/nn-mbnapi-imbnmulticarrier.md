@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnMultiCarrier
 title: IMbnMultiCarrier
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface exposes the multi-carrier functionality of a capable Mobile Broadband device.
 old-location: mbn\imbnmulticarrier.htm
 old-project: mbn
 ms.assetid: E40517CE-3169-4F20-A572-EDBC8FEC2862
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], IMbnMultiCarrier interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrier, mbnapi/IMbnMultiCarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

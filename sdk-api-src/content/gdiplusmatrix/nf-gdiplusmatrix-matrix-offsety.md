@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.OffsetY
 title: Matrix::OffsetY
-author: windows-driver-content
+author: windows-sdk-content
 description: The Matrix::OffsetY method gets the vertical translation value of this matrix, which is the element in row 3, column 2.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetY_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsety.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Matrix class [GDI+],OffsetY method, Matrix.OffsetY, Matrix::OffsetY, OffsetY, OffsetY method [GDI+], OffsetY method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_OffsetY_, gdiplus._gdiplus_CLASS_Matrix_OffsetY_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

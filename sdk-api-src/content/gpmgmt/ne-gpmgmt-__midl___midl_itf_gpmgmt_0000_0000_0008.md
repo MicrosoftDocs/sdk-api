@@ -1,16 +1,16 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0008
 title: "__MIDL___MIDL_itf_gpmgmt_0000_0000_0008"
-author: windows-driver-content
+author: windows-sdk-content
 description: Options for Group Policy Management Console reports.
 old-location: gpmc\gpmreportingoptions.htm
 old-project: GPMC
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0000_0008, gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 

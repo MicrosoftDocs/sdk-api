@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.SetExtent
 title: IOleObject::SetExtent
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs an object of how much display space its container has assigned it.
 old-location: com\ioleobject_setextent.htm
 old-project: com
 ms.assetid: f1960095-7c9a-4058-aef1-f31e3d6e3509
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleObject interface [COM],SetExtent method, IOleObject.SetExtent, IOleObject::SetExtent, SetExtent, SetExtent method [COM], SetExtent method [COM],IOleObject interface, _ole_ioleobject_setextent, com.ioleobject_setextent, oleidl/IOleObject::SetExtent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

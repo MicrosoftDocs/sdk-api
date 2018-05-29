@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_name_pair_tag
 title: peer_name_pair_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_NAME_PAIR structure contains the results of a call to PeerGetNextItem.
 old-location: p2p\peer_name_pair.htm
 old-project: P2PSdk
 ms.assetid: 4c64664e-33c6-490e-b160-7bdb5fb428fa
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_NAME_PAIR, PEER_NAME_PAIR, PEER_NAME_PAIR structure [Peer Networking], PPEER_NAME_PAIR, PPEER_NAME_PAIR structure pointer [Peer Networking], p2p.peer_name_pair, p2p/PPEER_NAME_PAIR, p2p/peer_name_pair_tag, peer_name_pair_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

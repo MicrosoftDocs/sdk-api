@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdatePackage
 title: IAppxPackageEditor::UpdatePackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates an app package.
 old-location: appxpkg\iappxpackageeditor_updatepackage.htm
 old-project: appxpkg
 ms.assetid: 768D2997-A374-46FF-BA0D-14B266D3C83D
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackage method, IAppxPackageEditor.UpdatePackage, IAppxPackageEditor::UpdatePackage, UpdatePackage, UpdatePackage method [App packaging and management], UpdatePackage method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackage, appxpkg.iappxpackageeditor_updatepackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

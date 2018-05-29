@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumPins.Skip
 title: IEnumPins::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips over a specified number of pins.
 old-location: dshow\ienumpins_skip.htm
 old-project: DirectShow
 ms.assetid: 501d08ee-ebd1-48dc-8cc9-bf017034b4cd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumPins interface [DirectShow],Skip method, IEnumPins.Skip, IEnumPins::Skip, IEnumPinsSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPins interface, dshow.ienumpins_skip, strmif/IEnumPins::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

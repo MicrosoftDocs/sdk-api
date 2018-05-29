@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetInfFileListA
 title: SetupGetInfFileListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer.
 old-location: setup\setupgetinffilelist.htm
 old-project: SetupApi
 ms.assetid: d7074e88-757c-4ca9-adaf-2010472f106c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetInfFileList, SetupGetInfFileList function [Setup API], SetupGetInfFileListA, SetupGetInfFileListW, _setupapi_setupgetinffilelist, setup.setupgetinffilelist, setupapi/SetupGetInfFileList, setupapi/SetupGetInfFileListA, setupapi/SetupGetInfFileListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

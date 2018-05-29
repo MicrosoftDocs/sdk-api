@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.cldap_open
 title: cldap_open function
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a session with an LDAP server over a connectionless User Datagram Protocol (UDP) service.
 old-location: ldap\cldap_open.htm
 old-project: LDAP
 ms.assetid: 9dc62bb8-8569-4682-bfc7-7721af287318
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_cldap_open, cldap_open, cldap_open function [LDAP], cldap_openA, cldap_openW, ldap.cldap__open, ldap.cldap_open, winldap/cldap_open, winldap/cldap_openA, winldap/cldap_openW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

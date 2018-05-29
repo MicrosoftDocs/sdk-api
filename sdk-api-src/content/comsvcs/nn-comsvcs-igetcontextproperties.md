@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IGetContextProperties
 title: IGetContextProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the caller to obtain the properties associated with the current object's context.
 old-location: cos\igetcontextproperties.htm
 old-project: cossdk
 ms.assetid: 5e960c75-b074-4d4b-b5d6-252c26c70176
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGetContextProperties, IGetContextProperties interface [COM+], IGetContextProperties interface [COM+],described, _cos_IGetContextProperties, comsvcs/IGetContextProperties, cos.igetcontextproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

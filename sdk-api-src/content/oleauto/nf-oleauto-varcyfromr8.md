@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyFromR8
 title: VarCyFromR8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a double value to a currency value.
 old-location: automat\varcyfromr8.htm
 old-project: automat
 ms.assetid: c39d85bf-d838-4ed2-844e-56bfa2d31fe9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarCyFromR8, VarCyFromR8 function [Automation], _oa96_VarCyFromR8, automat.varcyfromr8, oleauto/VarCyFromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

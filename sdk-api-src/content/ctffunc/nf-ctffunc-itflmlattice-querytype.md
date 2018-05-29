@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.QueryType
 title: ITfLMLattice::QueryType
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLMLattice::QueryType method
 old-location: tsf\itflmlattice_querytype.htm
 old-project: TSF
 ms.assetid: 199032f7-b97f-4475-9ce3-9af952e13f12
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLMLattice interface [Text Services Framework],QueryType method, ITfLMLattice.QueryType, ITfLMLattice::QueryType, QueryType, QueryType method [Text Services Framework], QueryType method [Text Services Framework],ITfLMLattice interface, _tsf_itflmlattice_querytype_ref, ctffunc/ITfLMLattice::QueryType, tsf.itflmlattice_querytype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

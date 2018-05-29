@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.MoveNext
 title: IOpcCertificateEnumerator::MoveNext
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the current position of the enumerator to the next CERT_CONTEXT structure.
 old-location: opc\iopccertificateenumerator_movenext.htm
 old-project: OPC
 ms.assetid: 81918b97-0d10-4d7c-aaad-fc886d55e664
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcCertificateEnumerator.MoveNext, IOpcCertificateEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MoveNext, opc.iopccertificateenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

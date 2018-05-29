@@ -1,16 +1,16 @@
 ---
 UID: NS:schannel._SecPkgContext_EapKeyBlock
 title: "_SecPkgContext_EapKeyBlock"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains key data used by the EAP TLS Authentication Protocol.
 old-location: security\secpkgcontext_eapkeyblock.htm
 old-project: SecAuthN
 ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], _SecPkgContext_EapKeyBlock, schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Security.h

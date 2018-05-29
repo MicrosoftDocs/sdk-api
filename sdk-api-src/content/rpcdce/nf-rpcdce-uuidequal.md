@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.UuidEqual
 title: UuidEqual function
-author: windows-driver-content
+author: windows-sdk-content
 description: An application calls the UuidEqual function to compare two UUIDs and determine whether they are equal.
 old-location: rpc\uuidequal.htm
 old-project: Rpc
 ms.assetid: ff83c66c-1f1f-4582-a93b-d7bb5181deec
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: UuidEqual, UuidEqual function [RPC], _rpc_uuidequal, rpc.uuidequal, rpcdce/UuidEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsdefs._WTS_POLICY_DATA
 title: "_WTS_POLICY_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains policy information that is passed by the Remote Desktop Services service to the protocol.
 old-location: termserv\wts_policy_data.htm
 old-project: TermServ
 ms.assetid: 407de671-f6e3-407e-9c97-11ea9ac8bdde
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTS_POLICY_DATA, 1, 2, 3, 4, 5, PWTS_POLICY_DATA, PWTS_POLICY_DATA structure pointer [Remote Desktop Services], WTS_POLICY_DATA, WTS_POLICY_DATA structure [Remote Desktop Services], _WTS_POLICY_DATA, termserv.wts_policy_data, wtsdefs/PWTS_POLICY_DATA, wtsdefs/WTS_POLICY_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

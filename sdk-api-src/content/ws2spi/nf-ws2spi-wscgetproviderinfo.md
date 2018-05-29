@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WSCGetProviderInfo
 title: WSCGetProviderInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the data associated with an information class for a layered service provider (LSP).
 old-location: winsock\wscgetproviderinfo.htm
 old-project: WinSock
 ms.assetid: 5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSCGetProviderInfo, WSCGetProviderInfo function [Winsock], winsock.wscgetproviderinfo, ws2spi/WSCGetProviderInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

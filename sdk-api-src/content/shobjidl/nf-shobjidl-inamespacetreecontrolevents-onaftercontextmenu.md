@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnAfterContextMenu
 title: INameSpaceTreeControlEvents::OnAfterContextMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: Called after a context menu is displayed.
 old-location: shell\INameSpaceTreeControlEvents_OnAfterContextMenu.htm
 old-project: shell
 ms.assetid: 6d562938-9816-4df9-b5b6-0ed52b1e4835
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnAfterContextMenu method, INameSpaceTreeControlEvents.OnAfterContextMenu, INameSpaceTreeControlEvents::OnAfterContextMenu, OnAfterContextMenu, OnAfterContextMenu method [Windows Shell], OnAfterContextMenu method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnAfterContextMenu, shell.INameSpaceTreeControlEvents_OnAfterContextMenu, shobjidl/INameSpaceTreeControlEvents::OnAfterContextMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

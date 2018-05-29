@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreOpen
 title: IFunctionDiscoveryProvider::InstancePropertyStoreOpen
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the property store of the provider.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreopen.htm
 old-project: FunDisc
 ms.assetid: 35e98e8a-5e6c-4cbb-9a61-9720f11f90d6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreOpen method, IFunctionDiscoveryProvider.InstancePropertyStoreOpen, IFunctionDiscoveryProvider::InstancePropertyStoreOpen, InstancePropertyStoreOpen, InstancePropertyStoreOpen method, InstancePropertyStoreOpen method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreOpen, ncd.ifunctiondiscoveryprovider_instancepropertystoreopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteXmlnsAttribute
 title: WsWriteXmlnsAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes an Xmlns attribute to the current element.
 old-location: wsw\wswritexmlnsattribute.htm
 old-project: wsw
 ms.assetid: 17d73228-ea3b-4212-b9f7-7dcfdd6043a3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteXmlnsAttribute, WsWriteXmlnsAttribute function [Web Services for Windows], webservices/WsWriteXmlnsAttribute, wsw.wswritexmlnsattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

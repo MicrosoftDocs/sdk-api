@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfThreadFocusSink
 title: ITfThreadFocusSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfThreadFocusSink interface is implemented by an application or TSF text service to receive notifications when the thread receives or loses the UI focus.
 old-location: tsf\itfthreadfocussink.htm
 old-project: TSF
 ms.assetid: 17335fa9-01ee-4585-9454-f326b6281ab1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadFocusSink, ITfThreadFocusSink interface [Text Services Framework], ITfThreadFocusSink interface [Text Services Framework],described, _tsf_itfthreadfocussink_ref, msctf/ITfThreadFocusSink, tsf.itfthreadfocussink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

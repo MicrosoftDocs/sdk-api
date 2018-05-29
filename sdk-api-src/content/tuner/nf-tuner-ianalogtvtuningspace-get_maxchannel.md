@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_MaxChannel
 title: IAnalogTVTuningSpace::get_MaxChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MaxChannel method gets the highest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_get_maxchannel.htm
 old-project: mstv
 ms.assetid: e6ac3789-1989-4331-ad00-6720f4503bb7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MaxChannel method, IAnalogTVTuningSpace.get_MaxChannel, IAnalogTVTuningSpace::get_MaxChannel, IAnalogTVTuningSpaceget_MaxChannel, get_MaxChannel, get_MaxChannel method [Microsoft TV Technologies], get_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_maxchannel, tuner/IAnalogTVTuningSpace::get_MaxChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

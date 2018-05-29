@@ -1,16 +1,16 @@
 ---
 UID: NN:certenc.ICertEncodeDateArray
 title: ICertEncodeDateArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for handling Date arrays used in certificate extensions.
 old-location: security\icertencodedatearray.htm
 old-project: SecCrypto
 ms.assetid: 9973c49a-d886-4cc4-b75e-7ff46f56d51c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertEncodeDateArray, ICertEncodeDateArray interface [Security], ICertEncodeDateArray interface [Security],described, _certsrv_icertencodedatearray, certenc/ICertEncodeDateArray, security.icertencodedatearray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h

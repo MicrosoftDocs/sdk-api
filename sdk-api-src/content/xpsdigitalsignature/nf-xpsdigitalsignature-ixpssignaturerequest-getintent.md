@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetIntent
 title: IXpsSignatureRequest::GetIntent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the string that describes the intent or meaning of the signature.
 old-location: xps\ixpssignaturerequest_getintent.htm
 old-project: printdocs
 ms.assetid: d4da2d1b-e907-4498-a196-fd52742740b6
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetIntent, GetIntent method [XPS Documents and Packaging], GetIntent method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetIntent method, IXpsSignatureRequest.GetIntent, IXpsSignatureRequest::GetIntent, xps.ixpssignaturerequest_getintent, xpsdigitalsignature/IXpsSignatureRequest::GetIntent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

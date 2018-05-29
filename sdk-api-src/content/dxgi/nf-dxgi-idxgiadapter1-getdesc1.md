@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIAdapter1.GetDesc1
 title: IDXGIAdapter1::GetDesc1
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a DXGI 1.1 description of an adapter (or video card).
 old-location: direct3ddxgi\idxgiadapter1_getdesc1.htm
 old-project: direct3ddxgi
 ms.assetid: 1eb051f8-4e64-41fe-8177-6aad47714cb9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGIAdapter1 interface, IDXGIAdapter1 interface [DXGI],GetDesc1 method, IDXGIAdapter1.GetDesc1, IDXGIAdapter1::GetDesc1, b985f570-96ae-e1c8-11c4-3485b12285bc, direct3ddxgi.idxgiadapter1_getdesc1, dxgi/IDXGIAdapter1::GetDesc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

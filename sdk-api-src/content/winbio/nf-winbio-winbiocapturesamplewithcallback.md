@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioCaptureSampleWithCallback
 title: WinBioCaptureSampleWithCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Captures a biometric sample asynchronously and returns the raw or processed data in a biometric information record (BIR).
 old-location: secbiomet\winbiocapturesamplewithcallback.htm
 old-project: SecBioMet
 ms.assetid: a99296c8-89da-4b2c-9a1b-fc10700ad48d
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSampleWithCallback, WinBioCaptureSampleWithCallback function [Windows Biometric Framework API], secbiomet.winbiocapturesamplewithcallback, winbio/WinBioCaptureSampleWithCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

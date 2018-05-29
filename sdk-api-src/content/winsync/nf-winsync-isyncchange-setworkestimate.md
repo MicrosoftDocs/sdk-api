@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChange.SetWorkEstimate
 title: ISyncChange::SetWorkEstimate
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the work estimate for this change.
 old-location: winsync\isyncchange_setworkestimate.htm
 old-project: winsync
 ms.assetid: 2f26cc10-ff0c-448e-a174-edca0b0b2e10
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncChange interface [Windows Sync],SetWorkEstimate method, ISyncChange.SetWorkEstimate, ISyncChange::SetWorkEstimate, SetWorkEstimate, SetWorkEstimate method [Windows Sync], SetWorkEstimate method [Windows Sync],ISyncChange interface, winsync.isyncchange_setworkestimate, winsync/ISyncChange::SetWorkEstimate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

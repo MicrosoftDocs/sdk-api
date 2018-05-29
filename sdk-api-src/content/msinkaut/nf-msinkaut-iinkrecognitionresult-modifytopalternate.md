@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.ModifyTopAlternate
 title: IInkRecognitionResult::ModifyTopAlternate
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the top alternate of a recognition result by using the specified alternate.
 old-location: tablet\iinkrecognitionresult_modifytopalternate.htm
 old-project: tablet
 ms.assetid: 98edc5e9-2388-4f4e-a67f-029ee83be4cb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult interface [Tablet PC],ModifyTopAlternate method, IInkRecognitionResult.ModifyTopAlternate, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

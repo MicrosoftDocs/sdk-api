@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadRECTL
 title: PSPropertyBag_ReadRECTL function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the coordinates of a rectangle stored in a property contained in a specified property bag.
 old-location: properties\PSPropertyBag_ReadRECTL.htm
 old-project: properties
 ms.assetid: 4DAABF63-7CBA-4361-9E58-7072869CFDEC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadRECTL, PSPropertyBag_ReadRECTL function [Windows Properties], properties.PSPropertyBag_ReadRECTL, propsys/PSPropertyBag_ReadRECTL, shell.PSPropertyBag_ReadRECTL, shell_PSPropertyBag_ReadRECTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

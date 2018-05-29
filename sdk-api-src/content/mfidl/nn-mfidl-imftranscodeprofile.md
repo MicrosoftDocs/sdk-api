@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFTranscodeProfile
 title: IMFTranscodeProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by the transcode profile object.
 old-location: mf\imftranscodeprofile.htm
 old-project: medfound
 ms.assetid: 82e012e0-84d8-4791-8b6f-bda58b498a90
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation],described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

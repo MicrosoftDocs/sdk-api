@@ -1,16 +1,16 @@
 ---
 UID: NL:xapobase.CXAPOBase
 title: CXAPOBase
-author: windows-driver-content
+author: windows-sdk-content
 description: Default implementation of the IXAPO interface.
 old-location: xaudio2\cxapobase.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.cxapobase.CXAPOBase
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CXAPOBase, CXAPOBase class [XAudio2 Audio Mixing APIs], CXAPOBase class [XAudio2 Audio Mixing APIs],described, xapobase/CXAPOBase, xaudio2.cxapobase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: xapobase.h
 req.include-header: 

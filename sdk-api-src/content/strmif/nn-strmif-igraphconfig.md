@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IGraphConfig
 title: IGraphConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The Filter Graph Manager exposes IGraphConfig to support dynamic graph building.
 old-location: dshow\igraphconfig.htm
 old-project: DirectShow
 ms.assetid: 7df22157-9dd1-410e-b037-a155f7b9a01b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], IGraphConfig interface [DirectShow],described, IGraphConfigInterface, dshow.igraphconfig, strmif/IGraphConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

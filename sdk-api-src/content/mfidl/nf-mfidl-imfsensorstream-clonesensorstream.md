@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorStream.CloneSensorStream
 title: IMFSensorStream::CloneSensorStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Clones the IMFSensorStream.
 old-location: mf\imfsensorstream_clonesensorstream.htm
 old-project: medfound
 ms.assetid: A9729DEB-AA59-476B-A309-A960C3B1E40E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CloneSensorStream, CloneSensorStream method [Media Foundation], CloneSensorStream method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],CloneSensorStream method, IMFSensorStream.CloneSensorStream, IMFSensorStream::CloneSensorStream, mf.imfsensorstream_clonesensorstream, mfidl/IMFSensorStream::CloneSensorStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

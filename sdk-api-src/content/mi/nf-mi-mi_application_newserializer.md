@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_NewSerializer
 title: MI_Application_NewSerializer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a serializer object that can then be used to serialize instances and classes into various different formats.
 old-location: wmi_v2\mi_application_newserializer.htm
 old-project: wmi_v2
 ms.assetid: 9de29d43-0677-4dc9-927f-af7c01179991
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_NewSerializer, MI_Application_NewSerializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSerializer, wmi_v2.mi_application_newserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

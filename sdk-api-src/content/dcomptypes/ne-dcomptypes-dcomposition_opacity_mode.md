@@ -1,16 +1,16 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_OPACITY_MODE
 title: DCOMPOSITION_OPACITY_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the effective opacity value of a visual is applied to that visual’s content and children.
 old-location: directcomp\dcomposition_opacity_mode.htm
 old-project: directcomp
 ms.assetid: D768F699-39F6-4ED5-B3D7-D509871BCEAB
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DCOMPOSITION_OPACITY_MODE, DCOMPOSITION_OPACITY_MODE enumeration [DirectComposition], DCOMPOSITION_OPACITY_MODE_INHERIT, DCOMPOSITION_OPACITY_MODE_LAYER, DCOMPOSITION_OPACITY_MODE_MULTIPLY, dcomptypes/DCOMPOSITION_OPACITY_MODE, dcomptypes/DCOMPOSITION_OPACITY_MODE_INHERIT, dcomptypes/DCOMPOSITION_OPACITY_MODE_LAYER, dcomptypes/DCOMPOSITION_OPACITY_MODE_MULTIPLY, directcomp.dcomposition_opacity_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: DComp.h

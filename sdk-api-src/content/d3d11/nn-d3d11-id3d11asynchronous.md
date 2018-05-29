@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11Asynchronous
 title: ID3D11Asynchronous
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface encapsulates methods for retrieving data from the GPU asynchronously.
 old-location: direct3d11\id3d11asynchronous.htm
 old-project: direct3d11
 ms.assetid: 37ff9dc0-5ec2-4cd5-b252-44e2dac45355
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Asynchronous, ID3D11Asynchronous interface [Direct3D 11], ID3D11Asynchronous interface [Direct3D 11],described, ba273b1e-153b-fd26-ff4e-e9755f4ea1f2, d3d11/ID3D11Asynchronous, direct3d11.id3d11asynchronous
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

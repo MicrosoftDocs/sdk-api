@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.PrepareComplete
 title: PrepareComplete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the resource manager (RM) has completed all processing necessary to guarantee that a commit or abort operation will succeed for the specified transaction.
 old-location: fs\preparecomplete.htm
 old-project: Ktm
 ms.assetid: 47488c70-3409-4544-bcca-3415f91e7194
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PrepareComplete, PrepareComplete function [Files], fs.preparecomplete, ktmw32/PrepareComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_SRV
 title: D3D12_TEX2D_SRV
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the subresource from a 2D texture to use in a shader-resource view.
 old-location: direct3d12\d3d12_tex2d_srv.htm
 old-project: direct3d12
 ms.assetid: BBD60A25-99C7-4C11-87F0-9E1D678EC44E
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEX2D_SRV, D3D12_TEX2D_SRV structure, d3d12/D3D12_TEX2D_SRV, direct3d12.d3d12_tex2d_srv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

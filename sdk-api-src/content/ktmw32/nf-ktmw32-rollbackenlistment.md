@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.RollbackEnlistment
 title: RollbackEnlistment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Rolls back the specified transaction that is associated with an enlistment. This function cannot be called for read-only enlistments.
 old-location: fs\rollbackenlistment.htm
 old-project: Ktm
 ms.assetid: e62c0c81-6802-4a76-94bb-617933490e83
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbackenlistment, ktmw32/RollbackEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

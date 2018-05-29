@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsGet0
 title: FwpmSystemPortsGet0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of all of the system port types.
 old-location: fwp\fwpmsystemportsget0.htm
 old-project: FWP
 ms.assetid: 675b1078-8f8e-4a97-aa01-fbf8fbe2b50f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmSystemPortsGet0, FwpmSystemPortsGet0 function [Filtering], fwp.fwpmsystemportsget0, fwpmu/FwpmSystemPortsGet0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

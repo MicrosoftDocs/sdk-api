@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpConnect
 title: WinHttpConnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinHttpConnect function specifies the initial target server of an HTTP request and returns an HINTERNET connection handle to an HTTP session for that initial target.
 old-location: http\winhttpconnect.htm
 old-project: WinHttp
 ms.assetid: afcdad8d-687e-4a1f-99d8-5d8be13825fa
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_DEFAULT_PORT, WinHttpConnect, WinHttpConnect function [WinHTTP], http.winhttpconnect, winhttp.winhttpconnect, winhttp/WinHttpConnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

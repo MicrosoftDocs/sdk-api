@@ -1,16 +1,16 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnInvalidateRect
 title: IMixerOCXNotify::OnInvalidateRect
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnInvalidateRect method notifies the client that the video rectangle has been invalidated.
 old-location: dshow\imixerocxnotify_oninvalidaterect.htm
 old-project: DirectShow
 ms.assetid: 55d349d4-1a9a-4762-8058-c3f7a559e272
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnInvalidateRect method, IMixerOCXNotify.OnInvalidateRect, IMixerOCXNotify::OnInvalidateRect, IMixerOCXNotifyOnInvalidateRect, OnInvalidateRect, OnInvalidateRect method [DirectShow], OnInvalidateRect method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_oninvalidaterect, mixerocx/IMixerOCXNotify::OnInvalidateRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 

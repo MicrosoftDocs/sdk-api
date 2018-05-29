@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_SHADOW_OPTIMIZATION
 title: D2D1_SHADOW_OPTIMIZATION
-author: windows-driver-content
+author: windows-sdk-content
 description: The level of performance optimization for the Shadow effect.
 old-location: direct2d\d2d1_shadow_optimization.htm
 old-project: Direct2D
 ms.assetid: 1C509608-BEBA-4E4C-8EC5-88B587D81B34
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_SHADOW_OPTIMIZATION, D2D1_SHADOW_OPTIMIZATION enumeration [Direct2D], D2D1_SHADOW_OPTIMIZATION_BALANCED, D2D1_SHADOW_OPTIMIZATION_QUALITY, D2D1_SHADOW_OPTIMIZATION_SPEED, d2d1effects/D2D1_SHADOW_OPTIMIZATION, d2d1effects/D2D1_SHADOW_OPTIMIZATION_BALANCED, d2d1effects/D2D1_SHADOW_OPTIMIZATION_QUALITY, d2d1effects/D2D1_SHADOW_OPTIMIZATION_SPEED, direct2d.d2d1_shadow_optimization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMFontResourceCollection
 title: IXpsOMFontResourceCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IXpsOMFontResource interface pointers.
 old-location: xps\ixpsomfontresourcecollection.htm
 old-project: printdocs
 ms.assetid: 71153c4c-631b-4f7a-9dd5-8537dcaca150
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], IXpsOMFontResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomfontresourcecollection, xpsobjectmodel/IXpsOMFontResourceCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mmddk.midiopendesc_tag
 title: midiopendesc_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The MIDIOPENDESC structure is a client-filled structure that provides information about how to open a MIDI device.
 old-location: audio\midiopendesc.htm
 old-project: audio
 ms.assetid: 7aacfd83-0188-4858-91e4-a6ce12a7e46d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devices], aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml, audio.midiopendesc, midiopendesc_tag, mmddk/MIDIOPENDESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h

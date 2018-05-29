@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmSetCompositionStringW
 title: ImmSetCompositionStringW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the characters, attributes, and clauses of the composition and reading strings.
 old-location: intl\immsetcompositionstring.htm
 old-project: Intl
 ms.assetid: 0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmSetCompositionString, ImmSetCompositionString function [Internationalization for Windows Applications], ImmSetCompositionStringA, ImmSetCompositionStringW, SCS_CHANGEATTR, SCS_CHANGECLAUSE, SCS_QUERYRECONVERTSTRING, SCS_SETRECONVERTSTRING, SCS_SETSTR, _win32_ImmSetCompositionString, imm/ImmSetCompositionString, imm/ImmSetCompositionStringA, imm/ImmSetCompositionStringW, intl.immsetcompositionstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

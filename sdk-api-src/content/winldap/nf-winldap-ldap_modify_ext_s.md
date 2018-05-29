@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_modify_ext_s
 title: ldap_modify_ext_s function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_modify_ext_s function changes an existing entry.
 old-location: ldap\ldap_modify_ext_s.htm
 old-project: LDAP
 ms.assetid: d71190d6-4775-4f37-b509-3395a7352272
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_modify_ext_s, ldap.ldap__modify__ext__s, ldap.ldap_modify_ext_s, ldap_modify_ext_s, ldap_modify_ext_s function [LDAP], ldap_modify_ext_sA, ldap_modify_ext_sW, winldap/ldap_modify_ext_s, winldap/ldap_modify_ext_sA, winldap/ldap_modify_ext_sW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

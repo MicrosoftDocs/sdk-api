@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.NdrStubInitialize
 title: NdrStubInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrStubInitialize function is called by the server stub before unmarshalling. It sets up some stub message fields.
 old-location: rpc\ndrstubinitialize.htm
 old-project: Rpc
 ms.assetid: 078442d1-1e35-4679-b86d-0a9110977a7c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrStubInitialize, NdrStubInitialize function [RPC], rpc.ndrstubinitialize, rpcproxy/NdrStubInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ndattrib.tagOCTET_STRING
 title: tagOCTET_STRING
-author: windows-driver-content
+author: windows-sdk-content
 description: The OCTET_STRING structure contains a pointer to a string of byte data.
 old-location: ndf\octet_string.htm
 old-project: NDF
 ms.assetid: 6133c69d-45ad-4080-b3e1-f42cbdc6cdf7
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*POCTET_STRING, OCTET_STRING, OCTET_STRING structure [NDF], OCTET_STRING,*POCTET_STRING, OCTET_STRING,*POCTET_STRING structure [NDF], ndattrib/OCTET_STRING, ndf.octet_string, tagOCTET_STRING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

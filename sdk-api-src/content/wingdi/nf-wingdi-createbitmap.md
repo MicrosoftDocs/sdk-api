@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateBitmap
 title: CreateBitmap function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateBitmap function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 old-location: gdi\createbitmap.htm
 old-project: gdi
 ms.assetid: b52e1baf-6a81-44bc-a061-4d42e6f4ed64
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateBitmap, CreateBitmap function [Windows GDI], _win32_CreateBitmap, gdi.createbitmap, wingdi/CreateBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

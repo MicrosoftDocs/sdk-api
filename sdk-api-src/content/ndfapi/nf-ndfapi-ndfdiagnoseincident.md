@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfDiagnoseIncident
 title: NdfDiagnoseIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Diagnoses the root cause of an incident without displaying a user interface.
 old-location: ndf\ndfdiagnoseincident.htm
 old-project: NDF
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsecure.IWMGetSecureChannel.GetPeerSecureChannelInterface
 title: IWMGetSecureChannel::GetPeerSecureChannelInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPeerSecureChannelInterface method gets the IWMSecureChannel interface from the other communication party.
 old-location: wmformat\iwmgetsecurechannel_getpeersecurechannelinterface.htm
 old-project: wmformat
 ms.assetid: bda30638-10b5-4288-b885-b63485606a7f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPeerSecureChannelInterface, GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format],IWMGetSecureChannel interface, IWMGetSecureChannel interface [windows Media Format],GetPeerSecureChannelInterface method, IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 

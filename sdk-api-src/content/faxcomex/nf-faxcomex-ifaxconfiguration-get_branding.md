@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_Branding
 title: IFaxConfiguration::get_Branding
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.
 old-location: fax\_mfax_FaxConfiguration_Branding_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\branding.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],Branding property, FaxConfiguration.Branding, IFaxConfiguration.get_Branding, IFaxConfiguration::get_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_FaxConfiguration_Branding_vb, get_Branding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

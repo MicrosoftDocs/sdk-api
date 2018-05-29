@@ -1,16 +1,16 @@
 ---
 UID: NF:qos2.QOSEnumerateFlows
 title: QOSEnumerateFlows function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all existing flows.
 old-location: qos\qosenumerateflows.htm
 old-project: QOS
 ms.assetid: 62027f7b-9ecc-4631-b755-2302e0bb49c0
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: QOSEnumerateFlows, QOSEnumerateFlows function [QOS], qos.qosenumerateflows, qos2/QOSEnumerateFlows
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

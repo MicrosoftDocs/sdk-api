@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.EndGetEvent
 title: IMFMediaEventQueue::EndGetEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::EndGetEvent. Pass the parameters from that method directly to this method.
 old-location: mf\imfmediaeventqueue_endgetevent.htm
 old-project: medfound
 ms.assetid: bb0ea226-9dc0-43e3-a482-cfec531b5734
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndGetEvent, EndGetEvent method [Media Foundation], EndGetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],EndGetEvent method, IMFMediaEventQueue.EndGetEvent, IMFMediaEventQueue::EndGetEvent, bb0ea226-9dc0-43e3-a482-cfec531b5734, mf.imfmediaeventqueue_endgetevent, mfobjects/IMFMediaEventQueue::EndGetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

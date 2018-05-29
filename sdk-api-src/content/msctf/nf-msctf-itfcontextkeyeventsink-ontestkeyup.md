@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnTestKeyUp
 title: ITfContextKeyEventSink::OnTestKeyUp
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContextKeyEventSink::OnTestKeyUp method
 old-location: tsf\itfcontextkeyeventsink_ontestkeyup.htm
 old-project: TSF
 ms.assetid: 0905b5e0-077e-4867-affa-9b2b542ec53d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnTestKeyUp method, ITfContextKeyEventSink.OnTestKeyUp, ITfContextKeyEventSink::OnTestKeyUp, OnTestKeyUp, OnTestKeyUp method [Text Services Framework], OnTestKeyUp method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_ontestkeyup_ref, msctf/ITfContextKeyEventSink::OnTestKeyUp, tsf.itfcontextkeyeventsink_ontestkeyup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

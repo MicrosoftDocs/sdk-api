@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.DetachVirtualDisk
 title: DetachVirtualDisk function
-author: windows-driver-content
+author: windows-sdk-content
 description: Detaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an appropriate virtual disk provider to accomplish the operation.
 old-location: vhd\detachvirtualdisk.htm
 old-project: VStor
 ms.assetid: 9b3874e1-e107-42f8-9ede-eb1eb6164ed2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vhd.detachvirtualdisk, vhd.unsurfacevirtualdisk, virtdisk/DetachVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetThreadDpiHostingBehavior
 title: SetThreadDpiHostingBehavior function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the thread's DPI_HOSTING_BEHAVIOR. This behavior allows windows created in the thread to host child windows with a different DPI_AWARENESS_CONTEXT.
 old-location: hidpi\setthreaddpihostingbehavior.htm
 old-project: hidpi
 ms.assetid: CF31D96A-EC84-4911-81A2-82EC90D417B9
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [High DPI], hidpi.setthreaddpihostingbehavior, winuser/SetThreadDpiHostingBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

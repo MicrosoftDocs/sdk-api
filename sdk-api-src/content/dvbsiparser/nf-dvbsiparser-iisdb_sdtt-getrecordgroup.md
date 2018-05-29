@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordGroup
 title: IISDB_SDTT::GetRecordGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the recording download level from a record in an Integrated services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordgroup.htm
 old-project: mstv
 ms.assetid: 6798e477-754d-49a3-84f1-04d1a60094a7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordGroup, GetRecordGroup method [Microsoft TV Technologies], GetRecordGroup method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordGroup method, IISDB_SDTT.GetRecordGroup, IISDB_SDTT::GetRecordGroup, dvbsiparser/IISDB_SDTT::GetRecordGroup, mstv.iisdb_sdtt_getrecordgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

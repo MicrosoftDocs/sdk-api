@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.PropVariantInit
 title: PropVariantInit macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The PropVariantInit function initializes a PROPVARIANT structure.Note  This function is implemented as a macro, available by including the provided ole2.h header file.
 old-location: stg\propvariantinit.htm
 old-project: Stg
 ms.assetid: 8c1bf6ac-2b15-4a05-8cb9-a07d1437017c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantInit, PropVariantInit function [Structured Storage], _stg_propvariantinit, propidl/PropVariantInit, stg.propvariantinit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: propidl.h
 req.include-header: 

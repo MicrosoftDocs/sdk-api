@@ -1,16 +1,16 @@
 ---
 UID: NN:mpeg2psiparser.IPAT
 title: IPAT
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPAT interface enables the client to get information from a Program Association Table (PAT). The IAtscPsipParser::GetPAT method returns a pointer to this interface.
 old-location: mstv\ipat.htm
 old-project: mstv
 ms.assetid: 31b0e558-0f22-4761-a964-1908c2835478
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPAT, IPAT interface [Microsoft TV Technologies], IPAT interface [Microsoft TV Technologies],described, IPATInterface, mpeg2psiparser/IPAT, mstv.ipat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpeg2psiparser.h
 req.include-header: 

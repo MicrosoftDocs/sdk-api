@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowCallback
 title: IWRdsProtocolShadowCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods called by the protocol to notify the Remote Desktop Services service to start or stop the target side of a shadow.
 old-location: termserv\iwrdsprotocolshadowcallback.htm
 old-project: TermServ
 ms.assetid: 47727d33-df3d-49da-bc82-a4ed5ce0a381
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolShadowCallback, IWRdsProtocolShadowCallback interface [Remote Desktop Services], IWRdsProtocolShadowCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocolshadowcallback, wtsprotocol/IWRdsProtocolShadowCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

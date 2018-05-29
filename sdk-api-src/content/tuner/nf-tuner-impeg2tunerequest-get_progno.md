@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.get_ProgNo
 title: IMPEG2TuneRequest::get_ProgNo
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ProgNo method retrieves the program number ID.
 old-location: mstv\impeg2tunerequest_get_progno.htm
 old-project: mstv
 ms.assetid: dde8979a-633d-4fc4-b31e-bdd43823db6a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],get_ProgNo method, IMPEG2TuneRequest.get_ProgNo, IMPEG2TuneRequest::get_ProgNo, IMPEG2TuneRequestget_ProgNo, get_ProgNo, get_ProgNo method [Microsoft TV Technologies], get_ProgNo method [Microsoft TV Technologies],IMPEG2TuneRequest interface, mstv.impeg2tunerequest_get_progno, tuner/IMPEG2TuneRequest::get_ProgNo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCertificate
 title: IX509CertificateRequestCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: The IX509CertificateRequestCertificate interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.
 old-location: security\ix509certificaterequestcertificate.htm
 old-project: SecCertEnroll
 ms.assetid: 7197a225-b2dc-47bb-8843-d3fb4bf95811
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestCertificate, IX509CertificateRequestCertificate interface [Security], IX509CertificateRequestCertificate interface [Security],described, certenroll/IX509CertificateRequestCertificate, security.ix509certificaterequestcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

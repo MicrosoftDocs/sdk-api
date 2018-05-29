@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedLocalizedControlType
 title: IUIAutomationElement::get_CachedLocalizedControlType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached localized description of the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedLocalizedControlType.htm
 old-project: WinAuto
 ms.assetid: 815cce32-45ca-4fd1-aedc-5b288d876d60
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedLocalizedControlType property [Windows Accessibility], CachedLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedLocalizedControlType property, IUIAutomationElement.CachedLocalizedControlType, IUIAutomationElement.get_CachedLocalizedControlType, IUIAutomationElement::CachedLocalizedControlType, IUIAutomationElement::get_CachedLocalizedControlType, get_CachedLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CachedLocalizedControlType, uiauto_IUIAutomationElement_CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CachedLocalizedControlType, winauto.uiauto_IUIAutomationElement_CachedLocalizedControlType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

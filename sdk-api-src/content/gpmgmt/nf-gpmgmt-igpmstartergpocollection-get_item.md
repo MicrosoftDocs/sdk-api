@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOCollection.get_Item
 title: IGPMStarterGPOCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Given an index, returns a pointer to an IGPMGPO interface from the collection.
 old-location: gpmc\igpmstartergpocollection_get_item.htm
 old-project: GPMC
 ms.assetid: e8385fe5-8a65-48be-b997-dbddd638ddbc
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IGPMStarterGPOCollection interface [GPMC],Item property, IGPMStarterGPOCollection.Item, IGPMStarterGPOCollection.get_Item, IGPMStarterGPOCollection::Item, IGPMStarterGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOCollection interface, get_Item, gpmc.igpmstartergpocollection_get_item, gpmgmt/IGPMStarterGPOCollection::Item, gpmgmt/IGPMStarterGPOCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

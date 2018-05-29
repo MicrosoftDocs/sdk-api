@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.RestoreAllSurfaces
 title: IDirectDraw7::RestoreAllSurfaces
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores all the surfaces that were created for the DirectDraw object, in the order that they were created.
 old-location: directdraw\idirectdraw7_restoreallsurfaces.htm
 old-project: directdraw
 ms.assetid: 72897004-cd44-4ca4-bc28-a49bffc09c76
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],RestoreAllSurfaces method, IDirectDraw7.RestoreAllSurfaces, IDirectDraw7::RestoreAllSurfaces, RestoreAllSurfaces, RestoreAllSurfaces method [DirectDraw], RestoreAllSurfaces method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::RestoreAllSurfaces, directdraw.idirectdraw7_restoreallsurfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

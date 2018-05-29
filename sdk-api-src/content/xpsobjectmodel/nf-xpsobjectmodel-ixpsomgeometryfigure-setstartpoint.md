@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetStartPoint
 title: IXpsOMGeometryFigure::SetStartPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the starting point of the figure.
 old-location: xps\ixpsomgeometryfigure_setstartpoint.htm
 old-project: printdocs
 ms.assetid: d9885c3d-06a0-4d25-81fc-cf0ef466a797
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMGeometryFigure.SetStartPoint, IXpsOMGeometryFigure::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

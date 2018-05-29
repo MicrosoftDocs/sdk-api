@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamEndStreaming
 title: AVIStreamEndStreaming function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamEndStreaming function ends streaming.
 old-location: multimedia\avistreamendstreaming.htm
 old-project: Multimedia
 ms.assetid: 8555bc24-c017-4d02-854b-e64cf9e8ae1b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamEndStreaming, AVIStreamEndStreaming function [Windows Multimedia], _win32_AVIStreamEndStreaming, multimedia.avistreamendstreaming, vfw/AVIStreamEndStreaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

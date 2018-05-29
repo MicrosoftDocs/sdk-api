@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetScaleY
 title: SetScaleY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the ScaleY property of a scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setscaley_overloaded.htm
 old-project: directcomp
 ms.assetid: 90E48F55-B9A3-464D-9FB2-03AA27AA5A08
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionScaleTransform3D::SetScaleY, SetScaleY, SetScaleY methods [DirectComposition], dcomp/SetScaleY, directcomp.idcompositionscaletransform3d_setscaley_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

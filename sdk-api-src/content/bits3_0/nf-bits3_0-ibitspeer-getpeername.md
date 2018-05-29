@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeer.GetPeerName
 title: IBitsPeer::GetPeerName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the server principal name that uniquely identifies the peer.
 old-location: bits\ibitspeer_getpeername.htm
 old-project: Bits
 ms.assetid: 71cfc0a5-1f60-4e61-a706-bb9f9c5a6c76
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetPeerName, GetPeerName method [BITS], GetPeerName method [BITS],IBitsPeer interface, IBitsPeer interface [BITS],GetPeerName method, IBitsPeer.GetPeerName, IBitsPeer::GetPeerName, bits.ibitspeer_getpeername, bits3_0/IBitsPeer::GetPeerName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroup.GetName
 title: IAppxContentGroup::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the content group.
 old-location: appxpkg\iappxcontentgroup_getname.htm
 old-project: appxpkg
 ms.assetid: 169E5A94-F7F7-4BFC-8E19-9E830C920E1B
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxContentGroup interface, IAppxContentGroup interface [App packaging and management],GetName method, IAppxContentGroup.GetName, IAppxContentGroup::GetName, appxpackaging/IAppxContentGroup::GetName, appxpkg.iappxcontentgroup_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

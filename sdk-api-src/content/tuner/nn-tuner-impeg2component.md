@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IMPEG2Component
 title: IMPEG2Component
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMPEG2Component interface contains methods for getting and setting properties that describe an MPEG2 elementary stream.
 old-location: mstv\impeg2component.htm
 old-project: mstv
 ms.assetid: 63d1ae17-8e38-457e-98d7-e81e7576f1c1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], IMPEG2Component interface [Microsoft TV Technologies],described, IMPEG2ComponentInterface, mstv.impeg2component, tuner/IMPEG2Component
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

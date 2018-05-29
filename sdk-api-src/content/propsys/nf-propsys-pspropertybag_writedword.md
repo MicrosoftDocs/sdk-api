@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteDWORD
 title: PSPropertyBag_WriteDWORD function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the DWORD value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteDWORD.htm
 old-project: properties
 ms.assetid: 59142C21-032F-462c-B4A7-337483917ABC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_WriteDWORD, PSPropertyBag_WriteDWORD function [Windows Properties], properties.PSPropertyBag_WriteDWORD, propsys/PSPropertyBag_WriteDWORD, shell.PSPropertyBag_WriteDWORD, shell_PSPropertyBag_WriteDWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

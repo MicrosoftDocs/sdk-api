@@ -1,16 +1,16 @@
 ---
 UID: NF:commoncontrols.IImageList.SetOverlayImage
 title: IImageList::SetOverlayImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a specified image to the list of images used as overlay masks.
 old-location: controls\IImageList_SetOverlayImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setoverlayimage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IImageList interface [Windows Controls],SetOverlayImage method, IImageList.SetOverlayImage, IImageList::SetOverlayImage, SetOverlayImage, SetOverlayImage method [Windows Controls], SetOverlayImage method [Windows Controls],IImageList interface, comctl_IImageList_SetOverlayImage, comctl_IImageList_SetOverlayImage_cpp, commoncontrols/IImageList::SetOverlayImage, controls.IImageList_SetOverlayImage, controls.comctl_IImageList_SetOverlayImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

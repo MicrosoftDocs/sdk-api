@@ -1,16 +1,16 @@
 ---
 UID: NN:certview.IEnumCERTVIEWCOLUMN
 title: IEnumCERTVIEWCOLUMN
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a column-enumeration sequence that contains the column data for the current row of the enumeration sequence.
 old-location: security\ienumcertviewcolumn.htm
 old-project: SecCrypto
 ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h

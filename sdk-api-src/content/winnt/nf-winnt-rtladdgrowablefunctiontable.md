@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlAddGrowableFunctionTable
 title: RtlAddGrowableFunctionTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs the system of a dynamic function table representing a region of memory containing code.
 old-location: base\rtladdgrowablefunctiontable.htm
 old-project: Debug
 ms.assetid: 84ba7171-a4eb-4807-9883-f4fac6296ed0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, base.rtladdgrowablefunctiontable, winnt/RtlAddGrowableFunctionTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

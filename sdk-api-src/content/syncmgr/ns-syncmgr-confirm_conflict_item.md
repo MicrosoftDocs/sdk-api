@@ -1,16 +1,16 @@
 ---
 UID: NS:syncmgr.CONFIRM_CONFLICT_ITEM
 title: CONFIRM_CONFLICT_ITEM
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines conflict item structure.
 old-location: shell\CONFIRM_CONFLICT_ITEM.htm
 old-project: shell
 ms.assetid: 3be4a8ec-eeab-4453-a2cb-18cadf39464a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CONFIRM_CONFLICT_ITEM, CONFIRM_CONFLICT_ITEM structure [Windows Shell], _shell_CONFIRM_CONFLICT_ITEM, shell.CONFIRM_CONFLICT_ITEM, syncmgr/CONFIRM_CONFLICT_ITEM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: syncmgr.h
 req.include-header: 

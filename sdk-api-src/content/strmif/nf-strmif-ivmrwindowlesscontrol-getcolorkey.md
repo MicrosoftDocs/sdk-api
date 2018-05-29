@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetColorKey
 title: IVMRWindowlessControl::GetColorKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetColorKey method retrieves the current source color key value used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getcolorkey.htm
 old-project: DirectShow
 ms.assetid: e10f9e03-fbcd-4002-babc-fb028e399d72
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetColorKey method, IVMRWindowlessControl.GetColorKey, IVMRWindowlessControl::GetColorKey, IVMRWindowlessControlGetColorKey, dshow.ivmrwindowlesscontrol_getcolorkey, strmif/IVMRWindowlessControl::GetColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

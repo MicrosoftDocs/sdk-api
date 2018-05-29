@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._DRAWPATRECT
 title: "_DRAWPATRECT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DRAWPATRECT structure defines a rectangle to be created.
 old-location: gdi\drawpatrect.htm
 old-project: printdocs
 ms.assetid: 8b374a0e-8ad0-40d4-a082-e90aff6336ba
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PDRAWPATRECT, DRAWPATRECT, DRAWPATRECT structure [Windows GDI], PDRAWPATRECT, PDRAWPATRECT structure pointer [Windows GDI], _DRAWPATRECT, _win32_DRAWPATRECT_str, gdi.drawpatrect, wingdi/DRAWPATRECT, wingdi/PDRAWPATRECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

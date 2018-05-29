@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_SchemaDecl
 title: "_MI_SchemaDecl"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the schema objects in a CIM schema, which include CIM classes and CIM qualifier declarations.
 old-location: wmi_v2\mi_schemadecl.htm
 old-project: wmi_v2
 ms.assetid: 70f1a14e-abd4-43e9-a7b4-fa00e07a125c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SchemaDecl, MI_SchemaDecl structure [Windows Management Infrastructure (MI)], _MI_SchemaDecl, mi/MI_SchemaDecl, wmi._mi_schemadecl, wmi_v2.mi_schemadecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

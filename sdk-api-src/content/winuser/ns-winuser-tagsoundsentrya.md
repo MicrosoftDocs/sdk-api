@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagSOUNDSENTRYA
 title: tagSOUNDSENTRYA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
 old-location: winauto\soundsentry.htm
 old-project: WinAuto
 ms.assetid: a6000966-886b-4b9e-8df2-fee79d494f2e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: "*LPSOUNDSENTRYA, LPSOUNDSENTRY, LPSOUNDSENTRY structure pointer [Windows Accessibility], SOUNDSENTRY, SOUNDSENTRY structure [Windows Accessibility], SOUNDSENTRYA, SSF_AVAILABLE, SSF_INDICATOR, SSF_SOUNDSENTRYON, SSGF_DISPLAY, SSGF_NONE, SSTF_BORDER, SSTF_CHARS, SSTF_DISPLAY, SSTF_NONE, SSWF_CUSTOM, SSWF_DISPLAY, SSWF_NONE, SSWF_TITLE, SSWF_WINDOW, _win32_SOUNDSENTRY_str, msaa.soundsentry, tagSOUNDSENTRYA, tagSOUNDSENTRYW, winauto.soundsentry, winuser/LPSOUNDSENTRY, winuser/SOUNDSENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

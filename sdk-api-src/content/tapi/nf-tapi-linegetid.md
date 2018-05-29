@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetID
 title: lineGetID function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
 old-location: tapi2\linegetid.htm
 old-project: Tapi
 ms.assetid: e9981574-0058-420f-9627-6d5a1745a739
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetid, lineGetID, lineGetID function [TAPI 2.2], lineGetIDA, lineGetIDW, tapi/lineGetID, tapi/lineGetIDA, tapi/lineGetIDW, tapi2.linegetid"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

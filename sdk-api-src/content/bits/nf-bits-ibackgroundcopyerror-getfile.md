@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetFile
 title: IBackgroundCopyError::GetFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an interface pointer to the file object associated with the error.
 old-location: bits\ibackgroundcopyerror_getfile.htm
 old-project: Bits
 ms.assetid: 7b6d4bd4-2102-4e6b-b250-1d73fae94cf9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetFile method, IBackgroundCopyError.GetFile, IBackgroundCopyError::GetFile, _drz_ibackgroundcopyerror_getfile, bits.ibackgroundcopyerror_getfile, bits/IBackgroundCopyError::GetFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

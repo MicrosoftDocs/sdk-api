@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteProperty
 title: IContactProperties::DeleteProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the value at a specified property. Property modification and version data can still be enumerated with IContactPropertyCollection.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteProperty.htm
 old-project: wincontacts
 ms.assetid: 74ed72da-e82c-4257-9d16-c5204a88c9bf
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Windows Contacts], DeleteProperty method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteProperty method, IContactProperties.DeleteProperty, IContactProperties::DeleteProperty, _wincontacts_IContactProperties_DeleteProperty, icontact/IContactProperties::DeleteProperty, wincontacts._wincontacts_IContactProperties_DeleteProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.OnTranslateAccelerator
 title: IExpDispSupportXP::OnTranslateAccelerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IExpDispSupportXP_OnTranslateAccelerator.htm
 old-project: shell
 ms.assetid: 7afdcd4d-76c6-41ff-b754-83068d5ca5cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExpDispSupportXP interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupportXP.OnTranslateAccelerator, IExpDispSupportXP::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupportXP interface, _shell_IExpDispSupportXP_OnTranslateAccelerator, shdeprecated/IExpDispSupportXP::OnTranslateAccelerator, shell.IExpDispSupportXP_OnTranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: Shdeprecated.h

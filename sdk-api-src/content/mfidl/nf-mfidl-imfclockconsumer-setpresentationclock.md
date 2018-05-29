@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFClockConsumer.SetPresentationClock
 title: IMFClockConsumer::SetPresentationClock
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the media pipeline to provide the app with an instance of IMFPresentationClock.
 old-location: mf\imfclockconsumer_setpresentationclock.htm
 old-project: medfound
 ms.assetid: 7F4CC427-1DBE-4586-BA67-7AB472A55408
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFClockConsumer interface [Media Foundation],SetPresentationClock method, IMFClockConsumer.SetPresentationClock, IMFClockConsumer::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFClockConsumer interface, mf.imfclockconsumer_setpresentationclock, mfidl/IMFClockConsumer::SetPresentationClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

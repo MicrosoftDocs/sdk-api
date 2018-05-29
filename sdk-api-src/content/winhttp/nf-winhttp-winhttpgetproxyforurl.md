@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyForUrl
 title: WinHttpGetProxyForUrl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the proxy data for the specified URL.
 old-location: http\winhttpgetproxyforurl.htm
 old-project: WinHttp
 ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpGetProxyForUrl, WinHttpGetProxyForUrl function [WinHTTP], http.winhttpgetproxyforurl, winhttp/WinHttpGetProxyForUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

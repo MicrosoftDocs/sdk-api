@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_BacklightCompensation
 title: IVideoProcAmp::get_BacklightCompensation
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_BacklightCompensation method returns the camera's backlight compensation setting.
 old-location: dshow\ivideoprocamp_get_backlightcompensation.htm
 old-project: DirectShow
 ms.assetid: 1b0b4c06-5958-446e-bd06-4ee6f90b6e78
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_BacklightCompensation method, IVideoProcAmp.get_BacklightCompensation, IVideoProcAmp::get_BacklightCompensation, IVideoProcAmpget_BacklightCompensation, dshow.ivideoprocamp_get_backlightcompensation, get_BacklightCompensation, get_BacklightCompensation method [DirectShow], get_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_BacklightCompensation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

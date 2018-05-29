@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrUIOperation.Run
 title: ISyncMgrUIOperation::Run
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs the actual display of UI for a handler or sync item when requested to do so by Sync Center.
 old-location: shell\ISyncMgrUIOperation_Run.htm
 old-project: shell
 ms.assetid: 66dd853e-0fb0-4736-982a-e0183cb51842
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrUIOperation interface [Windows Shell],Run method, ISyncMgrUIOperation.Run, ISyncMgrUIOperation::Run, Run, Run method [Windows Shell], Run method [Windows Shell],ISyncMgrUIOperation interface, _shell_ISyncMgrUIOperation_Run, shell.ISyncMgrUIOperation_Run, syncmgr/ISyncMgrUIOperation::Run
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

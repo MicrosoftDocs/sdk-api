@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.Clone
 title: Region::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Region::Clone method makes a copy of this Region object and returns the address of the new Region object.
 old-location: gdiplus\_gdiplus_CLASS_Region_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\clone_1.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Region class, Region class [GDI+],Clone method, Region.Clone, Region::Clone, _gdiplus_CLASS_Region_Clone_, gdiplus._gdiplus_CLASS_Region_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

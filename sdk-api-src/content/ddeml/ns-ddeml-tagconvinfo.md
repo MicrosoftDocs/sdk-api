@@ -1,16 +1,16 @@
 ---
 UID: NS:ddeml.tagCONVINFO
 title: tagCONVINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) conversation.
 old-location: dataxchg\convinfo_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\convinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PCONVINFO, CONVINFO, CONVINFO structure [Data Exchange], PCONVINFO, PCONVINFO structure pointer [Data Exchange], ST_ADVISE, ST_BLOCKED, ST_BLOCKNEXT, ST_CLIENT, ST_CONNECTED, ST_INLIST, ST_ISLOCAL, ST_ISSELF, ST_TERMINATED, XST_ADVACKRCVD, XST_ADVDATAACKRCVD, XST_ADVDATASENT, XST_ADVSENT, XST_CONNECTED, XST_DATARCVD, XST_EXECACKRCVD, XST_EXECSENT, XST_INCOMPLETE, XST_INIT1, XST_INIT2, XST_NULL, XST_POKEACKRCVD, XST_POKESENT, XST_REQSENT, XST_UNADVACKRCVD, XST_UNADVSENT, XTYP_ADVDATA, XTYP_ADVREQ, XTYP_ADVSTART, XTYP_ADVSTOP, XTYP_CONNECT, XTYP_CONNECT_CONFIRM, XTYP_DISCONNECT, XTYP_EXECUTE, XTYP_MONITOR, XTYP_POKE, XTYP_REGISTER, XTYP_REQUEST, XTYP_UNREGISTER, XTYP_WILDCONNECT, XTYP_XACT_COMPLETE, _win32_CONVINFO_str, _win32_convinfo_str_cpp, dataxchg.convinfo_str, ddeml/CONVINFO, ddeml/PCONVINFO, tagCONVINFO, winui._win32_convinfo_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h

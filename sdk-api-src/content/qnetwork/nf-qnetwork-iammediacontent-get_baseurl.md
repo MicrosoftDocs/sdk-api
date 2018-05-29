@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_BaseURL
 title: IAMMediaContent::get_BaseURL
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_BaseURL method gets a base URL for the related web content.
 old-location: dshow\iammediacontent_get_baseurl.htm
 old-project: DirectShow
 ms.assetid: 0fd88d09-79bf-45c6-93b4-1f57752ed1cd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_BaseURL method, IAMMediaContent.get_BaseURL, IAMMediaContent::get_BaseURL, IAMMediaContentget_BaseURL, dshow.iammediacontent_get_baseurl, get_BaseURL, get_BaseURL method [DirectShow], get_BaseURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_BaseURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

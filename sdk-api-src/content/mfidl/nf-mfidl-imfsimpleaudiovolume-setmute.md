@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.SetMute
 title: IMFSimpleAudioVolume::SetMute
-author: windows-driver-content
+author: windows-sdk-content
 description: Mutes or unmutes the audio.
 old-location: mf\imfsimpleaudiovolume_setmute.htm
 old-project: medfound
 ms.assetid: d8840d15-d4d5-481e-9002-54fdbf323c9c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSimpleAudioVolume interface [Media Foundation],SetMute method, IMFSimpleAudioVolume.SetMute, IMFSimpleAudioVolume::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFSimpleAudioVolume interface, d8840d15-d4d5-481e-9002-54fdbf323c9c, mf.imfsimpleaudiovolume_setmute, mfidl/IMFSimpleAudioVolume::SetMute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

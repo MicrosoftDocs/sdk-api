@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_InternalPort
 title: INetSharingPortMappingProps::get_InternalPort
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_InternalPort method retrieves the internal port associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_internalport.htm
 old-project: ICS
 ms.assetid: 53f19eee-98da-4b90-99cd-b0bed4ec6d6f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_InternalPort method, INetSharingPortMappingProps.get_InternalPort, INetSharingPortMappingProps::get_InternalPort, _ics_inetsharingportmappingprops_get_port, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_internalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_InternalPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

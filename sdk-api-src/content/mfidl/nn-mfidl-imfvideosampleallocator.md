@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocator
 title: IMFVideoSampleAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates video samples for a video media sink.
 old-location: mf\imfvideosampleallocator.htm
 old-project: medfound
 ms.assetid: bef92133-ae6c-4013-9210-5e0f0be2002c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoSampleAllocator, IMFVideoSampleAllocator interface [Media Foundation], IMFVideoSampleAllocator interface [Media Foundation],described, bef92133-ae6c-4013-9210-5e0f0be2002c, mf.imfvideosampleallocator, mfidl/IMFVideoSampleAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

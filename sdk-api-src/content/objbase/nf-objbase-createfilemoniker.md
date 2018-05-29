@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CreateFileMoniker
 title: CreateFileMoniker function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a file moniker based on the specified path.
 old-location: com\createfilemoniker.htm
 old-project: com
 ms.assetid: d9677fa0-cda0-4b63-a21f-1fd0e27c8f3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateFileMoniker, CreateFileMoniker function [COM], _com_CreateFileMoniker, com.createfilemoniker, objbase/CreateFileMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

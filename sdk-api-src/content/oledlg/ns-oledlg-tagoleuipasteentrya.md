@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTEENTRYA
 title: tagOLEUIPASTEENTRYA
-author: windows-driver-content
+author: windows-sdk-content
 description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.
 old-location: com\oleuipasteentry_struct.htm
 old-project: com
 ms.assetid: 9c84bb0e-d998-4e35-bf34-2377f5cd0cb7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUIPASTEENTRYA, *POLEUIPASTEENTRYA, LPOLEUIPASTEENTRY, LPOLEUIPASTEENTRY structure pointer [COM], OLEUIPASTEENTRY, OLEUIPASTEENTRY structure [COM], OLEUIPASTEENTRYA, OLEUIPASTEENTRYW, POLEUIPASTEENTRY, POLEUIPASTEENTRY structure pointer [COM], _ole_OLEUIPASTEENTRY, com.oleuipasteentry_struct, oledlg/LPOLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRYA, oledlg/OLEUIPASTEENTRYW, oledlg/POLEUIPASTEENTRY, tagOLEUIPASTEENTRYA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

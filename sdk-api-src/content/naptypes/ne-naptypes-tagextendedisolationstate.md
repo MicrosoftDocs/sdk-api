@@ -1,16 +1,16 @@
 ---
 UID: NE:naptypes.tagExtendedIsolationState
 title: tagExtendedIsolationState
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the extended isolation state of a connection.
 old-location: nap\extendedisolationstate.htm
 old-project: NAP
 ms.assetid: 1466247a-eecf-4912-810a-07cabb9c83da
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ExtendedIsolationState, ExtendedIsolationState enumeration [NAP], extendedIsolationStateInfected, extendedIsolationStateNoData, extendedIsolationStateTransition, extendedIsolationStateUnknown, nap.extendedisolationstate, naptypes/ExtendedIsolationState, naptypes/extendedIsolationStateInfected, naptypes/extendedIsolationStateNoData, naptypes/extendedIsolationStateTransition, naptypes/extendedIsolationStateUnknown, tagExtendedIsolationState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 

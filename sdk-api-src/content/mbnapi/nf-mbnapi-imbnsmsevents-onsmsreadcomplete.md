@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsReadComplete
 title: IMbnSmsEvents::OnSmsReadComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method indicating the completion of a message read operation.
 old-location: mbn\imbnsmsevents_onsmsreadcomplete.htm
 old-project: mbn
 ms.assetid: 58478c9d-6df2-466b-85bc-1c571f4429ce
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_FILTER_NOT_SUPPORTED, E_MBN_SMS_INVALID_MEMORY_INDEX, E_MBN_SMS_MEMORY_FAILURE, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsReadComplete method, IMbnSmsEvents.OnSmsReadComplete, IMbnSmsEvents::OnSmsReadComplete, OnSmsReadComplete, OnSmsReadComplete method [Microsoft Broadband Networks], OnSmsReadComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmsreadcomplete, mbnapi/IMbnSmsEvents::OnSmsReadComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

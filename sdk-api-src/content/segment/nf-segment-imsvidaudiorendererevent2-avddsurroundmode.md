@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDDSurroundMode
 title: IMSVidAudioRendererEvent2::AVDDSurroundMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates a change in the AVDDSurroundMode codec property.
 old-location: mstv\imsvidaudiorendererevent2_avddsurroundmode.htm
 old-project: mstv
 ms.assetid: 30a4d8d7-ee77-43bb-b1fc-5be13a9b6872
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AVDDSurroundMode, AVDDSurroundMode method [Microsoft TV Technologies], AVDDSurroundMode method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDDSurroundMode method, IMSVidAudioRendererEvent2.AVDDSurroundMode, IMSVidAudioRendererEvent2::AVDDSurroundMode, mstv.imsvidaudiorendererevent2_avddsurroundmode, segment/IMSVidAudioRendererEvent2::AVDDSurroundMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

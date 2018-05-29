@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminConnectionGetInfo
 title: MprAdminConnectionGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data about a specific connection.
 old-location: rras\mpradminconnectiongetinfo.htm
 old-project: RRAS
 ms.assetid: 1fef5fbf-de3f-43c6-8b94-808f6ed209d8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminConnectionGetInfo, MprAdminConnectionGetInfo function [RAS], _mpr_mpradminconnectiongetinfo, mprapi/MprAdminConnectionGetInfo, rras.mpradminconnectiongetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

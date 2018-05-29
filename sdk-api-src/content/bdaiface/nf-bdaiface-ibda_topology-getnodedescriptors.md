@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeDescriptors
 title: IBDA_Topology::GetNodeDescriptors
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNodeDescriptors method retrieves a list of descriptors for the nodes in the topology.
 old-location: mstv\ibda_topology_getnodedescriptors.htm
 old-project: mstv
 ms.assetid: 4bbfa1d1-7101-4ca6-b6dc-e66b3c49857d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNodeDescriptors, GetNodeDescriptors method [Microsoft TV Technologies], GetNodeDescriptors method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetNodeDescriptors method, IBDA_Topology.GetNodeDescriptors, IBDA_Topology::GetNodeDescriptors, IBDA_TopologyGetNodeDescriptors, bdaiface/IBDA_Topology::GetNodeDescriptors, mstv.ibda_topology_getnodedescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISingleItemException
 title: ISingleItemException
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an item to exclude from a knowledge object.
 old-location: winsync\isingleitemexception.htm
 old-project: winsync
 ms.assetid: 623553cb-9dc2-4504-9c49-357a0526b130
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISingleItemException, ISingleItemException interface [Windows Sync], ISingleItemException interface [Windows Sync],described, winsync.isingleitemexception, winsync/ISingleItemException
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

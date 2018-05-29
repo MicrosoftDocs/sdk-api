@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Play
 title: IWMDMDeviceControl::Play
-author: windows-driver-content
+author: windows-sdk-content
 description: The Play method begins playing at the current seek position. If the IWMDMDeviceControl::Seek method has not been called, then playing begins at the beginning of the first file, and the play length is not defined.
 old-location: wmdm\iwmdmdevicecontrol_play.htm
 old-project: WMDM
 ms.assetid: e8d717e6-365c-44ad-b24e-daa3c35664de
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Play method, IWMDMDeviceControl.Play, IWMDMDeviceControl::Play, IWMDMDeviceControlPlay, Play, Play method [windows Media Device Manager], Play method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Play, wmdm.iwmdmdevicecontrol_play
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IPolicyQualifiers
 title: IPolicyQualifiers
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods and properties that enable you to manage a collection of IPolicyQualifier objects.
 old-location: security\ipolicyqualifiers.htm
 old-project: SecCertEnroll
 ms.assetid: da8b6289-379e-4dff-b15a-b0967f245c3d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], IPolicyQualifiers interface [Security],described, certenroll/IPolicyQualifiers, security.ipolicyqualifiers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

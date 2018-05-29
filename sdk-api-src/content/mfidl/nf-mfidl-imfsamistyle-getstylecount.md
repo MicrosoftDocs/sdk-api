@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.GetStyleCount
 title: IMFSAMIStyle::GetStyleCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of styles defined in the SAMI file.
 old-location: mf\imfsamistyle_getstylecount.htm
 old-project: medfound
 ms.assetid: 161cd457-9fab-4ebb-b8b8-f87326d67c66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 161cd457-9fab-4ebb-b8b8-f87326d67c66, GetStyleCount, GetStyleCount method [Media Foundation], GetStyleCount method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetStyleCount method, IMFSAMIStyle.GetStyleCount, IMFSAMIStyle::GetStyleCount, mf.imfsamistyle_getstylecount, mfidl/IMFSAMIStyle::GetStyleCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

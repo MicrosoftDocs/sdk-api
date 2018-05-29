@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabEnumEndpoints
 title: PeerCollabEnumEndpoints function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the handle to an enumeration that contains the endpoints associated with a specific peer contact.
 old-location: p2p\peercollabenumendpoints.htm
 old-project: P2PSdk
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

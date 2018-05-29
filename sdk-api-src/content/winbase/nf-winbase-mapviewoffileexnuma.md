@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.MapViewOfFileExNuma
 title: MapViewOfFileExNuma function
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling process and specifies the NUMA node for the physical memory.
 old-location: base\mapviewoffileexnuma.htm
 old-project: Memory
 ms.assetid: 1e28c8db-112d-481d-b470-8ca618e125ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_READ, FILE_MAP_WRITE, MapViewOfFileExNuma, MapViewOfFileExNuma function, NUMA_NO_PREFERRED_NODE, base.mapviewoffileexnuma, winbase/MapViewOfFileExNuma
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

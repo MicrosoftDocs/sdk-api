@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_PALCB_DESTROYPALETTE
 title: PDD_PALCB_DESTROYPALETTE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdDestroyPalette callback function destroys the specified palette.
 old-location: display\dddestroypalette.htm
 old-project: display
 ms.assetid: b44936fd-0052-4f54-9e97-1664c381c697
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdDestroyPalette, DdDestroyPalette callback function [Display Devices], PDD_PALCB_DESTROYPALETTE, PDD_PALCB_DESTROYPALETTE callback, ddfncs_a0c991ff-d3b8-4793-a6b3-a72dc5f5d700.xml, ddrawint/DdDestroyPalette, display.dddestroypalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

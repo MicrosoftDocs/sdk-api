@@ -1,16 +1,16 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetContext
 title: ICertServerPolicy::SetContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the request to be used as the context for subsequent calls to Certificate Services.
 old-location: security\icertserverpolicy_setcontext.htm
 old-project: SecCrypto
 ms.assetid: ba45cda8-49a5-4bd6-af68-90b4b56aff7d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertServerPolicy object [Security],SetContext method, ICertServerPolicy interface [Security],SetContext method, ICertServerPolicy.SetContext, ICertServerPolicy::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerPolicy object, SetContext method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcontext, certif/ICertServerPolicy::SetContext, security.icertserverpolicy_setcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

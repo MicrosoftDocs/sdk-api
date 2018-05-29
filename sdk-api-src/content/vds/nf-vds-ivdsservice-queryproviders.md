@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsService.QueryProviders
 title: IVdsService::QueryProviders
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an enumeration object containing a list of the hardware and software providers known to VDS.
 old-location: base\ivdsservice_queryproviders.htm
 old-project: VDS
 ms.assetid: 55171eb1-6fec-4651-914c-88d23e8d7849
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

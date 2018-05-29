@@ -1,16 +1,16 @@
 ---
 UID: NF:msime.IFEDictionary.NextWords
 title: IFEDictionary::NextWords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the next word entry from a dictionary.
 old-location: intl\ifedictionary_nextwords.htm
 old-project: Intl
 ms.assetid: 551925ED-B05C-433F-91A9-D2BAC795E783
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],NextWords method, IFEDictionary.NextWords, IFEDictionary::NextWords, NextWords, NextWords method [Internationalization for Windows Applications], NextWords method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_nextwords, msime/IFEDictionary::NextWords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msime.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMIStyle
 title: IWMPClosedCaption::put_SAMIStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_SAMIStyle method specifies the closed captioning style.
 old-location: wmp\iwmpclosedcaption_put_samistyle.htm
 old-project: WMP
 ms.assetid: 8f9a4f6e-4596-4c4a-ade7-5b7e1b82b229
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIStyle method, IWMPClosedCaption.put_SAMIStyle, IWMPClosedCaption::put_SAMIStyle, IWMPClosedCaptionput_SAMIStyle, put_SAMIStyle, put_SAMIStyle method [Windows Media Player], put_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samistyle, wmp/IWMPClosedCaption::put_SAMIStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

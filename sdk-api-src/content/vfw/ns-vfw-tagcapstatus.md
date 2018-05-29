@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw.tagCapStatus
 title: tagCapStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The CAPSTATUS structure defines the current state of the capture window.
 old-location: multimedia\capstatus.htm
 old-project: Multimedia
 ms.assetid: 65ad6e33-c601-4026-a5a4-2c68576d7ab7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPCAPSTATUS, *PCAPSTATUS, CAPSTATUS, CAPSTATUS structure [Windows Multimedia], _win32_CAPSTATUS_str, multimedia.capstatus, tagCapStatus, vfw/CAPSTATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

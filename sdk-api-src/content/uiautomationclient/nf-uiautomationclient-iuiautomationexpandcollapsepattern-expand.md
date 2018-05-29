@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.Expand
 title: IUIAutomationExpandCollapsePattern::Expand
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays all child nodes, controls, or content of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_Expand.htm
 old-project: WinAuto
 ms.assetid: bc21cffc-63fe-4c5d-9c4d-35e1bab67a7c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: Expand, Expand method [Windows Accessibility], Expand method [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],Expand method, IUIAutomationExpandCollapsePattern.Expand, IUIAutomationExpandCollapsePattern::Expand, uiauto.uiauto_IUIAutomationExpandCollapsePattern_Expand, uiauto_IUIAutomationExpandCollapsePattern_Expand, uiautomationclient/IUIAutomationExpandCollapsePattern::Expand, winauto.uiauto_IUIAutomationExpandCollapsePattern_Expand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

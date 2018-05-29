@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Call
 title: ITCallMediaEvent::get_Call
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Call method gets an ITCallInfo interface pointer for the call object associated with this event.
 old-location: tapi3\itcallmediaevent_get_call.htm
 old-project: Tapi
 ms.assetid: f343c0d2-78bd-415d-9bab-f21a32343119
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Call method, ITCallMediaEvent.get_Call, ITCallMediaEvent::get_Call, _tapi3_itcallmediaevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_call, tapi3if/ITCallMediaEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

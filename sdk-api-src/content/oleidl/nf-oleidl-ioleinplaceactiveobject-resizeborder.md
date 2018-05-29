@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.ResizeBorder
 title: IOleInPlaceActiveObject::ResizeBorder
-author: windows-driver-content
+author: windows-sdk-content
 description: Alerts the object that it needs to resize its border space.
 old-location: com\ioleinplaceactiveobject_resizeborder.htm
 old-project: com
 ms.assetid: 240d2ae5-abce-4bea-969e-f47780908bbb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],ResizeBorder method, IOleInPlaceActiveObject.ResizeBorder, IOleInPlaceActiveObject::ResizeBorder, ResizeBorder, ResizeBorder method [COM], ResizeBorder method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_resizeborder, com.ioleinplaceactiveobject_resizeborder, oleidl/IOleInPlaceActiveObject::ResizeBorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

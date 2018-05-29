@@ -1,16 +1,16 @@
 ---
 UID: NE:wmsdkidl.tagWMT_STORAGE_FORMAT
 title: tagWMT_STORAGE_FORMAT
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_STORAGE_FORMAT enumeration type defines the file types that can be manipulated with this SDK.
 old-location: wmformat\wmt_storage_format.htm
 old-project: wmformat
 ms.assetid: 49f49ca8-8953-47a6-97c3-fd011d5f88cd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_STORAGE_FORMAT, WMT_STORAGE_FORMAT enumeration [windows Media Format], WMT_Storage_Format_MP3, WMT_Storage_Format_V1, tagWMT_STORAGE_FORMAT, wmformat.wmt_storage_format, wmsdkidl/WMT_STORAGE_FORMAT, wmsdkidl/WMT_Storage_Format_MP3, wmsdkidl/WMT_Storage_Format_V1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

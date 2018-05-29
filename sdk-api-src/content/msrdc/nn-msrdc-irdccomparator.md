@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.IRdcComparator
 title: IRdcComparator
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to compare two signature streams (seed and source) and produce the list of source and seed file data chunks needed to create the target file.
 old-location: rdc\irdccomparator.htm
 old-project: Rdc
 ms.assetid: ad39b922-3271-491e-b74b-80a1f647e663
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRdcComparator, IRdcComparator interface [Remote Differential Compression], IRdcComparator interface [Remote Differential Compression],described, fs.irdccomparator, msrdc/IRdcComparator, rdc.irdccomparator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveConfiguration
 title: IDirectManipulationViewport::RemoveConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removeconfiguration.htm
 old-project: directmanipulation
 ms.assetid: 2aac9468-a060-4f06-9e8e-139355be75f7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveConfiguration method, IDirectManipulationViewport.RemoveConfiguration, IDirectManipulationViewport::RemoveConfiguration, RemoveConfiguration, RemoveConfiguration method [Direct Manipulation], RemoveConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeconfiguration, directmanipulation/IDirectManipulationViewport::RemoveConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

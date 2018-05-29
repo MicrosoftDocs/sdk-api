@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardTransmit
 title: SCardTransmit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a service request to the smart card and expects to receive data back from the card.
 old-location: security\scardtransmit.htm
 old-project: SecAuthN
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

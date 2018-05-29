@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMediaType
 title: DeleteNtmsMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteNtmsMediaType function deletes the specified media type relation from the specified library, provided that the library does not contain any physical media objects of the specified media type.
 old-location: fs\deletentmsmediatype.htm
 old-project: Rsm
 ms.assetid: c2a2bc8a-4230-44c4-b6bc-4b4e2a9fece1
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: DeleteNtmsMediaType, DeleteNtmsMediaType function [Files], _zaw_deletentmsmediatype, base.deletentmsmediatype, fs.deletentmsmediatype, ntmsapi/DeleteNtmsMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

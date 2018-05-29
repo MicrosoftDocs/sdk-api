@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_COOKED_URL
 title: "_HTTP_COOKED_URL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a validated, canonical, UTF-16 Unicode-encoded URL request string together with pointers into it and element lengths.
 old-location: http\http_cooked_url.htm
 old-project: Http
 ms.assetid: beb31444-4a4b-4d8d-b88b-7d74467c9ca1
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_COOKED_URL, HTTP_COOKED_URL, HTTP_COOKED_URL structure [HTTP], PHTTP_COOKED_URL, PHTTP_COOKED_URL structure pointer [HTTP], _HTTP_COOKED_URL, _http_http_cooked_url, http.http_cooked_url, http/HTTP_COOKED_URL, http/PHTTP_COOKED_URL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

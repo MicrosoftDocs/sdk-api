@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.SetValue
 title: IRangeValueProvider::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of the control.
 old-location: winauto\uiauto_IRangeValueProvider_SetValue.htm
 old-project: WinAuto
 ms.assetid: 3ce214a0-e7ff-440a-a308-fea5608e13f0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],SetValue method, IRangeValueProvider.SetValue, IRangeValueProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IRangeValueProvider interface, uiauto.uiauto_IRangeValueProvider_SetValue, uiauto_IRangeValueProvider_SetValue, uiautomationcore/IRangeValueProvider::SetValue, winauto.uiauto_IRangeValueProvider_SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

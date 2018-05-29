@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.RESUTIL_ULARGEINT_DATA
 title: RESUTIL_ULARGEINT_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for an unsigned large integer.
 old-location: mscs\resutil_ulargeint_data.htm
 old-project: MsCS
 ms.assetid: 44b937dc-e2f1-4c2d-9689-35b772103b8d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_ULARGEINT_DATA, RESUTIL_ULARGEINT_DATA structure [Failover Cluster], _wolf_resutil_ulargeint_data, mscs.resutil_ulargeint_data, resapi/PRESUTIL_ULARGEINT_DATA, resapi/RESUTIL_ULARGEINT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcBindingUnbind
 title: RpcBindingUnbind function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unbinds a binding handle previously bound by RpcBindingBind.
 old-location: rpc\rpcbindingunbind.htm
 old-project: Rpc
 ms.assetid: a9e30764-22ea-4dbf-9311-f37bd55ed2c4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingUnbind, RpcBindingUnbind function [RPC], rpc.rpcbindingunbind, rpcasync/RpcBindingUnbind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ndattrib.tagShellCommandInfo
 title: tagShellCommandInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The ShellCommandInfo structure contains data required to launch an additional application for manual repair options.
 old-location: ndf\shellcommandinfo.htm
 old-project: NDF
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo, tagShellCommandInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHFreeShared
 title: SHFreeShared function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHFreeShared may be altered or unavailable.
 old-location: shell\SHFreeShared.htm
 old-project: shell
 ms.assetid: 5a86ae5d-8caa-4126-a22e-bc3cc7df2381
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHFreeShared, SHFreeShared function [Windows Shell], _win32_SHFreeShared, shell.SHFreeShared, shlwapi/SHFreeShared
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

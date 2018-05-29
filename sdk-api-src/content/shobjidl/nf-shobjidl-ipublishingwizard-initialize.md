@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IPublishingWizard.Initialize
 title: IPublishingWizard::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the Publishing Wizard object with the files to transfer, the settings to use, and the type of wizard to create.
 old-location: shell\IPublishingWizard_Initialize.htm
 old-project: shell
 ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

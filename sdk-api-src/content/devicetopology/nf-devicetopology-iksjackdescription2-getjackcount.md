@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IKsJackDescription2.GetJackCount
 title: IKsJackDescription2::GetJackCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetJackCount method gets the number of jacks on the connector, which are required to connect to an endpoint device.
 old-location: coreaudio\iksjackdescription2_getjackcount.htm
 old-project: CoreAudio
 ms.assetid: b7ebe746-4680-4921-a1fd-1940e306f4eb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetJackCount, GetJackCount method [Core Audio], GetJackCount method [Core Audio],IKsJackDescription2 interface, IKsJackDescription2 interface [Core Audio],GetJackCount method, IKsJackDescription2.GetJackCount, IKsJackDescription2::GetJackCount, coreaudio.iksjackdescription2_getjackcount, devicetopology/IKsJackDescription2::GetJackCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

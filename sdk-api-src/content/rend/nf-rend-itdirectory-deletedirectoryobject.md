@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.ITDirectory.DeleteDirectoryObject
 title: ITDirectory::DeleteDirectoryObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteDirectoryObject method deletes an object from the server.
 old-location: tapi3\itdirectory_deletedirectoryobject.htm
 old-project: Tapi
 ms.assetid: 1d2bb052-6986-4407-8a37-3a74920bf78e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeleteDirectoryObject, DeleteDirectoryObject method [TAPI 2.2], DeleteDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],DeleteDirectoryObject method, ITDirectory.DeleteDirectoryObject, ITDirectory::DeleteDirectoryObject, _tapi3_itdirectory_deletedirectoryobject, rend/ITDirectory::DeleteDirectoryObject, tapi3.itdirectory_deletedirectoryobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

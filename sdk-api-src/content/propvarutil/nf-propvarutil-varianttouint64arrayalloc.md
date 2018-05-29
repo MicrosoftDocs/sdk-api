@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToUInt64ArrayAlloc
 title: VariantToUInt64ArrayAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a vector structure into a newly-allocated unsigned Int64 array.
 old-location: properties\VariantToUInt64ArrayAlloc.htm
 old-project: properties
 ms.assetid: 898edef6-a688-4a39-897c-70f29952db49
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToUInt64ArrayAlloc, VariantToUInt64ArrayAlloc function [Windows Properties], _shell_VariantToUInt64ArrayAlloc, properties.VariantToUInt64ArrayAlloc, propvarutil/VariantToUInt64ArrayAlloc, shell.VariantToUInt64ArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

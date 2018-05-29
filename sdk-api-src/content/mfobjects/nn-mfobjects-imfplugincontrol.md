@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFPluginControl
 title: IMFPluginControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
 old-location: mf\imfplugincontrol.htm
 old-project: medfound
 ms.assetid: cdc6fd4f-c544-43bb-ba99-5468ef49949d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], IMFPluginControl interface [Media Foundation],described, mf.imfplugincontrol, mfobjects/IMFPluginControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

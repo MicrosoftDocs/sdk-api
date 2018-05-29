@@ -1,16 +1,16 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SHUTDOWN
 title: WSMAN_PLUGIN_SHUTDOWN
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the shutdown callback for the plug-in.
 old-location: winrm\wsman_plugin_shutdown.htm
 old-project: WinRM
 ms.assetid: a9f72416-f6a7-4ba0-94d0-48f85393acab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_PLUGIN_SHUTDOWN, WSMAN_PLUGIN_SHUTDOWN callback, WSMAN_PLUGIN_SHUTDOWN callback function [Windows Remote Management], WSMAN_PLUGIN_SHUTDOWN_IISHOST, WSMAN_PLUGIN_SHUTDOWN_SERVICE, WSMAN_PLUGIN_SHUTDOWN_SYSTEM, WSManPluginShutdown, winrm.wsman_plugin_shutdown, wsman/WSMAN_PLUGIN_SHUTDOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 

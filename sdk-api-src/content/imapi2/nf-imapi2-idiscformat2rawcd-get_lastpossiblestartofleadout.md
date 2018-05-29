@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_LastPossibleStartOfLeadout
 title: IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the last possible starting position for the leadout area.
 old-location: imapi\idiscformat2rawcd_get_lastpossiblestartofleadout.htm
 old-project: imapi
 ms.assetid: 2588f35e-388b-4491-a209-99d34b1d82df
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_LastPossibleStartOfLeadout method, IDiscFormat2RawCD.get_LastPossibleStartOfLeadout, IDiscFormat2RawCD::get_LastPossibleStartOfLeadout, get_LastPossibleStartOfLeadout, get_LastPossibleStartOfLeadout method [IMAPI], get_LastPossibleStartOfLeadout method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_lastpossiblestartofleadout, imapi2/IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

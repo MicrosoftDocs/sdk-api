@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.getservbyname
 title: getservbyname function
-author: windows-driver-content
+author: windows-sdk-content
 description: The getservbyname function retrieves service information corresponding to a service name and protocol.
 old-location: winsock\getservbyname_2.htm
 old-project: WinSock
 ms.assetid: 730fa372-f620-4d21-99b9-3e7b79932792
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_getservbyname_2, getservbyname, getservbyname function [Winsock], winsock.getservbyname_2, winsock/getservbyname"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

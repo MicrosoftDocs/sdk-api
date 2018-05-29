@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.FLASHWINFO
 title: FLASHWINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the flash status for a window and the number of times the system should flash the window.
 old-location: base\flashwinfo_str.htm
 old-project: Debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

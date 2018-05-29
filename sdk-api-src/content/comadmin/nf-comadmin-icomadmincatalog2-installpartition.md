@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.InstallPartition
 title: ICOMAdminCatalog2::InstallPartition
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports a partition from a file.
 old-location: cos\icomadmincatalog2_installpartition.htm
 old-project: cossdk
 ms.assetid: e1f54a6a-9b90-4e9e-b94c-46f6c9b683a3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COMAdminInstallForceOverwriteOfFile, COMAdminInstallNoUsers, COMAdminInstallUsers, ICOMAdminCatalog2 interface [COM+],InstallPartition method, ICOMAdminCatalog2.InstallPartition, ICOMAdminCatalog2::InstallPartition, InstallPartition, InstallPartition method [COM+], InstallPartition method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_InstallPartition, comadmin/ICOMAdminCatalog2::InstallPartition, cos.icomadmincatalog2_installpartition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

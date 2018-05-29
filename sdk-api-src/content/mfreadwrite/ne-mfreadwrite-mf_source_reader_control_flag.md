@@ -1,16 +1,16 @@
 ---
 UID: NE:mfreadwrite.MF_SOURCE_READER_CONTROL_FLAG
 title: MF_SOURCE_READER_CONTROL_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags for the IMFSourceReader::ReadSample method.
 old-location: mf\mf_source_reader_control_flag.htm
 old-project: medfound
 ms.assetid: a6367fea-ceba-4ce4-9a1b-88a40afc3055
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_SOURCE_READER_CONTROLF_DRAIN, MF_SOURCE_READER_CONTROL_FLAG, MF_SOURCE_READER_CONTROL_FLAG enumeration [Media Foundation], mf.mf_source_reader_control_flag, mfreadwrite/MF_SOURCE_READER_CONTROLF_DRAIN, mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfreadwrite.h
 req.include-header: 

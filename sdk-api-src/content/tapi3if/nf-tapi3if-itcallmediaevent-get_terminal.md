@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Terminal
 title: ITCallMediaEvent::get_Terminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Terminal method gets the terminal associated with the event.
 old-location: tapi3\itcallmediaevent_get_terminal.htm
 old-project: Tapi
 ms.assetid: 49fa442a-d4b0-4f51-b14a-c7819e06dcef
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Terminal method, ITCallMediaEvent.get_Terminal, ITCallMediaEvent::get_Terminal, _tapi3_itcallmediaevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_terminal, tapi3if/ITCallMediaEvent::get_Terminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

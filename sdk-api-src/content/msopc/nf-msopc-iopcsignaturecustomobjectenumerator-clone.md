@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.Clone
 title: IOpcSignatureCustomObjectEnumerator::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the current IOpcSignatureCustomObjectEnumerator interface pointer and all its descendants.
 old-location: opc\iopcsignaturecustomobjectenumerator_clone.htm
 old-project: OPC
 ms.assetid: 51dd3758-26c6-4d4f-a956-61a9ff1f67c5
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignatureCustomObjectEnumerator.Clone, IOpcSignatureCustomObjectEnumerator::Clone, msopc/IOpcSignatureCustomObjectEnumerator::Clone, opc.iopcsignaturecustomobjectenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

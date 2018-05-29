@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupOpenMasterInf
 title: SetupOpenMasterInf function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupOpenMasterInf function opens the master INF file that contains file and layout information for files shipped with Windows.
 old-location: setup\setupopenmasterinf.htm
 old-project: SetupApi
 ms.assetid: dbf3fb81-7416-4eb7-95b9-adfc17b2a364
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupOpenMasterInf, SetupOpenMasterInf function [Setup API], _setupapi_setupopenmasterinf, setup.setupopenmasterinf, setupapi/SetupOpenMasterInf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

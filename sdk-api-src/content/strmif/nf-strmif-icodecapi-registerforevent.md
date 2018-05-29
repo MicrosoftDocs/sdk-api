@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.ICodecAPI.RegisterForEvent
 title: ICodecAPI::RegisterForEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterForEvent method registers the application to receive events from the codec.
 old-location: dshow\icodecapi_registerforevent.htm
 old-project: DirectShow
 ms.assetid: 87423ddb-7011-40ab-a449-eb43688efb26
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: A proprietary event GUID defined by the codec., CODECAPI_CHANGELISTS, ICodecAPI interface [DirectShow],RegisterForEvent method, ICodecAPI.RegisterForEvent, ICodecAPI::RegisterForEvent, ICodecAPIRegisterForEvent, One of the property GUIDs defined in codecapi.h. (See Codec API Properties.), RegisterForEvent, RegisterForEvent method [DirectShow], RegisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_registerforevent, strmif/ICodecAPI::RegisterForEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetTitle
 title: IExplorerCommand::GetTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the title text of the button or menu item that launches a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetTitle.htm
 old-project: shell
 ms.assetid: d03ca4c5-80a5-4b7d-a47b-a67c72b7883c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetTitle method, IExplorerCommand.GetTitle, IExplorerCommand::GetTitle, _shell_IExplorerCommand_GetTitle, shell.IExplorerCommand_GetTitle, shobjidl_core/IExplorerCommand::GetTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.SetServiceStatus
 title: SetServiceStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the service control manager's status information for the calling service.
 old-location: base\setservicestatus.htm
 old-project: Services
 ms.assetid: bb5943ff-2814-40f2-bee0-ae7132befde9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

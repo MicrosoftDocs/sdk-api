@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_LocalizedName
 title: ISpellChecker::get_LocalizedName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets text, suitable to display to the user, that describes this spell checker.
 old-location: intl\ispellchecker_localizedname.htm
 old-project: Intl
 ms.assetid: 93bd9224-11fc-42cd-8b2a-93eec972a943
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LocalizedName property, ISpellChecker.LocalizedName, ISpellChecker.get_LocalizedName, ISpellChecker::LocalizedName, ISpellChecker::get_LocalizedName, LocalizedName property [Internationalization for Windows Applications], LocalizedName property [Internationalization for Windows Applications],ISpellChecker interface, get_LocalizedName, intl.ispellchecker_localizedname, spellcheck/ISpellChecker::LocalizedName, spellcheck/ISpellChecker::get_LocalizedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmGroupEnumerationStart
 title: MgmGroupEnumerationStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmGroupEnumerationStart function obtains an enumeration handle that is later used to obtain the list of groups that have been joined. After the client obtains the handle, it should use the MgmGroupEnumerationGetNext function to enumerate the groups.
 old-location: rras\mgmgroupenumerationstart.htm
 old-project: RRAS
 ms.assetid: 926f4055-becb-4c99-afd2-2d2822626f24
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MgmGroupEnumerationStart, MgmGroupEnumerationStart function [RAS], _mpr_mgmgroupenumerationstart, mgm/MgmGroupEnumerationStart, rras.mgmgroupenumerationstart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

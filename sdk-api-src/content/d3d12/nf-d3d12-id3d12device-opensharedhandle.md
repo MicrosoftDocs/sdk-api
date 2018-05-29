@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device.OpenSharedHandle
 title: ID3D12Device::OpenSharedHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.
 old-location: direct3d12\id3d12device_opensharedhandle.htm
 old-project: direct3d12
 ms.assetid: 4F428B06-2906-4ED6-BB75-5DACF2155FA9
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Device interface,OpenSharedHandle method, ID3D12Device.OpenSharedHandle, ID3D12Device::OpenSharedHandle, OpenSharedHandle, OpenSharedHandle method, OpenSharedHandle method,ID3D12Device interface, d3d12/ID3D12Device::OpenSharedHandle, direct3d12.id3d12device_opensharedhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

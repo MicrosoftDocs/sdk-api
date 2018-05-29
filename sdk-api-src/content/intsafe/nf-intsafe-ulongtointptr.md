@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongToIntPtr
 title: ULongToIntPtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type INT_PTR.
 old-location: shell\ULongToIntPtr.htm
 old-project: shell
 ms.assetid: 0d7cd4f0-03fd-43a2-b3e9-10441f65bf78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordToIntPtr, DWordToPtrdiffT, ULongToIntPtr, ULongToIntPtr function [Windows Shell], ULongToPtrdiffT, _shell_ULongToIntPtr, intsafe/ULongToIntPtr, shell.ULongToIntPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

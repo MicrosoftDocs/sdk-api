@@ -1,16 +1,16 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.GetRendererStatistics
 title: IWTSBitmapRenderer::GetRendererStatistics
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 old-location: termserv\iwtsbitmaprenderer_getrendererstatistics.htm
 old-project: TermServ
 ms.assetid: 9BC4C091-053E-4E94-BF65-91AEB03C355F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRendererStatistics, GetRendererStatistics method [Remote Desktop Services], GetRendererStatistics method [Remote Desktop Services],IWTSBitmapRenderer interface, IWTSBitmapRenderer interface [Remote Desktop Services],GetRendererStatistics method, IWTSBitmapRenderer.GetRendererStatistics, IWTSBitmapRenderer::GetRendererStatistics, termserv.iwtsbitmaprenderer_getrendererstatistics, tsvirtualchannels/IWTSBitmapRenderer::GetRendererStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 

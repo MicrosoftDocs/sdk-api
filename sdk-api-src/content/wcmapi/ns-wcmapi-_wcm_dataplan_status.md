@@ -1,16 +1,16 @@
 ---
 UID: NS:wcmapi._WCM_DATAPLAN_STATUS
 title: "_WCM_DATAPLAN_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies subscription information for a network connection.
 old-location: wcm\wcm_dataplan_status.htm
 old-project: wcm
 ms.assetid: 6ed0f05c-a9f8-49bb-9fb0-b91af8594d76
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS structure pointer [Windows Connection Manager], WCM_DATAPLAN_STATUS, WCM_DATAPLAN_STATUS structure [Windows Connection Manager], _WCM_DATAPLAN_STATUS, wcm.wcm_dataplan_status, wcmapi/PWCM_DATAPLAN_STATUS, wcmapi/WCM_DATAPLAN_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.EnumLatticeElements
 title: ITfLMLattice::EnumLatticeElements
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLMLattice::EnumLatticeElements method
 old-location: tsf\itflmlattice_enumlatticeelements.htm
 old-project: TSF
 ms.assetid: c42ad69f-d27a-40b7-8d63-3b422cb69db5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumLatticeElements, EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework],ITfLMLattice interface, ITfLMLattice interface [Text Services Framework],EnumLatticeElements method, ITfLMLattice.EnumLatticeElements, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

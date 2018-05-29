@@ -1,16 +1,16 @@
 ---
 UID: NF:mfsharingengine.IPlayToSourceClassFactory.CreateInstance
 title: IPlayToSourceClassFactory::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the PlayToController object.
 old-location: mf\iplaytosourceclassfactory_createinstance.htm
 old-project: medfound
 ms.assetid: 3F7F8441-B0A2-407E-B127-C7DC66CA34DE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IPlayToSourceClassFactory interface, IPlayToSourceClassFactory interface [Media Foundation],CreateInstance method, IPlayToSourceClassFactory.CreateInstance, IPlayToSourceClassFactory::CreateInstance, mf.iplaytocontrollerclassfactory_createinstance, mf.iplaytosourceclassfactory_createinstance, mfsharingengine/IPlayToSourceClassFactory::CreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 

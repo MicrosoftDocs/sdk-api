@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITResultSet.Add(PROPID,DWORD,PRIORITY)
 title: IITResultSet::Add(PROPID,DWORD,PRIORITY)
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a column to the result set.
 old-location: htmlhelp\iitresultset_add4.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetadddword.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,DWORD,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,DWORD,PRIORITY), htmlhelp.iitresultset_add4, infotech/IITResultSet::Add, refIITResultSetAddDWord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

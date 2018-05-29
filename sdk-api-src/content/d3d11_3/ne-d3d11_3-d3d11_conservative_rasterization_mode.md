@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11_3.D3D11_CONSERVATIVE_RASTERIZATION_MODE
 title: D3D11_CONSERVATIVE_RASTERIZATION_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies whether conservative rasterization is on or off.
 old-location: direct3d11\d3d11_conservative_rasterization_mode.htm
 old-project: direct3d11
 ms.assetid: 79D5A8A2-E379-4BE7-A0B2-50D16EFECAA3
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_CONSERVATIVE_RASTERIZATION_MODE, D3D11_CONSERVATIVE_RASTERIZATION_MODE enumeration [Direct3D 11], D3D11_CONSERVATIVE_RASTERIZATION_MODE_OFF, D3D11_CONSERVATIVE_RASTERIZATION_MODE_ON, d3d11_3/D3D11_CONSERVATIVE_RASTERIZATION_MODE, d3d11_3/D3D11_CONSERVATIVE_RASTERIZATION_MODE_OFF, d3d11_3/D3D11_CONSERVATIVE_RASTERIZATION_MODE_ON, direct3d11.d3d11_conservative_rasterization_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 

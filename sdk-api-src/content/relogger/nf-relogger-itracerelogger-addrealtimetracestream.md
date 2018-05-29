@@ -1,16 +1,16 @@
 ---
 UID: NF:relogger.ITraceRelogger.AddRealtimeTraceStream
 title: ITraceRelogger::AddRealtimeTraceStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new real-time ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addrealtimetracestream.htm
 old-project: ETW
 ms.assetid: 68bb5715-49b8-45bc-ae98-0b4a519c8e62
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AddRealtimeTraceStream, AddRealtimeTraceStream method [ETW], AddRealtimeTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddRealtimeTraceStream method, ITraceRelogger.AddRealtimeTraceStream, ITraceRelogger::AddRealtimeTraceStream, etw.itracerelogger_addrealtimetracestream, relogger/ITraceRelogger::AddRealtimeTraceStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:msdrmdefs.DRMCALLBACK
 title: DRMCALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.
 old-location: rm\callback_prototype.htm
 old-project: AdRms_Sdk
 ms.assetid: 41c200df-afbc-43a5-8046-d131fec3261a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: msdrmdefs.h
 req.include-header: 

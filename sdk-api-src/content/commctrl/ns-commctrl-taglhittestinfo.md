@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLHITTESTINFO
 title: tagLHITTESTINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to get information about the link corresponding to a given location.
 old-location: controls\LHITTESTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\lhittestinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp, tagLHITTESTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.GetDisplayModeList1
 title: IDXGIOutput1::GetDisplayModeList1
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the display modes that match the requested format and other input options.
 old-location: direct3ddxgi\idxgioutput1_getdisplaymodelist1.htm
 old-project: direct3ddxgi
 ms.assetid: 49522ED9-30AD-4F39-96D2-BB6677D72349
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetDisplayModeList1, GetDisplayModeList1 method [DXGI], GetDisplayModeList1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplayModeList1 method, IDXGIOutput1.GetDisplayModeList1, IDXGIOutput1::GetDisplayModeList1, direct3ddxgi.idxgioutput1_getdisplaymodelist1, dxgi1_2/IDXGIOutput1::GetDisplayModeList1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

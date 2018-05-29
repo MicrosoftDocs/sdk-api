@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptSecretAgreement
 title: NCryptSecretAgreement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\ncryptsecretagreement.htm
 old-project: SecCNG
 ms.assetid: b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

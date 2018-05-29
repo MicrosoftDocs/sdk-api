@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetLogicalDriveStringsW
 title: GetLogicalDriveStringsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Fills a buffer with strings that specify valid drives in the system.
 old-location: fs\getlogicaldrivestrings.htm
 old-project: FileIO
 ms.assetid: d3a83f8d-c37c-48b9-a24c-f81dfe5773e9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetLogicalDriveStrings, GetLogicalDriveStrings function [Files], GetLogicalDriveStringsA, GetLogicalDriveStringsW, _win32_getlogicaldrivestrings, base.getlogicaldrivestrings, fileapi/GetLogicalDriveStrings, fileapi/GetLogicalDriveStringsA, fileapi/GetLogicalDriveStringsW, fs.getlogicaldrivestrings, winbase/GetLogicalDriveStrings, winbase/GetLogicalDriveStringsA, winbase/GetLogicalDriveStringsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

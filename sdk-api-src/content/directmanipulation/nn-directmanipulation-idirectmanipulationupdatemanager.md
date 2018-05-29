@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationUpdateManager
 title: IDirectManipulationUpdateManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages how compositor updates are sent to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationupdatemanager.htm
 old-project: directmanipulation
 ms.assetid: 30626a22-1ded-49ff-a6c3-619a14d5ee3b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationUpdateManager, IDirectManipulationUpdateManager interface [Direct Manipulation], IDirectManipulationUpdateManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatemanager, directmanipulation/IDirectManipulationUpdateManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

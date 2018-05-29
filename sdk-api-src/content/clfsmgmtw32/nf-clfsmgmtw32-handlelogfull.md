@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsmgmtw32.HandleLogFull
 title: HandleLogFull function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a managed log client when an attempt to reserve or append to a log fails with a log full error message. The log manager attempts to resolve the log full condition for the client, and notifies the client when the outcome is known.
 old-location: fs\handlelogfull.htm
 old-project: Clfs
 ms.assetid: ed4b067f-9386-4bec-a6dc-b22d6fd52390
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: HandleLogFull, HandleLogFull function [Files], clfsmgmtw32/HandleLogFull, fs.handlelogfull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

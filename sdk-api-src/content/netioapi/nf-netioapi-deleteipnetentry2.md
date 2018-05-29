@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.DeleteIpNetEntry2
 title: DeleteIpNetEntry2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a neighbor IP address entry on the local computer.
 old-location: iphlp\deleteipnetentry2.htm
 old-project: IpHlp
 ms.assetid: 85bace04-6c95-4cf2-a212-764de292aed6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteIpNetEntry2, DeleteIpNetEntry2 function [IP Helper], iphlp.deleteipnetentry2, netioapi/DeleteIpNetEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

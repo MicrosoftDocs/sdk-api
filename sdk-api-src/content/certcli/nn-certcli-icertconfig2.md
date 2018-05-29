@@ -1,16 +1,16 @@
 ---
 UID: NN:certcli.ICertConfig2
 title: ICertConfig2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provide functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
 old-location: security\icertconfig2.htm
 old-project: SecCrypto
 ms.assetid: 6bac5961-f9cc-4859-affa-aa7ed152ebfa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security],described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certcli.h
 req.include-header: Certsrv.h

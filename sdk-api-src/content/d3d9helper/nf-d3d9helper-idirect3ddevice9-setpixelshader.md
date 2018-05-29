@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetPixelShader
 title: IDirect3DDevice9::SetPixelShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the current pixel shader to a previously created pixel shader.
 old-location: direct3d9\idirect3ddevice9__setpixelshader.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshader.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShader method, IDirect3DDevice9.SetPixelShader, IDirect3DDevice9::SetPixelShader, SetPixelShader, SetPixelShader method [Direct3D 9], SetPixelShader method [Direct3D 9],IDirect3DDevice9 interface, c65d883e-77d2-f541-2bd4-48dba090930c, d3d9helper/IDirect3DDevice9::SetPixelShader, direct3d9.idirect3ddevice9__setpixelshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,17 +1,17 @@
 ---
 UID: NF:rpcndr.NdrConformantArrayUnmarshall
 title: NdrConformantArrayUnmarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrConformantArrayUnmarshall function unmarshals a conformant array.
 old-location: rpc\ndrconformantarrayunmarshall.htm
 old-project: Rpc
 ms.assetid: 09acbea7-a835-4365-917f-4b12b2602bf0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall
 , NdrConformantArrayUnmarshall function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/NdrConformantArrayUnmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

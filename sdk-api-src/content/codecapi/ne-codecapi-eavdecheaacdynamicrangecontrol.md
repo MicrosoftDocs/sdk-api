@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVDecHEAACDynamicRangeControl
 title: eAVDecHEAACDynamicRangeControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether an AAC decoder performs dynamic range control.
 old-location: dshow\eavdecheaacdynamicrangecontrol.htm
 old-project: DirectShow
 ms.assetid: d854093c-4ec8-439c-a1be-c34e3d080616
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVDecHEAACDynamicRangeControl, codecapi/eAVDecHEAACDynamicRangeControl_OFF, codecapi/eAVDecHEAACDynamicRangeControl_ON, dshow.eavdecheaacdynamicrangecontrol, eAVDecHEAACDynamicRangeControl, eAVDecHEAACDynamicRangeControl enumeration [DirectShow], eAVDecHEAACDynamicRangeControl_OFF, eAVDecHEAACDynamicRangeControl_ON
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

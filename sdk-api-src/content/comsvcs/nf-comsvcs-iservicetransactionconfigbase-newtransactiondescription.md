@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.NewTransactionDescription
 title: IServiceTransactionConfigBase::NewTransactionDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name that is used when transaction statistics are displayed.
 old-location: cos\iservicetransactionconfigbase_newtransactiondescription.htm
 old-project: cossdk
 ms.assetid: ecdc160b-168d-48f4-bbe3-46d654ee8607
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],NewTransactionDescription method, IServiceTransactionConfigBase.NewTransactionDescription, IServiceTransactionConfigBase::NewTransactionDescription, NewTransactionDescription, NewTransactionDescription method [COM+], NewTransactionDescription method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_NewTransactionDescription, comsvcs/IServiceTransactionConfigBase::NewTransactionDescription, cos.iservicetransactionconfigbase_newtransactiondescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

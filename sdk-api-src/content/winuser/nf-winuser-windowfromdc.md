@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.WindowFromDC
 title: WindowFromDC function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WindowFromDC function returns a handle to the window associated with the specified display device context (DC). Output functions that use the specified device context draw into this window.
 old-location: gdi\windowfromdc.htm
 old-project: gdi
 ms.assetid: 57ecec82-03be-4d1a-84cf-6b64131af19d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: WindowFromDC, WindowFromDC function [Windows GDI], _win32_WindowFromDC, gdi.windowfromdc, winuser/WindowFromDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

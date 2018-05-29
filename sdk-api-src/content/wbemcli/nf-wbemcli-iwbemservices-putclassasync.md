@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutClassAsync
 title: IWbemServices::PutClassAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemServices::PutClassAsync method creates a new class, or updates an existing one.
 old-location: wmi\iwbemservices_putclassasync.htm
 old-project: WmiSdk
 ms.assetid: 957f5646-86e7-4632-9012-b1fb281b65fb
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutClassAsync method, IWbemServices.PutClassAsync, IWbemServices::PutClassAsync, PutClassAsync, PutClassAsync method [Windows Management Instrumentation], PutClassAsync method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putclassasync, wbemcli/IWbemServices::PutClassAsync, wmi.iwbemservices_putclassasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

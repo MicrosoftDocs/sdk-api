@@ -1,16 +1,16 @@
 ---
 UID: NS:routprot._MPR60_ROUTING_CHARACTERISTICS
 title: "_MPR60_ROUTING_CHARACTERISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager.
 old-location: rras\mpr_routing_characteristics.htm
 old-project: RRAS
 ms.assetid: 7046c4c2-b0bd-4459-b361-e46ce876823f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PMPR_ROUTING_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_ROUTING_CHARACTERISTICS, MPR50_ROUTING_CHARACTERISTICS structure [RAS], MPR60_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS structure [RAS], PMPR_ROUTING_CHARACTERISTICS, PMPR_ROUTING_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR60_ROUTING_CHARACTERISTICS, _mpr_mpr_routing_characteristics, routprot/MPR_ROUTING_CHARACTERISTICS, routprot/PMPR_ROUTING_CHARACTERISTICS, rras.mpr_routing_characteristics"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 

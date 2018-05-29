@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
 title: IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetXlcModeDDObjAndPrimarySurface method retrieves the DirectDraw object and primary surface currently being used by a VMR that has been configured for DirectDraw Exclusive Mode using the SetXlcModeDDObjAndPrimarySurface method.
 old-location: dshow\ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface.htm
 old-project: DirectShow
 ms.assetid: 09b756de-7fd2-44d8-9ef3-6b5dc56cb8b3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetXlcModeDDObjAndPrimarySurface, GetXlcModeDDObjAndPrimarySurface method [DirectShow], GetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, IVMRImagePresenterExclModeConfig interface [DirectShow],GetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface, dshow.ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagCOLORADJUSTMENT
 title: tagCOLORADJUSTMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The COLORADJUSTMENT structure defines the color adjustment values used by the StretchBlt and StretchDIBits functions when the stretch mode is HALFTONE. You can set the color adjustment values by calling the SetColorAdjustment function.
 old-location: gdi\coloradjustment.htm
 old-project: gdi
 ms.assetid: 9a080f60-0bce-46b6-b8a8-f534ff83a0a8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCOLORADJUSTMENT, *PCOLORADJUSTMENT, COLORADJUSTMENT, COLORADJUSTMENT structure [Windows GDI], PCOLORADJUSTMENT, PCOLORADJUSTMENT structure pointer [Windows GDI], _win32_COLORADJUSTMENT_str, gdi.coloradjustment, tagCOLORADJUSTMENT, wingdi/COLORADJUSTMENT, wingdi/PCOLORADJUSTMENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

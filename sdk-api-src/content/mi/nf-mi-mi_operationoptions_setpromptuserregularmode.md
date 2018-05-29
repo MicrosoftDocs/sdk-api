@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetPromptUserRegularMode
 title: MI_OperationOptions_SetPromptUserRegularMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value that tells the server how to respond to a provider's call to the MI_Context_PromptUser function.
 old-location: wmi_v2\mi_operationoptions_setpromptuserregularmode.htm
 old-project: wmi_v2
 ms.assetid: 4383a407-716a-49d5-b877-67012c48fc6c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptions_SetPromptUserRegularMode, MI_OperationOptions_SetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetPromptUserRegularMode, wmi_v2.mi_operationoptions_setpromptuserregularmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanGetProfileList
 title: WlanGetProfileList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the list of profiles.
 old-location: nwifi\wlangetprofilelist.htm
 old-project: NativeWiFi
 ms.assetid: f4336113-538f-4161-a71f-64a432e31f1c
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanGetProfileList, WlanGetProfileList function [NativeWIFI], nwifi.wlangetprofilelist, wlanapi/WlanGetProfileList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

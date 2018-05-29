@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetIpStatistics
 title: GetIpStatistics function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIpStatistics function retrieves the IP statistics for the current computer.
 old-location: iphlp\getipstatistics.htm
 old-project: IpHlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIpStatistics, GetIpStatistics function [IP Helper], _iphlp_getipstatistics, iphlp.getipstatistics, iphlpapi/GetIpStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

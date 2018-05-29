@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.InitializeConditionVariable
 title: InitializeConditionVariable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a condition variable.
 old-location: base\initializeconditionvariable.htm
 old-project: Sync
 ms.assetid: 55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitializeConditionVariable, InitializeConditionVariable function, base.initializeconditionvariable, synchapi/InitializeConditionVariable, winbase/InitializeConditionVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

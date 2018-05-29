@@ -1,16 +1,16 @@
 ---
 UID: NN:sbe.IStreamBufferSink
 title: IStreamBufferSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStreamBufferSink interface is exposed by the Stream Buffer Sink filter. Use this interface to lock the filter before capture and to create new recordings.
 old-location: mstv\istreambuffersink.htm
 old-project: mstv
 ms.assetid: 4ae5a9e9-da51-4034-9a2c-22b57374deac
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferSink, IStreamBufferSink interface [Microsoft TV Technologies], IStreamBufferSink interface [Microsoft TV Technologies],described, IStreamBufferSinkInterface, mstv.istreambuffersink, sbe/IStreamBufferSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

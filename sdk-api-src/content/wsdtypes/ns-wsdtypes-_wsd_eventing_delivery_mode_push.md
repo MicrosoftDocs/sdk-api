@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_DELIVERY_MODE_PUSH
 title: "_WSD_EVENTING_DELIVERY_MODE_PUSH"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the endpoint reference used for push delivery of events in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode_push.htm
 old-project: WsdApi
 ms.assetid: 350d023f-18fb-4eb5-af47-81fdb54e594d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE_PUSH, WSD_EVENTING_DELIVERY_MODE_PUSH structure, _WSD_EVENTING_DELIVERY_MODE_PUSH, ncd.wsd_eventing_delivery_mode_push, wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

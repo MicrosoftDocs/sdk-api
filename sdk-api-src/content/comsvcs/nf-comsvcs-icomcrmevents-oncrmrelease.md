@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRelease
 title: IComCRMEvents::OnCRMRelease
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when the CRM clerk is finished and releases its resource locks.
 old-location: cos\icomcrmevents_oncrmrelease.htm
 old-project: cossdk
 ms.assetid: e97b6cbf-1e78-475b-9dc7-baa4c05f1a6b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRelease method, IComCRMEvents.OnCRMRelease, IComCRMEvents::OnCRMRelease, OnCRMRelease, OnCRMRelease method [COM+], OnCRMRelease method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRelease, comsvcs/IComCRMEvents::OnCRMRelease, cos.icomcrmevents_oncrmrelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

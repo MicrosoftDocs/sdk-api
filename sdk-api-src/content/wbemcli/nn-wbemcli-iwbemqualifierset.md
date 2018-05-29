@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemcli.IWbemQualifierSet
 title: IWbemQualifierSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance).
 old-location: wmi\iwbemqualifierset.htm
 old-project: WmiSdk
 ms.assetid: 8b36bd32-4931-4641-a019-cbaa3547edd0
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], IWbemQualifierSet interface [Windows Management Instrumentation],described, _hmm_iwbemqualifierset, wbemcli/IWbemQualifierSet, wmi.iwbemqualifierset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

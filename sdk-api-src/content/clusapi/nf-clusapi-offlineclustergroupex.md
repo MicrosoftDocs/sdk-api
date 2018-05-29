@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.OfflineClusterGroupEx
 title: OfflineClusterGroupEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the OfflineClusterGroup method.
 old-location: mscs\offlineclustergroupex.htm
 old-project: MsCS
 ms.assetid: ED22150C-7149-4CED-9C9B-356BCEEBF11F
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: OfflineClusterGroupEx, OfflineClusterGroupEx function [Failover Cluster], clusapi/OfflineClusterGroupEx, mscs.offlineclustergroupex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

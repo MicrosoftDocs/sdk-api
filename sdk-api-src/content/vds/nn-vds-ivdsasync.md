@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsAsync
 title: IVdsAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages asynchronous operations. Methods that initiate asynchronous operations return a pointer to an IVdsAsync interface, allowing the caller to optionally cancel, wait for, or query the status of the asynchronous operation.
 old-location: base\ivdsasync.htm
 old-project: VDS
 ms.assetid: 7814b8ef-84b4-453e-b480-c32b67e5af93
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],described, base.ivdsasync, vds/IVdsAsync, vdshwprv/IVdsAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

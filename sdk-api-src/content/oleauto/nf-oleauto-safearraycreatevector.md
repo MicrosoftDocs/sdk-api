@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayCreateVector
 title: SafeArrayCreateVector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a one-dimensional array. A safe array created with SafeArrayCreateVector is a fixed size, so the constant FADF_FIXEDSIZE is always set.
 old-location: automat\safearraycreatevector.htm
 old-project: automat
 ms.assetid: b794b8c6-a523-4636-8681-a936dff3fc6f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayCreateVector, SafeArrayCreateVector function [Automation], _oa96_SafeArrayCreateVector, automat.safearraycreatevector, oleauto/SafeArrayCreateVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

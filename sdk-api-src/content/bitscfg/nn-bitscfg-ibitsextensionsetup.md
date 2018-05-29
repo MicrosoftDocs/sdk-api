@@ -1,16 +1,16 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetup
 title: IBITSExtensionSetup
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.
 old-location: bits\ibitsextensionsetup.htm
 old-project: Bits
 ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], IBITSExtensionSetup interface [BITS],described, _drz_ibitsextensionsetup, bits.ibitsextensionsetup, bitscfg/IBITSExtensionSetup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bitscfg.h
 req.include-header: 

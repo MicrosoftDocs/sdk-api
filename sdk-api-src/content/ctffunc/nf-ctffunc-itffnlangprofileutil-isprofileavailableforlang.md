@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnLangProfileUtil.IsProfileAvailableForLang
 title: ITfFnLangProfileUtil::IsProfileAvailableForLang
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfFnLangProfileUtil::IsProfileAvailableForLang method
 old-location: tsf\itffnlangprofileutil_isprofileavailableforlang.htm
 old-project: TSF
 ms.assetid: a0525a1b-e23c-49af-954d-e2d190c2f520
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],IsProfileAvailableForLang method, ITfFnLangProfileUtil.IsProfileAvailableForLang, ITfFnLangProfileUtil::IsProfileAvailableForLang, IsProfileAvailableForLang, IsProfileAvailableForLang method [Text Services Framework], IsProfileAvailableForLang method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_isprofileavailableforlang_ref, ctffunc/ITfFnLangProfileUtil::IsProfileAvailableForLang, tsf.itffnlangprofileutil_isprofileavailableforlang
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsGetSecurity
 title: NetDfsGetSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the security descriptor for the root object of the specified DFS namespace.
 old-location: dfs\netdfsgetsecurity.htm
 old-project: Dfs
 ms.assetid: a6db7c82-c2ec-464a-8c05-2360622880b4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsGetSecurity, NetDfsGetSecurity function [Distributed File System], dfs.netdfsgetsecurity, fs.netdfsgetsecurity, lmdfs/NetDfsGetSecurity, netmgmt.netdfsgetsecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

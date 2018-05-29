@@ -1,16 +1,16 @@
 ---
 UID: NN:tom.ITextStoryRanges2
 title: ITextStoryRanges2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoryRanges2 interface enumerates the stories in an ITextDocument.
 old-location: controls\itextstoryranges2.htm
 old-project: Controls
 ms.assetid: 24e2dd79-8054-44e3-aa68-778a96e2f66a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStoryRanges2, ITextStoryRanges2 interface [Windows Controls], ITextStoryRanges2 interface [Windows Controls],described, controls.itextstoryranges2, tom/ITextStoryRanges2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

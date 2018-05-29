@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.QueryServiceStatusEx
 title: QueryServiceStatusEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current status of the specified service based on the specified information level.
 old-location: base\queryservicestatusex.htm
 old-project: Services
 ms.assetid: 3fe02245-97b1-49f3-8f35-2dcd6f221547
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: QueryServiceStatusEx, QueryServiceStatusEx function, _win32_queryservicestatusex, base.queryservicestatusex, winsvc/QueryServiceStatusEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

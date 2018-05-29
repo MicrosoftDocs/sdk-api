@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetTextColor
 title: GetTextColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTextColor function retrieves the current text color for the specified device context.
 old-location: gdi\gettextcolor.htm
 old-project: gdi
 ms.assetid: d3d91b86-5143-431a-ba18-b951b832d7b6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTextColor, GetTextColor function [Windows GDI], _win32_GetTextColor, gdi.gettextcolor, wingdi/GetTextColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

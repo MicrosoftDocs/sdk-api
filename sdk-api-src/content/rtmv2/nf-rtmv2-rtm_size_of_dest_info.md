@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RTM_SIZE_OF_DEST_INFO
 title: RTM_SIZE_OF_DEST_INFO macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RTM_SIZE_OF_DEST_INFO macro returns the size of the destination information structure (RTM_DEST_INFO).
 old-location: rras\rtm_size_of_dest_info.htm
 old-project: RRAS
 ms.assetid: faad2b79-dcd0-47e7-95ab-05f6bad36650
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RTM_SIZE_OF_DEST_INFO, RTM_SIZE_OF_DEST_INFO macro [RAS], _rtmv2ref_rtm_size_of_dest_info, rras.rtm_size_of_dest_info, rtmv2/RTM_SIZE_OF_DEST_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: rtmv2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndPlayTo
 title: MCIWndPlayTo macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndPlayTo macro plays the content of an MCI device from the current position to the specified ending location or until another command stops playback.
 old-location: multimedia\mciwndplayto.htm
 old-project: Multimedia
 ms.assetid: 49048776-85bd-43ac-a5a0-414a26a6a533
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndPlayTo, MCIWndPlayTo macro [Windows Multimedia], _win32_MCIWndPlayTo, multimedia.mciwndplayto, vfw/MCIWndPlayTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

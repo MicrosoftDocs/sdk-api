@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyStoreFactory
 title: IPropertyStoreFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods to get an IPropertyStore object.
 old-location: properties\IPropertyStoreFactory.htm
 old-project: properties
 ms.assetid: 78ea822d-da8e-4883-b0eb-4277e7eb87a2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyStoreFactory, IPropertyStoreFactory interface [Windows Properties], IPropertyStoreFactory interface [Windows Properties],described, _shell_IPropertyStoreFactory, properties.IPropertyStoreFactory, propsys/IPropertyStoreFactory, shell.IPropertyStoreFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

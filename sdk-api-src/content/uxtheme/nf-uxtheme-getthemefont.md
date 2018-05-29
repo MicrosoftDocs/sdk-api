@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeFont
 title: GetThemeFont function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a font property.
 old-location: controls\GetThemeFont.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefont.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeFont, GetThemeFont function [Windows Controls], controls.GetThemeFont, controls.inet_GetThemeFont, inet_GetThemeFont, inet_GetThemeFont_cpp, uxtheme/GetThemeFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

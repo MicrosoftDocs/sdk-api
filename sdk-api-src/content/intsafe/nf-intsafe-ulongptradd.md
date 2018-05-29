@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongPtrAdd
 title: ULongPtrAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds two values of type ULONG_PTR.
 old-location: shell\ULongPtrAdd.htm
 old-project: shell
 ms.assetid: 83f89ca7-0625-4705-9645-b2b739a9d664
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ULongPtrAdd, ULongPtrAdd function [Windows Shell], _shell_ULongPtrAdd, intsafe/ULongPtrAdd, shell.ULongPtrAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

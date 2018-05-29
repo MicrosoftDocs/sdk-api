@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1effecthelpers.StringSetter
 title: StringSetter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calls a member-function property setter callback for a string-type property.
 old-location: direct2d\stringsetter.htm
 old-project: Direct2D
 ms.assetid: 6BCDB312-13D8-47EA-BB88-4172C3A02DBE
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: StringSetter, StringSetter function [Direct2D], d2d1effecthelpers/StringSetter, direct2d.stringsetter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1effecthelpers.h
 req.include-header: 

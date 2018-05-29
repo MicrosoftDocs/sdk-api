@@ -1,16 +1,16 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0004
 title: "__MIDL_IWTSSBPlugin_0004"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the IP address of a network resource.
 old-location: termserv\wtssbx_ip_address.htm
 old-project: TermServ
 ms.assetid: 92fe662a-ad31-4ed3-9393-c7d86f97e702
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSSBX_IP_ADDRESS, WTSSBX_IP_ADDRESS structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0004, termserv.wtssbx_ip_address, tssbx/WTSSBX_IP_ADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tssbx.h
 req.include-header: 

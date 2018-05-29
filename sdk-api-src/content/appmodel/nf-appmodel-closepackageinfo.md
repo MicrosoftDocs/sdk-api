@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.ClosePackageInfo
 title: ClosePackageInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a reference to the specified package information.
 old-location: appxpkg\closepackageinfo.htm
 old-project: appxpkg
 ms.assetid: BA84FB47-F241-4120-9441-7E1149F68738
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: ClosePackageInfo, ClosePackageInfo function [App packaging and management], appmodel/ClosePackageInfo, appxpkg.closepackageinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

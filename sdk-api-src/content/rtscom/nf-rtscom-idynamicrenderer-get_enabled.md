@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_Enabled
 title: IDynamicRenderer::get_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a value that turns dynamic rendering on and off.
 old-location: tablet\idynamicrenderer_enabled.htm
 old-project: tablet
 ms.assetid: b226d146-af96-4a51-aa11-8b2fe057a4b2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],Enabled property, IDynamicRenderer.Enabled, IDynamicRenderer.get_Enabled, IDynamicRenderer.put_Enabled, IDynamicRenderer::Enabled, IDynamicRenderer::get_Enabled, IDynamicRenderer::put_Enabled, b226d146-af96-4a51-aa11-8b2fe057a4b2, get_Enabled, rtscom/IDynamicRenderer::Enabled, rtscom/IDynamicRenderer::get_Enabled, rtscom/IDynamicRenderer::put_Enabled, tablet.idynamicrenderer_enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

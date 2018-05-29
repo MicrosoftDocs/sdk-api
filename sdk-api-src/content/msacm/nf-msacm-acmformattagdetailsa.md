@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmFormatTagDetailsA
 title: acmFormatTagDetailsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmFormatTagDetails function queries the ACM for details on a specific waveform-audio format tag.
 old-location: multimedia\acmformattagdetails.htm
 old-project: Multimedia
 ms.assetid: 294d9e8b-de47-4ebe-8989-558469ba1356
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmFormatTagDetails, acmFormatTagDetails, acmFormatTagDetails function [Windows Multimedia], acmFormatTagDetailsA, acmFormatTagDetailsW, msacm/acmFormatTagDetails, msacm/acmFormatTagDetailsA, msacm/acmFormatTagDetailsW, multimedia.acmformattagdetails"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

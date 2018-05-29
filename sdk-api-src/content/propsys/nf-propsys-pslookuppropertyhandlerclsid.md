@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSLookupPropertyHandlerCLSID
 title: PSLookupPropertyHandlerCLSID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the class identifier (CLSID) of a per-computer, registered file property handler.
 old-location: properties\PSLookupPropertyHandlerCLSID.htm
 old-project: properties
 ms.assetid: 43f90a33-9bd6-4e47-ab92-5e0d01ba268a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSLookupPropertyHandlerCLSID, PSLookupPropertyHandlerCLSID function [Windows Properties], _shell_PSLookupPropertyHandlerCLSID, properties.PSLookupPropertyHandlerCLSID, propsys/PSLookupPropertyHandlerCLSID, shell.PSLookupPropertyHandlerCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

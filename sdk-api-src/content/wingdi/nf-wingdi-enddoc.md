@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.EndDoc
 title: EndDoc function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndDoc function ends a print job.
 old-location: gdi\enddoc.htm
 old-project: printdocs
 ms.assetid: bf63ea0f-cc73-4943-9c84-52b3b77e141c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

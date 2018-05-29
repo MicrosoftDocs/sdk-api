@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.SetDOUBLE
 title: CInstance::SetDOUBLE
-author: windows-driver-content
+author: windows-sdk-content
 description: CInstance::SetDOUBLE method
 old-location: wmi\cinstance_setdouble.htm
 old-project: WmiSdk
 ms.assetid: 5b6e2dcf-6feb-454a-a56a-79ae1506b4f9
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetDOUBLE method, CInstance.SetDOUBLE, CInstance::SetDOUBLE, SetDOUBLE, SetDOUBLE method [Windows Management Instrumentation], SetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdouble, instance/CInstance::SetDOUBLE, wmi.cinstance_setdouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

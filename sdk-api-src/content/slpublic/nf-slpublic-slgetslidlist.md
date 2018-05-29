@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetSLIDList
 title: SLGetSLIDList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of SLIDs according to the input query ID type and the ID value.
 old-location: security\slgetslidlist.htm
 old-project: SecSLApi
 ms.assetid: e2733f2e-e78b-4a77-a81d-d5913baa4bc4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

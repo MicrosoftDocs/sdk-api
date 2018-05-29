@@ -1,16 +1,16 @@
 ---
 UID: NS:snmp.SnmpVarBind
 title: SnmpVarBind
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpVarBind structure represents an SNMP variable binding. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\snmpvarbind_str.htm
 old-project: SNMP
 ms.assetid: 40f9930d-93d1-45eb-aa3a-499947004fcf
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpVarBind, SnmpVarBind structure [SNMP], _snmp_snmpvarbind_str, snmp.snmpvarbind_str, snmp/SnmpVarBind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: snmp.h
 req.include-header: 

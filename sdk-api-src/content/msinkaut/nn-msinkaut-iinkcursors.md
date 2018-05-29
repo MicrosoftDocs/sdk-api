@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkCursors
 title: IInkCursors
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of IInkCursor objects.
 old-location: tablet\iinkcursors.htm
 old-project: tablet
 ms.assetid: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc, IInkCursors, IInkCursors interface [Tablet PC], IInkCursors interface [Tablet PC],described, msinkaut/IInkCursors, tablet.iinkcursors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

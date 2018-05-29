@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite.DWRITE_UNDERLINE
 title: DWRITE_UNDERLINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the width, thickness, offset, run height, reading direction, and flow direction of an underline.
 old-location: directwrite\dwrite_underline.htm
 old-project: DirectWrite
 ms.assetid: 01f6c48e-6986-4a6e-9dd8-9f4b098db7fd
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_UNDERLINE, DWRITE_UNDERLINE structure [Direct Write], directwrite.dwrite_underline, dwrite/DWRITE_UNDERLINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

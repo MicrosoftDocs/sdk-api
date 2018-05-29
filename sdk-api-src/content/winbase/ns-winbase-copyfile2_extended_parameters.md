@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase.COPYFILE2_EXTENDED_PARAMETERS
 title: COPYFILE2_EXTENDED_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains extended parameters for the CopyFile2 function.
 old-location: fs\copyfile2_extended_parameters.htm
 old-project: FileIO
 ms.assetid: a8da62e5-bc49-4aff-afaa-e774393b7120
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COPYFILE2_EXTENDED_PARAMETERS, COPYFILE2_EXTENDED_PARAMETERS structure [Files], COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_NO_OFFLOAD, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_REQUEST_SECURITY_PRIVILEGES, COPY_FILE_RESTARTABLE, COPY_FILE_RESUME_FROM_PAUSE, fs.copyfile2_extended_parameters, winbase/COPYFILE2_EXTENDED_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

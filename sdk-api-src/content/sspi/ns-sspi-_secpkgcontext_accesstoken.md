@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_AccessToken
 title: "_SecPkgContext_AccessToken"
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a handle to the access token for the current security context.
 old-location: security\secpkgcontext_accesstoken.htm
 old-project: SecAuthN
 ms.assetid: 4dc11cbd-7f28-4cb9-aaea-6e5a89ac91f0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgContext_AccessToken structure pointer [Security], SecPkgContext_AccessToken, SecPkgContext_AccessToken structure [Security], _SecPkgContext_AccessToken, security.secpkgcontext_accesstoken, sspi/PSecPkgContext_AccessToken, sspi/SecPkgContext_AccessToken"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

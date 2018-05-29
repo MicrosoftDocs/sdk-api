@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATAdminEnumCatalogFromHash
 title: CryptCATAdminEnumCatalogFromHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the catalogs that contain a specified hash.
 old-location: security\cryptcatadminenumcatalogfromhash.htm
 old-project: SecCrypto
 ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

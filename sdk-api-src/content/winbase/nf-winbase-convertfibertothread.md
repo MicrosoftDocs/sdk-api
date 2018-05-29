@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ConvertFiberToThread
 title: ConvertFiberToThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the current fiber into a thread.
 old-location: base\convertfibertothread.htm
 old-project: ProcThread
 ms.assetid: 194c5289-0d25-4ce1-9c32-9e87b12db825
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ConvertFiberToThread, ConvertFiberToThread function, _win32_convertfibertothread, base.convertfibertothread, winbase/ConvertFiberToThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

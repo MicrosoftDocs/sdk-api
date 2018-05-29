@@ -1,16 +1,16 @@
 ---
 UID: NS:mileffects.MILMatrixF
 title: MILMatrixF
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a 4x4 affine transformation matrix.
 old-location: wibe\_wibe_milmatrixf.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\milmatrixf.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MILMatrixF, MILMatrixF structure [WPF Bitmap Effects], _wibe_milmatrixf, mileffects/MILMatrixF, wibe._wibe_milmatrixf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mileffects.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonQuery
 title: ShutdownBlockReasonQuery function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the reason string set by the ShutdownBlockReasonCreate function.
 old-location: base\shutdownblockreasonquery.htm
 old-project: Shutdown
 ms.assetid: 8c92ebbb-1692-4c14-b32a-17f59b8ab7a3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ShutdownBlockReasonQuery, ShutdownBlockReasonQuery function, base.shutdownblockreasonquery, winuser/ShutdownBlockReasonQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

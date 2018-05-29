@@ -1,16 +1,16 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0001
 title: "__MIDL___MIDL_itf_searchapi_0000_0023_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes whether an item that matches the search criteria of a rowset is currently in that rowset.
 old-location: search\_search_ROWSETEVENT_ITEMSTATE.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_itemstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ROWSETEVENT_ITEMSTATE, ROWSETEVENT_ITEMSTATE enumeration [search], ROWSETEVENT_ITEMSTATE_INROWSET, ROWSETEVENT_ITEMSTATE_NOTINROWSET, ROWSETEVENT_ITEMSTATE_UNKNOWN, __MIDL___MIDL_itf_searchapi_0000_0023_0001, _search_ROWSETEVENT_ITEMSTATE, search._search_ROWSETEVENT_ITEMSTATE, searchapi/ROWSETEVENT_ITEMSTATE, searchapi/ROWSETEVENT_ITEMSTATE_INROWSET, searchapi/ROWSETEVENT_ITEMSTATE_NOTINROWSET, searchapi/ROWSETEVENT_ITEMSTATE_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

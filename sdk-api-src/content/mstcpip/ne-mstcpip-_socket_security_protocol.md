@@ -1,16 +1,16 @@
 ---
 UID: NE:mstcpip._SOCKET_SECURITY_PROTOCOL
 title: "_SOCKET_SECURITY_PROTOCOL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the type of security protocol to be used on a socket to secure network traffic.
 old-location: winsock\socket_security_protocol.htm
 old-project: WinSock
 ms.assetid: ae77ac61-5035-401e-a4b6-345c1be7b2b7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: SOCKET_SECURITY_PROTOCOL, SOCKET_SECURITY_PROTOCOL enumeration [Winsock], SOCKET_SECURITY_PROTOCOL_DEFAULT, SOCKET_SECURITY_PROTOCOL_INVALID, SOCKET_SECURITY_PROTOCOL_IPSEC, _SOCKET_SECURITY_PROTOCOL, mstcpip/SOCKET_SECURITY_PROTOCOL, mstcpip/SOCKET_SECURITY_PROTOCOL_DEFAULT, mstcpip/SOCKET_SECURITY_PROTOCOL_INVALID, mstcpip/SOCKET_SECURITY_PROTOCOL_IPSEC, winsock.socket_security_protocol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstcpip.h
 req.include-header: 

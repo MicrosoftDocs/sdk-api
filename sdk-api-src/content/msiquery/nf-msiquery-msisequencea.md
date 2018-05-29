@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSequenceA
 title: MsiSequenceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSequence function executes another action sequence, as described in the specified table.
 old-location: setup\msisequence.htm
 old-project: Msi
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi_msisequence, msiquery/MsiSequence, msiquery/MsiSequenceA, msiquery/MsiSequenceW, setup.msisequence
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

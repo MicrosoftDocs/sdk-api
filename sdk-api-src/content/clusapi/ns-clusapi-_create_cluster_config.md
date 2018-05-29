@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._CREATE_CLUSTER_CONFIG
 title: "_CREATE_CLUSTER_CONFIG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the initial cluster configuration.
 old-location: mscs\create_cluster_config.htm
 old-project: MsCS
 ms.assetid: 5fc90422-47e4-44da-a49f-66d4b7712f53
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG structure [Failover Cluster], PCREATE_CLUSTER_CONFIG, PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster], _CREATE_CLUSTER_CONFIG, clusapi/CREATE_CLUSTER_CONFIG, clusapi/PCREATE_CLUSTER_CONFIG, mscs.create_cluster_config"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

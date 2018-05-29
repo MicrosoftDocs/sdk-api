@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetName
 title: IWMMutualExclusion2::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetName method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the IWMMutualExclusion2::SetName method.
 old-location: wmformat\iwmmutualexclusion2_getname.htm
 old-project: wmformat
 ms.assetid: da62ed2e-7356-4b4e-b2c5-6c18ef806ba7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetName, GetName method [windows Media Format], GetName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetName method, IWMMutualExclusion2.GetName, IWMMutualExclusion2::GetName, IWMMutualExclusion2GetName, wmformat.iwmmutualexclusion2_getname, wmsdkidl/IWMMutualExclusion2::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateMediaTypeFromProperties
 title: MFCreateMediaTypeFromProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Create an IMFMediaType from properties.
 old-location: mf\mfcreatemediatypefromproperties.htm
 old-project: medfound
 ms.assetid: F34F5C7F-880B-40A8-85EF-537CD36759CB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMediaTypeFromProperties, MFCreateMediaTypeFromProperties function [Media Foundation], mf.mfcreatemediatypefromproperties, mfidl/MFCreateMediaTypeFromProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

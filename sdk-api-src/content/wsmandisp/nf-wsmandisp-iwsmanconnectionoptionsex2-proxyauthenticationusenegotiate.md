@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate
 title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseNegotiate for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate.htm
 old-project: WinRM
 ms.assetid: e7dfed5c-7897-4289-bd69-5f6fffaf66f7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseNegotiate method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate, IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate method [Windows Remote Management], ProxyAuthenticationUseNegotiate method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

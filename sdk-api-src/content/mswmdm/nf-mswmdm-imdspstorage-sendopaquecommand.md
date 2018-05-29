@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.SendOpaqueCommand
 title: IMDSPStorage::SendOpaqueCommand
-author: windows-driver-content
+author: windows-sdk-content
 description: The SendOpaqueCommands method sends a command through Windows Media Device Manager. Without acting on it, Windows Media Device Manager passes the command through to a device.
 old-location: wmdm\imdspstorage_sendopaquecommands.htm
 old-project: WMDM
 ms.assetid: c8a43a21-6ea4-4402-b0fc-2ce7868c83d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPStorage interface [windows Media Device Manager],SendOpaqueCommand method, IMDSPStorage.SendOpaqueCommand, IMDSPStorage::SendOpaqueCommand, IMDSPStorageSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IMDSPStorage interface, mswmdm/IMDSPStorage::SendOpaqueCommand, wmdm.imdspstorage_sendopaquecommands
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

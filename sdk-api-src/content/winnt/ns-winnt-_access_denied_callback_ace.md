@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ACCESS_DENIED_CALLBACK_ACE
 title: "_ACCESS_DENIED_CALLBACK_ACE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACCESS_DENIED_CALLBACK_ACE structure defines an access control entry for the discretionary access control list that controls access to an object.
 old-location: security\access_denied_callback_ace.htm
 old-project: SecAuthZ
 ms.assetid: 6df77b27-7aa3-455f-bffe-eeb90ba1bc15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PACCESS_DENIED_CALLBACK_ACE, ACCESS_DENIED_CALLBACK_ACE, ACCESS_DENIED_CALLBACK_ACE structure [Security], PACCESS_DENIED_CALLBACK_ACE, PACCESS_DENIED_CALLBACK_ACE structure pointer [Security], _ACCESS_DENIED_CALLBACK_ACE, security.access_denied_callback_ace, winnt/ACCESS_DENIED_CALLBACK_ACE, winnt/PACCESS_DENIED_CALLBACK_ACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

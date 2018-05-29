@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext2.get_EnabledUnicodeRanges
 title: IInkRecognizerContext2::get_EnabledUnicodeRanges
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a set of one or more Unicode ranges that the recognizer context will support.
 old-location: tablet\iinkrecognizercontext2_enabledunicoderanges.htm
 old-project: tablet
 ms.assetid: d976eed0-32d0-47ab-931e-177635f95875
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC],IInkRecognizerContext2 interface, IInkRecognizerContext2 interface [Tablet PC],EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ILayoutStorage.ReLayoutDocfileOnILockBytes
 title: ILayoutStorage::ReLayoutDocfileOnILockBytes
-author: windows-driver-content
+author: windows-sdk-content
 description: Is not implemented. If called, it returns STG_E_UNIMPLEMENTEDFUNCTION.
 old-location: stg\ilayoutstorage_relayoutdocfileonilockbytes.htm
 old-project: Stg
 ms.assetid: 4d62ea35-d9cb-4ec6-ad71-7b32096953f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfileOnILockBytes method, ILayoutStorage.ReLayoutDocfileOnILockBytes, ILayoutStorage::ReLayoutDocfileOnILockBytes, ReLayoutDocfileOnILockBytes, ReLayoutDocfileOnILockBytes method [Structured Storage], ReLayoutDocfileOnILockBytes method [Structured Storage],ILayoutStorage interface, objidl/ILayoutStorage::ReLayoutDocfileOnILockBytes, stg.ilayoutstorage_relayoutdocfileonilockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkConnection
 title: INetworkConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetworkConnection interface represents a single network connection.
 old-location: nla\inetworkconnection.htm
 old-project: NLA
 ms.assetid: 666761b5-0146-438d-9986-ecce3b45b5ff
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], INetworkConnection interface [Network Awareness],described, netlistmgr/INetworkConnection, nla.inetworkconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

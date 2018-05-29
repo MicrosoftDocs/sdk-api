@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDockingWindow.ShowDW
 title: IDockingWindow::ShowDW
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs the docking window object to show or hide itself.
 old-location: shell\IDockingWindow_ShowDW.htm
 old-project: shell
 ms.assetid: c33031d4-f9f4-4210-93be-963e5f299408
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDockingWindow interface [Windows Shell],ShowDW method, IDockingWindow.ShowDW, IDockingWindow::ShowDW, ShowDW, ShowDW method [Windows Shell], ShowDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ShowDW, shell.IDockingWindow_ShowDW, shobjidl_core/IDockingWindow::ShowDW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

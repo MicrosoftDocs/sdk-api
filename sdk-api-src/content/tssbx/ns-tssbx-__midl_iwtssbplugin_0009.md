@@ -1,16 +1,16 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0009
 title: "__MIDL_IWTSSBPlugin_0009"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about sessions that are available to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\wtssbx_session_info.htm
 old-project: TermServ
 ms.assetid: d0c142a9-2495-46e6-b53b-0c415bddb0b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSSBX_SESSION_INFO, WTSSBX_SESSION_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0009, termserv.wtssbx_session_info, tssbx/WTSSBX_SESSION_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tssbx.h
 req.include-header: 

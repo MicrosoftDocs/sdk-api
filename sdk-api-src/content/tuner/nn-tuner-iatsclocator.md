@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IATSCLocator
 title: IATSCLocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IATSCLocator interface is implemented on the ATSCLocator object and contains methods that enable the network provider to determine the physical channel and transport stream ID of an ATSC transmission.
 old-location: mstv\iatsclocator.htm
 old-project: mstv
 ms.assetid: 8ca7d50f-e7cc-4938-a2ed-fce5278b73fd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCLocator, IATSCLocator interface [Microsoft TV Technologies], IATSCLocator interface [Microsoft TV Technologies],described, IATSCLocatorInterface, mstv.iatsclocator, tuner/IATSCLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

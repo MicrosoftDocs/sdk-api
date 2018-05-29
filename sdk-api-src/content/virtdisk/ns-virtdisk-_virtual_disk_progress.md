@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._VIRTUAL_DISK_PROGRESS
 title: "_VIRTUAL_DISK_PROGRESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the GetVirtualDiskOperationProgress function.
 old-location: vhd\virtual_disk_progress.htm
 old-project: VStor
 ms.assetid: 834d7384-09fe-493e-8402-135c453a1ecf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS structure pointer [VHD], VIRTUAL_DISK_PROGRESS, VIRTUAL_DISK_PROGRESS structure [VHD], _VIRTUAL_DISK_PROGRESS, vhd.virtual_disk_progress, virtdisk/PVIRTUAL_DISK_PROGRESS, virtdisk/VIRTUAL_DISK_PROGRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

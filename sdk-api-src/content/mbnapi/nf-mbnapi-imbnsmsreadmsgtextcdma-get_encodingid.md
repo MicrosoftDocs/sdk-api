@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_EncodingID
 title: IMbnSmsReadMsgTextCdma::get_EncodingID
-author: windows-driver-content
+author: windows-sdk-content
 description: The data encoding used in the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_encodingid.htm
 old-project: mbn
 ms.assetid: 46a06e03-31de-40a6-ae05-b9b1384bac65
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: EncodingID property [Microsoft Broadband Networks], EncodingID property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],EncodingID property, IMbnSmsReadMsgTextCdma.EncodingID, IMbnSmsReadMsgTextCdma.get_EncodingID, IMbnSmsReadMsgTextCdma::EncodingID, IMbnSmsReadMsgTextCdma::get_EncodingID, get_EncodingID, mbn.imbnsmsreadmsgtextcdma_encodingid, mbnapi/IMbnSmsReadMsgTextCdma::EncodingID, mbnapi/IMbnSmsReadMsgTextCdma::get_EncodingID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

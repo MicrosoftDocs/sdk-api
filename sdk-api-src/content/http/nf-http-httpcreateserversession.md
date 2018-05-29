@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpCreateServerSession
 title: HttpCreateServerSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a server session for the specified version.
 old-location: http\httpcreateserversession.htm
 old-project: Http
 ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

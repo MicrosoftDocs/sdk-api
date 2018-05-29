@@ -1,16 +1,16 @@
 ---
 UID: NN:wmiutils.IWbemPathKeyList
 title: IWbemPathKeyList
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to access the details of the path keys.
 old-location: wmi\iwbempathkeylist.htm
 old-project: WmiSdk
 ms.assetid: 5b188426-9d7f-4e87-9eed-ce80e5d93c30
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], IWbemPathKeyList interface [Windows Management Instrumentation],described, _hmm_iwbempathkeylist, wmi.iwbempathkeylist, wmiutils/IWbemPathKeyList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmiutils.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_MapCrToWin32Err
 title: CM_MapCrToWin32Err function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a specified CONFIGRET code to its equivalent system error code.
 old-location: devinst\cm_mapcrtowin32err.htm
 old-project: devinst
 ms.assetid: 7FC862D9-124D-413A-9082-F524E172FBDC
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_MapCrToWin32Err, CM_MapCrToWin32Err function [Device and Driver Installation], cfgmgr32/CM_MapCrToWin32Err, devinst.cm_mapcrtowin32err
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: 

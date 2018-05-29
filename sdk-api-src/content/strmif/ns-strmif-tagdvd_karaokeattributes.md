@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_KaraokeAttributes
 title: tagDVD_KaraokeAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_KaraokeAttributes structure contains information about a karaoke audio stream. The IDvdInfo2::GetKaraokeAttributes method fills in a DVD_KaraokeAttributes structure for a specified stream.
 old-location: dshow\dvd_karaokeattributes.htm
 old-project: DirectShow
 ms.assetid: dffb0b0e-edce-47e7-b9c0-983fdd2c4746
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_KaraokeAttributes, DVD_KaraokeAttributes structure [DirectShow], DVD_KaraokeAttributesStructure, dshow.dvd_karaokeattributes, strmif/DVD_KaraokeAttributes, tagDVD_KaraokeAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.UnregisterUserDictionary
 title: IUserDictionariesRegistrar::UnregisterUserDictionary
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a previously registered user dictionary.
 old-location: intl\iuserdictionariesregistrar_unregisteruserdictionary.htm
 old-project: Intl
 ms.assetid: 6b1756f5-7ab5-4408-896d-5ea5ae671651
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],UnregisterUserDictionary method, IUserDictionariesRegistrar.UnregisterUserDictionary, IUserDictionariesRegistrar::UnregisterUserDictionary, UnregisterUserDictionary, UnregisterUserDictionary method [Internationalization for Windows Applications], UnregisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_unregisteruserdictionary, spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

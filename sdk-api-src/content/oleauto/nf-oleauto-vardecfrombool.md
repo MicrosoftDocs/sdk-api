@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDecFromBool
 title: VarDecFromBool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Boolean value to a decimal value.
 old-location: automat\vardecfrombool.htm
 old-project: automat
 ms.assetid: d0461861-6093-480c-9fd9-6387622e5b4f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDecFromBool, VarDecFromBool function [Automation], _oa96_VarDecFromBool, automat.vardecfrombool, oleauto/VarDecFromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

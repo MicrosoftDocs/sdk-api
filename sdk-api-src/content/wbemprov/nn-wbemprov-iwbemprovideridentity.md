@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemprov.IWbemProviderIdentity
 title: IWbemProviderIdentity
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemProviderIdentity interface is implemented by an event provider if the provider registers itself using more than one Name (multiple instances of __Win32Provider) with the same CLSID value.
 old-location: wmi\iwbemprovideridentity.htm
 old-project: WmiSdk
 ms.assetid: 872daa72-c6ff-4c6d-a870-c32e3688eb13
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemProviderIdentity, IWbemProviderIdentity interface [Windows Management Instrumentation], IWbemProviderIdentity interface [Windows Management Instrumentation],described, _hmm_iwbemprovideridentity, wbemprov/IWbemProviderIdentity, wmi.iwbemprovideridentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

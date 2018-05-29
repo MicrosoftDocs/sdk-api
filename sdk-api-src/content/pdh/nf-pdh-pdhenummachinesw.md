@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhEnumMachinesW
 title: PdhEnumMachinesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of the computer names associated with counters in a log file.
 old-location: perf\pdhenummachines.htm
 old-project: PerfCtrs
 ms.assetid: 77584d3b-3ba5-4288-b730-be2458f4fc1c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhEnumMachines, PdhEnumMachines function [Perf], PdhEnumMachinesA, PdhEnumMachinesW, _win32_pdhenummachines, base.pdhenummachines, pdh/PdhEnumMachines, pdh/PdhEnumMachinesA, pdh/PdhEnumMachinesW, perf.pdhenummachines
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

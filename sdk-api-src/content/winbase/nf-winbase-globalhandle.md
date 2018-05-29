@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GlobalHandle
 title: GlobalHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the handle associated with the specified pointer to a global memory block.
 old-location: base\globalhandle.htm
 old-project: Memory
 ms.assetid: 18ed3446-060a-4874-8187-5c54fb936da9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GlobalHandle, GlobalHandle function, _win32_globalhandle, base.globalhandle, winbase/GlobalHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

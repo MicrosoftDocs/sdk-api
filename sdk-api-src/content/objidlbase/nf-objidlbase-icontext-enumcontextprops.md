@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IContext.EnumContextProps
 title: IContext::EnumContextProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an IEnumContextProps interface pointer that can be used to enumerate the context properties in this context.
 old-location: com\icontext_enumcontextprops.htm
 old-project: com
 ms.assetid: 7cae291e-dcf3-43b1-8306-9e5c7a5d3be0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumContextProps, EnumContextProps method [COM], EnumContextProps method [COM],IContext interface, IContext interface [COM],EnumContextProps method, IContext.EnumContextProps, IContext::EnumContextProps, _com_icontext_enumcontextprops, com.icontext_enumcontextprops, objidlbase/IContext::EnumContextProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

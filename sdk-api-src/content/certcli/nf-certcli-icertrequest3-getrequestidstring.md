@@ -1,16 +1,16 @@
 ---
 UID: NF:certcli.ICertRequest3.GetRequestIdString
 title: ICertRequest3::GetRequestIdString
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current internal request number, formatted as a string, for the request and subsequent certificate.
 old-location: security\icertrequest3_getrequestidstring.htm
 old-project: SecCrypto
 ms.assetid: 09afc06f-95e8-4519-b0c7-36da5986e077
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertRequest object [Security],GetRequestIdString method, GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],CCertRequest object, GetRequestIdString method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRequestIdString method, ICertRequest3.GetRequestIdString, ICertRequest3::GetRequestIdString, certcli/ICertRequest3::GetRequestIdString, security.icertrequest3_getrequestidstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h

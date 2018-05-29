@@ -1,16 +1,16 @@
 ---
 UID: NS:fwptypes.FWP_VALUE0_
 title: FWP_VALUE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a data value that can be one of a number of different data types.
 old-location: fwp\fwp_value0_struct.htm
 old-project: FWP
 ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], FWP_VALUE0_, fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

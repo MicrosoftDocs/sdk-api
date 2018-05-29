@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.ExecQuery
 title: Provider::ExecQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: The ExecQuery method is called by WMI to process a WMI Query Language (WQL) query.
 old-location: wmi\provider_execquery.htm
 old-project: WmiSdk
 ms.assetid: 94d5c8ee-2d61-42af-9a22-cc0df423b245
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecQuery method, Provider.ExecQuery, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

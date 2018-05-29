@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.LocalAlloc
 title: LocalAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\localalloc.htm
 old-project: Memory
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, LocalAlloc function, NONZEROLHND, NONZEROLPTR, _win32_localalloc, base.localalloc, winbase/LocalAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

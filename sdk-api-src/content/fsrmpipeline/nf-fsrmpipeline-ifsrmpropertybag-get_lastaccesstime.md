@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_LastAccessTime
 title: IFsrmPropertyBag::get_LastAccessTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The date and time of when the file was last accessed.
 old-location: fsrm\ifsrmpropertybag_lastaccesstime.htm
 old-project: Fsrm
 ms.assetid: b17da883-7f8c-4df0-9ee2-7e75b5852aa9
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],LastAccessTime property, IFsrmPropertyBag.LastAccessTime, IFsrmPropertyBag.get_LastAccessTime, IFsrmPropertyBag::LastAccessTime, IFsrmPropertyBag::get_LastAccessTime, LastAccessTime property [File Server Resource Manager], LastAccessTime property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_lastaccesstime, fsrm.ifsrmpropertybag_lastaccesstime, fsrmpipeline/IFsrmPropertyBag::LastAccessTime, fsrmpipeline/IFsrmPropertyBag::get_LastAccessTime, get_LastAccessTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

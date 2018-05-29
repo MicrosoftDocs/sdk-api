@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_NETPIPE_URL
 title: "_WS_NETPIPE_URL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The URL subtype for specifying an net.pipe URL.
 old-location: wsw\ws_netpipe_url.htm
 old-project: wsw
 ms.assetid: A9B2C098-4420-490A-BB28-F8F1D3136225
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_NETPIPE_URL, WS_NETPIPE_URL structure [Web Services for Windows], _WS_NETPIPE_URL, webservices/_WS_NETPIPE_URL, wsw.ws_netpipe_url
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

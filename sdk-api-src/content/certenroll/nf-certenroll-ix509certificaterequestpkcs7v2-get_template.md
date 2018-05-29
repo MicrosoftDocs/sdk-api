@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7V2.get_Template
 title: IX509CertificateRequestPkcs7V2::get_Template
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509certificaterequestpkcs7v2_template.htm
 old-project: SecCertEnroll
 ms.assetid: 8d19360f-de6b-40a9-a82b-6d8dace686b6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestPkcs7V2 interface [Security],Template property, IX509CertificateRequestPkcs7V2.Template, IX509CertificateRequestPkcs7V2.get_Template, IX509CertificateRequestPkcs7V2::Template, IX509CertificateRequestPkcs7V2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestPkcs7V2 interface, certenroll/IX509CertificateRequestPkcs7V2::Template, certenroll/IX509CertificateRequestPkcs7V2::get_Template, get_Template, security.ix509certificaterequestpkcs7v2_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

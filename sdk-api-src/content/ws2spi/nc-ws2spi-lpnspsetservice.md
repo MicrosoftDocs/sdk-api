@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPSETSERVICE
 title: LPNSPSETSERVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers or deregisters a service instance within a namespace.
 old-location: winsock\nspsetservice_2.htm
 old-project: WinSock
 ms.assetid: df76ea75-c0bc-48b8-b1a7-0c510c5cc28d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPSETSERVICE, NSPSetService, NSPSetService function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, _win32_nspsetservice_2, winsock.nspsetservice_2, ws2spi/NSPSetService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
 title: IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method that indicates a new connection profile has been added to the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofilearrival.htm
 old-project: mbn
 ms.assetid: 94338c8c-2a89-412f-811e-5c50ecd9be70
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileArrival method, IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival, IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival, OnConnectionProfileArrival, OnConnectionProfileArrival method [Microsoft Broadband Networks], OnConnectionProfileArrival method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofilearrival, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

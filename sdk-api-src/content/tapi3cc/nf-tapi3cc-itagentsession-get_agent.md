@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_Agent
 title: ITAgentSession::get_Agent
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Agent method gets a pointer to the ITAgent interface associated with this session.
 old-location: tapi3\itagentsession_get_agent.htm
 old-project: Tapi
 ms.assetid: 1378f7f1-020e-492c-8f1a-f4e8a9c7c3e2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_Agent method, ITAgentSession.get_Agent, ITAgentSession::get_Agent, _tapi3_itagentsession_get_agent, get_Agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_agent, tapi3cc/ITAgentSession::get_Agent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

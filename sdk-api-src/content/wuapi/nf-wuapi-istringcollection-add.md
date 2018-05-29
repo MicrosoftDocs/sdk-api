@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IStringCollection.Add
 title: IStringCollection::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: wua\istringcollection_add.htm
 old-project: Wua_Sdk
 ms.assetid: f5412e0d-a8b7-43a6-b7a5-95d662459f78
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Add, Add method [Windows Update Agent], Add method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Add method, IStringCollection.Add, IStringCollection::Add, wua.istringcollection_add, wuapi/IStringCollection::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

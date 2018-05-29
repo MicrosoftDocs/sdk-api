@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetDate
 title: IWMDMStorage::GetDate
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDate method retrieves the date when the storage was last modified.
 old-location: wmdm\iwmdmstorage_getdate.htm
 old-project: WMDM
 ms.assetid: 53693e2f-f6d2-42cc-9387-798f8dc10556
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetDate method, IWMDMStorage.GetDate, IWMDMStorage::GetDate, IWMDMStorageGetDate, mswmdm/IWMDMStorage::GetDate, wmdm.iwmdmstorage_getdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

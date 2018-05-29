@@ -1,16 +1,16 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStreamInfo
 title: IMFTransform::GetOutputStreamInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the buffer requirements and other information for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputstreaminfo.htm
 old-project: medfound
 ms.assetid: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5, GetOutputStreamInfo, GetOutputStreamInfo method [Media Foundation], GetOutputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamInfo method, IMFTransform.GetOutputStreamInfo, IMFTransform::GetOutputStreamInfo, mf.imftransform_getoutputstreaminfo, mftransform/IMFTransform::GetOutputStreamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

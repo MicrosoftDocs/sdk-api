@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseCallManager
 title: ITextDocument2::ReleaseCallManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the call manager.
 old-location: controls\itextdocument2_releasecallmanager.htm
 old-project: Controls
 ms.assetid: 4d17fdcb-502c-43ab-9f74-7247a1f14f45
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],ReleaseCallManager method, ITextDocument2.ReleaseCallManager, ITextDocument2::ReleaseCallManager, ReleaseCallManager, ReleaseCallManager method [Windows Controls], ReleaseCallManager method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_releasecallmanager, tom/ITextDocument2::ReleaseCallManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

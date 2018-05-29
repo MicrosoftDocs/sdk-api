@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiProvideComponentA
 title: MsiProvideComponentA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
 old-location: setup\msiprovidecomponent.htm
 old-project: Msi
 ms.assetid: da6fa117-9152-4289-aa92-79903b84bd3e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideComponent, MsiProvideComponent function, MsiProvideComponentA, MsiProvideComponentW, _msi_msiprovidecomponent, combination of the REINSTALLMODE flags, msi/MsiProvideComponent, msi/MsiProvideComponentA, msi/MsiProvideComponentW, setup.msiprovidecomponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

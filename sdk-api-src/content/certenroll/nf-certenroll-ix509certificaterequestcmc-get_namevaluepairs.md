@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_NameValuePairs
 title: IX509CertificateRequestCmc::get_NameValuePairs
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IX509NameValuePairs collection associated with a certificate request.
 old-location: security\ix509certificaterequestcmc_namevaluepairs_property.htm
 old-project: SecCertEnroll
 ms.assetid: 3b98629e-a501-4ba0-8825-0cab7187d6f5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],NameValuePairs property, IX509CertificateRequestCmc.NameValuePairs, IX509CertificateRequestCmc.get_NameValuePairs, IX509CertificateRequestCmc::NameValuePairs, IX509CertificateRequestCmc::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::NameValuePairs, certenroll/IX509CertificateRequestCmc::get_NameValuePairs, get_NameValuePairs, security.ix509certificaterequestcmc_namevaluepairs_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

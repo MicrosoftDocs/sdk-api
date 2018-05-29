@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontRenderingEmSize
 title: IXpsOMGlyphs::GetFontRenderingEmSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the font size.
 old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm
 old-project: printdocs
 ms.assetid: be1c6eff-20ef-49d3-929e-3595b421bcb9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFontRenderingEmSize, GetFontRenderingEmSize method [XPS Documents and Packaging], GetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontRenderingEmSize method, IXpsOMGlyphs.GetFontRenderingEmSize, IXpsOMGlyphs::GetFontRenderingEmSize, xps.ixpsomglyphs_getfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

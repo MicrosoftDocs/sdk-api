@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.CommitUrlCacheEntryA
 title: CommitUrlCacheEntryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores data in the specified file in the Internet cache and associates it with the specified URL.
 old-location: wininet\commiturlcacheentrya.htm
 old-project: WinInet
 ms.assetid: 4bd21b30-cac5-482b-9826-b5a4ffeeebe9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CommitUrlCacheEntryA, CommitUrlCacheEntryA function [WinINet], wininet.commiturlcacheentrya, wininet/CommitUrlCacheEntryA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

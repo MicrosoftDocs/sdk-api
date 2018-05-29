@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDictionary
 title: IXpsOMObjectFactory::CreateDictionary
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMDictionary interface, which enables the sharing of property resources.
 old-location: xps\ixpsomobjectfactory_createdictionary.htm
 old-project: printdocs
 ms.assetid: d0a26f36-b25d-4ab6-9779-88d01d59e41c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateDictionary, CreateDictionary method [XPS Documents and Packaging], CreateDictionary method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDictionary method, IXpsOMObjectFactory.CreateDictionary, IXpsOMObjectFactory::CreateDictionary, xps.ixpsomobjectfactory_createdictionary, xpsobjectmodel/IXpsOMObjectFactory::CreateDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

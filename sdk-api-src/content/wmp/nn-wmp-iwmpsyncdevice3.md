@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPSyncDevice3
 title: IWMPSyncDevice3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPSyncDevice3 interface provides methods for estimating the size required to synchronize a playlist to a device.
 old-location: wmp\iwmpsyncdevice3.htm
 old-project: WMP
 ms.assetid: 4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSyncDevice3, IWMPSyncDevice3 interface [Windows Media Player], IWMPSyncDevice3 interface [Windows Media Player],described, wmp.iwmpsyncdevice3, wmp/IWMPSyncDevice3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

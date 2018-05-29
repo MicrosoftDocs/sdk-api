@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IStream_Size
 title: IStream_Size function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size, in bytes, of a specified stream.
 old-location: shell\IStream_Size.htm
 old-project: shell
 ms.assetid: 93c7c24d-6431-4859-b0b8-b36392bc5108
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStream_Size, IStream_Size function [Windows Shell], _win32_IStream_Size, shell.IStream_Size, shlwapi/IStream_Size
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

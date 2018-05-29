@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_QuorumLogSize
 title: ISCluster::get_QuorumLogSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns or sets the maximum size of the log file maintained by the quorum resource.
 old-location: mscs\cluster_quorumlogsize.htm
 old-project: MsCS
 ms.assetid: 38dff875-1fb9-4173-9d47-a9a9643770fe
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],QuorumLogSize property, Cluster.QuorumLogSize, ISCluster.get_QuorumLogSize, ISCluster.put_QuorumLogSize, ISCluster::get_QuorumLogSize, QuorumLogSize property [Failover Cluster], QuorumLogSize property [Failover Cluster],Cluster object, _wolf_cluster.quorumlogsize, get_QuorumLogSize, mscs.cluster_quorumlogsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

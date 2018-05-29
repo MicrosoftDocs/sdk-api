@@ -1,16 +1,16 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetInputScopes
 title: ITfInputScope::GetInputScopes
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfInputScope::GetInputScopes method
 old-location: tsf\itfinputscope_getinputscope.htm
 old-project: TSF
 ms.assetid: c5d54d2a-13b4-42f7-9224-4e80f0148a86
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetInputScopes, GetInputScopes method [Text Services Framework], GetInputScopes method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetInputScopes method, ITfInputScope.GetInputScopes, ITfInputScope::GetInputScopes, _tsf_itfinputscoe_getinputscopes_ref, inputscope/ITfInputScope::GetInputScopes, tsf.itfinputscope_getinputscope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: inputscope.h
 req.include-header: 

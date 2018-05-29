@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_ABORT_LISTENER_CALLBACK
 title: WS_ABORT_LISTENER_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsAbortListener call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_abort_listener_callback.htm
 old-project: wsw
 ms.assetid: 6105641e-72de-4826-a54d-23e877f0e6d9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ABORT_LISTENER_CALLBACK, WS_ABORT_LISTENER_CALLBACK callback, WS_ABORT_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_ABORT_LISTENER_CALLBACK, wsw.ws_abort_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

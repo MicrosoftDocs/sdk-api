@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_ExpectedTableOfContents
 title: IRawCDImageCreator::get_ExpectedTableOfContents
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the SCSI-form table of contents for the resulting disc.
 old-location: imapi\irawcdimagecreator_get_expectedtableofcontents.htm
 old-project: imapi
 ms.assetid: ce65b26f-9cf7-4c61-a343-975e5af17f57
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ExpectedTableOfContents method, IRawCDImageCreator.get_ExpectedTableOfContents, IRawCDImageCreator::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_expectedtableofcontents, imapi2/IRawCDImageCreator::get_ExpectedTableOfContents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

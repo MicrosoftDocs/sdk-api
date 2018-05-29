@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_LastWrittenAddressOfPreviousSession
 title: IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the last sector written in the previous session on the media.
 old-location: imapi\imultisessionsequential_get_lastwrittenaddressofprevioussession.htm
 old-project: imapi
 ms.assetid: a37aa4d1-0862-463d-acf1-3a85e491ef26
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IMultisessionSequential.get_LastWrittenAddressOfPreviousSession, IMultisessionSequential::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_lastwrittenaddressofprevioussession, imapi2/IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

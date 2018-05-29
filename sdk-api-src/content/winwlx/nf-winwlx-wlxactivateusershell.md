@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxActivateUserShell
 title: WlxActivateUserShell function
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates the user shell program.
 old-location: security\wlxactivateusershell.htm
 old-project: SecAuthN
 ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

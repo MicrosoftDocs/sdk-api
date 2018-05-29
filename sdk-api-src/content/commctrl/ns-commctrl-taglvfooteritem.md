@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVFOOTERITEM
 title: tagLVFOOTERITEM
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information on a footer item.
 old-location: controls\LVFOOTERITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooteritem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer [Windows Controls], LVFIF_STATE, LVFIF_TEXT, LVFIS_FOCUSED, LVFOOTERITEM, LVFOOTERITEM structure [Windows Controls], _shell_LVFOOTERITEM, _shell_LVFOOTERITEM_cpp, commctrl/LPLVFOOTERITEM, commctrl/LVFOOTERITEM, controls.LVFOOTERITEM, controls._shell_LVFOOTERITEM, tagLVFOOTERITEM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

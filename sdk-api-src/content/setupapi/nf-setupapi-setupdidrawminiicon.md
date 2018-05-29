@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiDrawMiniIcon
 title: SetupDiDrawMiniIcon function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiDrawMiniIcon function draws the specified mini-icon at the location requested.
 old-location: devinst\setupdidrawminiicon.htm
 old-project: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

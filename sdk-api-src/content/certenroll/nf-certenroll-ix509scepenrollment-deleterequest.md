@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.DeleteRequest
 title: IX509SCEPEnrollment::DeleteRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Delete any certificates or keys created for the request.
 old-location: security\ix509scepenrollment_deleterequest.htm
 old-project: SecCertEnroll
 ms.assetid: d709dd46-b6ed-4471-a601-e140a139f57e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DeleteRequest, DeleteRequest method [Security], DeleteRequest method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],DeleteRequest method, IX509SCEPEnrollment.DeleteRequest, IX509SCEPEnrollment::DeleteRequest, certenroll/IX509SCEPEnrollment::DeleteRequest, security.ix509scepenrollment_deleterequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

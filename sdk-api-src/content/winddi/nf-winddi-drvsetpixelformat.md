@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvSetPixelFormat
 title: DrvSetPixelFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvSetPixelFormat function sets the pixel format of a window.
 old-location: display\drvsetpixelformat.htm
 old-project: display
 ms.assetid: b2211639-13ae-455c-97ef-8145318af591
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvSetPixelFormat, DrvSetPixelFormat function [Display Devices], ddifncs_095cf66c-832a-49c2-9bf2-f97ef74665b2.xml, display.drvsetpixelformat, winddi/DrvSetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgSetTimes
 title: StgSetTimes function
-author: windows-driver-content
+author: windows-sdk-content
 description: The StgSetTimes function sets the creation, access, and modification times of the indicated file, if supported by the underlying file system.
 old-location: stg\stgsettimes.htm
 old-project: Stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgSetTimes, StgSetTimes function [Structured Storage], _stg_stgsettimes, coml2api/StgSetTimes, stg.stgsettimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

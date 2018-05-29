@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMruCount
 title: IUserInputString::GetMruCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMruCount method retrieves the number of items in the list of most recently used items.
 old-location: picacq\iuserinputstring_getmrucount.htm
 old-project: acquisition
 ms.assetid: 47f1a916-2d1e-4fe8-837b-3e9bf4e51c0b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetMruCount, GetMruCount method [Picture Acquisition], GetMruCount method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMruCount method, IUserInputString.GetMruCount, IUserInputString::GetMruCount, IUserInputStringGetMruCount, photoacquire/IUserInputString::GetMruCount, picacq.iuserinputstring_getmrucount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

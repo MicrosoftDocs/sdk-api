@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioClient
 title: ISpatialAudioClient
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISpatialAudioClient interface enables a client to create audio streams that emit audio from a position in 3D space.
 old-location: coreaudio\ispatialaudioclient.htm
 old-project: CoreAudio
 ms.assetid: 950778D4-79FE-4222-951F-5A456A633124
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], ISpatialAudioClient interface [Core Audio],described, coreaudio.ispatialaudioclient, spatialaudioclient/ISpatialAudioClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudioclient.h
 req.include-header: 

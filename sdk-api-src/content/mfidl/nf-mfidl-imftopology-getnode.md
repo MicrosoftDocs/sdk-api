@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNode
 title: IMFTopology::GetNode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a node in the topology, specified by index.
 old-location: mf\imftopology_getnode.htm
 old-project: medfound
 ms.assetid: 97053d10-5ac7-40c0-b46b-77d401284d58
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 97053d10-5ac7-40c0-b46b-77d401284d58, GetNode, GetNode method [Media Foundation], GetNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNode method, IMFTopology.GetNode, IMFTopology::GetNode, mf.imftopology_getnode, mfidl/IMFTopology::GetNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

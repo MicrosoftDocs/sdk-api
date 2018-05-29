@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollectionQuery.AddPropertyConstraint
 title: IFunctionInstanceCollectionQuery::AddPropertyConstraint
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a property constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.htm
 old-project: FunDisc
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AddPropertyConstraint, AddPropertyConstraint method, AddPropertyConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddPropertyConstraint method, IFunctionInstanceCollectionQuery.AddPropertyConstraint, IFunctionInstanceCollectionQuery::AddPropertyConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint, ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.lineaddressstatus_tag
 title: lineaddressstatus_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEADDRESSSTATUS structure describes the current status of an address. The lineGetAddressStatus function and the TSPI_lineGetAddressStatus function return the LINEADDRESSSTATUS structure.
 old-location: tapi2\lineaddressstatus_str.htm
 old-project: Tapi
 ms.assetid: 795aa97d-76a9-4041-b9f6-345644561043
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEADDRESSSTATUS, LINEADDRESSSTATUS, LINEADDRESSSTATUS structure [TAPI 2.2], LPLINEADDRESSSTATUS, LPLINEADDRESSSTATUS structure pointer [TAPI 2.2], _tapi2_lineaddressstatus_str, lineaddressstatus_tag, tapi/LINEADDRESSSTATUS, tapi/LPLINEADDRESSSTATUS, tapi2.lineaddressstatus_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

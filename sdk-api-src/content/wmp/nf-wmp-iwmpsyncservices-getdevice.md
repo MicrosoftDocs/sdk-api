@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSyncServices.getDevice
 title: IWMPSyncServices::getDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The getDevice method retrieves a pointer to a device interface.
 old-location: wmp\iwmpsyncservices_getdevice.htm
 old-project: WMP
 ms.assetid: 4c34b823-57ce-4053-9e98-308a5d4ffdef
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSyncServices interface [Windows Media Player],getDevice method, IWMPSyncServices.getDevice, IWMPSyncServices::getDevice, IWMPSyncServicesgetDevice, getDevice, getDevice method [Windows Media Player], getDevice method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_getdevice, wmp/IWMPSyncServices::getDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

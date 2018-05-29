@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqLockWorkQueue
 title: RtwqLockWorkQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks a work queue.
 old-location: base\rtwqlockworkqueue.htm
 old-project: ProcThread
 ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqLockWorkQueue, RtwqLockWorkQueue function, base.rtwqlockworkqueue, rtworkq/RtwqLockWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.AddPayloadExtension
 title: IMFASFStreamConfig::AddPayloadExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures a payload extension for the stream.
 old-location: mf\imfasfstreamconfig_addpayloadextension.htm
 old-project: medfound
 ms.assetid: 55dd4125-ce44-4eed-b1a8-74819c452bd4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 55dd4125-ce44-4eed-b1a8-74819c452bd4, AddPayloadExtension, AddPayloadExtension method [Media Foundation], AddPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],AddPayloadExtension method, IMFASFStreamConfig.AddPayloadExtension, IMFASFStreamConfig::AddPayloadExtension, mf.imfasfstreamconfig_addpayloadextension, wmcontainer/IMFASFStreamConfig::AddPayloadExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

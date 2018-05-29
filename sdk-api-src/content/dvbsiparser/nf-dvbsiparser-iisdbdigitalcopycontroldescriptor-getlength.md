@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetLength
 title: IIsdbDigitalCopyControlDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor, in bytes.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 3a0b5433-1681-4b2d-9436-9ed853da6a80
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbDigitalCopyControlDescriptor.GetLength, IIsdbDigitalCopyControlDescriptor::GetLength, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetLength, mstv.iisdbdigitalcopycontroldescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NE:wsmandisp._WSManProxyAuthenticationFlags
 title: "_WSManProxyAuthenticationFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the proxy authentication mechanism.
 old-location: winrm\wsmanproxyauthenticationflags.htm
 old-project: WinRM
 ms.assetid: 4a86dfae-18c9-4865-8b8b-bb0ac01f558c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManFlagProxyAuthenticationUseBasic, WSManFlagProxyAuthenticationUseDigest, WSManFlagProxyAuthenticationUseNegotiate, WSManProxyAuthenticationFlags, WSManProxyAuthenticationFlags enumeration [Windows Remote Management], _WSManProxyAuthenticationFlags, winrm.wsmanproxyauthenticationflags, wsmandisp/WSManFlagProxyAuthenticationUseBasic, wsmandisp/WSManFlagProxyAuthenticationUseDigest, wsmandisp/WSManFlagProxyAuthenticationUseNegotiate, wsmandisp/WSManProxyAuthenticationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsmandisp.h
 req.include-header: 

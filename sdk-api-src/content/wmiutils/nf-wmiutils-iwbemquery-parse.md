@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemQuery.Parse
 title: IWbemQuery::Parse
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses a query string.
 old-location: wmi\iwbemquery_parse.htm
 old-project: WmiSdk
 ms.assetid: 372b004f-322e-459c-8db0-150b0483aa34
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemQuery class [Windows Management Instrumentation],Parse method, IWbemQuery.Parse, IWbemQuery::Parse, Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation],IWbemQuery class, _hmm_iwbemquery_parse, wmi.iwbemquery_parse, wmiutils/IWbemQuery::Parse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

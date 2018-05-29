@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServicePartitionConfig
 title: IServicePartitionConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures how partitions are used for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicepartitionconfig.htm
 old-project: cossdk
 ms.assetid: 63dcc64b-edd5-4188-a87b-46452c3b624f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServicePartitionConfig, IServicePartitionConfig interface [COM+], IServicePartitionConfig interface [COM+],described, _cos_IServicePartitionConfi, comsvcs/IServicePartitionConfig, cos.iservicepartitionconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

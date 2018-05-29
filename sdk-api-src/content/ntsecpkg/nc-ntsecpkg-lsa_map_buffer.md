@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_MAP_BUFFER
 title: LSA_MAP_BUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps a SecBuffer structure into the address space of the security support provider/authentication package (SSP/AP).
 old-location: security\mapbuffer.htm
 old-project: SecAuthN
 ms.assetid: 3189da1b-5f2f-4569-8f60-6f3b287460f1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_MAP_BUFFER, MapBuffer, MapBuffer function [Security], _ssp_mapbuffer, ntsecpkg/MapBuffer, security.mapbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

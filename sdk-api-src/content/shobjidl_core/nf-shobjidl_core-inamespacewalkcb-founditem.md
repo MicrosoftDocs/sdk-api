@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.FoundItem
 title: INamespaceWalkCB::FoundItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when an object is found in the namespace during a namespace walk. Use this method as the main action function for the class implementing it. Perform your actions as needed inside this method.
 old-location: shell\INamespaceWalkCB_FoundItem.htm
 old-project: shell
 ms.assetid: d9f86764-6365-432e-9216-57fede3aec83
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FoundItem, FoundItem method [Windows Shell], FoundItem method [Windows Shell],INamespaceWalkCB interface, INamespaceWalkCB interface [Windows Shell],FoundItem method, INamespaceWalkCB.FoundItem, INamespaceWalkCB::FoundItem, _win32_INamespaceWalkCB_FoundItem, shell.INamespaceWalkCB_FoundItem, shobjidl_core/INamespaceWalkCB::FoundItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

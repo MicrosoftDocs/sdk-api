@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiPreviewDialogA
 title: MsiPreviewDialogA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiPreviewDialog function displays a dialog box as modeless and inactive.
 old-location: setup\msipreviewdialog.htm
 old-project: Msi
 ms.assetid: 4017e122-8214-4158-ade3-5dac1fda428a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiPreviewDialog, MsiPreviewDialog function, MsiPreviewDialogA, MsiPreviewDialogW, _msi_msipreviewdialog, msiquery/MsiPreviewDialog, msiquery/MsiPreviewDialogA, msiquery/MsiPreviewDialogW, setup.msipreviewdialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

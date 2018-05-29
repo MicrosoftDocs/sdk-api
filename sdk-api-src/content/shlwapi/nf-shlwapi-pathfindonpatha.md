@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathFindOnPathA
 title: PathFindOnPathA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches for a file.
 old-location: shell\PathFindOnPath.htm
 old-project: shell
 ms.assetid: d9281eb2-39b7-444f-85b7-1e1e76c38ae2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathFindOnPath, PathFindOnPath function [Windows Shell], PathFindOnPathA, PathFindOnPathW, _win32_PathFindOnPath, shell.PathFindOnPath, shlwapi/PathFindOnPath, shlwapi/PathFindOnPathA, shlwapi/PathFindOnPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

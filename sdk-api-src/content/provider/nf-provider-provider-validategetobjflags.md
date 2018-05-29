@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.ValidateGetObjFlags
 title: Provider::ValidateGetObjFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The ValidateGetObjFlags method determines whether a set of flags is valid for an instance retrieval operation.
 old-location: wmi\provider_validategetobjflags.htm
 old-project: WmiSdk
 ms.assetid: 5090c47b-062b-4359-b03b-0d05c225447d
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateGetObjFlags method, Provider.ValidateGetObjFlags, Provider::ValidateGetObjFlags, ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

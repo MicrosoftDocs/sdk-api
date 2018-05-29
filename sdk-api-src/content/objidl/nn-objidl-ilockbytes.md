@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.ILockBytes
 title: ILockBytes
-author: windows-driver-content
+author: windows-sdk-content
 description: The ILockBytes interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database.
 old-location: stg\ilockbytes.htm
 old-project: Stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage],described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

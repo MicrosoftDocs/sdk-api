@@ -1,16 +1,16 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredential
 title: ICredentialProviderCredential
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enable the handling of a credential.
 old-location: shell\ICredentialProviderCredential.htm
 old-project: shell
 ms.assetid: ef9bb148-0b4e-4c13-b69d-3e63a5592e4a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], ICredentialProviderCredential interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential, shell.ICredentialProviderCredential, shell_ICredentialProviderCredential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

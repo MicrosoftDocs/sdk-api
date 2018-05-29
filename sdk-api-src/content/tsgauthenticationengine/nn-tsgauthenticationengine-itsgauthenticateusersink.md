@@ -1,16 +1,16 @@
 ---
 UID: NN:tsgauthenticationengine.ITSGAuthenticateUserSink
 title: ITSGAuthenticateUserSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about authentication events.
 old-location: termserv\itsgauthenticateusersink.htm
 old-project: TermServ
 ms.assetid: 6cc0dca7-1bc7-4229-9f3b-74d600776210
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], ITSGAuthenticateUserSink interface [Remote Desktop Services],described, termserv.itsgauthenticateusersink, tsgauthenticationengine/ITSGAuthenticateUserSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsgauthenticationengine.h
 req.include-header: 

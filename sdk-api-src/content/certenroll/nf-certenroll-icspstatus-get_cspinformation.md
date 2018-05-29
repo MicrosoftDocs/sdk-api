@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspStatus.get_CspInformation
 title: ICspStatus::get_CspInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an ICspInformation object that contains general information about the provider.
 old-location: security\icspstatus_cspinformation.htm
 old-project: SecCertEnroll
 ms.assetid: 9e9202ad-086e-493b-8830-0a0f8980cec5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CspInformation property [Security], CspInformation property [Security],ICspStatus interface, ICspStatus interface [Security],CspInformation property, ICspStatus.CspInformation, ICspStatus.get_CspInformation, ICspStatus::CspInformation, ICspStatus::get_CspInformation, certenroll/ICspStatus::CspInformation, certenroll/ICspStatus::get_CspInformation, get_CspInformation, security.icspstatus_cspinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

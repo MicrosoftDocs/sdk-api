@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_RECIPIENT_INFO
 title: "_CMSG_KEY_AGREE_RECIPIENT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used for key agreement algorithms.
 old-location: security\cmsg_key_agree_recipient_info.htm
 old-project: SecCrypto
 ms.assetid: d29d04d6-065e-4bb7-843b-f563643eeb4c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_ORIGINATOR_CERT, CMSG_KEY_AGREE_ORIGINATOR_PUBLIC_KEY, CMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_RECIPIENT_INFO structure [Security], PCMSG_KEY_AGREE_RECIPIENT_INFO, PCMSG_KEY_AGREE_RECIPIENT_INFO structure pointer [Security], _CMSG_KEY_AGREE_RECIPIENT_INFO, _crypto2_cmsg_key_agree_recipient_info, security.cmsg_key_agree_recipient_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

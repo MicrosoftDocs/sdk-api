@@ -1,16 +1,16 @@
 ---
 UID: NC:mapi.MAPISENDMAILW
 title: MAPISENDMAILW
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a Unicode message. This function replaces the ANSI function MAPISendMail.
 old-location: mapi\mapisendmailw.htm
 old-project: WindowsMAPI
 ms.assetid: FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: MAPISendMailW, MAPISendMailW callback, MAPISendMailW callback function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailw, mapi/MAPISendMailW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

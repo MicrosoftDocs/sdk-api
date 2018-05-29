@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_FileSize
 title: IWdsTransportTftpClient::get_FileSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the size in bytes of the file being transferred.
 old-location: wds\iwdstransporttftpclient_filesize.htm
 old-project: Wds
 ms.assetid: 1F9E948E-BE0B-4B7C-8693-5B01D1B4098F
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FileSize property [Windows Deployment Services], FileSize property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],FileSize property, IWdsTransportTftpClient.FileSize, IWdsTransportTftpClient.get_FileSize, IWdsTransportTftpClient::FileSize, IWdsTransportTftpClient::get_FileSize, get_FileSize, wds.iwdstransporttftpclient_filesize, wdstptmgmt/IWdsTransportTftpClient::FileSize, wdstptmgmt/IWdsTransportTftpClient::get_FileSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.RegisterForNextTable
 title: IDVB_SIT::RegisterForNextTable
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 794c2fb0-ff8d-47b0-9a74-ccdb257a12c7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVB_SIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_SIT.RegisterForNextTable, IDVB_SIT::RegisterForNextTable, IDVB_SITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_SIT interface, dvbsiparser/IDVB_SIT::RegisterForNextTable, mstv.idvb_sit_registerfornexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.IsEqual
 title: IAudioMediaType::IsEqual
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsEqual method compares two media types and determines whether they are identical.
 old-location: audio\iaudiomediatype_isequal.htm
 old-project: audio
 ms.assetid: a8ab9ad3-251d-43ab-b099-793ffc22b45f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IAudioMediaType interface [Audio Devices],IsEqual method, IAudioMediaType.IsEqual, IAudioMediaType::IsEqual, IsEqual, IsEqual method [Audio Devices], IsEqual method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_isequal, audio_syseffects_r_0b3614f0-18af-462e-9ab4-3e625bec54ab.xml, audiomediatype/IAudioMediaType::IsEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h

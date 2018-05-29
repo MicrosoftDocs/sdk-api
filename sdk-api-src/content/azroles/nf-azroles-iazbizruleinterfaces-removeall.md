@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.RemoveAll
 title: IAzBizRuleInterfaces::RemoveAll
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all interfaces from the list of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_removeall_method.htm
 old-project: SecAuthZ
 ms.assetid: 05e0d7af-5b09-4112-9229-862197a9895b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],RemoveAll method, IAzBizRuleInterfaces.RemoveAll, IAzBizRuleInterfaces::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::RemoveAll, security.iazbizruleinterfaces_removeall_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

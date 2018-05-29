@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ICommDlgBrowser2
 title: ICommDlgBrowser2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the capabilities of ICommDlgBrowser. This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to ICommDlgBrowser2 can be obtained by calling QueryInterface on the IShellBrowser object.
 old-location: shell\ICommDlgBrowser2.htm
 old-project: shell
 ms.assetid: 07a416a2-340d-4308-a6f3-cf6f19f3c906
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICommDlgBrowser2, ICommDlgBrowser2 interface [Windows Shell], ICommDlgBrowser2 interface [Windows Shell],described, _win32_ICommDlgBrowser2, shell.ICommDlgBrowser2, shobjidl_core/ICommDlgBrowser2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

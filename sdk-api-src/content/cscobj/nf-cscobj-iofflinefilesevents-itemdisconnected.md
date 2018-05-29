@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemDisconnected
 title: IOfflineFilesEvents::ItemDisconnected
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an item in the Offline Files cache has transitioned from online to offline.
 old-location: of\iofflinefilesevents_itemdisconnected.htm
 old-project: OfflineFiles
 ms.assetid: b0f9d873-cda5-4805-bb5e-d23d47b53f1d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDisconnected method, IOfflineFilesEvents.ItemDisconnected, IOfflineFilesEvents::ItemDisconnected, ItemDisconnected, ItemDisconnected method [Offline Files], ItemDisconnected method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDisconnected, of.iofflinefilesevents_itemdisconnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellChecker.GetOptionValue
 title: ISpellChecker::GetOptionValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value associated with the given option.
 old-location: intl\ispellchecker_getoptionvalue.htm
 old-project: Intl
 ms.assetid: bdbf4fa6-9827-40d5-81c0-008e166c9390
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOptionValue, GetOptionValue method [Internationalization for Windows Applications], GetOptionValue method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],GetOptionValue method, ISpellChecker.GetOptionValue, ISpellChecker::GetOptionValue, intl.ispellchecker_getoptionvalue, spellcheck/ISpellChecker::GetOptionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMMetadataEditor2
 title: IWMMetadataEditor2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMMetadataEditor2 interface provides an improved method for opening files for metadata operations.This interface is implemented as part of the metadata editor object.
 old-location: wmformat\iwmmetadataeditor2.htm
 old-project: wmformat
 ms.assetid: e991ac8e-35af-484f-8c60-dc6a7d402120
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMMetadataEditor2, IWMMetadataEditor2 interface [windows Media Format], IWMMetadataEditor2 interface [windows Media Format],described, IWMMetadataEditor2Interface, wmformat.iwmmetadataeditor2, wmsdkidl/IWMMetadataEditor2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

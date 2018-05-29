@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI8FromCy
 title: VarI8FromCy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a currency value to an 8-byte integer value.
 old-location: automat\vari8fromcy.htm
 old-project: automat
 ms.assetid: b3a82903-eba7-44a7-9a63-0c008bdc618b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI8FromCy, VarI8FromCy function [Automation], _oa96_VarI8FromCy, automat.vari8fromcy, oleauto/VarI8FromCy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

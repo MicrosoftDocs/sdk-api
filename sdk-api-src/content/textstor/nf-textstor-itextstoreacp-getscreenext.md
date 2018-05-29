@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetScreenExt
 title: ITextStoreACP::GetScreenExt
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACP::GetScreenExt method returns the bounding box screen coordinates of the display surface where the text stream is rendered.
 old-location: tsf\itextstoreacp_getscreenext.htm
 old-project: TSF
 ms.assetid: bd542dd1-79a5-47ec-a563-cd37a8c36b1a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetScreenExt method, ITextStoreACP.GetScreenExt, ITextStoreACP::GetScreenExt, _tsf_itextstoreacp_getscreenext_ref, textstor/ITextStoreACP::GetScreenExt, tsf.itextstoreacp_getscreenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmCreateContext
 title: ImmCreateContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new input context, allocating memory for the context and initializing it. An application calls this function to prepare its own input context.
 old-location: intl\immcreatecontext.htm
 old-project: Intl
 ms.assetid: 2207927a-0edb-4d3a-a1b7-75b94d1616d5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmCreateContext, ImmCreateContext function [Internationalization for Windows Applications], _win32_ImmCreateContext, imm/ImmCreateContext, intl.immcreatecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

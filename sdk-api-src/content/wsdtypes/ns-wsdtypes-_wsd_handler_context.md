@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_HANDLER_CONTEXT
 title: "_WSD_HANDLER_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the context for handling incoming messages.
 old-location: ncd\wsd_handler_context_struct.htm
 old-project: WsdApi
 ms.assetid: d7b69627-5847-47ec-8ada-2df9b427e870
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_HANDLER_CONTEXT, WSD_HANDLER_CONTEXT structure, _WSD_HANDLER_CONTEXT, ncd.wsd_handler_context_struct, wsdtypes/WSD_HANDLER_CONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

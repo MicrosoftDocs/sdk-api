@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_Replace
 title: ImageList_Replace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces an image in an image list with a new image.
 old-location: controls\ImageList_Replace.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_replace.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_Replace, ImageList_Replace function [Windows Controls], _win32_ImageList_Replace, _win32_ImageList_Replace_cpp, commctrl/ImageList_Replace, controls.ImageList_Replace, controls._win32_ImageList_Replace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

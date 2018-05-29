@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi.IDiscMaster.RecordDisc
 title: IDiscMaster::RecordDisc
-author: windows-driver-content
+author: windows-sdk-content
 description: Burns the staged image to media in the active disc recorder.
 old-location: imapi\idiscmaster_recorddisc.htm
 old-project: imapi
 ms.assetid: 2b234dc5-2409-49d8-83be-0ffea74f5bcf
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscMaster interface [IMAPI],RecordDisc method, IDiscMaster.RecordDisc, IDiscMaster::RecordDisc, RecordDisc, RecordDisc method [IMAPI], RecordDisc method [IMAPI],IDiscMaster interface, _win32_idiscmaster_recorddisc, base.idiscmaster_recorddisc, imapi.idiscmaster_recorddisc, imapi/IDiscMaster::RecordDisc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

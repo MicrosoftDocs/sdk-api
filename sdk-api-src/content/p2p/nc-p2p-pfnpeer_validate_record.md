@@ -1,16 +1,16 @@
 ---
 UID: NC:p2p.PFNPEER_VALIDATE_RECORD
 title: PFNPEER_VALIDATE_RECORD
-author: windows-driver-content
+author: windows-sdk-content
 description: The PFNPEER_VALIDATE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to validate records.
 old-location: p2p\pfnpeer_validate_record.htm
 old-project: P2PSdk
 ms.assetid: 5d81f09b-e46b-43e6-b0a8-ed7c236f2968
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_VALIDATE_RECORD callback function [Peer Networking], p2p.pfnpeer_validate_record, p2p/PFNPEER_VALIDATE_RECORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: p2p.h
 req.include-header: 

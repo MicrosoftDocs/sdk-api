@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateLoadBalanceResultObject
 title: ITsSbProvider::CreateLoadBalanceResultObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ITsSbLoadBalanceResult load-balancing result object.
 old-location: termserv\itssbprovider_createloadbalanceresultobject.htm
 old-project: TermServ
 ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateLoadBalanceResultObject, CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateLoadBalanceResultObject method, ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

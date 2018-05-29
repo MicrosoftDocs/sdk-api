@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindAssembliesByName
 title: IMetaDataAssemblyImport::FindAssembliesByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an array of assemblies with the specified name, using the standard rules employed by the common language runtime (CLR) for resolving references.
 old-location: winrt\imetadataassemblyimport_findassembliesbyname.htm
 old-project: WinRT
 ms.assetid: 147158ba-060e-404e-9721-3d0c2498f5c9
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: FindAssembliesByName, FindAssembliesByName method [Windows Runtime], FindAssembliesByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindAssembliesByName method, IMetaDataAssemblyImport.FindAssembliesByName, IMetaDataAssemblyImport::FindAssembliesByName, rometadataapi/IMetaDataAssemblyImport::FindAssembliesByName, winrt.imetadataassemblyimport_findassembliesbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetNoText
 title: IFolderBandPriv::SetNoText
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether text is displayed in a folder band.
 old-location: shell\IFolderBandPriv_SetNoText.htm
 old-project: shell
 ms.assetid: 49a0e5ae-68ce-488c-a1a0-bd9df5458143
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoText method, IFolderBandPriv.SetNoText, IFolderBandPriv::SetNoText, SetNoText, SetNoText method [Windows Shell], SetNoText method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoText, shell.IFolderBandPriv_SetNoText, shobjidl/IFolderBandPriv::SetNoText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

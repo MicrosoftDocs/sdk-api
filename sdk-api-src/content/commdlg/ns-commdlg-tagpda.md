@@ -1,16 +1,16 @@
 ---
 UID: NS:commdlg.tagPDA
 title: tagPDA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the PrintDlg function uses to initialize the Print Dialog Box. After the user closes the dialog box, the system uses this structure to return information about the user's selections.
 old-location: dlgbox\printdlg_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\printdlg.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPPRINTDLGA, LPPRINTDLG, LPPRINTDLG structure pointer [Dialog Boxes], PD_ALLPAGES, PD_COLLATE, PD_DISABLEPRINTTOFILE, PD_ENABLEPRINTHOOK, PD_ENABLEPRINTTEMPLATE, PD_ENABLEPRINTTEMPLATEHANDLE, PD_ENABLESETUPHOOK, PD_ENABLESETUPTEMPLATE, PD_ENABLESETUPTEMPLATEHANDLE, PD_HIDEPRINTTOFILE, PD_NONETWORKBUTTON, PD_NOPAGENUMS, PD_NOSELECTION, PD_NOWARNING, PD_PAGENUMS, PD_PRINTSETUP, PD_PRINTTOFILE, PD_RETURNDC, PD_RETURNDEFAULT, PD_RETURNIC, PD_SELECTION, PD_SHOWHELP, PD_USEDEVMODECOPIES, PD_USEDEVMODECOPIESANDCOLLATE, PRINTDLG, PRINTDLG structure [Dialog Boxes], PRINTDLGA, PRINTDLGW, _win32_PRINTDLG_str, _win32_printdlg_str_cpp, commdlg/LPPRINTDLG, commdlg/PRINTDLG, commdlg/PRINTDLGA, commdlg/PRINTDLGW, dlgbox.printdlg_str, tagPDA, tagPDW, winui._win32_printdlg_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h

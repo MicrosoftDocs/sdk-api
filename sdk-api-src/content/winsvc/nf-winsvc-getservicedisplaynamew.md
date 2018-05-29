@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.GetServiceDisplayNameW
 title: GetServiceDisplayNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name of the specified service.
 old-location: base\getservicedisplayname.htm
 old-project: Services
 ms.assetid: 704812f3-134c-4161-b3b4-a955d87ff563
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetServiceDisplayName, GetServiceDisplayName function, GetServiceDisplayNameA, GetServiceDisplayNameW, _win32_getservicedisplayname, base.getservicedisplayname, winsvc/GetServiceDisplayName, winsvc/GetServiceDisplayNameA, winsvc/GetServiceDisplayNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

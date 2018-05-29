@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATAdminResolveCatalogPath
 title: CryptCATAdminResolveCatalogPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the fully qualified path of the specified catalog.
 old-location: security\cryptcatadminresolvecatalogpath.htm
 old-project: SecCrypto
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATAdminResolveCatalogPath, CryptCATAdminResolveCatalogPath function [Security], mscat/CryptCATAdminResolveCatalogPath, security.cryptcatadminresolvecatalogpath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

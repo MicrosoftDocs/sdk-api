@@ -1,16 +1,16 @@
 ---
 UID: NL:gdipluseffects.ColorMatrixEffect
 title: ColorMatrixEffect
-author: windows-driver-content
+author: windows-sdk-content
 description: The ColorMatrixEffect class enables you to apply an affine transformation to a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffect.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ColorMatrixEffect, ColorMatrixEffect class [GDI+], ColorMatrixEffect class [GDI+],described, _gdiplus_CLASS_ColorMatrixEffect_Class, gdiplus._gdiplus_CLASS_ColorMatrixEffect_Class, gdipluseffects/ColorMatrixEffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluseffects.h
 req.include-header: 

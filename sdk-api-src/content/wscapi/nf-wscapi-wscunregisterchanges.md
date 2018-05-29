@@ -1,16 +1,16 @@
 ---
 UID: NF:wscapi.WscUnRegisterChanges
 title: WscUnRegisterChanges function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a callback registration that was made by a call to the WscRegisterForChanges function.
 old-location: winprog\wscunregisterchanges.htm
 old-project: DevNotes
 ms.assetid: cfb0d076-bd8b-4483-a036-51c77b8181c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wscapi.h
 req.include-header: 

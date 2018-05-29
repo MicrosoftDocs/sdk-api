@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._TRIVERTEX
 title: "_TRIVERTEX"
-author: windows-driver-content
+author: windows-sdk-content
 description: The TRIVERTEX structure contains color information and position information.
 old-location: gdi\trivertex.htm
 old-project: gdi
 ms.assetid: 47b700aa-3410-4610-ba06-dab2b2662f5e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPTRIVERTEX, *PTRIVERTEX, PTRIVERTEX, PTRIVERTEX structure pointer [Windows GDI], TRIVERTEX, TRIVERTEX structure [Windows GDI], _TRIVERTEX, _win32_TRIVERTEX_str, gdi.trivertex, wingdi/PTRIVERTEX, wingdi/TRIVERTEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

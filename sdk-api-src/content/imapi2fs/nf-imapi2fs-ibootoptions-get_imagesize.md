@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_ImageSize
 title: IBootOptions::get_ImageSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of the boot image.
 old-location: imapi\ibootoptions_get_imagesize.htm
 old-project: imapi
 ms.assetid: 2e3fd791-5a38-4082-9553-29eae92dfd5e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBootOptions interface [IMAPI],get_ImageSize method, IBootOptions.get_ImageSize, IBootOptions::get_ImageSize, get_ImageSize, get_ImageSize method [IMAPI], get_ImageSize method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_imagesize, imapi2fs/IBootOptions::get_ImageSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

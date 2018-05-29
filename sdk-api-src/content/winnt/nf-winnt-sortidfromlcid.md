@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.SORTIDFROMLCID
 title: SORTIDFROMLCID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a sort order identifier from a locale identifier.
 old-location: intl\sortidfromlcid.htm
 old-project: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

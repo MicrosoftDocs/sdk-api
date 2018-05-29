@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_MULTIPLE_KNOWN_HEADERS
 title: "_HTTP_MULTIPLE_KNOWN_HEADERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the headers that are included in an HTTP response when more than one header is required.
 old-location: http\http_multiple_known_headers.htm
 old-project: Http
 ms.assetid: b5e68d55-43a4-422f-b7e3-163739628720
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS structure [HTTP], HTTP_MULTIPLE_KNOWN_HEADERS, HTTP_MULTIPLE_KNOWN_HEADERS structure [HTTP], HTTP_RESPONSE_INFO_FLAGS_PRESERVE_ORDER, _HTTP_MULTIPLE_KNOWN_HEADERS, http.http_multiple_known_headers, http/*PHTTP_MULTIPLE_KNOWN_HEADERS, http/HTTP_MULTIPLE_KNOWN_HEADERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

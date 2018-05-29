@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.put_Enable
 title: IFaxRoutingMethod::put_Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: The Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
 old-location: fax\_mfax_ifaxroutingmethod_get_enable_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1vmt.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Enable property [Fax Service], Enable property [Fax Service],FaxRoutingMethod object, FaxRoutingMethod object [Fax Service],Enable property, FaxRoutingMethod.Enable, IFaxRoutingMethod.put_Enable, IFaxRoutingMethod::put_Enable, _mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable_vb, put_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

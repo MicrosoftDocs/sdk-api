@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcontainer.IMFASFMutualExclusion
 title: IMFASFMutualExclusion
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures an Advanced Systems Format (ASF) mutual exclusion object, which manages information about a group of streams in an ASF profile that are mutually exclusive.
 old-location: mf\imfasfmutualexclusion.htm
 old-project: medfound
 ms.assetid: 9c2278ec-77d1-445e-94bc-44e5d48f14ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9c2278ec-77d1-445e-94bc-44e5d48f14ae, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], IMFASFMutualExclusion interface [Media Foundation],described, mf.imfasfmutualexclusion, wmcontainer/IMFASFMutualExclusion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

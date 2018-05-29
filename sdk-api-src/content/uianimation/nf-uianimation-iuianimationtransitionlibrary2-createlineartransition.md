@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearTransition
 title: IUIAnimationTransitionLibrary2::CreateLinearTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a linear scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createlineartransition.htm
 old-project: UIAnimation
 ms.assetid: BD0A9D4E-0306-4C76-8CC2-AA1A747C4538
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateLinearTransition, CreateLinearTransition method [Windows Animation], CreateLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearTransition method, IUIAnimationTransitionLibrary2.CreateLinearTransition, IUIAnimationTransitionLibrary2::CreateLinearTransition, uianimation.iuianimationtransitionlibrary2_createlineartransition, uianimation/IUIAnimationTransitionLibrary2::CreateLinearTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

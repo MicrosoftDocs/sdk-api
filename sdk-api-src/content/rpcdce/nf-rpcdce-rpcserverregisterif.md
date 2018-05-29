@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIf
 title: RpcServerRegisterIf function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerRegisterIf function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterif.htm
 old-project: Rpc
 ms.assetid: f7f6a7c3-ce6c-4b8b-9853-596c39a0e76d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerRegisterIf, RpcServerRegisterIf function [RPC], _rpc_rpcserverregisterif, rpc.rpcserverregisterif, rpcdce/RpcServerRegisterIf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

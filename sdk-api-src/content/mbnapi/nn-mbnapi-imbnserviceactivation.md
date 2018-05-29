@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnServiceActivation
 title: IMbnServiceActivation
-author: windows-driver-content
+author: windows-sdk-content
 description: Pass-through mechanism for cellular service activation.
 old-location: mbn\imbnserviceactivation.htm
 old-project: mbn
 ms.assetid: cf23be24-f7a8-41b9-81f1-c267a265f85b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnServiceActivation, IMbnServiceActivation interface [Microsoft Broadband Networks], IMbnServiceActivation interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivation, mbnapi/IMbnServiceActivation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

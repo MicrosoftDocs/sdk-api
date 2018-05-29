@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.get_FragmentRoot
 title: IRawElementProviderFragment::get_FragmentRoot
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the root node of the fragment.
 old-location: winauto\uiauto_IRawElementProviderFragment_FragmentRoot.htm
 old-project: WinAuto
 ms.assetid: d3fceca3-78b2-4775-ae11-1c9e71dbf772
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FragmentRoot property [Windows Accessibility], FragmentRoot property [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],FragmentRoot property, IRawElementProviderFragment.FragmentRoot, IRawElementProviderFragment.get_FragmentRoot, IRawElementProviderFragment::FragmentRoot, IRawElementProviderFragment::get_FragmentRoot, get_FragmentRoot, uiauto.uiauto_IRawElementProviderFragment_FragmentRoot, uiauto_IRawElementProviderFragment_FragmentRoot, uiautomationcore/IRawElementProviderFragment::FragmentRoot, uiautomationcore/IRawElementProviderFragment::get_FragmentRoot, winauto.uiauto_IRawElementProviderFragment_FragmentRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

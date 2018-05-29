@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_BANDWIDTH_ROD_v0
 title: "_TCP_ESTATS_BANDWIDTH_ROD_v0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains read-only dynamic information for extended TCP statistics on bandwidth estimation for a TCP connection.
 old-location: iphlp\tcp_estats_bandwidth_rod_v0.htm
 old-project: IpHlp
 ms.assetid: 330d06a2-9966-4e2b-b1bd-44c0f1b9416d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTCP_ESTATS_BANDWIDTH_ROD_v0, PTCP_ESTATS_BANDWIDTH_ROD_v0, PTCP_ESTATS_BANDWIDTH_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_BANDWIDTH_ROD_v0, TCP_ESTATS_BANDWIDTH_ROD_v0 structure [IP Helper], _TCP_ESTATS_BANDWIDTH_ROD_v0, iphlp.tcp_estats_bandwidth_rod_v0, tcpestats/PTCP_ESTATS_BANDWIDTH_ROD_v0, tcpestats/TCP_ESTATS_BANDWIDTH_ROD_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 

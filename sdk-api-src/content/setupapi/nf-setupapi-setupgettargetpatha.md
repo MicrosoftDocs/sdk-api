@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetTargetPathA
 title: SetupGetTargetPathA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetTargetPath function determines the target directory for a file list section.
 old-location: setup\setupgettargetpath.htm
 old-project: SetupApi
 ms.assetid: fe98f00e-7887-4e37-8e09-037a804e6195
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetTargetPath, SetupGetTargetPath function [Setup API], SetupGetTargetPathA, SetupGetTargetPathW, _setupapi_setupgettargetpath, setup.setupgettargetpath, setupapi/SetupGetTargetPath, setupapi/SetupGetTargetPathA, setupapi/SetupGetTargetPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

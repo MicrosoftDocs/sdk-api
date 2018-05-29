@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddImplType
 title: ICreateTypeInfo::AddImplType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an inherited interface, or an interface implemented by a component object class (coclass).
 old-location: automat\icreatetypeinfo_addimpltype.htm
 old-project: automat
 ms.assetid: fef8421f-67de-402b-8efd-7a104c84ca6e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: AddImplType, AddImplType method [Automation], AddImplType method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddImplType method, ICreateTypeInfo.AddImplType, ICreateTypeInfo::AddImplType, _oa96_ICreateTypeInfo_AddImplType, automat.icreatetypeinfo_addimpltype, oaidl/ICreateTypeInfo::AddImplType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

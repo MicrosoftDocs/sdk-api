@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpTreeItemData
 title: IWiaItem::DumpTreeItemData
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaItem_DumpTreeItemData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumptreeitemdata.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: DumpTreeItemData, DumpTreeItemData method [WIA], DumpTreeItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpTreeItemData method, IWiaItem.DumpTreeItemData, IWiaItem::DumpTreeItemData, _wia_IWiaItem_DumpTreeItemData, wia._wia_IWiaItem_DumpTreeItemData, wia_xp/IWiaItem::DumpTreeItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

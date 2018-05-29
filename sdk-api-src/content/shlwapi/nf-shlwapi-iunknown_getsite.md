@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IUnknown_GetSite
 title: IUnknown_GetSite function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calls the specified object's IObjectWithSite::GetSite method.
 old-location: shell\IUnknown_GetSite.htm
 old-project: shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32_IUnknown_GetSite, shell.IUnknown_GetSite, shlwapi/IUnknown_GetSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

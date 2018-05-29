@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationTimer
 title: IUIAnimationTimer
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an animation timer, which provides services for managing animation timing.
 old-location: uianimation\iuianimationtimer.htm
 old-project: UIAnimation
 ms.assetid: 75d29528-005e-4f49-b8ff-651b58d58fc7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], IUIAnimationTimer interface [Windows Animation],described, uianimation.iuianimationtimer, uianimation/IUIAnimationTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

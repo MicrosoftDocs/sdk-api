@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.QueryPortalGroups
 title: IVdsIscsiTarget::QueryPortalGroups
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an enumeration of the iSCSI portal groups within the target.
 old-location: base\ivdsiscsitarget_queryportalgroups.htm
 old-project: VDS
 ms.assetid: bcddd435-a422-4ba3-8978-24388346ab27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryPortalGroups method, IVdsIscsiTarget.QueryPortalGroups, IVdsIscsiTarget::QueryPortalGroups, QueryPortalGroups, QueryPortalGroups method [VDS], QueryPortalGroups method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryportalgroups, vds/IVdsIscsiTarget::QueryPortalGroups, vdshwprv/IVdsIscsiTarget::QueryPortalGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

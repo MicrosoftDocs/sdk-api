@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.WindowPattern_Close
 title: WindowPattern_Close function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes an open window.
 old-location: winauto\uiauto_WindowPattern_CloseConPat.htm
 old-project: WinAuto
 ms.assetid: 0e19ee38-98f1-4a25-a20d-a580de5f8477
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: WindowPattern_Close, WindowPattern_Close function [Windows Accessibility], uiauto.uiauto_WindowPattern_CloseConPat, uiauto_WindowPattern_CloseConPat, uiautomationcoreapi/WindowPattern_Close, winauto.uiauto_WindowPattern_CloseConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

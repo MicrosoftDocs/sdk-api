@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputOverride
 title: IMFASFStreamSelector::GetOutputOverride
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the manual output override selection that is set for a stream.
 old-location: mf\imfasfstreamselector_getoutputoverride.htm
 old-project: medfound
 ms.assetid: 64413669-bcb9-47fa-9362-b3f6831e55fb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 64413669-bcb9-47fa-9362-b3f6831e55fb, GetOutputOverride, GetOutputOverride method [Media Foundation], GetOutputOverride method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputOverride method, IMFASFStreamSelector.GetOutputOverride, IMFASFStreamSelector::GetOutputOverride, mf.imfasfstreamselector_getoutputoverride, wmcontainer/IMFASFStreamSelector::GetOutputOverride
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

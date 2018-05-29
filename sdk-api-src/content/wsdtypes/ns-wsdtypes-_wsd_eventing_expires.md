@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_EXPIRES
 title: "_WSD_EVENTING_EXPIRES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the expiration time of a WS-Eventing message.
 old-location: ncd\wsd_eventing_expires.htm
 old-project: WsdApi
 ms.assetid: 728eacdb-3c27-4884-a9ba-34979590a57c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_EVENTING_EXPIRES, WSD_EVENTING_EXPIRES structure, _WSD_EVENTING_EXPIRES, ncd.wsd_eventing_expires, wsdtypes/WSD_EVENTING_EXPIRES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

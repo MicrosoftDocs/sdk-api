@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluscolor.Color.GetValue
 title: Color::GetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: The Color::GetValue method gets the ARGB value of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetValue_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getvalue.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Color class [GDI+],GetValue method, Color.GetValue, Color::GetValue, GetValue, GetValue method [GDI+], GetValue method [GDI+],Color class, _gdiplus_CLASS_Color_GetValue_, gdiplus._gdiplus_CLASS_Color_GetValue_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h

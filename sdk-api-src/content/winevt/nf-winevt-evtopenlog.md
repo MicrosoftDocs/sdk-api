@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtOpenLog
 title: EvtOpenLog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a handle to a channel or log file that you can then use to get information about the channel or log file.
 old-location: wes\evtopenlog.htm
 old-project: WES
 ms.assetid: 1bf81452-2a62-4999-91b1-f1b42e6db91f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtOpenLog, EvtOpenLog function [EventLog], wes.evtopenlog, winevt/EvtOpenLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

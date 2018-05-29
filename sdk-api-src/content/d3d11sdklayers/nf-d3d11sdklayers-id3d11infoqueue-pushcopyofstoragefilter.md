@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PushCopyOfStorageFilter
 title: ID3D11InfoQueue::PushCopyOfStorageFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
 old-location: direct3d11\id3d11infoqueue_pushcopyofstoragefilter.htm
 old-project: direct3d11
 ms.assetid: 4538fecb-1cb6-443b-b1fe-b0e506fbecb2
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11InfoQueue interface [Direct3D 11],PushCopyOfStorageFilter method, ID3D11InfoQueue.PushCopyOfStorageFilter, ID3D11InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [Direct3D 11], PushCopyOfStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, bb555de6-9be8-e564-7126-0e904dc8b4d4, d3d11sdklayers/ID3D11InfoQueue::PushCopyOfStorageFilter, direct3d11.id3d11infoqueue_pushcopyofstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

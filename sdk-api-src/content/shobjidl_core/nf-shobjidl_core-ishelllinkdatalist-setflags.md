@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.SetFlags
 title: IShellLinkDataList::SetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the current option settings.
 old-location: shell\IShellLinkDataList_SetFlags.htm
 old-project: shell
 ms.assetid: 0fca6394-e8ad-4ef3-a7d8-60e85229556b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],SetFlags method, IShellLinkDataList.SetFlags, IShellLinkDataList::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_SetFlags, shell.IShellLinkDataList_SetFlags, shobjidl_core/IShellLinkDataList::SetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

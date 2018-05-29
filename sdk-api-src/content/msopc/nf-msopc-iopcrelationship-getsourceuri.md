@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetSourceUri
 title: IOpcRelationship::GetSourceUri
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the URI of the relationship&#160;source.
 old-location: opc\iopcrelationship_getsourceuri.htm
 old-project: OPC
 ms.assetid: 8e2587af-fce0-437a-9608-6824e861d699
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetSourceUri method, IOpcRelationship.GetSourceUri, IOpcRelationship::GetSourceUri, msopc/IOpcRelationship::GetSourceUri, opc.iopcrelationship_getsourceuri
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

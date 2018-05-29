@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbServiceListDescriptor
 title: IDvbServiceListDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) service list descriptor. A service list descriptor is part of the DVB network information table (NIT) or bouquet association table (BAT) that lists services by service ID and type.
 old-location: mstv\idvbservicelistdescriptor.htm
 old-project: mstv
 ms.assetid: 0d39595b-0297-473d-9b0f-e038a938a196
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], IDvbServiceListDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceListDescriptor, mstv.idvbservicelistdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.InsertAt
 title: IXpsOMRemoteDictionaryResourceCollection::InsertAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts an IXpsOMRemoteDictionaryResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_insertat.htm
 old-project: printdocs
 ms.assetid: 22abb514-6574-4d7e-8ea5-2b0956b4e8a4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMRemoteDictionaryResourceCollection.InsertAt, IXpsOMRemoteDictionaryResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_insertat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::InsertAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

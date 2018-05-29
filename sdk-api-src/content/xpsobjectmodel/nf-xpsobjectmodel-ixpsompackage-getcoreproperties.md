@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetCoreProperties
 title: IXpsOMPackage::GetCoreProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMCoreProperties interface of the XPS package.
 old-location: xps\ixpsompackage_getcoreproperties.htm
 old-project: printdocs
 ms.assetid: ebe5c8a2-2d6a-4a86-8bf3-1fec1dec68d0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCoreProperties, GetCoreProperties method [XPS Documents and Packaging], GetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetCoreProperties method, IXpsOMPackage.GetCoreProperties, IXpsOMPackage::GetCoreProperties, xps.ixpsompackage_getcoreproperties, xpsobjectmodel/IXpsOMPackage::GetCoreProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

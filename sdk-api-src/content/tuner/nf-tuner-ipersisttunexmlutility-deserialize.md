@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IPersistTuneXmlUtility.Deserialize
 title: IPersistTuneXmlUtility::Deserialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Constructs and returns an object that initializes itself by using the XML node passed as a VARIANT parameter to the method. The returned object exposes its IUnknown interface so that other objects can query it.
 old-location: mstv\ipersisttunexmlutility_deserialize.htm
 old-project: mstv
 ms.assetid: a42a001b-210c-4e89-823e-ec1e1fa58f67
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Deserialize, Deserialize method [Microsoft TV Technologies], Deserialize method [Microsoft TV Technologies],IPersistTuneXmlUtility interface, IPersistTuneXmlUtility interface [Microsoft TV Technologies],Deserialize method, IPersistTuneXmlUtility.Deserialize, IPersistTuneXmlUtility::Deserialize, mstv.ipersisttunexmlutility_deserialize, tuner/IPersistTuneXmlUtility::Deserialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

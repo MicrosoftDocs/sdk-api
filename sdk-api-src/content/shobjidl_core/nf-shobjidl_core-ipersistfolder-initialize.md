@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder.Initialize
 title: IPersistFolder::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs a Shell folder object to initialize itself based on the information passed.
 old-location: shell\IPersistFolder_Initialize.htm
 old-project: shell
 ms.assetid: 179f13c9-7306-4ed5-935e-2620616b46c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistFolder interface [Windows Shell],Initialize method, IPersistFolder.Initialize, IPersistFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPersistFolder interface, _win32_IPersistFolder_Initialize, shell.IPersistFolder_Initialize, shobjidl_core/IPersistFolder::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

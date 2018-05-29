@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock2._QualityOfService
 title: "_QualityOfService"
-author: windows-driver-content
+author: windows-sdk-content
 description: The QOS structure provides the means by which QOS-enabled applications can specify quality of service parameters for sent and received traffic on a particular flow.
 old-location: qos\qos.htm
 old-project: QOS
 ms.assetid: 859faa13-bd66-46ee-8452-6ff5d53d66c9
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPQOS, LPQOS, LPQOS structure pointer [QOS], QOS, QOS structure [QOS], _QualityOfService, _gqos_qos, qos.qos, winsock2/LPQOS, winsock2/QOS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

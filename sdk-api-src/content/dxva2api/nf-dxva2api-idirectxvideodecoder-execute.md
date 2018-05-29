@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.Execute
 title: IDirectXVideoDecoder::Execute
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes a decoding operation on the current frame.
 old-location: mf\idirectxvideodecoder_execute.htm
 old-project: medfound
 ms.assetid: 3c957b2f-4bba-4c39-84de-719c08e1bf78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3c957b2f-4bba-4c39-84de-719c08e1bf78, Execute, Execute method [Media Foundation], Execute method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],Execute method, IDirectXVideoDecoder.Execute, IDirectXVideoDecoder::Execute, dxva2api/IDirectXVideoDecoder::Execute, mf.idirectxvideodecoder_execute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

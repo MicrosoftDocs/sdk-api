@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertGetIntendedKeyUsage
 title: CertGetIntendedKeyUsage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Acquires the intended key usage bytes from a certificate.
 old-location: security\certgetintendedkeyusage.htm
 old-project: SecCrypto
 ms.assetid: d09c3626-f864-4774-8511-3e912f62e520
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

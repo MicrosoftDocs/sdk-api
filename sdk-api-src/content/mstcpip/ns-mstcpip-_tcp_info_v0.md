@@ -1,16 +1,16 @@
 ---
 UID: NS:mstcpip._TCP_INFO_v0
 title: "_TCP_INFO_v0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the Transmission Control Protocol (TCP) statistics that were collected for a socket.
 old-location: winsock\tcp_info_v0.htm
 old-project: WinSock
 ms.assetid: 9A51A059-59EC-4D30-9ECE-C81351C0861F
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PTCP_INFO_v0, PTCP_INFO_v0, PTCP_INFO_v0 structure pointer [Winsock], TCP_INFO_v0, TCP_INFO_v0 structure [Winsock], _TCP_INFO_v0, mstcpip/PTCP_INFO_v0, mstcpip/TCP_INFO_v0, winsock.tcp_info_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 

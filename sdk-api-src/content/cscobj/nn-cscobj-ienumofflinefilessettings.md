@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IEnumOfflineFilesSettings
 title: IEnumOfflineFilesSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates setting objects associated with the Offline Files service.
 old-location: of\ienumofflinefilessettings.htm
 old-project: OfflineFiles
 ms.assetid: 2d0e45d5-5559-4c2e-9c20-4e5b84b5fbbd
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], IEnumOfflineFilesSettings interface [Offline Files],described, cscobj/IEnumOfflineFilesSettings, of.ienumofflinefilessettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

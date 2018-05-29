@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRFILLRGN
 title: tagEMRFILLRGN
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRFILLRGN structure contains members for the FillRgn enhanced metafile record.
 old-location: gdi\emrfillrgn.htm
 old-project: gdi
 ms.assetid: 84b81b9d-3def-403c-94cd-8f5ddea02d6d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRFILLRGN, EMRFILLRGN, EMRFILLRGN structure [Windows GDI], PEMRFILLRGN, PEMRFILLRGN structure pointer [Windows GDI], _win32_EMRFILLRGN_str, gdi.emrfillrgn, tagEMRFILLRGN, wingdi/EMRFILLRGN, wingdi/PEMRFILLRGN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

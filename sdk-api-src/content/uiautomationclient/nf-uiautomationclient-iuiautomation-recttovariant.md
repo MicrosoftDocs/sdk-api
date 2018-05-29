@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RectToVariant
 title: IUIAutomation::RectToVariant
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a VARIANT that contains the coordinates of a rectangle.
 old-location: winauto\uiauto_IUIAutomation_RectToVariant.htm
 old-project: WinAuto
 ms.assetid: abfb2bb1-7594-4f32-9188-05745006ae18
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RectToVariant method, IUIAutomation.RectToVariant, IUIAutomation::RectToVariant, RectToVariant, RectToVariant method [Windows Accessibility], RectToVariant method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RectToVariant, uiauto_IUIAutomation_RectToVariant, uiautomationclient/IUIAutomation::RectToVariant, winauto.uiauto_IUIAutomation_RectToVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

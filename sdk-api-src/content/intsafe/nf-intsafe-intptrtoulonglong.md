@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntPtrToULongLong
 title: IntPtrToULongLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type ULONGLONG.
 old-location: shell\IntPtrToULongLong.htm
 old-project: shell
 ms.assetid: 81358f7f-9e78-469a-889e-85fa93bd1eac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntPtrToULongLong, IntPtrToULongLong function [Windows Shell], UIntPtrToInt64, _shell_IntPtrToULongLong, intsafe/IntPtrToULongLong, shell.IntPtrToULongLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

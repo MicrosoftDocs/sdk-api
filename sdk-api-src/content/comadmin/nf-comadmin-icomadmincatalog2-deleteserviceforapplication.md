@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.DeleteServiceForApplication
 title: ICOMAdminCatalog2::DeleteServiceForApplication
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the Windows service associated with the specified COM+ application.
 old-location: cos\icomadmincatalog2_deleteserviceforapplication.htm
 old-project: cossdk
 ms.assetid: 8bc4a72e-79a1-4780-a143-1ba1ec66812b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteServiceForApplication, DeleteServiceForApplication method [COM+], DeleteServiceForApplication method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DeleteServiceForApplication method, ICOMAdminCatalog2.DeleteServiceForApplication, ICOMAdminCatalog2::DeleteServiceForApplication, _cos_icomadmincatalog2_DeleteServiceForApplication, comadmin/ICOMAdminCatalog2::DeleteServiceForApplication, cos.icomadmincatalog2_deleteserviceforapplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

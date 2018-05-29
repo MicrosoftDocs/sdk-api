@@ -1,16 +1,16 @@
 ---
 UID: NF:evalcom2.IValidate.Validate
 title: IValidate::Validate
-author: windows-driver-content
+author: windows-sdk-content
 description: The Validate method performs validation of the installation package or merge module using the specified internal consistency evaluator file.
 old-location: setup\ivalidate_validate.htm
 old-project: Msi
 ms.assetid: f7a50031-52ac-4ea2-847c-6212706a9cbd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IValidate interface,Validate method, IValidate.Validate, IValidate::Validate, Validate, Validate method, Validate method,IValidate interface, evalcom2/IValidate::Validate, setup.ivalidate_validate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evalcom2.h
 req.include-header: 

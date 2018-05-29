@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolWait
 title: CreateThreadpoolWait function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new wait object.
 old-location: base\createthreadpoolwait.htm
 old-project: ProcThread
 ms.assetid: ba19f5f9-d4b0-4865-9609-95e7697d61c0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateThreadpoolWait, CreateThreadpoolWait function, base.createthreadpoolwait, threadpoolapiset/CreateThreadpoolWait, winbase/CreateThreadpoolWait
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

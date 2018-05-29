@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableFastCache
 title: IWMReaderNetworkConfig2::SetEnableFastCache
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetEnableFastCache method enables or disables Fast Cache streaming. Fast Cache streaming enables network content to be streamed faster than the playback rate, if bandwidth allows.
 old-location: wmformat\iwmreadernetworkconfig2_setenablefastcache.htm
 old-project: wmformat
 ms.assetid: 28a01985-a133-4203-8385-d4497c29bf9c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableFastCache method, IWMReaderNetworkConfig2.SetEnableFastCache, IWMReaderNetworkConfig2::SetEnableFastCache, IWMReaderNetworkConfig2SetEnableFastCache, SetEnableFastCache, SetEnableFastCache method [windows Media Format], SetEnableFastCache method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::SetEnableFastCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

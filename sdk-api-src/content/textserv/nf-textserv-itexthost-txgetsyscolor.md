@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextHost.TxGetSysColor
 title: ITextHost::TxGetSysColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the text host's color for a specified display element.
 old-location: controls\ITextHost_TxGetSysColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetsyscolor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetSysColor method, ITextHost.TxGetSysColor, ITextHost::TxGetSysColor, TxGetSysColor, TxGetSysColor method [Windows Controls], TxGetSysColor method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetSysColor, _win32_ITextHost_TxGetSysColor_cpp, controls.ITextHost_TxGetSysColor, controls._win32_ITextHost_TxGetSysColor, textserv/ITextHost::TxGetSysColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

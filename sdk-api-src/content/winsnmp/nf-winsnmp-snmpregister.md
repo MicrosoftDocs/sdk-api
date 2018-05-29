@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpRegister
 title: SnmpRegister function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpRegister function registers or unregisters a WinSNMP application for trap and notification reception. The application can register and receive traps and notifications, or unregister and disable traps and notifications.
 old-location: snmp\snmpregister.htm
 old-project: SNMP
 ms.assetid: ea2476b4-2f98-4295-95c4-c96c6b719e05
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

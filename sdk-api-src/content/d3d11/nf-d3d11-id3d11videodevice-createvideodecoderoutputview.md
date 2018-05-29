@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoDecoderOutputView
 title: ID3D11VideoDevice::CreateVideoDecoderOutputView
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a resource view for a video decoder, describing the output sample for the decoding operation.
 old-location: mf\id3d11videodevice_createvideodecoderoutputview.htm
 old-project: medfound
 ms.assetid: 8A3D72CF-B641-4219-8C88-FCE5231CF2F6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView method [Media Foundation], CreateVideoDecoderOutputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoderOutputView method, ID3D11VideoDevice.CreateVideoDecoderOutputView, ID3D11VideoDevice::CreateVideoDecoderOutputView, d3d11/ID3D11VideoDevice::CreateVideoDecoderOutputView, mf.id3d11videodevice_createvideodecoderoutputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

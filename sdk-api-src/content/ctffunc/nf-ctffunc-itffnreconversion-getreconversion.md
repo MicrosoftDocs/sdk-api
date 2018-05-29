@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.GetReconversion
 title: ITfFnReconversion::GetReconversion
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfFnReconversion::GetReconversion method
 old-location: tsf\itffnreconversion_getreconversion.htm
 old-project: TSF
 ms.assetid: ed696088-c599-4c83-968e-d09d9ae81c10
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnReconversion interface, ITfFnReconversion interface [Text Services Framework],GetReconversion method, ITfFnReconversion.GetReconversion, ITfFnReconversion::GetReconversion, _tsf_itffnreconversion_getreconversion_ref, ctffunc/ITfFnReconversion::GetReconversion, tsf.itffnreconversion_getreconversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

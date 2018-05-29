@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICImageDecompress
 title: ICImageDecompress function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICImageDecompress function decompresses an image without using initialization functions.
 old-location: multimedia\icimagedecompress.htm
 old-project: Multimedia
 ms.assetid: 8d27f0bd-9db5-482d-9000-75ad04762a67
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICImageDecompress, ICImageDecompress function [Windows Multimedia], _win32_ICImageDecompress, multimedia.icimagedecompress, vfw/ICImageDecompress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

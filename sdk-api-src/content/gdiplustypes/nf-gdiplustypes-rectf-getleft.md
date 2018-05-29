@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.RectF.GetLeft
 title: RectF::GetLeft
-author: windows-driver-content
+author: windows-sdk-content
 description: The RectF::GetLeft method gets the x-coordinate of the left edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetLeft_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getleft_55.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLeft, GetLeft method [GDI+], GetLeft method [GDI+],RectF class, RectF class [GDI+],GetLeft method, RectF.GetLeft, RectF::GetLeft, _gdiplus_CLASS_RectF_GetLeft_, gdiplus._gdiplus_CLASS_RectF_GetLeft_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

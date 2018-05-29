@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromIndex
 title: SymSetScopeFromIndex function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified index.
 old-location: base\symsetscopefromindex.htm
 old-project: Debug
 ms.assetid: 06792478-35e2-4f05-85c9-910909fe65cd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymSetScopeFromIndex, SymSetScopeFromIndex function, base.symsetscopefromindex, dbghelp/SymSetScopeFromIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateAVIMediaSink
 title: MFCreateAVIMediaSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an Audio-Video Interleaved (AVI) Sink.
 old-location: mf\mfcreateavimediasink.htm
 old-project: medfound
 ms.assetid: BAF47469-783B-4035-BD83-2921A88877E4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundation], mf.mfcreateavimediasink, mfidl/MFCreateAVIMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

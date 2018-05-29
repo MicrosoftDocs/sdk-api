@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.SpawnInstance
 title: IWbemClassObject::SpawnInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IWbemClassObject::SpawnInstance method to create a new instance of a class.
 old-location: wmi\iwbemclassobject_spawninstance.htm
 old-project: WmiSdk
 ms.assetid: 3f244c1b-60ed-41ff-8464-5ac66737a5da
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],SpawnInstance method, IWbemClassObject.SpawnInstance, IWbemClassObject::SpawnInstance, SpawnInstance, SpawnInstance method [Windows Management Instrumentation], SpawnInstance method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_spawninstance, wbemcli/IWbemClassObject::SpawnInstance, wmi.iwbemclassobject_spawninstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

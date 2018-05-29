@@ -1,16 +1,16 @@
 ---
 UID: NE:shldisp._tagAUTOCOMPLETEOPTIONS
 title: "_tagAUTOCOMPLETEOPTIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies values used by IAutoComplete2::GetOptions and IAutoComplete2::SetOptions for options surrounding autocomplete.
 old-location: shell\AUTOCOMPLETEOPTIONS.htm
 old-project: shell
 ms.assetid: e0a583da-c2bd-4757-868d-a63e697142e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ACO_AUTOAPPEND, ACO_AUTOSUGGEST, ACO_FILTERPREFIXES, ACO_NONE, ACO_NOPREFIXFILTERING, ACO_RTLREADING, ACO_SEARCH, ACO_UPDOWNKEYDROPSLIST, ACO_USETAB, ACO_WORD_FILTER, AUTOCOMPLETEOPTIONS, AUTOCOMPLETEOPTIONS enumeration [Windows Shell], _shell_AUTOCOMPLETEOPTIONS, _tagAUTOCOMPLETEOPTIONS, shell.AUTOCOMPLETEOPTIONS, shldisp/ACO_AUTOAPPEND, shldisp/ACO_AUTOSUGGEST, shldisp/ACO_FILTERPREFIXES, shldisp/ACO_NONE, shldisp/ACO_NOPREFIXFILTERING, shldisp/ACO_RTLREADING, shldisp/ACO_SEARCH, shldisp/ACO_UPDOWNKEYDROPSLIST, shldisp/ACO_USETAB, shldisp/ACO_WORD_FILTER, shldisp/AUTOCOMPLETEOPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shldisp.h
 req.include-header: 

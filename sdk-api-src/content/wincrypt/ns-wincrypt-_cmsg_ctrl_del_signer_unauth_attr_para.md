@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
 title: "_CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to delete an unauthenticated attribute of a signer of a signed message.
 old-location: security\cmsg_ctrl_del_signer_unauth_attr_para.htm
 old-project: SecCrypto
 ms.assetid: 729fbbe0-40c6-41e7-851f-6f93f47e8f4d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA structure [Security], PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security], _CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, _crypto2_cmsg_ctrl_del_signer_unauth_attr_para, security.cmsg_ctrl_del_signer_unauth_attr_para, wincrypt/CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, wincrypt/PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeer.IsAvailable
 title: IBitsPeer::IsAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the peer is available (online) to serve content.
 old-location: bits\ibitspeer_isavailable.htm
 old-project: Bits
 ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailable, IBitsPeer::IsAvailable, IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS],IBitsPeer interface, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

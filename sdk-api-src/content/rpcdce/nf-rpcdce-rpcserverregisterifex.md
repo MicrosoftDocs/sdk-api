@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIfEx
 title: RpcServerRegisterIfEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerRegisterIfEx function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterifex.htm
 old-project: Rpc
 ms.assetid: 1666bc0a-72bf-40da-b054-c10b477c4367
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerRegisterIfEx, RpcServerRegisterIfEx function [RPC], _rpc_rpcserverregisterifex, rpc.rpcserverregisterifex, rpcdce/RpcServerRegisterIfEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IRecoverableError
 title: IRecoverableError
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a recoverable error that occurred when an item was loaded or when an item was saved.
 old-location: winsync\irecoverableerror.htm
 old-project: winsync
 ms.assetid: a8b8a84a-6083-4696-bef1-46145a4d71c8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRecoverableError, IRecoverableError interface [Windows Sync], IRecoverableError interface [Windows Sync],described, winsync.irecoverableerror, winsync/IRecoverableError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

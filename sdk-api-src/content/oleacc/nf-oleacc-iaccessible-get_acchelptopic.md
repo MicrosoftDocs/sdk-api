@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.get_accHelpTopic
 title: IAccessible::get_accHelpTopic
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::get_accHelpTopic method retrieves the full path of the WinHelp file that is associated with the specified object; it also retrieves the identifier of the appropriate topic within that file.
 old-location: winauto\iaccessible_iaccessible__get_acchelptopic.htm
 old-project: WinAuto
 ms.assetid: a8f4ae56-6bd9-4615-a87d-a4de2f7632b1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accHelpTopic method, IAccessible.get_accHelpTopic, IAccessible::get_accHelpTopic, _msaa_IAccessible_get_accHelpTopic, get_accHelpTopic, get_accHelpTopic method [Windows Accessibility], get_accHelpTopic method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelptopic, oleacc/IAccessible::get_accHelpTopic, winauto.iaccessible_iaccessible__get_acchelptopic
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

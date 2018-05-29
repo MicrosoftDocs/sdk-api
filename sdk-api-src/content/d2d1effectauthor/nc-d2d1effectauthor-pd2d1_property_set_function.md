@@ -1,16 +1,16 @@
 ---
 UID: NC:d2d1effectauthor.PD2D1_PROPERTY_SET_FUNCTION
 title: PD2D1_PROPERTY_SET_FUNCTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a property on an effect.
 old-location: direct2d\pd2d1_property_set_function.htm
 old-project: Direct2D
 ms.assetid: 3293F53E-B911-4F5F-9510-E91B5261BB90
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: PD2D1_PROPERTY_SET_FUNCTION, PD2D1_PROPERTY_SET_FUNCTION function, PD2D1_PROPERTY_SET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_SET_FUNCTION, direct2d.pd2d1_property_set_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: d2d1effectauthor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.DisplayModeChanged
 title: IVMRWindowlessControl::DisplayModeChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: The DisplayModeChanged method informs the VMR that a WM_DISPLAYCHANGE message has been received by the application.
 old-location: dshow\ivmrwindowlesscontrol_displaymodechanged.htm
 old-project: DirectShow
 ms.assetid: 83fbca03-0e8c-4386-96ff-f572f0b13312
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DisplayModeChanged, DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],DisplayModeChanged method, IVMRWindowlessControl.DisplayModeChanged, IVMRWindowlessControl::DisplayModeChanged, IVMRWindowlessControlDisplayModeChanged, dshow.ivmrwindowlesscontrol_displaymodechanged, strmif/IVMRWindowlessControl::DisplayModeChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

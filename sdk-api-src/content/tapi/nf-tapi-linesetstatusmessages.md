@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetStatusMessages
 title: lineSetStatusMessages function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetStatusMessages function enables an application to specify which notification messages to receive for events related to status changes for the specified line or any of its addresses.
 old-location: tapi2\linesetstatusmessages.htm
 old-project: Tapi
 ms.assetid: 08a93874-b0d5-4c00-b541-b51c312cfef6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetstatusmessages, lineSetStatusMessages, lineSetStatusMessages function [TAPI 2.2], tapi/lineSetStatusMessages, tapi2.linesetstatusmessages"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

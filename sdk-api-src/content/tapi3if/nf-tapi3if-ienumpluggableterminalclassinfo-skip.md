@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.IEnumPluggableTerminalClassInfo.Skip
 title: IEnumPluggableTerminalClassInfo::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggableterminalclassinfo_skip.htm
 old-project: Tapi
 ms.assetid: 19880df4-7c1c-4840-a1c9-c51f2e9fd0fc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Skip method, IEnumPluggableTerminalClassInfo.Skip, IEnumPluggableTerminalClassInfo::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_skip, tapi3.ienumpluggableterminalclassinfo_skip, tapi3if/IEnumPluggableTerminalClassInfo::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

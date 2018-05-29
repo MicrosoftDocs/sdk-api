@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.DestroyContext
 title: DestroyContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a recognizer context.
 old-location: tablet\destroycontext.htm
 old-project: tablet
 ms.assetid: b0d90728-6934-4727-b553-c6058acfa0ec
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DestroyContext, DestroyContext function [Tablet PC], b0d90728-6934-4727-b553-c6058acfa0ec, recapis/DestroyContext, tablet.destroycontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.Show
 title: IUserNotification::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the notification.
 old-location: shell\IUserNotification_Show.htm
 old-project: shell
 ms.assetid: 1f908581-9635-4090-9e52-1dfb9a206d38
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserNotification interface [Windows Shell],Show method, IUserNotification.Show, IUserNotification::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IUserNotification interface, inet_IUserNotification_Show, shell.IUserNotification_Show, shobjidl_core/IUserNotification::Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

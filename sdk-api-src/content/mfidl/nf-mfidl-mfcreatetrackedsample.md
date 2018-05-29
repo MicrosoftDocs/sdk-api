@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateTrackedSample
 title: MFCreateTrackedSample function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IMFTrackedSample object that tracks the reference counts on a video media sample.
 old-location: mf\mfcreatetrackedsample.htm
 old-project: medfound
 ms.assetid: 05FB8F94-94B2-46A5-A890-E37E501233E2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateTrackedSample, MFCreateTrackedSample function [Media Foundation], mf.mfcreatetrackedsample, mfidl/MFCreateTrackedSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

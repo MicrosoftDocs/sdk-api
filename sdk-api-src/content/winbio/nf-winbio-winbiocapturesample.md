@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioCaptureSample
 title: WinBioCaptureSample function
-author: windows-driver-content
+author: windows-sdk-content
 description: Captures a biometric sample and fills a biometric information record (BIR) with the raw or processed data.
 old-location: secbiomet\winbiocapturesample.htm
 old-project: SecBioMet
 ms.assetid: 365dcefb-3382-4b62-b47d-919e2d3f56f1
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSample, WinBioCaptureSample function [Windows Biometric Framework API], secbiomet.winbiocapturesample, winbio/WinBioCaptureSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

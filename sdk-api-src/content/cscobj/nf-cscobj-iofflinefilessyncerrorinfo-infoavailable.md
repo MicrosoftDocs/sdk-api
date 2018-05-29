@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoAvailable
 title: IOfflineFilesSyncErrorInfo::InfoAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.
 old-location: of\iofflinefilessyncerrorinfo_infoavailable.htm
 old-project: OfflineFiles
 ms.assetid: f4a491fb-445b-4a90-9131-e0e5964154fa
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoAvailable method, IOfflineFilesSyncErrorInfo.InfoAvailable, IOfflineFilesSyncErrorInfo::InfoAvailable, InfoAvailable, InfoAvailable method [Offline Files], InfoAvailable method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable, of.iofflinefilessyncerrorinfo_infoavailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

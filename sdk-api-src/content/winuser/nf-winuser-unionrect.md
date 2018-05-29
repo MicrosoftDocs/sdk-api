@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.UnionRect
 title: UnionRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnionRect function creates the union of two rectangles. The union is the smallest rectangle that contains both source rectangles.
 old-location: gdi\unionrect.htm
 old-project: gdi
 ms.assetid: f2da2df4-3f09-4c54-afd1-c728805f0f64
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UnionRect, UnionRect function [Windows GDI], _win32_UnionRect, gdi.unionrect, winuser/UnionRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

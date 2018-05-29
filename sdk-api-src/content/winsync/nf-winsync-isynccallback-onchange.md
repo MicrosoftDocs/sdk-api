@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncCallback.OnChange
 title: ISyncCallback::OnChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs before a change is applied.
 old-location: winsync\isynccallback_onchange.htm
 old-project: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

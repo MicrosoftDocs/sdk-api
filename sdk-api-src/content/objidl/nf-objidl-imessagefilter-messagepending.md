@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMessageFilter.MessagePending
 title: IMessageFilter::MessagePending
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that a message has arrived while COM is waiting to respond to a remote call.
 old-location: com\imessagefilter_messagepending.htm
 old-project: com
 ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilter.MessagePending, IMessageFilter::MessagePending, MessagePending, MessagePending method [COM], MessagePending method [COM],IMessageFilter interface, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

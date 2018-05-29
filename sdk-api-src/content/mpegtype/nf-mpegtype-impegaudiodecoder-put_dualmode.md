@@ -1,16 +1,16 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DualMode
 title: IMpegAudioDecoder::put_DualMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the channel to be decoded.
 old-location: dshow\impegaudiodecoder_put_dualmode.htm
 old-project: DirectShow
 ms.assetid: b183f669-14bf-44d4-a17d-09cbc593309d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DualMode method, IMpegAudioDecoder.put_DualMode, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 

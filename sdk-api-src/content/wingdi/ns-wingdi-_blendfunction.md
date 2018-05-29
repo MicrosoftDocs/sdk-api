@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._BLENDFUNCTION
 title: "_BLENDFUNCTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BLENDFUNCTION structure controls blending by specifying the blending functions for source and destination bitmaps.
 old-location: gdi\blendfunction.htm
 old-project: gdi
 ms.assetid: d1371d72-c408-4484-845e-d4ea2bc3115d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PBLENDFUNCTION, BLENDFUNCTION, BLENDFUNCTION structure [Windows GDI], LPBLENDFUNCTION, LPBLENDFUNCTION structure pointer [Windows GDI], PBLENDFUNCTION, PBLENDFUNCTION structure pointer [Windows GDI], _BLENDFUNCTION, _win32_BLENDFUNCTION_str, gdi.blendfunction, wingdi/BLENDFUNCTION, wingdi/LPBLENDFUNCTION, wingdi/PBLENDFUNCTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

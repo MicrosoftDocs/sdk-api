@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1
 title: "_USER_MODALS_INFO_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_MODALS_INFO_1 structure contains logon server and domain controller information.
 old-location: netmgmt\user_modals_info_1_str.htm
 old-project: NetMgmt
 ms.assetid: 2cb7f310-c76e-42fd-892c-fead374af16c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1, *PUSER_MODALS_INFO_1, LPUSER_MODALS_INFO_1, LPUSER_MODALS_INFO_1 structure pointer [Network Management], PUSER_MODALS_INFO_1, PUSER_MODALS_INFO_1 structure pointer [Network Management], UAS_ROLE_BACKUP, UAS_ROLE_MEMBER, UAS_ROLE_PRIMARY, UAS_ROLE_STANDALONE, USER_MODALS_INFO_1, USER_MODALS_INFO_1 structure [Network Management], _USER_MODALS_INFO_1, _win32_user_modals_info_1_str, lmaccess/LPUSER_MODALS_INFO_1, lmaccess/PUSER_MODALS_INFO_1, lmaccess/USER_MODALS_INFO_1, netmgmt.user_modals_info_1_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

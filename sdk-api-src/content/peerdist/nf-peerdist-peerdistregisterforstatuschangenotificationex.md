@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistRegisterForStatusChangeNotificationEx
 title: PeerDistRegisterForStatusChangeNotificationEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerDistRegisterForStatusChangeNotificationEx function requests the Peer Distribution service status change notification.
 old-location: p2p\peerdistregisterforstatuschangenotificationex.htm
 old-project: P2PSdk
 ms.assetid: 84de2b23-5536-43e9-9336-0c1d3b70891d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotificationEx, PeerDistRegisterForStatusChangeNotificationEx function [Peer Networking], p2p.peerdistregisterforstatuschangenotificationex, peerdist/PeerDistRegisterForStatusChangeNotificationEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

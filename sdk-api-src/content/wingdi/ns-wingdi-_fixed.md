@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._FIXED
 title: "_FIXED"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FIXED structure contains the integral and fractional parts of a fixed-point real number.
 old-location: gdi\fixed.htm
 old-project: gdi
 ms.assetid: b1d94060-e822-447f-82ba-fd1cf2ddaa3b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FIXED, FIXED structure [Windows GDI], _FIXED, _win32_FIXED_str, gdi.fixed, wingdi/FIXED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMPropertyVault
 title: IWMPropertyVault
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPropertyVault interface provides methods to store and retrieve properties.
 old-location: wmformat\iwmpropertyvault.htm
 old-project: wmformat
 ms.assetid: 0e51a9be-afd4-430b-8339-f45e8f9a7d20
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], IWMPropertyVault interface [windows Media Format],described, IWMPropertyVaultInterface, wmformat.iwmpropertyvault, wmsdkidl/IWMPropertyVault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

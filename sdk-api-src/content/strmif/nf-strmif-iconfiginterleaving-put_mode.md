@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IConfigInterleaving.put_Mode
 title: IConfigInterleaving::put_Mode
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Mode method sets how audio samples and video frames are to be written to disk, by specifying quality of interleaving.
 old-location: dshow\iconfiginterleaving_put_mode.htm
 old-project: DirectShow
 ms.assetid: 62b06dc2-2e71-4a14-82e5-63e921a3c11f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Mode method, IConfigInterleaving.put_Mode, IConfigInterleaving::put_Mode, IConfigInterleavingput_Mode, dshow.iconfiginterleaving_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

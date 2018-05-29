@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFNetCredentialManager
 title: IMFNetCredentialManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by applications to provide user credentials for a network source.
 old-location: mf\imfnetcredentialmanager.htm
 old-project: medfound
 ms.assetid: 002d8608-4ef9-40fd-8dcc-fe6ade34478e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 002d8608-4ef9-40fd-8dcc-fe6ade34478e, IMFNetCredentialManager, IMFNetCredentialManager interface [Media Foundation], IMFNetCredentialManager interface [Media Foundation],described, mf.imfnetcredentialmanager, mfidl/IMFNetCredentialManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

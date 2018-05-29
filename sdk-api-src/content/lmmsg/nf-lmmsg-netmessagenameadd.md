@@ -1,16 +1,16 @@
 ---
 UID: NF:lmmsg.NetMessageNameAdd
 title: NetMessageNameAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetMessageNameAdd function registers a message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenameadd.htm
 old-project: NetMgmt
 ms.assetid: 5330e883-5439-46af-b4ae-b0926feadb70
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmmsg.h
 req.include-header: Lm.h

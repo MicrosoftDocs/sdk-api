@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminRegisterConnectionNotification
 title: MprAdminRegisterConnectionNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminRegisterConnectionNotification function registers an event object with the Demand Dial Manager (DDM) so that, if an interface connects or disconnects, the event is signaled.
 old-location: rras\mpradminregisterconnectionnotification.htm
 old-project: RRAS
 ms.assetid: ba70154b-a2d1-4121-bea6-4572446bf9ee
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminRegisterConnectionNotification, MprAdminRegisterConnectionNotification function [RAS], _mpr_mpradminregisterconnectionnotification, mprapi/MprAdminRegisterConnectionNotification, rras.mpradminregisterconnectionnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

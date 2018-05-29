@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IRegisterTuner
 title: IRegisterTuner
-author: windows-driver-content
+author: windows-sdk-content
 description: This feature is expected to be available on a future version of the Windows operating system.
 old-location: mstv\iregistertuner.htm
 old-project: mstv
 ms.assetid: 99e88361-f5d3-43b7-b879-2e1c44859af4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRegisterTuner, IRegisterTuner interface [Microsoft TV Technologies], IRegisterTuner interface [Microsoft TV Technologies],described, IRegisterTunerInterface, mstv.iregistertuner, tuner/IRegisterTuner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

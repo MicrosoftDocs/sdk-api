@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IMalloc.Realloc
 title: IMalloc::Realloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the size of a previously allocated block of memory.
 old-location: com\imalloc_realloc.htm
 old-project: com
 ms.assetid: 37de166a-04a5-4a10-83b3-dd19d0bb48a4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMalloc interface [COM],Realloc method, IMalloc.Realloc, IMalloc::Realloc, Realloc, Realloc method [COM], Realloc method [COM],IMalloc interface, _com_imalloc_realloc, com.imalloc_realloc, objidlbase/IMalloc::Realloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

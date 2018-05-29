@@ -1,16 +1,16 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0003
 title: "__MIDL___MIDL_itf_winsync_0000_0000_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the stages of a synchronization session.
 old-location: winsync\sync_progress_stage.htm
 old-project: winsync
 ms.assetid: 06f8542a-d742-4cbb-bb44-c107b59ad38f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SPS_CHANGE_APPLICATION, SPS_CHANGE_DETECTION, SPS_CHANGE_ENUMERATION, SYNC_PROGRESS_STAGE, SYNC_PROGRESS_STAGE enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0003, winsync.sync_progress_stage, winsync/SPS_CHANGE_APPLICATION, winsync/SPS_CHANGE_DETECTION, winsync/SPS_CHANGE_ENUMERATION, winsync/SYNC_PROGRESS_STAGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

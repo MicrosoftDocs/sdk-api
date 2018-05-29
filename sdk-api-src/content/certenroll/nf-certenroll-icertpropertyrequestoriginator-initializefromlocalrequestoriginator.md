@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
 title: ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from the DNS name of the local computer.
 old-location: security\icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method.htm
 old-project: SecCertEnroll
 ms.assetid: 466e0767-d13a-4f5d-9715-47bb7b9d4142
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

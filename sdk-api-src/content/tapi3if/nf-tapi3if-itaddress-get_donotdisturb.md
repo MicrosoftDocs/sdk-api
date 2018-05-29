@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddress.get_DoNotDisturb
 title: ITAddress::get_DoNotDisturb
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DoNotDisturb method gets the current status of the do not disturb feature on the address. The do not disturb feature may not be available on all addresses.
 old-location: tapi3\itaddress_get_donotdisturb.htm
 old-project: Tapi
 ms.assetid: d9257201-bcd1-4d6b-9bc7-24b323cd4f15
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DoNotDisturb method, ITAddress.get_DoNotDisturb, ITAddress::get_DoNotDisturb, _tapi3_itaddress_get_donotdisturb, get_DoNotDisturb, get_DoNotDisturb method [TAPI 2.2], get_DoNotDisturb method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_donotdisturb, tapi3if/ITAddress::get_DoNotDisturb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

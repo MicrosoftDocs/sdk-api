@@ -1,16 +1,16 @@
 ---
 UID: NN:ctfutb.IEnumTfLangBarItems
 title: IEnumTfLangBarItems
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfLangBarItems interface is implemented by the TSF manager to provide an enumeration of langauge bar item objects.
 old-location: tsf\ienumtflangbaritems.htm
 old-project: TSF
 ms.assetid: a3988c0f-db2d-4841-8098-f1dc133cb60a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfLangBarItems, IEnumTfLangBarItems interface [Text Services Framework], IEnumTfLangBarItems interface [Text Services Framework],described, _tsf_ienumtflangbaritems_ref, ctfutb/IEnumTfLangBarItems, tsf.ienumtflangbaritems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

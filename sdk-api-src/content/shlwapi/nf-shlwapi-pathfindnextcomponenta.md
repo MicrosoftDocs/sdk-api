@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathFindNextComponentA
 title: PathFindNextComponentA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses a path and returns the portion of that path that follows the first backslash.
 old-location: shell\PathFindNextComponent.htm
 old-project: shell
 ms.assetid: 2c76b901-dc0e-4f26-93c8-3c59b8f7147d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathFindNextComponent, PathFindNextComponent function [Windows Shell], PathFindNextComponentA, PathFindNextComponentW, _win32_PathFindNextComponent, shell.PathFindNextComponent, shlwapi/PathFindNextComponent, shlwapi/PathFindNextComponentA, shlwapi/PathFindNextComponentW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

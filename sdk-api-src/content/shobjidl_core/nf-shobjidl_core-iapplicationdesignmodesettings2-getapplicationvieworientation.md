@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.GetApplicationViewOrientation
 title: IApplicationDesignModeSettings2::GetApplicationViewOrientation
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the orientation of the application design mode window.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationViewOrientation.htm
 old-project: shell
 ms.assetid: D6DF8432-7D37-4D39-9E08-2F5B874A0BCB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetApplicationViewOrientation, GetApplicationViewOrientation method [Windows Shell], GetApplicationViewOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationViewOrientation method, IApplicationDesignModeSettings2.GetApplicationViewOrientation, IApplicationDesignModeSettings2::GetApplicationViewOrientation, shell.IApplicationDesignModeSettings2_GetApplicationViewOrientation, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationViewOrientation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

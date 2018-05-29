@@ -1,16 +1,16 @@
 ---
 UID: NS:cfgmgr32.DMA_Des_s
 title: DMA_Des_s
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance.
 old-location: devinst\dma_des.htm
 old-project: devinst
 ms.assetid: e357132d-ba40-4c14-813c-505aadc94a26
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PDMA_DES, DMA_DES, DMA_DES structure [Device and Driver Installation], DMA_Des_s, PDMA_DES, PDMA_DES structure pointer [Device and Driver Installation], cfgmgr32/DMA_DES, cfgmgr32/PDMA_DES, cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml, devinst.dma_des"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

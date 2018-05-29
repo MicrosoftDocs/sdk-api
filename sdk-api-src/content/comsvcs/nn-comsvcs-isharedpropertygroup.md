@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ISharedPropertyGroup
 title: ISharedPropertyGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to create and access the shared properties in a shared property group.
 old-location: cos\isharedpropertygroup.htm
 old-project: cossdk
 ms.assetid: e7f23c83-40d3-4b08-a185-cd6e3260e0a9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], ISharedPropertyGroup interface [COM+],described, _cos_ISharedPropertyGroup, comsvcs/ISharedPropertyGroup, cos.isharedpropertygroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

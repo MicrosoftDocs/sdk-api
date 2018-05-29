@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteDelegatedPolicyUser
 title: IAzAuthorizationStore::DeleteDelegatedPolicyUser
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyuser.htm
 old-project: SecAuthZ
 ms.assetid: cb00abca-7116-4a71-aed0-87ed9caff0fb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUser method, IAzAuthorizationStore.DeleteDelegatedPolicyUser, IAzAuthorizationStore::DeleteDelegatedPolicyUser, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUser, security.azauthorizationstore_deletedelegatedpolicyuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

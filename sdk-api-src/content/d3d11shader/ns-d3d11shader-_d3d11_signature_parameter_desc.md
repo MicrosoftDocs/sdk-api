@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11shader._D3D11_SIGNATURE_PARAMETER_DESC
 title: "_D3D11_SIGNATURE_PARAMETER_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a shader signature.
 old-location: direct3d11\d3d11_signature_parameter_desc.htm
 old-project: direct3d11
 ms.assetid: 3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_SIGNATURE_PARAMETER_DESC, D3D11_SIGNATURE_PARAMETER_DESC structure [Direct3D 11], _D3D11_SIGNATURE_PARAMETER_DESC, d3d11shader/D3D11_SIGNATURE_PARAMETER_DESC, direct3d11.d3d11_signature_parameter_desc, e870121a-ce22-1699-8203-c018e7d5db8e
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shader.h
 req.include-header: 

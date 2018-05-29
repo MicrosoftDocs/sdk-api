@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._ABCFLOAT
 title: "_ABCFLOAT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ABCFLOAT structure contains the A, B, and C widths of a font character.
 old-location: gdi\abcfloat.htm
 old-project: gdi
 ms.assetid: 540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPABCFLOAT, *NPABCFLOAT, *PABCFLOAT, ABCFLOAT, ABCFLOAT structure [Windows GDI], PABCFLOAT, PABCFLOAT structure pointer [Windows GDI], _ABCFLOAT, _win32_ABCFLOAT_str, gdi.abcfloat, wingdi/ABCFLOAT, wingdi/PABCFLOAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

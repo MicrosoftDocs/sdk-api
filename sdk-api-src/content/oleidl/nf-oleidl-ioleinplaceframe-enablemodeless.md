@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.EnableModeless
 title: IOleInPlaceFrame::EnableModeless
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables a frame's modeless dialog boxes.
 old-location: com\ioleinplaceframe_enablemodeless.htm
 old-project: com
 ms.assetid: 4c6ea1ee-861d-45ff-a9d2-d3b241f00c9f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceFrame interface, IOleInPlaceFrame interface [COM],EnableModeless method, IOleInPlaceFrame.EnableModeless, IOleInPlaceFrame::EnableModeless, _ole_ioleinplaceframe_enablemodeless, com.ioleinplaceframe_enablemodeless, oleidl/IOleInPlaceFrame::EnableModeless
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

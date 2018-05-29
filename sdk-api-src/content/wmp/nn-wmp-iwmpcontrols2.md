@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPControls2
 title: IWMPControls2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPControls2 interface provides a method that supplements the IWMPControls interface.
 old-location: wmp\iwmpcontrols2.htm
 old-project: WMP
 ms.assetid: aadbd924-b583-4136-8d6c-e3c8c0b3872e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPControls2, IWMPControls2 interface [Windows Media Player], IWMPControls2 interface [Windows Media Player],described, IWMPControls2Interface, wmp.iwmpcontrols2, wmp/IWMPControls2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

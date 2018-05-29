@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.ApplyProperties
 title: IFileSaveDialog::ApplyProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies a set of properties to an item using the Shell's copy engine.
 old-location: shell\IFileSaveDialog_ApplyProperties.htm
 old-project: shell
 ms.assetid: 3de64914-b64e-47e8-8f84-6c64d849ffa9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ApplyProperties, ApplyProperties method [Windows Shell], ApplyProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],ApplyProperties method, IFileSaveDialog.ApplyProperties, IFileSaveDialog::ApplyProperties, shell.IFileSaveDialog_ApplyProperties, shell_IFileSaveDialog_ApplyProperties, shobjidl_core/IFileSaveDialog::ApplyProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

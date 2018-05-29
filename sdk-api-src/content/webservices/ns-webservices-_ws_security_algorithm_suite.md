@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_ALGORITHM_SUITE
 title: "_WS_SECURITY_ALGORITHM_SUITE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the security algorithms and key lengths to be used with WS-Security. This setting is relevant to message security bindings and mixed-mode security bindings.
 old-location: wsw\ws_security_algorithm_suite.htm
 old-project: wsw
 ms.assetid: aa2bb951-47ba-4241-b29a-2f54b92da4cb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_ALGORITHM_SUITE, WS_SECURITY_ALGORITHM_SUITE structure [Web Services for Windows], _WS_SECURITY_ALGORITHM_SUITE, webservices/WS_SECURITY_ALGORITHM_SUITE, wsw.ws_security_algorithm_suite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

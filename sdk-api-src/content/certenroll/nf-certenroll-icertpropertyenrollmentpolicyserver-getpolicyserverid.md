@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPolicyServerId
 title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverid.htm
 old-project: SecCertEnroll
 ms.assetid: e0cd9f41-d697-4c27-9aff-a37de62d1bad
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerId method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerId, ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, security.icertpropertyenrollmentpolicyserver_getpolicyserverid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

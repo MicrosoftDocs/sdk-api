@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamSelection
 title: IMFPMediaItem::GetStreamSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether a stream is selected to play.
 old-location: mf\imfpmediaitem_getstreamselection.htm
 old-project: medfound
 ms.assetid: 808de13b-123f-4b9c-b2e6-6c0a6f4339fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamSelection method, IMFPMediaItem.GetStreamSelection, IMFPMediaItem::GetStreamSelection, TRUE, mf.imfpmediaitem_getstreamselection, mfplay/IMFPMediaItem::GetStreamSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

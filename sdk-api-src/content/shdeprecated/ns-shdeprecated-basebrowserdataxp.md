@@ -1,16 +1,16 @@
 ---
 UID: NS:shdeprecated.BASEBROWSERDATAXP
 title: BASEBROWSERDATAXP
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains protected members of the base class. BASEBROWSERDATA defines the browser state and is used with IBrowserService2::GetBaseBrowserData and IBrowserService2::PutBaseBrowserData.
 old-location: shell\BASEBROWSERDATA.htm
 old-project: shell
 ms.assetid: d56e42e8-a556-4470-82d9-466edd84214f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPBASEBROWSERDATA, *LPBASEBROWSERDATAXP, BASEBROWSERDATA, BASEBROWSERDATA structure [Windows Shell], BASEBROWSERDATAXP, FALSE, LPCBASEBROWSERDATA, LPCBASEBROWSERDATA structure pointer [Windows Shell], SECURELOCK_FIRSTSUGGEST, SECURELOCK_NOCHANGE, SECURELOCK_SET_FORTEZZA, SECURELOCK_SET_MIXED, SECURELOCK_SET_SECURE128BIT, SECURELOCK_SET_SECURE40BIT, SECURELOCK_SET_SECURE56BIT, SECURELOCK_SET_SECUREUNKNOWNBIT, SECURELOCK_SET_UNSECURE, SECURELOCK_SUGGEST_FORTEZZA, SECURELOCK_SUGGEST_MIXED, SECURELOCK_SUGGEST_SECURE128BIT, SECURELOCK_SUGGEST_SECURE40BIT, SECURELOCK_SUGGEST_SECURE56BIT, SECURELOCK_SUGGEST_SECUREUNKNOWNBIT, SECURELOCK_SUGGEST_UNSECURE, TRUE, shdeprecated/BASEBROWSERDATA, shdeprecated/LPCBASEBROWSERDATA, shell.BASEBROWSERDATA, zone_BASEBROWSERDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shdeprecated.h
 req.include-header: 

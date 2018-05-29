@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetHalftonePalette
 title: Graphics::GetHalftonePalette
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::GetHalftonePalette method gets a Windows halftone palette.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetHalftonePalette_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gethalftonepalette.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetHalftonePalette, GetHalftonePalette method [GDI+], GetHalftonePalette method [GDI+],Graphics class, Graphics class [GDI+],GetHalftonePalette method, Graphics.GetHalftonePalette, Graphics::GetHalftonePalette, _gdiplus_CLASS_Graphics_GetHalftonePalette_, gdiplus._gdiplus_CLASS_Graphics_GetHalftonePalette_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

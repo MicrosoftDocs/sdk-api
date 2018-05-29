@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateException
 title: IUpdateException
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents info about the aspects of search results returned in the ISearchResult object that were incomplete.
 old-location: wua\iupdateexception.htm
 old-project: Wua_Sdk
 ms.assetid: 9e7458be-b411-4395-98f2-c92308f78371
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateException, IUpdateException interface [Windows Update Agent], IUpdateException interface [Windows Update Agent],described, wua.iupdateexception, wuapi/IUpdateException
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

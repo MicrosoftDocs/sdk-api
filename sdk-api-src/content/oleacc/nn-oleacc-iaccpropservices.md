@@ -1,16 +1,16 @@
 ---
 UID: NN:oleacc.IAccPropServices
 title: IAccPropServices
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for annotating accessible elements and for manipulating identity strings.
 old-location: winauto\iaccpropservices.htm
 old-project: WinAuto
 ms.assetid: 0474dacf-7aa1-4d12-bac2-1091676a1ced
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], IAccPropServices interface [Windows Accessibility],described, msaa.iaccpropservices, oleacc/IAccPropServices, winauto.iaccpropservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleacc.h
 req.include-header: 

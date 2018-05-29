@@ -1,16 +1,16 @@
 ---
 UID: NN:callobj.ICallUnmarshal
 title: ICallUnmarshal
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used on the server (receiving) side of a remote invocation.
 old-location: com\icallunmarshal.htm
 old-project: com
 ms.assetid: 66de8d71-c27c-41bd-a741-02de5c779290
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ICallUnmarshal interface [COM],described, _com_icallunmarshal_interface, callobj/ICallUnmarshal, com.icallunmarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 

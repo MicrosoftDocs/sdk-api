@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIGetFromClipboard
 title: AVIGetFromClipboard function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIGetFromClipboard function copies an AVI file from the clipboard.
 old-location: multimedia\avigetfromclipboard.htm
 old-project: Multimedia
 ms.assetid: 17115441-8809-4fc2-9749-0e9d4c4f9cac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIGetFromClipboard, AVIGetFromClipboard function [Windows Multimedia], _win32_AVIGetFromClipboard, multimedia.avigetfromclipboard, vfw/AVIGetFromClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

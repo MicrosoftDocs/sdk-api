@@ -1,16 +1,16 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.SetMute
 title: ISimpleAudioVolume::SetMute
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetMute method sets the muting state for the audio session.
 old-location: coreaudio\isimpleaudiovolume_setmute.htm
 old-project: CoreAudio
 ms.assetid: 64fc7146-8d4b-429c-bf35-c43e31a41af8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMute method, ISimpleAudioVolume.SetMute, ISimpleAudioVolume::SetMute, ISimpleAudioVolumeSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMute, coreaudio.isimpleaudiovolume_setmute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

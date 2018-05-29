@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVideoFrameStep
 title: IVideoFrameStep
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVideoFrameStep interface steps through a video stream.
 old-location: dshow\ivideoframestep.htm
 old-project: DirectShow
 ms.assetid: 7bf45473-144c-49f8-8178-aff5b60112b6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], IVideoFrameStep interface [DirectShow],described, IVideoFrameStepInterface, dshow.ivideoframestep, strmif/IVideoFrameStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

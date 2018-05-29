@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetArchitecture
 title: IAppxManifestPackageId::GetArchitecture
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the processor architecture as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getarchitecture.htm
 old-project: appxpkg
 ms.assetid: 0A332C96-9535-4BD3-B4D2-39559E430870
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetArchitecture, GetArchitecture method [App packaging and management], GetArchitecture method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetArchitecture method, IAppxManifestPackageId.GetArchitecture, IAppxManifestPackageId::GetArchitecture, appxpackaging/IAppxManifestPackageId::GetArchitecture, appxpkg.iappxmanifestpackageid_getarchitecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVideoDecimationProperties.SetDecimationUsage
 title: IAMVideoDecimationProperties::SetDecimationUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDecimationUsage method sets the decimation strategy.
 old-location: dshow\iamvideodecimationproperties_setdecimationusage.htm
 old-project: DirectShow
 ms.assetid: c6456154-48f5-41d9-b6f5-863b30a53596
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],SetDecimationUsage method, IAMVideoDecimationProperties.SetDecimationUsage, IAMVideoDecimationProperties::SetDecimationUsage, IAMVideoDecimationPropertiesSetDecimationUsage, SetDecimationUsage, SetDecimationUsage method [DirectShow], SetDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_setdecimationusage, strmif/IAMVideoDecimationProperties::SetDecimationUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

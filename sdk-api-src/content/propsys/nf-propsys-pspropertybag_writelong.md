@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteLONG
 title: PSPropertyBag_WriteLONG function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the LONG value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteLONG.htm
 old-project: properties
 ms.assetid: A623D097-FEF8-4864-A80A-C6EF824EC245
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_WriteLONG, PSPropertyBag_WriteLONG function [Windows Properties], properties.PSPropertyBag_WriteLONG, propsys/PSPropertyBag_WriteLONG, shell.PSPropertyBag_WriteLONG, shell_PSPropertyBag_WriteLONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

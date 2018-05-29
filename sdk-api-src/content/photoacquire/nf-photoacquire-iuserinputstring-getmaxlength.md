@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMaxLength
 title: IUserInputString::GetMaxLength
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMaxLength method retrieves the maximum string length the user interface (UI) should allow.
 old-location: picacq\iuserinputstring_getmaxlength.htm
 old-project: acquisition
 ms.assetid: 474b32f5-e8b3-49d2-a2de-a78244b9066e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Picture Acquisition], GetMaxLength method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMaxLength method, IUserInputString.GetMaxLength, IUserInputString::GetMaxLength, IUserInputStringGetMaxLength, photoacquire/IUserInputString::GetMaxLength, picacq.iuserinputstring_getmaxlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

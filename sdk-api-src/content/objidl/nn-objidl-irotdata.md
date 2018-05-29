@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IROTData
 title: IROTData
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by monikers to enable the running object table (ROT) to compare monikers against each other.
 old-location: com\irotdata.htm
 old-project: com
 ms.assetid: 44ae8377-c375-4dc3-9f54-a5674e24763f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],described, _com_irotdata, com.irotdata, objidl/IROTData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

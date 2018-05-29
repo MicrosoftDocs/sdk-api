@@ -1,16 +1,16 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetCurrentService
 title: IAMLine21Decoder::GetCurrentService
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentService method retrieves the current closed captioning service.
 old-location: dshow\iamline21decoder_getcurrentservice.htm
 old-project: DirectShow
 ms.assetid: bfd1c33d-27e0-4923-9c80-5d1bedb4fd25
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentService, GetCurrentService method [DirectShow], GetCurrentService method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetCurrentService method, IAMLine21Decoder.GetCurrentService, IAMLine21Decoder::GetCurrentService, IAMLine21DecoderGetCurrentService, dshow.iamline21decoder_getcurrentservice, il21dec/IAMLine21Decoder::GetCurrentService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 

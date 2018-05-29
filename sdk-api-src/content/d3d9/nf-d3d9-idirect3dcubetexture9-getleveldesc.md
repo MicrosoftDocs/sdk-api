@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DCubeTexture9.GetLevelDesc
 title: IDirect3DCubeTexture9::GetLevelDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a description of one face of the specified cube texture level.
 old-location: direct3d9\idirect3dcubetexture9__getleveldesc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__getleveldesc.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DCubeTexture9 interface, IDirect3DCubeTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DCubeTexture9.GetLevelDesc, IDirect3DCubeTexture9::GetLevelDesc, d3d9helper/IDirect3DCubeTexture9::GetLevelDesc, direct3d9.idirect3dcubetexture9__getleveldesc, f3b033c9-6f8e-47a9-8c20-08c7e254bd9c
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

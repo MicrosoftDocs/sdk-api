@@ -1,16 +1,16 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerGetMethods
 title: EapHostPeerGetMethods function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all EAP methods installed and available for use, including legacy EAP Methods.
 old-location: eaphost\eaphostpeergetmethods.htm
 old-project: EAPHost
 ms.assetid: 5b2b351b-d6d8-406c-aa9f-ac720def3681
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerGetMethods, EapHostPeerGetMethods function [EAPHost], eaphost.eaphostpeergetmethods, eaphostpeerconfigapis/EapHostPeerGetMethods
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

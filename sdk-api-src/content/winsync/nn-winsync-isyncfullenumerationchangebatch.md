@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncFullEnumerationChangeBatch
 title: ISyncFullEnumerationChangeBatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the metadata for a set of changes that is created as part of a recovery synchronization.
 old-location: winsync\isyncfullenumerationchangebatch.htm
 old-project: winsync
 ms.assetid: 9086991d-03e3-4f2c-ad03-c1f554fe32ce
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], ISyncFullEnumerationChangeBatch interface [Windows Sync],described, winsync.isyncfullenumerationchangebatch, winsync/ISyncFullEnumerationChangeBatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

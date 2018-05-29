@@ -1,16 +1,16 @@
 ---
 UID: NS:emi.EMI_METADATA_SIZE
 title: EMI_METADATA_SIZE
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMI_METADATA_SIZE structure specifies the size of the Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request.
 old-location: powermeter\emi_metadata_size.htm
 old-project: powermeter
 ms.assetid: EC9C71E8-7864-464B-8F16-E9D80460B36B
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: EMI_METADATA_SIZE, EMI_METADATA_SIZE structure [Power Metering and Budgeting Devices], PEMI_METADATA_SIZE, PEMI_METADATA_SIZE structure pointer [Power Metering and Budgeting Devices], emi/EMI_METADATA_SIZE, emi/PEMI_METADATA_SIZE, powermeter.emi_metadata_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h

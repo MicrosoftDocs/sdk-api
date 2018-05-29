@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.Leave
 title: ID3D11Multithread::Leave
-author: windows-driver-content
+author: windows-sdk-content
 description: Leave a device's critical section.
 old-location: direct3d11\id3d11multithread_leave.htm
 old-project: direct3d11
 ms.assetid: CECBE440-3F9E-4649-B257-BAD3E7F5CF2F
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Multithread interface [Direct3D 11],Leave method, ID3D11Multithread.Leave, ID3D11Multithread::Leave, Leave, Leave method [Direct3D 11], Leave method [Direct3D 11],ID3D11Multithread interface, d3d11_4/ID3D11Multithread::Leave, direct3d11.id3d11multithread_leave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 

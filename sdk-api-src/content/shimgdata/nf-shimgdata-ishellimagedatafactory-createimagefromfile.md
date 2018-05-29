@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.CreateImageFromFile
 title: IShellImageDataFactory::CreateImageFromFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the IShellImageData interface based on a given file.
 old-location: shell\IShellImageDataFactory_CreateImageFromFile.htm
 old-project: shell
 ms.assetid: 9d33f9ad-30ce-431c-aec3-c27a33cec008
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateImageFromFile, CreateImageFromFile method [Windows Shell], CreateImageFromFile method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromFile method, IShellImageDataFactory.CreateImageFromFile, IShellImageDataFactory::CreateImageFromFile, _shell_IShellImageDataFactory_CreateImageFromFile, shell.IShellImageDataFactory_CreateImageFromFile, shimgdata/IShellImageDataFactory::CreateImageFromFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

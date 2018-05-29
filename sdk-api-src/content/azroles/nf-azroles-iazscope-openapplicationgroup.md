@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope.OpenApplicationGroup
 title: IAzScope::OpenApplicationGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an IAzApplicationGroup object by specifying its name.
 old-location: security\iazscope_openapplicationgroup.htm
 old-project: SecAuthZ
 ms.assetid: 6c0e2832-e46b-428e-8f0b-ca1d816afaeb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzScope object [Security],OpenApplicationGroup method, IAzScope interface [Security],OpenApplicationGroup method, IAzScope.OpenApplicationGroup, IAzScope::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzScope object, OpenApplicationGroup method [Security],IAzScope interface, azroles/IAzScope::OpenApplicationGroup, security.iazscope_openapplicationgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

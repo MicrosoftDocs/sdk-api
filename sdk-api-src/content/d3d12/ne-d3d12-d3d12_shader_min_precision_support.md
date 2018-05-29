@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_SHADER_MIN_PRECISION_SUPPORT
 title: D3D12_SHADER_MIN_PRECISION_SUPPORT
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes minimum precision support options for shaders in the current graphics driver.
 old-location: direct3d12\d3d12_shader_min_precision_support.htm
 old-project: direct3d12
 ms.assetid: 04172EA4-B663-49B4-A329-E4B0A8EE4617
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_SHADER_MIN_PRECISION_SUPPORT, D3D12_SHADER_MIN_PRECISION_SUPPORT enumeration, D3D12_SHADER_MIN_PRECISION_SUPPORT_10_BIT, D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT, D3D12_SHADER_MIN_PRECISION_SUPPORT_NONE, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT_10_BIT, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT_NONE, direct3d12.d3d12_shader_min_precision_support
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_SetDragCursorImage
 title: ImageList_SetDragCursorImage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new drag image by combining the specified image (typically a mouse cursor image) with the current drag image.
 old-location: controls\ImageList_SetDragCursorImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setdragcursorimage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_SetDragCursorImage, ImageList_SetDragCursorImage function [Windows Controls], _win32_ImageList_SetDragCursorImage, _win32_ImageList_SetDragCursorImage_cpp, commctrl/ImageList_SetDragCursorImage, controls.ImageList_SetDragCursorImage, controls._win32_ImageList_SetDragCursorImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

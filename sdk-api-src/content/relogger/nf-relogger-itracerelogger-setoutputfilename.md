@@ -1,16 +1,16 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetOutputFilename
 title: ITraceRelogger::SetOutputFilename
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the file to which ETW should write the new, relogged trace.
 old-location: etw\itracerelogger_setoutputfilename.htm
 old-project: ETW
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ITraceRelogger interface [ETW],SetOutputFilename method, ITraceRelogger.SetOutputFilename, ITraceRelogger::SetOutputFilename, SetOutputFilename, SetOutputFilename method [ETW], SetOutputFilename method [ETW],ITraceRelogger interface, etw.itracerelogger_setoutputfilename, relogger/ITraceRelogger::SetOutputFilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

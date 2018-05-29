@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateTargetObject
 title: ITsSbProvider::CreateTargetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ITsSbTarget target object.
 old-location: termserv\itssbprovider_createtargetobject.htm
 old-project: TermServ
 ms.assetid: 9ee426a3-03fa-4535-84b6-f965bd9eba60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateTargetObject, CreateTargetObject method [Remote Desktop Services], CreateTargetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateTargetObject method, ITsSbProvider.CreateTargetObject, ITsSbProvider::CreateTargetObject, sbtsv/ITsSbProvider::CreateTargetObject, termserv.itssbprovider_createtargetobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

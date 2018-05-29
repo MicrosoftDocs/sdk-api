@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaEnum1
 title: IPsecSaEnum1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next page of results from the IPsec security association (SA) enumerator.
 old-location: fwp\ipsecsaenum1_func.htm
 old-project: FWP
 ms.assetid: 93db625d-9b7f-4038-8c36-dec2762927be
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaEnum1, IPsecSaEnum1 function [Filtering], fwp.ipsecsaenum1_func, fwpmu/IPsecSaEnum1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

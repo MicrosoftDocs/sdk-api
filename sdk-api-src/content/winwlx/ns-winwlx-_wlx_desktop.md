@@ -1,16 +1,16 @@
 ---
 UID: NS:winwlx._WLX_DESKTOP
 title: "_WLX_DESKTOP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to pass desktop information between your GINA DLL and Winlogon.
 old-location: security\wlx_desktop.htm
 old-project: SecAuthN
 ms.assetid: 3cde1b9e-5109-400d-a67f-1e263f2283d1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Security], WLX_DESKTOP, WLX_DESKTOP structure [Security], WLX_DESKTOP_HANDLE, WLX_DESKTOP_NAME, _WLX_DESKTOP, _gina_wlx_desktop, security.wlx_desktop, winwlx/PWLX_DESKTOP, winwlx/WLX_DESKTOP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 

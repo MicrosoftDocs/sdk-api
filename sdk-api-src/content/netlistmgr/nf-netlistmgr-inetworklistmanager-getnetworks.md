@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworks
 title: INetworkListManager::GetNetworks
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNetworks method retrieves the list of networks available on the local machine.
 old-location: nla\inetworklistmanager_getnetworks.htm
 old-project: NLA
 ms.assetid: 547ab687-b323-4fd7-8c08-80a79352a626
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNetworks, GetNetworks method [Network Awareness], GetNetworks method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworks method, INetworkListManager.GetNetworks, INetworkListManager::GetNetworks, netlistmgr/INetworkListManager::GetNetworks, nla.inetworklistmanager_getnetworks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

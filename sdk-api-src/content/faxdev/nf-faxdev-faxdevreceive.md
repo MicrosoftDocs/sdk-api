@@ -1,16 +1,16 @@
 ---
 UID: NF:faxdev.FaxDevReceive
 title: FaxDevReceive function
-author: windows-driver-content
+author: windows-sdk-content
 description: The fax service calls the FaxDevReceive function to signal an incoming fax transmission to the fax service provider (FSP). Each FSP must export the FaxDevReceive function.
 old-location: fax\_mfax_faxdevreceive.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_31lx.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDevReceive, FaxDevReceive function [Fax Service], _mfax_faxdevreceive, fax._mfax_faxdevreceive, faxdev/FaxDevReceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: faxdev.h
 req.include-header: 

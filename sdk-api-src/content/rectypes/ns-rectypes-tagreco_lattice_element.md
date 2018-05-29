@@ -1,16 +1,16 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_ELEMENT
 title: tagRECO_LATTICE_ELEMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Corresponds to one word or one East Asian character, typically; however, an element may also correspond to a gesture, a shape, or some other code.
 old-location: tablet\reco_lattice_element.htm
 old-project: tablet
 ms.assetid: c4100cb9-d666-4e74-ac12-7f242b3c60d4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RECO_LATTICE_ELEMENT, RECO_LATTICE_ELEMENT structure [Tablet PC], c4100cb9-d666-4e74-ac12-7f242b3c60d4, rectypes/RECO_LATTICE_ELEMENT, tablet.reco_lattice_element, tagRECO_LATTICE_ELEMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

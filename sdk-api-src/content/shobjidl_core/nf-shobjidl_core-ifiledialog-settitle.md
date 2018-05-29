@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetTitle
 title: IFileDialog::SetTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the title of the dialog.
 old-location: shell\IFileDialog_SetTitle.htm
 old-project: shell
 ms.assetid: 9ae3d226-e825-443a-a2b0-4b5bb07fc9f7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetTitle method, IFileDialog.SetTitle, IFileDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetTitle, shell_IFileDialog_SetTitle, shobjidl_core/IFileDialog::SetTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

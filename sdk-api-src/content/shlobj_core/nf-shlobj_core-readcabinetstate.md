@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ReadCabinetState
 title: ReadCabinetState function
-author: windows-driver-content
+author: windows-sdk-content
 description: ReadCabinetState may be altered or unavailable.
 old-location: shell\ReadCabinetState.htm
 old-project: shell
 ms.assetid: 0f0c6a10-588f-4c79-b73b-cf0bf9336ffc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ReadCabinetState, ReadCabinetState function [Windows Shell], _win32_ReadCabinetState, shell.ReadCabinetState, shlobj_core/ReadCabinetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

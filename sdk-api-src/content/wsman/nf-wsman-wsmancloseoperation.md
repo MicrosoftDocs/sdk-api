@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManCloseOperation
 title: WSManCloseOperation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels or closes an asynchronous operation.
 old-location: winrm\wsmancloseoperation.htm
 old-project: WinRM
 ms.assetid: 4fd51026-6a48-42ef-a245-7593a615c103
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManCloseOperation, WSManCloseOperation function [Windows Remote Management], winrm.wsmancloseoperation, wsman/WSManCloseOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

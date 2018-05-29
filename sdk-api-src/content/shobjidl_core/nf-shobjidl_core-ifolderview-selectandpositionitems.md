@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView.SelectAndPositionItems
 title: IFolderView::SelectAndPositionItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the selection and positioning of items visible in the folder's view.
 old-location: shell\IFolderView_SelectAndPositionItems.htm
 old-project: shell
 ms.assetid: 1263bba8-63c8-4630-ab59-bb4ae10061fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderView interface [Windows Shell],SelectAndPositionItems method, IFolderView.SelectAndPositionItems, IFolderView::SelectAndPositionItems, SelectAndPositionItems, SelectAndPositionItems method [Windows Shell], SelectAndPositionItems method [Windows Shell],IFolderView interface, _shell_IFolderView_SelectAndPositionItems, shell.IFolderView_SelectAndPositionItems, shobjidl_core/IFolderView::SelectAndPositionItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

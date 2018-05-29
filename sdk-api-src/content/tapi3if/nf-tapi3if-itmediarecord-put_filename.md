@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITMediaRecord.put_FileName
 title: ITMediaRecord::put_FileName
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_FileName method sets the name of the file to record.
 old-location: tapi3\itmediarecord_put_filename.htm
 old-project: Tapi
 ms.assetid: d3f6155d-3989-49d7-8944-da26fd03617a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],put_FileName method, ITMediaRecord.put_FileName, ITMediaRecord::put_FileName, _tapi3_itmediarecord_put_filename, put_FileName, put_FileName method [TAPI 2.2], put_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_put_filename, tapi3if/ITMediaRecord::put_FileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

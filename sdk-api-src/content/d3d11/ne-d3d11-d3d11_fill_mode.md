@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_FILL_MODE
 title: D3D11_FILL_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the fill mode to use when rendering triangles.
 old-location: direct3d11\d3d11_fill_mode.htm
 old-project: direct3d11
 ms.assetid: 853a7df5-4740-40dd-9188-2b399f3aae68
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_FILL_MODE, D3D11_FILL_MODE enumeration [Direct3D 11], D3D11_FILL_SOLID, D3D11_FILL_WIREFRAME, d3d11/D3D11_FILL_MODE, d3d11/D3D11_FILL_SOLID, d3d11/D3D11_FILL_WIREFRAME, d7c0d124-b654-14ba-20c5-ab454511f4d2, direct3d11.d3d11_fill_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

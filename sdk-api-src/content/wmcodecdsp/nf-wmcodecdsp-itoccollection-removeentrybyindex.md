@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.RemoveEntryByIndex
 title: ITocCollection::RemoveEntryByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveEntryByIndex method removes a table of contents, specified by an index, from the collection.
 old-location: mf\itoccollection_removeentrybyindex.htm
 old-project: medfound
 ms.assetid: 1fc6abad-2e9b-47f5-8b00-48ae480f3dd8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITocCollection interface [Media Foundation],RemoveEntryByIndex method, ITocCollection.RemoveEntryByIndex, ITocCollection::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocCollection interface, codecapi.itoccollection_removeentrybyindex, mf.itoccollection_removeentrybyindex, wmcodecdsp/ITocCollection::RemoveEntryByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

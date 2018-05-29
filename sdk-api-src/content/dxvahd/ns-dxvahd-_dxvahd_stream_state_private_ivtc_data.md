@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA
 title: "_DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains inverse telecine (IVTC) statistics from a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_stream_state_private_ivtc_data.htm
 old-project: medfound
 ms.assetid: 166fc57e-3b49-44c1-8c6c-691950e7b675
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, mf.dxvahd_stream_state_private_ivtc_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

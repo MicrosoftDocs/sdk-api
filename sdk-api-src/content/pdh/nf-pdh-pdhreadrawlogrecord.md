@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhReadRawLogRecord
 title: PdhReadRawLogRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the information in the specified binary trace log file.
 old-location: perf\pdhreadrawlogrecord.htm
 old-project: PerfCtrs
 ms.assetid: fb93b6ea-ca31-4ff1-a553-b02388be8b72
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhReadRawLogRecord, PdhReadRawLogRecord function [Perf], _win32_pdhreadrawlogrecord, base.pdhreadrawlogrecord, pdh/PdhReadRawLogRecord, perf.pdhreadrawlogrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

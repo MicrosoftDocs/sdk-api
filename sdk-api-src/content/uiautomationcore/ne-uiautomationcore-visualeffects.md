@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.VisualEffects
 title: VisualEffects
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values for the VisualEffects attribute.
 old-location: winauto\uiauto_VisualEffectsEnum.htm
 old-project: WinAuto
 ms.assetid: 961C2064-F896-4ECD-9529-71A1656EE0EE
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: VisualEffects, VisualEffects enumeration [Windows Accessibility], VisualEffects_Bevel, VisualEffects_Glow, VisualEffects_None, VisualEffects_Reflection, VisualEffects_Shadow, VisualEffects_SoftEdges, uiautomationcore/VisualEffects, uiautomationcore/VisualEffects_Bevel, uiautomationcore/VisualEffects_Glow, uiautomationcore/VisualEffects_None, uiautomationcore/VisualEffects_Reflection, uiautomationcore/VisualEffects_Shadow, uiautomationcore/VisualEffects_SoftEdges, winauto.uiauto_VisualEffectsEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICProgressCallback
 title: IWICProgressCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: IWICProgressCallback interface is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.
 old-location: wic\_wic_codec_iwicprogresscallback.htm
 old-project: wic
 ms.assetid: cd94e0a1-c275-458e-ae7f-85b703fc660e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICProgressCallback, IWICProgressCallback interface [Windows Imaging Component], IWICProgressCallback interface [Windows Imaging Component],described, _wic_codec_iwicprogresscallback, wic._wic_codec_iwicprogresscallback, wincodec/IWICProgressCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

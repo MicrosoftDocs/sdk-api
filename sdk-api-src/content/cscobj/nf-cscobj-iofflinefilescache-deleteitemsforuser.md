@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.DeleteItemsForUser
 title: IOfflineFilesCache::DeleteItemsForUser
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a user's files and directories from the local cache.
 old-location: of\iofflinefilescache_deleteitemsforuser.htm
 old-project: OfflineFiles
 ms.assetid: a187fd6b-0717-4663-b460-df96876cd9c3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DeleteItemsForUser, DeleteItemsForUser method [Offline Files], DeleteItemsForUser method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItemsForUser method, IOfflineFilesCache.DeleteItemsForUser, IOfflineFilesCache::DeleteItemsForUser, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItemsForUser, of.iofflinefilescache_deleteitemsforuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

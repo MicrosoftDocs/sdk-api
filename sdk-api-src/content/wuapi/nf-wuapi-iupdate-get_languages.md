@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_Languages
 title: IUpdate::get_Languages
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that contains the languages that are supported by the update.
 old-location: wua\iupdate_language.htm
 old-project: Wua_Sdk
 ms.assetid: 788942cc-5cfa-4ce3-bcf6-05c78a817ec8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Languages property, IUpdate.Languages, IUpdate.get_Languages, IUpdate::Languages, IUpdate::get_Languages, Languages property [Windows Update Agent], Languages property [Windows Update Agent],IUpdate interface, get_Languages, wua.iupdate_language, wuapi/IUpdate::Languages, wuapi/IUpdate::get_Languages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

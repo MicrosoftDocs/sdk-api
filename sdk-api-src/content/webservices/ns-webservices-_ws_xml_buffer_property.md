@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_BUFFER_PROPERTY
 title: "_WS_XML_BUFFER_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an XML buffer&#8211;specific setting.
 old-location: wsw\ws_xml_buffer_property.htm
 old-project: wsw
 ms.assetid: bec8d297-7f5a-4b8f-a333-9b535358c470
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY, WS_XML_BUFFER_PROPERTY structure [Web Services for Windows], _WS_XML_BUFFER_PROPERTY, webservices/WS_XML_BUFFER_PROPERTY, wsw.ws_xml_buffer_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

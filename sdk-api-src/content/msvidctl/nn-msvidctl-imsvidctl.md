@@ -1,16 +1,16 @@
 ---
 UID: NN:msvidctl.IMSVidCtl
 title: IMSVidCtl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidCtl interface is the main interface for the Video Control.
 old-location: mstv\imsvidctl.htm
 old-project: mstv
 ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidCtl interface [Microsoft TV Technologies],described, IMSVidCtlInterface, mstv.imsvidctl, msvidctl/IMSVidCtl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msvidctl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi._WLAN_INTERFACE_INFO_LIST
 title: "_WLAN_INTERFACE_INFO_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Array of NIC interface information.
 old-location: nwifi\wlan_interface_info_list.htm
 old-project: NativeWiFi
 ms.assetid: c57f4658-9f1e-4b05-a298-38a064121bb3
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI], WLAN_INTERFACE_INFO_LIST, WLAN_INTERFACE_INFO_LIST structure [NativeWIFI], _WLAN_INTERFACE_INFO_LIST, nwifi.wlan_interface_info_list, wlanapi/PWLAN_INTERFACE_INFO_LIST, wlanapi/WLAN_INTERFACE_INFO_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winperf._PERF_OBJECT_TYPE
 title: "_PERF_OBJECT_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes object-specific performance information, for example, the number of instances of the object and the number of counters that the object defines.
 old-location: perf\perf_object_type_str.htm
 old-project: PerfCtrs
 ms.assetid: 9ed4f890-6256-45fd-a310-b5963a6131ae
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPERF_OBJECT_TYPE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PERF_OBJECT_TYPE, PERF_OBJECT_TYPE structure [Perf], _PERF_OBJECT_TYPE, _win32_perf_object_type_str, base.perf_object_type_str, perf.perf_object_type_str, winperf/PERF_OBJECT_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h

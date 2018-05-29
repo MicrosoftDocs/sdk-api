@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SerialNumber
 title: IDataCollectorSet::get_SerialNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the number of times that this data collector set has been started, including segments.
 old-location: pla\idatacollectorset_get_serialnumber.htm
 old-project: PLA
 ms.assetid: 92bfd307-362e-4d60-9a61-d2096fbb3d19
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SerialNumber property, IDataCollectorSet.SerialNumber, IDataCollectorSet.get_SerialNumber, IDataCollectorSet::SerialNumber, IDataCollectorSet::get_SerialNumber, IDataCollectorSet::put_SerialNumber, SerialNumber property [PLA], SerialNumber property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_serialnumber, get_SerialNumber, pla.idatacollectorset_get_serialnumber, pla/IDataCollectorSet::SerialNumber, pla/IDataCollectorSet::get_SerialNumber, pla/IDataCollectorSet::put_SerialNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

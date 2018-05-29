@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock.setsockopt
 title: setsockopt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a socket option.
 old-location: winsock\setsockopt_2.htm
 old-project: WinSock
 ms.assetid: 3a6960c9-0c04-4403-aee1-ce250459dc30
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_USER_AUTH_DATA
 title: LSA_GET_USER_AUTH_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUserAuthData function returns the authorization data for the user in a single buffer.
 old-location: security\getuserauthdata.htm
 old-project: SecAuthN
 ms.assetid: 2436eaee-1f32-4e32-9a98-74968ad9b58e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetUserAuthData, GetUserAuthData function [Security], LSA_GET_USER_AUTH_DATA, _ssp_getuserauthdata, ntsecpkg/GetUserAuthData, security.getuserauthdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

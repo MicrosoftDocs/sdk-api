@@ -1,16 +1,16 @@
 ---
 UID: NE:slpublic._tagSL_ACTIVATION_TYPE
 title: "_tagSL_ACTIVATION_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the type of offline activation for a license.
 old-location: security\sl_activation_type.htm
 old-project: SecSLApi
 ms.assetid: e16a4e43-f7ef-43a3-a268-5f644340274c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SL_ACTIVATION_TYPE, SL_ACTIVATION_TYPE enumeration [Security], SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, SL_ACTIVATION_TYPE_DEFAULT, _tagSL_ACTIVATION_TYPE, security.sl_activation_type, slpublic/SL_ACTIVATION_TYPE, slpublic/SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, slpublic/SL_ACTIVATION_TYPE_DEFAULT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: slpublic.h
 req.include-header: 

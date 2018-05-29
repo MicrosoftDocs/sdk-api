@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetMemberTypeByIndex
 title: ID3D12ShaderReflectionType::GetMemberTypeByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a shader-reflection-variable type by index.
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyindex.htm
 old-project: direct3d12
 ms.assetid: 59940F25-D394-4DA6-8493-B3B04C68B1CC
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetMemberTypeByIndex, GetMemberTypeByIndex method, GetMemberTypeByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByIndex method, ID3D12ShaderReflectionType.GetMemberTypeByIndex, ID3D12ShaderReflectionType::GetMemberTypeByIndex, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByIndex, direct3d12.id3d12shaderreflectiontype_getmembertypebyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

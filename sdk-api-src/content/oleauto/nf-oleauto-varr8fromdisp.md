@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarR8FromDisp
 title: VarR8FromDisp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a double value.
 old-location: automat\varr8fromdisp.htm
 old-project: automat
 ms.assetid: d342ef5a-eb5f-431a-9ea2-f6361836c92e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarR8FromDisp, VarR8FromDisp function [Automation], _oa96_VarR8FromDisp, automat.varr8fromdisp, oleauto/VarR8FromDisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

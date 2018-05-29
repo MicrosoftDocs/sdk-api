@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.InvertRgn
 title: InvertRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The InvertRgn function inverts the colors in the specified region.
 old-location: gdi\invertrgn.htm
 old-project: gdi
 ms.assetid: 94704c44-796a-4ca7-97f3-6676d7f94078
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InvertRgn, InvertRgn function [Windows GDI], _win32_InvertRgn, gdi.invertrgn, wingdi/InvertRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

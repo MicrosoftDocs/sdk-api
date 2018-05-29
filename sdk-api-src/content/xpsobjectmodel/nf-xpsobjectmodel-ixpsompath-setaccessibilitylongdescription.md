@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetAccessibilityLongDescription
 title: IXpsOMPath::SetAccessibilityLongDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsompath_setaccessibilitylongdescription.htm
 old-project: printdocs
 ms.assetid: 9727cbea-55f7-48ad-8205-d68d0c906250
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMPath.SetAccessibilityLongDescription, IXpsOMPath::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityLongDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

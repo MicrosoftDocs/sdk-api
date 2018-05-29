@@ -1,16 +1,16 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetColorKey
 title: IMixerPinConfig::SetColorKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetColorKey method sets the color key being used by a video stream.
 old-location: dshow\imixerpinconfig_setcolorkey.htm
 old-project: DirectShow
 ms.assetid: b2d4ffa2-0b10-4bc5-9af1-83f4ee68b35f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetColorKey method, IMixerPinConfig.SetColorKey, IMixerPinConfig::SetColorKey, IMixerPinConfigSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setcolorkey, mpconfig/IMixerPinConfig::SetColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

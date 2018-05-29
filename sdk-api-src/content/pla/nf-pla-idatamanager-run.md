@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataManager.Run
 title: IDataManager::Run
-author: windows-driver-content
+author: windows-sdk-content
 description: Manually runs the data manager.
 old-location: pla\idatamanager_run.htm
 old-project: PLA
 ms.assetid: a1016784-8841-485f-885e-3719bdb0ae05
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],Run method, IDataManager.Run, IDataManager::Run, Run, Run method [PLA], Run method [PLA],IDataManager interface, base.idatamanager_run, pla.idatamanager_run, pla/IDataManager::Run
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

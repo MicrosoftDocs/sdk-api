@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSelectedItem
 title: IFolderView2::GetSelectedItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates the currently selected item at or after a given index.
 old-location: shell\IFolderView2_GetSelectedItem.htm
 old-project: shell
 ms.assetid: fca9fd45-05ce-4300-aecf-a2843614a11d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSelectedItem, GetSelectedItem method [Windows Shell], GetSelectedItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectedItem method, IFolderView2.GetSelectedItem, IFolderView2::GetSelectedItem, _shell_IFolderView2_GetSelectedItem, shell.IFolderView2_GetSelectedItem, shobjidl_core/IFolderView2::GetSelectedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

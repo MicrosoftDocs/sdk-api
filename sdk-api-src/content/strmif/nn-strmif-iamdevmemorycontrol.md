@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMDevMemoryControl
 title: IAMDevMemoryControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is no longer supported by the AVI Splitter. Note  It was defined to support certain older hardware decoders that required AVI files to be read directly into hardware memory.
 old-location: dshow\iamdevmemorycontrol.htm
 old-project: DirectShow
 ms.assetid: 9945bffb-6748-4c7d-ba14-91470cf6c651
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], IAMDevMemoryControl interface [DirectShow],described, IAMDevMemoryControlInterface, dshow.iamdevmemorycontrol, strmif/IAMDevMemoryControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

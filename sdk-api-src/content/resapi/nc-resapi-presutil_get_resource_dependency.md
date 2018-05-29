@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_RESOURCE_DEPENDENCY
 title: PRESUTIL_GET_RESOURCE_DEPENDENCY
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependency.htm
 old-project: MsCS
 ms.assetid: eee267b4-4272-4938-b061-02990ec528f2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY, PRESUTIL_GET_RESOURCE_DEPENDENCY callback, PRESUTIL_GET_RESOURCE_DEPENDENCY callback function [Failover Cluster], _wolf_resutilgetresourcedependency, mscs.resutilgetresourcedependency, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

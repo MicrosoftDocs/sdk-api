@@ -1,16 +1,16 @@
 ---
 UID: NF:dxvahd.IDXVAHD_VideoProcessor.SetVideoProcessStreamState
 title: IDXVAHD_VideoProcessor::SetVideoProcessStreamState
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a state parameter for an input stream on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_videoprocessor_setvideoprocessstreamstate.htm
 old-project: medfound
 ms.assetid: 40a8444f-576e-40ff-804e-0912812f0ee6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],SetVideoProcessStreamState method, IDXVAHD_VideoProcessor.SetVideoProcessStreamState, IDXVAHD_VideoProcessor::SetVideoProcessStreamState, SetVideoProcessStreamState, SetVideoProcessStreamState method [Media Foundation], SetVideoProcessStreamState method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::SetVideoProcessStreamState, mf.idxvahd_videoprocessor_setvideoprocessstreamstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 

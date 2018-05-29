@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IGraphConfig.Reconfigure
 title: IGraphConfig::Reconfigure
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reconfigure method locks the filter graph and calls a callback function in the application or filter to perform a dynamic reconfiguration.
 old-location: dshow\igraphconfig_reconfigure.htm
 old-project: DirectShow
 ms.assetid: 924087c0-e3ad-437b-96e5-de39bbce2ea7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconfigure method, IGraphConfig.Reconfigure, IGraphConfig::Reconfigure, IGraphConfigReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconfigure, strmif/IGraphConfig::Reconfigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

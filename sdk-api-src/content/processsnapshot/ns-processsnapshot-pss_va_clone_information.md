@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_VA_CLONE_INFORMATION
 title: PSS_VA_CLONE_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds virtual address (VA) clone information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_va_clone_information.htm
 old-project: proc_snap
 ms.assetid: F93D61B0-EDB2-4560-A69F-CF839EC98B53
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_VA_CLONE_INFORMATION, PSS_VA_CLONE_INFORMATION structure, proc_snap.pss_va_clone_information, processsnapshot/PSS_VA_CLONE_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

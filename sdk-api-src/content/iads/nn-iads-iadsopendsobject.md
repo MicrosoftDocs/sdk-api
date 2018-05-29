@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsOpenDSObject
 title: IADsOpenDSObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsOpenDSObject interface is designed to supply a security context for binding to an object in the underlying directory store.
 old-location: adsi\iadsopendsobject.htm
 old-project: ADSI
 ms.assetid: 9daf6f91-6c58-46a8-ba05-149f28b53829
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI],described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

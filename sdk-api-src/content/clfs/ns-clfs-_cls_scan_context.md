@@ -1,16 +1,16 @@
 ---
 UID: NS:clfs._CLS_SCAN_CONTEXT
 title: "_CLS_SCAN_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the containers that are being scanned by ScanLogContainers, the kind of scan that is being performed, and a cursor to track which containers have been scanned.
 old-location: fs\clfs_scan_context.htm
 old-project: Clfs
 ms.assetid: 716fa005-c801-4a5d-99f1-0babe64dc4a8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Files], CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Files], PPCLS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, clfs/PCLFS_SCAN_CONTEXT, clfs/_CLFS_SCAN_CONTEXT, fs.clfs_scan_context"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

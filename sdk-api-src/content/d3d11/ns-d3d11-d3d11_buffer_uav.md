@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_UAV
 title: D3D11_BUFFER_UAV
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the elements in a buffer to use in a unordered-access view.
 old-location: direct3d11\d3d11_buffer_uav.htm
 old-project: direct3d11
 ms.assetid: 8dcd2281-1875-474e-8c86-a6920ab2b515
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_BUFFER_UAV, D3D11_BUFFER_UAV structure [Direct3D 11], c8071050-410d-09ba-35f3-6d7c40e44eb6, d3d11/D3D11_BUFFER_UAV, direct3d11.d3d11_buffer_uav
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

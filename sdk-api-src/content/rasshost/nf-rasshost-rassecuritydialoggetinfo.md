@@ -1,16 +1,16 @@
 ---
 UID: NF:rasshost.RasSecurityDialogGetInfo
 title: RasSecurityDialogGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSecurityDialogGetInfo function is called by a RAS security DLL to get information about a port from the RAS server.
 old-location: rras\rassecuritydialoggetinfo.htm
 old-project: RRAS
 ms.assetid: b7fbcfb6-686c-4464-ba78-e689019e74be
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSecurityDialogGetInfo, RasSecurityDialogGetInfo function [RAS], _ras_rassecuritydialoggetinfo, rasshost/RasSecurityDialogGetInfo, rras.rassecuritydialoggetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 

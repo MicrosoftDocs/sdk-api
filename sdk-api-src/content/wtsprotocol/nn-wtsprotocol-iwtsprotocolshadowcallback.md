@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolShadowCallback
 title: IWTSProtocolShadowCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolShadowCallback is no longer available. Instead, use IWRdsProtocolShadowCallback.
 old-location: termserv\iwtsprotocolshadowcallback.htm
 old-project: TermServ
 ms.assetid: ce224b9f-161c-4133-97d9-05c339eefb77
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolShadowCallback, IWTSProtocolShadowCallback interface [Remote Desktop Services], IWTSProtocolShadowCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowcallback, wtsprotocol/IWTSProtocolShadowCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

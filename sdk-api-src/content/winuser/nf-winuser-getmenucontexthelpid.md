@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetMenuContextHelpId
 title: GetMenuContextHelpId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Help context identifier associated with the specified menu.
 old-location: shell\GetMenuContextHelpId.htm
 old-project: shell
 ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

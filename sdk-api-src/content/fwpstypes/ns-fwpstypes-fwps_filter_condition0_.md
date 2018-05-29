@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER_CONDITION0_
 title: FWPS_FILTER_CONDITION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: The FWPS_FILTER_CONDITION0 structure defines a run-time filtering condition for a filter.Note  FWPS_FILTER_CONDITION0 is a specific version of FWPS_FILTER_CONDITION.
 old-location: netvista\fwps_filter_condition0.htm
 old-project: netvista
 ms.assetid: d4a20939-4866-4402-9b29-d94c2170807c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FWPS_FILTER_CONDITION0, FWPS_FILTER_CONDITION0 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER_CONDITION0_, fwpstypes/FWPS_FILTER_CONDITION0, netvista.fwps_filter_condition0, wfp_ref_3_struct_3_fwps_F-O_93287819-7faf-41d5-a128-946293c1eb73.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.TransitionOnline
 title: IOfflineFilesConnectionInfo::TransitionOnline
-author: windows-driver-content
+author: windows-sdk-content
 description: Transitions an item online if possible.
 old-location: of\iofflinefilesconnectioninfo_transitiononline.htm
 old-project: OfflineFiles
 ms.assetid: b8cac664-598d-43fd-a77e-e8406c197afc
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOnline method, IOfflineFilesConnectionInfo.TransitionOnline, IOfflineFilesConnectionInfo::TransitionOnline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOnline, TransitionOnline method [Offline Files], TransitionOnline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOnline, of.iofflinefilesconnectioninfo_transitiononline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

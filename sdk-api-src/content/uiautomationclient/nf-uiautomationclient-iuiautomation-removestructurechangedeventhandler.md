@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveStructureChangedEventHandler
 title: IUIAutomation::RemoveStructureChangedEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a structure-changed event handler.
 old-location: winauto\uiauto_IUIAutomation_RemoveStructureChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: b0f8bb2a-003f-471f-b1a6-ffec97e2752a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveStructureChangedEventHandler method, IUIAutomation.RemoveStructureChangedEventHandler, IUIAutomation::RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler method [Windows Accessibility], RemoveStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiautomationclient/IUIAutomation::RemoveStructureChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCursors.get_Count
 title: IInkCursors::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkcursors_count.htm
 old-project: tablet
 ms.assetid: de036d87-32a2-4688-9926-d5f7ab965b9f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkCursors interface, IInkCursors interface [Tablet PC],Count property, IInkCursors.Count, IInkCursors.get_Count, IInkCursors::Count, IInkCursors::get_Count, get_Count, msinkaut/IInkCursors::Count, msinkaut/IInkCursors::get_Count, tablet.iinkcursors_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

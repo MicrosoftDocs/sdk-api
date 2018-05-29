@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeSysColor
 title: GetThemeSysColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a system color.
 old-location: controls\GetThemeSysColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeSysColor, GetThemeSysColor function [Windows Controls], controls.GetThemeSysColor, controls.inet_GetThemeSysColor, inet_GetThemeSysColor, inet_GetThemeSysColor_cpp, uxtheme/GetThemeSysColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

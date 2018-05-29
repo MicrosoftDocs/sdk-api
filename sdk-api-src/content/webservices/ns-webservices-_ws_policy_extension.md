@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_POLICY_EXTENSION
 title: "_WS_POLICY_EXTENSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The base class for all policy extension structures. Policy extensions are assertions that are directly handled by applications such as custom assertions.
 old-location: wsw\ws_policy_extension.htm
 old-project: wsw
 ms.assetid: 85a3fa35-b574-4091-9ef2-486ac751ef82
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_POLICY_EXTENSION, WS_POLICY_EXTENSION structure [Web Services for Windows], _WS_POLICY_EXTENSION, webservices/WS_POLICY_EXTENSION, wsw.ws_policy_extension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

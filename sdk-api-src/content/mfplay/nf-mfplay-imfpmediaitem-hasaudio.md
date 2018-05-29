@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.HasAudio
 title: IMFPMediaItem::HasAudio
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether the media item contains an audio stream.
 old-location: mf\imfpmediaitem_hasaudio.htm
 old-project: medfound
 ms.assetid: 38d308d7-77e3-4f13-82e7-677ac94234e7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasAudio method, IMFPMediaItem.HasAudio, IMFPMediaItem::HasAudio, mf.imfpmediaitem_hasaudio, mfplay/IMFPMediaItem::HasAudio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

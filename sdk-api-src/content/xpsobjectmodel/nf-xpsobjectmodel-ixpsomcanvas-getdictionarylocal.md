@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetDictionaryLocal
 title: IXpsOMCanvas::GetDictionaryLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary.
 old-location: xps\ixpsomcanvas_getdictionarylocal.htm
 old-project: printdocs
 ms.assetid: 5578ae0f-4da7-4d9f-9133-fbe501ff66a1
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMCanvas.GetDictionaryLocal, IXpsOMCanvas::GetDictionaryLocal, xps.ixpsomcanvas_getdictionarylocal, xpsobjectmodel/IXpsOMCanvas::GetDictionaryLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

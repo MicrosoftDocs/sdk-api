@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.UnloadStore
 title: ISettingsEngine::UnloadStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Unloads the schema store hive and frees resources.
 old-location: smi\isettingsengine_unloadstore.htm
 old-project: SMI
 ms.assetid: 10c0e5c7-41df-4ebb-86be-0c2c6e013849
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISettingsEngine interface [SMI],UnloadStore method, ISettingsEngine.UnloadStore, ISettingsEngine::UnloadStore, UnloadStore, UnloadStore method [SMI], UnloadStore method [SMI],ISettingsEngine interface, smi.isettingsengine_unloadstore, wcmconfig/ISettingsEngine::UnloadStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

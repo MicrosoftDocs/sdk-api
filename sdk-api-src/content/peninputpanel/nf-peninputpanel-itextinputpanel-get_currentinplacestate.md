@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInPlaceState
 title: ITextInputPanel::get_CurrentInPlaceState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current in-place state as specified by the InPlaceState Enumeration.
 old-location: tablet\itextinputpanel_currentinplacestate.htm
 old-project: tablet
 ms.assetid: 3ca27156-ed34-4cac-ba26-edded586272a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 3ca27156-ed34-4cac-ba26-edded586272a, CurrentInPlaceState property [Tablet PC], CurrentInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInPlaceState property, ITextInputPanel.CurrentInPlaceState, ITextInputPanel.get_CurrentInPlaceState, ITextInputPanel::CurrentInPlaceState, ITextInputPanel::get_CurrentInPlaceState, get_CurrentInPlaceState, peninputpanel/ITextInputPanel::CurrentInPlaceState, peninputpanel/ITextInputPanel::get_CurrentInPlaceState, tablet.itextinputpanel_currentinplacestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

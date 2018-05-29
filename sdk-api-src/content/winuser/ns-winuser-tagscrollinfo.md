@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagSCROLLINFO
 title: tagSCROLLINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The SCROLLINFO structure contains scroll bar parameters to be set by the SetScrollInfo function (or SBM_SETSCROLLINFO message), or retrieved by the GetScrollInfo function (or SBM_GETSCROLLINFO message).
 old-location: controls\SCROLLINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSCROLLINFO, LPCSCROLLINFO, LPCSCROLLINFO structure pointer [Windows Controls], SCROLLINFO, SCROLLINFO structure [Windows Controls], SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_SCROLLINFO_str, _win32_SCROLLINFO_str_cpp, controls.SCROLLINFO, controls._win32_SCROLLINFO_str, tagSCROLLINFO, winuser/LPCSCROLLINFO, winuser/SCROLLINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IRegisteredTaskCollection
 title: IRegisteredTaskCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains all the tasks that are registered.
 old-location: taskschd\iregisteredtaskcollection.htm
 old-project: TaskSchd
 ms.assetid: 97403825-5762-477c-9695-3775bb5bc9e4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Task Scheduler], IRegisteredTaskCollection interface [Task Scheduler],described, taskschd.iregisteredtaskcollection, taskschd/IRegisteredTaskCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

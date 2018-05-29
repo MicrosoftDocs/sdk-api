@@ -1,16 +1,16 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateAttributesSetup
 title: ICertServerPolicy::EnumerateAttributesSetup
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
 old-location: security\icertserverpolicy_enumerateattributessetup.htm
 old-project: SecCrypto
 ms.assetid: 14b81b88-36db-4b01-96e6-eafed22ae02e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerPolicy object, EnumerateAttributesSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesSetup method, ICertServerPolicy.EnumerateAttributesSetup, ICertServerPolicy::EnumerateAttributesSetup, _certsrv_icertserverpolicy_enumerateattributessetup, certif/ICertServerPolicy::EnumerateAttributesSetup, security.icertserverpolicy_enumerateattributessetup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

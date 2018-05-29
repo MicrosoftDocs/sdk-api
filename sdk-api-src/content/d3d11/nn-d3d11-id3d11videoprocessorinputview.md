@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessorInputView
 title: ID3D11VideoProcessorInputView
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the input surfaces that can be accessed during video processing.
 old-location: mf\id3d11videoprocessorinputview.htm
 old-project: medfound
 ms.assetid: E76B9CBE-2584-4DBC-8EF4-E9DA105226B9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoProcessorInputView, ID3D11VideoProcessorInputView interface [Media Foundation], ID3D11VideoProcessorInputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorInputView, mf.id3d11videoprocessorinputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

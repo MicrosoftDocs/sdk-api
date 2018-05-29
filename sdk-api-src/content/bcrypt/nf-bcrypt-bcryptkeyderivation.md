@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptKeyDerivation
 title: BCryptKeyDerivation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Derives a key without requiring a secret agreement.
 old-location: security\bcryptkeyderivation.htm
 old-project: SecCNG
 ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

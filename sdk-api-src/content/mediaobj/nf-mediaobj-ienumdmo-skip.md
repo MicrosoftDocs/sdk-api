@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Skip
 title: IEnumDMO::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips over a specified number of items in the enumeration sequence.
 old-location: dshow\ienumdmo_skip.htm
 old-project: DirectShow
 ms.assetid: 32722190-52b5-468a-91d6-a828ad02b203
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumDMO interface [DirectShow],Skip method, IEnumDMO.Skip, IEnumDMO::Skip, IEnumDMOSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumDMO interface, dshow.ienumdmo_skip, mediaobj/IEnumDMO::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

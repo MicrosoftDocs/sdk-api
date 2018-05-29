@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_INFO
 title: "_DHCP_SUBNET_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_SUBNET_INFO structure defines information describing a subnet.
 old-location: dhcp\dhcp_subnet_info.htm
 old-project: DHCP
 ms.assetid: 030b4743-7558-493c-931c-1ad28a6b435a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_SUBNET_INFO, DHCP_SUBNET_INFO, DHCP_SUBNET_INFO structure [DHCP], LPDHCP_SUBNET_INFO, LPDHCP_SUBNET_INFO structure pointer [DHCP], _DHCP_SUBNET_INFO, dhcp.dhcp_subnet_info, dhcpsapi/LPDHCP_SUBNET_INFO, dhcpsapi/_DHCP_SUBNET_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

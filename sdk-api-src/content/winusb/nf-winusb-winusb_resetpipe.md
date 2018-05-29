@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_ResetPipe
 title: WinUsb_ResetPipe function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_ResetPipe function resets the data toggle and clears the stall condition on a pipe.
 old-location: buses\winusb_resetpipe.htm
 old-project: usbref
 ms.assetid: 0fd30723-8cb9-4e29-942b-abe48c691d8e
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_ResetPipe, WinUsb_ResetPipe function [Buses], buses.winusb_resetpipe, winusb/WinUsb_ResetPipe, winusbfunc_6d4baf88-4b6f-46fb-802b-67ac51ddaf8d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

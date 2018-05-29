@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.ISynchronizeHandle
 title: ISynchronizeHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle associated with a synchronization object.
 old-location: com\isynchronizehandle.htm
 old-project: com
 ms.assetid: 93b2e682-78da-4a61-a045-8d71b3834e1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchronizeHandle interface [COM],described, _com_isynchronizehandle, com.isynchronizehandle, objidlbase/ISynchronizeHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

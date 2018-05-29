@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Attribute.get_ObjectId
 title: IX509Attribute::get_ObjectId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\ix509attribute_objectid_property.htm
 old-project: SecCertEnroll
 ms.assetid: a65c7989-5e6e-4253-8ddc-1d1207fecaf8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Attribute interface [Security],ObjectId property, IX509Attribute.ObjectId, IX509Attribute.get_ObjectId, IX509Attribute::ObjectId, IX509Attribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Attribute interface, certenroll/IX509Attribute::ObjectId, certenroll/IX509Attribute::get_ObjectId, get_ObjectId, security.ix509attribute_objectid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

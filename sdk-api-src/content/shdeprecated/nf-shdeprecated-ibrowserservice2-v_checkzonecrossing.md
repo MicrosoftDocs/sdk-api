@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_CheckZoneCrossing
 title: IBrowserService2::v_CheckZoneCrossing
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Called by the base class to validate a zone crossing when navigating from one page to another.
 old-location: shell\IBrowserService2_v_CheckZoneCrossing.htm
 old-project: shell
 ms.assetid: cc682057-9a84-4b14-bfe3-32b6ada9304c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_CheckZoneCrossing method, IBrowserService2.v_CheckZoneCrossing, IBrowserService2::v_CheckZoneCrossing, shdeprecated/IBrowserService2::v_CheckZoneCrossing, shell.IBrowserService2_v_CheckZoneCrossing, v_CheckZoneCrossing, v_CheckZoneCrossing method [Windows Shell], v_CheckZoneCrossing method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_CheckZoneCrossing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

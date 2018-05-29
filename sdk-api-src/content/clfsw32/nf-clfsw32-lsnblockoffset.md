@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.LsnBlockOffset
 title: LsnBlockOffset function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the sector-aligned block offset that is contained in the specified LSN.
 old-location: fs\lsnblockoffset.htm
 old-project: Clfs
 ms.assetid: 72445d03-1b9a-48a6-993e-792e1f524f4b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: LsnBlockOffset, LsnBlockOffset function [Files], clfsw32/LsnBlockOffset, fs.lsnblockoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

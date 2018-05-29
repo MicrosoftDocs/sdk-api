@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IParseDisplayName.ParseDisplayName
 title: IParseDisplayName::ParseDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses the specified display name and creates a corresponding moniker.
 old-location: com\iparsedisplayname_parsedisplayname.htm
 old-project: com
 ms.assetid: bf18320c-1ff3-4280-bd67-70f6c2998285
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IParseDisplayName interface [COM],ParseDisplayName method, IParseDisplayName.ParseDisplayName, IParseDisplayName::ParseDisplayName, ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM],IParseDisplayName interface, _com_iparsedisplayname_parsedisplayname, com.iparsedisplayname_parsedisplayname, oleidl/IParseDisplayName::ParseDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

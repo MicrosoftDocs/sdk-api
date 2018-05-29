@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetGreenTableValue
 title: SetGreenTableValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value in the green table.
 old-location: directcomp\idcompositiontabletransfereffect_setgreentablevalue_overloaded.htm
 old-project: directcomp
 ms.assetid: feccfc61-31e6-362a-1e81-0650736b962a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionTableTransferEffect::SetGreenTableValue, SetGreenTableValue, SetGreenTableValue methods [DirectComposition], dcomp/SetGreenTableValue, directcomp.idcompositiontabletransfereffect_setgreentablevalue_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

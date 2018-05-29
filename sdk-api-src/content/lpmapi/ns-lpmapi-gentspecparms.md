@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.GenTspecParms
 title: GenTspecParms
-author: windows-driver-content
+author: windows-sdk-content
 description: The GenTspecParms structure stores generic Tspec parameters.
 old-location: qos\gentspecparms.htm
 old-project: QOS
 ms.assetid: 8a702e7c-0dfd-48f5-8612-d64d19f2a55c
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GenTspecParms, GenTspecParms structure [QOS], lpmapi/GenTspecParms, qos.gentspecparms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

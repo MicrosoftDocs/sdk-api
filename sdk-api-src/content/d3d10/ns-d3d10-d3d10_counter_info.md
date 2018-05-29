@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10.D3D10_COUNTER_INFO
 title: D3D10_COUNTER_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Information about the video card's performance counter capabilities.
 old-location: direct3d10\d3d10_counter_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_counter_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 556a7645-8a0b-b615-840b-b33669862365, D3D10_COUNTER_INFO, D3D10_COUNTER_INFO structure [Direct3D 10], d3d10/D3D10_COUNTER_INFO, direct3d10.d3d10_counter_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

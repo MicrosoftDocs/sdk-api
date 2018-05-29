@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfCandidateListUIElementBehavior
 title: ITfCandidateListUIElementBehavior
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is implemented by a text service that has a candidate list UI and its UI can be controlled by the application. The application QI this interface from ITfUIElement and controls the candidate list behavior.
 old-location: tsf\itfcandidatelistuielementbehavior.htm
 old-project: TSF
 ms.assetid: 3e1c53c6-f356-4b60-bb85-0f5a7251219d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], ITfCandidateListUIElementBehavior interface [Text Services Framework],described, _tsf_itfcandidatelistuielementbehavior_ref, msctf/ITfCandidateListUIElementBehavior, tsf.itfcandidatelistuielementbehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

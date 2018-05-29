@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlGrowFunctionTable
 title: RtlGrowFunctionTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that a dynamic function table has increased in size.
 old-location: base\rtlgrowfunctiontable.htm
 old-project: Debug
 ms.assetid: b917b732-4017-4365-b312-90bebfdd877b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlGrowFunctionTable, RtlGrowFunctionTable function, base.rtlgrowfunctiontable, winnt/RtlGrowFunctionTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

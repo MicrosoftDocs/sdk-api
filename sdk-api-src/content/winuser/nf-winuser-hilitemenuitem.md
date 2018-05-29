@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.HiliteMenuItem
 title: HiliteMenuItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds or removes highlighting from an item in a menu bar.
 old-location: menurc\hilitemenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\hilitemenuitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HiliteMenuItem, HiliteMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_HILITE, MF_UNHILITE, _win32_HiliteMenuItem, _win32_hilitemenuitem_cpp, menurc.hilitemenuitem, winui._win32_hilitemenuitem, winuser/HiliteMenuItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

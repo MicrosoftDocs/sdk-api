@@ -1,16 +1,16 @@
 ---
 UID: NE:oleidl.tagOLEUPDATE
 title: tagOLEUPDATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the linked object updates the cached data for the linked object automatically or only when the container calls either the IOleObject::Update or IOleLink::Update methods. The constants are used in the IOleLink interface.
 old-location: com\oleupdate.htm
 old-project: com
 ms.assetid: 1945d4a2-dd1f-453e-ab7e-093f26171c84
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUPDATE, *POLEUPDATE, LPOLEUPDATE, LPOLEUPDATE enumeration pointer [COM], OLEUPDATE, OLEUPDATE enumeration [COM], OLEUPDATE_ALWAYS, OLEUPDATE_ONCALL, POLEUPDATE, POLEUPDATE enumeration pointer [COM], _ole_OLEUPDATE, com.oleupdate, ole/LPOLEUPDATE, ole/OLEUPDATE, ole/OLEUPDATE_ALWAYS, ole/OLEUPDATE_ONCALL, ole/POLEUPDATE, tagOLEUPDATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: OleIdl.h

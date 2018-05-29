@@ -1,16 +1,16 @@
 ---
 UID: NS:vmr9._VMR9ProcAmpControl
 title: "_VMR9ProcAmpControl"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMR9ProcAmpControl structure specifies the image adjustments to be performed on a video stream. This structure is used with the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\vmr9procampcontrol.htm
 old-project: DirectShow
 ms.assetid: c4395344-e659-4e5a-aba0-ee27e65fe2cc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMR9ProcAmpControl, VMR9ProcAmpControl structure [DirectShow], VMR9ProcAmpControlStructure, _VMR9ProcAmpControl, dshow.vmr9procampcontrol, vmr9/VMR9ProcAmpControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

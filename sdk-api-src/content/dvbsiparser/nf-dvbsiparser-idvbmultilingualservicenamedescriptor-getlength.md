@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetLength
 title: IDvbMultilingualServiceNameDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the descriptor_length field value from a from a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 851d3d7b-0891-41a7-899e-61aac641ab3c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbMultilingualServiceNameDescriptor.GetLength, IDvbMultilingualServiceNameDescriptor::GetLength, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetLength, mstv.idvbmultilingualservicenamedescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.GetMaxIdealImageSize
 title: IVideoWindow::GetMaxIdealImageSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMaxIdealImageSize method retrieves the maximum ideal image size for the video image.
 old-location: dshow\ivideowindow_getmaxidealimagesize.htm
 old-project: DirectShow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMaxIdealImageSize method, IVideoWindow.GetMaxIdealImageSize, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

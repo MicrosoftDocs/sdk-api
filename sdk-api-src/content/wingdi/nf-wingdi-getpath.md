@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetPath
 title: GetPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPath function retrieves the coordinates defining the endpoints of lines and the control points of curves found in the path that is selected into the specified device context.
 old-location: gdi\getpath.htm
 old-project: gdi
 ms.assetid: 2dc7736a-03fc-4623-a566-6c3e368da174
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPath, GetPath function [Windows GDI], PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, _win32_GetPath, gdi.getpath, wingdi/GetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

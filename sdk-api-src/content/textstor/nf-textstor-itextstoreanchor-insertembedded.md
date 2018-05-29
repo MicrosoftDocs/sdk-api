@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertEmbedded
 title: ITextStoreAnchor::InsertEmbedded
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchor::InsertEmbedded method
 old-location: tsf\itextstoreanchor_insertembedded.htm
 old-project: TSF
 ms.assetid: 414842cc-7c3e-4f5c-93ac-3bd0eda5293e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbedded method, ITextStoreAnchor.InsertEmbedded, ITextStoreAnchor::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::InsertEmbedded, tsf.itextstoreanchor_insertembedded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

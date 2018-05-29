@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.ValidateLog
 title: ValidateLog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates the consistency of the log metadata and data before log archive and after log restore.
 old-location: fs\validatelogrestore.htm
 old-project: Clfs
 ms.assetid: dee4224e-bc94-42aa-95b9-226f13fd51ae
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.validatelogrestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

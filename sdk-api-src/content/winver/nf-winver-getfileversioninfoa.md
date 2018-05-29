@@ -1,16 +1,16 @@
 ---
 UID: NF:winver.GetFileVersionInfoA
 title: GetFileVersionInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves version information for the specified file.
 old-location: menurc\getfileversioninfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFileVersionInfo, GetFileVersionInfo function [Menus and Other Resources], GetFileVersionInfoA, GetFileVersionInfoW, _win32_GetFileVersionInfo, _win32_getfileversioninfo_cpp, menurc.getfileversioninfo, winui._win32_getfileversioninfo, winver/GetFileVersionInfo, winver/GetFileVersionInfoA, winver/GetFileVersionInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h

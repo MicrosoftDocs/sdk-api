@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._EV_EXTRA_CERT_CHAIN_POLICY_STATUS
 title: "_EV_EXTRA_CERT_CHAIN_POLICY_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains policy flags returned from a call to the CertVerifyCertificateChainPolicy function.
 old-location: security\ev_extra_cert_chain_policy_status.htm
 old-project: SecCrypto
 ms.assetid: 65810a26-2675-4a98-b2ee-59d4e3bc1994
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_ROOT_PROGRAM_FLAG_LSC, CERT_ROOT_PROGRAM_FLAG_ORG, CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO, EV_EXTRA_CERT_CHAIN_POLICY_STATUS, EV_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, PEV_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], _EV_EXTRA_CERT_CHAIN_POLICY_STATUS, security.ev_extra_cert_chain_policy_status, wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/_EV_EXTRA_CERT_CHAIN_POLICY_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

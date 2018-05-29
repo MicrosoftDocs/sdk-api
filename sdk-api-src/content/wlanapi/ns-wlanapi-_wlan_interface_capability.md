@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi._WLAN_INTERFACE_CAPABILITY
 title: "_WLAN_INTERFACE_CAPABILITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the capabilities of an interface.
 old-location: nwifi\wlan_interface_capability.htm
 old-project: NativeWiFi
 ms.assetid: db7a9066-d699-4860-90cd-dc3f4bf42549
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY structure pointer [NativeWIFI], WLAN_INTERFACE_CAPABILITY, WLAN_INTERFACE_CAPABILITY structure [NativeWIFI], _WLAN_INTERFACE_CAPABILITY, nwifi.wlan_interface_capability, wlanapi/PWLAN_INTERFACE_CAPABILITY, wlanapi/WLAN_INTERFACE_CAPABILITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

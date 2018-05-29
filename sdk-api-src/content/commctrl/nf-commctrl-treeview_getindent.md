@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_GetIndent
 title: TreeView_GetIndent macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the TVM_GETINDENT message explicitly.
 old-location: controls\TreeView_GetIndent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getindent.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_GetIndent, TreeView_GetIndent macro [Windows Controls], _win32_TreeView_GetIndent, _win32_TreeView_GetIndent_cpp, commctrl/TreeView_GetIndent, controls.TreeView_GetIndent, controls._win32_TreeView_GetIndent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

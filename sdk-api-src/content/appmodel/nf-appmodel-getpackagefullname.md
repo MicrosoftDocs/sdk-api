@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackageFullName
 title: GetPackageFullName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package full name for the specified process.
 old-location: appxpkg\getpackagefullname.htm
 old-project: appxpkg
 ms.assetid: D1BA8E91-A3D1-454A-A4F6-E3C786F0BD7E
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackageFullName, GetPackageFullName function [App packaging and management], appmodel/GetPackageFullName, appxpkg.getpackagefullname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

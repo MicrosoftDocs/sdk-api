@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyArchived.Initialize
 title: ICertPropertyArchived::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 66efee4f-61af-447a-b668-81fbe2107b7f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyArchived interface [Security],Initialize method, ICertPropertyArchived.Initialize, ICertPropertyArchived::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchived interface, certenroll/ICertPropertyArchived::Initialize, security.icertpropertyarchived_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordCompositionPageID
 title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm
 old-project: mstv
 ms.assetid: 108f431a-e3c3-42d5-ad27-b7a54029051f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordCompositionPageID, GetRecordCompositionPageID method [Microsoft TV Technologies], GetRecordCompositionPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordCompositionPageID method, IDvbSubtitlingDescriptor.GetRecordCompositionPageID, IDvbSubtitlingDescriptor::GetRecordCompositionPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID, mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._PPP_IPV6_CP_INFO
 title: "_PPP_IPV6_CP_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the result of an IPv6 control protocol negotiation.
 old-location: rras\ppp_ipv6cp_info.htm
 old-project: RRAS
 ms.assetid: fb77a15d-a513-456d-9d55-258b93fe8db5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PPPP_IPV6_CP_INFO, PPPP_IPV6_CP_INFO structure pointer [RAS], PPP_IPV6_CP_INFO, PPP_IPV6_CP_INFO structure [RAS], _PPP_IPV6_CP_INFO, mprapi/PPPP_IPV6_CP_INFO, mprapi/PPP_IPV6_CP_INFO, rras.ppp_ipv6cp_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

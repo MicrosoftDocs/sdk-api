@@ -1,16 +1,16 @@
 ---
 UID: NF:wslapi.WslLaunchInteractive
 title: WslLaunchInteractive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
 old-location: wsl\wsllaunchinteractive.htm
 old-project: wsl
 ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 

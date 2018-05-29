@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EnumUIElements
 title: ITfUIElementMgr::EnumUIElements
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElementMgr::EnumUIElements method returns IEnumTfUIElements interface pointer to enumerate the ITfUIElement.
 old-location: tsf\itfuielementmgr_enumuielements.htm
 old-project: TSF
 ms.assetid: cdede376-be18-4deb-ae79-594aebb085a6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumUIElements, EnumUIElements method [Text Services Framework], EnumUIElements method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EnumUIElements method, ITfUIElementMgr.EnumUIElements, ITfUIElementMgr::EnumUIElements, msctf/ITfUIElementMgr::EnumUIElements, tsf.itfuielementmgr_enumuielements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

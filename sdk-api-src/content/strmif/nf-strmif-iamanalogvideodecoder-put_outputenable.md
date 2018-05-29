@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_OutputEnable
 title: IAMAnalogVideoDecoder::put_OutputEnable
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_OutputEnable method enables or disables the video port bus.
 old-location: dshow\iamanalogvideodecoder_put_outputenable.htm
 old-project: DirectShow
 ms.assetid: 93163db3-ea9a-4383-b382-7d574ef24dfc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_OutputEnable method, IAMAnalogVideoDecoder.put_OutputEnable, IAMAnalogVideoDecoder::put_OutputEnable, IAMAnalogVideoDecoderput_OutputEnable, dshow.iamanalogvideodecoder_put_outputenable, put_OutputEnable, put_OutputEnable method [DirectShow], put_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_OutputEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

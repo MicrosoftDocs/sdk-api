@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IComputerInfoChangeNotify.ComputerInfoChanged
 title: IComputerInfoChangeNotify::ComputerInfoChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported. This interface may be absent in later versions of Windows.
 old-location: shell\IComputerInfoChangeNotify_ComputerInfoChanged.htm
 old-project: shell
 ms.assetid: 496cffca-a59b-4536-85d0-103653c2396f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ComputerInfoChanged, ComputerInfoChanged method [Windows Shell], ComputerInfoChanged method [Windows Shell],IComputerInfoChangeNotify interface, IComputerInfoChangeNotify interface [Windows Shell],ComputerInfoChanged method, IComputerInfoChangeNotify.ComputerInfoChanged, IComputerInfoChangeNotify::ComputerInfoChanged, _shell_IComputerInfoChangeNotify_ComputerInfoChanged, shell.IComputerInfoChangeNotify_ComputerInfoChanged, shobjidl/IComputerInfoChangeNotify::ComputerInfoChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: Shobjidl.h

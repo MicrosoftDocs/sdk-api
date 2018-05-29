@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMDRMMessageParser.ParseRegistrationReqMsg
 title: IWMDRMMessageParser::ParseRegistrationReqMsg
-author: windows-driver-content
+author: windows-sdk-content
 description: The ParseRegistrationReqMsg method extracts the device certificate and identifier from a registration message sent by a device.
 old-location: wmformat\iwmdrmmessageparser_parseregistrationreqmsg.htm
 old-project: wmformat
 ms.assetid: d2d142bf-0fed-42c8-a2f1-b539a40ac074
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseRegistrationReqMsg method, IWMDRMMessageParser.ParseRegistrationReqMsg, IWMDRMMessageParser::ParseRegistrationReqMsg, IWMDRMMessageParserParseRegistrationReqMsg, ParseRegistrationReqMsg, ParseRegistrationReqMsg method [windows Media Format], ParseRegistrationReqMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parseregistrationreqmsg, wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

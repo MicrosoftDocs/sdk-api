@@ -1,16 +1,16 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.GetUncompressedAudioFormat
 title: IAudioMediaType::GetUncompressedAudioFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioMediaType::GetUncompressedAudioFormat returns information about the audio data format.
 old-location: audio\iaudiomediatype_getuncompressedaudioformat.htm
 old-project: audio
 ms.assetid: 9b4661cc-77b3-439b-bf28-5f9738dca6e1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetUncompressedAudioFormat, GetUncompressedAudioFormat method [Audio Devices], GetUncompressedAudioFormat method [Audio Devices],IAudioMediaType interface, IAudioMediaType interface [Audio Devices],GetUncompressedAudioFormat method, IAudioMediaType.GetUncompressedAudioFormat, IAudioMediaType::GetUncompressedAudioFormat, audio.iaudiomediatype_getuncompressedaudioformat, audio_syseffects_r_2e6e3723-2bc2-4e75-b64d-9b577d7916d6.xml, audiomediatype/IAudioMediaType::GetUncompressedAudioFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h

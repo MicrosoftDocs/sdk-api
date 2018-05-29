@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IValueProvider.SetValue
 title: IValueProvider::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of control.
 old-location: winauto\uiauto_IValueProvider_SetValue.htm
 old-project: WinAuto
 ms.assetid: af555ac6-5abd-4019-804b-68f9ed3be801
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],SetValue method, IValueProvider.SetValue, IValueProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IValueProvider interface, uiauto.uiauto_IValueProvider_SetValue, uiauto_IValueProvider_SetValue, uiautomationcore/IValueProvider::SetValue, winauto.uiauto_IValueProvider_SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

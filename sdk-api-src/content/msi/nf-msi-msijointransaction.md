@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiJoinTransaction
 title: MsiJoinTransaction function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiJoinTransaction function requests that the Windows Installer make the current process the owner of the transaction installing the multiple-package installation.
 old-location: setup\msijointransaction.htm
 old-project: Msi
 ms.assetid: 222c37fd-1a77-4017-8e55-cbd844f375df
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiJoinTransaction, MsiJoinTransaction function [Setup API], msi/MsiJoinTransaction, setup.msijointransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

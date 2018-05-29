@@ -1,16 +1,16 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory
 title: IFunctionDiscoveryProviderFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides factory methods to create Function Discovery objects.
 old-location: ncd\ifunctiondiscoveryproviderfactory.htm
 old-project: FunDisc
 ms.assetid: 576db617-0bca-4b46-839b-0f133f28cacb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscoveryProviderFactory, IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory, ncd.ifunctiondiscoveryproviderfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnEvent
 title: IMFSourceReaderCallback::OnEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the source reader receives certain events from the media source.
 old-location: mf\imfsourcereadercallback_onevent.htm
 old-project: medfound
 ms.assetid: cbe85d0f-26a1-4526-bfe6-b6183812a271
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnEvent method, IMFSourceReaderCallback.OnEvent, IMFSourceReaderCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onevent, mfreadwrite/IMFSourceReaderCallback::OnEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

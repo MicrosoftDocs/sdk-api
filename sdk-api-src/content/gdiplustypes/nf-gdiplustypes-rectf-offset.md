@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.RectF.Offset
 title: RectF::Offset
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the Offset methods of the RectF class. For a complete list of methods for the RectF class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Offset, Offset methods [GDI+], RectF.Offset, RectF::Offset, _gdiplus_CLASS_RectF_Offset_Methods, gdiplus._gdiplus_CLASS_RectF_Offset_Methods, gdiplustypes/Offset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 

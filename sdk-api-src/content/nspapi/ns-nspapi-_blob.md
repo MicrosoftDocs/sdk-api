@@ -1,16 +1,16 @@
 ---
 UID: NS:nspapi._BLOB
 title: "_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BLOB structure, derived from Binary Large Object, contains information about a block of data.
 old-location: winsock\blob_2.htm
 old-project: WinSock
 ms.assetid: eb1ff7d1-79db-478f-9f3e-48507d333c76
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPBLOB, BLOB, BLOB structure [Winsock], _BLOB, _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: Wtypes.h, Nspapi.h, Winsock2.h, Wtypes.h, Nspapi.h, Winsock2.h

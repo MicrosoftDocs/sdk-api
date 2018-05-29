@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.CreateLogMarshallingArea
 title: CreateLogMarshallingArea function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a marshaling area for a log, and when successful it returns a marshaling context. Before creating a marshaling area, the log must have at least one container.
 old-location: fs\createlogmarshallingarea.htm
 old-project: Clfs
 ms.assetid: 750c0615-bfac-402b-a590-6c9d800cf2d8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CreateLogMarshallingArea, CreateLogMarshallingArea function [Files], clfsw32/CreateLogMarshallingArea, fs.createlogmarshalingarea, fs.createlogmarshallingarea
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

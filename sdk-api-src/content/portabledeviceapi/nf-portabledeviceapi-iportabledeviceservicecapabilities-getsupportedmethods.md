@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedMethods
 title: IPortableDeviceServiceCapabilities::GetSupportedMethods
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the methods supported by the service.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedmethods.htm
 old-project: wpd_sdk
 ms.assetid: 60201d12-5a49-4d84-9dae-b04cbb144d8f
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetSupportedMethods, GetSupportedMethods method [Windows Portable Devices SDK], GetSupportedMethods method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethods method, IPortableDeviceServiceCapabilities.GetSupportedMethods, IPortableDeviceServiceCapabilities::GetSupportedMethods, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

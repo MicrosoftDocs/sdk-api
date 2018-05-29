@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpListen
 title: SnmpListen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpListen function registers a WinSNMP application as an SNMP agent.
 old-location: snmp\snmplisten.htm
 old-project: SNMP
 ms.assetid: e89c9315-efe4-4241-a7c4-f4475b107701
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpListen, SnmpListen function [SNMP], _snmp_snmplisten, snmp.snmplisten, winsnmp/SnmpListen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

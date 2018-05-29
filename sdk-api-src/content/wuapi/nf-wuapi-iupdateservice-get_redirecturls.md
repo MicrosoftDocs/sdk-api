@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateService.get_RedirectUrls
 title: IUpdateService::get_RedirectUrls
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the URLs for the redirector cabinet file.
 old-location: wua\iupdateservice_redirecturls.htm
 old-project: Wua_Sdk
 ms.assetid: 264e46d5-d72b-42c9-aed2-badbfc701cff
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],RedirectUrls property, IUpdateService.RedirectUrls, IUpdateService.get_RedirectUrls, IUpdateService::RedirectUrls, IUpdateService::get_RedirectUrls, RedirectUrls property [Windows Update Agent], RedirectUrls property [Windows Update Agent],IUpdateService interface, get_RedirectUrls, wua.iupdateservice_redirecturls, wuapi/IUpdateService::RedirectUrls, wuapi/IUpdateService::get_RedirectUrls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

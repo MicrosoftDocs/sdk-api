@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.OnUnload
 title: IVdsProviderPrivate::OnUnload
-author: windows-driver-content
+author: windows-sdk-content
 description: Prompts the provider object to uninitialize itself.
 old-location: base\ivdsproviderprivate_onunload.htm
 old-project: VDS
 ms.assetid: 8c4b2a0b-f056-4d3f-976c-0339c930e3cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnUnload method, IVdsProviderPrivate.OnUnload, IVdsProviderPrivate::OnUnload, OnUnload, OnUnload method [VDS], OnUnload method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onunload, vdshwprv/IVdsProviderPrivate::OnUnload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

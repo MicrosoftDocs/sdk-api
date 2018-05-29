@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_UPDATE
 title: PDD_VPORTCB_UPDATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdVideoPortUpdate callback function starts and stops the VPE object, and modifies the VPE object data stream.
 old-location: display\ddvideoportupdate.htm
 old-project: display
 ms.assetid: 50a55a89-bae0-4a65-96ef-3e9903f45a0c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdVideoPortUpdate, DdVideoPortUpdate callback function [Display Devices], PDD_VPORTCB_UPDATE, PDD_VPORTCB_UPDATE callback, ddfncs_fd19067f-3bed-443f-a11f-78b740d9e34b.xml, ddrawint/DdVideoPortUpdate, display.ddvideoportupdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

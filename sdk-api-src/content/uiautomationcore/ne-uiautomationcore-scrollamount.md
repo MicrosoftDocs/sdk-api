@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.ScrollAmount
 title: ScrollAmount
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify the direction and distance to scroll.
 old-location: winauto\uiauto_ScrollAmount.htm
 old-project: WinAuto
 ms.assetid: 94d84a66-5222-48e4-9675-444eb04558a4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ScrollAmount, ScrollAmount enumeration [Windows Accessibility], ScrollAmount_LargeDecrement, ScrollAmount_LargeIncrement, ScrollAmount_NoAmount, ScrollAmount_SmallDecrement, ScrollAmount_SmallIncrement, uiauto.uiauto_ScrollAmount, uiauto_ScrollAmount, uiautomationcore/ScrollAmount, uiautomationcore/ScrollAmount_LargeDecrement, uiautomationcore/ScrollAmount_LargeIncrement, uiautomationcore/ScrollAmount_NoAmount, uiautomationcore/ScrollAmount_SmallDecrement, uiautomationcore/ScrollAmount_SmallIncrement, winauto.uiauto_ScrollAmount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

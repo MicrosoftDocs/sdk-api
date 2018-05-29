@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ENCLAVE_INIT_INFO_VBS
 title: "_ENCLAVE_INIT_INFO_VBS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains architecture-specific information to use to initialize an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.
 old-location: base\enclave_init_info_vbs.htm
 old-project: Memory
 ms.assetid: 93DA44C6-6776-4682-84C2-347192669C77
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS structure, PENCLAVE_INIT_INFO_VBS, PENCLAVE_INIT_INFO_VBS structure pointer, _ENCLAVE_INIT_INFO_VBS, base.enclave_init_info_vbs, winnt/ENCLAVE_INIT_INFO_VBS, winnt/PENCLAVE_INIT_INFO_VBS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

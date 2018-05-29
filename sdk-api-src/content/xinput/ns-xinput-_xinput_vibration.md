@@ -1,16 +1,16 @@
 ---
 UID: NS:xinput._XINPUT_VIBRATION
 title: "_XINPUT_VIBRATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies motor speed levels for the vibration function of a controller.
 old-location: xinput\xinput_vibration.htm
 old-project: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_VIBRATION
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PXINPUT_VIBRATION, PXINPUT_VIBRATION, PXINPUT_VIBRATION structure pointer [XInput Game Controller APIs], XINPUT_VIBRATION, XINPUT_VIBRATION structure [XInput Game Controller APIs], _XINPUT_VIBRATION, xinput.xinput_vibration, xinput/PXINPUT_VIBRATION, xinput/XINPUT_VIBRATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 

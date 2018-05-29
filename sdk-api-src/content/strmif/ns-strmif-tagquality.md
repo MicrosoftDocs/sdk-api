@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagQuality
 title: tagQuality
-author: windows-driver-content
+author: windows-sdk-content
 description: The Quality structure describes a quality message by indicating Flood or Famine in the renderer and specifying the percentage of frames to drop or add to optimize the renderer's performance.
 old-location: dshow\quality.htm
 old-project: DirectShow
 ms.assetid: 2ab7fcde-0e44-4d60-acf5-3638efbe15f7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Quality, Quality structure [DirectShow], QualityStructure, dshow.quality, strmif/Quality, tagQuality
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetShowFloatingStatus
 title: ITfLangBarMgr::GetShowFloatingStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarMgr::GetShowFloatingStatus method
 old-location: tsf\itflangbarmgr_getshowfloatingstatus.htm
 old-project: TSF
 ms.assetid: ec187bf0-edf7-4d90-a102-92bb5b58ebdc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetShowFloatingStatus, GetShowFloatingStatus method [Text Services Framework], GetShowFloatingStatus method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetShowFloatingStatus method, ITfLangBarMgr.GetShowFloatingStatus, ITfLangBarMgr::GetShowFloatingStatus, _tsf_itflangbarmgr_getshowfloatingstatus_ref, ctfutb/ITfLangBarMgr::GetShowFloatingStatus, tsf.itflangbarmgr_getshowfloatingstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

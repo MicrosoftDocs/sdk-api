@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_VideoFrequency
 title: IAMTVTuner::get_VideoFrequency
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_VideoFrequency method retrieves the current video frequency.
 old-location: dshow\iamtvtuner_get_videofrequency.htm
 old-project: DirectShow
 ms.assetid: d19552ce-1314-4217-9bd3-72369b4334cf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_VideoFrequency method, IAMTVTuner.get_VideoFrequency, IAMTVTuner::get_VideoFrequency, IAMTVTunerget_VideoFrequency, dshow.iamtvtuner_get_videofrequency, get_VideoFrequency, get_VideoFrequency method [DirectShow], get_VideoFrequency method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_VideoFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

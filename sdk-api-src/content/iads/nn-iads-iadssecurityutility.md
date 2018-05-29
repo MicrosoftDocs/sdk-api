@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsSecurityUtility
 title: IADsSecurityUtility
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsSecurityUtility interface is used to get, set, or retrieve the security descriptor on a file, fileshare, or registry key.
 old-location: adsi\iadssecurityutility.htm
 old-project: ADSI
 ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI],described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.EncryptMessage
 title: EncryptMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts a message to provide privacy by using Digest.
 old-location: security\encryptmessage__digest_.htm
 old-project: SecAuthN
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

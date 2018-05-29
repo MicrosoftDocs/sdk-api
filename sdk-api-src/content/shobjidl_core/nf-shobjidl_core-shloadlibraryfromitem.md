@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromItem
 title: SHLoadLibraryFromItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and loads an IShellLibrary object from a specified library definition file.
 old-location: shell\SHLoadLibraryFromItem.htm
 old-project: shell
 ms.assetid: 9692f9d1-1504-43d0-9eb1-3759a8e2b42d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHLoadLibraryFromItem, SHLoadLibraryFromItem function [Windows Shell], _shell_SHLoadLibraryFromItem, shell.SHLoadLibraryFromItem, shobjidl_core/SHLoadLibraryFromItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

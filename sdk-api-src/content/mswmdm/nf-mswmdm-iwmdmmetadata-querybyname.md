@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.QueryByName
 title: IWMDMMetaData::QueryByName
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryByName method retrieves the value of a property specified by name.
 old-location: wmdm\iwmdmmetadata_querybyname.htm
 old-project: WMDM
 ms.assetid: e793954b-6aef-4088-97cb-eb1f050cc64b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByName method, IWMDMMetaData.QueryByName, IWMDMMetaData::QueryByName, IWMDMMetaDataQueryByName, QueryByName, QueryByName method [windows Media Device Manager], QueryByName method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByName, wmdm.iwmdmmetadata_querybyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

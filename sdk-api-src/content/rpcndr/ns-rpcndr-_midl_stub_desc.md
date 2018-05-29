@@ -1,16 +1,16 @@
 ---
 UID: NS:rpcndr._MIDL_STUB_DESC
 title: "_MIDL_STUB_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MIDL_STUB_DESC structure is a MIDL-generated structure that contains information about the interface stub regarding RPC calls between the client and server.
 old-location: rpc\midl_stub_desc.htm
 old-project: Rpc
 ms.assetid: e3178aaa-a30a-43ba-a78a-a28d6f20fa74
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MIDL_STUB_DESC, MIDL_STUB_DESC structure [RPC], PMIDL_STUB_DESC, PMIDL_STUB_DESC structure pointer [RPC], RPCFLG_HAS_CALLBACK, RPCFLG_HAS_MULTI_SYNTAXES, RPC_INTERFACE_HAS_PIPES, _MIDL_STUB_DESC, rpc.midl_stub_desc, rpcndr/MIDL_STUB_DESC, rpcndr/PMIDL_STUB_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcndr.h
 req.include-header: Rpc.h

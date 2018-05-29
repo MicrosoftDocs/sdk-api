@@ -1,16 +1,16 @@
 ---
 UID: NN:bdatif.IGuideData
 title: IGuideData
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGuideData interface is exposed by the BDA MPEG-2 Transport Information Filter (TIF). It enables the client to get service information from the MPEG-2 transport stream. Use this interface if you are writing a guide store loader.
 old-location: mstv\iguidedata.htm
 old-project: mstv
 ms.assetid: 3bd27fce-90be-480b-b157-a17beccda068
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IGuideData, IGuideData interface [Microsoft TV Technologies], IGuideData interface [Microsoft TV Technologies],described, IGuideDataInterface, bdatif/IGuideData, mstv.iguidedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 

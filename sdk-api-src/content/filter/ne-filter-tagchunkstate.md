@@ -1,16 +1,16 @@
 ---
 UID: NE:filter.tagCHUNKSTATE
 title: tagCHUNKSTATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the current chunk is a text-type property or a value-type property.
 old-location: indexsrv\chunkstate.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6mat.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CHUNKSTATE, CHUNKSTATE enumeration [Indexing Service], CHUNK_FILTER_OWNED_VALUE, CHUNK_TEXT, CHUNK_VALUE, _idxs_CHUNKSTATE, filter/CHUNKSTATE, filter/CHUNK_FILTER_OWNED_VALUE, filter/CHUNK_TEXT, filter/CHUNK_VALUE, indexsrv.chunkstate, tagCHUNKSTATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: filter.h
 req.include-header: 

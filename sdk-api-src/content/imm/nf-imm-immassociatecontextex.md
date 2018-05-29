@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmAssociateContextEx
 title: ImmAssociateContextEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the association between the input method context and the specified window or its children.
 old-location: intl\immassociatecontextex.htm
 old-project: Intl
 ms.assetid: 7f44d274-b5e9-4feb-acd6-5c68b3f7d868
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

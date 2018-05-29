@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceHoverTargetPosition
 title: ITextInputPanel::SetInPlaceHoverTargetPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Explicitly positions the Tablet PC Input Panel hover target in screen coordinates.
 old-location: tablet\itextinputpanel_setinplacehovertargetposition.htm
 old-project: tablet
 ms.assetid: 1f007a76-8499-4128-8525-0498ddeb7300
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 1f007a76-8499-4128-8525-0498ddeb7300, ITextInputPanel interface [Tablet PC],SetInPlaceHoverTargetPosition method, ITextInputPanel.SetInPlaceHoverTargetPosition, ITextInputPanel::SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition method [Tablet PC], SetInPlaceHoverTargetPosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition, tablet.itextinputpanel_setinplacehovertargetposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

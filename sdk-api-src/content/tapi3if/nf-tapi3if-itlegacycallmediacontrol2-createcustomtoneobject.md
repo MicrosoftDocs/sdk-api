@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateCustomToneObject
 title: ITLegacyCallMediaControl2::CreateCustomToneObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateCustomToneObject method creates a custom tone object to use with the GenerateCustomTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createcustomtoneobject.htm
 old-project: Tapi
 ms.assetid: addef387-9d92-4da3-af4c-b4d40bde2e36
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateCustomToneObject, CreateCustomToneObject method [TAPI 2.2], CreateCustomToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateCustomToneObject method, ITLegacyCallMediaControl2.CreateCustomToneObject, ITLegacyCallMediaControl2::CreateCustomToneObject, _tapi3_itlegacycallmediacontrol2_createcustomtoneobject, tapi3.itlegacycallmediacontrol2_createcustomtoneobject, tapi3if/ITLegacyCallMediaControl2::CreateCustomToneObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRCREATEBRUSHINDIRECT
 title: tagEMRCREATEBRUSHINDIRECT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRCREATEBRUSHINDIRECT structure contains members for the CreateBrushIndirect enhanced metafile record.
 old-location: gdi\emrcreatebrushindirect.htm
 old-project: gdi
 ms.assetid: fd87d52a-1227-48ba-8b7e-a8fd007c9d01
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT structure [Windows GDI], PEMRCREATEBRUSHINDIRECT, PEMRCREATEBRUSHINDIRECT structure pointer [Windows GDI], _win32_EMRCREATEBRUSHINDIRECT_str, gdi.emrcreatebrushindirect, tagEMRCREATEBRUSHINDIRECT, wingdi/EMRCREATEBRUSHINDIRECT, wingdi/PEMRCREATEBRUSHINDIRECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shellscalingapi.SetProcessDpiAwareness
 title: SetProcessDpiAwareness function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the process-default DPI awareness level. This is equivalent to calling SetProcessDpiAwarenessContext with the corresponding DPI_AWARENESS_CONTEXT value.
 old-location: hidpi\setprocessdpiawareness.htm
 old-project: hidpi
 ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

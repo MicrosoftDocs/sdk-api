@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_HW_Prof_Flags_ExW
 title: CM_Get_HW_Prof_Flags_ExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_HW_Prof_Flags_Ex function retrieves the hardware profile-specific configuration flags for a device instance on a remote machine or a local machine.
 old-location: devinst\cm_get_hw_prof_flags_ex.htm
 old-project: devinst
 ms.assetid: 660d63b6-b70f-422f-9023-57923290ba47
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_HW_Prof_Flags_Ex, CM_Get_HW_Prof_Flags_Ex function [Device and Driver Installation], CM_Get_HW_Prof_Flags_ExA, CM_Get_HW_Prof_Flags_ExW, cfgmgr32/CM_Get_HW_Prof_Flags_Ex, cfgmgr32/CM_Get_HW_Prof_Flags_ExA, cfgmgr32/CM_Get_HW_Prof_Flags_ExW, cfgmgrfn_af0f7a15-aa89-49b5-99f9-03f7c1b00a9d.xml, devinst.cm_get_hw_prof_flags_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

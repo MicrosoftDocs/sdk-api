@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.TestCooperativeLevel
 title: IDirectDraw7::TestCooperativeLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports the current cooperative-level status of the DirectDraw device for a windowed or full-screen application.
 old-location: directdraw\idirectdraw7_testcooperativelevel.htm
 old-project: directdraw
 ms.assetid: 6bbabd8c-f48e-480c-9ea4-06e4fce1255a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],TestCooperativeLevel method, IDirectDraw7.TestCooperativeLevel, IDirectDraw7::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [DirectDraw], TestCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::TestCooperativeLevel, directdraw.idirectdraw7_testcooperativelevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

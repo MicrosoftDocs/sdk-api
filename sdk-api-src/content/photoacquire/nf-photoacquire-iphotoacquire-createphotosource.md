@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.CreatePhotoSource
 title: IPhotoAcquire::CreatePhotoSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreatePhotoSource method initializes an IPhotoAcquireSource object to pass to IPhotoAcquire::Acquire.
 old-location: picacq\iphotoacquire_createphotosource.htm
 old-project: acquisition
 ms.assetid: 03dc14d4-03e8-4281-ae70-c9f2c5646694
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreatePhotoSource, CreatePhotoSource method [Picture Acquisition], CreatePhotoSource method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],CreatePhotoSource method, IPhotoAcquire.CreatePhotoSource, IPhotoAcquire::CreatePhotoSource, IPhotoAcquireCreatePhotoSource, photoacquire/IPhotoAcquire::CreatePhotoSource, picacq.iphotoacquire_createphotosource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

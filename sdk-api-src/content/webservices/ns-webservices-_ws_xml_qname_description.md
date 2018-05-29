@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_QNAME_DESCRIPTION
 title: "_WS_XML_QNAME_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: This type description is used with WS_XML_QNAME_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_xml_qname_description.htm
 old-project: wsw
 ms.assetid: 300c5fd1-1a66-40b8-9f26-0f0711f7a527
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_QNAME_DESCRIPTION, WS_XML_QNAME_DESCRIPTION structure [Web Services for Windows], _WS_XML_QNAME_DESCRIPTION, webservices/WS_XML_QNAME_DESCRIPTION, wsw.ws_xml_qname_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

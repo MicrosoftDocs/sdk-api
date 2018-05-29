@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_SET_PRIVATE_PROPERTY_LIST
 title: PRESUTIL_SET_PRIVATE_PROPERTY_LIST
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the private properties of a cluster object.
 old-location: mscs\resutilsetprivatepropertylist.htm
 old-project: MsCS
 ms.assetid: 18bc7455-a004-4aff-bf33-0edcb96e0cb0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_SET_PRIVATE_PROPERTY_LIST, PRESUTIL_SET_PRIVATE_PROPERTY_LIST callback, PRESUTIL_SET_PRIVATE_PROPERTY_LIST callback function [Failover Cluster], _wolf_resutilsetprivatepropertylist, mscs.resutilsetprivatepropertylist, resapi/PRESUTIL_SET_PRIVATE_PROPERTY_LIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateRemoteDesktopPlugin
 title: MFCreateRemoteDesktopPlugin function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the remote desktop plug-in object. Use this object if the application is running in a Terminal Services client session.
 old-location: mf\mfcreateremotedesktopplugin.htm
 old-project: medfound
 ms.assetid: c986c80b-b583-47be-91e7-5881db0018c2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateRemoteDesktopPlugin, MFCreateRemoteDesktopPlugin function [Media Foundation], c986c80b-b583-47be-91e7-5881db0018c2, mf.mfcreateremotedesktopplugin, mfidl/MFCreateRemoteDesktopPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

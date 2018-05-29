@@ -1,16 +1,16 @@
 ---
 UID: NS:winsync._SYNC_VERSION
 title: "_SYNC_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a version for an item or a change unit.
 old-location: winsync\sync_version.htm
 old-project: winsync
 ms.assetid: 6a493a58-3dab-4032-90de-be9f903ae489
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SYNC_VERSION, SYNC_VERSION structure [Windows Sync], _SYNC_VERSION, winsync.sync_version, winsync/SYNC_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

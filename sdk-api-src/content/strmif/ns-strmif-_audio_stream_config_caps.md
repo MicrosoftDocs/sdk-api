@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._AUDIO_STREAM_CONFIG_CAPS
 title: "_AUDIO_STREAM_CONFIG_CAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AUDIO_STREAM_CONFIG_CAPS structure describes a range of audio formats. Audio compression and capture filters use this structure to describe the formats they can produce.
 old-location: dshow\audio_stream_config_caps.htm
 old-project: DirectShow
 ms.assetid: 8a923e8e-173e-4258-ba81-7d398bd9c5fe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AUDIO_STREAM_CONFIG_CAPS, AUDIO_STREAM_CONFIG_CAPS structure [DirectShow], AUDIO_STREAM_CONFIG_CAPSStructure, _AUDIO_STREAM_CONFIG_CAPS, dshow.audio_stream_config_caps, strmif/AUDIO_STREAM_CONFIG_CAPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

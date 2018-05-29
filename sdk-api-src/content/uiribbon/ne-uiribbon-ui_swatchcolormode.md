@@ -1,16 +1,16 @@
 ---
 UID: NE:uiribbon.UI_SWATCHCOLORMODE
 title: UI_SWATCHCOLORMODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether a swatch has normal or monochrome mode.
 old-location: windowsribbon\ui_swatchcolormode.htm
 old-project: windowsribbon
 ms.assetid: 9ACDE308-B8AE-4986-8B85-190B690A4374
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: UI_SWATCHCOLORMODE, UI_SWATCHCOLORMODE enumeration [Windows Ribbon], UI_SWATCHCOLORMODE_MONOCHROME, UI_SWATCHCOLORMODE_NORMAL, uiribbon/UI_SWATCHCOLORMODE, uiribbon/UI_SWATCHCOLORMODE_MONOCHROME, uiribbon/UI_SWATCHCOLORMODE_NORMAL, windowsribbon.ui_swatchcolormode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetSigningStatus
 title: IWICComponentInfo::GetSigningStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the signing status of the component.
 old-location: wic\_wic_codec_iwiccomponentinfo_getsigningstatus.htm
 old-project: wic
 ms.assetid: a6d13240-3750-4450-8069-7e05dd89f2ab
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSigningStatus, GetSigningStatus method [Windows Imaging Component], GetSigningStatus method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSigningStatus method, IWICComponentInfo.GetSigningStatus, IWICComponentInfo::GetSigningStatus, _wic_codec_iwiccomponentinfo_getsigningstatus, wic._wic_codec_iwiccomponentinfo_getsigningstatus, wincodec/IWICComponentInfo::GetSigningStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winsvc._SERVICE_DELAYED_AUTO_START_INFO
 title: "_SERVICE_DELAYED_AUTO_START_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the delayed auto-start setting of an auto-start service.
 old-location: base\service_delayed_auto_start_info.htm
 old-project: Services
 ms.assetid: 16117450-eb73-47de-8be7-c7aff3d44c81
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*LPSERVICE_DELAYED_AUTO_START_INFO, LPSERVICE_DELAYED_AUTO_START_INFO, LPSERVICE_DELAYED_AUTO_START_INFO structure pointer, SERVICE_DELAYED_AUTO_START_INFO, SERVICE_DELAYED_AUTO_START_INFO structure, _SERVICE_DELAYED_AUTO_START_INFO, base.service_delayed_auto_start_info, winsvc/LPSERVICE_DELAYED_AUTO_START_INFO, winsvc/SERVICE_DELAYED_AUTO_START_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h

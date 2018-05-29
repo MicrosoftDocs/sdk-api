@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_count_entries
 title: ldap_count_entries function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_count_entries function counts the number of search entries that a server returned.
 old-location: ldap\ldap_count_entries.htm
 old-project: LDAP
 ms.assetid: 6e53b914-2ad8-408a-9671-50a01a8a42f1
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_count_entries, ldap.ldap__count__entries, ldap.ldap_count_entries, ldap_count_entries, ldap_count_entries function [LDAP], winldap/ldap_count_entries"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

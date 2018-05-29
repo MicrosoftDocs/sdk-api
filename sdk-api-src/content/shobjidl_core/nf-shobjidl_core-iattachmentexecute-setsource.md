@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetSource
 title: IAttachmentExecute::SetSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an alternate path or URL for the source of a file transfer.
 old-location: shell\IAttachmentExecute_SetSource.htm
 old-project: shell
 ms.assetid: 6545252b-1c43-4d62-9784-b63688ef9fdc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetSource method, IAttachmentExecute.SetSource, IAttachmentExecute::SetSource, SetSource, SetSource method [Windows Shell], SetSource method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetSource, shell.IAttachmentExecute_SetSource, shobjidl_core/IAttachmentExecute::SetSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:certmod.ICertManageModule.Configure
 title: ICertManageModule::Configure
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the module user interface.
 old-location: security\icertmanagemodule_configure.htm
 old-project: SecCrypto
 ms.assetid: dc54cda9-1818-40af-9005-f31ad3c110c4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertManageModule object [Security],Configure method, Configure, Configure method [Security], Configure method [Security],CCertManageModule object, Configure method [Security],ICertManageModule interface, ICertManageModule interface [Security],Configure method, ICertManageModule.Configure, ICertManageModule::Configure, _certsrv_icertmanagemodule_configure, certmod/ICertManageModule::Configure, security.icertmanagemodule_configure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certmod.h
 req.include-header: Certsrv.h

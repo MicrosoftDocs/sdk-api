@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.IFindSimilarResults.GetNextFileId
 title: IFindSimilarResults::GetNextFileId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the next valid similarity file ID in the file list that was returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults_getnextfileid.htm
 old-project: Rdc
 ms.assetid: 881e0ae6-311f-4bc4-9660-b0e96b7b9bd2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNextFileId, GetNextFileId method [Remote Differential Compression], GetNextFileId method [Remote Differential Compression],IFindSimilarResults interface, IFindSimilarResults interface [Remote Differential Compression],GetNextFileId method, IFindSimilarResults.GetNextFileId, IFindSimilarResults::GetNextFileId, fs.ifindsimilarresults_getnextfileid, msrdc/IFindSimilarResults::GetNextFileId, rdc.ifindsimilarresults_getnextfileid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

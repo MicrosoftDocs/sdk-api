@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerRestoreIndividualDefaultPowerScheme
 title: PowerRestoreIndividualDefaultPowerScheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces a specific power scheme for the current user with one from the default user (stored in HKEY_USERS\.Default).
 old-location: base\powerrestoreindividualdefaultpowerscheme.htm
 old-project: Power
 ms.assetid: f1a9cfb1-1b56-4873-994b-7fe929fdc86c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerRestoreIndividualDefaultPowerScheme, PowerRestoreIndividualDefaultPowerScheme function, base.powerrestoreindividualdefaultpowerscheme, powrprof/PowerRestoreIndividualDefaultPowerScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

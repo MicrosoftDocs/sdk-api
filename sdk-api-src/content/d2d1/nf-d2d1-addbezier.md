@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.AddBezier
 title: AddBezier function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 old-location: direct2d\id2d1geometrysink_addbezier.htm
 old-project: Direct2D
 ms.assetid: d1e228eb-dac6-485d-b3c9-69b2bd45e531
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: AddBezier, AddBezier methods [Direct2D], ID2D1GeometrySink::AddBezier, d2d1/AddBezier, direct2d.id2d1geometrysink_addbezier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

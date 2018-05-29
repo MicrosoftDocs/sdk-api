@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.IUrlAccessor2
 title: IUrlAccessor2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends functionality of the IUrlAccessor interface.
 old-location: search\_search_IUrlAccessor2.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\iurlaccessor2.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IUrlAccessor2, IUrlAccessor2 interface [search], IUrlAccessor2 interface [search],described, _search_IUrlAccessor2, search._search_IUrlAccessor2, searchapi/IUrlAccessor2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

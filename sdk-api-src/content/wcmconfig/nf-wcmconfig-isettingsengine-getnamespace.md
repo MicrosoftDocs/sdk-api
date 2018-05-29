@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetNamespace
 title: ISettingsEngine::GetNamespace
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing namespace as specified by the ISettingsIdentity parameter.
 old-location: smi\isettingsengine_getnamespace.htm
 old-project: SMI
 ms.assetid: 4f8193f5-9e9f-4819-aa2e-72b8623eca71
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNamespace, GetNamespace method [SMI], GetNamespace method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespace method, ISettingsEngine.GetNamespace, ISettingsEngine::GetNamespace, smi.isettingsengine_getnamespace, wcmconfig/ISettingsEngine::GetNamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

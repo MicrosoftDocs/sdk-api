@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_MONITOR_PARMS
 title: MCI_DGV_MONITOR_PARMS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_MONITOR_PARMS structure contains parameters for the MCI_MONITOR command.
 old-location: multimedia\mci_dgv_monitor_parms.htm
 old-project: Multimedia
 ms.assetid: 606a86fc-fede-43ea-84b2-386f23ca45b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_MONITOR_PARMS, MCI_DGV_METHOD_DIRECT, MCI_DGV_METHOD_POST, MCI_DGV_METHOD_PRE, MCI_DGV_MONITOR_FILE, MCI_DGV_MONITOR_INPUT, MCI_DGV_MONITOR_PARMS, MCI_DGV_MONITOR_PARMS structure [Windows Multimedia], _win32_MCI_DGV_MONITOR_PARMS_str, digitalv/MCI_DGV_MONITOR_PARMS, multimedia.mci_dgv_monitor_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

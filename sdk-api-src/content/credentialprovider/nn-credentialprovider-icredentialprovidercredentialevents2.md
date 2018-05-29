@@ -1,16 +1,16 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialEvents2
 title: ICredentialProviderCredentialEvents2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the ICredentialProviderCredentialEvents interface by adding methods that enable batch updating of fields in theLogon UI or Credential UI.
 old-location: shell\ICredentialProviderCredentialEvents2.htm
 old-project: shell
 ms.assetid: 47290FF7-1785-4470-B3A9-F35C5028A6FE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredentialEvents2, ICredentialProviderCredentialEvents2 interface [Windows Shell], ICredentialProviderCredentialEvents2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents2, shell.ICredentialProviderCredentialEvents2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtQuery
 title: EvtQuery function
-author: windows-driver-content
+author: windows-sdk-content
 description: Runs a query to retrieve events from a channel or log file that match the specified query criteria.
 old-location: wes\evtquery.htm
 old-project: WES
 ms.assetid: 06b67ec4-74ab-47d7-b7b9-1180e7dee725
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtQuery, EvtQuery function [EventLog], wes.evtquery, winevt/EvtQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

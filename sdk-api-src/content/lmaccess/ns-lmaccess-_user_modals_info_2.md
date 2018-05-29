@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_2
 title: "_USER_MODALS_INFO_2"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_MODALS_INFO_2 structure contains the Security Account Manager (SAM) domain name and identifier.
 old-location: netmgmt\user_modals_info_2_str.htm
 old-project: NetMgmt
 ms.assetid: 9a4b3fc1-03b5-4ba7-948f-e455c34fa234
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_MODALS_INFO_2, *PUSER_MODALS_INFO_2, LPUSER_MODALS_INFO_2, LPUSER_MODALS_INFO_2 structure pointer [Network Management], PUSER_MODALS_INFO_2, PUSER_MODALS_INFO_2 structure pointer [Network Management], USER_MODALS_INFO_2, USER_MODALS_INFO_2 structure [Network Management], _USER_MODALS_INFO_2, _win32_user_modals_info_2_str, lmaccess/LPUSER_MODALS_INFO_2, lmaccess/PUSER_MODALS_INFO_2, lmaccess/USER_MODALS_INFO_2, netmgmt.user_modals_info_2_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

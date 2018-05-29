@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.CreateTemplate
 title: IFsrmFileScreenTemplateManager::CreateTemplate
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a file screen template object.
 old-location: fsrm\ifsrmfilescreentemplatemanager_createtemplate.htm
 old-project: Fsrm
 ms.assetid: 3d654dee-2a27-4dc0-8e2b-fba546abe17e
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateTemplate, CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager],FsrmFileScreenTemplateManager class, CreateTemplate method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],CreateTemplate method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],CreateTemplate method, IFsrmFileScreenTemplateManager.CreateTemplate, IFsrmFileScreenTemplateManager::CreateTemplate, fs.ifsrmfilescreentemplatemanager_createtemplate, fsrm.ifsrmfilescreentemplatemanager_createtemplate, fsrmscreen/IFsrmFileScreenTemplateManager::CreateTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

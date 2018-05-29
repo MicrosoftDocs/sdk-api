@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.IsMemberOf
 title: IShellIconOverlayIdentifier::IsMemberOf
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether an icon overlay should be added to a Shell object's icon.
 old-location: shell\IShellIconOverlayIdentifier_IsMemberOf.htm
 old-project: shell
 ms.assetid: 02cbe6f3-2ee8-480b-b9c1-a2dbaf80fa26
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellIconOverlayIdentifier interface [Windows Shell],IsMemberOf method, IShellIconOverlayIdentifier.IsMemberOf, IShellIconOverlayIdentifier::IsMemberOf, IsMemberOf, IsMemberOf method [Windows Shell], IsMemberOf method [Windows Shell],IShellIconOverlayIdentifier interface, _win32_IShellIconOverlayIdentifier_IsMemberOf, shell.IShellIconOverlayIdentifier_IsMemberOf, shobjidl_core/IShellIconOverlayIdentifier::IsMemberOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE
 title: "_MINIDUMP_MODULE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information for a specific module.
 old-location: base\minidump_module_str.htm
 old-project: Debug
 ms.assetid: 17e32c6e-29df-4308-b22d-39e13bc6a2a5
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_MODULE, MINIDUMP_MODULE, MINIDUMP_MODULE structure, PMINIDUMP_MODULE, PMINIDUMP_MODULE structure pointer, _MINIDUMP_MODULE, _win32_minidump_module_str, base.minidump_module_str, minidumpapiset/MINIDUMP_MODULE, minidumpapiset/PMINIDUMP_MODULE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

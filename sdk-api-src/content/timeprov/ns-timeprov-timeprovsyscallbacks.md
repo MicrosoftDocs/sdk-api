@@ -1,16 +1,16 @@
 ---
 UID: NS:timeprov.TimeProvSysCallbacks
 title: TimeProvSysCallbacks
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains pointers to functions for use by the time provider.
 old-location: base\timeprovsyscallbacks_str.htm
 old-project: SysInfo
 ms.assetid: a38f8b26-9450-4033-bdd7-e73726c2d609
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TimeProvSysCallbacks, TimeProvSysCallbacks structure, _win32_timeprovsyscallbacks_str, base.timeprovsyscallbacks_str, timeprov/TimeProvSysCallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: timeprov.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToStream
 title: IXpsSignatureManager::SavePackageToStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the XPS package by writing it to a stream.
 old-location: xps\ixpssignaturemanager_savepackagetostream.htm
 old-project: printdocs
 ms.assetid: 1a29c8e2-2e5d-4cc0-adfd-6debabca9243
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SavePackageToStream method, IXpsSignatureManager.SavePackageToStream, IXpsSignatureManager::SavePackageToStream, SavePackageToStream, SavePackageToStream method [XPS Documents and Packaging], SavePackageToStream method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_savepackagetostream, xpsdigitalsignature/IXpsSignatureManager::SavePackageToStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

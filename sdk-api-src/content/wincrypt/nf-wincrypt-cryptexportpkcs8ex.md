@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptExportPKCS8Ex
 title: CryptExportPKCS8Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: Exports the private key in PKCS #8 format.
 old-location: security\cryptexportpkcs8ex.htm
 old-project: SecCrypto
 ms.assetid: 82fee86a-8704-4f22-8f11-f89509c5a0aa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptExportPKCS8Ex, CryptExportPKCS8Ex function [Security], security.cryptexportpkcs8ex, wincrypt/CryptExportPKCS8Ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

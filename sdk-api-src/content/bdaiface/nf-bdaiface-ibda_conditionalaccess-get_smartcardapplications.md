@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardApplications
 title: IBDA_ConditionalAccess::get_SmartCardApplications
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_SmartCardApplications method retrieves a list of the smart card applications.
 old-location: mstv\ibda_conditionalaccess_get_smartcardapplications.htm
 old-project: mstv
 ms.assetid: 5667ca9c-c46d-43d6-a7da-1f0ff340e869
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardApplications method, IBDA_ConditionalAccess.get_SmartCardApplications, IBDA_ConditionalAccess::get_SmartCardApplications, IBDA_ConditionalAccessget_SmartCardApplications, bdaiface/IBDA_ConditionalAccess::get_SmartCardApplications, get_SmartCardApplications, get_SmartCardApplications method [Microsoft TV Technologies], get_SmartCardApplications method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardapplications
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

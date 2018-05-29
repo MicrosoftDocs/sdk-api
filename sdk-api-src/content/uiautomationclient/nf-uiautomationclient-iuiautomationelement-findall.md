@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindAll
 title: IUIAutomationElement::FindAll
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns all UI Automation elements that satisfy the specified condition.
 old-location: winauto\uiauto_IUIAutomationElement_FindAll.htm
 old-project: WinAuto
 ms.assetid: ead73c6d-7fb8-4e00-b027-5d747268af08
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FindAll, FindAll method [Windows Accessibility], FindAll method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAll method, IUIAutomationElement.FindAll, IUIAutomationElement::FindAll, uiauto.uiauto_IUIAutomationElement_FindAll, uiauto_IUIAutomationElement_FindAll, uiautomationclient/IUIAutomationElement::FindAll, winauto.uiauto_IUIAutomationElement_FindAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

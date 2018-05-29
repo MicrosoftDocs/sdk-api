@@ -1,16 +1,16 @@
 ---
 UID: NE:exdisp.ShellWindowTypeConstants
 title: ShellWindowTypeConstants
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies types of Shell windows.
 old-location: shell\ShellWindowTypeConstants.htm
 old-project: shell
 ms.assetid: 79d4fcf3-5256-4e21-ab9a-94605e1d742f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SWC_3RDPARTY, SWC_BROWSER, SWC_CALLBACK, SWC_DESKTOP, SWC_EXPLORER, ShellWindowTypeConstants, ShellWindowTypeConstants enumeration [Windows Shell], _win32_ShellWindowTypeConstants, exdisp/SWC_3RDPARTY, exdisp/SWC_BROWSER, exdisp/SWC_CALLBACK, exdisp/SWC_DESKTOP, exdisp/SWC_EXPLORER, exdisp/ShellWindowTypeConstants, shell.ShellWindowTypeConstants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: exdisp.h
 req.include-header: 

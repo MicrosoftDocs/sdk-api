@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.GetRenderingMode
 title: IVMRFilterConfig::GetRenderingMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRenderingMode method retrieves the rendering mode currently being used by the VMR.
 old-location: dshow\ivmrfilterconfig_getrenderingmode.htm
 old-project: DirectShow
 ms.assetid: 139b0326-2ab1-4fa4-91ae-9115b4368660
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetRenderingMode, GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetRenderingMode method, IVMRFilterConfig.GetRenderingMode, IVMRFilterConfig::GetRenderingMode, IVMRFilterConfigGetRenderingMode, dshow.ivmrfilterconfig_getrenderingmode, strmif/IVMRFilterConfig::GetRenderingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

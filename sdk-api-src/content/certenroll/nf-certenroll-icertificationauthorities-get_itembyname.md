@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get_ItemByName
 title: ICertificationAuthorities::get_ItemByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an ICertificationAuthority object from the collection by certification authority name.
 old-location: security\icertificationauthorities_itembyname.htm
 old-project: SecCertEnroll
 ms.assetid: 90d620d6-1060-46fc-b593-9cb819b4eac8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificationAuthorities interface [Security],ItemByName property, ICertificationAuthorities.ItemByName, ICertificationAuthorities.get_ItemByName, ICertificationAuthorities::ItemByName, ICertificationAuthorities::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::ItemByName, certenroll/ICertificationAuthorities::get_ItemByName, get_ItemByName, security.icertificationauthorities_itembyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

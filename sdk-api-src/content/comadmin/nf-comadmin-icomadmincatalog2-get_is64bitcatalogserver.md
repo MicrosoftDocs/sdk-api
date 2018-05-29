@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_Is64BitCatalogServer
 title: ICOMAdminCatalog2::get_Is64BitCatalogServer
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the currently connected catalog server is a 64-bit computer.
 old-location: cos\icomadmincatalog2_is64bitcatalogserver.htm
 old-project: cossdk
 ms.assetid: 6c5371e2-c196-4a98-9738-bbf3c456c36e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],Is64BitCatalogServer property, ICOMAdminCatalog2.Is64BitCatalogServer, ICOMAdminCatalog2.get_Is64BitCatalogServer, ICOMAdminCatalog2::Is64BitCatalogServer, ICOMAdminCatalog2::get_Is64BitCatalogServer, Is64BitCatalogServer property [COM+], Is64BitCatalogServer property [COM+],ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::get_Is64BitCatalogServer, cos.icomadmincatalog2_is64bitcatalogserver, get_Is64BitCatalogServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.MoveToEx
 title: MoveToEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MoveToEx function updates the current position to the specified point and optionally returns the previous position.
 old-location: gdi\movetoex.htm
 old-project: gdi
 ms.assetid: af11eeb7-4036-4a90-8685-9b5719f79e01
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MoveToEx, MoveToEx function [Windows GDI], _win32_MoveToEx, gdi.movetoex, wingdi/MoveToEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

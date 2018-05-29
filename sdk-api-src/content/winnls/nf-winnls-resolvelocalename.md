@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.ResolveLocaleName
 title: ResolveLocaleName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds a possible locale name match for the supplied name.
 old-location: intl\resolvelocalename.htm
 old-project: Intl
 ms.assetid: 99264b22-3fb5-47e2-b0b9-42a6768e67c1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ResolveLocaleName, ResolveLocaleName function [Internationalization for Windows Applications], intl.resolvelocalename, winnls/ResolveLocaleName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

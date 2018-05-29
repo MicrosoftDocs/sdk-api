@@ -1,16 +1,16 @@
 ---
 UID: NC:werapi.PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE
 title: PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE
-author: windows-driver-content
+author: windows-sdk-content
 description: WER can call this function multiple times to get the report parameters that uniquely describe the problem.
 old-location: wer\outofprocessexceptioneventsignaturecallback.htm
 old-project: wer
 ms.assetid: 892498db-0265-4276-9735-63a8104ecaa9
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: OutOfProcessExceptionEventSignatureCallback, OutOfProcessExceptionEventSignatureCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE, PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE callback, wer.outofprocessexceptioneventsignaturecallback, werapi/OutOfProcessExceptionEventSignatureCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: werapi.h
 req.include-header: 

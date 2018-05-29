@@ -1,16 +1,16 @@
 ---
 UID: NN:wpcapi.IWPCProviderSupport
 title: IWPCProviderSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow third-party providers to query the currently enabled provider.
 old-location: parcon\iwpcprovidersupport.htm
 old-project: parcon
 ms.assetid: 5c2a793b-d136-4d03-9e46-b24009af2c7d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWPCProviderSupport, IWPCProviderSupport interface, IWPCProviderSupport interface,described, parcon.iwpcprovidersupport, wpcapi/IWPCProviderSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

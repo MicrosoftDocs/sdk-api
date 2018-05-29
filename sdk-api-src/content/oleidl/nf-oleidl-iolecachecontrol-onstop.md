@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleCacheControl.OnStop
 title: IOleCacheControl::OnStop
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the cache that it should terminate any existing advise sinks. No indication is given as to whether a connection actually existed.
 old-location: com\iolecachecontrol_onstop.htm
 old-project: com
 ms.assetid: 95e62e9d-39bd-4bf8-ba25-c6a9c7fc515b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleCacheControl interface [COM],OnStop method, IOleCacheControl.OnStop, IOleCacheControl::OnStop, OnStop, OnStop method [COM], OnStop method [COM],IOleCacheControl interface, _ole_iolecachecontrol_onstop, com.iolecachecontrol_onstop, oleidl/IOleCacheControl::OnStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

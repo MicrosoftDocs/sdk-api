@@ -1,16 +1,16 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATVisuals.get_Bitmap
 title: IProvideWinSATVisuals::get_Bitmap
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a bitmap for the WinSAT base score.
 old-location: winsat\iprovidewinsatvisuals_get_bitmap.htm
 old-project: WinSAT
 ms.assetid: 90188fb1-3125-459e-a475-5042c2ee0a5c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProvideWinSATVisuals interface [WinSAT],get_Bitmap method, IProvideWinSATVisuals.get_Bitmap, IProvideWinSATVisuals::get_Bitmap, get_Bitmap, get_Bitmap method [WinSAT], get_Bitmap method [WinSAT],IProvideWinSATVisuals interface, winsat.iprovidewinsatvisuals_get_bitmap, winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

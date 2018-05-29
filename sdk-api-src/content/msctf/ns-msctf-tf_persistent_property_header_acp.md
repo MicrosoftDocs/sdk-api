@@ -1,16 +1,16 @@
 ---
 UID: NS:msctf.TF_PERSISTENT_PROPERTY_HEADER_ACP
 title: TF_PERSISTENT_PROPERTY_HEADER_ACP
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_PERSISTENT_PROPERTY_HEADER_ACP structure is used to provide property header data.
 old-location: tsf\tf_persistent_property_header_acp.htm
 old-project: TSF
 ms.assetid: 9c5cb193-d18e-4d91-b9be-b8a61a56d3a3
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_PERSISTENT_PROPERTY_HEADER_ACP, TF_PERSISTENT_PROPERTY_HEADER_ACP structure [Text Services Framework], _tsf_tf_persistent_property_header_acp_ref, msctf/TF_PERSISTENT_PROPERTY_HEADER_ACP, tsf.tf_persistent_property_header_acp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Sender
 title: IFaxOutgoingJob::get_Sender
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutgoingJob::get_Sender property retrieves an object containing information about the sender of the fax.
 old-location: fax\_mfax_faxoutgoingjob_sender_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qsy_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Sender property, IFaxOutgoingJob.Sender, IFaxOutgoingJob.get_Sender, IFaxOutgoingJob::Sender, IFaxOutgoingJob::get_Sender, Sender property [Fax Service], Sender property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.sender_cpp, fax._mfax_faxoutgoingjob_sender_cpp, faxcomex/IFaxOutgoingJob::Sender, faxcomex/IFaxOutgoingJob::get_Sender, get_Sender
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmGetTransportAttributes
 title: DwmGetTransportAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves transport attributes.
 old-location: dwm\dwmgettransportattributes.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgettransportattributes.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmGetTransportAttributes, DwmGetTransportAttributes function [Desktop Window Manager], _udwm_dwmgettransportattributes, _udwm_dwmgettransportattributes_cpp, dwm.dwmgettransportattributes, dwmapi/DwmGetTransportAttributes, winui._udwm_dwmgettransportattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

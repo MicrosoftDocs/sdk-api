@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_RELATIONSHIP
 title: "_DHCP_FAILOVER_RELATIONSHIP"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.
 old-location: dhcp\dhcp_failover_relationship.htm
 old-project: DHCP
 ms.assetid: b409b0ff-2fdc-416c-a7ce-2cba9cf75122
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP, LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP], _DHCP_FAILOVER_RELATIONSHIP, dhcp.dhcp_failover_relationship, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

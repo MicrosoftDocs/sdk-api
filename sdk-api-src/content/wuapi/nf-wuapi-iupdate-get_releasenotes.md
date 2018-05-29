@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_ReleaseNotes
 title: IUpdate::get_ReleaseNotes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the localized release notes for the update.
 old-location: wua\iupdate_releasenotes.htm
 old-project: Wua_Sdk
 ms.assetid: b27dc2f6-c985-437f-b960-f2470c30ef0a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],ReleaseNotes property, IUpdate.ReleaseNotes, IUpdate.get_ReleaseNotes, IUpdate::ReleaseNotes, IUpdate::get_ReleaseNotes, ReleaseNotes property [Windows Update Agent], ReleaseNotes property [Windows Update Agent],IUpdate interface, get_ReleaseNotes, wua.iupdate_releasenotes, wuapi/IUpdate::ReleaseNotes, wuapi/IUpdate::get_ReleaseNotes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

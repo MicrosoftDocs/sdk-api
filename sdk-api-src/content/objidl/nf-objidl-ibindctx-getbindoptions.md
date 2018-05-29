@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IBindCtx.GetBindOptions
 title: IBindCtx::GetBindOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the binding options stored in this bind context.
 old-location: com\ibindctx_getbindoptions.htm
 old-project: com
 ms.assetid: ccb239ee-922f-4e66-8aca-7651c0243a2b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBindOptions, GetBindOptions method [COM], GetBindOptions method [COM],IBindCtx interface, IBindCtx interface [COM],GetBindOptions method, IBindCtx.GetBindOptions, IBindCtx::GetBindOptions, _com_ibindctx_getbindoptions, com.ibindctx_getbindoptions, objidl/IBindCtx::GetBindOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetItemCount
 title: ISpatialAudioMetadataItems::GetItemCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The current number of items stored by the ISpatialAudioMetadataItems.
 old-location: coreaudio\ispatialaudiometadataitems_getitemcount.htm
 old-project: CoreAudio
 ms.assetid: 168FDDA7-FB87-47B3-A7BC-88398663A7DD
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetItemCount, GetItemCount method [Core Audio], GetItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetItemCount method, ISpatialAudioMetadataItems.GetItemCount, ISpatialAudioMetadataItems::GetItemCount, coreaudio.ispatialaudiometadataitems_getitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetItemCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

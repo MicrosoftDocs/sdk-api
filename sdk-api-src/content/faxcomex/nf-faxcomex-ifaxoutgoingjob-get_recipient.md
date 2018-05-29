@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Recipient
 title: IFaxOutgoingJob::get_Recipient
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutgoingJob::get_Recipient property retrieves an interface to an object containing information about the recipient of the fax job.
 old-location: fax\_mfax_faxoutgoingjob_recipient_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7bhw_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Recipient property, IFaxOutgoingJob.Recipient, IFaxOutgoingJob.get_Recipient, IFaxOutgoingJob::Recipient, IFaxOutgoingJob::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.recipient_cpp, fax._mfax_faxoutgoingjob_recipient_cpp, faxcomex/IFaxOutgoingJob::Recipient, faxcomex/IFaxOutgoingJob::get_Recipient, get_Recipient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

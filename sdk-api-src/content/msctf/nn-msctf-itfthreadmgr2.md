@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfThreadMgr2
 title: ITfThreadMgr2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfThreadMgr2 defines the primary object implemented by the TSF manager. ITfThreadMgr2 is used by applications and text services to activate and deactivate text services, create document managers, and maintain the document context focus.
 old-location: tsf\itfthreadmgr2.htm
 old-project: TSF
 ms.assetid: B80A0DBA-349A-450D-BD9D-14BD36308590
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], ITfThreadMgr2 interface [Text Services Framework],described, msctf/ITfThreadMgr2, tsf.itfthreadmgr2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

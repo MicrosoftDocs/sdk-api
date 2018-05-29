@@ -1,16 +1,16 @@
 ---
 UID: NF:msajtransport.AllJoynReceiveFromBus
 title: AllJoynReceiveFromBus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives data from the bus via named pipe.
 old-location: alljoyn\alljoynreceivefrombus.htm
 old-project: AllJoyn
 ms.assetid: 5E11BCDC-319C-4C53-914E-73B2FEC4747E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AllJoynReceiveFromBus, AllJoynReceiveFromBus function [AllJoyn API], alljoyn.alljoynreceivefrombus, msajtransport/AllJoynReceiveFromBus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msajtransport.h
 req.include-header: 

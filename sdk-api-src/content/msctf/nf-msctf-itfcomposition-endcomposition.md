@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfComposition.EndComposition
 title: ITfComposition::EndComposition
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfComposition::EndComposition method
 old-location: tsf\itfcomposition_endcomposition.htm
 old-project: TSF
 ms.assetid: b5717c03-2611-4199-b07d-b6f3b6f65d3a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EndComposition, EndComposition method [Text Services Framework], EndComposition method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],EndComposition method, ITfComposition.EndComposition, ITfComposition::EndComposition, _tsf_itfcomposition_endcomposition_ref, msctf/ITfComposition::EndComposition, tsf.itfcomposition_endcomposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

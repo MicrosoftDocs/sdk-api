@@ -1,16 +1,16 @@
 ---
 UID: NF:dmort.MoCopyMediaType
 title: MoCopyMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MoCopyMediaType function copies the members of one media type structure into another media type structure.
 old-location: dshow\mocopymediatype.htm
 old-project: DirectShow
 ms.assetid: 7b6325bf-a996-467e-896d-a6dc41f63fd4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MoCopyMediaType, MoCopyMediaType function [DirectShow], dmort/MoCopyMediaType, dshow.mocopymediatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h

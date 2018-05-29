@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowInboundRouterRequest
 title: INetFwIcmpSettings::put_AllowInboundRouterRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundrouterrequest.htm
 old-project: ICS
 ms.assetid: 26d9b17c-808d-4d01-921a-9ac435f327db
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AllowInboundRouterRequest property [ICS/ICF], AllowInboundRouterRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundRouterRequest property, INetFwIcmpSettings.AllowInboundRouterRequest, INetFwIcmpSettings.put_AllowInboundRouterRequest, INetFwIcmpSettings::AllowInboundRouterRequest, INetFwIcmpSettings::get_AllowInboundRouterRequest, INetFwIcmpSettings::put_AllowInboundRouterRequest, ics.inetfwicmpsettings_allowinboundrouterrequest, netfw/INetFwIcmpSettings::AllowInboundRouterRequest, netfw/INetFwIcmpSettings::get_AllowInboundRouterRequest, netfw/INetFwIcmpSettings::put_AllowInboundRouterRequest, put_AllowInboundRouterRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

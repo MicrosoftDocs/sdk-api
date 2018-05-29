@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.ITaskTrigger.GetTriggerString
 title: ITaskTrigger::GetTriggerString
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTriggerString method retrieves the current task trigger in the form of a string. This string appears in the Task Scheduler user interface in a form similar to &#0034;At 2PM every day, starting 5/11/97.&#0034;.
 old-location: taskschd\itasktrigger_gettriggerstring.htm
 old-project: TaskSchd
 ms.assetid: 5e21b61e-a43d-47b3-9380-b90d94e13cb8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTriggerString method, ITaskTrigger.GetTriggerString, ITaskTrigger::GetTriggerString, _msb_itasktrigger_gettriggerstring, mstask/ITaskTrigger::GetTriggerString, taskschd.itasktrigger_gettriggerstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

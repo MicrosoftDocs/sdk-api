@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._RAS_PORT_1
 title: "_RAS_PORT_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RAS_PORT_1 structure contains detailed information regarding a specific RAS port, such as line speed or errors. For more general information about a port, such as port condition or port name, see RAS_PORT_0.
 old-location: rras\ras_port_1.htm
 old-project: RRAS
 ms.assetid: 4850f08e-13ee-485f-99a5-be4554d6311b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PRAS_PORT_1, PRAS_PORT_1, PRAS_PORT_1 structure pointer [RAS], RAS_PORT_1, RAS_PORT_1 structure [RAS], _RAS_PORT_1, _mpr_ras_port_1, mprapi/PRAS_PORT_1, mprapi/RAS_PORT_1, rras.ras_port_1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

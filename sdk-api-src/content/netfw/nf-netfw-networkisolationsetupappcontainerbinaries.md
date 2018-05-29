@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.NetworkIsolationSetupAppContainerBinaries
 title: NetworkIsolationSetupAppContainerBinaries function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used by software installers to provide information about the image paths of applications that are running in an app container.
 old-location: ics\networkisolationsetupappcontainerbinaries.htm
 old-project: ICS
 ms.assetid: 67a183ec-b318-4f43-9241-cc34b9b251f1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupAppContainerBinaries function [ICS/ICF], ics.networkisolationsetupappcontainerbinaries, networkisolation/NetworkIsolationSetupAppContainerBinaries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h

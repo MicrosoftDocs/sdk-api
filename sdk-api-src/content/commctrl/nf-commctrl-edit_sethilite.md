@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Edit_SetHilite
 title: Edit_SetHilite macro
-author: windows-driver-content
+author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\Edit_SetHilite.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_sethilite.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Edit_SetHilite, Edit_SetHilite macro [Windows Controls], _shell_Edit_SetHilite, _shell_Edit_SetHilite_cpp, commctrl/Edit_SetHilite, controls.Edit_SetHilite, controls._shell_Edit_SetHilite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

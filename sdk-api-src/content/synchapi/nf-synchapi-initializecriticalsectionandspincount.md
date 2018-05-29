@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.InitializeCriticalSectionAndSpinCount
 title: InitializeCriticalSectionAndSpinCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a critical section object and sets the spin count for the critical section.
 old-location: base\initializecriticalsectionandspincount.htm
 old-project: Sync
 ms.assetid: 4b84b305-8bc0-4592-9378-b757bbc0de19
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitializeCriticalSectionAndSpinCount, InitializeCriticalSectionAndSpinCount function, _win32_initializecriticalsectionandspincount, base.initializecriticalsectionandspincount, synchapi/InitializeCriticalSectionAndSpinCount, winbase/InitializeCriticalSectionAndSpinCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

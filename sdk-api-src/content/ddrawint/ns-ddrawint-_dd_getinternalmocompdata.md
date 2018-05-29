@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_GETINTERNALMOCOMPDATA
 title: "_DD_GETINTERNALMOCOMPDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_GETINTERNALMOCOMPDATA structure contains the internal memory requirements.
 old-location: display\dd_getinternalmocompdata.htm
 old-project: display
 ms.assetid: 5d8f722f-7574-485e-9ff2-568cd0ae23f7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA structure [Display Devices], _DD_GETINTERNALMOCOMPDATA, ddrawint/DD_GETINTERNALMOCOMPDATA, ddstrcts_02721b17-cf19-462c-b588-039431b8d548.xml, display.dd_getinternalmocompdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

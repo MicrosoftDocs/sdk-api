@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegQueryValue
 title: ClusterRegQueryValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the name, type, and data components associated with a value for an open cluster database key.
 old-location: mscs\clusterregqueryvalue.htm
 old-project: MsCS
 ms.assetid: 78ea27da-2b95-46df-b01e-4a3717276859
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegQueryValue, ClusterRegQueryValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregqueryvalue, clusapi/ClusterRegQueryValue, mscs.clusterregqueryvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

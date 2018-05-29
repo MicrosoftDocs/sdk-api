@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IRpcProxyBuffer.Connect
 title: IRpcProxyBuffer::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a client proxy, binding it to the specified RPC channel.
 old-location: com\irpcproxybuffer_connect.htm
 old-project: com
 ms.assetid: 18651110-9d20-4acc-b21e-9a93099e31bd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcProxyBuffer interface, IRpcProxyBuffer interface [COM],Connect method, IRpcProxyBuffer.Connect, IRpcProxyBuffer::Connect, _com_irpcproxybuffer_connect, com.irpcproxybuffer_connect, objidlbase/IRpcProxyBuffer::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

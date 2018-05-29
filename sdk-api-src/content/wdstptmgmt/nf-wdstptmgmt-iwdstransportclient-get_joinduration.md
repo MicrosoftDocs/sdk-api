@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_JoinDuration
 title: IWdsTransportClient::get_JoinDuration
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the time elapsed, in seconds, since the WDS client joined to the transport session.
 old-location: wds\iwdstransportclient_joinduration.htm
 old-project: Wds
 ms.assetid: f9c71b00-fd76-4b02-95b3-1f930bc8e935
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],JoinDuration property, IWdsTransportClient.JoinDuration, IWdsTransportClient.get_JoinDuration, IWdsTransportClient::JoinDuration, IWdsTransportClient::get_JoinDuration, JoinDuration property [Windows Deployment Services], JoinDuration property [Windows Deployment Services],IWdsTransportClient interface, get_JoinDuration, wds.iwdstransportclient_joinduration, wdstptmgmt/IWdsTransportClient::JoinDuration, wdstptmgmt/IWdsTransportClient::get_JoinDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

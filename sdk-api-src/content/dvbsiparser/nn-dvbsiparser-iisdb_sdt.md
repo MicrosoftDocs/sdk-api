@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IISDB_SDT
 title: IISDB_SDT
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) service description table (SDT). An SDT lists the names and other parameters of the services in an MPEG-2 transport stream.
 old-location: mstv\iisdb_sdt.htm
 old-project: mstv
 ms.assetid: a9824eb9-ec12-4a09-ba42-243fe19c0670
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_SDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDT, mstv.iisdb_sdt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

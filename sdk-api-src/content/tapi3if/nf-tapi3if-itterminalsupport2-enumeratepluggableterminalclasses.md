@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.EnumeratePluggableTerminalClasses
 title: ITTerminalSupport2::EnumeratePluggableTerminalClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumeratePluggableTerminalClasses method enumerates the pluggable terminal classes registered under a given superclass.
 old-location: tapi3\itterminalsupport2_enumeratepluggableterminalclasses.htm
 old-project: Tapi
 ms.assetid: e8a10b1b-b08e-49b2-bfc6-9f8f4dbc1248
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumeratePluggableTerminalClasses, EnumeratePluggableTerminalClasses method [TAPI 2.2], EnumeratePluggableTerminalClasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableTerminalClasses method, ITTerminalSupport2.EnumeratePluggableTerminalClasses, ITTerminalSupport2::EnumeratePluggableTerminalClasses, _tapi3_itterminalsupport2_enumeratepluggableterminalclasses, tapi3.itterminalsupport2_enumeratepluggableterminalclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableTerminalClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

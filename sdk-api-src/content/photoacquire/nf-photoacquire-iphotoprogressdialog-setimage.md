@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetImage
 title: IPhotoProgressDialog::SetImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets either the thumbnail image displayed in the progress dialog box, the icon in the title bar of the progress dialog box, or the icon in ALT+TAB key combination windows.
 old-location: picacq\iphotoprogressdialog_setimage.htm
 old-project: acquisition
 ms.assetid: 45b795c4-4f95-4132-86a7-cda47e534e9c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetImage method, IPhotoProgressDialog.SetImage, IPhotoProgressDialog::SetImage, IPhotoProgressDialogSetImage, PROGRESS_DIALOG_BITMAP_THUMBNAIL, PROGRESS_DIALOG_ICON_LARGE, PROGRESS_DIALOG_ICON_SMALL, PROGRESS_DIALOG_ICON_THUMBNAIL, SetImage, SetImage method [Picture Acquisition], SetImage method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetImage, picacq.iphotoprogressdialog_setimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

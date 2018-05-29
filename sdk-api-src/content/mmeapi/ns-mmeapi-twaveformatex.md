@@ -1,16 +1,16 @@
 ---
 UID: NS:mmeapi.tWAVEFORMATEX
 title: tWAVEFORMATEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The WAVEFORMAT structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the WAVEFORMATEX structure.
 old-location: multimedia\waveformat.htm
 old-project: Multimedia
 ms.assetid: 48871868-792a-4479-9e92-95306c25673a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVEFORMATEX, WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: Mmreg.h

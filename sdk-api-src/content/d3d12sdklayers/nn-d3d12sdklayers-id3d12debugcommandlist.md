@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandList
 title: ID3D12DebugCommandList
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to monitor and debug a command list.
 old-location: direct3d12\id3d12debugcommandlist.htm
 old-project: direct3d12
 ms.assetid: EDE527F0-4091-4B03-9030-6F693FE901BE
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12DebugCommandList, ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,described, d3d12sdklayers/ID3D12DebugCommandList, direct3d12.id3d12debugcommandlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 

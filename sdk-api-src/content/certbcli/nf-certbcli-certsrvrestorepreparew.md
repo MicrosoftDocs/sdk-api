@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvRestorePrepareW
 title: CertSrvRestorePrepareW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Prepares a Certificate Services instance for restore operations.
 old-location: security\certsrvrestoreprepare.htm
 old-project: SecCrypto
 ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

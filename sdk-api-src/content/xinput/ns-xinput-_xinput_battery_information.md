@@ -1,16 +1,16 @@
 ---
 UID: NS:xinput._XINPUT_BATTERY_INFORMATION
 title: "_XINPUT_BATTERY_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information on battery type and charge state.
 old-location: xinput\xinput_battery_information.htm
 old-project: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_BATTERY_INFORMATION
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION structure pointer [XInput Game Controller APIs], XINPUT_BATTERY_INFORMATION, XINPUT_BATTERY_INFORMATION structure [XInput Game Controller APIs], _XINPUT_BATTERY_INFORMATION, xinput.xinput_battery_information, xinput/PXINPUT_BATTERY_INFORMATION, xinput/XINPUT_BATTERY_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 

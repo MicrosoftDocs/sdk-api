@@ -1,16 +1,16 @@
 ---
 UID: NS:imm.tagREGISTERWORDW
 title: tagREGISTERWORDW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains reading information or a word to register.
 old-location: intl\registerword.htm
 old-project: Intl
 ms.assetid: 70a11a96-a0e3-4741-be91-b85eb38cd767
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPREGISTERWORDW, *NPREGISTERWORDW, *PREGISTERWORDW, PREGISTERWORD, PREGISTERWORD structure pointer [Internationalization for Windows Applications], REGISTERWORD, REGISTERWORD structure [Internationalization for Windows Applications], REGISTERWORDA, REGISTERWORDW, _win32_REGISTERWORD_str, imm/PREGISTERWORD, imm/REGISTERWORD, imm/REGISTERWORDA, imm/REGISTERWORDW, intl.registerword, tagREGISTERWORDA, tagREGISTERWORDW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h

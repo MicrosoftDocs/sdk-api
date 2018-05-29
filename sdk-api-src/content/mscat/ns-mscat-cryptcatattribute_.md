@@ -1,16 +1,16 @@
 ---
 UID: NS:mscat.CRYPTCATATTRIBUTE_
 title: CRYPTCATATTRIBUTE_
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPTCATATTRIBUTE structure defines a catalog attribute. This structure is used by the CryptCATEnumerateAttr and CryptCATEnumerateCatAttr functions.
 old-location: security\cryptcatattribute.htm
 old-project: SecCrypto
 ms.assetid: 41b91303-f3eb-4288-9ad2-98f170680988
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTCATATTRIBUTE, CRYPTCATATTRIBUTE structure [Security], CRYPTCATATTRIBUTE_, CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR_DATABASE64, CRYPTCAT_ATTR_DATAREPLACE, CRYPTCAT_ATTR_NAMEASCII, CRYPTCAT_ATTR_NAMEOBJID, CRYPTCAT_ATTR_UNAUTHENTICATED, mscat/CRYPTCATATTRIBUTE, security.cryptcatattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 

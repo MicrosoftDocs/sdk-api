@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.EnumSystemGeoNames
 title: EnumSystemGeoNames function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the two-letter International Organization for Standardization (ISO) 3166-1 codes or numeric United Nations (UN) Series M, Number 49 (M.49) codes for geographical locations that are available on the operating system.
 old-location: intl\enumsystemgeonames.htm
 old-project: Intl
 ms.assetid: 0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumSystemGeoNames, EnumSystemGeoNames function [Internationalization for Windows Applications], intl.enumsystemgeonames, winnls/EnumSystemGeoNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

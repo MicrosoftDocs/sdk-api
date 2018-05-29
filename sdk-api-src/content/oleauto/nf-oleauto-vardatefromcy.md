@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDateFromCy
 title: VarDateFromCy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a currency value to a date value.
 old-location: automat\vardatefromcy.htm
 old-project: automat
 ms.assetid: b14f82af-4f26-4211-9368-e4da653c0492
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDateFromCy, VarDateFromCy function [Automation], _oa96_VarDateFromCy, automat.vardatefromcy, oleauto/VarDateFromCy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

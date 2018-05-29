@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamIsKeyFrame
 title: AVIStreamIsKeyFrame macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamIsKeyFrame macro indicates whether a sample in a specified stream is a key frame.
 old-location: multimedia\avistreamiskeyframe.htm
 old-project: Multimedia
 ms.assetid: 615ca0be-44d3-4dc4-9dc1-c14e8b50e835
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamIsKeyFrame, AVIStreamIsKeyFrame macro [Windows Multimedia], _win32_AVIStreamIsKeyFrame, multimedia.avistreamiskeyframe, vfw/AVIStreamIsKeyFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

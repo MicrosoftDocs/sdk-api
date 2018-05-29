@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsapi32._WTS_PROCESS_INFO_EXW
 title: "_WTS_PROCESS_INFO_EXW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_process_info_ex.htm
 old-project: TermServ
 ms.assetid: a678d249-4943-4d2b-9cea-87ce20177c75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTS_PROCESS_INFO_EXW, PWTS_PROCESS_INFO_EX, PWTS_PROCESS_INFO_EX structure pointer [Remote Desktop Services], WTS_PROCESS_INFO_EX, WTS_PROCESS_INFO_EX structure [Remote Desktop Services], WTS_PROCESS_INFO_EXA, WTS_PROCESS_INFO_EXW, _WTS_PROCESS_INFO_EXW, termserv.wts_process_info_ex, wtsapi32/PWTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EXA, wtsapi32/WTS_PROCESS_INFO_EXW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

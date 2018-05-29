@@ -1,16 +1,16 @@
 ---
 UID: NF:atlthunk.AtlThunk_FreeData
 title: AtlThunk_FreeData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory associated with an ATL thunk.
 old-location: base\atlthunk_freedata.htm
 old-project: Memory
 ms.assetid: 529F37D7-4C23-4E3B-864D-5707B0262A81
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AtlThunk_FreeData, AtlThunk_FreeData function, atlthunk/AtlThunk_FreeData, base.atlthunk_freedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: atlthunk.h
 req.include-header: 

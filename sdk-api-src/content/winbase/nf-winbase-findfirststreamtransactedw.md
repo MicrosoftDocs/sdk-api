@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.FindFirstStreamTransactedW
 title: FindFirstStreamTransactedW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the first stream in the specified file or directory as a transacted operation.
 old-location: fs\findfirststreamtransactedw.htm
 old-project: FileIO
 ms.assetid: 76c64aa9-0501-457d-b774-c209fbac4ccc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

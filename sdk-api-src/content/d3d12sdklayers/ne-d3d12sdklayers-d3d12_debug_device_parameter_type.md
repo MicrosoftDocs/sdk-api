@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_DEBUG_DEVICE_PARAMETER_TYPE
 title: D3D12_DEBUG_DEVICE_PARAMETER_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the data type of the memory pointed to by the pData parameter of ID3D12DebugDevice1::SetDebugParameter and ID3D12DebugDevice1::GetDebugParameter.
 old-location: direct3d12\d3d12_debug_device_parameter_type.htm
 old-project: direct3d12
 ms.assetid: 477155FF-9DF7-4E21-AF52-21EB3DBC3550
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS, D3D12_DEBUG_DEVICE_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_DEVICE_PARAMETER_GPU_SLOWDOWN_PERFORMANCE_FACTOR, D3D12_DEBUG_DEVICE_PARAMETER_TYPE, D3D12_DEBUG_DEVICE_PARAMETER_TYPE enumeration, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_GPU_SLOWDOWN_PERFORMANCE_FACTOR, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_TYPE, direct3d12.d3d12_debug_device_parameter_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 

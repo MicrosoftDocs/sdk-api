@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_RPC_LOGIN_FLAGS
 title: "_EVT_RPC_LOGIN_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the types of authentication that you can use to authenticate the user when connecting to a remote computer.
 old-location: wes\evt_rpc_login_flags.htm
 old-project: WES
 ms.assetid: f3001756-7c2d-4a96-bbdf-e707debb5374
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_RPC_LOGIN_FLAGS, EVT_RPC_LOGIN_FLAGS enumeration [EventLog], EvtRpcLoginAuthDefault, EvtRpcLoginAuthKerberos, EvtRpcLoginAuthNTLM, EvtRpcLoginAuthNegotiate, _EVT_RPC_LOGIN_FLAGS, wes.evt_rpc_login_flags, winevt/EVT_RPC_LOGIN_FLAGS, winevt/EvtRpcLoginAuthDefault, winevt/EvtRpcLoginAuthKerberos, winevt/EvtRpcLoginAuthNTLM, winevt/EvtRpcLoginAuthNegotiate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

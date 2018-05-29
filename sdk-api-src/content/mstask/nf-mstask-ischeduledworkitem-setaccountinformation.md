@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetAccountInformation
 title: IScheduledWorkItem::SetAccountInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the account name and password used to run the work item.
 old-location: taskschd\ischeduledworkitem_setaccountinformation.htm
 old-project: TaskSchd
 ms.assetid: fae1299f-2f3f-48cf-91d9-1057ce62172b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetAccountInformation method, IScheduledWorkItem.SetAccountInformation, IScheduledWorkItem::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Task Scheduler], SetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setaccountinformation, mstask/IScheduledWorkItem::SetAccountInformation, taskschd.ischeduledworkitem_setaccountinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

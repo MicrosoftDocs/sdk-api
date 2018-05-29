@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriberInterface
 title: IEventSubscription::put_SubscriberInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: A marshaled pointer to the event interface on the subscriber (for a transient subscription).
 old-location: cos\ieventsubscription_subscriberinterface.htm
 old-project: cossdk
 ms.assetid: 207c8e74-d8f8-4576-8f2d-762c97bc048f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriberInterface property, IEventSubscription.SubscriberInterface, IEventSubscription.put_SubscriberInterface, IEventSubscription::SubscriberInterface, IEventSubscription::get_SubscriberInterface, IEventSubscription::put_SubscriberInterface, SubscriberInterface property [COM+], SubscriberInterface property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriberinterface, eventsys/IEventSubscription::SubscriberInterface, eventsys/IEventSubscription::get_SubscriberInterface, eventsys/IEventSubscription::put_SubscriberInterface, put_SubscriberInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.InstalledFontCollection.InstalledFontCollection(const InstalledFontCollection &)
 title: InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an InstalledFontCollection::InstalledFontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\installedfontcollectionclass\installedfontcollection_70.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InstalledFontCollection, InstalledFontCollection class [GDI+],InstalledFontCollection constructor, InstalledFontCollection constructor [GDI+], InstalledFontCollection constructor [GDI+],InstalledFontCollection class, InstalledFontCollection.InstalledFontCollection, InstalledFontCollection.InstalledFontCollection(const InstalledFontCollection &), InstalledFontCollection::InstalledFontCollection, InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &), _gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_, gdiplus._gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

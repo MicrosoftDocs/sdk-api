@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext.GetBusinessRuleString
 title: IAzClientContext::GetBusinessRuleString
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the application-specific string for the business rule (BizRule).
 old-location: security\iazclientcontext_getbusinessrulestring.htm
 old-project: SecAuthZ
 ms.assetid: 44cd9331-4891-45fe-9392-04c19da0ac7d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzClientContext object [Security],GetBusinessRuleString method, GetBusinessRuleString, GetBusinessRuleString method [Security], GetBusinessRuleString method [Security],AzClientContext object, GetBusinessRuleString method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetBusinessRuleString method, IAzClientContext.GetBusinessRuleString, IAzClientContext::GetBusinessRuleString, azroles/IAzClientContext::GetBusinessRuleString, security.iazclientcontext_getbusinessrulestring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.StartOperation
 title: IDataObjectAsyncCapability::StartOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a drop target to indicate that asynchronous data extraction is starting.
 old-location: shell\IDataObjectAsyncCapability_StartOperation.htm
 old-project: shell
 ms.assetid: 84C1E709-ADFD-4c00-B767-C0DB4C30578A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],StartOperation method, IDataObjectAsyncCapability.StartOperation, IDataObjectAsyncCapability::StartOperation, StartOperation, StartOperation method [Windows Shell], StartOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_StartOperation, shldisp/IDataObjectAsyncCapability::StartOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

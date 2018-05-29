@@ -1,16 +1,16 @@
 ---
 UID: NF:stringapiset.GetStringTypeW
 title: GetStringTypeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves character type information for the characters in the specified Unicode source string.
 old-location: intl\getstringtypew.htm
 old-project: Intl
 ms.assetid: 092541ea-e568-4aa3-b99e-ce0bac9c120b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CT_CTYPE1, CT_CTYPE2, CT_CTYPE3, GetStringTypeW, GetStringTypeW function [Internationalization for Windows Applications], _win32_GetStringTypeW, _win32_GetStringTypeW_cpp, intl.getstringtypew, stringapiset/GetStringTypeW, winui._win32_GetStringTypeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h

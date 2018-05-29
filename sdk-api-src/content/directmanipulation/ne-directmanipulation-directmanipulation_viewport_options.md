@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_VIEWPORT_OPTIONS
 title: DIRECTMANIPULATION_VIEWPORT_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the input behavior options for the viewport.
 old-location: directmanipulation\directmanipulation_viewport_options.htm
 old-project: directmanipulation
 ms.assetid: BFBA2D32-825F-4EEF-99C8-291305926750
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_VIEWPORT_OPTIONS, DIRECTMANIPULATION_VIEWPORT_OPTIONS enumeration [Direct Manipulation], DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE, DIRECTMANIPULATION_VIEWPORT_OPTIONS_DEFAULT, DIRECTMANIPULATION_VIEWPORT_OPTIONS_DISABLEPIXELSNAPPING, DIRECTMANIPULATION_VIEWPORT_OPTIONS_EXPLICITHITTEST, DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT, DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE, directmanipulation.directmanipulation_viewport_options, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_DEFAULT, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_DISABLEPIXELSNAPPING, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_EXPLICITHITTEST, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

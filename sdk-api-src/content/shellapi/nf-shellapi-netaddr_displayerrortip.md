@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.NetAddr_DisplayErrorTip
 title: NetAddr_DisplayErrorTip macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays an error message in the balloon tip associated with the network address control.
 old-location: shell\NetAddr_DisplayErrorTip.htm
 old-project: shell
 ms.assetid: 1fd623da-51a0-4b37-a25b-00278b5f4732
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NetAddr_DisplayErrorTip, NetAddr_DisplayErrorTip macro [Windows Shell], _shell_NetAddr_DisplayErrorTip, shell.NetAddr_DisplayErrorTip, shellapi/NetAddr_DisplayErrorTip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: shellapi.h
 req.include-header: 

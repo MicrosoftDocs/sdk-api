@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.NtRenameKey
 title: NtRenameKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the name of the specified registry key.
 old-location: winprog\ntrenamekey.htm
 old-project: DevNotes
 ms.assetid: fecd46f6-bcef-4cb4-8d53-3fb7ebe4cc53
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

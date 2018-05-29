@@ -1,16 +1,16 @@
 ---
 UID: NC:winfax.PFAXABORT
 title: PFAXABORT
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax client application calls the FaxAbort function to terminate a fax job.
 old-location: fax\_mfax_faxabort.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_03jo.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback, PFAXABORT callback function [Fax Service], _mfax_faxabort, fax._mfax_faxabort, winfax/FaxAbortA, winfax/FaxAbortW, winfax/PFAXABORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

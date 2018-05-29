@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._tagCOMPONENTSOPT
 title: "_tagCOMPONENTSOPT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the desktop item options.
 old-location: shell\COMPONENTSOPT.htm
 old-project: shell
 ms.assetid: c56a2061-903a-4777-a3fc-bb1fae1f8c43
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCOMPONENTSOPT, COMPONENTSOPT, COMPONENTSOPT structure [Windows Shell], _tagCOMPONENTSOPT, _win32_COMPONENTSOPT, shell.COMPONENTSOPT, shlobj_core/COMPONENTSOPT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

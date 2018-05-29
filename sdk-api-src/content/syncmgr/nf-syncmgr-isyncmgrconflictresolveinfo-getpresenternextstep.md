@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetPresenterNextStep
 title: ISyncMgrConflictResolveInfo::GetPresenterNextStep
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets what the presenter wants to do as the next step in the sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo_GetPresenterNextStep.htm
 old-project: shell
 ms.assetid: 7f263f83-1d7c-40c6-a57c-1334a52cd712
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPresenterNextStep, GetPresenterNextStep method [Windows Shell], GetPresenterNextStep method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetPresenterNextStep method, ISyncMgrConflictResolveInfo.GetPresenterNextStep, ISyncMgrConflictResolveInfo::GetPresenterNextStep, _shell_ISyncMgrConflictResolveInfo_GetPresenterNextStep, shell.ISyncMgrConflictResolveInfo_GetPresenterNextStep, syncmgr/ISyncMgrConflictResolveInfo::GetPresenterNextStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

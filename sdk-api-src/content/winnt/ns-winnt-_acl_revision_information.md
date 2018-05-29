@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ACL_REVISION_INFORMATION
 title: "_ACL_REVISION_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains revision information about an ACL structure.
 old-location: security\acl_revision_information.htm
 old-project: SecAuthZ
 ms.assetid: cdc7f6b1-aaa1-4893-a192-5a42233b3ec1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION structure [Security], PACL_REVISION_INFORMATION, PACL_REVISION_INFORMATION structure pointer [Security], _ACL_REVISION_INFORMATION, _win32_acl_revision_information_str, security.acl_revision_information, winnt/ACL_REVISION_INFORMATION, winnt/PACL_REVISION_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:winsxs.__MIDL_IAssemblyName_0001
 title: "__MIDL_IAssemblyName_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the ASM_NAME enumeration are the property IDs for the name-value pairs included in a side-by-side assembly name.
 old-location: setup\asm_name_.htm
 old-project: SbsCs
 ms.assetid: 5e13e90e-68b0-4842-97de-4f179d4c9ad7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ASM_NAME, ASM_NAME , ASM_NAME enumeration [Side-by-side Assemblies], ASM_NAME_ALIAS, ASM_NAME_BUILD_NUMBER, ASM_NAME_CODEBASE_LASTMOD, ASM_NAME_CODEBASE_URL, ASM_NAME_CULTURE, ASM_NAME_CUSTOM, ASM_NAME_HASH_ALGID, ASM_NAME_HASH_VALUE, ASM_NAME_MAJOR_VERSION, ASM_NAME_MAX_PARAMS, ASM_NAME_MINOR_VERSION, ASM_NAME_MVID, ASM_NAME_NAME, ASM_NAME_NULL_CUSTOM, ASM_NAME_NULL_PUBLIC_KEY, ASM_NAME_NULL_PUBLIC_KEY_TOKEN, ASM_NAME_OSINFO_ARRAY, ASM_NAME_PROCESSOR_ID_ARRAY, ASM_NAME_PUBLIC_KEY, ASM_NAME_PUBLIC_KEY_TOKEN, ASM_NAME_REVISION_NUMBER, __MIDL_IAssemblyName_0001, setup.asm_name_, winsxs/ASM_NAME, winsxs/ASM_NAME_ALIAS, winsxs/ASM_NAME_BUILD_NUMBER, winsxs/ASM_NAME_CODEBASE_LASTMOD, winsxs/ASM_NAME_CODEBASE_URL, winsxs/ASM_NAME_CULTURE, winsxs/ASM_NAME_CUSTOM, winsxs/ASM_NAME_HASH_ALGID, winsxs/ASM_NAME_HASH_VALUE, winsxs/ASM_NAME_MAJOR_VERSION, winsxs/ASM_NAME_MAX_PARAMS, winsxs/ASM_NAME_MINOR_VERSION, winsxs/ASM_NAME_MVID, winsxs/ASM_NAME_NAME, winsxs/ASM_NAME_NULL_CUSTOM, winsxs/ASM_NAME_NULL_PUBLIC_KEY, winsxs/ASM_NAME_NULL_PUBLIC_KEY_TOKEN, winsxs/ASM_NAME_OSINFO_ARRAY, winsxs/ASM_NAME_PROCESSOR_ID_ARRAY, winsxs/ASM_NAME_PUBLIC_KEY, winsxs/ASM_NAME_PUBLIC_KEY_TOKEN, winsxs/ASM_NAME_REVISION_NUMBER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsxs.h
 req.include-header: 

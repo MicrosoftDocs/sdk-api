@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromInt16
 title: InitVariantFromInt16 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure with a 16-bit integer value.
 old-location: properties\InitVariantFromInt16.htm
 old-project: properties
 ms.assetid: 8ccb09bf-a2d2-4637-b8b1-e7abe83b846d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromInt16, InitVariantFromInt16 function [Windows Properties], _shell_InitVariantFromInt16, properties.InitVariantFromInt16, propvarutil/InitVariantFromInt16, shell.InitVariantFromInt16
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

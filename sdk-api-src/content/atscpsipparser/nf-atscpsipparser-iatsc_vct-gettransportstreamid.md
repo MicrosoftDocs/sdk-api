@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetTransportStreamId
 title: IATSC_VCT::GetTransportStreamId
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_gettransportstreamid.htm
 old-project: mstv
 ms.assetid: 0c3261e8-c671-48c7-b07c-59ce74b13c76
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTransportStreamId method, IATSC_VCT.GetTransportStreamId, IATSC_VCT::GetTransportStreamId, IATSC_VCTGetTransportStreamId, atscpsipparser/IATSC_VCT::GetTransportStreamId, mstv.iatsc_vct_gettransportstreamid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

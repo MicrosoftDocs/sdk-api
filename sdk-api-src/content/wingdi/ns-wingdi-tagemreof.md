@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMREOF
 title: tagEMREOF
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMREOF structure contains data for the enhanced metafile record that indicates the end of the metafile.
 old-location: gdi\emreof.htm
 old-project: gdi
 ms.assetid: 99a3f97e-cb43-49b3-9972-23f9911b2cd0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF structure pointer [Windows GDI], _win32_EMREOF_str, gdi.emreof, tagEMREOF, wingdi/EMREOF, wingdi/PEMREOF"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

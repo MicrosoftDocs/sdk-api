@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM
 title: PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a resource enumeration handle.
 old-location: mscs\clusterresourcecloseenum.htm
 old-project: MsCS
 ms.assetid: 49407b45-2b7f-43a2-90ff-98cc557edb31
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusterresourcecloseenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, mscs.clusterresourcecloseenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

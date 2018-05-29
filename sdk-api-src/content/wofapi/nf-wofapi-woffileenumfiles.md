@@ -1,16 +1,16 @@
 ---
 UID: NF:wofapi.WofFileEnumFiles
 title: WofFileEnumFiles function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all of the files which are compressed with a specified compression algorithm on a specified volume.
 old-location: fs\woffileenumfiles.htm
 old-project: FileIO
 ms.assetid: 0B3CD8A2-AF4C-4438-B284-03AAA81DE436
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WofFileEnumFiles, WofFileEnumFiles function [Files], fs.woffileenumfiles, wofapi/WofFileEnumFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

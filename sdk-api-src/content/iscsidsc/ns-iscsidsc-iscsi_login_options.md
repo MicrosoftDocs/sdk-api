@@ -1,16 +1,16 @@
 ---
 UID: NS:iscsidsc.ISCSI_LOGIN_OPTIONS
 title: ISCSI_LOGIN_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: ISCSI_LOGIN_OPTIONS structure is used by initiators to specify the characteristics of a login session.
 old-location: iscsidisc\iscsi_login_options.htm
 old-project: iSCSIDisc
 ms.assetid: 7d45be86-3d85-4253-aef7-92e05379f1b2
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING, ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED, ISCSI_LOGIN_FLAG_REQUIRE_IPSEC, ISCSI_LOGIN_FLAG_RESERVED1, ISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API], ISCSI_LOGIN_OPTIONS_AUTH_TYPE, ISCSI_LOGIN_OPTIONS_DATA_DIGEST, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT, ISCSI_LOGIN_OPTIONS_HEADER_DIGEST, ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS, ISCSI_LOGIN_OPTIONS_PASSWORD, ISCSI_LOGIN_OPTIONS_USERNAME, PISCSI_LOGIN_OPTIONS, PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_login_options, iscsidsc/ISCSI_LOGIN_OPTIONS, iscsidsc/PISCSI_LOGIN_OPTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

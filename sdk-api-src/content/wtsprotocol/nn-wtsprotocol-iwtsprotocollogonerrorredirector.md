@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolLogonErrorRedirector
 title: IWTSProtocolLogonErrorRedirector
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector.
 old-location: termserv\iwtsprotocollogonerrorredirector.htm
 old-project: TermServ
 ms.assetid: 1ff30217-9091-47df-a38f-30784538f0b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwtsprotocollogonerrorredirector, wtsprotocol/IWTSProtocolLogonErrorRedirector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

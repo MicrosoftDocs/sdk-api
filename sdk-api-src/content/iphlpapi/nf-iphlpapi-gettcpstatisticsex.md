@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetTcpStatisticsEx
 title: GetTcpStatisticsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTcpStatisticsEx function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.
 old-location: iphlp\gettcpstatisticsex.htm
 old-project: IpHlp
 ms.assetid: 78cfc69d-eae8-49c1-a460-6527a61f773d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx, GetTcpStatisticsEx function [IP Helper], _iphlp_gettcpstatisticsex, iphlp.gettcpstatisticsex, iphlpapi/GetTcpStatisticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

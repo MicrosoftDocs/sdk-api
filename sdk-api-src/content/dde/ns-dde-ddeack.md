@@ -1,16 +1,16 @@
 ---
 UID: NS:dde.DDEACK
 title: DDEACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains status flags that a DDE application passes to its partner as part of the WM_DDE_ACK message.
 old-location: dataxchg\ddeack.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddeack.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DDEACK, DDEACK structure [Data Exchange], _win32_DDEACK_str, _win32_ddeack_str_cpp, dataxchg.ddeack, dde/DDEACK, winui._win32_ddeack_str
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dde.h
 req.include-header: Windows.h

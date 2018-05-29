@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SetThreadStackGuarantee
 title: SetThreadStackGuarantee function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
 old-location: base\setthreadstackguarantee.htm
 old-project: ProcThread
 ms.assetid: 42595cba-413b-4b71-8d32-f873ed78c39c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadStackGuarantee, SetThreadStackGuarantee function, base.setthreadstackguarantee, processthreadsapi/SetThreadStackGuarantee, winbase/SetThreadStackGuarantee
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

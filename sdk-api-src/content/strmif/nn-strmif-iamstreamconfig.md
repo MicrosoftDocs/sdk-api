@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMStreamConfig
 title: IAMStreamConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMStreamConfig interface sets the output format on certain capture and compression filters, for both audio and video.
 old-location: dshow\iamstreamconfig.htm
 old-project: DirectShow
 ms.assetid: c171763e-9108-49a0-a4b7-855c6db0a71d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], IAMStreamConfig interface [DirectShow],described, IAMStreamConfigInterface, dshow.iamstreamconfig, strmif/IAMStreamConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

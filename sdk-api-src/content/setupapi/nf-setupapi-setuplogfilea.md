@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupLogFileA
 title: SetupLogFileA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupLogFile function adds an entry to the log file.
 old-location: setup\setuplogfile.htm
 old-project: SetupApi
 ms.assetid: bc738212-ff81-4b52-b2ef-50aabf6658ab
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupLogFile, SetupLogFile function [Setup API], SetupLogFileA, SetupLogFileW, _setupapi_setuplogfile, setup.setuplogfile, setupapi/SetupLogFile, setupapi/SetupLogFileA, setupapi/SetupLogFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

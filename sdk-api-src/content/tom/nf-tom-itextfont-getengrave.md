@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetEngrave
 title: ITextFont::GetEngrave
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether characters are displayed as imprinted characters.
 old-location: controls\ITextFont_GetEngrave.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getengrave.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetEngrave, GetEngrave method [Windows Controls], GetEngrave method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetEngrave method, ITextFont.GetEngrave, ITextFont::GetEngrave, _win32_ITextFont_GetEngrave, _win32_ITextFont_GetEngrave_cpp, controls.ITextFont_GetEngrave, controls._win32_ITextFont_GetEngrave, tom/ITextFont::GetEngrave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

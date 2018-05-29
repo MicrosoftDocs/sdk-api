@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.EnumICMProfilesW
 title: EnumICMProfilesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumICMProfiles function enumerates the different output color profiles that the system supports for a given device context.
 old-location: wcs\enumicmprofiles.htm
 old-project: WCS
 ms.assetid: a93e6239-b6c7-4e37-9f06-03790a3ed53f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnumICMProfiles, EnumICMProfiles function [Windows Color System], EnumICMProfilesA, EnumICMProfilesW, _color_EnumICMProfiles, wcs.enumicmprofiles, wingdi/EnumICMProfiles, wingdi/EnumICMProfilesA, wingdi/EnumICMProfilesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetServiceInformation
 title: SLGetServiceInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets global data information.
 old-location: security\slgetserviceinformation.htm
 old-project: SecSLApi
 ms.assetid: c8c932af-c716-425a-8c37-ad3b749dd985
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetServiceInformation, SLGetServiceInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_MULTI_SZ, SL_DATA_SZ, SL_INFO_KEY_ACTIVE_PLUGINS, SL_INFO_KEY_SECURE_STORE_ID, SL_INFO_KEY_SESSION_MACHINE_ID, SL_INFO_KEY_SYSTEM_STATE, SL_INFO_KEY_VERSION, security.slgetserviceinformation, slpublic/SLGetServiceInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

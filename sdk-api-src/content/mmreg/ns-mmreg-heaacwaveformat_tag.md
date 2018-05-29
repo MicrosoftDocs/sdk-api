@@ -1,16 +1,16 @@
 ---
 UID: NS:mmreg.heaacwaveformat_tag
 title: heaacwaveformat_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains format data for an AAC or HE-AAC stream that includes AudioSpecificConfig() data.
 old-location: dshow\heaacwaveformat.htm
 old-project: DirectShow
 ms.assetid: 0809eaa7-3c4c-467d-afa0-d9555ab6d71f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPHEAACWAVEFORMAT, *NPHEAACWAVEFORMAT, *PHEAACWAVEFORMAT, HEAACWAVEFORMAT, HEAACWAVEFORMAT structure [DirectShow], PHEAACWAVEFORMAT, PHEAACWAVEFORMAT structure pointer [DirectShow], dshow.heaacwaveformat, heaacwaveformat_tag, mmreg/HEAACWAVEFORMAT, mmreg/PHEAACWAVEFORMAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 

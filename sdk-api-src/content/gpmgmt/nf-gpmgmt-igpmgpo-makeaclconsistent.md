@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.MakeACLConsistent
 title: IGPMGPO::MakeACLConsistent
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes ACLs consistent on the Directory Service and the system volume folder (SysVol) of the GPO. IsACLConsistent can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
 old-location: gpmc\igpmgpo_makeaclconsistent.htm
 old-project: GPMC
 ms.assetid: 936e7795-e5ab-4014-86df-6b74ab122b11
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMGPO class [GPMC],MakeACLConsistent method, IGPMGPO interface [GPMC],MakeACLConsistent method, IGPMGPO.MakeACLConsistent, IGPMGPO::MakeACLConsistent, MakeACLConsistent, MakeACLConsistent method [GPMC], MakeACLConsistent method [GPMC],GPMGPO class, MakeACLConsistent method [GPMC],IGPMGPO interface, gpmc.igpmgpo_makeaclconsistent, gpmgmt/IGPMGPO::MakeACLConsistent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

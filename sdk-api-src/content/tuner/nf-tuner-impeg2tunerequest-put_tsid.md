@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.put_TSID
 title: IMPEG2TuneRequest::put_TSID
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_TSID method sets the transport stream ID.
 old-location: mstv\impeg2tunerequest_put_tsid.htm
 old-project: mstv
 ms.assetid: 47212dc7-601e-4b38-953e-a6b84e73fafa
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_TSID method, IMPEG2TuneRequest.put_TSID, IMPEG2TuneRequest::put_TSID, IMPEG2TuneRequestput_TSID, mstv.impeg2tunerequest_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_TSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

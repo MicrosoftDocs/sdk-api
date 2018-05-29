@@ -1,16 +1,16 @@
 ---
 UID: NS:objidlbase.tagRPCOLEMESSAGE
 title: tagRPCOLEMESSAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains marshaling invocation arguments and return values between COM components.
 old-location: com\rpcolemessage.htm
 old-project: com
 ms.assetid: b4761462-1910-431c-b5cd-c14fdda0b6b6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PRPCOLEMESSAGE, PRPCOLEMESSAGE, PRPCOLEMESSAGE structure pointer [COM], RPCOLEMESSAGE, RPCOLEMESSAGE structure [COM], _com_RPCOLEMESSAGE, com.rpcolemessage, objidlbase/PRPCOLEMESSAGE, objidlbase/RPCOLEMESSAGE, tagRPCOLEMESSAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidlbase.h
 req.include-header: Objidl.h

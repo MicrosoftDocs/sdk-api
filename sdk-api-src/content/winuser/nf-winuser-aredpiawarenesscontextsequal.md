@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.AreDpiAwarenessContextsEqual
 title: AreDpiAwarenessContextsEqual function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether two DPI_AWARENESS_CONTEXT values are identical.
 old-location: hidpi\aredpiawarenesscontextsequal.htm
 old-project: hidpi
 ms.assetid: 77660CAB-97ED-4DAC-A95E-A149F1A479FD
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: AreDpiAwarenessContextsEqual, AreDpiAwarenessContextsEqual function [High DPI], hidpi.aredpiawarenesscontextsequal, winuser/AreDpiAwarenessContextsEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

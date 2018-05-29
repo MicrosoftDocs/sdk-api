@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_GROUP_ENUM
 title: PCLUSAPI_CLUSTER_GROUP_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the resources in a group or the nodes that are the preferred owners of a group, returning the name of the resource or node with each call.
 old-location: mscs\clustergroupenum.htm
 old-project: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM callback, PCLUSAPI_CLUSTER_GROUP_ENUM callback function [Failover Cluster], _wolf_clustergroupenum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

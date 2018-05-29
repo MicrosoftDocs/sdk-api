@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsprint.StartXpsPrintJob
 title: StartXpsPrintJob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts printing an XPS document stream to a printer.
 old-location: gdi\startxpsprintjob.htm
 old-project: printdocs
 ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.startxpsprintjob, xpsprint/StartXpsPrintJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: xpsprint.h
 req.include-header: 

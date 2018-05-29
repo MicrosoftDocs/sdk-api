@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.put_Password
 title: IWSManConnectionOptions::put_Password
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the password of a local or a domain account on the remote computer.
 old-location: winrm\iwsmanconnectionoptions_password.htm
 old-project: WinRM
 ms.assetid: 864279c0-1bb5-43dc-9636-35619199beb4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],Password property, IWSManConnectionOptions.Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],IWSManConnectionOptions interface, put_Password, winrm.iwsmanconnectionoptions_password, wsmandisp/IWSManConnectionOptions::Password, wsmandisp/IWSManConnectionOptions::put_Password
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IIsdbSeriesDescriptor
 title: IIsdbSeriesDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor.htm
 old-project: mstv
 ms.assetid: 07c4debc-1817-46ac-9f67-9b8637a04662
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], IIsdbSeriesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSeriesDescriptor, mstv.iisdbseriesdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

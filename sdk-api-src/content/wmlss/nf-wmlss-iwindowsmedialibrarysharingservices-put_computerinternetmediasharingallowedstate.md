@@ -1,16 +1,16 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState
 title: IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_computerInternetMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the Internet.
 old-location: wmlss\IWMLSSput_computerInternetMediaSharingAllowedState.htm
 old-project: WMLSS
 ms.assetid: d41d63d7-2b15-4dd5-bbc1-17696924a624
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

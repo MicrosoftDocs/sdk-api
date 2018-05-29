@@ -1,16 +1,16 @@
 ---
 UID: NS:winnls._currencyfmtW
 title: "_currencyfmtW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale.
 old-location: intl\currencyfmt.htm
 old-project: Intl
 ms.assetid: 026ac9e0-1f5b-4a42-9c7b-07a127422994
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCURRENCYFMTW, CURRENCYFMT, CURRENCYFMT structure [Internationalization for Windows Applications], CURRENCYFMTW, LPCURRENCYFMT, LPCURRENCYFMT structure pointer [Internationalization for Windows Applications], _currencyfmtW, _win32_CURRENCYFMT_str, intl.currencyfmt, winnls/CURRENCYFMT, winnls/LPCURRENCYFMT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

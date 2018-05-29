@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetBlueYIntercept
 title: SetBlueYIntercept function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept_overloaded.htm
 old-project: directcomp
 ms.assetid: 34bff151-4844-73fa-8e7e-9a542373b820
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionLinearTransferEffect::SetBlueYIntercept, SetBlueYIntercept, SetBlueYIntercept methods [DirectComposition], dcomp/SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

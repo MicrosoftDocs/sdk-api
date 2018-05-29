@@ -1,16 +1,16 @@
 ---
 UID: NS:gdipluseffects.BrightnessContrastParams
 title: BrightnessContrastParams
-author: windows-driver-content
-description: A BlurParams structure contains members that specify the nature of a Gaussian blur.
-old-location: gdiplus\_gdiplus_STRUC_BlurParams.htm
+author: windows-sdk-content
+description: A BrightnessContrastParams structure contains members that specify the nature of a brightness or contrast adjustment.
+old-location: gdiplus\_gdiplus_STRUC_BrightnessContrastParams.htm
 old-project: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\blurparams.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
-ms.keywords: BlurParams, BlurParams structure [GDI+], BrightnessContrastParams, _gdiplus_STRUC_BlurParams, gdiplus._gdiplus_STRUC_BlurParams, gdipluseffects/BlurParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\brightnesscontrastparams.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: BrightnessContrastParams, BrightnessContrastParams structure [GDI+], _gdiplus_STRUC_BrightnessContrastParams, gdiplus._gdiplus_STRUC_BrightnessContrastParams, gdipluseffects/BrightnessContrastParams
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Gdipluseffects.h
 api_name:
--	BlurParams
+-	BrightnessContrastParams
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,13 +50,13 @@ req.product: GDI+ 1.1
 ## -description
 
 
-A <b>BlurParams</b> structure contains members that specify the nature of a Gaussian blur.
+A <b>BrightnessContrastParams</b> structure contains members that specify the nature of a brightness or contrast adjustment.
 
- You can apply a Gaussian blur effect to a bitmap by following these steps. 
+You can change the brightness or contrast (or both) of a bitmap by following these steps.
 <ol>
-<li>Create and initialize a <b>BlurParams</b> structure.</li>
-<li>Pass the address of the <b>BlurParams</b> structure to the <a href="https://msdn.microsoft.com/d5e62587-01f3-4869-a596-7e84d1752e37">Blur::SetParameters</a> method of a <a href="https://msdn.microsoft.com/a061b15b-bce4-4b38-adba-836b6b295c80">Blur</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/a061b15b-bce4-4b38-adba-836b6b295c80">Blur</a> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method.</li>
+<li>Create and initialize a <b>BrightnessContrastParams</b> structure.</li>
+<li>Pass the address of the <b>BrightnessContrastParams</b> structure to the <a href="https://msdn.microsoft.com/ca9e5978-75ff-4e06-9597-0e706db19259">BrightnessContrast::SetParameters</a> method of a <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -66,37 +66,14 @@ A <b>BlurParams</b> structure contains members that specify the nature of a Gaus
 
 ### -field brightnessLevel
 
- 
+Type: <b>INT</b>
+
+Integer in the range -255 through 255 that specifies the brightness level. If the value is 0, the brightness remains the same. As the value moves from 0 to 255, the brightness of the image increases. As the value moves from 0 to -255, the brightness of the image decreases.
 
 
 ### -field contrastLevel
 
- 
+Type: <b>INT</b>
 
-
-
-
-#### - expandEdge
-
-Type: <b>BOOL</b>
-
-Boolean value that specifies whether the bitmap expands by an amount equal to the blur radius. If <b>TRUE</b>, the bitmap expands by an amount equal to the radius so that it can have soft edges. If <b>FALSE</b>, the bitmap remains the same size and the soft edges are clipped.
-
-
-#### - radius
-
-Type: <b>float</b>
-
-Real number that specifies the blur radius (the radius of the Gaussian convolution kernel) in pixels. The radius must be in the range 0 through 255. As the radius increases, the resulting bitmap becomes more blurry. 
-
-
-## -remarks
-
-
-
-
-			One of the two <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> methods blurs a bitmap in place. That particular <a href="https://msdn.microsoft.com/fff2c151-92df-477e-aafd-6aaca27df414">Bitmap::ApplyEffect</a> method ignores the <b>expandEdge</b> parameter.
-          
-
-
+Integer in the range -100 through 100 that specifies the contrast level. If the value is 0, the contrast remains the same. As the value moves from 0 to 100, the contrast of the image increases. As the value moves from 0 to -100, the contrast of the image decreases.
 

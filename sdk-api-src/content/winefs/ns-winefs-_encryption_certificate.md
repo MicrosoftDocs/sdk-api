@@ -1,16 +1,16 @@
 ---
 UID: NS:winefs._ENCRYPTION_CERTIFICATE
 title: "_ENCRYPTION_CERTIFICATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a certificate and the SID of its owner.
 old-location: fs\encryption_certificate_str.htm
 old-project: FileIO
 ms.assetid: 33b36659-48bb-4297-8142-f8702db03d20
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PENCRYPTION_CERTIFICATE, ENCRYPTION_CERTIFICATE, ENCRYPTION_CERTIFICATE structure [Files], PENCRYPTION_CERTIFICATE, PENCRYPTION_CERTIFICATE structure pointer [Files], _ENCRYPTION_CERTIFICATE, _win32_encryption_certificate_str, base.encryption_certificate_str, fs.encryption_certificate_str, winefs/ENCRYPTION_CERTIFICATE, winefs/PENCRYPTION_CERTIFICATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h

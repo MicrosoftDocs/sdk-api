@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.GetRunningObjectTable
 title: GetRunningObjectTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to the IRunningObjectTable interface on the local running object table (ROT).
 old-location: com\getrunningobjecttable.htm
 old-project: com
 ms.assetid: 65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_GetRunningObjectTable, com.getrunningobjecttable, objbase/GetRunningObjectTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

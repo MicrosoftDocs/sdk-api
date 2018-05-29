@@ -1,16 +1,16 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Login
 title: IWMPContentPartner::Login
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Login method logs the user in to the online store.
 old-location: wmp\iwmpcontentpartner_login.htm
 old-project: WMP
 ms.assetid: 7e43b200-1922-42ad-b785-6643e0215c61
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Login method, IWMPContentPartner.Login, IWMPContentPartner::Login, IWMPContentPartnerLogin, Login, Login method [Windows Media Player], Login method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Login, wmp.iwmpcontentpartner_login
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

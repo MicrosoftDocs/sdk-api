@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDeskBar.SetClient
 title: IDeskBar::SetClient
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the client specified by punkClient.
 old-location: shell\IDeskBar_SetClient.htm
 old-project: shell
 ms.assetid: 26655738-a2d5-446c-af7f-866b34beb3ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDeskBar interface [Windows Shell],SetClient method, IDeskBar.SetClient, IDeskBar::SetClient, SetClient, SetClient method [Windows Shell], SetClient method [Windows Shell],IDeskBar interface, _win32_IDeskBar_SetClient, shell.IDeskBar_SetClient, shobjidl_core/IDeskBar::SetClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetwork.SetDescription
 title: INetwork::SetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDescription method sets or replaces the description for a network.
 old-location: nla\inetwork_setdescription.htm
 old-project: NLA
 ms.assetid: d21fc8ca-d097-4099-8c64-f449d1fd49ef
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetwork interface [Network Awareness],SetDescription method, INetwork.SetDescription, INetwork::SetDescription, SetDescription, SetDescription method [Network Awareness], SetDescription method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetDescription, nla.inetwork_setdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateHeap
 title: WsCreateHeap function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a heap object.
 old-location: wsw\wscreateheap.htm
 old-project: wsw
 ms.assetid: 459b7146-3b32-4df8-87e1-4ac7ad33ed0e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateHeap, WsCreateHeap function [Web Services for Windows], webservices/WsCreateHeap, wsw.wscreateheap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

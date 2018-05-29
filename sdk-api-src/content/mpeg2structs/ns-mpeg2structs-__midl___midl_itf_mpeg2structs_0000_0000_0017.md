@@ -1,16 +1,16 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ATSC_FILTER_OPTIONS structure specifies additional criteria for matching ATSC section headers.
 old-location: mstv\atsc_filter_options.htm
 old-project: mstv
 ms.assetid: 16e33f92-9e25-4a03-a21f-0ea5a99470ee
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ATSC_FILTER_OPTIONS, ATSC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0017, mpeg2structs/ATSC_FILTER_OPTIONS, mstv.atsc_filter_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: Mpeg2data.h

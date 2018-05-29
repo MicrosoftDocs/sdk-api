@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.InitSecurityInterfaceW
 title: InitSecurityInterfaceW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface.
 old-location: security\initsecurityinterface.htm
 old-project: SecAuthN
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

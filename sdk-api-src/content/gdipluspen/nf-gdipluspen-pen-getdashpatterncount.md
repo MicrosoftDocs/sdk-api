@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashPatternCount
 title: Pen::GetDashPatternCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pen::GetDashPatternCount method gets the number of elements in a dash pattern array.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPatternCount_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpatterncount.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDashPatternCount, GetDashPatternCount method [GDI+], GetDashPatternCount method [GDI+],Pen class, Pen class [GDI+],GetDashPatternCount method, Pen.GetDashPatternCount, Pen::GetDashPatternCount, _gdiplus_CLASS_Pen_GetDashPatternCount_, gdiplus._gdiplus_CLASS_Pen_GetDashPatternCount_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

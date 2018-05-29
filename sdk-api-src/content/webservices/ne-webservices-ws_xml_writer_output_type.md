@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_XML_WRITER_OUTPUT_TYPE
 title: WS_XML_WRITER_OUTPUT_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of WS_XML_WRITER_OUTPUT structure.
 old-location: wsw\ws_xml_writer_output_type.htm
 old-project: wsw
 ms.assetid: f3109ca7-66c8-4796-91c4-3b7c6fe23f1f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_WRITER_OUTPUT_TYPE, WS_XML_WRITER_OUTPUT_TYPE enumeration [Web Services for Windows], WS_XML_WRITER_OUTPUT_TYPE_BUFFER, WS_XML_WRITER_OUTPUT_TYPE_STREAM, webservices/WS_XML_WRITER_OUTPUT_TYPE, webservices/WS_XML_WRITER_OUTPUT_TYPE_BUFFER, webservices/WS_XML_WRITER_OUTPUT_TYPE_STREAM, wsw.ws_xml_writer_output_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

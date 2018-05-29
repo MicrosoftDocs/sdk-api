@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdbase.IWSDTransportAddress
 title: IWSDTransportAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an IP-based transport address.
 old-location: ncd\iwsdtransportaddress.htm
 old-project: WsdApi
 ms.assetid: 84dfee11-8092-4018-8840-e766a94c60a4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

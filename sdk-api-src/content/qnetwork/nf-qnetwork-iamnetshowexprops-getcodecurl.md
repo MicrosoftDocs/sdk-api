@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.GetCodecURL
 title: IAMNetShowExProps::GetCodecURL
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCodecURL method retrieves the URL where the codec may be downloaded.
 old-location: dshow\iamnetshowexprops_getcodecurl.htm
 old-project: DirectShow
 ms.assetid: ad5672a8-2af9-45ef-b510-3c2f8948f64b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCodecURL, GetCodecURL method [DirectShow], GetCodecURL method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecURL method, IAMNetShowExProps.GetCodecURL, IAMNetShowExProps::GetCodecURL, IAMNetShowExPropsGetCodecURL, dshow.iamnetshowexprops_getcodecurl, qnetwork/IAMNetShowExProps::GetCodecURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

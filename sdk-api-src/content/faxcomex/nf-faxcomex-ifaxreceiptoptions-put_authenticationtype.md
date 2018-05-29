@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.put_AuthenticationType
 title: IFaxReceiptOptions::put_AuthenticationType
-author: windows-driver-content
+author: windows-sdk-content
 description: The AuthenticationType property specifies the type of authentication the fax service uses when connecting to an Simple Mail Transport Protocol (SMTP) server.
 old-location: fax\_mfax_faxreceiptoptions_authenticationtype_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7g11.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],FaxReceiptOptions object, FaxReceiptOptions object [Fax Service],AuthenticationType property, FaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.put_AuthenticationType, IFaxReceiptOptions::put_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype_vb, put_AuthenticationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

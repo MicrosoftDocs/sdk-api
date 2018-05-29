@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.CreateUpDownControl
 title: CreateUpDownControl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an up-down control. Note:\_This function is obsolete. It is a 16 bit function and cannot handle 32 bit values for range and position.
 old-location: controls\CreateUpDownControl.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

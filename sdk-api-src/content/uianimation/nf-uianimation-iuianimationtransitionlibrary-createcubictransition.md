@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateCubicTransition
 title: IUIAnimationTransitionLibrary::CreateCubicTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a cubic transition.
 old-location: uianimation\iuianimationtransitionlibrary_createcubictransition.htm
 old-project: UIAnimation
 ms.assetid: 5003685d-d4d7-4871-b700-4d7f38050ada
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateCubicTransition, CreateCubicTransition method [Windows Animation], CreateCubicTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateCubicTransition method, IUIAnimationTransitionLibrary.CreateCubicTransition, IUIAnimationTransitionLibrary::CreateCubicTransition, uianimation.iuianimationtransitionlibrary_createcubictransition, uianimation/IUIAnimationTransitionLibrary::CreateCubicTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

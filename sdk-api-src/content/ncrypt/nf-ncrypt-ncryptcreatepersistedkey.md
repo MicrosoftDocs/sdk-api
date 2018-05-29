@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptCreatePersistedKey
 title: NCryptCreatePersistedKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new key and stores it in the specified key storage provider.
 old-location: security\ncryptcreatepersistedkey_func.htm
 old-project: SecCNG
 ms.assetid: eeb1842f-fd9e-4edf-9db8-7b4e91760e9b
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_OVERWRITE_KEY_FLAG, NCryptCreatePersistedKey, NCryptCreatePersistedKey function [Security], ncrypt/NCryptCreatePersistedKey, security.ncryptcreatepersistedkey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

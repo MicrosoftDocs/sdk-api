@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IDailyTrigger.put_RandomDelay
 title: IDailyTrigger::put_RandomDelay
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\idailytrigger_randomdelay.htm
 old-project: TaskSchd
 ms.assetid: d9764132-3329-4d1f-9669-db727c0e904a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDailyTrigger interface [Task Scheduler],RandomDelay property, IDailyTrigger.RandomDelay, IDailyTrigger.put_RandomDelay, IDailyTrigger::RandomDelay, IDailyTrigger::get_RandomDelay, IDailyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IDailyTrigger interface, put_RandomDelay, taskschd.idailytrigger_randomdelay, taskschd/IDailyTrigger::RandomDelay, taskschd/IDailyTrigger::get_RandomDelay, taskschd/IDailyTrigger::put_RandomDelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

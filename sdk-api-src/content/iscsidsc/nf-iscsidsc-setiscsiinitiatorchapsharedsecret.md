@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorCHAPSharedSecret
 title: SetIScsiInitiatorCHAPSharedSecret function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetIscsiInitiatorCHAPSharedSecret function establishes the default Challenge Handshake Authentication Protocol (CHAP) shared secret for all initiators on the computer.
 old-location: iscsidisc\setiscsiinitiatorchapsharedsecret.htm
 old-project: iSCSIDisc
 ms.assetid: 9b7172a5-3a6e-49ae-8f22-77b088eb1048
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: SetIScsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorchapsharedsecret, iscsidsc/SetIscsiInitiatorCHAPSharedSecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

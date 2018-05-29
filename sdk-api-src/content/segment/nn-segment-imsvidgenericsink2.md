@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidGenericSink2
 title: IMSVidGenericSink2
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidGenericSink2 interface represents a generic output device that supports streaming output. It is implemented by the MSVidGenericSink object.
 old-location: mstv\imsvidgenericsink2.htm
 old-project: mstv
 ms.assetid: 01acd28b-a17a-413a-ab43-9656e3ab7f60
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Technologies], IMSVidGenericSink2 interface [Microsoft TV Technologies],described, IMSVidGenericSink2Interface, mstv.imsvidgenericsink2, segment/IMSVidGenericSink2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

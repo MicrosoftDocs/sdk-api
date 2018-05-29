@@ -1,16 +1,16 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetKeyAttributes
 title: INetDiagHelper::GetKeyAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the key attributes of the Helper Class Extension.
 old-location: ndf\inetdiaghelpe_getkeyattributes.htm
 old-project: NDF
 ms.assetid: f9501450-a883-4941-a03f-ab735acca82f
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetKeyAttributes, GetKeyAttributes method [NDF], GetKeyAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetKeyAttributes method, INetDiagHelper.GetKeyAttributes, INetDiagHelper::GetKeyAttributes, ndf.inetdiaghelpe_getkeyattributes, ndhelper/INetDiagHelper::GetKeyAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

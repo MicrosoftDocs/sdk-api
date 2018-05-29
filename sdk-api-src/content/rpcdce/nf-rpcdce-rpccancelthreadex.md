@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcCancelThreadEx
 title: RpcCancelThreadEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcCancelThreadEx function stops the execution of a thread.
 old-location: rpc\rpccancelthreadex.htm
 old-project: Rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcCancelThreadEx, RpcCancelThreadEx function [RPC], _rpc_rpccancelthreadex, rpc.rpccancelthreadex, rpcdce/RpcCancelThreadEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

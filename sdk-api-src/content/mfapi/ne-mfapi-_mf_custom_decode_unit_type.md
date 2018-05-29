@@ -1,16 +1,16 @@
 ---
 UID: NE:mfapi._MF_CUSTOM_DECODE_UNIT_TYPE
 title: "_MF_CUSTOM_DECODE_UNIT_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of unit contained in an IMFSample in a MFSampleExtension_ForwardedDecodeUnits collection.
 old-location: mf\mf_custom_decode_unit_type_enum.htm
 old-project: medfound
 ms.assetid: B74890ED-9586-475B-8C77-457ECB893980
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_CUSTOM_DECODE_UNIT_TYPE, MF_CUSTOM_DECODE_UNIT_TYPE enumeration [Media Foundation], MF_DECODE_UNIT_NAL, MF_DECODE_UNIT_SEI, _MF_CUSTOM_DECODE_UNIT_TYPE, mf.mf_custom_decode_unit_type_enum, mfapi/MF_CUSTOM_DECODE_UNIT_TYPE, mfapi/MF_DECODE_UNIT_NAL, mfapi/MF_DECODE_UNIT_SEI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

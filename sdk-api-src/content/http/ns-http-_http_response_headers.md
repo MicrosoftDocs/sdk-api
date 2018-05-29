@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_RESPONSE_HEADERS
 title: "_HTTP_RESPONSE_HEADERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the headers sent with an HTTP response.
 old-location: http\http_response_headers.htm
 old-project: Http
 ms.assetid: e783c27e-d215-4f6d-a080-92d915a7fc33
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS structure [HTTP], PHTTP_RESPONSE_HEADERS, PHTTP_RESPONSE_HEADERS structure pointer [HTTP], _HTTP_RESPONSE_HEADERS, _http_http_response_headers, http.http_response_headers, http/HTTP_RESPONSE_HEADERS, http/PHTTP_RESPONSE_HEADERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

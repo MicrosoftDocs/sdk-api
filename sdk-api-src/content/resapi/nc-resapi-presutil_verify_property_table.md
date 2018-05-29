@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_VERIFY_PROPERTY_TABLE
 title: PRESUTIL_VERIFY_PROPERTY_TABLE
-author: windows-driver-content
+author: windows-sdk-content
 description: Uses a property table to verify that a property list is correctly formatted.
 old-location: mscs\resutilverifypropertytable.htm
 old-project: MsCS
 ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE callback, PRESUTIL_VERIFY_PROPERTY_TABLE callback function [Failover Cluster], _wolf_resutilverifypropertytable, mscs.resutilverifypropertytable, resapi/PRESUTIL_VERIFY_PROPERTY_TABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._GLYPHDEF
 title: "_GLYPHDEF"
-author: windows-driver-content
+author: windows-sdk-content
 description: The GLYPHDEF union identifies individual glyphs and provides either a pointer to a GLYPHBITS structure or a pointer to a PATHOBJ structure.
 old-location: display\glyphdef.htm
 old-project: display
 ms.assetid: d1a7a02c-acaf-46b5-9ffe-fddbb01408a5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GLYPHDEF, GLYPHDEF union [Display Devices], _GLYPHDEF, display.glyphdef, grstrcts_d3283f02-3635-482d-a65a-b92f0a91aa54.xml, winddi/GLYPHDEF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

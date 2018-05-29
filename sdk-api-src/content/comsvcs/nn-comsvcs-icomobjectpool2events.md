@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComObjectPool2Events
 title: IComObjectPool2Events
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if a transactional or non-transactional object is added to or obtained from the object pool.
 old-location: cos\icomobjectpool2events.htm
 old-project: cossdk
 ms.assetid: 2aac494d-52ce-408c-8444-8792b5b53604
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectPool2Events, IComObjectPool2Events interface [COM+], IComObjectPool2Events interface [COM+],described, _dtc_icomobjectpool2events, comsvcs/IComObjectPool2Events, cos.icomobjectpool2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

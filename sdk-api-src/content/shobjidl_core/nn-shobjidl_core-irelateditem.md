@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IRelatedItem
 title: IRelatedItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that derive related items with specific relationships.
 old-location: shell\IRelatedItem.htm
 old-project: shell
 ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRelatedItem, IRelatedItem interface [Windows Shell], IRelatedItem interface [Windows Shell],described, _shell_IRelatedItem, shell.IRelatedItem, shobjidl_core/IRelatedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

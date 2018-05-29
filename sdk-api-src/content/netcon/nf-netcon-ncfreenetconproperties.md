@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.NcFreeNetconProperties
 title: NcFreeNetconProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NcFreeNetconProperties function frees memory associated with NETCON_PROPERTIES structures.
 old-location: ics\ncfreenetconproperties.htm
 old-project: ICS
 ms.assetid: ac73b831-81da-48e7-858b-7ca1ee03768e
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NcFreeNetconProperties, NcFreeNetconProperties function [ICS/ICF], ics.ncfreenetconproperties, netcon/NcFreeNetconProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netcon.h
 req.include-header: 

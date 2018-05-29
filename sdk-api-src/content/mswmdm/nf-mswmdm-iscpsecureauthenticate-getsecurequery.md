@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.ISCPSecureAuthenticate.GetSecureQuery
 title: ISCPSecureAuthenticate::GetSecureQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSecureQuery method is used to obtain a pointer to the ISCPSecureQuery interface.
 old-location: wmdm\iscpsecureauthenticate_getsecurequery.htm
 old-project: WMDM
 ms.assetid: d0cee36c-5200-4951-9a83-a0f32658939b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSecureQuery, GetSecureQuery method [windows Media Device Manager], GetSecureQuery method [windows Media Device Manager],ISCPSecureAuthenticate interface, ISCPSecureAuthenticate interface [windows Media Device Manager],GetSecureQuery method, ISCPSecureAuthenticate.GetSecureQuery, ISCPSecureAuthenticate::GetSecureQuery, ISCPSecureAuthenticateGetSecureQuery, mswmdm/ISCPSecureAuthenticate::GetSecureQuery, wmdm.iscpsecureauthenticate_getsecurequery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

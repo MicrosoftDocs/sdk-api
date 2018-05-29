@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymFindExecutableImage
 title: SymFindExecutableImage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates an executable file in the process search path.
 old-location: base\symfindexecutableimage.htm
 old-project: Debug
 ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

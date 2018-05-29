@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.ICreateDevEnum.CreateClassEnumerator
 title: ICreateDevEnum::CreateClassEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateClassEnumerator method creates an enumerator for a specified device category.
 old-location: dshow\icreatedevenum_createclassenumerator.htm
 old-project: DirectShow
 ms.assetid: 07457acc-51f1-4d1b-b795-e8d980a5531e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateClassEnumerator, CreateClassEnumerator method [DirectShow], CreateClassEnumerator method [DirectShow],ICreateDevEnum interface, ICreateDevEnum interface [DirectShow],CreateClassEnumerator method, ICreateDevEnum.CreateClassEnumerator, ICreateDevEnum::CreateClassEnumerator, ICreateDevEnumCreateClassEnumerator, dshow.icreatedevenum_createclassenumerator, strmif/ICreateDevEnum::CreateClassEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

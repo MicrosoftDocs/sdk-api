@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Header_SetOrderArray
 title: Header_SetOrderArray macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the left-to-right order of header items. You can use this macro or send the HDM_SETORDERARRAY message explicitly.
 old-location: controls\Header_SetOrderArray.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setorderarray.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Header_SetOrderArray, Header_SetOrderArray macro [Windows Controls], _win32_Header_SetOrderArray, _win32_Header_SetOrderArray_cpp, commctrl/Header_SetOrderArray, controls.Header_SetOrderArray, controls._win32_Header_SetOrderArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

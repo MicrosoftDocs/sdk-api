@@ -1,16 +1,16 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.COPPCompatibleGetInformation
 title: IOPMVideoOutput::COPPCompatibleGetInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an Output Protection Manager (OPM) status request to the display driver. Use this method when OPM is emulating Certified Output Protection Manager (COPP).
 old-location: mf\iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation.htm
 old-project: medfound
 ms.assetid: 46c0c426-9730-4a0e-ab95-03b240bd55f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: COPPCompatibleGetInformation, COPPCompatibleGetInformation method [Media Foundation], COPPCompatibleGetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],COPPCompatibleGetInformation method, IOPMVideoOutput.COPPCompatibleGetInformation, IOPMVideoOutput::COPPCompatibleGetInformation, mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation, opmapi/IOPMVideoOutput::COPPCompatibleGetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 

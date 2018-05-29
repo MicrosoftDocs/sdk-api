@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMSYMBOLS_CALLBACK64W
 title: PSYM_ENUMSYMBOLS_CALLBACK64W
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateSymbols64 function. It is called once for each enumerated symbol, and receives the symbol information.
 old-location: base\symenumeratesymbolsproc64.htm
 old-project: Debug
 ms.assetid: e1430398-041f-4edd-b7b0-de3a60a42b37
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PSYM_ENUMSYMBOLS_CALLBACK, PSYM_ENUMSYMBOLS_CALLBACK64, PSYM_ENUMSYMBOLS_CALLBACK64W, SymEnumerateSymbolsProc64, SymEnumerateSymbolsProc64 callback, SymEnumerateSymbolsProc64 callback function, _win32_symenumeratesymbolsproc64, base.symenumeratesymbolsproc64, dbghelp/SymEnumerateSymbolsProc64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

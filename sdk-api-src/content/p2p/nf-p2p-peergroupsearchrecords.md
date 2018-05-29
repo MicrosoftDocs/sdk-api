@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupSearchRecords
 title: PeerGroupSearchRecords function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupSearchRecords function searches the local peer group database for records that match the supplied criteria.
 old-location: p2p\peergroupsearchrecords.htm
 old-project: P2PSdk
 ms.assetid: 7df13041-e802-47b6-8b44-14837c513936
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupSearchRecords, PeerGroupSearchRecords function [Peer Networking], p2p.peergroupsearchrecords, p2p/PeerGroupSearchRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

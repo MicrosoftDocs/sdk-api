@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif._DVENCODERRESOLUTION
 title: "_DVENCODERRESOLUTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the digital video (DV) encoding resolution.
 old-location: dshow\dvencoderresolution.htm
 old-project: DirectShow
 ms.assetid: 110a4510-3a5e-453b-9973-a6cf7e2b0050
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVENCODERRESOLUTION, DVENCODERRESOLUTIONEnumeration, DVENCODERRESOLUTION_180x120, DVENCODERRESOLUTION_360x240, DVENCODERRESOLUTION_720x480, DVENCODERRESOLUTION_88x60, _DVENCODERRESOLUTION, _DVENCODERRESOLUTION enumeration [DirectShow], dshow.dvencoderresolution, strmif/DVENCODERRESOLUTION_180x120, strmif/DVENCODERRESOLUTION_360x240, strmif/DVENCODERRESOLUTION_720x480, strmif/DVENCODERRESOLUTION_88x60, strmif/_DVENCODERRESOLUTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

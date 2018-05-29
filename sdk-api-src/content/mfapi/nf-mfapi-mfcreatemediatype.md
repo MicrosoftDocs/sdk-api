@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMediaType
 title: MFCreateMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an empty media type.
 old-location: mf\mfcreatemediatype.htm
 old-project: medfound
 ms.assetid: 05b0941e-03ce-4ced-9022-22b65d1c4b4c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMediaType function [Media Foundation], mf.mfcreatemediatype, mfapi/MFCreateMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

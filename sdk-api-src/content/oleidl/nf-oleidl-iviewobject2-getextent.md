@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IViewObject2.GetExtent
 title: IViewObject2::GetExtent
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size that the specified view object will be drawn on the specified target device.
 old-location: com\iviewobject2_getextent.htm
 old-project: com
 ms.assetid: 66eedee0-58b5-4676-93db-599ed19a02b6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IViewObject2 interface, IViewObject2 interface [COM],GetExtent method, IViewObject2.GetExtent, IViewObject2::GetExtent, _ole_iviewobject2_getextent, com.iviewobject2_getextent, oleidl/IViewObject2::GetExtent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

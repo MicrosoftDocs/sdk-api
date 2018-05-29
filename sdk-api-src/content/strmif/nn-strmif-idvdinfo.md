@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDvdInfo
 title: IDvdInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\idvdinfo.htm
 old-project: DirectShow
 ms.assetid: 6b0c5dfe-aa1b-4ad0-9272-f1351e494b11
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdInfo, IDvdInfo interface [DirectShow], IDvdInfo interface [DirectShow],described, IDvdInfoInterface, dshow.idvdinfo, strmif/IDvdInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

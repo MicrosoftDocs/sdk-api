@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetUnicodeFormat
 title: ListView_SetUnicodeFormat macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Unicode character format flag for the control.
 old-location: controls\ListView_SetUnicodeFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setunicodeformat.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetUnicodeFormat, ListView_SetUnicodeFormat macro [Windows Controls], _win32_ListView_SetUnicodeFormat, _win32_ListView_SetUnicodeFormat_cpp, commctrl/ListView_SetUnicodeFormat, controls.ListView_SetUnicodeFormat, controls._win32_ListView_SetUnicodeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

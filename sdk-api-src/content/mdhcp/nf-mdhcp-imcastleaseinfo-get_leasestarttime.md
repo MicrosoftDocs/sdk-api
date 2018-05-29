@@ -1,16 +1,16 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_LeaseStartTime
 title: IMcastLeaseInfo::get_LeaseStartTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_LeaseStartTime method obtains the start time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestarttime.htm
 old-project: Tapi
 ms.assetid: b0998a2d-6ec5-4d39-ba75-ede352b4cbe8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_LeaseStartTime method, IMcastLeaseInfo.get_LeaseStartTime, IMcastLeaseInfo::get_LeaseStartTime, _tapi3_imcastleaseinfo_get_leasestarttime, get_LeaseStartTime, get_LeaseStartTime method [TAPI 2.2], get_LeaseStartTime method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_LeaseStartTime, tapi3.imcastleaseinfo_get_leasestarttime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

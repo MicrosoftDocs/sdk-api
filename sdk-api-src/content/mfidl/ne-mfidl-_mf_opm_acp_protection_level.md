@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MF_OPM_ACP_PROTECTION_LEVEL
 title: "_MF_OPM_ACP_PROTECTION_LEVEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines protection levels for MFPROTECTION_ACP.
 old-location: mf\mf_opm_acp_protection_level.htm
 old-project: medfound
 ms.assetid: 82D289EE-7A81-4FBB-A259-6CF0CBD0D76A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_OPM_ACP_FORCE_ULONG, MF_OPM_ACP_LEVEL_ONE, MF_OPM_ACP_LEVEL_THREE, MF_OPM_ACP_LEVEL_TWO, MF_OPM_ACP_OFF, MF_OPM_ACP_PROTECTION_LEVEL, MF_OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation], _MF_OPM_ACP_PROTECTION_LEVEL, mf.mf_opm_acp_protection_level, mfidl/MF_OPM_ACP_FORCE_ULONG, mfidl/MF_OPM_ACP_LEVEL_ONE, mfidl/MF_OPM_ACP_LEVEL_THREE, mfidl/MF_OPM_ACP_LEVEL_TWO, mfidl/MF_OPM_ACP_OFF, mfidl/MF_OPM_ACP_PROTECTION_LEVEL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

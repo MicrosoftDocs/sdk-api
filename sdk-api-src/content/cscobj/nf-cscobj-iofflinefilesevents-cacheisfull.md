@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheIsFull
 title: IOfflineFilesEvents::CacheIsFull
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cacheisfull.htm
 old-project: OfflineFiles
 ms.assetid: 535998f6-846b-4075-9504-a8d3e90a73b9
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CacheIsFull, CacheIsFull method [Offline Files], CacheIsFull method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsFull method, IOfflineFilesEvents.CacheIsFull, IOfflineFilesEvents::CacheIsFull, cscobj/IOfflineFilesEvents::CacheIsFull, of.iofflinefilesevents_cacheisfull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

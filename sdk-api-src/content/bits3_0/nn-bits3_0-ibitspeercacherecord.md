@@ -1,16 +1,16 @@
 ---
 UID: NN:bits3_0.IBitsPeerCacheRecord
 title: IBitsPeerCacheRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Use IBitsPeerCacheRecord to get information about a file in the cache.
 old-location: bits\ibitspeercacherecord.htm
 old-project: Bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS],described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h

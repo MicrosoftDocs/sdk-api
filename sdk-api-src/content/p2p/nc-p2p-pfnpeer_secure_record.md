@@ -1,16 +1,16 @@
 ---
 UID: NC:p2p.PFNPEER_SECURE_RECORD
 title: PFNPEER_SECURE_RECORD
-author: windows-driver-content
+author: windows-sdk-content
 description: The PFNPEER_SECURE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to secure records.
 old-location: p2p\pfnpeer_secure_record.htm
 old-project: P2PSdk
 ms.assetid: 454b40f6-a7de-4b59-ae35-a809c4510133
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback, PFNPEER_SECURE_RECORD callback function [Peer Networking], p2p.pfnpeer_secure_record, p2p/PFNPEER_SECURE_RECORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: p2p.h
 req.include-header: 

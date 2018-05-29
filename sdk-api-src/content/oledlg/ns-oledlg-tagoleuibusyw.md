@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUIBUSYW
 title: tagOLEUIBUSYW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuibusy_struct.htm
 old-project: com
 ms.assetid: 53c30da9-36f3-40f0-8176-15df1a34bdb8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUIBUSYW, *POLEUIBUSYW, BZ_DISABLECANCELBUTTON, BZ_DISABLERETRYBUTTON, BZ_DISABLESWITCHTOBUTTON, BZ_NOTRESPONDINGDIALOG, LPOLEUIBUSY, LPOLEUIBUSY structure pointer [COM], OLEUIBUSY, OLEUIBUSY structure [COM], OLEUIBUSYA, OLEUIBUSYW, POLEUIBUSY, POLEUIBUSY structure pointer [COM], _ole_OLEUIBUSY_str, com.oleuibusy_struct, oledlg/LPOLEUIBUSY, oledlg/OLEUIBUSY, oledlg/OLEUIBUSYA, oledlg/OLEUIBUSYW, oledlg/POLEUIBUSY, tagOLEUIBUSYW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader
 title: IWMDRMReader
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDRMReader interface provides methods to configure the DRM component and to manage DRM license acquisition and individualization of client applications.
 old-location: wmformat\iwmdrmreader.htm
 old-project: wmformat
 ms.assetid: bf4ff0f3-1f78-43c4-be4d-c74209176e58
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], IWMDRMReader interface [windows Media Format],described, IWMDRMReaderInterface, wmformat.iwmdrmreader, wmsdkidl/IWMDRMReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

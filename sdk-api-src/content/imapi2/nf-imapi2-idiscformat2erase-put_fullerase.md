@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_FullErase
 title: IDiscFormat2Erase::put_FullErase
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the quality of the disc erasure.
 old-location: imapi\idiscformat2erase_put_fullerase.htm
 old-project: imapi
 ms.assetid: 9a76ebbe-69c5-46a4-b620-220957220e53
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],put_FullErase method, IDiscFormat2Erase.put_FullErase, IDiscFormat2Erase::put_FullErase, imapi.idiscformat2erase_put_fullerase, imapi2/IDiscFormat2Erase::put_FullErase, put_FullErase, put_FullErase method [IMAPI], put_FullErase method [IMAPI],IDiscFormat2Erase interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_EasMessage
 title: IBDA_EasMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_EasMessage interface represents an ATSC emergency alert system (EAS) message table.
 old-location: mstv\ibda_easmessage.htm
 old-project: mstv
 ms.assetid: dfacaa47-c844-434f-951a-9ee38fa8af4a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_EasMessage, IBDA_EasMessage interface [Microsoft TV Technologies], IBDA_EasMessage interface [Microsoft TV Technologies],described, IBDA_EasMessageInterface, bdaiface/IBDA_EasMessage, mstv.ibda_easmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

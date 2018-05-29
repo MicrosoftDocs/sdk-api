@@ -1,16 +1,16 @@
 ---
 UID: NS:usbuser._USBUSER_BUS_STATISTICS_0_REQUEST
 title: "_USBUSER_BUS_STATISTICS_0_REQUEST"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USBUSER_BUS_STATISTICS_0_REQUEST structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve bus statistics.
 old-location: buses\usbuser_bus_statistics_0_request.htm
 old-project: usbref
 ms.assetid: 9913bcf7-61ce-4d96-9510-3b8d2117a802
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: "*PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST structure pointer [Buses], USBUSER_BUS_STATISTICS_0_REQUEST, USBUSER_BUS_STATISTICS_0_REQUEST structure [Buses], _USBUSER_BUS_STATISTICS_0_REQUEST, buses.usbuser_bus_statistics_0_request, usbstrct_bf51b053-6add-4de5-95db-95f755f2bc28.xml, usbuser/PUSBUSER_BUS_STATISTICS_0_REQUEST, usbuser/USBUSER_BUS_STATISTICS_0_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

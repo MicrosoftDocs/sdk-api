@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMediaSample2
 title: IMediaSample2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaSample2 interface sets and retrieves properties on media samples.This interface inherits the IMediaSample interface.
 old-location: dshow\imediasample2.htm
 old-project: DirectShow
 ms.assetid: 638cb75d-9be6-4ba1-a116-47e2d62b689d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaSample2, IMediaSample2 interface [DirectShow], IMediaSample2 interface [DirectShow],described, IMediaSample2Interface, dshow.imediasample2, strmif/IMediaSample2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

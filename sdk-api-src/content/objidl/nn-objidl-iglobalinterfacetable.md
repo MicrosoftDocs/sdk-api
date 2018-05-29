@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IGlobalInterfaceTable
 title: IGlobalInterfaceTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables any apartment in a process to get access to an interface implemented on an object in any other apartment in the process.
 old-location: com\iglobalinterfacetable.htm
 old-project: com
 ms.assetid: 0c1feee7-e33b-4b5d-8e35-4de6895e3947
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlobalInterfaceTable interface [COM],described, _com_iglobalinterfacetable, com.iglobalinterfacetable, objidl/IGlobalInterfaceTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

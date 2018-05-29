@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetName
 title: IAppxManifestTargetDeviceFamily::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the target device family from the AppxManifest.xml..
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getname.htm
 old-project: appxpkg
 ms.assetid: B7D3A0D3-421D-4A40-AF40-516AE51E06D4
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetName method, IAppxManifestTargetDeviceFamily.GetName, IAppxManifestTargetDeviceFamily::GetName, appxpackaging/IAppxManifestTargetDeviceFamily::GetName, appxpkg.iappxmanifesttargetdevicefamily_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

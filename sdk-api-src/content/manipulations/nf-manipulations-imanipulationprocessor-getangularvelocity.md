@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetAngularVelocity
 title: IManipulationProcessor::GetAngularVelocity
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAngularVelocity method calculates the rotational velocity that the target object is moving at.
 old-location: wintouch\imanipulationprocessor_getangularvelocity.htm
 old-project: wintouch
 ms.assetid: 3253837f-c5ea-47f7-ba0a-86e0ed4e228e
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetAngularVelocity, GetAngularVelocity method [Windows Touch], GetAngularVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetAngularVelocity method, IManipulationProcessor.GetAngularVelocity, IManipulationProcessor::GetAngularVelocity, manipulations/IManipulationProcessor::GetAngularVelocity, wintouch.imanipulationprocessor_getangularvelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

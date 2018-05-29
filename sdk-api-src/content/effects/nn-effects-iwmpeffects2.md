@@ -1,16 +1,16 @@
 ---
 UID: NN:effects.IWMPEffects2
 title: IWMPEffects2
-author: windows-driver-content
+author: windows-sdk-content
 description: IWMPEffects2 interface
 old-location: wmp\iwmpeffects2.htm
 old-project: WMP
 ms.assetid: 44e044c1-97fd-43cb-9530-4556e485f5ae
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], IWMPEffects2 interface [Windows Media Player],described, IWMPEffects2Interface, effects/IWMPEffects2, wmp.iwmpeffects2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: effects.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportVideoParameters
 title: IAMExtTransport::SetTransportVideoParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetTransportVideoParameters method assigns video parameters for external transport.
 old-location: dshow\iamexttransport_settransportvideoparameters.htm
 old-project: DirectShow
 ms.assetid: 8a63f921-0abb-417b-89c0-9dfb30ebbe57
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportVideoParameters method, IAMExtTransport.SetTransportVideoParameters, IAMExtTransport::SetTransportVideoParameters, IAMExtTransportSetTransportVideoParameters, SetTransportVideoParameters, SetTransportVideoParameters method [DirectShow], SetTransportVideoParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportvideoparameters, strmif/IAMExtTransport::SetTransportVideoParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

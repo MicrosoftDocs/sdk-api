@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.GetID
 title: IWMPPlugin::GetID
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPPlugin::GetID method returns the class id of the plug-in.
 old-location: wmp\iwmpplugin_getid.htm
 old-project: WMP
 ms.assetid: 883b6e19-5d1a-4ad9-882b-953772e8e11a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetID method, IWMPPlugin.GetID, IWMPPlugin::GetID, IWMPPluginGetIDDSP, wmp.iwmpplugin_getid, wmpservices/IWMPPlugin::GetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

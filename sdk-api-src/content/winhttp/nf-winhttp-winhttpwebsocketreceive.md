@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketReceive
 title: WinHttpWebSocketReceive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives data from a WebSocket connection.
 old-location: http\winhttpwebsocketreceive.htm
 old-project: WinHttp
 ms.assetid: 9992150d-632b-45fe-8f11-84d698b4ffb3
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpWebSocketReceive, WinHttpWebSocketReceive function [WinHTTP], http.winhttpwebsocketreceive, winhttp/WinHttpWebSocketReceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

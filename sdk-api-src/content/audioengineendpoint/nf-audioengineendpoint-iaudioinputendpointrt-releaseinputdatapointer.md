@@ -1,16 +1,16 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.ReleaseInputDataPointer
 title: IAudioInputEndpointRT::ReleaseInputDataPointer
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the acquired data pointer.
 old-location: termserv\iaudioinputendpointrt_releaseinputdatapointer.htm
 old-project: TermServ
 ms.assetid: 9dd3f72a-79fe-4d07-a301-d0960e30a2d1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],ReleaseInputDataPointer method, IAudioInputEndpointRT.ReleaseInputDataPointer, IAudioInputEndpointRT::ReleaseInputDataPointer, ReleaseInputDataPointer, ReleaseInputDataPointer method [Remote Desktop Services], ReleaseInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, audioengineendpoint/IAudioInputEndpointRT::ReleaseInputDataPointer, termserv.iaudioinputendpointrt_releaseinputdatapointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

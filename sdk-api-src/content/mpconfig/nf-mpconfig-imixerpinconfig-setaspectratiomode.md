@@ -1,16 +1,16 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetAspectRatioMode
 title: IMixerPinConfig::SetAspectRatioMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAspectRatioMode method sets the aspect ratio correction mode for window resizing.
 old-location: dshow\imixerpinconfig_setaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: 907ab0cf-c0a4-4e81-8fb4-90914427d9c0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetAspectRatioMode method, IMixerPinConfig.SetAspectRatioMode, IMixerPinConfig::SetAspectRatioMode, IMixerPinConfigSetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setaspectratiomode, mpconfig/IMixerPinConfig::SetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

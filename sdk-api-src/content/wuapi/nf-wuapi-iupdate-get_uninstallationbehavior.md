@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_UninstallationBehavior
 title: IUpdate::get_UninstallationBehavior
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that contains the uninstallation options for the update.
 old-location: wua\iupdate_uninstallationbehavior.htm
 old-project: Wua_Sdk
 ms.assetid: 12f35005-5dea-42c9-8c3b-eeb28bdd93b3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationBehavior property, IUpdate interface [Windows Update Services],UninstallationBehavior property, IUpdate.UninstallationBehavior, IUpdate.get_UninstallationBehavior, IUpdate::UninstallationBehavior, IUpdate::get_UninstallationBehavior, UninstallationBehavior, UninstallationBehavior property [Windows Update Agent], UninstallationBehavior property [Windows Update Agent],IUpdate interface, UninstallationBehavior property [Windows Update Services], UninstallationBehavior property [Windows Update Services],IUpdate interface, get_UninstallationBehavior, wua.iupdate_uninstallationbehavior, wuapi/IUpdate::UninstallationBehavior, wuapi/IUpdate::get_UninstallationBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

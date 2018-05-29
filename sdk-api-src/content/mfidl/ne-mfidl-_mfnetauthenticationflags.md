@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MFNetAuthenticationFlags
 title: "_MFNetAuthenticationFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the user's credentials will be used.
 old-location: mf\mfnetauthenticationflags.htm
 old-project: medfound
 ms.assetid: 4a2f5537-b78c-49a6-9b66-d3ca34c3fc67
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4a2f5537-b78c-49a6-9b66-d3ca34c3fc67, MFNET_AUTHENTICATION_CLEAR_TEXT, MFNET_AUTHENTICATION_LOGGED_ON_USER, MFNET_AUTHENTICATION_PROXY, MFNetAuthenticationFlags, MFNetAuthenticationFlags enumeration [Media Foundation], _MFNetAuthenticationFlags, mf.mfnetauthenticationflags, mfidl/MFNET_AUTHENTICATION_CLEAR_TEXT, mfidl/MFNET_AUTHENTICATION_LOGGED_ON_USER, mfidl/MFNET_AUTHENTICATION_PROXY, mfidl/MFNetAuthenticationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

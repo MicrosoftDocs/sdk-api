@@ -1,16 +1,16 @@
 ---
 UID: NS:dwmapi._DWM_THUMBNAIL_PROPERTIES
 title: "_DWM_THUMBNAIL_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the DwmUpdateThumbnailProperties function.
 old-location: dwm\dwm_thumbnail_properties.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_thumbnail_properties.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: "*PDWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES, DWM_THUMBNAIL_PROPERTIES structure [Desktop Window Manager], PDWM_THUMBNAIL_PROPERTIES, PDWM_THUMBNAIL_PROPERTIES structure pointer [Desktop Window Manager], _DWM_THUMBNAIL_PROPERTIES, _udwm_dwm_thumbnail_properties, _udwm_dwm_thumbnail_properties_cpp, dwm.dwm_thumbnail_properties, dwmapi/DWM_THUMBNAIL_PROPERTIES, dwmapi/PDWM_THUMBNAIL_PROPERTIES, winui._udwm_dwm_thumbnail_properties"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 

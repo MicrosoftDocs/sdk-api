@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateSession
 title: IWSMan::CreateSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Session object that can then be used for subsequent network operations.
 old-location: winrm\iwsman_createsession.htm
 old-project: WinRM
 ms.assetid: 0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateSession, CreateSession method [Windows Remote Management], CreateSession method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateSession method, IWSMan.CreateSession, IWSMan::CreateSession, winrm.iwsman_createsession, wsmandisp/IWSMan::CreateSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

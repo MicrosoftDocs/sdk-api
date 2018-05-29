@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_3.CD3D11_UNORDERED_ACCESS_VIEW_DESC1
 title: CD3D11_UNORDERED_ACCESS_VIEW_DESC1
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the subresources from a resource that are accessible using an unordered-access view.
 old-location: direct3d11\d3d11_unordered_access_view_desc1.htm
 old-project: direct3d11
 ms.assetid: 833B4B8A-5702-4C17-AFD2-DFDF69354DDD
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_UNORDERED_ACCESS_VIEW_DESC1, direct3d11.d3d11_unordered_access_view_desc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 

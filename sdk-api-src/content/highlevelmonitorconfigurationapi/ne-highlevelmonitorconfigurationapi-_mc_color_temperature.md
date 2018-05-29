@@ -1,16 +1,16 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_COLOR_TEMPERATURE
 title: "_MC_COLOR_TEMPERATURE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a monitor's color temperature.
 old-location: monitor\mc_color_temperature.htm
 old-project: Monitor
 ms.assetid: 890d1d84-6a7d-457b-8136-230be4c79e78
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPMC_COLOR_TEMPERATURE, LPMC_COLOR_TEMPERATURE, LPMC_COLOR_TEMPERATURE enumeration pointer [Monitor Configuration], MC_COLOR_TEMPERATURE, MC_COLOR_TEMPERATURE , MC_COLOR_TEMPERATURE enumeration [Monitor Configuration], MC_COLOR_TEMPERATURE_10000K, MC_COLOR_TEMPERATURE_11500K, MC_COLOR_TEMPERATURE_4000K, MC_COLOR_TEMPERATURE_5000K, MC_COLOR_TEMPERATURE_6500K, MC_COLOR_TEMPERATURE_7500K, MC_COLOR_TEMPERATURE_8200K, MC_COLOR_TEMPERATURE_9300K, MC_COLOR_TEMPERATURE_UNKNOWN, _MC_COLOR_TEMPERATURE, highlevelmonitorconfigurationapi/LPMC_COLOR_TEMPERATURE, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_10000K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_11500K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_4000K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_5000K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_6500K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_7500K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_8200K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_9300K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_UNKNOWN, monitor.mc_color_temperature"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

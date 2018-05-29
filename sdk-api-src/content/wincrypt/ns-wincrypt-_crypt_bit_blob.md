@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_BIT_BLOB
 title: "_CRYPT_BIT_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a set of bits represented by an array of bytes.
 old-location: security\crypt_bit_blob.htm
 old-project: SecCrypto
 ms.assetid: 6f102ff3-bfff-4415-a5d8-ca2c226074b3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_BIT_BLOB, CRYPT_BIT_BLOB, CRYPT_BIT_BLOB structure [Security], PCRYPT_BIT_BLOB, PCRYPT_BIT_BLOB structure pointer [Security], _CRYPT_BIT_BLOB, _crypto2_crypt_bit_blob, security.crypt_bit_blob, wincrypt/CRYPT_BIT_BLOB, wincrypt/PCRYPT_BIT_BLOB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

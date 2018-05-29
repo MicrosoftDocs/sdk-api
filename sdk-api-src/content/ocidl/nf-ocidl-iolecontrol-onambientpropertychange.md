@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleControl.OnAmbientPropertyChange
 title: IOleControl::OnAmbientPropertyChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs a control that one or more of the container's ambient properties has changed.
 old-location: com\iolecontrol_onambientpropertychange.htm
 old-project: com
 ms.assetid: 9ca43723-a14e-4f03-8eec-e10ab34ecb4d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleControl interface [COM],OnAmbientPropertyChange method, IOleControl.OnAmbientPropertyChange, IOleControl::OnAmbientPropertyChange, OnAmbientPropertyChange, OnAmbientPropertyChange method [COM], OnAmbientPropertyChange method [COM],IOleControl interface, _ctrl_iolecontrol_onambientpropertychange, com.iolecontrol_onambientpropertychange, ocidl/IOleControl::OnAmbientPropertyChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

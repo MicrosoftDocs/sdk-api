@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextView.GetScreenExt
 title: ITfContextView::GetScreenExt
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfContextView::GetScreenExt method returns the bounding box, in screen coordinates, of the document display.
 old-location: tsf\itfcontextview_getscreenext.htm
 old-project: TSF
 ms.assetid: 86dde611-4c46-418c-aa89-728081a28943
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetScreenExt method, ITfContextView.GetScreenExt, ITfContextView::GetScreenExt, _tsf_itfcontextview_getscreenext_ref, msctf/ITfContextView::GetScreenExt, tsf.itfcontextview_getscreenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

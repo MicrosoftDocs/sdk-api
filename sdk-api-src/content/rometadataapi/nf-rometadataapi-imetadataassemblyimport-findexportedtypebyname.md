@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindExportedTypeByName
 title: IMetaDataAssemblyImport::FindExportedTypeByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to an exported type, given its name and enclosing type.
 old-location: winrt\imetadataassemblyimport_findexportedtypebyname.htm
 old-project: WinRT
 ms.assetid: 2b19b41c-fd1b-4284-8455-2b0d69907c99
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: FindExportedTypeByName, FindExportedTypeByName method [Windows Runtime], FindExportedTypeByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindExportedTypeByName method, IMetaDataAssemblyImport.FindExportedTypeByName, IMetaDataAssemblyImport::FindExportedTypeByName, rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName, winrt.imetadataassemblyimport_findexportedtypebyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

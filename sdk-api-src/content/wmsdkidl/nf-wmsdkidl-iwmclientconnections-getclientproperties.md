@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections.GetClientProperties
 title: IWMClientConnections::GetClientProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetClientProperties method retrieves information, including the IP address and protocol, about a connected client.
 old-location: wmformat\iwmclientconnections_getclientproperties.htm
 old-project: wmformat
 ms.assetid: a05d7d1e-21dc-4e2a-a17b-5f04e639b143
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetClientProperties, GetClientProperties method [windows Media Format], GetClientProperties method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientProperties method, IWMClientConnections.GetClientProperties, IWMClientConnections::GetClientProperties, IWMClientConnectionsGetClientProperties, wmformat.iwmclientconnections_getclientproperties, wmsdkidl/IWMClientConnections::GetClientProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

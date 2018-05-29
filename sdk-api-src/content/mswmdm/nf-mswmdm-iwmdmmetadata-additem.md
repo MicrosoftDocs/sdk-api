@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.AddItem
 title: IWMDMMetaData::AddItem
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddItem method adds a metadata property to the interface.
 old-location: wmdm\iwmdmmetadata_additem.htm
 old-project: WMDM
 ms.assetid: fb8dee5f-034f-4e1d-86fe-34a2d9439e5f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddItem, AddItem method [windows Media Device Manager], AddItem method [windows Media Device Manager],IWMDMMetaData interface, IWMDMMetaData interface [windows Media Device Manager],AddItem method, IWMDMMetaData.AddItem, IWMDMMetaData::AddItem, IWMDMMetaDataAddItem, mswmdm/IWMDMMetaData::AddItem, wmdm.iwmdmmetadata_additem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphEndEnumeration
 title: PeerGraphEndEnumeration function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphEndEnumeration function releases an enumeration handle, and frees the resources associated with an enumeration.
 old-location: p2p\peergraphendenumeration.htm
 old-project: P2PSdk
 ms.assetid: 31a18705-b8bf-461c-98e0-c03c6d269b51
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphEndEnumeration, PeerGraphEndEnumeration function [Peer Networking], p2p.peergraphendenumeration, p2p/PeerGraphEndEnumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

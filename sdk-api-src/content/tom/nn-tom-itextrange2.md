@@ -1,16 +1,16 @@
 ---
 UID: NN:tom.ITextRange2
 title: ITextRange2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextRange2 interface is derived from ITextRange, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
 old-location: controls\itextrange2.htm
 old-project: Controls
 ms.assetid: 905f0967-8b99-45ed-a1cc-19d49e919a65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], ITextRange2 interface [Windows Controls],described, controls.itextrange2, tom/ITextRange2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

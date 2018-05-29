@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Save
 title: IFaxConfiguration::Save
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the object.
 old-location: fax\_mfax_FaxConfiguration_Save_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],Save method, FaxConfiguration.Save, IFaxConfiguration.Save, IFaxConfiguration::Save, Save, Save method [Fax Service], Save method [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Save, fax._mfax_FaxConfiguration_Save_vb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

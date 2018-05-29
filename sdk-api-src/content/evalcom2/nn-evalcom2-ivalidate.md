@@ -1,16 +1,16 @@
 ---
 UID: NN:evalcom2.IValidate
 title: IValidate
-author: windows-driver-content
+author: windows-sdk-content
 description: The IValidate interface enables authoring tools to validate a Windows Installer package against a set of Internal Consistency Evaluators.
 old-location: setup\ivalidate.htm
 old-project: Msi
 ms.assetid: b7c686f8-ed6a-44d6-ab76-f6d6c7d154a0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IValidate, IValidate interface, IValidate interface,described, evalcom2/IValidate, setup.ivalidate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: evalcom2.h
 req.include-header: 

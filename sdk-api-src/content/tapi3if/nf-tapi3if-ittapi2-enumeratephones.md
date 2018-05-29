@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTAPI2.EnumeratePhones
 title: ITTAPI2::EnumeratePhones
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty enumeration and returns S_OK.
 old-location: tapi3\ittapi2_enumeratephones.htm
 old-project: Tapi
 ms.assetid: 6b6aba8d-fbf7-459f-9bc8-79647194b989
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumeratePhones, EnumeratePhones method [TAPI 2.2], EnumeratePhones method [TAPI 2.2],ITTAPI2 interface, ITTAPI2 interface [TAPI 2.2],EnumeratePhones method, ITTAPI2.EnumeratePhones, ITTAPI2::EnumeratePhones, _tapi3_ittapi2_enumeratephones, tapi3.ittapi2_enumeratephones, tapi3if/ITTAPI2::EnumeratePhones
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

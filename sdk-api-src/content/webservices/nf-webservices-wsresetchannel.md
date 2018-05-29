@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsResetChannel
 title: WsResetChannel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reset a channel so it can be reused.
 old-location: wsw\wsresetchannel.htm
 old-project: wsw
 ms.assetid: 7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsResetChannel, WsResetChannel function [Web Services for Windows], webservices/WsResetChannel, wsw.wsresetchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

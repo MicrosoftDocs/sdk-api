@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IFilterMapper
 title: IFilterMapper
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\ifiltermapper.htm
 old-project: DirectShow
 ms.assetid: e2f32235-e331-4c3c-925a-7cfa531e9ab3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], IFilterMapper interface [DirectShow],described, IFilterMapperInterface, dshow.ifiltermapper, strmif/IFilterMapper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

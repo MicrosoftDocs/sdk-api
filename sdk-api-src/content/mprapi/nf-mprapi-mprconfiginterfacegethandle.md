@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetHandle
 title: MprConfigInterfaceGetHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceGetHandle function retrieves a handle to the specified interface's configuration in the specified router configuration.
 old-location: rras\mprconfiginterfacegethandle.htm
 old-project: RRAS
 ms.assetid: 1088e587-4446-4463-b411-a11e34adaf6a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceGetHandle, MprConfigInterfaceGetHandle function [RAS], _mpr_mprconfiginterfacegethandle, mprapi/MprConfigInterfaceGetHandle, rras.mprconfiginterfacegethandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

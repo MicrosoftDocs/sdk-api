@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetString
 title: MI_SubscriptionDeliveryOptions_SetString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a named string option that is not covered by a dedicated function.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setstring.htm
 old-project: wmi_v2
 ms.assetid: c2bcf5b7-24c1-43cd-bf65-18ad891be7b8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetString, MI_SubscriptionDeliveryOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetString, wmi_v2.mi_subscriptiondeliveryoptions_setstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

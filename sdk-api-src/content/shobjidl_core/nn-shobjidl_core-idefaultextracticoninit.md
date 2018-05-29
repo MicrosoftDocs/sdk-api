@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IDefaultExtractIconInit
 title: IDefaultExtractIconInit
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods to set default icons associated with an object.
 old-location: shell\IDefaultExtractIconInit.htm
 old-project: shell
 ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

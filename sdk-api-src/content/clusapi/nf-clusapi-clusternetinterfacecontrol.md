@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceControl
 title: ClusterNetInterfaceControl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates an operation that affects a network interface. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternetinterfacecontrol.htm
 old-project: MsCS
 ms.assetid: cfb56e61-3652-47a3-860b-706e6dba03d7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterNetInterfaceControl, ClusterNetInterfaceControl function [Failover Cluster], _wolf_clusternetinterfacecontrol, clusapi/ClusterNetInterfaceControl, mscs.clusternetinterfacecontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

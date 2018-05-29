@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_SenderName
 title: IFaxStatus::get_SenderName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the SenderName property for the FaxStatus object of a parent FaxPort object. The SenderName property is a null-terminated string that contains the name of the user who sent the fax transmission.
 old-location: fax\_mfax_ifaxstatus_get_sendername_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_54x1.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxStatus object [Fax Service],SenderName property, FaxStatus.SenderName, IFaxStatus.get_SenderName, IFaxStatus::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_sendername, fax._mfax_ifaxstatus_get_sendername, fax._mfax_ifaxstatus_get_sendername_vb, get_SenderName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

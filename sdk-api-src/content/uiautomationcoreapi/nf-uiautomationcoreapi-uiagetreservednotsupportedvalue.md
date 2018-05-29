@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetReservedNotSupportedValue
 title: UiaGetReservedNotSupportedValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a reserved value indicating that a Microsoft UI Automation property or a text attribute is not supported.
 old-location: winauto\uiauto_UiaGetReservedNotSupportedValueAutoMeth.htm
 old-project: WinAuto
 ms.assetid: ba789ed0-fa34-492c-90b4-acee0adb634c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaGetReservedNotSupportedValue, UiaGetReservedNotSupportedValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiautomationcoreapi/UiaGetReservedNotSupportedValue, winauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

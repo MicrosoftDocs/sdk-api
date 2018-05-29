@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateRectRgnIndirect
 title: CreateRectRgnIndirect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateRectRgnIndirect function creates a rectangular region.
 old-location: gdi\createrectrgnindirect.htm
 old-project: gdi
 ms.assetid: f32e0b94-ce9c-4098-81fe-b239a9544621
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateRectRgnIndirect, CreateRectRgnIndirect function [Windows GDI], _win32_CreateRectRgnIndirect, gdi.createrectrgnindirect, wingdi/CreateRectRgnIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

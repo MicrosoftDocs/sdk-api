@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateClientInfoVQ
 title: DhcpCreateClientInfoVQ function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the provided DHCP client lease record in the DHCP server database.
 old-location: dhcp\dhcpcreateclientinfovq.htm
 old-project: DHCP
 ms.assetid: 8b47bd52-e153-4000-9f4e-5335f029464b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpCreateClientInfoVQ, DhcpCreateClientInfoVQ function [DHCP], dhcp.dhcpcreateclientinfovq, dhcpsapi/DhcpCreateClientInfoVQ
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

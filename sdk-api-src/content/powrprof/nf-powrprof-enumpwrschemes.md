@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.EnumPwrSchemes
 title: EnumPwrSchemes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all power schemes.
 old-location: base\enumpwrschemes.htm
 old-project: Power
 ms.assetid: 5e9e10b4-84c3-40ec-8de9-220d13795403
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: EnumPwrSchemes, EnumPwrSchemes function, _win32_enumpwrschemes, base.enumpwrschemes, powrprof/EnumPwrSchemes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

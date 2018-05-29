@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI4FromDisp
 title: VarI4FromDisp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a long value.
 old-location: automat\vari4fromdisp.htm
 old-project: automat
 ms.assetid: ee43a319-8863-441e-a2b8-b322f8c88f32
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI4FromDisp, VarI4FromDisp function [Automation], _oa96_VarI4FromDisp, automat.vari4fromdisp, oleauto/VarI4FromDisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleCache
 title: IOleCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides control of the presentation data that gets cached inside of an object. Cached presentation data is available to the container of the object even when the server application is not running or is unavailable.
 old-location: com\iolecache.htm
 old-project: com
 ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsdefs._WTS_CLIENT_DATA
 title: "_WTS_CLIENT_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the client connection.
 old-location: termserv\wts_client_data.htm
 old-project: TermServ
 ms.assetid: a8e0fcbd-4f5c-4692-9bb0-aaa00465acf0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTS_CLIENT_DATA, PWRDS_CLIENT_DATA, PWRDS_CLIENT_DATA structure pointer [Remote Desktop Services], PWTS_CLIENT_DATA, PWTS_CLIENT_DATA structure pointer [Remote Desktop Services], WRDS_CLIENT_DATA, WRDS_CLIENT_DATA structure [Remote Desktop Services], WTS_CLIENT_DATA, WTS_CLIENT_DATA structure [Remote Desktop Services], _WTS_CLIENT_DATA, termserv.wts_client_data, wtsdefs/PWRDS_CLIENT_DATA, wtsdefs/PWTS_CLIENT_DATA, wtsdefs/WRDS_CLIENT_DATA, wtsdefs/WTS_CLIENT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

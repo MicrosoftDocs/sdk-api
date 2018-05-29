@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverDeleteScopeFromRelationship
 title: DhcpV4FailoverDeleteScopeFromRelationship function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a DHCPv4 scope from the specified failover relationship.
 old-location: dhcp\dhcpv4failoverdeletescopefromrelationship.htm
 old-project: DHCP
 ms.assetid: 52420cc6-0a7b-499b-b7fe-35852a03adea
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4FailoverDeleteScopeFromRelationship, DhcpV4FailoverDeleteScopeFromRelationship function [DHCP], dhcp.dhcpv4failoverdeletescopefromrelationship, dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

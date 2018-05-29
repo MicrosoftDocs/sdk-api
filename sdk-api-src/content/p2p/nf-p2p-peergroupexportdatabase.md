@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupExportDatabase
 title: PeerGroupExportDatabase function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupExportDatabase function exports a peer group database to a specific file, which can be transported to another computer and imported with the PeerGroupImportDatabase function.
 old-location: p2p\peergroupexportdatabase.htm
 old-project: P2PSdk
 ms.assetid: ce448780-5a9b-4d2d-9dfb-192b4e6c1b22
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupExportDatabase, PeerGroupExportDatabase function [Peer Networking], p2p.peergroupexportdatabase, p2p/PeerGroupExportDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

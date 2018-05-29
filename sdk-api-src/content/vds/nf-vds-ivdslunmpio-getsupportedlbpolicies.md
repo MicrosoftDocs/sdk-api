@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsLunMpio.GetSupportedLbPolicies
 title: IVdsLunMpio::GetSupportedLbPolicies
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the load balance policies that are supported by the hardware provider.
 old-location: base\ivdslunmpio_getsupportedlbpolicies.htm
 old-project: VDS
 ms.assetid: 1b1f3437-41db-403e-abdb-febbfe90858c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: GetSupportedLbPolicies, GetSupportedLbPolicies method [VDS], GetSupportedLbPolicies method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetSupportedLbPolicies method, IVdsLunMpio.GetSupportedLbPolicies, IVdsLunMpio::GetSupportedLbPolicies, base.ivdslunmpio_getsupportedlbpolicies, vds/IVdsLunMpio::GetSupportedLbPolicies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetSupportedLbPolicies, GetSupportedLbPolicies method [VDS], GetSupportedLbPolicies method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetSupportedLbPolicies method, IVdsLunMpio.GetSupportedLbPolicies, IVdsLunMpio::GetSupportedLbPolicies, base.ivdslunmpio_getsupportedlbpolicies, vds/IVdsLunMpio::GetSupportedLbPolicies, vdshwprv/IVdsLunMpio::GetSupportedLbPolicies
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 
@@ -34,6 +34,7 @@ api_type:
 -	COM
 api_location:
 -	Vds.h
+-	VdsHwPrv.h
 api_name:
 -	IVdsLunMpio.GetSupportedLbPolicies
 product: Windows

@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.RESUTIL_FILETIME_DATA
 title: RESUTIL_FILETIME_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a FILETIME.
 old-location: mscs\resutil_filetime_data.htm
 old-project: MsCS
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IGraphConfigCallback.Reconfigure
 title: IGraphConfigCallback::Reconfigure
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reconfigure method is a callback method passed to IGraphConfig::Reconfigure.
 old-location: dshow\igraphconfigcallback_reconfigure.htm
 old-project: DirectShow
 ms.assetid: b4f44639-b3b0-412e-8b71-e1f994dee0e6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGraphConfigCallback interface [DirectShow],Reconfigure method, IGraphConfigCallback.Reconfigure, IGraphConfigCallback::Reconfigure, IGraphConfigCallbackReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfigCallback interface, dshow.igraphconfigcallback_reconfigure, strmif/IGraphConfigCallback::Reconfigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

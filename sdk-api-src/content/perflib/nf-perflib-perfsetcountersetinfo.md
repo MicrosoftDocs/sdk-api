@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfSetCounterSetInfo
 title: PerfSetCounterSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the layout of a particular counter set.
 old-location: perf\perfsetcountersetinfo.htm
 old-project: PerfCtrs
 ms.assetid: b4295503-5588-4898-816c-939a5920fc77
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

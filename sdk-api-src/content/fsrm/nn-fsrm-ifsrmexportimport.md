@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmExportImport
 title: IFsrmExportImport
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to export and import FSRM objects.
 old-location: fsrm\ifsrmexportimport.htm
 old-project: Fsrm
 ms.assetid: 5a3b682e-d2c3-43b3-9d10-4bba9d9c81d4
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmExportImport, IFsrmExportImport interface [File Server Resource Manager], IFsrmExportImport interface [File Server Resource Manager],described, fs.ifsrmexportimport, fsrm.ifsrmexportimport, fsrm/IFsrmExportImport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h

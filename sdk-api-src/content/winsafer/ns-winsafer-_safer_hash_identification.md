@@ -1,16 +1,16 @@
 ---
 UID: NS:winsafer._SAFER_HASH_IDENTIFICATION
 title: "_SAFER_HASH_IDENTIFICATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a hash identification rule.
 old-location: security\safer_hash_identification.htm
 old-project: SecMgmt
 ms.assetid: 68b4b5f5-8220-4180-8243-b6f1fd7826bd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION structure pointer [Security], SAFER_HASH_IDENTIFICATION, SAFER_HASH_IDENTIFICATION structure [Security], _SAFER_HASH_IDENTIFICATION, _mnp_safer_hash_identification, security.safer_hash_identification, winsafer/PSAFER_HASH_IDENTIFICATION, winsafer/SAFER_HASH_IDENTIFICATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsafer.h
 req.include-header: 

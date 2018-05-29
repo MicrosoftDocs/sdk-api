@@ -1,16 +1,16 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.DownloadTrack
 title: IWMPContentPartnerCallback::DownloadTrack
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_downloadtrack.htm
 old-project: WMP
 ms.assetid: fe8772fa-2eb4-4dfe-b677-e667b6021690
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: DownloadTrack, DownloadTrack method [Windows Media Player], DownloadTrack method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],DownloadTrack method, IWMPContentPartnerCallback.DownloadTrack, IWMPContentPartnerCallback::DownloadTrack, IWMPContentPartnerCallbackDownloadTrack, contentpartner/IWMPContentPartnerCallback::DownloadTrack, wmp.iwmpcontentpartnercallback_downloadtrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IShellRunDll
 title: IShellRunDll
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: shell\IShellRunDll.htm
 old-project: shell
 ms.assetid: e2e62966-dfe2-4458-8c3f-fc88669b3aeb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll interface [Windows Shell],described, _shell_IShellRunDll, shell.IShellRunDll, shobjidl/IShellRunDll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: Shobjidl.h

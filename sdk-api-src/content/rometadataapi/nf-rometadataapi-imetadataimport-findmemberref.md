@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindMemberRef
 title: IMetaDataImport::FindMemberRef
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the MemberRef token for the member reference that is enclosed by the specified Type and that has the specified name and metadata signature.
 old-location: winrt\imetadataimport_findmemberref.htm
 old-project: WinRT
 ms.assetid: beb32bb3-06e3-4817-90f0-0745756e1955
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: FindMemberRef, FindMemberRef method [Windows Runtime], FindMemberRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindMemberRef method, IMetaDataImport.FindMemberRef, IMetaDataImport::FindMemberRef, rometadataapi/IMetaDataImport::FindMemberRef, winrt.imetadataimport_findmemberref
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:stralign.uaw_wcslen
 title: uaw_wcslen function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of characters in a null-terminated Unicode string.
 old-location: winprog\uaw_wcslen.htm
 old-project: DevNotes
 ms.assetid: 006e09df-9df3-48e8-9eaa-d8e95369424a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: stralign/uaw_wcslen, uaw_wcslen, uaw_wcslen function [Windows API], winprog.uaw_wcslen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: stralign.h
 req.include-header: 

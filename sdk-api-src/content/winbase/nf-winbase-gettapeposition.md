@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetTapePosition
 title: GetTapePosition function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current address of the tape, in logical or absolute blocks.
 old-location: backup\gettapeposition.htm
 old-project: Backup
 ms.assetid: f4ce1436-ee16-4e05-b7a0-30ea79688e79
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: GetTapePosition, GetTapePosition function [Backup], TAPE_ABSOLUTE_POSITION, TAPE_LOGICAL_POSITION, _win32_gettapeposition, backup.gettapeposition, base.gettapeposition, winbase/GetTapePosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

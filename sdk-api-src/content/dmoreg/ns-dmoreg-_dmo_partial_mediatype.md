@@ -1,16 +1,16 @@
 ---
 UID: NS:dmoreg._DMO_PARTIAL_MEDIATYPE
 title: "_DMO_PARTIAL_MEDIATYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMO_PARTIAL_MEDIATYPE structure partially describes a media type used by a Microsoft DirectX Media Object (DMO). The DMO registration functions use this structure to specify supported media types.
 old-location: dshow\dmo_partial_mediatype.htm
 old-project: DirectShow
 ms.assetid: 53bf4c34-d180-4edd-b59a-55d7d90708b5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE structure [DirectShow], DMO_PARTIAL_MEDIATYPEStructure, PDMO_PARTIAL_MEDIATYPE, PDMO_PARTIAL_MEDIATYPE structure pointer [DirectShow], _DMO_PARTIAL_MEDIATYPE, dmoreg/DMO_PARTIAL_MEDIATYPE, dmoreg/PDMO_PARTIAL_MEDIATYPE, dshow.dmo_partial_mediatype"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmoreg.h
 req.include-header: 

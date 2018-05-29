@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMalloc.HeapMinimize
 title: IMalloc::HeapMinimize
-author: windows-driver-content
+author: windows-sdk-content
 description: Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
 old-location: com\imalloc_heapminimize.htm
 old-project: com
 ms.assetid: b57e32eb-a637-47d8-b136-05cb193e9f73
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HeapMinimize, HeapMinimize method [COM], HeapMinimize method [COM],IMalloc interface, IMalloc interface [COM],HeapMinimize method, IMalloc.HeapMinimize, IMalloc::HeapMinimize, _com_imalloc_heapminimize, com.imalloc_heapminimize, objidlbase/IMalloc::HeapMinimize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

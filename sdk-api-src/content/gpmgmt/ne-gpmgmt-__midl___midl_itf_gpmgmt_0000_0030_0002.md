@@ -1,16 +1,16 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0030_0002
 title: "__MIDL___MIDL_itf_gpmgmt_0000_0030_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: The Starter Group Policy object is a system Starter Group Policy object or a custom Starter Group Policy object.
 old-location: gpmc\gpmstartergpotype.htm
 old-project: GPMC
 ms.assetid: 19b84c06-d8dc-4a25-85f6-cfbe9937f30e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMStarterGPOType, GPMStarterGPOType enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0030_0002, gpmc.gpmstartergpotype, gpmgmt/GPMStarterGPOType, gpmgmt/typeCustom, gpmgmt/typeSystem, typeCustom, typeSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 

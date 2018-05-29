@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IGraphBuilder
 title: IGraphBuilder
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface provides methods that enable an application to build a filter graph.
 old-location: dshow\igraphbuilder.htm
 old-project: DirectShow
 ms.assetid: 54ed8ac8-4821-4c0c-9fb9-789c70dbca37
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], IGraphBuilder interface [DirectShow],described, IGraphBuilderInterface, dshow.igraphbuilder, strmif/IGraphBuilder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

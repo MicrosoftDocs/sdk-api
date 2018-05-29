@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoId
 title: IIsdbLogoTransmissionDescriptor::GetLogoId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the logo identifier from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogoid.htm
 old-project: mstv
 ms.assetid: f4c11012-5d37-4d8f-944b-edfa50719b12
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLogoId, GetLogoId method [Microsoft TV Technologies], GetLogoId method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoId method, IIsdbLogoTransmissionDescriptor.GetLogoId, IIsdbLogoTransmissionDescriptor::GetLogoId, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoId, mstv.iisdblogotransmissiondescriptor_getlogoid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

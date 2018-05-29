@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIf3
 title: RpcServerRegisterIf3 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerRegisterIf3 function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterif3.htm
 old-project: Rpc
 ms.assetid: D685B7A6-7E22-419F-B476-F0372836D16A
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerRegisterIf3, RpcServerRegisterIf3 function [RPC], rpc.rpcserverregisterif3, rpcdce/RpcServerRegisterIf3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

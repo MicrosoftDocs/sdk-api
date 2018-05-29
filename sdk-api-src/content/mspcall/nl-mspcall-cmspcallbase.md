@@ -1,16 +1,16 @@
 ---
 UID: NL:mspcall.CMSPCallBase
 title: CMSPCallBase
-author: windows-driver-content
+author: windows-sdk-content
 description: The CMSPCallBase class provides a generic implementation of the call object. It supports the ITStreamControl interface. It serves as a simple base class that maintains the stream list. This class is defined in MSPcall.h.
 old-location: tapi3\cmspcallbase.htm
 old-project: Tapi
 ms.assetid: 77b53b66-38fa-4823-9051-e857da8a7dd7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPCallBase, CMSPCallBase object [TAPI 2.2], CMSPCallBase object [TAPI 2.2],described, _tapi3_cmspcallbase, mspcall/CMSPCallBase, tapi3.cmspcallbase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: mspcall.h
 req.include-header: 

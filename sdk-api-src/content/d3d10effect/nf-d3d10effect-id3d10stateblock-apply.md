@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10StateBlock.Apply
 title: ID3D10StateBlock::Apply
-author: windows-driver-content
+author: windows-sdk-content
 description: Apply the state block to the current device state.
 old-location: direct3d10\id3d10stateblock_apply.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock_apply.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 8047c555-4a3e-a6b4-9733-42350b374f15, Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D10StateBlock interface, ID3D10StateBlock interface [Direct3D 10],Apply method, ID3D10StateBlock.Apply, ID3D10StateBlock::Apply, d3d10effect/ID3D10StateBlock::Apply, direct3d10.id3d10stateblock_apply
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: D3D10.h

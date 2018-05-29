@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.IEnumQueue.Reset
 title: IEnumQueue::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumqueue_reset.htm
 old-project: Tapi
 ms.assetid: 0f444d56-e660-48c3-a483-256138d49984
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumQueue interface [TAPI 2.2],Reset method, IEnumQueue.Reset, IEnumQueue::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumQueue interface, _tapi3_ienumqueue_reset, tapi3.ienumqueue_reset, tapi3cc/IEnumQueue::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

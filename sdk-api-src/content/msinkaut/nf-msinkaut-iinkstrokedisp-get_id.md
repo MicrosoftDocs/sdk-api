@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_ID
 title: IInkStrokeDisp::get_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier of an object.
 old-location: tablet\iinkstrokedisp_id.htm
 old-project: tablet
 ms.assetid: f8e9d2b2-c3d1-4ea8-aed6-649bf6d4d353
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],ID property, IInkStrokeDisp.ID, IInkStrokeDisp.get_ID, IInkStrokeDisp.get_Id, IInkStrokeDisp::ID, IInkStrokeDisp::get_ID, get_ID, msinkaut/IInkStrokeDisp::ID, msinkaut/IInkStrokeDisp::get_ID, tablet.iinkstrokedisp_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

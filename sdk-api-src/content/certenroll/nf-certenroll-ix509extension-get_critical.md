@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Extension.get_Critical
 title: IX509Extension::get_Critical
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that identifies whether the certificate extension is critical.
 old-location: security\ix509extension_critical_property.htm
 old-project: SecCertEnroll
 ms.assetid: b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Critical property [Security], Critical property [Security],IX509Extension interface, IX509Extension interface [Security],Critical property, IX509Extension.Critical, IX509Extension.get_Critical, IX509Extension::Critical, IX509Extension::get_Critical, IX509Extension::put_Critical, certenroll/IX509Extension::Critical, certenroll/IX509Extension::get_Critical, certenroll/IX509Extension::put_Critical, get_Critical, security.ix509extension_critical_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

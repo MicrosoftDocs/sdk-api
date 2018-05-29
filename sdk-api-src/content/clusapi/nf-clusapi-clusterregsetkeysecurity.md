@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegSetKeySecurity
 title: ClusterRegSetKeySecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the security attributes for a cluster database key.
 old-location: mscs\clusterregsetkeysecurity.htm
 old-project: MsCS
 ms.assetid: adb2ea52-6a3a-4243-944d-c7ae68a42a1a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegSetKeySecurity, ClusterRegSetKeySecurity function [Failover Cluster], _wolf_clusterregsetkeysecurity, clusapi/ClusterRegSetKeySecurity, mscs.clusterregsetkeysecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

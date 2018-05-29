@@ -1,16 +1,16 @@
 ---
 UID: NE:vdshwprv._VDS_LUN_PLEX_FLAG
 title: "_VDS_LUN_PLEX_FLAG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of valid flags for a LUN plex object.
 old-location: base\vds_lun_plex_flag.htm
 old-project: VDS
 ms.assetid: 0258d87c-0270-449e-8e96-2c511c5f7242
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_LPF_LBN_REMAP_ENABLED, VDS_LUN_PLEX_FLAG, VDS_LUN_PLEX_FLAG enumeration [VDS], _VDS_LUN_PLEX_FLAG, base.vds_lun_plex_flag, vds/VDS_LPF_LBN_REMAP_ENABLED, vds/VDS_LUN_PLEX_FLAG, vdshwprv/VDS_LPF_LBN_REMAP_ENABLED, vdshwprv/VDS_LUN_PLEX_FLAG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

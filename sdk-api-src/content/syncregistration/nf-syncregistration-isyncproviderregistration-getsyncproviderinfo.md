@@ -1,16 +1,16 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderInfo
 title: ISyncProviderRegistration::GetSyncProviderInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an ISyncProviderInfo object for the specific synchronization provider instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderinfo.htm
 old-project: winsync
 ms.assetid: 894d2314-2210-4a16-a7e6-1ee74638c035
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSyncProviderInfo, GetSyncProviderInfo method [Windows Sync], GetSyncProviderInfo method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderInfo method, ISyncProviderRegistration.GetSyncProviderInfo, ISyncProviderRegistration::GetSyncProviderInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderInfo, winsync.isyncproviderregistration_getsyncproviderinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

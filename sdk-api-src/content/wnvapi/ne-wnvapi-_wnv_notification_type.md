@@ -1,16 +1,16 @@
 ---
 UID: NE:wnvapi._WNV_NOTIFICATION_TYPE
 title: "_WNV_NOTIFICATION_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of a given Windows Network Virtualization (WNV) notification.
 old-location: wnv\wnv_notification_type.htm
 old-project: wnv
 ms.assetid: 70BE564E-A054-4991-ADCD-79E4D219307B
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE enumeration pointer [Windows Network Virtualization], WNV_NOTIFICATION_TYPE, WNV_NOTIFICATION_TYPE enumeration [Windows Network Virtualization], WnvNotificationTypeMax, WnvObjectChangeType, WnvPolicyMismatchType, WnvRedirectType, _WNV_NOTIFICATION_TYPE, wnv.wnv_notification_type, wnvapi/PWNV_NOTIFICATION_TYPE, wnvapi/WNV_NOTIFICATION_TYPE, wnvapi/WnvNotificationTypeMax, wnvapi/WnvObjectChangeType, wnvapi/WnvPolicyMismatchType, wnvapi/WnvRedirectType"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wnvapi.h
 req.include-header: 

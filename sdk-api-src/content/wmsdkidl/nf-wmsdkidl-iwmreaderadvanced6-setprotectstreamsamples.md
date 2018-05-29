@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced6.SetProtectStreamSamples
 title: IWMReaderAdvanced6::SetProtectStreamSamples
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetProtectStreamSamples method configures sample protection.
 old-location: wmformat\iwmreaderadvanced6_setprotectstreamsamples.htm
 old-project: wmformat
 ms.assetid: e4734d16-e0fe-4a68-9618-fbceb725b576
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStreamSamples method, IWMReaderAdvanced6.SetProtectStreamSamples, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMReaderAdvanced6 interface, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

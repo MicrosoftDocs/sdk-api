@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.IsEqual2
 title: ITextFont2::IsEqual2
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether this text font object has the same properties as the specified text font object.
 old-location: controls\itextfont2_isequal2.htm
 old-project: Controls
 ms.assetid: c423bbdb-a108-4f29-8dc4-3dd35849f39a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont2 interface [Windows Controls],IsEqual2 method, ITextFont2.IsEqual2, ITextFont2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_isequal2, tom/ITextFont2::IsEqual2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

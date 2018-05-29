@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtNextEventMetadata
 title: EvtNextEventMetadata function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an event definition from the enumerator.
 old-location: wes\evtnexteventmetadata.htm
 old-project: WES
 ms.assetid: 1077dc7c-3e73-4135-9020-20d086e30e71
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtNextEventMetadata, EvtNextEventMetadata function [EventLog], wes.evtnexteventmetadata, winevt/EvtNextEventMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

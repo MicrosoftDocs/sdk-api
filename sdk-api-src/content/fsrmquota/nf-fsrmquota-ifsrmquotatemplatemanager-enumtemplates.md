@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.EnumTemplates
 title: IFsrmQuotaTemplateManager::EnumTemplates
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the quota templates on the server.
 old-location: fsrm\ifsrmquotatemplatemanager_enumtemplates.htm
 old-project: Fsrm
 ms.assetid: e5f5b94a-6b17-4379-9141-07ec70a830e9
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, EnumTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],EnumTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],EnumTemplates method, IFsrmQuotaTemplateManager.EnumTemplates, IFsrmQuotaTemplateManager::EnumTemplates, fs.ifsrmquotatemplatemanager_enumtemplates, fsrm.ifsrmquotatemplatemanager_enumtemplates, fsrmquota/IFsrmQuotaTemplateManager::EnumTemplates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

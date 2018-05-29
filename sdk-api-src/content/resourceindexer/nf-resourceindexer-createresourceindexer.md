@@ -1,16 +1,16 @@
 ---
 UID: NF:resourceindexer.CreateResourceIndexer
 title: CreateResourceIndexer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new resource indexer for the specified paths of the root of the project files and the extension DLL.
 old-location: menurc\createresourceindexer.htm
 old-project: menurc
 ms.assetid: 240C94B6-DF61-4C84-9047-9CD81A6FF4B4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateResourceIndexer, CreateResourceIndexer function [Menus and Other Resources], menurc.createresourceindexer, resourceindexer/CreateResourceIndexer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 

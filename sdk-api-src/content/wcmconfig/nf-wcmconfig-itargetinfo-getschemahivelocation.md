@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetSchemaHiveLocation
 title: ITargetInfo::GetSchemaHiveLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the location of the schema hive.
 old-location: smi\itargetinfo_getschemahivelocation.htm
 old-project: SMI
 ms.assetid: ad9accbd-0d23-40e6-8132-5a0c63a1b12a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetSchemaHiveLocation, GetSchemaHiveLocation method [SMI], GetSchemaHiveLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetSchemaHiveLocation method, ITargetInfo.GetSchemaHiveLocation, ITargetInfo::GetSchemaHiveLocation, smi.itargetinfo_getschemahivelocation, wcmconfig/ITargetInfo::GetSchemaHiveLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

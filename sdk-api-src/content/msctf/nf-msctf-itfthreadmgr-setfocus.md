@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgr.SetFocus
 title: ITfThreadMgr::SetFocus
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfThreadMgr::SetFocus method
 old-location: tsf\itfthreadmgr_setfocus.htm
 old-project: TSF
 ms.assetid: b437c646-2a15-4ad6-8e7e-3553e7106249
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgr interface [Text Services Framework],SetFocus method, ITfThreadMgr.SetFocus, ITfThreadMgr::SetFocus, SetFocus, SetFocus method [Text Services Framework], SetFocus method [Text Services Framework],ITfThreadMgr interface, _tsf_itfthreadmgr_setfocus_ref, msctf/ITfThreadMgr::SetFocus, tsf.itfthreadmgr_setfocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

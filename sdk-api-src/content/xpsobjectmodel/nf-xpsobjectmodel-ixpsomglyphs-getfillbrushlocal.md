@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrushLocal
 title: IXpsOMGlyphs::GetFillBrushLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the local, unshared IXpsOMBrush interface of the fill brush to be used for the text.
 old-location: xps\ixpsomglyphs_getfillbrushlocal.htm
 old-project: printdocs
 ms.assetid: d497eac9-8096-4a0e-bb43-315f734fd36e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMGlyphs.GetFillBrushLocal, IXpsOMGlyphs::GetFillBrushLocal, xps.ixpsomglyphs_getfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

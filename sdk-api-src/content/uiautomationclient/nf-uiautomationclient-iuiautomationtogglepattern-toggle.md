@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTogglePattern.Toggle
 title: IUIAutomationTogglePattern::Toggle
-author: windows-driver-content
+author: windows-sdk-content
 description: Cycles through the toggle states of the control.
 old-location: winauto\uiauto_IUIAutomationTogglePattern_Toggle.htm
 old-project: WinAuto
 ms.assetid: 5d1e6474-e8fb-47a2-9130-539d1b9f230e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTogglePattern interface [Windows Accessibility],Toggle method, IUIAutomationTogglePattern.Toggle, IUIAutomationTogglePattern::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IUIAutomationTogglePattern interface, uiauto.uiauto_IUIAutomationTogglePattern_Toggle, uiauto_IUIAutomationTogglePattern_Toggle, uiautomationclient/IUIAutomationTogglePattern::Toggle, winauto.uiauto_IUIAutomationTogglePattern_Toggle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

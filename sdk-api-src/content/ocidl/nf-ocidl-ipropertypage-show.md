@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPropertyPage.Show
 title: IPropertyPage::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes the property page dialog box visible or invisible. If the page is made visible, the page should set the focus to itself, specifically to the first property on the page.
 old-location: com\ipropertypage_show.htm
 old-project: com
 ms.assetid: f89aa820-a3d3-4a41-b2b2-9ee48354fbeb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyPage interface [COM],Show method, IPropertyPage.Show, IPropertyPage::Show, Show, Show method [COM], Show method [COM],IPropertyPage interface, _ctrl_ipropertypage_show, com.ipropertypage_show, ocidl/IPropertyPage::Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

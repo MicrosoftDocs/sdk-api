@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Initialize
 title: IX509EnrollmentHelper::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an IX509EnrollmentHelper object.
 old-location: security\ix509enrollmenthelper_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: 83cb603b-9396-4983-8707-12d1c5b8b234
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

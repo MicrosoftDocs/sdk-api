@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.ChangeNtmsMediaType
 title: ChangeNtmsMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ChangeNtmsMediaType function moves the specified PMID to the specified target media pool and sets the PMID's media type identifier to the media type of the target media pool.
 old-location: fs\changentmsmediatype.htm
 old-project: Rsm
 ms.assetid: 89b3eb9b-0614-47a9-825e-1335c7fc5d0d
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_changentmsmediatype, base.changentmsmediatype, fs.changentmsmediatype, ntmsapi/ChangeNtmsMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

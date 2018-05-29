@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpservices.IWMPServices.GetStreamTime
 title: IWMPServices::GetStreamTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPServices::GetStreamTime method retrieves a structure indicating the current stream time.
 old-location: wmp\iwmpservices_getstreamtime.htm
 old-project: WMP
 ms.assetid: 4e6c8181-3ff9-4ce1-aad5-9d7821771f69
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetStreamTime, GetStreamTime method [Windows Media Player], GetStreamTime method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamTime method, IWMPServices.GetStreamTime, IWMPServices::GetStreamTime, IWMPServicesGetStreamTimeDSP, wmp.iwmpservices_getstreamtime, wmpservices/IWMPServices::GetStreamTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

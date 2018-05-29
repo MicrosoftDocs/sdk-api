@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetProviderInstanceID
 title: IFunctionInstance::GetProviderInstanceID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier string for the provider instance.
 old-location: ncd\ifunctioninstance_getproviderinstanceid_method.htm
 old-project: FunDisc
 ms.assetid: fad5e3f0-a440-4b09-ba8c-04bae2d14a2a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetProviderInstanceID, GetProviderInstanceID method, GetProviderInstanceID method,IFunctionInstance interface, IFunctionInstance interface,GetProviderInstanceID method, IFunctionInstance.GetProviderInstanceID, IFunctionInstance::GetProviderInstanceID, functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID, ncd.ifunctioninstance_getproviderinstanceid_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

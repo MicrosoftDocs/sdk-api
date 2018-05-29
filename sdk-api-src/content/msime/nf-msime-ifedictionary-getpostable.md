@@ -1,16 +1,16 @@
 ---
 UID: NF:msime.IFEDictionary.GetPosTable
 title: IFEDictionary::GetPosTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the public POS (Part of Speech) table.
 old-location: intl\ifedictionary_getpostable.htm
 old-project: Intl
 ms.assetid: 0453B37B-A73A-4CD8-AD09-49B9A65B9FD6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPosTable, GetPosTable method [Internationalization for Windows Applications], GetPosTable method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],GetPosTable method, IFEDictionary.GetPosTable, IFEDictionary::GetPosTable, intl.ifedictionary_getpostable, msime/IFEDictionary::GetPosTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msime.h
 req.include-header: 

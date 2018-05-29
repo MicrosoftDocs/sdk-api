@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.Thread32Next
 title: Thread32Next function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the next thread of any process encountered in the system memory snapshot.
 old-location: toolhelp\thread32next.htm
 old-project: ToolHelp
 ms.assetid: 5efe514e-626c-4138-97a0-bdad217c424f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Thread32Next, Thread32Next function [ToolHelp], _win32_thread32next, base.thread32next, tlhelp32/Thread32Next, toolhelp.thread32next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

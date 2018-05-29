@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IOleControlSite
 title: IOleControlSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods that enable a site object to manage each embedded control within a container.
 old-location: com\iolecontrolsite.htm
 old-project: com
 ms.assetid: 8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], IOleControlSite interface [COM],described, _ctrl_iolecontrolsite, com.iolecontrolsite, ocidl/IOleControlSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

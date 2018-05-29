@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IContextState.GetDeactivateOnReturn
 title: IContextState::GetDeactivateOnReturn
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the done flag.
 old-location: cos\icontextstate_getdeactivateonreturn.htm
 old-project: cossdk
 ms.assetid: 4e9623eb-1bf1-4649-9071-b731bf95a401
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDeactivateOnReturn, GetDeactivateOnReturn method [COM+], GetDeactivateOnReturn method [COM+],IContextState interface, IContextState interface [COM+],GetDeactivateOnReturn method, IContextState.GetDeactivateOnReturn, IContextState::GetDeactivateOnReturn, _cos_IContextState_GetDeactivateOnReturn, comsvcs/IContextState::GetDeactivateOnReturn, cos.icontextstate_getdeactivateonreturn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

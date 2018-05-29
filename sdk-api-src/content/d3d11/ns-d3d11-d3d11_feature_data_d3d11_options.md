@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D11_OPTIONS
 title: D3D11_FEATURE_DATA_D3D11_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes Direct3D 11.1 feature options in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d11_options.htm
 old-project: direct3d11
 ms.assetid: 02A3B423-75AB-4F44-BEBE-B8039EF384DC
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS, D3D11_FEATURE_DATA_D3D11_OPTIONS structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS, direct3d11.d3d11_feature_data_d3d11_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

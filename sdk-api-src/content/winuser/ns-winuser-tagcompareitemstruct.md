@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagCOMPAREITEMSTRUCT
 title: tagCOMPAREITEMSTRUCT
-author: windows-driver-content
+author: windows-sdk-content
 description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 old-location: controls\COMPAREITEMSTRUCT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\compareitemstruct.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPCOMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, COMPAREITEMSTRUCT, COMPAREITEMSTRUCT structure [Windows Controls], _win32_COMPAREITEMSTRUCT_str, _win32_COMPAREITEMSTRUCT_str_cpp, controls.COMPAREITEMSTRUCT, controls._win32_COMPAREITEMSTRUCT_str, tagCOMPAREITEMSTRUCT, winuser/COMPAREITEMSTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

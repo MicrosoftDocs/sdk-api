@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsbuffer.IWMSBufferAllocator
 title: IWMSBufferAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMSSBufferAllocator interface provides methods for allocating a buffer.
 old-location: wmformat\iwmsbufferallocator.htm
 old-project: wmformat
 ms.assetid: 021ced93-4b79-4821-a380-7fed43fd5391
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format],described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 

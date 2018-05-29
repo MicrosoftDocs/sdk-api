@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDetailsOf
 title: IShellFolder2::GetDetailsOf
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets detailed information, identified by a column index, on an item in a Shell folder.
 old-location: shell\IShellFolder2_GetDetailsOf.htm
 old-project: shell
 ms.assetid: bd9e8b6c-ed70-455e-8316-ac0868493802
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDetailsOf method, IShellFolder2.GetDetailsOf, IShellFolder2::GetDetailsOf, _win32_IShellFolder2_GetDetailsOf, shell.IShellFolder2_GetDetailsOf, shobjidl_core/IShellFolder2::GetDetailsOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock.WSAStartup
 title: WSAStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates use of the Winsock DLL by a process.
 old-location: winsock\wsastartup_2.htm
 old-project: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

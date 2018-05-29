@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPart
 title: IXpsOMPart
-author: windows-driver-content
+author: windows-sdk-content
 description: The base interface for all XPS document part interfaces.
 old-location: xps\ixpsompart.htm
 old-project: printdocs
 ms.assetid: 71cd0155-6c95-42ca-bfc3-dffd43d95dc9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPart, IXpsOMPart interface [XPS Documents and Packaging], IXpsOMPart interface [XPS Documents and Packaging],described, xps.ixpsompart, xpsobjectmodel/IXpsOMPart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

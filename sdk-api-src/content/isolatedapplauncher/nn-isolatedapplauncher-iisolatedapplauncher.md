@@ -1,16 +1,16 @@
 ---
 UID: NN:isolatedapplauncher.IIsolatedAppLauncher
 title: IIsolatedAppLauncher
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables apps to determine whether they are running in a Windows Defender Application Guard container (VM container environment).
 old-location: winprog\iisolatedapplauncher.htm
 old-project: DevNotes
 ms.assetid: 49C30C52-ACE7-446D-A9B2-5BA7C6583700
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IIsolatedAppLauncher, IIsolatedAppLauncher interface [Windows API], IIsolatedAppLauncher interface [Windows API],described, isolatedapplauncher/IIsolatedAppLauncher, winprog.iisolatedapplauncher
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: isolatedapplauncher.h
 req.include-header: 

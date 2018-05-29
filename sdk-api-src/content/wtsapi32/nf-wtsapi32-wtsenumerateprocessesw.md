@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateProcessesW
 title: WTSEnumerateProcessesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the active processes on a specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumerateprocesses.htm
 old-project: TermServ
 ms.assetid: ddfae294-2e7c-416e-b328-76d011b4af39
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSEnumerateProcesses, WTSEnumerateProcesses function [Remote Desktop Services], WTSEnumerateProcessesA, WTSEnumerateProcessesW, _win32_wtsenumerateprocesses, termserv.wtsenumerateprocesses, wtsapi32/WTSEnumerateProcesses, wtsapi32/WTSEnumerateProcessesA, wtsapi32/WTSEnumerateProcessesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

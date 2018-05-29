@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw._AVIFILEINFOW
 title: "_AVIFILEINFOW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFILEINFO structure contains global information for an entire AVI file.
 old-location: multimedia\avifileinfo_struct.htm
 old-project: Multimedia
 ms.assetid: d3fda342-2ade-41b1-b709-c194f132e015
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPAVIFILEINFOW, AVIFILECAPS_ALLKEYFRAMES, AVIFILECAPS_CANREAD, AVIFILECAPS_CANWRITE, AVIFILECAPS_NOCOMPRESSION, AVIFILEINFO, AVIFILEINFO structure [Windows Multimedia], AVIFILEINFOA, AVIFILEINFOW, AVIFILEINFO_COPYRIGHTED, AVIFILEINFO_HASINDEX, AVIFILEINFO_ISINTERLEAVED, AVIFILEINFO_MUSTUSEINDEX, AVIFILEINFO_WASCAPTUREFILE, _AVIFILEINFOW, multimedia.avifileinfo_COLLISION510, multimedia.avifileinfo_struct, vfw/AVIFILEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

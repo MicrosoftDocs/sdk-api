@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRImageCompositor
 title: IVMRImageCompositor
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRImageCompositor interface is implemented by the default compositor for the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrimagecompositor.htm
 old-project: DirectShow
 ms.assetid: d905e871-c156-4140-bb3f-a19fa0cd79be
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], IVMRImageCompositor interface [DirectShow],described, IVMRImageCompositorInterface, dshow.ivmrimagecompositor, strmif/IVMRImageCompositor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

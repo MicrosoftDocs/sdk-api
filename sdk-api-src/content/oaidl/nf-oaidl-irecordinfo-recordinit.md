@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordInit
 title: IRecordInfo::RecordInit
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a new instance of a record.
 old-location: automat\irecordinfo_recordinit.htm
 old-project: automat
 ms.assetid: e10355b3-b751-487d-b7ce-77a39803c38c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IRecordInfo interface [Automation],RecordInit method, IRecordInfo.RecordInit, IRecordInfo::RecordInit, RecordInit, RecordInit method [Automation], RecordInit method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordInit, automat.irecordinfo_recordinit, oaidl/IRecordInfo::RecordInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

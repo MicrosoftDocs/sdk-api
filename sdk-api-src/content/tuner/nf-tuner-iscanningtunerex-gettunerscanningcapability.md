@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetTunerScanningCapability
 title: IScanningTunerEx::GetTunerScanningCapability
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerscanningcapability.htm
 old-project: mstv
 ms.assetid: 7dc7aeec-2a9d-4dfb-9f67-36d8131cc130
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTunerScanningCapability, GetTunerScanningCapability method [Microsoft TV Technologies], GetTunerScanningCapability method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerScanningCapability method, IScanningTunerEx.GetTunerScanningCapability, IScanningTunerEx::GetTunerScanningCapability, IScanningTunerExGetTunerScanningCapability, mstv.iscanningtunerex_gettunerscanningcapability, tuner/IScanningTunerEx::GetTunerScanningCapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

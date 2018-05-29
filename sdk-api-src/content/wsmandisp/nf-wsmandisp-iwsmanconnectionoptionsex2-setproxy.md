@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.SetProxy
 title: IWSManConnectionOptionsEx2::SetProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the proxy information for the session.
 old-location: winrm\iwsmanconnectionoptionsex2_setproxy.htm
 old-project: WinRM
 ms.assetid: b87d5625-c77d-41cb-a75d-a45ba0d3fbe6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],SetProxy method, IWSManConnectionOptionsEx2.SetProxy, IWSManConnectionOptionsEx2::SetProxy, SetProxy, SetProxy method [Windows Remote Management], SetProxy method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_setproxy, wsmandisp/IWSManConnectionOptionsEx2::SetProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

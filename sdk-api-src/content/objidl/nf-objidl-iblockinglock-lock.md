@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IBlockingLock.Lock
 title: IBlockingLock::Lock
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a lock on a shared resource.
 old-location: com\iblockinglock_lock.htm
 old-project: com
 ms.assetid: 35657795-2f18-4738-b0b5-8d03e0e4179d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IBlockingLock interface [COM],Lock method, IBlockingLock.Lock, IBlockingLock::Lock, Lock, Lock method [COM], Lock method [COM],IBlockingLock interface, _com_iblockinglock_lock, com.iblockinglock_lock, objidl/IBlockingLock::Lock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

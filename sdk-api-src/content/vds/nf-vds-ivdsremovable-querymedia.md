@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsRemovable.QueryMedia
 title: IVdsRemovable::QueryMedia
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the disk properties in the cache. Call IVdsDisk::GetProperties to get updated details about the current media.
 old-location: base\ivdsremovable_querymedia.htm
 old-project: VDS
 ms.assetid: 6a56be84-ddf3-4c82-9465-4cb683e993f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsRemovable interface [VDS],QueryMedia method, IVdsRemovable.QueryMedia, IVdsRemovable::QueryMedia, QueryMedia, QueryMedia method [VDS], QueryMedia method [VDS],IVdsRemovable interface, base.ivdsremovable_querymedia, vds/IVdsRemovable::QueryMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

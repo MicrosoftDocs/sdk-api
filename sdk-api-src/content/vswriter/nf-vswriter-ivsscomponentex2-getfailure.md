@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssComponentEx2.GetFailure
 title: IVssComponentEx2::GetFailure
-author: windows-driver-content
+author: windows-sdk-content
 description: VSS requesters call this method to retrieve component-level errors reported by writers.
 old-location: base\ivsscomponentex2_getfailure.htm
 old-project: VSS
 ms.assetid: a5d739d3-9169-4b25-a590-35703e77dacc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFailure, GetFailure method, GetFailure method,IVssComponentEx2 interface, IVssComponentEx2 interface,GetFailure method, IVssComponentEx2.GetFailure, IVssComponentEx2::GetFailure, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivsscomponentex2_getfailure, vswriter/IVssComponentEx2::GetFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: 

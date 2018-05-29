@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_FreeBuffers
 title: ITraceDataCollector::get_FreeBuffers
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of buffers that are allocated but unused in the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_freebuffers.htm
 old-project: PLA
 ms.assetid: 9e6d3c7d-4c73-452f-98fa-6c9d1bc912ff
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FreeBuffers property [PLA], FreeBuffers property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FreeBuffers property, ITraceDataCollector.FreeBuffers, ITraceDataCollector.get_FreeBuffers, ITraceDataCollector::FreeBuffers, ITraceDataCollector::get_FreeBuffers, base.itracedatacollector_freebuffers, get_FreeBuffers, pla.itracedatacollector_freebuffers, pla/ITraceDataCollector::FreeBuffers, pla/ITraceDataCollector::get_FreeBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

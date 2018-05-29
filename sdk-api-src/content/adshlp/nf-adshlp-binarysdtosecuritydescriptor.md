@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.BinarySDToSecurityDescriptor
 title: BinarySDToSecurityDescriptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a binary security descriptor to an IADsSecurityDescriptor object.
 old-location: adsi\binarysdtosecuritydescriptor.htm
 old-project: ADSI
 ms.assetid: c93d00d2-7155-4bf4-8a65-2412022a2fba
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: BinarySDToSecurityDescriptor, BinarySDToSecurityDescriptor function [ADSI], adshlp/BinarySDToSecurityDescriptor, adsi.binarysdtosecuritydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

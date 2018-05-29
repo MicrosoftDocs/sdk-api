@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamInfoW
 title: AVIStreamInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamInfo function obtains stream header information.
 old-location: multimedia\avistreaminfo.htm
 old-project: Multimedia
 ms.assetid: 7a1ba29b-e8ba-435d-a551-c9184631971c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamInfo, AVIStreamInfo function [Windows Multimedia], AVIStreamInfoA, AVIStreamInfoW, _win32_AVIStreamInfo, multimedia.avistreaminfo, vfw/AVIStreamInfo, vfw/AVIStreamInfoA, vfw/AVIStreamInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

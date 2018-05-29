@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.UnregisterDeviceNotification
 title: UnregisterDeviceNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified device notification handle.
 old-location: base\unregisterdevicenotification.htm
 old-project: DevIO
 ms.assetid: bcc0cf87-f996-47b5-937c-14a6332d00d9
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: UnregisterDeviceNotification, UnregisterDeviceNotification function, _win32_unregisterdevicenotification, base.unregisterdevicenotification, winuser/UnregisterDeviceNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

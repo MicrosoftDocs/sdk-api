@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_Nodes
 title: ISCluster::get_Nodes
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a ClusNodes collection providing access to the nodes in a cluster.
 old-location: mscs\cluster_nodes.htm
 old-project: MsCS
 ms.assetid: 690c9635-114f-4109-a9b9-4ebb1961c58b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],Nodes property, Cluster.Nodes, ISCluster.get_Nodes, ISCluster::get_Nodes, Nodes property [Failover Cluster], Nodes property [Failover Cluster],Cluster object, _wolf_cluster.nodes, get_Nodes, mscs.cluster_nodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

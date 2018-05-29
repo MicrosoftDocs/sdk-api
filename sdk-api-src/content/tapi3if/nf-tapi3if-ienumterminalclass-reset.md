@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.IEnumTerminalClass.Reset
 title: IEnumTerminalClass::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminalclass_reset.htm
 old-project: Tapi
 ms.assetid: dd61649e-d684-4774-bd23-91990e20729a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Reset method, IEnumTerminalClass.Reset, IEnumTerminalClass::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_reset, tapi3.ienumterminalclass_reset, tapi3if/IEnumTerminalClass::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IParseDisplayName
 title: IParseDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses a displayable name string to convert it into a moniker for custom moniker implementations.
 old-location: com\iparsedisplayname.htm
 old-project: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

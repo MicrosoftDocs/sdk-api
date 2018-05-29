@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Remove
 title: ICryptAttributes::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an ICryptAttribute object from the collection by index number.
 old-location: security\icryptattributes_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: 6e5767e0-41e8-4081-a814-263397a9faf9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICryptAttributes interface [Security],Remove method, ICryptAttributes.Remove, ICryptAttributes::Remove, Remove, Remove method [Security], Remove method [Security],ICryptAttributes interface, certenroll/ICryptAttributes::Remove, security.icryptattributes_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

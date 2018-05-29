@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.Initialize
 title: ITfSpeechUIServer::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfSpeechUIServer::Initialize method
 old-location: tsf\itfspeechuiserver_initialize.htm
 old-project: TSF
 ms.assetid: 5a51b8c7-3d29-4566-8cfa-f76dfd067aa8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],Initialize method, ITfSpeechUIServer.Initialize, ITfSpeechUIServer::Initialize, Initialize, Initialize method [Text Services Framework], Initialize method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::Initialize, tsf.itfspeechuiserver_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfspui.h
 req.include-header: Ctfutb.h

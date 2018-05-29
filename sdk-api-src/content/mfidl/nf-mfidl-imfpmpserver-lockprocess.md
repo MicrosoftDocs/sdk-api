@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFPMPServer.LockProcess
 title: IMFPMPServer::LockProcess
-author: windows-driver-content
+author: windows-sdk-content
 description: Blocks the protected media path (PMP) process from ending.
 old-location: mf\imfpmpserver_lockprocess.htm
 old-project: medfound
 ms.assetid: 9a25abfb-5038-4869-ad70-1ae52e8cf599
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media Foundation],LockProcess method, IMFPMPServer.LockProcess, IMFPMPServer::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_lockprocess, mfidl/IMFPMPServer::LockProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

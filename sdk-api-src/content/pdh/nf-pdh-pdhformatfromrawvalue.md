@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhFormatFromRawValue
 title: PdhFormatFromRawValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Computes a displayable value for the given raw counter values.
 old-location: perf\pdhformatfromrawvalue.htm
 old-project: PerfCtrs
 ms.assetid: 13027af4-2e76-4c2f-88e8-a2554a16fae3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhFormatFromRawValue, PdhFormatFromRawValue function [Perf], _win32_pdhformatfromrawvalue, base.pdhformatfromrawvalue, pdh/PdhFormatFromRawValue, perf.pdhformatfromrawvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

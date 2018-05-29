@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetEventInterest
 title: IInkCollector::SetEventInterest
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies a value that indicates whether an object or control has interest in a specified event.
 old-location: tablet\inkcollector_seteventinterest.htm
 old-project: tablet
 ms.assetid: df25efbb-5229-4211-948f-3a213154a967
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkCollector interface [Tablet PC],SetEventInterest method, IInkCollector.SetEventInterest, IInkCollector::SetEventInterest, InkCollector class [Tablet PC],SetEventInterest method, SetEventInterest, SetEventInterest method [Tablet PC], SetEventInterest method [Tablet PC],IInkCollector interface, SetEventInterest method [Tablet PC],InkCollector class, df25efbb-5229-4211-948f-3a213154a967, msinkaut/IInkCollector::SetEventInterest, tablet.inkcollector_seteventinterest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

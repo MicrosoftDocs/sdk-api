@@ -1,16 +1,16 @@
 ---
 UID: NS:mfidl._MF_LEAKY_BUCKET_PAIR
 title: "_MF_LEAKY_BUCKET_PAIR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the buffering requirements of a file.
 old-location: mf\mf_leaky_bucket_pair.htm
 old-project: medfound
 ms.assetid: aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_LEAKY_BUCKET_PAIR, MF_LEAKY_BUCKET_PAIR structure [Media Foundation], _MF_LEAKY_BUCKET_PAIR, aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e, mf.mf_leaky_bucket_pair, mfidl/MF_LEAKY_BUCKET_PAIR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

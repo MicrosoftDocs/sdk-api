@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntryByIndex
 title: ITocEntryList::AddEntryByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddEntryByIndex method adds an individual entry to the list and associates a caller-supplied index with the entry.
 old-location: mf\itocentrylist_addentrybyindex.htm
 old-project: medfound
 ms.assetid: c8146c0f-ac91-42c7-9368-dd2db6079d3d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntryByIndex method, ITocEntryList.AddEntryByIndex, ITocEntryList::AddEntryByIndex, codecapi.itocentrylist_addentrybyindex, mf.itocentrylist_addentrybyindex, wmcodecdsp/ITocEntryList::AddEntryByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

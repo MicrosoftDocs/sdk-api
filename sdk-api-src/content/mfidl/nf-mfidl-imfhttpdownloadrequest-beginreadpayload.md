@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginReadPayload
 title: IMFHttpDownloadRequest::BeginReadPayload
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to receive the message body of the response to a previously sent HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm
 old-project: medfound
 ms.assetid: 01B799C2-63C6-4BDC-AAE2-CFC3C426A218
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], BeginReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReadPayload method, IMFHttpDownloadRequest.BeginReadPayload, IMFHttpDownloadRequest::BeginReadPayload, mf.imfhttpdownloadrequest_beginreadpayload, mfidl/IMFHttpDownloadRequest::BeginReadPayload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

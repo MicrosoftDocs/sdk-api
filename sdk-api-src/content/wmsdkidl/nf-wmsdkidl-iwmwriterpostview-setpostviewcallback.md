@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewCallback
 title: IWMWriterPostView::SetPostViewCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetPostViewCallback method specifies the callback interface to use for receiving postview samples.
 old-location: wmformat\iwmwriterpostview_setpostviewcallback.htm
 old-project: wmformat
 ms.assetid: c2814f32-1787-44a6-8ffc-5d2a9aca8601
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewCallback method, IWMWriterPostView.SetPostViewCallback, IWMWriterPostView::SetPostViewCallback, IWMWriterPostViewSetPostViewCallback, SetPostViewCallback, SetPostViewCallback method [windows Media Format], SetPostViewCallback method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewcallback, wmsdkidl/IWMWriterPostView::SetPostViewCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

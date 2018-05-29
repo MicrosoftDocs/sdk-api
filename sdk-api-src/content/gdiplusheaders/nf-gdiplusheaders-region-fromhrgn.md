@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.FromHRGN
 title: Region::FromHRGN
-author: windows-driver-content
+author: windows-sdk-content
 description: The Region::FromHRGN method creates a Windows GDI+Region object from a Windows Graphics Device Interface (GDI)  region.
 old-location: gdiplus\_gdiplus_CLASS_Region_FromHRGN_hRgn_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\fromhrgn.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FromHRGN, FromHRGN method [GDI+], FromHRGN method [GDI+],Region class, Region class [GDI+],FromHRGN method, Region.FromHRGN, Region::FromHRGN, _gdiplus_CLASS_Region_FromHRGN_hRgn_, gdiplus._gdiplus_CLASS_Region_FromHRGN_hRgn_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

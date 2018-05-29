@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.GetCount
 title: IXpsOMPartUriCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of IOpcPartUri interface pointers in the collection.
 old-location: xps\ixpsomparturicollection_getcount.htm
 old-project: printdocs
 ms.assetid: fa716168-4584-4622-bfdf-7b022ff202c6
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPartUriCollection.GetCount, IXpsOMPartUriCollection::GetCount, xps.ixpsomparturicollection_getcount, xpsobjectmodel/IXpsOMPartUriCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

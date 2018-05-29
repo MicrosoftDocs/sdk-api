@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.ClearClientState
 title: IAttachmentExecute::ClearClientState
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes any stored state that is based on the client's GUID. An example might be a setting based on a checked box that indicates a prompt should not be displayed again for a particular file type.
 old-location: shell\IAttachmentExecute_ClearClientState.htm
 old-project: shell
 ms.assetid: 238e78be-3306-4ac5-95a9-c7fa48c1c4fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ClearClientState, ClearClientState method [Windows Shell], ClearClientState method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],ClearClientState method, IAttachmentExecute.ClearClientState, IAttachmentExecute::ClearClientState, shell.IAttachmentExecute_ClearClientState, shell_IAttachmentExecute_clearclientstate, shobjidl_core/IAttachmentExecute::ClearClientState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

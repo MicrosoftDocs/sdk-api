@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallStateEvent.get_Call
 title: ITCallStateEvent::get_Call
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call on which the event has occurred.
 old-location: tapi3\itcallstateevent_get_call.htm
 old-project: Tapi
 ms.assetid: 942bd437-77d1-4d06-91d3-138b06f3228e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_Call method, ITCallStateEvent.get_Call, ITCallStateEvent::get_Call, _tapi3_itcallstateevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_call, tapi3if/ITCallStateEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

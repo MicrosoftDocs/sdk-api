@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetThreadId
 title: GetThreadId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the thread identifier of the specified thread.
 old-location: base\getthreadid.htm
 old-project: ProcThread
 ms.assetid: 198dfe9e-713f-46ce-90eb-24bfe42d2bf6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetThreadId, GetThreadId function, base.getthreadid, processthreadsapi/GetThreadId, winbase/GetThreadId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

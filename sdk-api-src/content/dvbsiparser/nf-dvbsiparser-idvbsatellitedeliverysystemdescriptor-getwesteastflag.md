@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 title: IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getwesteastflag.htm
 old-project: mstv
 ms.assetid: 533a2ed4-f5ac-4f41-a03b-0b274f327436
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWestEastFlag, GetWestEastFlag method [Microsoft TV Technologies], GetWestEastFlag method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetWestEastFlag method, IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptorGetWestEastFlag, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, mstv.idvbsatellitedeliverysystemdescriptor_getwesteastflag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessorOutputView
 title: ID3D11VideoProcessorOutputView
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the output surfaces that can be accessed during video processing.
 old-location: mf\id3d11videoprocessoroutputview.htm
 old-project: medfound
 ms.assetid: D07829ED-2C1E-4150-A0A1-5CD95F30209F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoProcessorOutputView, ID3D11VideoProcessorOutputView interface [Media Foundation], ID3D11VideoProcessorOutputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorOutputView, mf.id3d11videoprocessoroutputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

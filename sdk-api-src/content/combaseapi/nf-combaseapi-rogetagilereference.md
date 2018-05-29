@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.RoGetAgileReference
 title: RoGetAgileReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an agile reference for an object specified by the given interface.
 old-location: winrt\rogetagilereference.htm
 old-project: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

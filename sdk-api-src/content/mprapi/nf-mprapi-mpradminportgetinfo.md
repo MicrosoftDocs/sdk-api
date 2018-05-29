@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminPortGetInfo
 title: MprAdminPortGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminPortGetInfo function gets information for a specific port.
 old-location: rras\mpradminportgetinfo.htm
 old-project: RRAS
 ms.assetid: b990b2bf-6c08-4cfd-8b17-1b3fe39277d7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminPortGetInfo, MprAdminPortGetInfo function [RAS], _mpr_mpradminportgetinfo, mprapi/MprAdminPortGetInfo, rras.mpradminportgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

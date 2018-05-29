@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerReportSubmit
 title: WerReportSubmit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Submits the specified report.
 old-location: wer\werreportsubmit.htm
 old-project: wer
 ms.assetid: 1433862e-5cf6-4d31-9fd9-137b7b86ec57
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WER_SUBMIT_ADD_REGISTERED_DATA, WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY, WER_SUBMIT_BYPASS_DATA_THROTTLING, WER_SUBMIT_HONOR_RECOVERY, WER_SUBMIT_HONOR_RESTART, WER_SUBMIT_NO_ARCHIVE, WER_SUBMIT_NO_CLOSE_UI, WER_SUBMIT_NO_QUEUE, WER_SUBMIT_OUTOFPROCESS, WER_SUBMIT_OUTOFPROCESS_ASYNC, WER_SUBMIT_QUEUE, WER_SUBMIT_REPORT_MACHINE_ID, WER_SUBMIT_SHOW_DEBUG, WER_SUBMIT_START_MINIMIZED, WerConsentAlwaysPrompt, WerConsentApproved, WerConsentDenied, WerConsentMax, WerConsentNotAsked, WerCustomAction, WerDisabled, WerDisabledQueue, WerReportAsync, WerReportCancelled, WerReportDebug, WerReportFailed, WerReportQueued, WerReportSubmit, WerReportSubmit function [Windows Error Reporting], WerReportUploaded, base.werreportsubmit, wer.werreportsubmit, werapi/WerReportSubmit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

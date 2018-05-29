@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagPOINTF
 title: tagPOINTF
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that is used to convert between container units, expressed in floating point, and control units, expressed in HIMETRIC.
 old-location: com\pointf.htm
 old-project: com
 ms.assetid: 2b201df8-efee-4302-a93c-b514b982cf2b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POINTF structure [COM], _ole_POINTF, com.pointf, ocidl/LPPOINTF, ocidl/POINTF, tagPOINTF"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

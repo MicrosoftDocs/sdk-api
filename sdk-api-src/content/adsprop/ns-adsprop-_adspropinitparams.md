@@ -1,16 +1,16 @@
 ---
 UID: NS:adsprop._ADSPROPINITPARAMS
 title: "_ADSPROPINITPARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the ADsPropGetInitInfo function to obtain object data that a display specifier applies to.
 old-location: ad\adspropinitparams.htm
 old-project: AD
 ms.assetid: cbee3515-5037-4d65-8817-4c63fe13ef5d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PADSPROPINITPARAMS, ADSPROPINITPARAMS, ADSPROPINITPARAMS structure [Active Directory], PADSPROPINITPARAMS, PADSPROPINITPARAMS structure pointer [Active Directory], _ADSPROPINITPARAMS, _glines_adspropinitparams, ad.adspropinitparams, adsprop/ADSPROPINITPARAMS, adsprop/PADSPROPINITPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: adsprop.h
 req.include-header: 

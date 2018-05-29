@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_COMMON_STATISTICS0_
 title: IKEEXT_COMMON_STATISTICS0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Various statistics common to IKE and Authip.
 old-location: fwp\ikeext_common_statistics0.htm
 old-project: FWP
 ms.assetid: a53ef735-3223-4ff5-9b2a-d40ab0f53570
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_COMMON_STATISTICS0, IKEEXT_COMMON_STATISTICS0 structure [Filtering], IKEEXT_COMMON_STATISTICS0_, fwp.ikeext_common_statistics0, iketypes/IKEEXT_COMMON_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfProperty
 title: ITfProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfProperty interface is implemented by the TSF manager and used by a client (application or text service) to modify a property value.
 old-location: tsf\itfproperty.htm
 old-project: TSF
 ms.assetid: 72bd92f9-d82e-4994-82ad-0989e987903b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfProperty, ITfProperty interface [Text Services Framework], ITfProperty interface [Text Services Framework],described, _tsf_itfproperty_ref, msctf/ITfProperty, tsf.itfproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

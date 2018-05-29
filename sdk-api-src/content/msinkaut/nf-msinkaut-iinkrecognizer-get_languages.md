@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Languages
 title: IInkRecognizer::get_Languages
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an array of language identifiers for the languages that the IInkRecognizer object supports.
 old-location: tablet\iinkrecognizer_languages.htm
 old-project: tablet
 ms.assetid: 96419ffa-6af1-4e45-a831-f11564501975
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 96419ffa-6af1-4e45-a831-f11564501975, IInkRecognizer interface [Tablet PC],Languages property, IInkRecognizer.Languages, IInkRecognizer.get_Languages, IInkRecognizer::Languages, IInkRecognizer::get_Languages, Languages property [Tablet PC], Languages property [Tablet PC],IInkRecognizer interface, get_Languages, msinkaut/IInkRecognizer::Languages, msinkaut/IInkRecognizer::get_Languages, tablet.iinkrecognizer_languages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

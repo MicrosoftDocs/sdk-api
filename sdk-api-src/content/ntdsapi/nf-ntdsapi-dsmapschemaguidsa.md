@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsMapSchemaGuidsA
 title: DsMapSchemaGuidsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts GUIDs of directory service schema objects to their display names.
 old-location: ad\dsmapschemaguids.htm
 old-project: AD
 ms.assetid: 439fff20-51eb-490d-a330-61d07f79c436
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsMapSchemaGuids, DsMapSchemaGuids function [Active Directory], DsMapSchemaGuidsA, DsMapSchemaGuidsW, _glines_dsmapschemaguids, ad.dsmapschemaguids, ntdsapi/DsMapSchemaGuids, ntdsapi/DsMapSchemaGuidsA, ntdsapi/DsMapSchemaGuidsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

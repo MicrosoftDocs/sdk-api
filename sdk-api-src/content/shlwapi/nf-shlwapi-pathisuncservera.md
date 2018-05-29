@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsUNCServerA
 title: PathIsUNCServerA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a string is a valid Universal Naming Convention (UNC) for a server path only.
 old-location: shell\PathIsUNCServer.htm
 old-project: shell
 ms.assetid: 9158ceb6-dd20-4b1a-93d3-cf7a5a5c6c75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsUNCServer, PathIsUNCServer function [Windows Shell], PathIsUNCServerA, PathIsUNCServerW, _win32_PathIsUNCServer, shell.PathIsUNCServer, shlwapi/PathIsUNCServer, shlwapi/PathIsUNCServerA, shlwapi/PathIsUNCServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

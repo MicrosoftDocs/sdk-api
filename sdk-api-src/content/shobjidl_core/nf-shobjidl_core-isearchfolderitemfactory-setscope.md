@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetScope
 title: ISearchFolderItemFactory::SetScope
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets search scope, as specified.
 old-location: shell\ISearchFolderItemFactory_SetScope.htm
 old-project: shell
 ms.assetid: 0dd87a75-f172-4294-81cb-95207b04b3c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetScope method, ISearchFolderItemFactory.SetScope, ISearchFolderItemFactory::SetScope, SetScope, SetScope method [Windows Shell], SetScope method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetScope, shell.ISearchFolderItemFactory_SetScope, shobjidl_core/ISearchFolderItemFactory::SetScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

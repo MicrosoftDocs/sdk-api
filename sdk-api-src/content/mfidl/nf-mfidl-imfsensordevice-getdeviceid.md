@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceId
 title: IMFSensorDevice::GetDeviceId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the unique identifier for the device. This value is currently unused.
 old-location: mf\imfsensordevice_getdeviceid.htm
 old-project: medfound
 ms.assetid: 90598DC7-A4FB-4C3F-A671-1549703AC9DB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Media Foundation], GetDeviceId method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceId method, IMFSensorDevice.GetDeviceId, IMFSensorDevice::GetDeviceId, mf.imfsensordevice_getdeviceid, mfidl/IMFSensorDevice::GetDeviceId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

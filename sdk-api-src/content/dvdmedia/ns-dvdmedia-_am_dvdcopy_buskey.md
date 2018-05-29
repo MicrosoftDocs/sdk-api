@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_BUSKEY
 title: "_AM_DVDCOPY_BUSKEY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the DVD bus key.
 old-location: dshow\am_dvdcopy_buskey.htm
 old-project: DirectShow
 ms.assetid: 9f55dcc1-cb59-40ce-82d0-7f2066cb9d03
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY structure [DirectShow], PAM_DVDCOPY_BUSKEY, PAM_DVDCOPY_BUSKEY structure pointer [DirectShow], _AM_DVDCOPY_BUSKEY, dshow.am_dvdcopy_buskey, dvdmedia/AM_DVDCOPY_BUSKEY, dvdmedia/PAM_DVDCOPY_BUSKEY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

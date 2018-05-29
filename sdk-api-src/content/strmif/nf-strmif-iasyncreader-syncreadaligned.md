@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncReadAligned
 title: IAsyncReader::SyncReadAligned
-author: windows-driver-content
+author: windows-sdk-content
 description: The SyncReadAligned method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address must be aligned; check the allocator properties for the required alignment.
 old-location: dshow\iasyncreader_syncreadaligned.htm
 old-project: DirectShow
 ms.assetid: 862511f1-7580-44db-aed5-3dd8279dcc33
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncReadAligned method, IAsyncReader.SyncReadAligned, IAsyncReader::SyncReadAligned, IAsyncReaderSyncReadAligned, SyncReadAligned, SyncReadAligned method [DirectShow], SyncReadAligned method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncreadaligned, strmif/IAsyncReader::SyncReadAligned
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

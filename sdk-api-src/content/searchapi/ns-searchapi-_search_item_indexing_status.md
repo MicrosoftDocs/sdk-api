@@ -1,16 +1,16 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_INDEXING_STATUS
 title: "_SEARCH_ITEM_INDEXING_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the status of a document to be indexed.
 old-location: search\_search_SEARCH_ITEM_INDEXING_STATUS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_indexing_status.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SEARCH_ITEM_INDEXING_STATUS, SEARCH_ITEM_INDEXING_STATUS structure [search], _SEARCH_ITEM_INDEXING_STATUS, _search_SEARCH_ITEM_INDEXING_STATUS, search._search_SEARCH_ITEM_INDEXING_STATUS, searchapi/SEARCH_ITEM_INDEXING_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

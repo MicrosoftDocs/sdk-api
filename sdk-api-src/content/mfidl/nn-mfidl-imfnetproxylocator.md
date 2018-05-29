@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFNetProxyLocator
 title: IMFNetProxyLocator
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the proxy to use when connecting to a server.
 old-location: mf\imfnetproxylocator.htm
 old-project: medfound
 ms.assetid: 2906b998-f1ca-4c65-b810-cbc360390653
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2906b998-f1ca-4c65-b810-cbc360390653, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], IMFNetProxyLocator interface [Media Foundation],described, mf.imfnetproxylocator, mfidl/IMFNetProxyLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_SHARED_VOLUME_V2
 title: CLUSTER_CHANGE_SHARED_VOLUME_V2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the notifications that are generated for a cluster shared volume.
 old-location: mscs\cluster_change_shared_volume_v2.htm
 old-project: MsCS
 ms.assetid: 2934115D-B52B-4289-9BCD-E66A4F363AE8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_V2, mscs.cluster_change_shared_volume_v2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

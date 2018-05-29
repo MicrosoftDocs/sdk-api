@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_4
 title: "_NETLOGON_INFO_4"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a level-4 control query response from a domain controller.
 old-location: winprog\netlogon_info_4.htm
 old-project: DevNotes
 ms.assetid: 6a0ffd68-149f-4d5d-8a8a-69f429ca135a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Windows API], PNETLOGON_INFO_4, PNETLOGON_INFO_4 structure pointer [Windows API], _NETLOGON_INFO_4, lmaccess/NETLOGON_INFO_4, lmaccess/PNETLOGON_INFO_4, winprog.netlogon_info_4"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: 

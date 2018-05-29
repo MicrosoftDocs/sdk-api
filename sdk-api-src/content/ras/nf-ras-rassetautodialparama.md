@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasSetAutodialParamA
 title: RasSetAutodialParamA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSetAutodialParam function sets the value of an AutoDial parameter.
 old-location: rras\rassetautodialparam.htm
 old-project: RRAS
 ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasSetAutodialParam, RasSetAutodialParam function [RAS], RasSetAutodialParamA, RasSetAutodialParamW, _ras_rassetautodialparam, ras/RasSetAutodialParam, ras/RasSetAutodialParamA, ras/RasSetAutodialParamW, rras.rassetautodialparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

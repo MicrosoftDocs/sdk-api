@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagMULTIKEYHELPW
 title: tagMULTIKEYHELPW
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a keyword to search for and the keyword table to be searched by Windows Help.
 old-location: shell\MULTIKEYHELP_str.htm
 old-project: shell
 ms.assetid: 5fe0cd44-196c-4d9a-b9f8-2a97a92f2545
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPMULTIKEYHELPW, *PMULTIKEYHELPW, MULTIKEYHELP, MULTIKEYHELP structure [Windows Shell], MULTIKEYHELPW, _win32_MULTIKEYHELP_str, shell.MULTIKEYHELP_str, tagMULTIKEYHELPA, tagMULTIKEYHELPW, winuser/MULTIKEYHELP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 

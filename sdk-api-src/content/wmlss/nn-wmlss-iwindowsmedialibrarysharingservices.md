@@ -1,16 +1,16 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingServices
 title: IWindowsMediaLibrarySharingServices
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingServices interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
 old-location: wmlss\IWindowsMediaLibrarySharingServicesInterface.htm
 old-project: WMLSS
 ms.assetid: bbec5687-3c77-4385-a9be-74c6d84db962
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingServicesInterface, wmlss/IWindowsMediaLibrarySharingServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmlss.h
 req.include-header: Wmlss.h

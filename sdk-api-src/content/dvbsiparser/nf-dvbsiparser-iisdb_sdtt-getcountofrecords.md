@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetCountOfRecords
 title: IISDB_SDTT::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 3e445eed-907c-4a9b-80b7-b16460bc131c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_SDTT.GetCountOfRecords, IISDB_SDTT::GetCountOfRecords, dvbsiparser/IISDB_SDTT::GetCountOfRecords, mstv.iisdb_sdtt_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

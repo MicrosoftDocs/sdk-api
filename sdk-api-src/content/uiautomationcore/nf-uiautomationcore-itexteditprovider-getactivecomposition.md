@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ITextEditProvider.GetActiveComposition
 title: ITextEditProvider::GetActiveComposition
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the active composition.
 old-location: winauto\uiauto_ITextEditProvider_GetActiveComposition.htm
 old-project: WinAuto
 ms.assetid: E0A4E340-8F23-8EE0-31E4-90DB8D8E68FF
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetActiveComposition, GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility],ITextEditProvider interface, ITextEditProvider interface [Windows Accessibility],GetActiveComposition method, ITextEditProvider.GetActiveComposition, ITextEditProvider::GetActiveComposition, uiautomationcore/ITextEditProvider::GetActiveComposition, winauto.uiauto_ITextEditProvider_GetActiveComposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCPV6_IP_ARRAY
 title: "_DHCPV6_IP_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCPV6_IP_ARRAY structure contains an array of DHCP IPv6 address structures.
 old-location: dhcp\dhcpv6_ip_array.htm
 old-project: DHCP
 ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DHCP], PDHCPV6_IP_ARRAY, PDHCPV6_IP_ARRAY structure pointer [DHCP], _DHCPV6_IP_ARRAY, dhcp.dhcpv6_ip_array, dhcpsapi/DHCPV6_IP_ARRAY, dhcpsapi/PDHCPV6_IP_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

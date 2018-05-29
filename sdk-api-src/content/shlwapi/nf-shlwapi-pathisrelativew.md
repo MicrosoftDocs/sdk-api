@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsRelativeW
 title: PathIsRelativeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a path and determines if it is relative.
 old-location: shell\PathIsRelative.htm
 old-project: shell
 ms.assetid: ad36c277-645f-4c62-af7d-b75e29de573f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsRelative, PathIsRelative function [Windows Shell], PathIsRelativeA, PathIsRelativeW, _win32_PathIsRelative, shell.PathIsRelative, shlwapi/PathIsRelative, shlwapi/PathIsRelativeA, shlwapi/PathIsRelativeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

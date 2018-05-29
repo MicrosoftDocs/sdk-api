@@ -1,16 +1,16 @@
 ---
 UID: NE:mfapi._MFVideoDRMFlags
 title: "_MFVideoDRMFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of copy protection required for a video stream.
 old-location: mf\mfvideodrmflags.htm
 old-project: medfound
 ms.assetid: 6d218992-c1c3-4d83-b364-4c7d3b50474f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6d218992-c1c3-4d83-b364-4c7d3b50474f, MFVideoDRMFlag_AnalogProtected, MFVideoDRMFlag_DigitallyProtected, MFVideoDRMFlag_None, MFVideoDRMFlags, MFVideoDRMFlags enumeration [Media Foundation], _MFVideoDRMFlags, mf.mfvideodrmflags, mfapi/MFVideoDRMFlag_AnalogProtected, mfapi/MFVideoDRMFlag_DigitallyProtected, mfapi/MFVideoDRMFlag_None, mfapi/MFVideoDRMFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

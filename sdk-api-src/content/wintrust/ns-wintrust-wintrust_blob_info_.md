@@ -1,16 +1,16 @@
 ---
 UID: NS:wintrust.WINTRUST_BLOB_INFO_
 title: WINTRUST_BLOB_INFO_
-author: windows-driver-content
+author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a memory BLOB.
 old-location: security\wintrust_blob_info.htm
 old-project: SecCrypto
 ms.assetid: 8b13d355-4d24-4d8e-aae3-db16467999be
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO structure pointer [Security], WINTRUST_BLOB_INFO, WINTRUST_BLOB_INFO structure [Security], WINTRUST_BLOB_INFO_, _win32_wintrust_blob_info, security.wintrust_blob_info, wintrust/PWINTRUST_BLOB_INFO, wintrust/WINTRUST_BLOB_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

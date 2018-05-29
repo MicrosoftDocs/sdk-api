@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetVisibleProviders
 title: IMbnMultiCarrier::GetVisibleProviders
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of visible providers in the current area for a multi-carrier device minus preferred and registered providers.
 old-location: mbn\imbnmulticarrier_getvisibleproviders.htm
 old-project: mbn
 ms.assetid: AC11D275-C6E3-48EE-B3DA-C9BC8648D49D
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnMultiCarrier.GetVisibleProviders, IMbnMultiCarrier::GetVisibleProviders, mbn.imbnmulticarrier_getvisibleproviders, mbnapi/IMbnMultiCarrier::GetVisibleProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

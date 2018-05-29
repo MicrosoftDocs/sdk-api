@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_UNION_DESCRIPTION
 title: "_WS_UNION_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Information about the choices within a union type. This is used with WS_UNION_TYPE.
 old-location: wsw\ws_union_description.htm
 old-project: wsw
 ms.assetid: 04eddc88-f0ba-4a0b-8078-12c0d955d055
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_UNION_DESCRIPTION, WS_UNION_DESCRIPTION structure [Web Services for Windows], _WS_UNION_DESCRIPTION, webservices/WS_UNION_DESCRIPTION, wsw.ws_union_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteToDest
 title: RtmDeleteRouteToDest function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmDeleteRouteToDest function deletes a route from the routing table and updates the best-route information for the corresponding destination, if the best route changed. If the best route changes, a change notification is generated.
 old-location: rras\rtmdeleteroutetodest.htm
 old-project: RRAS
 ms.assetid: d82e68b4-aff4-4872-b719-d9354f35024c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmDeleteRouteToDest, RtmDeleteRouteToDest function [RAS], _rtmv2ref_rtmdeleteroutetodest, rras.rtmdeleteroutetodest, rtmv2/RtmDeleteRouteToDest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

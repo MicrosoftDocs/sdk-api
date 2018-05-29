@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetAuthenticationResult
 title: SLGetAuthenticationResult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the authentication results.
 old-location: security\slgetauthenticationresult.htm
 old-project: SecSLApi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

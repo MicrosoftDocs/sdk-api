@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.SelectStream
 title: IMFPresentationDescriptor::SelectStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Selects a stream in the presentation.
 old-location: mf\imfpresentationdescriptor_selectstream.htm
 old-project: medfound
 ms.assetid: 3f0eaace-9d85-4999-bb3f-34c268dfea2c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3f0eaace-9d85-4999-bb3f-34c268dfea2c, IMFPresentationDescriptor interface [Media Foundation],SelectStream method, IMFPresentationDescriptor.SelectStream, IMFPresentationDescriptor::SelectStream, SelectStream, SelectStream method [Media Foundation], SelectStream method [Media Foundation],IMFPresentationDescriptor interface, mf.imfpresentationdescriptor_selectstream, mfidl/IMFPresentationDescriptor::SelectStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

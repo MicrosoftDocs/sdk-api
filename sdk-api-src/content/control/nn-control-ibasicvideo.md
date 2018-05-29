@@ -1,16 +1,16 @@
 ---
 UID: NN:control.IBasicVideo
 title: IBasicVideo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBasicVideo interface sets video properties such as the destination and source rectangles.
 old-location: dshow\ibasicvideo.htm
 old-project: DirectShow
 ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interface [DirectShow],described, IBasicVideoInterface, control/IBasicVideo, dshow.ibasicvideo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

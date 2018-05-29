@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiEnumPatchesA
 title: MsiEnumPatchesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiEnumPatches function enumerates all of the patches that have been applied to a product.
 old-location: setup\msienumpatches.htm
 old-project: Msi
 ms.assetid: 8f15accf-1ff5-4aa3-8a8e-be0e339360d2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiEnumPatches, MsiEnumPatches function, MsiEnumPatchesA, MsiEnumPatchesW, _msi_msienumpatches, msi/MsiEnumPatches, msi/MsiEnumPatchesA, msi/MsiEnumPatchesW, setup.msienumpatches
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

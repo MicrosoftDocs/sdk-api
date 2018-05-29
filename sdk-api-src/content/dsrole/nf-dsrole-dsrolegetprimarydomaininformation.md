@@ -1,16 +1,16 @@
 ---
 UID: NF:dsrole.DsRoleGetPrimaryDomainInformation
 title: DsRoleGetPrimaryDomainInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves state data for the computer.
 old-location: ad\dsrolegetprimarydomaininformation.htm
 old-project: AD
 ms.assetid: d54876e3-a622-4b44-a597-db0f710f7758
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsRoleGetPrimaryDomainInformation, DsRoleGetPrimaryDomainInformation function [Active Directory], _glines_dsrolegetprimarydomaininformation, ad.dsrolegetprimarydomaininformation, dsrole/DsRoleGetPrimaryDomainInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsrole.h
 req.include-header: 

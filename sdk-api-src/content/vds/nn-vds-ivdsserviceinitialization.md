@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsServiceInitialization
 title: IVdsServiceInitialization
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is reserved for system use.
 old-location: base\ivdsserviceinitialization.htm
 old-project: VDS
 ms.assetid: f5a24acb-2b5e-44ec-a3fa-252a84777ecd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsServiceInitialization, IVdsServiceInitialization interface, IVdsServiceInitialization interface,described, base.ivdsserviceinitialization, vds/IVdsServiceInitialization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

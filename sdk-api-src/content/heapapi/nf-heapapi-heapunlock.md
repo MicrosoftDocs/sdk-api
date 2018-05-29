@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.HeapUnlock
 title: HeapUnlock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases ownership of the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heapunlock.htm
 old-project: Memory
 ms.assetid: c1a7b2c8-293e-4e07-a654-fd10b2f0ef39
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HeapUnlock, HeapUnlock function, _win32_heapunlock, base.heapunlock, heapapi/HeapUnlock, winbase/HeapUnlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

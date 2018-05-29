@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSTER_REG_BATCH_ADD_COMMAND
 title: PCLUSTER_REG_BATCH_ADD_COMMAND
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a command to a batch that will be executed on a cluster registry key.
 old-location: mscs\clusterregbatchaddcommand.htm
 old-project: MsCS
 ms.assetid: 3d59e68a-deb3-443f-9d8f-281cdb15e8b6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, PCLUSTER_REG_BATCH_ADD_COMMAND, PCLUSTER_REG_BATCH_ADD_COMMAND callback, PCLUSTER_REG_BATCH_ADD_COMMAND callback function [Failover Cluster], clusapi/PCLUSTER_REG_BATCH_ADD_COMMAND, mscs.clusterregbatchaddcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanAllocateMemory
 title: WlanAllocateMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory.
 old-location: nwifi\wlanallocatememory.htm
 old-project: NativeWiFi
 ms.assetid: 29200450-4ec8-418d-b633-1ea688755711
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanAllocateMemory, WlanAllocateMemory function [NativeWIFI], nwifi.wlanallocatememory, wlanapi/WlanAllocateMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

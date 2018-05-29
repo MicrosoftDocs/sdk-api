@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprFreeV4Policy
 title: DhcpHlprFreeV4Policy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory of all the data structures within a DHCP server policy structure.
 old-location: dhcp\dhcphlprfreev4policy.htm
 old-project: DHCP
 ms.assetid: ace10974-784b-41f7-aee9-461c8d63b479
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpHlprFreeV4Policy, DhcpHlprFreeV4Policy function [DHCP], dhcp.dhcphlprfreev4policy, dhcpsapi/DhcpHlprFreeV4Policy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

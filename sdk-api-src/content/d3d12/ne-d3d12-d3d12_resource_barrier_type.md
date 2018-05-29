@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_BARRIER_TYPE
 title: D3D12_RESOURCE_BARRIER_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a type of resource barrier (transition in resource use) description.
 old-location: direct3d12\d3d12_resource_barrier_type.htm
 old-project: direct3d12
 ms.assetid: B3364C92-777F-4207-9685-534B2F07B48F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_RESOURCE_BARRIER_TYPE, D3D12_RESOURCE_BARRIER_TYPE enumeration, D3D12_RESOURCE_BARRIER_TYPE_ALIASING, D3D12_RESOURCE_BARRIER_TYPE_TRANSITION, D3D12_RESOURCE_BARRIER_TYPE_UAV, d3d12/D3D12_RESOURCE_BARRIER_TYPE, d3d12/D3D12_RESOURCE_BARRIER_TYPE_ALIASING, d3d12/D3D12_RESOURCE_BARRIER_TYPE_TRANSITION, d3d12/D3D12_RESOURCE_BARRIER_TYPE_UAV, direct3d12.d3d12_resource_barrier_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

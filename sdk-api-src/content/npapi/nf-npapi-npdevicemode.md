@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPDeviceMode
 title: NPDeviceMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the parent window of a device. This window owns any dialog boxes that originate from the device.
 old-location: security\npdevicemode.htm
 old-project: SecAuthN
 ms.assetid: 502e3d34-f582-4f0f-b3b2-263bd293cf11
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPDeviceMode, NPDeviceMode function [Security], _mnp_npdevicemode, npapi/NPDeviceMode, security.npdevicemode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

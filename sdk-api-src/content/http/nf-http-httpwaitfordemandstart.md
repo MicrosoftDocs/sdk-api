@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpWaitForDemandStart
 title: HttpWaitForDemandStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits for the arrival of a new request that can be served by a new request queue process.
 old-location: http\httpwaitfordemandstart.htm
 old-project: Http
 ms.assetid: e6bc4d24-5495-44cc-81ee-e5213095f3e4
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpWaitForDemandStart, HttpWaitForDemandStart function [HTTP], http.httpwaitfordemandstart, http/HttpWaitForDemandStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

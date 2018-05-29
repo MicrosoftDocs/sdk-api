@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFOutputSchema
 title: IMFOutputSchema
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates information about an output protection system and its corresponding configuration data.
 old-location: mf\imfoutputschema.htm
 old-project: medfound
 ms.assetid: d0786628-dde9-43a9-8e81-0b0c396ad426
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFOutputSchema, IMFOutputSchema interface [Media Foundation], IMFOutputSchema interface [Media Foundation],described, d0786628-dde9-43a9-8e81-0b0c396ad426, mf.imfoutputschema, mfidl/IMFOutputSchema
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

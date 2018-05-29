@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Restore
 title: Graphics::Restore
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::Restore method sets the state of this Graphics object to the state stored by a previous call to the Graphics::Save method of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Restore_gstate_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\restore.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Graphics class [GDI+],Restore method, Graphics.Restore, Graphics::Restore, Restore, Restore method [GDI+], Restore method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_Restore_gstate_, gdiplus._gdiplus_CLASS_Graphics_Restore_gstate_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

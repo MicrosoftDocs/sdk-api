@@ -1,16 +1,16 @@
 ---
 UID: NS:nb30._ACTION_HEADER
 title: "_ACTION_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACTION_HEADER structure contains information about an action. This action is an extension to the standard transport interface.
 old-location: netbios\action_header.htm
 old-project: NetBIOS
 ms.assetid: f2bbf394-972a-4e96-8cc6-9f230359cbfc
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.author: windowssdkdev
+ms.date: 05/02/2018
 ms.keywords: "*PACTION_HEADER, ACTION_HEADER, ACTION_HEADER structure [NetBIOS], MABF, MNBF, MOOO, MXNS, PACTION_HEADER, PACTION_HEADER structure pointer [NetBIOS], _ACTION_HEADER, nb30/ACTION_HEADER, nb30/PACTION_HEADER, netbios.action_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get_ReadOnly
 title: IUpdateCollection::get_ReadOnly
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update collection is read-only.
 old-location: wua\iupdatecollection_readonly.htm
 old-project: Wua_Sdk
 ms.assetid: 7443f842-8de5-4309-95bf-5ea427b25b4a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],ReadOnly property, IUpdateCollection.ReadOnly, IUpdateCollection.get_ReadOnly, IUpdateCollection::ReadOnly, IUpdateCollection::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IUpdateCollection interface, get_ReadOnly, wua.iupdatecollection_readonly, wuapi/IUpdateCollection::ReadOnly, wuapi/IUpdateCollection::get_ReadOnly
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

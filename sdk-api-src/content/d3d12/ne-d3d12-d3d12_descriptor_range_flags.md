@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_DESCRIPTOR_RANGE_FLAGS
 title: D3D12_DESCRIPTOR_RANGE_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the volatility of both descriptors and the data they reference in a Root Signature 1.1 description, which can enable some driver optimizations.
 old-location: direct3d12\d3d12_descriptor_range_flags.htm
 old-project: direct3d12
 ms.assetid: B22DBE80-A0BE-40F9-ADC2-5AFB35DDDDE8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE_FLAGS, D3D12_DESCRIPTOR_RANGE_FLAGS enumeration, D3D12_DESCRIPTOR_RANGE_FLAG_DATA_STATIC, D3D12_DESCRIPTOR_RANGE_FLAG_DATA_STATIC_WHILE_SET_AT_EXECUTE, D3D12_DESCRIPTOR_RANGE_FLAG_DATA_VOLATILE, D3D12_DESCRIPTOR_RANGE_FLAG_DESCRIPTORS_VOLATILE, D3D12_DESCRIPTOR_RANGE_FLAG_NONE, d3d12/D3D12_DESCRIPTOR_RANGE_FLAGS, d3d12/D3D12_DESCRIPTOR_RANGE_FLAG_DATA_STATIC, d3d12/D3D12_DESCRIPTOR_RANGE_FLAG_DATA_STATIC_WHILE_SET_AT_EXECUTE, d3d12/D3D12_DESCRIPTOR_RANGE_FLAG_DATA_VOLATILE, d3d12/D3D12_DESCRIPTOR_RANGE_FLAG_DESCRIPTORS_VOLATILE, d3d12/D3D12_DESCRIPTOR_RANGE_FLAG_NONE, direct3d12.d3d12_descriptor_range_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

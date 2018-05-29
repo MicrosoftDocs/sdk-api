@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.AddRecord
 title: IMFASFMutualExclusion::AddRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a record to the mutual exclusion object. A record specifies streams that are mutually exclusive with the streams in all other records.
 old-location: mf\imfasfmutualexclusion_addrecord.htm
 old-project: medfound
 ms.assetid: f5dedc87-a29c-4c8d-b493-486d975f9ac4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddRecord, AddRecord method [Media Foundation], AddRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],AddRecord method, IMFASFMutualExclusion.AddRecord, IMFASFMutualExclusion::AddRecord, f5dedc87-a29c-4c8d-b493-486d975f9ac4, mf.imfasfmutualexclusion_addrecord, wmcontainer/IMFASFMutualExclusion::AddRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.StopWdsTransportServices
 title: IWdsTransportConfigurationManager::StopWdsTransportServices
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops all WDS transport services. This method provides the means to change the running state of WDS transport services without changing their configuration.
 old-location: wds\iwdstransportconfigurationmanager_stopwdstransportservices.htm
 old-project: Wds
 ms.assetid: 510dff2a-a459-4694-9c68-802d703ff716
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StopWdsTransportServices method, IWdsTransportConfigurationManager.StopWdsTransportServices, IWdsTransportConfigurationManager::StopWdsTransportServices, StopWdsTransportServices, StopWdsTransportServices method [Windows Deployment Services], StopWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_stopwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StopWdsTransportServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

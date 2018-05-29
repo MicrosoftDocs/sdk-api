@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.SetMouseWheelParameterInteractionContext
 title: SetMouseWheelParameterInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the parameter values for mouse wheel input.
 old-location: input_intcontext\setmousewheelparameterinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: fbc47bd4-f78a-4b03-8adc-9b2c4620ea55
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetMouseWheelParameterInteractionContext, SetMouseWheelParameterInteractionContext function, input_intcontext.setmousewheelparameterinteractioncontext, interactioncontext.setmousewheelparameterinteractioncontext, interactioncontext/SetMouseWheelParameterInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

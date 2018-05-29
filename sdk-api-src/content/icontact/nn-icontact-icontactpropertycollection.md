@@ -1,16 +1,16 @@
 ---
 UID: NN:icontact.IContactPropertyCollection
 title: IContactPropertyCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Used to filter contact data, based on a label or property set. Enumerates contact properties exposed with an IContactProperties object. For each property, the name, type, version, and modification date can be retrieved.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection.htm
 old-project: wincontacts
 ms.assetid: dec9430d-2174-42fe-85c1-16fa7e7adc0c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IContactPropertyCollection, IContactPropertyCollection interface [Windows Contacts], IContactPropertyCollection interface [Windows Contacts],described, _wincontacts_IContactPropertyCollection, icontact/IContactPropertyCollection, wincontacts._wincontacts_IContactPropertyCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h

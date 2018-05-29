@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfigVQ
 title: DhcpServerGetConfigVQ function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current DHCP server configuration settings.
 old-location: dhcp\dhcpservergetconfigvq.htm
 old-project: DHCP
 ms.assetid: 77726631-2be0-4ec0-a50f-786e4f3b460a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpServerGetConfigVQ, DhcpServerGetConfigVQ function [DHCP], dhcp.dhcpservergetconfigvq, dhcpsapi/DhcpServerGetConfigVQ
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

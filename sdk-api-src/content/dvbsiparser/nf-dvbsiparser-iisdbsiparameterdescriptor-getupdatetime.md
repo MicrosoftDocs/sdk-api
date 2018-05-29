@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetUpdateTime
 title: IIsdbSIParameterDescriptor::GetUpdateTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the time at which a parameter becomes valid from a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_getupdatetime.htm
 old-project: mstv
 ms.assetid: 9cfe8387-4edf-453b-b41b-768496eae76c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUpdateTime, GetUpdateTime method [Microsoft TV Technologies], GetUpdateTime method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetUpdateTime method, IIsdbSIParameterDescriptor.GetUpdateTime, IIsdbSIParameterDescriptor::GetUpdateTime, dvbsiparser/IIsdbSIParameterDescriptor::GetUpdateTime, mstv.iisdbsiparameterdescriptor_getupdatetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

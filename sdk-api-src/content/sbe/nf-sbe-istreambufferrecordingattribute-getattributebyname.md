@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeByName
 title: IStreamBufferRecordingAttribute::GetAttributeByName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAttributeByName method retrieves an attribute, specified by name.
 old-location: mstv\istreambufferrecordingattribute_getattributebyname.htm
 old-project: mstv
 ms.assetid: f1191074-4ded-4e64-9c30-8e4d01390732
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [Microsoft TV Technologies], GetAttributeByName method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeByName method, IStreamBufferRecordingAttribute.GetAttributeByName, IStreamBufferRecordingAttribute::GetAttributeByName, IStreamBufferRecordingAttributeGetAttributeByName, mstv.istreambufferrecordingattribute_getattributebyname, sbe/IStreamBufferRecordingAttribute::GetAttributeByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

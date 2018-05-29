@@ -1,16 +1,16 @@
 ---
 UID: NS:mftransform._MFT_OUTPUT_DATA_BUFFER
 title: "_MFT_OUTPUT_DATA_BUFFER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.
 old-location: mf\mft_output_data_buffer.htm
 old-project: medfound
 ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MFT_OUTPUT_DATA_BUFFER, MFT_OUTPUT_DATA_BUFFER structure [Media Foundation], _MFT_OUTPUT_DATA_BUFFER, mf.mft_output_data_buffer, mftransform/MFT_OUTPUT_DATA_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mftransform.h
 req.include-header: 

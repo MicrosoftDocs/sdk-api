@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetLength
 title: IDvbFrequencyListDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: e00542ff-2d28-44cb-8dd5-944f12f2805d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbFrequencyListDescriptor.GetLength, IDvbFrequencyListDescriptor::GetLength, IDvbFrequencyListDescriptorGetLength, dvbsiparser/IDvbFrequencyListDescriptor::GetLength, mstv.idvbfrequencylistdescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

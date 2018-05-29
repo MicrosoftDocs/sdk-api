@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetUseMachineID
 title: MI_OperationOptions_GetUseMachineID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value that indicates whether to use machine identification information in the operation request.
 old-location: wmi_v2\mi_operationoptions_getusemachineid.htm
 old-project: wmi_v2
 ms.assetid: a3064be4-b975-47cb-b0f9-445a09791ebd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptions_GetUseMachineID, MI_OperationOptions_GetUseMachineID function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetUseMachineID, wmi_v2.mi_operationoptions_getusemachineid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

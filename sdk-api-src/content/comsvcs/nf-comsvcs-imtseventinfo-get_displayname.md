@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_DisplayName
 title: IMtsEventInfo::get_DisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name of the object.
 old-location: cos\imtseventinfo_get_displayname.htm
 old-project: cossdk
 ms.assetid: d3d8ed52-0ad3-4073-877b-071bac90c71f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_DisplayName method, IMtsEventInfo.get_DisplayName, IMtsEventInfo::get_DisplayName, _dtc_IMtsEventInfo_DisplayName, comsvcs/IMtsEventInfo::get_DisplayName, cos.imtseventinfo_get_displayname, get_DisplayName, get_DisplayName method [COM+], get_DisplayName method [COM+],IMtsEventInfo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

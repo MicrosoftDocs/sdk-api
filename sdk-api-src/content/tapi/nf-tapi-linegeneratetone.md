@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGenerateTone
 title: lineGenerateTone function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGenerateTone function generates the specified inband tone over the specified call.
 old-location: tapi2\linegeneratetone.htm
 old-project: Tapi
 ms.assetid: d5975bd0-2406-45a8-9631-80f40a860204
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegeneratetone, lineGenerateTone, lineGenerateTone function [TAPI 2.2], tapi/lineGenerateTone, tapi2.linegeneratetone"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

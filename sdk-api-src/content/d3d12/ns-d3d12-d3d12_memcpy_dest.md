@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_MEMCPY_DEST
 title: D3D12_MEMCPY_DEST
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the destination of a memory copy operation.
 old-location: direct3d12\d3d12_memcpy_dest.htm
 old-project: direct3d12
 ms.assetid: B85B7B60-FA34-4A4D-B1A7-D54884956E83
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_MEMCPY_DEST, D3D12_MEMCPY_DEST structure, d3d12/D3D12_MEMCPY_DEST, direct3d12.d3d12_memcpy_dest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509ExtensionSmimeCapabilities.InitializeEncode
 title: IX509ExtensionSmimeCapabilities::InitializeEncode
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the extension from an ISmimeCapabilities collection.
 old-location: security\ix509extensionsmimecapabilities_initializeencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: 731e3c93-699b-4a99-8520-294f3134aa66
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],InitializeEncode method, IX509ExtensionSmimeCapabilities.InitializeEncode, IX509ExtensionSmimeCapabilities::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::InitializeEncode, security.ix509extensionsmimecapabilities_initializeencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

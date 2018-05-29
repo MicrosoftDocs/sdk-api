@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.RemoveControlItem
 title: IFileDialogCustomize::RemoveControlItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an item from a container control in the dialog.
 old-location: shell\IFileDialogCustomize_RemoveControlItem.htm
 old-project: shell
 ms.assetid: 190aaeba-817d-421c-a356-157f3ae7d2e1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],RemoveControlItem method, IFileDialogCustomize.RemoveControlItem, IFileDialogCustomize::RemoveControlItem, RemoveControlItem, RemoveControlItem method [Windows Shell], RemoveControlItem method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_RemoveControlItem, shell_IFileDialogCustomize_RemoveControlItem, shobjidl_core/IFileDialogCustomize::RemoveControlItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

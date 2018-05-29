@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.UpdateWindow
 title: UpdateWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UpdateWindow function updates the client area of the specified window by sending a WM_PAINT message to the window if the window's update region is not empty.
 old-location: gdi\updatewindow.htm
 old-project: gdi
 ms.assetid: 51a50f1f-7b4d-4acd-83a0-1877f5181766
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UpdateWindow, UpdateWindow function [Windows GDI], _win32_UpdateWindow, gdi.updatewindow, winuser/UpdateWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

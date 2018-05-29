@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi.IDiscMaster
 title: IDiscMaster
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDiscMaster interface allows an application to reserve an image mastering API, enumerate disc mastering formats and disc recorders supported by an image mastering object, and start a simulated or actual burn of a disc.
 old-location: imapi\idiscmaster.htm
 old-project: imapi
 ms.assetid: 1473e79e-a13a-4bc5-b80d-d8921fdc9952
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], IDiscMaster interface [IMAPI],described, _win32_idiscmaster, base.idiscmaster, imapi.idiscmaster, imapi/IDiscMaster
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 

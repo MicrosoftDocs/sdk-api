@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Skip
 title: IEnumExtraSearch::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skip a specified number of objects.
 old-location: shell\IEnumExtraSearch_Skip.htm
 old-project: shell
 ms.assetid: f77983e2-bae4-4350-8950-b4e76fc46365
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Skip method, IEnumExtraSearch.Skip, IEnumExtraSearch::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Skip, shell.IEnumExtraSearch_Skip, shobjidl_core/IEnumExtraSearch::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

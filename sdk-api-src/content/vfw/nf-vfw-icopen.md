@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICOpen
 title: ICOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICOpen function opens a compressor or decompressor.
 old-location: multimedia\icopen.htm
 old-project: Multimedia
 ms.assetid: 2637b6ef-2324-40db-99e4-773fcb6fdbf6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICOpen, ICOpen function [Windows Multimedia], _win32_ICOpen, multimedia.icopen, vfw/ICOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

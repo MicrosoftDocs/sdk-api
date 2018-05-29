@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspStatuses.Add
 title: ICspStatuses::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an ICspStatus object to the collection.
 old-location: security\icspstatuses_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: f8238071-f2e4-4533-b9bc-a86cea8086a5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspStatuses interface, ICspStatuses interface [Security],Add method, ICspStatuses.Add, ICspStatuses::Add, certenroll/ICspStatuses::Add, security.icspstatuses_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite_1.DWRITE_JUSTIFICATION_OPPORTUNITY
 title: DWRITE_JUSTIFICATION_OPPORTUNITY
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_JUSTIFICATION_OPPORTUNITY structure specifies justification info per glyph.
 old-location: directwrite\dwrite_justification_opportunity.htm
 old-project: DirectWrite
 ms.assetid: D7D18462-A0A4-4064-B04D-CA8ACED7E34D
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_JUSTIFICATION_OPPORTUNITY, DWRITE_JUSTIFICATION_OPPORTUNITY structure [Direct Write], directwrite.dwrite_justification_opportunity, dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_1.h
 req.include-header: 

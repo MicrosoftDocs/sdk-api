@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngDeleteDriverObj
 title: EngDeleteDriverObj function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngDeleteDriverObj function frees the handle used for tracking a device-managed resource.
 old-location: display\engdeletedriverobj.htm
 old-project: display
 ms.assetid: 5c4f7f6a-331e-4c5d-9663-6a84245a203f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngDeleteDriverObj, EngDeleteDriverObj function [Display Devices], display.engdeletedriverobj, gdifncs_6aada185-b1c4-4b55-9bc0-cc89d0bc67d4.xml, winddi/EngDeleteDriverObj
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

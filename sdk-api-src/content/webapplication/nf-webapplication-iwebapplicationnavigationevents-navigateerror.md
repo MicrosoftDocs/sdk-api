@@ -1,16 +1,16 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateError
 title: IWebApplicationNavigationEvents::NavigateError
-author: windows-driver-content
+author: windows-sdk-content
 description: Fired when a binding error occurs (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_navigateerror.htm
 old-project: debug_wwahost
 ms.assetid: 1c6e34e8-e14f-4b6c-ad83-140a7141cf64
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateError method, IWebApplicationNavigationEvents.NavigateError, IWebApplicationNavigationEvents::NavigateError, NavigateError, NavigateError method [Debugging Windows Store apps], NavigateError method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigateerror, webapplication/IWebApplicationNavigationEvents::NavigateError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

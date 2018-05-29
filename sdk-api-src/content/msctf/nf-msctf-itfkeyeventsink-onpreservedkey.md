@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnPreservedKey
 title: ITfKeyEventSink::OnPreservedKey
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfKeyEventSink::OnPreservedKey method
 old-location: tsf\itfkeyeventsink_onpreservedkey.htm
 old-project: TSF
 ms.assetid: 90b3f2f4-5655-42e3-bdef-62c090800e5e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnPreservedKey method, ITfKeyEventSink.OnPreservedKey, ITfKeyEventSink::OnPreservedKey, OnPreservedKey, OnPreservedKey method [Text Services Framework], OnPreservedKey method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onpreservedkey_ref, msctf/ITfKeyEventSink::OnPreservedKey, tsf.itfkeyeventsink_onpreservedkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

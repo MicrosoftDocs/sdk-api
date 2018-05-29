@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsSwProvider.CreatePack
 title: IVdsSwProvider::CreatePack
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a pack object.
 old-location: base\ivdsswprovider_createpack.htm
 old-project: VDS
 ms.assetid: 2d711ed8-9101-4e68-b085-b5df01515b5d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreatePack, CreatePack method [VDS], CreatePack method [VDS],IVdsSwProvider interface, IVdsSwProvider interface [VDS],CreatePack method, IVdsSwProvider.CreatePack, IVdsSwProvider::CreatePack, base.ivdsswprovider_createpack, vds/IVdsSwProvider::CreatePack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

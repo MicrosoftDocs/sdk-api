@@ -1,16 +1,16 @@
 ---
 UID: NS:syncregistration._SyncProviderConfiguration
 title: "_SyncProviderConfiguration"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the information for a synchronization provider configuration.
 old-location: winsync\syncproviderconfiguration.htm
 old-project: winsync
 ms.assetid: 2b8c9a94-4e11-4904-a6aa-da0433d5b237
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SyncProviderConfiguration, SyncProviderConfiguration structure [Windows Sync], _SyncProviderConfiguration, syncregistration/SyncProviderConfiguration, winsync.syncproviderconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: syncregistration.h
 req.include-header: 

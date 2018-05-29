@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.RequestTypeChange
 title: ITypeChangeEvents::RequestTypeChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Raised when a request has been made to change a type. The change can be disallowed.
 old-location: automat\itypechangeevents_requesttypechange.htm
 old-project: automat
 ms.assetid: 5f968395-263f-41fc-ab75-dbcc34dd50a0
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],RequestTypeChange method, ITypeChangeEvents.RequestTypeChange, ITypeChangeEvents::RequestTypeChange, RequestTypeChange, RequestTypeChange method [Automation], RequestTypeChange method [Automation],ITypeChangeEvents interface, _oa96_ITypeChangeEvents_RequestTypeChange, automat.itypechangeevents_requesttypechange, oaidl/ITypeChangeEvents::RequestTypeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

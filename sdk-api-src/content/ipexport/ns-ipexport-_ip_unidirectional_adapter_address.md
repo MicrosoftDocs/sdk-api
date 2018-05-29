@@ -1,16 +1,16 @@
 ---
 UID: NS:ipexport._IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 title: "_IP_UNIDIRECTIONAL_ADAPTER_ADDRESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure stores the IPv4 addresses associated with a unidirectional adapter.
 old-location: iphlp\ip_unidirectional_adapter_address.htm
 old-project: IpHlp
 ms.assetid: 225b93ae-e34f-4e5b-a699-1fdd342265c6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure [IP Helper], PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure pointer [IP Helper], _IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, _iphlp_ip_unidirectional_adapter_address, ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, ipexport/PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, iphlp.ip_unidirectional_adapter_address"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h

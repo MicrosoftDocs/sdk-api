@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.CreateEditableStream
 title: CreateEditableStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateEditableStream function creates an editable stream. Use this function before using other stream editing functions.
 old-location: multimedia\createeditablestream.htm
 old-project: Multimedia
 ms.assetid: 9c7b0ebe-c113-49c9-a74f-61f47e7c18af
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateEditableStream, CreateEditableStream function [Windows Multimedia], _win32_CreateEditableStream, multimedia.createeditablestream, vfw/CreateEditableStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

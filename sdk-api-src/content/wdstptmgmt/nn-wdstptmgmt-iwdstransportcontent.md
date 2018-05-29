@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportContent
 title: IWdsTransportContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents content being transmitted under a namespace over one or more sessions.
 old-location: wds\iwdstransportcontent.htm
 old-project: Wds
 ms.assetid: d7ed1f64-578f-4b3a-b9af-9a48800b9ca4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], IWdsTransportContent interface [Windows Deployment Services],described, wds.iwdstransportcontent, wdstptmgmt/IWdsTransportContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

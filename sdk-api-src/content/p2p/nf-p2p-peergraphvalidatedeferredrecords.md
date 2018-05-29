@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphValidateDeferredRecords
 title: PeerGraphValidateDeferredRecords function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphValidateDeferredRecords function indicates to the Peer Graphing Infrastructure that it is time to resubmit any deferred records for the security module to validate.
 old-location: p2p\peergraphvalidatedeferredrecords.htm
 old-project: P2PSdk
 ms.assetid: a9a48d8a-f31e-4526-bd09-826f04a564b1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphValidateDeferredRecords, PeerGraphValidateDeferredRecords function [Peer Networking], p2p.peergraphvalidatedeferredrecords, p2p/PeerGraphValidateDeferredRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

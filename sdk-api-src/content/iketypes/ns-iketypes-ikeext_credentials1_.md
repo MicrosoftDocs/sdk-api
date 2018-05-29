@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIALS1_
 title: IKEEXT_CREDENTIALS1_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store multiple credential pairs.
 old-location: fwp\ikeext_credentials1.htm
 old-project: FWP
 ms.assetid: dbd895bd-a720-4c8e-a2e7-f5614d69922c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CREDENTIALS1, IKEEXT_CREDENTIALS1 structure [Filtering], IKEEXT_CREDENTIALS1_, fwp.ikeext_credentials1, iketypes/IKEEXT_CREDENTIALS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

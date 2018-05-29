@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluscolor.Color.GetA
 title: Color::GetA
-author: windows-driver-content
+author: windows-sdk-content
 description: The Color::GetA method gets the alpha component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetA_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\geta.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Color class [GDI+],GetA method, Color.GetA, Color::GetA, GetA, GetA method [GDI+], GetA method [GDI+],Color class, _gdiplus_CLASS_Color_GetA_, gdiplus._gdiplus_CLASS_Color_GetA_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h

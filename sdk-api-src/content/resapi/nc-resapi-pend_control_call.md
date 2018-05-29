@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PEND_CONTROL_CALL
 title: PEND_CONTROL_CALL
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when a resource control code operation completes. The PEND_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\endcontrolcall.htm
 old-project: MsCS
 ms.assetid: 0FB2C129-B98C-4570-8621-6BAD46911682
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EndControlCall, EndControlCall callback, EndControlCall callback function [Failover Cluster], PEND_CONTROL_CALL, PEND_CONTROL_CALL callback function [Failover Cluster], mscs.endcontrolcall, resapi/EndControlCall, resapi/PEND_CONTROL_CALL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

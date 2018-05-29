@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.EnlistResource
 title: IDispenserDriver::EnlistResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Enlists a resource in a transaction.
 old-location: cos\idispenserdriver_enlistresource.htm
 old-project: cossdk
 ms.assetid: 87a8b7f4-edf3-4ab5-b75a-f8fda1f4975a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnlistResource, EnlistResource method [COM+], EnlistResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],EnlistResource method, IDispenserDriver.EnlistResource, IDispenserDriver::EnlistResource, _dtc_IDispenserDriver_EnlistResource, comsvcs/IDispenserDriver::EnlistResource, cos.idispenserdriver_enlistresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

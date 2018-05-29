@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemFromIDList
 title: SHCreateItemFromIDList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the IShellItem interface.
 old-location: shell\SHCreateItemFromIDList.htm
 old-project: shell
 ms.assetid: a6dcddd9-cdbc-4cf9-97e3-d1b562283344
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateItemFromIDList, SHCreateItemFromIDList function [Windows Shell], _shell_SHCreateItemFromIDList, shell.SHCreateItemFromIDList, shobjidl_core/SHCreateItemFromIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

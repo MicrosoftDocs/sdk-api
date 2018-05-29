@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiDestroyDeviceInfoList
 title: SetupDiDestroyDeviceInfoList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiDestroyDeviceInfoList function deletes a device information set and frees all associated memory.
 old-location: devinst\setupdidestroydeviceinfolist.htm
 old-project: devinst
 ms.assetid: a341db0c-9ece-4677-9854-8e0dc29966c6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiDestroyDeviceInfoList, SetupDiDestroyDeviceInfoList function [Device and Driver Installation], devinst.setupdidestroydeviceinfolist, di-rtns_f8a4a633-46fd-4d3f-81dc-68920ccebfd9.xml, setupapi/SetupDiDestroyDeviceInfoList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mssip.CryptSIPAddProvider
 title: CryptSIPAddProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptSIPAddProvider function registers functions that are exported by a given DLL file that implements a Subject Interface Package (SIP).
 old-location: security\cryptsipaddprovider.htm
 old-project: SecCrypto
 ms.assetid: 99633c2f-e5ed-49e4-9c98-7501f66e5571
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSIPAddProvider, CryptSIPAddProvider function [Security], mssip/CryptSIPAddProvider, security.cryptsipaddprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

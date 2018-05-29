@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromInt32Array
 title: InitVariantFromInt32Array function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure with an array of 32-bit integer values.
 old-location: properties\InitVariantFromInt32Array.htm
 old-project: properties
 ms.assetid: 0805d510-ee9c-4f10-978d-c34d572488f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromInt32Array, InitVariantFromInt32Array function [Windows Properties], _shell_InitVariantFromInt32Array, properties.InitVariantFromInt32Array, propvarutil/InitVariantFromInt32Array, shell.InitVariantFromInt32Array
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

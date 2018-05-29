@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.QueueSetValuesByObjectList
 title: IPortableDevicePropertiesBulk::QueueSetValuesByObjectList
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueueSetValuesByObjectList method queues a request to set one or more specified values on one or more specified objects on the device.
 old-location: wpdsdk\iportabledevicepropertiesbulk_queuesetvaluesbyobjectlist.htm
 old-project: wpd_sdk
 ms.assetid: cfb03354-e395-4fb7-aa76-a1f786ccd71c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],QueueSetValuesByObjectList method, IPortableDevicePropertiesBulk.QueueSetValuesByObjectList, IPortableDevicePropertiesBulk::QueueSetValuesByObjectList, IPortableDevicePropertiesBulkQueueSetValuesByObjectList, QueueSetValuesByObjectList, QueueSetValuesByObjectList method [Windows Portable Devices SDK], QueueSetValuesByObjectList method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::QueueSetValuesByObjectList, wpdsdk.iportabledevicepropertiesbulk_queuesetvaluesbyobjectlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

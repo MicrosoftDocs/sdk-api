@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_HAlpha
 title: IDVBTLocator::put_HAlpha
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_HAlpha method sets the hierarchy alpha.
 old-location: mstv\idvbtlocator_put_halpha.htm
 old-project: mstv
 ms.assetid: 2f444c28-972e-4e90-ad99-8bc4f4ee25b7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_HAlpha method, IDVBTLocator.put_HAlpha, IDVBTLocator::put_HAlpha, IDVBTLocatorput_HAlpha, mstv.idvbtlocator_put_halpha, put_HAlpha, put_HAlpha method [Microsoft TV Technologies], put_HAlpha method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_HAlpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

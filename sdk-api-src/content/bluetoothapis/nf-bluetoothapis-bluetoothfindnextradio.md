@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindNextRadio
 title: BluetoothFindNextRadio function
-author: windows-driver-content
+author: windows-sdk-content
 description: The BluetoothFindNextRadio function finds the next Bluetooth radio.
 old-location: bluetooth\bluetoothfindnextradio.htm
 old-project: Bluetooth
 ms.assetid: 7dd6b823-f9c6-4375-80b6-d59c4570c8fb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothFindNextRadio, BluetoothFindNextRadio function [Bluetooth], bluetooth.bluetoothfindnextradio, bluetoothapis/BluetoothFindNextRadio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsNameTranslate
 title: IADsNameTranslate
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsNameTranslate interface translates distinguished names (DNs) among various formats as defined in the ADS_NAME_TYPE_ENUM enumeration. The feature is available to objects in Active Directory.
 old-location: adsi\iadsnametranslate.htm
 old-project: ADSI
 ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

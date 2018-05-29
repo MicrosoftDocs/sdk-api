@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMGraphStreams
 title: IAMGraphStreams
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMGraphStreams interface controls a filter graph that renders a live source.
 old-location: dshow\iamgraphstreams.htm
 old-project: DirectShow
 ms.assetid: 30d44536-2a2d-44ab-bafc-bdb851cd272b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

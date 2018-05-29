@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_CELLULAR_CLASS
 title: MBN_CELLULAR_CLASS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_CELLULAR_CLASS enumerated type defines the type of cellular device.
 old-location: mbn\mbn_cellular_class.htm
 old-project: mbn
 ms.assetid: 2d75c20b-1ae4-4824-8918-41c20327a007
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_CELLULAR_CLASS, MBN_CELLULAR_CLASS enumeration [Microsoft Broadband Networks], MBN_CELLULAR_CLASS_CDMA, MBN_CELLULAR_CLASS_GSM, MBN_CELLULAR_CLASS_NONE, mbn.mbn_cellular_class, mbnapi/MBN_CELLULAR_CLASS, mbnapi/MBN_CELLULAR_CLASS_CDMA, mbnapi/MBN_CELLULAR_CLASS_GSM, mbnapi/MBN_CELLULAR_CLASS_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

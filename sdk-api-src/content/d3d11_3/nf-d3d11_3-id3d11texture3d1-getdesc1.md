@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_3.ID3D11Texture3D1.GetDesc1
 title: ID3D11Texture3D1::GetDesc1
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the properties of the texture resource.
 old-location: direct3d11\id3d11texture3d1_getdesc1.htm
 old-project: direct3d11
 ms.assetid: 0F7E8827-8F7B-4C0E-9592-1DB670B01BDB
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetDesc1, GetDesc1 method [Direct3D 11], GetDesc1 method [Direct3D 11],ID3D11Texture3D1 interface, ID3D11Texture3D1 interface [Direct3D 11],GetDesc1 method, ID3D11Texture3D1.GetDesc1, ID3D11Texture3D1::GetDesc1, d3d11_3/ID3D11Texture3D1::GetDesc1, direct3d11.id3d11texture3d1_getdesc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 

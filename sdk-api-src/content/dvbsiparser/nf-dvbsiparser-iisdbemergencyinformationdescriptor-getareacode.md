@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetAreaCode
 title: IIsdbEmergencyInformationDescriptor::GetAreaCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the area codes from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getareacode.htm
 old-project: mstv
 ms.assetid: 7bf09adf-6a04-4c3a-8c66-aea4e96c6936
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAreaCode method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetAreaCode method, IIsdbEmergencyInformationDescriptor.GetAreaCode, IIsdbEmergencyInformationDescriptor::GetAreaCode, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetAreaCode, mstv.iisdbemergencyinformationdescriptor_getareacode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

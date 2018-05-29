@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_AddRef
 title: CStdAsyncStubBuffer_AddRef function
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements the IRpcStubBuffer::AddRef method.
 old-location: rpc\cstdasyncstubbuffer_addref.htm
 old-project: Rpc
 ms.assetid: AE4BC50C-0AF1-4612-B4BF-27319351CA1E
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: CStdAsyncStubBuffer_AddRef, CStdAsyncStubBuffer_AddRef function [RPC], rpc.cstdasyncstubbuffer_addref, rpcproxy/CStdAsyncStubBuffer_AddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

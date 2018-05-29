@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeSysInt
 title: GetThemeSysInt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a system int.
 old-location: controls\GetThemeSysInt.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

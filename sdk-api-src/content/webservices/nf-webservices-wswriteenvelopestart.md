@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeStart
 title: WsWriteEnvelopeStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
 old-location: wsw\wswriteenvelopestart.htm
 old-project: wsw
 ms.assetid: 213fe780-82f2-4140-92f2-2665317a5cb6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services for Windows], webservices/WsWriteEnvelopeStart, wsw.wswriteenvelopestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

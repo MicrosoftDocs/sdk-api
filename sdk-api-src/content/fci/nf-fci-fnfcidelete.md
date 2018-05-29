@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FNFCIDELETE
 title: FNFCIDELETE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The FNFCIDELETE macro provides the declaration for the application-defined callback function to delete a file in the FCI context.
 old-location: winprog\fnfcidelete.htm
 old-project: DevNotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FNFCIDELETE, FNFCIDELETE macro [Windows API], fci/FNFCIDELETE, winprog.fnfcidelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

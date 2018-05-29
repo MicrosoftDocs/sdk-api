@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToBuffer
 title: VariantToBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the contents of a buffer stored in a VARIANT structure of type VT_ARRRAY | VT_UI1.
 old-location: properties\VariantToBuffer.htm
 old-project: properties
 ms.assetid: 2d310156-c274-4aaf-aee2-ac311a952889
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToBuffer, VariantToBuffer function [Windows Properties], _shell_VariantToBuffer, properties.VariantToBuffer, propvarutil/VariantToBuffer, shell.VariantToBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

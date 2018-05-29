@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexWriteSpace
 title: IMFASFIndexer::GetIndexWriteSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size, in bytes, of the buffer required to store the completed index.
 old-location: mf\imfasfindexer_getindexwritespace.htm
 old-project: medfound
 ms.assetid: 8d62a357-e46e-4431-943f-334ae11c8b31
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 8d62a357-e46e-4431-943f-334ae11c8b31, GetIndexWriteSpace, GetIndexWriteSpace method [Media Foundation], GetIndexWriteSpace method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexWriteSpace method, IMFASFIndexer.GetIndexWriteSpace, IMFASFIndexer::GetIndexWriteSpace, mf.imfasfindexer_getindexwritespace, wmcontainer/IMFASFIndexer::GetIndexWriteSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

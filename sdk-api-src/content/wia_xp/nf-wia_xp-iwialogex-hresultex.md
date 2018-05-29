@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.hResultEx
 title: IWiaLogEx::hResultEx
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaLogEx_hResultEx.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\hresultex.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaLogEx interface [WIA],hResultEx method, IWiaLogEx.hResultEx, IWiaLogEx::hResultEx, _wia_IWiaLogEx_hResultEx, hResultEx, hResultEx method [WIA], hResultEx method [WIA],IWiaLogEx interface, wia._wia_IWiaLogEx_hResultEx, wia_xp/IWiaLogEx::hResultEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICBitmapClipper
 title: IWICBitmapClipper
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that produce a clipped version of the input bitmap for a specified rectangular region of interest.
 old-location: wic\_wic_codec_iwicbitmapclipper.htm
 old-project: wic
 ms.assetid: a21fb11f-8622-46d6-8612-875ac59d3fbf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapClipper, IWICBitmapClipper interface [Windows Imaging Component], IWICBitmapClipper interface [Windows Imaging Component],described, _wic_codec_iwicbitmapclipper, wic._wic_codec_iwicbitmapclipper, wincodec/IWICBitmapClipper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

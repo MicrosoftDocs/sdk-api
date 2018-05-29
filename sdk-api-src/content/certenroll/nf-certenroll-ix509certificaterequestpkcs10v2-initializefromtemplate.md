@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V2.InitializeFromTemplate
 title: IX509CertificateRequestPkcs10V2::InitializeFromTemplate
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the certificate request by using a template.
 old-location: security\ix509certificaterequestpkcs10v2_initializefromtemplate.htm
 old-project: SecCertEnroll
 ms.assetid: 599b4dfc-43a2-4be5-aa23-d3844ae442aa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromTemplate, IX509CertificateRequestPkcs10V2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromTemplate, security.ix509certificaterequestpkcs10v2_initializefromtemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

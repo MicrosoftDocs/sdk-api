@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiCancelDriverInfoSearch
 title: SetupDiCancelDriverInfoSearch function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiCancelDriverInfoSearch function cancels a driver list search that is currently in progress in a different thread.
 old-location: devinst\setupdicanceldriverinfosearch.htm
 old-project: devinst
 ms.assetid: 847f1f5e-5634-44ea-b530-6136629f0471
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiCancelDriverInfoSearch, SetupDiCancelDriverInfoSearch function [Device and Driver Installation], devinst.setupdicanceldriverinfosearch, di-rtns_6cdb6cd3-5d8d-4af6-b747-b585d9c25df4.xml, setupapi/SetupDiCancelDriverInfoSearch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

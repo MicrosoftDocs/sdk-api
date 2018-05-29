@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPEnumDevice.Reset
 title: IMDSPEnumDevice::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. A subsequent call to Next fetches the first Windows Media Device Manager interface in the enumeration sequence.
 old-location: wmdm\imdspenumdevice_reset.htm
 old-project: WMDM
 ms.assetid: 7edd0d45-aeae-4bc8-b4d4-f74bcb403ef9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPEnumDevice interface [windows Media Device Manager],Reset method, IMDSPEnumDevice.Reset, IMDSPEnumDevice::Reset, IMDSPEnumDeviceReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IMDSPEnumDevice interface, mswmdm/IMDSPEnumDevice::Reset, wmdm.imdspenumdevice_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.PopulationCount64
 title: PopulationCount64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Counts the number of one bits (population count) in a 64-bit unsigned integer.
 old-location: winprog\populationcount64.htm
 old-project: WinProg
 ms.assetid: 6123F331-7D4F-4D94-9543-D5A45F7559D8
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PopulationCount64, PopulationCount64 function [Windows API], winnt/PopulationCount64, winprog.populationcount64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

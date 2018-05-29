@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFProtectedEnvironmentAccess.ReadGRL
 title: IMFProtectedEnvironmentAccess::ReadGRL
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the Global Revocation List (GLR).
 old-location: mf\imfprotectedenvironmentaccess_readgrl.htm
 old-project: medfound
 ms.assetid: 38b70c99-1823-498c-b3e4-d2cad05278de
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFProtectedEnvironmentAccess interface [Media Foundation],ReadGRL method, IMFProtectedEnvironmentAccess.ReadGRL, IMFProtectedEnvironmentAccess::ReadGRL, ReadGRL, ReadGRL method [Media Foundation], ReadGRL method [Media Foundation],IMFProtectedEnvironmentAccess interface, mf.imfprotectedenvironmentaccess_readgrl, mfidl/IMFProtectedEnvironmentAccess::ReadGRL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

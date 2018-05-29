@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_PublisherName
 title: IEventPublisher::put_PublisherName
-author: windows-driver-content
+author: windows-sdk-content
 description: The display name for the event publisher.
 old-location: com\ieventpublisher_publishername.htm
 old-project: com
 ms.assetid: 223c57b9-2d70-476b-9f97-0f4d73c36dce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEventPublisher interface [COM],PublisherName property, IEventPublisher.PublisherName, IEventPublisher.put_PublisherName, IEventPublisher::PublisherName, IEventPublisher::get_PublisherName, IEventPublisher::put_PublisherName, PublisherName property [COM], PublisherName property [COM],IEventPublisher interface, _com_ieventpublisher_publishername, com.ieventpublisher_publishername, eventsys/IEventPublisher::PublisherName, eventsys/IEventPublisher::get_PublisherName, eventsys/IEventPublisher::put_PublisherName, put_PublisherName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

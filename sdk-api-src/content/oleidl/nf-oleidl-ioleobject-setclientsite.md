@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.SetClientSite
 title: IOleObject::SetClientSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs an embedded object of its display location, called a &#0034;client site,&#0034; within its container.
 old-location: com\ioleobject_setclientsite.htm
 old-project: com
 ms.assetid: 6690b5a3-bada-496c-89cb-a9ae1fc9dfb0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleObject interface [COM],SetClientSite method, IOleObject.SetClientSite, IOleObject::SetClientSite, SetClientSite, SetClientSite method [COM], SetClientSite method [COM],IOleObject interface, _ole_ioleobject_setclientsite, com.ioleobject_setclientsite, oleidl/IOleObject::SetClientSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

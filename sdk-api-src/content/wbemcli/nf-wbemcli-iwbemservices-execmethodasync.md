@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecMethodAsync
 title: IWbemServices::ExecMethodAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: Asynchronously executes a method exported by a CIM object.
 old-location: wmi\iwbemservices_execmethodasync.htm
 old-project: WmiSdk
 ms.assetid: 61966c03-80dc-4556-b2fc-97e879cf458c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: ExecMethodAsync, ExecMethodAsync method [Windows Management Instrumentation], ExecMethodAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethodAsync method, IWbemServices.ExecMethodAsync, IWbemServices::ExecMethodAsync, _hmm_iwbemservices_execmethodasync, wbemcli/IWbemServices::ExecMethodAsync, wmi.iwbemservices_execmethodasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

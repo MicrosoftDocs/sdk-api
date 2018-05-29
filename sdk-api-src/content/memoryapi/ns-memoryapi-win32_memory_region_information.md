@@ -1,16 +1,16 @@
 ---
 UID: NS:memoryapi.WIN32_MEMORY_REGION_INFORMATION
 title: WIN32_MEMORY_REGION_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a memory region.
 old-location: base\win32_memory_region_information.htm
 old-project: Memory
 ms.assetid: C85C4B35-EED3-4BD4-A322-7C56BCB9D858
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WIN32_MEMORY_REGION_INFORMATION, WIN32_MEMORY_REGION_INFORMATION structure, base.win32_memory_region_information, memoryapi/WIN32_MEMORY_REGION_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: memoryapi.h
 req.include-header: Windows.h

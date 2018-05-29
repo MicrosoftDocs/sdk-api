@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkListManager
 title: INetworkListManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetworkListManager interface provides a set of methods to perform network list management functions.
 old-location: nla\inetworklistmanager.htm
 old-project: NLA
 ms.assetid: a9f76b6a-ea15-47b7-a4ef-14ea60b7810d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness],described, netlistmgr/INetworkListManager, nla.inetworklistmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

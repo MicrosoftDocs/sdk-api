@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._ATTRIBUTERESTRICTIONS
 title: "_ATTRIBUTERESTRICTIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the ATTRIBUTERESTRICTIONS enumeration type specify restrictions on how a particular attribute can be used.
 old-location: nps\SDO_attributerestrictions.htm
 old-project: Nps
 ms.assetid: 7a835536-3f5e-4c71-898c-e49d2f2da8ee
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ALLOWEDIN8021X, ALLOWEDINCONDITION, ALLOWEDINPROFILE, ALLOWEDINPROXYCONDITION, ALLOWEDINPROXYPROFILE, ALLOWEDINVPNDIALUP, ATTRIBUTERESTRICTIONS, ATTRIBUTERESTRICTIONS enumeration [Network Policy Server], MULTIVALUED, _ATTRIBUTERESTRICTIONS, _sdo_attributerestrictions, nps.SDO_attributerestrictions, sdo.attributerestrictions, sdoias/ALLOWEDIN8021X, sdoias/ALLOWEDINCONDITION, sdoias/ALLOWEDINPROFILE, sdoias/ALLOWEDINPROXYCONDITION, sdoias/ALLOWEDINPROXYPROFILE, sdoias/ALLOWEDINVPNDIALUP, sdoias/ATTRIBUTERESTRICTIONS, sdoias/MULTIVALUED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

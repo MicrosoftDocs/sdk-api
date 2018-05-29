@@ -1,16 +1,16 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Create
 title: IIdentityProvider::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new identity associated with the specified user name.
 old-location: security\iidentityprovider_create.htm
 old-project: SecAuthN
 ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

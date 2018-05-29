@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateEmbeddingHelper
 title: OleCreateEmbeddingHelper function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an OLE embedding helper object using application-supplied code aggregated with pieces of the OLE default object handler. This helper object can be created and used in a specific context and role, as determined by the caller.
 old-location: com\olecreateembeddinghelper.htm
 old-project: com
 ms.assetid: 5c67b513-0692-4e0a-beab-8b514089699c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateEmbeddingHelper, OleCreateEmbeddingHelper function [COM], _ole_OleCreateEmbeddingHelper, com.olecreateembeddinghelper, ole2/OleCreateEmbeddingHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

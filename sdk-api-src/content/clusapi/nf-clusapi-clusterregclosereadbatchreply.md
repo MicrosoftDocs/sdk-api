@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegCloseReadBatchReply
 title: ClusterRegCloseReadBatchReply function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a read batch result handle and frees the memory associated with it.
 old-location: mscs\clusterregclosereadbatchreply.htm
 old-project: MsCS
 ms.assetid: C8CC4292-A7CC-4613-B5A8-B504E804E00E
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegCloseReadBatchReply, ClusterRegCloseReadBatchReply function [Failover Cluster], clusapi/ClusterRegCloseReadBatchReply, mscs.clusterregclosereadbatchreply
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

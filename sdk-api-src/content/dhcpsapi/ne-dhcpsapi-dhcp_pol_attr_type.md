@@ -1,16 +1,16 @@
 ---
 UID: NE:dhcpsapi.DHCP_POL_ATTR_TYPE
 title: DHCP_POL_ATTR_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_POL_ATTR_TYPE enumeration defines the attribute type for a condition in a DHCP server policy.
 old-location: dhcp\dhcp_pol_attr_type.htm
 old-project: DHCP
 ms.assetid: 02a84c55-402c-40fe-8dad-6ed3f58052a1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_POL_ATTR_TYPE, DHCP_POL_ATTR_TYPE enumeration [DHCP], DhcpAttrHWAddr, DhcpAttrOption, DhcpAttrSubOption, dhcp.dhcp_pol_attr_type, dhcpsapi/DHCP_POL_ATTR_TYPE, dhcpsapi/DhcpAttrHWAddr, dhcpsapi/DhcpAttrOption, dhcpsapi/DhcpAttrSubOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

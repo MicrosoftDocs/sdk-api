@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_NEIGHBORSW
 title: "_DS_REPL_NEIGHBORSW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DS_REPL_NEIGHBORS structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to provide inbound replication state data for naming context and source server pairs.
 old-location: ad\ds_repl_neighbors.htm
 old-project: AD
 ms.assetid: 1307399b-de29-43ec-97b4-05cd70c1a92d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_NEIGHBORS, DS_REPL_NEIGHBORS structure [Active Directory], DS_REPL_NEIGHBORSW, _DS_REPL_NEIGHBORSW, _glines_ds_repl_neighbors, ad.ds__repl__neighbors, ad.ds_repl_neighbors, ntdsapi/DS_REPL_NEIGHBORS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

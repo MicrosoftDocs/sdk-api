@@ -1,16 +1,16 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetCurrentPage
 title: IAMWstDecoder::SetCurrentPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Downstream filters use the SetCurrentPage method to assign the current page.
 old-location: dshow\iamwstdecoder_setcurrentpage.htm
 old-project: DirectShow
 ms.assetid: 84f8854d-77a7-4ae3-9fec-c4d6fce7eead
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetCurrentPage method, IAMWstDecoder.SetCurrentPage, IAMWstDecoder::SetCurrentPage, IAMWstDecoderSetCurrentPage, SetCurrentPage, SetCurrentPage method [DirectShow], SetCurrentPage method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setcurrentpage, iwstdec/IAMWstDecoder::SetCurrentPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 

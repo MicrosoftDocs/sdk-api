@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetRecordCountOfDescriptors
 title: IATSC_EIT::GetRecordCountOfDescriptors
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: fd568711-c82c-4ffe-9333-2b729502fe79
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IATSC_EIT.GetRecordCountOfDescriptors, IATSC_EIT::GetRecordCountOfDescriptors, IATSC_EITGetRecordCountOfDescriptors, atscpsipparser/IATSC_EIT::GetRecordCountOfDescriptors, mstv.iatsc_eit_getrecordcountofdescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

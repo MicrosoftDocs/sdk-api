@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICJpegIndexingOptions
 title: WICJpegIndexingOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the options for indexing a JPEG image.
 old-location: wic\wicjpegindexingoptions.htm
 old-project: wic
 ms.assetid: AFA9CC1B-847A-4237-9942-EC721FA86E4E
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICJpegIndexingOptions, WICJpegIndexingOptions enumeration [Windows Imaging Component], WICJpegIndexingOptionsGenerateOnDemand, WICJpegIndexingOptionsGenerateOnLoad, WICJpegIndexingOptions_FORCE_DWORD, wic.wicjpegindexingoptions, wincodec/WICJpegIndexingOptions, wincodec/WICJpegIndexingOptionsGenerateOnDemand, wincodec/WICJpegIndexingOptionsGenerateOnLoad, wincodec/WICJpegIndexingOptions_FORCE_DWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

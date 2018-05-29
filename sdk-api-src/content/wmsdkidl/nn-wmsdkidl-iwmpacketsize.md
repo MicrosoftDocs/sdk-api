@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMPacketSize
 title: IWMPacketSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPacketSize interface controls the maximum size of packets in an ASF file.
 old-location: wmformat\iwmpacketsize.htm
 old-project: wmformat
 ms.assetid: 002442fe-46de-49d9-8aff-ad7c9aabc8d1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMPacketSize, IWMPacketSize interface [windows Media Format], IWMPacketSize interface [windows Media Format],described, IWMPacketSizeInterface, wmformat.iwmpacketsize, wmsdkidl/IWMPacketSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

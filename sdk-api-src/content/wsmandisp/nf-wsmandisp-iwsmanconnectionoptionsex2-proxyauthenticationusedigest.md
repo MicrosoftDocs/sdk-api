@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest
 title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseDigest for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusedigest.htm
 old-project: WinRM
 ms.assetid: 6813d121-2f02-4678-80fc-161dcb1d78ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseDigest method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest, IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest method [Windows Remote Management], ProxyAuthenticationUseDigest method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusedigest, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

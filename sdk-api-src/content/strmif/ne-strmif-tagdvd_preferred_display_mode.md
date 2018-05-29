@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_PREFERRED_DISPLAY_MODE
 title: tagDVD_PREFERRED_DISPLAY_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the user's preferred window aspect ratio and conversion method.
 old-location: dshow\dvd_preferred_display_mode.htm
 old-project: DirectShow
 ms.assetid: afb235ae-ba60-491f-8b88-7fe824f00f77
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DISPLAY_16x9, DISPLAY_4x3_LETTERBOX_PREFERRED, DISPLAY_4x3_PANSCAN_PREFERRED, DISPLAY_CONTENT_DEFAULT, DVD_PREFERRED_DISPLAY_MODE, DVD_PREFERRED_DISPLAY_MODE , DVD_PREFERRED_DISPLAY_MODE enumeration [DirectShow], DVD_PREFERRED_DISPLAY_MODEEnumeration, dshow.dvd_preferred_display_mode, strmif/DISPLAY_16x9, strmif/DISPLAY_4x3_LETTERBOX_PREFERRED, strmif/DISPLAY_4x3_PANSCAN_PREFERRED, strmif/DISPLAY_CONTENT_DEFAULT, strmif/DVD_PREFERRED_DISPLAY_MODE, tagDVD_PREFERRED_DISPLAY_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:enclaveapi.LoadEnclaveData
 title: LoadEnclaveData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads data into an uninitialized enclave that you created by calling CreateEnclave.
 old-location: base\loadenclavedata.htm
 old-project: Memory
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: Winbase.h

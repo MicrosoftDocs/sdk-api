@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_5.IDXGIOutput5
 title: IDXGIOutput5
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput5 interface exposes a single method to specify a list of supported formats for fullscreen surfaces.
 old-location: direct3ddxgi\idxgioutput5.htm
 old-project: direct3ddxgi
 ms.assetid: D75529BD-C572-4137-8F1E-91F7C6902EE0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIOutput5, IDXGIOutput5 interface [DXGI], IDXGIOutput5 interface [DXGI],described, direct3ddxgi.idxgioutput5, dxgi1_5/IDXGIOutput5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 

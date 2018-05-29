@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._CSV_NAMESPACE_INFO
 title: "_CSV_NAMESPACE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.
 old-location: fs\csv_namespace_info.htm
 old-project: FileIO
 ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PCSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO structure [Files], CSV_NAMESPACE_INFO_V1, PCSV_NAMESPACE_INFO, PCSV_NAMESPACE_INFO structure pointer [Files], _CSV_NAMESPACE_INFO, fs.csv_namespace_info, winioctl/CSV_NAMESPACE_INFO, winioctl/PCSV_NAMESPACE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

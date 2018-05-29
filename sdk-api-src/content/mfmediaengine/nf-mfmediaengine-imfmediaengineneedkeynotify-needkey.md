@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineNeedKeyNotify.NeedKey
 title: IMFMediaEngineNeedKeyNotify::NeedKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the application that a key or keys are needed along with any initialization data.
 old-location: mf\imfmediaengineneedkeynotify_needkey.htm
 old-project: medfound
 ms.assetid: 2b9a64d6-1a0f-4375-973a-42734ac5658e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify interface [Media Foundation],NeedKey method, IMFMediaEngineNeedKeyNotify.NeedKey, IMFMediaEngineNeedKeyNotify::NeedKey, NeedKey, NeedKey method [Media Foundation], NeedKey method [Media Foundation],IMFMediaEngineNeedKeyNotify interface, mf.imfmediaengineneedkeynotify_needkey, mfmediaengine/IMFMediaEngineNeedKeyNotify::NeedKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

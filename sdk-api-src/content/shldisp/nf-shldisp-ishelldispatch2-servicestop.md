@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch2.ServiceStop
 title: IShellDispatch2::ServiceStop
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops a named service.
 old-location: shell\IShellDispatch2_ServiceStop.htm
 old-project: shell
 ms.assetid: f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ServiceStop method, IShellDispatch2.ServiceStop, IShellDispatch2::ServiceStop, ServiceStop, ServiceStop method [Windows Shell], ServiceStop method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ServiceStop, shell.IShellDispatch2_ServiceStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

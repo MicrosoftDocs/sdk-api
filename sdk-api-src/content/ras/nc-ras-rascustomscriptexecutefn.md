@@ -1,16 +1,16 @@
 ---
 UID: NC:ras.RasCustomScriptExecuteFn
 title: RasCustomScriptExecuteFn
-author: windows-driver-content
+author: windows-sdk-content
 description: RAS calls the RasCustomScriptExecute function when establishing a connection for a phone-book entry that has the RASEO_CustomScript option set.
 old-location: rras\rascustomscriptexecute.htm
 old-project: RRAS
 ms.assetid: e31ab530-cb60-4bb0-be44-3ba90fdf71f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasCustomScriptExecute, RasCustomScriptExecute callback function [RAS], RasCustomScriptExecuteFn, RasCustomScriptExecuteFn callback, _ras_rascustomscriptexecute, ras/RasCustomScriptExecute, rras.rascustomscriptexecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

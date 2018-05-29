@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._COMPACT_VIRTUAL_DISK_PARAMETERS
 title: "_COMPACT_VIRTUAL_DISK_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) compacting parameters.
 old-location: vhd\compact_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: 3e58101c-c8a9-432e-99c4-9e418a887b9e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PCOMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS structure [VHD], PCOMPACT_VIRTUAL_DISK_PARAMETERS, PCOMPACT_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _COMPACT_VIRTUAL_DISK_PARAMETERS, vhd.compact_virtual_disk_parameters, virtdisk/COMPACT_VIRTUAL_DISK_PARAMETERS, virtdisk/PCOMPACT_VIRTUAL_DISK_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

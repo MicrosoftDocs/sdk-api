@@ -1,16 +1,16 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_502
 title: "_WKSTA_INFO_502"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WKSTA_INFO_502 structure is obsolete. The structure contains information about a workstation environment.
 old-location: netmgmt\wksta_info_502_str.htm
 old-project: NetMgmt
 ms.assetid: 716e700a-e464-47ec-a2df-74c03597ac6d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPWKSTA_INFO_502, *PWKSTA_INFO_502, LPWKSTA_INFO_502, LPWKSTA_INFO_502 structure pointer [Network Management], PWKSTA_INFO_502, PWKSTA_INFO_502 structure pointer [Network Management], WKSTA_INFO_502, WKSTA_INFO_502 structure [Network Management], _WKSTA_INFO_502, _win32_wksta_info_502_str, lmwksta/LPWKSTA_INFO_502, lmwksta/PWKSTA_INFO_502, lmwksta/WKSTA_INFO_502, netmgmt.wksta_info_502_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h

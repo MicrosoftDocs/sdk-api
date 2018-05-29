@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_Compare
 title: TextRange_Compare function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two text ranges.
 old-location: winauto\uiauto_TextRange_CompareConPat.htm
 old-project: WinAuto
 ms.assetid: 891166a2-dee6-44c9-b26c-8d1d39de72ef
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TextRange_Compare, TextRange_Compare function [Windows Accessibility], uiauto.uiauto_TextRange_CompareConPat, uiauto_TextRange_CompareConPat, uiautomationcoreapi/TextRange_Compare, winauto.uiauto_TextRange_CompareConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

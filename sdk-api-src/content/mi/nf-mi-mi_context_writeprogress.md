@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_WriteProgress
 title: MI_Context_WriteProgress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a progress message to the client.
 old-location: wmi_v2\mi_context_writeprogress.htm
 old-project: wmi_v2
 ms.assetid: 260d46f3-b048-4278-acde-724323166ba2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_WriteProgress, MI_Context_WriteProgress function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteProgress, wmi.mi_writeprogress, wmi_v2.mi_context_writeprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

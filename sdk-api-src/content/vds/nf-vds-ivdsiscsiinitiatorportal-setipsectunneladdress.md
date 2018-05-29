@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress
 title: IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiinitiatorportal_setipsectunneladdress.htm
 old-project: VDS
 ms.assetid: 40fd4eb5-afe1-4947-81b2-df44c273efe1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiInitiatorPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress, IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiInitiatorPortal interface, base.ivdsiscsiinitiatorportal_setipsectunneladdress, vds/IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

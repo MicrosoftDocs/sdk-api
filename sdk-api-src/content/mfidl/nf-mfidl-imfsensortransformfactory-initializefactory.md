@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.InitializeFactory
 title: IMFSensorTransformFactory::InitializeFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the media pipeline to initialize the sensor transform.
 old-location: mf\imfsensortransformfactory_initializefactory.htm
 old-project: medfound
 ms.assetid: 395BC62A-5A20-4C9D-A097-2DBEF6CD93C2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorTransformFactory interface [Media Foundation],InitializeFactory method, IMFSensorTransformFactory.InitializeFactory, IMFSensorTransformFactory::InitializeFactory, InitializeFactory, InitializeFactory method [Media Foundation], InitializeFactory method [Media Foundation],IMFSensorTransformFactory interface, mf.imfsensortransformfactory_initializefactory, mfidl/IMFSensorTransformFactory::InitializeFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

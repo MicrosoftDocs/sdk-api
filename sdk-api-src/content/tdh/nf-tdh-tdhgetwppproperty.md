@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhGetWppProperty
 title: TdhGetWppProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specific property associated with a WPP message.
 old-location: etw\tdhgetwppproperty.htm
 old-project: ETW
 ms.assetid: a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppproperty, tdh/TdhGetWppProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

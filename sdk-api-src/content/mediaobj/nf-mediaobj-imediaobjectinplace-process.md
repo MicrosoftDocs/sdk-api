@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.Process
 title: IMediaObjectInPlace::Process
-author: windows-driver-content
+author: windows-sdk-content
 description: The Process method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.
 old-location: dshow\imediaobjectinplace_process.htm
 old-project: DirectShow
 ms.assetid: 567117cd-db7b-4764-9c88-ab898a64b56a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaObjectInPlace.Process, IMediaObjectInPlace::Process, IMediaObjectInPlaceProcess, Process, Process method [DirectShow], Process method [DirectShow],IMediaObjectInPlace interface, dshow.imediaobjectinplace_process, mediaobj/IMediaObjectInPlace::Process
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

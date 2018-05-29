@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetPerTcp6ConnectionEStats
 title: GetPerTcp6ConnectionEStats function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves extended statistics for an IPv6 TCP connection.
 old-location: iphlp\getpertcp6connectionestats.htm
 old-project: IpHlp
 ms.assetid: 291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPerTcp6ConnectionEStats, GetPerTcp6ConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcp6connectionestats, iphlpapi/GetPerTcp6ConnectionEStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

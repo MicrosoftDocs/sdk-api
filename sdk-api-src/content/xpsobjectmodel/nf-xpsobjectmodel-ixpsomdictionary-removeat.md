@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.RemoveAt
 title: IXpsOMDictionary::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and releases the entry from a specified location in the dictionary.
 old-location: xps\ixpsomdictionary_removeat.htm
 old-project: printdocs
 ms.assetid: fd86046b-8d87-4093-bfbd-b91e5bacba49
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDictionary.RemoveAt, IXpsOMDictionary::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_removeat, xpsobjectmodel/IXpsOMDictionary::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

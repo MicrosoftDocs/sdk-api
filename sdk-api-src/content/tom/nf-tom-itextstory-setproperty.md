@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStory.SetProperty
 title: ITextStory::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextstory_setproperty.htm
 old-project: Controls
 ms.assetid: 432afe58-a1ed-45aa-b018-bf608bbb7e2a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStory interface [Windows Controls],SetProperty method, ITextStory.SetProperty, ITextStory::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextStory interface, controls.itextstory_setproperty, tom/ITextStory::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

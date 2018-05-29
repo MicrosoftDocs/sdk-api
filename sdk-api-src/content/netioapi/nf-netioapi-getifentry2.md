@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetIfEntry2
 title: GetIfEntry2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information for the specified interface on the local computer.
 old-location: iphlp\getifentry2.htm
 old-project: IpHlp
 ms.assetid: da787dae-5e89-4bf2-a9b6-90e727995414
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIfEntry2, GetIfEntry2 function [IP Helper], iphlp.getifentry2, netioapi/GetIfEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedItemType
 title: IUIAutomationElement::get_CachedItemType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached string that describes the type of item represented by the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedItemType.htm
 old-project: WinAuto
 ms.assetid: 66b9180c-ebde-4e5a-b431-f81a094a0ee4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedItemType property [Windows Accessibility], CachedItemType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedItemType property, IUIAutomationElement.CachedItemType, IUIAutomationElement.get_CachedItemType, IUIAutomationElement::CachedItemType, IUIAutomationElement::get_CachedItemType, get_CachedItemType, uiauto.uiauto_IUIAutomationElement_CachedItemType, uiauto_IUIAutomationElement_CachedItemType, uiautomationclient/IUIAutomationElement::CachedItemType, uiautomationclient/IUIAutomationElement::get_CachedItemType, winauto.uiauto_IUIAutomationElement_CachedItemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

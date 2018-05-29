@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi._WitnessTagHelper
 title: "_WitnessTagHelper"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to validate a PaxosTagCStruct structure.
 old-location: mscs\witnesstaghelper.htm
 old-project: MsCS
 ms.assetid: FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], _WitnessTagHelper, mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

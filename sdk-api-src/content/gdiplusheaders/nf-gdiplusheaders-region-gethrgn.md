@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.GetHRGN
 title: Region::GetHRGN
-author: windows-driver-content
+author: windows-sdk-content
 description: The Region::GetHRGN method creates a Windows Graphics Device Interface (GDI) region from this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetHRGN_g_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\gethrgn.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetHRGN, GetHRGN method [GDI+], GetHRGN method [GDI+],Region class, Region class [GDI+],GetHRGN method, Region.GetHRGN, Region::GetHRGN, _gdiplus_CLASS_Region_GetHRGN_g_, gdiplus._gdiplus_CLASS_Region_GetHRGN_g_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

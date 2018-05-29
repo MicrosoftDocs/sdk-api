@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfLMLattice
 title: ITfLMLattice
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfLMLattice interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service).
 old-location: tsf\itflmlattice.htm
 old-project: TSF
 ms.assetid: 25ad6ef2-1d42-498a-852f-163a0efbc26a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITfLMLattice interface [Text Services Framework],described, _tsf_itflmlattice_ref, ctffunc/ITfLMLattice, tsf.itflmlattice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

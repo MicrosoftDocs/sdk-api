@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GdiComment
 title: GdiComment function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GdiComment function copies a comment from a buffer into a specified enhanced-format metafile.
 old-location: gdi\gdicomment.htm
 old-project: gdi
 ms.assetid: 80ed11fc-89f8-47ab-8b3b-c817733bd385
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GdiComment, GdiComment function [Windows GDI], _win32_GdiComment, gdi.gdicomment, wingdi/GdiComment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateHistoryEntryCollection
 title: IUpdateHistoryEntryCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an ordered read-only list of IUpdateHistoryEntry interfaces.
 old-location: wua\iupdatehistoryentrycollection.htm
 old-project: Wua_Sdk
 ms.assetid: c3bc764b-c9cc-4567-963e-2e481bdda611
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], IUpdateHistoryEntryCollection interface [Windows Update Agent],described, wua.iupdatehistoryentrycollection, wuapi/IUpdateHistoryEntryCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

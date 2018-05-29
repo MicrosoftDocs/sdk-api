@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument.GetSelection
 title: ITextDocument::GetSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the active selection.
 old-location: controls\ITextDocument_GetSelection.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getselection.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSelection, GetSelection method [Windows Controls], GetSelection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetSelection method, ITextDocument.GetSelection, ITextDocument::GetSelection, _win32_ITextDocument_GetSelection, _win32_ITextDocument_GetSelection_cpp, controls.ITextDocument_GetSelection, controls._win32_ITextDocument_GetSelection, tom/ITextDocument::GetSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

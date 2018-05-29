@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IkeextSaGetById0
 title: IkeextSaGetById0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IKE/AuthIP security association (SA) from the database.
 old-location: fwp\ikeextsagetbyid0.htm
 old-project: FWP
 ms.assetid: c500f7d1-ce8f-4a4e-9f09-c37116ef9ab3
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IkeextSaGetById0, IkeextSaGetById0 function [Filtering], fwp.ikeextsagetbyid0, fwpmu/IkeextSaGetById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

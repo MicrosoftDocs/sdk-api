@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetStopPosition
 title: IMediaSeeking::GetStopPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStopPosition method retrieves the time at which the playback will stop, relative to the duration of the stream.
 old-location: dshow\imediaseeking_getstopposition.htm
 old-project: DirectShow
 ms.assetid: 7205ea09-65c1-4cd5-b76d-55977b0fbab9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetStopPosition, GetStopPosition method [DirectShow], GetStopPosition method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetStopPosition method, IMediaSeeking.GetStopPosition, IMediaSeeking::GetStopPosition, IMediaSeekingGetStopPosition, dshow.imediaseeking_getstopposition, strmif/IMediaSeeking::GetStopPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

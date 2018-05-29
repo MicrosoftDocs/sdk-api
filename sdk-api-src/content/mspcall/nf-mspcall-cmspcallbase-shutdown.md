@@ -1,16 +1,16 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ShutDown
 title: CMSPCallBase::ShutDown
-author: windows-driver-content
+author: windows-sdk-content
 description: The ShutDown method is called by the MSPAddress object (in the method ShutdownMSPCall) to shut down the call.
 old-location: tapi3\cmspcallbase_shutdown.htm
 old-project: Tapi
 ms.assetid: eec5b712-5cee-41f7-819f-60815d5fba5c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],ShutDown method, CMSPCallBase.ShutDown, CMSPCallBase::ShutDown, ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_shutdown, mspcall/CMSPCallBase::ShutDown, tapi3.cmspcallbase_shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 

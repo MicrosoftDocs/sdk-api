@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngEnumForms
 title: EngEnumForms function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngEnumForms function enumerates the forms supported by the specified printer.
 old-location: display\engenumforms.htm
 old-project: display
 ms.assetid: c249bb86-52cf-4c9d-9ea2-7e3a7d14a31a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngEnumForms, EngEnumForms function [Display Devices], display.engenumforms, gdifncs_62f2ba18-75e2-4636-94cf-c4a0b2b63ab1.xml, winddi/EngEnumForms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

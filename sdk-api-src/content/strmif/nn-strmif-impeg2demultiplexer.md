@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMpeg2Demultiplexer
 title: IMpeg2Demultiplexer
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is implemented on the MPEG-2 Demultiplexer filter (Demux) and is used in both program stream mode and transport stream mode.
 old-location: dshow\impeg2demultiplexer.htm
 old-project: DirectShow
 ms.assetid: e9242b96-0fc3-428e-b7ee-91a4f5e67305
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMpeg2Demultiplexer, IMpeg2Demultiplexer interface [DirectShow], IMpeg2Demultiplexer interface [DirectShow],described, IMpeg2DemultiplexerInterface, dshow.impeg2demultiplexer, strmif/IMpeg2Demultiplexer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

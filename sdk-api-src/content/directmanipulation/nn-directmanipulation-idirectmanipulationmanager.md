@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationManager
 title: IDirectManipulationManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to all the Direct Manipulation features and APIs available to the client application.
 old-location: directmanipulation\idirectmanipulationmanager.htm
 old-project: directmanipulation
 ms.assetid: d730a446-984e-4be0-aa7f-6d3dc93b2e34
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], IDirectManipulationManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager, directmanipulation/IDirectManipulationManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

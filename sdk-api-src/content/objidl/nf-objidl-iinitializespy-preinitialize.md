@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IInitializeSpy.PreInitialize
 title: IInitializeSpy::PreInitialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs initialization steps required before calling the CoInitializeEx function.
 old-location: com\iinitializespy_preinitialize.htm
 old-project: com
 ms.assetid: f5b345d1-ab37-401a-9cb4-b01ef7254fc8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IInitializeSpy interface [COM],PreInitialize method, IInitializeSpy.PreInitialize, IInitializeSpy::PreInitialize, PreInitialize, PreInitialize method [COM], PreInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preinitialize, com.iinitializespy_preinitialize, objidl/IInitializeSpy::PreInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

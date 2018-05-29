@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.DrawDibUpdate
 title: DrawDibUpdate macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawDibUpdate macro draws the last frame in the DrawDib off-screen buffer.
 old-location: multimedia\drawdibupdate.htm
 old-project: Multimedia
 ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DrawDibUpdate, DrawDibUpdate macro [Windows Multimedia], _win32_DrawDibUpdate, multimedia.drawdibupdate, vfw/DrawDibUpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

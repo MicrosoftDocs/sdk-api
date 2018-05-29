@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateTrustee
 title: IGPM::CreateTrustee
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and returns a GPMTrustee from which you can retrieve information about a trustee.
 old-location: gpmc\igpm_createtrustee.htm
 old-project: GPMC
 ms.assetid: 98230e5f-b866-4f68-9977-eec4bdd14d9e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CreateTrustee, CreateTrustee method [GPMC], CreateTrustee method [GPMC],GPM object, CreateTrustee method [GPMC],IGPM interface, GPM object [GPMC],CreateTrustee method, IGPM interface [GPMC],CreateTrustee method, IGPM.CreateTrustee, IGPM::CreateTrustee, _win32_igpm_createtrustee, gpmc.igpm_createtrustee, gpmgmt/IGPM::CreateTrustee
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

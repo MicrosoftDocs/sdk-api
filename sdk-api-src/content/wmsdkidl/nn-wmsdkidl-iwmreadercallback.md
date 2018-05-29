@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMReaderCallback
 title: IWMReaderCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMReaderCallback is implemented by the application to handle data being read from a file. A pointer to the interface is passed to IWMReader::Open.
 old-location: wmformat\iwmreadercallback.htm
 old-project: wmformat
 ms.assetid: 69b897a8-cc26-445d-9d41-b917b399fb14
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderCallback, IWMReaderCallback interface [windows Media Format], IWMReaderCallback interface [windows Media Format],described, IWMReaderCallbackInterface, wmformat.iwmreadercallback, wmsdkidl/IWMReaderCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

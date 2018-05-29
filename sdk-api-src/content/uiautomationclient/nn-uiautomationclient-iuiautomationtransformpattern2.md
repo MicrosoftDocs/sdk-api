@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTransformPattern2
 title: IUIAutomationTransformPattern2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IUIAutomationTransformPattern interface to enable Microsoft UI Automation clients to programmatically access the viewport zooming functionality of a control.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2.htm
 old-project: WinAuto
 ms.assetid: 01585BBF-B8D7-4A69-BBB9-1B02E0864224
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], IUIAutomationTransformPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTransformPattern2, winauto.uiauto_IUIAutomationTransformPattern2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

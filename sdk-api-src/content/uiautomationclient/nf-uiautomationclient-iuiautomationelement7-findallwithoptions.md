@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindAllWithOptions
 title: IUIAutomationElement7::FindAllWithOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Find all matching elements in the specified order.
 old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptions.htm
 old-project: WinAuto
 ms.assetid: 1B157EBE-5576-41E8-9B4C-752EFA7832E5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FindAllWithOptions, FindAllWithOptions method [Windows Accessibility], FindAllWithOptions method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindAllWithOptions method, IUIAutomationElement7.FindAllWithOptions, IUIAutomationElement7::FindAllWithOptions, uiautomationclient/IUIAutomationElement7::FindAllWithOptions, winauto.uiauto_IUIAutomationElement7_FindAllWithOptions, winauto.uiauto_iuiautomationelement_findallwithoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsFreeWriter
 title: WsFreeWriter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the memory resource associated with an XML Writer object.
 old-location: wsw\wsfreewriter.htm
 old-project: wsw
 ms.assetid: eb1eb835-838a-41e4-9e7d-c5c805237f65
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsFreeWriter, WsFreeWriter function [Web Services for Windows], webservices/WsFreeWriter, wsw.wsfreewriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

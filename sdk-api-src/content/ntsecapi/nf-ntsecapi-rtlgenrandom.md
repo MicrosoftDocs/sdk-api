@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.RtlGenRandom
 title: RtlGenRandom function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a pseudo-random number.
 old-location: security\rtlgenrandom.htm
 old-project: SecCrypto
 ms.assetid: 0b0d7019-49a1-40d0-912d-c773bce09a26
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

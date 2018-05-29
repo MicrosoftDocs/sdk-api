@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMSearchCriteria
 title: IGPMSearchCriteria
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMSearchCriteria interface allows you to define the criteria to use for search operations when using the Group Policy Management Console (GPMC) interfaces. To create a GPMSearchCriteria object, call the IGPM::CreateSearchCriteria method.
 old-location: gpmc\igpmsearchcriteria.htm
 old-project: GPMC
 ms.assetid: 6d24ffd1-987c-468f-a8cc-08992b7deb9d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMSearchCriteria, IGPMSearchCriteria, IGPMSearchCriteria interface [GPMC], IGPMSearchCriteria interface [GPMC],described, _win32_igpmsearchcriteria, gpmc.igpmsearchcriteria, gpmgmt/IGPMSearchCriteria
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

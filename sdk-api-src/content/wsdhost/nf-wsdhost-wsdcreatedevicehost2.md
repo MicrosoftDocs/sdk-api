@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.WSDCreateDeviceHost2
 title: WSDCreateDeviceHost2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a device host that can support signed messages and returns a pointer to the IWSDDeviceHost interface.
 old-location: ncd\wsdcreatedevicehost2.htm
 old-project: WsdApi
 ms.assetid: 2d2a78a2-fca6-4f54-9c75-3406a3c8d492
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDCreateDeviceHost2, WSDCreateDeviceHost2 function, ncd.wsdcreatedevicehost2, wsdhost/WSDCreateDeviceHost2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

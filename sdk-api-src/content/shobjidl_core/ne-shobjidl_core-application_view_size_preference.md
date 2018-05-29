@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.APPLICATION_VIEW_SIZE_PREFERENCE
 title: APPLICATION_VIEW_SIZE_PREFERENCE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of possible general window (app view) size preferences. Used by ILaunchSourceViewSizePreference::GetSourceViewSizePreference and ILaunchTargetViewSizePreference::GetTargetViewSizePreference.
 old-location: shell\APPLICATION_VIEW_SIZE_PREFERENCE.htm
 old-project: shell
 ms.assetid: 20B27858-D5BC-4800-AE3F-C01A017ABBF7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: APPLICATION_VIEW_SIZE_PREFERENCE, APPLICATION_VIEW_SIZE_PREFERENCE enumeration [Windows Shell], AVSP_DEFAULT, AVSP_USE_HALF, AVSP_USE_LESS, AVSP_USE_MINIMUM, AVSP_USE_MORE, AVSP_USE_NONE, shell.APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/AVSP_DEFAULT, shobjidl_core/AVSP_USE_HALF, shobjidl_core/AVSP_USE_LESS, shobjidl_core/AVSP_USE_MINIMUM, shobjidl_core/AVSP_USE_MORE, shobjidl_core/AVSP_USE_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: 

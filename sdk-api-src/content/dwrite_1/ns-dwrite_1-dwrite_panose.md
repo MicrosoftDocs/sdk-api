@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite_1.DWRITE_PANOSE
 title: DWRITE_PANOSE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_PANOSE union describes typeface classification values that you use with IDWriteFont1::GetPanose to select and match the font.
 old-location: directwrite\dwrite_panose.htm
 old-project: DirectWrite
 ms.assetid: B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_PANOSE, DWRITE_PANOSE union [Direct Write], directwrite.dwrite_panose, dwrite_1/DWRITE_PANOSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_1.h
 req.include-header: 

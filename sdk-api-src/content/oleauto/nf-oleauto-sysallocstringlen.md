@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SysAllocStringLen
 title: SysAllocStringLen function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a new string, copies the specified number of characters from the passed string, and appends a null-terminating character.
 old-location: automat\sysallocstringlen.htm
 old-project: automat
 ms.assetid: f98bff39-bc5f-4a81-85d7-d5228e20fbc8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SysAllocStringLen, SysAllocStringLen function [Automation], _oa96_SysAllocStringLen, automat.sysallocstringlen, oleauto/SysAllocStringLen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

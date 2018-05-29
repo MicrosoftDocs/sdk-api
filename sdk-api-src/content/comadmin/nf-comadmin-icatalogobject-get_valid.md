@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogObject.get_Valid
 title: ICatalogObject::get_Valid
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether all properties were successfully read from the catalog data store.
 old-location: cos\icatalogobject_valid.htm
 old-project: cossdk
 ms.assetid: c2fdeae4-e8f0-45c1-b42a-0bd088c26d6f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogObject interface [COM+],Valid property, ICatalogObject.Valid, ICatalogObject.get_Valid, ICatalogObject::Valid, ICatalogObject::get_Valid, Valid property [COM+], Valid property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Valid, comadmin/ICatalogObject::Valid, comadmin/ICatalogObject::get_Valid, cos.icatalogobject_valid, get_Valid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

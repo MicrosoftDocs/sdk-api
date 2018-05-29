@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetRedSlope
 title: SetRedSlope function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the slope of the linear function for the red channel.
 old-location: directcomp\idcompositionlineartransfereffect_setredslope_overloaded.htm
 old-project: directcomp
 ms.assetid: 486dad35-e9f2-cc7e-1c20-0e69ce1d22bb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetRedSlope, dcomp/setredslope, directcomp.idcompositionlineartransfereffect_setredslope_overloaded, idcompositionlineartransfereffect::setredslope, setredslope, setredslope methods [DirectComposition]
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

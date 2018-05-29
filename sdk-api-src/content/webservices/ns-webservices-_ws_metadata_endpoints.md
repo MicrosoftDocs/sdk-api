@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_METADATA_ENDPOINTS
 title: "_WS_METADATA_ENDPOINTS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Information about all endpoints that were read from metadata documents.
 old-location: wsw\ws_metadata_endpoints.htm
 old-project: wsw
 ms.assetid: 96d4b938-80df-412a-9d0e-153d42ec73cb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_METADATA_ENDPOINTS, WS_METADATA_ENDPOINTS structure [Web Services for Windows], _WS_METADATA_ENDPOINTS, webservices/WS_METADATA_ENDPOINTS, wsw.ws_metadata_endpoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dbghelp._MODLOAD_DATA
 title: "_MODLOAD_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains module data.
 old-location: base\modload_data_str.htm
 old-project: Debug
 ms.assetid: aa9c2b18-01bf-4eaa-8283-584ca16fc98e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMODLOAD_DATA, DBHHEADER_CVMISC, DBHHEADER_DEBUGDIRS, MODLOAD_DATA, MODLOAD_DATA structure, PMODLOAD_DATA, PMODLOAD_DATA structure pointer, _MODLOAD_DATA, _win32_modload_data_str, base.modload_data_str, dbghelp/MODLOAD_DATA, dbghelp/PMODLOAD_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509CertificateTemplate
 title: IX509CertificateTemplate
-author: windows-driver-content
+author: windows-sdk-content
 description: The IX509CertificateTemplate interface represents a certificate request template. It can be used to initialize an IX509CertificateTemplateWritable interface.
 old-location: security\ix509certificatetemplate.htm
 old-project: SecCertEnroll
 ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], IX509CertificateTemplate interface [Security],described, certenroll/IX509CertificateTemplate, security.ix509certificatetemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.RenameItem
 title: IFileOperation::RenameItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Declares a single item that is to be given a new display name.
 old-location: shell\IFileOperation_RenameItem.htm
 old-project: shell
 ms.assetid: 2f72b729-3535-4ab7-9579-21b1ba97c67f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],RenameItem method, IFileOperation.RenameItem, IFileOperation::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_RenameItem, shell.IFileOperation_RenameItem, shobjidl_core/IFileOperation::RenameItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

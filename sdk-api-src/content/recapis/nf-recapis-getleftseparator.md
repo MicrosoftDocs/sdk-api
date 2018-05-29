@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetLeftSeparator
 title: GetLeftSeparator function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the left separator for the recognizer context.
 old-location: tablet\getleftseparator.htm
 old-project: tablet
 ms.assetid: 5528d31e-580f-4da7-b683-e9ea2931989b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLeftSeparator, GetLeftSeparator function [Tablet PC], recapis/GetLeftSeparator, tablet.getleftseparator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

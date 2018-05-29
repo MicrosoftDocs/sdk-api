@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMBrush.SetOpacity
 title: IXpsOMBrush::SetOpacity
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the opacity of the brush.
 old-location: xps\ixpsombrush_setopacity.htm
 old-project: printdocs
 ms.assetid: e0249796-298f-4e26-a767-cd57903e5da0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMBrush interface [XPS Documents and Packaging],SetOpacity method, IXpsOMBrush.SetOpacity, IXpsOMBrush::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, xps.ixpsombrush_setopacity, xpsobjectmodel/IXpsOMBrush::SetOpacity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHSkipJunction
 title: SHSkipJunction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks a bind context to see if it is safe to bind to a particular component object.
 old-location: shell\SHSkipJunction.htm
 old-project: shell
 ms.assetid: 73af64a4-57eb-43db-91bb-75fe7134ad28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHSkipJunction, SHSkipJunction function [Windows Shell], _win32_SHSkipJunction, shell.SHSkipJunction, shlwapi/SHSkipJunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

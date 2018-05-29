@@ -1,16 +1,16 @@
 ---
 UID: NF:faxdev.FaxDevReportStatus
 title: FaxDevReportStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: The fax service calls the FaxDevReportStatus function to query a fax service provider (FSP) for status information about an individual active fax operation, or for status information after a failed fax operation.
 old-location: fax\_mfax_faxdevreportstatus.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_65gz.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfax_faxdevreportstatus, fax._mfax_faxdevreportstatus, faxdev/FaxDevReportStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: faxdev.h
 req.include-header: 

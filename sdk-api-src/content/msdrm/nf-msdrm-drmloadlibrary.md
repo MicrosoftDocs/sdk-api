@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMLoadLibrary
 title: DRMLoadLibrary function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads a handle to an approved library, as determined by the credentials.
 old-location: rm\drmloadlibrary.htm
 old-project: AdRms_Sdk
 ms.assetid: b0a95d3f-4252-4685-bc51-547620b5dcf7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMLoadLibrary, DRMLoadLibrary function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMLoadLibrary, rm.drmloadlibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

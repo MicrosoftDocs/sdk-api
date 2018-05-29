@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.GetVerticalResolution
 title: Image::GetVerticalResolution
-author: windows-driver-content
+author: windows-sdk-content
 description: The Image::GetVerticalResolution method gets the vertical resolution, in dots per inch, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetVerticalResolution_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getverticalresolution.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVerticalResolution, GetVerticalResolution method [GDI+], GetVerticalResolution method [GDI+],Image class, Image class [GDI+],GetVerticalResolution method, Image.GetVerticalResolution, Image::GetVerticalResolution, _gdiplus_CLASS_Image_GetVerticalResolution_, gdiplus._gdiplus_CLASS_Image_GetVerticalResolution_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

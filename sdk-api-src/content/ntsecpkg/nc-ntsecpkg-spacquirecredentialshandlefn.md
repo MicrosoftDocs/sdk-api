@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpAcquireCredentialsHandleFn
 title: SpAcquireCredentialsHandleFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Called to obtain a handle to a principal's credentials.
 old-location: security\spacquirecredentialshandle.htm
 old-project: SecAuthN
 ms.assetid: d01245d9-fbca-4346-acf5-86ae7f0eb01e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAcquireCredentialsHandle, SpAcquireCredentialsHandle function [Security], SpAcquireCredentialsHandleFn, _ssp_spacquirecredentialshandle, ntsecpkg/SpAcquireCredentialsHandle, security.spacquirecredentialshandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

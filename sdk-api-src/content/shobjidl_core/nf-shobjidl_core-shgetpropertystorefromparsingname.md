@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHGetPropertyStoreFromParsingName
 title: SHGetPropertyStoreFromParsingName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a property store for an item, given a path or parsing name.
 old-location: properties\SHGetPropertyStoreFromParsingName.htm
 old-project: properties
 ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: 

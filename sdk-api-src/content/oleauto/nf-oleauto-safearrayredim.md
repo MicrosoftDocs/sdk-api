@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayRedim
 title: SafeArrayRedim function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the right-most (least significant) bound of the specified safe array.
 old-location: automat\safearrayredim.htm
 old-project: automat
 ms.assetid: 1c7fa627-e5e4-4bb9-8237-2f7358ebc4b8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayRedim, SafeArrayRedim function [Automation], _oa96_SafeArrayRedim, automat.safearrayredim, oleauto/SafeArrayRedim
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

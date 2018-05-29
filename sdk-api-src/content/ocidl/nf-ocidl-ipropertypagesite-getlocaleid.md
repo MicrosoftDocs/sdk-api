@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.GetLocaleID
 title: IPropertyPageSite::GetLocaleID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the locale identifier (an LCID) that a property page can use to adjust its locale-specific settings.
 old-location: com\ipropertypagesite_getlocaleid.htm
 old-project: com
 ms.assetid: d569346d-4a40-42a4-ac8e-539588c4dd66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLocaleID, GetLocaleID method [COM], GetLocaleID method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetLocaleID method, IPropertyPageSite.GetLocaleID, IPropertyPageSite::GetLocaleID, _ctrl_ipropertypagesite_getlocaleid, com.ipropertypagesite_getlocaleid, ocidl/IPropertyPageSite::GetLocaleID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

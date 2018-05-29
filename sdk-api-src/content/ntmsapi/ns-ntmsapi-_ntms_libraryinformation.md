@@ -1,16 +1,16 @@
 ---
 UID: NS:ntmsapi._NTMS_LIBRARYINFORMATION
 title: "_NTMS_LIBRARYINFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NTMS_LIBRARYINFORMATION structure defines properties specific to a library object.
 old-location: fs\ntms_libraryinformation.htm
 old-project: Rsm
 ms.assetid: f8ca33ba-35e2-4fd9-a9a0-1393bbbede80
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, NTMS_LIBRARYFLAG_CLEANERPRESENT, NTMS_LIBRARYFLAG_FIXEDOFFLINE, NTMS_LIBRARYFLAG_IGNORECLEANERUSESREMAINING, NTMS_LIBRARYFLAG_RECOGNIZECLEANERBARCODE, NTMS_LIBRARYINFORMATION, NTMS_LIBRARYINFORMATION structure [Files], NTMS_LIBRARYTYPE_OFFLINE, NTMS_LIBRARYTYPE_ONLINE, NTMS_LIBRARYTYPE_STANDALONE, NTMS_LIBRARYTYPE_UNKNOWN, _NTMS_LIBRARYINFORMATION, _zaw_ntms_libraryinformation, base.ntms_libraryinformation, fs.ntms_libraryinformation, ntmsapi/NTMS_LIBRARYINFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 

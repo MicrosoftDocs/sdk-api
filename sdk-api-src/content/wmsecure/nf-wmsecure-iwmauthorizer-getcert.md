@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCert
 title: IWMAuthorizer::GetCert
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified certificate.
 old-location: wmformat\iwmauthorizer_getcert.htm
 old-project: wmformat
 ms.assetid: e165356c-b14b-47dc-b046-a74499251cab
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCert, GetCert method [windows Media Format], GetCert method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCert method, IWMAuthorizer.GetCert, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 

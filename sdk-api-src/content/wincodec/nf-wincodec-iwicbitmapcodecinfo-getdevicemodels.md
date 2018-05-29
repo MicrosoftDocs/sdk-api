@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetDeviceModels
 title: IWICBitmapCodecInfo::GetDeviceModels
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a comma delimited list of device models associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getdevicemodels.htm
 old-project: wic
 ms.assetid: ccc5aab6-8817-4c18-8e52-a1372b015541
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetDeviceModels, GetDeviceModels method [Windows Imaging Component], GetDeviceModels method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetDeviceModels method, IWICBitmapCodecInfo.GetDeviceModels, IWICBitmapCodecInfo::GetDeviceModels, _wic_codec_iwicbitmapcodecinfo_getdevicemodels, wic._wic_codec_iwicbitmapcodecinfo_getdevicemodels, wincodec/IWICBitmapCodecInfo::GetDeviceModels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

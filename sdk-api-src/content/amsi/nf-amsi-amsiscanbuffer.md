@@ -1,16 +1,16 @@
 ---
 UID: NF:amsi.AmsiScanBuffer
 title: AmsiScanBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Scans a buffer-full of content for malware.
 old-location: amsi\amsiscanbuffer.htm
 old-project: AMSI
 ms.assetid: D1F2EBE7-FD6B-4CD4-BE4F-F536F08EE339
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: AmsiScanBuffer, AmsiScanBuffer function [Antimalware Scan Interface], amsi.amsiscanbuffer, amsi/AmsiScanBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.CXAPOParametersBase
 title: CXAPOParametersBase::CXAPOParametersBase
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the CXAPOParametersBase class.
 old-location: xaudio2\cxapoparametersbase_cxapoparametersbase.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.CXAPOParametersBase(BYTE,UINT32,BOOL)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],CXAPOParametersBase method, CXAPOParametersBase method [XAudio2 Audio Mixing APIs], CXAPOParametersBase method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, CXAPOParametersBase.CXAPOParametersBase, CXAPOParametersBase::CXAPOParametersBase, xapobase/CXAPOParametersBase::CXAPOParametersBase, xaudio2.cxapoparametersbase_cxapoparametersbase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

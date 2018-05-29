@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerUnregisterFile
 title: WerUnregisterFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a file from the list of files to be added to reports generated for the current process.
 old-location: wer\werunregisterfile.htm
 old-project: wer
 ms.assetid: 2b2684a4-3030-4fae-ad1c-a60d13d2c643
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Reporting], base.werunregisterfile, wer.werunregisterfile, werapi/WerUnregisterFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

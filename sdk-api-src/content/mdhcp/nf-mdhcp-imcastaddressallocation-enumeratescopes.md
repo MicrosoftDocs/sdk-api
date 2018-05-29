@@ -1,16 +1,16 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.EnumerateScopes
 title: IMcastAddressAllocation::EnumerateScopes
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateScopes method creates an enumeration of multicast scopes available. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Scopes instead.
 old-location: tapi3\imcastaddressallocation_enumeratescopes.htm
 old-project: Tapi
 ms.assetid: 1845f5f9-be0e-4609-89d8-1a0ed194dd68
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumerateScopes, EnumerateScopes method [TAPI 2.2], EnumerateScopes method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],EnumerateScopes method, IMcastAddressAllocation.EnumerateScopes, IMcastAddressAllocation::EnumerateScopes, _tapi3_imcastaddressallocation_enumeratescopes, mdhcp/IMcastAddressAllocation::EnumerateScopes, tapi3.imcastaddressallocation_enumeratescopes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

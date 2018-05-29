@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneSetDisplay
 title: phoneSetDisplay function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tapi2\phonesetdisplay.htm
 old-project: Tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

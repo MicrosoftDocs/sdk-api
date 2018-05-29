@@ -1,16 +1,16 @@
 ---
 UID: NF:iaccess.IAccessControl.RevokeAccessRights
 title: IAccessControl::RevokeAccessRights
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes any explicit entries for the list of trustees.
 old-location: com\iaccesscontrol_revokeaccessrights.htm
 old-project: com
 ms.assetid: 09b37002-0ad3-43c2-8a39-b440158310bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAccessControl interface [COM],RevokeAccessRights method, IAccessControl.RevokeAccessRights, IAccessControl::RevokeAccessRights, RevokeAccessRights, RevokeAccessRights method [COM], RevokeAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_revokeaccessrights, com.iaccesscontrol_revokeaccessrights, iaccess/IAccessControl::RevokeAccessRights
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iaccess.h
 req.include-header: 

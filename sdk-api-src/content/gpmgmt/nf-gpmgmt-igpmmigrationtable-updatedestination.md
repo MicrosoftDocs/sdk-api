@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.UpdateDestination
 title: IGPMMigrationTable::UpdateDestination
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the destination field of an entry in a migration table. You can specify the destination option and the destination.
 old-location: gpmc\igpmmigrationtable_updatedestination.htm
 old-project: GPMC
 ms.assetid: c47ad9d7-cf04-4ab4-9c44-78a5e54fc04e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMigrationTable class [GPMC],UpdateDestination method, IGPMMigrationTable interface [GPMC],UpdateDestination method, IGPMMigrationTable.UpdateDestination, IGPMMigrationTable::UpdateDestination, UpdateDestination, UpdateDestination method [GPMC], UpdateDestination method [GPMC],GPMigrationTable class, UpdateDestination method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_updatedestination, gpmgmt/IGPMMigrationTable::UpdateDestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

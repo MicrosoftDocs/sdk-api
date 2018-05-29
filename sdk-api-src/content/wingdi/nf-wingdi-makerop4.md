@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.MAKEROP4
 title: MAKEROP4 macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MAKEROP4 macro creates a quaternary raster operation code for use with the MaskBlt function.
 old-location: gdi\makerop4.htm
 old-project: gdi
 ms.assetid: 9056df62-a636-49c7-9c86-aecc731e8c4f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MAKEROP4, MAKEROP4 macro [Windows GDI], _win32_MAKEROP4, gdi.makerop4, wingdi/MAKEROP4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: Windows.h

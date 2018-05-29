@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiCollectUserInfoA
 title: MsiCollectUserInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard.
 old-location: setup\msicollectuserinfo.htm
 old-project: Msi
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

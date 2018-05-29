@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_FREE_DECODER_CALLBACK
 title: WS_FREE_DECODER_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles freeing a decoder instance.
 old-location: wsw\ws_free_decoder_callback.htm
 old-project: wsw
 ms.assetid: 95c8ed10-7077-488e-affd-1a13b44decb6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_FREE_DECODER_CALLBACK, WS_FREE_DECODER_CALLBACK callback, WS_FREE_DECODER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_DECODER_CALLBACK, wsw.ws_free_decoder_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

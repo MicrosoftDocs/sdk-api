@@ -1,16 +1,16 @@
 ---
 UID: NE:netsh._NS_REQS
 title: "_NS_REQS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the number of events.
 old-location: netshell\ns_reqs.htm
 old-project: NetShell
 ms.assetid: f8510cef-9b7d-4827-8b09-7584bf32b220
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: NS_REQS, NS_REQS enumeration [NetShell], _NS_REQS, netsh/NS_REQS, netshell.ns_reqs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netsh.h
 req.include-header: 

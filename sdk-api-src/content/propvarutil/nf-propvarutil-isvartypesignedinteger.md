@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.IsVarTypeSignedInteger
 title: IsVarTypeSignedInteger function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns whether a VARTYPE is a signed integer.
 old-location: properties\IsVarTypeSignedInteger.htm
 old-project: properties
 ms.assetid: 8d5510c6-6c1c-4cc5-85a6-00514278029d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsVarTypeSignedInteger, IsVarTypeSignedInteger function [Windows Properties], _shell_IsVarTypeSignedInteger, properties.IsVarTypeSignedInteger, propvarutil/IsVarTypeSignedInteger, shell.IsVarTypeSignedInteger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

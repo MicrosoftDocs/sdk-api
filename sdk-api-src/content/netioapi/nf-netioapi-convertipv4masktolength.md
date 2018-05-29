@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.ConvertIpv4MaskToLength
 title: ConvertIpv4MaskToLength function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an IPv4 subnet mask to an IPv4 prefix length.
 old-location: iphlp\convertipv4masktolength.htm
 old-project: IpHlp
 ms.assetid: 63a3c558-24e0-41ef-9417-a3b6b2075977
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConvertIpv4MaskToLength, ConvertIpv4MaskToLength function [IP Helper], iphlp.convertipv4masktolength, netioapi/ConvertIpv4MaskToLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

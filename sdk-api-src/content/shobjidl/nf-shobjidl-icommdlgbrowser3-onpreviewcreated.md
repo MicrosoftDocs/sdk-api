@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.OnPreViewCreated
 title: ICommDlgBrowser3::OnPreViewCreated
-author: windows-driver-content
+author: windows-sdk-content
 description: Called after a specified preview is created in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnPreViewCreated.htm
 old-project: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnPreViewCreated method, ICommDlgBrowser3.OnPreViewCreated, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

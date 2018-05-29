@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WSCGetProviderPath
 title: WSCGetProviderPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSCGetProviderPath function retrieves the DLL path for the specified provider.
 old-location: winsock\wscgetproviderpath_2.htm
 old-project: WinSock
 ms.assetid: fe60c8c4-e2d0-48cc-9fdf-e58e408fb1b3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSCGetProviderPath, WSCGetProviderPath function [Winsock], _win32_wscgetproviderpath_2, winsock.wscgetproviderpath_2, ws2spi/WSCGetProviderPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

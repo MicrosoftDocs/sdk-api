@@ -1,16 +1,16 @@
 ---
 UID: NS:shlwapi.QITAB
 title: QITAB
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the QISearch function to describe a single interface.
 old-location: shell\QITAB.htm
 old-project: shell
 ms.assetid: 3a055773-6e53-45e1-8936-011a8b2b8b16
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITAB, QITAB structure [Windows Shell], _win32_QITAB, shell.QITAB, shlwapi/LPQITAB, shlwapi/QITAB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_DeviceClasses
 title: ITAddressCapabilities::get_DeviceClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DeviceClasses method gets device classes. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_deviceclasses.htm
 old-project: Tapi
 ms.assetid: 34c662c6-4166-470f-aaaf-001da4ed048a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_DeviceClasses method, ITAddressCapabilities.get_DeviceClasses, ITAddressCapabilities::get_DeviceClasses, _tapi3_itaddresscapabilities_get_deviceclasses, get_DeviceClasses, get_DeviceClasses method [TAPI 2.2], get_DeviceClasses method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_deviceclasses, tapi3if/ITAddressCapabilities::get_DeviceClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

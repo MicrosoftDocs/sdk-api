@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetDescription
 title: ICreateErrorInfo::SetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the textual description of the error.
 old-location: automat\icreateerrorinfo_setdescription.htm
 old-project: automat
 ms.assetid: 32d10343-4be4-4ebc-b2fd-43a292c006b2
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetDescription method, ICreateErrorInfo.SetDescription, ICreateErrorInfo::SetDescription, SetDescription, SetDescription method [Automation], SetDescription method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetDescription, automat.icreateerrorinfo_setdescription, oaidl/ICreateErrorInfo::SetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertGetCRLFromStore
 title: CertGetCRLFromStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the first or next certificate revocation list (CRL) context from the certificate store for the specified issuer.
 old-location: security\certgetcrlfromstore.htm
 old-project: SecCrypto
 ms.assetid: 7bd21424-4f74-4bac-ab47-00d51ebdca1c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetCRLFromStore, CertGetCRLFromStore function [Security], _crypto2_certgetcrlfromstore, security.certgetcrlfromstore, wincrypt/CertGetCRLFromStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

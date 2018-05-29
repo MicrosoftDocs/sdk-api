@@ -1,16 +1,16 @@
 ---
 UID: NF:shellscalingapi.RegisterScaleChangeEvent
 title: RegisterScaleChangeEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers for an event that is triggered when the scale has possibly changed. This function replaces RegisterScaleChangeNotifications.
 old-location: shell\RegisterScaleChangeEvent.htm
 old-project: shell
 ms.assetid: 05FAFC9B-DCB7-464A-9933-7166C7E53D40
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Windows Shell], shell.RegisterScaleChangeEvent, shellscalingapi/RegisterScaleChangeEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.DATAOBJ_GET_ITEM_FLAGS
 title: DATAOBJ_GET_ITEM_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Values used by the SHGetItemFromDataObject function to specify options concerning the processing of the source object.
 old-location: shell\DATAOBJ_GET_ITEM_FLAGS.htm
 old-project: shell
 ms.assetid: 7a5ee490-cf30-452a-ade2-22d875ce0358
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DATAOBJ_GET_ITEM_FLAGS, DATAOBJ_GET_ITEM_FLAGS enumeration [Windows Shell], DOGIF_DEFAULT, DOGIF_NO_HDROP, DOGIF_NO_URL, DOGIF_ONLY_IF_ONE, DOGIF_TRAVERSE_LINK, _shell_DATAOBJ_GET_ITEM_FLAGS, shell.DATAOBJ_GET_ITEM_FLAGS, shobjidl_core/DATAOBJ_GET_ITEM_FLAGS, shobjidl_core/DOGIF_DEFAULT, shobjidl_core/DOGIF_NO_HDROP, shobjidl_core/DOGIF_NO_URL, shobjidl_core/DOGIF_ONLY_IF_ONE, shobjidl_core/DOGIF_TRAVERSE_LINK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

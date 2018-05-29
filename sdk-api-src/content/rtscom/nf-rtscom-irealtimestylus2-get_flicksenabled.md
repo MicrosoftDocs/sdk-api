@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus2.get_FlicksEnabled
 title: IRealTimeStylus2::get_FlicksEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a value indicating whether flick gestures are enabled for the RTS.
 old-location: tablet\irealtimestylus2_get_flicksenabled.htm
 old-project: tablet
 ms.assetid: b23d0a41-a5c4-40bc-a5d8-f8273119c92e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRealTimeStylus2 interface [Tablet PC],get_FlicksEnabled method, IRealTimeStylus2.get_FlicksEnabled, IRealTimeStylus2::get_FlicksEnabled, b23d0a41-a5c4-40bc-a5d8-f8273119c92e, get_FlicksEnabled, get_FlicksEnabled method [Tablet PC], get_FlicksEnabled method [Tablet PC],IRealTimeStylus2 interface, rtscom/IRealTimeStylus2::get_FlicksEnabled, tablet.irealtimestylus2_get_flicksenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_UseArchive
 title: IFaxConfiguration::put_UseArchive
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether faxes should be archived.
 old-location: fax\_mfax_FaxConfiguration_UseArchive_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usearchive.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],UseArchive property, FaxConfiguration.UseArchive, IFaxConfiguration.put_UseArchive, IFaxConfiguration::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_UseArchive, fax._mfax_FaxConfiguration_UseArchive_vb, put_UseArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

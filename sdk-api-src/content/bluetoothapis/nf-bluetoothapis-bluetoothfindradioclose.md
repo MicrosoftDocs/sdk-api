@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindRadioClose
 title: BluetoothFindRadioClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The BluetoothFindRadioClose function closes the enumeration handle associated with finding Bluetooth radios.
 old-location: bluetooth\bluetoothfindradioclose.htm
 old-project: Bluetooth
 ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothFindRadioClose, BluetoothFindRadioClose function [Bluetooth], bluetooth.bluetoothfindradioclose, bluetoothapis/BluetoothFindRadioClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

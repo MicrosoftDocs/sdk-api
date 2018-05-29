@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongMult
 title: LongMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two values of type LONG.
 old-location: shell\LongMult.htm
 old-project: shell
 ms.assetid: 7eef49ae-98bf-486d-bdcf-1d573e66f5f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LongMult, LongMult function [Windows Shell], intsafe/LongMult, shell.LongMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

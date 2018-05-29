@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.put_ServiceCenterAddress
 title: IMbnSmsConfiguration::put_ServiceCenterAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: SMS default Service Center address.
 old-location: mbn\imbnsmsconfiguration_servicecenteraddress.htm
 old-project: mbn
 ms.assetid: 10f34db2-2f1b-4e51-96c7-70a080804fd4
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],ServiceCenterAddress property, IMbnSmsConfiguration.ServiceCenterAddress, IMbnSmsConfiguration.put_ServiceCenterAddress, IMbnSmsConfiguration::ServiceCenterAddress, IMbnSmsConfiguration::get_ServiceCenterAddress, IMbnSmsConfiguration::put_ServiceCenterAddress, ServiceCenterAddress property [Microsoft Broadband Networks], ServiceCenterAddress property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, mbn.imbnsmsconfiguration_servicecenteraddress, mbnapi/IMbnSmsConfiguration::ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::get_ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::put_ServiceCenterAddress, put_ServiceCenterAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: Mbnapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval
 title: MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the delivery retry interval for subscriptions that are for push delivery.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliveryretryinterval.htm
 old-project: wmi_v2
 ms.assetid: 2abd46ad-c4a7-4e73-8b7d-2d9fecd10799
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval, MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval, wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryretryinterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetCommTimeouts
 title: GetCommTimeouts function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\getcommtimeouts.htm
 old-project: DevIO
 ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

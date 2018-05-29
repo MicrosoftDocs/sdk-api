@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ListBox_InsertString
 title: ListBox_InsertString macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertString.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListBox_InsertString, ListBox_InsertString macro [Windows Controls], _win32_ListBox_InsertString, _win32_ListBox_InsertString_cpp, controls.ListBox_InsertString, controls._win32_ListBox_InsertString, windowsx/ListBox_InsertString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

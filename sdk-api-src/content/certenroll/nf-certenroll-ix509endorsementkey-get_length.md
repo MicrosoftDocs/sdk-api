@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.get_Length
 title: IX509EndorsementKey::get_Length
-author: windows-driver-content
+author: windows-sdk-content
 description: The bit length of the endorsement key. You can only access this property after the Open method has been called.
 old-location: security\ix509endorsementkey_length.htm
 old-project: SecCertEnroll
 ms.assetid: 31a94a37-ab56-4cb5-b4e0-ab3c74b748a0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509EndorsementKey interface [Security],Length property, IX509EndorsementKey.Length, IX509EndorsementKey.get_Length, IX509EndorsementKey::Length, IX509EndorsementKey::get_Length, Length property [Security], Length property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Length, certenroll/IX509EndorsementKey::get_Length, get_Length, security.ix509endorsementkey_length
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

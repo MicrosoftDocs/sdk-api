@@ -1,16 +1,16 @@
 ---
 UID: NS:wincred._USERNAME_TARGET_CREDENTIAL_INFO
 title: "_USERNAME_TARGET_CREDENTIAL_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USERNAME_TARGET_CREDENTIAL_INFO structure contains a reference to a credential.
 old-location: security\username_target_credential_info.htm
 old-project: SecAuthN
 ms.assetid: 1cb56a85-fafd-4471-b0e9-660ac0dc0219
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO structure pointer [Security], USERNAME_TARGET_CREDENTIAL_INFO, USERNAME_TARGET_CREDENTIAL_INFO structure [Security], _USERNAME_TARGET_CREDENTIAL_INFO, _cred_username_target_credential_info, security.username_target_credential_info, wincred/PUSERNAME_TARGET_CREDENTIAL_INFO, wincred/USERNAME_TARGET_CREDENTIAL_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 

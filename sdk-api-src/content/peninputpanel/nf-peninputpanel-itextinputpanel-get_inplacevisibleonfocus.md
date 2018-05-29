@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_InPlaceVisibleOnFocus
 title: ITextInputPanel::get_InPlaceVisibleOnFocus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a value that indicates whether the Tablet PC Input Panel is displayed automatically when the window to which it is attached gets focus.
 old-location: tablet\itextinputpanel_inplacevisibleonfocus.htm
 old-project: tablet
 ms.assetid: 487ffcee-9df6-48db-8c84-e7e073b8a643
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 487ffcee-9df6-48db-8c84-e7e073b8a643, ITextInputPanel interface [Tablet PC],InPlaceVisibleOnFocus property, ITextInputPanel.InPlaceVisibleOnFocus, ITextInputPanel.get_InPlaceVisibleOnFocus, ITextInputPanel.put_InPlaceVisibleOnFocus, ITextInputPanel::InPlaceVisibleOnFocus, ITextInputPanel::get_InPlaceVisibleOnFocus, ITextInputPanel::put_InPlaceVisibleOnFocus, InPlaceVisibleOnFocus property [Tablet PC], InPlaceVisibleOnFocus property [Tablet PC],ITextInputPanel interface, get_InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::get_InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus, tablet.itextinputpanel_inplacevisibleonfocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

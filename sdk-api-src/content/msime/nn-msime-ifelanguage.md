@@ -1,16 +1,16 @@
 ---
 UID: NN:msime.IFELanguage
 title: IFELanguage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFELanguage interface provides language processing services using the Microsoft IME.
 old-location: intl\ifelanguage.htm
 old-project: Intl
 ms.assetid: 9EE1BD9E-2D58-4720-841C-39865375BFE0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], IFELanguage interface [Internationalization for Windows Applications],described, intl.ifelanguage, msime/IFELanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msime.h
 req.include-header: 

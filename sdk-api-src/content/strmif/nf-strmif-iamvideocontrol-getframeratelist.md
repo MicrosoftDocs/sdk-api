@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetFrameRateList
 title: IAMVideoControl::GetFrameRateList
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFrameRateList method retrieves a list of available frame rates.
 old-location: dshow\iamvideocontrol_getframeratelist.htm
 old-project: DirectShow
 ms.assetid: 864f294f-1a18-4d4c-952e-1965da4c9496
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFrameRateList, GetFrameRateList method [DirectShow], GetFrameRateList method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetFrameRateList method, IAMVideoControl.GetFrameRateList, IAMVideoControl::GetFrameRateList, IAMVideoControlGetFrameRateList, dshow.iamvideocontrol_getframeratelist, strmif/IAMVideoControl::GetFrameRateList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

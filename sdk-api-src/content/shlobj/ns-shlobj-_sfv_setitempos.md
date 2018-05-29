@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj._SFV_SETITEMPOS
 title: "_SFV_SETITEMPOS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores position information for an item. Used with message SFVM_SETITEMPOS.
 old-location: shell\SFV_SETITEMPOS.htm
 old-project: shell
 ms.assetid: 5ee6ef2b-2d06-42ec-b70e-659c2f137714
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windows Shell], _SFV_SETITEMPOS, _shell_SFV_SETITEMPOS, shell.SFV_SETITEMPOS, shlobj/SFV_SETITEMPOS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.AssocIsDangerous
 title: AssocIsDangerous function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a file type is considered a potential security risk.
 old-location: shell\AssocIsDangerous.htm
 old-project: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

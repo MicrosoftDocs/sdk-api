@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComAppEvents.OnAppForceShutdown
 title: IComAppEvents::OnAppForceShutdown
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an application server is forced to shut down.
 old-location: cos\icomappevents_onappforceshutdown.htm
 old-project: cossdk
 ms.assetid: a7e845fc-be7f-484f-88b9-78206598b57d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppForceShutdown method, IComAppEvents.OnAppForceShutdown, IComAppEvents::OnAppForceShutdown, OnAppForceShutdown, OnAppForceShutdown method [COM+], OnAppForceShutdown method [COM+],IComAppEvents interface, _dtc_icomappevents_onappforceshutdown, comsvcs/IComAppEvents::OnAppForceShutdown, cos.icomappevents_onappforceshutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.Static_Enable
 title: Static_Enable macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables a static control.
 old-location: controls\Static_Enable.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_enable.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Static_Enable, Static_Enable macro [Windows Controls], _win32_Static_Enable, _win32_Static_Enable_cpp, controls.Static_Enable, controls._win32_Static_Enable, windowsx/Static_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

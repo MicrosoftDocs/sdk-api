@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetStream
 title: IXpsOMFontResource::GetStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomfontresource_getstream.htm
 old-project: printdocs
 ms.assetid: d512e862-e2d0-4cc8-a20a-bc3cfbfbcc47
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMFontResource interface, IXpsOMFontResource interface [XPS Documents and Packaging],GetStream method, IXpsOMFontResource.GetStream, IXpsOMFontResource::GetStream, xps.ixpsomfontresource_getstream, xpsobjectmodel/IXpsOMFontResource::GetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

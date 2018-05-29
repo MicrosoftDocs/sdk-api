@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetGeoInfoA
 title: GetGeoInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a specified geographical location.
 old-location: intl\getgeoinfo.htm
 old-project: Intl
 ms.assetid: 73827ed9-bdc5-4b34-b849-fb44b3c5bd6e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetGeoInfo, GetGeoInfo function [Internationalization for Windows Applications], GetGeoInfoA, GetGeoInfoW, _win32_GetGeoInfo, intl.getgeoinfo, winnls/GetGeoInfo, winnls/GetGeoInfoA, winnls/GetGeoInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

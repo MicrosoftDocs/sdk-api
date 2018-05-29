@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetIfEntry2Ex
 title: GetIfEntry2Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified level of information for the specified interface on the local computer.
 old-location: iphlp\getifentry2ex.htm
 old-project: IpHlp
 ms.assetid: 98C25986-1B38-4878-B578-3D30394F49E4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIfEntry2Ex, GetIfEntry2Ex function [IP Helper], MibIfEntryNormal, MibIfEntryNormalWithoutStatistics, iphlp.getifentry2ex, netioapi/GetIfEntry2Ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

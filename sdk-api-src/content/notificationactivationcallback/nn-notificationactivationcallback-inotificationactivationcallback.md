@@ -1,16 +1,16 @@
 ---
 UID: NN:notificationactivationcallback.INotificationActivationCallback
 title: INotificationActivationCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives notification messages when an app is triggered through a toast from the action center.
 old-location: win32_tile_badge_notif\inotificationactivationcallback.htm
 old-project: win32_tile_badge_notif
 ms.assetid: 9DB90C47-6FFA-44CA-8D33-709DD8CDDA29
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: INotificationActivationCallback, INotificationActivationCallback interface, INotificationActivationCallback interface,described, notificationactivationcallback/INotificationActivationCallback, win32_tile_badge_notif.inotificationactivationcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: notificationactivationcallback.h
 req.include-header: 

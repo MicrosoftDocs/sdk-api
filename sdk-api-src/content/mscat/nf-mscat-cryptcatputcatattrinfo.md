@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATPutCatAttrInfo
 title: CryptCATPutCatAttrInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory for a catalog file attribute and adds it to the catalog.
 old-location: security\cryptcatputcatattrinfo.htm
 old-project: SecCrypto
 ms.assetid: 16bb8560-d4fc-4c81-8eed-21a2da7f396d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR_DATABASE64, CRYPTCAT_ATTR_DATAREPLACE, CRYPTCAT_ATTR_NAMEASCII, CRYPTCAT_ATTR_NAMEOBJID, CRYPTCAT_ATTR_UNAUTHENTICATED, CryptCATPutCatAttrInfo, CryptCATPutCatAttrInfo function [Security], mscat/CryptCATPutCatAttrInfo, security.cryptcatputcatattrinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

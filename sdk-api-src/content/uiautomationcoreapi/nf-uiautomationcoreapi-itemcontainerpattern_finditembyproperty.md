@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.ItemContainerPattern_FindItemByProperty
 title: ItemContainerPattern_FindItemByProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a node within a containing node, based on a specified property value.
 old-location: winauto\uiauto_ItemContainerPattern_FindItemByProperty.htm
 old-project: WinAuto
 ms.assetid: ffad2cd6-fcf8-436d-888e-1092ba6c3e76
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ItemContainerPattern_FindItemByProperty, ItemContainerPattern_FindItemByProperty function [Windows Accessibility], uiauto.uiauto_ItemContainerPattern_FindItemByProperty, uiauto_ItemContainerPattern_FindItemByProperty, uiautomationcoreapi/ItemContainerPattern_FindItemByProperty, winauto.uiauto_ItemContainerPattern_FindItemByProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

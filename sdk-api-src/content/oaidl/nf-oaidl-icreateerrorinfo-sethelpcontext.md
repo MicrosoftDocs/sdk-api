@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpContext
 title: ICreateErrorInfo::SetHelpContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Help context identifier (ID) for the error.
 old-location: automat\icreateerrorinfo_sethelpcontext.htm
 old-project: automat
 ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpContext method, ICreateErrorInfo.SetHelpContext, ICreateErrorInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

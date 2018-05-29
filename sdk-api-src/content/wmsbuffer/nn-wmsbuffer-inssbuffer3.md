@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer3
 title: INSSBuffer3
-author: windows-driver-content
+author: windows-sdk-content
 description: The INSSBuffer3 interface enhances the INSSBuffer interface by adding the ability to set and retrieve single properties for a sample.
 old-location: wmformat\inssbuffer3.htm
 old-project: wmformat
 ms.assetid: 3ebf80d0-b5b0-4024-805d-e0a3855574bf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: INSSBuffer3, INSSBuffer3 interface [windows Media Format], INSSBuffer3 interface [windows Media Format],described, INSSBuffer3Interface, wmformat.inssbuffer3, wmsbuffer/INSSBuffer3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 

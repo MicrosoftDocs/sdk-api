@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsController.FlushCache
 title: IVdsController::FlushCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Flushes the cache of the controller to a persistent store.
 old-location: base\ivdscontroller_flushcache.htm
 old-project: VDS
 ms.assetid: a27a887d-c254-4e50-be96-564db12a673a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FlushCache, FlushCache method [VDS], FlushCache method [VDS],IVdsController interface, IVdsController interface [VDS],FlushCache method, IVdsController.FlushCache, IVdsController::FlushCache, base.ivdscontroller_flushcache, vds/IVdsController::FlushCache, vdshwprv/IVdsController::FlushCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

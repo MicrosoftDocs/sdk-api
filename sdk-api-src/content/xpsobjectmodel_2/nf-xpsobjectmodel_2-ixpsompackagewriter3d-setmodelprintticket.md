@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsOMPackageWriter3D.SetModelPrintTicket
 title: IXpsOMPackageWriter3D::SetModelPrintTicket
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a print ticket with the specified part.
 old-location: xps\ixpsompackagewriter3d_setmodelprintticket.htm
 old-project: printdocs
 ms.assetid: 2CCA48A9-CB7C-40F9-8BE0-FEC74AA25902
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPackageWriter3D interface [XPS Documents and Packaging],SetModelPrintTicket method, IXpsOMPackageWriter3D.SetModelPrintTicket, IXpsOMPackageWriter3D::SetModelPrintTicket, SetModelPrintTicket, SetModelPrintTicket method [XPS Documents and Packaging], SetModelPrintTicket method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, xps.ixpsompackagewriter3d_setmodelprintticket, xpsobjectmodel_2/IXpsOMPackageWriter3D::SetModelPrintTicket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel_2.h
 req.include-header: 

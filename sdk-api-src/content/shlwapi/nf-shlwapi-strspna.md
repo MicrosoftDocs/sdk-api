@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrSpnA
 title: StrSpnA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer.
 old-location: shell\StrSpn.htm
 old-project: shell
 ms.assetid: 1a57da7f-76e7-49f2-aa31-50c224376e95
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrSpn, StrSpn function [Windows Shell], StrSpnA, StrSpnW, _win32_StrSpn, shell.StrSpn, shlwapi/StrSpn, shlwapi/StrSpnA, shlwapi/StrSpnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

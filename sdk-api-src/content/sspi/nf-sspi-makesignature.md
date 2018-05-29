@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.MakeSignature
 title: MakeSignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion.
 old-location: security\makesignature.htm
 old-project: SecAuthN
 ms.assetid: d17824b0-6121-48a3-b19b-d4fae3e1348e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _ssp_makesignature, security.makesignature, sspi/MakeSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

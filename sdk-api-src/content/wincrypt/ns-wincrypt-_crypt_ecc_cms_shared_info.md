@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_ECC_CMS_SHARED_INFO
 title: "_CRYPT_ECC_CMS_SHARED_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents key-encryption key information when using Elliptic Curve Cryptography (ECC) in the Cryptographic Message Syntax (CMS) EnvelopedData content type.
 old-location: security\crypt_ecc_cms_shared_info.htm
 old-project: SecCrypto
 ms.assetid: 858dbf61-5c4f-4bd6-b47c-0a1379119693
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO structure [Security], CRYPT_ECC_CMS_SHARED_INFO_SUPPPUBINFO_BYTE_LENGTH, PCRYPT_ECC_CMS_SHARED_INFO, PCRYPT_ECC_CMS_SHARED_INFO structure pointer [Security], _CRYPT_ECC_CMS_SHARED_INFO, security.crypt_ecc_cms_shared_info, wincrypt/CRYPT_ECC_CMS_SHARED_INFO, wincrypt/PCRYPT_ECC_CMS_SHARED_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtUpdateKey
 title: DrtUpdateKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtUpdateKey function updates the application data associated with a registered key.
 old-location: p2p\drtupdatekey.htm
 old-project: P2PSdk
 ms.assetid: e7e65246-ebe0-4fdf-924c-8c19cfb1322e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msime.CreateIFECommonInstance
 title: CreateIFECommonInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to an IFECommon interface.
 old-location: intl\createifecommoninstance.htm
 old-project: Intl
 ms.assetid: A8A0CCC4-0A60-4E2A-9E6D-DC2C614B631D
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateIFECommonInstance, CreateIFECommonInstance function [Internationalization for Windows Applications], intl.createifecommoninstance, msime/CreateIFECommonInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msime.h
 req.include-header: 

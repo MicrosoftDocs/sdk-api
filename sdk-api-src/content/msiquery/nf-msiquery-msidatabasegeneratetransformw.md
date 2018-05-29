@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiDatabaseGenerateTransformW
 title: MsiDatabaseGenerateTransformW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases.
 old-location: setup\msidatabasegeneratetransform.htm
 old-project: Msi
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiDatabaseGenerateTransform, MsiDatabaseGenerateTransform function, MsiDatabaseGenerateTransformA, MsiDatabaseGenerateTransformW, _msi_msidatabasegeneratetransform, msiquery/MsiDatabaseGenerateTransform, msiquery/MsiDatabaseGenerateTransformA, msiquery/MsiDatabaseGenerateTransformW, setup.msidatabasegeneratetransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

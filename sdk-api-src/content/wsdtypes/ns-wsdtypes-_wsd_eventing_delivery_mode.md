@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_DELIVERY_MODE
 title: "_WSD_EVENTING_DELIVERY_MODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the delivery mode used in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode.htm
 old-project: WsdApi
 ms.assetid: 6c767642-3b3c-47cb-afd9-c4c005241996
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE, WSD_EVENTING_DELIVERY_MODE structure, _WSD_EVENTING_DELIVERY_MODE, http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryModes/Push, ncd.wsd_eventing_delivery_mode, wsdtypes/WSD_EVENTING_DELIVERY_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

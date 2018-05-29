@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoRegisterPSClsid
 title: CoRegisterPSClsid function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a downloaded DLL to register its custom interfaces within its running process so that the marshaling code will be able to marshal those interfaces.
 old-location: com\coregisterpsclsid.htm
 old-project: com
 ms.assetid: a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoRegisterPSClsid, CoRegisterPSClsid function [COM], _com_CoRegisterPSClsid, com.coregisterpsclsid, combaseapi/CoRegisterPSClsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

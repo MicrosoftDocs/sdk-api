@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_BINDING_CACHE_REQUEST
 title: "_KERB_QUERY_BINDING_CACHE_REQUEST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to query the binding cache.
 old-location: security\kerb_query_binding_cache_request.htm
 old-project: SecAuthN
 ms.assetid: 45DAA909-8D5D-4522-803B-E42EA8E09CE8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_QUERY_BINDING_CACHE_REQUEST, KERB_QUERY_BINDING_CACHE_REQUEST, KERB_QUERY_BINDING_CACHE_REQUEST structure [Security], PKERB_QUERY_BINDING_CACHE_REQUEST, PKERB_QUERY_BINDING_CACHE_REQUEST structure pointer [Security], _KERB_QUERY_BINDING_CACHE_REQUEST, ntsecapi/KERB_QUERY_BINDING_CACHE_REQUEST, ntsecapi/PKERB_QUERY_BINDING_CACHE_REQUEST, security.kerb_query_binding_cache_request"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

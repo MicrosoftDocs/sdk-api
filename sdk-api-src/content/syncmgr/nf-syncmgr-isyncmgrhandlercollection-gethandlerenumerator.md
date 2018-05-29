@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerCollection.GetHandlerEnumerator
 title: ISyncMgrHandlerCollection::GetHandlerEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator that provides access to the IDs of sync handlers exposed to and managed by the user.
 old-location: shell\ISyncMgrHandlerCollection_GetHandlerEnumerator.htm
 old-project: shell
 ms.assetid: 9324b621-b29f-47b1-a691-603cb96497e7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetHandlerEnumerator, GetHandlerEnumerator method [Windows Shell], GetHandlerEnumerator method [Windows Shell],ISyncMgrHandlerCollection interface, ISyncMgrHandlerCollection interface [Windows Shell],GetHandlerEnumerator method, ISyncMgrHandlerCollection.GetHandlerEnumerator, ISyncMgrHandlerCollection::GetHandlerEnumerator, _shell_ISyncMgrHandlerCollection_GetHandlerEnumerator, shell.ISyncMgrHandlerCollection_GetHandlerEnumerator, syncmgr/ISyncMgrHandlerCollection::GetHandlerEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

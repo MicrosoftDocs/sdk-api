@@ -1,16 +1,16 @@
 ---
 UID: NE:tabflicks.SCROLLDIRECTION
 title: SCROLLDIRECTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the direction of the scrolling command for a pen flick.
 old-location: tablet\scrolldirection.htm
 old-project: tablet
 ms.assetid: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9, SCROLLDIRECTION, SCROLLDIRECTION enumeration [Tablet PC], SCROLLDIRECTION_DOWN, SCROLLDIRECTION_UP, tabflicks/SCROLLDIRECTION, tabflicks/SCROLLDIRECTION_DOWN, tabflicks/SCROLLDIRECTION_UP, tablet.scrolldirection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 

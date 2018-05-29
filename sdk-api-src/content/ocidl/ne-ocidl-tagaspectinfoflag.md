@@ -1,16 +1,16 @@
 ---
 UID: NE:ocidl.tagAspectInfoFlag
 title: tagAspectInfoFlag
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether an object can support optimized drawing of itself.
 old-location: com\dvaspectinfoflag.htm
 old-project: com
 ms.assetid: 639871a6-85ab-41e2-92fa-7f1e72e9cb38
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DVASPECTINFOFLAG, DVASPECTINFOFLAG enumeration [COM], DVASPECTINFOFLAG_CANOPTIMIZE, _ole_DVASPECTINFOFLAG, com.dvaspectinfoflag, ocidl/DVASPECTINFOFLAG, ocidl/DVASPECTINFOFLAG_CANOPTIMIZE, tagAspectInfoFlag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

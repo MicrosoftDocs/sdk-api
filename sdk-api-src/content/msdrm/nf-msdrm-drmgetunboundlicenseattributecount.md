@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetUnboundLicenseAttributeCount
 title: DRMGetUnboundLicenseAttributeCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of occurrences of an attribute within an object in an unbound license.
 old-location: rm\drmgetunboundlicenseattributecount.htm
 old-project: AdRms_Sdk
 ms.assetid: ea462757-9df8-4b50-966b-5998e570f321
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetUnboundLicenseAttributeCount, DRMGetUnboundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseAttributeCount, rm.drmgetunboundlicenseattributecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

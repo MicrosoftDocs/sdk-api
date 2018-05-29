@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetAvailableTextureMem
 title: IDirect3DDevice9::GetAvailableTextureMem
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an estimate of the amount of available texture memory.
 old-location: direct3d9\idirect3ddevice9__getavailabletexturemem.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getavailabletexturemem.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 4c038892-740b-67d5-cbdf-79de3acfb3d1, GetAvailableTextureMem, GetAvailableTextureMem method [Direct3D 9], GetAvailableTextureMem method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetAvailableTextureMem method, IDirect3DDevice9.GetAvailableTextureMem, IDirect3DDevice9::GetAvailableTextureMem, d3d9helper/IDirect3DDevice9::GetAvailableTextureMem, direct3d9.idirect3ddevice9__getavailabletexturemem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

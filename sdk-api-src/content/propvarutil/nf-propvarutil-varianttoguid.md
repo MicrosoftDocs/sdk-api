@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToGUID
 title: VariantToGUID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a GUID property value of a variant structure.
 old-location: properties\VariantToGUID.htm
 old-project: properties
 ms.assetid: 1af84b55-da7e-430c-97fe-1c544a40c039
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToGUID, VariantToGUID function [Windows Properties], _shell_VariantToGUID, properties.VariantToGUID, propvarutil/VariantToGUID, shell.VariantToGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

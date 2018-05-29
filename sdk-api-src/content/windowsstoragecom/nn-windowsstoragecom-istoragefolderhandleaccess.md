@@ -1,16 +1,16 @@
 ---
 UID: NN:windowsstoragecom.IStorageFolderHandleAccess
 title: IStorageFolderHandleAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the operating system handle of a storage folder.
 old-location: winrt\istoragefolderhandleaccess.htm
 old-project: WinRT
 ms.assetid: C579B4D9-0CD6-45D7-BE6D-54FDFB3E7753
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IStorageFolderHandleAccess, IStorageFolderHandleAccess interface [Windows Runtime], IStorageFolderHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageFolderHandleAccess, winrt.istoragefolderhandleaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 

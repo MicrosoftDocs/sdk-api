@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerEnumGroups
 title: PeerEnumGroups function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerEnumGroups function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
 old-location: p2p\peerenumgroups.htm
 old-project: P2PSdk
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peerenumgroups, p2p/PeerEnumGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

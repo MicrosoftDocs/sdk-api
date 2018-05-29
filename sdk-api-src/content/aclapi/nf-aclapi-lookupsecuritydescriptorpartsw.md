@@ -1,16 +1,16 @@
 ---
 UID: NF:aclapi.LookupSecurityDescriptorPartsW
 title: LookupSecurityDescriptorPartsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves security information from a self-relative security descriptor.
 old-location: security\lookupsecuritydescriptorparts.htm
 old-project: SecAuthZ
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LookupSecurityDescriptorParts, LookupSecurityDescriptorParts function [Security], LookupSecurityDescriptorPartsA, LookupSecurityDescriptorPartsW, _win32_lookupsecuritydescriptorparts, aclapi/LookupSecurityDescriptorParts, aclapi/LookupSecurityDescriptorPartsA, aclapi/LookupSecurityDescriptorPartsW, security.lookupsecuritydescriptorparts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

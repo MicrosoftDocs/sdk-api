@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.RemoveAllElements
 title: IMFMediaEngineSrcElements::RemoveAllElements
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all of the source elements from the list.
 old-location: mf\imfmediaenginesrcelements_removeallelements.htm
 old-project: medfound
 ms.assetid: 4E867439-CBBA-4D36-9E0F-9034D3803688
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineSrcElements interface [Media Foundation],RemoveAllElements method, IMFMediaEngineSrcElements.RemoveAllElements, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFMediaEngineSrcElements interface, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

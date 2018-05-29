@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnCount
 title: ICrmFormatLogRecords::GetColumnCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of fields (columns) in a log record of the type used by this CRM Compensator.
 old-location: cos\icrmformatlogrecords_getcolumncount.htm
 old-project: cossdk
 ms.assetid: d1b1bc24-6e9d-4f48-ac11-f3892a3be2b1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetColumnCount, GetColumnCount method [COM+], GetColumnCount method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnCount method, ICrmFormatLogRecords.GetColumnCount, ICrmFormatLogRecords::GetColumnCount, _dtc_ICrmFormatLogRecords_GetColumnCount, comsvcs/ICrmFormatLogRecords::GetColumnCount, cos.icrmformatlogrecords_getcolumncount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

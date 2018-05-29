@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_AUXILIARY_PAGE_ENTRY
 title: PSS_AUXILIARY_PAGE_ENTRY
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds auxiliary page entry information returned by PssWalkSnapshot.
 old-location: proc_snap\pss_auxiliary_page_entry.htm
 old-project: proc_snap
 ms.assetid: A3D948E6-6FFE-4732-A8C7-A292FDA07D7C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_AUXILIARY_PAGE_ENTRY, PSS_AUXILIARY_PAGE_ENTRY structure, proc_snap.pss_auxiliary_page_entry, processsnapshot/PSS_AUXILIARY_PAGE_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

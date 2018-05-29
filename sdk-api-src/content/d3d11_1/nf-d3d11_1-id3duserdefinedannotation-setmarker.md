@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.SetMarker
 title: ID3DUserDefinedAnnotation::SetMarker
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks a single point of execution in code.
 old-location: direct3d11\id3duserdefinedannotation_setmarker.htm
 old-project: direct3d11
 ms.assetid: EACF3660-C6A7-4C46-816C-0D9D292903B5
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3DUserDefinedAnnotation interface [Direct3D 11],SetMarker method, ID3DUserDefinedAnnotation.SetMarker, ID3DUserDefinedAnnotation::SetMarker, SetMarker, SetMarker method [Direct3D 11], SetMarker method [Direct3D 11],ID3DUserDefinedAnnotation interface, d3d11_1/ID3DUserDefinedAnnotation::SetMarker, direct3d11.id3duserdefinedannotation_setmarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

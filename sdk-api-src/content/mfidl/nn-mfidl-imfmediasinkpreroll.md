@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFMediaSinkPreroll
 title: IMFMediaSinkPreroll
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a media sink to receive samples before the presentation clock is started.
 old-location: mf\imfmediasinkpreroll.htm
 old-project: medfound
 ms.assetid: 7cc93751-4477-4649-b09e-53f519fb1acb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7cc93751-4477-4649-b09e-53f519fb1acb, IMFMediaSinkPreroll, IMFMediaSinkPreroll interface [Media Foundation], IMFMediaSinkPreroll interface [Media Foundation],described, mf.imfmediasinkpreroll, mfidl/IMFMediaSinkPreroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

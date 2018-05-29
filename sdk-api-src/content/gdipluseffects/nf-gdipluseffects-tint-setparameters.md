@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.Tint.SetParameters
 title: Tint::SetParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The Tint::SetParameters method sets the parameters of this Tint object.
 old-location: gdiplus\_gdiplus_CLASS_Tint_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintmethods\setparameters.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Tint class, Tint class [GDI+],SetParameters method, Tint.SetParameters, Tint::SetParameters, _gdiplus_CLASS_Tint_SetParameters_, gdiplus._gdiplus_CLASS_Tint_SetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

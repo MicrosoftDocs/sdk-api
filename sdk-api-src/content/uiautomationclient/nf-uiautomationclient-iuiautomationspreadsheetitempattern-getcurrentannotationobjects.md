@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects
 title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of elements representing the annotations associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects.htm
 old-project: WinAuto
 ms.assetid: 876ED365-C860-4C71-BF98-D940D49F2A9D
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCurrentAnnotationObjects, GetCurrentAnnotationObjects method [Windows Accessibility], GetCurrentAnnotationObjects method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCurrentAnnotationObjects method, IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects, IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

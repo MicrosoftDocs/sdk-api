@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextChildPattern.get_TextRange
 title: IUIAutomationTextChildPattern::get_TextRange
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a text range that encloses this child element.
 old-location: winauto\uiauto_IUIAutomationTextChildPattern_TextRange.htm
 old-project: WinAuto
 ms.assetid: D7F5BB02-9932-447D-A6C9-35B17B4FCD83
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTextChildPattern interface [Windows Accessibility],TextRange property, IUIAutomationTextChildPattern.TextRange, IUIAutomationTextChildPattern.get_TextRange, IUIAutomationTextChildPattern::TextRange, IUIAutomationTextChildPattern::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],IUIAutomationTextChildPattern interface, get_TextRange, uiautomationclient/IUIAutomationTextChildPattern::TextRange, uiautomationclient/IUIAutomationTextChildPattern::get_TextRange, winauto.uiauto_IUIAutomationTextChildPattern_TextRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketSend
 title: WinHttpWebSocketSend function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends data over a WebSocket connection.
 old-location: http\winhttpwebsocketsend.htm
 old-project: WinHttp
 ms.assetid: 24b45561-2a6e-4513-b597-15dbc10f0664
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpWebSocketSend, WinHttpWebSocketSend function [WinHTTP], http.winhttpwebsocketsend, winhttp/WinHttpWebSocketSend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

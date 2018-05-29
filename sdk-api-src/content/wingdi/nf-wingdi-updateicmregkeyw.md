@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.UpdateICMRegKeyW
 title: UpdateICMRegKeyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UpdateICMRegKey function manages color profiles and Color Management Modules in the system.
 old-location: wcs\updateicmregkey.htm
 old-project: WCS
 ms.assetid: 705b9671-7bf2-4a47-a3a5-42dd0f334338
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ICM_ADDPROFILE, ICM_DELETEPROFILE, ICM_QUERYMATCH, ICM_QUERYPROFILE, ICM_REGISTERICMATCHER, ICM_SETDEFAULTPROFILE, ICM_UNREGISTERICMATCHER, UpdateICMRegKey, UpdateICMRegKey function [Windows Color System], UpdateICMRegKeyA, UpdateICMRegKeyW, _color_UpdateICMRegKey, wcs.updateicmregkey, wingdi/UpdateICMRegKey, wingdi/UpdateICMRegKeyA, wingdi/UpdateICMRegKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

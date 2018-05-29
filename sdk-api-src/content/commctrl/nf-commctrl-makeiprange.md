@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.MAKEIPRANGE
 title: MAKEIPRANGE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Packs two byte-values into a single LPARAM suitable for use with the IPM_SETRANGE message.
 old-location: controls\MAKEIPRANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRANGE, _win32_MAKEIPRANGE_cpp, commctrl/MAKEIPRANGE, controls.MAKEIPRANGE, controls._win32_MAKEIPRANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

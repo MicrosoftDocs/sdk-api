@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetRemoteAddress
 title: IWSDMessageParameters::SetRemoteAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the generic address object representing the remote address to where the message is sent.
 old-location: ncd\iwsdmessageparameters_setremoteaddress.htm
 old-project: WsdApi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDMessageParameters interface,SetRemoteAddress method, IWSDMessageParameters.SetRemoteAddress, IWSDMessageParameters::SetRemoteAddress, SetRemoteAddress, SetRemoteAddress method, SetRemoteAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setremoteaddress, wsdbase/IWSDMessageParameters::SetRemoteAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

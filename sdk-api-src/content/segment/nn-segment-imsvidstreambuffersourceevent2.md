@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSourceEvent2
 title: IMSVidStreamBufferSourceEvent2
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IMSVidStreamBufferSourceEvent2 interface is used to receive events from the MSVidStreamBufferSource object.
 old-location: mstv\imsvidstreambuffersourceevent2.htm
 old-project: mstv
 ms.assetid: d601efcf-d15a-4b9a-bad8-f09de80500c6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSourceEvent2, IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEvent2Interface, mstv.imsvidstreambuffersourceevent2, segment/IMSVidStreamBufferSourceEvent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IDiscFormat2
 title: IDiscFormat2
-author: windows-driver-content
+author: windows-sdk-content
 description: This is a base interface. Use the following interfaces which inherit this interface:\_
 
 IDiscFormat2Data
@@ -17,11 +17,11 @@ IDiscFormat2RawCD
 old-location: imapi\idiscformat2.htm
 old-project: imapi
 ms.assetid: c0bc2e8b-bd60-4c97-bd86-41963b20b1a3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2, IDiscFormat2 interface [IMAPI], IDiscFormat2 interface [IMAPI],described, imapi.idiscformat2, imapi2/IDiscFormat2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

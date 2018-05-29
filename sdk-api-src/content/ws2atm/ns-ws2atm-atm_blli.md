@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2atm.ATM_BLLI
 title: ATM_BLLI
-author: windows-driver-content
+author: windows-sdk-content
 description: The ATM_BLLI structure is used to identify B-LLI information for an associated ATM socket.
 old-location: winsock\atm_blli_2.htm
 old-project: WinSock
 ms.assetid: 15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: ATM_BLLI, ATM_BLLI structure [Winsock], _win32_atm_blli_2, winsock.atm_blli_2, ws2atm/ATM_BLLI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2atm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetSubscriberInformation
 title: IMbnInterface::GetSubscriberInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the subscriber information.
 old-location: mbn\imbninterface_getsubscriberinformation.htm
 old-project: mbn
 ms.assetid: 9114a3ed-2dc9-4637-b3d5-9430d309e89b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSubscriberInformation, GetSubscriberInformation method [Microsoft Broadband Networks], GetSubscriberInformation method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetSubscriberInformation method, IMbnInterface.GetSubscriberInformation, IMbnInterface::GetSubscriberInformation, mbn.imbninterface_getsubscriberinformation, mbnapi/IMbnInterface::GetSubscriberInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

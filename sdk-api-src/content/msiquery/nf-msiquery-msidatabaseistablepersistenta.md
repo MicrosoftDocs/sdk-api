@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiDatabaseIsTablePersistentA
 title: MsiDatabaseIsTablePersistentA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiDatabaseIsTablePersistent function returns an enumeration that describes the state of a specific table.
 old-location: setup\msidatabaseistablepersistent.htm
 old-project: Msi
 ms.assetid: 78c9d95a-8e36-40a4-afbb-4d0bf5f6f350
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiDatabaseIsTablePersistent, MsiDatabaseIsTablePersistent function, MsiDatabaseIsTablePersistentA, MsiDatabaseIsTablePersistentW, _msi_msidatabaseistablepersistent, msiquery/MsiDatabaseIsTablePersistent, msiquery/MsiDatabaseIsTablePersistentA, msiquery/MsiDatabaseIsTablePersistentW, setup.msidatabaseistablepersistent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestAttrsTransitioningAtPosition
 title: ITextStoreACP::RequestAttrsTransitioningAtPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets text attributes transitioning at the specified character position.
 old-location: tsf\itextstoreacp_requestattrstransitioningatposition.htm
 old-project: TSF
 ms.assetid: ffd27e9b-3281-45a9-84f2-d09103689ced
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreACP.RequestAttrsTransitioningAtPosition, ITextStoreACP::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreACP interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, _tsf_itextstoreacp_requestattrstransitioningatposition_ref, textstor/ITextStoreACP::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp_requestattrstransitioningatposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetCurrentPage
 title: IShellImageData::GetCurrentPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current page of a multipage image.
 old-location: shell\IShellImageData_GetCurrentPage.htm
 old-project: shell
 ms.assetid: 75489f7f-1ec5-471c-bc45-c8f480b0fa99
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Windows Shell], GetCurrentPage method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetCurrentPage method, IShellImageData.GetCurrentPage, IShellImageData::GetCurrentPage, _shell_IShellImageData_GetCurrentPage, shell.IShellImageData_GetCurrentPage, shimgdata/IShellImageData::GetCurrentPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

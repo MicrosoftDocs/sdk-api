@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToStringArray
 title: VariantToStringArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a vector structure into a String array.
 old-location: properties\VariantToStringArray.htm
 old-project: properties
 ms.assetid: d19b12ad-408c-4502-ad59-49386784bd69
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToStringArray, VariantToStringArray function [Windows Properties], _shell_VariantToStringArray, properties.VariantToStringArray, propvarutil/VariantToStringArray, shell.VariantToStringArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

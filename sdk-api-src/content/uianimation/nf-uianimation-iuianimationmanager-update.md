@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Update
 title: IUIAnimationManager::Update
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the values of all animation variables.
 old-location: uianimation\iuianimationmanager_update.htm
 old-project: UIAnimation
 ms.assetid: 6008fe44-8d86-4a56-a1e2-7bc144b224b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Update method, IUIAnimationManager.Update, IUIAnimationManager::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_update, uianimation/IUIAnimationManager::Update
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

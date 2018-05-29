@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetActualDeinterlaceMode
 title: IVMRDeinterlaceControl9::GetActualDeinterlaceMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetActualDeinterlaceMode method returns the deinterlacing mode that the VMR is using for a specified stream.
 old-location: dshow\ivmrdeinterlacecontrol9_getactualdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: d8b8b92a-c5ed-45fc-8177-1fd5f5a5625b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetActualDeinterlaceMode, GetActualDeinterlaceMode method [DirectShow], GetActualDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetActualDeinterlaceMode method, IVMRDeinterlaceControl9.GetActualDeinterlaceMode, IVMRDeinterlaceControl9::GetActualDeinterlaceMode, IVMRDeinterlaceControl9GetActualDeinterlaceMode, dshow.ivmrdeinterlacecontrol9_getactualdeinterlacemode, vmr9/IVMRDeinterlaceControl9::GetActualDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

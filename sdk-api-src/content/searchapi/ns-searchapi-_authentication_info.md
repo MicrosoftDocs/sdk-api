@@ -1,16 +1,16 @@
 ---
 UID: NS:searchapi._AUTHENTICATION_INFO
 title: "_AUTHENTICATION_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes security authentication information for content access.
 old-location: search\_search_AUTHENTICATION_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\authentication_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AUTHENTICATION_INFO, AUTHENTICATION_INFO structure [search], _AUTHENTICATION_INFO, _search_AUTHENTICATION_INFO, search._search_AUTHENTICATION_INFO, searchapi/AUTHENTICATION_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:bdatif.IMPEG2_TIF_CONTROL
 title: IMPEG2_TIF_CONTROL
-author: windows-driver-content
+author: windows-sdk-content
 description: IMPEG2_TIF_CONTROL is no longer available for use.
 old-location: mstv\impeg2_tif_control.htm
 old-project: mstv
 ms.assetid: 9583365d-b318-49e2-a32f-f6cc9d3f289d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],described, IMPEG2_TIF_CONTROLInterface, bdatif/IMPEG2_TIF_CONTROL, mstv.impeg2_tif_control
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 

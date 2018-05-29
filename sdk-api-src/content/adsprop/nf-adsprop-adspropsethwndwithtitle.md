@@ -1,16 +1,16 @@
 ---
 UID: NF:adsprop.ADsPropSetHwndWithTitle
 title: ADsPropSetHwndWithTitle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to notify the notification object of the property page window handle.
 old-location: ad\adspropsethwndwithtitle.htm
 old-project: AD
 ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adsprop.h
 req.include-header: 

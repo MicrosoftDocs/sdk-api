@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGIDevice3.Trim
 title: IDXGIDevice3::Trim
-author: windows-driver-content
+author: windows-sdk-content
 description: Trims the graphics memory allocated by the IDXGIDevice3 DXGI device on the app's behalf.
 old-location: direct3ddxgi\idxgidevice3_trim.htm
 old-project: direct3ddxgi
 ms.assetid: 7A697B4B-4D0E-46F9-BC82-860FB91B365B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDevice3 interface [DXGI],Trim method, IDXGIDevice3.Trim, IDXGIDevice3::Trim, Trim, Trim method [DXGI], Trim method [DXGI],IDXGIDevice3 interface, direct3ddxgi.idxgidevice3_trim, dxgi1_3/IDXGIDevice3::Trim
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

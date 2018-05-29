@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetAudioAttributes
 title: IMFTranscodeProfile::GetAudioAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the audio stream settings that are currently set in the transcode profile.
 old-location: mf\imftranscodeprofile_getaudioattributes.htm
 old-project: medfound
 ms.assetid: c02dabfe-33ef-4835-a707-d1350b18629f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [Media Foundation], GetAudioAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetAudioAttributes method, IMFTranscodeProfile.GetAudioAttributes, IMFTranscodeProfile::GetAudioAttributes, mf.imftranscodeprofile_getaudioattributes, mfidl/IMFTranscodeProfile::GetAudioAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:usp10.tag_SCRIPT_ITEM
 title: tag_SCRIPT_ITEM
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a script item, including a SCRIPT_ANALYSIS structure with the string offset of the first character of the item.
 old-location: intl\script_item.htm
 old-project: Intl
 ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Windows Applications], _win32_SCRIPT_ITEM_str, intl.script_item, tag_SCRIPT_ITEM, usp10/SCRIPT_ITEM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

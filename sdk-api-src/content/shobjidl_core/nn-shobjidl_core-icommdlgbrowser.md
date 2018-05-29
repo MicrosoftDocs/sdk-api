@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ICommDlgBrowser
 title: ICommDlgBrowser
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposed by the common file dialog boxes to be used when they host a Shell browser.
 old-location: shell\ICommDlgBrowser.htm
 old-project: shell
 ms.assetid: bf89ac6e-6c2e-4944-885c-9ab62f58fe71
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICommDlgBrowser, ICommDlgBrowser interface [Windows Shell], ICommDlgBrowser interface [Windows Shell],described, _win32_ICommDlgBrowser, shell.ICommDlgBrowser, shobjidl_core/ICommDlgBrowser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

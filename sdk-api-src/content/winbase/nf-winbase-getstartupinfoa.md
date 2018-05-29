@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetStartupInfoA
 title: GetStartupInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the contents of the STARTUPINFO structure that was specified when the calling process was created.
 old-location: base\getstartupinfo.htm
 old-project: ProcThread
 ms.assetid: 191ea201-dc86-4cde-a0cd-be8d2360b22e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetStartupInfo, GetStartupInfo function, GetStartupInfoA, GetStartupInfoW, _win32_getstartupinfo, base.getstartupinfo, winbase/GetStartupInfo, winbase/GetStartupInfoA, winbase/GetStartupInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearState
 title: ID3D11DeviceContext::ClearState
-author: windows-driver-content
+author: windows-sdk-content
 description: Restore all default settings.
 old-location: direct3d11\id3d11devicecontext_clearstate.htm
 old-project: direct3d11
 ms.assetid: dabf52f5-0f69-4017-863c-9e3ecef4d5dc
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ClearState, ClearState method [Direct3D 11], ClearState method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearState method, ID3D11DeviceContext.ClearState, ID3D11DeviceContext::ClearState, b3d84ab3-64bc-1c6c-0a7d-5e4409b47dec, d3d11/ID3D11DeviceContext::ClearState, direct3d11.id3d11devicecontext_clearstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

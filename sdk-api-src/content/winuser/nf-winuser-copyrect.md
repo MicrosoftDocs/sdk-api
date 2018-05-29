@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CopyRect
 title: CopyRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CopyRect function copies the coordinates of one rectangle to another.
 old-location: gdi\copyrect.htm
 old-project: gdi
 ms.assetid: 9349ba83-59d6-49d0-ac9d-a4d9589748dd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CopyRect, CopyRect function [Windows GDI], _win32_CopyRect, gdi.copyrect, winuser/CopyRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

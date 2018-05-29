@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite.DWRITE_LINE_SPACING_METHOD
 title: DWRITE_LINE_SPACING_METHOD
-author: windows-driver-content
+author: windows-sdk-content
 description: The method used for line spacing in a text layout.
 old-location: directwrite\dwrite_line_spacing_method.htm
 old-project: DirectWrite
 ms.assetid: b75e8fee-ed6c-455d-8733-e6972792572c
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_LINE_SPACING_METHOD, DWRITE_LINE_SPACING_METHOD enumeration [Direct Write], DWRITE_LINE_SPACING_METHOD_DEFAULT, DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, DWRITE_LINE_SPACING_METHOD_UNIFORM, directwrite.dwrite_line_spacing_method, dwrite/DWRITE_LINE_SPACING_METHOD, dwrite/DWRITE_LINE_SPACING_METHOD_DEFAULT, dwrite/DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, dwrite/DWRITE_LINE_SPACING_METHOD_UNIFORM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

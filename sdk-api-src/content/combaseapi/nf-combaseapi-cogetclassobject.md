@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetClassObject
 title: CoGetClassObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a pointer to an interface on a class object associated with a specified CLSID.
 old-location: com\cogetclassobject.htm
 old-project: com
 ms.assetid: 65e758ce-50a4-49e8-b3b2-0cd148d2781a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

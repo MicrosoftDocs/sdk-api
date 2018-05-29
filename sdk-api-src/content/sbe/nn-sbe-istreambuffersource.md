@@ -1,16 +1,16 @@
 ---
 UID: NN:sbe.IStreamBufferSource
 title: IStreamBufferSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStreamBufferSource interface is exposed by the Stream Buffer Source filter. Use this interface to play live content from the Stream Buffer Sink filter.
 old-location: mstv\istreambuffersource.htm
 old-project: mstv
 ms.assetid: 1e407f85-820a-4d17-926d-0c00e1e453e2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferSource, IStreamBufferSource interface [Microsoft TV Technologies], IStreamBufferSource interface [Microsoft TV Technologies],described, IStreamBufferSourceInterface, mstv.istreambuffersource, sbe/IStreamBufferSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

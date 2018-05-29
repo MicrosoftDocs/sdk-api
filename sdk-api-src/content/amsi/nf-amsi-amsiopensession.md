@@ -1,16 +1,16 @@
 ---
 UID: NF:amsi.AmsiOpenSession
 title: AmsiOpenSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a session within which multiple scan requests can be correlated.
 old-location: amsi\amsiopensession.htm
 old-project: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

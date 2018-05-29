@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetMonitorInfoW
 title: GetMonitorInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMonitorInfo function retrieves information about a display monitor.
 old-location: gdi\getmonitorinfo.htm
 old-project: gdi
 ms.assetid: 025a89c2-4bbd-4c8b-8367-3735fb5b872a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMonitorInfo, GetMonitorInfo function [Windows GDI], GetMonitorInfoA, GetMonitorInfoW, _win32_GetMonitorInfo, gdi.getmonitorinfo, winuser/GetMonitorInfo, winuser/GetMonitorInfoA, winuser/GetMonitorInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

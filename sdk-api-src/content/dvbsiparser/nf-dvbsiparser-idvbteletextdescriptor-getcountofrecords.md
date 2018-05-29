@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetCountOfRecords
 title: IDvbTeletextDescriptor::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of service records in a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: a802c685-9d7a-446a-a29c-4fc3e9ad3dc4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbTeletextDescriptor.GetCountOfRecords, IDvbTeletextDescriptor::GetCountOfRecords, dvbsiparser/IDvbTeletextDescriptor::GetCountOfRecords, mstv.idvbteletextdescriptor_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

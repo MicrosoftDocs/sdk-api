@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueryInfVersionInformationA
 title: SetupQueryInfVersionInformationA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueryInfVersionInformation function returns INF file version information from an SP_INF_INFORMATION structure to a buffer.
 old-location: setup\setupqueryinfversioninformation.htm
 old-project: SetupApi
 ms.assetid: 58768b91-a0c7-4791-8667-2890b742798c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueryInfVersionInformation, SetupQueryInfVersionInformation function [Setup API], SetupQueryInfVersionInformationA, SetupQueryInfVersionInformationW, _setupapi_setupqueryinfversioninformation, setup.setupqueryinfversioninformation, setupapi/SetupQueryInfVersionInformation, setupapi/SetupQueryInfVersionInformationA, setupapi/SetupQueryInfVersionInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

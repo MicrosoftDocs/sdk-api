@@ -1,16 +1,16 @@
 ---
 UID: NS:textserv.CHANGENOTIFY
 title: CHANGENOTIFY
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that is associated with an EN_CHANGE notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.
 old-location: controls\changenotify.htm
 old-project: Controls
 ms.assetid: F4756754-EF22-430F-B9EE-F4270EBBEF33
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CHANGENOTIFY, CHANGENOTIFY structure [Windows Controls], CN_GENERIC, CN_NEWREDO, CN_NEWUNDO, CN_TEXTCHANGED, controls.changenotify, textserv/CHANGENOTIFY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: textserv.h
 req.include-header: 

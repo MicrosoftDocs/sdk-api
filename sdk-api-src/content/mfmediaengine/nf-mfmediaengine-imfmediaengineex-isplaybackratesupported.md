@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsPlaybackRateSupported
 title: IMFMediaEngineEx::IsPlaybackRateSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether the Media Engine can play at a specified playback rate.
 old-location: mf\imfmediaengineex_isplaybackratesupported.htm
 old-project: medfound
 ms.assetid: 2BE9954A-0B67-45A8-9B79-1148DCB4DDC4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsPlaybackRateSupported method, IMFMediaEngineEx.IsPlaybackRateSupported, IMFMediaEngineEx::IsPlaybackRateSupported, IsPlaybackRateSupported, IsPlaybackRateSupported method [Media Foundation], IsPlaybackRateSupported method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isplaybackratesupported, mfmediaengine/IMFMediaEngineEx::IsPlaybackRateSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._PROVIDER_FILTER_INFO
 title: "_PROVIDER_FILTER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a filter and its data.
 old-location: etw\provider_filter_info.htm
 old-project: ETW
 ms.assetid: 0541b24a-8531-4828-8c3b-d889e58b0b38
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO structure pointer [ETW], PROVIDER_FILTER_INFO, PROVIDER_FILTER_INFO structure [ETW], _PROVIDER_FILTER_INFO, etw.provider_filter_info, tdh/PPROVIDER_FILTER_INFO, tdh/PROVIDER_FILTER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

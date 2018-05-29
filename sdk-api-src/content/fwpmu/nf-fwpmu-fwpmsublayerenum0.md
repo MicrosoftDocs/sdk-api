@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerEnum0
 title: FwpmSubLayerEnum0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next page of results from the sublayer enumerator.
 old-location: fwp\fwpmsublayerenum0_func.htm
 old-project: FWP
 ms.assetid: 2f370d6f-4670-401e-840e-11f775dbd873
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmSubLayerEnum0, FwpmSubLayerEnum0 function [Filtering], fwp.fwpmsublayerenum0_func, fwpmu/FwpmSubLayerEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

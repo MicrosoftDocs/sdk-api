@@ -1,16 +1,16 @@
 ---
 UID: NE:sspi._SECPKG_ATTR_LCT_STATUS
 title: "_SECPKG_ATTR_LCT_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 old-location: security\secpkg_attr_lct_status.htm
 old-project: SecAuthN
 ms.assetid: b9067862-2339-4543-a8cd-610e6f921bfd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS enumeration [Security], SecPkgAttrLastClientTokenMaybe, SecPkgAttrLastClientTokenNo, SecPkgAttrLastClientTokenYes, _SECPKG_ATTR_LCT_STATUS, security.secpkg_attr_lct_status, sspi/SECPKG_ATTR_LCT_STATUS, sspi/SecPkgAttrLastClientTokenMaybe, sspi/SecPkgAttrLastClientTokenNo, sspi/SecPkgAttrLastClientTokenYes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sspi.h
 req.include-header: 

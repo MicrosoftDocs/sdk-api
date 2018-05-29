@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Destroy
 title: IExplorerBrowser::Destroy
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys the browser.
 old-location: shell\IExplorerBrowser_Destroy.htm
 old-project: shell
 ms.assetid: b6fc4aa6-f689-4b3e-a922-f8361d33b6dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Destroy, Destroy method [Windows Shell], Destroy method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Destroy method, IExplorerBrowser.Destroy, IExplorerBrowser::Destroy, _shell_IExplorerBrowser_Destroy, shell.IExplorerBrowser_Destroy, shobjidl_core/IExplorerBrowser::Destroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

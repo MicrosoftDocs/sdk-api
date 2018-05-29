@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilter.GetCurrRating
 title: IDTFilter::GetCurrRating
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrRating method retrieves the current rating, based on the most recent media sample.
 old-location: mstv\idtfilter_getcurrrating.htm
 old-project: mstv
 ms.assetid: 6ea5c9a0-b04c-41a6-83ed-48ea9d187da7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], GetCurrRating method [Microsoft TV Technologies],IDTFilter interface, IDTFilter interface [Microsoft TV Technologies],GetCurrRating method, IDTFilter.GetCurrRating, IDTFilter::GetCurrRating, IDTFilterGetCurrRating, encdec/IDTFilter::GetCurrRating, mstv.idtfilter_getcurrrating
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

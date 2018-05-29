@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE
 title: PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a node to the list of possible nodes that a resource can run on.
 old-location: mscs\addclusterresourcenode.htm
 old-project: MsCS
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE callback, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE callback function [Failover Cluster], _wolf_addclusterresourcenode, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, mscs.addclusterresourcenode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

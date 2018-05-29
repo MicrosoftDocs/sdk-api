@@ -1,16 +1,16 @@
 ---
 UID: NC:winbase.LPPROGRESS_ROUTINE
 title: LPPROGRESS_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the CopyFileEx, MoveFileTransacted, and MoveFileWithProgress functions.
 old-location: fs\copyprogressroutine.htm
 old-project: FileIO
 ms.assetid: 2c02b212-d4ac-4b01-8955-2561d8c42b1b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CALLBACK_CHUNK_FINISHED, CALLBACK_STREAM_SWITCH, CopyProgressRoutine, CopyProgressRoutine callback, CopyProgressRoutine callback function [Files], LPPROGRESS_ROUTINE, LPPROGRESS_ROUTINE callback function [Files], _win32_copyprogressroutine, base.copyprogressroutine, fs.copyprogressroutine, winbase/CopyProgressRoutine, winbase/LPPROGRESS_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbase.h
 req.include-header: Windows.h

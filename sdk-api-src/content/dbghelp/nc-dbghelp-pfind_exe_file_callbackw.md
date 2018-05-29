@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PFIND_EXE_FILE_CALLBACKW
 title: PFIND_EXE_FILE_CALLBACKW
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the FindExecutableImageEx function. It verifies whether the executable file found by FindExecutableImageEx is the correct executable file.
 old-location: base\findexecutableimageproc.htm
 old-project: Debug
 ms.assetid: cbd8cd63-8fdb-4314-8737-9f934de74f89
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: FindExecutableImageProc, FindExecutableImageProc callback, FindExecutableImageProc callback function, PFIND_EXE_FILE_CALLBACK, PFIND_EXE_FILE_CALLBACKW, _win32_findexecutableimageproc, base.findexecutableimageproc, dbghelp/FindExecutableImageProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

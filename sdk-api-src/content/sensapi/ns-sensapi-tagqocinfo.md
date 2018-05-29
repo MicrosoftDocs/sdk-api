@@ -1,16 +1,16 @@
 ---
 UID: NS:sensapi.tagQOCINFO
 title: tagQOCINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The QOCINFO structure is returned by the IsDestinationReachable function and provides Quality of Connection information to the caller.
 old-location: sens\qocinfo.htm
 old-project: Sens
 ms.assetid: 1f78a7c5-b3c7-4f21-8848-58cfb481f4bb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPQOCINFO, LPQOCINFO, LPQOCINFO structure pointer [SENS], NETWORK_ALIVE_AOL, NETWORK_ALIVE_LAN, NETWORK_ALIVE_WAN, QOCINFO, QOCINFO structure [SENS], _zaw_qocinfo, sens.qocinfo, sensapi/LPQOCINFO, sensapi/QOCINFO, syncmgr.qocinfo, tagQOCINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sensapi.h
 req.include-header: 

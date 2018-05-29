@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncChangeBatchAdvanced
 title: ISyncChangeBatchAdvanced
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents additional information about a set of changes.
 old-location: winsync\isyncchangebatchadvanced.htm
 old-project: winsync
 ms.assetid: b78bc885-ed4e-4c83-ad1b-043c5b226337
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], ISyncChangeBatchAdvanced interface [Windows Sync],described, winsync.isyncchangebatchadvanced, winsync/ISyncChangeBatchAdvanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

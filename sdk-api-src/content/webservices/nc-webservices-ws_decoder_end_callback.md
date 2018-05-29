@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_DECODER_END_CALLBACK
 title: WS_DECODER_END_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Decodes the end of a message.
 old-location: wsw\ws_decoder_end_callback.htm
 old-project: wsw
 ms.assetid: 7cf93467-84f6-4ffb-8329-bc1df119087a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_DECODER_END_CALLBACK, WS_DECODER_END_CALLBACK callback, WS_DECODER_END_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_END_CALLBACK, wsw.ws_decoder_end_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetCurrentActualFrameRate
 title: IAMVideoControl::GetCurrentActualFrameRate
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentActualFrameRate method retrieves the actual frame rate, expressed as a frame duration in 100-nanosecond units.
 old-location: dshow\iamvideocontrol_getcurrentactualframerate.htm
 old-project: DirectShow
 ms.assetid: 373cabed-af09-4d54-b4e1-0ef87727430a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentActualFrameRate, GetCurrentActualFrameRate method [DirectShow], GetCurrentActualFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetCurrentActualFrameRate method, IAMVideoControl.GetCurrentActualFrameRate, IAMVideoControl::GetCurrentActualFrameRate, IAMVideoControlGetCurrentActualFrameRate, dshow.iamvideocontrol_getcurrentactualframerate, strmif/IAMVideoControl::GetCurrentActualFrameRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

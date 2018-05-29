@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_CERT_CREDENTIAL
 title: "_WS_CERT_CREDENTIAL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The abstract base type for all certificate credential types.
 old-location: wsw\ws_cert_credential.htm
 old-project: wsw
 ms.assetid: 729e27f4-354c-4ae9-a527-52c444206ef0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CERT_CREDENTIAL, WS_CERT_CREDENTIAL structure [Web Services for Windows], _WS_CERT_CREDENTIAL, webservices/WS_CERT_CREDENTIAL, wsw.ws_cert_credential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

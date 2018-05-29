@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMRevoked
 title: IWMDMRevoked
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDMRevoked interface retrieves the URL from which updated components can be downloaded, if a transfer fails with a revocation error.
 old-location: wmdm\iwmdmrevoked.htm
 old-project: WMDM
 ms.assetid: b627f243-3652-4db9-8a5e-6a2146b73424
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMRevoked, IWMDMRevoked interface [windows Media Device Manager], IWMDMRevoked interface [windows Media Device Manager],described, IWMDMRevokedInterface, mswmdm/IWMDMRevoked, wmdm.iwmdmrevoked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymQueryInlineTrace
 title: SymQueryInlineTrace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries an inline trace.
 old-location: base\symqueryinlinetrace.htm
 old-project: Debug
 ms.assetid: e65cf979-f482-4019-ab67-5e908d23bcfa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinlinetrace, dbghelp/SymQueryInlineTrace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

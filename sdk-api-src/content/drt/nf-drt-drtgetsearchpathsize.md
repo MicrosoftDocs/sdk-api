@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtGetSearchPathSize
 title: DrtGetSearchPathSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtGetSearchPathSize function returns the size of the search path, which represents the number of nodes utilized in the search operation.
 old-location: p2p\drtgetsearchpathsize.htm
 old-project: P2PSdk
 ms.assetid: dadd5f2a-2584-4046-8cdf-4d6ea97cc878
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtGetSearchPathSize, DrtGetSearchPathSize function [Peer Networking], drt/DrtGetSearchPathSize, p2p.drtgetsearchpathsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

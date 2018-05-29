@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbBaseNotifySink
 title: ITsSbBaseNotifySink
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that report status and error messages to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbbasenotifysink.htm
 old-project: TermServ
 ms.assetid: 11ef1bd4-301f-456b-a68b-2f32b75ac5ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], ITsSbBaseNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbBaseNotifySink, termserv.itssbbasenotifysink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_FLOAT_TEXT
 title: "_WS_XML_FLOAT_TEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a 4 byte floating point value.
 old-location: wsw\ws_xml_float_text.htm
 old-project: wsw
 ms.assetid: f6d0401a-fc5f-4be8-96ce-211f6a29c560
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_FLOAT_TEXT, WS_XML_FLOAT_TEXT structure [Web Services for Windows], _WS_XML_FLOAT_TEXT, webservices/WS_XML_FLOAT_TEXT, wsw.ws_xml_float_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

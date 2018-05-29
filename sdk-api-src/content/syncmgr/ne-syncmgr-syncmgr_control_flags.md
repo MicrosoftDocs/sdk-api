@@ -1,16 +1,16 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CONTROL_FLAGS
 title: SYNCMGR_CONTROL_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how an operation requested on certain methods of ISyncMgrControl should be performed.
 old-location: shell\SYNCMGR_CONTROL_FLAGS.htm
 old-project: shell
 ms.assetid: cfba36ba-8cbd-41ae-91ae-e568546508b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SYNCMGR_CF_NONE, SYNCMGR_CF_NOUI, SYNCMGR_CF_NOWAIT, SYNCMGR_CF_VALID, SYNCMGR_CF_WAIT, SYNCMGR_CONTROL_FLAGS, SYNCMGR_CONTROL_FLAGS enumeration [Windows Shell], shell.SYNCMGR_CONTROL_FLAGS, shell_SYNCMGR_CONTROL_FLAGS, syncmgr/SYNCMGR_CF_NONE, syncmgr/SYNCMGR_CF_NOUI, syncmgr/SYNCMGR_CF_NOWAIT, syncmgr/SYNCMGR_CF_VALID, syncmgr/SYNCMGR_CF_WAIT, syncmgr/SYNCMGR_CONTROL_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 

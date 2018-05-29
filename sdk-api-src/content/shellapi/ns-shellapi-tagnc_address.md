@@ -1,16 +1,16 @@
 ---
 UID: NS:shellapi.tagNC_ADDRESS
 title: tagNC_ADDRESS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that describes a network address.
 old-location: shell\NC_ADDRESS.htm
 old-project: shell
 ms.assetid: 1dfb0f6a-3aa5-486b-bbd0-8a24070bca19
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PNC_ADDRESS, NC_ADDRESS, NC_ADDRESS structure [Windows Shell], PNC_ADDRESS, PNC_ADDRESS structure pointer [Windows Shell], _shell_NC_ADDRESS, shell.NC_ADDRESS, shellapi/NC_ADDRESS, shellapi/PNC_ADDRESS, tagNC_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

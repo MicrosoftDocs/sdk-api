@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmStreamClose
 title: acmStreamClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmStreamClose function closes an ACM conversion stream. If the function is successful, the handle is invalidated.
 old-location: multimedia\acmstreamclose.htm
 old-project: Multimedia
 ms.assetid: 6ec2b90e-7103-4606-b7fb-e2320c3825ca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmStreamClose, acmStreamClose, acmStreamClose function [Windows Multimedia], msacm/acmStreamClose, multimedia.acmstreamclose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

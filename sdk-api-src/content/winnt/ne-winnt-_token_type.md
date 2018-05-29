@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt._TOKEN_TYPE
 title: "_TOKEN_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that differentiate between a primary token and an impersonation token.
 old-location: security\token_type.htm
 old-project: SecAuthZ
 ms.assetid: 51b6717e-3fda-4af4-8995-4ac571eae2fd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PTOKEN_TYPE, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Security], TOKEN_TYPE, TOKEN_TYPE enumeration [Security], TokenImpersonation, TokenPrimary, _TOKEN_TYPE, _win32_token_type_str, security.token_type, winnt/PTOKEN_TYPE, winnt/TOKEN_TYPE, winnt/TokenImpersonation, winnt/TokenPrimary"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

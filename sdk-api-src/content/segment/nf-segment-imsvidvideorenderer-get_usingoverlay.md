@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_UsingOverlay
 title: IMSVidVideoRenderer::get_UsingOverlay
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_UsingOverlay method queries whether the Video Mixing Renderer (VMR) is using the hardware overlay.
 old-location: mstv\imsvidvideorenderer_get_usingoverlay.htm
 old-project: mstv
 ms.assetid: bd41cbcc-b8a8-4b08-9b25-399e366614ce
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_UsingOverlay method, IMSVidVideoRenderer.get_UsingOverlay, IMSVidVideoRenderer::get_UsingOverlay, IMSVidVideoRendererget_UsingOverlay, get_UsingOverlay, get_UsingOverlay method [Microsoft TV Technologies], get_UsingOverlay method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_usingoverlay, segment/IMSVidVideoRenderer::get_UsingOverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

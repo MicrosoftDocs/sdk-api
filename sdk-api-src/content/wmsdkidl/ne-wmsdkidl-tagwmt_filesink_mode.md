@@ -1,16 +1,16 @@
 ---
 UID: NE:wmsdkidl.tagWMT_FILESINK_MODE
 title: tagWMT_FILESINK_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_FILESINK_MODE enumeration type defines the types of input accepted by the file sink.
 old-location: wmformat\wmt_filesink_mode.htm
 old-project: wmformat
 ms.assetid: 27846996-1957-4b19-91da-feeef477b06a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_FILESINK_MODE, WMT_FILESINK_MODE enumeration [windows Media Format], WMT_FM_FILESINK_DATA_UNITS, WMT_FM_FILESINK_UNBUFFERED, WMT_FM_SINGLE_BUFFERS, tagWMT_FILESINK_MODE, wmformat.wmt_filesink_mode, wmsdkidl/WMT_FILESINK_MODE, wmsdkidl/WMT_FM_FILESINK_DATA_UNITS, wmsdkidl/WMT_FM_FILESINK_UNBUFFERED, wmsdkidl/WMT_FM_SINGLE_BUFFERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

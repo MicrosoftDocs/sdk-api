@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITStreamControl.get_Streams
 title: ITStreamControl::get_Streams
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Streams method creates a collection of media streams currently available on the call. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateStreams method.
 old-location: tapi3\itstreamcontrol_get_streams.htm
 old-project: Tapi
 ms.assetid: 4d001f5a-7731-47b9-8c68-e4dd2d0bf02f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],get_Streams method, ITStreamControl.get_Streams, ITStreamControl::get_Streams, _tapi3_itstreamcontrol_get_streams, get_Streams, get_Streams method [TAPI 2.2], get_Streams method [TAPI 2.2],ITStreamControl interface, tapi3.itstreamcontrol_get_streams, tapi3if/ITStreamControl::get_Streams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

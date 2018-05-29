@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_ETT.GetProtocolVersion
 title: IATSC_ETT::GetProtocolVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett_getprotocolversion.htm
 old-project: mstv
 ms.assetid: 2fc7673c-486a-48dc-a283-55fbef42a2b0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_ETT.GetProtocolVersion, IATSC_ETT::GetProtocolVersion, IATSC_ETTGetProtocolVersion, atscpsipparser/IATSC_ETT::GetProtocolVersion, mstv.iatsc_ett_getprotocolversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyDescriptionRelatedPropertyInfo
 title: IPropertyDescriptionRelatedPropertyInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that retrives an IPropertyDescription interface.
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo.htm
 old-project: properties
 ms.assetid: 1658542e-ca2f-4566-b40f-8647577f4481
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyDescriptionRelatedPropertyInfo, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties], IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],described, properties.IPropertyDescriptionRelatedPropertyInfo, propsys/IPropertyDescriptionRelatedPropertyInfo, shell.IPropertyDescriptionRelatedPropertyInfo, shell_IPropertyDescriptionRelatedPropertyInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

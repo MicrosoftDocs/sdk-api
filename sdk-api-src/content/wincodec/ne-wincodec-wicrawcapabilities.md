@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICRawCapabilities
 title: WICRawCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the capability support of a raw image.
 old-location: wic\_wic_codec_wicrawcapabilities.htm
 old-project: wic
 ms.assetid: a82edbbe-a069-4ba8-ba15-524830cdf330
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICRawCapabilities, WICRawCapabilities enumeration [Windows Imaging Component], WICRawCapabilityFullySupported, WICRawCapabilityGetSupported, WICRawCapabilityNotSupported, _wic_codec_wicrawcapabilities, wic._wic_codec_wicrawcapabilities, wincodec/WICRawCapabilities, wincodec/WICRawCapabilityFullySupported, wincodec/WICRawCapabilityGetSupported, wincodec/WICRawCapabilityNotSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

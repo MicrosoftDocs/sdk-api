@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.OpenMutexA
 title: OpenMutexA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing named mutex object.
 old-location: base\openmutex.htm
 old-project: Sync
 ms.assetid: 0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openmutex, base.openmutex, winbase/OpenMutex, winbase/OpenMutexA, winbase/OpenMutexW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:storprop.CdromDisableDigitalPlayback
 title: CdromDisableDigitalPlayback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disables digital playback for the specified CD-ROM or DVD drive.
 old-location: base\cdromdisabledigitalplayback.htm
 old-project: DevIO
 ms.assetid: 289812ac-cec1-4ccc-b4ef-146b19a26ebd
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, base.cdromdisabledigitalplayback, storprop/CdromDisableDigitalPlayback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: storprop.h
 req.include-header: 

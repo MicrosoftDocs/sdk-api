@@ -1,16 +1,16 @@
 ---
 UID: NE:wtypes.tagDVASPECT
 title: tagDVASPECT
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the desired data or view aspect of the object when drawing or getting data.
 old-location: com\dvaspect.htm
 old-project: com
 ms.assetid: a2b729c8-7091-4520-93cd-c44468ba0274
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DVASPECT, DVASPECT enumeration [COM], DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, _ole_DVASPECT, com.dvaspect, tagDVASPECT, wtypes/DVASPECT, wtypes/DVASPECT_CONTENT, wtypes/DVASPECT_DOCPRINT, wtypes/DVASPECT_ICON, wtypes/DVASPECT_THUMBNAIL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtypes.h
 req.include-header: 

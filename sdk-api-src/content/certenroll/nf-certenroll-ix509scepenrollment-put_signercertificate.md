@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_SignerCertificate
 title: IX509SCEPEnrollment::put_SignerCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the signer certificate for the request.
 old-location: security\ix509scepenrollment_signercertificate.htm
 old-project: SecCertEnroll
 ms.assetid: 7d01acc5-158d-4429-a2e8-d179571f9a1c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],SignerCertificate property, IX509SCEPEnrollment.SignerCertificate, IX509SCEPEnrollment.put_SignerCertificate, IX509SCEPEnrollment::SignerCertificate, IX509SCEPEnrollment::get_SignerCertificate, IX509SCEPEnrollment::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::SignerCertificate, certenroll/IX509SCEPEnrollment::get_SignerCertificate, certenroll/IX509SCEPEnrollment::put_SignerCertificate, put_SignerCertificate, security.ix509scepenrollment_signercertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

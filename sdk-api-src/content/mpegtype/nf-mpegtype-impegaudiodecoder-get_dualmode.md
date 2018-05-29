@@ -1,16 +1,16 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_DualMode
 title: IMpegAudioDecoder::get_DualMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns which channel is currently being decoded.
 old-location: dshow\impegaudiodecoder_get_dualmode.htm
 old-project: DirectShow
 ms.assetid: 3b536e8c-91eb-4c32-955f-b343f2c8e16f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DualMode method, IMpegAudioDecoder.get_DualMode, IMpegAudioDecoder::get_DualMode, IMpegAudioDecodergetDualMode, dshow.impegaudiodecoder_get_dualmode, get_DualMode, get_DualMode method [DirectShow], get_DualMode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DualMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 

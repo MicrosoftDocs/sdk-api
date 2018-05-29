@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.TransformPoints(IN OUT Point,IN INT)
 title: Matrix::TransformPoints(IN OUT Point,IN INT)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the TransformPoints methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Matrix.TransformPoints, Matrix.TransformPoints(IN OUT Point,IN INT), Matrix::TransformPoints, Matrix::TransformPoints(IN OUT Point,IN INT), TransformPoints, TransformPoints methods [GDI+], _gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplusmatrix/TransformPoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: 

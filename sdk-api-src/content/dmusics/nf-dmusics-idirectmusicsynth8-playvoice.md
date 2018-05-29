@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.PlayVoice
 title: IDirectMusicSynth8::PlayVoice
-author: windows-driver-content
+author: windows-sdk-content
 description: PlayVoice is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_playvoice.htm
 old-project: audio
 ms.assetid: BFD0D40E-C880-4574-BB66-C393F806FAFA
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],PlayVoice method, IDirectMusicSynth8.PlayVoice, IDirectMusicSynth8::PlayVoice, PlayVoice, PlayVoice method [Audio Devices], PlayVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_playvoice, dmusics/IDirectMusicSynth8::PlayVoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUPER_SCOPE_TABLE
 title: "_DHCP_SUPER_SCOPE_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the superscope of a DHCP server.
 old-location: dhcp\dhcp_super_scope_table.htm
 old-project: DHCP
 ms.assetid: ed7ad090-b13a-464b-af03-04944f018b36
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE structure [DHCP], LPDHCP_SUPER_SCOPE_TABLE, LPDHCP_SUPER_SCOPE_TABLE structure pointer [DHCP], _DHCP_SUPER_SCOPE_TABLE, dhcp.dhcp_super_scope_table, dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE, dhcpsapi/_DHCP_SUPER_SCOPE_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

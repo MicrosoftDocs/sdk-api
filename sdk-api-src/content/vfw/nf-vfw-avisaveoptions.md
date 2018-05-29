@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVISaveOptions
 title: AVISaveOptions function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVISaveOptions function retrieves the save options for a file and returns them in a buffer.
 old-location: multimedia\avisaveoptions.htm
 old-project: Multimedia
 ms.assetid: 6141272f-a815-4ba8-bc6b-41751d6e0104
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVISaveOptions, AVISaveOptions function [Windows Multimedia], _win32_AVISaveOptions, multimedia.avisaveoptions, vfw/AVISaveOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INPUT_DATA
 title: "_KEYBOARD_INPUT_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: KEYBOARD_INPUT_DATA contains one packet of keyboard input data.
 old-location: hid\keyboard_input_data.htm
 old-project: hid
 ms.assetid: ea0b592a-51d1-4407-9c66-b069af336e54
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PKEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA structure [Human Input Devices], PKEYBOARD_INPUT_DATA, PKEYBOARD_INPUT_DATA structure pointer [Human Input Devices], _KEYBOARD_INPUT_DATA, hid.keyboard_input_data, kref_5fd34b1f-6ad2-4eaf-971a-8adedb3bada9.xml, ntddkbd/KEYBOARD_INPUT_DATA, ntddkbd/PKEYBOARD_INPUT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

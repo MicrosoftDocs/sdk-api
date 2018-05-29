@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.BindIFilterFromStream
 title: BindIFilterFromStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IFilter interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects accessible through their IStream interfaces.
 old-location: indexsrv\bindifilterfromstream.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0f8t.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BindIFilterFromStream, BindIFilterFromStream function [Indexing Service], _idxs_BindIFilterFromStream, indexsrv.bindifilterfromstream, ntquery/BindIFilterFromStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

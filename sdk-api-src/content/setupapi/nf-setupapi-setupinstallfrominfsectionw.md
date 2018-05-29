@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionW
 title: SetupInstallFromInfSectionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
 old-location: setup\setupinstallfrominfsection.htm
 old-project: SetupApi
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

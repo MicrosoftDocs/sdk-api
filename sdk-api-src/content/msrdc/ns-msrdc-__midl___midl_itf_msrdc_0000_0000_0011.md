@@ -1,16 +1,16 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0011
 title: "__MIDL___MIDL_itf_msrdc_0000_0000_0011"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a similarity mapped view.
 old-location: rdc\similaritymappedviewinfo.htm
 old-project: Rdc
 ms.assetid: f7bd0ebd-6abd-4d2c-af7d-21a90a633276
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0011, fs.similaritymappedviewinfo, msrdc/SimilarityMappedViewInfo, rdc.similaritymappedviewinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_LastWrittenLba
 title: IWriteEngine2EventArgs::get_LastWrittenLba
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the address of the sector most recently written to the device.
 old-location: imapi\iwriteengine2eventargs_get_lastwrittenlba.htm
 old-project: imapi
 ms.assetid: ccb964b5-dd6f-4250-b6d2-41154258872f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_LastWrittenLba method, IWriteEngine2EventArgs.get_LastWrittenLba, IWriteEngine2EventArgs::get_LastWrittenLba, get_LastWrittenLba, get_LastWrittenLba method [IMAPI], get_LastWrittenLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_lastwrittenlba, imapi2/IWriteEngine2EventArgs::get_LastWrittenLba
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

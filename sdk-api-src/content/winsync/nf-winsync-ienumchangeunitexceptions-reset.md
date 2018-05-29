@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Reset
 title: IEnumChangeUnitExceptions::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumerator to the beginning of the change unit exception set.
 old-location: winsync\ienumchangeunitexceptions_reset.htm
 old-project: winsync
 ms.assetid: 7c9a98e2-c976-42cb-ada3-ee33c11adae8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Reset method, IEnumChangeUnitExceptions.Reset, IEnumChangeUnitExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_reset, winsync/IEnumChangeUnitExceptions::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoOriginateLanguageException
 title: RoOriginateLanguageException function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports an error, an informative string, and an error object to an attached debugger.
 old-location: winrt\rooriginatelanguageexception.htm
 old-project: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

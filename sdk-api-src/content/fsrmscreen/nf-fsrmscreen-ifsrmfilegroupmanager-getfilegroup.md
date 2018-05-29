@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.GetFileGroup
 title: IFsrmFileGroupManager::GetFileGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified file group from FSRM.
 old-location: fsrm\ifsrmfilegroupmanager_getfilegroup.htm
 old-project: Fsrm
 ms.assetid: 14b61b2b-a20e-4895-bfbe-40e9dfe0c496
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],GetFileGroup method, GetFileGroup, GetFileGroup method [File Server Resource Manager], GetFileGroup method [File Server Resource Manager],FsrmFileGroupManager class, GetFileGroup method [File Server Resource Manager],IFsrmFileGroupManager interface, IFsrmFileGroupManager interface [File Server Resource Manager],GetFileGroup method, IFsrmFileGroupManager.GetFileGroup, IFsrmFileGroupManager::GetFileGroup, fs.ifsrmfilegroupmanager_getfilegroup, fsrm.ifsrmfilegroupmanager_getfilegroup, fsrmscreen/IFsrmFileGroupManager::GetFileGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

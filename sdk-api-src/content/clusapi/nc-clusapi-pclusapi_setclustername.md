@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_SetClusterName
 title: PCLUSAPI_SetClusterName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name for a cluster.
 old-location: mscs\setclustername.htm
 old-project: MsCS
 ms.assetid: fac59879-d73c-4955-8454-a2e9d185da10
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_SetClusterName, PCLUSAPI_SetClusterName callback, PCLUSAPI_SetClusterName callback function [Failover Cluster], _wolf_setclustername, clusapi/PCLUSAPI_SetClusterName, mscs.setclustername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

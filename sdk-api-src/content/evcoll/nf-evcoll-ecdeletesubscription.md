@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcDeleteSubscription
 title: EcDeleteSubscription function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing subscription.
 old-location: wec\ecdeletesubscription.htm
 old-project: WEC
 ms.assetid: 301b982e-a7ab-47ef-99a7-bd63dded792b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDeleteSubscription, wec.ecdeletesubscription, wes.ecdeletesubscription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

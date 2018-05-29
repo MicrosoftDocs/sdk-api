@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetVisibleProviders
 title: IMbnInterface::GetVisibleProviders
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of visible providers.
 old-location: mbn\imbninterface_getvisibleproviders.htm
 old-project: mbn
 ms.assetid: 916c29ee-adb3-402c-b4f3-97b8977f44ac
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnInterface.GetVisibleProviders, IMbnInterface::GetVisibleProviders, mbn.imbninterface_getvisibleproviders, mbnapi/IMbnInterface::GetVisibleProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

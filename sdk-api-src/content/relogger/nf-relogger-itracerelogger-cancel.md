@@ -1,16 +1,16 @@
 ---
 UID: NF:relogger.ITraceRelogger.Cancel
 title: ITraceRelogger::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates the relogging process.
 old-location: etw\itracerelogger_cancel.htm
 old-project: ETW
 ms.assetid: d195f746-7f56-443f-9232-e95a6b026331
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Cancel, Cancel method [ETW], Cancel method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],Cancel method, ITraceRelogger.Cancel, ITraceRelogger::Cancel, etw.itracerelogger_cancel, relogger/ITraceRelogger::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

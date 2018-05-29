@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsSecurityEnabled
 title: ISecurityCallContext::IsSecurityEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether security is enabled for the object.
 old-location: cos\isecuritycallcontext_issecurityenabled.htm
 old-project: cossdk
 ms.assetid: b247d430-56b1-40be-a85a-5ed141d90c85
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsSecurityEnabled method, ISecurityCallContext.IsSecurityEnabled, ISecurityCallContext::IsSecurityEnabled, IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsSecurityEnabled, comsvcs/ISecurityCallContext::IsSecurityEnabled, cos.isecuritycallcontext_issecurityenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

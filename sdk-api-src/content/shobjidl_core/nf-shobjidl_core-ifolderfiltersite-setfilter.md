@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderFilterSite.SetFilter
 title: IFolderFilterSite::SetFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposed by a host to allow clients to pass the host their IUnknown interface pointers.
 old-location: shell\IFolderFilterSite_SetFilter.htm
 old-project: shell
 ms.assetid: 1bbcb238-9b3e-4f5c-9cb3-429d0ff918af
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderFilterSite interface [Windows Shell],SetFilter method, IFolderFilterSite.SetFilter, IFolderFilterSite::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFolderFilterSite interface, _shell_IFolderFilterSite_SetFilter, shell.IFolderFilterSite_SetFilter, shobjidl_core/IFolderFilterSite::SetFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

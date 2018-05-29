@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Font.GetLogFontA
 title: Font::GetLogFontA
-author: windows-driver-content
+author: windows-sdk-content
 description: The Font::GetLogFontA method uses a LOGFONTA structure to get the attributes of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontA_g_logfontA_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlogfonta.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Font class [GDI+],GetLogFontA method, Font.GetLogFontA, Font::GetLogFontA, GetLogFontA, GetLogFontA method [GDI+], GetLogFontA method [GDI+],Font class, _gdiplus_CLASS_Font_GetLogFontA_g_logfontA_, gdiplus._gdiplus_CLASS_Font_GetLogFontA_g_logfontA_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

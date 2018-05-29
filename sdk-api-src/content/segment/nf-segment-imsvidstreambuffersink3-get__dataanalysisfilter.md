@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get__DataAnalysisFilter
 title: IMSVidStreamBufferSink3::get__DataAnalysisFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get__dataanalysisfilter.htm
 old-project: mstv
 ms.assetid: 6ca6bef1-807c-4dfb-bb9e-ef90af70e981
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get__DataAnalysisFilter method, IMSVidStreamBufferSink3.get__DataAnalysisFilter, IMSVidStreamBufferSink3::get__DataAnalysisFilter, IMSVidStreamBufferSink3get__DataAnalysisFilter, get__DataAnalysisFilter, get__DataAnalysisFilter method [Microsoft TV Technologies], get__DataAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get__dataanalysisfilter, segment/IMSVidStreamBufferSink3::get__DataAnalysisFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

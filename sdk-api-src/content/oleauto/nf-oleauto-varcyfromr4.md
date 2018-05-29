@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyFromR4
 title: VarCyFromR4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a float value to a currency value.
 old-location: automat\varcyfromr4.htm
 old-project: automat
 ms.assetid: 6ee9eb83-5358-496e-ba4d-8ad529bc42ca
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarCyFromR4, VarCyFromR4 function [Automation], _oa96_VarCyFromR4, automat.varcyfromr4, oleauto/VarCyFromR4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

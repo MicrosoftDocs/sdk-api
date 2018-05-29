@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredProtectW
 title: CredProtectW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts the specified credentials so that only the current security context can decrypt them.
 old-location: security\credprotect.htm
 old-project: SecAuthN
 ms.assetid: 1e299dfb-2ffe-463c-9e2c-b7774a2216e3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredProtectW, security.credprotect, wincred/CredProtect, wincred/CredProtectA, wincred/CredProtectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

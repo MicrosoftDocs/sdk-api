@@ -1,16 +1,16 @@
 ---
 UID: NN:mediaobj.IMediaObject
 title: IMediaObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaObject interface provides methods for manipulating a Microsoft DirectX Media Object (DMO).
 old-location: dshow\imediaobject.htm
 old-project: DirectShow
 ms.assetid: a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaObject, IMediaObject interface [DirectShow], IMediaObject interface [DirectShow],described, IMediaObjectInterface, dshow.imediaobject, mediaobj/IMediaObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h

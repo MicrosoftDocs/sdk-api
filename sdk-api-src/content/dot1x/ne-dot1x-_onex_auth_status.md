@@ -1,16 +1,16 @@
 ---
 UID: NE:dot1x._ONEX_AUTH_STATUS
 title: "_ONEX_AUTH_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the possible values for the 802.1X authentication status.
 old-location: nwifi\onex_auth_status.htm
 old-project: NativeWiFi
 ms.assetid: 9a5c7876-2c6b-450e-95e4-2766d63b6e19
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: ONEX_AUTH_STATUS, ONEX_AUTH_STATUS enumeration [NativeWIFI], OneXAuthFailure, OneXAuthInProgress, OneXAuthInvalid, OneXAuthNoAuthenticatorFound, OneXAuthNotStarted, OneXAuthSuccess, PONEX_AUTH_STATUS, PONEX_AUTH_STATUS enumeration pointer [NativeWIFI], _ONEX_AUTH_STATUS, dot1x/ONEX_AUTH_STATUS, dot1x/OneXAuthFailure, dot1x/OneXAuthInProgress, dot1x/OneXAuthInvalid, dot1x/OneXAuthNoAuthenticatorFound, dot1x/OneXAuthNotStarted, dot1x/OneXAuthSuccess, dot1x/PONEX_AUTH_STATUS, nwifi.onex_auth_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dot1x.h
 req.include-header: 

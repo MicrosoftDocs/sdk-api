@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminPortEnum
 title: MprAdminPortEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all active ports in a specific connection, or all ports available for use or currently used by RAS.
 old-location: rras\mpradminportenum.htm
 old-project: RRAS
 ms.assetid: b6caa1f0-f4c7-48a9-b1e8-b484e7d7a3a3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminPortEnum, MprAdminPortEnum function [RAS], _mpr_mpradminportenum, mprapi/MprAdminPortEnum, rras.mpradminportenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

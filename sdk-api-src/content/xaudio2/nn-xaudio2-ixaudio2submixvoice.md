@@ -1,16 +1,16 @@
 ---
 UID: NN:xaudio2.IXAudio2SubmixVoice
 title: IXAudio2SubmixVoice
-author: windows-driver-content
+author: windows-sdk-content
 description: A submix voice is used primarily for performance improvements and effects processing.
 old-location: xaudio2\ixaudio2submixvoice.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2submixvoice.IXAudio2SubmixVoice
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2SubmixVoice, IXAudio2SubmixVoice interface [XAudio2 Audio Mixing APIs], IXAudio2SubmixVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2submixvoice, xaudio2/IXAudio2SubmixVoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xaudio2.h
 req.include-header: 

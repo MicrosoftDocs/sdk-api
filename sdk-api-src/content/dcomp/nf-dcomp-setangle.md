@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetAngle
 title: SetAngle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the angle to rotate the hue.
 old-location: directcomp\idcompositionhuerotationeffect_setangle_overloaded.htm
 old-project: directcomp
 ms.assetid: e4069c7a-c8a1-dadb-a1fc-1d0c4c58834f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetAngle, SetAngle methods [DirectComposition], dcomp/SetAngle, directcomp.idcompositionhuerotationeffect_setangle_overloaded, idcompositionhuerotationeffect::SetAngle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

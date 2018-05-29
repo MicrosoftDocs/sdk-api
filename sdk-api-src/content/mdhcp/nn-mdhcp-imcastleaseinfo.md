@@ -1,16 +1,16 @@
 ---
 UID: NN:mdhcp.IMcastLeaseInfo
 title: IMcastLeaseInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMcastLeaseInfo interface exposes methods that can get or set information concerning a multicast address allocation. The IMcastLease object is created by calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo.htm
 old-project: Tapi
 ms.assetid: a4ad8009-559e-4db9-9ae2-28e4d36cf346
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], IMcastLeaseInfo interface [TAPI 2.2],described, _tapi3_imcastleaseinfo, mdhcp/IMcastLeaseInfo, tapi3.imcastleaseinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mdhcp.h
 req.include-header: 

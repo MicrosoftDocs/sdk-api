@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1552
 title: "_SERVER_INFO_1552"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_1552 structure specifies the maximum time allowed for a link delay.
 old-location: netmgmt\server_info_1552_str.htm
 old-project: NetMgmt
 ms.assetid: eb725f37-4bcd-4402-968f-ea6d58d7d79a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_1552, *PSERVER_INFO_1552, LPSERVER_INFO_1552, LPSERVER_INFO_1552 structure pointer [Network Management], PSERVER_INFO_1552, PSERVER_INFO_1552 structure pointer [Network Management], SERVER_INFO_1552, SERVER_INFO_1552 structure [Network Management], _SERVER_INFO_1552, _win32_server_info_1552_str, lmserver/LPSERVER_INFO_1552, lmserver/PSERVER_INFO_1552, lmserver/SERVER_INFO_1552, netmgmt.server_info_1552_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

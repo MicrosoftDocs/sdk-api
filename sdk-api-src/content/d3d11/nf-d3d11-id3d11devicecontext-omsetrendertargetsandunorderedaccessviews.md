@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetRenderTargetsAndUnorderedAccessViews
 title: ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds resources to the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omsetrendertargetsandunorderedaccessviews.htm
 old-project: direct3d11
 ms.assetid: 1973d40f-f0d0-497e-be7b-6cf55f8a7da2
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMSetRenderTargetsAndUnorderedAccessViews method, ID3D11DeviceContext.OMSetRenderTargetsAndUnorderedAccessViews, ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews, OMSetRenderTargetsAndUnorderedAccessViews, OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11], OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews, direct3d11.id3d11devicecontext_omsetrendertargetsandunorderedaccessviews, ee2c41c6-fd01-a895-a163-330e4363a9d7
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

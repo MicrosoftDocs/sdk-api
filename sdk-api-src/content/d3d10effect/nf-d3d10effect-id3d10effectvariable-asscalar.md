@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsScalar
 title: ID3D10EffectVariable::AsScalar
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a scalar variable.
 old-location: direct3d10\id3d10effectvariable_asscalar.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asscalar.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 12ddda89-a649-ce2c-648b-278f711c1808, AsScalar, AsScalar method [Direct3D 10], AsScalar method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsScalar method, ID3D10EffectVariable.AsScalar, ID3D10EffectVariable::AsScalar, d3d10effect/ID3D10EffectVariable::AsScalar, direct3d10.id3d10effectvariable_asscalar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

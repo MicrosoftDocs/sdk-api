@@ -1,16 +1,16 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
 title: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION request returns information about the mapping between scan codes and indicators.
 old-location: hid\ioctl_keyboard_query_indicator_translation.htm
 old-project: hid
 ms.assetid: 84006453-cf73-44f2-ac8b-ea03382e113d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control code [Human Input Devices], hid.ioctl_keyboard_query_indicator_translation, kref_6d0fc5dc-e636-464a-a537-c3a39b8cba53.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

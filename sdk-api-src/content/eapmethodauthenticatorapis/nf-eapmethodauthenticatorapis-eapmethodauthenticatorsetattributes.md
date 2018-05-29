@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorSetAttributes
 title: EapMethodAuthenticatorSetAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides updated EAP authentication attributes to set on the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorsetattributes.htm
 old-project: EAPHost
 ms.assetid: 0cc4df3a-6438-4770-9b13-c9d2a798822c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorSetAttributes, EapMethodAuthenticatorSetAttributes function [EAPHost], eaphost.eapmethodauthenticatorsetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

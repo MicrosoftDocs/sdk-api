@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglDescribeLayerPlane
 title: wglDescribeLayerPlane function
-author: windows-driver-content
+author: windows-sdk-content
 description: The wglDescribeLayerPlane function obtains information about the layer planes of a given pixel format.
 old-location: opengl\wgldescribelayerplane.htm
 old-project: OpenGL
 ms.assetid: a80d257e-7053-4328-8298-80ed72513837
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglDescribeLayerPlane, opengl.wgldescribelayerplane, wglDescribeLayerPlane, wglDescribeLayerPlane function [OpenGL], wingdi/wglDescribeLayerPlane"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetAt
 title: IXpsOMRemoteDictionaryResourceCollection::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IXpsOMRemoteDictionaryResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_getat.htm
 old-project: printdocs
 ms.assetid: a8130a0b-ac58-479d-b72c-2136c7d29c7f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMRemoteDictionaryResourceCollection.GetAt, IXpsOMRemoteDictionaryResourceCollection::GetAt, xps.ixpsomremotedictionaryresourcecollection_getat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

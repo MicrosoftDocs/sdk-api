@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegDisablePredefinedCacheEx
 title: RegDisablePredefinedCacheEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disables handle caching for all predefined registry handles for the current process.
 old-location: base\regdisablepredefinedcacheex.htm
 old-project: SysInfo
 ms.assetid: a56cf7d9-0ac4-4719-af41-3c0cdcef6faf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegDisablePredefinedCacheEx, RegDisablePredefinedCacheEx function, base.regdisablepredefinedcacheex, winreg/RegDisablePredefinedCacheEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

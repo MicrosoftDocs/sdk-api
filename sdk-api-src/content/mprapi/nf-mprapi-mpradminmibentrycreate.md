@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryCreate
 title: MprAdminMIBEntryCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminMIBEntryCreate function creates an entry for one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentrycreate.htm
 old-project: RRAS
 ms.assetid: b634ed78-ca01-4128-aeeb-fd8585e64f75
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminMIBEntryCreate, MprAdminMIBEntryCreate function [RAS], _mpr_mpradminmibentrycreate, mprapi/MprAdminMIBEntryCreate, rras.mpradminmibentrycreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

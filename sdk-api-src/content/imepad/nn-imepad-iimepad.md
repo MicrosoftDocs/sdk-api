@@ -1,16 +1,16 @@
 ---
 UID: NN:imepad.IImePad
 title: IImePad
-author: windows-driver-content
+author: windows-sdk-content
 description: The IImePad interface inserts text into apps from IMEPadApplets that implement the IImePadApplet interface.
 old-location: intl\iimepad.htm
 old-project: Intl
 ms.assetid: 6604112A-5BD5-4B2C-AECC-D09180B04D7F
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IImePad, IImePad interface [Internationalization for Windows Applications], IImePad interface [Internationalization for Windows Applications],described, imepad/IImePad, intl.iimepad
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imepad.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_IncomingQueueBlocked
 title: IFaxConfiguration::get_IncomingQueueBlocked
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the fax server queue for incoming faxes has been blocked.
 old-location: fax\_mfax_FaxConfiguration_BlockIncomingQueue_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\blockincomingqueue.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],IncomingQueueBlocked property, FaxConfiguration.IncomingQueueBlocked, IFaxConfiguration.get_IncomingQueueBlocked, IFaxConfiguration::get_IncomingQueueBlocked, IncomingQueueBlocked property [Fax Service], IncomingQueueBlocked property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_BlockIncomingQueue, fax._mfax_FaxConfiguration_BlockIncomingQueue_vb, get_IncomingQueueBlocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

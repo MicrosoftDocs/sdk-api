@@ -1,16 +1,16 @@
 ---
 UID: NE:wpcevent.tagWPCFLAG_IM_FEATURE
 title: tagWPCFLAG_IM_FEATURE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates information about the features accessed during an instant messaging interaction.
 old-location: parcon\wpcflag_im_feature.htm
 old-project: parcon
 ms.assetid: 2e38fb00-21b7-41c7-8fac-09a417408e68
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WPCFLAG_IM_FEATURE, WPCFLAG_IM_FEATURE enumeration, WPCFLAG_IM_FEATURE_ALL, WPCFLAG_IM_FEATURE_AUDIO, WPCFLAG_IM_FEATURE_FILESWAP, WPCFLAG_IM_FEATURE_GAME, WPCFLAG_IM_FEATURE_NONE, WPCFLAG_IM_FEATURE_SENDING, WPCFLAG_IM_FEATURE_SMS, WPCFLAG_IM_FEATURE_URLSWAP, WPCFLAG_IM_FEATURE_VIDEO, parcon.wpcflag_im_feature, tagWPCFLAG_IM_FEATURE, wpcevent/WPCFLAG_IM_FEATURE, wpcevent/WPCFLAG_IM_FEATURE_ALL, wpcevent/WPCFLAG_IM_FEATURE_AUDIO, wpcevent/WPCFLAG_IM_FEATURE_FILESWAP, wpcevent/WPCFLAG_IM_FEATURE_GAME, wpcevent/WPCFLAG_IM_FEATURE_NONE, wpcevent/WPCFLAG_IM_FEATURE_SENDING, wpcevent/WPCFLAG_IM_FEATURE_SMS, wpcevent/WPCFLAG_IM_FEATURE_URLSWAP, wpcevent/WPCFLAG_IM_FEATURE_VIDEO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 

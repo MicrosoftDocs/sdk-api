@@ -1,16 +1,16 @@
 ---
 UID: NF:lmjoin.NetProvisionComputerAccount
 title: NetProvisionComputerAccount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provisions a computer account for later use in an offline domain join operation.
 old-location: netmgmt\netprovisioncomputeraccount.htm
 old-project: NetMgmt
 ms.assetid: 4c854258-b84d-4ef3-a6da-ce0a9540ffd5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT, NETSETUP_PROVISION_REUSE_ACCOUNT, NETSETUP_PROVISION_ROOT_CA_CERTS, NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH, NETSETUP_PROVISION_USE_DEFAULT_PASSWORD, NetProvisionComputerAccount, NetProvisionComputerAccount function [Network Management], Offline Domain Join, lmjoin/NetProvisionComputerAccount, netmgmt.netprovisioncomputeraccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h

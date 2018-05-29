@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetContentProtectionCaps
 title: ID3D11VideoDevice::GetContentProtectionCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the driver for its content protection capabilities.
 old-location: mf\id3d11videodevice_getcontentprotectioncaps.htm
 old-project: medfound
 ms.assetid: 3BF2D2B9-6A12-4E71-9F52-829BABA32EF6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetContentProtectionCaps, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetContentProtectionCaps method, ID3D11VideoDevice.GetContentProtectionCaps, ID3D11VideoDevice::GetContentProtectionCaps, d3d11/ID3D11VideoDevice::GetContentProtectionCaps, mf.id3d11videodevice_getcontentprotectioncaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

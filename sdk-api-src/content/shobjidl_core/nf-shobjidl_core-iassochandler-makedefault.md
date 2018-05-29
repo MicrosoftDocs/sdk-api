@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.MakeDefault
 title: IAssocHandler::MakeDefault
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an application as the default application for this file type.
 old-location: shell\IAssocHandler_MakeDefault.htm
 old-project: shell
 ms.assetid: 106ac493-bde6-4327-b3be-3132bfd47415
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAssocHandler interface [Windows Shell],MakeDefault method, IAssocHandler.MakeDefault, IAssocHandler::MakeDefault, MakeDefault, MakeDefault method [Windows Shell], MakeDefault method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_MakeDefault, shell.IAssocHandler_MakeDefault, shobjidl_core/IAssocHandler::MakeDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(IN const Brush,IN REAL)
 title: Pen::Pen(IN const Brush,IN REAL)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(IN const Brush,IN REAL), Pen::Pen, Pen::Pen(IN const Brush,IN REAL), _gdiplus_CLASS_Pen_Constructors, gdiplus._gdiplus_CLASS_Pen_Constructors, gdipluspen/Pen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: 

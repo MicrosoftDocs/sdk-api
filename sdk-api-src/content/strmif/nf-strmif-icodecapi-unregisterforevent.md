@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.ICodecAPI.UnregisterForEvent
 title: ICodecAPI::UnregisterForEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnregisterForEvent method unregisters the application for a specified encoder event.
 old-location: dshow\icodecapi_unregisterforevent.htm
 old-project: DirectShow
 ms.assetid: d6f48379-664a-498f-8872-2272778588db
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICodecAPI interface [DirectShow],UnregisterForEvent method, ICodecAPI.UnregisterForEvent, ICodecAPI::UnregisterForEvent, ICodecAPIUnregisterForEvent, UnregisterForEvent, UnregisterForEvent method [DirectShow], UnregisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_unregisterforevent, strmif/ICodecAPI::UnregisterForEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

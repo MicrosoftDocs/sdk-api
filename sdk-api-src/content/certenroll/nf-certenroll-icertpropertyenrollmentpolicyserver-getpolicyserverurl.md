@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl
 title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string that contains the URL for the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverurl.htm
 old-project: SecCertEnroll
 ms.assetid: 9d7ba049-4566-423d-b750-ff091dce1e2a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

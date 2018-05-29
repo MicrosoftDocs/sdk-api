@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IOpLockStatus.IsOplockValid
 title: IOpLockStatus::IsOplockValid
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks the status of the opportunistic lock (OpLock) on the item being indexed.
 old-location: search\_search_IOpLockStatus_IsOplockValid.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\isoplockvalid.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOpLockStatus interface [search],IsOplockValid method, IOpLockStatus.IsOplockValid, IOpLockStatus::IsOplockValid, IsOplockValid, IsOplockValid method [search], IsOplockValid method [search],IOpLockStatus interface, _search_IOpLockStatus_IsOplockValid, search._search_IOpLockStatus_IsOplockValid, searchapi/IOpLockStatus::IsOplockValid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

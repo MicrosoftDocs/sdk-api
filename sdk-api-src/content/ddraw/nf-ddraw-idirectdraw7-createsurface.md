@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateSurface
 title: IDirectDraw7::CreateSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a DirectDrawSurface object for this DirectDraw object.
 old-location: directdraw\idirectdraw7_createsurface.htm
 old-project: directdraw
 ms.assetid: 4f27e36f-d04f-43ce-9a3d-64c352c8f8d8
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectDraw], CreateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateSurface method, IDirectDraw7.CreateSurface, IDirectDraw7::CreateSurface, ddraw/IDirectDraw7::CreateSurface, directdraw.idirectdraw7_createsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

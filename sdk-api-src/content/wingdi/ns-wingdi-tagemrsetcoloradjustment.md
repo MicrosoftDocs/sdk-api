@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSETCOLORADJUSTMENT
 title: tagEMRSETCOLORADJUSTMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSETCOLORADJUSTMENT structure contains members for the SetColorAdjustment enhanced metafile record.
 old-location: gdi\emrsetcoloradjustment.htm
 old-project: gdi
 ms.assetid: d9f99f71-d102-484f-beb4-0d2de1070345
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT structure [Windows GDI], PEMRSETCOLORADJUSTMENT, PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI], _win32_EMRSETCOLORADJUSTMENT_str, gdi.emrsetcoloradjustment, tagEMRSETCOLORADJUSTMENT, wingdi/EMRSETCOLORADJUSTMENT, wingdi/PEMRSETCOLORADJUSTMENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetAttribute
 title: ISettingsItem::GetAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of an attribute by specifying its name.
 old-location: smi\isettingsitem_getattribute.htm
 old-project: SMI
 ms.assetid: 995184e4-05ff-41f1-9404-872a82bedd49
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetAttribute method, ISettingsItem.GetAttribute, ISettingsItem::GetAttribute, smi.isettingsitem_getattribute, wcmconfig/ISettingsItem::GetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

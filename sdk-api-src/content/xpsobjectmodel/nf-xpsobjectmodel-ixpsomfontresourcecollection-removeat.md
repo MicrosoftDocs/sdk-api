@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.RemoveAt
 title: IXpsOMFontResourceCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and releases an IXpsOMFontResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_removeat.htm
 old-project: printdocs
 ms.assetid: adcb8673-47ab-4d2f-829f-49d78ab26273
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMFontResourceCollection.RemoveAt, IXpsOMFontResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_removeat, xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

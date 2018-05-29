@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Deadline
 title: ITsSbTaskInfo::get_Deadline
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the time by which the task must be initiated. This is used to prioritize patches. The patch with the earliest deadline will get initiated first.
 old-location: termserv\itssbtaskinfo_deadline.htm
 old-project: TermServ
 ms.assetid: 498e8dcd-108c-4fc4-8c62-5f68effbfaaa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Deadline property [Remote Desktop Services], Deadline property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],Deadline property, ITsSbTaskInfo.Deadline, ITsSbTaskInfo.get_Deadline, ITsSbTaskInfo::Deadline, ITsSbTaskInfo::get_Deadline, get_Deadline, sbtsv/ITsSbTaskInfo::Deadline, sbtsv/ITsSbTaskInfo::get_Deadline, termserv.itssbtaskinfo_deadline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

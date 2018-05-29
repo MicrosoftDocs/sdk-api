@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidDeviceEvent.StateChange
 title: IMSVidDeviceEvent::StateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsviddeviceevent_statechange.htm
 old-project: mstv
 ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

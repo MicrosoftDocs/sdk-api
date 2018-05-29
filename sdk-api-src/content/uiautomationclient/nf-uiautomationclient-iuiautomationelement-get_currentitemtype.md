@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentItemType
 title: IUIAutomationElement::get_CurrentItemType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a description of the type of UI item represented by the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentItemType.htm
 old-project: WinAuto
 ms.assetid: 773960d8-40f2-4015-9b9d-6bfc05a72115
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentItemType property [Windows Accessibility], CurrentItemType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentItemType property, IUIAutomationElement.CurrentItemType, IUIAutomationElement.get_CurrentItemType, IUIAutomationElement::CurrentItemType, IUIAutomationElement::get_CurrentItemType, get_CurrentItemType, uiauto.uiauto_IUIAutomationElement_CurrentItemType, uiauto_IUIAutomationElement_CurrentItemType, uiautomationclient/IUIAutomationElement::CurrentItemType, uiautomationclient/IUIAutomationElement::get_CurrentItemType, winauto.uiauto_IUIAutomationElement_CurrentItemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

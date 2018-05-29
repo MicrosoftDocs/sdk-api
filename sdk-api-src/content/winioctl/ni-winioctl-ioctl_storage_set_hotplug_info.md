@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_SET_HOTPLUG_INFO
 title: IOCTL_STORAGE_SET_HOTPLUG_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the hotplug configuration of the specified device.
 old-location: base\ioctl_storage_set_hotplug_info.htm
 old-project: DevIO
 ms.assetid: f15c183d-d883-470c-9b78-e63d2a9b76ca
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO control, IOCTL_STORAGE_SET_HOTPLUG_INFO control code, _win32_ioctl_storage_set_hotplug_info, base.ioctl_storage_set_hotplug_info, winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

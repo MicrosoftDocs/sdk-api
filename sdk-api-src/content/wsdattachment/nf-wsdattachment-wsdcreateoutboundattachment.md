@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdattachment.WSDCreateOutboundAttachment
 title: WSDCreateOutboundAttachment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWSDOutboundAttachment object.
 old-location: ncd\wsdcreateoutboundattachment.htm
 old-project: WsdApi
 ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h

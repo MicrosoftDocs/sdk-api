@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfDisplayAttributeNotifySink
 title: ITfDisplayAttributeNotifySink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfDisplayAttributeNotifySink interface is implemented by an application to receive a notification when display attribute information is updated.
 old-location: tsf\itfdisplayattributenotifysink.htm
 old-project: TSF
 ms.assetid: c21ff404-af42-488a-90f0-d3f02277c557
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], ITfDisplayAttributeNotifySink interface [Text Services Framework],described, _tsf_itfdisplayattributenotifysink_ref, msctf/ITfDisplayAttributeNotifySink, tsf.itfdisplayattributenotifysink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

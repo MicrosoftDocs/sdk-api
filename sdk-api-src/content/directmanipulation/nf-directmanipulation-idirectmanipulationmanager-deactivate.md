@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.Deactivate
 title: IDirectManipulationManager::Deactivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Deactivates Direct Manipulation for processing input and handling callbacks on the specified window.
 old-location: directmanipulation\idirectmanipulationmanager_deactivate.htm
 old-project: directmanipulation
 ms.assetid: 7f80fe8a-e088-41fa-b72e-2b248307ac4a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Deactivate, Deactivate method [Direct Manipulation], Deactivate method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],Deactivate method, IDirectManipulationManager.Deactivate, IDirectManipulationManager::Deactivate, directmanipulation.idirectmanipulationmanager_deactivate, directmanipulation/IDirectManipulationManager::Deactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

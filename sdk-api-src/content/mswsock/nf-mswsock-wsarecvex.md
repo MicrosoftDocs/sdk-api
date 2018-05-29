@@ -1,16 +1,16 @@
 ---
 UID: NF:mswsock.WSARecvEx
 title: WSARecvEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\wsarecvex_2.htm
 old-project: WinSock
 ms.assetid: 0ed639f7-e7bd-49a2-a7c0-177699a2cf5e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSARecvEx, WSARecvEx function [Winsock], _win32_wsarecvex_2, winsock.wsarecvex_2, winsock/WSARecvEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h

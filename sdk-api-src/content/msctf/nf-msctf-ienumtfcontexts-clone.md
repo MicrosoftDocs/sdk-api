@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Clone
 title: IEnumTfContexts::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfContexts::Clone method
 old-location: tsf\ienumtfcontexts_clone.htm
 old-project: TSF
 ms.assetid: 9e9486b7-5251-41b9-b36c-36a0d6dfaf5d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfContexts interface, IEnumTfContexts interface [Text Services Framework],Clone method, IEnumTfContexts.Clone, IEnumTfContexts::Clone, _tsf_ienumtfcontexts_clone_ref, msctf/IEnumTfContexts::Clone, tsf.ienumtfcontexts_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

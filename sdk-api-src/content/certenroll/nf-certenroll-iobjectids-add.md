@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IObjectIds.Add
 title: IObjectIds::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an IObjectId object to the collection.
 old-location: security\iobjectids_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 93f27993-2dba-4aec-9b63-cfd4dd56bbda
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IObjectIds interface, IObjectIds interface [Security],Add method, IObjectIds.Add, IObjectIds::Add, certenroll/IObjectIds::Add, security.iobjectids_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw.ICINFO
 title: ICINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICINFO structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the ICM_GETINFO message.
 old-location: multimedia\icinfo_struct.htm
 old-project: Multimedia
 ms.assetid: 5faf7022-6dc8-475c-8f5a-721bc5b6afee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICINFO, ICINFO structure [Windows Multimedia], VIDCF_COMPRESSFRAMES, VIDCF_CRUNCH, VIDCF_DRAW, VIDCF_FASTTEMPORALC, VIDCF_FASTTEMPORALD, VIDCF_QUALITY, VIDCF_TEMPORAL, multimedia.icinfo_COLLISION204, multimedia.icinfo_struct, vfw/ICINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

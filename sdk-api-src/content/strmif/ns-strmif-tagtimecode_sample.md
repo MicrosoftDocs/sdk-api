@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagTIMECODE_SAMPLE
 title: tagTIMECODE_SAMPLE
-author: windows-driver-content
+author: windows-sdk-content
 description: The TIMECODE_SAMPLE structure contains complete timecode information.
 old-location: dshow\timecode_sample.htm
 old-project: DirectShow
 ms.assetid: 7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTIMECODE_SAMPLE, AM_TIMECODE_COLORFRAME, AM_TIMECODE_COLORSEQUENCE, AM_TIMECODE_FILMSEQUENCE_TYPE, AM_TIMECODE_FLAG_CF, AM_TIMECODE_FLAG_DF, AM_TIMECODE_FLAG_FCM, AM_TIMECODE_FLAG_FIELD, ED_DEVCAP_ATN_READ, ED_DEVCAP_RTC_READ, ED_DEVCAP_TIMECODE_READ, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [DirectShow], TIMECODE_SAMPLEStructure, dshow.timecode_sample, strmif/TIMECODE_SAMPLE, tagTIMECODE_SAMPLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

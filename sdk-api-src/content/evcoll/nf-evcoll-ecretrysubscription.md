@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcRetrySubscription
 title: EcRetrySubscription function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retries connecting to the event source of a subscription that is not connected.
 old-location: wec\ecretrysubscription.htm
 old-project: WEC
 ms.assetid: 31a9148d-8026-4383-9f31-04b75b4a278d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcRetrySubscription, EcRetrySubscription function, evcoll/EcRetrySubscription, wec.ecretrysubscription, wes.ecretrysubscription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

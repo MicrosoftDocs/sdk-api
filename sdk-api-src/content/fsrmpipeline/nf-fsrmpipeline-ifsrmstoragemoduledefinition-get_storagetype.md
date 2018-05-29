@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.get_StorageType
 title: IFsrmStorageModuleDefinition::get_StorageType
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of storage that the storage module uses.
 old-location: fsrm\ifsrmstoragemoduledefinition_storagetype.htm
 old-project: Fsrm
 ms.assetid: 4c4aaacf-d121-412c-9152-5787f351c19c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmStorageModuleDefinition interface [File Server Resource Manager],StorageType property, IFsrmStorageModuleDefinition.StorageType, IFsrmStorageModuleDefinition.get_StorageType, IFsrmStorageModuleDefinition::StorageType, IFsrmStorageModuleDefinition::get_StorageType, IFsrmStorageModuleDefinition::put_StorageType, StorageType property [File Server Resource Manager], StorageType property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, fs.ifsrmstoragemoduledefinition_storagetype, fsrm.ifsrmstoragemoduledefinition_storagetype, fsrmpipeline/IFsrmStorageModuleDefinition::StorageType, fsrmpipeline/IFsrmStorageModuleDefinition::get_StorageType, fsrmpipeline/IFsrmStorageModuleDefinition::put_StorageType, get_StorageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetBorderColor
 title: IVMRWindowlessControl::GetBorderColor
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBorderColor method retrieves the current border color used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getbordercolor.htm
 old-project: DirectShow
 ms.assetid: f0bf04c8-17e6-4e1f-b35f-2e10c9de8b92
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetBorderColor, GetBorderColor method [DirectShow], GetBorderColor method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetBorderColor method, IVMRWindowlessControl.GetBorderColor, IVMRWindowlessControl::GetBorderColor, IVMRWindowlessControlGetBorderColor, dshow.ivmrwindowlesscontrol_getbordercolor, strmif/IVMRWindowlessControl::GetBorderColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

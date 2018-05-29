@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetIpStatisticsEx
 title: GetIpStatisticsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIpStatisticsEx function retrieves the Internet Protocol (IP) statistics for the current computer.
 old-location: iphlp\getipstatisticsex.htm
 old-project: IpHlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

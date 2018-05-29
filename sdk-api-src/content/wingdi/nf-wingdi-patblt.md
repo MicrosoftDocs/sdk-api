@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.PatBlt
 title: PatBlt function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PatBlt function paints the specified rectangle using the brush that is currently selected into the specified device context. The brush color and the surface color or colors are combined by using the specified raster operation.
 old-location: gdi\patblt.htm
 old-project: gdi
 ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

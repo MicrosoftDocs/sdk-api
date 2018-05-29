@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetColorSpace
 title: SetColorSpace function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetColorSpace function defines the input color space for a given device context.
 old-location: wcs\setcolorspace.htm
 old-project: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _color_SetColorSpace, wcs.setcolorspace, wingdi/SetColorSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

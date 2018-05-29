@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncEnd
 title: IOfflineFilesEvents::SyncEnd
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that the Offline Files cache has ended a synchronize operation.
 old-location: of\iofflinefilesevents_syncend.htm
 old-project: OfflineFiles
 ms.assetid: 2b4b32b9-7268-4f79-8eac-640a6c62b0c1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncEnd method, IOfflineFilesEvents.SyncEnd, IOfflineFilesEvents::SyncEnd, SyncEnd, SyncEnd method [Offline Files], SyncEnd method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncEnd, of.iofflinefilesevents_syncend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

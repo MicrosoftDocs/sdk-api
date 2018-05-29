@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsType
 title: IXpsDocumentPackageTarget::GetXpsType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the XPS_DOCUMENT_TYPE enumerated value for the document package.
 old-location: xps\ixpsdocumentpackagetarget_getxpstype.htm
 old-project: printdocs
 ms.assetid: A2B2523F-2F07-4331-A8EA-84BB6636B948
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetXpsType, GetXpsType method [XPS Documents and Packaging], GetXpsType method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsType method, IXpsDocumentPackageTarget.GetXpsType, IXpsDocumentPackageTarget::GetXpsType, xps.ixpsdocumentpackagetarget_getxpstype, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

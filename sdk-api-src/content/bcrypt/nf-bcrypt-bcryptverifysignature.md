@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptVerifySignature
 title: BCryptVerifySignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that the specified signature matches the specified hash.
 old-location: security\bcryptverifysignature_func.htm
 old-project: SecCNG
 ms.assetid: 95c32056-e444-441c-bbc1-c5ae82aba964
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptVerifySignature, BCryptVerifySignature function [Security], bcrypt/BCryptVerifySignature, security.bcryptverifysignature_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

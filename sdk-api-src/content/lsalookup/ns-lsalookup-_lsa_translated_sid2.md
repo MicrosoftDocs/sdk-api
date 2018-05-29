@@ -1,16 +1,16 @@
 ---
 UID: NS:lsalookup._LSA_TRANSLATED_SID2
 title: "_LSA_TRANSLATED_SID2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains SIDs that are retrieved based on account names.
 old-location: security\lsa_translated_sid2.htm
 old-project: SecMgmt
 ms.assetid: 792de958-8e24-46d8-b484-159435bc96e3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PLSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2 structure [Security], PLSA_TRANSLATED_SID2, PLSA_TRANSLATED_SID2 structure pointer [Security], _LSA_TRANSLATED_SID2, _lsa_lsa_translated_sid2, lsalookup/LSA_TRANSLATED_SID2, lsalookup/PLSA_TRANSLATED_SID2, security.lsa_translated_sid2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 

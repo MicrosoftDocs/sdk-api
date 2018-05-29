@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxJob.get_Tsid
 title: IFaxJob::get_Tsid
-author: windows-driver-content
+author: windows-sdk-content
 description: The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID)) associated with the fax job.
 old-location: fax\_mfax_ifaxjob_get_tsid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4zz8.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxJob object [Fax Service],Tsid property, FaxJob.Tsid, IFaxJob.get_Tsid, IFaxJob::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxJob object, _mfax_ifaxjob_get_tsid, fax._mfax_ifaxjob_get_tsid, fax._mfax_ifaxjob_get_tsid_vb, get_Tsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

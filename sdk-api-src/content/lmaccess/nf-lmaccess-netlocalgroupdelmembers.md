@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetLocalGroupDelMembers
 title: NetLocalGroupDelMembers function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetLocalGroupDelMembers function removes one or more members from an existing local group. Local group members can be users or global groups.
 old-location: netmgmt\netlocalgroupdelmembers.htm
 old-project: NetMgmt
 ms.assetid: 85ae796b-c94a-46a8-9fa8-6c612db38671
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 3, NetLocalGroupDelMembers, NetLocalGroupDelMembers function [Network Management], _win32_netlocalgroupdelmembers, lmaccess/NetLocalGroupDelMembers, netmgmt.netlocalgroupdelmembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

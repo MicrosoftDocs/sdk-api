@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get__NewEnum
 title: ISecurityCallersColl::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator for the security callers collection.
 old-location: cos\isecuritycallerscoll_get__newenum.htm
 old-project: cossdk
 ms.assetid: 80fb8fe7-0f8f-497c-a046-82f19d6469d8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get__NewEnum method, ISecurityCallersColl.get__NewEnum, ISecurityCallersColl::get__NewEnum, _cos_ISecurityCallersColl_get__NewEnum, comsvcs/ISecurityCallersColl::get__NewEnum, cos.isecuritycallerscoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityCallersColl interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

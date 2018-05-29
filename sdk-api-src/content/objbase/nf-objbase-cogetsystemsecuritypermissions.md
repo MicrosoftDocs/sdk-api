@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoGetSystemSecurityPermissions
 title: CoGetSystemSecurityPermissions function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the default values of the Security Descriptors of the machine-wide launch and access permissions, as well as launch and access limits.
 old-location: com\cogetsystemsecuritypermissions.htm
 old-project: com
 ms.assetid: 8210A6A0-B861-4E85-8E5A-1BF82A01C54E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetSystemSecurityPermissions, CoGetSystemSecurityPermissions function [COM], com.cogetsystemsecuritypermissions, objbase/CoGetSystemSecurityPermissions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

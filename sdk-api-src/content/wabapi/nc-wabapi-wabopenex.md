@@ -1,16 +1,16 @@
 ---
 UID: NC:wabapi.WABOpenEx
 title: WABOpenEx
-author: windows-driver-content
+author: windows-sdk-content
 description: WABOpenEx is no longer available for use as of Windows Vista.
 old-location: wab\_wab_WABOpenEx.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopenex.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: WABOpenEx, WABOpenEx callback, WABOpenEx callback function [Windows Address Book], _wab_WABOpenEx, wab._wab_WABOpenEx, wabapi/WABOpenEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wabapi.h
 req.include-header: 

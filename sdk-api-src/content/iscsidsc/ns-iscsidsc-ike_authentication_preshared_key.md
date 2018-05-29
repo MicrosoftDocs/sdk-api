@@ -1,16 +1,16 @@
 ---
 UID: NS:iscsidsc.IKE_AUTHENTICATION_PRESHARED_KEY
 title: IKE_AUTHENTICATION_PRESHARED_KEY
-author: windows-driver-content
+author: windows-sdk-content
 description: IKE_AUTHENTICATION_PRESHARED_KEY structure contains information about the preshared key used in the Internet Key Exchange (IKE) protocol.
 old-location: iscsidisc\ike_authentication_preshared_key.htm
 old-project: iSCSIDisc
 ms.assetid: 52a188b5-6b59-4ea8-89e0-d05440344dde
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PIKE_AUTHENTICATION_PRESHARED_KEY, ID_FQDN, ID_IPV4_ADDR, ID_IPV6_ADDR, ID_USER_FQDN, IKE_AUTHENTICATION_PRESHARED_KEY, IKE_AUTHENTICATION_PRESHARED_KEY structure [iSCSI Discovery Library API], ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, PIKE_AUTHENTICATION_PRESHARED_KEY, PIKE_AUTHENTICATION_PRESHARED_KEY structure pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_preshared_key, iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY, iscsidsc/PIKE_AUTHENTICATION_PRESHARED_KEY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

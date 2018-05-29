@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingValue
 title: TraceLoggingValue macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper macro for event fields. Automatically deduces value type.
 old-location: tracelogging\traceloggingvalue.htm
 old-project: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue, traceloggingprovider/TraceLoggingValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

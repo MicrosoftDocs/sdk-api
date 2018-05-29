@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadNode
 title: WsReadNode function
-author: windows-driver-content
+author: windows-sdk-content
 description: This operation advances the Reader to the next node in the input stream.
 old-location: wsw\wsreadnode.htm
 old-project: wsw
 ms.assetid: 60dacf3e-ebde-4247-be58-835565874ab6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

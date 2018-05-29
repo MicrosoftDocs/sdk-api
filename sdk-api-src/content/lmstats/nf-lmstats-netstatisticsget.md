@@ -1,16 +1,16 @@
 ---
 UID: NF:lmstats.NetStatisticsGet
 title: NetStatisticsGet function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves operating statistics for a service. Currently, only the workstation and server services are supported.
 old-location: fs\netstatisticsget.htm
 old-project: NetShare
 ms.assetid: d0e51d8a-2f54-42ca-9759-0da82c1f0f55
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_netstatisticsget, fs.netstatisticsget, lmstats/NetStatisticsGet, netmgmt.netstatisticsget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmstats.h
 req.include-header: Lm.h

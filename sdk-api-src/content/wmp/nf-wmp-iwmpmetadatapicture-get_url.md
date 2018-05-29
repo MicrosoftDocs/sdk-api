@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_URL
 title: IWMPMetadataPicture::get_URL
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is for internal use only.
 old-location: wmp\iwmpmetadatapicture_get_url.htm
 old-project: WMP
 ms.assetid: e61c9c1a-4ffc-4a71-83b7-ad3f9937e303
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_URL method, IWMPMetadataPicture.get_URL, IWMPMetadataPicture::get_URL, IWMPMetadataPictureget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_url, wmp/IWMPMetadataPicture::get_URL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

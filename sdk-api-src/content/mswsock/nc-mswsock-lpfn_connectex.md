@@ -1,16 +1,16 @@
 ---
 UID: NC:mswsock.LPFN_CONNECTEX
 title: LPFN_CONNECTEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConnectEx function establishes a connection to a specified socket, and optionally sends data once the connection is established.
 old-location: winsock\connectex_2.htm
 old-project: WinSock
 ms.assetid: a4552366-eafa-4f24-b6c2-e6a7edc4b021
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mswsock.h
 req.include-header: 

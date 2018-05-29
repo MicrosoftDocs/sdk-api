@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_RESOLVE_MODE
 title: D3D12_RESOLVE_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a resolve operation.
 old-location: direct3d12\d3d12_resolve_mode.htm
 old-project: direct3d12
 ms.assetid: 1E14F62A-E6B9-4C88-AC28-2322C4662E1F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_RESOLVE_MODE, D3D12_RESOLVE_MODE enumeration, D3D12_RESOLVE_MODE_AVERAGE, D3D12_RESOLVE_MODE_DECOMPRESS, D3D12_RESOLVE_MODE_MAX, D3D12_RESOLVE_MODE_MIN, d3d12/D3D12_RESOLVE_MODE, d3d12/D3D12_RESOLVE_MODE_AVERAGE, d3d12/D3D12_RESOLVE_MODE_DECOMPRESS, d3d12/D3D12_RESOLVE_MODE_MAX, d3d12/D3D12_RESOLVE_MODE_MIN, direct3d12.d3d12_resolve_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

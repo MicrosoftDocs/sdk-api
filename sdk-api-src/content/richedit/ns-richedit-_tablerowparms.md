@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._tableRowParms
 title: "_tableRowParms"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the attributes of rows in a table.
 old-location: controls\tablerowparms.htm
 old-project: Controls
 ms.assetid: 8b538d72-1210-4344-b673-592ef9a8cc85
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], _tableRowParms, controls.tablerowparms, richedit/TABLEROWPARMS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

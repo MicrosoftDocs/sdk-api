@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessDown
 title: IManipulationProcessor::ProcessDown
-author: windows-driver-content
+author: windows-sdk-content
 description: The ProcessDown method feeds touch down data to the manipulation processor associated with a target.
 old-location: wintouch\imanipulationprocessor_processdown.htm
 old-project: wintouch
 ms.assetid: 2c192bc4-6922-4c70-961d-1f8684ad792b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDown method, IManipulationProcessor.ProcessDown, IManipulationProcessor::ProcessDown, ProcessDown, ProcessDown method [Windows Touch], ProcessDown method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDown, wintouch.imanipulationprocessor_processdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

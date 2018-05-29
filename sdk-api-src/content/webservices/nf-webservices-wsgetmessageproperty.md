@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetMessageProperty
 title: WsGetMessageProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified Message object property. The property to retrieve is identified by a WS_MESSAGE_PROPERTY_ID input parameter.
 old-location: wsw\wsgetmessageproperty.htm
 old-project: wsw
 ms.assetid: 369f7690-6d70-401a-84aa-e5761dc874b5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetMessageProperty, WsGetMessageProperty function [Web Services for Windows], webservices/WsGetMessageProperty, wsw.wsgetmessageproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

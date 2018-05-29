@@ -1,16 +1,16 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.DeleteDictionary
 title: IImePlugInDictDictionaryList::DeleteDictionary
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a dictionary from the IME's plug-in dictionary list.
 old-location: intl\iimeplugindictdictionarylist_deletedictionary.htm
 old-project: Intl
 ms.assetid: 38A17092-E545-4018-9D16-2C0406234D62
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],DeleteDictionary method, IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msimeapi.h
 req.include-header: 

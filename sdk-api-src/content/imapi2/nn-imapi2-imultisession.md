@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IMultisession
 title: IMultisession
-author: windows-driver-content
+author: windows-sdk-content
 description: Base interface containing properties common to derived multisession interfaces.
 old-location: imapi\imultisession.htm
 old-project: imapi
 ms.assetid: a983af02-ee0e-4a62-8ae0-fb9a1e0c2571
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMultisession, IMultisession interface [IMAPI], IMultisession interface [IMAPI],described, imapi.imultisession, imapi2/IMultisession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

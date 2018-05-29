@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingType
 title: IMSVidStreamBufferRecordingControl::get_RecordingType
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_RecordingType method retrieves the type of recording, either content recording or reference recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingtype.htm
 old-project: mstv
 ms.assetid: 23f63c44-4970-42b2-a19a-0a28e7fb5dea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingType method, IMSVidStreamBufferRecordingControl.get_RecordingType, IMSVidStreamBufferRecordingControl::get_RecordingType, IMSVidStreamBufferRecordingControlget_RecordingType, get_RecordingType, get_RecordingType method [Microsoft TV Technologies], get_RecordingType method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingtype, segment/IMSVidStreamBufferRecordingControl::get_RecordingType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

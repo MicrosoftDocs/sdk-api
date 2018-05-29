@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWRdsRemoteFXGraphicsConnection
 title: IWRdsRemoteFXGraphicsConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods relating to the manipulation and understanding of graphics on the client connection.
 old-location: termserv\iwrdsremotefxgraphicsconnection.htm
 old-project: TermServ
 ms.assetid: ff8d2dd0-adbb-40de-a074-3228d803f4c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsRemoteFXGraphicsConnection, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services], IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],described, termserv.iwrdsremotefxgraphicsconnection, wtsprotocol/IWRdsRemoteFXGraphicsConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

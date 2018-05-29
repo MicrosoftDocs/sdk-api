@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentSequence
 title: IXpsOMDocumentSequence
-author: windows-driver-content
+author: windows-sdk-content
 description: The root object that has the XPS document content.
 old-location: xps\ixpsomdocumentsequence.htm
 old-project: printdocs
 ms.assetid: 472095a4-ecd8-406a-97c2-1a34b4e5184a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMDocumentSequence, IXpsOMDocumentSequence interface [XPS Documents and Packaging], IXpsOMDocumentSequence interface [XPS Documents and Packaging],described, xps.ixpsomdocumentsequence, xpsobjectmodel/IXpsOMDocumentSequence
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

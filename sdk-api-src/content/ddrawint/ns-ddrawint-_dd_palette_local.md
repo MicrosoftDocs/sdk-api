@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_PALETTE_LOCAL
 title: "_DD_PALETTE_LOCAL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_PALETTE_LOCAL structure contains palette-related data that is unique to an individual palette object.
 old-location: display\dd_palette_local.htm
 old-project: display
 ms.assetid: 28269aed-fb5e-42a2-aeca-9fa3c7f6481d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL, DD_PALETTE_LOCAL structure [Display Devices], _DD_PALETTE_LOCAL, ddrawint/DD_PALETTE_LOCAL, ddstrcts_e56ec243-4e12-4e79-afd7-afce67f148b1.xml, display.dd_palette_local"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

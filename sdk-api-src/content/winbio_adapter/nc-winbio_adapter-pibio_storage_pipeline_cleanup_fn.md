@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_PIPELINE_CLEANUP_FN
 title: PIBIO_STORAGE_PIPELINE_CLEANUP_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Gives the Storage Adapter the chance to perform any cleanup in preparation for closing the template database.
 old-location: secbiomet\storageadapterpipelinecleanup.htm
 old-project: SecBioMet
 ms.assetid: 4F75BCE0-173F-48F3-B4DD-A6AE1AFD4EA5
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_STORAGE_PIPELINE_CLEANUP_FN, PIBIO_STORAGE_PIPELINE_CLEANUP_FN callback, StorageAdapterPipelineCleanup, StorageAdapterPipelineCleanup callback function [Windows Biometric Framework API], secbiomet.storageadapterpipelinecleanup, winbio_adapter/StorageAdapterPipelineCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

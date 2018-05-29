@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_Bandwidth
 title: IAMNetShowExProps::get_Bandwidth
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Bandwidth method retrieves the bandwidth.
 old-location: dshow\iamnetshowexprops_get_bandwidth.htm
 old-project: DirectShow
 ms.assetid: 042ddea5-c17a-4cd6-a18d-9a3b65bf11b7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_Bandwidth method, IAMNetShowExProps.get_Bandwidth, IAMNetShowExProps::get_Bandwidth, IAMNetShowExPropsget_Bandwidth, dshow.iamnetshowexprops_get_bandwidth, get_Bandwidth, get_Bandwidth method [DirectShow], get_Bandwidth method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_Bandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

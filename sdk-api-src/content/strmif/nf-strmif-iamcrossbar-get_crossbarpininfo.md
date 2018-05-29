@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_CrossbarPinInfo
 title: IAMCrossbar::get_CrossbarPinInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CrossbarPinInfo method retrieves information about a specified pin.
 old-location: dshow\iamcrossbar_get_crossbarpininfo.htm
 old-project: DirectShow
 ms.assetid: 29cda12e-a731-4995-8e0c-69dfcda6f158
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FALSE, IAMCrossbar interface [DirectShow],get_CrossbarPinInfo method, IAMCrossbar.get_CrossbarPinInfo, IAMCrossbar::get_CrossbarPinInfo, IAMCrossbarget_CrossbarPinInfo, TRUE, dshow.iamcrossbar_get_crossbarpininfo, get_CrossbarPinInfo, get_CrossbarPinInfo method [DirectShow], get_CrossbarPinInfo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_CrossbarPinInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

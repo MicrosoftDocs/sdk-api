@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.GetDefaultUserProfileDirectoryA
 title: GetDefaultUserProfileDirectoryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the path to the root of the default user's profile.
 old-location: shell\GetDefaultUserProfileDirectory.htm
 old-project: shell
 ms.assetid: 14ff99cb-838a-442b-9f51-414bd7c0a2ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDefaultUserProfileDirectory, GetDefaultUserProfileDirectory function [Windows Shell], GetDefaultUserProfileDirectoryA, GetDefaultUserProfileDirectoryW, _shell_GetDefaultUserProfileDirectory, shell.GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectoryA, userenv/GetDefaultUserProfileDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

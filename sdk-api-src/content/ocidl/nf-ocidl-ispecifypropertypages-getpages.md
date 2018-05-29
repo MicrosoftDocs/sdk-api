@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.ISpecifyPropertyPages.GetPages
 title: ISpecifyPropertyPages::GetPages
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of property pages that can be displayed in this object's property sheet.
 old-location: com\ispecifypropertypages_getpages.htm
 old-project: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyPropertyPages interface, ISpecifyPropertyPages interface [COM],GetPages method, ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

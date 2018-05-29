@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.FindActCtxSectionGuid
 title: FindActCtxSectionGuid function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FindActCtxSectionGuid function retrieves information on a specific GUID in the current activation context and returns a ACTCTX_SECTION_KEYED_DATA structure.
 old-location: setup\findactctxsectionguid.htm
 old-project: SbsCs
 ms.assetid: 3889505c-29a0-49dd-aca8-a26417b25a94
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionGuid, FindActCtxSectionGuid function [Side-by-side Assemblies], _win32_findactctxsectionguid, setup.findactctxsectionguid, winbase/FindActCtxSectionGuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

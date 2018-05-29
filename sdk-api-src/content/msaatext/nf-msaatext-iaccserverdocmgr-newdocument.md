@@ -1,16 +1,16 @@
 ---
 UID: NF:msaatext.IAccServerDocMgr.NewDocument
 title: IAccServerDocMgr::NewDocument
-author: windows-driver-content
+author: windows-sdk-content
 description: Server applications call the IAccServerDocMgr::NewDocument method when it is available. The adapter creates a wrapped document and registers it with the store, so clients can access information about the text in the document.
 old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__newdocument.htm
 old-project: WinAuto
 ms.assetid: 8bac6081-3b4e-45df-a900-66bc037a232f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],NewDocument method, IAccServerDocMgr.NewDocument, IAccServerDocMgr::NewDocument, NewDocument, NewDocument method [Windows Accessibility], NewDocument method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_NewDocument, msaa.iaccserverdocmgr_iaccserverdocmgr__newdocument, msaatext/IAccServerDocMgr::NewDocument, winauto.iaccserverdocmgr_iaccserverdocmgr__newdocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 

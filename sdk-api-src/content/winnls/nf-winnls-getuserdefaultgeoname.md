@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetUserDefaultGeoName
 title: GetUserDefaultGeoName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code for the default geographical location of the user.
 old-location: intl\getuserdefaultgeoname.htm
 old-project: Intl
 ms.assetid: 7938A5A1-E18E-4643-A07C-3354B4E94B5D
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

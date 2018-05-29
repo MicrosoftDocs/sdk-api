@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpGetTimeout
 title: SnmpGetTimeout function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpGetTimeout function returns the time-out value, in hundredths of a second, for the transmission of SNMP message requests.
 old-location: snmp\snmpgettimeout.htm
 old-project: SNMP
 ms.assetid: 95f7afad-241c-473a-8041-3d1642f9d1fe
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpGetTimeout, SnmpGetTimeout function [SNMP], _snmp_snmpgettimeout, snmp.snmpgettimeout, winsnmp/SnmpGetTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetSystemDpiForProcess
 title: GetSystemDpiForProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the system DPI associated with a given process. This is useful for avoiding compatibility issues that arise from sharing DPI-sensitive information between multiple system-aware processes with different system DPI values.
 old-location: hidpi\getsystemdpiforprocess.htm
 old-project: hidpi
 ms.assetid: 94236ECF-E69A-4D77-AABA-D43FE8DF8203
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: GetSystemDpiForProcess, GetSystemDpiForProcess function [High DPI], hidpi.getsystemdpiforprocess, winuser/GetSystemDpiForProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

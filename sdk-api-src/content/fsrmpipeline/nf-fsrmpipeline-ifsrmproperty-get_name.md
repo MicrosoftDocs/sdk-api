@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Name
 title: IFsrmProperty::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The name of the property.
 old-location: fsrm\ifsrmproperty_name.htm
 old-project: Fsrm
 ms.assetid: 86e21634-1cb9-42b2-ac50-d17535a4bf40
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Name property, IFsrmProperty.Name, IFsrmProperty.get_Name, IFsrmProperty::Name, IFsrmProperty::get_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_name, fsrm.ifsrmproperty_name, fsrmpipeline/IFsrmProperty::Name, fsrmpipeline/IFsrmProperty::get_Name, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

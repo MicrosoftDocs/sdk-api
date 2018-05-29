@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhBrowseCountersA
 title: PdhBrowseCountersA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.
 old-location: perf\pdhbrowsecounters.htm
 old-project: PerfCtrs
 ms.assetid: 4e9e4b20-a573-4f6d-97e8-63bcc675032b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhBrowseCounters, PdhBrowseCounters function [Perf], PdhBrowseCountersA, PdhBrowseCountersW, _win32_pdhbrowsecounters, base.pdhbrowsecounters, pdh/PdhBrowseCounters, pdh/PdhBrowseCountersA, pdh/PdhBrowseCountersW, perf.pdhbrowsecounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

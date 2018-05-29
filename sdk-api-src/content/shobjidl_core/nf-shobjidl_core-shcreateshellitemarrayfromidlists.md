@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArrayFromIDLists
 title: SHCreateShellItemArrayFromIDLists function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Shell item array object from a list of ITEMIDLIST structures.
 old-location: shell\SHCreateShellItemArrayFromIDLists.htm
 old-project: shell
 ms.assetid: af462941-8c23-4f48-baf5-1ead9739a2c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateShellItemArrayFromIDLists, SHCreateShellItemArrayFromIDLists function [Windows Shell], _shell_SHCreateShellItemArrayFromIDLists, shell.SHCreateShellItemArrayFromIDLists, shobjidl_core/SHCreateShellItemArrayFromIDLists
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

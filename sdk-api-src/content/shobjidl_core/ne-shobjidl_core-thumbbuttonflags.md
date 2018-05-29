@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.THUMBBUTTONFLAGS
 title: THUMBBUTTONFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by THUMBBUTTON to control specific states and behaviors of the button.
 old-location: shell\THUMBBUTTONFLAGS.htm
 old-project: shell
 ms.assetid: 601a2517-cfce-4edb-b2ca-e2ed8a365a0d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: THBF_DISABLED, THBF_DISMISSONCLICK, THBF_ENABLED, THBF_HIDDEN, THBF_NOBACKGROUND, THBF_NONINTERACTIVE, THUMBBUTTONFLAGS, THUMBBUTTONFLAGS enumeration [Windows Shell], _shell_THUMBBUTTONFLAGS, shell.THUMBBUTTONFLAGS, shobjidl_core/THBF_DISABLED, shobjidl_core/THBF_DISMISSONCLICK, shobjidl_core/THBF_ENABLED, shobjidl_core/THBF_HIDDEN, shobjidl_core/THBF_NOBACKGROUND, shobjidl_core/THBF_NONINTERACTIVE, shobjidl_core/THUMBBUTTONFLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

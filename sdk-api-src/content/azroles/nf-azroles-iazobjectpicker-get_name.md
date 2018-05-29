@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzObjectPicker.get_Name
 title: IAzObjectPicker::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the IAzObjectPicker object.
 old-location: security\iazobjectpicker_name_method.htm
 old-project: SecAuthZ
 ms.assetid: b42ebb74-deb0-4182-8447-2c7886963a7e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzObjectPicker interface [Security],Name property, IAzObjectPicker.Name, IAzObjectPicker.get_Name, IAzObjectPicker::Name, IAzObjectPicker::get_Name, Name property [Security], Name property [Security],IAzObjectPicker interface, azroles/IAzObjectPicker::Name, azroles/IAzObjectPicker::get_Name, get_Name, security.iazobjectpicker_name_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mssip.CryptSIPLoad
 title: CryptSIPLoad function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads the dynamic-link library (DLL) that implements a subject interface package (SIP) and assigns appropriate library export functions to a SIP_DISPATCH_INFO structure.
 old-location: security\cryptsipload.htm
 old-project: SecCrypto
 ms.assetid: 3378ecee-bd5d-45e5-9a1f-a3734d086782
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSIPLoad, CryptSIPLoad function [Security], mssip/CryptSIPLoad, security.cryptsipload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

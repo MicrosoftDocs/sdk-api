@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetUniquenessValue
 title: IDirectDrawSurface7::GetUniquenessValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current uniqueness value for this surface.
 old-location: directdraw\idirectdrawsurface7_getuniquenessvalue.htm
 old-project: directdraw
 ms.assetid: 559d9381-1135-47de-9bbe-49aa8d97f5d3
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetUniquenessValue, GetUniquenessValue method [DirectDraw], GetUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetUniquenessValue method, IDirectDrawSurface7.GetUniquenessValue, IDirectDrawSurface7::GetUniquenessValue, ddraw/IDirectDrawSurface7::GetUniquenessValue, directdraw.idirectdrawsurface7_getuniquenessvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

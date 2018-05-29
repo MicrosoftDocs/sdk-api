@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.ContainsTime
 title: IMFMediaTimeRange::ContainsTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether a specified time falls within any of the time ranges.
 old-location: mf\imfmediatimerange_containstime.htm
 old-project: medfound
 ms.assetid: 67BA2464-D8F0-4A5C-9C12-DBD9AD0238A7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ContainsTime, ContainsTime method [Media Foundation], ContainsTime method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],ContainsTime method, IMFMediaTimeRange.ContainsTime, IMFMediaTimeRange::ContainsTime, mf.imfmediatimerange_containstime, mfmediaengine/IMFMediaTimeRange::ContainsTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

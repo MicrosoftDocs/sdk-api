@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.NotifyIpInterfaceChange
 title: NotifyIpInterfaceChange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers to be notified for changes to all IP interfaces, IPv4 interfaces, or IPv6 interfaces on a local computer.
 old-location: iphlp\notifyipinterfacechange.htm
 old-project: IpHlp
 ms.assetid: 745128cf-7737-4f95-9712-26e0f6ae39b4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyIpInterfaceChange, NotifyIpInterfaceChange function [IP Helper], iphlp.notifyipinterfacechange, netioapi/NotifyIpInterfaceChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

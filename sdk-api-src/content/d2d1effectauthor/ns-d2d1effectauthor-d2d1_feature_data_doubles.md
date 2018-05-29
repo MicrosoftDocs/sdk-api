@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_FEATURE_DATA_DOUBLES
 title: D2D1_FEATURE_DATA_DOUBLES
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the support for doubles in shaders.
 old-location: direct2d\d2d1_feature_data_doubles.htm
 old-project: Direct2D
 ms.assetid: 29EDAD15-FFFF-4F0D-BB0D-B4BF37AC609F
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_FEATURE_DATA_DOUBLES, D2D1_FEATURE_DATA_DOUBLES structure [Direct2D], d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES, direct2d.d2d1_feature_data_doubles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1effectauthor.h
 req.include-header: 

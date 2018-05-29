@@ -1,16 +1,16 @@
 ---
 UID: NE:fhcfg._FH_LOCAL_POLICY_TYPE
 title: "_FH_LOCAL_POLICY_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of a local policy for the File History feature. Each local policy has a numeric parameter associated with it.
 old-location: winprog\fh_local_policy_type.htm
 old-project: DevNotes
 ms.assetid: 59C54A67-91A3-495F-95F2-50EB373D442C
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PFH_LOCAL_POLICY_TYPE, FH_FREQUENCY, FH_LOCAL_POLICY_TYPE, FH_LOCAL_POLICY_TYPE enumeration [Windows API], FH_RETENTION_AGE, FH_RETENTION_TYPE, MAX_LOCAL_POLICY, _FH_LOCAL_POLICY_TYPE, fhcfg/FH_FREQUENCY, fhcfg/FH_LOCAL_POLICY_TYPE, fhcfg/FH_RETENTION_AGE, fhcfg/FH_RETENTION_TYPE, fhcfg/MAX_LOCAL_POLICY, winprog.fh_local_policy_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 

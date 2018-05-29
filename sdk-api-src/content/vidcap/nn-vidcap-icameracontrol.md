@@ -1,16 +1,16 @@
 ---
 UID: NN:vidcap.ICameraControl
 title: ICameraControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICameraControl interface controls the camera settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.
 old-location: dshow\icameracontrol.htm
 old-project: DirectShow
 ms.assetid: 7046f96d-a613-4056-84dd-be022efdda4f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], ICameraControl interface [DirectShow],described, ICameraControlInterface, dshow.icameracontrol, vidcap/ICameraControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vidcap.h
 req.include-header: 

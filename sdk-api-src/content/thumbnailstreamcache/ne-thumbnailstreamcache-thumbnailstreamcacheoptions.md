@@ -1,16 +1,16 @@
 ---
 UID: NE:thumbnailstreamcache.ThumbnailStreamCacheOptions
 title: ThumbnailStreamCacheOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the cache options used by the IThumbnailStreamCache interface.
 old-location: shell\thumbnailstreamcacheoptions.htm
 old-project: shell
 ms.assetid: E148138E-E41F-4274-B40A-7BF49BCF2AB4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AllowSmallerSize, ExtractIfNotCached, ResizeThumbnail, ReturnOnlyIfCached, ThumbnailStreamCacheOptions, ThumbnailStreamCacheOptions enumeration [Windows Shell], shell.thumbnailstreamcacheoptions, thumbnailstreamcache/AllowSmallerSize, thumbnailstreamcache/ExtractIfNotCached, thumbnailstreamcache/ResizeThumbnail, thumbnailstreamcache/ReturnOnlyIfCached, thumbnailstreamcache/ThumbnailStreamCacheOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: thumbnailstreamcache.h
 req.include-header: 

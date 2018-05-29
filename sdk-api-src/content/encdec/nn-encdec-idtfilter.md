@@ -1,16 +1,16 @@
 ---
 UID: NN:encdec.IDTFilter
 title: IDTFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDTFilter interface is exposed by the Decrypter/Detagger filter. Applications can use this interface to set the ratings permissions.
 old-location: mstv\idtfilter.htm
 old-project: mstv
 ms.assetid: 15acf764-7e4d-40c3-b907-ff5dfaa69dae
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDTFilter, IDTFilter interface [Microsoft TV Technologies], IDTFilter interface [Microsoft TV Technologies],described, IDTFilterInterface, encdec/IDTFilter, mstv.idtfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: encdec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.AbortAsyncOperation
 title: IWSDEndpointProxy::AbortAsyncOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Aborts a pending asynchronous operation.
 old-location: ncd\iwsdendpointproxy_abortasyncoperation.htm
 old-project: WsdApi
 ms.assetid: 559c7fcd-9652-4dfa-b22a-45929b6aee14
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AbortAsyncOperation, AbortAsyncOperation method, AbortAsyncOperation method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,AbortAsyncOperation method, IWSDEndpointProxy.AbortAsyncOperation, IWSDEndpointProxy::AbortAsyncOperation, ncd.iwsdendpointproxy_abortasyncoperation, wsdclient/IWSDEndpointProxy::AbortAsyncOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

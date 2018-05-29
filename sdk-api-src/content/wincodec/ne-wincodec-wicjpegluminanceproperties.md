@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICJpegLuminanceProperties
 title: WICJpegLuminanceProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the JPEG luminance table property.
 old-location: wic\_wic_codec_wicjpegluminanceproperties.htm
 old-project: wic
 ms.assetid: 391e96a3-372e-43b9-a752-0234d0fd37e1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICJpegLuminanceProperties, WICJpegLuminanceProperties enumeration [Windows Imaging Component], WICJpegLuminanceTable, _wic_codec_wicjpegluminanceproperties, wic._wic_codec_wicjpegluminanceproperties, wincodec/WICJpegLuminanceProperties, wincodec/WICJpegLuminanceTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.InitializeSampleAllocator
 title: IMFVideoSampleAllocator::InitializeSampleAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the number of samples to allocate and the media type for the samples.
 old-location: mf\imfvideosampleallocator_initializesampleallocator.htm
 old-project: medfound
 ms.assetid: b1e4557e-990c-4239-b9ec-5c7c46072e54
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],InitializeSampleAllocator method, IMFVideoSampleAllocator.InitializeSampleAllocator, IMFVideoSampleAllocator::InitializeSampleAllocator, InitializeSampleAllocator, InitializeSampleAllocator method [Media Foundation], InitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, b1e4557e-990c-4239-b9ec-5c7c46072e54, mf.imfvideosampleallocator_initializesampleallocator, mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:txlogpub.ILog.ReadRecord
 title: ILog::ReadRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Read a record from the log.
 old-location: com\ilog_readrecord.htm
 old-project: com
 ms.assetid: 756d56a4-083f-45cd-bcdc-7c8a15dabae6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILog interface [COM],ReadRecord method, ILog.ReadRecord, ILog::ReadRecord, ReadRecord, ReadRecord method [COM], ReadRecord method [COM],ILog interface, _com_ilog_readrecord, com.ilog_readrecord, txlogpub/ILog::ReadRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

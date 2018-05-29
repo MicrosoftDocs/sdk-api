@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IPropertyPage2
 title: IPropertyPage2
-author: windows-driver-content
+author: windows-sdk-content
 description: An extension to IPropertyPage to support initial selection of a property on a page.
 old-location: com\ipropertypage2.htm
 old-project: com
 ms.assetid: 65cd8f97-f88c-433c-b4e7-9dace7193ec1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyPage2, IPropertyPage2 interface [COM], IPropertyPage2 interface [COM],described, _ctrl_ipropertypage2, com.ipropertypage2, ocidl/IPropertyPage2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

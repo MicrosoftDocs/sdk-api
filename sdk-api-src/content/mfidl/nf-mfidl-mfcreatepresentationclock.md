@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreatePresentationClock
 title: MFCreatePresentationClock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the presentation clock.
 old-location: mf\mfcreatepresentationclock.htm
 old-project: medfound
 ms.assetid: b0ed3482-d127-45d3-a4de-271b1c0a199b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreatePresentationClock, MFCreatePresentationClock function [Media Foundation], b0ed3482-d127-45d3-a4de-271b1c0a199b, mf.mfcreatepresentationclock, mfidl/MFCreatePresentationClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

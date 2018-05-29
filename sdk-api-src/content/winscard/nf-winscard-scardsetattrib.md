@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardSetAttrib
 title: SCardSetAttrib function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the given reader attribute for the given handle.
 old-location: security\scardsetattrib.htm
 old-project: SecAuthN
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

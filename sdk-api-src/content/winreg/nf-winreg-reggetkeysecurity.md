@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegGetKeySecurity
 title: RegGetKeySecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the security descriptor protecting the specified open registry key.
 old-location: security\reggetkeysecurity.htm
 old-project: SecAuthZ
 ms.assetid: 26bd8f89-9241-4c13-a214-c2b276d68c92
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegGetKeySecurity, RegGetKeySecurity function [Security], _win32_reggetkeysecurity, security.reggetkeysecurity, winreg/RegGetKeySecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

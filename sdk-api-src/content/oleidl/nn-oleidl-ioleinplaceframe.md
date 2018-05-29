@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleInPlaceFrame
 title: IOleInPlaceFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the container's top-level frame window.
 old-location: com\ioleinplaceframe.htm
 old-project: com
 ms.assetid: c530aff7-fd83-413d-8945-0c9d1bfb51ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], IOleInPlaceFrame interface [COM],described, _ole_ioleinplaceframe, com.ioleinplaceframe, oleidl/IOleInPlaceFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

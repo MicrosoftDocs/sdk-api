@@ -1,16 +1,16 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_ConnectClientDrivesAtLogon
 title: IADsTSUserEx::get_ConnectClientDrivesAtLogon
-author: windows-driver-content
+author: windows-sdk-content
 description: A value that specifies if mapped client drives should be reconnected when a Remote Desktop Services session is started.
 old-location: termserv\iadstsuserex_connectclientdrivesatlogon.htm
 old-project: TermServ
 ms.assetid: d9c37f08-67f2-401c-b5a7-1866b8a3d611
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ConnectClientDrivesAtLogon property [Remote Desktop Services], ConnectClientDrivesAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientDrivesAtLogon property, IADsTSUserEx.ConnectClientDrivesAtLogon, IADsTSUserEx.get_ConnectClientDrivesAtLogon, IADsTSUserEx::ConnectClientDrivesAtLogon, IADsTSUserEx::get_ConnectClientDrivesAtLogon, IADsTSUserEx::put_ConnectClientDrivesAtLogon, get_ConnectClientDrivesAtLogon, termserv.iadstsuserex_connectclientdrivesatlogon, tsuserex/IADsTSUserEx::ConnectClientDrivesAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientDrivesAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientDrivesAtLogon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c

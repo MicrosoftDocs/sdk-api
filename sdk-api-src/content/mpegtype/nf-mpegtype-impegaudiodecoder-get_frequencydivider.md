@@ -1,16 +1,16 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_FrequencyDivider
 title: IMpegAudioDecoder::get_FrequencyDivider
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, or AM Radio.
 old-location: dshow\impegaudiodecoder_get_frequencydivider.htm
 old-project: DirectShow
 ms.assetid: 8b9b2a3f-2495-4da3-8a09-2ba31538bdb0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_FrequencyDivider method, IMpegAudioDecoder.get_FrequencyDivider, IMpegAudioDecoder::get_FrequencyDivider, IMpegAudioDecodergetFrequencyDivider, dshow.impegaudiodecoder_get_frequencydivider, get_FrequencyDivider, get_FrequencyDivider method [DirectShow], get_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_FrequencyDivider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 

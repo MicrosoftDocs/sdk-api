@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingDimension
 title: IAtscContentAdvisoryDescriptor::GetRecordRatingDimension
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingdimension.htm
 old-project: mstv
 ms.assetid: 583c9d8b-6b4b-4aa0-995d-26295b430f76
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordRatingDimension, GetRecordRatingDimension method [Microsoft TV Technologies], GetRecordRatingDimension method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingDimension method, IAtscContentAdvisoryDescriptor.GetRecordRatingDimension, IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, IAtscContentAdvisoryDescriptorGetRecordRatingDimension, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, mstv.iatsccontentadvisorydescriptor_getrecordratingdimension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

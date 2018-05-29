@@ -1,16 +1,16 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceCollection.GetCount
 title: IMMDeviceCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCount method retrieves a count of the devices in the device collection.
 old-location: coreaudio\immdevicecollection_getcount.htm
 old-project: CoreAudio
 ms.assetid: 236a611b-98ab-437c-9e36-8c8a7c32ffbc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IMMDeviceCollection interface, IMMDeviceCollection interface [Core Audio],GetCount method, IMMDeviceCollection.GetCount, IMMDeviceCollection::GetCount, IMMDeviceCollectionGetCount, coreaudio.immdevicecollection_getcount, mmdeviceapi/IMMDeviceCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

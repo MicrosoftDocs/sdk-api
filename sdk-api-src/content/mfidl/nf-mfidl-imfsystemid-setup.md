@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSystemId.Setup
 title: IMFSystemId::Setup
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets up the IMFSystemId.
 old-location: mf\imfsystemid_setup.htm
 old-project: medfound
 ms.assetid: 6a779581-326a-4666-8e11-d7cdcb02faa2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSystemId interface [Media Foundation],Setup method, IMFSystemId.Setup, IMFSystemId::Setup, Setup, Setup method [Media Foundation], Setup method [Media Foundation],IMFSystemId interface, mf.imfsystemid_setup, mfidl/IMFSystemId::Setup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

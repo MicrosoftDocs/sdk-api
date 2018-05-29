@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsNetworkPathW
 title: PathIsNetworkPathW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a path string represents a network resource.
 old-location: shell\PathIsNetworkPath.htm
 old-project: shell
 ms.assetid: 3a9c33bc-2325-4285-b6c3-4c3e1d323c1e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsNetworkPath, PathIsNetworkPath function [Windows Shell], PathIsNetworkPathA, PathIsNetworkPathW, _win32_PathIsNetworkPath, shell.PathIsNetworkPath, shlwapi/PathIsNetworkPath, shlwapi/PathIsNetworkPathA, shlwapi/PathIsNetworkPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

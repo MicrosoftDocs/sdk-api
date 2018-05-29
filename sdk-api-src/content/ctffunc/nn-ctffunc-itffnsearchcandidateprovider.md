@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnSearchCandidateProvider
 title: ITfFnSearchCandidateProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an integrated search experience in an Input Method Editor (IME).
 old-location: tsf\itffnsearchcandidateprovider.htm
 old-project: TSF
 ms.assetid: 5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnSearchCandidateProvider, ITfFnSearchCandidateProvider interface [Text Services Framework], ITfFnSearchCandidateProvider interface [Text Services Framework],described, ctffunc/ITfFnSearchCandidateProvider, tsf.itffnsearchcandidateprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

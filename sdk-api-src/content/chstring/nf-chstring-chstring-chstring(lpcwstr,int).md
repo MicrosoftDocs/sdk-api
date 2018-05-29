@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.CHString(LPCWSTR,int)
 title: CHString::CHString(LPCWSTR,int)
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_lpcwstr_int_.htm
 old-project: WmiSdk
 ms.assetid: 58d588fe-6fd4-40c6-83fd-b78e0e409783
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(LPCWSTR,int), CHString::CHString, CHString::CHString(LPCWSTR,int), chstring/CHString::CHString, wmi.chstring_chstring_lpcwstr_int_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

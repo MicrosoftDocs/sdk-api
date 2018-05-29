@@ -1,16 +1,16 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCone
 title: SpatialAudioHrtfDirectivityCone
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a cone-shaped directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitycone.htm
 old-project: CoreAudio
 ms.assetid: C34F26C2-4979-4C06-8EAC-64547745238F
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCone, PSpatialAudioHrtfDirectivityCone structure pointer [Core Audio], SpatialAudioHrtfDirectivityCone, SpatialAudioHrtfDirectivityCone structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycone, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCone, spatialaudiohrtf/SpatialAudioHrtfDirectivityCone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 

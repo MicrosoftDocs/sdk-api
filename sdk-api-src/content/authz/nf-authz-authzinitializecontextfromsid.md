@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromSid
 title: AuthzInitializeContextFromSid function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a user-mode client context from a user security identifier (SID).
 old-location: security\authzinitializecontextfromsid.htm
 old-project: SecAuthZ
 ms.assetid: 402a8641-5644-45c1-80e9-c60321c1ac38
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AUTHZ_COMPUTE_PRIVILEGES, AUTHZ_REQUIRE_S4U_LOGON, AUTHZ_SKIP_TOKEN_GROUPS, AuthzInitializeContextFromSid, AuthzInitializeContextFromSid function [Security], _win32_authzinitializecontextfromsid, authz/AuthzInitializeContextFromSid, security.authzinitializecontextfromsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmap
 title: IWICImagingFactory::CreateBitmap
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWICBitmap object.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmap.htm
 old-project: wic
 ms.assetid: 76741d1e-3e1b-4018-b092-b668ecfd43c9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Windows Imaging Component], CreateBitmap method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmap method, IWICImagingFactory.CreateBitmap, IWICImagingFactory::CreateBitmap, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmap, wic._wic_codec_iwicimagingfactory_createbitmap, wincodec/IWICImagingFactory::CreateBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.SetAutospaceAlpha
 title: ITextFont2::SetAutospaceAlpha
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace alpha&#0034; state.
 old-location: controls\itextfont2_setautospacealpha.htm
 old-project: Controls
 ms.assetid: 8a01677d-74c6-437b-8ee9-350c891c6c3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceAlpha method, ITextFont2.SetAutospaceAlpha, ITextFont2::SetAutospaceAlpha, SetAutospaceAlpha, SetAutospaceAlpha method [Windows Controls], SetAutospaceAlpha method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospacealpha, tom/ITextFont2::SetAutospaceAlpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

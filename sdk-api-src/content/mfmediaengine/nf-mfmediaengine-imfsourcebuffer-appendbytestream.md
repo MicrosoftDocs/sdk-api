@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.AppendByteStream
 title: IMFSourceBuffer::AppendByteStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends the media segment from the specified byte stream to the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_appendbytestream.htm
 old-project: medfound
 ms.assetid: 1a4fc611-4923-48ad-bc92-c3686d855c13
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AppendByteStream, AppendByteStream method [Media Foundation], AppendByteStream method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],AppendByteStream method, IMFSourceBuffer.AppendByteStream, IMFSourceBuffer::AppendByteStream, mf.imfsourcebuffer_appendbytestream, mfmediaengine/IMFSourceBuffer::AppendByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

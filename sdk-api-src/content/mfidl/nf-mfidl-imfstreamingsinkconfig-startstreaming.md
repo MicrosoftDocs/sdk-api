@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFStreamingSinkConfig.StartStreaming
 title: IMFStreamingSinkConfig::StartStreaming
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.
 old-location: mf\imfstreamingsinkconfig_startstreaming.htm
 old-project: medfound
 ms.assetid: 22a75b19-9949-48fe-8844-511b11fbf20b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FALSE, IMFStreamingSinkConfig interface [Media Foundation],StartStreaming method, IMFStreamingSinkConfig.StartStreaming, IMFStreamingSinkConfig::StartStreaming, StartStreaming, StartStreaming method [Media Foundation], StartStreaming method [Media Foundation],IMFStreamingSinkConfig interface, TRUE, mf.imfstreamingsinkconfig_startstreaming, mfidl/IMFStreamingSinkConfig::StartStreaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

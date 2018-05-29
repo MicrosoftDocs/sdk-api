@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddRadioButtonList
 title: IFileDialogCustomize::AddRadioButtonList
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an option button (also known as radio button) group to the dialog.
 old-location: shell\IFileDialogCustomize_AddRadioButtonList.htm
 old-project: shell
 ms.assetid: 9f60b69d-4625-48b7-b265-ab2e9d842fc2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddRadioButtonList, AddRadioButtonList method [Windows Shell], AddRadioButtonList method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddRadioButtonList method, IFileDialogCustomize.AddRadioButtonList, IFileDialogCustomize::AddRadioButtonList, shell.IFileDialogCustomize_AddRadioButtonList, shell_IFileDialogCustomize_AddRadioButtonList, shobjidl_core/IFileDialogCustomize::AddRadioButtonList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

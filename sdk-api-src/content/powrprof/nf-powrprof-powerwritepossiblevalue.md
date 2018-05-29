@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerWritePossibleValue
 title: PowerWritePossibleValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value for a possible value of a power setting.
 old-location: base\powerwritepossiblevalue.htm
 old-project: Power
 ms.assetid: 1c1e2707-fe5e-4199-85c9-c30deca917c5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWritePossibleValue, PowerWritePossibleValue function, base.powerwritepossiblevalue, powrprof/PowerWritePossibleValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

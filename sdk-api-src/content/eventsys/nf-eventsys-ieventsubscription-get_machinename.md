@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_MachineName
 title: IEventSubscription::get_MachineName
-author: windows-driver-content
+author: windows-sdk-content
 description: The name of the computer on which the subscriber should be activated (for a persistent subscription).
 old-location: cos\ieventsubscription_machinename.htm
 old-project: cossdk
 ms.assetid: b56027ac-abe6-4d13-ad3a-254a2f92ab6d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventSubscription interface [COM+],MachineName property, IEventSubscription.MachineName, IEventSubscription.get_MachineName, IEventSubscription::MachineName, IEventSubscription::get_MachineName, IEventSubscription::put_MachineName, MachineName property [COM+], MachineName property [COM+],IEventSubscription interface, cos.ieventsubscription_machinename, eventsys/IEventSubscription::MachineName, eventsys/IEventSubscription::get_MachineName, eventsys/IEventSubscription::put_MachineName, get_MachineName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

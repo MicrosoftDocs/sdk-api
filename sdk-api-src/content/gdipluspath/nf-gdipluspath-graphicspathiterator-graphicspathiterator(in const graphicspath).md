@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GraphicsPathIterator(IN const GraphicsPath)
 title: GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new GraphicsPathIterator::GraphicsPathIterator object and associates it with a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiterator_66path.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+],GraphicsPathIterator constructor, GraphicsPathIterator constructor [GDI+], GraphicsPathIterator constructor [GDI+],GraphicsPathIterator class, GraphicsPathIterator.GraphicsPathIterator, GraphicsPathIterator.GraphicsPathIterator(IN const GraphicsPath), GraphicsPathIterator::GraphicsPathIterator, GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath), _gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

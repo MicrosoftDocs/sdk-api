@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.Effect.Effect
 title: Effect::Effect
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an Effect object.
 old-location: gdiplus\_gdiplus_CLASS_Effect_Effect_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectconstructors\effect.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Effect, Effect class [GDI+],Effect constructor, Effect constructor [GDI+], Effect constructor [GDI+],Effect class, Effect.Effect, Effect::Effect, _gdiplus_CLASS_Effect_Effect_, gdiplus._gdiplus_CLASS_Effect_Effect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

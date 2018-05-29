@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptSignHash
 title: NCryptSignHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a signature of a hash value.
 old-location: security\ncryptsignhash_func.htm
 old-project: SecCNG
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

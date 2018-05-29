@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_TEXTURE_ADDRESS_MODE
 title: D3D12_TEXTURE_ADDRESS_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a technique for resolving texture coordinates that are outside of the boundaries of a texture.
 old-location: direct3d12\d3d12_texture_address_mode.htm
 old-project: direct3d12
 ms.assetid: 7F67C8B6-1B01-49C0-9900-AFDBEDE5508F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEXTURE_ADDRESS_MODE, D3D12_TEXTURE_ADDRESS_MODE enumeration, D3D12_TEXTURE_ADDRESS_MODE_BORDER, D3D12_TEXTURE_ADDRESS_MODE_CLAMP, D3D12_TEXTURE_ADDRESS_MODE_MIRROR, D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE, D3D12_TEXTURE_ADDRESS_MODE_WRAP, d3d12/D3D12_TEXTURE_ADDRESS_MODE, d3d12/D3D12_TEXTURE_ADDRESS_MODE_BORDER, d3d12/D3D12_TEXTURE_ADDRESS_MODE_CLAMP, d3d12/D3D12_TEXTURE_ADDRESS_MODE_MIRROR, d3d12/D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE, d3d12/D3D12_TEXTURE_ADDRESS_MODE_WRAP, direct3d12.d3d12_texture_address_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

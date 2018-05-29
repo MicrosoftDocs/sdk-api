@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.put_PivotPointX
 title: IManipulationProcessor::put_PivotPointX
-author: windows-driver-content
+author: windows-sdk-content
 description: The PivotPointX property is the horizontal center of the object.
 old-location: wintouch\imanipulationprocessor_pivotpointx.htm
 old-project: wintouch
 ms.assetid: 52afdf21-8c5d-4da8-aab2-7a8273df5147
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotPointX property, IManipulationProcessor.PivotPointX, IManipulationProcessor.put_PivotPointX, IManipulationProcessor::PivotPointX, IManipulationProcessor::get_PivotPointX, IManipulationProcessor::put_PivotPointX, PivotPointX property [Windows Touch], PivotPointX property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::PivotPointX, manipulations/IManipulationProcessor::get_PivotPointX, manipulations/IManipulationProcessor::put_PivotPointX, put_PivotPointX, wintouch.imanipulationprocessor_pivotpointx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

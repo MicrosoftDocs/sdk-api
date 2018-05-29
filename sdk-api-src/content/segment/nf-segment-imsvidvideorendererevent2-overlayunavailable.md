@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidVideoRendererEvent2.OverlayUnavailable
 title: IMSVidVideoRendererEvent2::OverlayUnavailable
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not implemented.
 old-location: mstv\imsvidvideorendererevent2_overlayunavailable.htm
 old-project: mstv
 ms.assetid: 52571daa-c955-4bd3-bb97-afc480984cdf
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent2.OverlayUnavailable, IMSVidVideoRendererEvent2::OverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent2 interface, mstv.imsvidvideorendererevent2_overlayunavailable, segment/IMSVidVideoRendererEvent2::OverlayUnavailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

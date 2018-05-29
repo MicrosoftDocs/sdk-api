@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstStringA
 title: "_MI_ConstStringA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of MI_Char types.
 old-location: wmi_v2\mi_conststringa.htm
 old-project: wmi_v2
 ms.assetid: 38790be7-1a7d-4ec0-9e7d-b1248fb8952b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstStringA, MI_ConstStringA structure [Windows Management Infrastructure (MI)], _MI_ConstStringA, mi/MI_ConstStringA, wmi._mi_conststringa, wmi_v2.mi_conststringa
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

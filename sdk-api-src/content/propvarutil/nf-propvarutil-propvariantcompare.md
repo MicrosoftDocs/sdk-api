@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantCompare
 title: PropVariantCompare function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two PROPVARIANT structures, based on default comparison units and settings.
 old-location: properties\PropVariantCompare.htm
 old-project: properties
 ms.assetid: f296a583-3af2-4165-8b3a-0b47eba8e89d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties], _shell_PropVariantCompare, properties.PropVariantCompare, propvarutil/PropVariantCompare, shell.PropVariantCompare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

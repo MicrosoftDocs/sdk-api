@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore2.CreateApplication2
 title: IAzAuthorizationStore2::CreateApplication2
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IAzApplication2 object by using the specified name.
 old-location: security\iazauthorizationstore2_createapplication2.htm
 old-project: SecAuthZ
 ms.assetid: d9af40e4-9ed9-4b81-b808-315eef07a96d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateApplication2, CreateApplication2 method [Security], CreateApplication2 method [Security],IAzAuthorizationStore2 interface, IAzAuthorizationStore2 interface [Security],CreateApplication2 method, IAzAuthorizationStore2.CreateApplication2, IAzAuthorizationStore2::CreateApplication2, azroles/IAzAuthorizationStore2::CreateApplication2, security.iazauthorizationstore2_createapplication2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

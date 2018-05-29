@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.SetValue
 title: ILegacyIAccessibleProvider::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the string value of the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_SetValue.htm
 old-project: WinAuto
 ms.assetid: ca0901af-8d79-4aed-876f-0d719657ef12
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],SetValue method, ILegacyIAccessibleProvider.SetValue, ILegacyIAccessibleProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_SetValue, uiauto_ILegacyIAccessibleProvider_SetValue, uiautomationcore/ILegacyIAccessibleProvider::SetValue, winauto.uiauto_ILegacyIAccessibleProvider_SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

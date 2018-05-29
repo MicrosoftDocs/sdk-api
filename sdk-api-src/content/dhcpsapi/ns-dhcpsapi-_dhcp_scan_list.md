@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_SCAN_LIST
 title: "_DHCP_SCAN_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a list of all desynchronized client lease IP address on a DHCPv4 server that must be fixed.
 old-location: dhcp\dhcp_scan_list.htm
 old-project: DHCP
 ms.assetid: 9dc20612-1c08-4493-aab3-b524d8d88251
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_SCAN_LIST, DHCP_SCAN_LIST, DHCP_SCAN_LIST structure [DHCP], LPDHCP_SCAN_LIST, LPDHCP_SCAN_LIST structure pointer [DHCP], _DHCP_SCAN_LIST, dhcp.dhcp_scan_list, dhcpsapi/LPDHCP_SCAN_LIST, dhcpsapi/_DHCP_SCAN_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

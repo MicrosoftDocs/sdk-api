@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.ISchemaLocalizerSupport.Localize
 title: ISchemaLocalizerSupport::Localize
-author: windows-driver-content
+author: windows-sdk-content
 description: Localizes keywords from an input string.
 old-location: search\_search_ISchemaLocalizerSupport_Localize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizersupport\localize.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISchemaLocalizerSupport interface [search],Localize method, ISchemaLocalizerSupport.Localize, ISchemaLocalizerSupport::Localize, Localize, Localize method [search], Localize method [search],ISchemaLocalizerSupport interface, _search_ISchemaLocalizerSupport_Localize, search._search_ISchemaLocalizerSupport_Localize, structuredquery/ISchemaLocalizerSupport::Localize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

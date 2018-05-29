@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetLogInfo
 title: EvtGetLogInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about a channel or log file.
 old-location: wes\evtgetloginfo.htm
 old-project: WES
 ms.assetid: 5261f367-3010-4b6d-9a53-77c908c867d4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetLogInfo, EvtGetLogInfo function [EventLog], wes.evtgetloginfo, winevt/EvtGetLogInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.POPEN_V2_ROUTINE
 title: POPEN_V2_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a resource.
 old-location: mscs\openv2.htm
 old-project: MsCS
 ms.assetid: EA798D15-9458-4F66-8D0E-13DA383552F7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUS_RESDLL_OPEN_RECOVER_MONITOR_STATE, OpenV2, OpenV2 callback, OpenV2 callback function [Failover Cluster], POPEN_V2_ROUTINE, POPEN_V2_ROUTINE callback function [Failover Cluster], mscs.openv2, resapi/OpenV2, resapi/POPEN_V2_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComMethod2Events
 title: IComMethod2Events
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.
 old-location: cos\icommethod2events.htm
 old-project: cossdk
 ms.assetid: e0642cb2-d5f2-4e4b-ad35-7818983ed467
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComMethod2Events, IComMethod2Events interface [COM+], IComMethod2Events interface [COM+],described, _dtc_IComMethod2Events, comsvcs/IComMethod2Events, cos.icommethod2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

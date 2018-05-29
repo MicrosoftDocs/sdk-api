@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagTCITEMHEADERW
 title: tagTCITEMHEADERW
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or receives the attributes of a tab. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEMHEADER structure.
 old-location: controls\TCITEMHEADER.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitemheader.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPTCITEMHEADERW, LPTCITEMHEADER, LPTCITEMHEADER structure pointer [Windows Controls], TCIF_IMAGE, TCIF_RTLREADING, TCIF_TEXT, TCITEMHEADER, TCITEMHEADER structure [Windows Controls], TCITEMHEADERA, TCITEMHEADERW, _win32_TCITEMHEADER, _win32_TCITEMHEADER_cpp, commctrl/LPTCITEMHEADER, commctrl/TCITEMHEADER, commctrl/TCITEMHEADERA, commctrl/TCITEMHEADERW, controls.TCITEMHEADER, controls._win32_TCITEMHEADER, tagTCITEMHEADERW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

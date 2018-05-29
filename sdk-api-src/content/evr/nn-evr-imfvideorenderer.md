@@ -1,16 +1,16 @@
 ---
 UID: NN:evr.IMFVideoRenderer
 title: IMFVideoRenderer
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a new mixer or presenter for the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideorenderer.htm
 old-project: medfound
 ms.assetid: 70596630-5131-460f-9cb3-adcea201c3b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 70596630-5131-460f-9cb3-adcea201c3b2, IMFVideoRenderer, IMFVideoRenderer interface [Media Foundation], IMFVideoRenderer interface [Media Foundation],described, evr/IMFVideoRenderer, mf.imfvideorenderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

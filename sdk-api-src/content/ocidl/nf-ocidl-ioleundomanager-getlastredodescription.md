@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleUndoManager.GetLastRedoDescription
 title: IOleUndoManager::GetLastRedoDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the description for the top-level undo unit that is on top of the redo stack.
 old-location: com\ioleundomanager_getlastredodescription.htm
 old-project: com
 ms.assetid: b3d514cf-1d1f-4b5b-89f6-d0e03aa794cc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLastRedoDescription, GetLastRedoDescription method [COM], GetLastRedoDescription method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],GetLastRedoDescription method, IOleUndoManager.GetLastRedoDescription, IOleUndoManager::GetLastRedoDescription, _ole_ioleundomanager_getlastredodescription, com.ioleundomanager_getlastredodescription, ocidl/IOleUndoManager::GetLastRedoDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

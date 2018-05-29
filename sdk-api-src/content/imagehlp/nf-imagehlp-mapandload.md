@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.MapAndLoad
 title: MapAndLoad function
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps an image and preloads data from the mapped file.
 old-location: base\mapandload.htm
 old-project: Debug
 ms.assetid: 42d5ea46-4b89-4d93-b9a9-18c2855df193
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: MapAndLoad, MapAndLoad function, _win32_mapandload, base.mapandload, imagehlp/MapAndLoad
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

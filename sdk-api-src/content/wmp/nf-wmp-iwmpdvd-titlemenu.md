@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPDVD.titleMenu
 title: IWMPDVD::titleMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: The titleMenu method stops playback and displays the title menu.
 old-location: wmp\iwmpdvd_titlemenu.htm
 old-project: WMP
 ms.assetid: 93a06367-5b0b-421d-abef-f6cd23e5b0d5
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],titleMenu method, IWMPDVD.titleMenu, IWMPDVD::titleMenu, IWMPDVDtitleMenu, titleMenu, titleMenu method [Windows Media Player], titleMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_titlemenu, wmp/IWMPDVD::titleMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dssec.DSCreateISecurityInfoObjectEx
 title: DSCreateISecurityInfoObjectEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the ISecurityInformation interface associated with the specified directory service (DS) object on the specified server.
 old-location: security\dscreateisecurityinfoobjectex.htm
 old-project: SecAuthZ
 ms.assetid: b0622c7b-49f2-4879-a0dc-9267851fe03d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DSCreateISecurityInfoObjectEx, DSCreateISecurityInfoObjectEx function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateISecurityInfoObjectEx, security.dscreateisecurityinfoobjectex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dssec.h
 req.include-header: 

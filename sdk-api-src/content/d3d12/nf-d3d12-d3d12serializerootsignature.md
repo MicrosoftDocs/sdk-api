@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.D3D12SerializeRootSignature
 title: D3D12SerializeRootSignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes a root signature version 1.0 that can be passed to ID3D12Device::CreateRootSignature.
 old-location: direct3d12\d3d12serializerootsignature.htm
 old-project: direct3d12
 ms.assetid: ACC46F5E-1074-41B3-8D13-9FD4352DBF66
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12SerializeRootSignature, D3D12SerializeRootSignature function, d3d12/D3D12SerializeRootSignature, direct3d12.d3d12serializerootsignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 

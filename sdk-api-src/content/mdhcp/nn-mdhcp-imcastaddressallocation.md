@@ -1,16 +1,16 @@
 ---
 UID: NN:mdhcp.IMcastAddressAllocation
 title: IMcastAddressAllocation
-author: windows-driver-content
+author: windows-sdk-content
 description: IMcastAddressAllocation is the main interface for multicast address allocation. An application calls the COM CoCreateInstance function on this interface to create the multicast client interface object.
 old-location: tapi3\imcastaddressallocation.htm
 old-project: Tapi
 ms.assetid: 359e67bb-9a5b-4caa-8d3b-eb0739b0828f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], IMcastAddressAllocation interface [TAPI 2.2],described, _tapi3_imcastaddressallocation, mdhcp/IMcastAddressAllocation, tapi3.imcastaddressallocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mdhcp.h
 req.include-header: 

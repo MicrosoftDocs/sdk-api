@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.lineinitializeexparams_tag
 title: lineinitializeexparams_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEINITIZALIZEEXPARAMS structure describes parameters supplied when making calls using LINEINITIALIZEEX.
 old-location: tapi2\lineinitializeexparams_str.htm
 old-project: Tapi
 ms.assetid: 17fed282-6d08-4702-9ceb-9cbcc3737395
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS structure [TAPI 2.2], LPLINEINITIALIZEEXPARAMS, LPLINEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], _tapi2_lineinitializeexparams_str, lineinitializeexparams_tag, tapi/LINEINITIALIZEEXPARAMS, tapi/LPLINEINITIALIZEEXPARAMS, tapi2.lineinitializeexparams_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

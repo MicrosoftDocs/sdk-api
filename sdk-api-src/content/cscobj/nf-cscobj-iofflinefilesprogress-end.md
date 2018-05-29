@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.End
 title: IOfflineFilesProgress::End
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an operation has ended.
 old-location: of\iofflinefilesprogress_end.htm
 old-project: OfflineFiles
 ms.assetid: b3d09f2e-29d5-496f-a046-4ba067e642a6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: End, End method [Offline Files], End method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],End method, IOfflineFilesProgress.End, IOfflineFilesProgress::End, cscobj/IOfflineFilesProgress::End, of.iofflinefilesprogress_end
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:tom.ITextFont2
 title: ITextFont2
-author: windows-driver-content
+author: windows-sdk-content
 description: In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, ITextFont and ITextPara.
 old-location: controls\itextfont2.htm
 old-project: Controls
 ms.assetid: d2d43bfd-7cdf-458a-822d-e3965bfe2284
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], ITextFont2 interface [Windows Controls],described, controls.itextfont2, tom/ITextFont2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

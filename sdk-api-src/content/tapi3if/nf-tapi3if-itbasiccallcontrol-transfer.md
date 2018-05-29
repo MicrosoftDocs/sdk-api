@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Transfer
 title: ITBasicCallControl::Transfer
-author: windows-driver-content
+author: windows-sdk-content
 description: The Transfer method transfers the current call to the destination address.
 old-location: tapi3\itbasiccallcontrol_transfer.htm
 old-project: Tapi
 ms.assetid: 4f2a06e6-9f0b-4bf3-9f18-6e9f57c4b02f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Transfer method, ITBasicCallControl.Transfer, ITBasicCallControl::Transfer, Transfer, Transfer method [TAPI 2.2], Transfer method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_transfer, tapi3.itbasiccallcontrol_transfer, tapi3if/ITBasicCallControl::Transfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

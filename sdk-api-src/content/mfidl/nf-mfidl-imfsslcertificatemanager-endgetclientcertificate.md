@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.EndGetClientCertificate
 title: IMFSSLCertificateManager::EndGetClientCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous request to get the client SSL certificate.
 old-location: mf\imfsslcertificatemanager_endgetclientcertificate.htm
 old-project: medfound
 ms.assetid: 25cd2ab0-7f58-4bd5-b594-75a3acbdc2d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndGetClientCertificate, EndGetClientCertificate method [Media Foundation], EndGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],EndGetClientCertificate method, IMFSSLCertificateManager.EndGetClientCertificate, IMFSSLCertificateManager::EndGetClientCertificate, mf.imfsslcertificatemanager_endgetclientcertificate, mfidl/IMFSSLCertificateManager::EndGetClientCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

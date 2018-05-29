@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptionAlgorithm
 title: IX509AttributeArchiveKey::get_EncryptionAlgorithm
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the symmetric encryption algorithm used to encrypt the private key.
 old-location: security\ix509attributearchivekey_encryptionalgorithm_property.htm
 old-project: SecCertEnroll
 ms.assetid: 7aef6c1e-c3f1-4124-b397-bf13ca610135
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509AttributeArchiveKey interface, IX509AttributeArchiveKey interface [Security],EncryptionAlgorithm property, IX509AttributeArchiveKey.EncryptionAlgorithm, IX509AttributeArchiveKey.get_EncryptionAlgorithm, IX509AttributeArchiveKey::EncryptionAlgorithm, IX509AttributeArchiveKey::get_EncryptionAlgorithm, certenroll/IX509AttributeArchiveKey::EncryptionAlgorithm, certenroll/IX509AttributeArchiveKey::get_EncryptionAlgorithm, get_EncryptionAlgorithm, security.ix509attributearchivekey_encryptionalgorithm_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

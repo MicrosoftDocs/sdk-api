@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.AccNotifyTouchInteraction
 title: AccNotifyTouchInteraction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows an assistive technology (AT) application to notify the system that it is interacting with UI through a Windows Automation API (such as Microsoft UI Automation) as a result of a touch gesture from the user.
 old-location: winauto\accnotifytouchinteraction.htm
 old-project: WinAuto
 ms.assetid: CB533913-95A7-45D5-B0D3-E931E4F73B2E
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AccNotifyTouchInteraction, AccNotifyTouchInteraction function [Windows Accessibility], oleacc/AccNotifyTouchInteraction, winauto.accnotifytouchinteraction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

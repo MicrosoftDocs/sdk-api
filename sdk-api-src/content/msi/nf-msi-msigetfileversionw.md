@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetFileVersionW
 title: MsiGetFileVersionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetFileVersion returns the version string and language string in the format that the installer expects to find them in the database.
 old-location: setup\msigetfileversion.htm
 old-project: Msi
 ms.assetid: 9dd7d71e-2e76-4755-a979-f3dcdcd6ebec
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetFileVersion, MsiGetFileVersion function, MsiGetFileVersionA, MsiGetFileVersionW, _msi_msigetfileversion, msi/MsiGetFileVersion, msi/MsiGetFileVersionA, msi/MsiGetFileVersionW, setup.msigetfileversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

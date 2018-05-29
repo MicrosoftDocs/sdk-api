@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.PifMgr_OpenProperties
 title: PifMgr_OpenProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the .pif file associated with a Microsoft MS-DOS application, and returns a handle to the application's properties.
 old-location: properties\PifMgr_OpenProperties.htm
 old-project: properties
 ms.assetid: 0bc11528-7278-4765-b3cb-671ba82c9155
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPENPROPS_INHIBITPIF, OPENPROPS_NONE, PifMgr_OpenProperties, PifMgr_OpenProperties function [Windows Properties], _win32_PifMgr_OpenProperties, properties.PifMgr_OpenProperties, shell.PifMgr_OpenProperties, shlobj_core/PifMgr_OpenProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw.tagCaptureParms
 title: tagCaptureParms
-author: windows-driver-content
+author: windows-sdk-content
 description: The CAPTUREPARMS structure contains parameters that control the streaming video capture process. This structure is used to get and set parameters that affect the capture rate, the number of buffers to use while capturing, and how capture is terminated.
 old-location: multimedia\captureparms.htm
 old-project: Multimedia
 ms.assetid: 6bf7e374-5991-4a7b-984a-628d3e77b2d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPCAPTUREPARMS, *PCAPTUREPARMS, CAPTUREPARMS, CAPTUREPARMS structure [Windows Multimedia], _win32_CAPTUREPARMS_str, multimedia.captureparms, tagCaptureParms, vfw/CAPTUREPARMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITDigitGenerationEvent.get_CallbackInstance
 title: ITDigitGenerationEvent::get_CallbackInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
 old-location: tapi3\itdigitgenerationevent_get_callbackinstance.htm
 old-project: Tapi
 ms.assetid: e0cc1e75-bdc2-4b05-a83b-13e4778ed75b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_CallbackInstance method, ITDigitGenerationEvent.get_CallbackInstance, ITDigitGenerationEvent::get_CallbackInstance, _tapi3_itdigitgenerationevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_callbackinstance, tapi3if/ITDigitGenerationEvent::get_CallbackInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

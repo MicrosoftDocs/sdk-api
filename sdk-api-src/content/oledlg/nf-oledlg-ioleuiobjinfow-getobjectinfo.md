@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.GetObjectInfo
 title: IOleUIObjInfoW::GetObjectInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size, type, name, and location information for an object.
 old-location: com\ioleuiobjinfo_getobjectinfo.htm
 old-project: com
 ms.assetid: d09aafd0-0f4b-42c4-b1e6-0656cf0bd02d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetObjectInfo, GetObjectInfo method [COM], GetObjectInfo method [COM],IOleUIObjInfo interface, GetObjectInfo method [COM],IOleUIObjInfoA interface, GetObjectInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetObjectInfo method, IOleUIObjInfo::GetObjectInfo, IOleUIObjInfoA interface [COM],GetObjectInfo method, IOleUIObjInfoA::GetObjectInfo, IOleUIObjInfoW interface [COM],GetObjectInfo method, IOleUIObjInfoW.GetObjectInfo, IOleUIObjInfoW::GetObjectInfo, _ole_IOleUIObjInfo_GetObjectInfo, com.ioleuiobjinfo_getobjectinfo, oledlg/IOleUIObjInfo::GetObjectInfo, oledlg/IOleUIObjInfoA::GetObjectInfo, oledlg/IOleUIObjInfoW::GetObjectInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 

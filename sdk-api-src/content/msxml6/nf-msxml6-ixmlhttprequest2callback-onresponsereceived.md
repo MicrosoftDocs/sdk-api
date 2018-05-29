@@ -1,16 +1,16 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnResponseReceived
 title: IXMLHTTPRequest2Callback::OnResponseReceived
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when a client has received a complete response from the server.
 old-location: ixhr2\ixmlhttprequest2callback_onresponsereceived.htm
 old-project: ixhr2
 ms.assetid: 5D1D4D4B-CC49-4A63-A0D5-B29D618E80DE
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnResponseReceived method, IXMLHTTPRequest2Callback.OnResponseReceived, IXMLHTTPRequest2Callback::OnResponseReceived, OnResponseReceived, OnResponseReceived method [XMLHttpRequest2], OnResponseReceived method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onresponsereceived, msxml6/IXMLHTTPRequest2Callback::OnResponseReceived
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

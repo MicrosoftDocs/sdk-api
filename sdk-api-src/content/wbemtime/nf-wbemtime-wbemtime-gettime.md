@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetTime
 title: WBEMTime::GetTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTime method returns the time as a 64-bit integer.
 old-location: wmi\wbemtime_gettime.htm
 old-project: WmiSdk
 ms.assetid: 1690d33d-c39b-448e-889e-48dce1933fc1
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetTime method, WBEMTime.GetTime, WBEMTime::GetTime, _hmm_wbemtime_gettime, wbemtime/WBEMTime::GetTime, wmi.wbemtime_gettime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

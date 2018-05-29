@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.get_SignerCertificate
 title: IX509CertificateRequestCertificate::get_SignerCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves the ISignerCertificate object used to sign the certificate.
 old-location: security\ix509certificaterequestcertificate_signercertificate_property.htm
 old-project: SecCertEnroll
 ms.assetid: e3a66651-aa0d-4dbb-afb1-f2492e27fec1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],SignerCertificate property, IX509CertificateRequestCertificate.SignerCertificate, IX509CertificateRequestCertificate.get_SignerCertificate, IX509CertificateRequestCertificate::SignerCertificate, IX509CertificateRequestCertificate::get_SignerCertificate, IX509CertificateRequestCertificate::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::SignerCertificate, certenroll/IX509CertificateRequestCertificate::get_SignerCertificate, certenroll/IX509CertificateRequestCertificate::put_SignerCertificate, get_SignerCertificate, security.ix509certificaterequestcertificate_signercertificate_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

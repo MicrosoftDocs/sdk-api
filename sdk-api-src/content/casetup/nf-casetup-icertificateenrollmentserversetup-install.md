@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.Install
 title: ICertificateEnrollmentServerSetup::Install
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs the Certificate Enrollment Web Service (CES) configured by the ICertificateEnrollmentServerSetup object.
 old-location: security\icertificateenrollmentserversetup_install.htm
 old-project: SecCrypto
 ms.assetid: 35578035-1D09-48AD-B6F5-7314C989B519
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],Install method, ICertificateEnrollmentServerSetup.Install, ICertificateEnrollmentServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

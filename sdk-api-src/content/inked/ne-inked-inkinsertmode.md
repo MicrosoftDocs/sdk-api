@@ -1,16 +1,16 @@
 ---
 UID: NE:inked.InkInsertMode
 title: InkInsertMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how ink is inserted onto the InkEdit control.
 old-location: tablet\inkinsertmode.htm
 old-project: tablet
 ms.assetid: ab15cf9f-c3c8-4cdb-9350-ffa734e4da35
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEM_InsertAsInk, IEM_InsertAsText, InkInsertMode, InkInsertMode enumeration [Tablet PC], ab15cf9f-c3c8-4cdb-9350-ffa734e4da35, inked/IEM_InsertAsInk, inked/IEM_InsertAsText, inked/InkInsertMode, tablet.inkinsertmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

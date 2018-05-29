@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IColumnManager.GetColumnInfo
 title: IColumnManager::GetColumnInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about each column:\_width, visibility, display name, and state.
 old-location: shell\IColumnManager_GetColumnInfo.htm
 old-project: shell
 ms.assetid: 22b3e5a6-a0a1-46e4-91b8-7bfe3944fffb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumnInfo method, IColumnManager.GetColumnInfo, IColumnManager::GetColumnInfo, shell.IColumnManager_GetColumnInfo, shell_IColumnManager_GetColumnInfo, shobjidl_core/IColumnManager::GetColumnInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

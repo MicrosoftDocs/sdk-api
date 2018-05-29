@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromBooleanArray
 title: InitVariantFromBooleanArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure from an array of Boolean values.
 old-location: properties\InitVariantFromBooleanArray.htm
 old-project: properties
 ms.assetid: 50780131-c0ed-443b-86e8-deb996a5c98e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromBooleanArray, InitVariantFromBooleanArray function [Windows Properties], _shell_InitVariantFromBooleanArray, properties.InitVariantFromBooleanArray, propvarutil/InitVariantFromBooleanArray, shell.InitVariantFromBooleanArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

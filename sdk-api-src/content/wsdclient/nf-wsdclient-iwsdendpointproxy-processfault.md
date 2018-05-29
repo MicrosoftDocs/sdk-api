@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.ProcessFault
 title: IWSDEndpointProxy::ProcessFault
-author: windows-driver-content
+author: windows-sdk-content
 description: Processes a SOAP fault retrieved by GetFaultInfo.
 old-location: ncd\iwsdendpointproxy_processfault.htm
 old-project: WsdApi
 ms.assetid: f63c8c7c-8581-49d4-a29d-a7b0b46a2db5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDEndpointProxy interface,ProcessFault method, IWSDEndpointProxy.ProcessFault, IWSDEndpointProxy::ProcessFault, ProcessFault, ProcessFault method, ProcessFault method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_processfault, wsdclient/IWSDEndpointProxy::ProcessFault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

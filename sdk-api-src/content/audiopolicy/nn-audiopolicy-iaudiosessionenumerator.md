@@ -1,16 +1,16 @@
 ---
 UID: NN:audiopolicy.IAudioSessionEnumerator
 title: IAudioSessionEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioSessionEnumerator interface enumerates audio sessions on an audio device.
 old-location: coreaudio\iaudiosessionenumerator.htm
 old-project: CoreAudio
 ms.assetid: a7976d13-3391-4747-b83a-cfb9407b34f2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Audio], IAudioSessionEnumerator interface [Core Audio],described, audiopolicy/IAudioSessionEnumerator, coreaudio.iaudiosessionenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.ResumeScreenUpdates
 title: IRemoteDesktopClientActions::ResumeScreenUpdates
-author: windows-driver-content
+author: windows-sdk-content
 description: Resumes screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_resumescreenupdates.htm
 old-project: TermServ
 ms.assetid: be11f1c8-eb55-4ed3-80ca-eda9ee21c92c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],ResumeScreenUpdates method, IRemoteDesktopClientActions.ResumeScreenUpdates, IRemoteDesktopClientActions::ResumeScreenUpdates, ResumeScreenUpdates, ResumeScreenUpdates method [Remote Desktop Services], ResumeScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::ResumeScreenUpdates, termserv.iremotedesktopclientactions_resumescreenupdates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaSP1OrGreater
 title: IsWindowsVistaSP1OrGreater function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 1 (SP1) version.
 old-location: base\iswindowsvistasp1orgreater.htm
 old-project: SysInfo
 ms.assetid: 7E74A761-E336-4618-B92F-166C3DF1FF66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsWindowsVistaSP1OrGreater, IsWindowsVistaSP1OrGreater function, base.iswindowsvistasp1orgreater, versionhelpers/IsWindowsVistaSP1OrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

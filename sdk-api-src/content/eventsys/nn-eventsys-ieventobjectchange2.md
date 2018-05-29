@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IEventObjectChange2
 title: IEventObjectChange2
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies subscribers of changes to the event store while including partition and application ID information.
 old-location: cos\ieventobjectchange2.htm
 old-project: cossdk
 ms.assetid: 1b51c7ad-eae7-4030-81c2-ed9259648d31
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventObjectChange2, IEventObjectChange2 interface [COM+], IEventObjectChange2 interface [COM+],described, _cos_IEventObjectChange2, cos.ieventobjectchange2, eventsys/IEventObjectChange2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

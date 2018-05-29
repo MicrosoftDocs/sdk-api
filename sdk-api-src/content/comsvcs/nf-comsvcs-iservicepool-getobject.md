@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServicePool.GetObject
 title: IServicePool::GetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object from the object pool.
 old-location: cos\iservicepool_getobject.htm
 old-project: cossdk
 ms.assetid: f1b9487a-156c-4c2c-ab18-edfd66d96315
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetObject, GetObject method [COM+], GetObject method [COM+],IServicePool interface, IServicePool interface [COM+],GetObject method, IServicePool.GetObject, IServicePool::GetObject, _cos_IServicePool_GetObject, comsvcs/IServicePool::GetObject, cos.iservicepool_getobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

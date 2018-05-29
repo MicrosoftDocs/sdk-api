@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi.CLUSTERVERSIONINFO
 title: CLUSTERVERSIONINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes information about the version of the Cluster service installed locally on a node.
 old-location: mscs\clusterversioninfo.htm
 old-project: MsCS
 ms.assetid: e1cecdbc-f0e4-4ee8-9a97-14859ceba5fd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPCLUSTERVERSIONINFO, *PCLUSTERVERSIONINFO, CLUSTERVERSIONINFO, CLUSTERVERSIONINFO structure [Failover Cluster], LPCLUSTERVERSIONINFO, LPCLUSTERVERSIONINFO structure pointer [Failover Cluster], PCLUSTERVERSIONINFO, PCLUSTERVERSIONINFO structure pointer [Failover Cluster], _wolf_clusterversioninfo, clusapi/CLUSTERVERSIONINFO, clusapi/LPCLUSTERVERSIONINFO, clusapi/PCLUSTERVERSIONINFO, mscs.clusterversioninfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

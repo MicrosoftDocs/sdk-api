@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyChange
 title: IPropertyChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that encapsulates a change to a single property.
 old-location: properties\IPropertyChange.htm
 old-project: properties
 ms.assetid: 7bdc31d8-ba03-4010-8aa1-89701ebbf8cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyChange, IPropertyChange interface [Windows Properties], IPropertyChange interface [Windows Properties],described, _shell_IPropertyChange, properties.IPropertyChange, propsys/IPropertyChange, shell.IPropertyChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

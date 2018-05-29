@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.Windows
 title: IShellDispatch::Windows
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and returns a ShellWindows object. This object represents a collection of all of the open windows that belong to the Shell.
 old-location: shell\IShellDispatch_Windows.htm
 old-project: shell
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],Windows method, IShellDispatch.Windows, IShellDispatch::Windows, Windows, Windows method [Windows Shell], Windows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Windows
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

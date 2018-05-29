@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkGesture
 title: IInkGesture
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the ability to query particular properties of a gesture returned from a gesture recognition.
 old-location: tablet\iinkgesture.htm
 old-project: tablet
 ms.assetid: 87a1db34-371e-4c02-a470-55f35dfbf4ab
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 87a1db34-371e-4c02-a470-55f35dfbf4ab, IInkGesture, IInkGesture interface [Tablet PC], IInkGesture interface [Tablet PC],described, msinkaut/IInkGesture, tablet.iinkgesture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

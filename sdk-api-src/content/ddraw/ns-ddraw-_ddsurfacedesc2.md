@@ -1,16 +1,16 @@
 ---
 UID: NS:ddraw._DDSURFACEDESC2
 title: "_DDSURFACEDESC2"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDSURFACEDESC2 structure contains a description of a surface.
 old-location: directdraw\ddsurfacedesc2.htm
 old-project: directdraw
 ms.assetid: 507c557f-eb3a-429c-a738-8d715e5d71d3
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPDDSURFACEDESC2, DDSD_ALL, DDSD_ALPHABITDEPTH, DDSD_BACKBUFFERCOUNT, DDSD_CAPS, DDSD_CKDESTBLT, DDSD_CKDESTOVERLAY, DDSD_CKSRCBLT, DDSD_CKSRCOVERLAY, DDSD_HEIGHT, DDSD_LINEARSIZE, DDSD_LPSURFACE, DDSD_MIPMAPCOUNT, DDSD_PITCH, DDSD_PIXELFORMAT, DDSD_REFRESHRATE, DDSD_TEXTURESTAGE, DDSD_WIDTH, DDSD_ZBUFFERBITDEPTH, DDSURFACEDESC2, DDSURFACEDESC2 structure [DirectDraw], LPDDSURFACEDESC2, LPDDSURFACEDESC2 structure pointer [DirectDraw], _DDSURFACEDESC2, ddraw/DDSURFACEDESC2, ddraw/LPDDSURFACEDESC2, directdraw.ddsurfacedesc2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

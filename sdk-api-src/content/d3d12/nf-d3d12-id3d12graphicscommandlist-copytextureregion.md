@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyTextureRegion
 title: ID3D12GraphicsCommandList::CopyTextureRegion
-author: windows-driver-content
+author: windows-sdk-content
 description: This method uses the GPU to copy texture data between two locations. Both the source and the destination may reference texture data located within either a buffer resource or a texture resource.
 old-location: direct3d12\id3d12graphicscommandlist_copytextureregion.htm
 old-project: direct3d12
 ms.assetid: 2EAFC6B9-376C-4801-8E53-BF0DB08943AA
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CopyTextureRegion, CopyTextureRegion method, CopyTextureRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyTextureRegion method, ID3D12GraphicsCommandList.CopyTextureRegion, ID3D12GraphicsCommandList::CopyTextureRegion, d3d12/ID3D12GraphicsCommandList::CopyTextureRegion, direct3d12.id3d12graphicscommandlist_copytextureregion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

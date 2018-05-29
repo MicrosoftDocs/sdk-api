@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegSetKeyValueW
 title: RegSetKeyValueW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the data for the specified value in the specified registry key and subkey.
 old-location: base\regsetkeyvalue.htm
 old-project: SysInfo
 ms.assetid: e27d2dd6-b139-4ac1-8dd8-527022333364
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegSetKeyValue, RegSetKeyValue function, RegSetKeyValueA, RegSetKeyValueW, base.regsetkeyvalue, winreg/RegSetKeyValue, winreg/RegSetKeyValueA, winreg/RegSetKeyValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

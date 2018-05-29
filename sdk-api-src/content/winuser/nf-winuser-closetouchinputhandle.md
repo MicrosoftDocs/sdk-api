@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CloseTouchInputHandle
 title: CloseTouchInputHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a touch input handle, frees process memory associated with it, and invalidates the handle.
 old-location: wintouch\closetouchinputhandle.htm
 old-project: wintouch
 ms.assetid: bdc8bb94-3126-4183-9dfd-ba4844d98f29
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: CloseTouchInputHandle, CloseTouchInputHandle function [Windows Touch], wintouch.closetouchinputhandle, winuser/CloseTouchInputHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

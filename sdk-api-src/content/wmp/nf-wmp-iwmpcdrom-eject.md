@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPCdrom.eject
 title: IWMPCdrom::eject
-author: windows-driver-content
+author: windows-sdk-content
 description: The eject method ejects the CD or DVD from the drive.
 old-location: wmp\iwmpcdrom_eject.htm
 old-project: WMP
 ms.assetid: 1b17c405-0887-4948-b375-c1ebcf2a72b3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],eject method, IWMPCdrom.eject, IWMPCdrom::eject, IWMPCdromeject, eject, eject method [Windows Media Player], eject method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_eject, wmp/IWMPCdrom::eject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

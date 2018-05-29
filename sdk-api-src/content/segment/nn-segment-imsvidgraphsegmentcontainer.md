@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidGraphSegmentContainer
 title: IMSVidGraphSegmentContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidGraphSegmentContainer interface is exposed by the Video Control and contains one supported method, get_Graph, which obtains a pointer to the Filter Graph Manager.
 old-location: mstv\imsvidgraphsegmentcontainer.htm
 old-project: mstv
 ms.assetid: a314693f-8fc2-4816-b64b-d5f8886da39e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidGraphSegmentContainer, IMSVidGraphSegmentContainer interface [Microsoft TV Technologies], IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],described, IMSVidGraphSegmentContainerInterface, mstv.imsvidgraphsegmentcontainer, segment/IMSVidGraphSegmentContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

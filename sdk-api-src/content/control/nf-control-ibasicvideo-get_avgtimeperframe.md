@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.get_AvgTimePerFrame
 title: IBasicVideo::get_AvgTimePerFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AvgTimePerFrame method retrieves the average time between successive frames.
 old-location: dshow\ibasicvideo_get_avgtimeperframe.htm
 old-project: DirectShow
 ms.assetid: a32a1a46-cde3-401a-b933-c72e399e9ea1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_AvgTimePerFrame method, IBasicVideo.get_AvgTimePerFrame, IBasicVideo::get_AvgTimePerFrame, IBasicVideoget_AvgTimePerFrame, control/IBasicVideo::get_AvgTimePerFrame, dshow.ibasicvideo_get_avgtimeperframe, get_AvgTimePerFrame, get_AvgTimePerFrame method [DirectShow], get_AvgTimePerFrame method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

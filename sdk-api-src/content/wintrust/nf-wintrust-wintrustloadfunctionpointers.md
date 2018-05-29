@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WintrustLoadFunctionPointers
 title: WintrustLoadFunctionPointers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads function entry points for a specified action GUID. This function has no associated import library.
 old-location: security\wintrustloadfunctionpointers.htm
 old-project: SecCrypto
 ms.assetid: c36db226-34b4-4a31-b8c6-b9d124acc669
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustLoadFunctionPointers, WintrustLoadFunctionPointers function [Security], security.wintrustloadfunctionpointers, wintrust/WintrustLoadFunctionPointers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

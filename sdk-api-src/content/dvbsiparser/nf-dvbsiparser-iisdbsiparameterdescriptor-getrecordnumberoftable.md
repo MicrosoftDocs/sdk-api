@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetRecordNumberOfTable
 title: IIsdbSIParameterDescriptor::GetRecordNumberOfTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of table descriptors in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_getrecordnumberoftable.htm
 old-project: mstv
 ms.assetid: 12f7af61-494e-4597-8672-47ea9552be62
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordNumberOfTable, GetRecordNumberOfTable method [Microsoft TV Technologies], GetRecordNumberOfTable method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfTable method, IIsdbSIParameterDescriptor.GetRecordNumberOfTable, IIsdbSIParameterDescriptor::GetRecordNumberOfTable, dvbsiparser/IIsdbSIParameterDescriptor::GetRecordNumberOfTable, mstv.iisdbsiparameterdescriptor_getrecordnumberoftable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

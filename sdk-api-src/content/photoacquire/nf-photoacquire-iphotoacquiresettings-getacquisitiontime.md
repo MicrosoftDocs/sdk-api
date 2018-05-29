@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetAcquisitionTime
 title: IPhotoAcquireSettings::GetAcquisitionTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAcquisitionTime method retrieves the acquisition time of the current session.
 old-location: picacq\iphotoacquiresettings_getacquisitiontime.htm
 old-project: acquisition
 ms.assetid: 0acafc4d-e4f5-4dce-a192-18d27024ad83
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetAcquisitionTime, GetAcquisitionTime method [Picture Acquisition], GetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetAcquisitionTime method, IPhotoAcquireSettings.GetAcquisitionTime, IPhotoAcquireSettings::GetAcquisitionTime, IPhotoAcquireSettingsGetAcquisitionTime, photoacquire/IPhotoAcquireSettings::GetAcquisitionTime, picacq.iphotoacquiresettings_getacquisitiontime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

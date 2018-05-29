@@ -1,16 +1,16 @@
 ---
 UID: NC:ras.PFNRASSENDBUFFER
 title: PFNRASSENDBUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: The custom-scripting DLL calls the RasSendBuffer function to send data to the server over the specified port.
 old-location: rras\rassendbuffer.htm
 old-project: RRAS
 ms.assetid: 157a2bc7-351f-4170-b85b-ed789b4997ab
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PFNRASSENDBUFFER, PFNRASSENDBUFFER callback, RasSendBuffer, RasSendBuffer callback function [RAS], _ras_rassendbuffer, ras/RasSendBuffer, rras.rassendbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

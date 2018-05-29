@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_EVICT_CLUSTER_NODE
 title: PCLUSAPI_EVICT_CLUSTER_NODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a node from the cluster database.
 old-location: mscs\evictclusternode.htm
 old-project: MsCS
 ms.assetid: 0353b640-5fa6-4e83-a7e5-1b4bd2ca16d9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_EVICT_CLUSTER_NODE, PCLUSAPI_EVICT_CLUSTER_NODE callback, PCLUSAPI_EVICT_CLUSTER_NODE callback function [Failover Cluster], _wolf_evictclusternode, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE, mscs.evictclusternode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Registry_PropertyW
 title: CM_Get_Class_Registry_PropertyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Class_Registry_Property function retrieves a device setup class property.
 old-location: devinst\cm_get_class_registry_property.htm
 old-project: devinst
 ms.assetid: 2247771d-5edd-47c3-8635-586bf815544a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Class_Registry_Property, CM_Get_Class_Registry_Property function [Device and Driver Installation], CM_Get_Class_Registry_PropertyW, cfgmgr32/CM_Get_Class_Registry_Property, cfgmgr32/CM_Get_Class_Registry_PropertyW, cfgmgrfn_d6abfa4e-81ee-4f56-8b0f-9c4cf8b2f632.xml, devinst.cm_get_class_registry_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

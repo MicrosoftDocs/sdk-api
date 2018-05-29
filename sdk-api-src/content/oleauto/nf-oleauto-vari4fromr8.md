@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI4FromR8
 title: VarI4FromR8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a double value to a long value.
 old-location: automat\vari4fromr8.htm
 old-project: automat
 ms.assetid: 370113c5-280c-4c69-8f67-45c7f2d84976
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI4FromR8, VarI4FromR8 function [Automation], _oa96_VarI4FromR8, automat.vari4fromr8, oleauto/VarI4FromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

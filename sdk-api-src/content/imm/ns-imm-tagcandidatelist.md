@@ -1,16 +1,16 @@
 ---
 UID: NS:imm.tagCANDIDATELIST
 title: tagCANDIDATELIST
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a candidate list.
 old-location: intl\candidatelist.htm
 old-project: Intl
 ms.assetid: d60b28fb-0cdd-43b4-8d99-cb829bea6679
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCANDIDATELIST, *NPCANDIDATELIST, *PCANDIDATELIST, CANDIDATELIST, CANDIDATELIST structure [Internationalization for Windows Applications], PCANDIDATELIST, PCANDIDATELIST structure pointer [Internationalization for Windows Applications], _win32_CANDIDATELIST_str, imm/CANDIDATELIST, imm/PCANDIDATELIST, intl.candidatelist, tagCANDIDATELIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h

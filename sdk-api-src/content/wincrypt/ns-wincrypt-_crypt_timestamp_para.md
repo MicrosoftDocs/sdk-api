@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_PARA
 title: "_CRYPT_TIMESTAMP_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines additional parameters for the time stamp request.
 old-location: security\crypt_timestamp_para.htm
 old-project: SecCrypto
 ms.assetid: 26a6e9d3-b35e-47ae-9cea-a37ca6297c28
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA structure [Security], PCRYPT_TIMESTAMP_PARA, PCRYPT_TIMESTAMP_PARA structure pointer [Security], _CRYPT_TIMESTAMP_PARA, security.crypt_timestamp_para, wincrypt/CRYPT_TIMESTAMP_PARA, wincrypt/PCRYPT_TIMESTAMP_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

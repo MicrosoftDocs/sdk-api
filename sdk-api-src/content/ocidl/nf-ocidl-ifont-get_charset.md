@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IFont.get_Charset
 title: IFont::get_Charset
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the character set used in the font.
 old-location: com\ifont_get_charset.htm
 old-project: com
 ms.assetid: 3a784453-db29-4917-90ee-8893f787646a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFont interface [COM],get_Charset method, IFont.get_Charset, IFont::get_Charset, _ctrl_ifont_get_charset, com.ifont_get_charset, get_Charset, get_Charset method [COM], get_Charset method [COM],IFont interface, ocidl/IFont::get_Charset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetLocalGroupDelMember
 title: NetLocalGroupDelMember function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetLocalGroupDelMember function is obsolete. You should use the NetLocalGroupDelMembers function instead.
 old-location: netmgmt\netlocalgroupdelmember.htm
 old-project: NetMgmt
 ms.assetid: 4a231da6-904e-4b49-9855-03e004a0b695
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetLocalGroupDelMember, NetLocalGroupDelMember function [Network Management], _win32_netlocalgroupdelmember, lmaccess/NetLocalGroupDelMember, netmgmt.netlocalgroupdelmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 

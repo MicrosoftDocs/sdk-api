@@ -1,16 +1,16 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceScriptable3
 title: IWorkspaceScriptable3
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections.
 old-location: termserv\iworkspacescriptable3.htm
 old-project: TermServ
 ms.assetid: 6fe02f0a-8cce-47f0-807e-e627336adf2c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWorkspaceScriptable3, IWorkspaceScriptable3 interface [Remote Desktop Services], IWorkspaceScriptable3 interface [Remote Desktop Services],described, termserv.iworkspacescriptable3, workspaceruntime/IWorkspaceScriptable3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h

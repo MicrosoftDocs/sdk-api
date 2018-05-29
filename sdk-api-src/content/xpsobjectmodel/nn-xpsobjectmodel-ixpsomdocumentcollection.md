@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentCollection
 title: IXpsOMDocumentCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IXpsOMDocument interface pointers.
 old-location: xps\ixpsomdocumentcollection.htm
 old-project: printdocs
 ms.assetid: 4f3acae9-10a0-47ff-9170-a40abe230580
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], IXpsOMDocumentCollection interface [XPS Documents and Packaging],described, xps.ixpsomdocumentcollection, xpsobjectmodel/IXpsOMDocumentCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

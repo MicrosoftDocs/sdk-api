@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IMenuPopup
 title: IMenuPopup
-author: windows-driver-content
+author: windows-sdk-content
 description: IMenuPopup may be altered or unavailable.
 old-location: shell\IMenuPopup.htm
 old-project: shell
 ms.assetid: dc5749b1-43b7-4f68-ac38-8a6e99613149
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMenuPopup, IMenuPopup interface [Windows Shell], IMenuPopup interface [Windows Shell],described, _win32_IMenuPopup, shell.IMenuPopup, shobjidl_core/IMenuPopup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

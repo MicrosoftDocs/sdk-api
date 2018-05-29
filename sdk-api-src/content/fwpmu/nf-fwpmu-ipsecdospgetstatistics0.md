@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecDospGetStatistics0
 title: IPsecDospGetStatistics0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPsecDospGetStatistics0 function retrieves Internet Protocol Security (IPsec) DoS Protection statistics.
 old-location: fwp\ipsecdospgetstatistics0.htm
 old-project: FWP
 ms.assetid: eb71e7c8-403c-4774-bc59-71e4a56ee1c4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecDospGetStatistics0, IPsecDospGetStatistics0 function [Filtering], fwp.ipsecdospgetstatistics0, fwpmu/IPsecDospGetStatistics0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

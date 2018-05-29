@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IEnumString.Skip
 title: IEnumString::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumstring_skip.htm
 old-project: com
 ms.assetid: 8c1cd7b4-ec68-4b60-9f1e-ed01674f7f8c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumString interface [COM],Skip method, IEnumString.Skip, IEnumString::Skip, Skip, Skip method [COM], Skip method [COM],IEnumString interface, _com_ienumstring_skip, com.ienumstring_skip, objidlbase/IEnumString::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

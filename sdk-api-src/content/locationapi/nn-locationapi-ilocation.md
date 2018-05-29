@@ -1,16 +1,16 @@
 ---
 UID: NN:locationapi.ILocation
 title: ILocation
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods used to manage location reports, event registration, and sensor permissions.
 old-location: winlocation\ilocation.htm
 old-project: LocationAPI
 ms.assetid: beeedbbd-df93-4c05-a215-4cfd14e03076
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ILocation, ILocation interface [WinLocation], ILocation interface [WinLocation],described, locationapi/ILocation, winlocation.ilocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

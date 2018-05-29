@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetEventMetadataProperty
 title: EvtGetEventMetadataProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified event metadata property.
 old-location: wes\evtgeteventmetadataproperty.htm
 old-project: WES
 ms.assetid: 2a5c53e3-bbb4-4245-a640-86b58d1a3c52
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetEventMetadataProperty, EvtGetEventMetadataProperty function [EventLog], wes.evtgeteventmetadataproperty, winevt/EvtGetEventMetadataProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

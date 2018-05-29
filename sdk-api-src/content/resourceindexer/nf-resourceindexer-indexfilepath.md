@@ -1,16 +1,16 @@
 ---
 UID: NF:resourceindexer.IndexFilePath
 title: IndexFilePath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indexes a file path for file and folder naming conventions.
 old-location: menurc\indexfilepath.htm
 old-project: menurc
 ms.assetid: A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], menurc.indexfilepath, resourceindexer/IndexFilePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 

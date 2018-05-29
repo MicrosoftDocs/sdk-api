@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponentTypes.put_Item
 title: IComponentTypes::put_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Item method replaces the ComponentType object at the specified index with a new ComponentType object.
 old-location: mstv\icomponenttypes_put_item.htm
 old-project: mstv
 ms.assetid: 1f38e844-d197-40c1-8715-ffe406274b3c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],put_Item method, IComponentTypes.put_Item, IComponentTypes::put_Item, IComponentTypesput_Item, mstv.icomponenttypes_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponentTypes interface, tuner/IComponentTypes::put_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

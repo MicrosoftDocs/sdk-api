@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3D9.GetAdapterModeCount
 title: IDirect3D9::GetAdapterModeCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of display modes available on this adapter.
 old-location: direct3d9\idirect3d9__getadaptermodecount.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptermodecount.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 8c15b401-a18e-3d6f-8b01-fd6833879d87, GetAdapterModeCount, GetAdapterModeCount method [Direct3D 9], GetAdapterModeCount method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterModeCount method, IDirect3D9.GetAdapterModeCount, IDirect3D9::GetAdapterModeCount, d3d9helper/IDirect3D9::GetAdapterModeCount, direct3d9.idirect3d9__getadaptermodecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

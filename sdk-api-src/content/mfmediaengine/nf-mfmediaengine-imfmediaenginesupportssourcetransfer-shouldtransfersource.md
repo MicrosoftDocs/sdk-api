@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource
 title: IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies wether or not the source should be transferred.
 old-location: mf\imfmediaenginesupportssourcetransfer_shouldtransfersource.htm
 old-project: medfound
 ms.assetid: 7409a6be-7114-42e2-b878-c68d846106c6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],ShouldTransferSource method, IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource, IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource, ShouldTransferSource, ShouldTransferSource method [Media Foundation], ShouldTransferSource method [Media Foundation],IMFMediaEngineSupportsSourceTransfer interface, mf.imfmediaenginesupportssourcetransfer_shouldtransfersource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

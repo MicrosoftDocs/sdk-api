@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListA
 title: SHGetPathFromIDListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an item identifier list to a file system path.
 old-location: shell\SHGetPathFromIDList.htm
 old-project: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetPathFromIDList, SHGetPathFromIDList function [Windows Shell], SHGetPathFromIDListA, SHGetPathFromIDListW, _win32_SHGetPathFromIDList, shell.SHGetPathFromIDList, shlobj_core/SHGetPathFromIDList, shlobj_core/SHGetPathFromIDListA, shlobj_core/SHGetPathFromIDListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

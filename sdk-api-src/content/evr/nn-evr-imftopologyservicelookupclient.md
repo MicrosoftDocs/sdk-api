@@ -1,16 +1,16 @@
 ---
 UID: NN:evr.IMFTopologyServiceLookupClient
 title: IMFTopologyServiceLookupClient
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a video mixer or presenter.
 old-location: mf\imftopologyservicelookupclient.htm
 old-project: medfound
 ms.assetid: c4215d08-3734-44b9-b053-0d49d89a90f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], IMFTopologyServiceLookupClient interface [Media Foundation],described, c4215d08-3734-44b9-b053-0d49d89a90f6, evr/IMFTopologyServiceLookupClient, mf.imftopologyservicelookupclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetSubscriberProperty
 title: IEventSubscription::GetSubscriberProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a property stored in the property bag to define subscriber context.
 old-location: cos\ieventsubscription_getsubscriberproperty.htm
 old-project: cossdk
 ms.assetid: 6e16557a-e4ea-46ae-8285-0446189cea8e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetSubscriberProperty, GetSubscriberProperty method [COM+], GetSubscriberProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberProperty method, IEventSubscription.GetSubscriberProperty, IEventSubscription::GetSubscriberProperty, _cos_IEventSubscription_GetSubscriberProperty, cos.ieventsubscription_getsubscriberproperty, eventsys/IEventSubscription::GetSubscriberProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

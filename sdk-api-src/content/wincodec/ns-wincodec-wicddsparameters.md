@@ -1,16 +1,16 @@
 ---
 UID: NS:wincodec.WICDdsParameters
 title: WICDdsParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the DDS image dimension, DXGI_FORMAT and alpha mode of contained data.
 old-location: wic\wicddsparameters.htm
 old-project: wic
 ms.assetid: 2E5755B4-E8DC-40B2-8DA1-B053A261079B
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PWICDdsParameters, PWICDdsParameters structure pointer [Windows Imaging Component], WICDdsParameters, WICDdsParameters structure [Windows Imaging Component], wic.wicddsparameters, wincodec/PWICDdsParameters, wincodec/WICDdsParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

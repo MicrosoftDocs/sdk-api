@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanRegisterVirtualStationNotification
 title: WlanRegisterVirtualStationNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to register and unregister notifications on a virtual station.
 old-location: nwifi\wlanregistervirtualstationnotification.htm
 old-project: NativeWiFi
 ms.assetid: b86ac160-ee81-43aa-86bb-cf5d3eeb2234
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanRegisterVirtualStationNotification, WlanRegisterVirtualStationNotification function [NativeWIFI], nwifi.wlanregistervirtualstationnotification, wlanapi/WlanRegisterVirtualStationNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

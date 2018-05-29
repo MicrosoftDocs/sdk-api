@@ -1,16 +1,16 @@
 ---
 UID: NS:usp10.tag_SCRIPT_LOGATTR
 title: tag_SCRIPT_LOGATTR
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains attributes of logical characters that are useful when editing and formatting text.
 old-location: intl\script_logattr.htm
 old-project: Intl
 ms.assetid: 24131b04-870a-4841-b9cd-7a09497bd2e6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FALSE, SCRIPT_LOGATTR, SCRIPT_LOGATTR structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_LOGATTR_str, intl.script_logattr, tag_SCRIPT_LOGATTR, usp10/SCRIPT_LOGATTR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

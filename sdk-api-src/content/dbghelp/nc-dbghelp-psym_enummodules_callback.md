@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMMODULES_CALLBACK
 title: PSYM_ENUMMODULES_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateModules64 function. It is called once for each enumerated module, and receives the module information.
 old-location: base\symenumeratemodulesproc64.htm
 old-project: Debug
 ms.assetid: 97a82134-7e1b-4c7e-aa55-8347fea4e739
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PSYM_ENUMMODULES_CALLBACK, PSYM_ENUMMODULES_CALLBACK64, PSYM_ENUMMODULES_CALLBACKW64, SymEnumerateModulesProc64, SymEnumerateModulesProc64 callback, SymEnumerateModulesProc64 callback function, _win32_symenumeratemodulesproc64, base.symenumeratemodulesproc64, dbghelp/SymEnumerateModulesProc64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumDocumentMgrs
 title: ITfThreadMgr::EnumDocumentMgrs
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfThreadMgr::EnumDocumentMgrs method
 old-location: tsf\itfthreadmgr_enumdocumentmgrs.htm
 old-project: TSF
 ms.assetid: 0b6f61fb-0ca0-4b93-ad30-d1e080b9bde1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr.EnumDocumentMgrs, ITfThreadMgr::EnumDocumentMgrs, _tsf_itfthreadmgr_enumdocumentmgrs_ref, msctf/ITfThreadMgr::EnumDocumentMgrs, tsf.itfthreadmgr_enumdocumentmgrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

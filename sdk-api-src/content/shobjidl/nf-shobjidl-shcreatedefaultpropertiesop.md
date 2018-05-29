@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.SHCreateDefaultPropertiesOp
 title: SHCreateDefaultPropertiesOp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a file operation that sets the default properties on the Shell item that have not already been set.
 old-location: shell\SHCreateDefaultPropertiesOp.htm
 old-project: shell
 ms.assetid: 5202ac48-16e7-4d64-8a69-2493036e1e11
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [Windows Shell], _shell_SHCreateDefaultPropertiesOp, shell.SHCreateDefaultPropertiesOp, shobjidl/SHCreateDefaultPropertiesOp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl.h
 req.include-header: 

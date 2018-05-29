@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusSyncPlugin
 title: IRealTimeStylus::GetStylusSyncPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the plug-in at the specified index in the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_getstylussyncplugin.htm
 old-project: tablet
 ms.assetid: ec587954-cf7c-4f2d-a20d-b401011f7140
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStylusSyncPlugin, GetStylusSyncPlugin method [Tablet PC], GetStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusSyncPlugin method, IRealTimeStylus.GetStylusSyncPlugin, IRealTimeStylus::GetStylusSyncPlugin, ec587954-cf7c-4f2d-a20d-b401011f7140, rtscom/IRealTimeStylus::GetStylusSyncPlugin, tablet.irealtimestylus_getstylussyncplugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

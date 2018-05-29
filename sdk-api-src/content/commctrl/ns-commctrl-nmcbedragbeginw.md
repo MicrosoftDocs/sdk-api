@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.NMCBEDRAGBEGINW
 title: NMCBEDRAGBEGINW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used with the CBEN_DRAGBEGIN notification code.
 old-location: controls\NMCBEDRAGBEGIN.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbedragbegin.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW, LPNMCBEDRAGBEGIN, LPNMCBEDRAGBEGIN structure pointer [Windows Controls], NMCBEDRAGBEGIN, NMCBEDRAGBEGIN structure [Windows Controls], NMCBEDRAGBEGINA, NMCBEDRAGBEGINW, _win32_NMCBEDRAGBEGIN, _win32_NMCBEDRAGBEGIN_cpp, commctrl/LPNMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGINA, commctrl/NMCBEDRAGBEGINW, controls.NMCBEDRAGBEGIN, controls._win32_NMCBEDRAGBEGIN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcontainer.IMFASFSplitter
 title: IMFASFSplitter
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to read data from an Advanced Systems Format (ASF) file.
 old-location: mf\imfasfsplitter.htm
 old-project: medfound
 ms.assetid: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], IMFASFSplitter interface [Media Foundation],described, mf.imfasfsplitter, wmcontainer/IMFASFSplitter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

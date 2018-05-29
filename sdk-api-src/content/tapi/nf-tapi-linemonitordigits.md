@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineMonitorDigits
 title: lineMonitorDigits function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call. Each time a digit of the specified digit mode is detected, a message is sent to the application indicating which digit has been detected.
 old-location: tapi2\linemonitordigits.htm
 old-project: Tapi
 ms.assetid: 7987761f-429c-4a6f-876b-eafe4274907a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits function [TAPI 2.2], tapi/lineMonitorDigits, tapi2.linemonitordigits"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

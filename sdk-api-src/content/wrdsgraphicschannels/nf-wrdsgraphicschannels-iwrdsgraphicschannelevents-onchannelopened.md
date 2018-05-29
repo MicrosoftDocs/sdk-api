@@ -1,16 +1,16 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnChannelOpened
 title: IWRdsGraphicsChannelEvents::OnChannelOpened
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened.
 old-location: termserv\iwrdsgraphicschannelevents_onchannelopened.htm
 old-project: TermServ
 ms.assetid: dafff806-8b63-40cd-8b04-efb0497cb043
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnChannelOpened method, IWRdsGraphicsChannelEvents.OnChannelOpened, IWRdsGraphicsChannelEvents::OnChannelOpened, OnChannelOpened, OnChannelOpened method [Remote Desktop Services], OnChannelOpened method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onchannelopened, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnChannelOpened
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 

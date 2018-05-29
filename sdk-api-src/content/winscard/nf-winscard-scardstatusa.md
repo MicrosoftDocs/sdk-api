@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardStatusA
 title: SCardStatusA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the current status of a smart card in a reader.
 old-location: security\scardstatus.htm
 old-project: SecAuthN
 ms.assetid: 04547cd1-7755-4332-8195-924b803d9a84
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCARD_ABSENT, SCARD_NEGOTIABLE, SCARD_POWERED, SCARD_PRESENT, SCARD_PROTOCOL_RAW, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_SPECIFIC, SCARD_SWALLOWED, SCardStatus, SCardStatus function [Security], SCardStatusA, SCardStatusW, _smart_scardstatus, security.scardstatus, winscard/SCardStatus, winscard/SCardStatusA, winscard/SCardStatusW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

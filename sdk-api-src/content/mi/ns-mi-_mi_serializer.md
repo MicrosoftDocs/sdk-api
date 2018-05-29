@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Serializer
 title: "_MI_Serializer"
-author: windows-driver-content
+author: windows-sdk-content
 description: An object tied to a specific serialization technique.
 old-location: wmi_v2\mi_serializer.htm
 old-project: wmi_v2
 ms.assetid: 396b01f2-5238-4cc1-baf2-b602967e4333
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Serializer, MI_Serializer structure [Windows Management Infrastructure (MI)], _MI_Serializer, mi/MI_Serializer, wmi_v2.mi_serializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

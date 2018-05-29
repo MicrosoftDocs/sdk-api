@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnSmsReadMsgTextCdma
 title: IMbnSmsReadMsgTextCdma
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of properties that represent a CDMA format SMS message read from the device memory.
 old-location: mbn\imbnsmsreadmsgtextcdma.htm
 old-project: mbn
 ms.assetid: d26b09f7-eb83-46ed-82cb-a702d3af5d05
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgtextcdma, mbnapi/IMbnSmsReadMsgTextCdma
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

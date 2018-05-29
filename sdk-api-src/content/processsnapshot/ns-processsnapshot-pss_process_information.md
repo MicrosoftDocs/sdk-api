@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_PROCESS_INFORMATION
 title: PSS_PROCESS_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds process information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_process_information.htm
 old-project: proc_snap
 ms.assetid: D629FA42-B501-4A0E-9B53-6D70E580B687
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_PROCESS_INFORMATION, PSS_PROCESS_INFORMATION structure, proc_snap.pss_process_information, processsnapshot/PSS_PROCESS_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

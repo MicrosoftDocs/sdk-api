@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlA
 title: PathCreateFromUrlA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a file URL to a Microsoft MS-DOS path.
 old-location: shell\PathCreateFromUrl.htm
 old-project: shell
 ms.assetid: f4136c80-a309-4551-be73-f2f24ecd4675
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCreateFromUrl, PathCreateFromUrl function [Windows Shell], PathCreateFromUrlA, PathCreateFromUrlW, _win32_PathCreateFromUrl, shell.PathCreateFromUrl, shlwapi/PathCreateFromUrl, shlwapi/PathCreateFromUrlA, shlwapi/PathCreateFromUrlW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

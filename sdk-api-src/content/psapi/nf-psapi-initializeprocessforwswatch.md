@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.InitializeProcessForWsWatch
 title: InitializeProcessForWsWatch function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates monitoring of the working set of the specified process.
 old-location: psapi\initializeprocessforwswatch.htm
 old-project: psapi
 ms.assetid: c928656c-a59d-41b5-9434-911329b0278e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: InitializeProcessForWsWatch, InitializeProcessForWsWatch function [PSAPI], K32InitializeProcessForWatch, K32InitializeProcessForWsWatch, _win32_initializeprocessforwswatch, base.initializeprocessforwswatch, psapi.initializeprocessforwswatch, psapi/InitializeProcessForWsWatch, psapi/K32InitializeProcessForWsWatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

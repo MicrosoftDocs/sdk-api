@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptDeleteContext
 title: BCryptDeleteContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing CNG configuration context.
 old-location: security\bcryptdeletecontext.htm
 old-project: SecCNG
 ms.assetid: 6a250bed-0ea4-4cae-86e6-f0cea95dc56e
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptDeleteContext, BCryptDeleteContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptDeleteContext, security.bcryptdeletecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.put_BusinessRuleString
 title: IAzBizRuleContext::put_BusinessRuleString
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves an application-specific string for the Business Rule (BizRule).
 old-location: security\azbizrulecontext_businessrulestring.htm
 old-project: SecAuthZ
 ms.assetid: 0370b251-625a-410c-ab36-76f4432405cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzBizRuleContext object [Security],BusinessRuleString property, BusinessRuleString property [Security], BusinessRuleString property [Security],AzBizRuleContext object, BusinessRuleString property [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],BusinessRuleString property, IAzBizRuleContext.BusinessRuleString, IAzBizRuleContext.put_BusinessRuleString, IAzBizRuleContext::BusinessRuleString, IAzBizRuleContext::get_BusinessRuleString, IAzBizRuleContext::put_BusinessRuleString, azroles/IAzBizRuleContext::BusinessRuleString, azroles/IAzBizRuleContext::get_BusinessRuleString, azroles/IAzBizRuleContext::put_BusinessRuleString, put_BusinessRuleString, security.azbizrulecontext_businessrulestring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

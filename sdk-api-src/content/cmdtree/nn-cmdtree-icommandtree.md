@@ -1,16 +1,16 @@
 ---
 UID: NN:cmdtree.ICommandTree
 title: ICommandTree
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICommandTree interface is optional for providers that support commands. It contains methods for manipulating query trees. Providers that support command trees must also support specifying the same functionality through the ICommandText interface.
 old-location: indexsrv\icommandtree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0ckl.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], ICommandTree interface [Indexing Service],described, _idxs_ICommandTree, cmdtree/ICommandTree, indexsrv.icommandtree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cmdtree.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IEnumSyncChanges
 title: IEnumSyncChanges
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates a list of item changes.
 old-location: winsync\ienumsyncchanges.htm
 old-project: winsync
 ms.assetid: c3f27c6d-4fc1-420c-afc1-0bd2bdbd6ab2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], IEnumSyncChanges interface [Windows Sync],described, winsync.ienumsyncchanges, winsync/IEnumSyncChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

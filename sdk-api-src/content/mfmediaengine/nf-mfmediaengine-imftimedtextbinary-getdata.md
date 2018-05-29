@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextBinary.GetData
 title: IMFTimedTextBinary::GetData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the data content of the timed-text object.
 old-location: mf\imftimedtextbinary_getdata.htm
 old-project: medfound
 ms.assetid: F8A0770D-87DD-4253-81F6-A002BEB8B896
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextBinary interface, IMFTimedTextBinary interface [Media Foundation],GetData method, IMFTimedTextBinary.GetData, IMFTimedTextBinary::GetData, mf.imftimedtextbinary_getdata, mfmediaengine/IMFTimedTextBinary::GetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

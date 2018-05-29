@@ -1,16 +1,16 @@
 ---
 UID: NN:xaudio2.IXAudio2Voice
 title: IXAudio2Voice
-author: windows-driver-content
+author: windows-sdk-content
 description: IXAudio2Voice represents the base interface from which IXAudio2SourceVoice, IXAudio2SubmixVoice and IXAudio2MasteringVoice are derived. The methods listed below are common to all voice subclasses.
 old-location: xaudio2\ixaudio2voice.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2Voice, IXAudio2Voice Interface, IXAudio2Voice Interface interface [XAudio2 Audio Mixing APIs], IXAudio2Voice Interface interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2voice, xaudio2/IXAudio2Voice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xaudio2.h
 req.include-header: 

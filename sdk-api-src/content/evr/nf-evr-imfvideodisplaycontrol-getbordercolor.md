@@ -1,16 +1,16 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetBorderColor
 title: IMFVideoDisplayControl::GetBorderColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the border color for the video.
 old-location: mf\imfvideodisplaycontrol_getbordercolor.htm
 old-project: medfound
 ms.assetid: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44, GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetBorderColor method, IMFVideoDisplayControl.GetBorderColor, IMFVideoDisplayControl::GetBorderColor, evr/IMFVideoDisplayControl::GetBorderColor, mf.imfvideodisplaycontrol_getbordercolor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr.h
 req.include-header: 

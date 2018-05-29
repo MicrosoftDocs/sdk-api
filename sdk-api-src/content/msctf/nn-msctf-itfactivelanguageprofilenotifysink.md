@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfActiveLanguageProfileNotifySink
 title: ITfActiveLanguageProfileNotifySink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfActiveLanguageProfileNotifySink interface is implemented by an application to receive a notification when the active language or text service changes.
 old-location: tsf\itfactivelanguageprofilenotifysink.htm
 old-project: TSF
 ms.assetid: c70141e8-c948-44f4-914e-454327aadf2b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink, ITfActiveLanguageProfileNotifySink interface [Text Services Framework], ITfActiveLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itfactivelanguageprofilenotifysink_ref, msctf/ITfActiveLanguageProfileNotifySink, tsf.itfactivelanguageprofilenotifysink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

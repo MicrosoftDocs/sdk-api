@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_MESSAGE
 title: D3D12_MESSAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: A debug message in the Information Queue.
 old-location: direct3d12\d3d12_message.htm
 old-project: direct3d12
 ms.assetid: DED84AC1-0126-450E-8A0A-1336BB4084D4
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_MESSAGE, D3D12_MESSAGE structure, d3d12sdklayers/D3D12_MESSAGE, direct3d12.d3d12_message
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12sdklayers.h
 req.include-header: 

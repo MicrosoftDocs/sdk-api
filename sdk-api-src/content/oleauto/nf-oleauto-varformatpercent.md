@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarFormatPercent
 title: VarFormatPercent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a variant containing percentages into a string form.
 old-location: automat\varformatpercent.htm
 old-project: automat
 ms.assetid: 3b0e4f05-6ca4-4685-bdaa-dd44a6a7d89e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarFormatPercent, VarFormatPercent function [Automation], _oa96_VarFormatPercent, automat.varformatpercent, oleauto/VarFormatPercent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

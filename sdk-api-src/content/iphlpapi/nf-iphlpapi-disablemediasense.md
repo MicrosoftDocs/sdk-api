@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.DisableMediaSense
 title: DisableMediaSense function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DisableMediaSense function disables the media sensing capability of the TCP/IP stack on a local computer.
 old-location: iphlp\disablemediasense.htm
 old-project: IpHlp
 ms.assetid: ec845db8-d544-4291-8221-0fde82c2de27
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DisableMediaSense, DisableMediaSense function [IP Helper], iphlp.disablemediasense, iphlpapi/DisableMediaSense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

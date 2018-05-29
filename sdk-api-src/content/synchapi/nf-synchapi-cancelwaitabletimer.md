@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.CancelWaitableTimer
 title: CancelWaitableTimer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the specified waitable timer to the inactive state.
 old-location: base\cancelwaitabletimer.htm
 old-project: Sync
 ms.assetid: 614a237b-71b3-4091-975d-4c0b3cd6ec69
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CancelWaitableTimer, CancelWaitableTimer function, _win32_cancelwaitabletimer, base.cancelwaitabletimer, synchapi/CancelWaitableTimer, winbase/CancelWaitableTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

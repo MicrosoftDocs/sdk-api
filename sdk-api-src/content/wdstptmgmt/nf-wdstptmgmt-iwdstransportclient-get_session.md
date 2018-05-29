@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_Session
 title: IWdsTransportClient::get_Session
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the transport session to which the WDS client is joined.
 old-location: wds\iwdstransportclient_session.htm
 old-project: Wds
 ms.assetid: 19aac2c4-c724-493f-a4e9-a396a1d32f15
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Session property, IWdsTransportClient.Session, IWdsTransportClient.get_Session, IWdsTransportClient::Session, IWdsTransportClient::get_Session, Session property [Windows Deployment Services], Session property [Windows Deployment Services],IWdsTransportClient interface, get_Session, wds.iwdstransportclient_session, wdstptmgmt/IWdsTransportClient::Session, wdstptmgmt/IWdsTransportClient::get_Session
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

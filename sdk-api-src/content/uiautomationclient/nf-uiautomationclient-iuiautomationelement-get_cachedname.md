@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedName
 title: IUIAutomationElement::get_CachedName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedName.htm
 old-project: WinAuto
 ms.assetid: 9d70a40c-9bcf-4ca9-90dd-05d25ddb7e89
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedName property, IUIAutomationElement.CachedName, IUIAutomationElement.get_CachedName, IUIAutomationElement::CachedName, IUIAutomationElement::get_CachedName, get_CachedName, uiauto.uiauto_IUIAutomationElement_CachedName, uiauto_IUIAutomationElement_CachedName, uiautomationclient/IUIAutomationElement::CachedName, uiautomationclient/IUIAutomationElement::get_CachedName, winauto.uiauto_IUIAutomationElement_CachedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

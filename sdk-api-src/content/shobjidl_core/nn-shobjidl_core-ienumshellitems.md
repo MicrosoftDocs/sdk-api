@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IEnumShellItems
 title: IEnumShellItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes enumeration of IShellItem interfaces. This interface is typically obtained by calling the IEnumShellItems method.
 old-location: shell\IEnumShellItems.htm
 old-project: shell
 ms.assetid: 07aed597-359f-4f4b-9edf-168c15bdc58e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumShellItems, IEnumShellItems interface [Windows Shell], IEnumShellItems interface [Windows Shell],described, _shell_IEnumShellItems, shell.IEnumShellItems, shobjidl_core/IEnumShellItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

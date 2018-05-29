@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_REFERENCE
 title: "_CRYPT_XML_REFERENCE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to populate the Reference element.
 old-location: security\crypt_xml_reference.htm
 old-project: SecCrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE structure [Security], PCRYPT_XML_REFERENCE, PCRYPT_XML_REFERENCE structure pointer [Security], _CRYPT_XML_REFERENCE, cryptxml/CRYPT_XML_REFERENCE, cryptxml/PCRYPT_XML_REFERENCE, security.crypt_xml_reference"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

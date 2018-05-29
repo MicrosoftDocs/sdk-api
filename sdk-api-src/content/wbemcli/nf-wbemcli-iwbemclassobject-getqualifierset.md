@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetQualifierSet
 title: IWbemClassObject::GetQualifierSet
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemClassObject::GetQualifierSet method returns an interface pointer that allows read and write operations on the set of qualifiers for the entire class object, whether the object is an instance or a class definition.
 old-location: wmi\iwbemclassobject_getqualifierset.htm
 old-project: WmiSdk
 ms.assetid: da86b723-8126-44b9-95ec-120d88390ef3
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetQualifierSet, GetQualifierSet method [Windows Management Instrumentation], GetQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetQualifierSet method, IWbemClassObject.GetQualifierSet, IWbemClassObject::GetQualifierSet, _hmm_iwbemclassobject_getqualifierset, wbemcli/IWbemClassObject::GetQualifierSet, wmi.iwbemclassobject_getqualifierset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

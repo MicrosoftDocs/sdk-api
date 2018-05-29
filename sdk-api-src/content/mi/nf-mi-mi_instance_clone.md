@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Instance_Clone
 title: MI_Instance_Clone function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the specified instance on the heap.
 old-location: wmi_v2\mi_instance_clone.htm
 old-project: wmi_v2
 ms.assetid: 9c7a4659-5bc4-4d24-89bc-9da4f2bdf107
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Instance_Clone, MI_Instance_Clone function [Windows Management Infrastructure (MI)], mi/MI_Instance_Clone, wmi_v2.mi_instance_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

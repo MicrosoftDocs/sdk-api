@@ -1,16 +1,16 @@
 ---
 UID: NS:wtypes._tagpropertykey
 title: "_tagpropertykey"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the FMTID/PID identifier that programmatically identifies a property. Replaces SHCOLUMNID.
 old-location: properties\PROPERTYKEY.htm
 old-project: properties
 ms.assetid: 3f5f31af-f040-443b-9045-9761055381ea
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PROPERTYKEY, PROPERTYKEY structure [Windows Properties], _shell_PROPERTYKEY, _shell_PROPERTYKEY_cpp, _tagpropertykey, properties.PROPERTYKEY, shell.PROPERTYKEY, wtypes/PROPERTYKEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_PRIVDATA
 title: "_CRYPT_PROVIDER_PRIVDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains private data to be used by a provider.
 old-location: security\crypt_provider_privdata.htm
 old-project: SecCrypto
 ms.assetid: 499e4d9b-991a-4317-bc74-a1dfb6609a70
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_PROVIDER_PRIVDATA, CRYPT_PROVIDER_PRIVDATA, CRYPT_PROVIDER_PRIVDATA structure [Security], PCRYPT_PROVIDER_PRIVDATA, PCRYPT_PROVIDER_PRIVDATA structure pointer [Security], _CRYPT_PROVIDER_PRIVDATA, security.crypt_provider_privdata, wintrust/CRYPT_PROVIDER_PRIVDATA, wintrust/PCRYPT_PROVIDER_PRIVDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

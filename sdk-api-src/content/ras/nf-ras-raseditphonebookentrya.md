@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasEditPhonebookEntryA
 title: RasEditPhonebookEntryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
 old-location: rras\raseditphonebookentry.htm
 old-project: RRAS
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasEditPhonebookEntry, RasEditPhonebookEntry function [RAS], RasEditPhonebookEntryA, RasEditPhonebookEntryW, _ras_raseditphonebookentry, ras/RasEditPhonebookEntry, ras/RasEditPhonebookEntryA, ras/RasEditPhonebookEntryW, rras.raseditphonebookentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

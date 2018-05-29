@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoIsOle1Class
 title: CoIsOle1Class function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the specified CLSID represents an OLE 1 object.
 old-location: com\coisole1class.htm
 old-project: com
 ms.assetid: 3f6a021d-c8fe-40dd-9c3a-30f22ad76ce3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoIsOle1Class, CoIsOle1Class function [COM], _com_CoIsOle1Class, com.coisole1class, objbase/CoIsOle1Class
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

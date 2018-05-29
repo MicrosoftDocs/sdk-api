@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange3.TransferContainerDataOnClearChannel
 title: ISCPSecureExchange3::TransferContainerDataOnClearChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The TransferContainerDataOnClearChannel method transfers container file data to the content provider through the clear channel.
 old-location: wmdm\iscpsecureexchange3__transfercontainerdataonclearchannel.htm
 old-project: WMDM
 ms.assetid: aac0fc79-4615-442f-8c08-06addf40c799
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISCPSecureExchange3 interface [windows Media Device Manager],TransferContainerDataOnClearChannel method, ISCPSecureExchange3.TransferContainerDataOnClearChannel, ISCPSecureExchange3::TransferContainerDataOnClearChannel, ISCPSecureExchange3TransferContainerDataOnClearChannel, TransferContainerDataOnClearChannel, TransferContainerDataOnClearChannel method [windows Media Device Manager], TransferContainerDataOnClearChannel method [windows Media Device Manager],ISCPSecureExchange3 interface, WMDM_SCP_NO_MORE_CHANGES, WMDM_SCP_TRANSFER_OBJECTDATA, mswmdm/ISCPSecureExchange3::TransferContainerDataOnClearChannel, wmdm.iscpsecureexchange3__transfercontainerdataonclearchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

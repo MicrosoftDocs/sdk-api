@@ -1,16 +1,16 @@
 ---
 UID: NC:cmnquery.LPCQADDPAGESPROC
 title: LPCQADDPAGESPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a query form extension to add a page to a query form in the query dialog box.
 old-location: ad\cqaddpagesproc.htm
 old-project: AD
 ms.assetid: 2b62c1aa-ace7-4083-8eb3-7c5c499762c9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cmnquery.h
 req.include-header: 

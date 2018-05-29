@@ -1,16 +1,16 @@
 ---
 UID: NF:srpapi.SrpIsTokenService
 title: SrpIsTokenService function
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies whether a service is a token service.
 old-location: edp\srpistokenservice.htm
 old-project: EDP
 ms.assetid: 5049B594-A882-49F0-A18B-6A28818AD8D2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EDP.srpistokenservice, SrpIsTokenService, SrpIsTokenService function, srpapi/SrpIsTokenService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

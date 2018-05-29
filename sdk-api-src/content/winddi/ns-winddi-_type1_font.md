@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._TYPE1_FONT
 title: "_TYPE1_FONT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The TYPE1_FONT structure contains the information necessary for a PostScript driver to access a Type1 font through GDI.
 old-location: display\type1_font.htm
 old-project: display
 ms.assetid: c852a814-3ebc-4688-aa42-c99b0ee63918
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: TYPE1_FONT, TYPE1_FONT structure [Display Devices], _TYPE1_FONT, display.type1_font, grstrcts_5408143c-ae92-4fa6-b5a8-3ef75b46c30d.xml, winddi/TYPE1_FONT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

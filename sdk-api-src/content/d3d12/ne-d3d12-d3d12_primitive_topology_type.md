@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_PRIMITIVE_TOPOLOGY_TYPE
 title: D3D12_PRIMITIVE_TOPOLOGY_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the pipeline interprets geometry or hull shader input primitives.
 old-location: direct3d12\d3d12_primitive_topology_type.htm
 old-project: direct3d12
 ms.assetid: 3BD4DF5E-EA91-4B2A-AADE-B9AE0E766F63
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_PRIMITIVE_TOPOLOGY_TYPE, D3D12_PRIMITIVE_TOPOLOGY_TYPE enumeration, D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE, D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH, D3D12_PRIMITIVE_TOPOLOGY_TYPE_POINT, D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE, D3D12_PRIMITIVE_TOPOLOGY_TYPE_UNDEFINED, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_POINT, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_UNDEFINED, direct3d12.d3d12_primitive_topology_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

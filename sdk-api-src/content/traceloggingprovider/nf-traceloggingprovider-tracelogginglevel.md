@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingLevel
 title: TraceLoggingLevel macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper macro for setting the event's level.
 old-location: tracelogging\tracelogginglevel.htm
 old-project: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel, traceloggingprovider/TraceLoggingLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

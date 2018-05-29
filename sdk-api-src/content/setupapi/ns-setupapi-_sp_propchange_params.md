@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_PROPCHANGE_PARAMS
 title: "_SP_PROPCHANGE_PARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_PROPCHANGE_PARAMS structure corresponds to a DIF_PROPERTYCHANGE installation request.
 old-location: devinst\sp_propchange_params.htm
 old-project: devinst
 ms.assetid: 7c64d352-3b9f-4c52-96d5-1a627f6b54a3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS structure pointer [Device and Driver Installation], SP_PROPCHANGE_PARAMS, SP_PROPCHANGE_PARAMS structure [Device and Driver Installation], _SP_PROPCHANGE_PARAMS, devinst.sp_propchange_params, di-struct_d3d2429f-412e-48bc-abcc-9dfbd01b346b.xml, setupapi/PSP_PROPCHANGE_PARAMS, setupapi/SP_PROPCHANGE_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

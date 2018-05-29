@@ -1,16 +1,16 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Context
 title: IMsmConfigurableItem::get_Context
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Context method retrieves the Context property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_context.htm
 old-project: Msi
 ms.assetid: 90aa0ee2-a7eb-464c-8a8f-ed4bdf46990e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMsmConfigurableItem interface,get_Context method, IMsmConfigurableItem.get_Context, IMsmConfigurableItem::get_Context, _msi_get_context_function, get_Context, get_Context method, get_Context method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Context, setup.imsmconfigurableitem_get_context
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:identityprovider.IIdentityProvider
 title: IIdentityProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an identity provider.
 old-location: security\iidentityprovider.htm
 old-project: SecAuthN
 ms.assetid: 0f23e369-1501-4e72-94d1-dadb9dac5be6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IIdentityProvider, IIdentityProvider interface [Security], IIdentityProvider interface [Security],described, identityprovider/IIdentityProvider, security.iidentityprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: identityprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_OUTPUTVAR
 title: "_D3D10_SHADER_DEBUG_OUTPUTVAR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a shader output variable.
 old-location: direct3d10\d3d10_shader_debug_outputvar.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputvar.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10_SHADER_DEBUG_OUTPUTVAR, D3D10_SHADER_DEBUG_OUTPUTVAR structure [Direct3D 10], _D3D10_SHADER_DEBUG_OUTPUTVAR, a188f87a-61c2-dda1-1e50-d2cbcbeb680f, d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR, direct3d10.d3d10_shader_debug_outputvar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h

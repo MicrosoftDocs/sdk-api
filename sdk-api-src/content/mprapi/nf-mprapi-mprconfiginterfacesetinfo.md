@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceSetInfo
 title: MprConfigInterfaceSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceSetInfo function sets the configuration for the specified interface.
 old-location: rras\mprconfiginterfacesetinfo.htm
 old-project: RRAS
 ms.assetid: 3abf3f27-a486-4b5c-a154-daf2dc99efaa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceSetInfo, MprConfigInterfaceSetInfo function [RAS], _mpr_mprconfiginterfacesetinfo, mprapi/MprConfigInterfaceSetInfo, rras.mprconfiginterfacesetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

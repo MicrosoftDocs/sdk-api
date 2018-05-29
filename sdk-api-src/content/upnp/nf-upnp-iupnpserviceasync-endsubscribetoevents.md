@@ -1,16 +1,16 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndSubscribeToEvents
 title: IUPnPServiceAsync::EndSubscribeToEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: EndSubscribeToEvents method retrieves the results of a previous BeginSubscribeToEvents operation.
 old-location: upnp\iupnpserviceasync_endsubscribetoevents.htm
 old-project: UPnP
 ms.assetid: A0C0D01C-3A05-4498-9235-CBBF7D5D558F
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: EndSubscribeToEvents, EndSubscribeToEvents method [UPnP APIs], EndSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSubscribeToEvents method, IUPnPServiceAsync.EndSubscribeToEvents, IUPnPServiceAsync::EndSubscribeToEvents, upnp.iupnpserviceasync_endsubscribetoevents, upnp/IUPnPServiceAsync::EndSubscribeToEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

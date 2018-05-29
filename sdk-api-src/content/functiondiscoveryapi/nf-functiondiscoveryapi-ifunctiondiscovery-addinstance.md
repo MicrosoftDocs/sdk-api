@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.AddInstance
 title: IFunctionDiscovery::AddInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or modifies a function instance.
 old-location: ncd\ifunctiondiscovery_addinstance_method.htm
 old-project: FunDisc
 ms.assetid: a99213b5-b310-4ce2-99ca-07b343f08c4d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,AddInstance method, IFunctionDiscovery.AddInstance, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

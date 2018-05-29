@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.GetLinkType
 title: ITextFont2::GetLinkType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the link type.
 old-location: controls\itextfont2_getlinktype.htm
 old-project: Controls
 ms.assetid: 5405b2ce-52c9-4630-a091-3221820a4e0b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLinkType, GetLinkType method [Windows Controls], GetLinkType method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetLinkType method, ITextFont2.GetLinkType, ITextFont2::GetLinkType, controls.itextfont2_getlinktype, tom/ITextFont2::GetLinkType, tomAutoLinkEmail, tomAutoLinkPath, tomAutoLinkPhone, tomAutoLinkURL, tomClientLink, tomFriendlyLinkAddress, tomFriendlyLinkName, tomNoLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

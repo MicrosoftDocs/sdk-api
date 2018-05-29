@@ -1,16 +1,16 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0003
 title: "__MIDL___MIDL_itf_pla_0001_0043_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines how to decorate the file name or subdirectory name.
 old-location: pla\autopathformat.htm
 old-project: PLA
 ms.assetid: eee5e4fc-7754-44ad-b22d-5296223e2e9c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AutoPathFormat, AutoPathFormat enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0003, base.autopathformat, pla.autopathformat, pla/AutoPathFormat, pla/plaComputer, pla/plaMonthDayHour, pla/plaMonthDayHourMinute, pla/plaNone, pla/plaPattern, pla/plaSerialNumber, pla/plaYearDayOfYear, pla/plaYearMonth, pla/plaYearMonthDay, pla/plaYearMonthDayHour, plaComputer, plaMonthDayHour, plaMonthDayHourMinute, plaNone, plaPattern, plaSerialNumber, plaYearDayOfYear, plaYearMonth, plaYearMonthDay, plaYearMonthDayHour
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

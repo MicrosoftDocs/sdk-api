@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.OpenPropertyStore
 title: IFunctionInstance::OpenPropertyStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the property store for the function instance.
 old-location: ncd\ifunctioninstance_openpropertystore_method.htm
 old-project: FunDisc
 ms.assetid: 3e03567b-7bac-4bef-ae62-a040f0c33cfb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInstance.OpenPropertyStore, IFunctionInstance::OpenPropertyStore, OpenPropertyStore, OpenPropertyStore method, OpenPropertyStore method,IFunctionInstance interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryapi/IFunctionInstance::OpenPropertyStore, ncd.ifunctioninstance_openpropertystore_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

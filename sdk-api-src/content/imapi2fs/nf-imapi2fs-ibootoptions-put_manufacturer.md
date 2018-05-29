@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IBootOptions.put_Manufacturer
 title: IBootOptions::put_Manufacturer
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an identifier that identifies the manufacturer or developer of the CD.
 old-location: imapi\ibootoptions_put_manufacturer.htm
 old-project: imapi
 ms.assetid: 485b36f0-6c33-48da-8ac5-64f4fc13fd68
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Manufacturer method, IBootOptions.put_Manufacturer, IBootOptions::put_Manufacturer, imapi.ibootoptions_put_manufacturer, imapi2fs/IBootOptions::put_Manufacturer, put_Manufacturer, put_Manufacturer method [IMAPI], put_Manufacturer method [IMAPI],IBootOptions interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

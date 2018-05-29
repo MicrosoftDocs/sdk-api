@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITPropList.GetFirst
 title: IITPropList::GetFirst
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the first property object in a property list.
 old-location: htmlhelp\iitproplist_getfirst.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistgetfirst.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetFirst, GetFirst method [HTML Help Workshop], GetFirst method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetFirst method, IITPropList.GetFirst, IITPropList::GetFirst, htmlhelp.iitproplist_getfirst, infotech/IITPropList::GetFirst, refIITPropListGetFirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwIcmpSettings
 title: INetFwIcmpSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetFwIcmpSettings interface provides access to the settings controlling ICMP packets.
 old-location: ics\inetfwicmpsettings.htm
 old-project: ICS
 ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

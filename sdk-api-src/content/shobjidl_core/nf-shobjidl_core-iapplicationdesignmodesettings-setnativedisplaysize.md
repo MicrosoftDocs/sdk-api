@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.SetNativeDisplaySize
 title: IApplicationDesignModeSettings::SetNativeDisplaySize
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a spoofed native display size to be used for a Windows Store app running in design mode.
 old-location: shell\IApplicationDesignModeSettings_SetNativeDisplaySize.htm
 old-project: shell
 ms.assetid: fc301573-6550-4e21-b82b-7800bbf34ea6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetNativeDisplaySize method, IApplicationDesignModeSettings.SetNativeDisplaySize, IApplicationDesignModeSettings::SetNativeDisplaySize, SetNativeDisplaySize, SetNativeDisplaySize method [Windows Shell], SetNativeDisplaySize method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetNativeDisplaySize, shobjidl_core/IApplicationDesignModeSettings::SetNativeDisplaySize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

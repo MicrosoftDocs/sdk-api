@@ -1,16 +1,16 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Description
 title: IMsmConfigurableItem::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Description method retrieves the Description property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_description.htm
 old-project: Msi
 ms.assetid: aafc79a0-51cb-4147-b72c-b5218835dc03
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMsmConfigurableItem interface,get_Description method, IMsmConfigurableItem.get_Description, IMsmConfigurableItem::get_Description, _msi_get_description_function, get_Description, get_Description method, get_Description method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Description, setup.imsmconfigurableitem_get_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

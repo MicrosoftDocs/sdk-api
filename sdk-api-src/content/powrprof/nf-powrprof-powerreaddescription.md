@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerReadDescription
 title: PowerReadDescription function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the description for the specified power setting, subgroup, or scheme.
 old-location: base\powerreaddescription.htm
 old-project: Power
 ms.assetid: 3c264f4f-fd1b-466b-ba76-fe78593a3628
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDescription, PowerReadDescription function, base.powerreaddescription, powrprof/PowerReadDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IChangeConflict.GetResolveActionForChangeUnit
 title: IChangeConflict::GetResolveActionForChangeUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the conflict resolution action for the conflicting change unit change.
 old-location: winsync\ichangeconflict_getresolveactionforchangeunit.htm
 old-project: winsync
 ms.assetid: 206ee654-e8a6-4b71-b933-3380dc4ed0ad
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetResolveActionForChangeUnit, GetResolveActionForChangeUnit method [Windows Sync], GetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetResolveActionForChangeUnit method, IChangeConflict.GetResolveActionForChangeUnit, IChangeConflict::GetResolveActionForChangeUnit, winsync.ichangeconflict_getresolveactionforchangeunit, winsync/IChangeConflict::GetResolveActionForChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

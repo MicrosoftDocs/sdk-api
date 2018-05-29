@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpSetTimeouts
 title: WinHttpSetTimeouts function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets time-outs involved with HTTP transactions.
 old-location: http\winhttpsettimeouts.htm
 old-project: WinHttp
 ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

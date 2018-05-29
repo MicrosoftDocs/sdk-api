@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.ValidateEnumerationFlags
 title: Provider::ValidateEnumerationFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The ValidateEnumerationFlags method determines whether a set of flags is valid for an enumeration.
 old-location: wmi\provider_validateenumerationflags.htm
 old-project: WmiSdk
 ms.assetid: 1f5ae240-2314-40c1-a6c8-2c395d284568
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?ValidateEnumerationFlags@Provider@@MAEJJ@Z, ?ValidateEnumerationFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateEnumerationFlags method, Provider.ValidateEnumerationFlags, Provider::ValidateEnumerationFlags, ValidateEnumerationFlags, ValidateEnumerationFlags method [Windows Management Instrumentation], ValidateEnumerationFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateenumerationflags, provider/Provider::ValidateEnumerationFlags, wmi.provider_validateenumerationflags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

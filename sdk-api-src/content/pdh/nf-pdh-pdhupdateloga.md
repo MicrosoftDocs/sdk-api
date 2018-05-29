@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhUpdateLogA
 title: PdhUpdateLogA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Collects counter data for the current query and writes the data to the log file.
 old-location: perf\pdhupdatelog.htm
 old-project: PerfCtrs
 ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdateLogW, _win32_pdhupdatelog, base.pdhupdatelog, pdh/PdhUpdateLog, pdh/PdhUpdateLogA, pdh/PdhUpdateLogW, perf.pdhupdatelog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

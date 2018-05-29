@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Serializer_SerializeInstance
 title: MI_Serializer_SerializeInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes an MI_Instance into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
 old-location: wmi_v2\mi_serializer_serializeinstance.htm
 old-project: wmi_v2
 ms.assetid: 45c5033a-b2ef-4fb6-a09e-54b3cd9fc99f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Serializer_SerializeInstance, MI_Serializer_SerializeInstance function [Windows Management Infrastructure (MI)], mi/MI_Serializer_SerializeInstance, wmi_v2.mi_serializer_serializeinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

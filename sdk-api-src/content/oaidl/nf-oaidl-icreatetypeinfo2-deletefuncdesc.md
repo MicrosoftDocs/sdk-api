@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDesc
 title: ICreateTypeInfo2::DeleteFuncDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a function description specified by the index number.
 old-location: automat\icreatetypeinfo2_deletefuncdesc.htm
 old-project: automat
 ms.assetid: 5e157287-e4f3-49c4-9c18-a7b3ba1a965d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: DeleteFuncDesc, DeleteFuncDesc method [Automation], DeleteFuncDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDesc method, ICreateTypeInfo2.DeleteFuncDesc, ICreateTypeInfo2::DeleteFuncDesc, _oa96_ICreateTypeInfo2_DeleteFuncDesc, automat.icreatetypeinfo2_deletefuncdesc, oaidl/ICreateTypeInfo2::DeleteFuncDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

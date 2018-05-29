@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.SetStorageFormat
 title: IWMProfile3::SetStorageFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetStorageFormat method is not implemented.
 old-location: wmformat\iwmprofile3_setstorageformat.htm
 old-project: wmformat
 ms.assetid: 43cbb36f-ec00-48e5-9182-b69e8c196ab0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStorageFormat method, IWMProfile3.SetStorageFormat, IWMProfile3::SetStorageFormat, IWMProfile3SetStorageFormat, SetStorageFormat, SetStorageFormat method [windows Media Format], SetStorageFormat method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstorageformat, wmsdkidl/IWMProfile3::SetStorageFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

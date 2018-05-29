@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._STORAGE_TEMPERATURE_INFO
 title: "_STORAGE_TEMPERATURE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_temperature_info.htm
 old-project: FileIO
 ms.assetid: 236B4AC7-AF5E-4556-9FFD-D64C450E6492
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Files], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Files], _STORAGE_TEMPERATURE_INFO, fs.storage_temperature_info, winioctl/PSTORAGE_TEMPERATURE_INFO, winioctl/STORAGE_TEMPERATURE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

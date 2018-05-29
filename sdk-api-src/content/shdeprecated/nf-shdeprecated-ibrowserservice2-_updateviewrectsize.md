@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._UpdateViewRectSize
 title: IBrowserService2::_UpdateViewRectSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Called to inform other functions involved in the browser view size negotiations that the allowable browser view dimensions have changed.
 old-location: shell\IBrowserService2__UpdateViewRectSize.htm
 old-project: shell
 ms.assetid: 92860c13-cb67-4499-90fe-2b0254ae25c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_UpdateViewRectSize method, IBrowserService2._UpdateViewRectSize, IBrowserService2::_UpdateViewRectSize, _UpdateViewRectSize, _UpdateViewRectSize method [Windows Shell], _UpdateViewRectSize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_UpdateViewRectSize, shell.IBrowserService2__UpdateViewRectSize, zone_IBrowserService2__UpdateViewRectSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

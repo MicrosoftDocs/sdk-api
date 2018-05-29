@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia._AM_COLCON
 title: "_AM_COLCON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the color contrast description from the DVD highlight (HLI) structure.
 old-location: dshow\am_colcon.htm
 old-project: DirectShow
 ms.assetid: 9358d860-6187-48d9-81b6-d5d65d73786d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_COLCON, AM_COLCON, AM_COLCON structure [DirectShow], PAM_COLCON, PAM_COLCON structure pointer [DirectShow], _AM_COLCON, dshow.am_colcon, dvdmedia/AM_COLCON, dvdmedia/PAM_COLCON"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

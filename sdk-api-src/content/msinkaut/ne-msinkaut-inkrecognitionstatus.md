@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkRecognitionStatus
 title: InkRecognitionStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether an error occurred during recognition and, if so, which error occurred.
 old-location: tablet\inkrecognitionstatus.htm
 old-project: tablet
 ms.assetid: d6ff29a8-d100-4bfe-848b-941367d8b2dd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRS_InkAddedFailed, IRS_Interrupted, IRS_NoError, IRS_ProcessFailed, IRS_SetAutoCompletionModeFailed, IRS_SetFactoidFailed, IRS_SetFlagsFailed, IRS_SetGuideFailed, IRS_SetPrefixSuffixFailed, IRS_SetStrokesFailed, IRS_SetWordListFailed, InkRecognitionStatus, InkRecognitionStatus enumeration [Tablet PC], d6ff29a8-d100-4bfe-848b-941367d8b2dd, msinkaut/IRS_InkAddedFailed, msinkaut/IRS_Interrupted, msinkaut/IRS_NoError, msinkaut/IRS_ProcessFailed, msinkaut/IRS_SetAutoCompletionModeFailed, msinkaut/IRS_SetFactoidFailed, msinkaut/IRS_SetFlagsFailed, msinkaut/IRS_SetGuideFailed, msinkaut/IRS_SetPrefixSuffixFailed, msinkaut/IRS_SetStrokesFailed, msinkaut/IRS_SetWordListFailed, msinkaut/InkRecognitionStatus, tablet.inkrecognitionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

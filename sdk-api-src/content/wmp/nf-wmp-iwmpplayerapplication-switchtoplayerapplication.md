@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.switchToPlayerApplication
 title: IWMPPlayerApplication::switchToPlayerApplication
-author: windows-driver-content
+author: windows-sdk-content
 description: The switchToPlayerApplication method switches a remoted Windows Media Player control to the full mode of the Player.
 old-location: wmp\iwmpplayerapplication_switchtoplayerapplication.htm
 old-project: WMP
 ms.assetid: cf5a77c5-298e-48de-80cd-d7ecd9e74323
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],switchToPlayerApplication method, IWMPPlayerApplication.switchToPlayerApplication, IWMPPlayerApplication::switchToPlayerApplication, IWMPPlayerApplicationswitchToPlayerApplication, switchToPlayerApplication, switchToPlayerApplication method [Windows Media Player], switchToPlayerApplication method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_switchtoplayerapplication, wmp/IWMPPlayerApplication::switchToPlayerApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

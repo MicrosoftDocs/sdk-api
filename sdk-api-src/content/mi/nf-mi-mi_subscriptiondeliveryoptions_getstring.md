@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetString
 title: MI_SubscriptionDeliveryOptions_GetString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the named string option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getstring.htm
 old-project: wmi_v2
 ms.assetid: 5adbbe2a-2cfa-4d24-97e8-5a5d02a685e3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetString, MI_SubscriptionDeliveryOptions_GetString function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetString, wmi_v2.mi_subscriptiondeliveryoptions_getstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

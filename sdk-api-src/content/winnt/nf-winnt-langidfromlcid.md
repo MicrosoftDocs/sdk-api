@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.LANGIDFROMLCID
 title: LANGIDFROMLCID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a language identifier from a locale identifier.
 old-location: intl\langidfromlcid.htm
 old-project: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

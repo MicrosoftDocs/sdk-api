@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.SetAppAsDefault
 title: IApplicationAssociationRegistration::SetAppAsDefault
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an application as the default for a given type. For more information, see Default Programs. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_SetAppAsDefault.htm
 old-project: shell
 ms.assetid: 30870adb-793f-404f-809c-1ec34a1f6b82
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefault method, IApplicationAssociationRegistration.SetAppAsDefault, IApplicationAssociationRegistration::SetAppAsDefault, SetAppAsDefault, SetAppAsDefault method [Windows Shell], SetAppAsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefault, shell.IApplicationAssociationRegistration_SetAppAsDefault, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

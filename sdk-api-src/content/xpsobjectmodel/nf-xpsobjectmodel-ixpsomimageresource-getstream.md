@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.GetStream
 title: IXpsOMImageResource::GetStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomimageresource_getstream.htm
 old-project: printdocs
 ms.assetid: 30d90686-67f5-4e18-811b-472e6a00538f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMImageResource interface, IXpsOMImageResource interface [XPS Documents and Packaging],GetStream method, IXpsOMImageResource.GetStream, IXpsOMImageResource::GetStream, xps.ixpsomimageresource_getstream, xpsobjectmodel/IXpsOMImageResource::GetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

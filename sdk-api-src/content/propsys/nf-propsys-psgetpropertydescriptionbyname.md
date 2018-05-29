@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSGetPropertyDescriptionByName
 title: PSGetPropertyDescriptionByName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an instance of a property description interface for a specified property name.
 old-location: properties\PSGetPropertyDescriptionByName.htm
 old-project: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

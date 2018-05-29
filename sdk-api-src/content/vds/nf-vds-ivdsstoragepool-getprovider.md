@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsStoragePool.GetProvider
 title: IVdsStoragePool::GetProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the hardware provider that manages the storage pool.
 old-location: base\ivdsstoragepool_getprovider.htm
 old-project: VDS
 ms.assetid: 46265fca-eabd-4d42-b1fd-6a09c566cde9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool interface, IVdsStoragePool interface,GetProvider method, IVdsStoragePool.GetProvider, IVdsStoragePool::GetProvider, base.ivdsstoragepool_getprovider, vds/IVdsStoragePool::GetProvider, vdshwprv/IVdsStoragePool::GetProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

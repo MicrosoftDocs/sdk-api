@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetEditInvitation
 title: IPropertyDescription::GetEditInvitation
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the text used in edit controls hosted in various dialog boxes.
 old-location: properties\IPropertyDescription_GetEditInvitation.htm
 old-project: properties
 ms.assetid: 4b7ce948-6501-4220-aa44-e7422e70d9e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetEditInvitation, GetEditInvitation method [Windows Properties], GetEditInvitation method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEditInvitation method, IPropertyDescription.GetEditInvitation, IPropertyDescription::GetEditInvitation, properties.IPropertyDescription_GetEditInvitation, propsys/IPropertyDescription::GetEditInvitation, shell.IPropertyDescription_GetEditInvitation, shell_IPropertyDescription_GetEditInvitation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: Shobjidl.h

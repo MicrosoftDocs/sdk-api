@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IDirectorySearch.CloseSearchHandle
 title: IDirectorySearch::CloseSearchHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectorySearch::CloseSearchHandle method closes the handle to a search result and frees the associated memory.
 old-location: adsi\idirectorysearch_closesearchhandle.htm
 old-project: ADSI
 ms.assetid: a233c67b-4747-4417-bec8-86b27147863c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CloseSearchHandle, CloseSearchHandle method [ADSI], CloseSearchHandle method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],CloseSearchHandle method, IDirectorySearch.CloseSearchHandle, IDirectorySearch::CloseSearchHandle, _ds_idirectorysearch_closesearchhandle, adsi.idirectorysearch__closesearchhandle, adsi.idirectorysearch_closesearchhandle, iads/IDirectorySearch::CloseSearchHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

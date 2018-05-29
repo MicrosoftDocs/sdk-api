@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Remove
 title: INetFwAuthorizedApplications::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: The Remove method removes an application from the collection.
 old-location: ics\inetfwauthorizedapplications_remove.htm
 old-project: ICS
 ms.assetid: 7c4e7d3f-6ab2-46f9-a5a0-f2901a8b5734
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Remove method, INetFwAuthorizedApplications.Remove, INetFwAuthorizedApplications::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_remove, netfw/INetFwAuthorizedApplications::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

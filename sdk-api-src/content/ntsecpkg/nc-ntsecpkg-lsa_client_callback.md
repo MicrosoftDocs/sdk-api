@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CLIENT_CALLBACK
 title: LSA_CLIENT_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a Local Security Authority (LSA)-mode security package to call back to its user-mode package and invoke a function in its DLL there.
 old-location: security\clientcallback.htm
 old-project: SecAuthN
 ms.assetid: d818a7b5-15c8-4d25-a8de-050926f34a9d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ClientCallback, ClientCallback function [Security], LSA_CLIENT_CALLBACK, _ssp_clientcallback, ntsecpkg/ClientCallback, security.clientcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

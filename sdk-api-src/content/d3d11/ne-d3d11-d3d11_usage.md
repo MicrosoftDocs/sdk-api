@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_USAGE
 title: D3D11_USAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the graphics processing unit (GPU).
 old-location: direct3d11\d3d11_usage.htm
 old-project: direct3d11
 ms.assetid: 251d462e-964e-42db-8554-dba8f5a9b1ef
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 7ab4ccb7-1e59-6a38-2ca4-dd87773c596d, D3D11_USAGE, D3D11_USAGE enumeration [Direct3D 11], D3D11_USAGE_DEFAULT, D3D11_USAGE_DYNAMIC, D3D11_USAGE_IMMUTABLE, D3D11_USAGE_STAGING, d3d11/D3D11_USAGE, d3d11/D3D11_USAGE_DEFAULT, d3d11/D3D11_USAGE_DYNAMIC, d3d11/D3D11_USAGE_IMMUTABLE, d3d11/D3D11_USAGE_STAGING, direct3d11.d3d11_usage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

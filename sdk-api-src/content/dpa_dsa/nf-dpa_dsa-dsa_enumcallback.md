@@ -1,16 +1,16 @@
 ---
 UID: NF:dpa_dsa.DSA_EnumCallback
 title: DSA_EnumCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Iterates through the dynamic structure array (DSA) and calls pfnCB on each item.
 old-location: controls\DSA_EnumCallback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_enumcallback.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DSA_EnumCallback, DSA_EnumCallback function [Windows Controls], _shell_DSA_EnumCallback, _shell_DSA_EnumCallback_cpp, controls.DSA_EnumCallback, controls._shell_DSA_EnumCallback, dpa_dsa/DSA_EnumCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 

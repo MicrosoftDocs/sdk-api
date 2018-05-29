@@ -1,16 +1,16 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_DESCRIPTOR_VALUE
 title: "_BTH_LE_GATT_DESCRIPTOR_VALUE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BTH_LE_GATT_DESCRIPTOR_VALUE structure describes a parent characteristic.
 old-location: bltooth\bth_le_gatt_descriptor_value.htm
 old-project: bltooth
 ms.assetid: 81D05AA7-B16C-4705-919F-8563FFA4A58E
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR_VALUE, PBTH_LE_GATT_DESCRIPTOR_VALUE structure pointer [Bluetooth Devices], _BTH_LE_GATT_DESCRIPTOR_VALUE, bltooth.bth_le_gatt_descriptor_value, bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE, bthledef/PBTH_LE_GATT_DESCRIPTOR_VALUE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h

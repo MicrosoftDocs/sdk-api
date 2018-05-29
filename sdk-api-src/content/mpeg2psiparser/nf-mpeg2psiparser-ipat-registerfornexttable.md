@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.RegisterForNextTable
 title: IPAT::RegisterForNextTable
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterForNextTable method registers the client to be notified when a next table arrives that will replace the current table.
 old-location: mstv\ipat_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 347d8c6f-0934-4ea0-9914-9b4ac47a9306
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForNextTable method, IPAT.RegisterForNextTable, IPAT::RegisterForNextTable, IPATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForNextTable, mstv.ipat_registerfornexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

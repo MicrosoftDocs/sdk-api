@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerStoreGetNextReportKey
 title: WerStoreGetNextReportKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a reference to the next report in the error report store.
 old-location: wer\werstoregetnextreportkey.htm
 old-project: wer
 ms.assetid: 781D54A9-6F51-445E-89A8-A0C944081B81
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerStoreGetNextReportKey, WerStoreGetNextReportKey function [Windows Error Reporting], wer.werstoregetnextreportkey, werapi/WerStoreGetNextReportKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

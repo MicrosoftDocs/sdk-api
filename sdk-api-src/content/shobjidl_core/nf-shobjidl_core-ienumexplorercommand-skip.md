@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Skip
 title: IEnumExplorerCommand::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Not currently implemented.
 old-location: shell\IEnumExplorerCommand_Skip.htm
 old-project: shell
 ms.assetid: 823bf5d4-9017-4f78-8bef-124d403174c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Skip method, IEnumExplorerCommand.Skip, IEnumExplorerCommand::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Skip, shell.IEnumExplorerCommand_Skip, shobjidl_core/IEnumExplorerCommand::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

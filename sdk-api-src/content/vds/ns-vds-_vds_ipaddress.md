@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_IPADDRESS
 title: "_VDS_IPADDRESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an IP address and port.
 old-location: base\vds_ipaddress.htm
 old-project: VDS
 ms.assetid: 42e8b161-5e47-4aae-aa23-94b5cacb5698
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: VDS_IPADDRESS, VDS_IPADDRESS structure [VDS], _VDS_IPADDRESS, base.vds_ipaddress, vds/VDS_IPADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_IPADDRESS, VDS_IPADDRESS structure [VDS], _VDS_IPADDRESS, base.vds_ipaddress, vds/VDS_IPADDRESS, vdshwprv/VDS_IPADDRESS
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	Vds.h
+-	VdsHwPrv.h
 api_name:
 -	VDS_IPADDRESS
 product: Windows

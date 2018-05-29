@@ -1,16 +1,16 @@
 ---
 UID: NS:wcsplugin._JChColorF
 title: "_JChColorF"
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD.
 old-location: wcs\jchcolorf.htm
 old-project: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], _JChColorF, wcs.jchcolorf, wcsplugin/JChColorF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlIsA
 title: UrlIsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests whether a URL is a specified type.
 old-location: shell\UrlIs.htm
 old-project: shell
 ms.assetid: 2e83c953-b4c5-4411-90ca-49ffb94ee374
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: URLIS_APPLIABLE, URLIS_DIRECTORY, URLIS_FILEURL, URLIS_HASQUERY, URLIS_NOHISTORY, URLIS_OPAQUE, URLIS_URL, UrlIs, UrlIs function [Windows Shell], UrlIsA, UrlIsW, _win32_UrlIs, shell.UrlIs, shlwapi/UrlIs, shlwapi/UrlIsA, shlwapi/UrlIsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

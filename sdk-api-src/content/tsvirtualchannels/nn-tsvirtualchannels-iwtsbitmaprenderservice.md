@@ -1,16 +1,16 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRenderService
 title: IWTSBitmapRenderService
-author: windows-driver-content
+author: windows-sdk-content
 description: This service is used to create a visual mapping on the client corresponding to a mapped window on the server.
 old-location: termserv\iwtsbitmaprenderservice.htm
 old-project: TermServ
 ms.assetid: 5ddc6ad8-1006-473e-b0f4-a5829045219a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSBitmapRenderService, IWTSBitmapRenderService interface [Remote Desktop Services], IWTSBitmapRenderService interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderservice, tsvirtualchannels/IWTSBitmapRenderService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_NAME_VALUE
 title: "_CERT_NAME_VALUE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a relative distinguished name (RDN) attribute value.
 old-location: security\cert_name_value.htm
 old-project: SecCrypto
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_NAME_VALUE, CERT_NAME_VALUE, CERT_NAME_VALUE structure [Security], PCERT_NAME_VALUE, PCERT_NAME_VALUE structure pointer [Security], _CERT_NAME_VALUE, _crypto2_cert_name_value, security.cert_name_value, wincrypt/CERT_NAME_VALUE, wincrypt/PCERT_NAME_VALUE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

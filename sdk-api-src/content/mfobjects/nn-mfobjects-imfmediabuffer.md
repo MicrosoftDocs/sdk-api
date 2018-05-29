@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFMediaBuffer
 title: IMFMediaBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a block of memory that contains media data.
 old-location: mf\imfmediabuffer.htm
 old-project: medfound
 ms.assetid: 3ccc7089-d0d0-4eb1-b763-0d4e348af685
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3ccc7089-d0d0-4eb1-b763-0d4e348af685, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], IMFMediaBuffer interface [Media Foundation],described, mf.imfmediabuffer, mfobjects/IMFMediaBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

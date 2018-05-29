@@ -1,16 +1,16 @@
 ---
 UID: NF:hrtfapoapi.CreateHrtfApo
 title: CreateHrtfApo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the IXAPO interface for head-related transfer function (HRTF) processing.
 old-location: xaudio2\createhrtfapo.htm
 old-project: xaudio2
 ms.assetid: 24E3CD0D-FC0D-4B1B-961F-BE48935F7B71
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], hrtfapoapi/CreateHrtfApo, xaudio2.createhrtfapo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: hrtfapoapi.h
 req.include-header: 

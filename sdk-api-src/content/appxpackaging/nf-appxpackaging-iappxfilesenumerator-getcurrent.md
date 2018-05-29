@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxFilesEnumerator.GetCurrent
 title: IAppxFilesEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the payload file at the current position of the enumerator.
 old-location: appxpkg\iappxfilesenumerator_getcurrent.htm
 old-project: appxpkg
 ms.assetid: AFE7534D-862B-47C5-B6C0-633205E39FAB
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxFilesEnumerator interface, IAppxFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxFilesEnumerator.GetCurrent, IAppxFilesEnumerator::GetCurrent, appxpackaging/IAppxFilesEnumerator::GetCurrent, appxpkg.iappxfilesenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

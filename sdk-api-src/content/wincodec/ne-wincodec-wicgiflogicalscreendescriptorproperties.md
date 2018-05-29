@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICGifLogicalScreenDescriptorProperties
 title: WICGifLogicalScreenDescriptorProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the logical screen descriptor properties for Graphics Interchange Format (GIF) metadata.
 old-location: wic\_wic_codec_wicgiflogicalscreendescriptorproperties.htm
 old-project: wic
 ms.assetid: edeaae2d-ba4a-4d03-b1ce-37bb5cd67e03
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICGifLogicalScreenDescriptorBackgroundColorIndex, WICGifLogicalScreenDescriptorColorResolution, WICGifLogicalScreenDescriptorGlobalColorTableFlag, WICGifLogicalScreenDescriptorGlobalColorTableSize, WICGifLogicalScreenDescriptorHeight, WICGifLogicalScreenDescriptorPixelAspectRatio, WICGifLogicalScreenDescriptorProperties, WICGifLogicalScreenDescriptorProperties enumeration [Windows Imaging Component], WICGifLogicalScreenDescriptorSortFlag, WICGifLogicalScreenDescriptorWidth, WICGifLogicalScreenSignature, _wic_codec_wicgiflogicalscreendescriptorproperties, wic._wic_codec_wicgiflogicalscreendescriptorproperties, wincodec/WICGifLogicalScreenDescriptorBackgroundColorIndex, wincodec/WICGifLogicalScreenDescriptorColorResolution, wincodec/WICGifLogicalScreenDescriptorGlobalColorTableFlag, wincodec/WICGifLogicalScreenDescriptorGlobalColorTableSize, wincodec/WICGifLogicalScreenDescriptorHeight, wincodec/WICGifLogicalScreenDescriptorPixelAspectRatio, wincodec/WICGifLogicalScreenDescriptorProperties, wincodec/WICGifLogicalScreenDescriptorSortFlag, wincodec/WICGifLogicalScreenDescriptorWidth, wincodec/WICGifLogicalScreenSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

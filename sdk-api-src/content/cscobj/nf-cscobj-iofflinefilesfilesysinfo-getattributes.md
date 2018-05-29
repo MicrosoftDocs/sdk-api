@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetAttributes
 title: IOfflineFilesFileSysInfo::GetAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Win32 attributes for an item.
 old-location: of\iofflinefilesfilesysinfo_getattributes.htm
 old-project: OfflineFiles
 ms.assetid: 5bf8a834-cd5e-46b9-9b7d-b5cc6fb9fe10
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetAttributes, GetAttributes method [Offline Files], GetAttributes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetAttributes method, IOfflineFilesFileSysInfo.GetAttributes, IOfflineFilesFileSysInfo::GetAttributes, cscobj/IOfflineFilesFileSysInfo::GetAttributes, of.iofflinefilesfilesysinfo_getattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

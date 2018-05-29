@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.SetGPRM
 title: IDvdControl2::SetGPRM
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetGPRM method sets a general parameter register value.
 old-location: dshow\idvdcontrol2_setgprm.htm
 old-project: DirectShow
 ms.assetid: 192bbf1d-a5de-4acf-b8d6-8a5f733da3a6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetGPRM method, IDvdControl2.SetGPRM, IDvdControl2::SetGPRM, IDvdControl2SetGPRM, SetGPRM, SetGPRM method [DirectShow], SetGPRM method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setgprm, strmif/IDvdControl2::SetGPRM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

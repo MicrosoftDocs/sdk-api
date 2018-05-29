@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetSlideshowOptions
 title: IDesktopWallpaper::GetSlideshowOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current desktop wallpaper slideshow settings for shuffle and timing.
 old-location: shell\IDesktopWallpaper_GetSlideshowOptions.htm
 old-project: shell
 ms.assetid: 2EB99E61-F5B4-4f07-8A87-793BE59D309B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DSO_SHUFFLEIMAGES, GetSlideshowOptions, GetSlideshowOptions method [Windows Shell], GetSlideshowOptions method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetSlideshowOptions method, IDesktopWallpaper.GetSlideshowOptions, IDesktopWallpaper::GetSlideshowOptions, shell.IDesktopWallpaper_GetSlideshowOptions, shobjidl_core/IDesktopWallpaper::GetSlideshowOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

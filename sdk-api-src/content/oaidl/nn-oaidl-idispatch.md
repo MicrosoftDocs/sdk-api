@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.IDispatch
 title: IDispatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes objects, methods and properties to programming tools and other applications that support Automation.
 old-location: automat\idispatch.htm
 old-project: automat
 ms.assetid: ebbff4bc-36b2-4861-9efa-ffa45e013eb5
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IDispatch, IDispatch interface [Automation], IDispatch interface [Automation],described, _oa96_IDispatch_Interface, automat.idispatch, oaidl/IDispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509ExtensionEnhancedKeyUsage
 title: IX509ExtensionEnhancedKeyUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used to define a collection of object identifiers (OIDs) that identify the intended uses of the public key contained in the certificate.
 old-location: security\ix509extensionenhancedkeyusage.htm
 old-project: SecCertEnroll
 ms.assetid: 0b9606d0-351c-4d2d-b876-545a9c2cf916
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage interface [Security], IX509ExtensionEnhancedKeyUsage interface [Security],described, certenroll/IX509ExtensionEnhancedKeyUsage, security.ix509extensionenhancedkeyusage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

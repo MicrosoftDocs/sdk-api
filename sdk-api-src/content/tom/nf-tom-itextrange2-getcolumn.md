@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.GetColumn
 title: ITextRange2::GetColumn
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the column properties for the currently selected column.
 old-location: controls\itextrange2_getcolumn.htm
 old-project: Controls
 ms.assetid: d8e2c985-9799-42c9-b23d-43c16bae5c69
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetColumn, GetColumn method [Windows Controls], GetColumn method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetColumn method, ITextRange2.GetColumn, ITextRange2::GetColumn, controls.itextrange2_getcolumn, tom/ITextRange2::GetColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h

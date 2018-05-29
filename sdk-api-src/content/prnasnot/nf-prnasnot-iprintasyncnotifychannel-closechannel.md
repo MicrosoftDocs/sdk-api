@@ -1,16 +1,16 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyChannel.CloseChannel
 title: IPrintAsyncNotifyChannel::CloseChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the channel.
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel.htm
 old-project: printdocs
 ms.assetid: d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel method [Windows GDI],IPrintAsyncNotifyChannel interface, IPrintAsyncNotifyChannel interface [Windows GDI],CloseChannel method, IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 

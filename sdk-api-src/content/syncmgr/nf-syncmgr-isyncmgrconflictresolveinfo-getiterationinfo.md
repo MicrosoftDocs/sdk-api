@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetIterationInfo
 title: ISyncMgrConflictResolveInfo::GetIterationInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about which conflict in a set of conflicts is being resolved.
 old-location: shell\ISyncMgrConflictResolveInfo_GetIterationInfo.htm
 old-project: shell
 ms.assetid: ac22d346-3012-41b0-a655-062f501af621
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetIterationInfo, GetIterationInfo method [Windows Shell], GetIterationInfo method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetIterationInfo method, ISyncMgrConflictResolveInfo.GetIterationInfo, ISyncMgrConflictResolveInfo::GetIterationInfo, _shell_ISyncMgrConflictResolveInfo_GetIterationInfo, shell.ISyncMgrConflictResolveInfo_GetIterationInfo, syncmgr/ISyncMgrConflictResolveInfo::GetIterationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

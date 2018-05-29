@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerReportAddDump
 title: WerReportAddDump function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a dump of the specified type to the specified report.
 old-location: wer\werreportadddump.htm
 old-project: wer
 ms.assetid: b40dac44-f7c5-43f0-876d-6f97c26bf461
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump, WerDumpTypeMiniDump, WerReportAddDump, WerReportAddDump function [Windows Error Reporting], base.werreportadddump, wer.werreportadddump, werapi/WerReportAddDump
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

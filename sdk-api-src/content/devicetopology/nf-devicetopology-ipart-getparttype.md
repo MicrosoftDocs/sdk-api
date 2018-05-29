@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPart.GetPartType
 title: IPart::GetPartType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPartType method gets the part type of this part.
 old-location: coreaudio\ipart_getparttype.htm
 old-project: CoreAudio
 ms.assetid: 79af1dce-b946-4ef2-af36-4437603966da
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPartType, GetPartType method [Core Audio], GetPartType method [Core Audio],IPart interface, IPart interface [Core Audio],GetPartType method, IPart.GetPartType, IPart::GetPartType, IPartGetPartType, coreaudio.ipart_getparttype, devicetopology/IPart::GetPartType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaBase
 title: IFsrmQuotaBase
-author: windows-driver-content
+author: windows-sdk-content
 description: Base interface for all quota interfaces.
 old-location: fsrm\ifsrmquotabase.htm
 old-project: Fsrm
 ms.assetid: 7f4d5a73-a836-4ea1-bc53-d51433eeb02e
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], IFsrmQuotaBase interface [File Server Resource Manager],described, fs.ifsrmquotabase, fsrm.ifsrmquotabase, fsrm/IFsrmQuotaBase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

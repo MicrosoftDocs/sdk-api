@@ -1,16 +1,16 @@
 ---
 UID: NS:mfapi._MT_CUSTOM_VIDEO_PRIMARIES
 title: "_MT_CUSTOM_VIDEO_PRIMARIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines custom color primaries for a video source. The color primaries define how to convert colors from RGB color space to CIE XYZ color space.
 old-location: mf\mt_custom_video_primaries.htm
 old-project: medfound
 ms.assetid: 2c26e906-e428-4a76-b10a-10a18f300ebe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2c26e906-e428-4a76-b10a-10a18f300ebe, MT_CUSTOM_VIDEO_PRIMARIES, MT_CUSTOM_VIDEO_PRIMARIES structure [Media Foundation], _MT_CUSTOM_VIDEO_PRIMARIES, mf.mt_custom_video_primaries, mfapi/MT_CUSTOM_VIDEO_PRIMARIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

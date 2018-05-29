@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleLoadPictureEx
 title: OleLoadPictureEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect with NULL as the first parameter, followed by a call to IPersistStream::Load.
 old-location: com\oleloadpictureex.htm
 old-project: com
 ms.assetid: c903096f-f15f-4a36-8efc-20cf7102e77d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleLoadPictureEx, OleLoadPictureEx function [COM], _ole_OleLoadPictureEx, com.oleloadpictureex, olectl/OleLoadPictureEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

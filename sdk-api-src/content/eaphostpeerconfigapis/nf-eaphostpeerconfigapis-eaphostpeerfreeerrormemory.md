@@ -1,16 +1,16 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeErrorMemory
 title: EapHostPeerFreeErrorMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory allocated to an EAP_ERROR structure.
 old-location: eaphost\eaphostpeerfreeerrormemory.htm
 old-project: EAPHost
 ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EAPHost], eaphost.eaphostpeerfreeerrormemory, eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

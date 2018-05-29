@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.SetIpNetEntry2
 title: SetIpNetEntry2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the physical address of an existing neighbor IP address entry on the local computer.
 old-location: iphlp\setipnetentry2.htm
 old-project: IpHlp
 ms.assetid: 4f423700-f721-44a9-ade3-ea5b5b86e394
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetIpNetEntry2, SetIpNetEntry2 function [IP Helper], iphlp.setipnetentry2, netioapi/SetIpNetEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

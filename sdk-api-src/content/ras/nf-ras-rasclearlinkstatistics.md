@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasClearLinkStatistics
 title: RasClearLinkStatistics function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasClearLinkStatistics functions clears any accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasclearlinkstatistics.htm
 old-project: RRAS
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasClearLinkStatistics, RasClearLinkStatistics function [RAS], _ras_rasclearlinkstatistics, ras/RasClearLinkStatistics, rras.rasclearlinkstatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

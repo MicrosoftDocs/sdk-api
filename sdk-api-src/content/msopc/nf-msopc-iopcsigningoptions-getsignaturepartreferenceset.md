@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartReferenceSet
 title: IOpcSigningOptions::GetSignaturePartReferenceSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IOpcSignaturePartReferenceSet interface.
 old-location: opc\iopcsigningoptions_getsignaturepartreferenceset.htm
 old-project: OPC
 ms.assetid: 60e657c3-41a3-4a05-a084-111429b1add9
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSignaturePartReferenceSet, GetSignaturePartReferenceSet method [Open Packaging Conventions], GetSignaturePartReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartReferenceSet method, IOpcSigningOptions.GetSignaturePartReferenceSet, IOpcSigningOptions::GetSignaturePartReferenceSet, msopc/IOpcSigningOptions::GetSignaturePartReferenceSet, opc.iopcsigningoptions_getsignaturepartreferenceset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

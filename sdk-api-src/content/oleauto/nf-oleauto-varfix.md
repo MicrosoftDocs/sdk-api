@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarFix
 title: VarFix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the integer portion of a variant.
 old-location: automat\varfix.htm
 old-project: automat
 ms.assetid: d90f37c7-87a8-4800-901c-d2aa3e5d838b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarFix, VarFix function [Automation], _oa96_VarFix, automat.varfix, oleauto/VarFix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

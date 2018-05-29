@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CancelDC
 title: CancelDC function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CancelDC function cancels any pending operation on the specified device context (DC).
 old-location: gdi\canceldc.htm
 old-project: gdi
 ms.assetid: 1dcb3dfe-0ab0-4bf5-ac2f-7a9c11712eef
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CancelDC, CancelDC function [Windows GDI], _win32_CancelDC, gdi.canceldc, wingdi/CancelDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetDisplayNames
 title: IDiscRecorder::GetDisplayNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a formatted name for the recorder that can be displayed. The name consists of the manufacturer and product identifier of the device.
 old-location: imapi\idiscrecorder_getdisplaynames.htm
 old-project: imapi
 ms.assetid: 0f20cae4-3f9c-49bb-9b82-13351b889a31
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetDisplayNames, GetDisplayNames method [IMAPI], GetDisplayNames method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetDisplayNames method, IDiscRecorder.GetDisplayNames, IDiscRecorder::GetDisplayNames, _win32_idiscrecorder_getdisplaynames, base.idiscrecorder_getdisplaynames, imapi.idiscrecorder_getdisplaynames, imapi/IDiscRecorder::GetDisplayNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.Query
 title: IDataCollectorSet::Query
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified data collector set.
 old-location: pla\idatacollectorset_query.htm
 old-project: PLA
 ms.assetid: ac07169e-710c-4267-ae08-ed18a15d866d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Query method, IDataCollectorSet.Query, IDataCollectorSet::Query, Query, Query method [PLA], Query method [PLA],IDataCollectorSet interface, base.idatacollectorset_query, pla.idatacollectorset_query, pla/IDataCollectorSet::Query
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

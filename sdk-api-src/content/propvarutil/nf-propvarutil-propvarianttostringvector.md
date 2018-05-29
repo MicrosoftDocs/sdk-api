@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToStringVector
 title: PropVariantToStringVector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a vector of strings from a PROPVARIANT structure.
 old-location: properties\PropVariantToStringVector.htm
 old-project: properties
 ms.assetid: 6618ee02-1939-4c9c-8690-a8cd5d668cdb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

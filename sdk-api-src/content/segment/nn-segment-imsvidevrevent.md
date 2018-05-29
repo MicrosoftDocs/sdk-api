@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidEVREvent
 title: IMSVidEVREvent
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows Vista or later.
 old-location: mstv\imsvidevrevent.htm
 old-project: mstv
 ms.assetid: 70874420-64f2-43c9-b46b-492318ae0852
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidEVREvent, IMSVidEVREvent interface [Microsoft TV Technologies], IMSVidEVREvent interface [Microsoft TV Technologies],described, IMSVidEVREventInterface, mstv.imsvidevrevent, segment/IMSVidEVREvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

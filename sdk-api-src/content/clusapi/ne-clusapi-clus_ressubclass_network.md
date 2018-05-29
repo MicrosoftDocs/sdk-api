@@ -1,16 +1,16 @@
 ---
 UID: NE:clusapi.CLUS_RESSUBCLASS_NETWORK
 title: CLUS_RESSUBCLASS_NETWORK
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a resource subclass that manages an IP address provider.
 old-location: mscs\clus_ressubclass_network.htm
 old-project: MsCS
 ms.assetid: 1dea2545-f0d4-4730-87af-19de135c1640
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUS_RESSUBCLASS_NETWORK, CLUS_RESSUBCLASS_NETWORK enumeration [Failover Cluster], CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, clusapi/CLUS_RESSUBCLASS_NETWORK, clusapi/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, msclus/CLUS_RESSUBCLASS_NETWORK, msclus/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, mscs.clus_ressubclass_network
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

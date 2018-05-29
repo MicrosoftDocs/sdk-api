@@ -1,16 +1,16 @@
 ---
 UID: NS:psapi._MODULEINFO
 title: "_MODULEINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the module load address, size, and entry point.
 old-location: psapi\moduleinfo_str.htm
 old-project: psapi
 ms.assetid: 583caafe-7fa3-4041-b5bc-4e8899b3a08a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPMODULEINFO, LPMODULEINFO, LPMODULEINFO structure pointer [PSAPI], MODULEINFO, MODULEINFO structure [PSAPI], _MODULEINFO, _win32_moduleinfo_str, base.moduleinfo_str, psapi.moduleinfo_str, psapi/LPMODULEINFO, psapi/MODULEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 

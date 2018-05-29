@@ -1,16 +1,16 @@
 ---
 UID: NE:mmstream.__MIDL___MIDL_itf_mmstream_0000_0000_0002
 title: "__MIDL___MIDL_itf_mmstream_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This API is deprecated. New applications should not use it. Describes the state of the stream.
 old-location: dshow\stream_state.htm
 old-project: DirectShow
 ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enumeration [DirectShow], __MIDL___MIDL_itf_mmstream_0000_0000_0002, dshow.stream_state, mmstream/STREAMSTATE_RUN, mmstream/STREAMSTATE_STOP, mmstream/STREAM_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmstream.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLPersistApplicationPolicies
 title: SLPersistApplicationPolicies function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the current consumed policies to disk for fast policy access.
 old-location: security\slpersistapplicationpolicies.htm
 old-project: SecSLApi
 ms.assetid: a4bf2bcc-3ea5-4288-9bad-b74efdd9969c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLPersistApplicationPolicies, SLPersistApplicationPolicies function [Security], security.slpersistapplicationpolicies, slpublic/SLPersistApplicationPolicies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

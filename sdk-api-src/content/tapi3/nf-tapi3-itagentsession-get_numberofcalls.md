@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_NumberOfCalls
 title: ITAgentSession::get_NumberOfCalls
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NumberOfCalls method gets the number of ACD calls handled by this agent during this session.
 old-location: tapi3\itagentsession_get_numberofcalls.htm
 old-project: Tapi
 ms.assetid: 8a3f00fc-9da2-4dc9-ab9a-ebc92664e907
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_NumberOfCalls method, ITAgentSession.get_NumberOfCalls, ITAgentSession::get_NumberOfCalls, _tapi3_itagentsession_get_numberofcalls, get_NumberOfCalls, get_NumberOfCalls method [TAPI 2.2], get_NumberOfCalls method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_numberofcalls, tapi3cc/ITAgentSession::get_NumberOfCalls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToBooleanVector
 title: PropVariantToBooleanVector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a Boolean vector from a PROPVARIANT structure.
 old-location: properties\PropVariantToBooleanVector.htm
 old-project: properties
 ms.assetid: 93ccd129-4fa4-40f3-96f3-b87b50414b0a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToBooleanVector, PropVariantToBooleanVector function [Windows Properties], _shell_PropVariantToBooleanVector, properties.PropVariantToBooleanVector, propvarutil/PropVariantToBooleanVector, shell.PropVariantToBooleanVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0012
 title: "__MIDL___MIDL_itf_msrdc_0000_0000_0012"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the similarity data for a file.
 old-location: rdc\similaritydata.htm
 old-project: Rdc
 ms.assetid: 33fdb48c-6f33-44e8-83b1-6029b1eace1d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SimilarityData, SimilarityData structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0012, fs.similaritydata, msrdc/SimilarityData, rdc.similaritydata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

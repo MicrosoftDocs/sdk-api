@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.DiscardUndoState
 title: IOleInPlaceSite::DiscardUndoState
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs the container to discard its undo state. The container should not call IOleInPlaceObject::ReActivateAndUndo.
 old-location: com\ioleinplacesite_discardundostate.htm
 old-project: com
 ms.assetid: 8fe69aa5-a526-4e95-920b-01f84ae4ca83
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DiscardUndoState, DiscardUndoState method [COM], DiscardUndoState method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],DiscardUndoState method, IOleInPlaceSite.DiscardUndoState, IOleInPlaceSite::DiscardUndoState, IOleInPlaceSiteWindowless.DiscardUndoState, _ole_ioleinplacesite_discardundostate, com.ioleinplacesite_discardundostate, oleidl/IOleInPlaceSite::DiscardUndoState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

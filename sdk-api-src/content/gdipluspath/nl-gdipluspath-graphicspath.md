@@ -1,16 +1,16 @@
 ---
 UID: NL:gdipluspath.GraphicsPath
 title: GraphicsPath
-author: windows-driver-content
+author: windows-sdk-content
 description: A GraphicsPath object stores a sequence of lines, curves, and shapes.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspath.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+], GraphicsPath class [GDI+],described, _gdiplus_CLASS_GraphicsPath_Class, gdiplus._gdiplus_CLASS_GraphicsPath_Class, gdipluspath/GraphicsPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluspath.h
 req.include-header: 

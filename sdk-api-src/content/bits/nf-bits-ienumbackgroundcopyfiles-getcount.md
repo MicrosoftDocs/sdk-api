@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.GetCount
 title: IEnumBackgroundCopyFiles::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a count of the number of files in the enumeration.
 old-location: bits\ienumbackgroundcopyfiles_getcount.htm
 old-project: Bits
 ms.assetid: 24a9d5f9-e923-4b20-8abf-8ce50fc2602b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyFiles interface, IEnumBackgroundCopyFiles interface [BITS],GetCount method, IEnumBackgroundCopyFiles.GetCount, IEnumBackgroundCopyFiles::GetCount, _drz_ienumbackgroundcopyfiles_getcount, bits.ienumbackgroundcopyfiles_getcount, bits/IEnumBackgroundCopyFiles::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

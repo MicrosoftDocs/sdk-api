@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_MasterClientId
 title: IWdsTransportSession::get_MasterClientId
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a unique client ID assigned by the WDS server that identifies the master client for this session.
 old-location: wds\iwdstransportsession_masterclientid.htm
 old-project: Wds
 ms.assetid: 6259ee20-b5ed-47c0-853a-2d3cad19b387
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],MasterClientId property, IWdsTransportSession.MasterClientId, IWdsTransportSession.get_MasterClientId, IWdsTransportSession::MasterClientId, IWdsTransportSession::get_MasterClientId, MasterClientId property [Windows Deployment Services], MasterClientId property [Windows Deployment Services],IWdsTransportSession interface, get_MasterClientId, wds.iwdstransportsession_masterclientid, wdstptmgmt/IWdsTransportSession::MasterClientId, wdstptmgmt/IWdsTransportSession::get_MasterClientId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

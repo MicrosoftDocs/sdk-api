@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetClipStatus
 title: IDirect3DDevice9::SetClipStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the clip status.
 old-location: direct3d9\idirect3ddevice9__setclipstatus.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setclipstatus.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 7c296c17-f98d-8458-efa7-95bbfde39651, IDirect3DDevice9 interface [Direct3D 9],SetClipStatus method, IDirect3DDevice9.SetClipStatus, IDirect3DDevice9::SetClipStatus, SetClipStatus, SetClipStatus method [Direct3D 9], SetClipStatus method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetClipStatus, direct3d9.idirect3ddevice9__setclipstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

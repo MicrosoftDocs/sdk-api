@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRule3.put_LocalUserOwner
 title: INetFwRule3::put_LocalUserOwner
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the user security identifier (SID) of the user who is the owner of the rule.
 old-location: ics\inetfwrule3_localuserowner.htm
 old-project: ICS
 ms.assetid: 5eeacde4-6e25-49dc-a8f5-77a6e56dcade
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalUserOwner property, INetFwRule3.LocalUserOwner, INetFwRule3.put_LocalUserOwner, INetFwRule3::LocalUserOwner, INetFwRule3::get_LocalUserOwner, INetFwRule3::put_LocalUserOwner, LocalUserOwner property [ICS/ICF], LocalUserOwner property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_localuserowner, netfw/INetFwRule3::LocalUserOwner, netfw/INetFwRule3::get_LocalUserOwner, netfw/INetFwRule3::put_LocalUserOwner, put_LocalUserOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Registered
 title: IWdsTransportNamespace::get_Registered
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a value that indicates whether the namespace is registered on the server.
 old-location: wds\iwdstransportnamespace_registered.htm
 old-project: Wds
 ms.assetid: b3255a79-5c6d-42cc-9ddd-30c8e13dcfd9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Registered property, IWdsTransportNamespace.Registered, IWdsTransportNamespace.get_Registered, IWdsTransportNamespace::Registered, IWdsTransportNamespace::get_Registered, Registered property [Windows Deployment Services], Registered property [Windows Deployment Services],IWdsTransportNamespace interface, get_Registered, wds.iwdstransportnamespace_registered, wdstptmgmt/IWdsTransportNamespace::Registered, wdstptmgmt/IWdsTransportNamespace::get_Registered
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

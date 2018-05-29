@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorSetStreamColorSpace1
 title: ID3D11VideoContext1::VideoProcessorSetStreamColorSpace1
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the color space information for the video processor input stream.
 old-location: mf\id3d11videocontext1_videoprocessorsetstreamcolorspace1.htm
 old-project: medfound
 ms.assetid: 5B1B6FFC-4BC7-4C6D-B3A8-A552D64448E4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetStreamColorSpace1 method, ID3D11VideoContext1.VideoProcessorSetStreamColorSpace1, ID3D11VideoContext1::VideoProcessorSetStreamColorSpace1, VideoProcessorSetStreamColorSpace1, VideoProcessorSetStreamColorSpace1 method [Media Foundation], VideoProcessorSetStreamColorSpace1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetStreamColorSpace1, mf.id3d11videocontext1_videoprocessorsetstreamcolorspace1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Refresh
 title: IFaxConfiguration::Refresh
-author: windows-driver-content
+author: windows-sdk-content
 description: Refreshes the object.
 old-location: fax\_mfax_FaxConfiguration_Refresh_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\refresh.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],Refresh method, FaxConfiguration.Refresh, IFaxConfiguration.Refresh, IFaxConfiguration::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Refresh, fax._mfax_FaxConfiguration_Refresh_vb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

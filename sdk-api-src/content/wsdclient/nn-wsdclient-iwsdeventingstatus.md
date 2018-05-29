@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdclient.IWSDEventingStatus
 title: IWSDEventingStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement this interface to receive notification when status changes occur in event subscriptions.
 old-location: ncd\iwsdeventingstatus.htm
 old-project: WsdApi
 ms.assetid: 04e6ea03-f9b5-48d9-940f-532bb3a85ff0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatus interface,described, ncd.iwsdeventingstatus, wsdclient/IWSDEventingStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

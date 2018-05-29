@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._POLICY_PRIMARY_DOMAIN_INFO
 title: "_POLICY_PRIMARY_DOMAIN_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PolicyPrimaryDomainInformation value and POLICY_PRIMARY_DOMAIN_INFO structure are obsolete. Use the PolicyDnsDomainInformation and POLICY_DNS_DOMAIN_INFO structure instead.
 old-location: security\policy_primary_domain_info.htm
 old-project: SecMgmt
 ms.assetid: 20102da1-bc05-4ea5-9a2d-a50ecba5fd88
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPOLICY_PRIMARY_DOMAIN_INFO, POLICY_PRIMARY_DOMAIN_INFO, POLICY_PRIMARY_DOMAIN_INFO structure [Security], PPOLICY_PRIMARY_DOMAIN_INFO, PPOLICY_PRIMARY_DOMAIN_INFO structure pointer [Security], _POLICY_PRIMARY_DOMAIN_INFO, _lsa_policy_primary_domain_info, ntsecapi/POLICY_PRIMARY_DOMAIN_INFO, ntsecapi/PPOLICY_PRIMARY_DOMAIN_INFO, security.policy_primary_domain_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

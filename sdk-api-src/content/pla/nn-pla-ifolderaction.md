@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.IFolderAction
 title: IFolderAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the actions that the data manager is to take on each folder under the data collector set's root path if both conditions (age and size) are met. To get this interface, call the IFolderActionCollection::CreateFolderAction method.
 old-location: pla\ifolderaction.htm
 old-project: PLA
 ms.assetid: a3942d5f-9ec4-4461-84f9-f2fae3971e23
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFolderAction, IFolderAction interface [PLA], IFolderAction interface [PLA],described, base.ifolderaction, pla.ifolderaction, pla/IFolderAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

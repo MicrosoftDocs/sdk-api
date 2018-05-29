@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendDvdStructure
 title: IDiscRecorder2Ex::SendDvdStructure
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a DVD structure to the media.
 old-location: imapi\idiscrecorder2ex_senddvdstructure.htm
 old-project: imapi
 ms.assetid: 4e9b83ee-69f6-42b8-bd6b-546c4ffe2002
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendDvdStructure method, IDiscRecorder2Ex.SendDvdStructure, IDiscRecorder2Ex::SendDvdStructure, SendDvdStructure, SendDvdStructure method [IMAPI], SendDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_senddvdstructure, imapi2/IDiscRecorder2Ex::SendDvdStructure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

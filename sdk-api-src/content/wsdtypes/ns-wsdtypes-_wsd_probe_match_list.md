@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE_MATCH_LIST
 title: "_WSD_PROBE_MATCH_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a node in a single-linked list of ProbeMatch message structures.
 old-location: ncd\wsd_probe_match_list_struct.htm
 old-project: WsdApi
 ms.assetid: b7922300-1dc7-487f-b703-736cb0393f17
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_PROBE_MATCH_LIST, WSD_PROBE_MATCH_LIST structure, _WSD_PROBE_MATCH_LIST, ncd.wsd_probe_match_list_struct, wsdtypes/WSD_PROBE_MATCH_LIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

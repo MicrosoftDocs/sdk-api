@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfPersistentPropertyLoaderACP
 title: ITfPersistentPropertyLoaderACP
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfPersistentPropertyLoaderACP interface is implemented by an application and used by the TSF manager to load properties asynchronously.
 old-location: tsf\itfpersistentpropertyloaderacp.htm
 old-project: TSF
 ms.assetid: 7d7af737-6241-43a9-946e-6a03a423b20f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfPersistentPropertyLoaderACP, ITfPersistentPropertyLoaderACP interface [Text Services Framework], ITfPersistentPropertyLoaderACP interface [Text Services Framework],described, _tsf_itfpersistentpropertyloaderacp_ref, msctf/ITfPersistentPropertyLoaderACP, tsf.itfpersistentpropertyloaderacp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

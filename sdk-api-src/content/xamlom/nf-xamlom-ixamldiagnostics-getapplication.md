@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetApplication
 title: IXamlDiagnostics::GetApplication
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an instance of the application.
 old-location: xaml_diagnostics\ixamldiagnostics_getapplication.htm
 old-project: xaml_diagnostics
 ms.assetid: EA010DA4-2D13-41E9-B3E4-AD84AAF4E3FD
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetApplication, GetApplication method, GetApplication method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetApplication method, IXamlDiagnostics.GetApplication, IXamlDiagnostics::GetApplication, xaml_diagnostics.ixamldiagnostics_getapplication, xamlom/IXamlDiagnostics::GetApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

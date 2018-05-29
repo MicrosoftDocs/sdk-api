@@ -1,16 +1,16 @@
 ---
 UID: NN:vss.IVssEnumObject
 title: IVssEnumObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenumobject.htm
 old-project: VSS
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vss.h
 req.include-header: 

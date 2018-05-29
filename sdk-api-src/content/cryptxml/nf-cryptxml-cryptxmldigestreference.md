@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlDigestReference
 title: CryptXmlDigestReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used by an application to digest the resolved reference. This function applies transforms before updating the digest.
 old-location: security\cryptxmldigestreference.htm
 old-project: SecCrypto
 ms.assetid: 781bacc2-6783-4884-8290-a36f917c17c1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, CryptXmlDigestReference function [Security], cryptxml/CryptXmlDigestReference, security.cryptxmldigestreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

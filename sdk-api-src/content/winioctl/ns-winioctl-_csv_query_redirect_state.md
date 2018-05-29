@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._CSV_QUERY_REDIRECT_STATE
 title: "_CSV_QUERY_REDIRECT_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about whether files in a stream have been redirected.
 old-location: fs\csv_query_redirect_state.htm
 old-project: FileIO
 ms.assetid: E628FFC2-B665-4160-AA63-9F027D4A2736
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PCSV_QUERY_REDIRECT_STATE, CSV_QUERY_REDIRECT_STATE, CSV_QUERY_REDIRECT_STATE structure [Files], PCSV_QUERY_REDIRECT_STATE, PCSV_QUERY_REDIRECT_STATE structure pointer [Files], _CSV_QUERY_REDIRECT_STATE, fs.csv_query_redirect_state, winioctl/CSV_QUERY_REDIRECT_STATE, winioctl/PCSV_QUERY_REDIRECT_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

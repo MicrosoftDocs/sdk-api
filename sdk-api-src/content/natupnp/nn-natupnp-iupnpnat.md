@@ -1,16 +1,16 @@
 ---
 UID: NN:natupnp.IUPnPNAT
 title: IUPnPNAT
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPNAT interface is the primary interface for managing Network Address Translation (NAT) with UPnP. The IUPnPNAT interface provides access directly or indirectly to all the other interfaces in the NAT API with UPnP technology.
 old-location: ics\iupnpnat.htm
 old-project: ICS
 ms.assetid: bfd93967-a514-4301-9b1e-0fee8794d929
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IUPnPNAT, IUPnPNAT interface [ICS/ICF], IUPnPNAT interface [ICS/ICF],described, _ics_iupnpnat, ics.iupnpnat, natupnp/IUPnPNAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: natupnp.h
 req.include-header: 

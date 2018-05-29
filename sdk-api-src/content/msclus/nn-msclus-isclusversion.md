@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusVersion
 title: ISClusVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides version information about the operating system and the Cluster service. For more information on cluster versions and version numbers, see Version Compatibility.
 old-location: mscs\clusversion_object.htm
 old-project: MsCS
 ms.assetid: 2215335a-1858-437f-8654-2e9d601fe061
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusVersion, ClusVersion object [Failover Cluster], ClusVersion object [Failover Cluster],described, ISClusVersion, _wolf_clusversion_object, msclus/ClusVersion, mscs.clusversion_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

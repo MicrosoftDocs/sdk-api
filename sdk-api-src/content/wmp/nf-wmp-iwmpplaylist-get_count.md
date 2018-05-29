@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_count
 title: IWMPPlaylist::get_count
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_count method retrieves the number of items in the playlist.
 old-location: wmp\iwmpplaylist_get_count.htm
 old-project: WMP
 ms.assetid: e37d1d96-27c3-415a-ac85-ab4b94dbc688
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_count method, IWMPPlaylist.get_count, IWMPPlaylist::get_count, IWMPPlaylistget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_count, wmp/IWMPPlaylist::get_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

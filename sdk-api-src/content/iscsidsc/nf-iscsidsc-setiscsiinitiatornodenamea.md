@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorNodeNameA
 title: SetIScsiInitiatorNodeNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes.
 old-location: iscsidisc\setiscsiinitiatornodename.htm
 old-project: iSCSIDisc
 ms.assetid: 4758fbde-da94-4da2-9c04-d2bec2c61752
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: SetIScsiInitiatorNodeNameA, SetIscsiInitiatorNodeName, SetIscsiInitiatorNodeName function [iSCSI Discovery Library API], SetIscsiInitiatorNodeNameA, SetIscsiInitiatorNodeNameW, iscsidisc.setiscsiinitiatornodename, iscsidsc/SetIscsiInitiatorNodeName, iscsidsc/SetIscsiInitiatorNodeNameA, iscsidsc/SetIscsiInitiatorNodeNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

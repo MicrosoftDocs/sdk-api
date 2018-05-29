@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_ASPECT_SCALING
 title: D2D1_SVG_ASPECT_SCALING
-author: windows-driver-content
+author: windows-sdk-content
 description: The meetOrSlice portion of the SVG preserveAspectRatio attribute.
 old-location: direct2d\d2d1_svg_aspect_scaling.htm
 old-project: Direct2D
 ms.assetid: 9053FD0F-7A6C-473D-AB88-C5555A8E1652
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_SVG_ASPECT_SCALING, D2D1_SVG_ASPECT_SCALING enumeration [Direct2D], D2D1_SVG_ASPECT_SCALING_FORCE_DWORD, D2D1_SVG_ASPECT_SCALING_MEET, D2D1_SVG_ASPECT_SCALING_SLICE, d2d1svg/D2D1_SVG_ASPECT_SCALING, d2d1svg/D2D1_SVG_ASPECT_SCALING_FORCE_DWORD, d2d1svg/D2D1_SVG_ASPECT_SCALING_MEET, d2d1svg/D2D1_SVG_ASPECT_SCALING_SLICE, direct2d.d2d1_svg_aspect_scaling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.GuarRspec
 title: GuarRspec
-author: windows-driver-content
+author: windows-sdk-content
 description: The GuarRspec structure contains guaranteed Rspec information.
 old-location: qos\guarrspec.htm
 old-project: QOS
 ms.assetid: b5a2daa1-9783-44c2-baa6-5164dedf498f
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GuarRspec, GuarRspec structure [QOS], lpmapi/GuarRspec, qos.guarrspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

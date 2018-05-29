@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Timestamp
 title: "_MI_Timestamp"
-author: windows-driver-content
+author: windows-sdk-content
 description: MI_Timestamp specifies a timestamp or a specific point in time.
 old-location: wmi_v2\mi_timestamp.htm
 old-project: wmi_v2
 ms.assetid: f06f1b0e-d21c-4b60-8099-222a1582fde1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Timestamp, MI_Timestamp structure [Windows Management Infrastructure (MI)], _MI_Timestamp, mi/MI_Timestamp, wmi._mi_timestamp, wmi_v2.mi_timestamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateProxyFactoryEntry
 title: IUIAutomation::CreateProxyFactoryEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of a proxy factory object.
 old-location: winauto\uiauto_IUIAutomation_CreateProxyFactoryEntry.htm
 old-project: WinAuto
 ms.assetid: dcb7ceb8-d794-4b7a-97ed-d7fc2002d7d7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CreateProxyFactoryEntry, CreateProxyFactoryEntry method [Windows Accessibility], CreateProxyFactoryEntry method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateProxyFactoryEntry method, IUIAutomation.CreateProxyFactoryEntry, IUIAutomation::CreateProxyFactoryEntry, uiauto.uiauto_IUIAutomation_CreateProxyFactoryEntry, uiauto_IUIAutomation_CreateProxyFactoryEntry, uiautomationclient/IUIAutomation::CreateProxyFactoryEntry, winauto.uiauto_IUIAutomation_CreateProxyFactoryEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

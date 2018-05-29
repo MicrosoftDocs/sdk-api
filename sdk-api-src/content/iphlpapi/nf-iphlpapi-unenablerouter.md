@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.UnenableRouter
 title: UnenableRouter function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnenableRouter function decrements the reference count that tracks the number of requests to enable IPv4 forwarding. When this reference count reaches zero, UnenableRouter turns off IPv4 forwarding on the local computer.
 old-location: iphlp\unenablerouter.htm
 old-project: IpHlp
 ms.assetid: 95f0387f-24e8-4382-b78e-e59bcec0f2ed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: UnenableRouter, UnenableRouter function [IP Helper], _iphlp_unenablerouter, iphlp.unenablerouter, iphlpapi/UnenableRouter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

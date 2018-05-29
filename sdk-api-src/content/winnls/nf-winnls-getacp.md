@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetACP
 title: GetACP function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current Windows ANSI code page identifier for the operating system.Caution  The ANSI API functions, for example, the ANSI version of TextOut, implicitly use GetACP to translate text to or from Unicode.
 old-location: intl\getacp.htm
 old-project: Intl
 ms.assetid: a28c3f08-ee76-4e3f-b14d-fabc0af98fef
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetACP, GetACP function [Internationalization for Windows Applications], _win32_GetACP, intl.getacp, winnls/GetACP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

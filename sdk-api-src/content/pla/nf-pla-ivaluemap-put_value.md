@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IValueMap.put_Value
 title: IValueMap::put_Value
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the value of the collection.
 old-location: pla\ivaluemap_value.htm
 old-project: PLA
 ms.assetid: 9f344845-956e-4254-82e2-e4e00f6a371b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IValueMap interface [PLA],Value property, IValueMap.Value, IValueMap.put_Value, IValueMap::Value, IValueMap::get_Value, IValueMap::put_Value, Value property [PLA], Value property [PLA],IValueMap interface, base.ivaluemap_value, pla.ivaluemap_value, pla/IValueMap::Value, pla/IValueMap::get_Value, pla/IValueMap::put_Value, put_Value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

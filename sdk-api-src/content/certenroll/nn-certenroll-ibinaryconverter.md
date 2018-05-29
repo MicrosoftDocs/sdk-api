@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IBinaryConverter
 title: IBinaryConverter
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to a string.
 old-location: security\ibinaryconverter.htm
 old-project: SecCertEnroll
 ms.assetid: 495a321a-3005-4537-b082-5003e437d21f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

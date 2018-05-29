@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpioctl.IPSNMPInfo
 title: IPSNMPInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
 old-location: winprog\ipsnmpinfo.htm
 old-project: DevNotes
 ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 

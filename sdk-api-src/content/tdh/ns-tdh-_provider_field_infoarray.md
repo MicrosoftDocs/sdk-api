@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._PROVIDER_FIELD_INFOARRAY
 title: "_PROVIDER_FIELD_INFOARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines metadata information about the requested field.
 old-location: etw\provider_field_infoarray_struct.htm
 old-project: ETW
 ms.assetid: c3755ca2-7b17-4f86-9ae8-34621f8b8c1b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY structure [ETW], _PROVIDER_FIELD_INFOARRAY, etw.provider_field_infoarray_struct, tdh.provider_field_infoarray_struct, tdh/PROVIDER_FIELD_INFOARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_TEX2DMS_ARRAY_DSV
 title: D3D12_TEX2DMS_ARRAY_DSV
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the subresources from an array of multi sampled 2D textures for a depth-stencil view.
 old-location: direct3d12\d3d12_tex2dms_array_dsv.htm
 old-project: direct3d12
 ms.assetid: 0B0E3891-B11C-4A4A-B20E-DA9C9DA471F1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEX2DMS_ARRAY_DSV, D3D12_TEX2DMS_ARRAY_DSV structure, d3d12/D3D12_TEX2DMS_ARRAY_DSV, direct3d12.d3d12_tex2dms_array_dsv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

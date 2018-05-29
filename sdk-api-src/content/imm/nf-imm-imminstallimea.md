@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmInstallIMEA
 title: ImmInstallIMEA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs an IME.
 old-location: intl\imminstallime.htm
 old-project: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Windows Applications], ImmInstallIMEA, ImmInstallIMEW, _win32_ImmInstallIME, imm/ImmInstallIME, imm/ImmInstallIMEA, imm/ImmInstallIMEW, intl.imminstallime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

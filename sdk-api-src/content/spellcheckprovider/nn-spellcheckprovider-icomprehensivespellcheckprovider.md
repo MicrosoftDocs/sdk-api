@@ -1,16 +1,16 @@
 ---
 UID: NN:spellcheckprovider.IComprehensiveSpellCheckProvider
 title: IComprehensiveSpellCheckProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the provider to optionally support a more comprehensive spell checking functionality.
 old-location: intl\icomprehensivespellcheckprovider.htm
 old-project: Intl
 ms.assetid: 303EE887-DCF0-4575-A45F-5A4088DE8F7B
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComprehensiveSpellCheckProvider, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications], IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],described, intl.icomprehensivespellcheckprovider, spellcheckprovider/IComprehensiveSpellCheckProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheckprovider.h
 req.include-header: 

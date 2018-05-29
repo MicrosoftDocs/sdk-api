@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetCompositingQuality
 title: Graphics::SetCompositingQuality
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::SetCompositingQuality method sets the compositing quality of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingquality.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Graphics class [GDI+],SetCompositingQuality method, Graphics.SetCompositingQuality, Graphics::SetCompositingQuality, SetCompositingQuality, SetCompositingQuality method [GDI+], SetCompositingQuality method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_, gdiplus._gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

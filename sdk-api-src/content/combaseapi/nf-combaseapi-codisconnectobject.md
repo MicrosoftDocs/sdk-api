@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoDisconnectObject
 title: CoDisconnectObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects all remote process connections being maintained on behalf of all the interface pointers that point to a specified object.
 old-location: com\codisconnectobject.htm
 old-project: com
 ms.assetid: 4293316a-bafe-4fca-ad6a-68d8e99c8fba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoDisconnectObject, CoDisconnectObject function [COM], _com_CoDisconnectObject, com.codisconnectobject, combaseapi/CoDisconnectObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

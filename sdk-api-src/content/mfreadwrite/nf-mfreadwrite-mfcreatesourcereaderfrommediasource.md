@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromMediaSource
 title: MFCreateSourceReaderFromMediaSource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the source reader from a media source.
 old-location: mf\mfcreatesourcereaderfrommediasource.htm
 old-project: medfound
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfreadwrite.h
 req.include-header: 

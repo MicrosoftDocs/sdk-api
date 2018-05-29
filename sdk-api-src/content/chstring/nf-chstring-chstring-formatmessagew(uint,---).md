@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.FormatMessageW(UINT,...)
 title: CHString::FormatMessageW(UINT,
-author: windows-driver-content
+author: windows-sdk-content
 description: The overloaded FormatMessageW method formats a message string.
 old-location: wmi\chstring_formatmessagew.htm
 old-project: WmiSdk
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString.FormatMessageW, CHString.FormatMessageW(UINT,, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], CHString::FormatMessageW(UINT,, FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

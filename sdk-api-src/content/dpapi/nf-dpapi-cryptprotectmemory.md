@@ -1,16 +1,16 @@
 ---
 UID: NF:dpapi.CryptProtectMemory
 title: CryptProtectMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: encrypts memory to prevent others from viewing sensitive information in your process.
 old-location: security\cryptprotectmemory.htm
 old-project: SecCrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 

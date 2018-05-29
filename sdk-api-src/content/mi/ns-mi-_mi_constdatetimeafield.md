@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstDatetimeAField
 title: "_MI_ConstDatetimeAField"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constdatetimeafield.htm
 old-project: wmi_v2
 ms.assetid: 13059346-4361-4274-828a-d552dd70f876
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstDatetimeAField, MI_ConstDatetimeAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstDatetimeAField, mi/MI_ConstDatetimeAField, wmi._mi_constdatetimeafield, wmi_v2.mi_constdatetimeafield
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mmreg.heaacwaveinfo_tag
 title: heaacwaveinfo_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.
 old-location: dshow\heaacwaveinfo.htm
 old-project: DirectShow
 ms.assetid: a9b888fb-b4a5-44c3-a715-687cc751063d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPHEAACWAVEINFO, *NPHEAACWAVEINFO, *PHEAACWAVEINFO, HEAACWAVEINFO, HEAACWAVEINFO structure [DirectShow], PHEAACWAVEINFO, PHEAACWAVEINFO structure pointer [DirectShow], dshow.heaacwaveinfo, heaacwaveinfo_tag, mmreg/HEAACWAVEINFO, mmreg/PHEAACWAVEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.GetPassByName
 title: ID3D10EffectTechnique::GetPassByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a pass by name.
 old-location: direct3d10\id3d10effecttechnique_getpassbyname.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getpassbyname.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 35788dc3-3901-8ccb-116d-9dbd8ac5f484, GetPassByName, GetPassByName method [Direct3D 10], GetPassByName method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetPassByName method, ID3D10EffectTechnique.GetPassByName, ID3D10EffectTechnique::GetPassByName, d3d10effect/ID3D10EffectTechnique::GetPassByName, direct3d10.id3d10effecttechnique_getpassbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

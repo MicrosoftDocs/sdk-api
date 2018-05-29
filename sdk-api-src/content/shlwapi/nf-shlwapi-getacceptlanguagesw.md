@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.GetAcceptLanguagesW
 title: GetAcceptLanguagesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string used with websites when specifying language preferences.
 old-location: shell\GetAcceptLanguages.htm
 old-project: shell
 ms.assetid: a680a7fd-f980-485d-b52a-eb4d482ebc17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAcceptLanguages, GetAcceptLanguages function [Windows Shell], GetAcceptLanguagesA, GetAcceptLanguagesW, _shell_GetAcceptLanguages, shell.GetAcceptLanguages, shlwapi/GetAcceptLanguages, shlwapi/GetAcceptLanguagesA, shlwapi/GetAcceptLanguagesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

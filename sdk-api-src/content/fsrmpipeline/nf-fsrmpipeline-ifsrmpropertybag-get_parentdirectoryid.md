@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_ParentDirectoryId
 title: IFsrmPropertyBag::get_ParentDirectoryId
-author: windows-driver-content
+author: windows-sdk-content
 description: The NTFS identifier of the file's parent directory.
 old-location: fsrm\ifsrmpropertybag_parentdirectoryid.htm
 old-project: Fsrm
 ms.assetid: a62f9562-06ba-41bc-8450-300dd50ee728
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],ParentDirectoryId property, IFsrmPropertyBag.ParentDirectoryId, IFsrmPropertyBag.get_ParentDirectoryId, IFsrmPropertyBag::ParentDirectoryId, IFsrmPropertyBag::get_ParentDirectoryId, ParentDirectoryId property [File Server Resource Manager], ParentDirectoryId property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_parentdirectoryid, fsrm.ifsrmpropertybag_parentdirectoryid, fsrmpipeline/IFsrmPropertyBag::ParentDirectoryId, fsrmpipeline/IFsrmPropertyBag::get_ParentDirectoryId, get_ParentDirectoryId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

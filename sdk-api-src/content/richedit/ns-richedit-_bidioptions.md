@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._bidioptions
 title: "_bidioptions"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains bidirectional information about a rich edit control. This structure is used by the EM_GETBIDIOPTIONS and EM_SETBIDIOPTIONS messages to get and set the bidirectional information for a control.
 old-location: controls\BIDIOPTIONS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\bidioptions.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BIDIOPTIONS, BIDIOPTIONS structure [Windows Controls], BOE_CONTEXTALIGNMENT, BOE_CONTEXTREADING, BOE_FORCERECALC, BOE_LEGACYBIDICLASS, BOE_NEUTRALOVERRIDE, BOE_PLAINTEXT, BOE_RTLDIR, BOE_UNICODEBIDI, BOM_CONTEXTALIGNMENT, BOM_CONTEXTREADING, BOM_DEFPARADIR, BOM_LEGACYBIDICLASS, BOM_NEUTRALOVERRIDE, BOM_PLAINTEXT, BOM_UNICODEBIDI, _bidioptions, _win32_BIDIOPTIONS_str, _win32_BIDIOPTIONS_str_cpp, controls.BIDIOPTIONS, controls._win32_BIDIOPTIONS_str, richedit/BIDIOPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

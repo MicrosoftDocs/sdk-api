@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetUserInfoA
 title: MsiGetUserInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetUserInfo function returns the registered user information for an installed product.
 old-location: setup\msigetuserinfo.htm
 old-project: Msi
 ms.assetid: c05580c6-9be3-410a-aa97-be15c2980ba8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetUserInfo, MsiGetUserInfo function, MsiGetUserInfoA, MsiGetUserInfoW, _msi_msigetuserinfo, msi/MsiGetUserInfo, msi/MsiGetUserInfoA, msi/MsiGetUserInfoW, setup.msigetuserinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

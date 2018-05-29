@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetChildren
 title: TextRange_GetChildren function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns all UI Automation elements contained within the specified text range.
 old-location: winauto\uiauto_TextRange_GetChildrenConPat.htm
 old-project: WinAuto
 ms.assetid: b8ee94c3-3da2-4f66-ba75-64bc4d40543b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TextRange_GetChildren, TextRange_GetChildren function [Windows Accessibility], uiauto.uiauto_TextRange_GetChildrenConPat, uiauto_TextRange_GetChildrenConPat, uiautomationcoreapi/TextRange_GetChildren, winauto.uiauto_TextRange_GetChildrenConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

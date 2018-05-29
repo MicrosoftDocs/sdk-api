@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibrarySharingEnabled
 title: IWMPLibrarySharingServices::isLibrarySharingEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: The isLibrarySharingEnabled method retrieves a value indicating whether the user has enabled library sharing in Windows Media Player.
 old-location: wmp\iwmplibrarysharingservices_islibrarysharingenabled.htm
 old-project: WMP
 ms.assetid: bd643869-9111-423e-9f9c-7147d1e3c7b8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],isLibrarySharingEnabled method, IWMPLibrarySharingServices.isLibrarySharingEnabled, IWMPLibrarySharingServices::isLibrarySharingEnabled, IWMPLibrarySharingServicesisLibrarySharingEnabled, isLibrarySharingEnabled, isLibrarySharingEnabled method [Windows Media Player], isLibrarySharingEnabled method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_islibrarysharingenabled, wmp/IWMPLibrarySharingServices::isLibrarySharingEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

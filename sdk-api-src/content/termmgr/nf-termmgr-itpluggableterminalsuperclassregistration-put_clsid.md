@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.put_CLSID
 title: ITPluggableTerminalSuperclassRegistration::put_CLSID
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_CLSID method sets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_clsid.htm
 old-project: Tapi
 ms.assetid: ccb7159d-e838-408b-9565-a9854c4ba592
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],put_CLSID method, ITPluggableTerminalSuperclassRegistration.put_CLSID, ITPluggableTerminalSuperclassRegistration::put_CLSID, _tapi3_itpluggableterminalsuperclassregistration_put_clsid, put_CLSID, put_CLSID method [TAPI 2.2], put_CLSID method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_put_clsid, termmgr/ITPluggableTerminalSuperclassRegistration::put_CLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

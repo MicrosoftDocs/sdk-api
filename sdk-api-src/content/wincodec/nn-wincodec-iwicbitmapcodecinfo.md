@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICBitmapCodecInfo
 title: IWICBitmapCodecInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide information about a particular codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo.htm
 old-project: wic
 ms.assetid: 502a94bf-3ec4-44d2-b0de-9994f2f9861f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], IWICBitmapCodecInfo interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecinfo, wic._wic_codec_iwicbitmapcodecinfo, wincodec/IWICBitmapCodecInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

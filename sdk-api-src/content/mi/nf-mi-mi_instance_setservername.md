@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Instance_SetServerName
 title: MI_Instance_SetServerName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the server name of the specified instance.
 old-location: wmi_v2\mi_instance_setservername.htm
 old-project: wmi_v2
 ms.assetid: 34864c69-091f-4dbd-9d56-e43f8d218b09
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Instance_SetServerName, MI_Instance_SetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetServerName, wmi_v2.mi_instance_setservername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

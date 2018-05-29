@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Resume
 title: IUIAnimationManager::Resume
-author: windows-driver-content
+author: windows-sdk-content
 description: Resumes all animations.
 old-location: uianimation\iuianimationmanager_resume.htm
 old-project: UIAnimation
 ms.assetid: f29a9337-0ed0-46f8-ab77-8f82ab39d8df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Resume method, IUIAnimationManager.Resume, IUIAnimationManager::Resume, Resume, Resume method [Windows Animation], Resume method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_resume, uianimation/IUIAnimationManager::Resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsSetMessageProperty
 title: WsSetMessageProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: This operation sets a Messageproperty.
 old-location: wsw\wssetmessageproperty.htm
 old-project: wsw
 ms.assetid: f1e6616f-63ac-4afb-90dd-17a776d59eeb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsSetMessageProperty, WsSetMessageProperty function [Web Services for Windows], webservices/WsSetMessageProperty, wsw.wssetmessageproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

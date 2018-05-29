@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectoryExW
 title: SHCreateDirectoryExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new file system folder, with optional security attributes.
 old-location: shell\SHCreateDirectoryEx.htm
 old-project: shell
 ms.assetid: 7f44f907-cd12-4156-91c0-76e577ae25f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateDirectoryEx, SHCreateDirectoryEx function [Windows Shell], SHCreateDirectoryExA, SHCreateDirectoryExW, _win32_SHCreateDirectoryEx, shell.SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryExA, shlobj_core/SHCreateDirectoryExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

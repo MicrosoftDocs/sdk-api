@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IFolderActionCollection.CreateFolderAction
 title: IFolderActionCollection::CreateFolderAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a folder action object.
 old-location: pla\ifolderactioncollection_createfolderaction.htm
 old-project: PLA
 ms.assetid: caced576-cbe8-49d1-a372-70f035a6e3ed
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateFolderAction, CreateFolderAction method [PLA], CreateFolderAction method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],CreateFolderAction method, IFolderActionCollection.CreateFolderAction, IFolderActionCollection::CreateFolderAction, pla.ifolderactioncollection_createfolderaction, pla/IFolderActionCollection::CreateFolderAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

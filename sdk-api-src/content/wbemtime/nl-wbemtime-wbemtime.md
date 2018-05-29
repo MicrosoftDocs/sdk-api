@@ -1,16 +1,16 @@
 ---
 UID: NL:wbemtime.WBEMTime
 title: WBEMTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The WBEMTime class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also WBEMTimeSpan Class Methods.
 old-location: wmi\wbemtime.htm
 old-project: WmiSdk
 ms.assetid: b633bc8c-9d02-4bcf-8528-10773fb5ae7a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WBEMTime, WBEMTime class [Windows Management Instrumentation], WBEMTime class [Windows Management Instrumentation],described, _hmm_wbemtime, wbemtime/WBEMTime, wmi.wbemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: wbemtime.h
 req.include-header: 

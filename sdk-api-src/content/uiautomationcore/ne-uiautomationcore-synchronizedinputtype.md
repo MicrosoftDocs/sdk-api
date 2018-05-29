@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.SynchronizedInputType
 title: SynchronizedInputType
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify the type of synchronized input.
 old-location: winauto\uiauto_SynchronizedInputTypeEnum.htm
 old-project: WinAuto
 ms.assetid: 28c66392-89f0-40eb-be19-ac84c64dacb7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: SynchronizedInputType, SynchronizedInputType enumeration [Windows Accessibility], SynchronizedInputType_KeyDown, SynchronizedInputType_KeyUp, SynchronizedInputType_LeftMouseDown, SynchronizedInputType_LeftMouseUp, SynchronizedInputType_RightMouseDown, SynchronizedInputType_RightMouseUp, uiauto.uiauto_SynchronizedInputTypeEnum, uiauto_SynchronizedInputTypeEnum, uiautomationcore/SynchronizedInputType, uiautomationcore/SynchronizedInputType_KeyDown, uiautomationcore/SynchronizedInputType_KeyUp, uiautomationcore/SynchronizedInputType_LeftMouseDown, uiautomationcore/SynchronizedInputType_LeftMouseUp, uiautomationcore/SynchronizedInputType_RightMouseDown, uiautomationcore/SynchronizedInputType_RightMouseUp, winauto.uiauto_SynchronizedInputTypeEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

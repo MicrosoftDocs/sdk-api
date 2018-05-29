@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrStrNW
 title: StrStrNW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the first occurrence of a substring within a string. The comparison is case-sensitive.
 old-location: shell\StrStrNW.htm
 old-project: shell
 ms.assetid: e7aac4c7-b2d5-43d8-97f5-1b11ebb24ee1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrStrNW, StrStrNW function [Windows Shell], _shell_StrStrNW, shell.StrStrNW, shlwapi/StrStrNW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

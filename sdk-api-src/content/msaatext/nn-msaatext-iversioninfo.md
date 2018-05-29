@@ -1,16 +1,16 @@
 ---
 UID: NN:msaatext.IVersionInfo
 title: IVersionInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that supply version information for accessible elements.
 old-location: winauto\iversioninfo.htm
 old-project: WinAuto
 ms.assetid: a149466a-a274-495a-a6cd-1553205abc07
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msaatext.h
 req.include-header: 

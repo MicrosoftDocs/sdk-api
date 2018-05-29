@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d10.D3D10_MAP
 title: D3D10_MAP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
 old-location: direct3d10\d3d10_map.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_map.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 851d7498-d47c-94c7-f2ce-7635689c4642, D3D10_MAP, D3D10_MAP enumeration [Direct3D 10], D3D10_MAP_READ, D3D10_MAP_READ_WRITE, D3D10_MAP_WRITE, D3D10_MAP_WRITE_DISCARD, D3D10_MAP_WRITE_NO_OVERWRITE, d3d10/D3D10_MAP, d3d10/D3D10_MAP_READ, d3d10/D3D10_MAP_READ_WRITE, d3d10/D3D10_MAP_WRITE, d3d10/D3D10_MAP_WRITE_DISCARD, d3d10/D3D10_MAP_WRITE_NO_OVERWRITE, direct3d10.d3d10_map
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

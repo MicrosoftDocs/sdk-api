@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_DESTROY_CLUSTER
 title: PCLUSAPI_DESTROY_CLUSTER
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a cluster.
 old-location: mscs\destroycluster.htm
 old-project: MsCS
 ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER callback, PCLUSAPI_DESTROY_CLUSTER callback function [Failover Cluster], clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

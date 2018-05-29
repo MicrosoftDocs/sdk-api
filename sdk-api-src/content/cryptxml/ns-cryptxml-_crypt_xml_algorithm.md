@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ALGORITHM
 title: "_CRYPT_XML_ALGORITHM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the algorithm used to sign or transform the message.
 old-location: security\crypt_xml_algorithm.htm
 old-project: SecCrypto
 ms.assetid: 4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM structure [Security], PCRYPT_XML_ALGORITHM, PCRYPT_XML_ALGORITHM structure pointer [Security], _CRYPT_XML_ALGORITHM, cryptxml/CRYPT_XML_ALGORITHM, cryptxml/PCRYPT_XML_ALGORITHM, security.crypt_xml_algorithm"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

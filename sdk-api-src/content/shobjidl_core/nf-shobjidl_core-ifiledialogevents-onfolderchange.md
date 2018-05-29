@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFolderChange
 title: IFileDialogEvents::OnFolderChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the user navigates to a new folder.
 old-location: shell\IFileDialogEvents_OnFolderChange.htm
 old-project: shell
 ms.assetid: 3e5ec923-0597-4cf4-8973-17c83481c7f4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChange method, IFileDialogEvents.OnFolderChange, IFileDialogEvents::OnFolderChange, OnFolderChange, OnFolderChange method [Windows Shell], OnFolderChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFolderChange, shell_IFileDialogEvents_OnFolderChange, shobjidl_core/IFileDialogEvents::OnFolderChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITCollection
 title: ITCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITCollection interface allows Automation client applications, such as those written in Visual Basic, to retrieve collection information.
 old-location: tapi3\itcollection.htm
 old-project: Tapi
 ms.assetid: 2286678a-68b9-4f4a-b36b-7fdf8cdad6a6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCollection, ITCollection interface [TAPI 2.2], ITCollection interface [TAPI 2.2],described, _tapi3_itcollection, tapi3.itcollection, tapi3if/ITCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

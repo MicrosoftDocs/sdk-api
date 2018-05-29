@@ -1,16 +1,16 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRendererCallback
 title: IWTSBitmapRendererCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: A dynamic virtual channel plug-in implements this interface to be notified when the size of the rendering area changes.
 old-location: termserv\iwtsbitmaprenderercallback.htm
 old-project: TermServ
 ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], IWTSBitmapRendererCallback interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderercallback, tsvirtualchannels/IWTSBitmapRendererCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

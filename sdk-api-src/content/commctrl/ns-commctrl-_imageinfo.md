@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl._IMAGEINFO
 title: "_IMAGEINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an image in an image list. This structure is used with the IImageList::GetImageInfo function.
 old-location: controls\IMAGEINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], LPIMAGEINFO, LPIMAGEINFO structure pointer [Windows Controls], _IMAGEINFO, _win32_IMAGEINFO, _win32_IMAGEINFO_cpp, commoncontrols/IMAGEINFO, commoncontrols/LPIMAGEINFO, controls.IMAGEINFO, controls._win32_IMAGEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: Commctrl.h

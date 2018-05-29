@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.SetFilter
 title: IFsrmReport::SetFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the current value of the specified report filter.
 old-location: fsrm\ifsrmreport_setfilter.htm
 old-project: Fsrm
 ms.assetid: 6d36e3e2-7826-4bae-943c-3ab73404534c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],SetFilter method, IFsrmReport.SetFilter, IFsrmReport::SetFilter, SetFilter, SetFilter method [File Server Resource Manager], SetFilter method [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_setfilter, fsrm.ifsrmreport_setfilter, fsrmreports/IFsrmReport::SetFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.GetHWnd
 title: IDirectDrawClipper::GetHWnd
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the window handle that was previously associated with this DirectDrawClipper object by the IDirectDrawClipper::SetHWnd method.
 old-location: directdraw\idirectdrawclipper_gethwnd.htm
 old-project: directdraw
 ms.assetid: 025e898f-e160-4485-87cf-f5fbc014e9f1
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetHWnd, GetHWnd method [DirectDraw], GetHWnd method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetHWnd method, IDirectDrawClipper.GetHWnd, IDirectDrawClipper::GetHWnd, ddraw/IDirectDrawClipper::GetHWnd, directdraw.idirectdrawclipper_gethwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzSetAppContainerInformation
 title: AuthzSetAppContainerInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the app container and capability information in a current Authz context.
 old-location: security\authzsetappcontainerinformation.htm
 old-project: SecAuthZ
 ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

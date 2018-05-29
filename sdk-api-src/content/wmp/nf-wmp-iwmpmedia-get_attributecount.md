@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPMedia.get_attributeCount
 title: IWMPMedia::get_attributeCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_attributeCount method retrieves the number of attributes that can be queried and/or set for the media item.
 old-location: wmp\iwmpmedia_get_attributecount.htm
 old-project: WMP
 ms.assetid: 33e29da2-7439-41d1-9dd9-9b66e87aeb4b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_attributeCount method, IWMPMedia.get_attributeCount, IWMPMedia2 interface [Windows Media Player],get_attributeCount method, IWMPMedia2::get_attributeCount, IWMPMedia3 interface [Windows Media Player],get_attributeCount method, IWMPMedia3::get_attributeCount, IWMPMedia::get_attributeCount, IWMPMediaget_attributeCount, get_attributeCount, get_attributeCount method [Windows Media Player], get_attributeCount method [Windows Media Player],IWMPMedia interface, get_attributeCount method [Windows Media Player],IWMPMedia2 interface, get_attributeCount method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_attributecount, wmp/IWMPMedia2::get_attributeCount, wmp/IWMPMedia3::get_attributeCount, wmp/IWMPMedia::get_attributeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

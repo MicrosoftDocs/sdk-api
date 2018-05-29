@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.ExpandToEnclosingUnit
 title: ITextRangeProvider::ExpandToEnclosingUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
 old-location: winauto\uiauto_ITextRangeProvider_ExpandToEnclosingUnit.htm
 old-project: WinAuto
 ms.assetid: 6128b0ef-e78d-4f87-bc70-ab5ac0d055cf
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],ExpandToEnclosingUnit method, ITextRangeProvider.ExpandToEnclosingUnit, ITextRangeProvider::ExpandToEnclosingUnit, uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit, winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

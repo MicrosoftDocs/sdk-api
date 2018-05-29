@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromPrivateKey
 title: IX509CertificateRequestPkcs10::InitializeFromPrivateKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the certificate request by using an IX509PrivateKey object and, optionally, a template.
 old-location: security\ix509certificaterequestpkcs10_initializefromprivatekey_method.htm
 old-project: SecCertEnroll
 ms.assetid: b26e69c4-bfe4-4395-aaf6-bc1d045f59cc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10 interface [Security],InitializeFromPrivateKey method, IX509CertificateRequestPkcs10.InitializeFromPrivateKey, IX509CertificateRequestPkcs10::InitializeFromPrivateKey, InitializeFromPrivateKey, InitializeFromPrivateKey method [Security], InitializeFromPrivateKey method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromPrivateKey, security.ix509certificaterequestpkcs10_initializefromprivatekey_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

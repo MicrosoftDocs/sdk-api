@@ -1,16 +1,16 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetDocument
 title: IOleDocumentView::GetDocument
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the IUnknown interface pointer on the document object that owns this view.
 old-location: com\ioledocumentview_getdocument.htm
 old-project: com
 ms.assetid: 46174e4f-c943-4e70-af68-79363962cdee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDocument, GetDocument method [COM], GetDocument method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetDocument method, IOleDocumentView.GetDocument, IOleDocumentView::GetDocument, _ole_ioledocumentview_getdocument, com.ioledocumentview_getdocument, docobj/IOleDocumentView::GetDocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

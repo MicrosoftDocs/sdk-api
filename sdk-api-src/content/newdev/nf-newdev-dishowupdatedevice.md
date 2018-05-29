@@ -1,16 +1,16 @@
 ---
 UID: NF:newdev.DiShowUpdateDevice
 title: DiShowUpdateDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DiShowUpdateDevice function displays the Hardware Update wizard for a specified device.
 old-location: devinst\dishowupdatedevice.htm
 old-project: devinst
 ms.assetid: 4b60f7cd-0375-4569-abb1-721fd8cdf5a1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver Installation], devinst.dishowupdatedevice, di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml, newdev/DiShowUpdateDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h

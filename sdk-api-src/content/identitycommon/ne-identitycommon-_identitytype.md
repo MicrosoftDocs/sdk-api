@@ -1,16 +1,16 @@
 ---
 UID: NE:identitycommon._IdentityType
 title: "_IdentityType"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of identities to enumerate.
 old-location: security\identity_type.htm
 old-project: SecAuthN
 ms.assetid: b15fadf6-5331-4c66-9a6b-0cfdef2ca867
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IDENTITIES_ALL, IDENTITIES_ME_ONLY, IDENTITY_TYPE, IDENTITY_TYPE enumeration [Security], _IdentityType, identitycommon/IDENTITIES_ALL, identitycommon/IDENTITIES_ME_ONLY, identitycommon/IDENTITY_TYPE, security.identity_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: identitycommon.h
 req.include-header: 

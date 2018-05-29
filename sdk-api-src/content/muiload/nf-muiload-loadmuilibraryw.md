@@ -1,16 +1,16 @@
 ---
 UID: NF:muiload.LoadMUILibraryW
 title: LoadMUILibraryW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file.
 old-location: intl\loadmuilibrary.htm
 old-project: Intl
 ms.assetid: 277067d8-c38d-4e79-9c1a-4e4af1987228
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LoadMUILibrary, LoadMUILibrary function [Internationalization for Windows Applications], LoadMUILibraryA, LoadMUILibraryW, MUI_LANGUAGE_EXACT, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_LoadMUILibrary, intl.loadmuilibrary, muiload/LoadMUILibrary, muiload/LoadMUILibraryA, muiload/LoadMUILibraryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: muiload.h
 req.include-header: 

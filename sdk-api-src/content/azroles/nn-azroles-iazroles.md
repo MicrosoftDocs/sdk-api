@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzRoles
 title: IAzRoles
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of IAzRole objects.
 old-location: security\iazroles.htm
 old-project: SecAuthZ
 ms.assetid: bc69ec52-ea73-4a0c-a9a2-913a6725489e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzRoles, IAzRoles interface [Security], IAzRoles interface [Security],described, azroles/IAzRoles, security.iazroles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

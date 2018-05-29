@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.ControlPanelItem
 title: IShellDispatch::ControlPanelItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Runs the specified Control Panel application.
 old-location: shell\IShellDispatch_ControlPanelItem.htm
 old-project: shell
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ControlPanelItem, ControlPanelItem method [Windows Shell], ControlPanelItem method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],ControlPanelItem method, IShellDispatch.ControlPanelItem, IShellDispatch::ControlPanelItem, shell.IShellDispatch_ControlPanelItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

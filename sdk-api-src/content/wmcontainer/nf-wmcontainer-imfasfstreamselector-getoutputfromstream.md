@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputFromStream
 title: IMFASFStreamSelector::GetOutputFromStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the output number associated with a stream.
 old-location: mf\imfasfstreamselector_getoutputfromstream.htm
 old-project: medfound
 ms.assetid: a7ff421b-3ef3-406a-ae05-8d8bf9f4357f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetOutputFromStream, GetOutputFromStream method [Media Foundation], GetOutputFromStream method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputFromStream method, IMFASFStreamSelector.GetOutputFromStream, IMFASFStreamSelector::GetOutputFromStream, a7ff421b-3ef3-406a-ae05-8d8bf9f4357f, mf.imfasfstreamselector_getoutputfromstream, wmcontainer/IMFASFStreamSelector::GetOutputFromStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

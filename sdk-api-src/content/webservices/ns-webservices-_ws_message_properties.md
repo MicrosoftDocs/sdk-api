@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_MESSAGE_PROPERTIES
 title: "_WS_MESSAGE_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a set of WS_MESSAGE_PROPERTY structures.
 old-location: wsw\ws_message_properties.htm
 old-project: wsw
 ms.assetid: 74ad74fd-457a-4408-8032-15d365f98b14
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_MESSAGE_PROPERTIES, WS_MESSAGE_PROPERTIES structure [Web Services for Windows], _WS_MESSAGE_PROPERTIES, webservices/WS_MESSAGE_PROPERTIES, wsw.ws_message_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

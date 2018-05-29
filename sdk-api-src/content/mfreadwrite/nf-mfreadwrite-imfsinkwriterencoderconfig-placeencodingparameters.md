@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEncoderConfig.PlaceEncodingParameters
 title: IMFSinkWriterEncoderConfig::PlaceEncodingParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Dynamically updates the encoder configuration with a collection of new encoder settings.
 old-location: mf\imfsinkwriterencoderconfig_placeencodingparameters.htm
 old-project: medfound
 ms.assetid: ea09d806-c869-4a62-8f9d-c35db4e406ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],PlaceEncodingParameters method, IMFSinkWriterEncoderConfig.PlaceEncodingParameters, IMFSinkWriterEncoderConfig::PlaceEncodingParameters, PlaceEncodingParameters, PlaceEncodingParameters method [Media Foundation], PlaceEncodingParameters method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_placeencodingparameters, mfreadwrite/IMFSinkWriterEncoderConfig::PlaceEncodingParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:certenroll.PolicyServerUrlPropertyID
 title: PolicyServerUrlPropertyID
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify the type of property value to be returned by the GetStringProperty method or set by the SetStringProperty method on the IX509PolicyServerUrl interface.
 old-location: security\policyserverurlpropertyid.htm
 old-project: SecCertEnroll
 ms.assetid: 7b2f898d-9730-4f86-a7b2-dd625889c00a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PolicyServerUrlPropertyID, PolicyServerUrlPropertyID enumeration [Security], PsFriendlyName, PsPolicyID, certenroll/PolicyServerUrlPropertyID, certenroll/PsFriendlyName, certenroll/PsPolicyID, security.policyserverurlpropertyid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

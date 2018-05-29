@@ -1,16 +1,16 @@
 ---
 UID: NS:propidl.tagSTATPROPSTG
 title: tagSTATPROPSTG
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property.
 old-location: stg\statpropstg.htm
 old-project: Stg
 ms.assetid: 3b8de6d3-18a3-4c0a-94d1-04bcec05d41a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: STATPROPSTG, STATPROPSTG [Strctd Stg], STATPROPSTG structure [Structured Storage], _stg_statpropstg, propidlbase/STATPROPSTG, stg.statpropstg, tagSTATPROPSTG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: propidl.h
 req.include-header: Propidl.h

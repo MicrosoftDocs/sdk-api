@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemcli.IUnsecuredApartment
 title: IUnsecuredApartment
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUnsecuredApartment interface is used to simplify the process of making asynchronous calls from a client process.
 old-location: wmi\iunsecuredapartment.htm
 old-project: WmiSdk
 ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IUnsecuredApartment, IUnsecuredApartment interface [Windows Management Instrumentation], IUnsecuredApartment interface [Windows Management Instrumentation],described, UnsecuredApartment, _hmm_iunsecuredapartment, wbemcli/IUnsecuredApartment, wmi.iunsecuredapartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

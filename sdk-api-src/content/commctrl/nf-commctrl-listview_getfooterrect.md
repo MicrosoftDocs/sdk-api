@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetFooterRect
 title: ListView_GetFooterRect macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the coordinates of the footer for a specified list-view control. Use this macro or send the LVM_GETFOOTERRECT message explicitly.
 old-location: controls\ListView_GetFooterRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooterrect.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetFooterRect, ListView_GetFooterRect macro [Windows Controls], _shell_ListView_GetFooterRect, _shell_ListView_GetFooterRect_cpp, commctrl/ListView_GetFooterRect, controls.ListView_GetFooterRect, controls._shell_ListView_GetFooterRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

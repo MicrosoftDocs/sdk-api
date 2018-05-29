@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesSuspend
 title: IOfflineFilesSuspend
-author: windows-driver-content
+author: windows-sdk-content
 description: Suspends or releases a share root or directory tree in the Offline Files cache.
 old-location: of\iofflinefilessuspend.htm
 old-project: OfflineFiles
 ms.assetid: 697018c4-7cce-480a-b078-993cdac32bf5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesSuspend, IOfflineFilesSuspend interface [Offline Files], IOfflineFilesSuspend interface [Offline Files],described, cscobj/IOfflineFilesSuspend, of.iofflinefilessuspend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

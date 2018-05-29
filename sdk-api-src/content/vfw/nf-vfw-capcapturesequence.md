@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capCaptureSequence
 title: capCaptureSequence macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capCaptureSequence macro initiates streaming video and audio capture to a file. You can use this macro or explicitly send the WM_CAP_SEQUENCE message.
 old-location: multimedia\capcapturesequence.htm
 old-project: Multimedia
 ms.assetid: cb4adf31-504a-46ee-b05e-768bdfde4b8f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capCaptureSequence, capCaptureSequence, capCaptureSequence macro [Windows Multimedia], multimedia.capcapturesequence, vfw/capCaptureSequence"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRule.get_IcmpTypesAndCodes
 title: INetFwRule::get_IcmpTypesAndCodes
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the list of ICMP types and codes for this rule.
 old-location: ics\inetfwrule_icmptypesandcodes.htm
 old-project: ICS
 ms.assetid: 5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRule interface [ICS/ICF],IcmpTypesAndCodes property, INetFwRule.IcmpTypesAndCodes, INetFwRule.get_IcmpTypesAndCodes, INetFwRule::IcmpTypesAndCodes, INetFwRule::get_IcmpTypesAndCodes, INetFwRule::put_IcmpTypesAndCodes, IcmpTypesAndCodes property [ICS/ICF], IcmpTypesAndCodes property [ICS/ICF],INetFwRule interface, get_IcmpTypesAndCodes, ics.inetfwrule_icmptypesandcodes, netfw/INetFwRule::IcmpTypesAndCodes, netfw/INetFwRule::get_IcmpTypesAndCodes, netfw/INetFwRule::put_IcmpTypesAndCodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

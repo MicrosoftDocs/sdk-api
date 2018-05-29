@@ -1,16 +1,16 @@
 ---
 UID: NL:vswriter.IVssWriterComponents
 title: IVssWriterComponents
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains methods used to obtain and modify component information.
 old-location: base\ivsswritercomponents.htm
 old-project: VSS
 ms.assetid: e8ff2491-014c-43c7-bdce-99ed3b408605
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssWriterComponents, IVssWriterComponents interface [VSS], IVssWriterComponents interface [VSS],described, _win32_ivsswritercomponents, base.ivsswritercomponents, vswriter/IVssWriterComponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

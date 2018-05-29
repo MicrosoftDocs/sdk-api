@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsPathname
 title: IADsPathname
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses the X.500 and Windows path in ADSI.
 old-location: adsi\iadspathname.htm
 old-project: ADSI
 ms.assetid: 9aa26d6c-aa86-4a23-a986-b8cb9057772a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPathname, IADsPathname interface [ADSI], IADsPathname interface [ADSI],described, Pathname, _ds_iadspathname, adsi.iadspathname, iads/IADsPathname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

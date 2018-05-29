@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJobs.get_Count
 title: IFaxOutgoingJobs::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: The Count property represents the number of objects in the FaxOutgoingJobs collection. This is the total number of outgoing jobs for the fax server.
 old-location: fax\_mfax_faxoutgoingjobs_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6b5g.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutgoingJobs object, FaxOutgoingJobs object [Fax Service],Count property, FaxOutgoingJobs.Count, IFaxOutgoingJobs.get_Count, IFaxOutgoingJobs::get_Count, _mfax_faxoutgoingjobs.count, fax._mfax_faxoutgoingjobs_count, fax._mfax_faxoutgoingjobs_count_vb, get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

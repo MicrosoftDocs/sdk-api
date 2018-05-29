@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolCleanupGroup
 title: CreateThreadpoolCleanupGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a cleanup group that applications can use to track one or more thread pool callbacks.
 old-location: base\createthreadpoolcleanupgroup.htm
 old-project: ProcThread
 ms.assetid: 668593fe-2ed1-418d-8cd5-5fac61826ea1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateThreadpoolCleanupGroup, CreateThreadpoolCleanupGroup function, base.createthreadpoolcleanupgroup, threadpoolapiset/CreateThreadpoolCleanupGroup, winbase/CreateThreadpoolCleanupGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

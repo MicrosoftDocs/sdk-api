@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_TOKEN_EX
 title: LSA_CREATE_TOKEN_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates tokens while processing calls to SpAcceptLsaModeContext.
 old-location: security\createtokenex.htm
 old-project: SecAuthN
 ms.assetid: 1f12d8a4-6cbd-43e3-98a7-eaf3d30a053e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateTokenEx, CreateTokenEx function [Security], LSA_CREATE_TOKEN_EX, LsaTokenInformationNull, LsaTokenInformationV1, ntsecpkg/CreateTokenEx, security.createtokenex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

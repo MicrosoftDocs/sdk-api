@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Add
 title: ICertificationAuthorities::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an ICertificationAuthority object to the collection.
 old-location: security\icertificationauthorities_add.htm
 old-project: SecCertEnroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Add method, ICertificationAuthorities.Add, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.TrimRight
 title: CHString::TrimRight
-author: windows-driver-content
+author: windows-sdk-content
 description: The TrimRight method trims trailing whitespace characters from the string by removing trailing newline, space, and tab characters.
 old-location: wmi\chstring_trimright.htm
 old-project: WmiSdk
 ms.assetid: e87ad3c4-d27a-403c-b59e-391d8021e87b
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?TrimRight@CHString@@QAEXXZ, ?TrimRight@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimRight method, CHString.TrimRight, CHString::TrimRight, TrimRight, TrimRight method [Windows Management Instrumentation], TrimRight method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimright, chstring/CHString::TrimRight, wmi.chstring_trimright"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

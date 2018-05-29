@@ -1,16 +1,16 @@
 ---
 UID: NF:wofapi.WofWimRemoveEntry
 title: WofWimRemoveEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a single WIM data source from backing files on a volume.
 old-location: fs\wofwimremoveentry.htm
 old-project: FileIO
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

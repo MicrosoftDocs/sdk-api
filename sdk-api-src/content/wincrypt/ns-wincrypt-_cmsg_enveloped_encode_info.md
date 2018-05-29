@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMSG_ENVELOPED_ENCODE_INFO
 title: "_CMSG_ENVELOPED_ENCODE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information needed to encode an enveloped message. It is passed to CryptMsgOpenToEncode if the dwMsgType parameter is CMSG_ENVELOPED.
 old-location: security\cmsg_enveloped_encode_info.htm
 old-project: SecCrypto
 ms.assetid: 87712541-2806-4709-a7cf-c9ba966c96fd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMSG_ENVELOPED_ENCODE_INFO, All other encryption algorithms, CALG_3DES, CALG_DES, CMSG_ENVELOPED_ENCODE_INFO, CMSG_ENVELOPED_ENCODE_INFO structure [Security], PCMSG_ENVELOPED_ENCODE_INFO, PCMSG_ENVELOPED_ENCODE_INFO structure pointer [Security], RC2, RC4, SP3 or compatible, _CMSG_ENVELOPED_ENCODE_INFO, _crypto2_cmsg_enveloped_encode_info, security.cmsg_enveloped_encode_info, wincrypt/CMSG_ENVELOPED_ENCODE_INFO, wincrypt/PCMSG_ENVELOPED_ENCODE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

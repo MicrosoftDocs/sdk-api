@@ -1,16 +1,16 @@
 ---
 UID: NF:objpath.CObjectPathParser.Free(LPWSTR)
 title: CObjectPathParser::Free(LPWSTR)
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the memory that contains the unparsed path. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_free_lpwstr_.htm
 old-project: WmiSdk
 ms.assetid: 3a18a29a-269a-490c-8ede-6ec6b77f99f7
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],Free method, CObjectPathParser.Free, CObjectPathParser.Free(LPWSTR), CObjectPathParser::Free, CObjectPathParser::Free(LPWSTR), Free, Free method [Windows Management Instrumentation], Free method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Free, wmi.cobjectpathparser_free_lpwstr_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objpath.h
 req.include-header: ObjPath.h

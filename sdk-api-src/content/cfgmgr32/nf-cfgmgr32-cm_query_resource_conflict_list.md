@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Query_Resource_Conflict_List
 title: CM_Query_Resource_Conflict_List function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Query_Resource_Conflict_List function identifies device instances having resource requirements that conflict with a specified device instance's resource description.
 old-location: devinst\cm_query_resource_conflict_list.htm
 old-project: devinst
 ms.assetid: d8b86549-3687-42e8-a82f-0f2dbd70cf66
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Query_Resource_Conflict_List, CM_Query_Resource_Conflict_List function [Device and Driver Installation], cfgmgr32/CM_Query_Resource_Conflict_List, cfgmgrfn_1d52e544-49ce-4c1a-acc1-b59b7aaec790.xml, devinst.cm_query_resource_conflict_list
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

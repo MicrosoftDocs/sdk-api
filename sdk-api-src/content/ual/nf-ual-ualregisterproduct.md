@@ -1,16 +1,16 @@
 ---
 UID: NF:ual.UalRegisterProduct
 title: UalRegisterProduct function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a product with User Access Logging (UAL).
 old-location: ual\ualregisterproduct.htm
 old-project: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ual.h
 req.include-header: 

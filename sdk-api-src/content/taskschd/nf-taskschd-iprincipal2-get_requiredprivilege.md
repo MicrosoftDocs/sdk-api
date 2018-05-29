@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_RequiredPrivilege
 title: IPrincipal2::get_RequiredPrivilege
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the required privilege of the task by index.
 old-location: taskschd\iprincipal2_requiredprivilege.htm
 old-project: TaskSchd
 ms.assetid: 701ff07e-2dd1-4985-8fc4-f570749c5834
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilege property, IPrincipal2.RequiredPrivilege, IPrincipal2.get_RequiredPrivilege, IPrincipal2::RequiredPrivilege, IPrincipal2::get_RequiredPrivilege, RequiredPrivilege property [Task Scheduler], RequiredPrivilege property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilege, taskschd.iprincipal2_requiredprivilege, taskschd/IPrincipal2::RequiredPrivilege, taskschd/IPrincipal2::get_RequiredPrivilege
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

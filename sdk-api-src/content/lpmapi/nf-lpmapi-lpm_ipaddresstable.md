@@ -1,16 +1,16 @@
 ---
 UID: NF:lpmapi.LPM_IpAddressTable
 title: LPM_IpAddressTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LPM_IpAddressTable function is used by the PCM to pass a list of IP addresses assigned to the Windows 2000 Server upon which the LPM is initialized.
 old-location: qos\lpm_ipaddresstable.htm
 old-project: QOS
 ms.assetid: f02ecb97-3797-49a0-8bff-fcb16096cb25
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback, LPM_IpAddressTable callback function [QOS], _gqos_lpm_ipaddresstable, lpmapi/LPM_IpAddressTable, qos.lpm_ipaddresstable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 

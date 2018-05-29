@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_5.IDXGIDevice4
 title: IDXGIDevice4
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface provides updated methods to offer and reclaim resources.
 old-location: direct3ddxgi\idxgidevice4.htm
 old-project: direct3ddxgi
 ms.assetid: 15EA6B68-587E-4D92-A70D-7DDA9915EBC2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDevice4, IDXGIDevice4 interface [DXGI], IDXGIDevice4 interface [DXGI],described, direct3ddxgi.idxgidevice4, dxgi1_5/IDXGIDevice4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 

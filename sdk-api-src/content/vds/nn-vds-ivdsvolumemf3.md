@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsVolumeMF3
 title: IVdsVolumeMF3
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to perform additional file system management operations on the volume object.
 old-location: base\ivdsvolumemf3.htm
 old-project: VDS
 ms.assetid: 46b8ff26-c00b-45ef-ac30-0aa82786bf9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVolumeMF3, IVdsVolumeMF3 interface, IVdsVolumeMF3 interface,described, base.ivdsvolumemf3, vds/IVdsVolumeMF3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

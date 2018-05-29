@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IReferenceClockTimerControl.SetDefaultTimerResolution
 title: IReferenceClockTimerControl::SetDefaultTimerResolution
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDefaultTimerResolution method sets the minimum timer resolution.
 old-location: dshow\ireferenceclocktimercontrol_setdefaulttimerresolution.htm
 old-project: DirectShow
 ms.assetid: d13d14a7-39dd-4281-9926-4af97cc5d450
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IReferenceClockTimerControl interface [DirectShow],SetDefaultTimerResolution method, IReferenceClockTimerControl.SetDefaultTimerResolution, IReferenceClockTimerControl::SetDefaultTimerResolution, IReferenceClockTimerControlSetDefaultTimerResoluti, SetDefaultTimerResolution, SetDefaultTimerResolution method [DirectShow], SetDefaultTimerResolution method [DirectShow],IReferenceClockTimerControl interface, dshow.ireferenceclocktimercontrol_setdefaulttimerresolution, strmif/IReferenceClockTimerControl::SetDefaultTimerResolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

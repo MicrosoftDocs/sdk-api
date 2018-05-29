@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_Silent
 title: IX509CertificateRequest::get_Silent
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether any of the key-related modal dialogs are displayed during the certificate enrollment process.
 old-location: security\ix509certificaterequest_silent_property.htm
 old-project: SecCertEnroll
 ms.assetid: 339c8d47-4406-4f2e-b927-b2dd5f58d1ec
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequest interface [Security],Silent property, IX509CertificateRequest.Silent, IX509CertificateRequest.get_Silent, IX509CertificateRequest::Silent, IX509CertificateRequest::get_Silent, IX509CertificateRequest::put_Silent, Silent property [Security], Silent property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Silent, certenroll/IX509CertificateRequest::get_Silent, certenroll/IX509CertificateRequest::put_Silent, get_Silent, security.ix509certificaterequest_silent_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

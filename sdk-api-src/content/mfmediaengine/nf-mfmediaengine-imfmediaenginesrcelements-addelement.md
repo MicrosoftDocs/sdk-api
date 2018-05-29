@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.AddElement
 title: IMFMediaEngineSrcElements::AddElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a source element to the end of the list.
 old-location: mf\imfmediaenginesrcelements_addelement.htm
 old-project: medfound
 ms.assetid: 2C98A70B-F6B3-4CA7-8D04-958DFCCD2A50
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],AddElement method, IMFMediaEngineSrcElements.AddElement, IMFMediaEngineSrcElements::AddElement, mf.imfmediaenginesrcelements_addelement, mfmediaengine/IMFMediaEngineSrcElements::AddElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

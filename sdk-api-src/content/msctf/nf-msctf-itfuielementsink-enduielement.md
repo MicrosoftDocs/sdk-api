@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfUIElementSink.EndUIElement
 title: ITfUIElementSink::EndUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElementSink::EndUIElement method is called when the UIElement is finished.
 old-location: tsf\itfuielementsink_enduielement.htm
 old-project: TSF
 ms.assetid: b29539fe-a240-498b-8267-be243d437005
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],EndUIElement method, ITfUIElementSink.EndUIElement, ITfUIElementSink::EndUIElement, msctf/ITfUIElementSink::EndUIElement, tsf.itfuielementsink_enduielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:directxpackedvector.XMHALF4
 title: XMHALF4
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a 4D vector consisting of four half-precision (16-bit) floating-point values.
 old-location: dxmath\xmhalf4.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMHALF4
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: XMHALF4, XMHALF4 structure [DirectX Math Support APIs], directxpackedvector/XMHALF4, dxmath.xmhalf4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

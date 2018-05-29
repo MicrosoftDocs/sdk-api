@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted
 title: IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts a new payload package to the bundle.
 old-location: appxpkg\iappxencryptedbundlewriter3_addpayloadpackageencrypted.htm
 old-project: appxpkg
 ms.assetid: DB20D7FE-BB30-4E66-9617-BDDF1E00BB6A
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: AddPayloadPackageEncrypted, AddPayloadPackageEncrypted method [App packaging and management], AddPayloadPackageEncrypted method [App packaging and management],IAppxEncryptedBundleWriter3 interface, IAppxEncryptedBundleWriter3 interface [App packaging and management],AddPayloadPackageEncrypted method, IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted, IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted, appxpackaging/IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted, appxpkg.iappxencryptedbundlewriter3_addpayloadpackageencrypted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

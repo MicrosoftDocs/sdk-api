@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION_ENUM_TEMPLATE0_
 title: FWPM_CONNECTION_ENUM_TEMPLATE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Used for limiting connection object enumerations.
 old-location: fwp\fwpm_connection_enum_template0.htm
 old-project: FWP
 ms.assetid: 1939e4ae-9ff8-4ee7-895b-2ed992204b5c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_CONNECTION_ENUM_FLAG_QUERY_BYTES_TRANSFERRED, FWPM_CONNECTION_ENUM_TEMPLATE0, FWPM_CONNECTION_ENUM_TEMPLATE0 structure [Filtering], FWPM_CONNECTION_ENUM_TEMPLATE0_, fwp.fwpm_connection_enum_template0, fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

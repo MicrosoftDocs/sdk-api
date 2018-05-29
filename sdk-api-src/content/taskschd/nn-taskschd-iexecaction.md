@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IExecAction
 title: IExecAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an action that executes a command-line operation.
 old-location: taskschd\iexecaction.htm
 old-project: TaskSchd
 ms.assetid: 46a4cd60-df23-4109-8a86-b7755a6922dd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IExecAction, IExecAction interface [Task Scheduler], IExecAction interface [Task Scheduler],described, execute action [Task Scheduler],interface, taskschd.iexecaction, taskschd/IExecAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

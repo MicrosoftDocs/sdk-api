@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.GetStoryboardFromTag
 title: IUIAnimationManager2::GetStoryboardFromTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the storyboard with the specified tag.
 old-location: uianimation\iuianimationmanager2_getstoryboardfromtag.htm
 old-project: UIAnimation
 ms.assetid: C7B11A34-E5FB-40D7-A655-29D28ECF4068
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStoryboardFromTag, GetStoryboardFromTag method [Windows Animation], GetStoryboardFromTag method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetStoryboardFromTag method, IUIAnimationManager2.GetStoryboardFromTag, IUIAnimationManager2::GetStoryboardFromTag, uianimation.iuianimationmanager2_getstoryboardfromtag, uianimation/IUIAnimationManager2::GetStoryboardFromTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

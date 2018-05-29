@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepOther
 title: ISyncMgrResolutionHandler::KeepOther
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces the versions in conflict with a different Shell item that is usually a merged version of the originals.
 old-location: shell\ISyncMgrResolutionHandler_KeepOther.htm
 old-project: shell
 ms.assetid: 6d3e3b01-447c-4f7b-8a63-5bd9084de00a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepOther method, ISyncMgrResolutionHandler.KeepOther, ISyncMgrResolutionHandler::KeepOther, KeepOther, KeepOther method [Windows Shell], KeepOther method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepOther, shell.ISyncMgrResolutionHandler_KeepOther, syncmgr/ISyncMgrResolutionHandler::KeepOther
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

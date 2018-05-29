@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemReconnected
 title: IOfflineFilesEvents::ItemReconnected
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an item in the Offline Files cache has transitioned from offline to online.
 old-location: of\iofflinefilesevents_itemreconnected.htm
 old-project: OfflineFiles
 ms.assetid: beafae9d-3ef8-401f-8ab6-79d2ae3366a4
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemReconnected method, IOfflineFilesEvents.ItemReconnected, IOfflineFilesEvents::ItemReconnected, ItemReconnected, ItemReconnected method [Offline Files], ItemReconnected method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemReconnected, of.iofflinefilesevents_itemreconnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

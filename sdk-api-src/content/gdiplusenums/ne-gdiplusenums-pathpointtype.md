@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.PathPointType
 title: PathPointType
-author: windows-driver-content
+author: windows-sdk-content
 description: The PathPointType enumeration indicates point types and flags for the data points in a path.
 old-location: gdiplus\_gdiplus_ENUM_PathPointType.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\pathpointtype.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathPointType, PathPointType enumeration [GDI+], PathPointTypeBezier, PathPointTypeBezier3, PathPointTypeCloseSubpath, PathPointTypeLine, PathPointTypePathDashMode, PathPointTypePathMarker, PathPointTypePathTypeMask, PathPointTypeStart, _gdiplus_ENUM_PathPointType, gdiplus._gdiplus_ENUM_PathPointType, gdiplusenums/PathPointType, gdiplusenums/PathPointTypeBezier, gdiplusenums/PathPointTypeBezier3, gdiplusenums/PathPointTypeCloseSubpath, gdiplusenums/PathPointTypeLine, gdiplusenums/PathPointTypePathDashMode, gdiplusenums/PathPointTypePathMarker, gdiplusenums/PathPointTypePathTypeMask, gdiplusenums/PathPointTypeStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

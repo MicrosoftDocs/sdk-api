@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetComponentTag
 title: IDvbDataBroadcastDescriptor::GetComponentTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the component tag from a Digital Video Broadcast (DVB) data broadcast descriptor. The component tag identifies a compoment stream within the service.
 old-location: mstv\idvbdatabroadcastdescriptor_getcomponenttag.htm
 old-project: mstv
 ms.assetid: 3b4c93ff-063b-4ebb-bc9a-09ec9cb6d538
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IDvbDataBroadcastDescriptor.GetComponentTag, IDvbDataBroadcastDescriptor::GetComponentTag, dvbsiparser/IDvbDataBroadcastDescriptor::GetComponentTag, mstv.idvbdatabroadcastdescriptor_getcomponenttag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

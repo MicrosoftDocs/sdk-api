@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.InsertAt
 title: IXpsOMFontResourceCollection::InsertAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts an IXpsOMFontResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_insertat.htm
 old-project: printdocs
 ms.assetid: 39400f6a-10b1-48f8-ae53-cd27bf7c2e1a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMFontResourceCollection.InsertAt, IXpsOMFontResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_insertat, xpsobjectmodel/IXpsOMFontResourceCollection::InsertAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgi.DXGI_RESIDENCY
 title: DXGI_RESIDENCY
-author: windows-driver-content
+author: windows-sdk-content
 description: Flags indicating the memory location of a resource.
 old-location: direct3ddxgi\DXGI_RESIDENCY.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_residency.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_RESIDENCY, DXGI_RESIDENCY enumeration [DXGI], DXGI_RESIDENCY_EVICTED_TO_DISK, DXGI_RESIDENCY_FULLY_RESIDENT, DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY, cfa66ca7-3d9d-67f6-1665-f4254ee73606, direct3ddxgi.DXGI_RESIDENCY, dxgi/DXGI_RESIDENCY, dxgi/DXGI_RESIDENCY_EVICTED_TO_DISK, dxgi/DXGI_RESIDENCY_FULLY_RESIDENT, dxgi/DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi.h
 req.include-header: 

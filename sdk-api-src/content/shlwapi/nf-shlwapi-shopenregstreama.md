@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHOpenRegStreamA
 title: SHOpenRegStreamA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated.
 old-location: shell\SHOpenRegStream.htm
 old-project: shell
 ms.assetid: 2f839b89-8584-4b4d-91e7-166b6e2b6892
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHOpenRegStream, SHOpenRegStream function [Windows Shell], SHOpenRegStreamA, SHOpenRegStreamW, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream, shell.SHOpenRegStream, shlwapi/SHOpenRegStream, shlwapi/SHOpenRegStreamA, shlwapi/SHOpenRegStreamW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

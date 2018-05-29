@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddText
 title: IFileDialogCustomize::AddText
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds text content to the dialog.
 old-location: shell\IFileDialogCustomize_AddText.htm
 old-project: shell
 ms.assetid: efea2fdb-4006-4567-b53c-faa891d18c7e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddText, AddText method [Windows Shell], AddText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddText method, IFileDialogCustomize.AddText, IFileDialogCustomize::AddText, shell.IFileDialogCustomize_AddText, shell_IFileDialogCustomize_AddText, shobjidl_core/IFileDialogCustomize::AddText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddRepeat
 title: IDCompositionAnimation::AddRepeat
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a repeat segment that causes the specified portion of an animation function to be repeated.
 old-location: directcomp\idcompositionanimation_addrepeat.htm
 old-project: directcomp
 ms.assetid: 14179e2f-3ede-4137-baa4-074bb31e1481
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: AddRepeat, AddRepeat method [DirectComposition], AddRepeat method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddRepeat method, IDCompositionAnimation.AddRepeat, IDCompositionAnimation::AddRepeat, dcompanimation/IDCompositionAnimation::AddRepeat, directcomp.idcompositionanimation_addrepeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 

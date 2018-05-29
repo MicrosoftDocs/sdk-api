@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredRotation
 title: IInertiaProcessor::get_DesiredRotation
-author: windows-driver-content
+author: windows-sdk-content
 description: The DesiredRotation property specifies how far the current inertia processor object should manipulate the target object in radians.
 old-location: wintouch\iinertiaprocessor_desiredrotation.htm
 old-project: wintouch
 ms.assetid: 42fcda66-8992-4a44-b4d5-04d4f2c7e25a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DesiredRotation property [Windows Touch], DesiredRotation property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredRotation property, IInertiaProcessor.DesiredRotation, IInertiaProcessor.get_DesiredRotation, IInertiaProcessor::DesiredRotation, IInertiaProcessor::get_DesiredRotation, IInertiaProcessor::put_DesiredRotation, get_DesiredRotation, manipulations/IInertiaProcessor::DesiredRotation, manipulations/IInertiaProcessor::get_DesiredRotation, manipulations/IInertiaProcessor::put_DesiredRotation, wintouch.iinertiaprocessor_desiredrotation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

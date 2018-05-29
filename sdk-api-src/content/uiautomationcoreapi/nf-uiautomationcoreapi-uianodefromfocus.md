@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeFromFocus
 title: UiaNodeFromFocus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the UI Automation node for the UI element that currently has input focus.
 old-location: winauto\uiauto_UiaNodeFromFocusFunction.htm
 old-project: WinAuto
 ms.assetid: 6ea47aee-1f9f-40e1-8c55-a1813203575e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaNodeFromFocus, UiaNodeFromFocus function [Windows Accessibility], uiauto.uiauto_UiaNodeFromFocusFunction, uiauto_UiaNodeFromFocusFunction, uiautomationcoreapi/UiaNodeFromFocus, winauto.uiauto_UiaNodeFromFocusFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

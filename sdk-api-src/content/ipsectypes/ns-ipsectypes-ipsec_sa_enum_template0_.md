@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_ENUM_TEMPLATE0_
 title: IPSEC_SA_ENUM_TEMPLATE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a template used for restricting the enumeration of IPsec security associations (SAs).
 old-location: fwp\ipsec_sa_enum_template0_struct.htm
 old-project: FWP
 ms.assetid: 6a00af2b-0b39-4d9f-9335-4817df693b52
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_SA_ENUM_TEMPLATE0, IPSEC_SA_ENUM_TEMPLATE0 structure [Filtering], IPSEC_SA_ENUM_TEMPLATE0_, fwp.ipsec_sa_enum_template0_struct, ipsectypes/IPSEC_SA_ENUM_TEMPLATE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

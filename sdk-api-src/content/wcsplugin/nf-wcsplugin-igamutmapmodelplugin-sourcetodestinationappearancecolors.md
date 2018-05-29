@@ -1,16 +1,16 @@
 ---
 UID: NF:wcsplugin.IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
 title: IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the appropriate gamut-mapped appearance colors in response to the specified number of colors and the CIEJCh colors.
 old-location: wcs\IGamutMapModelPlugIn_SourceToDestinationAppearanceColors.htm
 old-project: WCS
 ms.assetid: b98f05db-f003-4a3f-9bc3-0675719e339d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],SourceToDestinationAppearanceColors method, IGamutMapModelPlugIn.SourceToDestinationAppearanceColors, IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors method [Windows Color System], SourceToDestinationAppearanceColors method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, wcs.IGamutMapModelPlugIn_SourceToDestinationAppearanceColors, wcsplugin/IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetNamedPipeClientSessionId
 title: GetNamedPipeClientSessionId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the client session identifier for the specified named pipe.
 old-location: base\getnamedpipeclientsessionid.htm
 old-project: ipc
 ms.assetid: b3ea0b7f-fead-4369-b87a-2f522a2a1984
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNamedPipeClientSessionId, GetNamedPipeClientSessionId function, base.getnamedpipeclientsessionid, winbase/GetNamedPipeClientSessionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

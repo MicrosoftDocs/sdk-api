@@ -1,16 +1,16 @@
 ---
 UID: NF:winenclaveapi.EnclaveUnsealData
 title: EnclaveUnsealData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts an encrypted binary large object (blob).
 old-location: base\enclaveunsealdata.htm
 old-project: Memory
 ms.assetid: DDBDBEDE-E7EA-43B0-B2C7-B85D75EF3EB0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData function, base.enclaveunsealdata, winenclaveapi/EnclaveUnsealData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winenclaveapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rasshost.RasSecurityDialogReceive
 title: RasSecurityDialogReceive function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSecurityDialogReceive function starts an asynchronous operation that receives a remote user's response to a security challenge.
 old-location: rras\rassecuritydialogreceive.htm
 old-project: RRAS
 ms.assetid: ed5fcea6-6533-4c78-bd49-dfeaafd8192a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 

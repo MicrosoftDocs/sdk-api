@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ClearCommError
 title: ClearCommError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a communications error and reports the current status of a communications device.
 old-location: base\clearcommerror.htm
 old-project: DevIO
 ms.assetid: 9cc52104-aa5e-4baa-86f1-8c6dcdd661ef
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: CE_BREAK, CE_FRAME, CE_OVERRUN, CE_RXOVER, CE_RXPARITY, ClearCommError, ClearCommError function, _win32_clearcommerror, base.clearcommerror, winbase/ClearCommError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

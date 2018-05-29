@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerGetSendPacket
 title: EapHostPeerGetSendPacket function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is called by the supplicant when the supplicant needs to obtains a packet from EAPHost to send to the authenticator.
 old-location: eaphost\eaphostpeergetsendpacket.htm
 old-project: EAPHost
 ms.assetid: 22e17496-e381-415e-8da0-88aad37d0d21
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerGetSendPacket, EapHostPeerGetSendPacket function [EAPHost], eaphost.eaphostpeergetsendpacket, eappapis/EapHostPeerGetSendPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

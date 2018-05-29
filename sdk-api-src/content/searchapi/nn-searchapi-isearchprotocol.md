@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.ISearchProtocol
 title: ISearchProtocol
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.
 old-location: search\_search_ISearchProtocol.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\isearchprotocol.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchProtocol, ISearchProtocol interface [search], ISearchProtocol interface [search],described, _search_ISearchProtocol, search._search_ISearchProtocol, searchapi/ISearchProtocol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

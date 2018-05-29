@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCreatePeerName
 title: PeerCreatePeerName function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerCreatePeerName function creates a new name based on the existing name of the specified peer identity and classifier. However, a new identity is not created by a call to PeerCreatePeerName.
 old-location: p2p\peercreatepeername.htm
 old-project: P2PSdk
 ms.assetid: 8248b0ae-5d35-4d6e-91ef-c210033c99ef
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCreatePeerName, PeerCreatePeerName function [Peer Networking], p2p.peercreatepeername, p2p/PeerCreatePeerName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

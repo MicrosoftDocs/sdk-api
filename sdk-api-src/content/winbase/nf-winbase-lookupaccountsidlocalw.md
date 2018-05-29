@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.LookupAccountSidLocalW
 title: LookupAccountSidLocalW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the account for the specified SID on the local machine.
 old-location: security\lookupaccountsidlocal.htm
 old-project: SecAuthZ
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

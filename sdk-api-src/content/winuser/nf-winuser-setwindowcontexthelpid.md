@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetWindowContextHelpId
 title: SetWindowContextHelpId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a Help context identifier with the specified window.
 old-location: shell\SetWindowContextHelpId.htm
 old-project: shell
 ms.assetid: 7e0963d1-5807-4db5-9abf-cdb21a03b525
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetWindowContextHelpId, SetWindowContextHelpId function [Windows Shell], _win32_SetWindowContextHelpId, shell.SetWindowContextHelpId, winuser/SetWindowContextHelpId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

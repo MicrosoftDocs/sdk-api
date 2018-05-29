@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorFore
 title: ITextRow::SetCellColorFore
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the foreground color of the active cell.
 old-location: controls\itextrow_setcellcolorfore.htm
 old-project: Controls
 ms.assetid: 2eff9f39-b79d-4fcb-b8ee-ef067cff2c78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellColorFore method, ITextRow.SetCellColorFore, ITextRow::SetCellColorFore, SetCellColorFore, SetCellColorFore method [Windows Controls], SetCellColorFore method [Windows Controls],ITextRow interface, controls.itextrow_setcellcolorfore, tom/ITextRow::SetCellColorFore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesErrorInfo.GetDescription
 title: IOfflineFilesErrorInfo::GetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a text string describing the error.
 old-location: of\iofflinefileserrorinfo_getdescription.htm
 old-project: OfflineFiles
 ms.assetid: 04ec70c6-84e0-4543-b49f-1fe058d4d31d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetDescription, GetDescription method [Offline Files], GetDescription method [Offline Files],IOfflineFilesErrorInfo interface, IOfflineFilesErrorInfo interface [Offline Files],GetDescription method, IOfflineFilesErrorInfo.GetDescription, IOfflineFilesErrorInfo::GetDescription, cscobj/IOfflineFilesErrorInfo::GetDescription, of.iofflinefileserrorinfo_getdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

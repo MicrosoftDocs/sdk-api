@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IRepetitionPattern
 title: IRepetitionPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines how often the task is run and how long the repetition pattern is repeated after the task is started.
 old-location: taskschd\irepetitionpattern.htm
 old-project: TaskSchd
 ms.assetid: 7eea143b-d2f8-44d2-a3ec-8328a0bc69ef
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRepetitionPattern, IRepetitionPattern interface [Task Scheduler], IRepetitionPattern interface [Task Scheduler],described, repetition pattern [Task Scheduler],interface, taskschd.irepetitionpattern, taskschd/IRepetitionPattern, triggers [Task Scheduler],repetition pattern interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

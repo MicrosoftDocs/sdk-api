@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetOptionInfo
 title: DhcpGetOptionInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information on a specific DHCP option for the default user and vendor class.
 old-location: dhcp\dhcpgetoptioninfo.htm
 old-project: DHCP
 ms.assetid: b62b0a07-3043-417d-affe-d3a350907f4e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpGetOptionInfo, DhcpGetOptionInfo function [DHCP], dhcp.dhcpgetoptioninfo, dhcpsapi/DhcpGetOptionInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

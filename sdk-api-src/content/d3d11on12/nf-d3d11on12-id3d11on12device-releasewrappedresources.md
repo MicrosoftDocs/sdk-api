@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.ReleaseWrappedResources
 title: ID3D11On12Device::ReleaseWrappedResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases D3D11 resources that were wrapped for D3D 11on12.
 old-location: direct3d12\id3d11on12device_releasewrappedresources.htm
 old-project: direct3d12
 ms.assetid: 6591D7D4-9B8D-4837-9DCF-0502CC26E725
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D11On12Device interface,ReleaseWrappedResources method, ID3D11On12Device.ReleaseWrappedResources, ID3D11On12Device::ReleaseWrappedResources, ReleaseWrappedResources, ReleaseWrappedResources method, ReleaseWrappedResources method,ID3D11On12Device interface, d3d11on12/ID3D11On12Device::ReleaseWrappedResources, direct3d12.id3d11on12device_releasewrappedresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11on12.h
 req.include-header: 

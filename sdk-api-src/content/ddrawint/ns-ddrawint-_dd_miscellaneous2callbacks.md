@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_MISCELLANEOUS2CALLBACKS
 title: "_DD_MISCELLANEOUS2CALLBACKS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_MISCELLANEOUS2CALLBACKS structure is used to return the addresses of miscellaneous callback routines.
 old-location: display\dd_miscellaneous2callbacks.htm
 old-project: display
 ms.assetid: bb3e91c0-5399-4760-a12e-0a47f0fbd2f9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS structure [Display Devices], PDD_MISCELLANEOUS2CALLBACKS, PDD_MISCELLANEOUS2CALLBACKS structure pointer [Display Devices], _DD_MISCELLANEOUS2CALLBACKS, ddrawint/DD_MISCELLANEOUS2CALLBACKS, ddrawint/PDD_MISCELLANEOUS2CALLBACKS, ddstrcts_61459de1-283c-4693-a27a-f5dc8bdc5a44.xml, display.dd_miscellaneous2callbacks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

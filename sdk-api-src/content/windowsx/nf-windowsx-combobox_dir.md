@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ComboBox_Dir
 title: ComboBox_Dir macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds names to the list displayed by a combo box.
 old-location: controls\ComboBox_Dir.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_dir.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ComboBox_Dir, ComboBox_Dir macro [Windows Controls], _win32_ComboBox_Dir, _win32_ComboBox_Dir_cpp, controls.ComboBox_Dir, controls._win32_ComboBox_Dir, windowsx/ComboBox_Dir
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

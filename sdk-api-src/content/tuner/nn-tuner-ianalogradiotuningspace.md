@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IAnalogRadioTuningSpace
 title: IAnalogRadioTuningSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAnalogRadioTuningSpace interface provides methods for getting and setting parameters associated with tuning spaces for analog radio transmissions.
 old-location: mstv\ianalogradiotuningspace.htm
 old-project: mstv
 ms.assetid: 25cf9f31-88a9-479e-b51c-ad823cd04d2d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAnalogRadioTuningSpace, IAnalogRadioTuningSpace interface [Microsoft TV Technologies], IAnalogRadioTuningSpace interface [Microsoft TV Technologies],described, IAnalogRadioTuningSpaceInterface, mstv.ianalogradiotuningspace, tuner/IAnalogRadioTuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

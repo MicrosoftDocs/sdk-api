@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509ExtensionAuthorityKeyIdentifier
 title: IX509ExtensionAuthorityKeyIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to specify an AuthorityKeyIdentifier extension.
 old-location: security\ix509extensionauthoritykeyidentifier.htm
 old-project: SecCertEnroll
 ms.assetid: 68889c3e-25ea-440a-a776-ef3d11dc6b54
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionAuthorityKeyIdentifier, IX509ExtensionAuthorityKeyIdentifier interface [Security], IX509ExtensionAuthorityKeyIdentifier interface [Security],described, certenroll/IX509ExtensionAuthorityKeyIdentifier, security.ix509extensionauthoritykeyidentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

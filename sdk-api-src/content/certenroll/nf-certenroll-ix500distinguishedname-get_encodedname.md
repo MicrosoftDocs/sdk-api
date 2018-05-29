@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX500DistinguishedName.get_EncodedName
 title: IX500DistinguishedName::get_EncodedName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a Unicode-encoded distinguished name.
 old-location: security\ix500distinguishedname_encodedname_property.htm
 old-project: SecCertEnroll
 ms.assetid: c3b2966c-5149-462d-908b-f6eca6a0409d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EncodedName property [Security], EncodedName property [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],EncodedName property, IX500DistinguishedName.EncodedName, IX500DistinguishedName.get_EncodedName, IX500DistinguishedName::EncodedName, IX500DistinguishedName::get_EncodedName, certenroll/IX500DistinguishedName::EncodedName, certenroll/IX500DistinguishedName::get_EncodedName, get_EncodedName, security.ix500distinguishedname_encodedname_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

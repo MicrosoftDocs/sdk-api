@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Mono
 title: IAMAudioInputMixer::get_Mono
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Mono method queries whether all channels are combined into a mono signal.
 old-location: dshow\iamaudioinputmixer_get_mono.htm
 old-project: DirectShow
 ms.assetid: 0c0ce59d-6083-4af2-856b-41a1c9d83295
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Mono method, IAMAudioInputMixer.get_Mono, IAMAudioInputMixer::get_Mono, IAMAudioInputMixerget_Mono, dshow.iamaudioinputmixer_get_mono, get_Mono, get_Mono method [DirectShow], get_Mono method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Mono
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

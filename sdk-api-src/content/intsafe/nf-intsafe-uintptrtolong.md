@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UIntPtrToLong
 title: UIntPtrToLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type size_t to a value of type LONG.
 old-location: shell\SizeTToLong.htm
 old-project: shell
 ms.assetid: 1904fefa-eb31-4fda-ad0b-8ad6d2b62210
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SizeTToLong, SizeTToLong function [Windows Shell], UIntPtrToLong, _shell_SizeTToLong, intsafe/SizeTToLong, shell.SizeTToLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

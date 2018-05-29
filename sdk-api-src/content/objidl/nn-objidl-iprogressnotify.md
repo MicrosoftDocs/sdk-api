@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IProgressNotify
 title: IProgressNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables applications and other objects to receive notifications of changes in the progress of a downloading operation.
 old-location: com\iprogressnotify.htm
 old-project: com
 ms.assetid: 3f90437d-df8f-42b2-af81-519bfb9577b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IProgressNotify, IProgressNotify interface [COM], IProgressNotify interface [COM],described, _com_iprogressnotify, com.iprogressnotify, objidl/IProgressNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

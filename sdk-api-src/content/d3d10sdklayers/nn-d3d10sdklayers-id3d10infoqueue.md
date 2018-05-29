@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10InfoQueue
 title: ID3D10InfoQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack.
 old-location: direct3d10\id3d10infoqueue.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 1ef0bd38-23d3-fa53-cf27-ff502bb674f2, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], ID3D10InfoQueue interface [Direct3D 10],described, d3d10sdklayers/ID3D10InfoQueue, direct3d10.id3d10infoqueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10sdklayers.h
 req.include-header: 

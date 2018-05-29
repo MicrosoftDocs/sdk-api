@@ -1,16 +1,16 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterDevice
 title: IUPnPRegistrar::RegisterDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterDevice method registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.
 old-location: upnp\iupnpregistrar_registerdevice.htm
 old-project: UPnP
 ms.assetid: 1bb99a42-143b-495a-8b02-efa7ca1d4d29
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterDevice method, IUPnPRegistrar.RegisterDevice, IUPnPRegistrar::RegisterDevice, RegisterDevice, RegisterDevice method [UPnP APIs], RegisterDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerdevice, upnp.iupnpregistrar_registerdevice, upnphost/IUPnPRegistrar::RegisterDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

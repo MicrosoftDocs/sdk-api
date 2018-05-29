@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.GenerateReportToFile
 title: IGPMRSOP::GenerateReportToFile
-author: windows-driver-content
+author: windows-sdk-content
 description: The GenerateReportToFile method generates a report on the RSoP data and saves it to a file at a specified path.
 old-location: gpmc\igpmrsop_generatereporttofile.htm
 old-project: GPMC
 ms.assetid: 92a199d6-244f-44e5-8158-d77b8488fde0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReportToFile method, IGPMRSOP.GenerateReportToFile, IGPMRSOP::GenerateReportToFile, gpmc.igpmrsop_generatereporttofile, gpmgmt/IGPMRSOP::GenerateReportToFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

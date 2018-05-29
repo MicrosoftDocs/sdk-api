@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll2.SetHStoreCA
 title: IEnroll2::SetHStoreCA
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetHStoreCA method specifies the handle to use for the CA store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoreca.htm
 old-project: SecCrypto
 ms.assetid: d70fa8c0-7cdf-4023-9700-68f24d9116af
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreCA method, IEnroll2.SetHStoreCA, IEnroll2::SetHStoreCA, SetHStoreCA, SetHStoreCA method [Security], SetHStoreCA method [Security],IEnroll2 interface, security.ienroll4_sethstoreca, xenroll/IEnroll2::SetHStoreCA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

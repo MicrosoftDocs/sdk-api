@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_INPUT
 title: "_MINIDUMP_CALLBACK_INPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used by the MiniDumpCallback function.
 old-location: base\minidump_callback_input_str.htm
 old-project: Debug
 ms.assetid: 0ce3083c-21c9-48a4-9099-1dab31afcafa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT structure, PMINIDUMP_CALLBACK_INPUT, PMINIDUMP_CALLBACK_INPUT structure pointer, _MINIDUMP_CALLBACK_INPUT, _win32_minidump_callback_input_str, base.minidump_callback_input_str, minidumpapiset/MINIDUMP_CALLBACK_INPUT, minidumpapiset/PMINIDUMP_CALLBACK_INPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

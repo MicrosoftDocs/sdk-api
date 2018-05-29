@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMStatusCallback.OnStatus
 title: IWMStatusCallback::OnStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnStatus method is called when status information must be communicated to the application.
 old-location: wmformat\iwmstatuscallback_onstatus.htm
 old-project: wmformat
 ms.assetid: 7b8cdb21-96e1-4cf9-8422-72bce693afb1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStatusCallback interface [windows Media Format],OnStatus method, IWMStatusCallback.OnStatus, IWMStatusCallback::OnStatus, IWMStatusCallbackOnStatus, OnStatus, OnStatus method [windows Media Format], OnStatus method [windows Media Format],IWMStatusCallback interface, wmformat.iwmstatuscallback_onstatus, wmsdkidl/IWMStatusCallback::OnStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

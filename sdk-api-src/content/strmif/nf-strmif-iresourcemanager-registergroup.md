@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IResourceManager.RegisterGroup
 title: IResourceManager::RegisterGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterGroup method registers a named resource group with the resource manager.
 old-location: dshow\iresourcemanager_registergroup.htm
 old-project: DirectShow
 ms.assetid: f2d3deb2-8f22-42ac-846c-2f158f347ca7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IResourceManager interface [DirectShow],RegisterGroup method, IResourceManager.RegisterGroup, IResourceManager::RegisterGroup, IResourceManagerRegisterGroup, RegisterGroup, RegisterGroup method [DirectShow], RegisterGroup method [DirectShow],IResourceManager interface, dshow.iresourcemanager_registergroup, strmif/IResourceManager::RegisterGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:winnls._numberfmtW
 title: "_numberfmtW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that defines the format of a number string. The GetNumberFormat function uses this information to customize a number string for a specified locale.
 old-location: intl\numberfmt.htm
 old-project: Intl
 ms.assetid: cb8a7714-3777-41b4-894b-bb0c0797d51e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPNUMBERFMTW, LPNUMBERFMT, LPNUMBERFMT structure pointer [Internationalization for Windows Applications], NUMBERFMT, NUMBERFMT structure [Internationalization for Windows Applications], NUMBERFMTW, _numberfmtW, _win32_NUMBERFMT_str, intl.numberfmt, winnls/LPNUMBERFMT, winnls/NUMBERFMT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

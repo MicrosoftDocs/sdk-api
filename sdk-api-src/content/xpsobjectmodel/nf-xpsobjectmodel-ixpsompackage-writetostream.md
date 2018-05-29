@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToStream
 title: IXpsOMPackage::WriteToStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the XPS package to a specified stream.
 old-location: xps\ixpsompackage_writetostream.htm
 old-project: printdocs
 ms.assetid: 5b729ac6-3f0e-4f24-b3f6-4b6d26844df1
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToStream method, IXpsOMPackage.WriteToStream, IXpsOMPackage::WriteToStream, TRUE, WriteToStream, WriteToStream method [XPS Documents and Packaging], WriteToStream method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetostream, xpsobjectmodel/IXpsOMPackage::WriteToStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

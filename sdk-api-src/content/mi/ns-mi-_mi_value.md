@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Value
 title: "_MI_Value"
-author: windows-driver-content
+author: windows-sdk-content
 description: A union of all CIM data types.
 old-location: wmi_v2\mi_value.htm
 old-project: wmi_v2
 ms.assetid: 08104810-248d-49b6-9caa-6cda1d6a404e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Value, MI_Value structure [Windows Management Infrastructure (MI)], _MI_Value, mi/MI_Value, wmi_v2.mi_value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

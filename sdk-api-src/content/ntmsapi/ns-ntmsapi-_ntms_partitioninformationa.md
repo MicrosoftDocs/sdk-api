@@ -1,16 +1,16 @@
 ---
 UID: NS:ntmsapi._NTMS_PARTITIONINFORMATIONA
 title: "_NTMS_PARTITIONINFORMATIONA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object.
 old-location: fs\ntms_partitioninformation.htm
 old-project: Rsm
 ms.assetid: 75ba3b8d-4b44-49be-b238-e02e62c3def6
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: NTMS_PARTITIONINFORMATION, NTMS_PARTITIONINFORMATION structure [Files], NTMS_PARTITIONINFORMATIONA, NTMS_PARTSTATE_ALLOCATED, NTMS_PARTSTATE_AVAILABLE, NTMS_PARTSTATE_COMPLETE, NTMS_PARTSTATE_DECOMMISIONED, NTMS_PARTSTATE_FOREIGN, NTMS_PARTSTATE_IMPORT, NTMS_PARTSTATE_INCOMPATIBLE, NTMS_PARTSTATE_RESERVED, NTMS_PARTSTATE_UNPREPARED, _NTMS_PARTITIONINFORMATIONA, _NTMS_PARTITIONINFORMATIONW, _zaw_ntms_partitioninformation, base.ntms_partitioninformation, fs.ntms_partitioninformation, ntmsapi/NTMS_PARTITIONINFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 

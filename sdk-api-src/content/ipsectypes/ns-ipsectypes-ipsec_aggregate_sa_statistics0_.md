@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_SA_STATISTICS0_
 title: IPSEC_AGGREGATE_SA_STATISTICS0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores aggregate IPsec kernel security association (SA) statistics.
 old-location: fwp\ipsec_aggregate_sa_statistics0_struct.htm
 old-project: FWP
 ms.assetid: f0318061-40f9-4380-9681-34db70659c49
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_AGGREGATE_SA_STATISTICS0, IPSEC_AGGREGATE_SA_STATISTICS0 structure [Filtering], IPSEC_AGGREGATE_SA_STATISTICS0_, fwp.ipsec_aggregate_sa_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

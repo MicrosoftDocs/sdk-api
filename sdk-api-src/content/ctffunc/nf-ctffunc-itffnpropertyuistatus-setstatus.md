@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnPropertyUIStatus.SetStatus
 title: ITfFnPropertyUIStatus::SetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfFnPropertyUIStatus::SetStatus method
 old-location: tsf\itffnpropertyuistatus_setstatus.htm
 old-project: TSF
 ms.assetid: 817329fb-521a-426a-88d8-b36ee161b6b9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnPropertyUIStatus interface [Text Services Framework],SetStatus method, ITfFnPropertyUIStatus.SetStatus, ITfFnPropertyUIStatus::SetStatus, SetStatus, SetStatus method [Text Services Framework], SetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, _tsf_itffnpropertyuistatus_setstatus_ref, ctffunc/ITfFnPropertyUIStatus::SetStatus, tsf.itffnpropertyuistatus_setstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

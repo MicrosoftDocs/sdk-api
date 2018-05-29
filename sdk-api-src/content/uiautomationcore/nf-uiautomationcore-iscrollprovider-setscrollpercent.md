@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.SetScrollPercent
 title: IScrollProvider::SetScrollPercent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
 old-location: winauto\uiauto_IScrollProvider_SetScrollPercent.htm
 old-project: WinAuto
 ms.assetid: 4949fd00-6678-4278-b11b-cc8503e67de2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],SetScrollPercent method, IScrollProvider.SetScrollPercent, IScrollProvider::SetScrollPercent, SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility],IScrollProvider interface, uiauto.uiauto_IScrollProvider_SetScrollPercent, uiauto_IScrollProvider_SetScrollPercent, uiautomationcore/IScrollProvider::SetScrollPercent, winauto.uiauto_IScrollProvider_SetScrollPercent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

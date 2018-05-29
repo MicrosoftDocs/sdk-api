@@ -1,16 +1,16 @@
 ---
 UID: NS:gdipluspixelformats.ColorPalette
 title: ColorPalette
-author: windows-driver-content
+author: windows-sdk-content
 description: The ColorPalette structure defines an array of colors that make up a color palette. The colors are 32-bit ARGB colors.
 old-location: gdiplus\_gdiplus_STRUC_ColorPalette.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorpalette.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ColorPalette, ColorPalette structure [GDI+], _gdiplus_STRUC_ColorPalette, gdiplus._gdiplus_STRUC_ColorPalette, gdipluspixelformats/ColorPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h

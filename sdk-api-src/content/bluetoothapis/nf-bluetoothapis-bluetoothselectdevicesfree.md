@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothSelectDevicesFree
 title: BluetoothSelectDevicesFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees resources associated with a previous call to BluetoothSelectDevices.
 old-location: bluetooth\bluetoothselectdevicesfree.htm
 old-project: Bluetooth
 ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothSelectDevicesFree, BluetoothSelectDevicesFree function [Bluetooth], _bth_bluetoothselectdevicesfree, bluetooth.bluetoothselectdevicesfree, bluetoothapis/BluetoothSelectDevicesFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

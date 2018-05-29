@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResponseAttributes
 title: EapPeerGetResponseAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains an array of EAP response attributes from the EAP method.
 old-location: eaphost\eappeergetresponseattributes.htm
 old-project: EAPHost
 ms.assetid: 68610a3b-7d9e-41fe-bf3b-7b188949b1c0
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerGetResponseAttributes, EapPeerGetResponseAttributes function [EAPHost], eaphost.eappeergetresponseattributes, eapmethodpeerapis/EapPeerGetResponseAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

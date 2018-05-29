@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.SetImageResource
 title: IXpsOMImageBrush::SetImageResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a pointer to the IXpsOMImageResource interface that contains the image resource to be used as the source for the brush.
 old-location: xps\ixpsomimagebrush_setimageresource.htm
 old-project: printdocs
 ms.assetid: 2c3c5189-0090-48c7-bc36-c9014758b968
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetImageResource method, IXpsOMImageBrush.SetImageResource, IXpsOMImageBrush::SetImageResource, SetImageResource, SetImageResource method [XPS Documents and Packaging], SetImageResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, xps.ixpsomimagebrush_setimageresource, xpsobjectmodel/IXpsOMImageBrush::SetImageResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

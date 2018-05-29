@@ -1,16 +1,16 @@
 ---
 UID: NS:msxml6.tagXHR_COOKIE
 title: tagXHR_COOKIE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a cookie that you can add to the HTTP cookie jar by calling the SetCookie method or retrieve from the HTTP cookie jar by calling the GetCookie method.
 old-location: ixhr2\xhr_cookie.htm
 old-project: ixhr2
 ms.assetid: 208829B0-DBCC-4C22-910D-D6826283F8A0
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: PXHR_COOKIE, PXHR_COOKIE structure pointer [XMLHttpRequest2], XHR_COOKIE, XHR_COOKIE structure [XMLHttpRequest2], XHR_COOKIE_APPLY_P3P, XHR_COOKIE_EVALUATE_P3P, XHR_COOKIE_HTTPONLY, XHR_COOKIE_IE6, XHR_COOKIE_IS_LEGACY, XHR_COOKIE_IS_RESTRICTED, XHR_COOKIE_IS_SECURE, XHR_COOKIE_IS_SESSION, XHR_COOKIE_NON_SCRIPT, XHR_COOKIE_PROMPT_REQUIRED, XHR_COOKIE_THIRD_PARTY, ixhr2.xhr_cookie, msxml6/PXHR_COOKIE, msxml6/XHR_COOKIE, tagXHR_COOKIE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msxml6.h
 req.include-header: 

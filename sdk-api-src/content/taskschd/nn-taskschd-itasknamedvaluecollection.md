@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ITaskNamedValueCollection
 title: ITaskNamedValueCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a collection of ITaskNamedValuePair interface name-value pairs.
 old-location: taskschd\itasknamedvaluecollection.htm
 old-project: TaskSchd
 ms.assetid: 440dc70b-02de-4974-ad2a-462491d12775
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], ITaskNamedValueCollection interface [Task Scheduler],described, taskschd.itasknamedvaluecollection, taskschd/ITaskNamedValueCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:bits3_0.IBitsPeerCacheAdministration
 title: IBitsPeerCacheAdministration
-author: windows-driver-content
+author: windows-sdk-content
 description: Use IBitsPeerCacheAdministration to manage the pool of peers from which you can download content.
 old-location: bits\ibitspeercacheadministration.htm
 old-project: Bits
 ms.assetid: 5fa30b4e-f13c-4341-af65-a2e3d2703b96
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], IBitsPeerCacheAdministration interface [BITS],described, bits.ibitspeercacheadministration, bits3_0/IBitsPeerCacheAdministration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h

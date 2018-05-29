@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeComp.Bind
 title: ITypeComp::Bind
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps a name to a member of a type, or binds global variables and functions contained in a type library.
 old-location: automat\itypecomp_bind.htm
 old-project: automat
 ms.assetid: 04814179-2555-4ba5-a08c-bff776c03ca3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: Bind, Bind method [Automation], Bind method [Automation],ITypeComp interface, ITypeComp interface [Automation],Bind method, ITypeComp.Bind, ITypeComp::Bind, _oa96_ITypeComp_Bind, automat.itypecomp_bind, oaidl/ITypeComp::Bind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

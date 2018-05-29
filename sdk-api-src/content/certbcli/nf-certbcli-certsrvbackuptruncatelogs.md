@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvBackupTruncateLogs
 title: CertSrvBackupTruncateLogs function
-author: windows-driver-content
+author: windows-sdk-content
 description: Eliminates redundant records and reduces the disk storage space used by log files.
 old-location: security\certsrvbackuptruncatelogs.htm
 old-project: SecCrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

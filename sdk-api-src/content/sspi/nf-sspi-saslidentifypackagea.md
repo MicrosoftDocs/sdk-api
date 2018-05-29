@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SaslIdentifyPackageA
 title: SaslIdentifyPackageA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the negotiate prefix that matches the specified SASL negotiation buffer.
 old-location: security\saslidentifypackage.htm
 old-project: SecAuthN
 ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

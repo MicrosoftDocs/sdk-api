@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetCharacteristics
 title: BluetoothGATTGetCharacteristics function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets all the characteristics available for the specified service.
 old-location: bltooth\bluetoothgattgetcharacteristics.htm
 old-project: bltooth
 ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 

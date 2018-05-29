@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.IsInvertible
 title: Matrix::IsInvertible
-author: windows-driver-content
+author: windows-sdk-content
 description: The Matrix::IsInvertible method determines whether this matrix is invertible.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_IsInvertible_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\isinvertible.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsInvertible, IsInvertible method [GDI+], IsInvertible method [GDI+],Matrix class, Matrix class [GDI+],IsInvertible method, Matrix.IsInvertible, Matrix::IsInvertible, _gdiplus_CLASS_Matrix_IsInvertible_, gdiplus._gdiplus_CLASS_Matrix_IsInvertible_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

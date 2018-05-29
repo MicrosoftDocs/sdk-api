@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_DELETE_CRL
 title: PFN_CERT_STORE_PROV_DELETE_CRL
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCRLFromStore before deleting the CRL from the store.
 old-location: security\certstoreprovdeletecrlcallback.htm
 old-project: SecCrypto
 ms.assetid: aa93cfaf-238f-4d77-a1cd-433a856ed133
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertStoreProvDeleteCRLCallback, CertStoreProvDeleteCRLCallback callback, CertStoreProvDeleteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/CertStoreProvDeleteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

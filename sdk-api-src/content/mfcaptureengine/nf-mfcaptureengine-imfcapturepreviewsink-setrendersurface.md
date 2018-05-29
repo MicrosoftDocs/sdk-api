@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRenderSurface
 title: IMFCapturePreviewSink::SetRenderSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a Microsoft DirectComposition visual for preview.
 old-location: mf\imfcapturepreviewsink_setrendersurface.htm
 old-project: medfound
 ms.assetid: AC50EB86-A39D-4ACA-9582-A8DB0232E056
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderSurface method, IMFCapturePreviewSink.SetRenderSurface, IMFCapturePreviewSink::SetRenderSurface, SetRenderSurface, SetRenderSurface method [Media Foundation], SetRenderSurface method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrendersurface, mfcaptureengine/IMFCapturePreviewSink::SetRenderSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

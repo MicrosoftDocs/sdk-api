@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongToInt
 title: ULongToInt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type INT.
 old-location: shell\ULongToInt.htm
 old-project: shell
 ms.assetid: 601ed067-13a9-4d0c-b1e1-d05745d8dbe2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordToInt, ULongToInt, ULongToInt function [Windows Shell], _shell_ULongToInt, intsafe/ULongToInt, shell.ULongToInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

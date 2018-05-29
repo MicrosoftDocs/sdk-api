@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_PIN_CONSTANTS
 title: MBN_PIN_CONSTANTS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_PIN_CONSTANTS enumerated type defines constant values used by the MBN_PIN_INFO structure.
 old-location: mbn\mbn_pin_constants.htm
 old-project: mbn
 ms.assetid: dff1b2d3-d5f7-4349-8602-f2b5ccff1f41
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_ATTEMPTS_REMAINING_UNKNOWN, MBN_PIN_CONSTANTS, MBN_PIN_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_PIN_LENGTH_UNKNOWN, mbn.mbn_pin_constants, mbnapi/MBN_ATTEMPTS_REMAINING_UNKNOWN, mbnapi/MBN_PIN_CONSTANTS, mbnapi/MBN_PIN_LENGTH_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

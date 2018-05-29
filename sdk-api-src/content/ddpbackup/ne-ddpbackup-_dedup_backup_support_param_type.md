@@ -1,16 +1,16 @@
 ---
 UID: NE:ddpbackup._DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 title: "_DEDUP_BACKUP_SUPPORT_PARAM_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether Data Deduplication should perform an unoptimized or optimized restore.
 old-location: dedup\dedup_backup_support_param_type.htm
 old-project: dedup
 ms.assetid: 654663C4-1E28-435A-9D81-1E390BC66B62
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DEDUP_BACKUP_SUPPORT_PARAM_TYPE, DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration [Data Deduplication API], DEDUP_RECONSTRUCT_OPTIMIZED, DEDUP_RECONSTRUCT_UNOPTIMIZED, _DEDUP_BACKUP_SUPPORT_PARAM_TYPE, ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE, ddpbackup/DEDUP_RECONSTRUCT_OPTIMIZED, ddpbackup/DEDUP_RECONSTRUCT_UNOPTIMIZED, dedup.dedup_backup_support_param_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ddpbackup.h
 req.include-header: 

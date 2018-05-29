@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.DAD_ShowDragImage
 title: DAD_ShowDragImage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: shell\DAD_ShowDragImage.htm
 old-project: shell
 ms.assetid: 71448b05-9657-41e4-b5e4-6ae403219c6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALSE, TRUE, shell.DAD_ShowDragImage, shell_DAD_ShowDragImage, shlobj_core/DAD_ShowDragImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

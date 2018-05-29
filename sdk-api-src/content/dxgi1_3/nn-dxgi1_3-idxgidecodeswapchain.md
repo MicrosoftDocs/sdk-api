@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_3.IDXGIDecodeSwapChain
 title: IDXGIDecodeSwapChain
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a swap chain that is used by desktop media apps to decode video data and show it on a DirectComposition surface.
 old-location: direct3ddxgi\idxgidecodeswapchain.htm
 old-project: direct3ddxgi
 ms.assetid: 814EDDA6-EFEA-4281-BE06-9FF8822B4927
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], IDXGIDecodeSwapChain interface [DXGI],described, direct3ddxgi.idxgidecodeswapchain, dxgi1_3/IDXGIDecodeSwapChain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

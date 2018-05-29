@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.TF_CreateLangBarItemMgr
 title: TF_CreateLangBarItemMgr function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_CreateLangBarItemMgr function is used to create a language bar item manager object without having to initialize COM.
 old-location: tsf\tf_createlangbaritemmgr.htm
 old-project: TSF
 ms.assetid: b7492732-ae06-4344-b5c0-97b3734af36a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_CreateLangBarItemMgr, TF_CreateLangBarItemMgr function [Text Services Framework], msctf/TF_CreateLangBarItemMgr, tsf.tf_createlangbaritemmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msctf.h
 req.include-header: 

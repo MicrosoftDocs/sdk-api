@@ -1,16 +1,16 @@
 ---
 UID: NE:syncmgr.SYNCMGR_RESOLUTION_ABILITIES
 title: SYNCMGR_RESOLUTION_ABILITIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates abilities and the conflict resolution activity to follow. Used with ISyncMgrResolutionHandler::QueryAbilities.
 old-location: shell\SYNCMGR_RESOLUTION_ABILITIES.htm
 old-project: shell
 ms.assetid: 5a7ff366-e155-43c0-aafe-f61ad0caf550
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SYNCMGR_RA_KEEPOTHER, SYNCMGR_RA_KEEPRECENT, SYNCMGR_RA_KEEP_MULTIPLE, SYNCMGR_RA_KEEP_SINGLE, SYNCMGR_RA_REMOVEFROMSYNCSET, SYNCMGR_RA_VALID, SYNCMGR_RESOLUTION_ABILITIES, SYNCMGR_RESOLUTION_ABILITIES enumeration [Windows Shell], _shell_SYNCMGR_RESOLUTION_ABILITIES, shell.SYNCMGR_RESOLUTION_ABILITIES, syncmgr/SYNCMGR_RA_KEEPOTHER, syncmgr/SYNCMGR_RA_KEEPRECENT, syncmgr/SYNCMGR_RA_KEEP_MULTIPLE, syncmgr/SYNCMGR_RA_KEEP_SINGLE, syncmgr/SYNCMGR_RA_REMOVEFROMSYNCSET, syncmgr/SYNCMGR_RA_VALID, syncmgr/SYNCMGR_RESOLUTION_ABILITIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 

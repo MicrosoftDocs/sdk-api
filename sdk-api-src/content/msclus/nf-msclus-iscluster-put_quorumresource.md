@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.put_QuorumResource
 title: ISCluster::put_QuorumResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current quorum resource for a cluster or allows a new quorum resource to be designated.
 old-location: mscs\cluster_quorumresource.htm
 old-project: MsCS
 ms.assetid: e9c1f32a-2008-470e-b451-312cce49c93a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],QuorumResource property, Cluster.QuorumResource, ISCluster.get_QuorumResource, ISCluster.put_QuorumResource, ISCluster::put_QuorumResource, QuorumResource property [Failover Cluster], QuorumResource property [Failover Cluster],Cluster object, _wolf_cluster.quorumresource, mscs.cluster_quorumresource, put_QuorumResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnInvoke
 title: IExpDispSupport::OnInvoke
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Gets ambient properties.
 old-location: shell\IExpDispSupport_OnInvoke.htm
 old-project: shell
 ms.assetid: 92228340-2472-4920-90b7-ce46cab7406e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IExpDispSupport interface [Windows Shell],OnInvoke method, IExpDispSupport.OnInvoke, IExpDispSupport::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnInvoke, shell.IExpDispSupport_OnInvoke, zone_IExpDispSupport_OnInvoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

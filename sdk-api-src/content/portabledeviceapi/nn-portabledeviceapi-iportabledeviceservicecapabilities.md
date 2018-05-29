@@ -1,16 +1,16 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceCapabilities
 title: IPortableDeviceServiceCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information describing the capabilities of a service.
 old-location: wpdsdk\iportabledeviceservicecapabilities.htm
 old-project: wpd_sdk
 ms.assetid: d472d31c-90da-4ecc-9cf7-4474457a244f
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceCapabilities, wpdsdk.iportabledeviceservicecapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:windows.data.pdf.interop.PDF_RENDER_PARAMS
 title: PDF_RENDER_PARAMS
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdf_render_params.htm
 old-project: WinRT
 ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windows.data.pdf.interop.h
 req.include-header: 

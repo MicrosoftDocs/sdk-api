@@ -1,16 +1,16 @@
 ---
 UID: NF:weakreference.IWeakReferenceSource.GetWeakReference
 title: IWeakReferenceSource::GetWeakReference
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a weak reference from an IWeakReferenceSource.
 old-location: winrt\iweakreferencesource_getweakreference.htm
 old-project: WinRT
 ms.assetid: 6856cad0-4571-4951-a917-8d010706f2d5
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetWeakReference, GetWeakReference method [Windows Runtime], GetWeakReference method [Windows Runtime],IWeakReferenceSource interface, IWeakReferenceSource interface [Windows Runtime],GetWeakReference method, IWeakReferenceSource.GetWeakReference, IWeakReferenceSource::GetWeakReference, weakreference/IWeakReferenceSource::GetWeakReference, winrt.iweakreferencesource_getweakreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: weakreference.h
 req.include-header: 

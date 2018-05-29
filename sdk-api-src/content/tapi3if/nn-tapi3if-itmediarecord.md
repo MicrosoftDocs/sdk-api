@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITMediaRecord
 title: ITMediaRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITMediaRecord interface provides recording-specific methods that allow an application to set and get the names of files to record.
 old-location: tapi3\itmediarecord.htm
 old-project: Tapi
 ms.assetid: 604b0128-1461-40f2-98fe-801dbb71e005
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaRecord, ITMediaRecord interface [TAPI 2.2], ITMediaRecord interface [TAPI 2.2],described, _tapi3_itmediarecord, tapi3.itmediarecord, tapi3if/ITMediaRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

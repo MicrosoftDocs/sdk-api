@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_SYNCSURFACEDATA
 title: "_DD_SYNCSURFACEDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_SYNCSURFACEDATA structure contains the surface information.
 old-location: display\dd_syncsurfacedata.htm
 old-project: display
 ms.assetid: 76294b03-9182-408a-a0ee-1a24f8b53163
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA structure [Display Devices], PDD_SYNCSURFACEDATA, PDD_SYNCSURFACEDATA structure pointer [Display Devices], _DD_SYNCSURFACEDATA, ddrawint/DD_SYNCSURFACEDATA, ddrawint/PDD_SYNCSURFACEDATA, ddstrcts_59fb70d7-7462-48bf-a0f7-3d54cdf8f62e.xml, display.dd_syncsurfacedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

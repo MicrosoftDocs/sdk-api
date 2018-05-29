@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.Commit
 title: IDataCollectorSet::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves, updates, or validates the data collector set. You can also use this method to flush a trace session.
 old-location: pla\idatacollectorset_commit.htm
 old-project: PLA
 ms.assetid: 7e432e1f-4b86-45dc-93d5-df603068273d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Commit, Commit method [PLA], Commit method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Commit method, IDataCollectorSet.Commit, IDataCollectorSet::Commit, base.idatacollectorset_commit, pla.idatacollectorset_commit, pla/IDataCollectorSet::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:upnp.IUPnPServiceDocumentAccess
 title: IUPnPServiceDocumentAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to retrieve and provide the Service Control Protocol Description (SCPD) document to a UPnP control point application to expose actions supported by the service and provide information about state variables.
 old-location: upnp\iupnpservicedocumentaccess.htm
 old-project: UPnP
 ms.assetid: A4890300-2945-4973-ACFC-F950C5E15A0E
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], IUPnPServiceDocumentAccess interface [UPnP APIs],described, upnp.iupnpservicedocumentaccess, upnp/IUPnPServiceDocumentAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

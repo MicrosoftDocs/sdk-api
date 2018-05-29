@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope.DeleteTask
 title: IAzScope::DeleteTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the IAzTask object with the specified name from the IAzScope object.
 old-location: security\iazscope_deletetask.htm
 old-project: SecAuthZ
 ms.assetid: de72b944-2796-4445-9fdd-4d56526dc903
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzScope object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzScope object, DeleteTask method [Security],IAzScope interface, IAzScope interface [Security],DeleteTask method, IAzScope.DeleteTask, IAzScope::DeleteTask, azroles/IAzScope::DeleteTask, security.iazscope_deletetask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

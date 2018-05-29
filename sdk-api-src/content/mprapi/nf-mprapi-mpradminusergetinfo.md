@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminUserGetInfo
 title: MprAdminUserGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminUserGetInfo function retrieves all RAS information for a particular user.
 old-location: rras\mpradminusergetinfo.htm
 old-project: RRAS
 ms.assetid: d04f6925-ac38-4adf-ac2e-701db5435c90
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminUserGetInfo, MprAdminUserGetInfo function [RAS], _mpr_mpradminusergetinfo, mprapi/MprAdminUserGetInfo, rras.mpradminusergetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

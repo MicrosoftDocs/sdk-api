@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.EndSession
 title: IWMDMDeviceSession::EndSession
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndSession method ends a device session.
 old-location: wmdm\iwmdmdevicesession_endsession.htm
 old-project: WMDM
 ms.assetid: f587a20a-936f-49a4-8e56-2e05b3d295f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndSession, EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],EndSession method, IWMDMDeviceSession.EndSession, IWMDMDeviceSession::EndSession, IWMDMDeviceSessionEndSession, mswmdm/IWMDMDeviceSession::EndSession, wmdm.iwmdmdevicesession_endsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

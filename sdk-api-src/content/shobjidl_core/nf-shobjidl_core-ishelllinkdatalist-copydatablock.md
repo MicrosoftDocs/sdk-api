@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.CopyDataBlock
 title: IShellLinkDataList::CopyDataBlock
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of a link's data block.
 old-location: shell\IShellLinkDataList_CopyDataBlock.htm
 old-project: shell
 ms.assetid: e02fb4c3-faec-40cc-ab97-d05cdcc148ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CopyDataBlock, CopyDataBlock method [Windows Shell], CopyDataBlock method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],CopyDataBlock method, IShellLinkDataList.CopyDataBlock, IShellLinkDataList::CopyDataBlock, _win32_IShellLinkDataList_CopyDataBlock, shell.IShellLinkDataList_CopyDataBlock, shobjidl_core/IShellLinkDataList::CopyDataBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

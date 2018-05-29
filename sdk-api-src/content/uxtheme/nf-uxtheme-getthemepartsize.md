@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemePartSize
 title: GetThemePartSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates the original size of the part defined by a visual style.
 old-location: controls\GetThemePartSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemePartSize, GetThemePartSize function [Windows Controls], controls.GetThemePartSize, controls.inet_GetThemePartSize, inet_GetThemePartSize, inet_GetThemePartSize_cpp, uxtheme/GetThemePartSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

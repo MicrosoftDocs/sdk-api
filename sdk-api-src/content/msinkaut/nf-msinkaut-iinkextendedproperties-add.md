@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Add
 title: IInkExtendedProperties::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and adds an IInkExtendedProperty object to the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_add.htm
 old-project: tablet
 ms.assetid: 4fff6945-b46e-4e72-af45-ca066e73338e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 4fff6945-b46e-4e72-af45-ca066e73338e, Add, Add method [Tablet PC], Add method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Add method, IInkExtendedProperties.Add, IInkExtendedProperties::Add, msinkaut/IInkExtendedProperties::Add, tablet.iinkextendedproperties_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

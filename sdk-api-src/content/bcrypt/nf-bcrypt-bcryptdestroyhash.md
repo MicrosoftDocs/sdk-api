@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptDestroyHash
 title: BCryptDestroyHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptdestroyhash_func.htm
 old-project: SecCNG
 ms.assetid: 067dac61-98b9-478c-ac4d-e141961865e9
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptDestroyHash, BCryptDestroyHash function [Security], bcrypt/BCryptDestroyHash, security.bcryptdestroyhash_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

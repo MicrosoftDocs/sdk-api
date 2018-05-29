@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi._WLAN_BSS_LIST
 title: "_WLAN_BSS_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a list of basic service set (BSS) entries.
 old-location: nwifi\wlan_bss_list.htm
 old-project: NativeWiFi
 ms.assetid: aeb68835-31ce-4fa7-980a-91a328fbcbc3
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_BSS_LIST, PWLAN_BSS_LIST, PWLAN_BSS_LIST structure pointer [NativeWIFI], WLAN_BSS_LIST, WLAN_BSS_LIST structure [NativeWIFI], _WLAN_BSS_LIST, nwifi.wlan_bss_list, wlanapi/PWLAN_BSS_LIST, wlanapi/WLAN_BSS_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

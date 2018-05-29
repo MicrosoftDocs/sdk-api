@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzRoleDefinition.RoleAssignments
 title: IAzRoleDefinition::RoleAssignments
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of IAzRoleAssignment objects that represent the role assignments associated with this IAzRoleDefinition object.
 old-location: security\iazroledefinition_roleassignments.htm
 old-project: SecAuthZ
 ms.assetid: 1b8c3aaf-ed33-4253-b15f-06e5d3415d58
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzRoleDefinition interface [Security],RoleAssignments property, IAzRoleDefinition.RoleAssignments, IAzRoleDefinition::RoleAssignments, IAzRoleDefinition::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleAssignments, azroles/IAzRoleDefinition::get_RoleAssignments, security.iazroledefinition_roleassignments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

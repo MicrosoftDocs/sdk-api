@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicBezierLinearTransition
 title: IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a cubic Bézier linear scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubicbezierlineartransition.htm
 old-project: UIAnimation
 ms.assetid: 1943D3B6-0DA6-4F1B-B52D-F121BAC6BE68
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateCubicBezierLinearTransition, CreateCubicBezierLinearTransition method [Windows Animation], CreateCubicBezierLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicBezierLinearTransition method, IUIAnimationTransitionLibrary2.CreateCubicBezierLinearTransition, IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition, uianimation.iuianimationtransitionlibrary2_createcubicbezierlineartransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

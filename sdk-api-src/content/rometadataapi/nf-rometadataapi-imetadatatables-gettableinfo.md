@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetTableInfo
 title: IMetaDataTables::GetTableInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name, row size, number of rows, number of columns, and key column index of the specified table.
 old-location: winrt\imetadatatables_gettableinfo.htm
 old-project: WinRT
 ms.assetid: a2ba07df-4ccf-4563-b540-821008fc985c
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetTableInfo, GetTableInfo method [Windows Runtime], GetTableInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableInfo method, IMetaDataTables.GetTableInfo, IMetaDataTables::GetTableInfo, rometadataapi/IMetaDataTables::GetTableInfo, winrt.imetadatatables_gettableinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

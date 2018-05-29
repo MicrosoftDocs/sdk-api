@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlGetLocationA
 title: UrlGetLocationA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the location from a URL.
 old-location: shell\UrlGetLocation.htm
 old-project: shell
 ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UrlGetLocation, UrlGetLocation function [Windows Shell], UrlGetLocationA, UrlGetLocationW, _win32_UrlGetLocation, shell.UrlGetLocation, shlwapi/UrlGetLocation, shlwapi/UrlGetLocationA, shlwapi/UrlGetLocationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

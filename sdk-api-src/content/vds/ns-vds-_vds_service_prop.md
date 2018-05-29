@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_SERVICE_PROP
 title: "_VDS_SERVICE_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of the service object.
 old-location: base\vds_service_prop.htm
 old-project: VDS
 ms.assetid: 9029ebbd-f05d-4317-913d-58c8a0a62886
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_SERVICE_PROP, VDS_SERVICE_PROP structure [VDS], _VDS_SERVICE_PROP, base.vds_service_prop, vds/_VDS_SERVICE_PROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

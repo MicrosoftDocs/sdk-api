@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCollection2.Remove
 title: ITCollection2::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: The Remove method deletes an item from the collection at the specified index.
 old-location: tapi3\itcollection2_remove.htm
 old-project: Tapi
 ms.assetid: 27e46c36-8704-4e33-ad2a-5888d701651c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCollection2 interface [TAPI 2.2],Remove method, ITCollection2.Remove, ITCollection2::Remove, Remove, Remove method [TAPI 2.2], Remove method [TAPI 2.2],ITCollection2 interface, _tapi3_itcollection2_remove, tapi3.itcollection2_remove, tapi3if/ITCollection2::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

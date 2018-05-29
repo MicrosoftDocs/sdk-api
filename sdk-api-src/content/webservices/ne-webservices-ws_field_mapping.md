@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_FIELD_MAPPING
 title: WS_FIELD_MAPPING
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how a field of a structure is represented in XML. This is used within a WS_FIELD_DESCRIPTION.
 old-location: wsw\ws_field_mapping.htm
 old-project: wsw
 ms.assetid: 14f4dbc6-0870-4b1c-8f6b-544f771771e8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ANY_ATTRIBUTES_FIELD_MAPPING, WS_ANY_CONTENT_FIELD_MAPPING, WS_ATTRIBUTE_FIELD_MAPPING, WS_ELEMENT_CHOICE_FIELD_MAPPING, WS_ELEMENT_FIELD_MAPPING, WS_FIELD_MAPPING, WS_FIELD_MAPPING enumeration [Web Services for Windows], WS_NO_FIELD_MAPPING, WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, WS_REPEATING_ELEMENT_FIELD_MAPPING, WS_TEXT_FIELD_MAPPING, WS_TYPE_ATTRIBUTE_FIELD_MAPPING, WS_XML_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ANY_ATTRIBUTES_FIELD_MAPPING, webservices/WS_ANY_CONTENT_FIELD_MAPPING, webservices/WS_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_ELEMENT_FIELD_MAPPING, webservices/WS_FIELD_MAPPING, webservices/WS_NO_FIELD_MAPPING, webservices/WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_FIELD_MAPPING, webservices/WS_TEXT_FIELD_MAPPING, webservices/WS_TYPE_ATTRIBUTE_FIELD_MAPPING, webservices/WS_XML_ATTRIBUTE_FIELD_MAPPING, wsw.ws_field_mapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

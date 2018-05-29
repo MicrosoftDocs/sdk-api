@@ -1,16 +1,16 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Stop
 title: IMSVidCtl::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: The Stop method stops the filter graph.
 old-location: mstv\imsvidctl_stop.htm
 old-project: mstv
 ms.assetid: 8ca43663-3726-4147-8774-2f1eecef9142
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Stop method, IMSVidCtl.Stop, IMSVidCtl::Stop, IMSVidCtlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_stop, msvidctl/IMSVidCtl::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

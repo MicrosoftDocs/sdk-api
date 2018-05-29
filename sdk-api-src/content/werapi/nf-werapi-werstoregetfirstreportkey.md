@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerStoreGetFirstReportKey
 title: WerStoreGetFirstReportKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a reference to the first report in the report store.
 old-location: wer\werstoregetfirstreportkey.htm
 old-project: wer
 ms.assetid: E4732B60-BFBE-4916-83A6-5F031D267913
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerStoreGetFirstReportKey, WerStoreGetFirstReportKey function [Windows Error Reporting], wer.werstoregetfirstreportkey, werapi/WerStoreGetFirstReportKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

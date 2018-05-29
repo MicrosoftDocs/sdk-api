@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyByName
 title: IWMPropertyVault::GetPropertyByName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPropertyByName method retrieves a property from the vault by its name.
 old-location: wmformat\iwmpropertyvault_getpropertybyname.htm
 old-project: wmformat
 ms.assetid: 65740366-ac0a-4d18-9f61-a79670998e6a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPropertyByName, GetPropertyByName method [windows Media Format], GetPropertyByName method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByName method, IWMPropertyVault.GetPropertyByName, IWMPropertyVault::GetPropertyByName, IWMPropertyVaultGetPropertyByName, wmformat.iwmpropertyvault_getpropertybyname, wmsdkidl/IWMPropertyVault::GetPropertyByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

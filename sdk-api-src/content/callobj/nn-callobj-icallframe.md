@@ -1,16 +1,16 @@
 ---
 UID: NN:callobj.ICallFrame
 title: ICallFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables manipulation of call frames such as stack frames.
 old-location: com\icallframe.htm
 old-project: com
 ms.assetid: 56a75123-f402-4187-af13-d31f72a5f094
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], ICallFrame interface [COM],described, _com_icallframe_interface, callobj/ICallFrame, com.icallframe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 

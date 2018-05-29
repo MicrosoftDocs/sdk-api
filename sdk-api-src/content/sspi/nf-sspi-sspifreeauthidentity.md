@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiFreeAuthIdentity
 title: SspiFreeAuthIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory allocated for the specified identity structure.
 old-location: security\sspifreeauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 6199f66e-7adb-4bb9-8e77-a735e31dd5f6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiFreeAuthIdentity, SspiFreeAuthIdentity function [Security], security.sspifreeauthidentity, sspi/SspiFreeAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:icftypes.NET_FW_EDGE_TRAVERSAL_TYPE_
 title: NET_FW_EDGE_TRAVERSAL_TYPE_
-author: windows-driver-content
+author: windows-sdk-content
 description: The conditions under which edge traversal traffic is allowed.
 old-location: ics\net_fw_edge_traversal_type.htm
 old-project: ICS
 ms.assetid: 69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NET_FW_EDGE_TRAVERSAL_TYPE, NET_FW_EDGE_TRAVERSAL_TYPE enumeration [ICS/ICF], NET_FW_EDGE_TRAVERSAL_TYPE_, NET_FW_EDGE_TRAVERSAL_TYPE_ALLOW, NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP, NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER, NET_FW_EDGE_TRAVERSAL_TYPE_DENY, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_ALLOW, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DENY, ics.net_fw_edge_traversal_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 

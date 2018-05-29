@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IDownloadJob
 title: IDownloadJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains properties and methods that are available to a download operation.
 old-location: wua\idownloadjob.htm
 old-project: Wua_Sdk
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupUpdateRecord
 title: PeerGroupUpdateRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupUpdateRecord function updates a record within a specific peer group.
 old-location: p2p\peergroupupdaterecord.htm
 old-project: P2PSdk
 ms.assetid: bfff0422-452c-4780-8df7-d3e8d5ad385c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupUpdateRecord, PeerGroupUpdateRecord function [Peer Networking], p2p.peergroupupdaterecord, p2p/PeerGroupUpdateRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

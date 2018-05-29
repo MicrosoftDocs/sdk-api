@@ -1,16 +1,16 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetProgress
 title: IBackgroundCopyGroup::GetProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the GetProgress method to retrieve the progress of the download.
 old-location: bits\ibackgroundcopygroup_getprogress.htm
 old-project: Bits
 ms.assetid: a596a005-a3ad-4d2b-b19b-60c2279590da
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProgress method, IBackgroundCopyGroup.GetProgress, IBackgroundCopyGroup::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopygroup_getprogress, qmgr/IBackgroundCopyGroup::GetProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 

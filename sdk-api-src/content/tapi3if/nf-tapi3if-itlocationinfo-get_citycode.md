@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_CityCode
 title: ITLocationInfo::get_CityCode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CityCode method gets the code for the city.
 old-location: tapi3\itlocationinfo_get_citycode.htm
 old-project: Tapi
 ms.assetid: ab8aee25-84b8-4913-876f-dd01bca5e3b0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CityCode method, ITLocationInfo.get_CityCode, ITLocationInfo::get_CityCode, _tapi3_itlocationinfo_get_citycode, get_CityCode, get_CityCode method [TAPI 2.2], get_CityCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_citycode, tapi3if/ITLocationInfo::get_CityCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

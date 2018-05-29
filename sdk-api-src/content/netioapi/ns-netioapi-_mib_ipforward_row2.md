@@ -1,16 +1,16 @@
 ---
 UID: NS:netioapi._MIB_IPFORWARD_ROW2
 title: "_MIB_IPFORWARD_ROW2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about an IP route entry.
 old-location: mib\mib_ipforward_row2.htm
 old-project: MIB
 ms.assetid: 3678315d-b6ab-48c8-8522-a57deb63f8c9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2 structure [MIB], MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PMIB_IPFORWARD_ROW2, PMIB_IPFORWARD_ROW2 structure pointer [MIB], _MIB_IPFORWARD_ROW2, mib.mib_ipforward_row2, netioapi/MIB_IPFORWARD_ROW2, netioapi/PMIB_IPFORWARD_ROW2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

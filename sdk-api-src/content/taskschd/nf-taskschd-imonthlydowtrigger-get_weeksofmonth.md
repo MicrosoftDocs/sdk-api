@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_WeeksOfMonth
 title: IMonthlyDOWTrigger::get_WeeksOfMonth
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the weeks of the month during which the task runs.
 old-location: taskschd\imonthlydowtrigger_weeksofmonth.htm
 old-project: TaskSchd
 ms.assetid: 55bbf8d6-6ff6-46a3-82e2-b5986ee3927e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],WeeksOfMonth property, IMonthlyDOWTrigger.WeeksOfMonth, IMonthlyDOWTrigger.get_WeeksOfMonth, IMonthlyDOWTrigger::WeeksOfMonth, IMonthlyDOWTrigger::get_WeeksOfMonth, IMonthlyDOWTrigger::put_WeeksOfMonth, WeeksOfMonth property [Task Scheduler], WeeksOfMonth property [Task Scheduler],IMonthlyDOWTrigger interface, get_WeeksOfMonth, taskschd.imonthlydowtrigger_weeksofmonth, taskschd/IMonthlyDOWTrigger::WeeksOfMonth, taskschd/IMonthlyDOWTrigger::get_WeeksOfMonth, taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

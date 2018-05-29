@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Invoke
 title: IRpcStubBuffer::Invoke
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the interface that a stub represents.
 old-location: com\irpcstubbuffer_invoke.htm
 old-project: com
 ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke, IRpcStubBuffer::Invoke, Invoke, Invoke method [COM], Invoke method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetCurrentDirectory
 title: SetCurrentDirectory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the current directory for the current process.
 old-location: fs\setcurrentdirectory.htm
 old-project: FileIO
 ms.assetid: 02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetCurrentDirectory, SetCurrentDirectory function [Files], SetCurrentDirectoryA, SetCurrentDirectoryW, _win32_setcurrentdirectory, base.setcurrentdirectory, fs.setcurrentdirectory, winbase/SetCurrentDirectory, winbase/SetCurrentDirectoryA, winbase/SetCurrentDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

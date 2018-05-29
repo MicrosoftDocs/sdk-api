@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySorting
 title: ISearchQueryHelper::put_QuerySorting
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the sort order for the query result set.
 old-location: search\_search_ISearchQueryHelper_put_QuerySorting.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysorting.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySorting method, ISearchQueryHelper.put_QuerySorting, ISearchQueryHelper::put_QuerySorting, _search_ISearchQueryHelper_put_QuerySorting, put_QuerySorting, put_QuerySorting method [search], put_QuerySorting method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySorting, searchapi/ISearchQueryHelper::put_QuerySorting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

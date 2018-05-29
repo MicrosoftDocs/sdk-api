@@ -1,16 +1,16 @@
 ---
 UID: NF:nspapi.GetServiceA
 title: GetServiceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace.
 old-location: winsock\getservice_2.htm
 old-project: WinSock
 ms.assetid: d09ffe2d-33c3-4ca3-bc99-d7d78fd83620
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetService, GetService function [Winsock], GetServiceA, GetServiceW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, PROP_ADDRESSES, PROP_ALL, PROP_COMMENT, PROP_DISPLAY_HINT, PROP_LOCALE, PROP_MACHINE, PROP_SD, PROP_START_TIME, PROP_VERSION, _win32_getservice_2, nspapi/GetService, nspapi/GetServiceA, nspapi/GetServiceW, winsock.getservice_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: nspapi.h
 req.include-header: 

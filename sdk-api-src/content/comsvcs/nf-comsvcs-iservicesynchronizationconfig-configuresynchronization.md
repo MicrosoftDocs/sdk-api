@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceSynchronizationConfig.ConfigureSynchronization
 title: IServiceSynchronizationConfig::ConfigureSynchronization
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the synchronization for the enclosed work.
 old-location: cos\iservicesynchronizationconfig_configuresynchronization.htm
 old-project: cossdk
 ms.assetid: 83fe6958-6639-4468-a3f5-3322316ccbc4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConfigureSynchronization, ConfigureSynchronization method [COM+], ConfigureSynchronization method [COM+],IServiceSynchronizationConfig interface, IServiceSynchronizationConfig interface [COM+],ConfigureSynchronization method, IServiceSynchronizationConfig.ConfigureSynchronization, IServiceSynchronizationConfig::ConfigureSynchronization, _cos_IServiceSynchronizationConfig_ConfigureSynchronization, comsvcs/IServiceSynchronizationConfig::ConfigureSynchronization, cos.iservicesynchronizationconfig_configuresynchronization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

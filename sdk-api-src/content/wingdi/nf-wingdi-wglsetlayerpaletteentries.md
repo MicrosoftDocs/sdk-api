@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglSetLayerPaletteEntries
 title: wglSetLayerPaletteEntries function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the palette entries in a given color-index layer plane for a specified device context.
 old-location: opengl\wglsetlayerpaletteentries.htm
 old-project: OpenGL
 ms.assetid: bc44353d-15db-4e52-970d-a290b66bc046
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglSetLayerPaletteEntries, opengl.wglsetlayerpaletteentries, wglSetLayerPaletteEntries, wglSetLayerPaletteEntries function [OpenGL], wingdi/wglSetLayerPaletteEntries"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

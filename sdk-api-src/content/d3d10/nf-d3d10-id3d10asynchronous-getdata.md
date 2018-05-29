@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Asynchronous.GetData
 title: ID3D10Asynchronous::GetData
-author: windows-driver-content
+author: windows-sdk-content
 description: Get data from the GPU asynchronously.
 old-location: direct3d10\id3d10asynchronous_getdata.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_getdata.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetData, GetData method [Direct3D 10], GetData method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],GetData method, ID3D10Asynchronous.GetData, ID3D10Asynchronous::GetData, c544fd10-336c-a120-6147-34aee4afeb45, d3d10/ID3D10Asynchronous::GetData, direct3d10.id3d10asynchronous_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsIscsiInitiatorPortal
 title: IVdsIscsiInitiatorPortal
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to query and interact with iSCSI initiator portals on the local system.
 old-location: base\ivdsiscsiinitiatorportal.htm
 old-project: VDS
 ms.assetid: ae64cc73-4f36-4846-a1c0-f329de6299ee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

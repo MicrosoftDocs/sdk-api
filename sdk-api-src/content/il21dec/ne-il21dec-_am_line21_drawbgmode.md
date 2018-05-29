@@ -1,16 +1,16 @@
 ---
 UID: NE:il21dec._AM_LINE21_DRAWBGMODE
 title: "_AM_LINE21_DRAWBGMODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the closed captioning text background mode.
 old-location: dshow\am_line21_drawbgmode.htm
 old-project: DirectShow
 ms.assetid: efd8ee53-702b-45af-a3dc-e6afe26b01c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_LINE21_DRAWBGMODE, AM_L21_DRAWBGMODE_Opaque, AM_L21_DRAWBGMODE_Transparent, AM_LINE21_DRAWBGMODE, AM_LINE21_DRAWBGMODE , AM_LINE21_DRAWBGMODE enumeration [DirectShow], AM_LINE21_DRAWBGMODEEnumeration, PAM_LINE21_DRAWBGMODE, PAM_LINE21_DRAWBGMODE enumeration pointer [DirectShow], _AM_LINE21_DRAWBGMODE, dshow.am_line21_drawbgmode, il21dec/AM_L21_DRAWBGMODE_Opaque, il21dec/AM_L21_DRAWBGMODE_Transparent, il21dec/AM_LINE21_DRAWBGMODE, il21dec/PAM_LINE21_DRAWBGMODE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: il21dec.h
 req.include-header: 

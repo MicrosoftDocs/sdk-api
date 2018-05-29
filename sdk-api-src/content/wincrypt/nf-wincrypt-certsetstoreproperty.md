@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertSetStoreProperty
 title: CertSetStoreProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertSetStoreProperty function sets a store property.
 old-location: security\certsetstoreproperty.htm
 old-project: SecCrypto
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSetStoreProperty, CertSetStoreProperty function [Security], _crypto2_certsetstoreproperty, security.certsetstoreproperty, wincrypt/CertSetStoreProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

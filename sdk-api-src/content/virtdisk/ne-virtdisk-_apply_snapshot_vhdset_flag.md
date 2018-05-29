@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._APPLY_SNAPSHOT_VHDSET_FLAG
 title: "_APPLY_SNAPSHOT_VHDSET_FLAG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags affecting the behavior of the ApplySnapshotVhdSet function.
 old-location: vhd\apply_snapshot_vhdset_flag.htm
 old-project: VStor
 ms.assetid: 96ED6EB4-BB11-430D-9B2E-C905C223D261
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PAPPLY_SNAPSHOT_VHDSET_FLAG, APPLY_SNAPSHOT_VHDSET_FLAG, APPLY_SNAPSHOT_VHDSET_FLAG enumeration [VHD], APPLY_SNAPSHOT_VHDSET_FLAG_NONE, APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE, PAPPLY_SNAPSHOT_VHDSET_FLAG, PAPPLY_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], _APPLY_SNAPSHOT_VHDSET_FLAG, vhd.apply_snapshot_vhdset_flag, virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG, virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE, virtdisk/PAPPLY_SNAPSHOT_VHDSET_FLAG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

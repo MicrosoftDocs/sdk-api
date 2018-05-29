@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabUnregisterEvent
 title: PeerCollabUnregisterEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deregisters an application from notification about specific peer collaboration events.
 old-location: p2p\peercollabunregisterevent.htm
 old-project: P2PSdk
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

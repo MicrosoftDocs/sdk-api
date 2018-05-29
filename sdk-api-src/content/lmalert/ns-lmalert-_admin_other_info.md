@@ -1,16 +1,16 @@
 ---
 UID: NS:lmalert._ADMIN_OTHER_INFO
 title: "_ADMIN_OTHER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADMIN_OTHER_INFO structure contains error message information. The NetAlertRaise and NetAlertRaiseEx functions use the ADMIN_OTHER_INFO structure to specify information when raising an administrator's interrupting message.
 old-location: netmgmt\admin_other_info_str.htm
 old-project: NetMgmt
 ms.assetid: 43119dcf-7d04-4e3b-b1dc-20e814fbdc2f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, ADMIN_OTHER_INFO, ADMIN_OTHER_INFO structure [Network Management], LPADMIN_OTHER_INFO, LPADMIN_OTHER_INFO structure pointer [Network Management], PADMIN_OTHER_INFO, PADMIN_OTHER_INFO structure pointer [Network Management], _ADMIN_OTHER_INFO, _win32_admin_other_info_str, lmalert/ADMIN_OTHER_INFO, lmalert/LPADMIN_OTHER_INFO, lmalert/PADMIN_OTHER_INFO, netmgmt.admin_other_info_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmalert.h
 req.include-header: Lm.h

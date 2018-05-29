@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarEqv
 title: VarEqv function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a bitwise equivalence on two variants.
 old-location: automat\vareqv.htm
 old-project: automat
 ms.assetid: 34ddece6-87c8-469d-b275-443d1e99b1c9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarEqv, VarEqv function [Automation], _oa96_VarEqv, automat.vareqv, oleauto/VarEqv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

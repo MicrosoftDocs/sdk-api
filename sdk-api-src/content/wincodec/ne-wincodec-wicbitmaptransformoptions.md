@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICBitmapTransformOptions
 title: WICBitmapTransformOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the flip and rotation transforms.
 old-location: wic\_wic_codec_wicbitmaptransformoptions.htm
 old-project: wic
 ms.assetid: e123bb4d-bc75-4f3f-98f1-bea9b008498b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICBitmapTransformFlipHorizontal, WICBitmapTransformFlipVertical, WICBitmapTransformOptions, WICBitmapTransformOptions enumeration [Windows Imaging Component], WICBitmapTransformRotate0, WICBitmapTransformRotate180, WICBitmapTransformRotate270, WICBitmapTransformRotate90, _wic_codec_wicbitmaptransformoptions, wic._wic_codec_wicbitmaptransformoptions, wincodec/WICBitmapTransformFlipHorizontal, wincodec/WICBitmapTransformFlipVertical, wincodec/WICBitmapTransformOptions, wincodec/WICBitmapTransformRotate0, wincodec/WICBitmapTransformRotate180, wincodec/WICBitmapTransformRotate270, wincodec/WICBitmapTransformRotate90
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

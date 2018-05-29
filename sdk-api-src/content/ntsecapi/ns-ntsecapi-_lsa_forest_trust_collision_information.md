@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_COLLISION_INFORMATION
 title: "_LSA_FOREST_TRUST_COLLISION_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about Local Security Authority forest trust collisions.
 old-location: security\lsa_forest_trust_collision_information.htm
 old-project: SecAuthN
 ms.assetid: a4a3b040-c074-4756-a30f-408d8bca87ba
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PLSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION structure [Security], PLSA_FOREST_TRUST_COLLISION_INFORMATION, PLSA_FOREST_TRUST_COLLISION_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_COLLISION_INFORMATION, security.lsa_forest_trust_collision_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

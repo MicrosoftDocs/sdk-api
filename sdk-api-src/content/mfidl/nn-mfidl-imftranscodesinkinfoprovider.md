@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFTranscodeSinkInfoProvider
 title: IMFTranscodeSinkInfoProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by the transcode sink activation object.
 old-location: mf\imftranscodesinkinfoprovider.htm
 old-project: medfound
 ms.assetid: c5eb0c30-559a-44dd-80d4-4b11933dc7ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation],described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

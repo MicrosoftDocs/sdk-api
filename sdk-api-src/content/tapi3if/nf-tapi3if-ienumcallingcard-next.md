@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.IEnumCallingCard.Next
 title: IEnumCallingCard::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallingcard_next.htm
 old-project: Tapi
 ms.assetid: df0b4591-581b-4949-9212-ff4c92eec12c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Next method, IEnumCallingCard.Next, IEnumCallingCard::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_next, tapi3.ienumcallingcard_next, tapi3if/IEnumCallingCard::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

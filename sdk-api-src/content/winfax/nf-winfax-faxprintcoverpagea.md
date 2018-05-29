@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxPrintCoverPageA
 title: FaxPrintCoverPageA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxPrintCoverPage function prints a fax transmission cover page to the specified device context for a fax client application.
 old-location: fax\_mfax_faxprintcoverpage.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8fmt.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxPrintCoverPage, FaxPrintCoverPage function [Fax Service], FaxPrintCoverPageA, FaxPrintCoverPageW, _mfax_faxprintcoverpage, fax._mfax_faxprintcoverpage, winfax/FaxPrintCoverPage, winfax/FaxPrintCoverPageA, winfax/FaxPrintCoverPageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

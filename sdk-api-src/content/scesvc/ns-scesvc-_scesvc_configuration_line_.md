@@ -1,16 +1,16 @@
 ---
 UID: NS:scesvc._SCESVC_CONFIGURATION_LINE_
 title: "_SCESVC_CONFIGURATION_LINE_"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_LINE structure contains information about a line of configuration data. It is used by the SCESVC_CONFIGURATION_INFO structure.
 old-location: security\scesvc_configuration_line.htm
 old-project: SecMgmt
 ms.assetid: 25801b20-9a7a-423e-8fa3-86896a8fbae4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE structure pointer [Security], SCESVC_CONFIGURATION_LINE, SCESVC_CONFIGURATION_LINE structure [Security], _SCESVC_CONFIGURATION_LINE_, _config_scesvc_configuration_line, scesvc/PSCESVC_CONFIGURATION_LINE, scesvc/SCESVC_CONFIGURATION_LINE, security.scesvc_configuration_line"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 

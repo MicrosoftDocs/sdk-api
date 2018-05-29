@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.Rect.GetRight
 title: Rect::GetRight
-author: windows-driver-content
+author: windows-sdk-content
 description: The Rect::GetRight method gets the x-coordinate of the right edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetRight_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getright.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],Rect class, Rect class [GDI+],GetRight method, Rect.GetRight, Rect::GetRight, _gdiplus_CLASS_Rect_GetRight_, gdiplus._gdiplus_CLASS_Rect_GetRight_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

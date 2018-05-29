@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_TaskRunAsSelf
 title: IAlertDataCollector::get_TaskRunAsSelf
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\ialertdatacollector_taskrunasself.htm
 old-project: PLA
 ms.assetid: 2fb36767-5471-4015-a236-23dcc15a38d1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskRunAsSelf property, IAlertDataCollector.TaskRunAsSelf, IAlertDataCollector.get_TaskRunAsSelf, IAlertDataCollector::TaskRunAsSelf, IAlertDataCollector::get_TaskRunAsSelf, IAlertDataCollector::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IAlertDataCollector interface, get_TaskRunAsSelf, pla.ialertdatacollector_taskrunasself, pla/IAlertDataCollector::TaskRunAsSelf, pla/IAlertDataCollector::get_TaskRunAsSelf, pla/IAlertDataCollector::put_TaskRunAsSelf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

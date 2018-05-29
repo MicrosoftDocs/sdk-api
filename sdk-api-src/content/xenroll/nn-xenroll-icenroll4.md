@@ -1,16 +1,16 @@
 ---
 UID: NN:xenroll.ICEnroll4
 title: ICEnroll4
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICEnroll4 interface is one of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll4.htm
 old-project: SecCrypto
 ms.assetid: 4e3e3792-aa41-46fe-bf75-26c2b8959f7a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICEnroll4, ICEnroll4 interface [Security], ICEnroll4 interface [Security],described, _xen_icenroll4, security.icenroll4, xenroll/ICEnroll4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xenroll.h
 req.include-header: 

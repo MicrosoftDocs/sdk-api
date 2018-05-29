@@ -1,16 +1,16 @@
 ---
 UID: NE:ntsecpkg._SECPKG_SESSIONINFO_TYPE
 title: "_SECPKG_SESSIONINFO_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the format of session information.
 old-location: security\secpkg_sessioninfo_type.htm
 old-project: SecAuthN
 ms.assetid: 462b028a-9f74-4367-b89b-97fd9be301ed
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SECPKG_SESSIONINFO_TYPE, SECPKG_SESSIONINFO_TYPE enumeration [Security], SecSessionPrimaryCred, _SECPKG_SESSIONINFO_TYPE, ntsecpkg/SECPKG_SESSIONINFO_TYPE, ntsecpkg/SecSessionPrimaryCred, security.secpkg_sessioninfo_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecpkg.h
 req.include-header: 

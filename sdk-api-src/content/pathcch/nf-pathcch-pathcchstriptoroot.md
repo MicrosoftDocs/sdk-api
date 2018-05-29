@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchStripToRoot
 title: PathCchStripToRoot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all file and directory elements in a path except for the root information.This function differs from PathStripToRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchStripToRoot.htm
 old-project: shell
 ms.assetid: e0539478-8c64-4445-ab99-22f1df70afe8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchStripToRoot, PathCchStripToRoot function [Windows Shell], pathcch/PathCchStripToRoot, shell.PathCchStripToRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMStreamList
 title: IWMStreamList
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMStreamList interface is used by mutual exclusion objects and bandwidth sharing objects to maintain lists of streams.
 old-location: wmformat\iwmstreamlist.htm
 old-project: wmformat
 ms.assetid: 076bb0bf-3cf8-48b4-bfca-abbd9c1bf211
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStreamList, IWMStreamList interface [windows Media Format], IWMStreamList interface [windows Media Format],described, IWMStreamListInterface, wmformat.iwmstreamlist, wmsdkidl/IWMStreamList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

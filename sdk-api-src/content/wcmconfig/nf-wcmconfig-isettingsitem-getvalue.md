@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetValue
 title: ISettingsItem::GetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current value from the item.
 old-location: smi\isettingsitem_getvalue.htm
 old-project: SMI
 ms.assetid: 11b61570-d1ed-4dcf-b533-873096ae80b9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetValue, GetValue method [SMI], GetValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValue method, ISettingsItem.GetValue, ISettingsItem::GetValue, smi.isettingsitem_getvalue, wcmconfig/ISettingsItem::GetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI8FromDisp
 title: VarI8FromDisp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to an 8-byte integer value.
 old-location: automat\vari8fromdisp.htm
 old-project: automat
 ms.assetid: 8b638eb0-d56d-4851-a913-b121beb4dbe3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI8FromDisp, VarI8FromDisp function [Automation], _oa96_VarI8FromDisp, automat.vari8fromdisp, oleauto/VarI8FromDisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

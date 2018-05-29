@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.Flush
 title: Provider::Flush
-author: windows-driver-content
+author: windows-sdk-content
 description: The Flush method is called by the provider framework to delete all unnecessary memory in use by the provider.
 old-location: wmi\provider_flush.htm
 old-project: WmiSdk
 ms.assetid: c8be35ec-cd2e-45ec-b47f-48acf5e6f51a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?Flush@Provider@@MAEXXZ, ?Flush@Provider@@MEAAXXZ, Flush, Flush method [Windows Management Instrumentation], Flush method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],Flush method, Provider.Flush, Provider::Flush, _hmm_provider_flush, provider/Provider::Flush, wmi.provider_flush"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:sensevts.ISensLogon2.SessionDisconnect
 title: ISensLogon2::SessionDisconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: The SessionDisconnect method is used to disconnect from a Fast User Switching session or a Remote Desktop Connection. This is different from logging off from a session, because when you use this method the session is disconnected.
 old-location: sens\isenslogon2_sessiondisconnect.htm
 old-project: Sens
 ms.assetid: afa56cb1-7c52-48db-ac7c-237cb49cc97f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensLogon2 interface [SENS],SessionDisconnect method, ISensLogon2.SessionDisconnect, ISensLogon2::SessionDisconnect, SessionDisconnect, SessionDisconnect method [SENS], SessionDisconnect method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessiondisconnect, sens.isenslogon2_sessiondisconnect, sensevts/ISensLogon2::SessionDisconnect, syncmgr.isenslogon2_sessiondisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

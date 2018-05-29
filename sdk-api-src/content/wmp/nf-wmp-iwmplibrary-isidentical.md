@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPLibrary.isIdentical
 title: IWMPLibrary::isIdentical
-author: windows-driver-content
+author: windows-sdk-content
 description: The isIdentical method retrieves a value that indicates whether the supplied object is the same as the current one.
 old-location: wmp\iwmplibrary_isidentical.htm
 old-project: WMP
 ms.assetid: af121fc7-6a9a-4c1a-bea4-433e62ca19e3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],isIdentical method, IWMPLibrary.isIdentical, IWMPLibrary::isIdentical, IWMPLibraryisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_isidentical, wmp/IWMPLibrary::isIdentical
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

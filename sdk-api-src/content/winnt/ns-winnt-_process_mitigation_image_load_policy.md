@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_IMAGE_LOAD_POLICY
 title: "_PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of images from a remote device.
 old-location: base\process_mitigation_image_load_policy.htm
 old-project: ProcThread
 ms.assetid: C5B414D0-C209-4669-9E02-D7E453E242B1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, PPROCESS_MITIGATION_IMAGE_LOAD_POLICY structure pointer, PROCESS_MITIGATION_IMAGE_LOAD_POLICY, PROCESS_MITIGATION_IMAGE_LOAD_POLICY structure, _PROCESS_MITIGATION_IMAGE_LOAD_POLICY, base.process_mitigation_image_load_policy, winnt/PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, winnt/PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

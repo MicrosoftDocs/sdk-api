@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.GetDeviceDriverBaseNameW
 title: GetDeviceDriverBaseNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the base name of the specified device driver.
 old-location: psapi\getdevicedriverbasename.htm
 old-project: psapi
 ms.assetid: a19a927d-4669-4d4c-951e-43f294a8fb40
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetDeviceDriverBaseName, GetDeviceDriverBaseName function [PSAPI], GetDeviceDriverBaseNameA, GetDeviceDriverBaseNameW, K32GetDeviceDriverBaseName, K32GetDeviceDriverBaseNameA, K32GetDeviceDriverBaseNameW, _win32_getdevicedriverbasename, base.getdevicedriverbasename, psapi.getdevicedriverbasename, psapi/GetDeviceDriverBaseName, psapi/GetDeviceDriverBaseNameA, psapi/GetDeviceDriverBaseNameW, psapi/K32GetDeviceDriverBaseName, psapi/K32GetDeviceDriverBaseNameA, psapi/K32GetDeviceDriverBaseNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

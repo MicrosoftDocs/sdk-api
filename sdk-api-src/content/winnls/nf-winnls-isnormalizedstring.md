@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.IsNormalizedString
 title: IsNormalizedString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that a string is normalized according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
 old-location: intl\isnormalizedstring.htm
 old-project: Intl
 ms.assetid: 5a1d3977-9fe9-457f-b0a2-46b32bcc27db
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsNormalizedString, IsNormalizedString function [Internationalization for Windows Applications], _win32_IsNormalizedString, intl.isnormalizedstring, winnls/IsNormalizedString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

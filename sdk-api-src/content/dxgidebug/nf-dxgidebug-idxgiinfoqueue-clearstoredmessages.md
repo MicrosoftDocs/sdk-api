@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearStoredMessages
 title: IDXGIInfoQueue::ClearStoredMessages
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears all messages from the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_clearstoredmessages.htm
 old-project: direct3ddxgi
 ms.assetid: DAE3D3F2-A07E-4A24-863A-042AB3DAF98E
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ClearStoredMessages, ClearStoredMessages method [DXGI], ClearStoredMessages method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearStoredMessages method, IDXGIInfoQueue.ClearStoredMessages, IDXGIInfoQueue::ClearStoredMessages, direct3ddxgi.idxgiinfoqueue_clearstoredmessages, dxgidebug/IDXGIInfoQueue::ClearStoredMessages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

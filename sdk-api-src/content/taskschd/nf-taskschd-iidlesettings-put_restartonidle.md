@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IIdleSettings.put_RestartOnIdle
 title: IIdleSettings::put_RestartOnIdle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.
 old-location: taskschd\iidlesettings_restartonidle.htm
 old-project: TaskSchd
 ms.assetid: 42779c7d-4739-47c5-bf35-5d6c612c59c0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],RestartOnIdle property, IIdleSettings.RestartOnIdle, IIdleSettings.put_RestartOnIdle, IIdleSettings::RestartOnIdle, IIdleSettings::get_RestartOnIdle, IIdleSettings::put_RestartOnIdle, RestartOnIdle property [Task Scheduler], RestartOnIdle property [Task Scheduler],IIdleSettings interface, put_RestartOnIdle, taskschd.iidlesettings_restartonidle, taskschd/IIdleSettings::RestartOnIdle, taskschd/IIdleSettings::get_RestartOnIdle, taskschd/IIdleSettings::put_RestartOnIdle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

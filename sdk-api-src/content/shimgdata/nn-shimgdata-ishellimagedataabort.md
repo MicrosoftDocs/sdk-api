@@ -1,16 +1,16 @@
 ---
 UID: NN:shimgdata.IShellImageDataAbort
 title: IShellImageDataAbort
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a single method used to abort IShellImageData processes.
 old-location: shell\IShellImageDataAbort.htm
 old-project: shell
 ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shimgdata.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetName
 title: IEnhancedStorageSiloAction::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a string for the name of the action specified by the IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_getname.htm
 old-project: enstor
 ms.assetid: 3690d395-c83e-4253-adc2-d30a96a5ce47
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetName, GetName method [Enhanced Storage], GetName method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetName method, IEnhancedStorageSiloAction.GetName, IEnhancedStorageSiloAction::GetName, ehstorapi/IEnhancedStorageSiloAction::GetName, enstor.ienhancedstoragesiloaction_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

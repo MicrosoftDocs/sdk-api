@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11ClassLinkage.CreateClassInstance
 title: ID3D11ClassLinkage::CreateClassInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a class-instance object that represents an HLSL class instance.
 old-location: direct3d11\id3d11classlinkage_createclassinstance.htm
 old-project: direct3d11
 ms.assetid: 26e5b1c7-d7b7-413b-a072-33f8f5dd5d3f
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 9738cc0b-0925-52a9-bcc7-e3e76bec3278, CreateClassInstance, CreateClassInstance method [Direct3D 11], CreateClassInstance method [Direct3D 11],ID3D11ClassLinkage interface, ID3D11ClassLinkage interface [Direct3D 11],CreateClassInstance method, ID3D11ClassLinkage.CreateClassInstance, ID3D11ClassLinkage::CreateClassInstance, d3d11/ID3D11ClassLinkage::CreateClassInstance, direct3d11.id3d11classlinkage_createclassinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia._DVD_REGION
 title: "_DVD_REGION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the DVD region as reported by the local system components.
 old-location: dshow\dvd_region.htm
 old-project: DirectShow
 ms.assetid: 2a555f98-5037-4a99-a1b7-bea36527309b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [DirectShow], DVD_REGIONStructure, PDVD_REGION, PDVD_REGION structure pointer [DirectShow], _DVD_REGION, dshow.dvd_region, dvdmedia/DVD_REGION, dvdmedia/PDVD_REGION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

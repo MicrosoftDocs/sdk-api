@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Shrink
 title: ITfPropertyStore::Shrink
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfPropertyStore::Shrink method
 old-location: tsf\itfpropertystore_shrink.htm
 old-project: TSF
 ms.assetid: 55637d69-2f1a-435d-be23-4c29ec57b2ea
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],Shrink method, ITfPropertyStore.Shrink, ITfPropertyStore::Shrink, Shrink, Shrink method [Text Services Framework], Shrink method [Text Services Framework],ITfPropertyStore interface, _tsf_itfpropertystore_shrink_ref, msctf/ITfPropertyStore::Shrink, tsf.itfpropertystore_shrink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

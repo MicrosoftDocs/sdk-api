@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerSeekToBeginning
 title: PssWalkMarkerSeekToBeginning function
-author: windows-driver-content
+author: windows-sdk-content
 description: Rewinds a walk marker back to the beginning.
 old-location: proc_snap\psswalkmarkerseektobeginning.htm
 old-project: proc_snap
 ms.assetid: BE0FA122-3966-4827-9DA3-A98A162EF270
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssWalkMarkerSeekToBeginning, PssWalkMarkerSeekToBeginning function, proc_snap.psswalkmarkerseektobeginning, processsnapshot/PssWalkMarkerSeekToBeginning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

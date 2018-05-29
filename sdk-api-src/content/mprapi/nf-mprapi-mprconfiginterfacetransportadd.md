@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportAdd
 title: MprConfigInterfaceTransportAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceTransportAdd function adds a transport protocol to an interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportadd.htm
 old-project: RRAS
 ms.assetid: f4735fd1-031d-4cda-af40-36f55e5796f9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceTransportAdd, MprConfigInterfaceTransportAdd function [RAS], _mpr_mprconfiginterfacetransportadd, mprapi/MprConfigInterfaceTransportAdd, rras.mprconfiginterfacetransportadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

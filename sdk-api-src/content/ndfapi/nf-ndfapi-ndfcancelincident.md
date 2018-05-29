@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCancelIncident
 title: NdfCancelIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to cancel unneeded functions which have been previously called on an existing incident.
 old-location: ndf\ndfcancelincident.htm
 old-project: NDF
 ms.assetid: dc0cbfc0-fcaa-44b2-a753-8df9f184b8ca
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCancelIncident, NdfCancelIncident function [NDF], ndf.ndfcancelincident, ndfapi/NdfCancelIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

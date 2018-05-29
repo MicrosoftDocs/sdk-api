@@ -1,16 +1,16 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0026
 title: "__MIDL___MIDL_itf_ads_0000_0000_0026"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of password encoding used with the ADS_OPTION_PASSWORD_METHOD option in the IADsObjectOptions::GetOption and IADsObjectOptions::SetOption methods.
 old-location: adsi\ads_password_encoding_enum.htm
 old-project: ADSI
 ms.assetid: 0e50790c-a277-4bd4-811a-b794add1afb2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADS_PASSWORD_ENCODE_CLEAR, ADS_PASSWORD_ENCODE_REQUIRE_SSL, ADS_PASSWORD_ENCODING_ENUM, ADS_PASSWORD_ENCODING_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0026, adsi.ads_password_encoding_enum, iads/ADS_PASSWORD_ENCODE_CLEAR, iads/ADS_PASSWORD_ENCODE_REQUIRE_SSL, iads/ADS_PASSWORD_ENCODING_ENUM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

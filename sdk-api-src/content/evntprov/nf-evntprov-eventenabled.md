@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventEnabled
 title: EventEnabled function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the event is enabled for any session.
 old-location: etw\eventenabled_func.htm
 old-project: ETW
 ms.assetid: b332b6d4-6921-40bd-bebc-6646b5b9bcde
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventEnabled, EventEnabled function [ETW], base.eventenabled_func, etw.eventenabled_func, evntprov/EventEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

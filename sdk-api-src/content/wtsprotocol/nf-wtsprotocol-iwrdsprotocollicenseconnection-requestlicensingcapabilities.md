@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.RequestLicensingCapabilities
 title: IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests license capabilities from the client.
 old-location: termserv\iwrdsprotocollicenseconnection_requestlicensingcapabilities.htm
 old-project: TermServ
 ms.assetid: a5814a01-9e4b-4510-b6a5-fa6edc6a15ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWRdsProtocolLicenseConnection.RequestLicensingCapabilities, IWRdsProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

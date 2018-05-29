@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDecFix
 title: VarDecFix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the integer portion of a variant of type decimal.
 old-location: automat\vardecfix.htm
 old-project: automat
 ms.assetid: 714567f9-7159-4081-a5d2-afd4da789961
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDecFix, VarDecFix function [Automation], _oa96_VarDecFix, automat.vardecfix, oleauto/VarDecFix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

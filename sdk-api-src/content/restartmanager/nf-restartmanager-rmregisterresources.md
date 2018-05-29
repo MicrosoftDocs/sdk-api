@@ -1,16 +1,16 @@
 ---
 UID: NF:restartmanager.RmRegisterResources
 title: RmRegisterResources function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers resources to a Restart Manager session.
 old-location: rstmgr\rmregisterresources.htm
 old-project: RstMgr
 ms.assetid: 9ac94461-bf75-4517-b47e-23d82474efe8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RmRegisterResources, RmRegisterResources function [Restart Mgr], restartmanager/RmRegisterResources, rstmgr.rmregisterresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

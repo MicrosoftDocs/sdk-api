@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSourcePresentationProvider.ForceEndOfPresentation
 title: IMFMediaSourcePresentationProvider::ForceEndOfPresentation
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the source when playback has reached the end of a segment. For timelines, this corresponds to reaching a mark-out point.
 old-location: mf\imfmediasourcepresentationprovider_forceendofpresentation.htm
 old-project: medfound
 ms.assetid: fb2896f9-c397-4a0d-b8fe-b03ff4f08dda
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ForceEndOfPresentation, ForceEndOfPresentation method [Media Foundation], ForceEndOfPresentation method [Media Foundation],IMFMediaSourcePresentationProvider interface, IMFMediaSourcePresentationProvider interface [Media Foundation],ForceEndOfPresentation method, IMFMediaSourcePresentationProvider.ForceEndOfPresentation, IMFMediaSourcePresentationProvider::ForceEndOfPresentation, fb2896f9-c397-4a0d-b8fe-b03ff4f08dda, mf.imfmediasourcepresentationprovider_forceendofpresentation, mfidl/IMFMediaSourcePresentationProvider::ForceEndOfPresentation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

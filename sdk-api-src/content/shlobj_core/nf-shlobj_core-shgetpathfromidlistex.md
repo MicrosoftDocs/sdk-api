@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListEx
 title: SHGetPathFromIDListEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an item identifier list to a file system path. This function extends SHGetPathFromIDList by allowing you to set the initial size of the string buffer and declare the options below.
 old-location: shell\SHGetPathFromIDListEx.htm
 old-project: shell
 ms.assetid: 80270c59-275d-4b13-b16c-0c07bb79ed8e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GPFIDL_ALTNAME, GPFIDL_DEFAULT, GPFIDL_UNCPRINTER, SHGetPathFromIDListEx, SHGetPathFromIDListEx function [Windows Shell], _shell_SHGetPathFromIDListEx, shell.SHGetPathFromIDListEx, shlobj_core/SHGetPathFromIDListEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

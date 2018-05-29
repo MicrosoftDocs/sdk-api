@@ -1,16 +1,16 @@
 ---
 UID: NE:wmsdkidl.WMT_RIGHTS
 title: WMT_RIGHTS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the rights that may be specified in a DRM license.
 old-location: wmformat\wmt_rights.htm
 old-project: wmformat
 ms.assetid: 52a9a5ec-58fb-4804-8f56-4d863c738934
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_RIGHTS, WMT_RIGHTS enumeration [windows Media Format], WMT_RIGHT_COLLABORATIVE_PLAY, WMT_RIGHT_COPY, WMT_RIGHT_COPY_TO_CD, WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE, WMT_RIGHT_COPY_TO_SDMI_DEVICE, WMT_RIGHT_ONE_TIME, WMT_RIGHT_PLAYBACK, WMT_RIGHT_SAVE_STREAM_PROTECTED, WMT_RIGHT_SDMI_NOMORECOPIES, WMT_RIGHT_SDMI_TRIGGER, enumeration [windows Media Format], wmformat.wmt_rights, wmsdkidl/WMT_RIGHTS, wmsdkidl/WMT_RIGHT_COLLABORATIVE_PLAY, wmsdkidl/WMT_RIGHT_COPY, wmsdkidl/WMT_RIGHT_COPY_TO_CD, wmsdkidl/WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE, wmsdkidl/WMT_RIGHT_COPY_TO_SDMI_DEVICE, wmsdkidl/WMT_RIGHT_ONE_TIME, wmsdkidl/WMT_RIGHT_PLAYBACK, wmsdkidl/WMT_RIGHT_SAVE_STREAM_PROTECTED, wmsdkidl/WMT_RIGHT_SDMI_NOMORECOPIES, wmsdkidl/WMT_RIGHT_SDMI_TRIGGER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

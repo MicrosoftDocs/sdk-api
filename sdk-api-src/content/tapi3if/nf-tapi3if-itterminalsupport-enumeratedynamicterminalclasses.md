@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.EnumerateDynamicTerminalClasses
 title: ITTerminalSupport::EnumerateDynamicTerminalClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateDynamicTerminalClasses method enumerates the currently available dynamic terminal classes that are supported.
 old-location: tapi3\itterminalsupport_enumeratedynamicterminalclasses.htm
 old-project: Tapi
 ms.assetid: 1dcb9163-306b-42fc-afb4-41b33d7e2d40
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumerateDynamicTerminalClasses, EnumerateDynamicTerminalClasses method [TAPI 2.2], EnumerateDynamicTerminalClasses method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],EnumerateDynamicTerminalClasses method, ITTerminalSupport.EnumerateDynamicTerminalClasses, ITTerminalSupport::EnumerateDynamicTerminalClasses, _tapi3_itterminalsupport_enumeratedynamicterminalclasses, tapi3.itterminalsupport_enumeratedynamicterminalclasses, tapi3if/ITTerminalSupport::EnumerateDynamicTerminalClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

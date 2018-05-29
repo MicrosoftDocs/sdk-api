@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceVisibilityChanged
 title: ITextInputPanelEventSink::InPlaceVisibilityChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when the Tablet PC Input Panel has switched between visible and invisible.
 old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanged.htm
 old-project: tablet
 ms.assetid: 7ec8acd4-fbb9-4801-880b-fe0d5d3fa3c2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 7ec8acd4-fbb9-4801-880b-fe0d5d3fa3c2, ITextInputPanelEventSink interface [Tablet PC],InPlaceVisibilityChanged method, ITextInputPanelEventSink.InPlaceVisibilityChanged, ITextInputPanelEventSink::InPlaceVisibilityChanged, InPlaceVisibilityChanged, InPlaceVisibilityChanged method [Tablet PC], InPlaceVisibilityChanged method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanged, tablet.itextinputpaneleventsink_inplacevisibilitychanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

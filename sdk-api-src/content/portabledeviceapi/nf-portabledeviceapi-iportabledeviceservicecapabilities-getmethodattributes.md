@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetMethodAttributes
 title: IPortableDeviceServiceCapabilities::GetMethodAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attributes used to describe a given method.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodattributes.htm
 old-project: wpd_sdk
 ms.assetid: 4cd125ea-545f-461b-90e1-88d3e3a6c032
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetMethodAttributes, GetMethodAttributes method [Windows Portable Devices SDK], GetMethodAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetMethodAttributes method, IPortableDeviceServiceCapabilities.GetMethodAttributes, IPortableDeviceServiceCapabilities::GetMethodAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

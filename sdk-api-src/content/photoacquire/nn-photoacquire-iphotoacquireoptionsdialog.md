@@ -1,16 +1,16 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireOptionsDialog
 title: IPhotoAcquireOptionsDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPhotoAcquireOptionsDialog interface is used to display an options dialog box in which the user can select photo acquisition settings such as file name formats, as well as whether or not to rotate images, to prompt for a tag name, or to erase photos from the camera after importing.
 old-location: picacq\iphotoacquireoptionsdialog.htm
 old-project: acquisition
 ms.assetid: 075e188f-e533-403d-be06-6a3260479f1a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], IPhotoAcquireOptionsDialog interface [Picture Acquisition],described, IPhotoAcquireOptionsDialogInterface, photoacquire/IPhotoAcquireOptionsDialog, picacq.iphotoacquireoptionsdialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

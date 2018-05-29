@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICCompressorFree
 title: ICCompressorFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICCompressorFree function frees the resources in the COMPVARS structure used by other VCM functions.
 old-location: multimedia\iccompressorfree.htm
 old-project: Multimedia
 ms.assetid: 6d0c9a7d-6458-4330-af74-3f471555cbfc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICCompressorFree, ICCompressorFree function [Windows Multimedia], _win32_ICCompressorFree, multimedia.iccompressorfree, vfw/ICCompressorFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.EnumCalendarInfoExA
 title: EnumCalendarInfoExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function.
 old-location: intl\enumcalendarinfoex.htm
 old-project: Intl
 ms.assetid: 5a313af5-e595-49b1-9651-a5afc158c7a7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumCalendarInfoEx, EnumCalendarInfoEx function [Internationalization for Windows Applications], EnumCalendarInfoExA, EnumCalendarInfoExW, _win32_EnumCalendarInfoEx, intl.enumcalendarinfoex, winnls/EnumCalendarInfoEx, winnls/EnumCalendarInfoExA, winnls/EnumCalendarInfoExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

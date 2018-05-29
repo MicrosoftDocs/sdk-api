@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetNumberOfStreams
 title: IVMRFilterConfig::SetNumberOfStreams
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNumberOfStreams method sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
 old-location: dshow\ivmrfilterconfig_setnumberofstreams.htm
 old-project: DirectShow
 ms.assetid: cd200b33-bb74-474a-9047-d81cb470af23
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetNumberOfStreams method, IVMRFilterConfig.SetNumberOfStreams, IVMRFilterConfig::SetNumberOfStreams, IVMRFilterConfigSetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setnumberofstreams, strmif/IVMRFilterConfig::SetNumberOfStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

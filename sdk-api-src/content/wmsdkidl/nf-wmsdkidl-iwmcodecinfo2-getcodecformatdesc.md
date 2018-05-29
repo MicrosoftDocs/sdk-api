@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo2.GetCodecFormatDesc
 title: IWMCodecInfo2::GetCodecFormatDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCodecFormatDesc method retrieves a description of a specified codec format. This method also retrieves a stream configuration object containing the settings for the codec format.
 old-location: wmformat\iwmcodecinfo2_getcodecformatdesc.htm
 old-project: wmformat
 ms.assetid: 24ca091e-72f6-4c7b-b25a-8957d70fa450
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCodecFormatDesc, GetCodecFormatDesc method [windows Media Format], GetCodecFormatDesc method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecFormatDesc method, IWMCodecInfo2.GetCodecFormatDesc, IWMCodecInfo2::GetCodecFormatDesc, IWMCodecInfo2GetCodecFormatDesc, wmformat.iwmcodecinfo2_getcodecformatdesc, wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

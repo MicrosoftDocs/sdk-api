@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetContext
 title: ISyncMgrEvent::GetContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a context object that can be used by a handler to display properties or execute a context menu action.
 old-location: shell\ISyncMgrEvent_GetContext.htm
 old-project: shell
 ms.assetid: 849e2bfe-daf7-422a-909c-03608ef1e325
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetContext, GetContext method [Windows Shell], GetContext method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetContext method, ISyncMgrEvent.GetContext, ISyncMgrEvent::GetContext, _shell_ISyncMgrEvent_GetContext, shell.ISyncMgrEvent_GetContext, syncmgr/ISyncMgrEvent::GetContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

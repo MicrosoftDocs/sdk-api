@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFGetAttributeSize
 title: MFGetAttributeSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an attribute whose value is a size, expressed as a width and height.
 old-location: mf\mfgetattributesize.htm
 old-project: medfound
 ms.assetid: c74445b2-a2ec-4c77-a8bf-61a6b54cef75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFGetAttributeSize, MFGetAttributeSize function [Media Foundation], c74445b2-a2ec-4c77-a8bf-61a6b54cef75, mf.mfgetattributesize, mfapi/MFGetAttributeSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

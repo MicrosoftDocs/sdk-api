@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHCreateStreamOnFileW
 title: SHCreateStreamOnFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx.
 old-location: shell\SHCreateStreamOnFile.htm
 old-project: shell
 ms.assetid: 9b1fd6c4-d7b0-40b9-bc9f-ea062a1079c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateStreamOnFile, SHCreateStreamOnFile function [Windows Shell], SHCreateStreamOnFileA, SHCreateStreamOnFileW, _win32_SHCreateStreamOnFile, shell.SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFileA, shlwapi/SHCreateStreamOnFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

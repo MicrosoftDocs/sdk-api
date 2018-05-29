@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgCreateStorageEx
 title: StgCreateStorageEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new storage object using a provided implementation for the IStorage or IPropertySetStorage interfaces.
 old-location: stg\stgcreatestorageex.htm
 old-project: Stg
 ms.assetid: 6442977d-e980-419e-abe9-9d15dbb045c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

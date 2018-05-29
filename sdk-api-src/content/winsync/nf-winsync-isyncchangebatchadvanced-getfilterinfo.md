@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetFilterInfo
 title: ISyncChangeBatchAdvanced::GetFilterInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the ISyncFilterInfo that was specified when the change batch was created.
 old-location: winsync\isyncchangebatchadvanced_getfilterinfo.htm
 old-project: winsync
 ms.assetid: f630f806-cc5a-408e-bd84-49555ebb41c1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetFilterInfo, GetFilterInfo method [Windows Sync], GetFilterInfo method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetFilterInfo method, ISyncChangeBatchAdvanced.GetFilterInfo, ISyncChangeBatchAdvanced::GetFilterInfo, winsync.isyncchangebatchadvanced_getfilterinfo, winsync/ISyncChangeBatchAdvanced::GetFilterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

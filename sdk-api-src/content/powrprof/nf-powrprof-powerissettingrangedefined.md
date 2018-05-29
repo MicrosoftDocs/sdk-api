@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerIsSettingRangeDefined
 title: PowerIsSettingRangeDefined function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether the specified power setting represents a range of possible values.
 old-location: base\powerissettingrangedefined.htm
 old-project: Power
 ms.assetid: 7babaf7b-ecb3-4b29-917e-2ed63bad4a38
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

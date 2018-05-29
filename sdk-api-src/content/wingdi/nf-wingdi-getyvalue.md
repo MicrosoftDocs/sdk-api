@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetYValue
 title: GetYValue macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetYValue macro retrieves the yellow color value from a CMYK color value.
 old-location: wcs\getyvalue.htm
 old-project: WCS
 ms.assetid: 5948db59-649f-4940-afb6-5bdb84544915
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetYValue, GetYValue macro [Windows Color System], _color_GetYValue, wcs.getyvalue, wingdi/GetYValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: 

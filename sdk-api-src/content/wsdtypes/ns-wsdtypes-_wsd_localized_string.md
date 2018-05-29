@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_LOCALIZED_STRING
 title: "_WSD_LOCALIZED_STRING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a single localized string.
 old-location: ncd\wsd_localized_string_struct.htm
 old-project: WsdApi
 ms.assetid: c90cc459-a10d-4b2b-81bc-96e562755b6c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_LOCALIZED_STRING, WSD_LOCALIZED_STRING structure, _WSD_LOCALIZED_STRING, ncd.wsd_localized_string_struct, wsdtypes/WSD_LOCALIZED_STRING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

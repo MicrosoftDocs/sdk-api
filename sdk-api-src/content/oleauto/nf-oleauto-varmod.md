@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarMod
 title: VarMod function
-author: windows-driver-content
+author: windows-sdk-content
 description: Divides two variants and returns only the remainder.
 old-location: automat\varmod.htm
 old-project: automat
 ms.assetid: 910d3f37-15f4-4a0e-8aa0-ab58be865c62
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarMod, VarMod function [Automation], _oa96_VarMod, automat.varmod, oleauto/VarMod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

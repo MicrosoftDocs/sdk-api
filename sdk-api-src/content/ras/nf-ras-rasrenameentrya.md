@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasRenameEntryA
 title: RasRenameEntryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasRenameEntry function changes the name of an entry in a phone book.
 old-location: rras\rasrenameentry.htm
 old-project: RRAS
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasRenameEntry, RasRenameEntry function [RAS], RasRenameEntryA, RasRenameEntryW, _ras_rasrenameentry, ras/RasRenameEntry, ras/RasRenameEntryA, ras/RasRenameEntryW, rras.rasrenameentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationOrCondition
 title: IUIAutomationOrCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a condition made up of multiple conditions, at least one of which must be true.
 old-location: winauto\uiauto_IUIAutomationOrCondition.htm
 old-project: WinAuto
 ms.assetid: 323dedd5-2799-4fcc-bc8c-56b39ab7f882
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationOrCondition, IUIAutomationOrCondition interface [Windows Accessibility], IUIAutomationOrCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationOrCondition, uiauto_IUIAutomationOrCondition, uiautomationclient/IUIAutomationOrCondition, winauto.uiauto_IUIAutomationOrCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

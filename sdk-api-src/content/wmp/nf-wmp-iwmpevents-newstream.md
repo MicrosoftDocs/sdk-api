@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.NewStream
 title: IWMPEvents::NewStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The NewStream event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__newstream.htm
 old-project: WMP
 ms.assetid: 829cb422-eb24-4280-b565-de42c5a77b5f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],NewStream method, IWMPEvents.NewStream, IWMPEvents::NewStream, IWMPEventsNewStream, NewStream, NewStream method [Windows Media Player], NewStream method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__newstream, wmp/IWMPEvents::NewStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

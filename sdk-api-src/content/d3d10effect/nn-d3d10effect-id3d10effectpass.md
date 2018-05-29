@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectPass
 title: ID3D10EffectPass
-author: windows-driver-content
+author: windows-sdk-content
 description: A pass interface encapsulates state assignments within a technique.
 old-location: direct3d10\id3d10effectpass.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 5cb1e1c5-e0ab-9620-8166-f4d77be0bd73, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], ID3D10EffectPass interface [Direct3D 10],described, d3d10effect/ID3D10EffectPass, direct3d10.id3d10effectpass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

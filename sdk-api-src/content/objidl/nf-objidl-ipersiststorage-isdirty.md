@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPersistStorage.IsDirty
 title: IPersistStorage::IsDirty
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an object has changed since it was last saved to its current storage.
 old-location: com\ipersiststorage_isdirty.htm
 old-project: com
 ms.assetid: 604e044f-cede-486e-8b17-c62a1cfd1d28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistStorage interface [COM],IsDirty method, IPersistStorage.IsDirty, IPersistStorage::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStorage interface, _com_ipersiststorage_isdirty, com.ipersiststorage_isdirty, objidl/IPersistStorage::IsDirty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capSetCallbackOnStatus
 title: capSetCallbackOnStatus macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capSetCallbackOnStatus macro sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_STATUS message.
 old-location: multimedia\capsetcallbackonstatus.htm
 old-project: Multimedia
 ms.assetid: 7024aa3e-d227-4c22-8259-6299e9205f53
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capSetCallbackOnStatus, capSetCallbackOnStatus, capSetCallbackOnStatus macro [Windows Multimedia], multimedia.capsetcallbackonstatus, vfw/capSetCallbackOnStatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

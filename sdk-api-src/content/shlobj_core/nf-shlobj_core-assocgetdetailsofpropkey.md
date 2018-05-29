@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.AssocGetDetailsOfPropKey
 title: AssocGetDetailsOfPropKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value for a given property key using the file association information provided by the Namespace Extensions.
 old-location: shell\AssocGetDetailsOfPropKey.htm
 old-project: shell
 ms.assetid: f13af5f4-1b6a-419c-a042-e05c9ec51d02
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AssocGetDetailsOfPropKey, AssocGetDetailsOfPropKey function [Windows Shell], _shell_AssocGetDetailsOfPropKey, shell.AssocGetDetailsOfPropKey, shlobj_core/AssocGetDetailsOfPropKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.D2D1IsMatrixInvertible
 title: D2D1IsMatrixInvertible function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the specified matrix is invertible.
 old-location: direct2d\d2d1ismatrixinvertible.htm
 old-project: Direct2D
 ms.assetid: c8ba9c60-dfc4-4872-81e0-e68dfd13f00e
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1IsMatrixInvertible, D2D1IsMatrixInvertible function [Direct2D], d2d1/D2D1IsMatrixInvertible, direct2d.d2d1ismatrixinvertible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

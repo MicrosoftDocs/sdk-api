@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.SetProperties
 title: IFileSaveDialog::SetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a property store that defines the default values to be used for the item being saved.
 old-location: shell\IFileSaveDialog_SetProperties.htm
 old-project: shell
 ms.assetid: 418f2524-5e6d-4e79-894b-b5f706171836
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFileSaveDialog.SetProperties, IFileSaveDialog::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetProperties, shell_IFileSaveDialog_SetProperties, shobjidl_core/IFileSaveDialog::SetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

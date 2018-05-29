@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.GetAdapterIdentifier
 title: IDirect3D9::GetAdapterIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the physical display adapters present in the system when the IDirect3D9 interface was instantiated.
 old-location: direct3d9\idirect3d9__getadapteridentifier.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadapteridentifier.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: GetAdapterIdentifier, GetAdapterIdentifier method [Direct3D 9], GetAdapterIdentifier method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterIdentifier method, IDirect3D9.GetAdapterIdentifier, IDirect3D9::GetAdapterIdentifier, ab3a7dce-1e55-5674-03b7-13a53540bbf5, d3d9helper/IDirect3D9::GetAdapterIdentifier, direct3d9.idirect3d9__getadapteridentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

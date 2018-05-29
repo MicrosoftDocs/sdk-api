@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.GetFlags
 title: Image::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The Image::GetFlags method gets a set of flags that indicate certain attributes of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFlags_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getflags.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFlags, GetFlags method [GDI+], GetFlags method [GDI+],Image class, Image class [GDI+],GetFlags method, Image.GetFlags, Image::GetFlags, _gdiplus_CLASS_Image_GetFlags_, gdiplus._gdiplus_CLASS_Image_GetFlags_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

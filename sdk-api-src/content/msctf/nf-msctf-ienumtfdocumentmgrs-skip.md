@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Skip
 title: IEnumTfDocumentMgrs::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfDocumentMgrs::Skip method
 old-location: tsf\ienumtfdocumentmgrs_skip.htm
 old-project: TSF
 ms.assetid: 04464160-d171-4c83-91f0-068a1c13544a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Skip method, IEnumTfDocumentMgrs.Skip, IEnumTfDocumentMgrs::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_skip_ref, msctf/IEnumTfDocumentMgrs::Skip, tsf.ienumtfdocumentmgrs_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

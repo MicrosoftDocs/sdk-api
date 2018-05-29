@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.ICallFrameWalker.OnWalkInterface
 title: ICallFrameWalker::OnWalkInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Walks through a call frame to look for the specified interface in the call frame. The interface can be manipulated or replaced by paying close attention to the reference count.
 old-location: com\icallframewalker_onwalkinterface.htm
 old-project: com
 ms.assetid: e599536f-87a3-4f71-ac0e-21bdafafd029
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallFrameWalker interface [COM],OnWalkInterface method, ICallFrameWalker.OnWalkInterface, ICallFrameWalker::OnWalkInterface, OnWalkInterface, OnWalkInterface method [COM], OnWalkInterface method [COM],ICallFrameWalker interface, _com_icallframewalker_onwalkinterface, callobj/ICallFrameWalker::OnWalkInterface, com.icallframewalker_onwalkinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetCalendarInfoEx
 title: GetCalendarInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a calendar for a locale specified by name.Note  The application should call this function in preference to GetCalendarInfo if designed to run only on Windows Vista and later. Note  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getcalendarinfoex.htm
 old-project: Intl
 ms.assetid: b3c2fb74-0559-4752-9bdb-36b78084aed5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCalendarInfoEx, GetCalendarInfoEx function [Internationalization for Windows Applications], _win32_GetCalendarInfoEx, intl.getcalendarinfoex, winnls/GetCalendarInfoEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

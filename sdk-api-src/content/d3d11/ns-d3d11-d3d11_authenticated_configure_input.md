@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_INPUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains input data for the ID3D11VideoContext::ConfigureAuthenticatedChannel method.
 old-location: mf\d3d11_authenticated_configure_input.htm
 old-project: medfound
 ms.assetid: 11FC071E-9B73-4960-B675-A43DDF75AA0B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, D3D11_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCESSIBLE, D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE, D3D11_AUTHENTICATED_CONFIGURE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_INPUT structure [Media Foundation], D3D11_AUTHENTICATED_CONFIGURE_PROTECTION, D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE, d3d11/D3D11_AUTHENTICATED_CONFIGURE_INPUT, mf.d3d11_authenticated_configure_input
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

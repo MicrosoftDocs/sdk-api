@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetAxisY
 title: SetAxisY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the AxisY property of a rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisy_overloaded.htm
 old-project: directcomp
 ms.assetid: C86E4D59-4E9D-44BF-BA9D-91714D0C2D37
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRotateTransform3D::SetAxisY, SetAxisY, SetAxisY methods [DirectComposition], dcomp/SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

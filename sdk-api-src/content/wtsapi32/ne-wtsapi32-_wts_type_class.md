@@ -1,16 +1,16 @@
 ---
 UID: NE:wtsapi32._WTS_TYPE_CLASS
 title: "_WTS_TYPE_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 old-location: termserv\wts_type_class.htm
 old-project: TermServ
 ms.assetid: 1827e862-add0-4271-b5d7-62834c396250
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSTypeProcessInfoLevel0, WTSTypeProcessInfoLevel1, WTSTypeSessionInfoLevel1, WTS_TYPE_CLASS, WTS_TYPE_CLASS enumeration [Remote Desktop Services], _WTS_TYPE_CLASS, termserv.wts_type_class, wtsapi32/WTSTypeProcessInfoLevel0, wtsapi32/WTSTypeProcessInfoLevel1, wtsapi32/WTSTypeSessionInfoLevel1, wtsapi32/WTS_TYPE_CLASS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtsapi32.h
 req.include-header: 

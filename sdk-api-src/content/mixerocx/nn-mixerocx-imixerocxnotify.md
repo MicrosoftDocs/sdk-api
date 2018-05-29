@@ -1,16 +1,16 @@
 ---
 UID: NN:mixerocx.IMixerOCXNotify
 title: IMixerOCXNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMixerOCXNotify interface is implemented by clients and called by the Overlay Mixer to send notifications of events affecting the video display rectangle.
 old-location: dshow\imixerocxnotify.htm
 old-project: DirectShow
 ms.assetid: b73416c0-2312-4164-8a6d-f8776dc1447f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXNotify interface [DirectShow],described, IMixerOCXNotifyInterface, dshow.imixerocxnotify, mixerocx/IMixerOCXNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mixerocx.h
 req.include-header: 

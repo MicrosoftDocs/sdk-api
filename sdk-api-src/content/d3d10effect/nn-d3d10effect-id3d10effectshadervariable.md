@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectShaderVariable
 title: ID3D10EffectShaderVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: A shader-variable interface accesses a shader variable.
 old-location: direct3d10\id3d10effectshadervariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 7e1a8b15-5ab3-8e81-cf9f-cb84e1a408ae, ID3D10EffectShaderVariable, ID3D10EffectShaderVariable interface [Direct3D 10], ID3D10EffectShaderVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectShaderVariable, direct3d10.id3d10effectshadervariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

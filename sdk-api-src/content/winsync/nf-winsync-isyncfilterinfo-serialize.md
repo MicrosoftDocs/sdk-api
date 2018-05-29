@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncFilterInfo.Serialize
 title: ISyncFilterInfo::Serialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes the filter data to an array of bytes.
 old-location: winsync\isyncfilterinfo_serialize.htm
 old-project: winsync
 ms.assetid: bd3e9fec-9fa2-4216-9a05-1f121bd3dbef
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncFilterInfo interface [Windows Sync],Serialize method, ISyncFilterInfo.Serialize, ISyncFilterInfo::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncFilterInfo interface, winsync.isyncfilterinfo_serialize, winsync/ISyncFilterInfo::Serialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

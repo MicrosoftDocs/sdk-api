@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInputArea
 title: ITextInputPanel::get_CurrentInputArea
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_currentinputarea.htm
 old-project: tablet
 ms.assetid: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e, CurrentInputArea property [Tablet PC], CurrentInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInputArea property, ITextInputPanel.CurrentInputArea, ITextInputPanel.get_CurrentInputArea, ITextInputPanel::CurrentInputArea, ITextInputPanel::get_CurrentInputArea, get_CurrentInputArea, peninputpanel/ITextInputPanel::CurrentInputArea, peninputpanel/ITextInputPanel::get_CurrentInputArea, tablet.itextinputpanel_currentinputarea
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

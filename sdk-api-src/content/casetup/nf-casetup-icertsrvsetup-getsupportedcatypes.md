@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetSupportedCATypes
 title: ICertSrvSetup::GetSupportedCATypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.
 old-location: security\icertsrvsetup_getsupportedcatypes.htm
 old-project: SecCrypto
 ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupportedCATypes method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetSupportedCATypes method, ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

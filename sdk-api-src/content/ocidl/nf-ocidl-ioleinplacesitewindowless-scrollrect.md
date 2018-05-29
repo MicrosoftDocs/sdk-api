@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.ScrollRect
 title: IOleInPlaceSiteWindowless::ScrollRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an object to scroll an area within its in-place active image on the screen.
 old-location: com\ioleinplacesitewindowless_scrollrect.htm
 old-project: com
 ms.assetid: 1eeb1aee-8cd4-4d27-8b6f-f76305bbe69f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],ScrollRect method, IOleInPlaceSiteWindowless.ScrollRect, IOleInPlaceSiteWindowless::ScrollRect, ScrollRect, ScrollRect method [COM], ScrollRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_scrollrect, com.ioleinplacesitewindowless_scrollrect, ocidl/IOleInPlaceSiteWindowless::ScrollRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

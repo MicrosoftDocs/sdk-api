@@ -1,16 +1,16 @@
 ---
 UID: NF:securitybaseapi.SetSecurityAccessMask
 title: SetSecurityAccessMask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an access mask that represents the access permissions necessary to set the specified object security information.
 old-location: security\setsecurityaccessmask.htm
 old-project: SecAuthZ
 ms.assetid: 764a4e93-0865-49f8-9b3a-1a178073454d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], security.setsecurityaccessmask, securitybaseapi/SetSecurityAccessMask, winbase/SetSecurityAccessMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: WinBase.h

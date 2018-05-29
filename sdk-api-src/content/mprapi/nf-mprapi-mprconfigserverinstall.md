@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigServerInstall
 title: MprConfigServerInstall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigServerInstall function configures Routing and Remote Access Service with a default configuration.
 old-location: rras\mprconfigserverinstall.htm
 old-project: RRAS
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

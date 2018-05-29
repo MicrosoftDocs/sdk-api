@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ContentViewCondition
 title: IUIAutomation::get_ContentViewCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a predefined IUIAutomationCondition interface that selects content elements.
 old-location: winauto\uiauto_IUIAutomation_ContentViewCondition.htm
 old-project: WinAuto
 ms.assetid: d674a8c5-cb09-49a6-b457-5e7486b0e178
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ContentViewCondition property [Windows Accessibility], ContentViewCondition property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ContentViewCondition property, IUIAutomation.ContentViewCondition, IUIAutomation.get_ContentViewCondition, IUIAutomation::ContentViewCondition, IUIAutomation::get_ContentViewCondition, get_ContentViewCondition, uiauto.uiauto_IUIAutomation_ContentViewCondition, uiauto_IUIAutomation_ContentViewCondition, uiautomationclient/IUIAutomation::ContentViewCondition, uiautomationclient/IUIAutomation::get_ContentViewCondition, winauto.uiauto_IUIAutomation_ContentViewCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

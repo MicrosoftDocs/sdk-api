@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.StartIndexing
 title: IWMIndexer::StartIndexing
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartIndexing method initiates indexing.
 old-location: wmformat\iwmindexer_startindexing.htm
 old-project: wmformat
 ms.assetid: 67dfb0df-4883-49e1-a085-0b78db3967d0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMIndexer interface [windows Media Format],StartIndexing method, IWMIndexer.StartIndexing, IWMIndexer::StartIndexing, IWMIndexerStartIndexing, StartIndexing, StartIndexing method [windows Media Format], StartIndexing method [windows Media Format],IWMIndexer interface, wmformat.iwmindexer_startindexing, wmsdkidl/IWMIndexer::StartIndexing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetCurrentCellularClass
 title: IMbnMultiCarrier::GetCurrentCellularClass
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current cellular classes for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_getcurrentcellularclass.htm
 old-project: mbn
 ms.assetid: 8DA29C25-3866-4BCA-8591-F8408A1C1401
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCurrentCellularClass, GetCurrentCellularClass method [Microsoft Broadband Networks], GetCurrentCellularClass method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetCurrentCellularClass method, IMbnMultiCarrier.GetCurrentCellularClass, IMbnMultiCarrier::GetCurrentCellularClass, mbn.imbnmulticarrier_getcurrentcellularclass, mbnapi/IMbnMultiCarrier::GetCurrentCellularClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

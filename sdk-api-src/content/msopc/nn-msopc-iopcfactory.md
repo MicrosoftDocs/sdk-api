@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcFactory
 title: IOpcFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates Packaging API objects and provides support for saving and loading packages.
 old-location: opc\iopcfactory.htm
 old-project: OPC
 ms.assetid: 0a265a0a-c109-4afc-a0ad-d3ee31757aa1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcFactory, IOpcFactory interface [Open Packaging Conventions], IOpcFactory interface [Open Packaging Conventions],described, msopc/IOpcFactory, opc.iopcfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetNumberFormatW
 title: GetNumberFormatW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a number string as a number string customized for a locale specified by identifier.
 old-location: intl\getnumberformat.htm
 old-project: Intl
 ms.assetid: acbfebed-71bd-4266-b639-66f453158442
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNumberFormat, GetNumberFormat function [Internationalization for Windows Applications], GetNumberFormatA, GetNumberFormatW, _win32_GetNumberFormat, intl.getnumberformat, winnls/GetNumberFormat, winnls/GetNumberFormatA, winnls/GetNumberFormatW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

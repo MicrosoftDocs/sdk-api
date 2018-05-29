@@ -1,16 +1,16 @@
 ---
 UID: NL:instance.CInstance
 title: CInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: The CInstance class is used to retrieve and update the values of properties defined for the instances supported by the WMI Provider Framework. The CInstance class also provides access to the provider framework's implementation of the CInstance interface.
 old-location: wmi\cinstance.htm
 old-project: WmiSdk
 ms.assetid: aed29340-eb64-437d-b7e8-4f0e49c8288a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CInstance, CInstance class [Windows Management Instrumentation], CInstance class [Windows Management Instrumentation],described, _hmm_cinstance, instance/CInstance, wmi.cinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: instance.h
 req.include-header: FwCommon.h

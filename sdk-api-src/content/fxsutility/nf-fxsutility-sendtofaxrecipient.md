@@ -1,16 +1,16 @@
 ---
 UID: NF:fxsutility.SendToFaxRecipient
 title: SendToFaxRecipient function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by an application to fax a file.
 old-location: fax\_mfax_sendtofaxrecipient.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_sendtofaxrecipient.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: SendToFaxRecipient, SendToFaxRecipient function [Fax Service], _mfax_sendtofaxrecipient, fax._mfax_sendtofaxrecipient, fxsutility/SendToFaxRecipient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fxsutility.h
 req.include-header: 

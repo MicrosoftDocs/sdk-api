@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.GetContext
 title: ITsSbClientConnection::GetContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves context information that was stored by a plug-in by using the PutContext method.
 old-location: termserv\itssbclientconnection_getcontext.htm
 old-project: TermServ
 ms.assetid: dd4938b5-aa33-4eca-851c-fdef75ecc815
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetContext, GetContext method [Remote Desktop Services], GetContext method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetContext method, ITsSbClientConnection.GetContext, ITsSbClientConnection::GetContext, sbtsv/ITsSbClientConnection::GetContext, termserv.itssbclientconnection_getcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

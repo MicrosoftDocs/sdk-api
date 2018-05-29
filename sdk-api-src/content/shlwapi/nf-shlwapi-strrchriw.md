@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrRChrIW
 title: StrRChrIW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a string for the last occurrence of a specified character. The comparison is not case-sensitive.
 old-location: shell\StrRChrI.htm
 old-project: shell
 ms.assetid: 3dc39c2a-d621-4f46-b65b-eb8a531e5abe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrRChrI, StrRChrI function [Windows Shell], StrRChrIA, StrRChrIW, shell.StrRChrI, shlwapi/StrRChrI, shlwapi/StrRChrIA, shlwapi/StrRChrIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

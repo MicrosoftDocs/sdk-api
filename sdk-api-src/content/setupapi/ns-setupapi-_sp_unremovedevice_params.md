@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_UNREMOVEDEVICE_PARAMS
 title: "_SP_UNREMOVEDEVICE_PARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_UNREMOVEDEVICE_PARAMS structure corresponds to a DIF_UNREMOVE installation request.
 old-location: devinst\sp_unremovedevice_params.htm
 old-project: devinst
 ms.assetid: 89f5e2a9-5336-421f-b781-688588695027
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_UNREMOVEDEVICE_PARAMS, SP_UNREMOVEDEVICE_PARAMS structure [Device and Driver Installation], _SP_UNREMOVEDEVICE_PARAMS, devinst.sp_unremovedevice_params, di-struct_bcd98087-c502-40d6-81a7-5154340ce406.xml, setupapi/PSP_UNREMOVEDEVICE_PARAMS, setupapi/SP_UNREMOVEDEVICE_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

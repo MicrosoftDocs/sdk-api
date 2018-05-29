@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhParseInstanceNameW
 title: PdhParseInstanceNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses the elements of an instance string.
 old-location: perf\pdhparseinstancename.htm
 old-project: PerfCtrs
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

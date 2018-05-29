@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptMsgCountersignEncoded
 title: CryptMsgCountersignEncoded function
-author: windows-driver-content
+author: windows-sdk-content
 description: Countersigns an existing PKCS #7 message signature.
 old-location: security\cryptmsgcountersignencoded.htm
 old-project: SecCrypto
 ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptMsgCountersignEncoded, CryptMsgCountersignEncoded function [Security], _crypto2_cryptmsgcountersignencoded, security.cryptmsgcountersignencoded, wincrypt/CryptMsgCountersignEncoded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

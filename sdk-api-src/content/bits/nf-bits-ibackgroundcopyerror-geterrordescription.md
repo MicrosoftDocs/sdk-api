@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetErrorDescription
 title: IBackgroundCopyError::GetErrorDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the error text associated with the error.
 old-location: bits\ibackgroundcopyerror_geterrordescription.htm
 old-project: Bits
 ms.assetid: 57323f38-c2e6-4e40-b357-7df758899f97
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [BITS], GetErrorDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorDescription method, IBackgroundCopyError.GetErrorDescription, IBackgroundCopyError::GetErrorDescription, _drz_ibackgroundcopyerror_geterrordescription, bits.ibackgroundcopyerror_geterrordescription, bits/IBackgroundCopyError::GetErrorDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

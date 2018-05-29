@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupCreate
 title: PeerGroupCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupCreate function creates a new peer group.
 old-location: p2p\peergroupcreate.htm
 old-project: P2PSdk
 ms.assetid: b85d87c6-28b7-49f8-865c-9d246f89367e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupCreate, PeerGroupCreate function [Peer Networking], p2p.peergroupcreate, p2p/PeerGroupCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

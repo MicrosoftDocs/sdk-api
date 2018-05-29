@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateLinkFromDataEx
 title: OleCreateLinkFromDataEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends OleCreateLinkFromData functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkFromData.
 old-location: com\olecreatelinkfromdataex.htm
 old-project: com
 ms.assetid: f486dc73-3cb9-4839-931a-91cc3a5837d3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateLinkFromDataEx, OleCreateLinkFromDataEx function [COM], _ole_OleCreateLinkFromDataEx, com.olecreatelinkfromdataex, ole2/OleCreateLinkFromDataEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite.DWRITE_SCRIPT_SHAPES
 title: DWRITE_SCRIPT_SHAPES
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates additional shaping requirements for text.
 old-location: directwrite\dwrite_script_shapes.htm
 old-project: DirectWrite
 ms.assetid: 81ec0f3a-4dab-4497-893f-d791d9d9be6a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_SCRIPT_SHAPES, DWRITE_SCRIPT_SHAPES enumeration [Direct Write], DWRITE_SCRIPT_SHAPES_DEFAULT, DWRITE_SCRIPT_SHAPES_NO_VISUAL, directwrite.dwrite_script_shapes, dwrite/DWRITE_SCRIPT_SHAPES, dwrite/DWRITE_SCRIPT_SHAPES_DEFAULT, dwrite/DWRITE_SCRIPT_SHAPES_NO_VISUAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

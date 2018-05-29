@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT
 title: "_WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A security binding constraint that corresponds to the WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING.
 old-location: wsw\ws_security_context_message_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: 7abc37d8-cb00-459d-aa08-609a06b65a5c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_security_context_message_security_binding_constraint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolDestroyObject
 title: IComObjectPoolEvents2::OnObjPoolDestroyObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an object is permanently removed from the pool.
 old-location: cos\icomobjectpoolevents2_onobjpooldestroyobject.htm
 old-project: cossdk
 ms.assetid: c942da45-4d41-4483-a30b-862d3e0c13b7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolDestroyObject method, IComObjectPoolEvents2.OnObjPoolDestroyObject, IComObjectPoolEvents2::OnObjPoolDestroyObject, OnObjPoolDestroyObject, OnObjPoolDestroyObject method [COM+], OnObjPoolDestroyObject method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolDestroyObject, comsvcs/IComObjectPoolEvents2::OnObjPoolDestroyObject, cos.icomobjectpoolevents2_onobjpooldestroyobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

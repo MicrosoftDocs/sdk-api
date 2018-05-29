@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundSourceQuench
 title: INetFwIcmpSettings::get_AllowOutboundSourceQuench
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether outbound source quench is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundsourcequench.htm
 old-project: ICS
 ms.assetid: a70cdff7-5e93-4120-9000-424a91d522ea
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AllowOutboundSourceQuench property [ICS/ICF], AllowOutboundSourceQuench property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundSourceQuench property, INetFwIcmpSettings.AllowOutboundSourceQuench, INetFwIcmpSettings.get_AllowOutboundSourceQuench, INetFwIcmpSettings::AllowOutboundSourceQuench, INetFwIcmpSettings::get_AllowOutboundSourceQuench, INetFwIcmpSettings::put_AllowOutboundSourceQuench, get_AllowOutboundSourceQuench, ics.inetfwicmpsettings_allowoutboundsourcequench, netfw/INetFwIcmpSettings::AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::get_AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::put_AllowOutboundSourceQuench
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

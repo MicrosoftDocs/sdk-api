@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.TBINSERTMARK
 title: TBINSERTMARK
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information on the insertion mark in a toolbar control.
 old-location: controls\TBINSERTMARK.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbinsertmark.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure pointer [Windows Controls], TBIMHT_AFTER, TBIMHT_BACKGROUND, TBINSERTMARK, TBINSERTMARK structure [Windows Controls], _win32_TBINSERTMARK, _win32_TBINSERTMARK_cpp, commctrl/LPTBINSERTMARK, commctrl/TBINSERTMARK, controls.TBINSERTMARK, controls._win32_TBINSERTMARK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

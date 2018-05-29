@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateSession
 title: IUpdateSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
 old-location: wua\iupdatesession.htm
 old-project: Wua_Sdk
 ms.assetid: 00b84246-b5f2-48c2-a0ab-eaaa1ec80262
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], IUpdateSession interface [Windows Update Agent],described, wua.iupdatesession, wuapi/IUpdateSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetApplicationId
 title: ContextInfo2::GetApplicationId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the GUID of the application of the current object context.
 old-location: cos\contextinfo2_getapplicationid.htm
 old-project: cossdk
 ms.assetid: 9fc5cffe-a532-4084-8b6c-9812a5b117b2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ContextInfo2 interface [COM+],GetApplicationId method, ContextInfo2.GetApplicationId, ContextInfo2::GetApplicationId, GetApplicationId, GetApplicationId method [COM+], GetApplicationId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetApplicationId, comsvcs/ContextInfo2::GetApplicationId, cos.contextinfo2_getapplicationid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

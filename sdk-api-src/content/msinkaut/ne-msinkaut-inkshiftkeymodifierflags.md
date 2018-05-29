@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkShiftKeyModifierFlags
 title: InkShiftKeyModifierFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which modifier key was pressed.
 old-location: tablet\inkshiftkeymodifierflags.htm
 old-project: tablet
 ms.assetid: 03c2e5d4-fcba-4b6c-9982-54b451ef129d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 03c2e5d4-fcba-4b6c-9982-54b451ef129d, IKM_Alt, IKM_Control, IKM_Shift, InkShiftKeyModifierFlags, InkShiftKeyModifierFlags enumeration [Tablet PC], msinkaut/IKM_Alt, msinkaut/IKM_Control, msinkaut/IKM_Shift, msinkaut/InkShiftKeyModifierFlags, tablet.inkshiftkeymodifierflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

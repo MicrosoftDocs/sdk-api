@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_TEXT_NODE
 title: "_WS_XML_TEXT_NODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an element, attribute, or CDATA content.
 old-location: wsw\ws_xml_text_node.htm
 old-project: wsw
 ms.assetid: be009607-8d5c-4e9b-9b42-84d1fdaa594d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_TEXT_NODE, WS_XML_TEXT_NODE structure [Web Services for Windows], _WS_XML_TEXT_NODE, webservices/WS_XML_TEXT_NODE, wsw.ws_xml_text_node
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

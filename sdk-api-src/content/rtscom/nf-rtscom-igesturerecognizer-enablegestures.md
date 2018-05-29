@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.EnableGestures
 title: IGestureRecognizer::EnableGestures
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value that indicates to which application gestures the GestureRecognizer Class object responds.
 old-location: tablet\igesturerecognizer_enablegestures.htm
 old-project: tablet
 ms.assetid: 59d39c2c-1c92-4325-b534-36b97a7df20f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 59d39c2c-1c92-4325-b534-36b97a7df20f, EnableGestures, EnableGestures method [Tablet PC], EnableGestures method [Tablet PC],IGestureRecognizer interface, IGestureRecognizer interface [Tablet PC],EnableGestures method, IGestureRecognizer.EnableGestures, IGestureRecognizer::EnableGestures, rtscom/IGestureRecognizer::EnableGestures, tablet.igesturerecognizer_enablegestures
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

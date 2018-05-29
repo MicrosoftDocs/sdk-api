@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManGetSessionOptionAsString
 title: WSManGetSessionOptionAsString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of a session option.
 old-location: winrm\wsmangetsessionoptionasstring.htm
 old-project: WinRM
 ms.assetid: 7fb1cec5-059f-4710-868a-d34c6ae2fd2a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManGetSessionOptionAsString, WSManGetSessionOptionAsString function [Windows Remote Management], winrm.wsmangetsessionoptionasstring, wsman/WSManGetSessionOptionAsString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

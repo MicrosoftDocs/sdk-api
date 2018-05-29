@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 title: "_JOBOBJECT_END_OF_JOB_TIME_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the action the system will perform when an end-of-job time limit is exceeded.
 old-location: base\jobobject_end_of_job_time_information_str.htm
 old-project: ProcThread
 ms.assetid: 0054d018-c358-4cb0-a4db-fc6464b4b08c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, JOB_OBJECT_POST_AT_END_OF_JOB, JOB_OBJECT_TERMINATE_AT_END_OF_JOB, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, _JOBOBJECT_END_OF_JOB_TIME_INFORMATION, _win32_jobobject_end_of_job_time_information_str, base.jobobject_end_of_job_time_information_str, winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION, winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

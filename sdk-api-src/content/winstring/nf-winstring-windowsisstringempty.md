@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsIsStringEmpty
 title: WindowsIsStringEmpty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the specified string is the empty string.
 old-location: winrt\windowsisstringempty.htm
 old-project: WinRT
 ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtime], winrt.windowsisstringempty, winstring/WindowsIsStringEmpty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

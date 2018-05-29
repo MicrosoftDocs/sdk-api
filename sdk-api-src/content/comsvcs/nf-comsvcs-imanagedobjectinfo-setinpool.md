@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetInPool
 title: IManagedObjectInfo::SetInPool
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether the managed object belongs to the COM+ object pool.
 old-location: cos\imanagedobjectinfo_setinpool.htm
 old-project: cossdk
 ms.assetid: fef3842f-acf7-4aff-801d-17343633be8c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IManagedObjectInfo interface [COM+],SetInPool method, IManagedObjectInfo.SetInPool, IManagedObjectInfo::SetInPool, SetInPool, SetInPool method [COM+], SetInPool method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetInPool, comsvcs/IManagedObjectInfo::SetInPool, cos.imanagedobjectinfo_setinpool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

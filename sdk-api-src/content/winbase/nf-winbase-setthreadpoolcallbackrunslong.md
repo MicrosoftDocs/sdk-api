@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackRunsLong
 title: SetThreadpoolCallbackRunsLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that callbacks associated with this callback environment may not return quickly.
 old-location: base\setthreadpoolcallbackrunslong.htm
 old-project: ProcThread
 ms.assetid: 19ca0501-02d8-4851-8015-65e53d6f8074
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadpoolCallbackRunsLong, SetThreadpoolCallbackRunsLong function, base.setthreadpoolcallbackrunslong, winbase/SetThreadpoolCallbackRunsLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

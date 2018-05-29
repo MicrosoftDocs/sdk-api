@@ -1,16 +1,16 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.CapturePropagationContext
 title: ILanguageExceptionErrorInfo2::CapturePropagationContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Captures the context of an exception across a language boundary and across threads.
 old-location: winrt\ilanguageexceptionerrorinfo2_capturepropagationcontext.htm
 old-project: WinRT
 ms.assetid: 60026962-4E6C-4906-97D9-46BD2BCA3AC6
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: CapturePropagationContext, CapturePropagationContext method [Windows Runtime], CapturePropagationContext method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],CapturePropagationContext method, ILanguageExceptionErrorInfo2.CapturePropagationContext, ILanguageExceptionErrorInfo2::CapturePropagationContext, restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext, winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: restrictederrorinfo.h
 req.include-header: 

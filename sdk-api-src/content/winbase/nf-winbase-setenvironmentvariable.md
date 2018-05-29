@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetEnvironmentVariable
 title: SetEnvironmentVariable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the contents of the specified environment variable for the current process.
 old-location: base\setenvironmentvariable.htm
 old-project: ProcThread
 ms.assetid: 95bd6fa5-886d-41dc-a5c3-ede86dbfa15d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetEnvironmentVariable, SetEnvironmentVariable function, SetEnvironmentVariableA, SetEnvironmentVariableW, _win32_setenvironmentvariable, base.setenvironmentvariable, processenv/SetEnvironmentVariable, processenv/SetEnvironmentVariableA, processenv/SetEnvironmentVariableW, winbase/SetEnvironmentVariable, winbase/SetEnvironmentVariableA, winbase/SetEnvironmentVariableW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

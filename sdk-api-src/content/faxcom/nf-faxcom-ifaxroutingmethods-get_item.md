@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethods.get_Item
 title: IFaxRoutingMethods::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxRoutingMethods::get_Item method creates a FaxRoutingMethod object for a specified fax routing method. The object allows enumeration of fax routing information for a specified FaxPort object.
 old-location: fax\_mfax_ifaxroutingmethods_get_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7kq5.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxRoutingMethods interface [Fax Service],get_Item method, IFaxRoutingMethods.get_Item, IFaxRoutingMethods::get_Item, _mfax_ifaxroutingmethods_get_item, fax._mfax_ifaxroutingmethods_get_item, faxcom/IFaxRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxRoutingMethods interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

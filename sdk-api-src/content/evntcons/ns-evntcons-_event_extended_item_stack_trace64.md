@@ -1,16 +1,16 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_STACK_TRACE64
 title: "_EVENT_EXTENDED_ITEM_STACK_TRACE64"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a call stack on a 64-bit computer.
 old-location: etw\event_extended_item_stack_trace64.htm
 old-project: ETW
 ms.assetid: 3c9e0dcb-1eb9-4c9f-a4c8-5a93566be303
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_STACK_TRACE64, EVENT_EXTENDED_ITEM_STACK_TRACE64, EVENT_EXTENDED_ITEM_STACK_TRACE64 structure [ETW], PEVENT_EXTENDED_ITEM_STACK_TRACE64, PEVENT_EXTENDED_ITEM_STACK_TRACE64 structure pointer [ETW], _EVENT_EXTENDED_ITEM_STACK_TRACE64, etw.event_extended_item_stack_trace64, evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE64, evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE64"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: 

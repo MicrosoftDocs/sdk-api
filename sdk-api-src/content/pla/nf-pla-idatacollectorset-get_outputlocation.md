@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_OutputLocation
 title: IDataCollectorSet::get_OutputLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the decorated folder name if PLA were to create it now.
 old-location: pla\idatacollectorset_get_outputlocation.htm
 old-project: PLA
 ms.assetid: d0ca2655-f65a-4bcb-8e9e-f247b4207e56
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],OutputLocation property, IDataCollectorSet.OutputLocation, IDataCollectorSet.get_OutputLocation, IDataCollectorSet::OutputLocation, IDataCollectorSet::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_outputlocation, get_OutputLocation, pla.idatacollectorset_get_outputlocation, pla/IDataCollectorSet::OutputLocation, pla/IDataCollectorSet::get_OutputLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

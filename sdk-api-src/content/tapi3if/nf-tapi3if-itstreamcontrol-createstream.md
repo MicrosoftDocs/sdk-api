@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITStreamControl.CreateStream
 title: ITStreamControl::CreateStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateStream method creates a new media stream.
 old-location: tapi3\itstreamcontrol_createstream.htm
 old-project: Tapi
 ms.assetid: 402cde43-6b2a-4e4e-bf46-97fcafb7574a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateStream, CreateStream method [TAPI 2.2], CreateStream method [TAPI 2.2],ITStreamControl interface, ITStreamControl interface [TAPI 2.2],CreateStream method, ITStreamControl.CreateStream, ITStreamControl::CreateStream, _tapi3_itstreamcontrol_createstream, tapi3.itstreamcontrol_createstream, tapi3if/ITStreamControl::CreateStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

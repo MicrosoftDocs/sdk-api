@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase.tagACTCTX_SECTION_KEYED_DATA
 title: tagACTCTX_SECTION_KEYED_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACTCTX_SECTION_KEYED_DATA structure is used by the FindActCtxSectionString and FindActCtxSectionGuid functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.
 old-location: setup\actctx_section_keyed_data_str.htm
 old-project: SbsCs
 ms.assetid: c73160e7-fff5-4ba5-8b3a-895ac944c76d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA structure [Side-by-side Assemblies], PACTCTX_SECTION_KEYED_DATA, PACTCTX_SECTION_KEYED_DATA structure pointer [Side-by-side Assemblies], _win32_actctx_section_keyed_data_str, setup.actctx_section_keyed_data_str, tagACTCTX_SECTION_KEYED_DATA, winbase/ACTCTX_SECTION_KEYED_DATA, winbase/PACTCTX_SECTION_KEYED_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

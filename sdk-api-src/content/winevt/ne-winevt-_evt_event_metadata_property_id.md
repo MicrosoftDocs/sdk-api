@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_EVENT_METADATA_PROPERTY_ID
 title: "_EVT_EVENT_METADATA_PROPERTY_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the identifiers that identify the metadata properties of an event definition.
 old-location: wes\evt_event_metadata_property_id.htm
 old-project: WES
 ms.assetid: d5a71e51-c080-4976-9f33-fe24b523ae81
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_EVENT_METADATA_PROPERTY_ID, EVT_EVENT_METADATA_PROPERTY_ID enumeration [EventLog], EventMetadataEventChannel, EventMetadataEventID, EventMetadataEventKeyword, EventMetadataEventLevel, EventMetadataEventMessageID, EventMetadataEventOpcode, EventMetadataEventTask, EventMetadataEventTemplate, EventMetadataEventVersion, EvtEventMetadataPropertyIdEND, _EVT_EVENT_METADATA_PROPERTY_ID, wes.evt_event_metadata_property_id, winevt/EVT_EVENT_METADATA_PROPERTY_ID, winevt/EventMetadataEventChannel, winevt/EventMetadataEventID, winevt/EventMetadataEventKeyword, winevt/EventMetadataEventLevel, winevt/EventMetadataEventMessageID, winevt/EventMetadataEventOpcode, winevt/EventMetadataEventTask, winevt/EventMetadataEventTemplate, winevt/EventMetadataEventVersion, winevt/EvtEventMetadataPropertyIdEND
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptDestroyKey
 title: BCryptDestroyKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a key.
 old-location: security\bcryptdestroykey_func.htm
 old-project: SecCNG
 ms.assetid: 98c02e55-6489-4901-8a7a-021baac41965
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptDestroyKey, BCryptDestroyKey function [Security], bcrypt/BCryptDestroyKey, security.bcryptdestroykey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

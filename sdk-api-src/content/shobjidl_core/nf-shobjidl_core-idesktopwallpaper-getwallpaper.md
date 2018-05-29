@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetWallpaper
 title: IDesktopWallpaper::GetWallpaper
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current desktop wallpaper.
 old-location: shell\IDesktopWallpaper_GetWallpaper.htm
 old-project: shell
 ms.assetid: A5AC5EB3-2091-4547-8B6A-C60C4E90DFBC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWallpaper, GetWallpaper method [Windows Shell], GetWallpaper method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetWallpaper method, IDesktopWallpaper.GetWallpaper, IDesktopWallpaper::GetWallpaper, shell.IDesktopWallpaper_GetWallpaper, shobjidl_core/IDesktopWallpaper::GetWallpaper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

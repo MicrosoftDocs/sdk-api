@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromVariantArrayElem
 title: InitVariantFromVariantArrayElem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure with a value stored in another VARIANT structure.
 old-location: properties\InitVariantFromVariantArrayElem.htm
 old-project: properties
 ms.assetid: 531731a5-7a13-49be-8512-5cf25c96ee35
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromVariantArrayElem, InitVariantFromVariantArrayElem function [Windows Properties], _shell_InitVariantFromVariantArrayElem, properties.InitVariantFromVariantArrayElem, propvarutil/InitVariantFromVariantArrayElem, shell.InitVariantFromVariantArrayElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

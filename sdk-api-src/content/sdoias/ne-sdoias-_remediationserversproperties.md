@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._REMEDIATIONSERVERSPROPERTIES
 title: "_REMEDIATIONSERVERSPROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the REMEDIATIONSERVERSPROPERTIES enumeration type enumerate the properties of a set of remediation server groups.
 old-location: nps\SDO_remediationserversproperties.htm
 old-project: Nps
 ms.assetid: 6cee6264-4cb7-47cc-81ba-a06d22f0528d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, REMEDIATIONSERVERSPROPERTIES, REMEDIATIONSERVERSPROPERTIES enumeration [Network Policy Server], _REMEDIATIONSERVERSPROPERTIES, nps.SDO_remediationserversproperties, sdo.remediationserversproperties, sdoias/PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, sdoias/REMEDIATIONSERVERSPROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

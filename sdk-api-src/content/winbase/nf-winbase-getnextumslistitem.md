@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetNextUmsListItem
 title: GetNextUmsListItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next user-mode scheduling (UMS) thread context in a list of thread contexts.
 old-location: base\getnextumslistitem.htm
 old-project: ProcThread
 ms.assetid: fb2c8420-12f4-4bd7-ac00-b53bab760db0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

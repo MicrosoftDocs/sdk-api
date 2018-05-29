@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IUnknown_SetSite
 title: IUnknown_SetSite function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the specified object's site by calling its IObjectWithSite::SetSite method.
 old-location: shell\IUnknown_SetSite.htm
 old-project: shell
 ms.assetid: 66175435-f85b-4e26-b148-f4edb74cb41d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUnknown_SetSite, IUnknown_SetSite function [Windows Shell], _win32_IUnknown_SetSite, shell.IUnknown_SetSite, shlwapi/IUnknown_SetSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

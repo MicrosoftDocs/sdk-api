@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmActionCommand
 title: IFsrmActionCommand
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to run a command or script in response to a quota, file screen, or file management job event.
 old-location: fsrm\ifsrmactioncommand.htm
 old-project: Fsrm
 ms.assetid: b7f9fc8c-2f55-4a0e-879a-64c368abcabb
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], IFsrmActionCommand interface [File Server Resource Manager],described, fs.ifsrmactioncommand, fsrm.ifsrmactioncommand, fsrm/IFsrmActionCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

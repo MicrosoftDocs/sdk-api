@@ -1,16 +1,16 @@
 ---
 UID: NS:winbio_adapter._WINBIO_STORAGE_RECORD
 title: "_WINBIO_STORAGE_RECORD"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a biometric template and associated data in a standard format.
 old-location: secbiomet\winbio_storage_record.htm
 old-project: SecBioMet
 ms.assetid: fd638a08-cff0-4984-8580-a1eecd509a1f
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: "*PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_RECORD, WINBIO_STORAGE_RECORD structure [Windows Biometric Framework API], _WINBIO_STORAGE_RECORD, secbiomet.winbio_storage_record, winbio_adapter/PWINBIO_STORAGE_RECORD, winbio_adapter/WINBIO_STORAGE_RECORD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio_adapter.h
 req.include-header: 

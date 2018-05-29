@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptFreeBuffer
 title: BCryptFreeBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to free memory that was allocated by one of the CNG functions.
 old-location: security\bcryptfreebuffer_func.htm
 old-project: SecCNG
 ms.assetid: 0ee83ca1-2fe6-4ff2-823e-888b3e66f310
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptFreeBuffer, BCryptFreeBuffer function [Security], bcrypt/BCryptFreeBuffer, security.bcryptfreebuffer_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

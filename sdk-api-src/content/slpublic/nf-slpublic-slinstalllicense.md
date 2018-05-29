@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLInstallLicense
 title: SLInstallLicense function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the specified license and returns a license file ID.
 old-location: security\slinstalllicense.htm
 old-project: SecSLApi
 ms.assetid: 39b14ce1-116b-4469-9e95-8cc4db70171a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLInstallLicense, SLInstallLicense function [Security], security.slinstalllicense, slpublic/SLInstallLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

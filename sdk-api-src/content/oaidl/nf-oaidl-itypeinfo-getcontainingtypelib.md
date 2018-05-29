@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetContainingTypeLib
 title: ITypeInfo::GetContainingTypeLib
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the containing type library and the index of the type description within that type library.
 old-location: automat\itypeinfo_getcontainingtypelib.htm
 old-project: automat
 ms.assetid: 9ca58285-4778-4c2a-b800-dcda9b62e328
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetContainingTypeLib, GetContainingTypeLib method [Automation], GetContainingTypeLib method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetContainingTypeLib method, ITypeInfo.GetContainingTypeLib, ITypeInfo::GetContainingTypeLib, _oa96_ITypeInfo_GetContainingTypeLib, automat.itypeinfo_getcontainingtypelib, oaidl/ITypeInfo::GetContainingTypeLib
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

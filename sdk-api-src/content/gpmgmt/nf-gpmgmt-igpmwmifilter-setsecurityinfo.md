@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.SetSecurityInfo
 title: IGPMWMIFilter::SetSecurityInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the list of permissions for the current WMI filter to that specified by the object.
 old-location: gpmc\igpmwmifilter_setsecurityinfo.htm
 old-project: GPMC
 ms.assetid: e03af7ce-dec8-4390-9880-6f5ff050ca0c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMWMIFilter object [GPMC],SetSecurityInfo method, IGPMWMIFilter interface [GPMC],SetSecurityInfo method, IGPMWMIFilter.SetSecurityInfo, IGPMWMIFilter::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMWMIFilter object, SetSecurityInfo method [GPMC],IGPMWMIFilter interface, _win32_igpmwmifilter_setsecurityinfo, gpmc.igpmwmifilter_setsecurityinfo, gpmgmt/IGPMWMIFilter::SetSecurityInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

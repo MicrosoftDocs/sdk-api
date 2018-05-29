@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanReasonCodeToString
 title: WlanReasonCodeToString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string that describes a specified reason code.
 old-location: nwifi\wlanreasoncodetostring.htm
 old-project: NativeWiFi
 ms.assetid: 2a02e2d2-91d0-4b54-ad02-a76442edcff8
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanReasonCodeToString, WlanReasonCodeToString function [NativeWIFI], nwifi.wlanreasoncodetostring, wlanapi/WlanReasonCodeToString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

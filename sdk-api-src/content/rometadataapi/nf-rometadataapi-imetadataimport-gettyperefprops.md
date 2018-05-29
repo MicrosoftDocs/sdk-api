@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeRefProps
 title: IMetaDataImport::GetTypeRefProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the metadata associated with the Type referenced by the specified TypeRef token.
 old-location: winrt\imetadataimport_gettyperefprops.htm
 old-project: WinRT
 ms.assetid: 714d1adf-df8d-4f6b-8bcd-8dd9461c102a
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetTypeRefProps, GetTypeRefProps method [Windows Runtime], GetTypeRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeRefProps method, IMetaDataImport.GetTypeRefProps, IMetaDataImport::GetTypeRefProps, rometadataapi/IMetaDataImport::GetTypeRefProps, winrt.imetadataimport_gettyperefprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptImportKey
 title: NCryptImportKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports a Cryptography API:\_Next Generation (CNG) key from a memory BLOB.
 old-location: security\ncryptimportkey_func.htm
 old-project: SecCNG
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

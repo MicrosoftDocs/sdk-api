@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_FirewallEnabled
 title: INetFwPolicy2::get_FirewallEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether a firewall is enabled locally (the effective result may differ due to group policy settings).
 old-location: ics\inetfwpolicy2_firewallenabled.htm
 old-project: ICS
 ms.assetid: 6c3ca9dd-a562-454f-bb9a-856beba772f3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],FirewallEnabled property, INetFwPolicy2.FirewallEnabled, INetFwPolicy2.get_FirewallEnabled, INetFwPolicy2::FirewallEnabled, INetFwPolicy2::get_FirewallEnabled, INetFwPolicy2::put_FirewallEnabled, get_FirewallEnabled, ics.inetfwpolicy2_firewallenabled, netfw/INetFwPolicy2::FirewallEnabled, netfw/INetFwPolicy2::get_FirewallEnabled, netfw/INetFwPolicy2::put_FirewallEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

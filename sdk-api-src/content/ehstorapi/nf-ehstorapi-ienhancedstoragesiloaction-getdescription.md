@@ -1,16 +1,16 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetDescription
 title: IEnhancedStorageSiloAction::GetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a descriptive string for the action specified by the IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_getdescription.htm
 old-project: enstor
 ms.assetid: 1eb94182-520e-40a6-87e6-6ead2ab2e188
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetDescription, GetDescription method [Enhanced Storage], GetDescription method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetDescription method, IEnhancedStorageSiloAction.GetDescription, IEnhancedStorageSiloAction::GetDescription, ehstorapi/IEnhancedStorageSiloAction::GetDescription, enstor.ienhancedstoragesiloaction_getdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

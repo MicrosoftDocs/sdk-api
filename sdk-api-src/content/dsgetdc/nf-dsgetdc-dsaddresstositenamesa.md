@@ -1,16 +1,16 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesA
 title: DsAddressToSiteNamesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the site names corresponding to the specified addresses.
 old-location: ad\dsaddresstositenames.htm
 old-project: AD
 ms.assetid: 4d70dbee-be33-4d2a-a200-3696443fa853
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsAddressToSiteNames, DsAddressToSiteNames function [Active Directory], DsAddressToSiteNamesA, DsAddressToSiteNamesW, _glines_dsaddresstositenames, ad.dsaddresstositenames, dsgetdc/DsAddressToSiteNames, dsgetdc/DsAddressToSiteNamesA, dsgetdc/DsAddressToSiteNamesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

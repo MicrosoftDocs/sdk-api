@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmFilterAdd0
 title: FwpmFilterAdd0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new filter object to the system.
 old-location: fwp\fwpmfilteradd0_func.htm
 old-project: FWP
 ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmFilterAdd0, FwpmFilterAdd0 function [Filtering], fwp.fwpmfilteradd0_func, fwpmu/FwpmFilterAdd0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

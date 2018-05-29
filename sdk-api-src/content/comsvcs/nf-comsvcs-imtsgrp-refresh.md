@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Refresh
 title: IMtsGrp::Refresh
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the list of IUnknown pointers that was populated upon the creation of the object.
 old-location: cos\imtsgrp_refresh.htm
 old-project: cossdk
 ms.assetid: 752bda5e-d3e1-4566-90c3-aaa336479670
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsGrp interface [COM+],Refresh method, IMtsGrp.Refresh, IMtsGrp::Refresh, Refresh, Refresh method [COM+], Refresh method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Refresh, comsvcs/IMtsGrp::Refresh, cos.imtsgrp_refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

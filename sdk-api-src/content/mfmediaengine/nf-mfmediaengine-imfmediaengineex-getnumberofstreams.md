@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetNumberOfStreams
 title: IMFMediaEngineEx::GetNumberOfStreams
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of streams in the media resource.
 old-location: mf\imfmediaengineex_getnumberofstreams.htm
 old-project: medfound
 ms.assetid: 7F3E805A-FE5C-4B75-9333-AE9819CFAFFA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetNumberOfStreams method, IMFMediaEngineEx.GetNumberOfStreams, IMFMediaEngineEx::GetNumberOfStreams, mf.imfmediaengineex_getnumberofstreams, mfmediaengine/IMFMediaEngineEx::GetNumberOfStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

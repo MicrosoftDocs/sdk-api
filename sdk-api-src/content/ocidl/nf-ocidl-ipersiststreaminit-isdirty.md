@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.IsDirty
 title: IPersistStreamInit::IsDirty
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an object has changed since it was last saved to its stream.
 old-location: com\ipersiststreaminit_isdirty.htm
 old-project: com
 ms.assetid: 2b84818d-0d9d-4f55-8031-b4336baa6c09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistStreamInit interface [COM],IsDirty method, IPersistStreamInit.IsDirty, IPersistStreamInit::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_isdirty, com.ipersiststreaminit_isdirty, ocidl/IPersistStreamInit::IsDirty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

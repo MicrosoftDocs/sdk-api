@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusNetworks
 title: ISClusNetworks
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the networks in a cluster.
 old-location: mscs\clusnetworks_collection.htm
 old-project: MsCS
 ms.assetid: 7dba0985-16bc-4bda-9f37-275032c07811
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusNetworks, ClusNetworks collection [Failover Cluster], ClusNetworks collection [Failover Cluster],described, ISClusNetworks, _wolf_clusnetworks_collection, msclus/ClusNetworks, mscs.clusnetworks_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

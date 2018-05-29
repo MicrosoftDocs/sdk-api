@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemprov.IWbemPropertyProvider
 title: IWbemPropertyProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Supports retrieving and updating individual properties in an instance of a WMI class.
 old-location: wmi\iwbempropertyprovider.htm
 old-project: WmiSdk
 ms.assetid: 8a7910ae-4258-4486-80ff-82b1081083cc
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemPropertyProvider, IWbemPropertyProvider interface [Windows Management Instrumentation], IWbemPropertyProvider interface [Windows Management Instrumentation],described, _hmm_iwbempropertyprovider, wbemprov/IWbemPropertyProvider, wmi.iwbempropertyprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

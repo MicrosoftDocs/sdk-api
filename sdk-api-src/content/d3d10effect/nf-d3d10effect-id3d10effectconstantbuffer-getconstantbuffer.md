@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.GetConstantBuffer
 title: ID3D10EffectConstantBuffer::GetConstantBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a constant-buffer.
 old-location: direct3d10\id3d10effectconstantbuffer_getconstantbuffer.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer_getconstantbuffer.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetConstantBuffer, GetConstantBuffer method [Direct3D 10], GetConstantBuffer method [Direct3D 10],ID3D10EffectConstantBuffer interface, ID3D10EffectConstantBuffer interface [Direct3D 10],GetConstantBuffer method, ID3D10EffectConstantBuffer.GetConstantBuffer, ID3D10EffectConstantBuffer::GetConstantBuffer, d3d10effect/ID3D10EffectConstantBuffer::GetConstantBuffer, dce18db8-3c7e-fd66-9353-140401d9be7d, direct3d10.id3d10effectconstantbuffer_getconstantbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

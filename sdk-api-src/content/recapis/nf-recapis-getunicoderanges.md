@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetUnicodeRanges
 title: GetUnicodeRanges function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the ranges of Unicode points that the recognizer supports.
 old-location: tablet\getunicoderanges.htm
 old-project: tablet
 ms.assetid: 4a354073-e971-43ba-93c9-84fa2e8c59aa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 4a354073-e971-43ba-93c9-84fa2e8c59aa, GetUnicodeRanges, GetUnicodeRanges function [Tablet PC], recapis/GetUnicodeRanges, tablet.getunicoderanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPostViewCallback
 title: IWMWriterPostViewCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMWriterPostViewCallback interface manages the receiving of uncompressed samples from the writer. Postview can be used only for video streams.This interface must be implemented by the application and passed to IWMWriterPostView::SetPostViewCallback.
 old-location: wmformat\iwmwriterpostviewcallback.htm
 old-project: wmformat
 ms.assetid: 987dd3b4-2245-4640-820c-5a9660ab5e37
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterPostViewCallback, IWMWriterPostViewCallback interface [windows Media Format], IWMWriterPostViewCallback interface [windows Media Format],described, IWMWriterPostViewCallbackInterface, wmformat.iwmwriterpostviewcallback, wmsdkidl/IWMWriterPostViewCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

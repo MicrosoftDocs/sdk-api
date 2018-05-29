@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_VDOV
 title: D3D11_TEX2D_VDOV
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the texture resource for a video decoder output view.
 old-location: mf\d3d11_tex2d_vdov.htm
 old-project: medfound
 ms.assetid: A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_TEX2D_VDOV, D3D11_TEX2D_VDOV structure [Media Foundation], d3d11/D3D11_TEX2D_VDOV, mf.d3d11_tex2d_vdov
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

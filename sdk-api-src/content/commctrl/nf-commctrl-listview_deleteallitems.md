@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_DeleteAllItems
 title: ListView_DeleteAllItems macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all items from a list-view control. You can use this macro or send the LVM_DELETEALLITEMS message explicitly.
 old-location: controls\ListView_DeleteAllItems.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteallitems.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_DeleteAllItems, ListView_DeleteAllItems macro [Windows Controls], _win32_ListView_DeleteAllItems, _win32_ListView_DeleteAllItems_cpp, commctrl/ListView_DeleteAllItems, controls.ListView_DeleteAllItems, controls._win32_ListView_DeleteAllItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

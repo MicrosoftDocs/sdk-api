@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptItemizeOpenType
 title: ScriptItemizeOpenType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Breaks a Unicode string into individually shapeable items and provides an array of feature tags for each shapeable item for OpenType processing.
 old-location: intl\scriptitemizeopentype.htm
 old-project: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

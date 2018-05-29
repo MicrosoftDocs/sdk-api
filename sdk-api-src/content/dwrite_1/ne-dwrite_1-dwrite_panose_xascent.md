@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_XASCENT
 title: DWRITE_PANOSE_XASCENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_PANOSE_XASCENT enumeration contains values that specify the relative size of the lowercase letters.
 old-location: directwrite\dwrite_panose_xascent.htm
 old-project: DirectWrite
 ms.assetid: CD32DC3D-57C5-4B21-955B-D023D8E3DD36
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_PANOSE_XASCENT, DWRITE_PANOSE_XASCENT enumeration [Direct Write], DWRITE_PANOSE_XASCENT_ANY, DWRITE_PANOSE_XASCENT_HIGH, DWRITE_PANOSE_XASCENT_LOW, DWRITE_PANOSE_XASCENT_MEDIUM, DWRITE_PANOSE_XASCENT_NO_FIT, DWRITE_PANOSE_XASCENT_VERY_HIGH, DWRITE_PANOSE_XASCENT_VERY_LOW, directwrite.dwrite_panose_xascent, dwrite_1/DWRITE_PANOSE_XASCENT, dwrite_1/DWRITE_PANOSE_XASCENT_ANY, dwrite_1/DWRITE_PANOSE_XASCENT_HIGH, dwrite_1/DWRITE_PANOSE_XASCENT_LOW, dwrite_1/DWRITE_PANOSE_XASCENT_MEDIUM, dwrite_1/DWRITE_PANOSE_XASCENT_NO_FIT, dwrite_1/DWRITE_PANOSE_XASCENT_VERY_HIGH, dwrite_1/DWRITE_PANOSE_XASCENT_VERY_LOW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

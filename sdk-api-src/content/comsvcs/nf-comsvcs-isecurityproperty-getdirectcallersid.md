@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCallerSID
 title: ISecurityProperty::GetDirectCallerSID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the security identifier of the external process that called the currently executing method.
 old-location: cos\isecurityproperty_getdirectcallersid.htm
 old-project: cossdk
 ms.assetid: e322df62-25a4-40a3-9b80-da468a265162
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDirectCallerSID, GetDirectCallerSID method [COM+], GetDirectCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCallerSID method, ISecurityProperty.GetDirectCallerSID, ISecurityProperty::GetDirectCallerSID, _cos_ISecurityProperty_GetDirectCallerSID, comsvcs/ISecurityProperty::GetDirectCallerSID, cos.isecurityproperty_getdirectcallersid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

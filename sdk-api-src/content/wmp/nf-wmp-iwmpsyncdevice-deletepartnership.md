@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.deletePartnership
 title: IWMPSyncDevice::deletePartnership
-author: windows-driver-content
+author: windows-sdk-content
 description: The deletePartnership method terminates the partnership between Windows Media Player and the device.
 old-location: wmp\iwmpsyncdevice_deletepartnership.htm
 old-project: WMP
 ms.assetid: ecb525b4-c804-47e6-8d6c-7d943010077a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],deletePartnership method, IWMPSyncDevice.deletePartnership, IWMPSyncDevice::deletePartnership, IWMPSyncDevicedeletePartnership, deletePartnership, deletePartnership method [Windows Media Player], deletePartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_deletepartnership, wmp/IWMPSyncDevice::deletePartnership
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

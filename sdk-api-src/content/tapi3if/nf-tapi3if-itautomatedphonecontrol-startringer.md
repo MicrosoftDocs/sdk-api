@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.StartRinger
 title: ITAutomatedPhoneControl::StartRinger
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartRinger method starts the phone's ringer, specifying the ring mode and the duration of the ring.
 old-location: tapi3\itautomatedphonecontrol_startringer.htm
 old-project: Tapi
 ms.assetid: bf94aab7-6b12-43f8-b49f-a7cf6617dd57
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],StartRinger method, ITAutomatedPhoneControl.StartRinger, ITAutomatedPhoneControl::StartRinger, StartRinger, StartRinger method [TAPI 2.2], StartRinger method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_startringer, tapi3.itautomatedphonecontrol_startringer, tapi3if/ITAutomatedPhoneControl::StartRinger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

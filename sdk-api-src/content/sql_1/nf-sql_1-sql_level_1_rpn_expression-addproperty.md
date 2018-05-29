@@ -1,16 +1,16 @@
 ---
 UID: NF:sql_1.SQL_LEVEL_1_RPN_EXPRESSION.AddProperty
 title: AddProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddProperty function adds one property to the parser property database.
 old-location: netmon\addproperty.htm
 old-project: NetMon2
 ms.assetid: 7aa9af0a-2434-4331-a244-a743dd430dcf
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: AddProperty, AddProperty function [Network Monitor], _netmon_addproperty, netmon.addproperty, sql_1/AddProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sql_1.h
 req.include-header: Netmon.h

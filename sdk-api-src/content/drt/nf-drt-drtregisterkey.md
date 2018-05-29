@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtRegisterKey
 title: DrtRegisterKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrtRegisterKey function registers a key in the DRT.
 old-location: p2p\drtregisterkey.htm
 old-project: P2PSdk
 ms.assetid: 9aa1ee16-648d-4769-a464-4659dea14dba
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

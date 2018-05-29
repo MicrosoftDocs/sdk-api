@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_1.D2D1_THREADING_MODE
 title: D2D1_THREADING_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the threading mode used while simultaneously creating the device, factory, and device context.
 old-location: direct2d\__d2d1_threading_mode.htm
 old-project: Direct2D
 ms.assetid: 21fba5ee-3d31-4142-b66a-94b343e1c6eb
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_THREADING_MODE, D2D1_THREADING_MODE enumeration [Direct2D], D2D1_THREADING_MODE_MULTI_THREADED, D2D1_THREADING_MODE_SINGLE_THREADED, d2d1_1/D2D1_THREADING_MODE, d2d1_1/D2D1_THREADING_MODE_MULTI_THREADED, d2d1_1/D2D1_THREADING_MODE_SINGLE_THREADED, direct2d.__d2d1_threading_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

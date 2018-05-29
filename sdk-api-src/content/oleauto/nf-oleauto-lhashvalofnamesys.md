@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.LHashValOfNameSys
 title: LHashValOfNameSys function
-author: windows-driver-content
+author: windows-sdk-content
 description: Computes a hash value for a name.
 old-location: automat\lhashvalofnamesys.htm
 old-project: automat
 ms.assetid: 929c2307-8e73-4576-a705-1cde1f728ba4
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LHashValOfNameSys, LHashValOfNameSys function [Automation], _oa96_LHashValOfNameSys, automat.lhashvalofnamesys, oleauto/LHashValOfNameSys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

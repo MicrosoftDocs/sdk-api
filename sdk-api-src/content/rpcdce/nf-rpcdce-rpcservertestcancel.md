@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerTestCancel
 title: RpcServerTestCancel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The server calls RpcServerTestCancel to test for client cancel requests.
 old-location: rpc\rpcservertestcancel.htm
 old-project: Rpc
 ms.assetid: de4b45a8-0516-4185-a342-364e0f5a633e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

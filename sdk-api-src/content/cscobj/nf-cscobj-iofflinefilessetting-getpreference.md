@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreference
 title: IOfflineFilesSetting::GetPreference
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getpreference.htm
 old-project: OfflineFiles
 ms.assetid: 80bc64f2-2787-42ba-9c36-742964440f74
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetPreference, GetPreference method [Offline Files], GetPreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreference method, IOfflineFilesSetting.GetPreference, IOfflineFilesSetting::GetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreference, of.iofflinefilessetting_getpreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

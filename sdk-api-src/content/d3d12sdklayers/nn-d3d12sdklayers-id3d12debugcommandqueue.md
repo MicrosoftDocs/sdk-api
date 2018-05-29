@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandQueue
 title: ID3D12DebugCommandQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to monitor and debug a command queue.
 old-location: direct3d12\id3d12debugcommandqueue.htm
 old-project: direct3d12
 ms.assetid: 383F3B25-10C6-464C-AB79-D35F6FD3E879
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12DebugCommandQueue, ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,described, d3d12sdklayers/ID3D12DebugCommandQueue, direct3d12.id3d12debugcommandqueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 

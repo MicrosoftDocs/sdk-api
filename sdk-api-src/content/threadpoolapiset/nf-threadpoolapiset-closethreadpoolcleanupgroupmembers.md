@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolCleanupGroupMembers
 title: CloseThreadpoolCleanupGroupMembers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.
 old-location: base\closethreadpoolcleanupgroupmembers.htm
 old-project: ProcThread
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h

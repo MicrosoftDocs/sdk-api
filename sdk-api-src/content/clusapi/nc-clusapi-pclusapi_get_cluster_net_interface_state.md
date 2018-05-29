@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE
 title: PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current state of a network interface.
 old-location: mscs\getclusternetinterfacestate.htm
 old-project: MsCS
 ms.assetid: d84a5e3f-d0f9-4345-b008-e15c277dcbd5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE callback, PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE callback function [Failover Cluster], _wolf_getclusternetinterfacestate, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, mscs.getclusternetinterfacestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

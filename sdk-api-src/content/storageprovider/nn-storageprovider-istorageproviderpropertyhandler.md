@@ -1,16 +1,16 @@
 ---
 UID: NN:storageprovider.IStorageProviderPropertyHandler
 title: IStorageProviderPropertyHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a collection of properties associated with a file or folder.
 old-location: shell\istorageproviderpropertyhandler.htm
 old-project: shell
 ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: storageprovider.h
 req.include-header: 

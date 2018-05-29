@@ -1,16 +1,16 @@
 ---
 UID: NF:srpapi.SrpGetEnterpriseIds
 title: SrpGetEnterpriseIds function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of enterprise identifiers for the given token.
 old-location: edp\srpgetenterpriseids.htm
 old-project: EDP
 ms.assetid: 850FA83D-A90F-40CA-99BE-F6DD890F4E6F
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EDP.srpgetenterpriseids, SrpGetEnterpriseIds, SrpGetEnterpriseIds function, srpapi/SrpGetEnterpriseIds
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

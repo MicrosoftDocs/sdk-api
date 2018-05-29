@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_UPDATE_PRIMARY_CREDENTIALS
 title: LSA_UPDATE_PRIMARY_CREDENTIALS
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a mechanism for one security package to notify other packages that the credentials for a logon session have changed.
 old-location: security\updatecredentials.htm
 old-project: SecAuthN
 ms.assetid: 952ed682-775a-4370-8a89-15ca35553667
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_UPDATE_PRIMARY_CREDENTIALS, UpdateCredentials, UpdateCredentials function [Security], _ssp_updatecredentials, ntsecpkg/UpdateCredentials, security.updatecredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

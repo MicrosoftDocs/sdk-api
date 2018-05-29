@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptString_pLogAttr
 title: ScriptString_pLogAttr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to a logical attributes buffer for an analyzed string.
 old-location: intl\scriptstring_plogattr.htm
 old-project: Intl
 ms.assetid: ff898c79-2d37-4c0b-af83-2322ab7cf656
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptString_pLogAttr, ScriptString_pLogAttr function [Internationalization for Windows Applications], _win32_ScriptString_pLogAttr, intl.scriptstring_plogattr, usp10/ScriptString_pLogAttr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

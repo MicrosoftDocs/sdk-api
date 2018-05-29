@@ -1,16 +1,16 @@
 ---
 UID: NE:ws2ipdef.MULTICAST_MODE_TYPE
 title: MULTICAST_MODE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the filter mode for multicast group addresses.
 old-location: winsock\multicast_mode_type.htm
 old-project: WinSock
 ms.assetid: 7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: MCAST_EXCLUDE, MCAST_INCLUDE, MULTICAST_MODE_TYPE, MULTICAST_MODE_TYPE enumeration [Winsock], winsock.multicast_mode_type, ws2ipdef/MCAST_EXCLUDE, ws2ipdef/MCAST_INCLUDE, ws2ipdef/MULTICAST_MODE_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ws2ipdef.h
 req.include-header: 

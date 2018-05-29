@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.PREVIEWHANDLERFRAMEINFO
 title: PREVIEWHANDLERFRAMEINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Accelerator table structure. Used by IPreviewHandlerFrame::GetWindowContext.
 old-location: shell\PREVIEWHANDLERFRAMEINFO.htm
 old-project: shell
 ms.assetid: dd93675e-fd69-4fa3-a8e7-5238c27783d8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PREVIEWHANDLERFRAMEINFO, PREVIEWHANDLERFRAMEINFO structure [Windows Shell], _shell_PREVIEWHANDLERFRAMEINFO, shell.PREVIEWHANDLERFRAMEINFO, shobjidl_core/PREVIEWHANDLERFRAMEINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

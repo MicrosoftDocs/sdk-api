@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetStringTypeExA
 title: GetStringTypeExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves character type information for the characters in the specified source string.
 old-location: intl\getstringtypeex.htm
 old-project: Intl
 ms.assetid: e0cd051f-6627-457a-9a83-d71de607f67f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStringTypeEx, GetStringTypeEx function [Internationalization for Windows Applications], GetStringTypeExA, GetStringTypeExW, _win32_GetStringTypeEx, _win32_GetStringTypeEx_cpp, intl.getstringtypeex, winnls/GetStringTypeEx, winnls/GetStringTypeExA, winnls/GetStringTypeExW, winui._win32_GetStringTypeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_OID
 title: "_BCRYPT_OID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a DER-encoded object identifier (OID).
 old-location: security\bcrypt_oid.htm
 old-project: SecCNG
 ms.assetid: 00143883-88f7-4b15-bdba-128ee255abf6
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_OID, BCRYPT_OID structure [Security], _BCRYPT_OID, bcrypt/BCRYPT_OID, security.bcrypt_oid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

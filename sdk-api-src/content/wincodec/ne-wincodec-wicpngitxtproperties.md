@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICPngItxtProperties
 title: WICPngItxtProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) iTXT chunk metadata properties.
 old-location: wic\_wic_codec_wicpngitxtproperties.htm
 old-project: wic
 ms.assetid: 905d37e2-39f3-4990-b737-f9194f798d83
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICPngItxtCompressionFlag, WICPngItxtKeyword, WICPngItxtLanguageTag, WICPngItxtProperties, WICPngItxtProperties enumeration [Windows Imaging Component], WICPngItxtText, WICPngItxtTranslatedKeyword, _wic_codec_wicpngitxtproperties, wic._wic_codec_wicpngitxtproperties, wincodec/WICPngItxtCompressionFlag, wincodec/WICPngItxtKeyword, wincodec/WICPngItxtLanguageTag, wincodec/WICPngItxtProperties, wincodec/WICPngItxtText, wincodec/WICPngItxtTranslatedKeyword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

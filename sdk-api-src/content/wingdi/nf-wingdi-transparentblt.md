@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.TransparentBlt
 title: TransparentBlt function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TransparentBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
 old-location: gdi\transparentblt.htm
 old-project: gdi
 ms.assetid: 900b2ca3-398d-4128-a1ae-8b4940574327
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TransparentBlt, TransparentBlt function [Windows GDI], _win32_TransparentBlt, gdi.transparentblt, wingdi/TransparentBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

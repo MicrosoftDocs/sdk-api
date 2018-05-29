@@ -1,16 +1,16 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.StartInitialization
 title: IOPMVideoOutput::StartInitialization
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins the initialization sequence for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput_iopmvideooutput__startinitialization.htm
 old-project: medfound
 ms.assetid: eeedeb4b-753f-4efb-b8ef-732cce116b42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization method, IOPMVideoOutput.StartInitialization, IOPMVideoOutput::StartInitialization, StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation],IOPMVideoOutput interface, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 

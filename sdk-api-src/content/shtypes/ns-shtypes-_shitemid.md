@@ -1,16 +1,16 @@
 ---
 UID: NS:shtypes._SHITEMID
 title: "_SHITEMID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an item identifier.
 old-location: shell\SHITEMID.htm
 old-project: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _SHITEMID, _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: 

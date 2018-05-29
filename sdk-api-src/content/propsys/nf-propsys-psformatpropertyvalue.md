@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSFormatPropertyValue
 title: PSFormatPropertyValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value stored in a property store. This function allocates memory for the output string.
 old-location: properties\PSFormatPropertyValue.htm
 old-project: properties
 ms.assetid: 35c2b424-05bd-4d7d-8365-5900e165e2e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSFormatPropertyValue, PSFormatPropertyValue function [Windows Properties], _shell_PSFormatPropertyValue, properties.PSFormatPropertyValue, propsys/PSFormatPropertyValue, shell.PSFormatPropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

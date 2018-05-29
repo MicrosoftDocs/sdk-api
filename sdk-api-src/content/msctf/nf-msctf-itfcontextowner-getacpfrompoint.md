@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetACPFromPoint
 title: ITfContextOwner::GetACPFromPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfContextOwner::GetACPFromPoint method converts a point in screen coordinates to an application character position.
 old-location: tsf\itfcontextowner_getacpfrompoint.htm
 old-project: TSF
 ms.assetid: f8091e79-33af-49d5-b3c8-d30952c62010
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetACPFromPoint method, ITfContextOwner.GetACPFromPoint, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

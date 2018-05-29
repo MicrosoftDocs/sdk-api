@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITASRTerminalEvent.get_Terminal
 title: ITASRTerminalEvent::get_Terminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Terminal method returns a pointer to the ITTerminal interface for the terminal on which the event occurred.
 old-location: tapi3\itasrterminalevent_get_terminal.htm
 old-project: Tapi
 ms.assetid: 1cde7b16-f825-4591-9947-6ad03cbd14c6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Terminal method, ITASRTerminalEvent.get_Terminal, ITASRTerminalEvent::get_Terminal, _tapi3_itasrterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_terminal, tapi3if/ITASRTerminalEvent::get_Terminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:aviriff._avistdindex_entry
 title: "_avistdindex_entry"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains one index entry for an AVI 2.0 standard index.
 old-location: dshow\avistdindex_entry.htm
 old-project: DirectShow
 ms.assetid: 4e408858-b0cb-45dc-a299-a2e35aa6a000
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AVISTDINDEX_ENTRY, AVISTDINDEX_ENTRY structure [DirectShow], _avistdindex_entry, aviriff/AVISTDINDEX_ENTRY, dshow.avistdindex_entry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

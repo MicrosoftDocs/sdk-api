@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.ProtocolComplete
 title: IWRdsProtocolLicenseConnection::ProtocolComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the protocol whether the licensing process completed successfully.
 old-location: termserv\iwrdsprotocollicenseconnection_protocolcomplete.htm
 old-project: TermServ
 ms.assetid: d9b0efe8-2988-4797-921a-544f410ac6d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWRdsProtocolLicenseConnection.ProtocolComplete, IWRdsProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWRdsProtocolLicenseConnection::ProtocolComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

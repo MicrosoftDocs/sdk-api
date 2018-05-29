@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi.IDXGIKeyedMutex
 title: IDXGIKeyedMutex
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a keyed mutex, which allows exclusive access to a shared resource that is used by multiple devices.
 old-location: direct3ddxgi\idxgikeyedmutex.htm
 old-project: direct3ddxgi
 ms.assetid: f790eb46-f116-4258-8c8d-de1ece4a1f21
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 624ec55f-8325-5294-526a-89138f1d7331, IDXGIKeyedMutex, IDXGIKeyedMutex interface [DXGI], IDXGIKeyedMutex interface [DXGI],described, direct3ddxgi.idxgikeyedmutex, dxgi/IDXGIKeyedMutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 

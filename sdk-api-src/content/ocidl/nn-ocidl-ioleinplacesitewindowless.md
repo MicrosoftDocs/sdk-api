@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IOleInPlaceSiteWindowless
 title: IOleInPlaceSiteWindowless
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IOleInPlaceSiteEx interface.
 old-location: com\ioleinplacesitewindowless.htm
 old-project: com
 ms.assetid: 4ad83599-99d2-4b35-95de-cff845a8d5e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], IOleInPlaceSiteWindowless interface [COM],described, _ole_ioleinplacesitewindowless, com.ioleinplacesitewindowless, ocidl/IOleInPlaceSiteWindowless
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

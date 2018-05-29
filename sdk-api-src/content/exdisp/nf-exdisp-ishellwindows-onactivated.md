@@ -1,16 +1,16 @@
 ---
 UID: NF:exdisp.IShellWindows.OnActivated
 title: IShellWindows::OnActivated
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when a Shell window's activation state changes.
 old-location: shell\IShellWindows_OnActivated.htm
 old-project: shell
 ms.assetid: ccd93f0f-3cd2-4b18-b6d2-834665d8b658
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnActivated method, IShellWindows.OnActivated, IShellWindows::OnActivated, OnActivated, OnActivated method [Windows Shell], OnActivated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnActivated, exdisp/IShellWindows::OnActivated, shell.IShellWindows_OnActivated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 

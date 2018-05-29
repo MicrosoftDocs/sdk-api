@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Parent
 title: CM_Get_Parent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Parent function obtains a device instance handle to the parent node of a specified device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_parent.htm
 old-project: devinst
 ms.assetid: e9d1db59-e9fb-4704-81f6-86523397c114
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Parent, CM_Get_Parent function [Device and Driver Installation], cfgmgr32/CM_Get_Parent, cfgmgrfn_fdd00a0a-e79d-469d-9a1a-852096d89a48.xml, devinst.cm_get_parent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

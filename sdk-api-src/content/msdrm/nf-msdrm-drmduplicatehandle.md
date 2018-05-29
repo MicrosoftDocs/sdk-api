@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMDuplicateHandle
 title: DRMDuplicateHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of a DRMHANDLE.
 old-location: rm\drmduplicatehandle.htm
 old-project: AdRms_Sdk
 ms.assetid: 967519da-0471-4615-aec0-b30717239dd5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMDuplicateHandle, DRMDuplicateHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateHandle, rm.drmduplicatehandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.CreateContext
 title: CreateContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a recognizer context.
 old-location: tablet\createcontext.htm
 old-project: tablet
 ms.assetid: 4e599157-93d6-486f-9498-899e5b53f24b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 4e599157-93d6-486f-9498-899e5b53f24b, CreateContext, CreateContext function [Tablet PC], recapis/CreateContext, tablet.createcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

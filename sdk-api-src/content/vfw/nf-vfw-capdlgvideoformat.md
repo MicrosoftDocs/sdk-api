@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capDlgVideoFormat
 title: capDlgVideoFormat macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capDlgVideoFormat macro displays a dialog box in which the user can select the video format.
 old-location: multimedia\capdlgvideoformat.htm
 old-project: Multimedia
 ms.assetid: 542913e8-c3f4-4ea5-afa0-035af6f3126e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capDlgVideoFormat, capDlgVideoFormat, capDlgVideoFormat macro [Windows Multimedia], multimedia.capdlgvideoformat, vfw/capDlgVideoFormat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

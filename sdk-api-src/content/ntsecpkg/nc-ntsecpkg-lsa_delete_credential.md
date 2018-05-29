@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_DELETE_CREDENTIAL
 title: LSA_DELETE_CREDENTIAL
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing credential.
 old-location: security\deletecredential.htm
 old-project: SecAuthN
 ms.assetid: 06bc02ec-5c07-41db-9f00-49773a597a09
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeleteCredential, DeleteCredential function [Security], LSA_DELETE_CREDENTIAL, _lsa_deletecredential, ntsecpkg/DeleteCredential, security.deletecredential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

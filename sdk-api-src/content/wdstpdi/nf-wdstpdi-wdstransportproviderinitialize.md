@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderInitialize
 title: WdsTransportProviderInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a content provider.
 old-location: wds\wdstransportproviderinitialize.htm
 old-project: Wds
 ms.assetid: b7592e8d-6d7d-426a-8520-7b9cc5810d5a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportProviderInitialize, WdsTransportProviderInitialize callback, WdsTransportProviderInitialize callback function [Windows Deployment Services], wds.wdstransportproviderinitialize, wdstpdi/WdsTransportProviderInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

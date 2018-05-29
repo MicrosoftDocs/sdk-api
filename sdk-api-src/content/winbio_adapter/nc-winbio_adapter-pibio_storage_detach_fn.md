@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_DETACH_FN
 title: PIBIO_STORAGE_DETACH_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases adapter-specific resources attached to the pipeline.
 old-location: secbiomet\storageadapterdetach.htm
 old-project: SecBioMet
 ms.assetid: cebf03d3-e393-437a-81f7-579fea95aa9c
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_STORAGE_DETACH_FN, PIBIO_STORAGE_DETACH_FN callback, StorageAdapterDetach, StorageAdapterDetach callback function [Windows Biometric Framework API], secbiomet.storageadapterdetach, winbio_adapter/StorageAdapterDetach
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

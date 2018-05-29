@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._MESSAGE_RESOURCE_ENTRY
 title: "_MESSAGE_RESOURCE_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the error message or message box display text for a message table resource.
 old-location: menurc\message_resource_entry.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_entry.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PMESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY structure [Menus and Other Resources], PMESSAGE_RESOURCE_ENTRY, PMESSAGE_RESOURCE_ENTRY structure pointer [Menus and Other Resources], _MESSAGE_RESOURCE_ENTRY, _win32_MESSAGE_RESOURCE_ENTRY_str, _win32_message_resource_entry_str_cpp, menurc.message_resource_entry, winnt/MESSAGE_RESOURCE_ENTRY, winnt/PMESSAGE_RESOURCE_ENTRY, winui._win32_message_resource_entry_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

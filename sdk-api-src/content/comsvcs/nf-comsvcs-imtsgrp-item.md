@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Item
 title: IMtsGrp::Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IUnknown pointer for the specified package.
 old-location: cos\imtsgrp_item.htm
 old-project: cossdk
 ms.assetid: 6360f38d-43e2-4b78-a9f5-9a525d4c596a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsGrp interface [COM+],Item method, IMtsGrp.Item, IMtsGrp::Item, Item, Item method [COM+], Item method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Item, comsvcs/IMtsGrp::Item, cos.imtsgrp_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

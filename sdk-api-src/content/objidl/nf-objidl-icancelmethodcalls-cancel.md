@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ICancelMethodCalls.Cancel
 title: ICancelMethodCalls::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests that a method call be canceled.
 old-location: com\icancelmethodcalls_cancel.htm
 old-project: com
 ms.assetid: 3c3fdcec-10f1-4fbf-af93-582e7390decf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Cancel, Cancel method [COM], Cancel method [COM],ICancelMethodCalls interface, ICancelMethodCalls interface [COM],Cancel method, ICancelMethodCalls.Cancel, ICancelMethodCalls::Cancel, _com_icancelmethodcalls_cancel, com.icancelmethodcalls_cancel, objidlbase/ICancelMethodCalls::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

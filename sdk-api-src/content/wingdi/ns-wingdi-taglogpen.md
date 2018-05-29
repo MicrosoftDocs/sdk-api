@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagLOGPEN
 title: tagLOGPEN
-author: windows-driver-content
+author: windows-sdk-content
 description: The LOGPEN structure defines the style, width, and color of a pen. The CreatePenIndirect function uses the LOGPEN structure.
 old-location: gdi\logpen.htm
 old-project: gdi
 ms.assetid: 0e098b5a-e249-43ad-a6d8-2509b6562453
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows GDI], PLOGPEN, PLOGPEN structure pointer [Windows GDI], _win32_LOGPEN_str, gdi.logpen, tagLOGPEN, wingdi/LOGPEN, wingdi/PLOGPEN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:imm.tagSTYLEBUFA
 title: tagSTYLEBUFA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the identifier and name of a style.
 old-location: intl\stylebuf.htm
 old-project: Intl
 ms.assetid: 72681071-58c4-490a-83d5-5013871ca875
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSTYLEBUFA, *NPSTYLEBUFA, *PSTYLEBUFA, PSTYLEBUF, PSTYLEBUF structure pointer [Internationalization for Windows Applications], STYLEBUF, STYLEBUF structure [Internationalization for Windows Applications], STYLEBUFA, STYLEBUFW, _win32_STYLEBUF_str, imm/PSTYLEBUF, imm/STYLEBUF, imm/STYLEBUFA, imm/STYLEBUFW, intl.stylebuf, tagSTYLEBUFA, tagSTYLEBUFW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h

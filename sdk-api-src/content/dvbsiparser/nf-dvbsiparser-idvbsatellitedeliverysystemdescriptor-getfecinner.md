@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 title: IDvbSatelliteDeliverySystemDescriptor::GetFECInner
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getfecinner.htm
 old-project: mstv
 ms.assetid: fe90fcd7-e77b-42c8-935f-4cf02957400f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFECInner, GetFECInner method [Microsoft TV Technologies], GetFECInner method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECInner method, IDvbSatelliteDeliverySystemDescriptor.GetFECInner, IDvbSatelliteDeliverySystemDescriptor::GetFECInner, IDvbSatelliteDeliverySystemDescriptorGetFECInner, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner, mstv.idvbsatellitedeliverysystemdescriptor_getfecinner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

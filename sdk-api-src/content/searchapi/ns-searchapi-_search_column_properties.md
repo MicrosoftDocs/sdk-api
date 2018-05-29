@@ -1,16 +1,16 @@
 ---
 UID: NS:searchapi._SEARCH_COLUMN_PROPERTIES
 title: "_SEARCH_COLUMN_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure is not implemented.
 old-location: search\_search_SEARCH_COLUMN_PROPERTIES.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_column_properties.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SEARCH_COLUMN_PROPERTIES, SEARCH_COLUMN_PROPERTIES structure [search], _SEARCH_COLUMN_PROPERTIES, _search_SEARCH_COLUMN_PROPERTIES, search._search_SEARCH_COLUMN_PROPERTIES, searchapi/SEARCH_COLUMN_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: Searchapi.h

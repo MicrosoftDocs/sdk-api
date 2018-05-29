@@ -1,16 +1,16 @@
 ---
 UID: NF:medparam.IMediaParams.SetParam
 title: IMediaParams::SetParam
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetParam method sets the value of a parameter.
 old-location: dshow\imediaparams_setparam.htm
 old-project: DirectShow
 ms.assetid: e92681d4-2c77-4c72-b3ad-f0a6be7920e2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaParams interface [DirectShow],SetParam method, IMediaParams.SetParam, IMediaParams::SetParam, IMediaParamsSetParam, SetParam, SetParam method [DirectShow], SetParam method [DirectShow],IMediaParams interface, dshow.imediaparams_setparam, medparam/IMediaParams::SetParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: medparam.h
 req.include-header: 

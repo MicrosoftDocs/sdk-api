@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IDataObjectAsyncCapability
 title: IDataObjectAsyncCapability
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables interfaces that are usually synchronous to function asynchronously.
 old-location: shell\IDataObjectAsyncCapability.htm
 old-project: shell
 ms.assetid: 2E23A137-0C5B-4ce9-8100-758C7E17753B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], IDataObjectAsyncCapability interface [Windows Shell],described, shell.IDataObjectAsyncCapability, shldisp/IDataObjectAsyncCapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

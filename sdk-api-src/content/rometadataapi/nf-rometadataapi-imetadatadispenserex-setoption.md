@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.SetOption
 title: IMetaDataDispenserEx::SetOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the specified option to a given value for the current metadata scope. The option controls how calls to the current metadata scope are handled.
 old-location: winrt\imetadatadispenserex_setoption.htm
 old-project: WinRT
 ms.assetid: bb84abf1-0bba-4f9d-98fb-3ed67819a9dc
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],SetOption method, IMetaDataDispenserEx.SetOption, IMetaDataDispenserEx::SetOption, SetOption, SetOption method [Windows Runtime], SetOption method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::SetOption, winrt.imetadatadispenserex_setoption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

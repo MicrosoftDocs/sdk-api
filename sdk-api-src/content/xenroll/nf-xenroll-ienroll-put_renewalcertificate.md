@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll.put_RenewalCertificate
 title: IEnroll::put_RenewalCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the certificate context for the renewal certificate.
 old-location: security\ienroll4_renewalcertificate.htm
 old-project: SecCrypto
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll.put_RenewalCertificate, IEnroll::RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IEnroll interface, put_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidXDSEvent.RatingChange
 title: IMSVidXDSEvent::RatingChange
-author: windows-driver-content
+author: windows-sdk-content
 description: The RatingChange method is called when the current rating changes.
 old-location: mstv\imsvidxdsevent_ratingchange.htm
 old-project: mstv
 ms.assetid: 2832f99b-16e9-4c09-903d-8d89f2cc7715
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange method, IMSVidXDSEvent.RatingChange, IMSVidXDSEvent::RatingChange, IMSVidXDSEventRatingChange, RatingChange, RatingChange method [Microsoft TV Technologies], RatingChange method [Microsoft TV Technologies],IMSVidXDSEvent interface, mstv.imsvidxdsevent_ratingchange, segment/IMSVidXDSEvent::RatingChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

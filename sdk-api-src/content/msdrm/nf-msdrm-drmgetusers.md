@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetUsers
 title: DRMGetUsers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specific user from an issuance license.
 old-location: rm\drmgetusers.htm
 old-project: AdRms_Sdk
 ms.assetid: 4c8c8249-2e90-4eea-9a3b-dd7d9970ba98
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetUsers, DRMGetUsers function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsers, rm.drmgetusers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

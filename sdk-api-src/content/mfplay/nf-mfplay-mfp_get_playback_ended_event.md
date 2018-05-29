@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.MFP_GET_PLAYBACK_ENDED_EVENT
 title: MFP_GET_PLAYBACK_ENDED_EVENT macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PLAYBACK_ENDED_EVENT pointer.
 old-location: mf\mfp_get_playback_ended_event.htm
 old-project: medfound
 ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: mfplay.h
 req.include-header: 

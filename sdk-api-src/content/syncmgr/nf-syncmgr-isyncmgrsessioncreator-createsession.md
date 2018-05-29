@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSessionCreator.CreateSession
 title: ISyncMgrSessionCreator::CreateSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies Sync Center that synchronization of the specified items has begun.
 old-location: shell\ISyncMgrSessionCreator_CreateSession.htm
 old-project: shell
 ms.assetid: d1df43b6-406c-4da0-89f0-a17e51101520
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateSession, CreateSession method [Windows Shell], CreateSession method [Windows Shell],ISyncMgrSessionCreator interface, ISyncMgrSessionCreator interface [Windows Shell],CreateSession method, ISyncMgrSessionCreator.CreateSession, ISyncMgrSessionCreator::CreateSession, _shell_ISyncMgrSessionCreator_CreateSession, shell.ISyncMgrSessionCreator_CreateSession, syncmgr/ISyncMgrSessionCreator::CreateSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

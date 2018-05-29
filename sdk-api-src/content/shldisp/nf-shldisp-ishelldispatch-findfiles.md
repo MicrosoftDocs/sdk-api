@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.FindFiles
 title: IShellDispatch::FindFiles
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Find:\_All Files dialog box. This is the same as clicking the Start menu and then selecting Search.
 old-location: shell\IShellDispatch_FindFiles.htm
 old-project: shell
 ms.assetid: 6F588D5E-5B6E-4000-BAD5-B557FB975FCA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FindFiles, FindFiles method [Windows Shell], FindFiles method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],FindFiles method, IShellDispatch.FindFiles, IShellDispatch::FindFiles, shell.IShellDispatch_FindFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

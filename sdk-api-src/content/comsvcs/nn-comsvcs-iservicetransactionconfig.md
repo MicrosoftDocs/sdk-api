@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServiceTransactionConfig
 title: IServiceTransactionConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicetransactionconfig.htm
 old-project: cossdk
 ms.assetid: 7f31c590-8290-4556-9fcf-e27db01bad93
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceTransactionConfig, IServiceTransactionConfig interface [COM+], IServiceTransactionConfig interface [COM+],described, _cos_IServiceTransactionConfig, comsvcs/IServiceTransactionConfig, cos.iservicetransactionconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

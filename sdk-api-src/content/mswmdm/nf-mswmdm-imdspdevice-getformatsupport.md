@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetFormatSupport
 title: IMDSPDevice::GetFormatSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFormatSupport method retrieves all the formats supported by the device. The format information includes codecs, file formats, and digital rights management schemes.
 old-location: wmdm\imdspdevice_getformatsupport.htm
 old-project: WMDM
 ms.assetid: ac50ac7d-bd55-4ece-8af8-5c8b2f7736e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFormatSupport, GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetFormatSupport method, IMDSPDevice.GetFormatSupport, IMDSPDevice::GetFormatSupport, IMDSPDeviceGetFormatSupport, mswmdm/IMDSPDevice::GetFormatSupport, wmdm.imdspdevice_getformatsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

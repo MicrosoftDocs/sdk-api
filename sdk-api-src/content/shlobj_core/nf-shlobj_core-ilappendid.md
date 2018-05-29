@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILAppendID
 title: ILAppendID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends or prepends an SHITEMID structure to an ITEMIDLIST structure.
 old-location: shell\ILAppendID.htm
 old-project: shell
 ms.assetid: d1bb5993-fe23-42d4-a2c5-8e54e6e37d09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILAppendID, ILAppendID function [Windows Shell], _win32_ILAppendID, shell.ILAppendID, shlobj_core/ILAppendID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_FREE_ENVIRONMENT
 title: PRESUTIL_FREE_ENVIRONMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys the environment variable block created with ResUtilGetEnvironmentWithNetName. The PRESUTIL_FREE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilfreeenvironment.htm
 old-project: MsCS
 ms.assetid: 196f347e-2b2f-4bb1-a86c-b2a73881ed65
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_FREE_ENVIRONMENT, PRESUTIL_FREE_ENVIRONMENT callback, PRESUTIL_FREE_ENVIRONMENT callback function [Failover Cluster], _wolf_resutilfreeenvironment, mscs.resutilfreeenvironment, resapi/PRESUTIL_FREE_ENVIRONMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

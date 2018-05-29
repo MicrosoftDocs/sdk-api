@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.AddFontResourceW
 title: AddFontResourceW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application.
 old-location: gdi\addfontresource.htm
 old-project: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

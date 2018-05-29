@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfThreadMgrEventSink
 title: ITfThreadMgrEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfThreadMgrEventSink interface is implemented by an application or TSF text service to receive notifications of certain thread manager events. Call the TSF manager ITfSource::AdviseSink with IID_ITfThreadMgrEventSink to install this advise sink.
 old-location: tsf\itfthreadmgreventsink.htm
 old-project: TSF
 ms.assetid: be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], ITfThreadMgrEventSink interface [Text Services Framework],described, _tsf_itfthreadmgreventsink_ref, msctf/ITfThreadMgrEventSink, tsf.itfthreadmgreventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

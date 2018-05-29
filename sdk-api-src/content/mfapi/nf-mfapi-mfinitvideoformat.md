@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFInitVideoFormat
 title: MFInitVideoFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an MFVIDEOFORMAT structure for a standard video format such as DVD, analog television, or ATSC digital television.
 old-location: mf\mfinitvideoformat.htm
 old-project: medfound
 ms.assetid: 1cb47f95-cdb6-4998-9980-2f22e282df11
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get_Count
 title: IFaxInboundRoutingMethods::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: The Count property represents the number of objects in the FaxInboundRoutingMethods collection. This is the total number of inbound routing methods associated with the fax server.
 old-location: fax\_mfax_faxinboundroutingmethods_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_956c.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxInboundRoutingMethods object, FaxInboundRoutingMethods object [Fax Service],Count property, FaxInboundRoutingMethods.Count, IFaxInboundRoutingMethods.get_Count, IFaxInboundRoutingMethods::get_Count, _mfax_faxinboundroutingmethods.count, fax._mfax_faxinboundroutingmethods_count, fax._mfax_faxinboundroutingmethods_count_vb, get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

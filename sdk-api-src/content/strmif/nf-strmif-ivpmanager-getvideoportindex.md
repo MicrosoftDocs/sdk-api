@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVPManager.GetVideoPortIndex
 title: IVPManager::GetVideoPortIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetVideoPortIndex method returns the current video port index being used by the Video Port Manager (VPM).
 old-location: dshow\ivpmanager_getvideoportindex.htm
 old-project: DirectShow
 ms.assetid: 1e30c2d7-b986-47f5-94c8-53937d1e1501
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetVideoPortIndex, GetVideoPortIndex method [DirectShow], GetVideoPortIndex method [DirectShow],IVPManager interface, IVPManager interface [DirectShow],GetVideoPortIndex method, IVPManager.GetVideoPortIndex, IVPManager::GetVideoPortIndex, IVPManagerGetVideoPortIndex, dshow.ivpmanager_getvideoportindex, strmif/IVPManager::GetVideoPortIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

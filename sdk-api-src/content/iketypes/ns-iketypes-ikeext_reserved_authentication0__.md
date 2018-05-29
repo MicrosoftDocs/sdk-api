@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_RESERVED_AUTHENTICATION0__
 title: IKEEXT_RESERVED_AUTHENTICATION0__
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for internal use.
 old-location: fwp\ikeext_reserved_authentication0.htm
 old-project: FWP
 ms.assetid: afae9b31-363a-47d9-9fc9-18efd8332fce
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_RESERVED_AUTHENTICATION0, IKEEXT_RESERVED_AUTHENTICATION0 structure [Filtering], IKEEXT_RESERVED_AUTHENTICATION0__, IKEEXT_RESERVED_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, fwp.ikeext_reserved_authentication0, iketypes/IKEEXT_RESERVED_AUTHENTICATION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

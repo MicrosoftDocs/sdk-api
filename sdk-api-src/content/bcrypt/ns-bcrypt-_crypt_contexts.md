@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXTS
 title: "_CRYPT_CONTEXTS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a set of CNG configuration context identifiers.
 old-location: security\crypt_contexts.htm
 old-project: SecCNG
 ms.assetid: a1b60660-a4c5-4880-8cd4-48d8717c77c3
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: "*PCRYPT_CONTEXTS, CRYPT_CONTEXTS, CRYPT_CONTEXTS structure [Security], PCRYPT_CONTEXTS, PCRYPT_CONTEXTS structure pointer [Security], _CRYPT_CONTEXTS, bcrypt/CRYPT_CONTEXTS, bcrypt/PCRYPT_CONTEXTS, security.crypt_contexts"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

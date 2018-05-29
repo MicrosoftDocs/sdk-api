@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_RESOLVE
 title: "_WSD_RESOLVE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a Resolve message.
 old-location: ncd\wsd_resolve_struct.htm
 old-project: WsdApi
 ms.assetid: f969f249-6c1e-4c0c-8da6-ec7069b06e20
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_RESOLVE, WSD_RESOLVE structure, _WSD_RESOLVE, ncd.wsd_resolve_struct, wsdtypes/WSD_RESOLVE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

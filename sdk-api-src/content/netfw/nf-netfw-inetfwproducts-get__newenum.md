@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwProducts.get__NewEnum
 title: INetFwProducts::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the registered third-party firewall products in the collection.
 old-location: ics\inetfwproducts_newenum.htm
 old-project: ICS
 ms.assetid: 67e723a9-7b24-493f-a3d5-a63d002e6bf3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],_NewEnum property, INetFwProducts._NewEnum, INetFwProducts.get__NewEnum, INetFwProducts::_NewEnum, INetFwProducts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwProducts interface, get__NewEnum, ics.inetfwproducts_newenum, netfw/INetFwProducts::_NewEnum, netfw/INetFwProducts::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusPropertyValue
 title: ISClusPropertyValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a single property value associated with a multi-value property.
 old-location: mscs\cluspropertyvalue_object.htm
 old-project: MsCS
 ms.assetid: 6a8ffae6-c4f3-42fb-9703-eeb695902877
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusPropertyValue, ClusPropertyValue object [Failover Cluster], ClusPropertyValue object [Failover Cluster],described, ISClusPropertyValue, _wolf_cluspropertyvalue_object, msclus/ClusPropertyValue, mscs.cluspropertyvalue_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

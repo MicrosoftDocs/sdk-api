@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ReaderName
 title: IX509PrivateKey::put_ReaderName
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves the name of a smart card reader.
 old-location: security\ix509privatekey_readername_property.htm
 old-project: SecCertEnroll
 ms.assetid: 1c9bb81a-c91b-42b9-a44c-de1ae5b68af6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PrivateKey interface [Security],ReaderName property, IX509PrivateKey.ReaderName, IX509PrivateKey.put_ReaderName, IX509PrivateKey::ReaderName, IX509PrivateKey::get_ReaderName, IX509PrivateKey::put_ReaderName, ReaderName property [Security], ReaderName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ReaderName, certenroll/IX509PrivateKey::get_ReaderName, certenroll/IX509PrivateKey::put_ReaderName, put_ReaderName, security.ix509privatekey_readername_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

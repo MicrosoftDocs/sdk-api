@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadCharsUtf8
 title: WsReadCharsUtf8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a specified number of text characters from the reader and returns them encoded in UTF-8.
 old-location: wsw\wsreadcharsutf8.htm
 old-project: wsw
 ms.assetid: 03326291-a61b-457b-80ca-dbe5bef6bf9d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadCharsUtf8, WsReadCharsUtf8 function [Web Services for Windows], webservices/WsReadCharsUtf8, wsw.wsreadcharsutf8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

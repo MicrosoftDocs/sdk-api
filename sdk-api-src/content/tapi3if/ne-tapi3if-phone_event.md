@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3if.PHONE_EVENT
 title: PHONE_EVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The PHONE_EVENT enum indicates a type of phone event.
 old-location: tapi3\phone_event.htm
 old-project: Tapi
 ms.assetid: 9508cb8f-b7c9-4d5c-a58d-afdf079f9fee
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: PE_ANSWER, PE_BUTTON, PE_CAPSCHANGE, PE_CLOSE, PE_DIALING, PE_DISCONNECT, PE_DISPLAY, PE_HOOKSWITCH, PE_LAMPMODE, PE_LASTITEM, PE_NUMBERGATHERED, PE_RINGMODE, PE_RINGVOLUME, PHONE_EVENT, PHONE_EVENT enumeration [TAPI 2.2], _tapi3_phone_event, tapi3.phone_event, tapi3if/PE_ANSWER, tapi3if/PE_BUTTON, tapi3if/PE_CAPSCHANGE, tapi3if/PE_CLOSE, tapi3if/PE_DIALING, tapi3if/PE_DISCONNECT, tapi3if/PE_DISPLAY, tapi3if/PE_HOOKSWITCH, tapi3if/PE_LAMPMODE, tapi3if/PE_LASTITEM, tapi3if/PE_NUMBERGATHERED, tapi3if/PE_RINGMODE, tapi3if/PE_RINGVOLUME, tapi3if/PHONE_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

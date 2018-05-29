@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetEditControl
 title: ListView_GetEditControl macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the handle to the edit control being used to edit a list-view item's text. You can use this macro or send the LVM_GETEDITCONTROL message explicitly.
 old-location: controls\ListView_GetEditControl.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_geteditcontrol.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetEditControl, ListView_GetEditControl macro [Windows Controls], _win32_ListView_GetEditControl, _win32_ListView_GetEditControl_cpp, commctrl/ListView_GetEditControl, controls.ListView_GetEditControl, controls._win32_ListView_GetEditControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

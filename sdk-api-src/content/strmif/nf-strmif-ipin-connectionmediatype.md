@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPin.ConnectionMediaType
 title: IPin::ConnectionMediaType
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any.
 old-location: dshow\ipin_connectionmediatype.htm
 old-project: DirectShow
 ms.assetid: f372bfa7-b0ba-43f9-ba86-cbca5d1de515
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConnectionMediaType, ConnectionMediaType method [DirectShow], ConnectionMediaType method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectionMediaType method, IPin.ConnectionMediaType, IPin::ConnectionMediaType, IPinConnectionMediaType, dshow.ipin_connectionmediatype, strmif/IPin::ConnectionMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

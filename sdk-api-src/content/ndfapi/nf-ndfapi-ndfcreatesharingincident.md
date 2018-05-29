@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCreateSharingIncident
 title: NdfCreateSharingIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Diagnoses network problems in accessing a specific network share.
 old-location: ndf\ndfcreatesharingincident.htm
 old-project: NDF
 ms.assetid: 6a5e3c3b-7c2b-4de3-89e4-ef330b894320
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

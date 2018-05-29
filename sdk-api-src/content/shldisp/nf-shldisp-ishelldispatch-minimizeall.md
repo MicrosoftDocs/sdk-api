@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.MinimizeAll
 title: IShellDispatch::MinimizeAll
-author: windows-driver-content
+author: windows-sdk-content
 description: Minimizes all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Minimize All Windows on older systems or clicking the Show Desktop icon on the taskbar.
 old-location: shell\IShellDispatch_MinimizeAll.htm
 old-project: shell
 ms.assetid: 25DD56B0-221E-44a2-9FAD-FB358ADD7FF1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],MinimizeAll method, IShellDispatch.MinimizeAll, IShellDispatch::MinimizeAll, MinimizeAll, MinimizeAll method [Windows Shell], MinimizeAll method [Windows Shell],IShellDispatch object, shell.IShellDispatch_MinimizeAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

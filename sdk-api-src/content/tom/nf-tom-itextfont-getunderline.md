@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetUnderline
 title: ITextFont::GetUnderline
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the type of underlining for the characters in a range.
 old-location: controls\ITextFont_GetUnderline.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getunderline.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUnderline, GetUnderline method [Windows Controls], GetUnderline method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetUnderline method, ITextFont.GetUnderline, ITextFont::GetUnderline, _win32_ITextFont_GetUnderline, _win32_ITextFont_GetUnderline_cpp, controls.ITextFont_GetUnderline, controls._win32_ITextFont_GetUnderline, tom/ITextFont::GetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorStream.GetMediaTypeCount
 title: IMFSensorStream::GetMediaTypeCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the count of media types supported by the sensor stream.
 old-location: mf\imfsensorstream_getmediatypecount.htm
 old-project: medfound
 ms.assetid: DCC5645E-2E0C-4AA7-8790-3552AD343F90
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaTypeCount method, IMFSensorStream.GetMediaTypeCount, IMFSensorStream::GetMediaTypeCount, mf.imfsensorstream_getmediatypecount, mfidl/IMFSensorStream::GetMediaTypeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

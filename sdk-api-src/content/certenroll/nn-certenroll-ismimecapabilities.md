@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ISmimeCapabilities
 title: ISmimeCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the following methods and properties to manage a collection of ISmimeCapability objects.
 old-location: security\ismimecapabilities.htm
 old-project: SecCertEnroll
 ms.assetid: f9750b68-9d35-4594-96fc-2fbd54a87dcc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ISmimeCapabilities interface [Security],described, certenroll/ISmimeCapabilities, security.ismimecapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

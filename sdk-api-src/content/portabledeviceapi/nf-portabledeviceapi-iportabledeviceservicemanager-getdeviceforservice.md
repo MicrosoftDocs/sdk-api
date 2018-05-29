@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceManager.GetDeviceForService
 title: IPortableDeviceServiceManager::GetDeviceForService
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the device associated with the specified service.
 old-location: wpdsdk\iportabledeviceservicemanager_getdeviceforservice.htm
 old-project: wpd_sdk
 ms.assetid: 2cdb03fb-8cb2-4eee-af90-3aec0a055fc5
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetDeviceForService, GetDeviceForService method [Windows Portable Devices SDK], GetDeviceForService method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceForService method, IPortableDeviceServiceManager.GetDeviceForService, IPortableDeviceServiceManager::GetDeviceForService, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService, wpdsdk.iportabledeviceservicemanager_getdeviceforservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

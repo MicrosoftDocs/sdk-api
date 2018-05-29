@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSeekInfo
 title: IMFSeekInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: For a particular seek position, gets the two nearest key frames.
 old-location: mf\imfseekinfo.htm
 old-project: medfound
 ms.assetid: 5B1AD3A1-D5ED-4F9D-A895-0312E6EB3072
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSeekInfo, IMFSeekInfo interface [Media Foundation], IMFSeekInfo interface [Media Foundation],described, mf.imfseekinfo, mfidl/IMFSeekInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

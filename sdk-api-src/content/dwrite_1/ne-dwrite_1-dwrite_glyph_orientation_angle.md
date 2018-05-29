@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_GLYPH_ORIENTATION_ANGLE
 title: DWRITE_GLYPH_ORIENTATION_ANGLE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_GLYPH_ORIENTATION_ANGLE enumeration contains values that specify how the glyph is oriented to the x-axis.
 old-location: directwrite\dwrite_glyph_orientation_angle.htm
 old-project: DirectWrite
 ms.assetid: BD9D0C11-B286-4E4A-B641-1DB9F75803B0
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_GLYPH_ORIENTATION_ANGLE, DWRITE_GLYPH_ORIENTATION_ANGLE enumeration [Direct Write], DWRITE_GLYPH_ORIENTATION_ANGLE_0_DEGREES, DWRITE_GLYPH_ORIENTATION_ANGLE_180_DEGREES, DWRITE_GLYPH_ORIENTATION_ANGLE_270_DEGREES, DWRITE_GLYPH_ORIENTATION_ANGLE_90_DEGREES, directwrite.dwrite_glyph_orientation_angle, dwrite_1/DWRITE_GLYPH_ORIENTATION_ANGLE, dwrite_1/DWRITE_GLYPH_ORIENTATION_ANGLE_0_DEGREES, dwrite_1/DWRITE_GLYPH_ORIENTATION_ANGLE_180_DEGREES, dwrite_1/DWRITE_GLYPH_ORIENTATION_ANGLE_270_DEGREES, dwrite_1/DWRITE_GLYPH_ORIENTATION_ANGLE_90_DEGREES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetAppViewInitialized
 title: IXblIdpAuthManager::SetAppViewInitialized
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_setappviewinitialized.htm
 old-project: xblidp
 ms.assetid: 0FC3C8A8-FB37-4207-9EC4-4DA15721C7AF
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IXblIdpAuthManager interface,SetAppViewInitialized method, IXblIdpAuthManager.SetAppViewInitialized, IXblIdpAuthManager::SetAppViewInitialized, SetAppViewInitialized, SetAppViewInitialized method, SetAppViewInitialized method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setappviewinitialized, xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

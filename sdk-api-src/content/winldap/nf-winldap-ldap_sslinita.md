@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_sslinitA
 title: ldap_sslinitA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a Secure Sockets Layer (SSL) session with an LDAP server.
 old-location: ldap\ldap_sslinit.htm
 old-project: LDAP
 ms.assetid: 04c13577-9d9f-4305-8aa2-fad81c03290a
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

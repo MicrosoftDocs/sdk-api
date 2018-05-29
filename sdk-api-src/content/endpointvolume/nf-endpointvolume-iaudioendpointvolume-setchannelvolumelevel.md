@@ -1,16 +1,16 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetChannelVolumeLevel
 title: IAudioEndpointVolume::SetChannelVolumeLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetChannelVolumeLevel method sets the volume level, in decibels, of the specified channel of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setchannelvolumelevel.htm
 old-project: CoreAudio
 ms.assetid: 51f3b4dd-be9d-4b83-8605-a9962c6709a3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetChannelVolumeLevel method, IAudioEndpointVolume.SetChannelVolumeLevel, IAudioEndpointVolume::SetChannelVolumeLevel, IAudioEndpointVolumeSetChannelVolumeLevel, SetChannelVolumeLevel, SetChannelVolumeLevel method [Core Audio], SetChannelVolumeLevel method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setchannelvolumelevel, endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

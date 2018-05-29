@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetPortalsW
 title: ReportIScsiTargetPortalsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: ReportIscsiTargetPortals function retrieves target portal information discovered by the iSCSI initiator service.
 old-location: iscsidisc\reportiscsitargetportals.htm
 old-project: iSCSIDisc
 ms.assetid: e52d095d-4c05-490e-bdc3-639198a93335
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ReportIScsiTargetPortalsW, ReportIscsiTargetPortals, ReportIscsiTargetPortals function [iSCSI Discovery Library API], ReportIscsiTargetPortalsA, ReportIscsiTargetPortalsW, iscsidisc.reportiscsitargetportals, iscsidsc/ReportIscsiTargetPortals, iscsidsc/ReportIscsiTargetPortalsA, iscsidsc/ReportIscsiTargetPortalsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

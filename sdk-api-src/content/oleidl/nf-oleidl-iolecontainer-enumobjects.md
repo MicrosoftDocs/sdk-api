@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleContainer.EnumObjects
 title: IOleContainer::EnumObjects
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the objects in the current container.
 old-location: com\iolecontainer_enumobjects.htm
 old-project: com
 ms.assetid: 7d825c71-506c-4fd3-ab48-6006f2858d05
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumObjects, EnumObjects method [COM], EnumObjects method [COM],IOleContainer interface, IOleContainer interface [COM],EnumObjects method, IOleContainer.EnumObjects, IOleContainer::EnumObjects, _ole_iolecontainer_enumobjects, com.iolecontainer_enumobjects, oleidl/IOleContainer::EnumObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

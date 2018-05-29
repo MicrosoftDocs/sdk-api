@@ -1,16 +1,16 @@
 ---
 UID: NF:avrt.AvSetMmThreadPriority
 title: AvSetMmThreadPriority function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adjusts the thread priority of the calling thread relative to other threads performing the same task.
 old-location: base\avsetmmthreadpriority.htm
 old-project: ProcThread
 ms.assetid: 74259dbc-a9e9-409e-96e6-66a9dc590099
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AVRT_PRIORITY_CRITICAL, AVRT_PRIORITY_HIGH, AVRT_PRIORITY_LOW, AVRT_PRIORITY_NORMAL, AvSetMmThreadPriority, AvSetMmThreadPriority function, avrt/AvSetMmThreadPriority, base.avsetmmthreadpriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: avrt.h
 req.include-header: 

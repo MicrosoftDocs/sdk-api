@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupAddSectionToDiskSpaceListW
 title: SetupAddSectionToDiskSpaceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupAddSectionToDiskSpaceList function adds to a disk-space list all the file delete or copy operations listed in a Copy Files or Delete Files section of an INF file.
 old-location: setup\setupaddsectiontodiskspacelist.htm
 old-project: SetupApi
 ms.assetid: 8225d0b4-b750-4580-83f5-dcffdf2ee67b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupAddSectionToDiskSpaceList, SetupAddSectionToDiskSpaceList function [Setup API], SetupAddSectionToDiskSpaceListA, SetupAddSectionToDiskSpaceListW, _setupapi_setupaddsectiontodiskspacelist, setup.setupaddsectiontodiskspacelist, setupapi/SetupAddSectionToDiskSpaceList, setupapi/SetupAddSectionToDiskSpaceListA, setupapi/SetupAddSectionToDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

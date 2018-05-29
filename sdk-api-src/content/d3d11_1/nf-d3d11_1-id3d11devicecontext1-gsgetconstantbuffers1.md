@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.GSGetConstantBuffers1
 title: ID3D11DeviceContext1::GSGetConstantBuffers1
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the constant buffers that the geometry shader pipeline stage uses.
 old-location: direct3d11\id3d11devicecontext1_gsgetconstantbuffers1.htm
 old-project: direct3d11
 ms.assetid: 5899782E-89A4-4DFD-8A1E-AA7E87364AFC
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GSGetConstantBuffers1, GSGetConstantBuffers1 method [Direct3D 11], GSGetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],GSGetConstantBuffers1 method, ID3D11DeviceContext1.GSGetConstantBuffers1, ID3D11DeviceContext1::GSGetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::GSGetConstantBuffers1, direct3d11.id3d11devicecontext1_gsgetconstantbuffers1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICJpegFrameEncode.GetQuantizationTable
 title: IWICJpegFrameEncode::GetQuantizationTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the quantization table.
 old-location: wic\iwicjpegframeencode_getquantizationtable.htm
 old-project: wic
 ms.assetid: 6FBDAEA2-78E6-4152-815D-FA6164FE396F
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component],IWICJpegFrameEncode interface, IWICJpegFrameEncode interface [Windows Imaging Component],GetQuantizationTable method, IWICJpegFrameEncode.GetQuantizationTable, IWICJpegFrameEncode::GetQuantizationTable, wic.iwicjpegframeencode_getquantizationtable, wincodec/IWICJpegFrameEncode::GetQuantizationTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

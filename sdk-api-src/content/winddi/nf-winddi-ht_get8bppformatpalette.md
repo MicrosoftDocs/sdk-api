@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.HT_Get8BPPFormatPalette
 title: HT_Get8BPPFormatPalette function
-author: windows-driver-content
+author: windows-sdk-content
 description: The HT_Get8BPPFormatPalette function returns a halftone palette for use on standard 8-bits per pixel device types.
 old-location: display\ht_get8bppformatpalette.htm
 old-project: display
 ms.assetid: 0f6d81b8-2ad2-4bcc-a5cc-5b2f396aaa75
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: HT_Get8BPPFormatPalette, HT_Get8BPPFormatPalette function [Display Devices], display.ht_get8bppformatpalette, gdifncs_78b4c867-b035-4cc3-9386-2922df0e9c12.xml, winddi/HT_Get8BPPFormatPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

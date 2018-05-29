@@ -1,16 +1,16 @@
 ---
 UID: NF:winineti.PrivacySetZonePreferenceW
 title: PrivacySetZonePreferenceW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the privacy settings for a given URLZONE and PrivacyType.
 old-location: wininet\privacysetzonepreferencew.htm
 old-project: WinInet
 ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winineti.h
 req.include-header: Wininet.h

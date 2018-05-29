@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.Draw
 title: IShellImageData::Draw
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws a decoded image.
 old-location: shell\IShellImageData_Draw.htm
 old-project: shell
 ms.assetid: 35989c3b-15b9-4503-a883-99df730b2a80
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Draw, Draw method [Windows Shell], Draw method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Draw method, IShellImageData.Draw, IShellImageData::Draw, _shell_IShellImageData_Draw, shell.IShellImageData_Draw, shimgdata/IShellImageData::Draw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

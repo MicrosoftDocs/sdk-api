@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Class_Property_ExW
 title: CM_Set_Class_Property_ExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Set_Class_Property_ExW function sets a class property for a device setup class or a device interface class.
 old-location: devinst\cm_set_class_property_exw.htm
 old-project: devinst
 ms.assetid: A2232661-DA67-40BB-81B9-0BC7851A6E25
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Set_Class_Property_ExW, CM_Set_Class_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_Class_Property_ExW, devinst.cm_set_class_property_exw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

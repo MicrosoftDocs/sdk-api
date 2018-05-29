@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagResultCodes
 title: tagResultCodes
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a list of result codes.
 old-location: nap\resultcodes_struct.htm
 old-project: NAP
 ms.assetid: 9d608f0a-9841-48e6-8856-2d8c1afc3e5d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, naptypes/ResultCodes, tagResultCodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

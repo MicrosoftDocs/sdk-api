@@ -1,16 +1,16 @@
 ---
 UID: NS:mmreg.mpeg1waveformat_tag
 title: mpeg1waveformat_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG1WAVEFORMAT structure describes the format of MPEG-1 audio data.
 old-location: dshow\mpeg1waveformat.htm
 old-project: DirectShow
 ms.assetid: c9357f72-f101-434a-b7ae-183e78239e9c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPMPEG1WAVEFORMAT, *NPMPEG1WAVEFORMAT, *PMPEG1WAVEFORMAT, ACM_MPEG_COPYRIGHT, ACM_MPEG_DUALCHANNEL, ACM_MPEG_ID_MPEG1, ACM_MPEG_JOINTSTEREO, ACM_MPEG_LAYER1, ACM_MPEG_LAYER2, ACM_MPEG_LAYER3, ACM_MPEG_ORIGINALHOME, ACM_MPEG_PRIVATEBIT, ACM_MPEG_PROTECTIONBIT, ACM_MPEG_SINGLECHANNEL, ACM_MPEG_STEREO, MPEG1WAVEFORMAT, MPEG1WAVEFORMAT structure [DirectShow], dshow.mpeg1waveformat, mmreg/MPEG1WAVEFORMAT, mpeg1waveformat_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 

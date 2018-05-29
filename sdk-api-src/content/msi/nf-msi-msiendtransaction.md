@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiEndTransaction
 title: MsiEndTransaction function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiEndTransaction function can commit or roll back all the installations belonging to the transaction opened by the MsiBeginTransaction function.
 old-location: setup\msiendtransaction.htm
 old-project: Msi
 ms.assetid: 70912430-63d7-4087-858c-fb13f47008e2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiEndTransaction, setup.msiendtransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminAcceptNewConnection2
 title: MprAdminAcceptNewConnection2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Remote Access Service calls the MprAdminAcceptNewConnection2 function each time a new user dials in and successfully completes RAS authentication. MprAdminAcceptNewConnection2 determines whether the user is allowed to connect.
 old-location: rras\mpradminacceptnewconnection2.htm
 old-project: RRAS
 ms.assetid: 72cdcb3c-c44c-405c-ab4b-93bf9c628acf
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminAcceptNewConnection2, MprAdminAcceptNewConnection2 callback, MprAdminAcceptNewConnection2 callback function [RAS], _mpr_mpradminacceptnewconnection2, mprapi/MprAdminAcceptNewConnection2, rras.mpradminacceptnewconnection2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

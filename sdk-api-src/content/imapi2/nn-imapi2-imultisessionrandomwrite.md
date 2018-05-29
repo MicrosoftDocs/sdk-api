@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IMultisessionRandomWrite
 title: IMultisessionRandomWrite
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to retrieve information about the current state of media allowing random writes and not supporting the concept of physical sessions.
 old-location: imapi\imultisessionrandomwrite.htm
 old-project: imapi
 ms.assetid: 1843254d-7947-4197-9c1b-6dc01abe9354
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMultisessionRandomWrite, IMultisessionRandomWrite interface [IMAPI], IMultisessionRandomWrite interface [IMAPI],described, imapi.imultisessionrandomwrite, imapi2/IMultisessionRandomWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

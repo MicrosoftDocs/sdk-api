@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_SelectItem
 title: TreeView_SelectItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Selects the specified tree-view item. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
 old-location: controls\TreeView_SelectItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_SelectItem, TreeView_SelectItem macro [Windows Controls], _win32_TreeView_SelectItem, _win32_TreeView_SelectItem_cpp, commctrl/TreeView_SelectItem, controls.TreeView_SelectItem, controls._win32_TreeView_SelectItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

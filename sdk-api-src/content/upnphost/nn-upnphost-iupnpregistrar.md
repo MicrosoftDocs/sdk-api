@@ -1,16 +1,16 @@
 ---
 UID: NN:upnphost.IUPnPRegistrar
 title: IUPnPRegistrar
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPRegistrar interface registers the devices that run in the context of the device host.
 old-location: upnp\iupnpregistrar.htm
 old-project: UPnP
 ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], IUPnPRegistrar interface [UPnP APIs],described, _upnp_iupnpregistrar, upnp.iupnpregistrar, upnphost/IUPnPRegistrar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

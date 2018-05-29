@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.Add
 title: IOpcCertificateSet::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a certificate to the set.
 old-location: opc\iopccertificateset_add.htm
 old-project: OPC
 ms.assetid: d14e9a1e-dda3-4b57-9882-0fd473a19e8c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Add, Add method [Open Packaging Conventions], Add method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],Add method, IOpcCertificateSet.Add, IOpcCertificateSet::Add, msopc/IOpcCertificateSet::Add, opc.iopccertificateset_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

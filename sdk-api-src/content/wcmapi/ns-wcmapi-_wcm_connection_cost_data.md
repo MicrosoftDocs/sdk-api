@@ -1,16 +1,16 @@
 ---
 UID: NS:wcmapi._WCM_CONNECTION_COST_DATA
 title: "_WCM_CONNECTION_COST_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies information about a connection cost.
 old-location: wcm\wcm_connection_cost_data.htm
 old-project: wcm
 ms.assetid: 18fcc708-74b1-408f-a7ee-64455742324d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA structure pointer [Windows Connection Manager], WCM_CONNECTION_COST_CONGESTED, WCM_CONNECTION_COST_DATA, WCM_CONNECTION_COST_DATA structure [Windows Connection Manager], WCM_CONNECTION_COST_FIXED, WCM_CONNECTION_COST_OVERDATALIMIT, WCM_CONNECTION_COST_ROAMING, WCM_CONNECTION_COST_UNKNOWN, WCM_CONNECTION_COST_UNRESTRICTED, WCM_CONNECTION_COST_VARIABLE, _WCM_CONNECTION_COST_DATA, wcm.wcm_connection_cost_data, wcmapi/PWCM_CONNECTION_COST_DATA, wcmapi/WCM_CONNECTION_COST_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

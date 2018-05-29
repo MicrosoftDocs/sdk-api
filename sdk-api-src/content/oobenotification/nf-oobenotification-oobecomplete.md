@@ -1,16 +1,16 @@
 ---
 UID: NF:oobenotification.OOBEComplete
 title: OOBEComplete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether OOBE (Windows Welcome) has been completed.
 old-location: windowssetupandmigration\oobecomplete.htm
 old-project: WNF
 ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: OOBEComplete, OOBEComplete function, oobenotification/OOBEComplete, windowssetupandmigration.oobecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oobenotification.h
 req.include-header: 

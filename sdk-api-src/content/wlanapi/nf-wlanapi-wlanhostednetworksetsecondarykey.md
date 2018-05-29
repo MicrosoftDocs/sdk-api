@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkSetSecondaryKey
 title: WlanHostedNetworkSetSecondaryKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the secondary security key that will be used by the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworksetsecondarykey.htm
 old-project: NativeWiFi
 ms.assetid: 385148fd-b5cd-4221-be25-077f484e93e9
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanHostedNetworkSetSecondaryKey, WlanHostedNetworkSetSecondaryKey function [NativeWIFI], nwifi.wlanhostednetworksetsecondarykey, wlanapi/WlanHostedNetworkSetSecondaryKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch2.IsRestricted
 title: IShellDispatch2::IsRestricted
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a group's restriction setting from the registry.
 old-location: shell\IShellDispatch2_IsRestricted.htm
 old-project: shell
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],IsRestricted method, IShellDispatch2.IsRestricted, IShellDispatch2::IsRestricted, IsRestricted, IsRestricted method [Windows Shell], IsRestricted method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_IsRestricted, shell.IShellDispatch2_IsRestricted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

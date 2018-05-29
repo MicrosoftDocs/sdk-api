@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoFreeLibrary
 title: CoFreeLibrary function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a library that, when loaded, was specified to be freed explicitly.
 old-location: com\cofreelibrary.htm
 old-project: com
 ms.assetid: 3959e7d9-6220-474e-8f85-76f7f935727f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoFreeLibrary, CoFreeLibrary function [COM], _com_CoFreeLibrary, com.cofreelibrary, objbase/CoFreeLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

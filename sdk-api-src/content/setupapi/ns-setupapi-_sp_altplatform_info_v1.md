@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_ALTPLATFORM_INFO_V1
 title: "_SP_ALTPLATFORM_INFO_V1"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_ALTPLATFORM_INFO structure specifies, for a given computer, the version of the operating system and the computer's processor architecture.
 old-location: devinst\sp_altplatform_info.htm
 old-project: devinst
 ms.assetid: d9aba6c9-1b23-4ce0-b796-904b39bec3ac
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO, PSP_ALTPLATFORM_INFO structure pointer [Device and Driver Installation], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO structure [Device and Driver Installation], SP_ALTPLATFORM_INFO_V1, _SP_ALTPLATFORM_INFO_V1, devinst.sp_altplatform_info, di-struct_54b56314-f153-4d55-903f-561c7649208e.xml, setupapi/PSP_ALTPLATFORM_INFO, setupapi/SP_ALTPLATFORM_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

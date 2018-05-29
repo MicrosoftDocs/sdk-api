@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarFormat
 title: VarFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a variant into string form by parsing a format string.
 old-location: automat\varformat.htm
 old-project: automat
 ms.assetid: 2e1b4fd1-a86b-4933-8934-5d725168a2cd
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarFormat, VarFormat function [Automation], _oa96_VarFormat, automat.varformat, oleauto/VarFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

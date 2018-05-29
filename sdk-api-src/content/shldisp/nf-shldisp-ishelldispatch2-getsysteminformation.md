@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch2.GetSystemInformation
 title: IShellDispatch2::GetSystemInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves system information.
 old-location: shell\IShellDispatch2_GetSystemInformation.htm
 old-project: shell
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSystemInformation, GetSystemInformation method [Windows Shell], GetSystemInformation method [Windows Shell],IShellDispatch2 object, IShellDispatch2 object [Windows Shell],GetSystemInformation method, IShellDispatch2.GetSystemInformation, IShellDispatch2::GetSystemInformation, _win32_IShellDispatch2_GetSystemInformation, shell.IShellDispatch2_GetSystemInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

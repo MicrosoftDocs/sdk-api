@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesUserType
 title: tagAutomaticUpdatesUserType
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the type of user.
 old-location: wua\automaticupdatesusertype.htm
 old-project: Wua_Sdk
 ms.assetid: e18c7aa0-111b-4209-bc7f-e533a26d684c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AutomaticUpdatesUserType, AutomaticUpdatesUserType enumeration [Windows Update Agent], auutCurrentUser, auutLocalAdministrator, tagAutomaticUpdatesUserType, wua.automaticupdatesusertype, wuapi/AutomaticUpdatesUserType, wuapi/auutCurrentUser, wuapi/auutLocalAdministrator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetRecordContentNibbles
 title: IDvbContentDescriptor::GetRecordContentNibbles
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the two 4-bit fields that make up a DVB-defined identifier for a content descriptor.
 old-location: mstv\idvbcontentdescriptor_getrecordcontentnibbles.htm
 old-project: mstv
 ms.assetid: 2b05403a-cf9e-4f23-907f-ffb90b6fc5e3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordContentNibbles, GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetRecordContentNibbles method, IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

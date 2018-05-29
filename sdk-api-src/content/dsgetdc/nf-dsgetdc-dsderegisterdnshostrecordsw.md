@@ -1,16 +1,16 @@
 ---
 UID: NF:dsgetdc.DsDeregisterDnsHostRecordsW
 title: DsDeregisterDnsHostRecordsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsDeregisterDnsHostRecords function deletes DNS entries, except for type A records registered by a domain controller. Only an administrator, account operator, or server operator may call this function.
 old-location: ad\dsderegisterdnshostrecords.htm
 old-project: AD
 ms.assetid: 18ab6455-dab2-42d9-b68e-a8f0ad2d8091
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsDeregisterDnsHostRecords, DsDeregisterDnsHostRecords function [Active Directory], DsDeregisterDnsHostRecordsA, DsDeregisterDnsHostRecordsW, _glines_dsderegisterdnshostrecords, ad.dsderegisterdnshostrecords, dsgetdc/DsDeregisterDnsHostRecords, dsgetdc/DsDeregisterDnsHostRecordsA, dsgetdc/DsDeregisterDnsHostRecordsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

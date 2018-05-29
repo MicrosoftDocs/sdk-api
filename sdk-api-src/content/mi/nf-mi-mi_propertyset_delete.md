@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_PropertySet_Delete
 title: MI_PropertySet_Delete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified property list that was constructed on the heap.
 old-location: wmi_v2\mi_propertyset_delete.htm
 old-project: wmi_v2
 ms.assetid: 8ab75a67-0b0e-443b-87b1-ca33f44dde9b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_PropertySet_Delete, MI_PropertySet_Delete function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Delete, wmi_v2.mi_propertyset_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

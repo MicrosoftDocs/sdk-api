@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRule.get_InterfaceTypes
 title: INetFwRule::get_InterfaceTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the list of interface types for which the rule applies.
 old-location: ics\inetfwrule_interfacetypes.htm
 old-project: ICS
 ms.assetid: 2548875c-3c23-4076-9d3d-82bebf5e7718
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRule interface [ICS/ICF],InterfaceTypes property, INetFwRule.InterfaceTypes, INetFwRule.get_InterfaceTypes, INetFwRule::InterfaceTypes, INetFwRule::get_InterfaceTypes, INetFwRule::put_InterfaceTypes, InterfaceTypes property [ICS/ICF], InterfaceTypes property [ICS/ICF],INetFwRule interface, get_InterfaceTypes, ics.inetfwrule_interfacetypes, netfw/INetFwRule::InterfaceTypes, netfw/INetFwRule::get_InterfaceTypes, netfw/INetFwRule::put_InterfaceTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

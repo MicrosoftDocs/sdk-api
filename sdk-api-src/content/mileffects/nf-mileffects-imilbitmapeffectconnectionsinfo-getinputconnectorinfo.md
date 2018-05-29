@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetInputConnectorInfo
 title: IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IMILBitmapEffectConnectorInfo associated with the given input pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getinputconnectorinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: GetInputConnectorInfo, GetInputConnectorInfo method [WPF Bitmap Effects], GetInputConnectorInfo method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetInputConnectorInfo method, IMILBitmapEffectConnectionsInfo.GetInputConnectorInfo, IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

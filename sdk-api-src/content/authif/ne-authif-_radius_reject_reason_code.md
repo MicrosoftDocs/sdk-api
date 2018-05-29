@@ -1,16 +1,16 @@
 ---
 UID: NE:authif._RADIUS_REJECT_REASON_CODE
 title: "_RADIUS_REJECT_REASON_CODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RADIUS_REJECT_REASON_CODE enumeration defines the possible RADIUS packet reject codes.
 old-location: nps\IAS_radius_reject_reason_code.htm
 old-project: Nps
 ms.assetid: b8db4404-40ab-4f28-96ce-43359c959546
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: RADIUS_REJECT_REASON_CODE, RADIUS_REJECT_REASON_CODE enumeration [Network Policy Server], _RADIUS_REJECT_REASON_CODE, authif/RADIUS_REJECT_REASON_CODE, authif/rrrcAccountDisabled, authif/rrrcAccountExpired, authif/rrrcAccountUnknown, authif/rrrcAuthenticationFailure, authif/rrrcUndefined, ias.radius_reject_reason_code, nps.IAS_radius_reject_reason_code, rrrcAccountDisabled, rrrcAccountExpired, rrrcAccountUnknown, rrrcAuthenticationFailure, rrrcUndefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 

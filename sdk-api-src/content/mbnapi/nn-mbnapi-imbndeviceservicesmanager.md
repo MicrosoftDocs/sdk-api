@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesManager
 title: IMbnDeviceServicesManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to IMbnDeviceServicesContext objects and Mobile Broadband device service notifications.
 old-location: mbn\imbndeviceservicesmanager.htm
 old-project: mbn
 ms.assetid: 6CFF2275-0649-4009-84F2-0657B2FF281C
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnDeviceServicesManager, IMbnDeviceServicesManager interface [Microsoft Broadband Networks], IMbnDeviceServicesManager interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesmanager, mbnapi/IMbnDeviceServicesManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

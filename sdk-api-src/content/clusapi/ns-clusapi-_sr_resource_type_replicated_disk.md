@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_DISK
 title: "_SR_RESOURCE_TYPE_REPLICATED_DISK"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a replicated disk.
 old-location: mscs\sr_resource_type_replicated_disk.htm
 old-project: MsCS
 ms.assetid: 0C020CC3-43CD-49ED-B42D-2365D76ED40D
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_DISK, SR_RESOURCE_TYPE_REPLICATED_DISK structure [Failover Cluster], _SR_RESOURCE_TYPE_REPLICATED_DISK, clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISK, clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK, mscs.sr_resource_type_replicated_disk"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

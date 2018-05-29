@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfCandidateListUIElement
 title: ITfCandidateListUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCandidateListUIElement interface is implemented by a text service that has the candidate list UI.
 old-location: tsf\itfcandidatelistuielement.htm
 old-project: TSF
 ms.assetid: 1f39aa06-3c94-4959-b857-ca61498d5b5c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], ITfCandidateListUIElement interface [Text Services Framework],described, _tsf_itfcandidatelistuielement_ref, msctf/ITfCandidateListUIElement, tsf.itfcandidatelistuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

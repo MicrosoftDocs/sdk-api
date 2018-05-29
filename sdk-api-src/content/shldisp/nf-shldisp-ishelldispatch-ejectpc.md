@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.EjectPC
 title: IShellDispatch::EjectPC
-author: windows-driver-content
+author: windows-sdk-content
 description: Ejects the computer from its docking station. This is the same as clicking the Start menu and selecting Eject PC, if your computer supports this command.
 old-location: shell\IShellDispatch_EjectPC.htm
 old-project: shell
 ms.assetid: 34448D82-187C-40aa-90B4-A4111B33048B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EjectPC, EjectPC method [Windows Shell], EjectPC method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],EjectPC method, IShellDispatch.EjectPC, IShellDispatch::EjectPC, shell.IShellDispatch_EjectPC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

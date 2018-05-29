@@ -1,16 +1,16 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the style of a dash cap on a dashed stroke.
 old-location: xps\xps_dash_cap.htm
 old-project: printdocs
 ms.assetid: 8c4d7314-71ad-4700-bc3e-f611e72c05df
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_DASH_CAP, XPS_DASH_CAP enumeration [XPS Documents and Packaging], XPS_DASH_CAP_FLAT, XPS_DASH_CAP_ROUND, XPS_DASH_CAP_SQUARE, XPS_DASH_CAP_TRIANGLE, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006, xps.xps_dash_cap, xpsobjectmodel/XPS_DASH_CAP, xpsobjectmodel/XPS_DASH_CAP_FLAT, xpsobjectmodel/XPS_DASH_CAP_ROUND, xpsobjectmodel/XPS_DASH_CAP_SQUARE, xpsobjectmodel/XPS_DASH_CAP_TRIANGLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

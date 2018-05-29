@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.IsMember
 title: IHomeGroup::IsMember
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the local computer is a member of a HomeGroup.
 old-location: shell\IHomeGroup_IsMember.htm
 old-project: shell
 ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

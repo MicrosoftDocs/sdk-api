@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WFDStartOpenSession
 title: WFDStartOpenSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts an on-demand connection to a specific Wi-Fi Direct device, which has been previously paired through the Windows Pairing experience.
 old-location: nwifi\wfdstartopensession.htm
 old-project: NativeWiFi
 ms.assetid: CF1FF7C2-31CD-4FAB-9891-0A72BEA3E9F1
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WFDStartOpenSession, WFDStartOpenSession function [NativeWIFI], nwifi.wfdstartopensession, wlanapi/WFDStartOpenSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: 

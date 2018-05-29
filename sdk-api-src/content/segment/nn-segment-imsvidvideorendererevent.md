@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidVideoRendererEvent
 title: IMSVidVideoRendererEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidvideorendererevent.htm
 old-project: mstv
 ms.assetid: ff451fa3-a755-4969-bccc-3a014865e7a9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRendererEvent, IMSVidVideoRendererEvent interface [Microsoft TV Technologies], IMSVidVideoRendererEvent interface [Microsoft TV Technologies],described, IMSVidVideoRendererEventInterface, mstv.imsvidvideorendererevent, segment/IMSVidVideoRendererEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

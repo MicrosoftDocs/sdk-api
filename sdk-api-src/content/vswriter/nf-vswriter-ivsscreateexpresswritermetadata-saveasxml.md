@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SaveAsXML
 title: IVssCreateExpressWriterMetadata::SaveAsXML
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
 old-location: base\ivsscreateexpresswritermetadata_saveasxml.htm
 old-project: VSS
 ms.assetid: c2a1ba98-74a1-4944-ac31-fec364060a75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SaveAsXML method, IVssCreateExpressWriterMetadata.SaveAsXML, IVssCreateExpressWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method, SaveAsXML method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_saveasxml, vswriter/IVssCreateExpressWriterMetadata::SaveAsXML
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

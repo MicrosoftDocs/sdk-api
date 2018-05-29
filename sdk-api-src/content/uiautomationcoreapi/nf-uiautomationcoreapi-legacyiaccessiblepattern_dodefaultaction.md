@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_DoDefaultAction
 title: LegacyIAccessiblePattern_DoDefaultAction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs the Microsoft Active Accessibility default action for the element.
 old-location: winauto\uiauto_LegacyIAccessiblePattern_DoDefaultAction.htm
 old-project: WinAuto
 ms.assetid: 7923de3b-4e9e-4e2d-8c0c-e1cfdd983ba8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: LegacyIAccessiblePattern_DoDefaultAction, LegacyIAccessiblePattern_DoDefaultAction function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction, uiauto_LegacyIAccessiblePattern_DoDefaultAction, uiautomationcoreapi/LegacyIAccessiblePattern_DoDefaultAction, winauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

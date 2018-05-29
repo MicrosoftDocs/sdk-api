@@ -1,16 +1,16 @@
 ---
 UID: NF:appmgmt.GetManagedApplicationCategories
 title: GetManagedApplicationCategories function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetManagedApplicationCategories function gets a list of application categories for a domain. The list is the same for all users in the domain.
 old-location: policy\getmanagedapplicationcategories.htm
 old-project: Policy
 ms.assetid: 10824852-7810-483a-91b3-2d9cc3d21934
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetManagedApplicationCategories, GetManagedApplicationCategories function [Group Policy], appmgmt/GetManagedApplicationCategories, policy.getmanagedapplicationcategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 

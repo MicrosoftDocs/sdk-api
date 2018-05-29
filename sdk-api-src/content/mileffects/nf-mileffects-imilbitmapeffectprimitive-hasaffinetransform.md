@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.HasAffineTransform
 title: IMILBitmapEffectPrimitive::HasAffineTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the effect has an affine transform.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasaffinetransform.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasaffinetransform.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: HasAffineTransform, HasAffineTransform method [WPF Bitmap Effects], HasAffineTransform method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],HasAffineTransform method, IMILBitmapEffectPrimitive.HasAffineTransform, IMILBitmapEffectPrimitive::HasAffineTransform, _wibe_imilbitmapeffectprimitive_hasaffinetransform, mileffects/IMILBitmapEffectPrimitive::HasAffineTransform, wibe._wibe_imilbitmapeffectprimitive_hasaffinetransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

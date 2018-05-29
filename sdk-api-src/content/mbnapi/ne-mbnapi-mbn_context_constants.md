@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_CONTEXT_CONSTANTS
 title: MBN_CONTEXT_CONSTANTS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_CONTEXT_CONSTANTS enumerated type specifies the maximum string lengths supported by members of the MBN_CONTEXT structure.
 old-location: mbn\mbn_context_constants.htm
 old-project: mbn
 ms.assetid: 064ff090-eb45-4cfa-99bd-d92db8397fc3
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_ACCESSSTRING_LEN, MBN_CONTEXT_CONSTANTS, MBN_CONTEXT_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_CONTEXT_ID_APPEND, MBN_PASSWORD_LEN, MBN_USERNAME_LEN, mbn.mbn_context_constants, mbnapi/MBN_ACCESSSTRING_LEN, mbnapi/MBN_CONTEXT_CONSTANTS, mbnapi/MBN_CONTEXT_ID_APPEND, mbnapi/MBN_PASSWORD_LEN, mbnapi/MBN_USERNAME_LEN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

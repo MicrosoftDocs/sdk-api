@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHPatternObjectFromVariant
 title: UiaHPatternObjectFromVariant function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a control pattern object from a VARIANT type.
 old-location: winauto\uiauto_UiaHPatternObjectFromVariantFunction.htm
 old-project: WinAuto
 ms.assetid: dd5d0d4b-75fa-4215-bd48-79d58a9a4862
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaHPatternObjectFromVariant, UiaHPatternObjectFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHPatternObjectFromVariantFunction, uiauto_UiaHPatternObjectFromVariantFunction, uiautomationcoreapi/UiaHPatternObjectFromVariant, winauto.uiauto_UiaHPatternObjectFromVariantFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

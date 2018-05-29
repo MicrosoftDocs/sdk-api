@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHAnsiToUnicode
 title: SHAnsiToUnicode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string from the ANSI code page to the Unicode code page.
 old-location: shell\SHAnsiToUnicode.htm
 old-project: shell
 ms.assetid: 9578f26e-56ea-4f3b-b024-b2e285d0c4d2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHAnsiToUnicode, SHAnsiToUnicode function [Windows Shell], _win32_SHAnsiToUnicode, shell.SHAnsiToUnicode, shlwapi/SHAnsiToUnicode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

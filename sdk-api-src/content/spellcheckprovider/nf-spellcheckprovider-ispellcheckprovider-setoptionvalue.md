@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.SetOptionValue
 title: ISpellCheckProvider::SetOptionValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value associated with the given option.
 old-location: intl\ispellcheckprovider_setoptionvalue.htm
 old-project: Intl
 ms.assetid: 635E6024-DD9F-403D-B05F-B719EFE78FC0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],SetOptionValue method, ISpellCheckProvider.SetOptionValue, ISpellCheckProvider::SetOptionValue, SetOptionValue, SetOptionValue method [Internationalization for Windows Applications], SetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_setoptionvalue, spellcheckprovider/ISpellCheckProvider::SetOptionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

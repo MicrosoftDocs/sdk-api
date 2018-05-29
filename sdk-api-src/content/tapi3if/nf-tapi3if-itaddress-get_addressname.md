@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddress.get_AddressName
 title: ITAddress::get_AddressName
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AddressName method gets the displayable name of the address.
 old-location: tapi3\itaddress_get_addressname.htm
 old-project: Tapi
 ms.assetid: cb26dcf5-0192-4156-914b-9aa6e76a2bd2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_AddressName method, ITAddress.get_AddressName, ITAddress::get_AddressName, _tapi3_itaddress_get_addressname, get_AddressName, get_AddressName method [TAPI 2.2], get_AddressName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_addressname, tapi3if/ITAddress::get_AddressName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

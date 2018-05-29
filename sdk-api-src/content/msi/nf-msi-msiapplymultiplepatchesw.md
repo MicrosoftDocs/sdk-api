@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiApplyMultiplePatchesW
 title: MsiApplyMultiplePatchesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies one or more patches to products eligible to receive the patches.
 old-location: setup\msiapplymultiplepatches.htm
 old-project: Msi
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiApplyMultiplePatches, MsiApplyMultiplePatches function, MsiApplyMultiplePatchesA, MsiApplyMultiplePatchesW, msi/MsiApplyMultiplePatches, msi/MsiApplyMultiplePatchesA, msi/MsiApplyMultiplePatchesW, setup.msiapplymultiplepatches
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

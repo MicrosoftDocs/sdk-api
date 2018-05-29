@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaClose
 title: LsaClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LsaClose function closes a handle to a Policy or TrustedDomain object.
 old-location: security\lsaclose.htm
 old-project: SecMgmt
 ms.assetid: 6283b1da-4ec3-48e1-91f6-321c6390befe
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/LsaClose, security.lsaclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

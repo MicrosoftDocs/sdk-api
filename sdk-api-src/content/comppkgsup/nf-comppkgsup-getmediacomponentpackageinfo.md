@@ -1,16 +1,16 @@
 ---
 UID: NF:comppkgsup.GetMediaComponentPackageInfo
 title: GetMediaComponentPackageInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of properties for all media codecs installed on the system that meet the specified requirements.
 old-location: winprog\getmediacomponentpackageinfo.htm
 old-project: DevNotes
 ms.assetid: EDBC9F34-62C3-4256-9AEC-9A743608B5B7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetMediaComponentPackageInfo, GetMediaComponentPackageInfo function [Windows API], comppkgsup/GetMediaComponentPackageInfo, winprog.getmediacomponentpackageinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

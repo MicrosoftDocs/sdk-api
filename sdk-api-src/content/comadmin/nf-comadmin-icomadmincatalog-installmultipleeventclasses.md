@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallMultipleEventClasses
 title: ICOMAdminCatalog::InstallMultipleEventClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs event classes from multiple files into a COM+ application.
 old-location: cos\icomadmincatalog_installmultipleeventclasses.htm
 old-project: cossdk
 ms.assetid: 12860254-4658-4e0d-ad00-7e25875037bf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleEventClasses method, ICOMAdminCatalog.InstallMultipleEventClasses, ICOMAdminCatalog::InstallMultipleEventClasses, InstallMultipleEventClasses, InstallMultipleEventClasses method [COM+], InstallMultipleEventClasses method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleEventClasses, comadmin/ICOMAdminCatalog::InstallMultipleEventClasses, cos.icomadmincatalog_installmultipleeventclasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

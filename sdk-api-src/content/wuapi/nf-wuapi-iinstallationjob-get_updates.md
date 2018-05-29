@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_Updates
 title: IInstallationJob::get_Updates
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
 old-location: wua\iinstallationjob_updates.htm
 old-project: Wua_Sdk
 ms.assetid: f6a21db3-1182-4650-8502-814db88cbacb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],Updates property, IInstallationJob.Updates, IInstallationJob.get_Updates, IInstallationJob::Updates, IInstallationJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IInstallationJob interface, get_Updates, wua.iinstallationjob_updates, wuapi/IInstallationJob::Updates, wuapi/IInstallationJob::get_Updates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

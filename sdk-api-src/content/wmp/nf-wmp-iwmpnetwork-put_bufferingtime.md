@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPNetwork.put_bufferingTime
 title: IWMPNetwork::put_bufferingTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_bufferingTime method specifies the amount of time in milliseconds allocated for buffering incoming data before playing begins.
 old-location: wmp\iwmpnetwork_put_bufferingtime.htm
 old-project: WMP
 ms.assetid: 9f25992f-e3a0-477b-b445-1f3fb7d9eae1
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],put_bufferingTime method, IWMPNetwork.put_bufferingTime, IWMPNetwork::put_bufferingTime, IWMPNetworkput_bufferingTime, put_bufferingTime, put_bufferingTime method [Windows Media Player], put_bufferingTime method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_bufferingtime, wmp/IWMPNetwork::put_bufferingTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

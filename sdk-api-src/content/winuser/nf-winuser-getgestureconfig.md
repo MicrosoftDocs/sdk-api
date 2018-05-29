@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetGestureConfig
 title: GetGestureConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the configuration for which Windows Touch gesture messages are sent from a window.
 old-location: wintouch\getgestureconfig.htm
 old-project: wintouch
 ms.assetid: 8b7a594c-e9e4-4215-8946-da170c957a2b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetGestureConfig, GetGestureConfig function [Windows Touch], wintouch.getgestureconfig, winuser/GetGestureConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

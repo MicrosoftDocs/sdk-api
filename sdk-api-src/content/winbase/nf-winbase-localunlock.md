@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.LocalUnlock
 title: LocalUnlock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrements the lock count associated with a memory object that was allocated with LMEM_MOVEABLE.
 old-location: base\localunlock.htm
 old-project: Memory
 ms.assetid: eac40b69-5fb6-4523-826d-a012f6f4e5ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LocalUnlock, LocalUnlock function, _win32_localunlock, base.localunlock, winbase/LocalUnlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

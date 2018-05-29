@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.UpdateAllDesktopSubscriptions
 title: UpdateAllDesktopSubscriptions function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Enumerates the URLs of all the Desktop components and then tests to see if they are subscribed to. If they are subscribed to, the subscriptions are delivered.
 old-location: shell\UpdateAllDesktopSubscriptions.htm
 old-project: shell
 ms.assetid: 731bac41-ca1f-4bee-9314-28b5773eb694
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UpdateAllDesktopSubscriptions, UpdateAllDesktopSubscriptions function [Windows Shell], _win32_UpdateAllDesktopSubscriptions, shell.UpdateAllDesktopSubscriptions, shlobj/UpdateAllDesktopSubscriptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

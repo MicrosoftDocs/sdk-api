@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsdefs._WRDS_CONNECTION_SETTINGS
 title: "_WRDS_CONNECTION_SETTINGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains connection setting information for a remote session.
 old-location: termserv\wrds_connection_settings.htm
 old-project: TermServ
 ms.assetid: 9219AE45-5F11-484E-BD78-F8E1AB41D648
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS, WRDS_CONNECTION_SETTINGS structure [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, _WRDS_CONNECTION_SETTINGS, termserv.wrds_connection_settings, wtsdefs/PWRDS_CONNECTION_SETTINGS, wtsdefs/WRDS_CONNECTION_SETTINGS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

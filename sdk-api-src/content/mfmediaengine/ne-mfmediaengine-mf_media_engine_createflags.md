@@ -1,16 +1,16 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_CREATEFLAGS
 title: MF_MEDIA_ENGINE_CREATEFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags for the IMFMediaEngineClassFactory::CreateInstance method.
 old-location: mf\mf_media_engine_createflags.htm
 old-project: medfound
 ms.assetid: 1709B08C-D4DC-4A33-9B92-1C4961208684
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_MEDIA_ENGINE_AUDIOONLY, MF_MEDIA_ENGINE_CREATEFLAGS, MF_MEDIA_ENGINE_CREATEFLAGS enumeration [Media Foundation], MF_MEDIA_ENGINE_CREATEFLAGS_MASK, MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS, MF_MEDIA_ENGINE_FORCEMUTE, MF_MEDIA_ENGINE_REAL_TIME_MODE, MF_MEDIA_ENGINE_WAITFORSTABLE_STATE, mf.mf_media_engine_createflags, mfmediaengine/MF_MEDIA_ENGINE_AUDIOONLY, mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS, mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS_MASK, mfmediaengine/MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS, mfmediaengine/MF_MEDIA_ENGINE_FORCEMUTE, mfmediaengine/MF_MEDIA_ENGINE_REAL_TIME_MODE, mfmediaengine/MF_MEDIA_ENGINE_WAITFORSTABLE_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescriptionList.GetAt
 title: IPropertyDescriptionList::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the property description at the specified index in a property description list.
 old-location: properties\IPropertyDescriptionList_GetAt.htm
 old-project: properties
 ms.assetid: ab4967b8-6650-49fa-b6d5-d72688b080db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyDescriptionList interface, IPropertyDescriptionList interface [Windows Properties],GetAt method, IPropertyDescriptionList.GetAt, IPropertyDescriptionList::GetAt, _shell_IPropertyDescriptionList_GetAt, properties.IPropertyDescriptionList_GetAt, propsys/IPropertyDescriptionList::GetAt, shell.IPropertyDescriptionList_GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

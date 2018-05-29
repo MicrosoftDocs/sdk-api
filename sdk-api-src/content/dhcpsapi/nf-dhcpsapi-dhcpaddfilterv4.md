@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpAddFilterV4
 title: DhcpAddFilterV4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a link-layer address or address pattern to the allow/deny lists.
 old-location: dhcp\dhcpaddfilterv4.htm
 old-project: DHCP
 ms.assetid: 5543ef67-d095-44b8-b511-e6754aeb9881
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpAddFilterV4, DhcpAddFilterV4 function [DHCP], dhcp.dhcpaddfilterv4, dhcpsapi/DhcpAddFilterV4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

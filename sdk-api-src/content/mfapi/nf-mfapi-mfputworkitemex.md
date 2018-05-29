@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFPutWorkItemEx
 title: MFPutWorkItemEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Puts an asynchronous operation on a work queue.
 old-location: mf\mfputworkitemex.htm
 old-project: medfound
 ms.assetid: 67b4f7c6-0d49-4ed0-9bc3-e583451884af
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 67b4f7c6-0d49-4ed0-9bc3-e583451884af, MFPutWorkItemEx, MFPutWorkItemEx function [Media Foundation], mf.mfputworkitemex, mfapi/MFPutWorkItemEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

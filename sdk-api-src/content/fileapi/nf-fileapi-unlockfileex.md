@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.UnlockFileEx
 title: UnlockFileEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks a region in the specified file. This function can operate either synchronously or asynchronously.
 old-location: fs\unlockfileex.htm
 old-project: FileIO
 ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

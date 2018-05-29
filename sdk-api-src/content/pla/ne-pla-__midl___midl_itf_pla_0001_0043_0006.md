@@ -1,16 +1,16 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0006
 title: "__MIDL___MIDL_itf_pla_0001_0043_0006"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines where the trace events are delivered.
 old-location: pla\streammode.htm
 old-project: PLA
 ms.assetid: 38d9e78f-4ac1-4d65-80e7-9b32c5e79604
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: StreamMode, StreamMode enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0006, base.streammode, pla.streammode, pla/StreamMode, pla/plaBoth, pla/plaBuffering, pla/plaFile, pla/plaRealTime, plaBoth, plaBuffering, plaFile, plaRealTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

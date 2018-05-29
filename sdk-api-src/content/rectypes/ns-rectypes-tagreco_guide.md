@@ -1,16 +1,16 @@
 ---
 UID: NS:rectypes.tagRECO_GUIDE
 title: tagRECO_GUIDE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the boundaries of the ink to the recognizer.
 old-location: tablet\reco_guide.htm
 old-project: tablet
 ms.assetid: e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RECO_GUIDE, RECO_GUIDE structure [Tablet PC], e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7, rectypes/RECO_GUIDE, tablet.reco_guide, tagRECO_GUIDE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

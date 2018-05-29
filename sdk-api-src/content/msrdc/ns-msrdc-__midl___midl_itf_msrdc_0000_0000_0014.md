@@ -1,16 +1,16 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0014
 title: "__MIDL___MIDL_itf_msrdc_0000_0000_0014"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the similarity information that was returned for a file by the ISimilarityTableDumpState::GetNextData method.
 old-location: rdc\similaritydumpdata.htm
 old-project: Rdc
 ms.assetid: 0200008c-5664-445f-ae65-0eb004856a4c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SimilarityDumpData, SimilarityDumpData structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0014, fs.similaritydumpdata, msrdc/SimilarityDumpData, rdc.similaritydumpdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

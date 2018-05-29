@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfCandidateList
 title: ITfCandidateList
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCandidateList interface is implemented by a text service and is used by the TSF manager or a client (application or other text service) to obtain and manipulate candidate string objects.
 old-location: tsf\itfcandidatelist.htm
 old-project: TSF
 ms.assetid: e41ba461-6337-4feb-ba16-3942920ebb9f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCandidateList, ITfCandidateList interface [Text Services Framework], ITfCandidateList interface [Text Services Framework],described, _tsf_itfcandidatelist_ref, ctffunc/ITfCandidateList, tsf.itfcandidatelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

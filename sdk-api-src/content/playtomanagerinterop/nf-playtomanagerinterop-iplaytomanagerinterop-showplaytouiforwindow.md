@@ -1,16 +1,16 @@
 ---
 UID: NF:playtomanagerinterop.IPlayToManagerInterop.ShowPlayToUIForWindow
 title: IPlayToManagerInterop::ShowPlayToUIForWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Play To UI for the specified window.
 old-location: winrt\iplaytomanagerinterop_showplaytouiforwindow.htm
 old-project: WinRT
 ms.assetid: 106ddd95-06dd-479a-8350-39d791add469
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IPlayToManagerInterop interface [Windows Runtime],ShowPlayToUIForWindow method, IPlayToManagerInterop.ShowPlayToUIForWindow, IPlayToManagerInterop::ShowPlayToUIForWindow, ShowPlayToUIForWindow, ShowPlayToUIForWindow method [Windows Runtime], ShowPlayToUIForWindow method [Windows Runtime],IPlayToManagerInterop interface, playtomanagerinterop/IPlayToManagerInterop::ShowPlayToUIForWindow, winrt.iplaytomanagerinterop_showplaytouiforwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: playtomanagerinterop.h
 req.include-header: 

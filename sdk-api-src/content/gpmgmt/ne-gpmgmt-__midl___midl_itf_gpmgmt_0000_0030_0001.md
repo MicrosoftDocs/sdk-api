@@ -1,16 +1,16 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0030_0001
 title: "__MIDL___MIDL_itf_gpmgmt_0000_0030_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of backup created.
 old-location: gpmc\gpmbackuptype.htm
 old-project: GPMC
 ms.assetid: 048871f3-39ea-4bf6-bc04-b4a34cd1a9d0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMBackupType, GPMBackupType enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0030_0001, gpmc.gpmbackuptype, gpmgmt/GPMBackupType, gpmgmt/typeGPO, gpmgmt/typeStarterGPO, typeGPO, typeStarterGPO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 

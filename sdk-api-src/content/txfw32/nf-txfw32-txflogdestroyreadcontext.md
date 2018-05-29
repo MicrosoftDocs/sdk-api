@@ -1,16 +1,16 @@
 ---
 UID: NF:txfw32.TxfLogDestroyReadContext
 title: TxfLogDestroyReadContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a read context created by the TxfLogCreateFileReadContext function.
 old-location: fs\txflogdestroyreadcontext.htm
 old-project: FileIO
 ms.assetid: e1f323bd-48cb-4264-89a0-185d18881726
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TxfLogDestroyReadContext, TxfLogDestroyReadContext function [Files], fs.txflogdestroyreadcontext, txfw32/TxfLogDestroyReadContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: txfw32.h
 req.include-header: 

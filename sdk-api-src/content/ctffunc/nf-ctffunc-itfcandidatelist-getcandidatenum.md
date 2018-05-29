@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.GetCandidateNum
 title: ITfCandidateList::GetCandidateNum
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCandidateList::GetCandidateNum method
 old-location: tsf\itfcandidatelist_getcandidatenum.htm
 old-project: TSF
 ms.assetid: 53b8f8cc-776c-454a-86fa-6fa3b6ac097b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCandidateNum, GetCandidateNum method [Text Services Framework], GetCandidateNum method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidateNum method, ITfCandidateList.GetCandidateNum, ITfCandidateList::GetCandidateNum, _tsf_itfcandidatelist_getcandidatenum_ref, ctffunc/ITfCandidateList::GetCandidateNum, tsf.itfcandidatelist_getcandidatenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

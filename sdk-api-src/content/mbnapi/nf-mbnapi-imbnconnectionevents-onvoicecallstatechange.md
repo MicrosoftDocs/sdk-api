@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnVoiceCallStateChange
 title: IMbnConnectionEvents::OnVoiceCallStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method that indicates a change in the voice call state of a device.
 old-location: mbn\imbnconnectionevents_onvoicecallstatechange.htm
 old-project: mbn
 ms.assetid: c4f243b0-e6d5-4afc-85ad-0f88140c3beb
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnVoiceCallStateChange method, IMbnConnectionEvents.OnVoiceCallStateChange, IMbnConnectionEvents::OnVoiceCallStateChange, OnVoiceCallStateChange, OnVoiceCallStateChange method [Microsoft Broadband Networks], OnVoiceCallStateChange method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_onvoicecallstatechange, mbnapi/IMbnConnectionEvents::OnVoiceCallStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorNotifyEx
 title: IMFVideoSampleAllocatorNotifyEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The callback for the IMFVideoSampleAllocatorCallback interface.
 old-location: mf\imfvideosampleallocatornotifyex.htm
 old-project: medfound
 ms.assetid: 5B3EA486-A45F-4C7B-8E36-80C9C2FD64F2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation], IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],described, mf.imfvideosampleallocatornotifyex, mfidl/IMFVideoSampleAllocatorNotifyEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

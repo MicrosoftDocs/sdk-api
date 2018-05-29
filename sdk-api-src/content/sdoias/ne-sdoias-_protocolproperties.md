@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._PROTOCOLPROPERTIES
 title: "_PROTOCOLPROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the PROTOCOLPROPERTIES enumeration type enumerate properties of an authentication protocol.
 old-location: nps\SDO_protocolproperties.htm
 old-project: Nps
 ms.assetid: d4767047-3e33-4ae7-a05d-e0e5037cb103
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PROPERTY_PROTOCOL_REQUEST_HANDLER, PROPERTY_PROTOCOL_START, PROTOCOLPROPERTIES, PROTOCOLPROPERTIES enumeration [Network Policy Server], _PROTOCOLPROPERTIES, _sdo_protocolproperties, nps.SDO_protocolproperties, sdo.protocolproperties, sdoias/PROPERTY_PROTOCOL_REQUEST_HANDLER, sdoias/PROPERTY_PROTOCOL_START, sdoias/PROTOCOLPROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:lpmapi.CBGETRSVPOBJECTS
 title: CBGETRSVPOBJECTS
-author: windows-driver-content
+author: windows-sdk-content
 description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.
 old-location: qos\cbgetrsvpobjects.htm
 old-project: QOS
 ms.assetid: baedb3e9-7768-4666-8bd7-78dd1d0eb0de
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: CBGETRSVPOBJECTS, CBGETRSVPOBJECTS callback function [QOS], _gqos_cbpgetrsvpobjects, cbGetRsvpObjects, cbGetRsvpObjects callback, cbGetRsvpObjects callback function [QOS], lpmapi/cbGetRsvpObjects, qos.cbgetrsvpobjects, qos.cbpgetrsvpobjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: lpmapi.h
 req.include-header: 

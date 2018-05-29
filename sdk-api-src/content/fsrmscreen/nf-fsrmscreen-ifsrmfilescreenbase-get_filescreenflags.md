@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.get_FileScreenFlags
 title: IFsrmFileScreenBase::get_FileScreenFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the file screen flags.
 old-location: fsrm\ifsrmfilescreenbase_filescreenflags.htm
 old-project: Fsrm
 ms.assetid: af888368-36a8-401e-b4df-6b0cc0dfb422
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FileScreenFlags property [File Server Resource Manager], FileScreenFlags property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],FileScreenFlags property, IFsrmFileScreenBase.FileScreenFlags, IFsrmFileScreenBase.get_FileScreenFlags, IFsrmFileScreenBase::FileScreenFlags, IFsrmFileScreenBase::get_FileScreenFlags, IFsrmFileScreenBase::put_FileScreenFlags, fs.ifsrmfilescreenbase_filescreenflags, fsrm.ifsrmfilescreenbase_filescreenflags, fsrmscreen/IFsrmFileScreenBase::FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::get_FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::put_FileScreenFlags, get_FileScreenFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h

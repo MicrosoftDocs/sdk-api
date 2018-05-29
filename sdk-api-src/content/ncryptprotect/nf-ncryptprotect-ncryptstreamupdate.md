@@ -1,16 +1,16 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamUpdate
 title: NCryptStreamUpdate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts and decrypts blocks of data.
 old-location: security\ncryptstreamupdate.htm
 old-project: SecCNG
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptprotect/NCryptStreamUpdate, security.ncryptstreamupdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.IntServFlowSpec
 title: IntServFlowSpec
-author: windows-driver-content
+author: windows-sdk-content
 description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.
 old-location: qos\intservflowspec.htm
 old-project: QOS
 ms.assetid: c16115ba-03fa-4363-bf16-5341da54f792
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlowSpec, qos.intservflowspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

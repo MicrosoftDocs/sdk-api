@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.NtNotifyChangeMultipleKeys
 title: NtNotifyChangeMultipleKeys function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests notification when a registry key or any of its subkeys changes.
 old-location: winprog\ntnotifychangemultiplekeys.htm
 old-project: DevNotes
 ms.assetid: c1ee9793-490c-45de-a2a5-deab630917f6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NtNotifyChangeMultipleKeys, NtNotifyChangeMultipleKeys function [Windows API], REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, base.ntnotifychangemultiplekeys, winprog.ntnotifychangemultiplekeys, winternl/NtNotifyChangeMultipleKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToStringAlloc
 title: VariantToStringAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the variant value of a variant structure to a newly-allocated string. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToStringAlloc.htm
 old-project: properties
 ms.assetid: 9cd4433c-d8ad-43ef-bdb9-9c1b8d8bea01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToStringAlloc, VariantToStringAlloc function [Windows Properties], _shell_VariantToStringAlloc, properties.VariantToStringAlloc, propvarutil/VariantToStringAlloc, shell.VariantToStringAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

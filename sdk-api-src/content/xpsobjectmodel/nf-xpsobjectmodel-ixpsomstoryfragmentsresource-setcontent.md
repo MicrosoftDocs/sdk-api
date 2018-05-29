@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.SetContent
 title: IXpsOMStoryFragmentsResource::SetContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomstoryfragmentsresource_setcontent.htm
 old-project: printdocs
 ms.assetid: 861d9688-932b-4830-b52b-acd505524608
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],SetContent method, IXpsOMStoryFragmentsResource.SetContent, IXpsOMStoryFragmentsResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, xps.ixpsomstoryfragmentsresource_setcontent, xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

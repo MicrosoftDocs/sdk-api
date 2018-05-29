@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_NumberOfOutgoingCalls
 title: ITAgent::get_NumberOfOutgoingCalls
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NumberOfOutgoingCalls method gets the number of outgoing non-ACD calls handled during by this agent.
 old-location: tapi3\itagent_get_numberofoutgoingcalls.htm
 old-project: Tapi
 ms.assetid: fb2af58c-0b9e-4b00-8d8c-2fbfb2e0fc95
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfOutgoingCalls method, ITAgent.get_NumberOfOutgoingCalls, ITAgent::get_NumberOfOutgoingCalls, _tapi3_itagent_get_numberofoutgoingcalls, get_NumberOfOutgoingCalls, get_NumberOfOutgoingCalls method [TAPI 2.2], get_NumberOfOutgoingCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofoutgoingcalls, tapi3cc/ITAgent::get_NumberOfOutgoingCalls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

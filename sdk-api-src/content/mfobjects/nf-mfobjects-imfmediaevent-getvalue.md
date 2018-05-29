@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetValue
 title: IMFMediaEvent::GetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value associated with the event, if any. The value is retrieved as a PROPVARIANT structure. The actual data type and the meaning of the value depend on the event.
 old-location: mf\imfmediaevent_getvalue.htm
 old-project: medfound
 ms.assetid: 05e57b40-2565-4312-866e-50f0c7d62c4a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 05e57b40-2565-4312-866e-50f0c7d62c4a, GetValue, GetValue method [Media Foundation], GetValue method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetValue method, IMFMediaEvent.GetValue, IMFMediaEvent::GetValue, mf.imfmediaevent_getvalue, mfobjects/IMFMediaEvent::GetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

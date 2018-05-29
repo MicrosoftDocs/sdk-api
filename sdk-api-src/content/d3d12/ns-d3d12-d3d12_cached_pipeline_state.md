@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_CACHED_PIPELINE_STATE
 title: D3D12_CACHED_PIPELINE_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores a pipeline state.
 old-location: direct3d12\d3d12_cached_pipeline_state.htm
 old-project: direct3d12
 ms.assetid: 82A0CF70-7A16-45D5-A717-0BBB35DCC5A6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_CACHED_PIPELINE_STATE, D3D12_CACHED_PIPELINE_STATE structure, d3d12/D3D12_CACHED_PIPELINE_STATE, direct3d12.d3d12_cached_pipeline_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

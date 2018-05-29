@@ -1,16 +1,16 @@
 ---
 UID: NN:bits.IBackgroundCopyError
 title: IBackgroundCopyError
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.
 old-location: bits\ibackgroundcopyerror.htm
 old-project: Bits
 ms.assetid: a0b9e887-84d5-4f67-a65c-6a807c50dafd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyError, IBackgroundCopyError interface [BITS], IBackgroundCopyError interface [BITS],described, _drz_ibackgroundcopyerror, bits.ibackgroundcopyerror, bits/IBackgroundCopyError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits.h
 req.include-header: 

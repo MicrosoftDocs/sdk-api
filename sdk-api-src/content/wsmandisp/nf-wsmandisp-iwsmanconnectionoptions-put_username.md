@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.put_UserName
 title: IWSManConnectionOptions::put_UserName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets and gets the user name of a local or a domain account on the remote computer. This property determines the user name for authentication.
 old-location: winrm\iwsmanconnectionoptions_username.htm
 old-project: WinRM
 ms.assetid: 7b20fcac-0481-4619-aa57-f72318a9a68d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],UserName property, IWSManConnectionOptions.UserName, IWSManConnectionOptions.put_UserName, IWSManConnectionOptions::UserName, IWSManConnectionOptions::get_UserName, IWSManConnectionOptions::put_UserName, UserName property [Windows Remote Management], UserName property [Windows Remote Management],IWSManConnectionOptions interface, put_UserName, winrm.iwsmanconnectionoptions_username, wsmandisp/IWSManConnectionOptions::UserName, wsmandisp/IWSManConnectionOptions::get_UserName, wsmandisp/IWSManConnectionOptions::put_UserName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:inked.SelAlignmentConstants
 title: SelAlignmentConstants
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the alignment of the paragraph relative to the margins of the InkEdit control.
 old-location: tablet\selalignmentconstants.htm
 old-project: tablet
 ms.assetid: fdf5be40-e853-43a5-b1ac-b810c31fbeb3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SelAlignmentConstants, SelAlignmentConstants enumeration [Tablet PC], fdf5be40-e853-43a5-b1ac-b810c31fbeb3, inked/SelAlignmentConstants, inked/rtfCenter, inked/rtfLeft, inked/rtfRight, rtfCenter, rtfLeft, rtfRight, tablet.selalignmentconstants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

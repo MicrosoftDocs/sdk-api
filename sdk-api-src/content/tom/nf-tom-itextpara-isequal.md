@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.IsEqual
 title: ITextPara::IsEqual
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the current range has the same properties as a specified range.
 old-location: controls\ITextPara_IsEqual.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparaisequal.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextPara interface [Windows Controls],IsEqual method, ITextPara.IsEqual, ITextPara::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextPara interface, _win32_ITextPara_IsEqual, _win32_ITextPara_IsEqual_cpp, controls.ITextPara_IsEqual, controls._win32_ITextPara_IsEqual, tom/ITextPara::IsEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:bthledef._BLUETOOTH_GATT_VALUE_CHANGED_EVENT
 title: "_BLUETOOTH_GATT_VALUE_CHANGED_EVENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure describes a changed attribute value.
 old-location: bltooth\bluetooth_gatt_value_changed_event.htm
 old-project: bltooth
 ms.assetid: EC6E5B85-495E-401B-ADE5-D51891A4BDFE
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: "*PBLUETOOTH_GATT_VALUE_CHANGED_EVENT, BLUETOOTH_GATT_VALUE_CHANGED_EVENT, BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure [Bluetooth Devices], PBLUETOOTH_GATT_VALUE_CHANGED_EVENT, PBLUETOOTH_GATT_VALUE_CHANGED_EVENT structure pointer [Bluetooth Devices], _BLUETOOTH_GATT_VALUE_CHANGED_EVENT, bltooth.bluetooth_gatt_value_changed_event, bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT, bthledef/PBLUETOOTH_GATT_VALUE_CHANGED_EVENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h

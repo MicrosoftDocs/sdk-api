@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSRegisterSessionNotificationEx
 title: WTSRegisterSessionNotificationEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the specified window to receive session change notifications.
 old-location: termserv\wtsregistersessionnotificationex.htm
 old-project: TermServ
 ms.assetid: 8670643e-33e0-482a-ade0-d136b8c97d37
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotificationEx, WTSRegisterSessionNotificationEx function [Remote Desktop Services], termserv.wtsregistersessionnotificationex, wtsapi32/WTSRegisterSessionNotificationEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

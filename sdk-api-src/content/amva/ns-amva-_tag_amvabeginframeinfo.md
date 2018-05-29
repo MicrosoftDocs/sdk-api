@@ -1,16 +1,16 @@
 ---
 UID: NS:amva._tag_AMVABeginFrameInfo
 title: "_tag_AMVABeginFrameInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMVABeginFrameInfo structure contains information for the IAMVideoAccelerator::BeginFrame method.
 old-location: dshow\amvabeginframeinfo.htm
 old-project: DirectShow
 ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], _tag_AMVABeginFrameInfo, amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

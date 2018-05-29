@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_FAULT
 title: "_WS_FAULT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A Fault is a value carried in the body of a message which conveys a processing failure. Faults are modeled using the WS_FAULT structure.
 old-location: wsw\ws_fault.htm
 old-project: wsw
 ms.assetid: 7fe0b142-04a1-4a92-99ca-523412f7c94e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_FAULT, WS_FAULT structure [Web Services for Windows], _WS_FAULT, webservices/WS_FAULT, wsw.ws_fault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

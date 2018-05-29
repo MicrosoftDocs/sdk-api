@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase._FILE_ALLOCATION_INFO
 title: "_FILE_ALLOCATION_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the total number of bytes that should be allocated for a file.
 old-location: fs\file_allocation_info.htm
 old-project: FileIO
 ms.assetid: 909f1747-0099-407e-89a7-bec6331887da
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO, FILE_ALLOCATION_INFO structure [Files], PFILE_ALLOCATION_INFO, PFILE_ALLOCATION_INFO structure pointer [Files], _FILE_ALLOCATION_INFO, fileextd/FILE_ALLOCATION_INFO, fileextd/PFILE_ALLOCATION_INFO, fs.file_allocation_info, winbase/FILE_ALLOCATION_INFO, winbase/PFILE_ALLOCATION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

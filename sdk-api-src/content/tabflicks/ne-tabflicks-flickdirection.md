@@ -1,16 +1,16 @@
 ---
 UID: NE:tabflicks.FLICKDIRECTION
 title: FLICKDIRECTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the directions in which a pen flick has occurred.
 old-location: tablet\flickdirection.htm
 old-project: tablet
 ms.assetid: 49b282cb-45e6-4f80-9948-fd736c091e70
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 49b282cb-45e6-4f80-9948-fd736c091e70, FLICKDIRECTION, FLICKDIRECTION enumeration [Tablet PC], FLICKDIRECTION_DOWN, FLICKDIRECTION_DOWNLEFT, FLICKDIRECTION_DOWNRIGHT, FLICKDIRECTION_INVALID, FLICKDIRECTION_LEFT, FLICKDIRECTION_RIGHT, FLICKDIRECTION_UP, FLICKDIRECTION_UPLEFT, FLICKDIRECTION_UPRIGHT, tabflicks/FLICKDIRECTION, tabflicks/FLICKDIRECTION_DOWN, tabflicks/FLICKDIRECTION_DOWNLEFT, tabflicks/FLICKDIRECTION_DOWNRIGHT, tabflicks/FLICKDIRECTION_INVALID, tabflicks/FLICKDIRECTION_LEFT, tabflicks/FLICKDIRECTION_RIGHT, tabflicks/FLICKDIRECTION_UP, tabflicks/FLICKDIRECTION_UPLEFT, tabflicks/FLICKDIRECTION_UPRIGHT, tablet.flickdirection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 

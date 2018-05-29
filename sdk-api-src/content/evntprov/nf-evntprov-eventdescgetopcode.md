@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventDescGetOpcode
 title: EventDescGetOpcode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the operation code from the event descriptor.
 old-location: etw\eventdescgetopcode_func.htm
 old-project: ETW
 ms.assetid: cdca1dd8-da75-408c-9b57-0ac2bfe387b4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventDescGetOpcode, EventDescGetOpcode function [ETW], base.eventdescgetopcode_func, etw.eventdescgetopcode_func, evntprov/EventDescGetOpcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

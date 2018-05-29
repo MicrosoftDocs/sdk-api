@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Start
 title: IWMReader::Start
-author: windows-driver-content
+author: windows-sdk-content
 description: The Start method causes the reader object to start reading from the specified starting time offset. As data is read, it is passed to the application through the application's IWMReaderCallback::OnSample callback method.
 old-location: wmformat\iwmreader_start.htm
 old-project: wmformat
 ms.assetid: 485844c6-7a84-4a0d-827d-060d8caef6cc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReader interface [windows Media Format],Start method, IWMReader.Start, IWMReader::Start, IWMReaderStart, Start, Start method [windows Media Format], Start method [windows Media Format],IWMReader interface, wmformat.iwmreader_start, wmsdkidl/IWMReader::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

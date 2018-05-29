@@ -1,16 +1,16 @@
 ---
 UID: NF:unknwn.IUnknown.QueryInterface(REFIID,void)
 title: IUnknown::QueryInterface(REFIID,void)
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves pointers to the supported interfaces on an object.
 old-location: com\iunknown_queryinterface.htm
 old-project: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(REFIID,void), IUnknown::QueryInterface, IUnknown::QueryInterface(REFIID,void), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: unknwn.h
 req.include-header: 

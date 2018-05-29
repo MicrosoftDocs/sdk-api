@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_QueryDeviceInformation
 title: WinUsb_QueryDeviceInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_QueryDeviceInformation function gets information about the physical device that is associated with a WinUSB interface handle.
 old-location: buses\winusb_querydeviceinformation.htm
 old-project: usbref
 ms.assetid: 0d77c41c-2d3d-41c9-b8f9-054c5e622a5a
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_QueryDeviceInformation, WinUsb_QueryDeviceInformation function [Buses], buses.winusb_querydeviceinformation, winusb/WinUsb_QueryDeviceInformation, winusbfunc_db8c1496-f45c-4d74-b786-8822692aafd9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

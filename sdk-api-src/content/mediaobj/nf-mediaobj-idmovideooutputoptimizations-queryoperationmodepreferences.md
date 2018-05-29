@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.QueryOperationModePreferences
 title: IDMOVideoOutputOptimizations::QueryOperationModePreferences
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryOperationModePreferences method retrieves the DMO's preferred optimization features.
 old-location: dshow\idmovideooutputoptimizations_queryoperationmodepreferences.htm
 old-project: DirectShow
 ms.assetid: 55916330-8395-4952-a349-f1ab5a3a2d64
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],QueryOperationModePreferences method, IDMOVideoOutputOptimizations.QueryOperationModePreferences, IDMOVideoOutputOptimizations::QueryOperationModePreferences, IDMOVideoOutputOptimizationsQueryOperationModePreferences, QueryOperationModePreferences, QueryOperationModePreferences method [DirectShow], QueryOperationModePreferences method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_queryoperationmodepreferences, mediaobj/IDMOVideoOutputOptimizations::QueryOperationModePreferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

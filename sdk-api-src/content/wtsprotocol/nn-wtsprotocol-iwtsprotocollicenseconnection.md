@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolLicenseConnection
 title: IWTSProtocolLicenseConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolLicenseConnection is no longer available. Instead, use IWRdsProtocolLicenseConnection.
 old-location: termserv\iwtsprotocollicenseconnection.htm
 old-project: TermServ
 ms.assetid: 3f6925b6-c712-40c6-8b48-7df8ef4a9872
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolLicenseConnection, IWTSProtocolLicenseConnection interface [Remote Desktop Services], IWTSProtocolLicenseConnection interface [Remote Desktop Services],described, termserv.iwtsprotocollicenseconnection, wtsprotocol/IWTSProtocolLicenseConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

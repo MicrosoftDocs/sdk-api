@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_FirstBlock
 title: IProgressItem::get_FirstBlock
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the first block number in this segment of the result image.
 old-location: imapi\iprogressitem_get_firstblock.htm
 old-project: imapi
 ms.assetid: 9c1c5932-0301-4752-871d-609d3c128906
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IProgressItem interface [IMAPI],get_FirstBlock method, IProgressItem.get_FirstBlock, IProgressItem::get_FirstBlock, get_FirstBlock, get_FirstBlock method [IMAPI], get_FirstBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_firstblock, imapi2fs/IProgressItem::get_FirstBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

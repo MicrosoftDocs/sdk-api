@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.CommitAndUpdateDerived
 title: IFsrmQuotaTemplate::CommitAndUpdateDerived
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the quota template and then applies any changes to the derived quota objects.
 old-location: fsrm\ifsrmquotatemplate_commitandupdatederived.htm
 old-project: Fsrm
 ms.assetid: fecb034f-3f11-4d37-9468-56d4ea6268e7
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmQuotaTemplate interface, IFsrmQuotaTemplate interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmQuotaTemplate.CommitAndUpdateDerived, IFsrmQuotaTemplate::CommitAndUpdateDerived, fs.ifsrmquotatemplate_commitandupdatederived, fsrm.ifsrmquotatemplate_commitandupdatederived, fsrmquota/IFsrmQuotaTemplate::CommitAndUpdateDerived
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 

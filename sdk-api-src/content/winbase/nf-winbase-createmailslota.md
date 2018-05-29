@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateMailslotA
 title: CreateMailslotA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.
 old-location: base\createmailslot.htm
 old-project: ipc
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

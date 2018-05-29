@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerVisuals.SetFont
 title: IPreviewHandlerVisuals::SetFont
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the font attributes to be used for text within the preview handler.
 old-location: shell\IPreviewHandlerVisuals_SetFont.htm
 old-project: shell
 ms.assetid: f329e2ad-ec79-4542-b7ef-ff38bda6e8cc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetFont method, IPreviewHandlerVisuals.SetFont, IPreviewHandlerVisuals::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetFont, shell.IPreviewHandlerVisuals_SetFont, shobjidl_core/IPreviewHandlerVisuals::SetFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

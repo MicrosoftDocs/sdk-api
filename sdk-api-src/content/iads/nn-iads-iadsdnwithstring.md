@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsDNWithString
 title: IADsDNWithString
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsDNWithString interface provides methods for an ADSI client to associate a distinguished name (DN) to a string value.
 old-location: adsi\iadsdnwithstring.htm
 old-project: ADSI
 ms.assetid: 112985e7-6e96-42fb-a4cb-916296d4a524
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DNWithString, IADsDNWithString, IADsDNWithString interface [ADSI], IADsDNWithString interface [ADSI],described, _ds_iadsdnwithstring, adsi.iadsdnwithstring, iads/IADsDNWithString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

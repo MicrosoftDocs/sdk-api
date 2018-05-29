@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IReferenceClock
 title: IReferenceClock
-author: windows-driver-content
+author: windows-sdk-content
 description: The IReferenceClock interface provides the reference time for the filter graph.Filters that can act as a reference clock can expose this interface.
 old-location: dshow\ireferenceclock.htm
 old-project: DirectShow
 ms.assetid: 9818c67d-dfbe-4498-a744-d2efaa4bfb58
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow],described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

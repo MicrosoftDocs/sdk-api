@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.GetObjectContext
 title: GetObjectContext macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a reference to the context that is associated with the current COM+ object.
 old-location: cos\getobjectcontext.htm
 old-project: cossdk
 ms.assetid: e93406df-e61c-4ee5-9cd4-828aab2c05b6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectContext, comsvcs/GetObjectContext, cos.getobjectcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPStatusSignalingCmdData
 title: "_DXVA_COPPStatusSignalingCmdData"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the result from a Signaling query in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppstatussignalingcmddata.htm
 old-project: DirectShow
 ms.assetid: c6bc7d84-3e4d-41f9-8309-5817029477dd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData structure [DirectShow], DXVA_COPPStatusSignalingCmdDataStructure, _DXVA_COPPStatusSignalingCmdData, dshow.dxva_coppstatussignalingcmddata, dxva9typ/DXVA_COPPStatusSignalingCmdData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:mfsharingengine.IMFMediaSharingEngineClassFactory
 title: IMFMediaSharingEngineClassFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory.htm
 old-project: medfound
 ms.assetid: C8732101-2512-4252-A8D0-677B394BDEB1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaSharingEngineClassFactory, IMFMediaSharingEngineClassFactory interface [Media Foundation], IMFMediaSharingEngineClassFactory interface [Media Foundation],described, mf.imfmediasharingengineclassfactory, mfsharingengine/IMFMediaSharingEngineClassFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 

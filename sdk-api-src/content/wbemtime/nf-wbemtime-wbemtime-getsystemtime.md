@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetSYSTEMTIME
 title: WBEMTime::GetSYSTEMTIME
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSYSTEMTIME method gets the time as an MFC SYSTEMTIME structure.
 old-location: wmi\wbemtime_getsystemtime.htm
 old-project: WmiSdk
 ms.assetid: e65cc4e2-36d3-43de-be65-f48ddfb0b273
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z, ?GetSYSTEMTIME@WBEMTime@@QEBAHPEAU_SYSTEMTIME@@@Z, GetSYSTEMTIME, GetSYSTEMTIME method [Windows Management Instrumentation], GetSYSTEMTIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetSYSTEMTIME method, WBEMTime.GetSYSTEMTIME, WBEMTime::GetSYSTEMTIME, _hmm_wbemtime_getsystemtime, wbemtime/WBEMTime::GetSYSTEMTIME, wmi.wbemtime_getsystemtime"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_SZ_VALUE
 title: PRESUTIL_GET_SZ_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a string value from the cluster database.
 old-location: mscs\resutilgetszvalue.htm
 old-project: MsCS
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_SZ_VALUE, PRESUTIL_GET_SZ_VALUE callback, PRESUTIL_GET_SZ_VALUE callback function [Failover Cluster], _wolf_resutilgetszvalue, mscs.resutilgetszvalue, resapi/PRESUTIL_GET_SZ_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

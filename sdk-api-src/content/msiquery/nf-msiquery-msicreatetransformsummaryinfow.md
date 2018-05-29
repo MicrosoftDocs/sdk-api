@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiCreateTransformSummaryInfoW
 title: MsiCreateTransformSummaryInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiCreateTransformSummaryInfo function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using MsiGetLastErrorRecord.
 old-location: setup\msicreatetransformsummaryinfo.htm
 old-project: Msi
 ms.assetid: 7ed6738c-f693-477e-a3d7-e4f50d222fdb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTABLE, MSITRANSFORM_ERROR_CHANGECODEPAGE, MSITRANSFORM_ERROR_DELMISSINGROW, MSITRANSFORM_ERROR_DELMISSINGTABLE, MSITRANSFORM_ERROR_UPDATEMISSINGROW, MSITRANSFORM_VALIDATE_LANGUAGE, MSITRANSFORM_VALIDATE_MAJORVERSION, MSITRANSFORM_VALIDATE_MINORVERSION, MSITRANSFORM_VALIDATE_NEWEQUALBASEVERSION, MSITRANSFORM_VALIDATE_NEWGREATERBASEVERSION, MSITRANSFORM_VALIDATE_NEWGREATEREQUALBASEVERSION, MSITRANSFORM_VALIDATE_NEWLESSBASEVERSION, MSITRANSFORM_VALIDATE_NEWLESSEQUALBASEVERSION, MSITRANSFORM_VALIDATE_PRODUCT, MSITRANSFORM_VALIDATE_UPDATEVERSION, MSITRANSFORM_VALIDATE_UPGRADECODE, MsiCreateTransformSummaryInfo, MsiCreateTransformSummaryInfo function, MsiCreateTransformSummaryInfoA, MsiCreateTransformSummaryInfoW, _msi_msicreatetransformsummaryinfo, msiquery/MsiCreateTransformSummaryInfo, msiquery/MsiCreateTransformSummaryInfoA, msiquery/MsiCreateTransformSummaryInfoW, none, setup.msicreatetransformsummaryinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

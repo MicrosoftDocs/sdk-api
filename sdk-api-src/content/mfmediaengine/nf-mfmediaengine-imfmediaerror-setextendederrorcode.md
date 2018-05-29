@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.SetExtendedErrorCode
 title: IMFMediaError::SetExtendedErrorCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the extended error code.
 old-location: mf\imfmediaerror_setextendederrorcode.htm
 old-project: medfound
 ms.assetid: F3B52C1A-E235-492D-93C2-393FF2321B7E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaError interface [Media Foundation],SetExtendedErrorCode method, IMFMediaError.SetExtendedErrorCode, IMFMediaError::SetExtendedErrorCode, SetExtendedErrorCode, SetExtendedErrorCode method [Media Foundation], SetExtendedErrorCode method [Media Foundation],IMFMediaError interface, mf.imfmediaerror_setextendederrorcode, mfmediaengine/IMFMediaError::SetExtendedErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

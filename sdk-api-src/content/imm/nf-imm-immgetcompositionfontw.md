@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetCompositionFontW
 title: ImmGetCompositionFontW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the logical font currently used to display characters in the composition window.
 old-location: intl\immgetcompositionfont.htm
 old-project: Intl
 ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmGetCompositionFont, ImmGetCompositionFont function [Internationalization for Windows Applications], ImmGetCompositionFontA, ImmGetCompositionFontW, _win32_ImmGetCompositionFont, imm/ImmGetCompositionFont, imm/ImmGetCompositionFontA, imm/ImmGetCompositionFontW, intl.immgetcompositionfont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

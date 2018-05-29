@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterStereoStatusEvent
 title: IDXGIFactory2::RegisterStereoStatusEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers to receive notification of changes in stereo status by using event signaling.
 old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusEvent.htm
 old-project: direct3ddxgi
 ms.assetid: 912FC8B0-8B66-4203-BF27-8D7186F7CAC0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterStereoStatusEvent method, IDXGIFactory2.RegisterStereoStatusEvent, IDXGIFactory2::RegisterStereoStatusEvent, RegisterStereoStatusEvent, RegisterStereoStatusEvent method [DXGI], RegisterStereoStatusEvent method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_RegisterStereoStatusEvent, dxgi1_2/IDXGIFactory2::RegisterStereoStatusEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

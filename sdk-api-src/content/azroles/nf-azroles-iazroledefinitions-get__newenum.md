@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzRoleDefinitions.get__NewEnum
 title: IAzRoleDefinitions::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the IAzRoleDefinitions collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazroledefinitions__newenum.htm
 old-project: SecAuthZ
 ms.assetid: 28c84285-fcb4-4a1c-bc26-89fd1ba8fb90
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzRoleDefinitions interface [Security],_NewEnum property, IAzRoleDefinitions._NewEnum, IAzRoleDefinitions.get__NewEnum, IAzRoleDefinitions::_NewEnum, IAzRoleDefinitions::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAzRoleDefinitions interface, azroles/IAzRoleDefinitions::_NewEnum, azroles/IAzRoleDefinitions::get__NewEnum, get__NewEnum, security.iazroledefinitions__newenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES
 title: PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes storage from Cluster Shared Volumes.
 old-location: mscs\removeresourcefromclustersharedvolumes.htm
 old-project: MsCS
 ms.assetid: 696CBC0D-C1F6-4f1a-94D1-71F77B102258
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES, PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES callback, PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES callback function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES, mscs.removeresourcefromclustersharedvolumes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

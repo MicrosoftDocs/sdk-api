@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadSHORT
 title: PSPropertyBag_ReadSHORT function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the SHORT data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadSHORT.htm
 old-project: properties
 ms.assetid: F6E71602-86D0-41be-854F-83C5D5B64BF8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadSHORT, PSPropertyBag_ReadSHORT function [Windows Properties], properties.PSPropertyBag_ReadSHORT, propsys/PSPropertyBag_ReadSHORT, shell.PSPropertyBag_ReadSHORT, shell_PSPropertyBag_ReadSHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

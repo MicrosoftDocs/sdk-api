@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetTimeFilter
 title: IOfflineFilesItemFilter::GetTimeFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides time-value-comparison semantics to control filtering of items based on time.
 old-location: of\iofflinefilesitemfilter_gettimefilter.htm
 old-project: OfflineFiles
 ms.assetid: 397611e7-60e5-46d6-b90b-5aed7fff6a43
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetTimeFilter, GetTimeFilter method [Offline Files], GetTimeFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetTimeFilter method, IOfflineFilesItemFilter.GetTimeFilter, IOfflineFilesItemFilter::GetTimeFilter, cscobj/IOfflineFilesItemFilter::GetTimeFilter, of.iofflinefilesitemfilter_gettimefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

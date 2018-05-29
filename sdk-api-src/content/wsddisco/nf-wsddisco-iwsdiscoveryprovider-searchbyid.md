@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchById
 title: IWSDiscoveryProvider::SearchById
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a search for WS-Discovery hosts by device identifier.
 old-location: ncd\iwsdiscoveryprovider_searchbyid.htm
 old-project: WsdApi
 ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

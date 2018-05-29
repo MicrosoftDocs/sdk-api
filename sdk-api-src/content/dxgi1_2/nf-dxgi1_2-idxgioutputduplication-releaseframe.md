@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.ReleaseFrame
 title: IDXGIOutputDuplication::ReleaseFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the application finished processing the frame.
 old-location: direct3ddxgi\idxgioutputduplication_releaseframe.htm
 old-project: direct3ddxgi
 ms.assetid: 841858AA-4840-4B04-B54A-F10362D43F5B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],ReleaseFrame method, IDXGIOutputDuplication.ReleaseFrame, IDXGIOutputDuplication::ReleaseFrame, ReleaseFrame, ReleaseFrame method [DXGI], ReleaseFrame method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_releaseframe, dxgi1_2/IDXGIOutputDuplication::ReleaseFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

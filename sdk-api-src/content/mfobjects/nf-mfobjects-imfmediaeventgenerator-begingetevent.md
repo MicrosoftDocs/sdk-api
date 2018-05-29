@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMediaEventGenerator.BeginGetEvent
 title: IMFMediaEventGenerator::BeginGetEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins an asynchronous request for the next event in the queue.
 old-location: mf\imfmediaeventgenerator_begingetevent.htm
 old-project: medfound
 ms.assetid: a2afddac-46e9-4928-8b5b-44f3fc7c33d3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginGetEvent, BeginGetEvent method [Media Foundation], BeginGetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],BeginGetEvent method, IMFMediaEventGenerator.BeginGetEvent, IMFMediaEventGenerator::BeginGetEvent, a2afddac-46e9-4928-8b5b-44f3fc7c33d3, mf.imfmediaeventgenerator_begingetevent, mfobjects/IMFMediaEventGenerator::BeginGetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

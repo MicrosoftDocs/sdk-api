@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_ReceptionQuality
 title: IAMNetworkStatus::get_ReceptionQuality
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ReceptionQuality method retrieves a value indicating the reception quality.
 old-location: dshow\iamnetworkstatus_get_receptionquality.htm
 old-project: DirectShow
 ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceptionQuality method, IAMNetworkStatus.get_ReceptionQuality, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceptionQuality
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

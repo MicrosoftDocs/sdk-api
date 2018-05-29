@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerReplaceDefaultPowerSchemes
 title: PowerReplaceDefaultPowerSchemes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces the default power schemes with the current user's power schemes.
 old-location: base\powerreplacedefaultpowerschemes.htm
 old-project: Power
 ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

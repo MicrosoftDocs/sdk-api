@@ -1,16 +1,16 @@
 ---
 UID: NE:ntsecpkg._SECPKG_NAME_TYPE
 title: "_SECPKG_NAME_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SECPKG_NAME_TYPE enumeration is used to describe the type of name specified for an account.The SECPKG_NAME_TYPE enumeration is used by the GetAuthDataForUser and OpenSamUser functions.
 old-location: security\secpkg_name_type.htm
 old-project: SecAuthN
 ms.assetid: 6a534bfa-83ec-408d-ad21-e230a7adc61e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SECPKG_NAME_TYPE, SECPKG_NAME_TYPE enumeration [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _SECPKG_NAME_TYPE, _ssp_secpkg_name_type, ntsecpkg/SECPKG_NAME_TYPE, ntsecpkg/SecNameAlternateId, ntsecpkg/SecNameDN, ntsecpkg/SecNameFlat, ntsecpkg/SecNameSamCompatible, security.secpkg_name_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecpkg.h
 req.include-header: 

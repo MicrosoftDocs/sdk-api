@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingFree
 title: RpcBindingFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcBindingFree function releases binding-handle resources.
 old-location: rpc\rpcbindingfree.htm
 old-project: Rpc
 ms.assetid: 0f85e64f-b4a6-4982-8df5-88caa0a312f6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingFree, RpcBindingFree function [RPC], _rpc_rpcbindingfree, rpc.rpcbindingfree, rpcdce/RpcBindingFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

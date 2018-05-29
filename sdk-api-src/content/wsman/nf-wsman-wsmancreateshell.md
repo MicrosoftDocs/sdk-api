@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManCreateShell
 title: WSManCreateShell function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a shell object.
 old-location: winrm\wsmancreateshell.htm
 old-project: WinRM
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Management], winrm.wsmancreateshell, wsman/WSManCreateShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

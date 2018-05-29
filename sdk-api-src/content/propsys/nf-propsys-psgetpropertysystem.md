@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSGetPropertySystem
 title: PSGetPropertySystem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertySystem.
 old-location: properties\PSGetPropertySystem.htm
 old-project: properties
 ms.assetid: ddbf7cea-b22f-4cf9-8b5f-804640086466
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSGetPropertySystem, PSGetPropertySystem function [Windows Properties], properties.PSGetPropertySystem, propsys/PSGetPropertySystem, shell.PSGetPropertySystem, shell_PSGetPropertySystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

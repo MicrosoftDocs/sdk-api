@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
-author: windows-driver-content
+author: windows-sdk-content
 description: Supports auto-recover shadow copies.
 old-location: base\ivssprovidercreatesnapshotset_postfinalcommitsnapshots.htm
 old-project: VSS
 ms.assetid: 3b6f7e6e-f1ea-4c90-9d26-fcbe5e104e2c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PostFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots, PostFinalCommitSnapshots, PostFinalCommitSnapshots method [VSS], PostFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_postfinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateHardLinkTransactedA
 title: CreateHardLinkTransactedA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a hard link between an existing file and a new file as a transacted operation.
 old-location: fs\createhardlinktransacted.htm
 old-project: FileIO
 ms.assetid: 27dd5b0a-08ef-4757-8f51-03d9918028c8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateHardLinkTransacted, CreateHardLinkTransacted function [Files], CreateHardLinkTransactedA, CreateHardLinkTransactedW, fs.createhardlinktransacted, winbase/CreateHardLinkTransacted, winbase/CreateHardLinkTransactedA, winbase/CreateHardLinkTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

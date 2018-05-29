@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsAddSidHistoryA
 title: DsAddSidHistoryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.
 old-location: ad\dsaddsidhistory.htm
 old-project: AD
 ms.assetid: 36ef8734-717a-4c3a-a839-6591d85c9734
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsAddSidHistory, DsAddSidHistory function [Active Directory], DsAddSidHistoryA, DsAddSidHistoryW, _glines_dsaddsidhistory, ad.dsaddsidhistory, ntdsapi/DsAddSidHistory, ntdsapi/DsAddSidHistoryA, ntdsapi/DsAddSidHistoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

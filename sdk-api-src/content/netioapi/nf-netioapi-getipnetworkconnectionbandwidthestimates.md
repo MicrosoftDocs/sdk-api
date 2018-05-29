@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetIpNetworkConnectionBandwidthEstimates
 title: GetIpNetworkConnectionBandwidthEstimates function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves historical bandwidth estimates for a network connection on the specified interface.
 old-location: iphlp\getipnetworkconnectionbandwidthestimates.htm
 old-project: IpHlp
 ms.assetid: FE60AF0D-15B0-4223-8AE1-3E65483A1C5F
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, GetIpNetworkConnectionBandwidthEstimates, GetIpNetworkConnectionBandwidthEstimates function [IP Helper], iphlp.getipnetworkconnectionbandwidthestimates, netioapi/GetIpNetworkConnectionBandwidthEstimates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

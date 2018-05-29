@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.GetDocumentPara
 title: ITextDocument2::GetDocumentPara
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an object that provides the default paragraph format information for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getdocumentpara.htm
 old-project: Controls
 ms.assetid: 3667587e-3cf1-4b86-82fd-2fc34d4cbeee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDocumentPara, GetDocumentPara method [Windows Controls], GetDocumentPara method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDocumentPara method, ITextDocument2.GetDocumentPara, ITextDocument2::GetDocumentPara, controls.itextdocument2_getdocumentpara, tom/ITextDocument2::GetDocumentPara
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

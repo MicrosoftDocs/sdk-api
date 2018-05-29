@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.UnloadUserProfile
 title: UnloadUserProfile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unloads a user's profile that was loaded by the LoadUserProfile function. The caller must have administrative privileges on the computer. For more information, see the Remarks section of the LoadUserProfile function.
 old-location: shell\UnloadUserProfile.htm
 old-project: shell
 ms.assetid: 7ecb8a3f-c041-4133-b23a-101de8884882
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _shell_UnloadUserProfile, shell.UnloadUserProfile, userenv/UnloadUserProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

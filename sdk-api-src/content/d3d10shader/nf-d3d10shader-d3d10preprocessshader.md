@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10shader.D3D10PreprocessShader
 title: D3D10PreprocessShader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generate a shader-text string that contains the shader tokens that would be found in a compiled shader.
 old-location: direct3d10\d3d10preprocessshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10preprocessshader.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10PreprocessShader, D3D10PreprocessShader function [Direct3D 10], d3d10shader/D3D10PreprocessShader, d3e7d365-dba7-908d-52f5-76fc58522bad, direct3d10.d3d10preprocessshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 

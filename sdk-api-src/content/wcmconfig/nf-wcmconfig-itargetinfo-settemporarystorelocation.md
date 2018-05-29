@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTemporaryStoreLocation
 title: ITargetInfo::SetTemporaryStoreLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the current temporary store location.
 old-location: smi\itargetinfo_settemporarystorelocation.htm
 old-project: SMI
 ms.assetid: ef2b6983-02ff-488a-99ef-9976d76f51b5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITargetInfo interface [SMI],SetTemporaryStoreLocation method, ITargetInfo.SetTemporaryStoreLocation, ITargetInfo::SetTemporaryStoreLocation, SetTemporaryStoreLocation, SetTemporaryStoreLocation method [SMI], SetTemporaryStoreLocation method [SMI],ITargetInfo interface, smi.itargetinfo_settemporarystorelocation, wcmconfig/ITargetInfo::SetTemporaryStoreLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

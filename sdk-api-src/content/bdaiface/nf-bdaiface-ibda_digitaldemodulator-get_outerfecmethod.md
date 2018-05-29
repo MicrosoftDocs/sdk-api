@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_OuterFECMethod
 title: IBDA_DigitalDemodulator::get_OuterFECMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_OuterFECMethod method retrieves the outer forward error correction method for the signal .
 old-location: mstv\ibda_digitaldemodulator_get_outerfecmethod.htm
 old-project: mstv
 ms.assetid: 6fbedcba-4b76-4cf0-8fa1-c71140d49643
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_OuterFECMethod method, IBDA_DigitalDemodulator.get_OuterFECMethod, IBDA_DigitalDemodulator::get_OuterFECMethod, IBDA_DigitalDemodulatorget_OuterFECMethod, bdaiface/IBDA_DigitalDemodulator::get_OuterFECMethod, get_OuterFECMethod, get_OuterFECMethod method [Microsoft TV Technologies], get_OuterFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_outerfecmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

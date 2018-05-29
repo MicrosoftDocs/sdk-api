@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePath
 title: IXpsOMObjectFactory::CreatePath
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMPath interface that specifies a graphical path element on a page.
 old-location: xps\ixpsomobjectfactory_createpath.htm
 old-project: printdocs
 ms.assetid: aa5dcddd-9ca7-4b8f-9f4f-aa0f851e8697
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreatePath, CreatePath method [XPS Documents and Packaging], CreatePath method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePath method, IXpsOMObjectFactory.CreatePath, IXpsOMObjectFactory::CreatePath, xps.ixpsomobjectfactory_createpath, xpsobjectmodel/IXpsOMObjectFactory::CreatePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

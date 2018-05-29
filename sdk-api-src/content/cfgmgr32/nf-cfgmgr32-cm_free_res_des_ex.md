@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Res_Des_Ex
 title: CM_Free_Res_Des_Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Free_Res_Des_Ex function removes a resource descriptor from a logical configuration on either a local or a remote machine.
 old-location: devinst\cm_free_res_des_ex.htm
 old-project: devinst
 ms.assetid: 2c6768c2-183b-480d-96cf-0f62f33d62d1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Free_Res_Des_Ex, CM_Free_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Free_Res_Des_Ex, cfgmgrfn_a851124e-1673-4025-8a33-478957f83152.xml, devinst.cm_free_res_des_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

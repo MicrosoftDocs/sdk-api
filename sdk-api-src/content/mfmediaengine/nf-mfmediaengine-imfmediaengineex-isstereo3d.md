@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsStereo3D
 title: IMFMediaEngineEx::IsStereo3D
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether the media resource contains stereoscopic 3D video.
 old-location: mf\imfmediaengineex_isstereo3d.htm
 old-project: medfound
 ms.assetid: 9E1C2E47-416F-4016-A576-7BE360A66A81
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsStereo3D method, IMFMediaEngineEx.IsStereo3D, IMFMediaEngineEx::IsStereo3D, IsStereo3D, IsStereo3D method [Media Foundation], IsStereo3D method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isstereo3d, mfmediaengine/IMFMediaEngineEx::IsStereo3D
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

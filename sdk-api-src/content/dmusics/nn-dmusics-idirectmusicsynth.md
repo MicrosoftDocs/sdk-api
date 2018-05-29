@@ -1,16 +1,16 @@
 ---
 UID: NN:dmusics.IDirectMusicSynth
 title: IDirectMusicSynth
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectMusicSynth interface is used by DirectMusic to communicate with user-mode synthesizers.
 old-location: audio\idirectmusicsynth.htm
 old-project: audio
 ms.assetid: 08f1056a-fead-475b-a13a-ee11b9709241
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], IDirectMusicSynth interface [Audio Devices],described, audio.idirectmusicsynth, audmp-routines_ab253bc7-f9a6-4279-99fb-4e5b2693c94b.xml, dmusics/IDirectMusicSynth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dmusics.h
 req.include-header: 

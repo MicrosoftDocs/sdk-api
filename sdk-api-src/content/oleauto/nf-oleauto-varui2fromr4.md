@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI2FromR4
 title: VarUI2FromR4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a float value to an unsigned short value.
 old-location: automat\varui2fromr4.htm
 old-project: automat
 ms.assetid: 3db8b903-1b63-4bff-b301-2f270320c842
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI2FromR4, VarUI2FromR4 function [Automation], _oa96_VarUI2FromR4, automat.varui2fromr4, oleauto/VarUI2FromR4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

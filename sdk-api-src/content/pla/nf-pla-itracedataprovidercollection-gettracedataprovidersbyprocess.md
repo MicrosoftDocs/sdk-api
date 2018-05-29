@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.GetTraceDataProvidersByProcess
 title: ITraceDataProviderCollection::GetTraceDataProvidersByProcess
-author: windows-driver-content
+author: windows-sdk-content
 description: Populates the collection with the list of providers that have been registered by the specified process.
 old-location: pla\itracedataprovidercollection_gettracedataprovidersbyprocess.htm
 old-project: PLA
 ms.assetid: bc8b6aeb-7239-4bce-8616-62f87b84ae6c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTraceDataProvidersByProcess, GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProvidersByProcess method, ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

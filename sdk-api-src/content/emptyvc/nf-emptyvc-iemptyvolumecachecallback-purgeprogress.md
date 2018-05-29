@@ -1,16 +1,16 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCacheCallBack.PurgeProgress
 title: IEmptyVolumeCacheCallBack::PurgeProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Called periodically by a disk cleanup handler to update the disk cleanup manager on the progress of a purge of deletable files.
 old-location: lwef\iemptyvolumecachecallback_purgeprogress.htm
 old-project: lwef
 ms.assetid: 96b97919-9b3b-418e-a76a-a2e8aad453b9
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],PurgeProgress method, IEmptyVolumeCacheCallBack.PurgeProgress, IEmptyVolumeCacheCallBack::PurgeProgress, PurgeProgress, PurgeProgress method [Legacy Windows Environment Features], PurgeProgress method [Legacy Windows Environment Features],IEmptyVolumeCacheCallBack interface, _win32_IEmptyVolumeCacheCallBack_PurgeProgress, emptyvc/IEmptyVolumeCacheCallBack::PurgeProgress, lwef.iemptyvolumecachecallback_purgeprogress, shell.iemptyvolumecachecallback_purgeprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 

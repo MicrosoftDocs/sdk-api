@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_FEATURE_LEVELS
 title: D3D12_FEATURE_DATA_FEATURE_LEVELS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes info about the feature levels supported by the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_feature_levels.htm
 old-project: direct3d12
 ms.assetid: 8C709889-0C7E-4D6D-84BD-1449BB8EA96A
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_FEATURE_DATA_FEATURE_LEVELS, D3D12_FEATURE_DATA_FEATURE_LEVELS structure, d3d12/D3D12_FEATURE_DATA_FEATURE_LEVELS, direct3d12.d3d12_feature_data_feature_levels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

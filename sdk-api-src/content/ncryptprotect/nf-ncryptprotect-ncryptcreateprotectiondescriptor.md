@@ -1,16 +1,16 @@
 ---
 UID: NF:ncryptprotect.NCryptCreateProtectionDescriptor
 title: NCryptCreateProtectionDescriptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle to a protection descriptor object.
 old-location: security\ncryptcreateprotectiondescriptor.htm
 old-project: SecCNG
 ms.assetid: BA6B15AC-2CD8-4D9A-817F-65CF9C09D22C
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptCreateProtectionDescriptor, NCryptCreateProtectionDescriptor function [Security], ncryptprotect/NCryptCreateProtectionDescriptor, security.ncryptcreateprotectiondescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

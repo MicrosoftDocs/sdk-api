@@ -1,16 +1,16 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_IF_TABLE
 title: "_MIB_IPMCAST_IF_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of IP multicast interface entries.
 old-location: mib\mib_ipmcast_if_table.htm
 old-project: MIB
 ms.assetid: 6ea374e3-cb09-44e5-b80a-b68447589191
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPMCAST_IF_TABLE, MIB_IPMCAST_IF_TABLE, MIB_IPMCAST_IF_TABLE structure [MIB], PMIB_IPMCAST_IF_TABLE, PMIB_IPMCAST_IF_TABLE structure pointer [MIB], _MIB_IPMCAST_IF_TABLE, _mpr_mib_ipmcast_if_table, ipmib/MIB_IPMCAST_IF_TABLE, ipmib/PMIB_IPMCAST_IF_TABLE, iprtrmib/MIB_IPMCAST_IF_TABLE, iprtrmib/PMIB_IPMCAST_IF_TABLE, mib.mib_ipmcast_if_table, rras.mib_ipmcast_if_table"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

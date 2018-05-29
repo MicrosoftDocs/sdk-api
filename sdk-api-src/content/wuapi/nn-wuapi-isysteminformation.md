@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.ISystemInformation
 title: ISystemInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the specified computer. This information is relevant to the Windows Update Agent (WUA).
 old-location: wua\isysteminformation.htm
 old-project: Wua_Sdk
 ms.assetid: b0aebfd6-1d62-43b3-8c40-2eeb67fab27d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent],described, wua.isysteminformation, wuapi/ISystemInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

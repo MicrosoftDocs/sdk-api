@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngAlphaBlend
 title: EngAlphaBlend function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngAlphaBlend function provides bit-block transfer capabilities with alpha blending.
 old-location: display\engalphablend.htm
 old-project: display
 ms.assetid: c8839271-0a75-4657-875f-114545f44777
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngAlphaBlend, EngAlphaBlend function [Display Devices], display.engalphablend, gdifncs_f7f6d10b-db7e-40af-8378-05cca946505f.xml, winddi/EngAlphaBlend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

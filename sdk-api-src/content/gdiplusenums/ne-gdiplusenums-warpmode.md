@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.WarpMode
 title: WarpMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The WarpMode enumeration specifies warp modes that can be used to transform images.
 old-location: gdiplus\_gdiplus_ENUM_WarpMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\warpmode.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: WarpMode, WarpMode enumeration [GDI+], WarpModeBilinear, WarpModePerspective, _gdiplus_ENUM_WarpMode, gdiplus._gdiplus_ENUM_WarpMode, gdiplusenums/WarpMode, gdiplusenums/WarpModeBilinear, gdiplusenums/WarpModePerspective
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

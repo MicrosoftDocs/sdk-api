@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IPersistFolder
 title: IPersistFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that initializes Shell folder objects.
 old-location: shell\IPersistFolder.htm
 old-project: shell
 ms.assetid: d37d4ca5-93a0-4090-b657-9b23d5df875c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistFolder, IPersistFolder interface [Windows Shell], IPersistFolder interface [Windows Shell],described, _win32_IPersistFolder, _win32_IPersistFolder_cpp, shell.IPersistFolder, shobjidl_core/IPersistFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

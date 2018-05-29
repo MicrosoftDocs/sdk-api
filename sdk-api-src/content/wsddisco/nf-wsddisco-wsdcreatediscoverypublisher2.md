@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryPublisher2
 title: WSDCreateDiscoveryPublisher2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWSDiscoveryPublisher object that supports signed messages.
 old-location: ncd\wsdcreatediscoverypublisher2.htm
 old-project: WsdApi
 ms.assetid: 43c17910-a4b6-4889-ba98-4e125b4a3ac0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDCreateDiscoveryPublisher2, WSDCreateDiscoveryPublisher2 function, ncd.wsdcreatediscoverypublisher2, wsddisco/WSDCreateDiscoveryPublisher2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

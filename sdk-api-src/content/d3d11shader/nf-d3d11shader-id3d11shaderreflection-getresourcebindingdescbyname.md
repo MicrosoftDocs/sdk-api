@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetResourceBindingDescByName
 title: ID3D11ShaderReflection::GetResourceBindingDescByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a description of how a resource is bound to a shader.
 old-location: direct3d11\id3d11shaderreflection_getresourcebindingdescbyname.htm
 old-project: direct3d11
 ms.assetid: b4bddcc0-c2fd-4dac-b999-cfbe1d318777
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 70b00d95-7ff3-a94d-2a18-469be48c36b3, GetResourceBindingDescByName, GetResourceBindingDescByName method [Direct3D 11], GetResourceBindingDescByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetResourceBindingDescByName method, ID3D11ShaderReflection.GetResourceBindingDescByName, ID3D11ShaderReflection::GetResourceBindingDescByName, d3d11shader/ID3D11ShaderReflection::GetResourceBindingDescByName, direct3d11.id3d11shaderreflection_getresourcebindingdescbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Delete
 title: IOpcSignatureRelationshipReferenceSet::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a specified IOpcSignatureRelationshipReference interface pointer from the set.
 old-location: opc\iopcsignaturerelationshipreferenceset_delete.htm
 old-project: OPC
 ms.assetid: b4f09a75-5c9d-4870-80e1-3c589435a6b7
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Delete method, IOpcSignatureRelationshipReferenceSet.Delete, IOpcSignatureRelationshipReferenceSet::Delete, msopc/IOpcSignatureRelationshipReferenceSet::Delete, opc.iopcsignaturerelationshipreferenceset_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

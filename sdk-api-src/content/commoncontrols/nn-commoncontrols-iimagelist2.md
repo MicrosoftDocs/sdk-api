@@ -1,16 +1,16 @@
 ---
 UID: NN:commoncontrols.IImageList2
 title: IImageList2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends IImageList by providing additional methods for manipulating and interacting with image lists.
 old-location: controls\IImageList2.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IImageList2, IImageList2 interface [Windows Controls], IImageList2 interface [Windows Controls],described, _shell_IImageList2, _shell_IImageList2_cpp, commoncontrols/IImageList2, controls.IImageList2, controls._shell_IImageList2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: commoncontrols.h
 req.include-header: 

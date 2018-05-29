@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagLOGCOLORSPACEA
 title: tagLOGCOLORSPACEA
-author: windows-driver-content
+author: windows-sdk-content
 description: The LOGCOLORSPACE structure contains information that defines a logical color space.
 old-location: wcs\logcolorspace.htm
 old-project: WCS
 ms.assetid: b08aec07-6ac0-47be-8dc9-d604d94dedde
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPLOGCOLORSPACEA, LOGCOLORSPACE, LOGCOLORSPACE structure [Windows Color System], LOGCOLORSPACEA, LPLOGCOLORSPACE, LPLOGCOLORSPACE structure pointer [Windows Color System], _color_LOGCOLORSPACE_str, tagLOGCOLORSPACEA, wcs.logcolorspace, wingdi/LOGCOLORSPACE, wingdi/LPLOGCOLORSPACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

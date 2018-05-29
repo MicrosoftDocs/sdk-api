@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.OpenFileMappingA
 title: OpenFileMappingA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemapping.htm
 old-project: Memory
 ms.assetid: 4896144c-78fc-4d21-a302-d9ba66fb2f8a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFileMappingW, _win32_openfilemapping, base.openfilemapping, fs.openfilemapping, winbase/OpenFileMapping, winbase/OpenFileMappingA, winbase/OpenFileMappingW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

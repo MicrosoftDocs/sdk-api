@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_NAME_INFO
 title: "_TRUSTED_DOMAIN_NAME_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to query or set the name of a trusted domain.
 old-location: security\trusted_domain_name_info.htm
 old-project: SecMgmt
 ms.assetid: 9bc1301b-1d09-4cd2-8590-e7756ee4792d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PTRUSTED_DOMAIN_NAME_INFO, PTRUSTED_DOMAIN_NAME_INFO, PTRUSTED_DOMAIN_NAME_INFO structure pointer [Security], TRUSTED_DOMAIN_NAME_INFO, TRUSTED_DOMAIN_NAME_INFO structure [Security], _TRUSTED_DOMAIN_NAME_INFO, _lsa_trusted_domain_name_info, ntsecapi/PTRUSTED_DOMAIN_NAME_INFO, ntsecapi/TRUSTED_DOMAIN_NAME_INFO, security.trusted_domain_name_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

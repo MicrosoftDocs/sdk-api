@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Item
 title: IFsiDirectoryItem::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified directory or file item from file system image.
 old-location: imapi\ifsidirectoryitem_get_item.htm
 old-project: imapi
 ms.assetid: 8ea5219c-a12f-43a3-a67b-16cd0e6d2bac
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Item method, IFsiDirectoryItem.get_Item, IFsiDirectoryItem::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_item, imapi2fs/IFsiDirectoryItem::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

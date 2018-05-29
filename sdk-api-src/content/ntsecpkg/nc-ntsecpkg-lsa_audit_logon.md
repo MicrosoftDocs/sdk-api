@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_AUDIT_LOGON
 title: LSA_AUDIT_LOGON
-author: windows-driver-content
+author: windows-sdk-content
 description: The AuditLogon function is used to audit a logon attempt.
 old-location: security\auditlogon.htm
 old-project: SecAuthN
 ms.assetid: 1b0316ae-0c09-4a7e-8443-e59b4db9e825
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AuditLogon, AuditLogon function [Security], LSA_AUDIT_LOGON, _ssp_auditlogon, ntsecpkg/AuditLogon, security.auditlogon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

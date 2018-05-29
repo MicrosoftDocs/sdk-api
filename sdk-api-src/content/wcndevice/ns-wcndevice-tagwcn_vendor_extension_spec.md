@@ -1,16 +1,16 @@
 ---
 UID: NS:wcndevice.tagWCN_VENDOR_EXTENSION_SPEC
 title: tagWCN_VENDOR_EXTENSION_SPEC
-author: windows-driver-content
+author: windows-sdk-content
 description: WCN_VENDOR_EXTENSION_SPEC structure contains data that defines a vendor extension.
 old-location: wcn\wcn_vendor_extension_spec.htm
 old-project: wcn
 ms.assetid: 8ba35c4a-a644-4c6d-8334-d459e7196b6f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PWCN_VENDOR_EXTENSION_SPEC, PWCN_VENDOR_EXTENSION_SPEC structure pointer [Windows Connect Now], WCN_FLAG_AUTHENTICATED_VE, WCN_FLAG_DISCOVERY_VE, WCN_FLAG_ENCRYPTED_VE, WCN_VENDOR_EXTENSION_SPEC, WCN_VENDOR_EXTENSION_SPEC structure [Windows Connect Now], tagWCN_VENDOR_EXTENSION_SPEC, wcn.wcn_vendor_extension_spec, wcndevice/PWCN_VENDOR_EXTENSION_SPEC, wcndevice/WCN_VENDOR_EXTENSION_SPEC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcndevice.h
 req.include-header: 

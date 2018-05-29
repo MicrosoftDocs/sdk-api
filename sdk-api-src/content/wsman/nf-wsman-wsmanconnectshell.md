@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManConnectShell
 title: WSManConnectShell function
-author: windows-driver-content
+author: windows-sdk-content
 description: Connects to an existing server session.
 old-location: winrm\wsmanconnectshell.htm
 old-project: WinRM
 ms.assetid: B765AB84-5EDA-46D6-9150-A8BBD101EF10
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManConnectShell, WSManConnectShell function [Windows Remote Management], winrm.wsmanconnectshell, wsman/WSManConnectShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

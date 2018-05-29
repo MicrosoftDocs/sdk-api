@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.SaveAdd(IN Image,IN const EncoderParameters)
 title: Image::SaveAdd(IN Image,IN const EncoderParameters)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the SaveAdd methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
 old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Image.SaveAdd, Image.SaveAdd(IN Image,IN const EncoderParameters), Image::SaveAdd, Image::SaveAdd(IN Image,IN const EncoderParameters), SaveAdd, SaveAdd methods [GDI+], _gdiplus_CLASS_Image_SaveAdd_Methods, gdiplus._gdiplus_CLASS_Image_SaveAdd_Methods, gdiplusheaders/SaveAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

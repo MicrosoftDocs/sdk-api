@@ -1,16 +1,16 @@
 ---
 UID: NE:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0005
 title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0005"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the redirection settings associated with a connection.
 old-location: termserv\policyattributetype.htm
 old-project: TermServ
 ms.assetid: e2e53f33-1fc5-4002-81ed-8c9cce58f28e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AllowOnlySDRServers, ClipboardRedirectionDisabled, DisableAllRedirections, DriveRedirectionDisabled, EnableAllRedirections, PnpRedirectionDisabled, PolicyAttributeType, PolicyAttributeType enumeration [Remote Desktop Services], PortRedirectionDisabled, PrinterRedirectionDisabled, __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0005, termserv.policyattributetype, tsgpolicyengine/AllowOnlySDRServers, tsgpolicyengine/ClipboardRedirectionDisabled, tsgpolicyengine/DisableAllRedirections, tsgpolicyengine/DriveRedirectionDisabled, tsgpolicyengine/EnableAllRedirections, tsgpolicyengine/PnpRedirectionDisabled, tsgpolicyengine/PolicyAttributeType, tsgpolicyengine/PortRedirectionDisabled, tsgpolicyengine/PrinterRedirectionDisabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tsgpolicyengine.h
 req.include-header: 

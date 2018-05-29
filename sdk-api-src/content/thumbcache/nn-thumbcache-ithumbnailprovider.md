@@ -1,16 +1,16 @@
 ---
 UID: NN:thumbcache.IThumbnailProvider
 title: IThumbnailProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method for getting a thumbnail image and is intended to be implemented for thumbnail handlers. The object that implements this interface must also implement IInitializeWithStream.
 old-location: shell\IThumbnailProvider.htm
 old-project: shell
 ms.assetid: 55c4739a-4835-4f53-a435-804ddf06ffcf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IThumbnailProvider, IThumbnailProvider interface [Windows Shell], IThumbnailProvider interface [Windows Shell],described, _shell_IThumbnailProvider, shell.IThumbnailProvider, thumbcache/IThumbnailProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: thumbcache.h
 req.include-header: 

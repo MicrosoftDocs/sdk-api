@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpGetInfoFn
 title: SpGetInfoFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides general information about the security package, such as its name and capabilities.
 old-location: security\spgetinfo.htm
 old-project: SecAuthN
 ms.assetid: e1e6f71f-6f54-424c-be49-7bc11cb19036
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpGetInfo, SpGetInfo function [Security], SpGetInfoFn, _ssp_spgetinfo, ntsecpkg/SpGetInfo, security.spgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

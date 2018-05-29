@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenException.get_Path
 title: IFsrmFileScreenException::get_Path
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the path that is associated with this file screen exception.
 old-location: fsrm\ifsrmfilescreenexception_path.htm
 old-project: Fsrm
 ms.assetid: ac447042-b87b-4387-bb8f-2e69df9e7f8f
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileScreenException interface [File Server Resource Manager],Path property, IFsrmFileScreenException.Path, IFsrmFileScreenException.get_Path, IFsrmFileScreenException::Path, IFsrmFileScreenException::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreenException interface, fs.ifsrmfilescreenexception_path, fsrm.ifsrmfilescreenexception_path, fsrmscreen/IFsrmFileScreenException::Path, fsrmscreen/IFsrmFileScreenException::get_Path, get_Path
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

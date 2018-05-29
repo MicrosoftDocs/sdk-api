@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11CommandList
 title: ID3D11CommandList
-author: windows-driver-content
+author: windows-sdk-content
 description: The ID3D11CommandList interface encapsulates a list of graphics commands for play back.
 old-location: direct3d11\id3d11commandlist.htm
 old-project: direct3d11
 ms.assetid: 432f1d21-bf13-4569-9c8f-04f5d2845150
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 6f498894-85b1-fe5f-e486-d12c2cb7a180, ID3D11CommandList, ID3D11CommandList interface [Direct3D 11], ID3D11CommandList interface [Direct3D 11],described, d3d11/ID3D11CommandList, direct3d11.id3d11commandlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_Copy
 title: ImageList_Copy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies images within a given image list.
 old-location: controls\ImageList_Copy.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_copy.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILCF_MOVE, ILCF_SWAP, ImageList_Copy, ImageList_Copy function [Windows Controls], _win32_ImageList_Copy, _win32_ImageList_Copy_cpp, commctrl/ImageList_Copy, controls.ImageList_Copy, controls._win32_ImageList_Copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

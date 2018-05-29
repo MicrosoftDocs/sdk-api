@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._REPAIR_COPIES_INPUT
 title: "_REPAIR_COPIES_INPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Input structure for the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_input.htm
 old-project: FileIO
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT structure pointer [Files], REPAIR_COPIES_INPUT, REPAIR_COPIES_INPUT structure [Files], _REPAIR_COPIES_INPUT, fs.repair_copies_input, winioctl/PREPAIR_COPIES_INPUT, winioctl/REPAIR_COPIES_INPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

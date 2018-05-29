@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_Rate
 title: IAMExtTransport::put_Rate
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Rate method sets the playback rate for variable-speed external devices.
 old-location: dshow\iamexttransport_put_rate.htm
 old-project: DirectShow
 ms.assetid: 165966f1-f826-4ce2-b520-4a420898eee4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_Rate method, IAMExtTransport.put_Rate, IAMExtTransport::put_Rate, IAMExtTransportput_Rate, dshow.iamexttransport_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_Rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUIGNRLPROPSW
 title: tagOLEUIGNRLPROPSW
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the General tab of the Object Properties dialog box.
 old-location: com\oleuignrlprops_struct.htm
 old-project: com
 ms.assetid: 851d66c8-94a7-47ab-95f4-12a34897de20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUIGNRLPROPSW, *POLEUIGNRLPROPSW, LPOLEUIGNRLPROPS, LPOLEUIGNRLPROPS structure pointer [COM], OLEUIGNRLPROPS, OLEUIGNRLPROPS structure [COM], OLEUIGNRLPROPSA, OLEUIGNRLPROPSW, POLEUIGNRLPROPS, POLEUIGNRLPROPS structure pointer [COM], _ole_OLEUIGNRLPROPS, com.oleuignrlprops_struct, oledlg/LPOLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPSA, oledlg/OLEUIGNRLPROPSW, oledlg/POLEUIGNRLPROPS, tagOLEUIGNRLPROPSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

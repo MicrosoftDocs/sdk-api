@@ -1,16 +1,16 @@
 ---
 UID: NS:cfgmgr32.MfCard_Des_s
 title: MfCard_Des_s
-author: windows-driver-content
+author: windows-sdk-content
 description: The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.
 old-location: devinst\mfcard_des.htm
 old-project: devinst
 ms.assetid: 75a6857c-d5b7-4bb6-8035-e6317d4ea146
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMFCARD_DES, MFCARD_DES, MFCARD_DES structure [Device and Driver Installation], MfCard_Des_s, PMFCARD_DES, PMFCARD_DES structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_DES, cfgmgr32/PMFCARD_DES, cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml, devinst.mfcard_des"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

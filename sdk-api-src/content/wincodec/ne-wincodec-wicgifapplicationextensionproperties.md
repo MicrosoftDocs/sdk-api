@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICGifApplicationExtensionProperties
 title: WICGifApplicationExtensionProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the application extension metadata properties for a Graphics Interchange Format (GIF) image.
 old-location: wic\_wic_codec_wicgifapplicationextensionproperties.htm
 old-project: wic
 ms.assetid: e60da197-2510-4a13-91e3-896d6027ee57
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICGifApplicationExtensionApplication, WICGifApplicationExtensionData, WICGifApplicationExtensionProperties, WICGifApplicationExtensionProperties enumeration [Windows Imaging Component], _wic_codec_wicgifapplicationextensionproperties, wic._wic_codec_wicgifapplicationextensionproperties, wincodec/WICGifApplicationExtensionApplication, wincodec/WICGifApplicationExtensionData, wincodec/WICGifApplicationExtensionProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

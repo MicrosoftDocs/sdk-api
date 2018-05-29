@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.ITuner
 title: ITuner
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITuner interface is implemented on the Microsoft BDA Network Provider filters.
 old-location: mstv\ituner.htm
 old-project: mstv
 ms.assetid: 1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies],described, ITunerInterface, mstv.ituner, tuner/ITuner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMClockSlave
 title: IAMClockSlave
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMClockSlave interface controls the tolerance of an audio renderer when it is matching rates with another clock.If the audio renderer is matching rates with another clock, it allows the audio to drift up to the amount of the specified tolerance.
 old-location: dshow\iamclockslave.htm
 old-project: DirectShow
 ms.assetid: 7b3d0f93-09dd-4a36-a031-70f61402c314
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], IAMClockSlave interface [DirectShow],described, IAMClockSlaveInterface, dshow.iamclockslave, strmif/IAMClockSlave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

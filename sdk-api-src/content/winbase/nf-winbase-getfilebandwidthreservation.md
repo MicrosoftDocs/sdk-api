@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetFileBandwidthReservation
 title: GetFileBandwidthReservation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the bandwidth reservation properties of the volume on which the specified file resides.
 old-location: fs\getfilebandwidthreservation_func.htm
 old-project: FileIO
 ms.assetid: 3caf38f6-e853-4057-a192-71cda4443dbd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFileBandwidthReservation, GetFileBandwidthReservation function [Files], fs.getfilebandwidthreservation_func, winbase/GetFileBandwidthReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IConfigInterleaving.get_Interleaving
 title: IConfigInterleaving::get_Interleaving
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Interleaving method gets the audio preroll time and the frequency of interleaving for an AVI file.
 old-location: dshow\iconfiginterleaving_get_interleaving.htm
 old-project: DirectShow
 ms.assetid: 659aa136-c7fd-4955-913b-26f7c05325a8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Interleaving method, IConfigInterleaving.get_Interleaving, IConfigInterleaving::get_Interleaving, IConfigInterleavingget_Interleaving, dshow.iconfiginterleaving_get_interleaving, get_Interleaving, get_Interleaving method [DirectShow], get_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Interleaving
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

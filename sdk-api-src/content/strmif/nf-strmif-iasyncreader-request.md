@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAsyncReader.Request
 title: IAsyncReader::Request
-author: windows-driver-content
+author: windows-sdk-content
 description: The Request method queues an asynchronous request for data.
 old-location: dshow\iasyncreader_request.htm
 old-project: DirectShow
 ms.assetid: d0eab370-bb17-48fa-9926-6a6eeaba5603
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAsyncReader interface [DirectShow],Request method, IAsyncReader.Request, IAsyncReader::Request, IAsyncReaderRequest, Request, Request method [DirectShow], Request method [DirectShow],IAsyncReader interface, dshow.iasyncreader_request, strmif/IAsyncReader::Request
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

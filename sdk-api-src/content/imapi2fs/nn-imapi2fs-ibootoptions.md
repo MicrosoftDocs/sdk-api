@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IBootOptions
 title: IBootOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to specify the boot image to add to the optical disc. A boot image contains one or more sectors of code used to start the computer.
 old-location: imapi\ibootoptions.htm
 old-project: imapi
 ms.assetid: 446b535c-d576-4f96-8b74-305e34cb99d4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBootOptions, IBootOptions interface [IMAPI], IBootOptions interface [IMAPI],described, imapi.ibootoptions, imapi2fs/IBootOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

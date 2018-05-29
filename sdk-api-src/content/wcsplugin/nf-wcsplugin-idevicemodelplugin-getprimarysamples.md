@@ -1,16 +1,16 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetPrimarySamples
 title: IDeviceModelPlugIn::GetPrimarySamples
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the measurement color for the primary sample.
 old-location: wcs\IDeviceModelPlugIn_GetPrimarySamples.htm
 old-project: WCS
 ms.assetid: 46253246-e07c-4f55-92fa-91941abaefcd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetPrimarySamples, GetPrimarySamples method [Windows Color System], GetPrimarySamples method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetPrimarySamples method, IDeviceModelPlugIn.GetPrimarySamples, IDeviceModelPlugIn::GetPrimarySamples, _color_IDeviceModelPlugIn::GetPrimarySamples, wcs.IDeviceModelPlugIn_GetPrimarySamples, wcsplugin/IDeviceModelPlugIn::GetPrimarySamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 

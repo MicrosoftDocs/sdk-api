@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidFilePlayback
 title: IMSVidFilePlayback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidFilePlayback interface enables the client to specify a local file for playback. It is implemented by the MSVidFilePlaybackDevice object.
 old-location: mstv\imsvidfileplayback.htm
 old-project: mstv
 ms.assetid: d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidFilePlayback, IMSVidFilePlayback interface [Microsoft TV Technologies], IMSVidFilePlayback interface [Microsoft TV Technologies],described, IMSVidFilePlaybackInterface, mstv.imsvidfileplayback, segment/IMSVidFilePlayback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

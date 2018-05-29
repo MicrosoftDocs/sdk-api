@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredUnmarshalCredentialW
 title: CredUnmarshalCredentialW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CredUnmarshalCredential function transforms a marshaled credential back into its original form.
 old-location: security\credunmarshalcredential.htm
 old-project: SecAuthN
 ms.assetid: 65757235-d92c-479f-8e2b-1f8d8564792b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredUnmarshalCredential, CredUnmarshalCredential function [Security], CredUnmarshalCredentialA, CredUnmarshalCredentialW, _cred_credunmarshalcredential, security.credunmarshalcredential, wincred/CredUnmarshalCredential, wincred/CredUnmarshalCredentialA, wincred/CredUnmarshalCredentialW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

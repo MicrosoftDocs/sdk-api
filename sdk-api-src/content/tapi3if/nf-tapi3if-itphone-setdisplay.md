@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.SetDisplay
 title: ITPhone::SetDisplay
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDisplay method sets what will appear in a given row and column of the phone's display.
 old-location: tapi3\itphone_setdisplay.htm
 old-project: Tapi
 ms.assetid: 690756c4-201d-472d-b536-452074226701
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],SetDisplay method, ITPhone.SetDisplay, ITPhone::SetDisplay, SetDisplay, SetDisplay method [TAPI 2.2], SetDisplay method [TAPI 2.2],ITPhone interface, _tapi3_itphone_setdisplay, tapi3.itphone_setdisplay, tapi3if/ITPhone::SetDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.MaxRatingsLevel
 title: IMSVidStreamBufferSource::MaxRatingsLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
 old-project: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

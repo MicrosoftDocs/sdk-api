@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linedialparams_tag
 title: linedialparams_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEDIALPARAMS structure specifies a collection of dialing-related fields. Call the lineSetCallParams function or the TSPI_lineSetCallParams function to set parameters for a call using the LINEDIALPARAMS structure.
 old-location: tapi2\linedialparams_str.htm
 old-project: Tapi
 ms.assetid: efb65462-abe5-46db-9299-97871e0d011e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEDIALPARAMS, LINEDIALPARAMS, LINEDIALPARAMS structure [TAPI 2.2], LPLINEDIALPARAMS, LPLINEDIALPARAMS structure pointer [TAPI 2.2], _tapi2_linedialparams_str, linedialparams_tag, tapi/LINEDIALPARAMS, tapi/LPLINEDIALPARAMS, tapi2.linedialparams_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

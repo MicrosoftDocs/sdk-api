@@ -1,16 +1,16 @@
 ---
 UID: NN:sbe.IStreamBufferSink3
 title: IStreamBufferSink3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStreamBufferSink3 interface is exposed by the Stream Buffer Sink filter.
 old-location: mstv\istreambuffersink3.htm
 old-project: mstv
 ms.assetid: a3adbe79-7d7c-4b12-a574-23c64d2311af
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferSink3, IStreamBufferSink3 interface [Microsoft TV Technologies], IStreamBufferSink3 interface [Microsoft TV Technologies],described, IStreamBufferSink3Interface, mstv.istreambuffersink3, sbe/IStreamBufferSink3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

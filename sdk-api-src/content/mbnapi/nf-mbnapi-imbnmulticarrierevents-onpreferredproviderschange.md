@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnPreferredProvidersChange
 title: IMbnMultiCarrierEvents::OnPreferredProvidersChange
-author: windows-driver-content
+author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a GetPreferredProviders operation and a change in a device's preferred provider list.
 old-location: mbn\imbnmulticarrierevents_onpreferredproviderschange.htm
 old-project: mbn
 ms.assetid: B2E7C42B-32B0-47D1-AA88-8A22B379B500
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnPreferredProvidersChange method, IMbnMultiCarrierEvents.OnPreferredProvidersChange, IMbnMultiCarrierEvents::OnPreferredProvidersChange, OnPreferredProvidersChange, OnPreferredProvidersChange method [Microsoft Broadband Networks], OnPreferredProvidersChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_onpreferredproviderschange, mbnapi/IMbnMultiCarrierEvents::OnPreferredProvidersChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

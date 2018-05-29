@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_CHANGE0_
 title: IPSEC_SA_CONTEXT_CHANGE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an IPsec security association (SA) context change.
 old-location: fwp\ipsec_sa_context_change0.htm
 old-project: FWP
 ms.assetid: a81df783-72d8-4374-a3f8-44c3491a98db
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_SA_CONTEXT_CHANGE0, IPSEC_SA_CONTEXT_CHANGE0 structure [Filtering], IPSEC_SA_CONTEXT_CHANGE0_, fwp.ipsec_sa_context_change0, ipsectypes/IPSEC_SA_CONTEXT_CHANGE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

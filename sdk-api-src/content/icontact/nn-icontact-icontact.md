@@ -1,16 +1,16 @@
 ---
 UID: NN:icontact.IContact
 title: IContact
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Defines methods for reading and writing properties for a single contact.
 old-location: wincontacts\_wincontacts_IContact.htm
 old-project: wincontacts
 ms.assetid: 9dc97b84-ede9-4ec1-939a-2b13e0d68486
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts],described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h

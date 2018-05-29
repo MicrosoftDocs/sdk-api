@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.QueryAppIsDefault
 title: IApplicationAssociationRegistration::QueryAppIsDefault
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an application owns the registered default association for a given application level and type. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_QueryAppIsDefault.htm
 old-project: shell
 ms.assetid: 63127fa4-be09-4dd6-9084-cfde00967279
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryAppIsDefault method, IApplicationAssociationRegistration.QueryAppIsDefault, IApplicationAssociationRegistration::QueryAppIsDefault, QueryAppIsDefault, QueryAppIsDefault method [Windows Shell], QueryAppIsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryAppIsDefault, shell.IApplicationAssociationRegistration_QueryAppIsDefault, shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shidfact.CItemIDFactory.IsDelegateFolder
 title: CItemIDFactory::IsDelegateFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value specifying whether the factory is a delegate folder.
 old-location: shell\citemidfactory_isdelegatefolder.htm
 old-project: shell
 ms.assetid: 269DFCDF-A5F7-4367-8B08-3A5015BB04FE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],IsDelegateFolder method, CItemIDFactory.IsDelegateFolder, CItemIDFactory::IsDelegateFolder, IsDelegateFolder, IsDelegateFolder method [Windows Shell], IsDelegateFolder method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_isdelegatefolder, shidfact/CItemIDFactory::IsDelegateFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 

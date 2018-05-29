@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.FolderItemVerb
 title: FolderItemVerb
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a single verb available to an item. This object contains properties and methods that allow you to retrieve information about the verb.
 old-location: shell\FolderItemVerb.htm
 old-project: shell
 ms.assetid: 22f52e3f-875e-4dde-8875-3228639bc7f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FolderItemVerb, FolderItemVerb object [Windows Shell], FolderItemVerb object [Windows Shell],described, _win32_FolderItemVerb, shell.FolderItemVerb, shldisp/FolderItemVerb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

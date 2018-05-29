@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509NameValuePair
 title: IX509NameValuePair
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a generic name-value pair.
 old-location: security\ix509namevaluepair.htm
 old-project: SecCertEnroll
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

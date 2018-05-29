@@ -1,16 +1,16 @@
 ---
 UID: NF:enclaveapi.LoadEnclaveImageW
 title: LoadEnclaveImageW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads an image and all of its imports into an enclave.
 old-location: base\loadenclaveimage.htm
 old-project: Memory
 ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: 

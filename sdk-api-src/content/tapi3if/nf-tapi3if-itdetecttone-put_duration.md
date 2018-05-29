@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITDetectTone.put_Duration
 title: ITDetectTone::put_Duration
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Duration method sets the length of time during which a tone should be present before the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_put_duration.htm
 old-project: Tapi
 ms.assetid: a64181ca-e8d6-48fc-89ef-b91268b709aa
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_Duration method, ITDetectTone.put_Duration, ITDetectTone::put_Duration, _tapi3_itdetecttone_put_duration, put_Duration, put_Duration method [TAPI 2.2], put_Duration method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_duration, tapi3if/ITDetectTone::put_Duration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

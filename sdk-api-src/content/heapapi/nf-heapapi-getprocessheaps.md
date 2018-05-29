@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.GetProcessHeaps
 title: GetProcessHeaps function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.
 old-location: base\getprocessheaps.htm
 old-project: Memory
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

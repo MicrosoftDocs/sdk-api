@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromAddr
 title: SymSetScopeFromAddr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified address.
 old-location: base\symsetscopefromaddr.htm
 old-project: Debug
 ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

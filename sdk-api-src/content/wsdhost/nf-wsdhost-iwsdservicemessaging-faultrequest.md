@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.FaultRequest
 title: IWSDServiceMessaging::FaultRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a fault matching a given request context.
 old-location: ncd\iwsdservicemessaging_faultrequest.htm
 old-project: WsdApi
 ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

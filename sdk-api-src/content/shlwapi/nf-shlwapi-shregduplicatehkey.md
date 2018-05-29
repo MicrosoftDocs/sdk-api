@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegDuplicateHKey
 title: SHRegDuplicateHKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Duplicates a registry key's HKEY handle.
 old-location: shell\SHRegDuplicateHKey.htm
 old-project: shell
 ms.assetid: 73182aa9-0c4d-4723-ba3c-8bab6b51181b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRegDuplicateHKey, SHRegDuplicateHKey function [Windows Shell], _win32_SHRegDuplicateHKey, shell.SHRegDuplicateHKey, shlwapi/SHRegDuplicateHKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

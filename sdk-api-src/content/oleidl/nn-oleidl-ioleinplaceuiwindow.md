@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleInPlaceUIWindow
 title: IOleInPlaceUIWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by container applications and used by object applications to negotiate border space on the document or frame window.
 old-location: com\ioleinplaceuiwindow.htm
 old-project: com
 ms.assetid: 3cfb31aa-9746-438c-af64-8236c170fe88
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], IOleInPlaceUIWindow interface [COM],described, _ole_ioleinplaceuiwindow, com.ioleinplaceuiwindow, oleidl/IOleInPlaceUIWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleDuplicateData
 title: OleDuplicateData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Duplicates the data found in the specified handle and returns a handle to the duplicated data. The source data is in a clipboard format. Use this function to help implement some of the data transfer interfaces such as IDataObject.
 old-location: com\oleduplicatedata.htm
 old-project: com
 ms.assetid: c4ba0b54-e9e1-4c05-b4f8-ce5390cada17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleDuplicateData, OleDuplicateData function [COM], _ole_OleDuplicateData, com.oleduplicatedata, ole2/OleDuplicateData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

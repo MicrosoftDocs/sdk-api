@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetEnvironmentVariable
 title: ICreateProcessInputs::SetEnvironmentVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a variable in the environment of the created process.
 old-location: shell\icreateprocessinputs_setenvironmentvariable.htm
 old-project: shell
 ms.assetid: 5898B21B-5D3B-4950-9DB4-5B7FD19C9187
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetEnvironmentVariable method, ICreateProcessInputs.SetEnvironmentVariable, ICreateProcessInputs::SetEnvironmentVariable, SetEnvironmentVariable, SetEnvironmentVariable method [Windows Shell], SetEnvironmentVariable method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_setenvironmentvariable, shobjidl_core/ICreateProcessInputs::SetEnvironmentVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

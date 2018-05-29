@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 title: "_DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies parameters for the offload write operation.
 old-location: base\device_dsm_offload_write_parameters.htm
 old-project: DevIO
 ms.assetid: d0107cae-50c9-46d2-97cd-324030692903
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer, _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, base.device_dsm_offload_write_parameters, winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetPort
 title: IWSDTransportAddress::GetPort
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IP port number associated with this transport address.
 old-location: ncd\iwsdtransportaddress_getport.htm
 old-project: WsdApi
 ms.assetid: cc2e623f-e6b6-42ad-b0de-7960de0142d0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPort, GetPort method, GetPort method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetPort method, IWSDTransportAddress.GetPort, IWSDTransportAddress::GetPort, ncd.iwsdtransportaddress_getport, wsdbase/IWSDTransportAddress::GetPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileLocationA
 title: SetupGetSourceFileLocationA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.
 old-location: setup\setupgetsourcefilelocation.htm
 old-project: SetupApi
 ms.assetid: 00245cb9-99de-464a-a0b4-d1efb1f1331b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Setup API], SetupGetSourceFileLocationA, SetupGetSourceFileLocationW, _setupapi_setupgetsourcefilelocation, setup.setupgetsourcefilelocation, setupapi/SetupGetSourceFileLocation, setupapi/SetupGetSourceFileLocationA, setupapi/SetupGetSourceFileLocationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

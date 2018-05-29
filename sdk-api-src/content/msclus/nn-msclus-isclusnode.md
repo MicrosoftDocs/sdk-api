@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusNode
 title: ISClusNode
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables operations on a node, its properties, and related objects.
 old-location: mscs\clusnode_object.htm
 old-project: MsCS
 ms.assetid: b164f5a6-13f1-4eff-a2f9-805b60138dd1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusNode, ClusNode object [Failover Cluster], ClusNode object [Failover Cluster],described, ISClusNode, _wolf_clusnode_object, msclus/ClusNode, mscs.clusnode_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

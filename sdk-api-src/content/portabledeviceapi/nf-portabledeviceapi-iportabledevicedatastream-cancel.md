@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDataStream.Cancel
 title: IPortableDeviceDataStream::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: The Cancel method cancels a call in progress on this interface.
 old-location: wpdsdk\iportabledevicedatastream_cancel.htm
 old-project: wpd_sdk
 ms.assetid: 4a86cc78-8ef8-45e1-b63a-dac4c9dcdd9c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceDataStream interface, IPortableDeviceDataStream interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceDataStream.Cancel, IPortableDeviceDataStream::Cancel, IPortableDeviceDataStreamCancel, portabledeviceapi/IPortableDeviceDataStream::Cancel, wpdsdk.iportabledevicedatastream_cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

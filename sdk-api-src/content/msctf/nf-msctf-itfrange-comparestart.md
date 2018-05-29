@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfRange.CompareStart
 title: ITfRange::CompareStart
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfRange::CompareStart method compares the start anchor position of this range of text to an anchor in another range.
 old-location: tsf\itfrange_comparestart.htm
 old-project: TSF
 ms.assetid: b84375ec-e00a-4cb3-97b7-f10688814968
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "+1, -1, 0, CompareStart, CompareStart method [Text Services Framework], CompareStart method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareStart method, ITfRange.CompareStart, ITfRange::CompareStart, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_comparestart_ref, msctf/ITfRange::CompareStart, tsf.itfrange_comparestart"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

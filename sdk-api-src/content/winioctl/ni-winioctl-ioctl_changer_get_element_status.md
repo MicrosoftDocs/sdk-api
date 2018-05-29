@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_ELEMENT_STATUS
 title: IOCTL_CHANGER_GET_ELEMENT_STATUS
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the status of all elements or a specified number of elements of a particular type.
 old-location: base\ioctl_changer_get_element_status.htm
 old-project: DevIO
 ms.assetid: b5266a22-1f7b-423d-b3c1-7e455d87dd2b
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_CHANGER_GET_ELEMENT_STATUS, IOCTL_CHANGER_GET_ELEMENT_STATUS control, IOCTL_CHANGER_GET_ELEMENT_STATUS control code, _win32_ioctl_changer_get_element_status, base.ioctl_changer_get_element_status, winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

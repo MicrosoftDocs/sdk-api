@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamingMediaSinkActivate
 title: MFCreateASFStreamingMediaSinkActivate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an activation object for the ASF streaming sink.
 old-location: mf\mfcreateasfstreamingmediasinkactivate.htm
 old-project: medfound
 ms.assetid: ffcab5ee-400a-424f-ab98-3c9e36ef40ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateASFStreamingMediaSinkActivate, MFCreateASFStreamingMediaSinkActivate function [Media Foundation], mf.mfcreateasfstreamingmediasinkactivate, wmcontainer/MFCreateASFStreamingMediaSinkActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

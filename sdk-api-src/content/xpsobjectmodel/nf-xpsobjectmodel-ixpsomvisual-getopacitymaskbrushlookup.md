@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrushLookup
 title: IXpsOMVisual::GetOpacityMaskBrushLookup
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the lookup key of the shared opacity mask brush in a resource dictionary.
 old-location: xps\ixpsomvisual_getopacitymaskbrushlookup.htm
 old-project: printdocs
 ms.assetid: 84d4aae9-e3e3-4c82-8877-b8206d3678f0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetOpacityMaskBrushLookup, GetOpacityMaskBrushLookup method [XPS Documents and Packaging], GetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrushLookup method, IXpsOMVisual.GetOpacityMaskBrushLookup, IXpsOMVisual::GetOpacityMaskBrushLookup, xps.ixpsomvisual_getopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

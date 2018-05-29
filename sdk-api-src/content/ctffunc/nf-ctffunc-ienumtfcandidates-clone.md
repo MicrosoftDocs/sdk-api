@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Clone
 title: IEnumTfCandidates::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfCandidates::Clone method
 old-location: tsf\ienumtfcandidates_clone.htm
 old-project: TSF
 ms.assetid: 7e7fc6d9-69eb-4457-be28-2b28b9eeeabb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfCandidates interface, IEnumTfCandidates interface [Text Services Framework],Clone method, IEnumTfCandidates.Clone, IEnumTfCandidates::Clone, _tsf_ienumtfcandidates_clone_ref, ctffunc/IEnumTfCandidates::Clone, tsf.ienumtfcandidates_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
 title: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 old-location: mf\d3d11_video_processor_custom_rate.htm
 old-project: medfound
 ms.assetid: 237357C8-546E-41E5-8002-E5499E39DA72
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, D3D11_VIDEO_PROCESSOR_CUSTOM_RATE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, mf.d3d11_video_processor_custom_rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

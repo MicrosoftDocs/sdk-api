@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.WriteGlobalPwrPolicy
 title: WriteGlobalPwrPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes global power policy settings.
 old-location: base\writeglobalpwrpolicy.htm
 old-project: Power
 ms.assetid: 293dc3a5-5e6b-4709-8439-67d2339740e7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: WriteGlobalPwrPolicy, WriteGlobalPwrPolicy function, _win32_writeglobalpwrpolicy, base.writeglobalpwrpolicy, powrprof/WriteGlobalPwrPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

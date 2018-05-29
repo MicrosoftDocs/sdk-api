@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsOpenVDisk
 title: IVdsOpenVDisk
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsopenvdisk.htm
 old-project: VDS
 ms.assetid: 3d5f080f-3e83-437e-8cbc-9730988f5dcc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsOpenVDisk, IVdsOpenVDisk interface, IVdsOpenVDisk interface,described, base.ivdsopenvdisk, vds/IVdsOpenVDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

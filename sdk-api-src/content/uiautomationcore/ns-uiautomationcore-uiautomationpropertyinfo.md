@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPropertyInfo
 title: UIAutomationPropertyInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a custom property.
 old-location: winauto\uiauto_UIAutomationPropertyInfoStruct.htm
 old-project: WinAuto
 ms.assetid: ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UIAutomationPropertyInfo, UIAutomationPropertyInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPropertyInfoStruct, uiauto_UIAutomationPropertyInfoStruct, uiautomationcore/UIAutomationPropertyInfo, winauto.uiauto_UIAutomationPropertyInfoStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

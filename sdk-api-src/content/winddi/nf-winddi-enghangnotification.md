@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngHangNotification
 title: EngHangNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngHangNotification function notifies the system that a specified device is inoperable or unresponsive.
 old-location: display\enghangnotification.htm
 old-project: display
 ms.assetid: 9013bf34-64bd-4621-af40-f979065c8cbd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngHangNotification, EngHangNotification function [Display Devices], display.enghangnotification, gdifncs_ca454eea-7e11-4af6-a717-818f52f9fc59.xml, winddi/EngHangNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

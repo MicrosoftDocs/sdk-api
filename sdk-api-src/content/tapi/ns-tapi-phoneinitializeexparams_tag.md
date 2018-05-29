@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.phoneinitializeexparams_tag
 title: phoneinitializeexparams_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PHONEINITIALIZEEXPARAMS structure contains parameters used to establish the association between an application and TAPI; for example, the application's selected event notification mechanism. The phoneInitializeEx function uses this structure.
 old-location: tapi2\phoneinitializeexparams_str.htm
 old-project: Tapi
 ms.assetid: 465653e4-b88a-42a0-99b0-ce26eeaf99fd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], PHONEINITIALIZEEXPARAMS, PHONEINITIALIZEEXPARAMS structure [TAPI 2.2], _tapi2_phoneinitializeexparams_str, phoneinitializeexparams_tag, tapi/LPPHONEINITIALIZEEXPARAMS, tapi/PHONEINITIALIZEEXPARAMS, tapi2.phoneinitializeexparams_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

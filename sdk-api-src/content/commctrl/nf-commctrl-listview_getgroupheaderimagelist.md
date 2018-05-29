@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetGroupHeaderImageList
 title: ListView_GetGroupHeaderImageList macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the group header image list that has been set for an existing list-view control.
 old-location: controls\ListView_GetGroupHeaderImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupheaderimagelist.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetGroupHeaderImageList, ListView_GetGroupHeaderImageList macro [Windows Controls], _shell_ListView_GetGroupHeaderImageList, _shell_ListView_GetGroupHeaderImageList_cpp, commctrl/ListView_GetGroupHeaderImageList, controls.ListView_GetGroupHeaderImageList, controls._shell_ListView_GetGroupHeaderImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

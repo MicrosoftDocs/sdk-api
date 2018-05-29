@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DEVICE_MEDIA_INFO
 title: "_DEVICE_MEDIA_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about the media supported by a device.
 old-location: base\device_media_info_str.htm
 old-project: DevIO
 ms.assetid: 90367411-3008-4e37-9884-e586fc5162d9
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer, _DEVICE_MEDIA_INFO, _win32_device_media_info_str, base.device_media_info_str, winioctl/DEVICE_MEDIA_INFO, winioctl/PDEVICE_MEDIA_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

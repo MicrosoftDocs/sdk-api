@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPicture.PictureChanged
 title: IPicture::PictureChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the picture object that its picture resource has changed. This method only calls IPropertyNotifySink::OnChanged with DISPID_PICT_HANDLE for any connected sinks.
 old-location: com\ipicture_picturechanged.htm
 old-project: com
 ms.assetid: 60485293-8d5b-4f9f-a529-746ea3371491
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPicture interface [COM],PictureChanged method, IPicture.PictureChanged, IPicture::PictureChanged, PictureChanged, PictureChanged method [COM], PictureChanged method [COM],IPicture interface, _ctrl_ipicture_picturechanged, com.ipicture_picturechanged, ocidl/IPicture::PictureChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

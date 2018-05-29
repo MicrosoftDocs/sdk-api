@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.DoModal
 title: IPhotoAcquireOptionsDialog::DoModal
-author: windows-driver-content
+author: windows-sdk-content
 description: The DoModal method creates and displays the options dialog box as a modal dialog box.
 old-location: picacq\iphotoacquireoptionsdialog_domodal.htm
 old-project: acquisition
 ms.assetid: fbceebc3-10dd-4028-9672-1976a459cafe
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireOptionsDialog.DoModal, IPhotoAcquireOptionsDialog::DoModal, IPhotoAcquireOptionsDialogDoModal, photoacquire/IPhotoAcquireOptionsDialog::DoModal, picacq.iphotoacquireoptionsdialog_domodal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

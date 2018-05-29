@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagFONTSIGNATURE
 title: tagFONTSIGNATURE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information identifying the code pages and Unicode subranges for which a given font provides glyphs.
 old-location: intl\fontsignature.htm
 old-project: Intl
 ms.assetid: 5331da53-7e3d-46e9-a922-da04fedc8382
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPFONTSIGNATURE, *PFONTSIGNATURE, FONTSIGNATURE, FONTSIGNATURE structure [Internationalization for Windows Applications], PFONTSIGNATURE, PFONTSIGNATURE structure pointer [Internationalization for Windows Applications], _win32_FONTSIGNATURE_str, intl.fontsignature, tagFONTSIGNATURE, wingdi/FONTSIGNATURE, wingdi/PFONTSIGNATURE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

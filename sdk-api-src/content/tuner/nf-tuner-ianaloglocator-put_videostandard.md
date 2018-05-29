@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IAnalogLocator.put_VideoStandard
 title: IAnalogLocator::put_VideoStandard
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_VideoStandard method specifies the format of the analog television signal.
 old-location: mstv\ianaloglocator_put_videostandard.htm
 old-project: mstv
 ms.assetid: 6af47a98-ceea-45dd-8a34-3f82ed8a66b1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],put_VideoStandard method, IAnalogLocator.put_VideoStandard, IAnalogLocator::put_VideoStandard, IAnalogLocatorput_VideoStandard, mstv.ianaloglocator_put_videostandard, put_VideoStandard, put_VideoStandard method [Microsoft TV Technologies], put_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, tuner/IAnalogLocator::put_VideoStandard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

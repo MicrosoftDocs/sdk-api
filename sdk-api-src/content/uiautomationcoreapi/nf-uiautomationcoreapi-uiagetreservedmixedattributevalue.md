@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetReservedMixedAttributeValue
 title: UiaGetReservedMixedAttributeValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a reserved value indicating that the value of a Microsoft UI Automation text attribute varies within a text range.
 old-location: winauto\uiauto_UiaGetReservedMixedAttributeValueAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 597ace91-197a-4cda-9386-78c6e429871b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaGetReservedMixedAttributeValue, UiaGetReservedMixedAttributeValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiautomationcoreapi/UiaGetReservedMixedAttributeValue, winauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

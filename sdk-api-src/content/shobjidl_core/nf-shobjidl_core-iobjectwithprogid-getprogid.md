@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IObjectWithProgID.GetProgID
 title: IObjectWithProgID::GetProgID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the ProgID associated with an object.
 old-location: shell\IObjectWithProgID_GetProgID.htm
 old-project: shell
 ms.assetid: 37023615-09cb-4607-9496-7fe9d9f7c947
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetProgID, GetProgID method [Windows Shell], GetProgID method [Windows Shell],IObjectWithProgID interface, IObjectWithProgID interface [Windows Shell],GetProgID method, IObjectWithProgID.GetProgID, IObjectWithProgID::GetProgID, _shell_IObjectWithProgID_GetProgID, shell.IObjectWithProgID_GetProgID, shobjidl_core/IObjectWithProgID::GetProgID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

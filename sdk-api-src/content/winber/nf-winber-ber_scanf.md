@@ -1,16 +1,16 @@
 ---
 UID: NF:winber.ber_scanf
 title: ber_scanf function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ber_scanf function decodes a BER element in a similar manner as sscanf_s.
 old-location: ldap\ber_scanf.htm
 old-project: LDAP
 ms.assetid: bca69428-27e1-4028-bfcd-ad67bee672cc
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ber_scanf, ber_scanf, ber_scanf function [LDAP], ldap.ber__scanf, ldap.ber_scanf, winber/ber_scanf"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winber.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.MonitorFromRect
 title: MonitorFromRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MonitorFromRect function retrieves a handle to the display monitor that has the largest area of intersection with a specified rectangle.
 old-location: gdi\monitorfromrect.htm
 old-project: gdi
 ms.assetid: 81c3fffb-bbc9-4adb-bb6b-edd59f7a77b4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromRect, MonitorFromRect function [Windows GDI], _win32_MonitorFromRect, gdi.monitorfromrect, winuser/MonitorFromRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSchemeHandler.BeginCreateObject
 title: IMFSchemeHandler::BeginCreateObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins an asynchronous request to create an object from a URL.When the Source Resolver creates a media source from a URL, it passes the request to a scheme handler.
 old-location: mf\imfschemehandler_begincreateobject.htm
 old-project: medfound
 ms.assetid: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],BeginCreateObject method, IMFSchemeHandler.BeginCreateObject, IMFSchemeHandler::BeginCreateObject, mf.imfschemehandler_begincreateobject, mfidl/IMFSchemeHandler::BeginCreateObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

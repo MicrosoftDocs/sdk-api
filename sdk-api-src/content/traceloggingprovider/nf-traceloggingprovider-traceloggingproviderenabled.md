@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingProviderEnabled
 title: TraceLoggingProviderEnabled function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether any sessions have subscribed to the provider.
 old-location: tracelogging\traceloggingproviderenabled.htm
 old-project: tracelogging
 ms.assetid: 3ECA1A19-CFDD-4B14-AF88-0180C9B65F00
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingProviderEnabled, TraceLoggingProviderEnabled function, tracelogging.traceloggingproviderenabled, traceloggingprovider/TraceLoggingProviderEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traceloggingprovider.h
 req.include-header: 

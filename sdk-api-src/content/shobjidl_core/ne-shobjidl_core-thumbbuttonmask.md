@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.THUMBBUTTONMASK
 title: THUMBBUTTONMASK
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the THUMBBUTTON structure to specify which members of that structure contain valid data.
 old-location: shell\THUMBBUTTONMASK.htm
 old-project: shell
 ms.assetid: 12c6a535-6a23-4b41-b4fd-4ed4e192d629
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: THB_BITMAP, THB_FLAGS, THB_ICON, THB_TOOLTIP, THUMBBUTTONMASK, THUMBBUTTONMASK enumeration [Windows Shell], _shell_THUMBBUTTONMASK, shell.THUMBBUTTONMASK, shobjidl_core/THB_BITMAP, shobjidl_core/THB_FLAGS, shobjidl_core/THB_ICON, shobjidl_core/THB_TOOLTIP, shobjidl_core/THUMBBUTTONMASK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

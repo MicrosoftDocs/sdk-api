@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetFlipStatus
 title: IDirectDrawSurface7::GetFlipStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves status about whether this surface has finished its flipping process.
 old-location: directdraw\idirectdrawsurface7_getflipstatus.htm
 old-project: directdraw
 ms.assetid: e337bdde-bf63-414a-88a5-507478476667
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DDGFS_CANFLIP, DDGFS_ISFLIPDONE, GetFlipStatus, GetFlipStatus method [DirectDraw], GetFlipStatus method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetFlipStatus method, IDirectDrawSurface7.GetFlipStatus, IDirectDrawSurface7::GetFlipStatus, ddraw/IDirectDrawSurface7::GetFlipStatus, directdraw.idirectdrawsurface7_getflipstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_ClipRectangle
 title: IDynamicRenderer::get_ClipRectangle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the clipping rectangle for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_cliprectangle.htm
 old-project: tablet
 ms.assetid: 0d3c6d2e-1675-4335-a283-ea14a818469a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 0d3c6d2e-1675-4335-a283-ea14a818469a, ClipRectangle property [Tablet PC], ClipRectangle property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRectangle property, IDynamicRenderer.ClipRectangle, IDynamicRenderer.get_ClipRectangle, IDynamicRenderer.put_ClipRectangle, IDynamicRenderer::ClipRectangle, IDynamicRenderer::get_ClipRectangle, IDynamicRenderer::put_ClipRectangle, get_ClipRectangle, rtscom/IDynamicRenderer::ClipRectangle, rtscom/IDynamicRenderer::get_ClipRectangle, rtscom/IDynamicRenderer::put_ClipRectangle, tablet.idynamicrenderer_cliprectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

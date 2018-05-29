@@ -1,16 +1,16 @@
 ---
 UID: NF:mdmregistration.RegisterDeviceWithManagement
 title: RegisterDeviceWithManagement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a device with a MDM service, using the [MS-MDE]:\_Mobile Device Enrollment Protocol.
 old-location: mdmreg\registerdevicewithmanagement.htm
 old-project: MDMReg
 ms.assetid: 3a927d98-decf-464a-82db-561e9abcfe29
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.author: windowssdkdev
+ms.date: 02/20/2018
 ms.keywords: RegisterDeviceWithManagement, RegisterDeviceWithManagement function [MDM Registration], mdmreg.registerdevicewithmanagement, mdmregistration/RegisterDeviceWithManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

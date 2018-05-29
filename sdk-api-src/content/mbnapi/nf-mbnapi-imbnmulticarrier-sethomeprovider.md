@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.SetHomeProvider
 title: IMbnMultiCarrier::SetHomeProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the home provider for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_sethomeprovider.htm
 old-project: mbn
 ms.assetid: 9FDC1B01-4768-4621-9B0E-6EC9AB4275A9
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],SetHomeProvider method, IMbnMultiCarrier.SetHomeProvider, IMbnMultiCarrier::SetHomeProvider, SetHomeProvider, SetHomeProvider method [Microsoft Broadband Networks], SetHomeProvider method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_sethomeprovider, mbnapi/IMbnMultiCarrier::SetHomeProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.IEnumStream.Clone
 title: IEnumStream::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumstream_clone.htm
 old-project: Tapi
 ms.assetid: fbb29d36-b93a-44e2-a1df-74b6de6f4e6e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumStream interface, IEnumStream interface [TAPI 2.2],Clone method, IEnumStream.Clone, IEnumStream::Clone, _tapi3_ienumstream_clone, tapi3.ienumstream_clone, tapi3if/IEnumStream::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

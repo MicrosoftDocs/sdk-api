@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCreateNetConnectionIncident
 title: NdfCreateNetConnectionIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Diagnoses connectivity issues using the NetConnection helper class.
 old-location: ndf\ndfcreatenetconnectionincident.htm
 old-project: NDF
 ms.assetid: EF682ED4-2AD5-4A5B-A308-C671A9E6EB10
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCreateNetConnectionIncident, NdfCreateNetConnectionIncident function [NDF], ndf.ndfcreatenetconnectionincident, ndfapi/NdfCreateNetConnectionIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

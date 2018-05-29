@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IXDSCodec.GetCurrLicenseExpDate
 title: IXDSCodec::GetCurrLicenseExpDate
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\ixdscodec_getcurrlicenseexpdate.htm
 old-project: mstv
 ms.assetid: 9d948df6-6cdf-4283-a2af-3acd47937889
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IXDSCodec.GetCurrLicenseExpDate, IXDSCodec::GetCurrLicenseExpDate, IXDSCodecGetCurrLicenseExpDate, encdec/IXDSCodec::GetCurrLicenseExpDate, mstv.ixdscodec_getcurrlicenseexpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

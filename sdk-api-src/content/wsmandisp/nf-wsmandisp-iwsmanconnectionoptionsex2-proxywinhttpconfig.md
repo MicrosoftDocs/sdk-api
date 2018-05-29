@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyWinHttpConfig
 title: IWSManConnectionOptionsEx2::ProxyWinHttpConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the proxy access type flag WSManProxyWinHttpConfig for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxywinhttpconfig.htm
 old-project: WinRM
 ms.assetid: a44cd693-cf85-4c04-89d5-920e4c2972a4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyWinHttpConfig method, IWSManConnectionOptionsEx2.ProxyWinHttpConfig, IWSManConnectionOptionsEx2::ProxyWinHttpConfig, ProxyWinHttpConfig, ProxyWinHttpConfig method [Windows Remote Management], ProxyWinHttpConfig method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxywinhttpconfig, wsmandisp/IWSManConnectionOptionsEx2::ProxyWinHttpConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_CREATESURFACEDATA
 title: "_DD_CREATESURFACEDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_CREATESURFACEDATA structure contains information necessary to create a surface--in the case of CreateD3DBuffer, a command or vertex buffer.
 old-location: display\dd_createsurfacedata.htm
 old-project: display
 ms.assetid: 5a3b4267-43b4-44dc-abad-cb3f3d07f30e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_CREATESURFACEDATA, DD_CREATESURFACEDATA, DD_CREATESURFACEDATA structure [Display Devices], _DD_CREATESURFACEDATA, ddrawint/DD_CREATESURFACEDATA, ddstrcts_bd51b416-f5b7-4a68-833b-7102de67488c.xml, display.dd_createsurfacedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

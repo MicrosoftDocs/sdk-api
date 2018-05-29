@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PDISCONNECT_CLIENT
 title: PDISCONNECT_CLIENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The router manager calls the DisconnectClient function when a client disconnects from an interface on which the routing protocol is running.
 old-location: rras\disconnectclient.htm
 old-project: RRAS
 ms.assetid: 45859605-2981-4236-9546-9b88e07673fe
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: DisconnectClient, DisconnectClient callback function [RAS], PDISCONNECT_CLIENT, PDISCONNECT_CLIENT callback, _mpr_disconnectclient, routprot/DisconnectClient, rras.disconnectclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

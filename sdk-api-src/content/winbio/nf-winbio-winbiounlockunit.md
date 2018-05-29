@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioUnlockUnit
 title: WinBioUnlockUnit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the session lock on the specified biometric unit.
 old-location: secbiomet\winbiounlockunit.htm
 old-project: SecBioMet
 ms.assetid: 689adf39-da62-4e83-94e9-e2daa7bd4753
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioUnlockUnit, WinBioUnlockUnit function [Windows Biometric Framework API], secbiomet.winbiounlockunit, winbio/WinBioUnlockUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

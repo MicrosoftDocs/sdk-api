@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpAddCredentialsFn
 title: SpAddCredentialsFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to add credentials for a security principal.
 old-location: security\spaddcredentials.htm
 old-project: SecAuthN
 ms.assetid: 27377afa-4e54-4c6b-8e84-a8810bc01139
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAddCredentials, SpAddCredentials function [Security], SpAddCredentialsFn, _ssp_spaddcredentials, ntsecpkg/SpAddCredentials, security.spaddcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.InStory
 title: ITextRange::InStory
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether this range's story is the same as a specified range's story.
 old-location: controls\ITextRange_InStory.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\instory.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange interface [Windows Controls],InStory method, ITextRange.InStory, ITextRange::InStory, InStory, InStory method [Windows Controls], InStory method [Windows Controls],ITextRange interface, _win32_ITextRange_InStory, _win32_ITextRange_InStory_cpp, controls.ITextRange_InStory, controls._win32_ITextRange_InStory, tom/ITextRange::InStory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

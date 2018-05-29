@@ -1,16 +1,16 @@
 ---
 UID: NS:mfapi._MFPinholeCameraIntrinsic_IntrinsicModel
 title: "_MFPinholeCameraIntrinsic_IntrinsicModel"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a pinhole camera intrinsic model for a specified resolution.
 old-location: mf\mfpinholecameraintrinsic_intrinsicmodel.htm
 old-project: medfound
 ms.assetid: 9A8ED71E-A138-4ADE-AB17-543C77590676
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFPinholeCameraIntrinsic_IntrinsicModel, MFPinholeCameraIntrinsic_IntrinsicModel structure [Media Foundation], PMFPinholeCameraIntrinsic_IntrinsicModel, PMFPinholeCameraIntrinsic_IntrinsicModel structure pointer [Media Foundation], _MFPinholeCameraIntrinsic_IntrinsicModel, mf.mfpinholecameraintrinsic_intrinsicmodel, mfapi/MFPinholeCameraIntrinsic_IntrinsicModel, mfapi/PMFPinholeCameraIntrinsic_IntrinsicModel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

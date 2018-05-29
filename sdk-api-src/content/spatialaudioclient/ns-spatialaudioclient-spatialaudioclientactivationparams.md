@@ -1,16 +1,16 @@
 ---
 UID: NS:spatialaudioclient.SpatialAudioClientActivationParams
 title: SpatialAudioClientActivationParams
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents optional activation parameters for a spatial audio render stream. Pass this structure to ActivateAudioInterfaceAsync when activating an ISpatialAudioClient interface.
 old-location: coreaudio\spatialaudioclientactivationparams.htm
 old-project: CoreAudio
 ms.assetid: 6FEC7A70-D12E-4DB9-91DC-A54D5CCF8B57
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PSpatialAudioClientActivationParams, PSpatialAudioClientActivationParams structure pointer [Core Audio], SpatialAudioClientActivationParams, SpatialAudioClientActivationParams structure [Core Audio], coreaudio.spatialaudioclientactivationparams, spatialaudioclient/PSpatialAudioClientActivationParams, spatialaudioclient/SpatialAudioClientActivationParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudioclient.h
 req.include-header: 

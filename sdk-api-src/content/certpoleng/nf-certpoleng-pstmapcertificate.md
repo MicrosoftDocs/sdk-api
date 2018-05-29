@@ -1,16 +1,16 @@
 ---
 UID: NF:certpoleng.PstMapCertificate
 title: PstMapCertificate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a structure that specifies information that can be used to create a user token associated with the specified certificate.
 old-location: security\pstmapcertificate.htm
 old-project: SecAuthN
 ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certpoleng.h
 req.include-header: 

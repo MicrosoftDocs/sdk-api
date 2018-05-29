@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetResponseData
 title: IESIsdbCasResponseEvent::GetResponseData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the response data returned in an IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getresponsedata.htm
 old-project: mstv
 ms.assetid: ee0618a6-6162-4178-be44-978558add914
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetResponseData, GetResponseData method [DirectShow], GetResponseData method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetResponseData method, IESIsdbCasResponseEvent.GetResponseData, IESIsdbCasResponseEvent::GetResponseData, mstv.iesisdbcasresponseevent_getresponsedata, tuner/IESIsdbCasResponseEvent::GetResponseData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

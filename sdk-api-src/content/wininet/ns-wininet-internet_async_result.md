@@ -1,16 +1,16 @@
 ---
 UID: NS:wininet.INTERNET_ASYNC_RESULT
 title: INTERNET_ASYNC_RESULT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the result of a call to an asynchronous function. This structure is used with InternetStatusCallback.
 old-location: wininet\internet_async_result.htm
 old-project: WinInet
 ms.assetid: e86fb4fd-8601-42e1-8c8e-9747a24459f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPINTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT structure [WinINet], LPINTERNET_ASYNC_RESULT, LPINTERNET_ASYNC_RESULT structure pointer [WinINet], _inet_internet_async_result_structure, wininet.internet_async_result, wininet/ LPINTERNET_ASYNC_RESULT, wininet/INTERNET_ASYNC_RESULT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

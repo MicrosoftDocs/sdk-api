@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchWMIFilters
 title: IGPMDomain::SearchWMIFilters
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes a search for GPMWMIFilter objects in the domain and then returns a GPMWMIFilterCollection object.
 old-location: gpmc\igpmdomain_searchwmifilters.htm
 old-project: GPMC
 ms.assetid: 4e0abc25-bdcb-4277-90bb-542e922fc71c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMDomain object [GPMC],SearchWMIFilters method, IGPMDomain interface [GPMC],SearchWMIFilters method, IGPMDomain.SearchWMIFilters, IGPMDomain::SearchWMIFilters, SearchWMIFilters, SearchWMIFilters method [GPMC], SearchWMIFilters method [GPMC],GPMDomain object, SearchWMIFilters method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchwmifilters, gpmc.igpmdomain_searchwmifilters, gpmgmt/IGPMDomain::SearchWMIFilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMStoryFragmentsResource
 title: IXpsOMStoryFragmentsResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the content of the resource stream of a page's StoryFragments part.
 old-location: xps\ixpsomstoryfragmentsresource.htm
 old-project: printdocs
 ms.assetid: 83bc8017-c679-40a8-96a8-bff9aa2273af
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],described, xps.ixpsomstoryfragmentsresource, xpsobjectmodel/IXpsOMStoryFragmentsResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

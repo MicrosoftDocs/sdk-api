@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs._SPropTagArray
 title: "_SPropTagArray"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Contains an array of property tags.
 old-location: wab\_wab_SPropTagArray.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\sproptagarray.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPSPropTagArray, SPropTagArray, SPropTagArray structure [Windows Address Book], _SPropTagArray, _wab_SPropTagArray, wab._wab_SPropTagArray, wabdefs/SPropTagArray"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

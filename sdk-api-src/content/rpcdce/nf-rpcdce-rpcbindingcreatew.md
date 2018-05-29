@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingCreateW
 title: RpcBindingCreateW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcBindingCreate function creates a new fast RPC binding handle based on a supplied template.
 old-location: rpc\rpcbindingcreate.htm
 old-project: Rpc
 ms.assetid: 0188512e-bff6-414b-a6eb-19bfe8e0b3a9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingCreate, RpcBindingCreate function [RPC], RpcBindingCreateA, RpcBindingCreateW, rpc.rpcbindingcreate, rpcdce/RpcBindingCreate, rpcdce/RpcBindingCreateA, rpcdce/RpcBindingCreateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

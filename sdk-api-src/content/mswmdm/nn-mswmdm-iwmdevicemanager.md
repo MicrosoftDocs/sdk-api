@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager
 title: IWMDeviceManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDeviceManager interface is the top level Windows Media Device Manager interface for applications.
 old-location: wmdm\iwmdevicemanager.htm
 old-project: WMDM
 ms.assetid: cac68821-42fc-4833-bf2e-eec1768869e6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDeviceManager, IWMDeviceManager interface [windows Media Device Manager], IWMDeviceManager interface [windows Media Device Manager],described, IWMDeviceManagerInterface, mswmdm/IWMDeviceManager, wmdm.iwmdevicemanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

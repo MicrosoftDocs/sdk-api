@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.CanUseScanLine
 title: IDirectDrawVideo::CanUseScanLine
-author: windows-driver-content
+author: windows-sdk-content
 description: The CanUseScanLine method determines whether the renderer will check the current scan line when drawing.
 old-location: dshow\idirectdrawvideo_canusescanline.htm
 old-project: DirectShow
 ms.assetid: 2fa11ebb-0408-4ea7-9d18-c85860d6e2fc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CanUseScanLine, CanUseScanLine method [DirectShow], CanUseScanLine method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseScanLine method, IDirectDrawVideo.CanUseScanLine, IDirectDrawVideo::CanUseScanLine, IDirectDrawVideoCanUseScanLine, amvideo/IDirectDrawVideo::CanUseScanLine, dshow.idirectdrawvideo_canusescanline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

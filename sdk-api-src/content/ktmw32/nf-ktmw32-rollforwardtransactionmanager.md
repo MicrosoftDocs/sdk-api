@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.RollforwardTransactionManager
 title: RollforwardTransactionManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Recovers information only to the specified virtual clock value.
 old-location: fs\rollforwardtransactionmanager.htm
 old-project: Ktm
 ms.assetid: 13492b74-8707-46bb-93f1-59c3c5ceab6d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RollforwardTransactionManager, RollforwardTransactionManager function [Files], fs.rollforwardtransactionmanager, ktmw32/RollforwardTransactionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMBufferNegotiation.SuggestAllocatorProperties
 title: IAMBufferNegotiation::SuggestAllocatorProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The SuggestAllocatorProperties method informs the pin of the application's preferred allocator properties. Call this method before the pin connects.
 old-location: dshow\iambuffernegotiation_suggestallocatorproperties.htm
 old-project: DirectShow
 ms.assetid: f6a7f2c4-be8b-4721-87f4-274ba365784f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMBufferNegotiation interface [DirectShow],SuggestAllocatorProperties method, IAMBufferNegotiation.SuggestAllocatorProperties, IAMBufferNegotiation::SuggestAllocatorProperties, IAMBufferNegotiationSuggestAllocatorProperties, SuggestAllocatorProperties, SuggestAllocatorProperties method [DirectShow], SuggestAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, dshow.iambuffernegotiation_suggestallocatorproperties, strmif/IAMBufferNegotiation::SuggestAllocatorProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

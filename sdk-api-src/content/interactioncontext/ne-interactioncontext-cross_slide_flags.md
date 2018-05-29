@@ -1,16 +1,16 @@
 ---
 UID: NE:interactioncontext.CROSS_SLIDE_FLAGS
 title: CROSS_SLIDE_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the state of the cross-slide interaction.
 old-location: input_intcontext\cross_slide_flags.htm
 old-project: Input_IntContext
 ms.assetid: 3be72ad1-87da-4c08-84fd-a84d4c03d33b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: CROSS_SLIDE_FLAGS, CROSS_SLIDE_FLAGS enumeration, CROSS_SLIDE_FLAGS_MAX, CROSS_SLIDE_FLAGS_NONE, CROSS_SLIDE_FLAGS_REARRANGE, CROSS_SLIDE_FLAGS_SELECT, CROSS_SLIDE_FLAGS_SPEED_BUMP, input_intcontext.cross_slide_flags, interactioncontext.cross_slide_flags, interactioncontext/CROSS_SLIDE_FLAGS, interactioncontext/CROSS_SLIDE_FLAGS_MAX, interactioncontext/CROSS_SLIDE_FLAGS_NONE, interactioncontext/CROSS_SLIDE_FLAGS_REARRANGE, interactioncontext/CROSS_SLIDE_FLAGS_SELECT, interactioncontext/CROSS_SLIDE_FLAGS_SPEED_BUMP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeInteractiveUI
 title: EapHostPeerInvokeInteractiveUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Raises an interactive user interface used to get credentials from the user.
 old-location: eaphost\eaphostpeerinvokeinteractiveui.htm
 old-project: EAPHost
 ms.assetid: a4a46b77-f8ab-4062-b966-1590ea9e46d2
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerInvokeInteractiveUI, EapHostPeerInvokeInteractiveUI function [EAPHost], eaphost.eaphostpeerinvokeinteractiveui, eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

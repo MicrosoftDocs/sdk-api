@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IProgressNotify.OnProgress
 title: IProgressNotify::OnProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies registered objects and applications of the progress of a downloading operation.
 old-location: com\iprogressnotify_onprogress.htm
 old-project: com
 ms.assetid: 07b3e629-a558-4a0e-8307-ca922f56e00c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IProgressNotify interface [COM],OnProgress method, IProgressNotify.OnProgress, IProgressNotify::OnProgress, OnProgress, OnProgress method [COM], OnProgress method [COM],IProgressNotify interface, _com_iprogressnotify_onprogress, com.iprogressnotify_onprogress, objidl/IProgressNotify::OnProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

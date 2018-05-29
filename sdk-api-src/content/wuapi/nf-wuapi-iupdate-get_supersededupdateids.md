@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_SupersededUpdateIDs
 title: IUpdate::get_SupersededUpdateIDs
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a collection of update identifiers. This collection of identifiers specifies the updates that are superseded by the update.
 old-location: wua\iupdate_supersededupdateids.htm
 old-project: Wua_Sdk
 ms.assetid: b819e321-3f8d-4d8f-8f6d-16792af990e5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupersededUpdateIDs property, IUpdate.SupersededUpdateIDs, IUpdate.get_SupersededUpdateIDs, IUpdate::SupersededUpdateIDs, IUpdate::get_SupersededUpdateIDs, SupersededUpdateIDs property [Windows Update Agent], SupersededUpdateIDs property [Windows Update Agent],IUpdate interface, get_SupersededUpdateIDs, wua.iupdate_supercededupdateids, wua.iupdate_supersededupdateids, wuapi/IUpdate::SupersededUpdateIDs, wuapi/IUpdate::get_SupersededUpdateIDs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

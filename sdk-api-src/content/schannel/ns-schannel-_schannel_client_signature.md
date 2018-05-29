@@ -1,16 +1,16 @@
 ---
 UID: NS:schannel._SCHANNEL_CLIENT_SIGNATURE
 title: "_SCHANNEL_CLIENT_SIGNATURE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a client signature when a call to the InitializeSecurityContext (Schannel) function cannot access the private key for a client certificate (in this case, the function returns SEC_I_SIGNATURE_NEEDED).
 old-location: security\schannel_client_signature.htm
 old-project: SecAuthN
 ms.assetid: 2549a287-bee3-457b-86e3-3330bf23169a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE structure pointer [Security], SCHANNEL_CLIENT_SIGNATURE, SCHANNEL_CLIENT_SIGNATURE structure [Security], _SCHANNEL_CLIENT_SIGNATURE, schannel/PSCHANNEL_CLIENT_SIGNATURE, schannel/SCHANNEL_CLIENT_SIGNATURE, security.schannel_client_signature"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

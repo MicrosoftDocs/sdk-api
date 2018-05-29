@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagAMTunerModeType
 title: tagAMTunerModeType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the frequency of a TV tuner (cable or antenna).
 old-location: dshow\amtunermodetype.htm
 old-project: DirectShow
 ms.assetid: ce5e6f6d-da79-4a86-abd4-bb28e66d5947
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AMTUNER_MODE_AM_RADIO, AMTUNER_MODE_DEFAULT, AMTUNER_MODE_DSS, AMTUNER_MODE_FM_RADIO, AMTUNER_MODE_TV, AMTunerModeType, AMTunerModeType enumeration [DirectShow], AMTunerModeTypeEnumeration, dshow.amtunermodetype, strmif/AMTUNER_MODE_AM_RADIO, strmif/AMTUNER_MODE_DEFAULT, strmif/AMTUNER_MODE_DSS, strmif/AMTUNER_MODE_FM_RADIO, strmif/AMTUNER_MODE_TV, strmif/AMTunerModeType, tagAMTunerModeType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
 title: ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the minimum knowledge that a destination provider is required to have to process this change batch.
 old-location: winsync\isyncchangebatchwithprerequisite_setprerequisiteknowledge.htm
 old-project: winsync
 ms.assetid: a138dbd9-e498-40bf-9490-690103afbf0f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite interface [Windows Sync],SetPrerequisiteKnowledge method, ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge, ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge, SetPrerequisiteKnowledge, SetPrerequisiteKnowledge method [Windows Sync], SetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge, winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

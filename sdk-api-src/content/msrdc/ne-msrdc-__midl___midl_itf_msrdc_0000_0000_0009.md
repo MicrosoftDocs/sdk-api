@@ -1,16 +1,16 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0009
 title: "__MIDL___MIDL_itf_msrdc_0000_0000_0009"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that describe the state of the similarity traits table, similarity file ID table, or both.
 old-location: rdc\rdccreatedtables.htm
 old-project: Rdc
 ms.assetid: f46dd0f0-22b0-41fb-a7c2-29d1b4514f7e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RDCTABLE_Existing, RDCTABLE_InvalidOrUnknown, RDCTABLE_New, RdcCreatedTables, RdcCreatedTables enumeration [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0009, fs.rdccreatedtables, msrdc/RDCTABLE_Existing, msrdc/RDCTABLE_InvalidOrUnknown, msrdc/RDCTABLE_New, msrdc/RdcCreatedTables, rdc.rdccreatedtables
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msrdc.h
 req.include-header: 

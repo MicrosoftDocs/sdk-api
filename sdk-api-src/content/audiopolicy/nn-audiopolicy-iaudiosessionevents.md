@@ -1,16 +1,16 @@
 ---
 UID: NN:audiopolicy.IAudioSessionEvents
 title: IAudioSessionEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioSessionEvents interface provides notifications of session-related events such as changes in the volume level, display name, and session state.
 old-location: coreaudio\iaudiosessionevents.htm
 old-project: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio],described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 

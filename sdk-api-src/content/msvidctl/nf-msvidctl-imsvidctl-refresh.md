@@ -1,16 +1,16 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Refresh
 title: IMSVidCtl::Refresh
-author: windows-driver-content
+author: windows-sdk-content
 description: The Refresh method immediately updates the Video Control's appearance.
 old-location: mstv\imsvidctl_refresh.htm
 old-project: mstv
 ms.assetid: 7413049e-3ce4-46e9-ab49-fbdb0455c6b6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Refresh method, IMSVidCtl.Refresh, IMSVidCtl::Refresh, IMSVidCtlRefresh, Refresh, Refresh method [Microsoft TV Technologies], Refresh method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_refresh, msvidctl/IMSVidCtl::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

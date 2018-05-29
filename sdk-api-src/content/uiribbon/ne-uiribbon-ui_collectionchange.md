@@ -1,16 +1,16 @@
 ---
 UID: NE:uiribbon.UI_COLLECTIONCHANGE
 title: UI_COLLECTIONCHANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies values that identify the types of changes that can be made to a collection.
 old-location: windowsribbon\windowsribbon_ui_collectionchange.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_collectionchange.htm
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: UI_COLLECTIONCHANGE, UI_COLLECTIONCHANGE enumeration [Windows Ribbon], UI_COLLECTIONCHANGE_INSERT, UI_COLLECTIONCHANGE_REMOVE, UI_COLLECTIONCHANGE_REPLACE, UI_COLLECTIONCHANGE_RESET, scenicintent_UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE_INSERT, uiribbon/UI_COLLECTIONCHANGE_REMOVE, uiribbon/UI_COLLECTIONCHANGE_REPLACE, uiribbon/UI_COLLECTIONCHANGE_RESET, windowsribbon.windowsribbon_ui_collectionchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 

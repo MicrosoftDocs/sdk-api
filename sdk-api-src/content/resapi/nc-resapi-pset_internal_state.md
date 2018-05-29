@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PSET_INTERNAL_STATE
 title: PSET_INTERNAL_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the internal state of a resource.
 old-location: mscs\setinternalstate.htm
 old-project: MsCS
 ms.assetid: B9ECD98B-D867-44C0-846F-8FE96E44F387
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PSET_INTERNAL_STATE, PSET_INTERNAL_STATE callback function [Failover Cluster], SetInternalState, SetInternalState callback, SetInternalState callback function [Failover Cluster], mscs.setinternalstate, resapi/PSET_INTERNAL_STATE, resapi/SetInternalState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

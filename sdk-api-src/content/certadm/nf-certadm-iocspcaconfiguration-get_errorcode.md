@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ErrorCode
 title: IOCSPCAConfiguration::get_ErrorCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a code that identifies an error condition in a CA configuration.
 old-location: security\iocspcaconfiguration_errorcode_method.htm
 old-project: SecCrypto
 ms.assetid: ef41699e-761b-454e-a759-424bb5989459
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ErrorCode property [Security], ErrorCode property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],ErrorCode property, IOCSPCAConfiguration.ErrorCode, IOCSPCAConfiguration.get_ErrorCode, IOCSPCAConfiguration::ErrorCode, IOCSPCAConfiguration::get_ErrorCode, certadm/IOCSPCAConfiguration::ErrorCode, certadm/IOCSPCAConfiguration::get_ErrorCode, get_ErrorCode, security.iocspcaconfiguration_errorcode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

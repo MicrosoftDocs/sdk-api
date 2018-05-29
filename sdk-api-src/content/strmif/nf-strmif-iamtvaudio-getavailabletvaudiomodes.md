@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTVAudio.GetAvailableTVAudioModes
 title: IAMTVAudio::GetAvailableTVAudioModes
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAvailableTVAudioModes method retrieves a bitmask of the possible modes.
 old-location: dshow\iamtvaudio_getavailabletvaudiomodes.htm
 old-project: DirectShow
 ms.assetid: c64dc038-7ebf-4aa4-a7ae-b3eb0e8eaf1a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAvailableTVAudioModes, GetAvailableTVAudioModes method [DirectShow], GetAvailableTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetAvailableTVAudioModes method, IAMTVAudio.GetAvailableTVAudioModes, IAMTVAudio::GetAvailableTVAudioModes, IAMTVAudioGetAvailableTVAudioModes, dshow.iamtvaudio_getavailabletvaudiomodes, strmif/IAMTVAudio::GetAvailableTVAudioModes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

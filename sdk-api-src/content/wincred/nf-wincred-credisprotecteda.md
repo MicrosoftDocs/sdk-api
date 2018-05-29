@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredIsProtectedA
 title: CredIsProtectedA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.
 old-location: security\credisprotected.htm
 old-project: SecAuthN
 ms.assetid: 3c38ecf5-1288-4a50-ad17-595e9ff4aaca
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredIsProtected, CredIsProtected function [Security], CredIsProtectedA, CredIsProtectedW, security.credisprotected, wincred/CredIsProtected, wincred/CredIsProtectedA, wincred/CredIsProtectedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

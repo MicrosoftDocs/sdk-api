@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetErrorDlg
 title: InternetErrorDlg function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a dialog box for the error that is passed to InternetErrorDlg, if an appropriate dialog box exists.
 old-location: wininet\interneterrordlg.htm
 old-project: WinInet
 ms.assetid: 09384ba9-e5cc-48fd-a52c-15df223f87dc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetErrorDlg, InternetErrorDlg function [WinINet], _inet_interneterrordlg_function, wininet.interneterrordlg, wininet/InternetErrorDlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

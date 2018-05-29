@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprInfoBlockFind
 title: MprInfoBlockFind function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprInfoBlockFind function locates a specified block in an information header, and retrieves information about the block.
 old-location: rras\mprinfoblockfind.htm
 old-project: RRAS
 ms.assetid: fd9a048b-03fb-4fe9-9f72-df07b35dd804
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprInfoBlockFind, MprInfoBlockFind function [RAS], _mpr_mprinfoblockfind, mprapi/MprInfoBlockFind, rras.mprinfoblockfind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

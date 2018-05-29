@@ -1,16 +1,16 @@
 ---
 UID: NS:mssip.MS_ADDINFO_BLOB_
 title: MS_ADDINFO_BLOB_
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides additional information for in-memory BLOB subject types.
 old-location: security\ms_addinfo_blob.htm
 old-project: SecCrypto
 ms.assetid: 236c8778-0b80-4157-8a81-24712ebf9a77
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PMS_ADDINFO_BLOB, MS_ADDINFO_BLOB, MS_ADDINFO_BLOB structure [Security], MS_ADDINFO_BLOB_, PMS_ADDINFO_BLOB, PMS_ADDINFO_BLOB structure pointer [Security], mssip/MS_ADDINFO_BLOB, mssip/PMS_ADDINFO_BLOB, security.ms_addinfo_blob"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 

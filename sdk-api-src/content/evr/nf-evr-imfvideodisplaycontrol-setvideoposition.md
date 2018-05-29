@@ -1,16 +1,16 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetVideoPosition
 title: IMFVideoDisplayControl::SetVideoPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_setvideoposition.htm
 old-project: medfound
 ms.assetid: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184, IMFVideoDisplayControl interface [Media Foundation],SetVideoPosition method, IMFVideoDisplayControl.SetVideoPosition, IMFVideoDisplayControl::SetVideoPosition, SetVideoPosition, SetVideoPosition method [Media Foundation], SetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoPosition, mf.imfvideodisplaycontrol_setvideoposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr.h
 req.include-header: 

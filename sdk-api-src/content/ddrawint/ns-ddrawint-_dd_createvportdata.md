@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_CREATEVPORTDATA
 title: "_DD_CREATEVPORTDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_CREATEVPORTDATA structure contains the information necessary to describe the video port extensions (VPE) object being created.
 old-location: display\dd_createvportdata.htm
 old-project: display
 ms.assetid: c4dea564-399a-46ee-ad71-7a374d6fbc0a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_CREATEVPORTDATA, DD_CREATEVPORTDATA, DD_CREATEVPORTDATA structure [Display Devices], _DD_CREATEVPORTDATA, ddrawint/DD_CREATEVPORTDATA, ddstrcts_397bd4aa-7d61-4efa-b47e-1ec97556a429.xml, display.dd_createvportdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

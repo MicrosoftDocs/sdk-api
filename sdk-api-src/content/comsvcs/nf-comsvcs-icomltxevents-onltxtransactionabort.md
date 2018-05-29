@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionAbort
 title: IComLTxEvents::OnLtxTransactionAbort
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a transaction is aborted.
 old-location: cos\icomltxevents_onltxtransactionabort.htm
 old-project: cossdk
 ms.assetid: 49117b74-e84b-497c-ae13-6037e8243e79
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionAbort method, IComLTxEvents.OnLtxTransactionAbort, IComLTxEvents::OnLtxTransactionAbort, OnLtxTransactionAbort, OnLtxTransactionAbort method [COM+], OnLtxTransactionAbort method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionAbort, cos.icomltxevents_onltxtransactionabort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

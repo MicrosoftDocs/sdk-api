@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptImportKey
 title: BCryptImportKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports a symmetric key from a key BLOB.
 old-location: security\bcryptimportkey_func.htm
 old-project: SecCNG
 ms.assetid: 6b9683f4-10f2-40e4-9757-a1f01991bef7
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_AES_WRAP_KEY_BLOB, BCRYPT_KEY_DATA_BLOB, BCRYPT_OPAQUE_KEY_BLOB, BCryptImportKey, BCryptImportKey function [Security], bcrypt/BCryptImportKey, security.bcryptimportkey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

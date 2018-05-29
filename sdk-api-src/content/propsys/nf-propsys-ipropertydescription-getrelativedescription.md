@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetRelativeDescription
 title: IPropertyDescription::GetRelativeDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two property values in the manner specified by the property description. Returns two display strings that describe how the two properties compare.
 old-location: properties\IPropertyDescription_GetRelativeDescription.htm
 old-project: properties
 ms.assetid: d98cc2de-8f1c-4827-99b9-2b770d1270e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRelativeDescription, GetRelativeDescription method [Windows Properties], GetRelativeDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetRelativeDescription method, IPropertyDescription.GetRelativeDescription, IPropertyDescription::GetRelativeDescription, properties.IPropertyDescription_GetRelativeDescription, propsys/IPropertyDescription::GetRelativeDescription, shell.IPropertyDescription_GetRelativeDescription, shell_IPropertyDescription_GetRelativeDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.AddDataSourceFromUrl
 title: IMFTimedText::AddDataSourceFromUrl
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a timed-text data source from the specified URL.
 old-location: mf\imftimedtext_adddatasourcefromurl.htm
 old-project: medfound
 ms.assetid: 5E02BE3F-D0A8-492D-BBB2-F5A95B9C406D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddDataSourceFromUrl, AddDataSourceFromUrl method [Media Foundation], AddDataSourceFromUrl method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSourceFromUrl method, IMFTimedText.AddDataSourceFromUrl, IMFTimedText::AddDataSourceFromUrl, mf.imftimedtext_adddatasourcefromurl, mfmediaengine/IMFTimedText::AddDataSourceFromUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

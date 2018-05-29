@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbTarget
 title: ITsSbTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes properties that store configuration and state information about a target.
 old-location: termserv\itssbtarget.htm
 old-project: TermServ
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSbTarget interface [Remote Desktop Services],described, sbtsv/ITsSbTarget, termserv.itssbtarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

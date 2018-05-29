@@ -1,16 +1,16 @@
 ---
 UID: NC:davclnt.PFNDAVAUTHCALLBACK
 title: PFNDAVAUTHCALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: The WebDAV client calls the application-defined DavAuthCallback callback function to prompt the user for credentials.
 old-location: webdav\authcallback.htm
 old-project: WebDAV
 ms.assetid: 6ac191ac-e63f-431f-893b-92c69320db58
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: DAV_AUTHN_SCHEME_BASIC, DAV_AUTHN_SCHEME_CERT, DAV_AUTHN_SCHEME_DIGEST, DAV_AUTHN_SCHEME_FBA, DAV_AUTHN_SCHEME_NEGOTIATE, DAV_AUTHN_SCHEME_NTLM, DAV_AUTHN_SCHEME_PASSPORT, DavAuthCallback, DavAuthCallback callback function [WebDAV], PFNDAVAUTHCALLBACK, PFNDAVAUTHCALLBACK callback, davclnt/DavAuthCallback, webdav.authcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: davclnt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcRelationshipSelectorSet
 title: IOpcRelationshipSelectorSet
-author: windows-driver-content
+author: windows-sdk-content
 description: An unordered set of IOpcRelationshipSelector interface pointers that represent the selection criteria that is used to identify relationships for signing.
 old-location: opc\iopcrelationshipselectorset.htm
 old-project: OPC
 ms.assetid: cb23cbe2-764c-47e4-bd32-2791ddde9eee
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcRelationshipSelectorSet, IOpcRelationshipSelectorSet interface [Open Packaging Conventions], IOpcRelationshipSelectorSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorSet, opc.iopcrelationshipselectorset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

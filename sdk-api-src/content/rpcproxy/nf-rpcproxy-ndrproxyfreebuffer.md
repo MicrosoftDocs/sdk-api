@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.NdrProxyFreeBuffer
 title: NdrProxyFreeBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrProxyFreeBuffer function frees an RPC buffer.
 old-location: rpc\ndrproxyfreebuffer.htm
 old-project: Rpc
 ms.assetid: 6abc3f93-6eef-4363-aa1a-1ecfffb9d934
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrProxyFreeBuffer, NdrProxyFreeBuffer function [RPC], rpc.ndrproxyfreebuffer, rpcproxy/NdrProxyFreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mfapi._MT_ARBITRARY_HEADER
 title: "_MT_ARBITRARY_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains format data for a binary stream in an Advanced Streaming Format (ASF) file.
 old-location: mf\mt_arbitrary_header.htm
 old-project: medfound
 ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], _MT_ARBITRARY_HEADER, mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

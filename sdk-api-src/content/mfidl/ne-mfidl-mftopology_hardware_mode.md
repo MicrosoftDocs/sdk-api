@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl.MFTOPOLOGY_HARDWARE_MODE
 title: MFTOPOLOGY_HARDWARE_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the topology loader will insert hardware-based Media Foundation transforms (MFTs) into the topology.
 old-location: mf\mftopology_hardware_mode.htm
 old-project: medfound
 ms.assetid: fdaa13a5-9b23-440e-be04-ae926e1b0ff5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFTOPOLOGY_HARDWARE_MODE, MFTOPOLOGY_HARDWARE_MODE enumeration [Media Foundation], MFTOPOLOGY_HWMODE_SOFTWARE_ONLY, MFTOPOLOGY_HWMODE_USE_HARDWARE, MFTOPOLOGY_HWMODE_USE_ONLY_HARDWARE, mf.mftopology_hardware_mode, mfidl/ MFTOPOLOGY_HWMODE_USE_ONLY_HARDWARE, mfidl/MFTOPOLOGY_HARDWARE_MODE, mfidl/MFTOPOLOGY_HWMODE_SOFTWARE_ONLY, mfidl/MFTOPOLOGY_HWMODE_USE_HARDWARE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IManagedActivationEvents.DestroyManagedStub
 title: IManagedActivationEvents::DestroyManagedStub
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a stub that was created by CreateManagedStub.
 old-location: cos\imanagedactivationevents_destroymanagedstub.htm
 old-project: cossdk
 ms.assetid: aabc8192-d499-441e-be5d-9a51108bd344
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DestroyManagedStub, DestroyManagedStub method [COM+], DestroyManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],DestroyManagedStub method, IManagedActivationEvents.DestroyManagedStub, IManagedActivationEvents::DestroyManagedStub, _cos_IManagedActivationEvents_DestroyManagedStub, comsvcs/IManagedActivationEvents::DestroyManagedStub, cos.imanagedactivationevents_destroymanagedstub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

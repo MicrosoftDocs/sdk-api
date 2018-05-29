@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetImplTypeFlags
 title: ITypeInfo::GetImplTypeFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
 old-location: automat\itypeinfo_getimpltypeflags.htm
 old-project: automat
 ms.assetid: b3773111-b09d-4ae0-9a91-3c4adff5b803
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetImplTypeFlags, GetImplTypeFlags method [Automation], GetImplTypeFlags method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetImplTypeFlags method, ITypeInfo.GetImplTypeFlags, ITypeInfo::GetImplTypeFlags, _oa96_ITypeInfo_GetImplTypeFlags, automat.itypeinfo_getimpltypeflags, oaidl/ITypeInfo::GetImplTypeFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

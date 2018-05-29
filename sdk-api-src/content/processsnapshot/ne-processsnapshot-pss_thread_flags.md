@@ -1,16 +1,16 @@
 ---
 UID: NE:processsnapshot.PSS_THREAD_FLAGS
 title: PSS_THREAD_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Flags that describe a thread.
 old-location: proc_snap\pss_thread_flags.htm
 old-project: proc_snap
 ms.assetid: 8E90F0EA-D50A-431D-9507-B882EB673629
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_THREAD_FLAGS, PSS_THREAD_FLAGS enumeration, PSS_THREAD_FLAGS_NONE, PSS_THREAD_FLAGS_TERMINATED, proc_snap.pss_thread_flags, processsnapshot/PSS_THREAD_FLAGS, processsnapshot/PSS_THREAD_FLAGS_NONE, processsnapshot/PSS_THREAD_FLAGS_TERMINATED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: processsnapshot.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathRemoveExtensionA
 title: PathRemoveExtensionA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the file name extension from a path, if one is present.
 old-location: shell\PathRemoveExtension.htm
 old-project: shell
 ms.assetid: 6e26d005-50af-4376-b734-19ba3d9c470f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathRemoveExtension, PathRemoveExtension function [Windows Shell], PathRemoveExtensionA, PathRemoveExtensionW, _win32_PathRemoveExtension, shell.PathRemoveExtension, shlwapi/PathRemoveExtension, shlwapi/PathRemoveExtensionA, shlwapi/PathRemoveExtensionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ActivateActCtx
 title: ActivateActCtx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ActivateActCtx function activates the specified activation context.
 old-location: setup\activateactctx.htm
 old-project: SbsCs
 ms.assetid: 03381d95-1b5d-4b70-8c86-937ab9b2672d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ActivateActCtx, ActivateActCtx function [Side-by-side Assemblies], _win32_activateactctx, setup.activateactctx, winbase/ActivateActCtx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Skip
 title: IEnumTfFunctionProviders::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfFunctionProviders::Skip method
 old-location: tsf\ienumtffunctionproviders_skip.htm
 old-project: TSF
 ms.assetid: fb529c7c-c4fa-4dc7-a648-847ecefacf60
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Skip method, IEnumTfFunctionProviders.Skip, IEnumTfFunctionProviders::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_skip_ref, msctf/IEnumTfFunctionProviders::Skip, tsf.ienumtffunctionproviders_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

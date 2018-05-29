@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DISK_GEOMETRY_EX
 title: "_DISK_GEOMETRY_EX"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the extended geometry of disk devices and media.
 old-location: fs\disk_geometry_ex_str.htm
 old-project: FileIO
 ms.assetid: 2b8b2021-8650-452d-a975-54249620d72f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Files], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Files], _DISK_GEOMETRY_EX, _win32_disk_geometry_ex_str, base.disk_geometry_ex_str, fs.disk_geometry_ex_str, winioctl/DISK_GEOMETRY_EX, winioctl/PDISK_GEOMETRY_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

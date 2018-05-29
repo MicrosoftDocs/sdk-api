@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_MOTION_TYPES
 title: DIRECTMANIPULATION_MOTION_TYPES
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the Direct Manipulation motion type.
 old-location: directmanipulation\directmanipulation_motion_types.htm
 old-project: directmanipulation
 ms.assetid: a0b4da55-3ebb-4281-a372-4bc6b91e6789
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_MOTION_ALL, DIRECTMANIPULATION_MOTION_CENTERX, DIRECTMANIPULATION_MOTION_CENTERY, DIRECTMANIPULATION_MOTION_NONE, DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_MOTION_TRANSLATEY, DIRECTMANIPULATION_MOTION_TYPES, DIRECTMANIPULATION_MOTION_TYPES enumeration [Direct Manipulation], DIRECTMANIPULATION_MOTION_ZOOM, directmanipulation.directmanipulation_motion_types, directmanipulation/DIRECTMANIPULATION_MOTION_ALL, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERX, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERY, directmanipulation/DIRECTMANIPULATION_MOTION_NONE, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEX, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEY, directmanipulation/DIRECTMANIPULATION_MOTION_TYPES, directmanipulation/DIRECTMANIPULATION_MOTION_ZOOM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

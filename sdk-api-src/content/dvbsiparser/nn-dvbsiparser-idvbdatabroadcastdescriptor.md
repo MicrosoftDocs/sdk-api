@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbDataBroadcastDescriptor
 title: IDvbDataBroadcastDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastdescriptor.htm
 old-project: mstv
 ms.assetid: 3b1d2711-e5ad-4d4c-bc8f-e199bcd75799
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbDataBroadcastDescriptor, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies], IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDataBroadcastDescriptor, mstv.idvbdatabroadcastdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

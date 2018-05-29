@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvRealizeBrush
 title: DrvRealizeBrush function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvRealizeBrush function requests that the driver realize a specified brush for a specified surface.
 old-location: display\drvrealizebrush.htm
 old-project: display
 ms.assetid: 2948f274-cef2-4fcf-9607-79540b6e5a5f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvRealizeBrush, DrvRealizeBrush function [Display Devices], ddifncs_efd25952-e672-493f-80e5-19edbac7df0e.xml, display.drvrealizebrush, winddi/DrvRealizeBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReferenceEnumerator
 title: IOpcSignaturePartReferenceEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: A read-only enumerator of IOpcSignaturePartReference interface pointers.
 old-location: opc\iopcsignaturepartreferenceenumerator.htm
 old-project: OPC
 ms.assetid: 8a54debe-3ac6-471d-b5a5-c3512da4d079
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions], IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceEnumerator, opc.iopcsignaturepartreferenceenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

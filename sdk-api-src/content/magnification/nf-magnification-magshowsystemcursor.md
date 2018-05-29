@@ -1,16 +1,16 @@
 ---
 UID: NF:magnification.MagShowSystemCursor
 title: MagShowSystemCursor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shows or hides the system cursor.
 old-location: magapi\magapi_magshowsystemcursor.htm
 old-project: magapi
 ms.assetid: 0C4D92D8-9B06-4592-A0FF-8AE4378E5641
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagShowSystemCursor, MagShowSystemCursor function [Magnification API], magapi.magapi_magshowsystemcursor, magnification/MagShowSystemCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

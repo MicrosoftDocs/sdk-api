@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.SetFlags
 title: SetFlags function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the recognizer interprets the ink and determines the result string.Call this function before processing the ink for the first time. Therefore, call the SetFlags function before calling the Process function.
 old-location: tablet\setflags.htm
 old-project: tablet
 ms.assetid: 62ad43c4-4795-4af9-af20-e45da30ba132
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 62ad43c4-4795-4af9-af20-e45da30ba132, RECOFLAG_AUTOSPACE, RECOFLAG_COERCE, RECOFLAG_LINEMODE, RECOFLAG_PREFIXOK, RECOFLAG_SINGLESEG, RECOFLAG_WORDMODE, SetFlags, SetFlags function [Tablet PC], recapis/SetFlags, tablet.setflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

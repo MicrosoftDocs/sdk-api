@@ -1,16 +1,16 @@
 ---
 UID: NF:scclient.CSecureChannelClient.GetAppSec
 title: CSecureChannelClient::GetAppSec
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAppSec method retrieves the application security levels of the local and remote components.
 old-location: wmdm\csecurechannelclient_getappsec.htm
 old-project: WMDM
 ms.assetid: 69de42ad-293f-4c5a-8c5d-ada686fa68b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],GetAppSec method, CSecureChannelClient.GetAppSec, CSecureChannelClient::GetAppSec, CSecureChannelClientGetAppSec, GetAppSec, GetAppSec method [windows Media Device Manager], GetAppSec method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::GetAppSec, wmdm.csecurechannelclient_getappsec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

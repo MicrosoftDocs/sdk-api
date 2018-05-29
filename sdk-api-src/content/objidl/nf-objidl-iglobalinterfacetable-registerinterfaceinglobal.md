@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IGlobalInterfaceTable.RegisterInterfaceInGlobal
 title: IGlobalInterfaceTable::RegisterInterfaceInGlobal
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.
 old-location: com\iglobalinterfacetable_registerinterfaceinglobal.htm
 old-project: com
 ms.assetid: 5282b0b8-4eab-4114-8061-6d74db3756b7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IGlobalInterfaceTable interface [COM],RegisterInterfaceInGlobal method, IGlobalInterfaceTable.RegisterInterfaceInGlobal, IGlobalInterfaceTable::RegisterInterfaceInGlobal, RegisterInterfaceInGlobal, RegisterInterfaceInGlobal method [COM], RegisterInterfaceInGlobal method [COM],IGlobalInterfaceTable interface, _com_iglobalinterfacetable_registerinterfaceinglobal, com.iglobalinterfacetable_registerinterfaceinglobal, objidlbase/IGlobalInterfaceTable::RegisterInterfaceInGlobal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

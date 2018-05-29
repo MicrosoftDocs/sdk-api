@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteValue
 title: WsWriteValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: This operation derives the best representation for a primitive value from the underlying encoding and passes the derived value to a Writer object.
 old-location: wsw\wswritevalue.htm
 old-project: wsw
 ms.assetid: c7b9d014-89b5-4959-b49e-ee2cdeb41f7c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteValue, WsWriteValue function [Web Services for Windows], webservices/WsWriteValue, wsw.wswritevalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

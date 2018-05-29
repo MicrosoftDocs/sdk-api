@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmShowContact
 title: DwmShowContact function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by an app or framework to specify the visual feedback type to draw in response to a particular touch or pen contact.
 old-location: dwm\DwmShowContact.htm
 old-project: dwm
 ms.assetid: E9C302AA-D622-483d-83AC-0D0D7D23719E
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PENBARREL, DWMSC_UP, DwmShowContact, DwmShowContact function [Desktop Window Manager], dwm.DwmShowContact, dwmapi/DwmShowContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

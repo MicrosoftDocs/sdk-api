@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.Disconnect
 title: IDot11AdHocNetwork::Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects from an ad hoc network.
 old-location: nwifi\idot11adhocnetwork_disconnect.htm
 old-project: NativeWiFi
 ms.assetid: e5c96776-6bb2-43b0-86b9-c3bc058d5d84
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: Disconnect, Disconnect method [NativeWIFI], Disconnect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Disconnect method, IDot11AdHocNetwork.Disconnect, IDot11AdHocNetwork::Disconnect, adhoc/IDot11AdHocNetwork::Disconnect, nwifi.idot11adhocnetwork_disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

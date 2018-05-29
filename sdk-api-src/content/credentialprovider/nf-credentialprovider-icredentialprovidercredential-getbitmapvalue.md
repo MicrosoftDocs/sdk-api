@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetBitmapValue
 title: ICredentialProviderCredential::GetBitmapValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables retrieval of bitmap data from a credential with a bitmap field.
 old-location: shell\ICredentialProviderCredential_GetBitmapValue.htm
 old-project: shell
 ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetBitmapValue, GetBitmapValue method [Windows Shell], GetBitmapValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetBitmapValue method, ICredentialProviderCredential.GetBitmapValue, ICredentialProviderCredential::GetBitmapValue, credentialprovider/ICredentialProviderCredential::GetBitmapValue, shell.ICredentialProviderCredential_GetBitmapValue, shell_ICredentialProviderCredential_GetBitmapValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

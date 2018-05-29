@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.AddConnectNotify
 title: AddConnectNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called before and after each add connection operation (WNetAddConnection, WNetAddConnection2, and WNetAddConnection3) is attempted by the Multiple Provider Router (MPR).
 old-location: security\addconnectnotify.htm
 old-project: SecAuthN
 ms.assetid: a061b088-81ca-4276-a0d6-9f1d1282a039
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AddConnectNotify, AddConnectNotify function [Security], _mnp_addconnectnotify, npapi/AddConnectNotify, security.addconnectnotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

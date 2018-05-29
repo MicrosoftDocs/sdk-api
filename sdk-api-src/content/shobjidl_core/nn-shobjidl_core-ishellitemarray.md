@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellItemArray
 title: IShellItemArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create and manipulate Shell item arrays.
 old-location: shell\IShellItemArray.htm
 old-project: shell
 ms.assetid: 348213d1-c03f-4c38-9d13-3b1009d94e07
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellItemArray, IShellItemArray interface [Windows Shell], IShellItemArray interface [Windows Shell],described, _shell_IShellItemArray, shell.IShellItemArray, shobjidl_core/IShellItemArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

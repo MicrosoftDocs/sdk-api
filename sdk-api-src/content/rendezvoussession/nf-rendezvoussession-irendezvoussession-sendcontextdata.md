@@ -1,16 +1,16 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.SendContextData
 title: IRendezvousSession::SendContextData
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends the context data to the remote RendezvousApplication.
 old-location: remoteassist\remoteassist_IRendezvousSession_SendContextData.htm
 old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\sendcontextdata.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData method, IRendezvousSession.SendContextData, IRendezvousSession::SendContextData, SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

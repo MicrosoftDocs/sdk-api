@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleLink.SetSourceMoniker
 title: IOleLink::SetSourceMoniker
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the moniker for the link source.
 old-location: com\iolelink_setsourcemoniker.htm
 old-project: com
 ms.assetid: 85fe1d28-d9c6-46b4-abff-6afce9ff3cd0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleLink interface [COM],SetSourceMoniker method, IOleLink.SetSourceMoniker, IOleLink::SetSourceMoniker, SetSourceMoniker, SetSourceMoniker method [COM], SetSourceMoniker method [COM],IOleLink interface, _ole_iolelink_setsourcemoniker, com.iolelink_setsourcemoniker, oleidl/IOleLink::SetSourceMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

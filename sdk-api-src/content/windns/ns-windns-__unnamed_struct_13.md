@@ -1,16 +1,16 @@
 ---
 UID: NS:windns.__unnamed_struct_13
 title: DNS_NULL_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_NULL_DATA structure represents NULL data for a DNS resource record as specified in section 3.3.10 of RFC 1035.
 old-location: dns\dns_null_data.htm
 old-project: DNS
 ms.assetid: c31e468f-8efd-4173-bc2c-442ee4df737f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_NULL_DATA, DNS_NULL_DATA, DNS_NULL_DATA structure [DNS], PDNS_NULL_DATA, PDNS_NULL_DATA structure pointer [DNS], _dns_dns_null_data, dns.dns_null_data, windns/DNS_NULL_DATA, windns/PDNS_NULL_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

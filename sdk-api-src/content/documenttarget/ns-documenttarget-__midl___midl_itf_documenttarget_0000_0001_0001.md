@@ -1,16 +1,16 @@
 ---
 UID: NS:documenttarget.__MIDL___MIDL_itf_documenttarget_0000_0001_0001
 title: "__MIDL___MIDL_itf_documenttarget_0000_0001_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a payload to be used by the PackageStatusUpdated method. This structure is a generic version of XPS_JOB_STATUS.
 old-location: xps\printdocumentpackagestatus.htm
 old-project: printdocs
 ms.assetid: A499CB8D-B2E3-4343-A9AF-079C75EF1441
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PPrintDocumentPackageStatus, PPrintDocumentPackageStatus structure pointer [XPS Documents and Packaging], PrintDocumentPackageStatus, PrintDocumentPackageStatus structure [XPS Documents and Packaging], __MIDL___MIDL_itf_documenttarget_0000_0001_0001, documenttarget/PPrintDocumentPackageStatus, documenttarget/PrintDocumentPackageStatus, xps.printdocumentpackagestatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: documenttarget.h
 req.include-header: 

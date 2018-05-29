@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.UndoMinimizeALL
 title: IShellDispatch::UndoMinimizeALL
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores all desktop windows to the state they were in before the last MinimizeAll command.
 old-location: shell\IShellDispatch_UndoMinimizeALL.htm
 old-project: shell
 ms.assetid: 32BDE544-C4FF-4a64-99AF-F8960AEC4690
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],UndoMinimizeALL method, IShellDispatch.UndoMinimizeALL, IShellDispatch::UndoMinimizeALL, UndoMinimizeALL, UndoMinimizeALL method [Windows Shell], UndoMinimizeALL method [Windows Shell],IShellDispatch object, shell.IShellDispatch_UndoMinimizeALL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

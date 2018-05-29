@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.SetTransactionInformation
 title: SetTransactionInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the transaction information for the specified transaction.
 old-location: fs\settransactioninformation.htm
 old-project: Ktm
 ms.assetid: e33d221b-cd06-4f20-a4b5-407a04362ba0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetTransactionInformation, SetTransactionInformation function [Files], fs.settransactioninformation, ktmw32/SetTransactionInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

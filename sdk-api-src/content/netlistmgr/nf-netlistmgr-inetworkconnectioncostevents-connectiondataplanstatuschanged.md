@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
 title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: ConnectionDataPlanStatusChanged method notifies an application of a data plan status change on a connection.
 old-location: nla\inetworkconnectioncostevents_connectiondataplanstatuschanged.htm
 old-project: NLA
 ms.assetid: F965C648-EC59-40E4-8E8A-FE5A7E8FDAEA
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ConnectionDataPlanStatusChanged, ConnectionDataPlanStatusChanged method [Network Awareness], ConnectionDataPlanStatusChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionDataPlanStatusChanged method, INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged, INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, nla.inetworkconnectioncostevents_connectiondataplanstatuschanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

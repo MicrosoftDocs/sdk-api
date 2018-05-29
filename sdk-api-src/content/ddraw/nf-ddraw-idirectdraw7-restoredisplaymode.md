@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.RestoreDisplayMode
 title: IDirectDraw7::RestoreDisplayMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the mode of the display device hardware for the primary surface to what it was before the IDirectDraw7::SetDisplayMode method was called. Exclusive-level access is required to use this method.
 old-location: directdraw\idirectdraw7_restoredisplaymode.htm
 old-project: directdraw
 ms.assetid: 7538339a-8886-4b40-9779-17c8ebe81446
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],RestoreDisplayMode method, IDirectDraw7.RestoreDisplayMode, IDirectDraw7::RestoreDisplayMode, RestoreDisplayMode, RestoreDisplayMode method [DirectDraw], RestoreDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::RestoreDisplayMode, directdraw.idirectdraw7_restoredisplaymode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:qossp._IN_ADDR_IPV6
 title: "_IN_ADDR_IPV6"
-author: windows-driver-content
+author: windows-sdk-content
 description: The IN_ADDR_IPV6 structure stores an IPv6 address for use with RSVP FILTERSPECs.
 old-location: qos\in_addr_ipv6.htm
 old-project: QOS
 ms.assetid: e21edb47-c704-415f-901b-7612e5157ab0
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPCIN_ADDR_IPV6, *LPCIN_ADDR_IPV6 structure [QOS], *LPIN_ADDR_IPV6, IN_ADDR_IPV6, IN_ADDR_IPV6 structure [QOS], _IN_ADDR_IPV6, qos.in_addr_ipv6, qossp/*LPCIN_ADDR_IPV6, qossp/IN_ADDR_IPV6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmCollection.GetById
 title: IFsrmCollection::GetById
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified object from the collection.
 old-location: fsrm\ifsrmcollection_getbyid.htm
 old-project: Fsrm
 ms.assetid: 6d6be809-bfe6-46ad-9156-288da834ff13
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: GetById, GetById method [File Server Resource Manager], GetById method [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],GetById method, IFsrmCollection.GetById, IFsrmCollection::GetById, fs.ifsrmcollection_getbyid, fsrm.ifsrmcollection_getbyid, fsrm/IFsrmCollection::GetById
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

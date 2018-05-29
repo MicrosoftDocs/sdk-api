@@ -1,16 +1,16 @@
 ---
 UID: NS:opmapi._OPM_ACTUAL_OUTPUT_FORMAT
 title: "_OPM_ACTUAL_OUTPUT_FORMAT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the result of an OPM_GET_ACTUAL_OUTPUT_FORMAT query in Output Protection Manager (OPM).
 old-location: mf\opm_actual_output_format.htm
 old-project: medfound
 ms.assetid: 0b20cdcd-3d03-4da3-b81c-b5025dcb04c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPM_ACTUAL_OUTPUT_FORMAT, OPM_ACTUAL_OUTPUT_FORMAT structure [Media Foundation], _OPM_ACTUAL_OUTPUT_FORMAT, mf.opm_actual_output_format, opmapi/OPM_ACTUAL_OUTPUT_FORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:msaatext.IAccDictionary
 title: IAccDictionary
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for string manipulation.
 old-location: winauto\iaccdictionary.htm
 old-project: WinAuto
 ms.assetid: 0d18d219-b584-43ff-bded-6ed8f00a252f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], IAccDictionary interface [Windows Accessibility],described, msaa.iaccdictionary, msaatext/IAccDictionary, winauto.iaccdictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msaatext.h
 req.include-header: 

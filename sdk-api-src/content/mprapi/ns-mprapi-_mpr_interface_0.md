@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._MPR_INTERFACE_0
 title: "_MPR_INTERFACE_0"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPR_INTERFACE_0 structure contains information for a particular router interface.
 old-location: rras\mpr_interface_0.htm
 old-project: RRAS
 ms.assetid: b204c10e-ccce-4d62-a7a9-75cf4fe1d9ba
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PMPR_INTERFACE_0, MPR_INTERFACE_0, MPR_INTERFACE_0 structure [RAS], PMPR_INTERFACE_0, PMPR_INTERFACE_0 structure pointer [RAS], _MPR_INTERFACE_0, _mpr_mpr_interface_0, mprapi/MPR_INTERFACE_0, mprapi/PMPR_INTERFACE_0, rras.mpr_interface_0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ADsEncodeBinaryData
 title: ADsEncodeBinaryData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADsEncodeBinaryData function converts a binary large object (BLOB) to the Unicode format suitable to be embedded in a search filter.
 old-location: adsi\adsencodebinarydata.htm
 old-project: ADSI
 ms.assetid: b7bdf16c-7533-4db6-9bc4-06bc57d864ec
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

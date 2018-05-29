@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capCaptureSingleFrameClose
 title: capCaptureSingleFrameClose macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capCaptureSingleFrameClose macro closes the capture file opened by the capCaptureSingleFrameOpen macro. You can use this macro or explicitly send the WM_CAP_SINGLE_FRAME_CLOSE message.
 old-location: multimedia\capcapturesingleframeclose.htm
 old-project: Multimedia
 ms.assetid: d0259662-6bcf-4c04-924c-e568db335fd2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capCaptureSingleFrameClose, capCaptureSingleFrameClose, capCaptureSingleFrameClose macro [Windows Multimedia], multimedia.capcapturesingleframeclose, vfw/capCaptureSingleFrameClose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

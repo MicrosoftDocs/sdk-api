@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetDataPlanStatus
 title: INetworkCostManager::GetDataPlanStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: GetDataPlanStatus retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getdataplanstatus.htm
 old-project: NLA
 ms.assetid: 82B4FF65-5D45-4D79-8F11-EA4CF4760EE2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetDataPlanStatus method, INetworkCostManager.GetDataPlanStatus, INetworkCostManager::GetDataPlanStatus, netlistmgr/INetworkCostManager::GetDataPlanStatus, nla.inetworkcostmanager_getdataplanstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetTimes
 title: IOfflineFilesFileSysInfo::GetTimes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the time values associated with an item.
 old-location: of\iofflinefilesfilesysinfo_gettimes.htm
 old-project: OfflineFiles
 ms.assetid: 120b3f7c-6a92-4a03-8676-1ad4e4dc96b3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetTimes, GetTimes method [Offline Files], GetTimes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetTimes method, IOfflineFilesFileSysInfo.GetTimes, IOfflineFilesFileSysInfo::GetTimes, cscobj/IOfflineFilesFileSysInfo::GetTimes, of.iofflinefilesfilesysinfo_gettimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

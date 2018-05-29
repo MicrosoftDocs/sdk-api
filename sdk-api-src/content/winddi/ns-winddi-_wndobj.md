@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._WNDOBJ
 title: "_WNDOBJ"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WNDOBJ structure allows the driver to keep track of the position, size, and visible client region changes of a window.
 old-location: display\wndobj.htm
 old-project: display
 ms.assetid: 69c47add-82a7-48fd-ae91-7756a6a8d15b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PWNDOBJ, PWNDOBJ, PWNDOBJ structure pointer [Display Devices], WNDOBJ, WNDOBJ structure [Display Devices], _WNDOBJ, display.wndobj, grstrcts_78a58771-627a-419e-b6f0-00411e32a22a.xml, winddi/PWNDOBJ, winddi/WNDOBJ"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

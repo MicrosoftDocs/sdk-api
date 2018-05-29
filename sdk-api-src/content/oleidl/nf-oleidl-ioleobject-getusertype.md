@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserType
 title: IOleObject::GetUserType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the user-type name of an object for display in user-interface elements such as menus, list boxes, and dialog boxes.
 old-location: com\ioleobject_getusertype.htm
 old-project: com
 ms.assetid: 8ffffa01-d118-4955-84d1-a4659ba9ddc9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUserType, GetUserType method [COM], GetUserType method [COM],IOleObject interface, IOleObject interface [COM],GetUserType method, IOleObject.GetUserType, IOleObject::GetUserType, _ole_ioleobject_getusertype, com.ioleobject_getusertype, oleidl/IOleObject::GetUserType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

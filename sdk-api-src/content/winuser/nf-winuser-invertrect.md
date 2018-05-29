@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.InvertRect
 title: InvertRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The InvertRect function inverts a rectangle in a window by performing a logical NOT operation on the color values for each pixel in the rectangle's interior.
 old-location: gdi\invertrect.htm
 old-project: gdi
 ms.assetid: a8c4dbf1-94ec-46e9-b365-7dfc89e4f176
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InvertRect, InvertRect function [Windows GDI], _win32_InvertRect, gdi.invertrect, winuser/InvertRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

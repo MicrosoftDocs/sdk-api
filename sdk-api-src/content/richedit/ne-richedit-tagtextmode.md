@@ -1,16 +1,16 @@
 ---
 UID: NE:richedit.tagTextMode
 title: tagTextMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the text mode of a rich edit control. The EM_SETTEXTMODE and EM_GETTEXTMODE messages use this enumeration type.
 old-location: controls\TEXTMODE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\textmode.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TEXTMODE, TEXTMODE enumeration [Windows Controls], TM_MULTICODEPAGE, TM_MULTILEVELUNDO, TM_PLAINTEXT, TM_RICHTEXT, TM_SINGLECODEPAGE, TM_SINGLELEVELUNDO, _win32_TEXTMODE_str, _win32_TEXTMODE_str_cpp, controls.TEXTMODE, controls._win32_TEXTMODE_str, richedit/TEXTMODE, richedit/TM_MULTICODEPAGE, richedit/TM_MULTILEVELUNDO, richedit/TM_PLAINTEXT, richedit/TM_RICHTEXT, richedit/TM_SINGLECODEPAGE, richedit/TM_SINGLELEVELUNDO, tagTextMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: richedit.h
 req.include-header: 

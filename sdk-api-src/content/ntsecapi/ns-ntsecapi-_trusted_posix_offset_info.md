@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._TRUSTED_POSIX_OFFSET_INFO
 title: "_TRUSTED_POSIX_OFFSET_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to query or set the value used to generate Posix user and group identifiers.
 old-location: security\trusted_posix_offset_info.htm
 old-project: SecMgmt
 ms.assetid: 0686da5e-43d4-49ac-8c5d-5c56b8d12e50
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO structure pointer [Security], TRUSTED_POSIX_OFFSET_INFO, TRUSTED_POSIX_OFFSET_INFO structure [Security], _TRUSTED_POSIX_OFFSET_INFO, _lsa_trusted_posix_offset_info, ntsecapi/PTRUSTED_POSIX_OFFSET_INFO, ntsecapi/TRUSTED_POSIX_OFFSET_INFO, security.trusted_posix_offset_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

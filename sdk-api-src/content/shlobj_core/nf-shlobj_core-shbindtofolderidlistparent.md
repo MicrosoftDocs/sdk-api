@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHBindToFolderIDListParent
 title: SHBindToFolderIDListParent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Given a Shell namespace item specified in the form of a folder, and an item identifier list relative to that folder, this function binds to the parent of the namespace item and optionally returns a pointer to the final component of the item identifier list.
 old-location: shell\SHBindToFolderIDListParent.htm
 old-project: shell
 ms.assetid: 72a79d1b-15ed-475e-9ebd-03345579a06a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHBindToFolderIDListParent, SHBindToFolderIDListParent function [Windows Shell], _shell_SHBindToFolderIDListParent, shell.SHBindToFolderIDListParent, shlobj_core/SHBindToFolderIDListParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

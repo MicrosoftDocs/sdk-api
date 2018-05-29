@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfQueryCounterSetRegistrationInfo
 title: PerfQueryCounterSetRegistrationInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about a counter set on the specified system.
 old-location: perf\perfquerycountersetregistrationinfo.htm
 old-project: PerfCtrs
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

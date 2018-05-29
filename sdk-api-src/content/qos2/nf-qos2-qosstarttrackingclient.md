@@ -1,16 +1,16 @@
 ---
 UID: NF:qos2.QOSStartTrackingClient
 title: QOSStartTrackingClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: The QOSStartTrackingClient function notifies the QOS subsystem of the existence of a new client.
 old-location: qos\qosstarttrackingclient.htm
 old-project: QOS
 ms.assetid: 36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: QOSStartTrackingClient, QOSStartTrackingClient function [QOS], qos.qosstarttrackingclient, qos2/QOSStartTrackingClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

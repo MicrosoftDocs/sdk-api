@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_EnrollmentContext
 title: IX509CertificateRequest::get_EnrollmentContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a value that specifies whether the certificate is intended for a computer or a user.
 old-location: security\ix509certificaterequest_enrollmentcontext_property.htm
 old-project: SecCertEnroll
 ms.assetid: ea0fa54d-0de6-4578-b93a-1e399101006b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, EnrollmentContext property [Security], EnrollmentContext property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],EnrollmentContext property, IX509CertificateRequest.EnrollmentContext, IX509CertificateRequest.get_EnrollmentContext, IX509CertificateRequest::EnrollmentContext, IX509CertificateRequest::get_EnrollmentContext, certenroll/IX509CertificateRequest::EnrollmentContext, certenroll/IX509CertificateRequest::get_EnrollmentContext, get_EnrollmentContext, security.ix509certificaterequest_enrollmentcontext_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

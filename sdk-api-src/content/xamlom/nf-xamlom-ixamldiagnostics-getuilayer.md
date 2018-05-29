@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetUiLayer
 title: IXamlDiagnostics::GetUiLayer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the visual diagnostics root that can be used to draw on for highlighting elements in the tree.
 old-location: xaml_diagnostics\ixamldiagnostics_getuilayer.htm
 old-project: xaml_diagnostics
 ms.assetid: BE45AF9E-0C2D-439B-A360-2B9AE9359AEE
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetUiLayer, GetUiLayer method, GetUiLayer method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetUiLayer method, IXamlDiagnostics.GetUiLayer, IXamlDiagnostics::GetUiLayer, xaml_diagnostics.ixamldiagnostics_getuilayer, xamlom/IXamlDiagnostics::GetUiLayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

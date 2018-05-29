@@ -1,16 +1,16 @@
 ---
 UID: NF:thumbnailstreamcache.IThumbnailStreamCache.SetThumbnailStream
 title: IThumbnailStreamCache::SetThumbnailStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache_setthumbnailstream.htm
 old-project: shell
 ms.assetid: F2A105BB-9523-49F1-89B6-57CAF35C1AC4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IThumbnailStreamCache interface [Windows Shell],SetThumbnailStream method, IThumbnailStreamCache.SetThumbnailStream, IThumbnailStreamCache::SetThumbnailStream, SetThumbnailStream, SetThumbnailStream method [Windows Shell], SetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, shell.ithumbnailstreamcache_setthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: thumbnailstreamcache.h
 req.include-header: 

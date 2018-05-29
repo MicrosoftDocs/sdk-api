@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataReader
 title: IWICMetadataReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide access to underlining metadata content. This interface is implemented by independent software vendors (ISVs) to create new metadata readers.
 old-location: wic\_wic_codec_iwicmetadatareader.htm
 old-project: wic
 ms.assetid: 0495ecf1-128a-4576-8420-0e79f1454015
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], IWICMetadataReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareader, wic._wic_codec_iwicmetadatareader, wincodecsdk/IWICMetadataReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

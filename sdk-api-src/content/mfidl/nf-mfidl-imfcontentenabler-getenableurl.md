@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableURL
 title: IMFContentEnabler::GetEnableURL
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a URL for performing a manual content enabling action.
 old-location: mf\imfcontentenabler_getenableurl.htm
 old-project: medfound
 ms.assetid: 1a44216d-36e5-4b5c-9585-5297d5e429f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1a44216d-36e5-4b5c-9585-5297d5e429f9, GetEnableURL, GetEnableURL method [Media Foundation], GetEnableURL method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableURL method, IMFContentEnabler.GetEnableURL, IMFContentEnabler::GetEnableURL, mf.imfcontentenabler_getenableurl, mfidl/IMFContentEnabler::GetEnableURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

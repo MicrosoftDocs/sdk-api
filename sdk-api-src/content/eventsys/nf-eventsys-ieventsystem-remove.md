@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSystem.Remove
 title: IEventSystem::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes one or more subscription or event objects from the event data store.
 old-location: cos\ieventsystem_remove.htm
 old-project: cossdk
 ms.assetid: 2774806b-ad50-4219-a196-da82c93b80ac
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventSystem interface [COM+],Remove method, IEventSystem.Remove, IEventSystem::Remove, Remove, Remove method [COM+], Remove method [COM+],IEventSystem interface, _cos_IEventSystem_Remove, cos.ieventsystem_remove, eventsys/IEventSystem::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

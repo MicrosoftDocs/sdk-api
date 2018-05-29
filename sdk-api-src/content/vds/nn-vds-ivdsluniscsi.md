@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsLunIscsi
 title: IVdsLunIscsi
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on an iSCSI LUN.
 old-location: base\ivdsluniscsi.htm
 old-project: VDS
 ms.assetid: 5b1e6204-6cc0-4d94-8e54-fa963f83ae39
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsLunIscsi, IVdsLunIscsi interface [VDS], IVdsLunIscsi interface [VDS],described, base.ivdsluniscsi, vds/IVdsLunIscsi, vdshwprv/IVdsLunIscsi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

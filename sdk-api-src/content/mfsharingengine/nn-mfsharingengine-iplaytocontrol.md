@@ -1,16 +1,16 @@
 ---
 UID: NN:mfsharingengine.IPlayToControl
 title: IPlayToControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the PlayToConnection object to connect to a media element.
 old-location: mf\iplaytocontrol.htm
 old-project: medfound
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 

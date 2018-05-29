@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_NewInstance
 title: MI_Application_NewInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new MI_Instance object to be passed to various MI operation APIs that require instances.
 old-location: wmi_v2\mi_application_newinstance.htm
 old-project: wmi_v2
 ms.assetid: e46adc55-c5dc-4395-b746-2ff13cc1e4bb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_NewInstance, MI_Application_NewInstance function [Windows Management Infrastructure (MI)], mi/MI_Application_NewInstance, wmi_v2.mi_application_newinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.GetAttributes2
 title: IWMDMStorage2::GetAttributes2
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAttributes2 method retrieves extended attributes of the storage.
 old-location: wmdm\iwmdmstorage2_getattributes2.htm
 old-project: WMDM
 ms.assetid: 8212ab78-0a2a-41cd-8a7c-da6e3886b586
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAttributes2, GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetAttributes2 method, IWMDMStorage2.GetAttributes2, IWMDMStorage2::GetAttributes2, IWMDMStorage2GetAttributes2, mswmdm/IWMDMStorage2::GetAttributes2, wmdm.iwmdmstorage2_getattributes2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

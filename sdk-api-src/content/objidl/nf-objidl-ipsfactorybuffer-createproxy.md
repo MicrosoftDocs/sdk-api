@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPSFactoryBuffer.CreateProxy
 title: IPSFactoryBuffer::CreateProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a proxy for the specified remote interface.
 old-location: com\ipsfactorybuffer_createproxy.htm
 old-project: com
 ms.assetid: 7d0638d9-50bc-47f3-8ebd-47bb5cbcab9c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateProxy, CreateProxy method [COM], CreateProxy method [COM],IPSFactoryBuffer interface, IPSFactoryBuffer interface [COM],CreateProxy method, IPSFactoryBuffer.CreateProxy, IPSFactoryBuffer::CreateProxy, _com_ipsfactorybuffer_createproxy, com.ipsfactorybuffer_createproxy, objidlbase/IPSFactoryBuffer::CreateProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

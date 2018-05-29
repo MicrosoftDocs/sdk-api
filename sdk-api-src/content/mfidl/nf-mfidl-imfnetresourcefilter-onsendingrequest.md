@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFNetResourceFilter.OnSendingRequest
 title: IMFNetResourceFilter::OnSendingRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the byte stream requests a URL.
 old-location: mf\imfnetresourcefilter_onsendingrequest.htm
 old-project: medfound
 ms.assetid: 4FE6BBE8-A8EC-4304-BC4B-4D49F8EADC25
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnSendingRequest method, IMFNetResourceFilter.OnSendingRequest, IMFNetResourceFilter::OnSendingRequest, OnSendingRequest, OnSendingRequest method [Media Foundation], OnSendingRequest method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onsendingrequest, mfidl/IMFNetResourceFilter::OnSendingRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

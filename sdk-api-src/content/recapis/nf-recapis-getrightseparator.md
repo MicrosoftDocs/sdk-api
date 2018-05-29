@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetRightSeparator
 title: GetRightSeparator function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the right separator for the recognizer context.
 old-location: tablet\getrightseparator.htm
 old-project: tablet
 ms.assetid: 1fc11447-3125-4853-bba6-2784e69d033e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRightSeparator, GetRightSeparator function [Tablet PC], recapis/GetRightSeparator, tablet.getrightseparator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

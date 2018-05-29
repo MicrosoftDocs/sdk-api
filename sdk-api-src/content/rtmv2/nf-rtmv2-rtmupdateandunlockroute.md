@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmUpdateAndUnlockRoute
 title: RtmUpdateAndUnlockRoute function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmUpdateAndUnlockRoute function updates the position of the route in the set of routes for a destination, and adjusts the best route information for the destination.
 old-location: rras\rtmupdateandunlockroute.htm
 old-project: RRAS
 ms.assetid: 917e3e90-b06b-410d-8456-d76e2baa76f8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _rtmv2ref_rtmupdateandunlockroute, rras.rtmupdateandunlockroute, rtmv2/RtmUpdateAndUnlockRoute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

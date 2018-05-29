@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IStream_Copy
 title: IStream_Copy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies a stream to another stream.
 old-location: shell\IStream_Copy.htm
 old-project: shell
 ms.assetid: 7d6a1080-dad4-4821-8f2a-bd1e01ca10cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStream_Copy, IStream_Copy function [Windows Shell], _shell_IStream_Copy, shell.IStream_Copy, shlwapi/IStream_Copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

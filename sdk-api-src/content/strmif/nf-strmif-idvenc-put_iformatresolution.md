@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDVEnc.put_IFormatResolution
 title: IDVEnc::put_IFormatResolution
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_IFormatResolution method sets the encoding resolution.
 old-location: dshow\idvenc_put_iformatresolution.htm
 old-project: DirectShow
 ms.assetid: c9cf2544-1b04-4a77-8a0b-d7820af5ff9f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDVEnc interface [DirectShow],put_IFormatResolution method, IDVEnc.put_IFormatResolution, IDVEnc::put_IFormatResolution, IDVEncput_IFormatResolution, dshow.idvenc_put_iformatresolution, put_IFormatResolution, put_IFormatResolution method [DirectShow], put_IFormatResolution method [DirectShow],IDVEnc interface, strmif/IDVEnc::put_IFormatResolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

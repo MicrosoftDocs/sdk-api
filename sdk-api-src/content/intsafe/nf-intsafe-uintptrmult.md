@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UIntPtrMult
 title: UIntPtrMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies one value of type UINT_PTR by another.
 old-location: shell\UIntPtrMult.htm
 old-project: shell
 ms.assetid: c34708d1-50e8-47dd-ac79-cfef24ce6060
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UIntPtrMult, UIntPtrMult function [Windows Shell], _shell_UIntPtrMult, intsafe/UIntPtrMult, shell.UIntPtrMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

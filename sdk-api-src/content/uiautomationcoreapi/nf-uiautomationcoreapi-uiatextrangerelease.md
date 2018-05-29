@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaTextRangeRelease
 title: UiaTextRangeRelease function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an allocated text range object from memory.
 old-location: winauto\uiauto_UiaTextRangeReleaseMemManMeth.htm
 old-project: WinAuto
 ms.assetid: 20607071-6300-47f9-8d12-5cf8cc51072a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaTextRangeRelease, UiaTextRangeRelease function [Windows Accessibility], uiauto.uiauto_UiaTextRangeReleaseMemManMeth, uiauto_UiaTextRangeReleaseMemManMeth, uiautomationcoreapi/UiaTextRangeRelease, winauto.uiauto_UiaTextRangeReleaseMemManMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

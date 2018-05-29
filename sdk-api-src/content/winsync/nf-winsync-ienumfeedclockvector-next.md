@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Next
 title: IEnumFeedClockVector::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next elements in the clock vector, if available.
 old-location: winsync\ienumfeedclockvector_next.htm
 old-project: winsync
 ms.assetid: 2303fac8-21ae-44df-8e47-9fe0fa88d90b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Next method, IEnumFeedClockVector.Next, IEnumFeedClockVector::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_next, winsync/IEnumFeedClockVector::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 title: IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfworkqueueservices_beginregistertopologyworkqueueswithmmcss.htm
 old-project: medfound
 ms.assetid: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b, BeginRegisterTopologyWorkQueuesWithMMCSS, BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

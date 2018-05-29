@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.GetHGlobalFromStream
 title: GetHGlobalFromStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetHGlobalFromStream function retrieves the global memory handle to a stream that was created through a call to the CreateStreamOnHGlobal function.
 old-location: stg\gethglobalfromstream.htm
 old-project: Stg
 ms.assetid: 79e39345-7a20-4b0f-bceb-f62de13d3260
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetHGlobalFromStream, GetHGlobalFromStream function [Structured Storage], _stg_gethglobalfromstream, combaseapi/GetHGlobalFromStream, stg.gethglobalfromstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

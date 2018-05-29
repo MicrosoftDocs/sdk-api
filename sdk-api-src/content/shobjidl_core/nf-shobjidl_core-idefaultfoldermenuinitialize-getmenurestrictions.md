@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.GetMenuRestrictions
 title: IDefaultFolderMenuInitialize::GetMenuRestrictions
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_GetMenuRestrictions.htm
 old-project: shell
 ms.assetid: 373240B8-E99E-4ff9-B47A-3B31B4F0B81E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMenuRestrictions, GetMenuRestrictions method [Windows Shell], GetMenuRestrictions method [Windows Shell],IDefaultFolderMenuInitialize interface, IDefaultFolderMenuInitialize interface [Windows Shell],GetMenuRestrictions method, IDefaultFolderMenuInitialize.GetMenuRestrictions, IDefaultFolderMenuInitialize::GetMenuRestrictions, shell.IDefaultFolderMenuInitialize_GetMenuRestrictions, shobjidl_core/IDefaultFolderMenuInitialize::GetMenuRestrictions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

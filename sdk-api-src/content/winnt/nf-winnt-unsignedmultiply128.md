@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.UnsignedMultiply128
 title: UnsignedMultiply128 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two unsigned 64-bit integers to produce an unsigned 128-bit integer.
 old-location: winprog\unsignedmultiply128.htm
 old-project: WinProg
 ms.assetid: C9F8D594-3E25-4494-835F-A873045FE83F
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: UnsignedMultiply128, UnsignedMultiply128 function [Windows API], winnt/UnsignedMultiply128, winprog.unsignedmultiply128
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

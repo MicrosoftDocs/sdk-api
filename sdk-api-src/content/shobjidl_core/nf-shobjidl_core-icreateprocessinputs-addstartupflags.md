@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.AddStartupFlags
 title: ICreateProcessInputs::AddStartupFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Additional flags that will be included in the STARTUPINFO structure passed to CreateProcess.
 old-location: shell\icreateprocessinputs_addstartupflags.htm
 old-project: shell
 ms.assetid: 62270ED9-678B-4D39-BFF1-3F9E10AAF03A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddStartupFlags, AddStartupFlags method [Windows Shell], AddStartupFlags method [Windows Shell],ICreateProcessInputs interface, ICreateProcessInputs interface [Windows Shell],AddStartupFlags method, ICreateProcessInputs.AddStartupFlags, ICreateProcessInputs::AddStartupFlags, shell.icreateprocessinputs_addstartupflags, shobjidl_core/ICreateProcessInputs::AddStartupFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

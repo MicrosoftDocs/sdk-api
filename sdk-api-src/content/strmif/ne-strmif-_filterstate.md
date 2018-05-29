@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif._FilterState
 title: "_FilterState"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a filter's state or the state of the filter graph.
 old-location: dshow\filter_state.htm
 old-project: DirectShow
 ms.assetid: 41f88abc-57d1-4f80-a099-d17e624ab8a6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FILTER_STATE, FILTER_STATE , FILTER_STATE enumeration [DirectShow], FILTER_STATEEnumeration, State_Paused, State_Running, State_Stopped, _FilterState, dshow.filter_state, strmif/FILTER_STATE, strmif/State_Paused, strmif/State_Running, strmif/State_Stopped
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

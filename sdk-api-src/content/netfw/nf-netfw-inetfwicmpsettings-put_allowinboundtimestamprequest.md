@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowInboundTimestampRequest
 title: INetFwIcmpSettings::put_AllowInboundTimestampRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundtimestamprequest.htm
 old-project: ICS
 ms.assetid: 6898527d-8556-46ae-b6e4-b1157323d14e
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AllowInboundTimestampRequest property [ICS/ICF], AllowInboundTimestampRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundTimestampRequest property, INetFwIcmpSettings.AllowInboundTimestampRequest, INetFwIcmpSettings.put_AllowInboundTimestampRequest, INetFwIcmpSettings::AllowInboundTimestampRequest, INetFwIcmpSettings::get_AllowInboundTimestampRequest, INetFwIcmpSettings::put_AllowInboundTimestampRequest, ics.inetfwicmpsettings_allowinboundtimestamprequest, netfw/INetFwIcmpSettings::AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::get_AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::put_AllowInboundTimestampRequest, put_AllowInboundTimestampRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

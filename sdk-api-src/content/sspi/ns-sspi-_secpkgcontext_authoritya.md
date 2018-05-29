@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_AuthorityA
 title: "_SecPkgContext_AuthorityA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgContext_Authority structure contains the name of the authenticating authority if one is available.
 old-location: security\secpkgcontext_authority.htm
 old-project: SecAuthN
 ms.assetid: 619bf16b-c439-48e7-b013-3622e2f3bbc4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_AuthorityA, PSecPkgContext_Authority, PSecPkgContext_Authority structure pointer [Security], SecPkgContext_Authority, SecPkgContext_Authority structure [Security], SecPkgContext_AuthorityA, SecPkgContext_AuthorityW, _SecPkgContext_AuthorityA, _ssp_secpkgcontext_authority, security.secpkgcontext_authority, sspi/PSecPkgContext_Authority, sspi/SecPkgContext_Authority, sspi/SecPkgContext_AuthorityA, sspi/SecPkgContext_AuthorityW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

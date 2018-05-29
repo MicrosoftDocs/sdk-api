@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITDetectTone
 title: ITDetectTone
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITDetectTone interface exposes methods that allow an application to specify the tones and tone characteristics that should cause the TAPI Server to generate a tone event.
 old-location: tapi3\itdetecttone.htm
 old-project: Tapi
 ms.assetid: c03db3e2-3dc9-443f-8acf-66c06940e0b9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], ITDetectTone interface [TAPI 2.2],described, _tapi3_itdetecttone, tapi3.itdetecttone, tapi3if/ITDetectTone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

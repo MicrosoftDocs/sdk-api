@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.SetUrlCacheGroupAttributeA
 title: SetUrlCacheGroupAttributeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the attribute information of the specified cache group.
 old-location: wininet\seturlcachegroupattribute.htm
 old-project: WinInet
 ms.assetid: dd4e94cd-0fe5-414a-8a43-8777403e8a45
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetUrlCacheGroupAttribute, SetUrlCacheGroupAttribute function [WinINet], SetUrlCacheGroupAttributeA, SetUrlCacheGroupAttributeW, _inet_seturlcachegroupattribute_function, wininet.seturlcachegroupattribute, wininet/SetUrlCacheGroupAttribute, wininet/SetUrlCacheGroupAttributeA, wininet/SetUrlCacheGroupAttributeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

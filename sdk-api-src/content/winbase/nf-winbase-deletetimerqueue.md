@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DeleteTimerQueue
 title: DeleteTimerQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 old-location: base\deletetimerqueue.htm
 old-project: Sync
 ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

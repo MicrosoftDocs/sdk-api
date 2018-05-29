@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySessionNotify.KeyError
 title: IMFMediaKeySessionNotify::KeyError
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the application that an error occurred while processing the key.
 old-location: mf\imfmediakeysessionnotify_keyerror.htm
 old-project: medfound
 ms.assetid: e437b46a-8b25-42c4-b307-b6962b60b452
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyError method, IMFMediaKeySessionNotify.KeyError, IMFMediaKeySessionNotify::KeyError, KeyError, KeyError method [Media Foundation], KeyError method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keyerror, mfmediaengine/IMFMediaKeySessionNotify::KeyError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

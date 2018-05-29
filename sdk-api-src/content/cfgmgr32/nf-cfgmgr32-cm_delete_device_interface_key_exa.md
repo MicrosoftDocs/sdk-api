@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Delete_Device_Interface_Key_ExA
 title: CM_Delete_Device_Interface_Key_ExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Delete_Device_Interface_Key_ExA function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
 old-location: devinst\cm_delete_device_interface_key_exa.htm
 old-project: devinst
 ms.assetid: B12C62F7-B6B1-46F6-88B4-78F25A14E8F6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Delete_Device_Interface_Key_ExA, CM_Delete_Device_Interface_Key_ExA function [Device and Driver Installation], cfgmgr32/CM_Delete_Device_Interface_Key_ExA, devinst.cm_delete_device_interface_key_exa
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

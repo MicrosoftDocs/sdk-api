@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeDhcpIsValid
 title: PxeDhcpIsValid function
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates that a packet is a DHCP packet.
 old-location: wds\pxedhcpisvalid.htm
 old-project: Wds
 ms.assetid: b5f43afb-ab71-4edf-a48a-7315d19af913
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FALSE, PxeDhcpIsValid, PxeDhcpIsValid function [Windows Deployment Services], TRUE, wds.pxedhcpisvalid, wdspxe/PxeDhcpIsValid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

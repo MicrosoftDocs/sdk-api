@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetUInt32
 title: IShellItem2::GetUInt32
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the UInt32 value of a specified property key.
 old-location: shell\IShellItem2_GetUInt32.htm
 old-project: shell
 ms.assetid: 5f9b479f-974f-4fad-87ea-7335d4d5d2e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUInt32, GetUInt32 method [Windows Shell], GetUInt32 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetUInt32 method, IShellItem2.GetUInt32, IShellItem2::GetUInt32, _shell_IShellItem2_GetUInt32, shell.IShellItem2_GetUInt32, shobjidl_core/IShellItem2::GetUInt32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

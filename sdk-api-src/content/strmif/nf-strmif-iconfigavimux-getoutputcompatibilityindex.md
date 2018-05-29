@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IConfigAviMux.GetOutputCompatibilityIndex
 title: IConfigAviMux::GetOutputCompatibilityIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOutputCompatibilityIndex method retrieves the setting for the AVI index format.
 old-location: dshow\iconfigavimux_getoutputcompatibilityindex.htm
 old-project: DirectShow
 ms.assetid: 723f1662-4f1a-408b-a737-9095e7c14c4f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOutputCompatibilityIndex, GetOutputCompatibilityIndex method [DirectShow], GetOutputCompatibilityIndex method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetOutputCompatibilityIndex method, IConfigAviMux.GetOutputCompatibilityIndex, IConfigAviMux::GetOutputCompatibilityIndex, IConfigAviMuxGetOutputCompatibilityIndex, dshow.iconfigavimux_getoutputcompatibilityindex, strmif/IConfigAviMux::GetOutputCompatibilityIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

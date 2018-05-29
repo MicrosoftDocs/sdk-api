@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.Shell_GetCachedImageIndexA
 title: Shell_GetCachedImageIndexA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shell_GetCachedImageIndex may be altered or unavailable.
 old-location: shell\Shell_GetCachedImageIndex.htm
 old-project: shell
 ms.assetid: f0d4dd1f-a41c-4dd0-9713-e3aec48ff101
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Shell_GetCachedImageIndex, Shell_GetCachedImageIndex function [Windows Shell], Shell_GetCachedImageIndexA, Shell_GetCachedImageIndexW, _win32_Shell_GetCachedImageIndex, shell.Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndexA, shlobj_core/Shell_GetCachedImageIndexW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h, Shlobj.h, Shlobj_core.h

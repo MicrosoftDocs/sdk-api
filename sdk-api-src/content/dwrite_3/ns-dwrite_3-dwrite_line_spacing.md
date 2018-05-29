@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_SPACING
 title: DWRITE_LINE_SPACING
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: directwrite\dwrite_line_spacing.htm
 old-project: DirectWrite
 ms.assetid: bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], directwrite.dwrite_line_spacing, dwrite_3/DWRITE_LINE_SPACING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 

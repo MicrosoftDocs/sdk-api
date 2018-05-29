@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongPtrToUInt
 title: LongPtrToUInt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type UINT.
 old-location: shell\LongPtrToUInt.htm
 old-project: shell
 ms.assetid: b738dfcf-6c99-4795-9d9a-6b2349429140
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LongPtrToUInt, LongPtrToUInt function [Windows Shell], SSIZETToUInt, _shell_LongPtrToUInt, intsafe/LongPtrToUInt, shell.LongPtrToUInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponentType.put_Category
 title: IComponentType::put_Category
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Category method sets the component category.
 old-location: mstv\icomponenttype_put_category.htm
 old-project: mstv
 ms.assetid: 3ae90ec5-ebae-4a67-b786-33a1d94309b8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_Category method, IComponentType.put_Category, IComponentType::put_Category, IComponentTypeput_Category, mstv.icomponenttype_put_category, put_Category, put_Category method [Microsoft TV Technologies], put_Category method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_Category
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

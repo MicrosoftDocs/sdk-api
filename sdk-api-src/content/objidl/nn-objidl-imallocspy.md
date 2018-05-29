@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IMallocSpy
 title: IMallocSpy
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables application developers to monitor (spy on) memory allocation, detect memory leaks, and simulate memory failure in calls to IMalloc methods.
 old-location: com\imallocspy.htm
 old-project: com
 ms.assetid: 8ba500f7-c070-4788-b7fe-58b6a4e6a94c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], IMallocSpy interface [COM],described, _com_imallocspy, com.imallocspy, objidl/IMallocSpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

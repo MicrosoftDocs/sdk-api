@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBufferNotify
 title: IMFSourceBufferNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides functionality for raising events associated with IMFSourceBuffer.
 old-location: mf\imfsourcebuffernotify.htm
 old-project: medfound
 ms.assetid: 4a823d37-f55a-4810-aaed-4e04f5371d3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], IMFSourceBufferNotify interface [Media Foundation],described, mf.imfsourcebuffernotify, mfmediaengine/IMFSourceBufferNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

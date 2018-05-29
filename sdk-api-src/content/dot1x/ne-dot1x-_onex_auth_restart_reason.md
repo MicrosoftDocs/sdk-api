@@ -1,16 +1,16 @@
 ---
 UID: NE:dot1x._ONEX_AUTH_RESTART_REASON
 title: "_ONEX_AUTH_RESTART_REASON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the possible reasons that 802.1X authentication was restarted.
 old-location: nwifi\onex_auth_restart_reason.htm
 old-project: NativeWiFi
 ms.assetid: 794231da-ef4e-4419-9ff8-9b23483853d1
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: ONEX_AUTH_RESTART_REASON, ONEX_AUTH_RESTART_REASON enumeration [NativeWIFI], OneXRestartReasonAltCredsTrial, OneXRestartReasonInvalid, OneXRestartReasonMsmInitiated, OneXRestartReasonOneXAuthTimeout, OneXRestartReasonOneXConfigurationChanged, OneXRestartReasonOneXHeldStateTimeout, OneXRestartReasonOneXUserChanged, OneXRestartReasonPeerInitiated, OneXRestartReasonQuarantineStateChanged, PONEX_AUTH_RESTART_REASON, PONEX_AUTH_RESTART_REASON enumeration pointer [NativeWIFI], _ONEX_AUTH_RESTART_REASON, dot1x/ONEX_AUTH_RESTART_REASON, dot1x/OneXRestartReasonAltCredsTrial, dot1x/OneXRestartReasonInvalid, dot1x/OneXRestartReasonMsmInitiated, dot1x/OneXRestartReasonOneXAuthTimeout, dot1x/OneXRestartReasonOneXConfigurationChanged, dot1x/OneXRestartReasonOneXHeldStateTimeout, dot1x/OneXRestartReasonOneXUserChanged, dot1x/OneXRestartReasonPeerInitiated, dot1x/OneXRestartReasonQuarantineStateChanged, dot1x/PONEX_AUTH_RESTART_REASON, nwifi.onex_auth_restart_reason
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dot1x.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:endpointvolume.IAudioMeterInformation
 title: IAudioMeterInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioMeterInformation interface represents a peak meter on an audio stream to or from an audio endpoint device.
 old-location: coreaudio\iaudiometerinformation.htm
 old-project: CoreAudio
 ms.assetid: eff1c1cd-792b-489a-8381-4b783c57f005
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], IAudioMeterInformation interface [Core Audio],described, coreaudio.iaudiometerinformation, endpointvolume/IAudioMeterInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: endpointvolume.h
 req.include-header: 

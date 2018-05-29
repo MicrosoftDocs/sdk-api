@@ -1,16 +1,16 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.RemoveCredentials
 title: IBackgroundCopyJob2::RemoveCredentials
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes credentials from use. The credentials must match an existing target and scheme pair that you specified using the IBackgroundCopyJob2::SetCredentials method. There is no method to retrieve the credentials you have set.
 old-location: bits\ibackgroundcopyjob2_removecredentials.htm
 old-project: Bits
 ms.assetid: dbc6a05d-9e1f-4cc9-b28b-0874aafdfd7c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],RemoveCredentials method, IBackgroundCopyJob2.RemoveCredentials, IBackgroundCopyJob2::RemoveCredentials, RemoveCredentials, RemoveCredentials method [BITS], RemoveCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_removecredentials, bits.ibackgroundcopyjob2_removecredentials, bits1_5/IBackgroundCopyJob2::RemoveCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h

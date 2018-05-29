@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._AUTHENTICATION_TYPE
 title: "_AUTHENTICATION_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the AUTHENTICATION_TYPE enumerated type are used to specify the authentication method.
 old-location: nps\sdo_authentication_type.htm
 old-project: Nps
 ms.assetid: 55254986-8dfe-4ae1-84a1-3dc66b4e1190
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AUTHENTICATION_TYPE, AUTHENTICATION_TYPE enumeration [Network Policy Server], IAS_AUTH_ARAP, IAS_AUTH_CUSTOM, IAS_AUTH_EAP, IAS_AUTH_INVALID, IAS_AUTH_MD5CHAP, IAS_AUTH_MSCHAP, IAS_AUTH_MSCHAP2, IAS_AUTH_MSCHAP2_CPW, IAS_AUTH_MSCHAP_CPW, IAS_AUTH_NONE, IAS_AUTH_PAP, IAS_AUTH_PEAP, _AUTHENTICATION_TYPE, nps.sdo_authentication_type, nps.sdo_authenticationtype, sdo.authenticationtype, sdoias/AUTHENTICATION_TYPE, sdoias/IAS_AUTH_ARAP, sdoias/IAS_AUTH_CUSTOM, sdoias/IAS_AUTH_EAP, sdoias/IAS_AUTH_INVALID, sdoias/IAS_AUTH_MD5CHAP, sdoias/IAS_AUTH_MSCHAP, sdoias/IAS_AUTH_MSCHAP2, sdoias/IAS_AUTH_MSCHAP2_CPW, sdoias/IAS_AUTH_MSCHAP_CPW, sdoias/IAS_AUTH_NONE, sdoias/IAS_AUTH_PAP, sdoias/IAS_AUTH_PEAP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

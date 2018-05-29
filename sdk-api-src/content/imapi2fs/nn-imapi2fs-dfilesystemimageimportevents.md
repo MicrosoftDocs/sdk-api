@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.DFileSystemImageImportEvents
 title: DFileSystemImageImportEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to receives notifications regarding the current file system import operation.
 old-location: imapi\dfilesystemimageimportevents.htm
 old-project: imapi
 ms.assetid: 972ab985-17c5-4458-a7f4-59ac25c0dca4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DFileSystemImageImportEvents, DFileSystemImageImportEvents interface [IMAPI], DFileSystemImageImportEvents interface [IMAPI],described, imapi.dfilesystemimageimportevents, imapi2fs/DFileSystemImageImportEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

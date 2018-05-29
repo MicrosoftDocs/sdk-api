@@ -1,16 +1,16 @@
 ---
 UID: NS:wintrust.WINTRUST_FILE_INFO_
 title: WINTRUST_FILE_INFO_
-author: windows-driver-content
+author: windows-sdk-content
 description: The WINTRUST_FILE_INFO structure is used when calling WinVerifyTrust to verify an individual file.
 old-location: security\wintrust_file_info.htm
 old-project: SecCrypto
 ms.assetid: 3c3bef86-a2ed-47d1-a726-90630433358a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PWINTRUST_FILE_INFO, PWINTRUCT_FILE_INFO, PWINTRUCT_FILE_INFO structure pointer [Security], WINTRUST_FILE_INFO, WINTRUST_FILE_INFO structure [Security], WINTRUST_FILE_INFO_, _win32_wintrust_file_info, security.wintrust_file_info, wintrust/PWINTRUCT_FILE_INFO, wintrust/WINTRUST_FILE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

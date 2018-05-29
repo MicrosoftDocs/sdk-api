@@ -1,16 +1,16 @@
 ---
 UID: NS:windns._DNS_MESSAGE_BUFFER
 title: "_DNS_MESSAGE_BUFFER"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_MESSAGE_BUFFER structure stores message information for DNS queries.
 old-location: dns\dns_message_buffer.htm
 old-project: DNS
 ms.assetid: 2a6fdf8f-ac30-4e32-9cde-67d41ddef8af
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER structure [DNS], PDNS_MESSAGE_BUFFER, PDNS_MESSAGE_BUFFER structure pointer [DNS], _DNS_MESSAGE_BUFFER, _dns_dns_message_buffer, dns.dns_message_buffer, windns/DNS_MESSAGE_BUFFER, windns/PDNS_MESSAGE_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

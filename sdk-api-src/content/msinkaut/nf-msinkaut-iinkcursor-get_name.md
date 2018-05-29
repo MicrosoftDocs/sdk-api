@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Name
 title: IInkCursor::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the object.
 old-location: tablet\iinkcursor_name.htm
 old-project: tablet
 ms.assetid: fda02c99-21c1-4ca9-a1f8-24fa9354eac7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkCursor interface [Tablet PC],Name property, IInkCursor.Name, IInkCursor.get_Name, IInkCursor::Name, IInkCursor::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkCursor interface, get_Name, msinkaut/IInkCursor::Name, msinkaut/IInkCursor::get_Name, tablet.iinkcursor_name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

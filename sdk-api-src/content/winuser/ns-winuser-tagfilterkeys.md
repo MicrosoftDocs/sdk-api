@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagFILTERKEYS
 title: tagFILTERKEYS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the FilterKeys accessibility feature, which enables a user with disabilities to set the keyboard repeat rate (RepeatKeys), acceptance delay (SlowKeys), and bounce rate (BounceKeys).
 old-location: winauto\filterkeys.htm
 old-project: WinAuto
 ms.assetid: 6e2526b3-ddf5-425b-8242-b302a683e0ad
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: "*LPFILTERKEYS, FILTERKEYS, FILTERKEYS structure [Windows Accessibility], FKF_AVAILABLE, FKF_CLICKON, FKF_CONFIRMHOTKEY, FKF_FILTERKEYSON, FKF_HOTKEYACTIVE, FKF_HOTKEYSOUND, FKF_INDICATOR, LPFILTERKEYS, LPFILTERKEYS structure pointer [Windows Accessibility], _win32_FILTERKEYS_str, msaa.filterkeys, tagFILTERKEYS, winauto.filterkeys, winuser/FILTERKEYS, winuser/LPFILTERKEYS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

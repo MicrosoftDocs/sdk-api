@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiGetDevicePropertyW
 title: SetupDiGetDevicePropertyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiGetDeviceProperty function retrieves a device instance property.
 old-location: devinst\setupdigetdeviceproperty.htm
 old-project: devinst
 ms.assetid: eac31612-e80b-44ad-b4d4-a4aa014e833f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiGetDeviceProperty, SetupDiGetDeviceProperty function [Device and Driver Installation], SetupDiGetDevicePropertyW, devinst.setupdigetdeviceproperty, di-rtns_e079700c-c7b8-43ef-992b-68156a693b41.xml, setupapi/SetupDiGetDeviceProperty, setupapi/SetupDiGetDevicePropertyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: SetupAPI.h

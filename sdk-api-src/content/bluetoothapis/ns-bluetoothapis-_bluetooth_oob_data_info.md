@@ -1,16 +1,16 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_OOB_DATA_INFO
 title: "_BLUETOOTH_OOB_DATA_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: BLUETOOTH_OOB_DATA_INFO structure contains data used to authenticate prior to establishing an Out-of-Band device pairing.
 old-location: bluetooth\bluetooth_oob_data_info.htm
 old-project: Bluetooth
 ms.assetid: 0728678a-98c7-44b5-a117-5f9acae9fd25
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PBLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_DATA_INFO structure [Bluetooth], PBLUETOOTH_OOB_DATA_INFO, PBLUETOOTH_OOB_DATA_INFO structure pointer [Bluetooth], _BLUETOOTH_OOB_DATA_INFO, bluetooth.bluetooth_oob_data_info, bluetoothapis/BLUETOOTH_OOB_DATA_INFO, bluetoothapis/PBLUETOOTH_OOB_DATA_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

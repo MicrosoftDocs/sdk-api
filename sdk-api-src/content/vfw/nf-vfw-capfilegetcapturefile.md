@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capFileGetCaptureFile
 title: capFileGetCaptureFile macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capFileGetCaptureFile macro returns the name of the current capture file. You can use this macro or explicitly call the WM_CAP_FILE_GET_CAPTURE_FILE message.
 old-location: multimedia\capfilegetcapturefile.htm
 old-project: Multimedia
 ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

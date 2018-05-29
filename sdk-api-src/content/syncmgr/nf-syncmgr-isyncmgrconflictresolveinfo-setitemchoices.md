@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetItemChoices
 title: ISyncMgrConflictResolveInfo::SetItemChoices
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the array of indexes that represents which items the user wants to keep. This method is used when the user chooses to apply the same operation to all selected conflicts of the same type from the same handler.
 old-location: shell\ISyncMgrConflictResolveInfo_SetItemChoices.htm
 old-project: shell
 ms.assetid: e4485f49-9bcb-47a8-8559-da2217ee1eab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetItemChoices method, ISyncMgrConflictResolveInfo.SetItemChoices, ISyncMgrConflictResolveInfo::SetItemChoices, SetItemChoices, SetItemChoices method [Windows Shell], SetItemChoices method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetItemChoices, shell.ISyncMgrConflictResolveInfo_SetItemChoices, syncmgr/ISyncMgrConflictResolveInfo::SetItemChoices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

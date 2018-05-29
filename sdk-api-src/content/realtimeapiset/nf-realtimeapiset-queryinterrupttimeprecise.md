@@ -1,16 +1,16 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTimePrecise
 title: QueryInterruptTimePrecise function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.
 old-location: base\queryinterrupttimeprecise.htm
 old-project: SysInfo
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 

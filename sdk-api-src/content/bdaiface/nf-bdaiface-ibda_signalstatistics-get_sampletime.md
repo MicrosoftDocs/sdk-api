@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SampleTime
 title: IBDA_SignalStatistics::get_SampleTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_SampleTime method retrieves the sample time used to measure the signal.
 old-location: mstv\ibda_signalstatistics_get_sampletime.htm
 old-project: mstv
 ms.assetid: 9651e393-224b-4276-b8a6-f841f9e04d48
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SampleTime method, IBDA_SignalStatistics.get_SampleTime, IBDA_SignalStatistics::get_SampleTime, IBDA_SignalStatisticsget_SampleTime, bdaiface/IBDA_SignalStatistics::get_SampleTime, get_SampleTime, get_SampleTime method [Microsoft TV Technologies], get_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_sampletime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

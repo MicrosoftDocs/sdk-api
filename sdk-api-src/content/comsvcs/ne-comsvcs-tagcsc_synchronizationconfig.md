@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCSC_SynchronizationConfig
 title: tagCSC_SynchronizationConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates how synchronization is configured for CServiceConfig.
 old-location: cos\csc_synchronizationconfig.htm
 old-project: cossdk
 ms.assetid: dc0c4310-e2d8-462c-af55-f1513934b8ef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CSC_IfContainerIsSynchronized, CSC_NewSynchronization, CSC_NewSynchronizationIfNecessary, CSC_NoSynchronization, CSC_SynchronizationConfig, CSC_SynchronizationConfig enumeration [COM+], _cos_CSC_SynchronizationConfig, comsvcs/CSC_IfContainerIsSynchronized, comsvcs/CSC_NewSynchronization, comsvcs/CSC_NewSynchronizationIfNecessary, comsvcs/CSC_NoSynchronization, comsvcs/CSC_SynchronizationConfig, cos.csc_synchronizationconfig, tagCSC_SynchronizationConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

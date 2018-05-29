@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.PutMulticastMode
 title: IBDA_EthernetFilter::PutMulticastMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ethernetfilter_putmulticastmode.htm
 old-project: mstv
 ms.assetid: 01694aba-6b43-46da-a35c-7f3f5befecad
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_EthernetFilter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_EthernetFilter.PutMulticastMode, IBDA_EthernetFilter::PutMulticastMode, IBDA_EthernetFilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, bdaiface/IBDA_EthernetFilter::PutMulticastMode, mstv.ibda_ethernetfilter_putmulticastmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_2DAFFINETRANSFORM_PROP
 title: D2D1_2DAFFINETRANSFORM_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for properties of the 2D affine transform effect.
 old-location: direct2d\d2d1_2daffinetransform_prop.htm
 old-project: Direct2D
 ms.assetid: B1D8916F-124B-40BF-ABC5-78745D98DF97
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_2DAFFINETRANSFORM_PROP, D2D1_2DAFFINETRANSFORM_PROP enumeration [Direct2D], D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE, D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE, D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS, D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX, direct2d.d2d1_2daffinetransform_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

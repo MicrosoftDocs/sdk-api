@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsEndReaderCanonicalization
 title: WsEndReaderCanonicalization function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function stops XML canonicalization started by a preceding WsStartReaderCanonicalization function call. Any remaining canonical bytes buffered by the reader will be written to the callback function.
 old-location: wsw\wsendreadercanonicalization.htm
 old-project: wsw
 ms.assetid: 5cacad47-8581-4713-96cb-3b3a863e6327
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntenclv.VBS_ENCLAVE_REPORT_VARDATA_HEADER
 title: VBS_ENCLAVE_REPORT_VARDATA_HEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the format of a variable data block contained in a report that the EnclaveGetAttestationReport function generates.
 old-location: base\vbs_enclave_report_vardata_header.htm
 old-project: Memory
 ms.assetid: A0B02839-E8F4-45A1-B2BA-73E6EF9DA7C8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VBS_ENCLAVE_REPORT_VARDATA_HEADER, VBS_ENCLAVE_REPORT_VARDATA_HEADER structure, VBS_ENCLAVE_VARDATA_INVALID, VBS_ENCLAVE_VARDATA_MODULE, base.vbs_enclave_report_vardata_header, ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntenclv.h
 req.include-header: 

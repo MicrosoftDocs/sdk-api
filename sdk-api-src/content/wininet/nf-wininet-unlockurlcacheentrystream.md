@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryStream
 title: UnlockUrlCacheEntryStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the stream that has been retrieved using the RetrieveUrlCacheEntryStream function.
 old-location: wininet\unlockurlcacheentrystream.htm
 old-project: WinInet
 ms.assetid: 9fcc257e-732c-4545-a81b-7db20a98e497
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UnlockUrlCacheEntryStream, UnlockUrlCacheEntryStream function [WinINet], _inet_unlockurlcacheentrystream_function, wininet.unlockurlcacheentrystream, wininet/UnlockUrlCacheEntryStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

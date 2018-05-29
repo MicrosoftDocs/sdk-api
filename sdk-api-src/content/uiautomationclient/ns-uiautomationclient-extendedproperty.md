@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationclient.ExtendedProperty
 title: ExtendedProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an extended property.
 old-location: winauto\uiauto_extendedproperty.htm
 old-project: WinAuto
 ms.assetid: 3d0037f5-cff7-4502-b648-a2a60127eaff
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility], uiautomationclient/ExtendedProperty, winauto.uiauto_extendedproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

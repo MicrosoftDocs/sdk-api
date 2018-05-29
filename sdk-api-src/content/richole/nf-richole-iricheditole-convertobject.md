@@ -1,16 +1,16 @@
 ---
 UID: NF:richole.IRichEditOle.ConvertObject
 title: IRichEditOle::ConvertObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an object to a new type. This call reloads the object but does not force an update; the caller must do this.
 old-location: controls\IRichEditOle_ConvertObject.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleconvertobject.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ConvertObject, ConvertObject method [Windows Controls], ConvertObject method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],ConvertObject method, IRichEditOle.ConvertObject, IRichEditOle::ConvertObject, _win32_IRichEditOle_ConvertObject, _win32_IRichEditOle_ConvertObject_cpp, controls.IRichEditOle_ConvertObject, controls._win32_IRichEditOle_ConvertObject, richole/IRichEditOle::ConvertObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: richole.h
 req.include-header: 

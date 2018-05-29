@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamWrite
 title: AVIStreamWrite function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamWrite function writes data to a stream.
 old-location: multimedia\avistreamwrite.htm
 old-project: Multimedia
 ms.assetid: 9a306939-7b4f-4e0b-8340-270725da74c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIIF_KEYFRAME, AVIStreamWrite, AVIStreamWrite function [Windows Multimedia], _win32_AVIStreamWrite, multimedia.avistreamwrite, vfw/AVIStreamWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

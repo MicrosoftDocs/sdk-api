@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileFromTokenW
 title: SymGetSourceFileFromTokenW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the source file associated with the specified token from the source server.
 old-location: base\symgetsourcefilefromtoken.htm
 old-project: Debug
 ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.Close
 title: ITPhone::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: The Close method closes this phone device. The phone device remains closed until the application calls the ITPhone::Open method. For more information, see the following Remarks section.
 old-location: tapi3\itphone_close.htm
 old-project: Tapi
 ms.assetid: 1eae1a14-dd5e-4ba9-8e6e-71e9956cb3e3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Close, Close method [TAPI 2.2], Close method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],Close method, ITPhone.Close, ITPhone::Close, _tapi3_itphone_close, tapi3.itphone_close, tapi3if/ITPhone::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalSize
 title: IMDSPStorageGlobals::GetTotalSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTotalSize method retrieves the total size, in bytes, of the medium associated with this IMDSPStorageGlobals interface.
 old-location: wmdm\imdspstorageglobals_gettotalsize.htm
 old-project: WMDM
 ms.assetid: 6a4b4ac5-0b7e-4a22-9857-b251a6bf1dcf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTotalSize, GetTotalSize method [windows Media Device Manager], GetTotalSize method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalSize method, IMDSPStorageGlobals.GetTotalSize, IMDSPStorageGlobals::GetTotalSize, IMDSPStorageGlobalsGetTotalSize, mswmdm/IMDSPStorageGlobals::GetTotalSize, wmdm.imdspstorageglobals_gettotalsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

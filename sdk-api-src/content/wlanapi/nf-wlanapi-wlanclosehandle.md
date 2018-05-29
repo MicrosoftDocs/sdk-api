@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanCloseHandle
 title: WlanCloseHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a connection to the server.
 old-location: nwifi\wlanclosehandle.htm
 old-project: NativeWiFi
 ms.assetid: 8e944133-2616-4e17-ac38-c17e8d25ccec
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanCloseHandle, WlanCloseHandle function [NativeWIFI], nwifi.wlanclosehandle, wlanapi/WlanCloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMemberRefs
 title: IMetaDataImport::EnumMemberRefs
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates MemberRef tokens representing members of the specified type.
 old-location: winrt\imetadataimport_enummemberrefs.htm
 old-project: WinRT
 ms.assetid: 900777d4-14fc-4d64-a01c-395f5fafe5e4
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: EnumMemberRefs, EnumMemberRefs method [Windows Runtime], EnumMemberRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMemberRefs method, IMetaDataImport.EnumMemberRefs, IMetaDataImport::EnumMemberRefs, rometadataapi/IMetaDataImport::EnumMemberRefs, winrt.imetadataimport_enummemberrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptRecordDigitSubstitution
 title: ScriptRecordDigitSubstitution function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the National Language Support (NLS) native digit and digit substitution settings and records them in a SCRIPT_DIGITSUBSTITUTE structure. For more information, see Digit Shapes.
 old-location: intl\scriptrecorddigitsubstitution.htm
 old-project: Intl
 ms.assetid: 2c8c33d5-5cd6-4734-bf44-af7d4b578672
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptRecordDigitSubstitution, ScriptRecordDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptRecordDigitSubstitution, intl.scriptrecorddigitsubstitution, usp10/ScriptRecordDigitSubstitution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

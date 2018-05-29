@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.DeleteLogFile
 title: DeleteLogFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks a log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.
 old-location: fs\deletelogfile.htm
 old-project: Clfs
 ms.assetid: a7dd8efc-b572-4591-9e46-1cd5105d4ca2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DeleteLogFile, DeleteLogFile function [Files], clfsw32/DeleteLogFile, fs.deletelogfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

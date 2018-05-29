@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrServerCallAll
 title: NdrServerCallAll function
-author: windows-driver-content
+author: windows-sdk-content
 description: NdrServerCallAll is not intended to be directly called by applications.
 old-location: rpc\ndrservercallall.htm
 old-project: Rpc
 ms.assetid: 7CCFC1CC-E37E-412E-9CB9-46888C42244A
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrServerCallAll, NdrServerCallAll function [RPC], rpc.ndrservercallall, rpcndr/NdrServerCallAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

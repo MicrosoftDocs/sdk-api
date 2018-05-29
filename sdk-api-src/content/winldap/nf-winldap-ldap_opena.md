@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_openA
 title: ldap_openA function
-author: windows-driver-content
+author: windows-sdk-content
 description: ldap_open is not recommended for use.
 old-location: ldap\ldap_open.htm
 old-project: LDAP
 ms.assetid: ebd7303d-e98d-454d-9964-d774d5c2a756
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_open, ldap.ldap__open, ldap.ldap_open, ldap_open, ldap_open function [LDAP], ldap_openA, ldap_openW, winldap/ldap_open, winldap/ldap_openA, winldap/ldap_openW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyName
 title: IWMPNetwork::setProxyName
-author: windows-driver-content
+author: windows-sdk-content
 description: The setProxyName method specifies the name of the proxy server to use.
 old-location: wmp\iwmpnetwork_setproxyname.htm
 old-project: WMP
 ms.assetid: 6f484f5b-195c-496d-932e-3e1fdbf873d8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyName method, IWMPNetwork.setProxyName, IWMPNetwork::setProxyName, IWMPNetworksetProxyName, setProxyName, setProxyName method [Windows Media Player], setProxyName method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyname, wmp/IWMPNetwork::setProxyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxml._WSD_DATETIME
 title: "_WSD_DATETIME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a timestamp.
 old-location: ncd\wsd_datetime_struct.htm
 old-project: WsdApi
 ms.assetid: ec42d69c-133a-4e76-bbbe-0e6978f4723a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_DATETIME, WSD_DATETIME structure, _WSD_DATETIME, ncd.wsd_datetime_struct, wsdxml/WSD_DATETIME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxml.h
 req.include-header: Wsdapi.h

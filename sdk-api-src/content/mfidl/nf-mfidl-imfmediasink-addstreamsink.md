@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSink.AddStreamSink
 title: IMFMediaSink::AddStreamSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new stream sink to the media sink.
 old-location: mf\imfmediasink_addstreamsink.htm
 old-project: medfound
 ms.assetid: 1b05ef87-5559-4310-942c-54ab113eb42d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1b05ef87-5559-4310-942c-54ab113eb42d, AddStreamSink, AddStreamSink method [Media Foundation], AddStreamSink method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],AddStreamSink method, IMFMediaSink.AddStreamSink, IMFMediaSink::AddStreamSink, mf.imfmediasink_addstreamsink, mfidl/IMFMediaSink::AddStreamSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

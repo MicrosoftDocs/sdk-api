@@ -1,16 +1,16 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.QuerySnapshotsByVolume
 title: IVssSnapshotMgmt::QuerySnapshotsByVolume
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for system use.
 old-location: base\ivsssnapshotmgmt_querysnapshotsbyvolume.htm
 old-project: VSS
 ms.assetid: c74322d8-24a6-4463-82a5-c06e7624a1ca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QuerySnapshotsByVolume method, IVssSnapshotMgmt.QuerySnapshotsByVolume, IVssSnapshotMgmt::QuerySnapshotsByVolume, QuerySnapshotsByVolume, QuerySnapshotsByVolume method [VSS], QuerySnapshotsByVolume method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_querysnapshotsbyvolume, vsmgmt/IVssSnapshotMgmt::QuerySnapshotsByVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

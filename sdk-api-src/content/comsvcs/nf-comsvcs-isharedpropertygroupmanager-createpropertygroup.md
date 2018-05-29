@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.CreatePropertyGroup
 title: ISharedPropertyGroupManager::CreatePropertyGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new shared property group.
 old-location: cos\isharedpropertygroupmanager_createpropertygroup.htm
 old-project: cossdk
 ms.assetid: 19c954cb-1a3b-4063-a09b-54906ae1613d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreatePropertyGroup, CreatePropertyGroup method [COM+], CreatePropertyGroup method [COM+],ISharedPropertyGroupManager interface, ISharedPropertyGroupManager interface [COM+],CreatePropertyGroup method, ISharedPropertyGroupManager.CreatePropertyGroup, ISharedPropertyGroupManager::CreatePropertyGroup, _cos_ISharedPropertyGroupManager_CreatePropertyGroup, comsvcs/ISharedPropertyGroupManager::CreatePropertyGroup, cos.isharedpropertygroupmanager_createpropertygroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

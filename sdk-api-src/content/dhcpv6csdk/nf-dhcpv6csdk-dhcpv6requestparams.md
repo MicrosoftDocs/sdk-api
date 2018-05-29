@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RequestParams
 title: Dhcpv6RequestParams function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests options from the DHCPv6 client cache or directly from the DHCPv6 server.
 old-location: dhcp\dhcpv6requestparams.htm
 old-project: DHCP
 ms.assetid: dfe94735-ee9d-4781-9d54-90a10d0e243a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: Dhcpv6RequestParams, Dhcpv6RequestParams function [DHCP], dhcp.dhcpv6requestparams, dhcpv6csdk/Dhcpv6RequestParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpv6csdk.h
 req.include-header: 

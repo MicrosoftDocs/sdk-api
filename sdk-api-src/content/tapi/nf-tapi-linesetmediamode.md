@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetMediaMode
 title: lineSetMediaMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetMediaMode function sets the media type(s) of the specified call in its LINECALLINFO structure. For more information, see ITLegacyCallMediaControl::SetMediaType.
 old-location: tapi2\linesetmediamode.htm
 old-project: Tapi
 ms.assetid: 4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetmediamode, lineSetMediaMode, lineSetMediaMode function [TAPI 2.2], tapi/lineSetMediaMode, tapi2.linesetmediamode"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

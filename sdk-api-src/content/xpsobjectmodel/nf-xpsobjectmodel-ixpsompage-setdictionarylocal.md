@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetDictionaryLocal
 title: IXpsOMPage::SetDictionaryLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the IXpsOMDictionary interface pointer of the page's local dictionary resource.
 old-location: xps\ixpsompage_setdictionarylocal.htm
 old-project: printdocs
 ms.assetid: d950a21a-0afe-410a-9f2c-32847c35471e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMPage.SetDictionaryLocal, IXpsOMPage::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setdictionarylocal, xpsobjectmodel/IXpsOMPage::SetDictionaryLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

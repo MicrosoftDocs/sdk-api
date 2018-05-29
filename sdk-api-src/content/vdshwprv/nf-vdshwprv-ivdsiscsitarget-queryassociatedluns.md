@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.QueryAssociatedLuns
 title: IVdsIscsiTarget::QueryAssociatedLuns
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a enumeration of the LUNs associated with the target.
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm
 old-project: VDS
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryAssociatedLuns method, IVdsIscsiTarget.QueryAssociatedLuns, IVdsIscsiTarget::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryassociatedluns, vds/IVdsIscsiTarget::QueryAssociatedLuns, vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

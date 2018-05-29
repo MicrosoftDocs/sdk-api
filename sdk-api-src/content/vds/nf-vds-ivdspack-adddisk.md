@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsPack.AddDisk
 title: IVdsPack::AddDisk
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a disk to an online pack.
 old-location: base\ivdspack_adddisk.htm
 old-project: VDS
 ms.assetid: e64e3891-74c6-4014-9909-24f75f69e06d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interface, IVdsPack interface [VDS],AddDisk method, IVdsPack.AddDisk, IVdsPack::AddDisk, base.ivdspack_adddisk, vds/IVdsPack::AddDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

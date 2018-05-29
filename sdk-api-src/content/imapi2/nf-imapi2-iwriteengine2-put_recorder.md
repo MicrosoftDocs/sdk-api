@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_Recorder
 title: IWriteEngine2::put_Recorder
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a recording device for the write operation.
 old-location: imapi\iwriteengine2_put_recorder.htm
 old-project: imapi
 ms.assetid: 3ab46d99-7940-4ad0-9772-634de8c0d0ef
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_Recorder method, IWriteEngine2.put_Recorder, IWriteEngine2::put_Recorder, imapi.iwriteengine2_put_recorder, imapi2/IWriteEngine2::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IWriteEngine2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

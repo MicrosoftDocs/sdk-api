@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsReplicaGetInfoW
 title: DsReplicaGetInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves replication state data from the directory service.
 old-location: ad\dsreplicagetinfo.htm
 old-project: AD
 ms.assetid: b7ab22fe-ed92-4213-9b66-2dd5526286fa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DsReplicaGetInfo, DsReplicaGetInfo function [Active Directory], DsReplicaGetInfoW, _glines_dsreplicagetinfo, ad.dsreplicagetinfo, ntdsapi/DsReplicaGetInfo, ntdsapi/DsReplicaGetInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

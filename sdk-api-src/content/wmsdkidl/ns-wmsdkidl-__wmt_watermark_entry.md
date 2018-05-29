@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl.__WMT_WATERMARK_ENTRY
 title: "__WMT_WATERMARK_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_WATERMARK_ENTRY structure contains information describing a watermarking system.
 old-location: wmformat\wmt_watermark_entry.htm
 old-project: wmformat
 ms.assetid: 9b7b78e1-cf28-4b7a-8a12-e9d19cec17c4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_WATERMARK_ENTRY, WMT_WATERMARK_ENTRY structure [windows Media Format], __WMT_WATERMARK_ENTRY, structure [windows Media Format], wmformat.wmt_watermark_entry, wmsdkidl/WMT_WATERMARK_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidFeatures.get__NewEnum
 title: IMSVidFeatures::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidfeatures_get__newenum.htm
 old-project: mstv
 ms.assetid: 6c619f62-5041-410b-8ce0-d811992a32d6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get__NewEnum method, IMSVidFeatures.get__NewEnum, IMSVidFeatures::get__NewEnum, IMSVidFeaturesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get__newenum, segment/IMSVidFeatures::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSize
 title: IUrlAccessor::GetSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size of the content designated by the URL.
 old-location: search\_search_IUrlAccessor_GetSize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsize.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSize, GetSize method [search], GetSize method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSize method, IUrlAccessor.GetSize, IUrlAccessor::GetSize, _search_IUrlAccessor_GetSize, search._search_IUrlAccessor_GetSize, searchapi/IUrlAccessor::GetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

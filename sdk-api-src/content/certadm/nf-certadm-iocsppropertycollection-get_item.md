@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_Item
 title: IOCSPPropertyCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the property identified by index in a property set.
 old-location: security\iocsppropertycollection_item_method.htm
 old-project: SecCrypto
 ms.assetid: 33fce781-f65d-433a-b2ba-0f694cee1220
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],Item property, IOCSPPropertyCollection.Item, IOCSPPropertyCollection.get_Item, IOCSPPropertyCollection::Item, IOCSPPropertyCollection::get_Item, Item property [Security], Item property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::Item, certadm/IOCSPPropertyCollection::get_Item, get_Item, security.iocsppropertycollection_item_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IDirectoryObject.GetObjectAttributes
 title: IDirectoryObject::GetObjectAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves one or more specified attributes of the directory service object.
 old-location: adsi\idirectoryobject_getobjectattributes.htm
 old-project: ADSI
 ms.assetid: 6e3d046f-eac0-4955-925b-71ab15df9ed3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [ADSI], GetObjectAttributes method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectAttributes method, IDirectoryObject.GetObjectAttributes, IDirectoryObject::GetObjectAttributes, _ds_idirectoryobject_getobjectattributes, adsi.idirectoryobject__getobjectattributes, adsi.idirectoryobject_getobjectattributes, iads/IDirectoryObject::GetObjectAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

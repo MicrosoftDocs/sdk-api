@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetChase
 title: IAMExtTransport::SetChase
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetChase method enables or disables chase mode.
 old-location: dshow\iamexttransport_setchase.htm
 old-project: DirectShow
 ms.assetid: f8c94e74-e243-4fa9-85e6-8c027b514e4f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetChase method, IAMExtTransport.SetChase, IAMExtTransport::SetChase, IAMExtTransportSetChase, SetChase, SetChase method [DirectShow], SetChase method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setchase, strmif/IAMExtTransport::SetChase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

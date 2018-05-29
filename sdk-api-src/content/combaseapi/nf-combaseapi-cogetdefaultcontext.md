@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetDefaultContext
 title: CoGetDefaultContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a reference to the default context of the specified apartment.
 old-location: cos\cogetdefaultcontext.htm
 old-project: cossdk
 ms.assetid: 97a0e7da-e8bb-4bde-a8ba-35c90a1351d2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, CoGetDefaultContext, CoGetDefaultContext function [COM+], combaseapi/CoGetDefaultContext, cos.cogetdefaultcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

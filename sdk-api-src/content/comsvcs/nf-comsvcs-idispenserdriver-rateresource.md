@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.RateResource
 title: IDispenserDriver::RateResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Evaluates how well a candidate resource matches.
 old-location: cos\idispenserdriver_rateresource.htm
 old-project: cossdk
 ms.assetid: 5fe3ca39-e4cb-4dae-be96-ce1a2099486a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDispenserDriver interface [COM+],RateResource method, IDispenserDriver.RateResource, IDispenserDriver::RateResource, RateResource, RateResource method [COM+], RateResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_RateResource, comsvcs/IDispenserDriver::RateResource, cos.idispenserdriver_rateresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

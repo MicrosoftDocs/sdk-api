@@ -1,16 +1,16 @@
 ---
 UID: NS:winevt._EVT_VARIANT
 title: "_EVT_VARIANT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains event data or property values.
 old-location: wes\evt_variant.htm
 old-project: WES
 ms.assetid: 4b0f338b-0b66-4ba5-9e29-b15afe15a2d3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PEVT_VARIANT, EVT_VARIANT, EVT_VARIANT structure [EventLog], PEVT_VARIANT, PEVT_VARIANT structure pointer [EventLog], _EVT_VARIANT, wes.evt_variant, winevt/PEVT_VARIANT, winevt/_EVT_VARIANT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winevt.h
 req.include-header: 

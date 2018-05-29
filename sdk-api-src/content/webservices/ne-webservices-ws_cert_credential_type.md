@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_CERT_CREDENTIAL_TYPE
 title: WS_CERT_CREDENTIAL_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of the certificate credential, used as a selector for subtypes of WS_CERT_CREDENTIAL.
 old-location: wsw\ws_cert_credential_type.htm
 old-project: wsw
 ms.assetid: 8a14636a-1ec6-4d69-8fd9-bb67e80c73b1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CERT_CREDENTIAL_TYPE, WS_CERT_CREDENTIAL_TYPE enumeration [Web Services for Windows], WS_CUSTOM_CERT_CREDENTIAL_TYPE, WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE, WS_THUMBPRINT_CERT_CREDENTIAL_TYPE, webservices/WS_CERT_CREDENTIAL_TYPE, webservices/WS_CUSTOM_CERT_CREDENTIAL_TYPE, webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE, webservices/WS_THUMBPRINT_CERT_CREDENTIAL_TYPE, wsw.ws_cert_credential_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

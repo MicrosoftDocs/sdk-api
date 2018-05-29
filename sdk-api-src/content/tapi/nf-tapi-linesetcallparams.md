@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetCallParams
 title: lineSetCallParams function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetCallParams function allows an application to change bearer mode and/or the rate parameters of an existing call.
 old-location: tapi2\linesetcallparams.htm
 old-project: Tapi
 ms.assetid: c8088116-2bfc-420f-a83a-d00c7947b6e7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetcallparams, lineSetCallParams, lineSetCallParams function [TAPI 2.2], tapi/lineSetCallParams, tapi2.linesetcallparams"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

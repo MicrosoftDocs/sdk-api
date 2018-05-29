@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.getsockopt
 title: getsockopt function
-author: windows-driver-content
+author: windows-sdk-content
 description: The getsockopt function retrieves a socket option.
 old-location: winsock\getsockopt_2.htm
 old-project: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

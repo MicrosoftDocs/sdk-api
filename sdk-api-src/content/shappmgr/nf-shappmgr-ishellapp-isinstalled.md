@@ -1,16 +1,16 @@
 ---
 UID: NF:shappmgr.IShellApp.IsInstalled
 title: IShellApp::IsInstalled
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value indicating whether a specified application is currently installed.
 old-location: shell\IShellApp_IsInstalled.htm
 old-project: shell
 ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 

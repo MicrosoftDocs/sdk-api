@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 title: D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 old-location: mf\d3d11_video_processor_rate_conversion_caps.htm
 old-project: medfound
 ms.assetid: C8C50AE4-5F4F-42AB-8FBB-37D24C4D6081
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, mf.d3d11_video_processor_rate_conversion_caps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

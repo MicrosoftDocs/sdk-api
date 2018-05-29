@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetFileSizeEx
 title: GetFileSizeEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of the specified file.
 old-location: fs\getfilesizeex.htm
 old-project: FileIO
 ms.assetid: 782457bc-8f37-4eec-8ff3-b148fd0a7345
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFileSizeEx, GetFileSizeEx function [Files], _win32_getfilesizeex, base.getfilesizeex, fileapi/GetFileSizeEx, fs.getfilesizeex, winbase/GetFileSizeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

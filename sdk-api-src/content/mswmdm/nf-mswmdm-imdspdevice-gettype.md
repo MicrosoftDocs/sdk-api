@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetType
 title: IMDSPDevice::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetType method retrieves device type information.
 old-location: wmdm\imdspdevice_gettype.htm
 old-project: WMDM
 ms.assetid: 15e598bb-bcc9-4254-aa1c-24d7dd6b97a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetType method, IMDSPDevice.GetType, IMDSPDevice::GetType, IMDSPDeviceGetType, mswmdm/IMDSPDevice::GetType, wmdm.imdspdevice_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

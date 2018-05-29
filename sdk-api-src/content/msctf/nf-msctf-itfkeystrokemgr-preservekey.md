@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.PreserveKey
 title: ITfKeystrokeMgr::PreserveKey
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfKeystrokeMgr::PreserveKey method
 old-location: tsf\itfkeystrokemgr_preservekey.htm
 old-project: TSF
 ms.assetid: ad5cd485-9231-4c29-8977-754dbf25c979
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],PreserveKey method, ITfKeystrokeMgr.PreserveKey, ITfKeystrokeMgr::PreserveKey, PreserveKey, PreserveKey method [Text Services Framework], PreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_preservekey_ref, msctf/ITfKeystrokeMgr::PreserveKey, tsf.itfkeystrokemgr_preservekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite_2.DWRITE_COLOR_GLYPH_RUN
 title: DWRITE_COLOR_GLYPH_RUN
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the information needed by renderers to draw glyph runs with glyph color information.
 old-location: directwrite\dwrite_color_glyph_run.htm
 old-project: DirectWrite
 ms.assetid: E70CEE54-80BB-42D2-BBD7-97472AAA4B56
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_COLOR_GLYPH_RUN, DWRITE_COLOR_GLYPH_RUN structure [Direct Write], PDWRITE_COLOR_GLYPH_RUN, PDWRITE_COLOR_GLYPH_RUN structure pointer [Direct Write], directwrite.dwrite_color_glyph_run, dwrite_2/DWRITE_COLOR_GLYPH_RUN, dwrite_2/PDWRITE_COLOR_GLYPH_RUN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_2.h
 req.include-header: 

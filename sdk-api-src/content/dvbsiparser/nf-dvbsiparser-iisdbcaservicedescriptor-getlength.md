@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetLength
 title: IIsdbCAServiceDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the body length of conditional access (CA) service descriptor, in bytes.
 old-location: mstv\iisdbcaservicedescriptor_getlength.htm
 old-project: mstv
 ms.assetid: dfa6a372-8e9f-4f38-80ea-ad27c9423cc5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCAServiceDescriptor.GetLength, IIsdbCAServiceDescriptor::GetLength, dvbsiparser/IIsdbCAServiceDescriptor::GetLength, mstv.iisdbcaservicedescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

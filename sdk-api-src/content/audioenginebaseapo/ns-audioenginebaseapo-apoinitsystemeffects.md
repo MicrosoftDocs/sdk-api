@@ -1,16 +1,16 @@
 ---
 UID: NS:audioenginebaseapo.APOInitSystemEffects
 title: APOInitSystemEffects
-author: windows-driver-content
+author: windows-sdk-content
 description: The APOInitSystemEffects structure gets passed to the system effects APO for initialization.
 old-location: audio\apoinitsystemeffects.htm
 old-project: audio
 ms.assetid: E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: APOInitSystemEffects, APOInitSystemEffects structure [Audio Devices], PAPOInitSystemEffects, PAPOInitSystemEffects structure pointer [Audio Devices], audio.apoinitsystemeffects, audioenginebaseapo/APOInitSystemEffects, audioenginebaseapo/PAPOInitSystemEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 

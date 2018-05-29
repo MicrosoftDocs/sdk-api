@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwMgr
 title: INetFwMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetFwMgr interface provides access to the firewall settings for a computer.
 old-location: ics\inetfwmgr.htm
 old-project: ICS
 ms.assetid: 7534ea10-7553-4ec2-af68-0b0393ffc003
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], INetFwMgr interface [ICS/ICF],described, ics.inetfwmgr, netfw/INetFwMgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

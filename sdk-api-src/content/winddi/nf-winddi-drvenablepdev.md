@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvEnablePDEV
 title: DrvEnablePDEV function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvEnablePDEV function returns a description of the physical device's characteristics to GDI.
 old-location: display\drvenablepdev.htm
 old-project: display
 ms.assetid: 9a7ed18a-f21c-486b-9261-59a3fe5aef9e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvEnablePDEV, DrvEnablePDEV function [Display Devices], ddifncs_62a5b81b-a608-4da0-8315-3268fb6f65da.xml, display.drvenablepdev, winddi/DrvEnablePDEV
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

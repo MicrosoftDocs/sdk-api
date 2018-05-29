@@ -1,16 +1,16 @@
 ---
 UID: NN:wcmconfig.ISettingsNamespace
 title: ISettingsNamespace
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs operations to set, retrieve, and validate settings, and save changes for a namespace instance.
 old-location: smi\isettingsnamespace.htm
 old-project: SMI
 ms.assetid: a5d7b9ff-eb6f-40be-b246-17189cad92be
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], ISettingsNamespace interface [SMI],described, smi.isettingsnamespace, wcmconfig/ISettingsNamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

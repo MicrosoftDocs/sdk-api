@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PublicKey.Initialize
 title: IX509PublicKey::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from a public key algorithm object identifier (OID) and from byte arrays that contain a public key and the associated parameters, if any.
 old-location: security\ix509publickey_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: b6db46b2-95f5-4ba9-829d-97bf83fd9806
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PublicKey interface [Security],Initialize method, IX509PublicKey.Initialize, IX509PublicKey::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Initialize, security.ix509publickey_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

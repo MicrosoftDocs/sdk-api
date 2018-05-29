@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Next
 title: IEnumFsiItems::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence.
 old-location: imapi\ienumfsiitems_next.htm
 old-project: imapi
 ms.assetid: 3aad9540-7fbc-4eda-9619-187a9c5b4b2d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Next method, IEnumFsiItems.Next, IEnumFsiItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_next, imapi2fs/IEnumFsiItems::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

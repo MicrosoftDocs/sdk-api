@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.TOUCH_COORD_TO_PIXEL
 title: TOUCH_COORD_TO_PIXEL macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts touch coordinates to pixels.
 old-location: wintouch\touch_coord_to_pixel.htm
 old-project: wintouch
 ms.assetid: 719b6800-aeda-424a-86ea-d8c307bd6ad2
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TOUCH_COORD_TO_PIXEL, TOUCH_COORD_TO_PIXEL macro [Windows Touch], wintouch.touch_coord_to_pixel, winuser/TOUCH_COORD_TO_PIXEL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

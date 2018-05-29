@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader5
 title: IAppxManifestReader5
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
 old-location: appxpkg\iappxmanifestreader5.htm
 old-project: appxpkg
 ms.assetid: 6B435A29-2825-4FFD-8E05-2FE94E75A531
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxManifestReader5, IAppxManifestReader5 interface [App packaging and management], IAppxManifestReader5 interface [App packaging and management],described, appxpackaging/IAppxManifestReader5, appxpkg.iappxmanifestreader5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

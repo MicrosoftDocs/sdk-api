@@ -1,16 +1,16 @@
 ---
 UID: NN:certview.ICertView
 title: ICertView
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows properly authorized clients to create a customized or complete view of the Certificate Services database.
 old-location: security\icertview.htm
 old-project: SecCrypto
 ms.assetid: 0b6660ee-458f-457f-8a38-0d950aee2710
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertView, ICertView interface [Security], ICertView interface [Security],described, _certsrv_icertview, certview/ICertView, security.icertview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPLibrary2
 title: IWMPLibrary2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPLibrary2 interface represents a media library.
 old-location: wmp\iwmplibrary2.htm
 old-project: WMP
 ms.assetid: 028250e7-7415-4643-b798-af0112c1ea93
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPLibrary2, IWMPLibrary2 interface [Windows Media Player], IWMPLibrary2 interface [Windows Media Player],described, wmp.iwmplibrary2, wmp/IWMPLibrary2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.THIRD_IPADDRESS
 title: THIRD_IPADDRESS macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the field 2 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\THIRD_IPADDRESS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\third_ipaddress.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: THIRD_IPADDRESS, THIRD_IPADDRESS macro [Windows Controls], _win32_THIRD_IPADDRESS, _win32_THIRD_IPADDRESS_cpp, commctrl/THIRD_IPADDRESS, controls.THIRD_IPADDRESS, controls._win32_THIRD_IPADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

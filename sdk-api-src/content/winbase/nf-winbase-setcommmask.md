@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetCommMask
 title: SetCommMask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a set of events to be monitored for a communications device.
 old-location: base\setcommmask.htm
 old-project: DevIO
 ms.assetid: 77c86b02-7f98-439b-9072-d5fc3ef421a1
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, SetCommMask, SetCommMask function, _win32_setcommmask, base.setcommmask, winbase/SetCommMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

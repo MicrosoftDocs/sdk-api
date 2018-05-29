@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.GetCategoryInfo
 title: ICategorizer::GetCategoryInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about a category, such as the default display and the text to display in the UI.
 old-location: shell\ICategorizer_GetCategoryInfo.htm
 old-project: shell
 ms.assetid: 6b789033-ce42-4fb5-8a3d-b05243b62d4e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCategoryInfo, GetCategoryInfo method [Windows Shell], GetCategoryInfo method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetCategoryInfo method, ICategorizer.GetCategoryInfo, ICategorizer::GetCategoryInfo, inet_ICategorizer_GetCategoryInfo, shell.ICategorizer_GetCategoryInfo, shobjidl_core/ICategorizer::GetCategoryInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_SET_QWORD_VALUE
 title: PRESUTIL_SET_QWORD_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetqwordvalue.htm
 old-project: MsCS
 ms.assetid: c4bb777f-07dd-4eff-a39c-6de48e12b61e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_SET_QWORD_VALUE, PRESUTIL_SET_QWORD_VALUE callback, PRESUTIL_SET_QWORD_VALUE callback function [Failover Cluster], mscs.resutilsetqwordvalue, resapi/PRESUTIL_SET_QWORD_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

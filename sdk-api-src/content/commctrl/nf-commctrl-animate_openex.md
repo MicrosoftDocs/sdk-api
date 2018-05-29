@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Animate_OpenEx
 title: Animate_OpenEx macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an AVI clip from a resource in a specified module and displays its first frame in an animation control. You can use this macro or send the ACM_OPEN message explicitly.
 old-location: controls\Animate_OpenEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_openex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Animate_OpenEx, Animate_OpenEx macro [Windows Controls], _win32_Animate_OpenEx, _win32_Animate_OpenEx_cpp, commctrl/Animate_OpenEx, controls.Animate_OpenEx, controls._win32_Animate_OpenEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

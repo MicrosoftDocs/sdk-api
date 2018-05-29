@@ -1,16 +1,16 @@
 ---
 UID: NF:amsi.IAmsiStream.Read
 title: IAmsiStream::Read
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a buffer-full of content to be read.
 old-location: amsi\iamsistream_read.htm
 old-project: AMSI
 ms.assetid: ACE164EF-B49D-4AD5-BC1B-9770AFCD1951
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IAmsiStream interface [Antimalware Scan Interface],Read method, IAmsiStream.Read, IAmsiStream::Read, Read, Read method [Antimalware Scan Interface], Read method [Antimalware Scan Interface],IAmsiStream interface, amsi.iamsistream_read, amsi/IAmsiStream::Read
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amsi.h
 req.include-header: 

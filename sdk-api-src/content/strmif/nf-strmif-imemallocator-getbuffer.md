@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMemAllocator.GetBuffer
 title: IMemAllocator::GetBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBuffer method retrieves a media sample that contains an empty buffer.
 old-location: dshow\imemallocator_getbuffer.htm
 old-project: DirectShow
 ms.assetid: a5d015c8-ef15-4bac-906f-5d064fbff11f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetBuffer method, IMemAllocator.GetBuffer, IMemAllocator::GetBuffer, IMemAllocatorGetBuffer, dshow.imemallocator_getbuffer, strmif/IMemAllocator::GetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

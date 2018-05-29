@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.GetProcessId
 title: IAudioSessionControl2::GetProcessId
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetProcessId method retrieves the process identifier of the audio session.
 old-location: coreaudio\iaudiosessioncontrol2_getprocessid.htm
 old-project: CoreAudio
 ms.assetid: 17ae85ad-e2ef-4a87-9d0f-58baa080ff98
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetProcessId, GetProcessId method [Core Audio], GetProcessId method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetProcessId method, IAudioSessionControl2.GetProcessId, IAudioSessionControl2::GetProcessId, audiopolicy/IAudioSessionControl2::GetProcessId, coreaudio.iaudiosessioncontrol2_getprocessid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeAppProperties
 title: GetThemeAppProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the property flags that control how visual styles are applied in the current application.
 old-location: controls\GetThemeAppProperties.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

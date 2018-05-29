@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetWideAspectRatio
 title: ICaptionServiceDescriptor::GetWideAspectRatio
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getwideaspectratio.htm
 old-project: mstv
 ms.assetid: 921d919a-5e23-4c09-abff-3ed1e7dbec01
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWideAspectRatio, GetWideAspectRatio method [Microsoft TV Technologies], GetWideAspectRatio method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetWideAspectRatio method, ICaptionServiceDescriptor.GetWideAspectRatio, ICaptionServiceDescriptor::GetWideAspectRatio, ICaptionServiceDescriptorGetWideAspectRatio, atscpsipparser/ICaptionServiceDescriptor::GetWideAspectRatio, mstv.icaptionservicedescriptor_getwideaspectratio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

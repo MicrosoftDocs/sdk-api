@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIFactory.CreateSwapChain
 title: IDXGIFactory::CreateSwapChain
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a swap chain.
 old-location: direct3ddxgi\idxgifactory_createswapchain.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_createswapchain.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateSwapChain, CreateSwapChain method [DXGI], CreateSwapChain method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],CreateSwapChain method, IDXGIFactory.CreateSwapChain, IDXGIFactory::CreateSwapChain, adabc9a1-e4c0-9260-1e58-bd7acac73fd8, direct3ddxgi.idxgifactory_createswapchain, dxgi/IDXGIFactory::CreateSwapChain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

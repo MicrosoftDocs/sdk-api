@@ -1,16 +1,16 @@
 ---
 UID: NE:dhcpsapi._DHCP_FAILOVER_SERVER
 title: "_DHCP_FAILOVER_SERVER"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_FAILOVER_SERVER enumeration defines whether the DHCP server is the primary or secondary server in a DHCPv4 failover relationship.
 old-location: dhcp\dhcp_failover_server.htm
 old-project: DHCP
 ms.assetid: a75a1132-3c49-44f1-a1f6-c98991ebb8c4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER enumeration [DHCP], LPDHCP_FAILOVER_SERVER, LPDHCP_FAILOVER_SERVER enumeration pointer [DHCP], PrimaryServer, SecondaryServer, _DHCP_FAILOVER_SERVER, dhcp.dhcp_failover_server, dhcpsapi/DHCP_FAILOVER_SERVER, dhcpsapi/LPDHCP_FAILOVER_SERVER, dhcpsapi/PrimaryServer, dhcpsapi/SecondaryServer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:raseapif._PPP_EAP_PACKET
 title: "_PPP_EAP_PACKET"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PPP_EAP_PACKET structure specifies information about a packet being processed by the authentication protocol.
 old-location: eap\ppp_eap_packet.htm
 old-project: EAP
 ms.assetid: a1ca16d1-bf91-4986-a4f8-6e6ad382730f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPPP_EAP_PACKET, EAPCODE_Failure, EAPCODE_Request, EAPCODE_Response, EAPCODE_Success, PPPP_EAP_PACKET, PPPP_EAP_PACKET structure pointer [EAP], PPP_EAP_PACKET, PPP_EAP_PACKET structure [EAP], _PPP_EAP_PACKET, _eap_ppp_eap_packet, eap.ppp_eap_packet, raseapif/PPPP_EAP_PACKET, raseapif/PPP_EAP_PACKET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 

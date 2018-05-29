@@ -1,16 +1,16 @@
 ---
 UID: NN:comcat.ICatInformation
 title: ICatInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains information about the categories implemented or required by a certain class, as well as information about the categories registered on the specified computer.
 old-location: com\icatinformation.htm
 old-project: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comcat.h
 req.include-header: 

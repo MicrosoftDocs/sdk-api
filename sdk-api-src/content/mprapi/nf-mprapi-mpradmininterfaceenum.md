@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceEnum
 title: MprAdminInterfaceEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminInterfaceEnum function enumerates all the interfaces on a specified server.
 old-location: rras\mpradmininterfaceenum.htm
 old-project: RRAS
 ms.assetid: 50486ad3-2f1d-4ab9-9a7f-7b72128486fb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInterfaceEnum, MprAdminInterfaceEnum function [RAS], _mpr_mpradmininterfaceenum, mprapi/MprAdminInterfaceEnum, rras.mpradmininterfaceenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

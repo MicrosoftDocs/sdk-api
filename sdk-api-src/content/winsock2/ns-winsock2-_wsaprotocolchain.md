@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock2._WSAPROTOCOLCHAIN
 title: "_WSAPROTOCOLCHAIN"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.
 old-location: winsock\wsaprotocolchain_2.htm
 old-project: WinSock
 ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN structure pointer [Winsock], WSAPROTOCOLCHAIN, WSAPROTOCOLCHAIN structure [Winsock], _WSAPROTOCOLCHAIN, _win32_wsaprotocolchain_2, winsock.wsaprotocolchain_2, winsock2/LPWSAPROTOCOLCHAIN, winsock2/WSAPROTOCOLCHAIN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

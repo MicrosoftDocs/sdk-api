@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.GetChildren
 title: IMILBitmapEffectGroupImpl::GetChildren
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the children of the effect group.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_getchildren.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\getchildren.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: GetChildren, GetChildren method [WPF Bitmap Effects], GetChildren method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],GetChildren method, IMILBitmapEffectGroupImpl.GetChildren, IMILBitmapEffectGroupImpl::GetChildren, _wibe_imilbitmapeffectgroupimpl_getchildren, mileffects/IMILBitmapEffectGroupImpl::GetChildren, wibe._wibe_imilbitmapeffectgroupimpl_getchildren
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

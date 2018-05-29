@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._GLYPHMETRICSFLOAT
 title: "_GLYPHMETRICSFLOAT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The GLYPHMETRICSFLOAT structure contains information about the placement and orientation of a glyph in a character cell.
 old-location: opengl\glyphmetricsfloat.htm
 old-project: OpenGL
 ms.assetid: 6ceccb76-be31-4a4d-b093-1f8e35261a60
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT structure [OpenGL], PGLYPHMETRICSFLOAT, PGLYPHMETRICSFLOAT structure pointer [OpenGL], _GLYPHMETRICSFLOAT, _ogl_GLYPHMETRICSFLOAT, opengl.glyphmetricsfloat, wingdi/GLYPHMETRICSFLOAT, wingdi/PGLYPHMETRICSFLOAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

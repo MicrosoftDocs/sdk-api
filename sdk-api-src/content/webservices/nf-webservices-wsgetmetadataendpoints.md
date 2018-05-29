@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetMetadataEndpoints
 title: WsGetMetadataEndpoints function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the &#0034;Endpoints&#0034; defined within the metadata object documents.
 old-location: wsw\wsgetmetadataendpoints.htm
 old-project: wsw
 ms.assetid: 1cf9f2ba-c303-4668-a959-8fad69746438
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Services for Windows], webservices/WsGetMetadataEndpoints, wsw.wsgetmetadataendpoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

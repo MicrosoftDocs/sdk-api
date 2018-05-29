@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectActivate
 title: IComObjectEvents::OnObjectActivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an object gets an instance of a new JIT-activated object.
 old-location: cos\icomobjectevents_onobjectactivate.htm
 old-project: cossdk
 ms.assetid: 149e3820-0d5b-46ee-9be9-22850115a7c7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectActivate method, IComObjectEvents.OnObjectActivate, IComObjectEvents::OnObjectActivate, OnObjectActivate, OnObjectActivate method [COM+], OnObjectActivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectActivate, comsvcs/IComObjectEvents::OnObjectActivate, cos.icomobjectevents_onobjectactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

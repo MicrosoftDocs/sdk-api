@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollector.get_Xml
 title: IDataCollector::get_Xml
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an XML string that describes the values of the data collector properties.
 old-location: pla\idatacollector_xml.htm
 old-project: PLA
 ms.assetid: c362cd5f-2db3-40ad-8f5e-e75a40db204c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],Xml property, IDataCollector.Xml, IDataCollector.get_Xml, IDataCollector::Xml, IDataCollector::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollector interface, base.idatacollector_xml, get_Xml, pla.idatacollector_xml, pla/IDataCollector::Xml, pla/IDataCollector::get_Xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbNetworkNameDescriptor
 title: IDvbNetworkNameDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) network name descriptor. The network name descriptor gets text format information about the network that originated the broadcast.
 old-location: mstv\idvbnetworknamedescriptor.htm
 old-project: mstv
 ms.assetid: 1b80892d-05e6-4776-932a-a9e2bf985984
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies], IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/ IDvbNetworkNameDescriptor, mstv.idvbnetworknamedescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

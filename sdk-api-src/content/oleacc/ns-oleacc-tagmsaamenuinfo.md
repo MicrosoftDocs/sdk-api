@@ -1,16 +1,16 @@
 ---
 UID: NS:oleacc.tagMSAAMENUINFO
 title: tagMSAAMENUINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by server developers to expose the names of owner-drawn menu items.
 old-location: winauto\msaamenuinfo.htm
 old-project: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, tagMSAAMENUINFO, winauto.msaamenuinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleacc.h
 req.include-header: 

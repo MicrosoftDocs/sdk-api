@@ -1,16 +1,16 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_TYPEMATIC
 title: IOCTL_KEYBOARD_SET_TYPEMATIC
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the typematic parameters.
 old-location: hid\ioctl_keyboard_set_typematic.htm
 old-project: hid
 ms.assetid: 27c538dd-19e2-4b5a-9605-0efb0f78e008
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic, kref_1ef2189f-4cae-4a7d-b91d-9725a6ea6cba.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

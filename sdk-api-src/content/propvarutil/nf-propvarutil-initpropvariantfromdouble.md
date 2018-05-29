@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromDouble
 title: InitPropVariantFromDouble function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a specified double value.
 old-location: properties\InitPropVariantFromDouble.htm
 old-project: properties
 ms.assetid: aeae9091-3b1e-4112-8f50-79d77cb891c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromDouble, InitPropVariantFromDouble function [Windows Properties], properties.InitPropVariantFromDouble, propvarutil/InitPropVariantFromDouble, shell.InitPropVariantFromDouble, shell_InitPropVariantFromDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

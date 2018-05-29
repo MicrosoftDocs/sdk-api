@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsObjectOptions.SetOption
 title: IADsObjectOptions::SetOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a provider-specific option for manipulating a directory object.
 old-location: adsi\iadsobjectoptions_setoption.htm
 old-project: ADSI
 ms.assetid: e6e43c99-fc8b-4f34-82cf-8cf30c506859
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsObjectOptions interface [ADSI],SetOption method, IADsObjectOptions.SetOption, IADsObjectOptions::SetOption, SetOption, SetOption method [ADSI], SetOption method [ADSI],IADsObjectOptions interface, _ds_iadsobjectoptions_setoption, adsi.iadsobjectoptions__setoption, adsi.iadsobjectoptions_setoption, iads/IADsObjectOptions::SetOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

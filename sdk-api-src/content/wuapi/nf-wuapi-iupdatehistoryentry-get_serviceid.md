@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ServiceID
 title: IUpdateHistoryEntry::get_ServiceID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the service identifier of an update service that is not a Windows update.
 old-location: wua\iupdatehistoryentry_serviceid.htm
 old-project: Wua_Sdk
 ms.assetid: 01e430fa-6ff6-47f9-bac7-7d611b0f934f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServiceID property, IUpdateHistoryEntry.ServiceID, IUpdateHistoryEntry.get_ServiceID, IUpdateHistoryEntry::ServiceID, IUpdateHistoryEntry::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServiceID, wua.iupdatehistoryentry_serviceid, wuapi/IUpdateHistoryEntry::ServiceID, wuapi/IUpdateHistoryEntry::get_ServiceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

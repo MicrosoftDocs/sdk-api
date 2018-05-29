@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_INTERACTION_TYPE
 title: DIRECTMANIPULATION_INTERACTION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines gestures recognized by Direct Manipulation.
 old-location: directmanipulation\directmanipulation_interaction_type.htm
 old-project: directmanipulation
 ms.assetid: 5C1C79C2-3407-4FF3-986F-D9BF51983A46
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_INTERACTION_BEGIN, DIRECTMANIPULATION_INTERACTION_END, DIRECTMANIPULATION_INTERACTION_TYPE, DIRECTMANIPULATION_INTERACTION_TYPE enumeration [Direct Manipulation], DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_CROSS_SLIDE, DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_HOLD, DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_PINCH_ZOOM, DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_TAP, DIRECTMANIPULATION_INTERACTION_TYPE_MANIPULATION, directmanipulation.directmanipulation_interaction_type, directmanipulation/DIRECTMANIPULATION_INTERACTION_BEGIN, directmanipulation/DIRECTMANIPULATION_INTERACTION_END, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_CROSS_SLIDE, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_HOLD, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_PINCH_ZOOM, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_TAP, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_MANIPULATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

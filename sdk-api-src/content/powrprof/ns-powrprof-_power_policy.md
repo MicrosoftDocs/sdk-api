@@ -1,16 +1,16 @@
 ---
 UID: NS:powrprof._POWER_POLICY
 title: "_POWER_POLICY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains power policy settings that are unique to each power scheme.
 old-location: base\power_policy_str.htm
 old-project: Power
 ms.assetid: ba49fca6-04b6-4627-a653-07c3fc0dab22
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PPOWER_POLICY, POWER_POLICY, POWER_POLICY structure, PPOWER_POLICY, PPOWER_POLICY structure pointer, _POWER_POLICY, _win32_power_policy_str, base.power_policy_str, powrprof/POWER_POLICY, powrprof/PPOWER_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 

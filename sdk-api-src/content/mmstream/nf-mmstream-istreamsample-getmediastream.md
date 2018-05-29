@@ -1,16 +1,16 @@
 ---
 UID: NF:mmstream.IStreamSample.GetMediaStream
 title: IStreamSample::GetMediaStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the media stream object that created the current sample.
 old-location: dshow\istreamsample_getmediastream.htm
 old-project: DirectShow
 ms.assetid: dfc38480-7b8d-42ad-937b-dd39384796c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetMediaStream method, IStreamSample.GetMediaStream, IStreamSample::GetMediaStream, IStreamSampleGetMediaStream, dshow.istreamsample_getmediastream, mmstream/IStreamSample::GetMediaStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

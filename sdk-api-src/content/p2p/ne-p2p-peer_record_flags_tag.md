@@ -1,16 +1,16 @@
 ---
 UID: NE:p2p.peer_record_flags_tag
 title: peer_record_flags_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_RECORD_FLAGS enumeration specifies a set of flags for peer record behaviors.
 old-location: p2p\peer_record_flags.htm
 old-project: P2PSdk
 ms.assetid: 2ae2411d-3409-442a-8655-e54a34bf3938
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_RECORD_FLAGS, PEER_RECORD_FLAGS enumeration [Peer Networking], PEER_RECORD_FLAG_AUTOREFRESH, PEER_RECORD_FLAG_DELETED, p2p.peer_record_flags, p2p/PEER_RECORD_FLAGS, p2p/PEER_RECORD_FLAG_AUTOREFRESH, p2p/PEER_RECORD_FLAG_DELETED, peer_record_flags_tag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

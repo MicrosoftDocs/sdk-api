@@ -1,16 +1,16 @@
 ---
 UID: NE:ndhelper.tagPROBLEM_TYPE
 title: tagPROBLEM_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The PROBLEM_TYPE enumeration describes the type of problem a helper class indicates is present.
 old-location: ndf\problem_type.htm
 old-project: NDF
 ms.assetid: cf5a4205-b79f-4de6-b153-0955c6ff4e11
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PROBLEM_TYPE, PROBLEM_TYPE enumeration [NDF], PT_DOWN_STREAM_HEALTH, PT_HIGHER_UTILIZATION, PT_HIGH_UTILIZATION, PT_LOWER_HEALTH, PT_LOW_HEALTH, PT_UP_STREAM_UTILIZATION, ndf.problem_type, ndhelper/PROBLEM_TYPE, ndhelper/PT_DOWN_STREAM_HEALTH, ndhelper/PT_HIGHER_UTILIZATION, ndhelper/PT_HIGH_UTILIZATION, ndhelper/PT_LOWER_HEALTH, ndhelper/PT_LOW_HEALTH, ndhelper/PT_UP_STREAM_UTILIZATION, tagPROBLEM_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ndhelper.h
 req.include-header: 

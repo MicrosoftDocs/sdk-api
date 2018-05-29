@@ -1,16 +1,16 @@
 ---
 UID: NF:secext.GetComputerObjectNameA
 title: GetComputerObjectNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the local computer's name in a specified format.
 old-location: base\getcomputerobjectname.htm
 old-project: SysInfo
 ms.assetid: aead19ae-a27c-486e-aa2e-220d337044fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerObjectNameA, GetComputerObjectNameW, _win32_getcomputerobjectname, base.getcomputerobjectname, secext/GetComputerObjectName, secext/GetComputerObjectNameA, secext/GetComputerObjectNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: secext.h
 req.include-header: Security.h

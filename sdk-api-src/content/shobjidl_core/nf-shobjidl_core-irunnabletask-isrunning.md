@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.IsRunning
 title: IRunnableTask::IsRunning
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests information on the state of a task, such as thumbnail extraction.
 old-location: shell\IRunnableTask_IsRunning.htm
 old-project: shell
 ms.assetid: 14117a47-d462-4be1-b440-8d422c938815
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRunnableTask interface [Windows Shell],IsRunning method, IRunnableTask.IsRunning, IRunnableTask::IsRunning, IsRunning, IsRunning method [Windows Shell], IsRunning method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_IsRunning, shell.IRunnableTask_IsRunning, shobjidl_core/IRunnableTask::IsRunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

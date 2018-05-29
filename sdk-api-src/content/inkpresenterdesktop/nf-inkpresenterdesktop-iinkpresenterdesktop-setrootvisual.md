@@ -1,16 +1,16 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetRootVisual
 title: IInkPresenterDesktop::SetRootVisual
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the connection to the app's DirectComposition visual tree.
 old-location: input_ink\iinkpresenterdesktop_setrootvisual.htm
 old-project: input_ink
 ms.assetid: 27b08f20-d43b-452c-809d-837664eb42d0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IInkPresenterDesktop interface,SetRootVisual method, IInkPresenterDesktop.SetRootVisual, IInkPresenterDesktop::SetRootVisual, InkPresenterDesktop.iinkpresenterdesktop_setrootvisual, SetRootVisual, SetRootVisual method, SetRootVisual method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetRootVisual, input_ink.iinkpresenterdesktop_setrootvisual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 

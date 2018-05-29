@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IETFilter.get_EvalRatObjOK
 title: IETFilter::get_EvalRatObjOK
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: mstv\ietfilter_get_evalratobjok.htm
 old-project: mstv
 ms.assetid: ac76a634-af8d-4cf7-aab5-9022ce79ff31
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IETFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IETFilter.get_EvalRatObjOK, IETFilter::get_EvalRatObjOK, IETFilterget_EvalRatObjOK, encdec/IETFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IETFilter interface, mstv.ietfilter_get_evalratobjok
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

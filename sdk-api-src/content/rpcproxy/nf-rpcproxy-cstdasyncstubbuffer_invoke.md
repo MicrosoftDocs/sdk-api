@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_Invoke
 title: CStdAsyncStubBuffer_Invoke function
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Invoke method.
 old-location: rpc\cstdasyncstubbuffer_invoke.htm
 old-project: Rpc
 ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

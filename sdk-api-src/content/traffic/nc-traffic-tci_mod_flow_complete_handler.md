@@ -1,16 +1,16 @@
 ---
 UID: NC:traffic.TCI_MOD_FLOW_COMPLETE_HANDLER
 title: TCI_MOD_FLOW_COMPLETE_HANDLER
-author: windows-driver-content
+author: windows-sdk-content
 description: The ClModifyFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcModifyFlow function.
 old-location: qos\clmodifyflowcomplete.htm
 old-project: QOS
 ms.assetid: 61afc465-d942-4db7-96ee-56f3f1c3cafa
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ClModifyFlowComplete, ClModifyFlowComplete callback, ClModifyFlowComplete callback function [QOS], TCI_MOD_FLOW_COMPLETE_HANDLER, TCI_MOD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_clmodifyflowcomplete, qos.clmodifyflowcomplete, traffic/ClModifyFlowComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: traffic.h
 req.include-header: 

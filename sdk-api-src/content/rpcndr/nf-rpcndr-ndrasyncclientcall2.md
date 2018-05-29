@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrAsyncClientCall2
 title: NdrAsyncClientCall2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: NdrAsyncClientCall2 may be altered or unavailable.
 old-location: rpc\ndrasyncclientcall2.htm
 old-project: Rpc
 ms.assetid: 0EBBE464-14D9-4A44-ADD4-1250FDBC02F1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrAsyncClientCall2, NdrAsyncClientCall2 function [RPC], rpc.ndrasyncclientcall2, rpcndr/NdrAsyncClientCall2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

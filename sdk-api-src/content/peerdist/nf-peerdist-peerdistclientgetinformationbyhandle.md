@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistClientGetInformationByHandle
 title: PeerDistClientGetInformationByHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerDistClientGetInformationByHandle function retrieves additional information from the Peer Distribution service for a specific content handle.
 old-location: p2p\peerdistclientgetinformationbyhandle.htm
 old-project: P2PSdk
 ms.assetid: d3bb080c-cde7-4623-95fd-3cffb3bd93aa
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistClientGetInformationByHandle, PeerDistClientGetInformationByHandle function [Peer Networking], p2p.peerdistclientgetinformationbyhandle, peerdist/PeerDistClientGetInformationByHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0011
 title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0011"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for the type of keys that control the state of a keyboard, such as the Caps Lock key.
 old-location: rdp\rdpsrapi_kbd_sync_flag.htm
 old-project: Rdp
 ms.assetid: 0E16C482-E7D7-4477-B5B2-830D8CD9012A
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: RDPSRAPI_KBD_SYNC_FLAG, RDPSRAPI_KBD_SYNC_FLAG enumeration [RDP], RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0011, rdp.rdpsrapi_kbd_sync_flag, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 

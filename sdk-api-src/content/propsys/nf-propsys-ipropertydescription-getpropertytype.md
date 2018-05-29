@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetPropertyType
 title: IPropertyDescription::GetPropertyType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the variant type of the property.
 old-location: properties\IPropertyDescription_GetPropertyType.htm
 old-project: properties
 ms.assetid: 88f960b0-4b83-48d9-af24-ad6995ade550
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPropertyType, GetPropertyType method [Windows Properties], GetPropertyType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyType method, IPropertyDescription.GetPropertyType, IPropertyDescription::GetPropertyType, VT_BLOB, VT_BOOL, VT_CLSID, VT_FILETIME, VT_I2, VT_I4, VT_I8, VT_LPWSTR, VT_NULL, VT_R8, VT_STREAM, VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_UNKNOWN, properties.IPropertyDescription_GetPropertyType, propsys/IPropertyDescription::GetPropertyType, shell.IPropertyDescription_GetPropertyType, shell_IPropertyDescription_GetPropertyType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.SaveData
 title: IPhotoAcquireOptionsDialog::SaveData
-author: windows-driver-content
+author: windows-sdk-content
 description: The SaveData method saves acquisition settings from the options dialog box to the registry so that a subsequent instance of the dialog can be initialized with the same settings.
 old-location: picacq\iphotoacquireoptionsdialog_savedata.htm
 old-project: acquisition
 ms.assetid: 271c2bfb-67a9-4998-90d1-4ed61f89aa03
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],SaveData method, IPhotoAcquireOptionsDialog.SaveData, IPhotoAcquireOptionsDialog::SaveData, IPhotoAcquireOptionsDialogSaveData, SaveData, SaveData method [Picture Acquisition], SaveData method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, photoacquire/IPhotoAcquireOptionsDialog::SaveData, picacq.iphotoacquireoptionsdialog_savedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

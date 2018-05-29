@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMHEADERW
 title: tagNMHEADERW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure.
 old-location: controls\NMHEADER.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmheader.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMHEADERW, 0, 1, 2, LPNMHEADER, LPNMHEADER structure pointer [Windows Controls], NMHEADER, NMHEADER structure [Windows Controls], NMHEADERA, NMHEADERW, _win32_NMHEADER, _win32_NMHEADER_cpp, commctrl/LPNMHEADER, commctrl/NMHEADER, commctrl/NMHEADERA, commctrl/NMHEADERW, controls.NMHEADER, controls._win32_NMHEADER, tagNMHEADERW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

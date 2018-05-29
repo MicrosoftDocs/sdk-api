@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.ProcessSample
 title: IMFASFMultiplexer::ProcessSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers input samples to the multiplexer.
 old-location: mf\imfasfmultiplexer_processsample.htm
 old-project: medfound
 ms.assetid: 30a693bb-255c-47a4-8102-1543872b0a5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 30a693bb-255c-47a4-8102-1543872b0a5e, IMFASFMultiplexer interface [Media Foundation],ProcessSample method, IMFASFMultiplexer.ProcessSample, IMFASFMultiplexer::ProcessSample, ProcessSample, ProcessSample method [Media Foundation], ProcessSample method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_processsample, wmcontainer/IMFASFMultiplexer::ProcessSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

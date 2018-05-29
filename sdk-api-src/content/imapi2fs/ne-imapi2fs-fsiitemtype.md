@@ -1,16 +1,16 @@
 ---
 UID: NE:imapi2fs.FsiItemType
 title: FsiItemType
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for the file system item that was found using the IFileSystemImage::Exists method.
 old-location: imapi\fsiitemtype.htm
 old-project: imapi
 ms.assetid: b0ddf0fc-30db-464d-8761-da400386a609
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FsiItemDirectory, FsiItemFile, FsiItemNotFound, FsiItemType, FsiItemType enumeration [IMAPI], imapi.fsiitemtype, imapi2fs/FsiItemDirectory, imapi2fs/FsiItemFile, imapi2fs/FsiItemNotFound, imapi2fs/FsiItemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi.CLUSPROP_LONG
 title: CLUSPROP_LONG
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes signed LONG data.
 old-location: mscs\clusprop_long.htm
 old-project: MsCS
 ms.assetid: aa214e43-cadc-4f06-8c98-e6a5b13258b8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUSPROP_LONG, CLUSPROP_LONG, CLUSPROP_LONG structure [Failover Cluster], PCLUSPROP_LONG, PCLUSPROP_LONG structure pointer [Failover Cluster], _wolf_clusprop_long, clusapi/CLUSPROP_LONG, clusapi/PCLUSPROP_LONG, mscs.clusprop_long"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

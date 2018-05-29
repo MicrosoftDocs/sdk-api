@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.OffsetViewportOrgEx
 title: OffsetViewportOrgEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The OffsetViewportOrgEx function modifies the viewport origin for a device context using the specified horizontal and vertical offsets.
 old-location: gdi\offsetviewportorgex.htm
 old-project: gdi
 ms.assetid: 54311cbe-1c54-4193-8991-891dbd0856bf
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: OffsetViewportOrgEx, OffsetViewportOrgEx function [Windows GDI], _win32_OffsetViewportOrgEx, gdi.offsetviewportorgex, wingdi/OffsetViewportOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_ERROR_PROPERTY
 title: "_WS_ERROR_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an error specific setting.
 old-location: wsw\ws_error_property.htm
 old-project: wsw
 ms.assetid: 463b634f-bb15-494d-8061-c4fa0b97b990
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ERROR_PROPERTY, WS_ERROR_PROPERTY structure [Web Services for Windows], _WS_ERROR_PROPERTY, webservices/WS_ERROR_PROPERTY, wsw.ws_error_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

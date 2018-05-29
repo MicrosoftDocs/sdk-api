@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDrawSuggestFormat
 title: ICDrawSuggestFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDrawSuggestFormat function notifies the drawing handler to suggest the input data format.
 old-location: multimedia\icdrawsuggestformat.htm
 old-project: Multimedia
 ms.assetid: 748d09a6-52db-4bd0-9006-6ee96f07a74b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDrawSuggestFormat, ICDrawSuggestFormat function [Windows Multimedia], _win32_ICDrawSuggestFormat, multimedia.icdrawsuggestformat, vfw/ICDrawSuggestFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

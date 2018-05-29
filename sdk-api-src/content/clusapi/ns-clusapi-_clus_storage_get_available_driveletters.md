@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 title: "_CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a bitmask of the driver letters that are available on a node. It is used as the return value of the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS control code.
 old-location: mscs\clus_storage_get_available_driveletters.htm
 old-project: MsCS
 ms.assetid: 37a843db-bb11-46e5-9b1c-da8403f73aa6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure [Failover Cluster], PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure pointer [Failover Cluster], _CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, mscs.clus_storage_get_available_driveletters"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

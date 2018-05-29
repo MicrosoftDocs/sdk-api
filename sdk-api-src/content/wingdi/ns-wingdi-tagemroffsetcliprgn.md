@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMROFFSETCLIPRGN
 title: tagEMROFFSETCLIPRGN
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMROFFSETCLIPRGN structure contains members for the OffsetClipRgn enhanced metafile record.
 old-location: gdi\emroffsetcliprgn.htm
 old-project: gdi
 ms.assetid: 814a1105-0edc-4d1e-9f94-1c13152c0925
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMROFFSETCLIPRGN, EMROFFSETCLIPRGN, EMROFFSETCLIPRGN structure [Windows GDI], PEMROFFSETCLIPRGN, PEMROFFSETCLIPRGN structure pointer [Windows GDI], _win32_EMROFFSETCLIPRGN_str, gdi.emroffsetcliprgn, tagEMROFFSETCLIPRGN, wingdi/EMROFFSETCLIPRGN, wingdi/PEMROFFSETCLIPRGN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

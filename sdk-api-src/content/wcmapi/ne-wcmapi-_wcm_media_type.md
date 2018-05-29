@@ -1,16 +1,16 @@
 ---
 UID: NE:wcmapi._WCM_MEDIA_TYPE
 title: "_WCM_MEDIA_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of media for a connection.
 old-location: wcm\wcm_media_type.htm
 old-project: wcm
 ms.assetid: 76617f35-c7a1-49ff-a630-482f2fe45dd7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWCM_MEDIA_TYPE, PWCM_MEDIA_TYPE, PWCM_MEDIA_TYPE enumeration pointer [Windows Connection Manager], WCM_MEDIA_TYPE, WCM_MEDIA_TYPE enumeration [Windows Connection Manager], _WCM_MEDIA_TYPE, wcm.wcm_media_type, wcm_media_ethernet, wcm_media_invalid, wcm_media_max, wcm_media_mbn, wcm_media_unknown, wcm_media_wlan, wcmapi/PWCM_MEDIA_TYPE, wcmapi/WCM_MEDIA_TYPE, wcmapi/wcm_media_ethernet, wcmapi/wcm_media_invalid, wcmapi/wcm_media_max, wcmapi/wcm_media_mbn, wcmapi/wcm_media_unknown, wcmapi/wcm_media_wlan"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmapi.h
 req.include-header: 

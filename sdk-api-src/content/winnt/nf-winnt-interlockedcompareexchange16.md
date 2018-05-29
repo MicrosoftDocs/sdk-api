@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.InterlockedCompareExchange16
 title: InterlockedCompareExchange16 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange16.htm
 old-project: Sync
 ms.assetid: 5bf2e0d7-1b64-4622-8b6f-4ac903027064
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedCompareExchange16, InterlockedCompareExchange16 function, base.interlockedcompareexchange16, winnt/InterlockedCompareExchange16
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

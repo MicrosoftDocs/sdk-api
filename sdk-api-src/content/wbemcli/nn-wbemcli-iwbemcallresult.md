@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemcli.IWbemCallResult
 title: IWbemCallResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Used for semisynchronous calls of the IWbemServices interface. When making such calls, the called IWbemServices method returns immediately, along with an IWbemCallResult object.
 old-location: wmi\iwbemcallresult.htm
 old-project: WmiSdk
 ms.assetid: f0aa0233-3b9b-4757-bfdc-26d9fd556ce9
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], IWbemCallResult interface [Windows Management Instrumentation],described, _hmm_iwbemcallresult, wbemcli/IWbemCallResult, wmi.iwbemcallresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

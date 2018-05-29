@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.GetFileManagementJob
 title: IFsrmFileManagementJobManager::GetFileManagementJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_getfilemanagementjob.htm
 old-project: Fsrm
 ms.assetid: 106c5237-94bc-4556-aa65-247697133810
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmFileManagementJobManager class [File Server Resource Manager],GetFileManagementJob method, GetFileManagementJob, GetFileManagementJob method [File Server Resource Manager], GetFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, GetFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, IFsrmFileManagementJobManager interface [File Server Resource Manager],GetFileManagementJob method, IFsrmFileManagementJobManager.GetFileManagementJob, IFsrmFileManagementJobManager::GetFileManagementJob, fs.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::GetFileManagementJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IClassActivator
 title: IClassActivator
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a method that retrieves a class object.
 old-location: com\iclassactivator.htm
 old-project: com
 ms.assetid: 4f34c5a4-46c0-4391-9c64-cbb6a366e2dc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IClassActivator, IClassActivator interface [COM], IClassActivator interface [COM],described, _com_iclassactivator, com.iclassactivator, objidl/IClassActivator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

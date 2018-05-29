@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSample.GetSize
 title: IMediaSample::GetSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSize method retrieves the size of the buffer.
 old-location: dshow\imediasample_getsize.htm
 old-project: DirectShow
 ms.assetid: 6dc50db2-dc75-4c04-ac30-78275ee35ce8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetSize method, IMediaSample.GetSize, IMediaSample::GetSize, IMediaSampleGetSize, dshow.imediasample_getsize, strmif/IMediaSample::GetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

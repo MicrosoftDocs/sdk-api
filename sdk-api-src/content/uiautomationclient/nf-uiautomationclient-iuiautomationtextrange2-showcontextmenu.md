@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange2.ShowContextMenu
 title: IUIAutomationTextRange2::ShowContextMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_IUIAutomationTextRange2_ShowContextMenu.htm
 old-project: WinAuto
 ms.assetid: 03165205-C56C-6002-A820-9214725B93E1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTextRange2 interface [Windows Accessibility],ShowContextMenu method, IUIAutomationTextRange2.ShowContextMenu, IUIAutomationTextRange2::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],IUIAutomationTextRange2 interface, uiautomationclient/IUIAutomationTextRange2::ShowContextMenu, winauto.uiauto_IUIAutomationTextRange2_ShowContextMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

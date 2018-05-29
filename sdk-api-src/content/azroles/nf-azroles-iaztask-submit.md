@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzTask.Submit
 title: IAzTask::Submit
-author: windows-driver-content
+author: windows-sdk-content
 description: Persists changes made to the IAzTask object.
 old-location: security\iaztask_submit.htm
 old-project: SecAuthZ
 ms.assetid: a6f01573-c1ee-421d-8591-e1c9fa6c3d68
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzTask object [Security],Submit method, IAzTask interface [Security],Submit method, IAzTask.Submit, IAzTask::Submit, Submit, Submit method [Security], Submit method [Security],AzTask object, Submit method [Security],IAzTask interface, azroles/IAzTask::Submit, security.iaztask_submit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

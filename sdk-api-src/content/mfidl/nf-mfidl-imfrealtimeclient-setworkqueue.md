@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFRealTimeClient.SetWorkQueue
 title: IMFRealTimeClient::SetWorkQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the work queue for the topology branch that contains this object.
 old-location: mf\imfrealtimeclient_setworkqueue.htm
 old-project: medfound
 ms.assetid: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf, IMFRealTimeClient interface [Media Foundation],SetWorkQueue method, IMFRealTimeClient.SetWorkQueue, IMFRealTimeClient::SetWorkQueue, SetWorkQueue, SetWorkQueue method [Media Foundation], SetWorkQueue method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_setworkqueue, mfidl/IMFRealTimeClient::SetWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

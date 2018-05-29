@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderFilter.ShouldShow
 title: IFolderFilter::ShouldShow
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether an individual item should be allowed through the filter and which should be blocked.
 old-location: shell\IFolderFilter_ShouldShow.htm
 old-project: shell
 ms.assetid: 60893b97-5b13-4c1f-9fd6-042217d3026f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderFilter interface [Windows Shell],ShouldShow method, IFolderFilter.ShouldShow, IFolderFilter::ShouldShow, ShouldShow, ShouldShow method [Windows Shell], ShouldShow method [Windows Shell],IFolderFilter interface, _shell_IFolderFilter_ShouldShow, shell.IFolderFilter_ShouldShow, shobjidl_core/IFolderFilter::ShouldShow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

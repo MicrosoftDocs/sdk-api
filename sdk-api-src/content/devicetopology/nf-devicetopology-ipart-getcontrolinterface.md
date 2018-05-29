@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterface
 title: IPart::GetControlInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetControlInterface method gets a reference to the specified control interface, if this part supports it.
 old-location: coreaudio\ipart_getcontrolinterface.htm
 old-project: CoreAudio
 ms.assetid: 802f3c19-5a71-41b0-922a-f216fd60495c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetControlInterface, GetControlInterface method [Core Audio], GetControlInterface method [Core Audio],IPart interface, IPart interface [Core Audio],GetControlInterface method, IPart.GetControlInterface, IPart::GetControlInterface, IPartGetControlInterface, coreaudio.ipart_getcontrolinterface, devicetopology/IPart::GetControlInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

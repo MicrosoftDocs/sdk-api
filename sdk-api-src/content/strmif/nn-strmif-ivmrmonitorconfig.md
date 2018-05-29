@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRMonitorConfig
 title: IVMRMonitorConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRMonitorConfig interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrmonitorconfig.htm
 old-project: DirectShow
 ms.assetid: 02b4016b-a65b-41ac-b5c6-e5f6825f179c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], IVMRMonitorConfig interface [DirectShow],described, IVMRMonitorConfigInterface, dshow.ivmrmonitorconfig, strmif/IVMRMonitorConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

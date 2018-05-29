@@ -1,16 +1,16 @@
 ---
 UID: NE:dsrole._DSROLE_OPERATION_STATE
 title: "_DSROLE_OPERATION_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the DSROLE_OPERATION_STATE_INFO structure to indicate the operational state of a computer.
 old-location: ad\dsrole_operation_state.htm
 old-project: AD
 ms.assetid: de294893-e78a-4b51-9a48-0c71f91b6fde
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DSROLE_OPERATION_STATE, DSROLE_OPERATION_STATE enumeration [Active Directory], DsRoleOperationActive, DsRoleOperationIdle, DsRoleOperationNeedReboot, _DSROLE_OPERATION_STATE, ad.dsrole_operation_state, dsrole/DSROLE_OPERATION_STATE, dsrole/DsRoleOperationActive, dsrole/DsRoleOperationIdle, dsrole/DsRoleOperationNeedReboot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dsrole.h
 req.include-header: 

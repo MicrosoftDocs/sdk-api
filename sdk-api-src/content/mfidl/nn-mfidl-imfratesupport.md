@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFRateSupport
 title: IMFRateSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the range of playback rates that are supported, including reverse playback.
 old-location: mf\imfratesupport.htm
 old-project: medfound
 ms.assetid: a6c495fa-0f6a-4e4c-8fba-996b22d55053
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFRateSupport, IMFRateSupport interface [Media Foundation], IMFRateSupport interface [Media Foundation],described, a6c495fa-0f6a-4e4c-8fba-996b22d55053, mf.imfratesupport, mfidl/IMFRateSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

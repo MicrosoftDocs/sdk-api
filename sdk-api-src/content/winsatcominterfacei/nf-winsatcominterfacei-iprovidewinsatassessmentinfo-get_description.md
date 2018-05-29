@@ -1,16 +1,16 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Description
 title: IProvideWinSATAssessmentInfo::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the description of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_description.htm
 old-project: WinSAT
 ms.assetid: e598ad5e-e0b9-494a-ba87-0ae7c960deee
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Description property [WinSAT], Description property [WinSAT],IProvideWinSATAssessmentInfo interface, IProvideWinSATAssessmentInfo interface [WinSAT],Description property, IProvideWinSATAssessmentInfo.Description, IProvideWinSATAssessmentInfo.get_Description, IProvideWinSATAssessmentInfo::Description, IProvideWinSATAssessmentInfo::get_Description, get_Description, winsat.iprovidewinsatassessmentinfo_description, winsatcominterfacei/IProvideWinSATAssessmentInfo::Description, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

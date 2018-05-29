@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.Folder.ParseName
 title: Folder::ParseName
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and returns a FolderItem object that represents a specified item.
 old-location: shell\Folder_ParseName.htm
 old-project: shell
 ms.assetid: 3af7052c-fb81-4a96-9bf9-379b0365a376
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Folder object [Windows Shell],ParseName method, Folder.ParseName, Folder::ParseName, ParseName, ParseName method [Windows Shell], ParseName method [Windows Shell],Folder object, _win32_Folder_ParseName, shell.Folder_ParseName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

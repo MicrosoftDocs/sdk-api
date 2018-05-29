@@ -1,16 +1,16 @@
 ---
 UID: NF:wsbonline.DeregisterOnlineBackupFromWindowsServerBackup
 title: DeregisterOnlineBackupFromWindowsServerBackup function
-author: windows-driver-content
+author: windows-sdk-content
 description: De-registers an already registered Cloud backup provider.
 old-location: wsb\deregisteronlinebackupfromwindowsserverbackup.htm
 old-project: wsb
 ms.assetid: 4E70EF3D-E4AA-498C-B131-8C5F48CD230E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DeregisterOnlineBackupFromWindowsServerBackup, DeregisterOnlineBackupFromWindowsServerBackup function [Windows Server Backup], wsb.deregisteronlinebackupfromwindowsserverbackup, wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsbonline.h
 req.include-header: 

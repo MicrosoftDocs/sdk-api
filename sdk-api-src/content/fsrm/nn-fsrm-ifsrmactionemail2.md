@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmActionEmail2
 title: IFsrmActionEmail2
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to limit the number of expired files listed in the email notification.
 old-location: fsrm\ifsrmactionemail2.htm
 old-project: Fsrm
 ms.assetid: 278ef98d-fb1d-42a4-a740-07c5e713a230
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resource Manager], IFsrmActionEmail2 interface [File Server Resource Manager],described, fs.ifsrmactionemail2, fsrm.ifsrmactionemail2, fsrm/IFsrmActionEmail2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.CreateTransformedGeometry
 title: CreateTransformedGeometry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
 old-location: direct2d\id2d1factory_createtransformedgeometry.htm
 old-project: Direct2D
 ms.assetid: 71f26200-0f35-49d7-951d-2962768d16bc
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry methods [Direct2D], ID2D1Factory::CreateTransformedGeometry, d2d1/CreateTransformedGeometry, direct2d.id2d1factory_createtransformedgeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

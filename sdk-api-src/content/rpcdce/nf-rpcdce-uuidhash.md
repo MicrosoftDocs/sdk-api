@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.UuidHash
 title: UuidHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: An application calls the UuidHash function to generate a hash value for a specified UUID.
 old-location: rpc\uuidhash.htm
 old-project: Rpc
 ms.assetid: e96fafa6-1c10-42c1-8d85-5e338899411d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: UuidHash, UuidHash function [RPC], _rpc_uuidhash, rpc.uuidhash, rpcdce/UuidHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:fhcfg.IFhReassociation.ValidateTarget
 title: IFhReassociation::ValidateTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: This method checks whether a certain storage device or network share can be used as a File History default target and, thus, whether reassociation is possible at all or not.
 old-location: winprog\ifhreassociation_validatetarget.htm
 old-project: DevNotes
 ms.assetid: 307F2C8F-B847-437C-BDD7-BE09FD407C79
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhReassociation class [Windows API],ValidateTarget method, IFhReassociation interface [Windows API],ValidateTarget method, IFhReassociation.ValidateTarget, IFhReassociation::ValidateTarget, ValidateTarget, ValidateTarget method [Windows API], ValidateTarget method [Windows API],FhReassociation class, ValidateTarget method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::ValidateTarget, winprog.ifhreassociation_validatetarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

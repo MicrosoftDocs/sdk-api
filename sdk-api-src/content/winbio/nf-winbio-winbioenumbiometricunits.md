@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioEnumBiometricUnits
 title: WinBioEnumBiometricUnits function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all attached biometric units that match the input type.
 old-location: secbiomet\winbioenumbiometricunits.htm
 old-project: SecBioMet
 ms.assetid: e1ca5712-978e-4e31-a941-eb462c670eac
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioEnumBiometricUnits, WinBioEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioenumbiometricunits, winbio/WinBioEnumBiometricUnits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

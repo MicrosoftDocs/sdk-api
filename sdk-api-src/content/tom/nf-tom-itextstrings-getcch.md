@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.GetCch
 title: ITextStrings::GetCch
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the count of characters for a selected string index.
 old-location: controls\itextstrings_getcch.htm
 old-project: Controls
 ms.assetid: 73b88019-f74b-4345-95f3-9f924c999b8a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],GetCch method, ITextStrings.GetCch, ITextStrings::GetCch, controls.itextstrings_getcch, tom/ITextStrings::GetCch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

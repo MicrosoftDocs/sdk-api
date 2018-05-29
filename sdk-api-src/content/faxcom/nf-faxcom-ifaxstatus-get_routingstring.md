@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_RoutingString
 title: IFaxStatus::get_RoutingString
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the RoutingString property for the FaxStatus object of a parent FaxPort object. The RoutingString property is a null-terminated string that contains routing information for inbound fax transmissions that is specific to a fax service provider.
 old-location: fax\_mfax_ifaxstatus_get_routingstring_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1aav.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxStatus object [Fax Service],RoutingString property, FaxStatus.RoutingString, IFaxStatus.get_RoutingString, IFaxStatus::get_RoutingString, RoutingString property [Fax Service], RoutingString property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_routingstring, fax._mfax_ifaxstatus_get_routingstring, fax._mfax_ifaxstatus_get_routingstring_vb, get_RoutingString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

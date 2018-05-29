@@ -1,16 +1,16 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.stopBackgroundProcessing
 title: IWMPSubscriptionService2::stopBackgroundProcessing
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2_stopbackgroundprocessing.htm
 old-project: WMP
 ms.assetid: afca5ab8-d7ca-48e9-8220-d132d1893f0e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],stopBackgroundProcessing method, IWMPSubscriptionService2.stopBackgroundProcessing, IWMPSubscriptionService2::stopBackgroundProcessing, IWMPSubscriptionService2stopBackgroundProcessing, stopBackgroundProcessing, stopBackgroundProcessing method [Windows Media Player], stopBackgroundProcessing method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::stopBackgroundProcessing, wmp.iwmpsubscriptionservice2_stopbackgroundprocessing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 

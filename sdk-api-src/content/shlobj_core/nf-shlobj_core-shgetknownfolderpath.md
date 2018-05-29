@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderPath
 title: SHGetKnownFolderPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID.
 old-location: shell\SHGetKnownFolderPath.htm
 old-project: shell
 ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

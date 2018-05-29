@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.accLocation
 title: IAccessible::accLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::accLocation method retrieves the specified object's current screen location. All visual objects must support this method. Sound objects do not support this method.
 old-location: winauto\iaccessible_iaccessible__acclocation.htm
 old-project: WinAuto
 ms.assetid: 1eb6f075-a8bf-4c03-96ee-460728317955
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accLocation method, IAccessible.accLocation, IAccessible::accLocation, _msaa_IAccessible_accLocation, accLocation, accLocation method [Windows Accessibility], accLocation method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acclocation, oleacc/IAccessible::accLocation, winauto.iaccessible_iaccessible__acclocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

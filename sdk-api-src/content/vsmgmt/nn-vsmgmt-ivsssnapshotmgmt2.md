@@ -1,16 +1,16 @@
 ---
 UID: NN:vsmgmt.IVssSnapshotMgmt2
 title: IVssSnapshotMgmt2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method to retrieve the minimum size of the shadow copy storage area.
 old-location: base\ivsssnapshotmgmt2.htm
 old-project: VSS
 ms.assetid: 92c8c960-d548-4a44-8b10-b6180c974473
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files],described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsmgmt.h
 req.include-header: 

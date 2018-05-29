@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.get_PluggableTerminalClasses
 title: ITTerminalSupport2::get_PluggableTerminalClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PluggableTerminalClasses method returns a collection of ITPluggableTerminalClassInfo terminal class information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggableterminalclasses.htm
 old-project: Tapi
 ms.assetid: 4bbb7f77-fc67-4b6b-88fa-2dc5bcfb6c48
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTerminalSupport2 interface [TAPI 2.2],get_PluggableTerminalClasses method, ITTerminalSupport2.get_PluggableTerminalClasses, ITTerminalSupport2::get_PluggableTerminalClasses, _tapi3_itterminalsupport2_get_pluggableterminalclasses, get_PluggableTerminalClasses, get_PluggableTerminalClasses method [TAPI 2.2], get_PluggableTerminalClasses method [TAPI 2.2],ITTerminalSupport2 interface, tapi3.itterminalsupport2_get_pluggableterminalclasses, tapi3if/ITTerminalSupport2::get_PluggableTerminalClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

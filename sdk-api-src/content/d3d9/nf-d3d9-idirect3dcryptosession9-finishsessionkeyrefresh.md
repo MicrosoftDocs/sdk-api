@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.FinishSessionKeyRefresh
 title: IDirect3DCryptoSession9::FinishSessionKeyRefresh
-author: windows-driver-content
+author: windows-sdk-content
 description: Switches to a new session key.
 old-location: mf\idirect3dcryptosession9_finishsessionkeyrefresh.htm
 old-project: medfound
 ms.assetid: b5e4522b-d5a5-4ece-9b78-2cebdf9f9364
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh method [Media Foundation], FinishSessionKeyRefresh method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],FinishSessionKeyRefresh method, IDirect3DCryptoSession9.FinishSessionKeyRefresh, IDirect3DCryptoSession9::FinishSessionKeyRefresh, d3d9/IDirect3DCryptoSession9::FinishSessionKeyRefresh, mf.idirect3dcryptosession9_finishsessionkeyrefresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_BASELINE
 title: DWRITE_BASELINE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_BASELINE enumeration contains values that specify the baseline for text alignment.
 old-location: directwrite\dwrite_baseline.htm
 old-project: DirectWrite
 ms.assetid: A5708481-255B-4777-B689-B61208E3910E
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_BASELINE, DWRITE_BASELINE enumeration [Direct Write], DWRITE_BASELINE_CENTRAL, DWRITE_BASELINE_DEFAULT, DWRITE_BASELINE_HANGING, DWRITE_BASELINE_IDEOGRAPHIC_BOTTOM, DWRITE_BASELINE_IDEOGRAPHIC_TOP, DWRITE_BASELINE_MATH, DWRITE_BASELINE_MAXIMUM, DWRITE_BASELINE_MINIMUM, DWRITE_BASELINE_ROMAN, directwrite.dwrite_baseline, dwrite_1/DWRITE_BASELINE, dwrite_1/DWRITE_BASELINE_CENTRAL, dwrite_1/DWRITE_BASELINE_DEFAULT, dwrite_1/DWRITE_BASELINE_HANGING, dwrite_1/DWRITE_BASELINE_IDEOGRAPHIC_BOTTOM, dwrite_1/DWRITE_BASELINE_IDEOGRAPHIC_TOP, dwrite_1/DWRITE_BASELINE_MATH, dwrite_1/DWRITE_BASELINE_MAXIMUM, dwrite_1/DWRITE_BASELINE_MINIMUM, dwrite_1/DWRITE_BASELINE_ROMAN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

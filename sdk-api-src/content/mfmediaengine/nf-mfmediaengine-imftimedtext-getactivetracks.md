@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetActiveTracks
 title: IMFTimedText::GetActiveTracks
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of active timed-text tracks in the timed-text component.
 old-location: mf\imftimedtext_getactivetracks.htm
 old-project: medfound
 ms.assetid: DF9EEFD2-E699-4251-9769-D1F940938D45
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetActiveTracks, GetActiveTracks method [Media Foundation], GetActiveTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetActiveTracks method, IMFTimedText.GetActiveTracks, IMFTimedText::GetActiveTracks, mf.imftimedtext_getactivetracks, mfmediaengine/IMFTimedText::GetActiveTracks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellCheckerChangedEventHandler.Invoke
 title: ISpellCheckerChangedEventHandler::Invoke
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the SpellCheckerChanged event.
 old-location: intl\ispellcheckerchangedeventhandler_invoke.htm
 old-project: Intl
 ms.assetid: 585f147f-b644-4b6a-81d6-8ffeeb39d76a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications],Invoke method, ISpellCheckerChangedEventHandler.Invoke, ISpellCheckerChangedEventHandler::Invoke, Invoke, Invoke method [Internationalization for Windows Applications], Invoke method [Internationalization for Windows Applications],ISpellCheckerChangedEventHandler interface, intl.ispellcheckerchangedeventhandler_invoke, spellcheck/ISpellCheckerChangedEventHandler::Invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

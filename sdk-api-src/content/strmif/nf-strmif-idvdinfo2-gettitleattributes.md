@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTitleAttributes
 title: IDvdInfo2::GetTitleAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTitleAttributes method retrieves attributes of all video, audio, and subpicture streams for the specified title and its menus.
 old-location: dshow\idvdinfo2_gettitleattributes.htm
 old-project: DirectShow
 ms.assetid: 4e901e14-9e98-4ca5-ae37-7a4564b187ab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTitleAttributes method, IDvdInfo2.GetTitleAttributes, IDvdInfo2::GetTitleAttributes, IDvdInfo2GetTitleAttributes, dshow.idvdinfo2_gettitleattributes, strmif/IDvdInfo2::GetTitleAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

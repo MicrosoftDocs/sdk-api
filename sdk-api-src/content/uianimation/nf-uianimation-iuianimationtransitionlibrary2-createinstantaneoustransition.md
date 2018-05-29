@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateInstantaneousTransition
 title: IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instantaneous scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneoustransition.htm
 old-project: UIAnimation
 ms.assetid: E40313C5-F98E-4BF3-83B8-735271ED1E2C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

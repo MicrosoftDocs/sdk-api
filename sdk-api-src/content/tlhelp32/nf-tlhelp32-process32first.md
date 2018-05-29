@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.Process32First
 title: Process32First function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the first process encountered in a system snapshot.
 old-location: toolhelp\process32first.htm
 old-project: ToolHelp
 ms.assetid: 097790e8-30c2-4b00-9256-fa26e2ceb893
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Process32First, Process32First function [ToolHelp], Process32FirstW, _win32_process32first, base.process32first, tlhelp32/Process32First, tlhelp32/Process32FirstW, toolhelp.process32first
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

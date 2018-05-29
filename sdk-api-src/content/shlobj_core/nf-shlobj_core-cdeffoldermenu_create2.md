@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.CDefFolderMenu_Create2
 title: CDefFolderMenu_Create2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a context menu for a selected group of file folder objects.
 old-location: shell\CDefFolderMenu_Create2.htm
 old-project: shell
 ms.assetid: 7b5e012d-1c8b-42c5-8181-9923fd389fc5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CDefFolderMenu_Create2, CDefFolderMenu_Create2 function [Windows Shell], _win32_CDefFolderMenu_Create2, shell.CDefFolderMenu_Create2, shlobj_core/CDefFolderMenu_Create2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

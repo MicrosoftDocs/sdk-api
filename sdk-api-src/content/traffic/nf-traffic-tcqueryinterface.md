@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcQueryInterface
 title: TcQueryInterface function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcQueryInterface function queries traffic control for related per-interface parameters.
 old-location: qos\tcqueryinterface.htm
 old-project: QOS
 ms.assetid: 7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryinterface, qos.tcqueryinterface, traffic/TcQueryInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

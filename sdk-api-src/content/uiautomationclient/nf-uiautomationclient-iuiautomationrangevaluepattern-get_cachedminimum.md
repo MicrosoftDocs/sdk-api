@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedMinimum
 title: IUIAutomationRangeValuePattern::get_CachedMinimum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached minimum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedMinimum.htm
 old-project: WinAuto
 ms.assetid: 40fe6309-8648-49b2-990c-78e7a65ef5ed
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedMinimum property [Windows Accessibility], CachedMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedMinimum property, IUIAutomationRangeValuePattern.CachedMinimum, IUIAutomationRangeValuePattern.get_CachedMinimum, IUIAutomationRangeValuePattern::CachedMinimum, IUIAutomationRangeValuePattern::get_CachedMinimum, get_CachedMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

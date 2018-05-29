@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetOptions
 title: IFileDialog::GetOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current flags that are set to control dialog behavior.
 old-location: shell\IFileDialog_GetOptions.htm
 old-project: shell
 ms.assetid: 8a01b64d-b58e-4470-a5ed-8cf821b26c6b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetOptions method, IFileDialog.GetOptions, IFileDialog::GetOptions, shell.IFileDialog_GetOptions, shell_IFileDialog_GetOptions, shobjidl_core/IFileDialog::GetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

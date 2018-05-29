@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 title: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the amount of artificial slowdown inserted by the debug device to simulate lower-performance graphics adapters.
 old-location: direct3d12\d3d12_debug_device_gpu_slowdown_performance_factor.htm
 old-project: direct3d12
 ms.assetid: C137DFAA-7AB9-49A6-882D-61ADE6E9E046
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR structure, d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, direct3d12.d3d12_debug_device_gpu_slowdown_performance_factor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h

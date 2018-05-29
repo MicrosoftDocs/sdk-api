@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathCombineA
 title: PathCombineA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
 old-location: shell\PathCombine.htm
 old-project: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

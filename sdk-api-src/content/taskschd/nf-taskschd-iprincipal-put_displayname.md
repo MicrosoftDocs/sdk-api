@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IPrincipal.put_DisplayName
 title: IPrincipal::put_DisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the name of the principal.
 old-location: taskschd\iprincipal_displayname.htm
 old-project: TaskSchd
 ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DisplayName property [Task Scheduler], DisplayName property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],DisplayName property, IPrincipal.DisplayName, IPrincipal.put_DisplayName, IPrincipal::DisplayName, IPrincipal::get_DisplayName, IPrincipal::put_DisplayName, put_DisplayName, taskschd.iprincipal_displayname, taskschd/IPrincipal::DisplayName, taskschd/IPrincipal::get_DisplayName, taskschd/IPrincipal::put_DisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

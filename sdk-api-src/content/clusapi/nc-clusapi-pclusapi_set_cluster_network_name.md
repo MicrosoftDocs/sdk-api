@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_SET_CLUSTER_NETWORK_NAME
 title: PCLUSAPI_SET_CLUSTER_NETWORK_NAME
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name for a network.
 old-location: mscs\setclusternetworkname.htm
 old-project: MsCS
 ms.assetid: c1b5dcd0-8974-495c-b85a-1d426719e9f9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_NAME, PCLUSAPI_SET_CLUSTER_NETWORK_NAME callback, PCLUSAPI_SET_CLUSTER_NETWORK_NAME callback function [Failover Cluster], _wolf_setclusternetworkname, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_NAME, mscs.setclusternetworkname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

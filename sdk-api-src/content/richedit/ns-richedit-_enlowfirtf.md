@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._enlowfirtf
 title: "_enlowfirtf"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an unsupported Rich Text Format (RTF) keyword in a Microsoft Rich Edit control.
 old-location: controls\ENLOWFIRTF.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlowfirtf.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ENLOWFIRTF, ENLOWFIRTF structure [Windows Controls], _enlowfirtf, _win32_ENLOWFIRTF_str, _win32_ENLOWFIRTF_str_cpp, controls.ENLOWFIRTF, controls._win32_ENLOWFIRTF_str, richedit/ENLOWFIRTF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:bthledef._BTH_LE_GATT_DESCRIPTOR_TYPE
 title: "_BTH_LE_GATT_DESCRIPTOR_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BTH_LE_GATT_DESCRIPTOR_TYPE enumeration describes the different types of Bluetooth LE generic attributes (GATT).
 old-location: bltooth\bth_le_gatt_descriptor_type.htm
 old-project: bltooth
 ms.assetid: 323D649D-B381-4293-BE7C-64651862B9DB
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR_TYPE, BTH_LE_GATT_DESCRIPTOR_TYPE, BTH_LE_GATT_DESCRIPTOR_TYPE enumeration [Bluetooth Devices], CharacteristicAggregateFormat, CharacteristicExtendedProperties, CharacteristicFormat, CharacteristicUserDescription, ClientCharacteristicConfiguration, CustomDescriptor, ServerCharacteristicConfiguration, _BTH_LE_GATT_DESCRIPTOR_TYPE, bltooth.bth_le_gatt_descriptor_type, bthledef/BTH_LE_GATT_DESCRIPTOR_TYPE, bthledef/CharacteristicAggregateFormat, bthledef/CharacteristicExtendedProperties, bthledef/CharacteristicFormat, bthledef/CharacteristicUserDescription, bthledef/ClientCharacteristicConfiguration, bthledef/CustomDescriptor, bthledef/ServerCharacteristicConfiguration"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: bthledef.h
 req.include-header: BthLEDef.h

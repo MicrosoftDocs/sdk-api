@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.QueryActCtxSettingsW
 title: QueryActCtxSettingsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryActCtxSettingsW function specifies the activation context, and the namespace and name of the attribute that is to be queried.
 old-location: setup\queryactctxsettingsw.htm
 old-project: SbsCs
 ms.assetid: 80e419a5-7b57-488a-90bc-1d38d063b1ee
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: QueryActCtxSettingsW, QueryActCtxSettingsW function [Side-by-side Assemblies], setup.queryactctxsettingsw, winbase/QueryActCtxSettingsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

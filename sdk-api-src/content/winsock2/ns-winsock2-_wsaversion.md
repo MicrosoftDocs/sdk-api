@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock2._WSAVersion
 title: "_WSAVersion"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAVERSION structure provides version comparison in Windows Sockets.
 old-location: winsock\wsaversion_2.htm
 old-project: WinSock
 ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _WSAVersion, _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

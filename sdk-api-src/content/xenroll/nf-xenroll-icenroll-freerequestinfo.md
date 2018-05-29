@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll.freeRequestInfo
 title: ICEnroll::freeRequestInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases session identifiers when they are no longer needed.
 old-location: security\icenroll4_freerequestinfo.htm
 old-project: SecCrypto
 ms.assetid: 2d3fd4d4-779f-4e28-9b07-4de17262ac5e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],freeRequestInfo method, ICEnroll interface [Security],freeRequestInfo method, ICEnroll.freeRequestInfo, ICEnroll2 interface [Security],freeRequestInfo method, ICEnroll2::freeRequestInfo, ICEnroll3 interface [Security],freeRequestInfo method, ICEnroll3::freeRequestInfo, ICEnroll4 interface [Security],freeRequestInfo method, ICEnroll4::freeRequestInfo, ICEnroll::freeRequestInfo, freeRequestInfo, freeRequestInfo method [Security], freeRequestInfo method [Security],CEnroll object, freeRequestInfo method [Security],ICEnroll interface, freeRequestInfo method [Security],ICEnroll2 interface, freeRequestInfo method [Security],ICEnroll3 interface, freeRequestInfo method [Security],ICEnroll4 interface, security.icenroll4_freerequestinfo, xenroll/ICEnroll2::freeRequestInfo, xenroll/ICEnroll3::freeRequestInfo, xenroll/ICEnroll4::freeRequestInfo, xenroll/ICEnroll::freeRequestInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

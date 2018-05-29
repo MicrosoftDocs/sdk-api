@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FNFCISTATUS
 title: FNFCISTATUS macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The FNFCISTATUS macro provides the declaration for the application-defined callback function to update the user.
 old-location: winprog\fnfcistatus.htm
 old-project: DevNotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509NameValuePair.get_Name
 title: IX509NameValuePair::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name portion of the name-value pair.
 old-location: security\ix509namevaluepair_name_property.htm
 old-project: SecCertEnroll
 ms.assetid: 2a124fe7-7f28-4911-b5fe-2c98b4187723
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509NameValuePair interface [Security],Name property, IX509NameValuePair.Name, IX509NameValuePair.get_Name, IX509NameValuePair::Name, IX509NameValuePair::get_Name, Name property [Security], Name property [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Name, certenroll/IX509NameValuePair::get_Name, get_Name, security.ix509namevaluepair_name_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

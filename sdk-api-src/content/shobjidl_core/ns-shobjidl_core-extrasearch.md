@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.EXTRASEARCH
 title: EXTRASEARCH
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by an IEnumExtraSearch enumerator object to return information on the search objects supported by a Shell Folder object.
 old-location: shell\EXTRASEARCH.htm
 old-project: shell
 ms.assetid: d930a00b-3084-4da7-8915-0bebdb33df9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPEXTRASEARCH, EXTRASEARCH, EXTRASEARCH structure [Windows Shell], LPEXTRASEARCH, LPEXTRASEARCH structure pointer [Windows Shell], _win32_EXTRASEARCH, shell.EXTRASEARCH, shobjidl_core/EXTRASEARCH, shobjidl_core/LPEXTRASEARCH"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

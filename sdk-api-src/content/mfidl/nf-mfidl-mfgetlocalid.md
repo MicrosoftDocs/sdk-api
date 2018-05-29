@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFGetLocalId
 title: MFGetLocalId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the local system ID.
 old-location: mf\mfgetlocalid.htm
 old-project: medfound
 ms.assetid: 24EA8907-9EBF-42FF-8823-05D48E27F9EA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFGetLocalId, MFGetLocalId function [Media Foundation], mf.mfgetlocalid, mfidl/MFGetLocalId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

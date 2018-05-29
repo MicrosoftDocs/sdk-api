@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAGetServiceClassInfoA
 title: WSAGetServiceClassInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAGetServiceClassInfo function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider.
 old-location: winsock\wsagetserviceclassinfo_2.htm
 old-project: WinSock
 ms.assetid: e177bb7d-c7d3-43a4-a809-ab8212feea2e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAGetServiceClassInfo, WSAGetServiceClassInfo function [Winsock], WSAGetServiceClassInfoA, WSAGetServiceClassInfoW, _win32_wsagetserviceclassinfo_2, winsock.wsagetserviceclassinfo_2, winsock2/WSAGetServiceClassInfo, winsock2/WSAGetServiceClassInfoA, winsock2/WSAGetServiceClassInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

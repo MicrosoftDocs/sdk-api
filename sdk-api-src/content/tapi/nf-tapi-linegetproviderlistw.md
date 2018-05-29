@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetProviderListW
 title: lineGetProviderListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system.
 old-location: tapi2\linegetproviderlist.htm
 old-project: Tapi
 ms.assetid: 87d43409-e8c5-401a-87a2-02568ed0af4a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetproviderlist, lineGetProviderList, lineGetProviderList function [TAPI 2.2], lineGetProviderListA, lineGetProviderListW, tapi/lineGetProviderList, tapi/lineGetProviderListA, tapi/lineGetProviderListW, tapi2.linegetproviderlist"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

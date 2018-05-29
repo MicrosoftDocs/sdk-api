@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.GetSourceOrigin
 title: IMFNetCrossOriginSupport::GetSourceOrigin
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the W3C origin of the HTML5 media element.
 old-location: mf\imfnetcrossoriginsupport_getsourceorigin.htm
 old-project: medfound
 ms.assetid: 84379D86-DB03-4631-9A35-EFE9811B0D33
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSourceOrigin, GetSourceOrigin method [Media Foundation], GetSourceOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetSourceOrigin method, IMFNetCrossOriginSupport.GetSourceOrigin, IMFNetCrossOriginSupport::GetSourceOrigin, mf.imfnetcrossoriginsupport_getsourceorigin, mfidl/IMFNetCrossOriginSupport::GetSourceOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

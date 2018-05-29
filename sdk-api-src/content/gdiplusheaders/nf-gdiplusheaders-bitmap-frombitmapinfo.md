@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromBITMAPINFO
 title: Bitmap::FromBITMAPINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The Bitmap::FromBITMAPINFO method creates a Bitmap object based on a BITMAPINFO structure and an array of pixel data.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromBITMAPINFO_gdiBitmapInfo_gdiBitmapData_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\frombitmapinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Bitmap class [GDI+],FromBITMAPINFO method, Bitmap.FromBITMAPINFO, Bitmap::FromBITMAPINFO, FromBITMAPINFO, FromBITMAPINFO method [GDI+], FromBITMAPINFO method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromBITMAPINFO_gdiBitmapInfo_gdiBitmapData_, gdiplus._gdiplus_CLASS_Bitmap_FromBITMAPINFO_gdiBitmapInfo_gdiBitmapData_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

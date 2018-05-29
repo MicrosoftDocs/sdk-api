@@ -1,16 +1,16 @@
 ---
 UID: NF:filter.IFilter.Init
 title: IFilter::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a filtering session.
 old-location: indexsrv\ifilter_init.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2oc4.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFilter interface [Indexing Service],Init method, IFilter.Init, IFilter::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IFilter interface, _idxs_IFilter_Init, filter/IFilter::Init, indexsrv.ifilter_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: filter.h
 req.include-header: 

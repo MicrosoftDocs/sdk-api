@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IObjectIds
 title: IObjectIds
-author: windows-driver-content
+author: windows-sdk-content
 description: The IObjectIds interface defines methods and properties that enable you to manage a collection of IObjectId objects.
 old-location: security\iobjectids.htm
 old-project: SecCertEnroll
 ms.assetid: f376a33e-005b-4810-9a26-b642236ff7af
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [Security],described, certenroll/IObjectIds, security.iobjectids
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

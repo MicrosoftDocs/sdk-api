@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToFile
 title: IXpsSignatureManager::SavePackageToFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the XPS package to a file.
 old-location: xps\ixpssignaturemanager_savepackagetofile.htm
 old-project: printdocs
 ms.assetid: 954d8eb1-8680-410b-909b-da7a6572c0f3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SavePackageToFile method, IXpsSignatureManager.SavePackageToFile, IXpsSignatureManager::SavePackageToFile, SavePackageToFile, SavePackageToFile method [XPS Documents and Packaging], SavePackageToFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_savepackagetofile, xpsdigitalsignature/IXpsSignatureManager::SavePackageToFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

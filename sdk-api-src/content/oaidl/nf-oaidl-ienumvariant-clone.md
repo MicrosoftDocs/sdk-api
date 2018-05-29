@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Clone
 title: IEnumVARIANT::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the current state of enumeration.
 old-location: automat\ienumvariant_clone.htm
 old-project: automat
 ms.assetid: 44beac4a-784d-461e-8a4b-71bdcf512fbc
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: Clone, Clone method [Automation], Clone method [Automation],IEnumVARIANT interface, IEnumVARIANT interface [Automation],Clone method, IEnumVARIANT.Clone, IEnumVARIANT::Clone, _oa96_IEnumVARIANT::Clone, automat.ienumvariant_clone, oaidl/IEnumVARIANT::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

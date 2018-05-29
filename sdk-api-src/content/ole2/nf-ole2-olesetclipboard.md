@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleSetClipboard
 title: OleSetClipboard function
-author: windows-driver-content
+author: windows-sdk-content
 description: Places a pointer to a specific data object onto the clipboard. This makes the data object accessible to the OleGetClipboard function.
 old-location: com\olesetclipboard.htm
 old-project: com
 ms.assetid: 741def10-d2b5-4395-8049-1eba2e29b0e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleSetClipboard, OleSetClipboard function [COM], _ole_OleSetClipboard, com.olesetclipboard, ole2/OleSetClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

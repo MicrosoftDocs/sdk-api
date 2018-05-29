@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.SolidBrush(const SolidBrush &)
 title: SolidBrush::SolidBrush(const SolidBrush &)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a SolidBrush object based on a color.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SolidBrush_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrush_81color.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+],SolidBrush constructor, SolidBrush constructor [GDI+], SolidBrush constructor [GDI+],SolidBrush class, SolidBrush.SolidBrush, SolidBrush.SolidBrush(const SolidBrush &), SolidBrush::SolidBrush, SolidBrush::SolidBrush(const SolidBrush &), _gdiplus_CLASS_SolidBrush_SolidBrush_color_, gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

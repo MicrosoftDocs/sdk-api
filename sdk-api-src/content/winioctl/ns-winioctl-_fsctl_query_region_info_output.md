@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_REGION_INFO_OUTPUT
 title: "_FSCTL_QUERY_REGION_INFO_OUTPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information for one or more regions.
 old-location: fs\fsctl_query_region_info_output.htm
 old-project: FileIO
 ms.assetid: 4DF96C7E-9BC3-4EB8-95AD-3E46DA1C435F
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT structure [Files], PFSCTL_QUERY_REGION_INFO_OUTPUT, PFSCTL_QUERY_REGION_INFO_OUTPUT structure pointer [Files], _FSCTL_QUERY_REGION_INFO_OUTPUT, fs.fsctl_query_region_info_output, winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT, winioctl/PFSCTL_QUERY_REGION_INFO_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RenewPrefix
 title: Dhcpv6RenewPrefix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Renews a prefix.
 old-location: dhcp\dhcpv6renewprefix.htm
 old-project: DHCP
 ms.assetid: e4eec40c-0e95-47f7-b102-daa63e5a8da0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6renewprefix, dhcpv6csdk/Dhcpv6RenewPrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpv6csdk.h
 req.include-header: 

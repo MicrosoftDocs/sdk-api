@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_TEXTURE_COPY_TYPE
 title: D3D12_TEXTURE_COPY_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies what type of texture copy is to take place.
 old-location: direct3d12\d3d12_texture_copy_type.htm
 old-project: direct3d12
 ms.assetid: CF296200-55A7-46B2-BF2C-58806A6A3BBC
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEXTURE_COPY_TYPE, D3D12_TEXTURE_COPY_TYPE enumeration, D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT, D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX, d3d12/D3D12_TEXTURE_COPY_TYPE, d3d12/D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT, d3d12/D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX, direct3d12.d3d12_texture_copy_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableChangeHandler
 title: IUIAnimationVariableChangeHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a method for handling events related to animation variable updates.
 old-location: uianimation\iuianimationvariablechangehandler.htm
 old-project: UIAnimation
 ms.assetid: 2288b256-aaf4-44fe-9ad1-f05ef7b0e30b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandler interface [Windows Animation], IUIAnimationVariableChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler, uianimation/IUIAnimationVariableChangeHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

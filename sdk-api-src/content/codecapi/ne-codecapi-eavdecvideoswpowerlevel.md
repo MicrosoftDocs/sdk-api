@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVDecVideoSWPowerLevel
 title: eAVDecVideoSWPowerLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the power-saving level of a video decoder.
 old-location: dshow\eavdecvideoswpowerlevel.htm
 old-project: DirectShow
 ms.assetid: bf1c4c79-8e45-43ac-a203-444a00240eed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_Balanced, codecapi/eAVDecVideoSWPowerLevel_BatteryLife, codecapi/eAVDecVideoSWPowerLevel_VideoQuality, dshow.eavdecvideoswpowerlevel, eAVDecVideoSWPowerLevel, eAVDecVideoSWPowerLevel enumeration [DirectShow], eAVDecVideoSWPowerLevel_Balanced, eAVDecVideoSWPowerLevel_BatteryLife, eAVDecVideoSWPowerLevel_VideoQuality
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

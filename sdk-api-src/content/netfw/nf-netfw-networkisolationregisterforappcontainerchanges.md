@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.NetworkIsolationRegisterForAppContainerChanges
 title: NetworkIsolationRegisterForAppContainerChanges function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to register for the delivery of notifications regarding changes to an app container.
 old-location: ics\networkisolationregisterforappcontainerchanges.htm
 old-project: ICS
 ms.assetid: 2affb2a8-224c-4d2d-86e2-f194d3990dbe
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, NetworkIsolationRegisterForAppContainerChanges, NetworkIsolationRegisterForAppContainerChanges function [ICS/ICF], ics.networkisolationregisterforappcontainerchanges, networkisolation/NetworkIsolationRegisterForAppContainerChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h

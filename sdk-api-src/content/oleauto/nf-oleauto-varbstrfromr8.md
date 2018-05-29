@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBstrFromR8
 title: VarBstrFromR8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a double value to a BSTR value.
 old-location: automat\varbstrfromr8.htm
 old-project: automat
 ms.assetid: e293c9ae-95bc-4b6e-9074-0277afb6b17c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR8, VarBstrFromR8 function [Automation], _oa96_VarBstrFromR8, automat.varbstrfromr8, oleauto/VarBstrFromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

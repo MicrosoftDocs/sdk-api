@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsLun.Delete
 title: IVdsLun::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 old-location: base\ivdslun_delete.htm
 old-project: VDS
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

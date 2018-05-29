@@ -1,16 +1,16 @@
 ---
 UID: NF:handleapi.CompareObjectHandles
 title: CompareObjectHandles function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two object handles to determine if they refer to the same underlying kernel object.
 old-location: base\compareobjecthandles.htm
 old-project: SysInfo
 ms.assetid: 06F22A46-0999-4622-8D62-23465C92A997
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: handleapi.h
 req.include-header: Windows.h

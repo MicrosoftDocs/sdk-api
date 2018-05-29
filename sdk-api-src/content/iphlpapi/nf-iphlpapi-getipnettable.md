@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetIpNetTable
 title: GetIpNetTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIpNetTable function retrieves the IPv4 to physical address mapping table.
 old-location: iphlp\getipnettable.htm
 old-project: IpHlp
 ms.assetid: 01bcf86e-5fcc-4ce9-bb89-02d393e75d1d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

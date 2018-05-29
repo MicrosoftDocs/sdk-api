@@ -1,16 +1,16 @@
 ---
 UID: NF:enclaveapi.CreateEnclave
 title: CreateEnclave function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
 old-location: base\createenclave.htm
 old-project: Memory
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: Winbase.h

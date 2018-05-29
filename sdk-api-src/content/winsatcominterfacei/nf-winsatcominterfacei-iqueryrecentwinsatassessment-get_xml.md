@@ -1,16 +1,16 @@
 ---
 UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_XML
 title: IQueryRecentWinSATAssessment::get_XML
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
 old-location: winsat\iqueryrecentwinsatassessment_xml.htm
 old-project: WinSAT
 ms.assetid: f8a1c664-bea3-4505-bcf0-2b8715dbe7dd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],XML property, IQueryRecentWinSATAssessment.XML, IQueryRecentWinSATAssessment.get_XML, IQueryRecentWinSATAssessment::XML, IQueryRecentWinSATAssessment::get_XML, XML property [WinSAT], XML property [WinSAT],IQueryRecentWinSATAssessment interface, get_XML, winsat.iqueryrecentwinsatassessment_xml, winsatcominterfacei/IQueryRecentWinSATAssessment::XML, winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

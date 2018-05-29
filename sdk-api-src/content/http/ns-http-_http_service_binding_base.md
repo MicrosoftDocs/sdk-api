@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_SERVICE_BINDING_BASE
 title: "_HTTP_SERVICE_BINDING_BASE"
-author: windows-driver-content
+author: windows-sdk-content
 description: HTTP_SERVICE_BINDING_BASE.
 old-location: http\http_service_binding_base.htm
 old-project: Http
 ms.assetid: c9d3ed21-8987-4b98-99a1-dc1e776b0dab
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_SERVICE_BINDING_BASE, HTTP_SERVICE_BINDING_BASE, HTTP_SERVICE_BINDING_BASE structure [HTTP], PHTTP_SERVICE_BINDING_BASE, PHTTP_SERVICE_BINDING_BASE structure pointer [HTTP], _HTTP_SERVICE_BINDING_BASE, http.http_service_binding_base, http/HTTP_SERVICE_BINDING_BASE, http/PHTTP_SERVICE_BINDING_BASE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

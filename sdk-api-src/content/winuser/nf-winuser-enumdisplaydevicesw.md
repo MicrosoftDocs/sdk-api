@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.EnumDisplayDevicesW
 title: EnumDisplayDevicesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumDisplayDevices function lets you obtain information about the display devices in the current session.
 old-location: gdi\enumdisplaydevices.htm
 old-project: gdi
 ms.assetid: df3b493c-23d2-4996-9b79-86009efe3078
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumDisplayDevices, EnumDisplayDevices function [Windows GDI], EnumDisplayDevicesA, EnumDisplayDevicesW, _win32_EnumDisplayDevices, gdi.enumdisplaydevices, winuser/EnumDisplayDevices, winuser/EnumDisplayDevicesA, winuser/EnumDisplayDevicesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

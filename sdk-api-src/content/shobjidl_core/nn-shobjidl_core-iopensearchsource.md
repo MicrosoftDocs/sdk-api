@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IOpenSearchSource
 title: IOpenSearchSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method to get search results from a custom client-side OpenSearch data source.
 old-location: shell\IOpenSearchSource.htm
 old-project: shell
 ms.assetid: 8d5d376f-b59d-4420-a6be-d64459cb6aa3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOpenSearchSource, IOpenSearchSource interface [Windows Shell], IOpenSearchSource interface [Windows Shell],described, _shell_IOpenSearchSource, shell.IOpenSearchSource, shobjidl_core/IOpenSearchSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

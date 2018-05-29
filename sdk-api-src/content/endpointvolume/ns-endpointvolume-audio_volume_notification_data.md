@@ -1,16 +1,16 @@
 ---
 UID: NS:endpointvolume.AUDIO_VOLUME_NOTIFICATION_DATA
 title: AUDIO_VOLUME_NOTIFICATION_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The AUDIO_VOLUME_NOTIFICATION_DATA structure describes a change in the volume level or muting state of an audio endpoint device.
 old-location: coreaudio\audio_volume_notification_data.htm
 old-project: CoreAudio
 ms.assetid: 8778eb32-bc37-4d21-a096-f932db3d7b3f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PAUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA structure [Core Audio], AUDIO_VOLUME_NOTIFICATION_DATAStructure, PAUDIO_VOLUME_NOTIFICATION_DATA, PAUDIO_VOLUME_NOTIFICATION_DATA structure pointer [Core Audio], coreaudio.audio_volume_notification_data, endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA, endpointvolume/PAUDIO_VOLUME_NOTIFICATION_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: endpointvolume.h
 req.include-header: 

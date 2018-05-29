@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmTakeInterfaceOwnership
 title: MgmTakeInterfaceOwnership function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
 old-location: rras\mgmtakeinterfaceownership.htm
 old-project: RRAS
 ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmNetEventsSetSecurityInfo0
 title: FwpmNetEventsSetSecurityInfo0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a network event object.
 old-location: fwp\fwpmneteventssetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: ce4f76be-caee-49f3-98b6-ee4309bca484
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmNetEventsSetSecurityInfo0, FwpmNetEventsSetSecurityInfo0 function [Filtering], fwp.fwpmneteventssetsecurityinfo0, fwpmu/FwpmNetEventsSetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

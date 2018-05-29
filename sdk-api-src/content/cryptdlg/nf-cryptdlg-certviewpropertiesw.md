@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptdlg.CertViewPropertiesW
 title: CertViewPropertiesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertViewProperties function displays the properties for a certificate in a user interface (UI) dialog box. This function has no associated import library. You must use the LoadLibrary and GetProcAddress functions to dynamically link to CryptDlg.dll.
 old-location: security\certviewproperties.htm
 old-project: SecCrypto
 ms.assetid: 5df840ab-fff6-4c7e-b799-51e4de4c644a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertViewProperties, CertViewProperties function [Security], CertViewPropertiesA, CertViewPropertiesW, cryptdlg/CertViewProperties, cryptdlg/CertViewPropertiesA, cryptdlg/CertViewPropertiesW, security.certviewproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 

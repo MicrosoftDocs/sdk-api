@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFByteStreamHandler
 title: IMFByteStreamHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media source from a byte stream.
 old-location: mf\imfbytestreamhandler.htm
 old-project: medfound
 ms.assetid: 80c402d4-8246-42ee-a981-69c8d605cb0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 80c402d4-8246-42ee-a981-69c8d605cb0f, IMFByteStreamHandler, IMFByteStreamHandler interface [Media Foundation], IMFByteStreamHandler interface [Media Foundation],described, mf.imfbytestreamhandler, mfidl/IMFByteStreamHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

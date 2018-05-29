@@ -1,16 +1,16 @@
 ---
 UID: NS:mobsync._tagSYNCMGRITEM
 title: "_tagSYNCMGRITEM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.
 old-location: shell\syncmgr_syncmgritem.htm
 old-project: shell
 ms.assetid: 84fa1d81-d1b9-44d7-be97-14511ef95528
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSYNCMGRITEM, LPSYNCMGRITEM, LPSYNCMGRITEM structure pointer [Windows Shell], SYNCMGRITEM, SYNCMGRITEM structure [Windows Shell], SYNCMGRITEMSTATE_CHECKED, SYNCMGRITEMSTATE_UNCHECKED, _tagSYNCMGRITEM, mobsync/LPSYNCMGRITEM, mobsync/SYNCMGRITEM, shell.syncmgr_syncmgritem, syncmgr.syncmgritem"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mobsync.h
 req.include-header: 

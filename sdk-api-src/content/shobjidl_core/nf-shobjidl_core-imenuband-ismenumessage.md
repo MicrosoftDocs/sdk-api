@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IMenuBand.IsMenuMessage
 title: IMenuBand::IsMenuMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: A message pump calls this method to see if any messages should be redirected to the Component Object Model (COM) object.
 old-location: shell\IMenuBand_IsMenuMessage.htm
 old-project: shell
 ms.assetid: d30a456c-7c09-4250-8509-353c54d017b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMenuBand interface [Windows Shell],IsMenuMessage method, IMenuBand.IsMenuMessage, IMenuBand::IsMenuMessage, IsMenuMessage, IsMenuMessage method [Windows Shell], IsMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_IsMenuMessage, shell.IMenuBand_IsMenuMessage, shobjidl_core/IMenuBand::IsMenuMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT0_
 title: FWPM_PROVIDER_CONTEXT0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the state associated with a provider context.
 old-location: fwp\fwpm_provider_context0_struct.htm
 old-project: FWP
 ms.assetid: 99105044-f4fa-42f2-8393-f0ee8948e9ff
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT0, FWPM_PROVIDER_CONTEXT0 structure [Filtering], FWPM_PROVIDER_CONTEXT0_, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

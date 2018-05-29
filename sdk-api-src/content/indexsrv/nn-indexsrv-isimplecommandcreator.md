@@ -1,16 +1,16 @@
 ---
 UID: NN:indexsrv.ISimpleCommandCreator
 title: ISimpleCommandCreator
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains methods for interacting with the file catalog.
 old-location: search\isimplecommandcreator.htm
 old-project: search
 ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search],described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

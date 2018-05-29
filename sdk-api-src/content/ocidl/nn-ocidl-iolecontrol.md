@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IOleControl
 title: IOleControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the features for supporting keyboard mnemonics, ambient properties, and events in control objects.
 old-location: com\iolecontrol.htm
 old-project: com
 ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.GetProcessHeap
 title: GetProcessHeap function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle to the default heap of the calling process.
 old-location: base\getprocessheap.htm
 old-project: Memory
 ms.assetid: ecd716b2-df48-4914-9de4-47d8ad8ff9a2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProcessHeap, GetProcessHeap function, _win32_getprocessheap, base.getprocessheap, heapapi/GetProcessHeap, winbase/GetProcessHeap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

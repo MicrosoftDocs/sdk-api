@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateFromFileEx
 title: OleCreateFromFileEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends OleCreateFromFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreateFromFile.
 old-location: com\olecreatefromfileex.htm
 old-project: com
 ms.assetid: a75bb031-6e4a-4440-82f3-6a6f9417c62b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateFromFileEx, OleCreateFromFileEx function [COM], _ole_OleCreateFromFileEx, com.olecreatefromfileex, ole2/OleCreateFromFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

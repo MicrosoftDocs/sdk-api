@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll2.addNameValuePairToSignature
 title: ICEnroll2::addNameValuePairToSignature
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the authenticated name-value pair of an attribute to the request. It is up to the certification authority (CA) to interpret the meaning of the name-value pair.
 old-location: security\icenroll4_addnamevaluepairtosignature.htm
 old-project: SecCrypto
 ms.assetid: a31975f7-432e-47bb-a24e-508c6ca85373
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],addNameValuePairToSignature method, ICEnroll2 interface [Security],addNameValuePairToSignature method, ICEnroll2.addNameValuePairToSignature, ICEnroll2::addNameValuePairToSignature, ICEnroll3 interface [Security],addNameValuePairToSignature method, ICEnroll3::addNameValuePairToSignature, ICEnroll4 interface [Security],addNameValuePairToSignature method, ICEnroll4::addNameValuePairToSignature, addNameValuePairToSignature, addNameValuePairToSignature method [Security], addNameValuePairToSignature method [Security],CEnroll object, addNameValuePairToSignature method [Security],ICEnroll2 interface, addNameValuePairToSignature method [Security],ICEnroll3 interface, addNameValuePairToSignature method [Security],ICEnroll4 interface, security.icenroll4_addnamevaluepairtosignature, xenroll/ICEnroll2::addNameValuePairToSignature, xenroll/ICEnroll3::addNameValuePairToSignature, xenroll/ICEnroll4::addNameValuePairToSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

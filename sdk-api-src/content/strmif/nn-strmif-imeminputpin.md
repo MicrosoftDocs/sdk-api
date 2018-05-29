@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMemInputPin
 title: IMemInputPin
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMemInputPin interface delivers media data to an input pin.
 old-location: dshow\imeminputpin.htm
 old-project: DirectShow
 ms.assetid: a4407c6f-6bb5-4274-920b-8bf7d76268bc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin interface [DirectShow],described, IMemInputPinInterface, dshow.imeminputpin, strmif/IMemInputPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

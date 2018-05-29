@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.ResetTimer
 title: IOperationsProgressDialog::ResetTimer
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets progress dialog timer to 0.
 old-location: shell\IOperationsProgressDialog_ResetTimer.htm
 old-project: shell
 ms.assetid: a16d1595-c601-45a0-b3f5-35fe31cd0f22
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],ResetTimer method, IOperationsProgressDialog.ResetTimer, IOperationsProgressDialog::ResetTimer, ResetTimer, ResetTimer method [Windows Shell], ResetTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_ResetTimer, shell.IOperationsProgressDialog_ResetTimer, shobjidl_core/IOperationsProgressDialog::ResetTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

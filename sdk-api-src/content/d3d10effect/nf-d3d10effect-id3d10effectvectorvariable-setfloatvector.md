@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetFloatVector
 title: ID3D10EffectVectorVariable::SetFloatVector
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a four-component vector that contains floating-point data.
 old-location: direct3d10\id3d10effectvectorvariable_setfloatvector.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setfloatvector.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 6f0f4b92-eac0-b29f-0107-717ed288e5f2, ID3D10EffectVectorVariable interface [Direct3D 10],SetFloatVector method, ID3D10EffectVectorVariable.SetFloatVector, ID3D10EffectVectorVariable::SetFloatVector, SetFloatVector, SetFloatVector method [Direct3D 10], SetFloatVector method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetFloatVector, direct3d10.id3d10effectvectorvariable_setfloatvector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

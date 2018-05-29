@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capPreviewRate
 title: capPreviewRate macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capPreviewRate macro sets the frame display rate in preview mode. You can use this macro or explicitly call the WM_CAP_SET_PREVIEWRATE message.
 old-location: multimedia\cappreviewrate.htm
 old-project: Multimedia
 ms.assetid: 72d885cb-5a48-4403-a668-c3c437405317
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capPreviewRate, capPreviewRate, capPreviewRate macro [Windows Multimedia], multimedia.cappreviewrate, vfw/capPreviewRate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.NextAsync
 title: IEnumWbemClassObject::NextAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the NextAsync method when a controlled asynchronous retrieval of objects to a sink is required.
 old-location: wmi\ienumwbemclassobject_nextasync.htm
 old-project: WmiSdk
 ms.assetid: 1ff82982-a2d7-4618-8488-9e4b7628012d
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],NextAsync method, IEnumWbemClassObject.NextAsync, IEnumWbemClassObject::NextAsync, NextAsync, NextAsync method [Windows Management Instrumentation], NextAsync method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_nextasync, wbemcli/IEnumWbemClassObject::NextAsync, wmi.ienumwbemclassobject_nextasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

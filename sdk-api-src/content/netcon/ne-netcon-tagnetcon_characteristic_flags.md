@@ -1,16 +1,16 @@
 ---
 UID: NE:netcon.tagNETCON_CHARACTERISTIC_FLAGS
 title: tagNETCON_CHARACTERISTIC_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: The NETCON_CHARACTERISTIC_FLAGS enumeration type specifies possible characteristics for a network connection.
 old-location: ics\netcon_characteristic_flags.htm
 old-project: ICS
 ms.assetid: fc64c840-7f88-4d81-910b-3cf21dce70fa
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NCCF_ALLOW_DUPLICATION, NCCF_ALLOW_REMOVAL, NCCF_ALLOW_RENAME, NCCF_ALL_USERS, NCCF_BLUETOOTH_MASK, NCCF_BRANDED, NCCF_BRIDGED, NCCF_DEFAULT, NCCF_FIREWALLED, NCCF_HOMENET_CAPABLE, NCCF_INCOMING_ONLY, NCCF_LAN_MASK, NCCF_NONE, NCCF_OUTGOING_ONLY, NCCF_QUARANTINED, NCCF_RESERVED, NCCF_SHARED, NCCF_SHARED_PRIVATE, NETCON_CHARACTERISTIC_FLAGS, NETCON_CHARACTERISTIC_FLAGS enumeration [ICS/ICF], _ics_netcon_characteristic_flags, ics.netcon_characteristic_flags, netcon/NCCF_ALLOW_DUPLICATION, netcon/NCCF_ALLOW_REMOVAL, netcon/NCCF_ALLOW_RENAME, netcon/NCCF_ALL_USERS, netcon/NCCF_BLUETOOTH_MASK, netcon/NCCF_BRANDED, netcon/NCCF_BRIDGED, netcon/NCCF_DEFAULT, netcon/NCCF_FIREWALLED, netcon/NCCF_HOMENET_CAPABLE, netcon/NCCF_INCOMING_ONLY, netcon/NCCF_LAN_MASK, netcon/NCCF_NONE, netcon/NCCF_OUTGOING_ONLY, netcon/NCCF_QUARANTINED, netcon/NCCF_RESERVED, netcon/NCCF_SHARED, netcon/NCCF_SHARED_PRIVATE, netcon/NETCON_CHARACTERISTIC_FLAGS, tagNETCON_CHARACTERISTIC_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netcon.h
 req.include-header: 

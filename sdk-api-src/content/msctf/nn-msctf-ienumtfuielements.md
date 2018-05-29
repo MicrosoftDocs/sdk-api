@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.IEnumTfUIElements
 title: IEnumTfUIElements
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfUIElements interface is implemented by TSF manager and used by applications or textservices. This interface can be retrieved by ITfUIElementMgr::EnumUIElements and enumerates the registered UI elements.
 old-location: tsf\ienumtfuielements.htm
 old-project: TSF
 ms.assetid: 5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], IEnumTfUIElements interface [Text Services Framework],described, _tsf_ienumtfuielements_ref, msctf/IEnumTfUIElements, tsf.ienumtfuielements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

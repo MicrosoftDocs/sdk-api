@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterValues
 title: ICodecAPI::GetParameterValues
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetParameterValues method gets the list of possible values for a codec property.
 old-location: dshow\icodecapi_getparametervalues.htm
 old-project: DirectShow
 ms.assetid: 7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetParameterValues, GetParameterValues method [DirectShow], GetParameterValues method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterValues method, ICodecAPI.GetParameterValues, ICodecAPI::GetParameterValues, ICodecAPIGetParameterValues, dshow.icodecapi_getparametervalues, strmif/ICodecAPI::GetParameterValues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

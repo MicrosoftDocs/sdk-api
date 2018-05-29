@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_VIDEO_OUTPUT_PROTECTION_IDS
 title: "__tagDRM_VIDEO_OUTPUT_PROTECTION_IDS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DRM_VIDEO_OUTPUT_PROTECTION_IDS structure holds an array of DRM_VIDEO_OUTPUT_PROTECTION structures.
 old-location: wmformat\drm_video_output_protection_ids.htm
 old-project: wmformat
 ms.assetid: 95bce5f8-5230-4b69-b4e9-3cb766edce90
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DRM_VIDEO_OUTPUT_PROTECTION_IDS, DRM_VIDEO_OUTPUT_PROTECTION_IDS structure [windows Media Format], __tagDRM_VIDEO_OUTPUT_PROTECTION_IDS, structure [windows Media Format], wmformat.drm_video_output_protection_ids, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h

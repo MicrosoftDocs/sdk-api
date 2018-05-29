@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.SetBufferSizeBits
 title: IWMCodecLeakyBucket::SetBufferSizeBits
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the buffer size in bits.
 old-location: mf\iwmcodecleakybucketsetbuffersizebits.htm
 old-project: medfound
 ms.assetid: b602e8ca-8446-4f94-bcd0-193084d96565
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMCodecLeakyBucket interface [Media Foundation],SetBufferSizeBits method, IWMCodecLeakyBucket.SetBufferSizeBits, IWMCodecLeakyBucket::SetBufferSizeBits, SetBufferSizeBits, SetBufferSizeBits method [Media Foundation], SetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, codecapi.iwmcodecleakybucketsetbuffersizebits, mf.iwmcodecleakybucketsetbuffersizebits, wmcodecdsp/ IWMCodecLeakyBucket::SetBufferSizeBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

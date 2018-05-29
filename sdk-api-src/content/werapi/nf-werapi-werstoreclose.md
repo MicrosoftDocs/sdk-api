@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerStoreClose
 title: WerStoreClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the collection of stored reports.
 old-location: wer\werstoreclose.htm
 old-project: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

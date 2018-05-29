@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpMarshallSupplementalCredsFn
 title: SpMarshallSupplementalCredsFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts supplemental credentials from a public format into a format suitable for local procedure calls.
 old-location: security\spmarshallsupplementalcreds.htm
 old-project: SecAuthN
 ms.assetid: 64792843-5129-4a71-b88b-b4caf495a567
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpMarshallSupplementalCreds, SpMarshallSupplementalCreds function [Security], SpMarshallSupplementalCredsFn, _ssp_spmarshallsupplementalcreds, ntsecpkg/SpMarshallSupplementalCreds, security.spmarshallsupplementalcreds
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_UseDeviceTSID
 title: IFaxConfiguration::get_UseDeviceTSID
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the transmitting station identifier (TSID) is used.
 old-location: fax\_mfax_FaxConfiguration_UseDeviceTSID_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usedevicetsid.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],UseDeviceTSID property, FaxConfiguration.UseDeviceTSID, IFaxConfiguration.get_UseDeviceTSID, IFaxConfiguration::get_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_UseDeviceTSID, fax._mfax_FaxConfiguration_UseDeviceTSID_vb, get_UseDeviceTSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

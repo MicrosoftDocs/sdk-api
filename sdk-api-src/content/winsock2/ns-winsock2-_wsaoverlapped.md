@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock2._WSAOVERLAPPED
 title: "_WSAOVERLAPPED"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion.
 old-location: winsock\wsaoverlapped_2.htm
 old-project: WinSock
 ms.assetid: 91004241-e0ea-4bda-a0f5-71688ac83038
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _WSAOVERLAPPED, _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.ApplyPropertiesToItems
 title: IFileOperation::ApplyPropertiesToItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Declares a set of items for which to apply a common set of property values.
 old-location: shell\IFileOperation_ApplyPropertiesToItems.htm
 old-project: shell
 ms.assetid: d24aa63e-99ef-470c-9723-e561ee0a56bc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ApplyPropertiesToItems, ApplyPropertiesToItems method [Windows Shell], ApplyPropertiesToItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItems method, IFileOperation.ApplyPropertiesToItems, IFileOperation::ApplyPropertiesToItems, _shell_IFileOperation_ApplyPropertiesToItems, shell.IFileOperation_ApplyPropertiesToItems, shobjidl_core/IFileOperation::ApplyPropertiesToItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

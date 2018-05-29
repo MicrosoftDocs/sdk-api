@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange.ObjectData
 title: ISCPSecureExchange::ObjectData
-author: windows-driver-content
+author: windows-sdk-content
 description: The ObjectData method transfers a block of object data back to Windows Media Device Manager.
 old-location: wmdm\iscpsecureexchange_objectdata.htm
 old-project: WMDM
 ms.assetid: 825539e4-9162-40b7-bae0-336e728fb34e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],ObjectData method, ISCPSecureExchange.ObjectData, ISCPSecureExchange::ObjectData, ISCPSecureExchangeObjectData, ObjectData, ObjectData method [windows Media Device Manager], ObjectData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::ObjectData, wmdm.iscpsecureexchange_objectdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

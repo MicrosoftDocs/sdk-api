@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase._FILE_STREAM_INFO
 title: "_FILE_STREAM_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives file stream information for the specified file.
 old-location: fs\file_stream_info.htm
 old-project: FileIO
 ms.assetid: 36d1b0b3-bd6b-41e7-937a-4e8deef6f9da
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFILE_STREAM_INFO, FILE_STREAM_INFO, FILE_STREAM_INFO structure [Files], PFILE_STREAM_INFO, PFILE_STREAM_INFO structure pointer [Files], _FILE_STREAM_INFO, fileextd/FILE_STREAM_INFO, fileextd/PFILE_STREAM_INFO, fs.file_stream_info, winbase/FILE_STREAM_INFO, winbase/PFILE_STREAM_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

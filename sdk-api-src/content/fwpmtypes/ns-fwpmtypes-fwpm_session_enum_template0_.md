@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_SESSION_ENUM_TEMPLATE0_
 title: FWPM_SESSION_ENUM_TEMPLATE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Used for enumerating sessions.
 old-location: fwp\fwpm_session_enum_template0_struct.htm
 old-project: FWP
 ms.assetid: d95fff0c-2f80-4ae4-9d75-9c7b0220a902
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_SESSION_ENUM_TEMPLATE0, FWPM_SESSION_ENUM_TEMPLATE0 structure [Filtering], FWPM_SESSION_ENUM_TEMPLATE0_, fwp.fwpm_session_enum_template0_struct, fwpmtypes/FWPM_SESSION_ENUM_TEMPLATE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

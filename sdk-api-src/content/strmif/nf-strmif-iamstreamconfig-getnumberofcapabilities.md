@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetNumberOfCapabilities
 title: IAMStreamConfig::GetNumberOfCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNumberOfCapabilities method retrieves the number of format capabilities that this pin supports.
 old-location: dshow\iamstreamconfig_getnumberofcapabilities.htm
 old-project: DirectShow
 ms.assetid: 355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetNumberOfCapabilities, GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetNumberOfCapabilities method, IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

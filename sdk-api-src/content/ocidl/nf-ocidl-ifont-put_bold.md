@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IFont.put_Bold
 title: IFont::put_Bold
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the font's Bold property.
 old-location: com\ifont_put_bold.htm
 old-project: com
 ms.assetid: c25738fe-daf4-4eac-b4b0-354950e29f27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFont interface [COM],put_Bold method, IFont.put_Bold, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold, put_Bold method [COM], put_Bold method [COM],IFont interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

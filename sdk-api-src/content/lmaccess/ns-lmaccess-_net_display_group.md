@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._NET_DISPLAY_GROUP
 title: "_NET_DISPLAY_GROUP"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NET_DISPLAY_GROUP structure contains information that an account manager can access to determine information about group accounts.
 old-location: netmgmt\net_display_group_str.htm
 old-project: NetMgmt
 ms.assetid: 8e467f20-2cfb-40ae-a8b2-a5350d736eed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PNET_DISPLAY_GROUP, NET_DISPLAY_GROUP, NET_DISPLAY_GROUP structure [Network Management], PNET_DISPLAY_GROUP, PNET_DISPLAY_GROUP structure pointer [Network Management], _NET_DISPLAY_GROUP, _win32_net_display_group_str, lmaccess/NET_DISPLAY_GROUP, lmaccess/PNET_DISPLAY_GROUP, netmgmt.net_display_group_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

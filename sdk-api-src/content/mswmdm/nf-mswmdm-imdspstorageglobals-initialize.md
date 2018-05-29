@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.Initialize
 title: IMDSPStorageGlobals::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: The Initialize method formats the storage medium.
 old-location: wmdm\imdspstorageglobals_initialize.htm
 old-project: WMDM
 ms.assetid: 661060dc-5a38-4110-80f6-c67e3be8c96b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPStorageGlobals interface [windows Media Device Manager],Initialize method, IMDSPStorageGlobals.Initialize, IMDSPStorageGlobals::Initialize, IMDSPStorageGlobalsInitialize, Initialize, Initialize method [windows Media Device Manager], Initialize method [windows Media Device Manager],IMDSPStorageGlobals interface, mswmdm/IMDSPStorageGlobals::Initialize, wmdm.imdspstorageglobals_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

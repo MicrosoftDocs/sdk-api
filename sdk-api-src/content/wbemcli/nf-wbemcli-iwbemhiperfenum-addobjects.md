@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.AddObjects
 title: IWbemHiPerfEnum::AddObjects
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemHiPerfEnum::AddObjects method adds the supplied instance objects to the enumerator.
 old-location: wmi\iwbemhiperfenum_addobjects.htm
 old-project: WmiSdk
 ms.assetid: 6a6cd0f9-c6ed-4c9c-aa0f-7af2ac0fe73a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: AddObjects, AddObjects method [Windows Management Instrumentation], AddObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, IWbemHiPerfEnum interface [Windows Management Instrumentation],AddObjects method, IWbemHiPerfEnum.AddObjects, IWbemHiPerfEnum::AddObjects, _hmm_iwbemhiperfenum_addobjects, wbemcli/IWbemHiPerfEnum::AddObjects, wmi.iwbemhiperfenum_addobjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

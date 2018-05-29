@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.get_Addresses
 title: ITPhone::get_Addresses
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Addresses method returns a collection of addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_addresses.htm
 old-project: Tapi
 ms.assetid: 823db8d1-e4e3-4cfb-a864-5ad57a44ebc6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Addresses method, ITPhone.get_Addresses, ITPhone::get_Addresses, _tapi3_itphone_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_addresses, tapi3if/ITPhone::get_Addresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

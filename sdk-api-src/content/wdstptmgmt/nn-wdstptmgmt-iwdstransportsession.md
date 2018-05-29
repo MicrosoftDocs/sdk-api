@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportSession
 title: IWdsTransportSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an active transport session on the WDS transport server.
 old-location: wds\iwdstransportsession.htm
 old-project: Wds
 ms.assetid: acf417ea-2396-4178-84e5-6d6b495476f8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services],described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

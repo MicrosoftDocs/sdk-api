@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo
 title: IRDPSRAPIAttendeeDisconnectInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the reason an attendee disconnected.
 old-location: rdp\irdpsrapiattendeedisconnectinfo.htm
 old-project: Rdp
 ms.assetid: 849c4fbe-b9c4-4601-b93f-13efd1014a50
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], IRDPSRAPIAttendeeDisconnectInfo interface [RDP],described, rdp.irdpsrapiattendeedisconnectinfo, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

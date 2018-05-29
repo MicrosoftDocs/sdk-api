@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_TransmissionMode
 title: IBDA_DigitalDemodulator2::put_TransmissionMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the demodulator's transmission mode.
 old-location: mstv\ibda_digitaldemodulator2_put_transmissionmode.htm
 old-project: mstv
 ms.assetid: e10c63a5-7025-49a7-9b2e-6043fabf2999
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_TransmissionMode method, IBDA_DigitalDemodulator2.put_TransmissionMode, IBDA_DigitalDemodulator2::put_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::put_TransmissionMode, mstv.ibda_digitaldemodulator2_put_transmissionmode, put_TransmissionMode, put_TransmissionMode method [Microsoft TV Technologies], put_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

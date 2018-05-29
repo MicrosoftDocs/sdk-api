@@ -1,16 +1,16 @@
 ---
 UID: NE:fwptypes.FWP_FILTER_ENUM_TYPE_
 title: FWP_FILTER_ENUM_TYPE_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the filter enum conditions should be interpreted.
 old-location: fwp\fwp_filter_enum_type_enum.htm
 old-project: FWP
 ms.assetid: 842ddac3-52d0-4c29-9db3-8534a0c84659
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWP_FILTER_ENUM_FULLY_CONTAINED, FWP_FILTER_ENUM_OVERLAPPING, FWP_FILTER_ENUM_TYPE, FWP_FILTER_ENUM_TYPE enumeration [Filtering], FWP_FILTER_ENUM_TYPE_, FWP_FILTER_ENUM_TYPE_MAX, fwp.fwp_filter_enum_type_enum, fwptypes/FWP_FILTER_ENUM_FULLY_CONTAINED, fwptypes/FWP_FILTER_ENUM_OVERLAPPING, fwptypes/FWP_FILTER_ENUM_TYPE, fwptypes/FWP_FILTER_ENUM_TYPE_MAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:powersetting.PowerSettingRegisterNotification
 title: PowerSettingRegisterNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers to receive notification when a power setting changes.
 old-location: base\powersettingregisternotification.htm
 old-project: Power
 ms.assetid: 0fbca717-2367-4407-8094-3eb2b717b59c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingRegisterNotification, PowerSettingRegisterNotification function, base.powersettingregisternotification, powersetting/PowerSettingRegisterNotification, powrprof/PowerSettingRegisterNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powersetting.h
 req.include-header: 

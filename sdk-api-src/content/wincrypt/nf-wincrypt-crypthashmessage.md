@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptHashMessage
 title: CryptHashMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a hash of the message.
 old-location: security\crypthashmessage.htm
 old-project: SecCrypto
 ms.assetid: 85a04c01-fd7c-4d87-b6e1-a0f2aea45d16
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptHashMessage, CryptHashMessage function [Security], _crypto2_crypthashmessage, security.crypthashmessage, wincrypt/CryptHashMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

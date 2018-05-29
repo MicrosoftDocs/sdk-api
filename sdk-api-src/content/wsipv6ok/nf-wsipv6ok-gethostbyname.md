@@ -1,16 +1,16 @@
 ---
 UID: NF:wsipv6ok.gethostbyname
 title: gethostbyname macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The gethostbyname function retrieves host information corresponding to a host name from a host database.
 old-location: winsock\gethostbyname_2.htm
 old-project: WinSock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h

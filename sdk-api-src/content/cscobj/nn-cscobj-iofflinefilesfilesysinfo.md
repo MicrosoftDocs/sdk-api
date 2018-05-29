@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesFileSysInfo
 title: IOfflineFilesFileSysInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the standard information associated with a file system item in the Offline Files cache.
 old-location: of\iofflinefilesfilesysinfo.htm
 old-project: OfflineFiles
 ms.assetid: d3da183d-eb12-4411-b461-b58689ef5bff
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesFileSysInfo, IOfflineFilesFileSysInfo interface [Offline Files], IOfflineFilesFileSysInfo interface [Offline Files],described, cscobj/IOfflineFilesFileSysInfo, of.iofflinefilesfilesysinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

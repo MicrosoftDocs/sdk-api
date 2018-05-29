@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiBuildDriverInfoList
 title: SetupDiBuildDriverInfoList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiBuildDriverInfoList function builds a list of drivers that is associated with a specific device or with the global class driver list for a device information set.
 old-location: devinst\setupdibuilddriverinfolist.htm
 old-project: devinst
 ms.assetid: 9e377865-8029-41c1-85b9-fdb2cbc09346
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SPDIT_CLASSDRIVER, SPDIT_COMPATDRIVER, SetupDiBuildDriverInfoList, SetupDiBuildDriverInfoList function [Device and Driver Installation], devinst.setupdibuilddriverinfolist, di-rtns_dd9aa1be-1a67-4cc6-8a06-5db71eecd322.xml, setupapi/SetupDiBuildDriverInfoList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

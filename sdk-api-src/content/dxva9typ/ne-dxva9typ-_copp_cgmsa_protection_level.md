@@ -1,16 +1,16 @@
 ---
 UID: NE:dxva9typ._COPP_CGMSA_Protection_Level
 title: "_COPP_CGMSA_Protection_Level"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the CGMS-A protection level.
 old-location: dshow\copp_cgmsa_protection_level.htm
 old-project: DirectShow
 ms.assetid: 37b453fa-c976-4b13-b94a-1eebd8ecd44b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COPP_CGMSA_CopyFreely, COPP_CGMSA_CopyNever, COPP_CGMSA_CopyNoMore, COPP_CGMSA_CopyOneGeneration, COPP_CGMSA_Disabled, COPP_CGMSA_ForceDWORD, COPP_CGMSA_LevelMax, COPP_CGMSA_LevelMin, COPP_CGMSA_Protection_Level, COPP_CGMSA_Protection_Level , COPP_CGMSA_Protection_Level enumeration [DirectShow], COPP_CGMSA_Protection_LevelEnumeration, COPP_CGMSA_RedistributionControlRequired, _COPP_CGMSA_Protection_Level, dshow.copp_cgmsa_protection_level, dxva9typ/COPP_CGMSA_CopyFreely, dxva9typ/COPP_CGMSA_CopyNever, dxva9typ/COPP_CGMSA_CopyNoMore, dxva9typ/COPP_CGMSA_CopyOneGeneration, dxva9typ/COPP_CGMSA_Disabled, dxva9typ/COPP_CGMSA_ForceDWORD, dxva9typ/COPP_CGMSA_LevelMax, dxva9typ/COPP_CGMSA_LevelMin, dxva9typ/COPP_CGMSA_Protection_Level, dxva9typ/COPP_CGMSA_RedistributionControlRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h

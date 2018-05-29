@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetCount
 title: IWbemPathKeyList::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPathKeyList::GetCount method retrieves the number of keys in the path.
 old-location: wmi\iwbempathkeylist_getcount.htm
 old-project: WmiSdk
 ms.assetid: 92e78bd2-24f6-4e48-ae21-575cd1887c06
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetCount, GetCount method [Windows Management Instrumentation], GetCount method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetCount method, IWbemPathKeyList.GetCount, IWbemPathKeyList::GetCount, _hmm_iwbempathkeylist_getcount, wmi.iwbempathkeylist_getcount, wmiutils/IWbemPathKeyList::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

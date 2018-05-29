@@ -1,16 +1,16 @@
 ---
 UID: NN:uiribbon.IUIContextualUI
 title: IUIContextualUI
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUIContextualUI interface is implemented by the Ribbon framework and provides the core functionality for the Context Popup View.
 old-location: windowsribbon\windowsribbon_iuicontextualui.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\iuicontextualui.htm
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IUIContextualUI, IUIContextualUI interface [Windows Ribbon], IUIContextualUI interface [Windows Ribbon],described, scenicintent_IUIContextualUI, uiribbon/IUIContextualUI, windowsribbon.windowsribbon_iuicontextualui
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

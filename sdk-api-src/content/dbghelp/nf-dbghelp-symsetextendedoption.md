@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymSetExtendedOption
 title: SymSetExtendedOption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Turns the specified extended symbol option on or off.
 old-location: base\symsetextendedoption.htm
 old-project: Debug
 ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ActivateConfiguration
 title: IDirectManipulationViewport::ActivateConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the configuration for input interaction.
 old-location: directmanipulation\idirectmanipulationviewport_activateconfiguration.htm
 old-project: directmanipulation
 ms.assetid: 16c5902d-dddd-4c40-b1f9-cb432940aa3d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ActivateConfiguration, ActivateConfiguration method [Direct Manipulation], ActivateConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],ActivateConfiguration method, IDirectManipulationViewport.ActivateConfiguration, IDirectManipulationViewport::ActivateConfiguration, directmanipulation.idirectmanipulationviewport_activateconfiguration, directmanipulation/IDirectManipulationViewport::ActivateConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

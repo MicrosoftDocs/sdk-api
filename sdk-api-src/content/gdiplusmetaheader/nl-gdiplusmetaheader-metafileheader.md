@@ -1,16 +1,16 @@
 ---
 UID: NL:gdiplusmetaheader.MetafileHeader
 title: MetafileHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: A MetafileHeader object stores properties of an associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheader.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MetafileHeader, MetafileHeader class [GDI+], MetafileHeader class [GDI+],described, _gdiplus_CLASS_MetafileHeader_Class, gdiplus._gdiplus_CLASS_MetafileHeader_Class, gdiplusmetaheader/MetafileHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplusmetaheader.h
 req.include-header: 

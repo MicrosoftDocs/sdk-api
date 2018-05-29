@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.SetProperty
 title: IPortableDeviceConnector::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the given property on the MTP/Bluetooth Bus Enumerator device.
 old-location: wpdsdk\iportabledeviceconnector_setproperty.htm
 old-project: wpd_sdk
 ms.assetid: 045268e1-3e91-41a9-a14e-eb20b8a707e4
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceconnectapi.h
 req.include-header: 

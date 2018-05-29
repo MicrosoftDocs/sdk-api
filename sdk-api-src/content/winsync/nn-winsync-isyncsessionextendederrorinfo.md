@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncSessionExtendedErrorInfo
 title: ISyncSessionExtendedErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about which provider caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo.htm
 old-project: winsync
 ms.assetid: 0c6f90af-f4ca-4fa9-8050-acc61b4ee8d2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], ISyncSessionExtendedErrorInfo interface [Windows Sync],described, winsync.isyncsessionextendederrorinfo, winsync/ISyncSessionExtendedErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

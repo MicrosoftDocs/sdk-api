@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInitializeDll
 title: MprAdminInitializeDll function
-author: windows-driver-content
+author: windows-sdk-content
 description: When the Routing and Remote Access Service (RRAS) starts, it calls the MprAdminInitializeDll function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL.
 old-location: rras\mpradmininitializedll.htm
 old-project: RRAS
 ms.assetid: 0a53d84e-d9be-4d18-a619-7d92c17b76bb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll callback, MprAdminInitializeDll callback function [RAS], _mpr_mpradmininitializedll, mprapi/MprAdminInitializeDll, rras.mpradmininitializedll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

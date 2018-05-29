@@ -1,16 +1,16 @@
 ---
 UID: NF:objectarray.IObjectArray.GetCount
 title: IObjectArray::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a count of the objects in the collection.
 old-location: shell\IObjectArray_GetCount.htm
 old-project: shell
 ms.assetid: 2803d8b1-7fc2-499b-a16b-b82b420cba66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetCount method, IObjectArray.GetCount, IObjectArray::GetCount, _shell_IObjectArray_GetCount, objectarray/IObjectArray::GetCount, shell.IObjectArray_GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objectarray.h
 req.include-header: 

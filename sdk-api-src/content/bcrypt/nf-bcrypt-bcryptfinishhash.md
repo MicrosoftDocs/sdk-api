@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptFinishHash
 title: BCryptFinishHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.
 old-location: security\bcryptfinishhash_func.htm
 old-project: SecCNG
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCryptFinishHash, security.bcryptfinishhash_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

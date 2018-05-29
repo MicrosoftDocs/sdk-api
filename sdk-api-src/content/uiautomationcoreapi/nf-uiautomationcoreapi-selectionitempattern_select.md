@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_Select
 title: SelectionItemPattern_Select function
-author: windows-driver-content
+author: windows-sdk-content
 description: Selects an element in a selection container.
 old-location: winauto\uiauto_SelectionItemPattern_SelectConPat.htm
 old-project: WinAuto
 ms.assetid: 73cc27bd-b309-4de1-9249-23b0b209db3c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: SelectionItemPattern_Select, SelectionItemPattern_Select function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_SelectConPat, uiauto_SelectionItemPattern_SelectConPat, uiautomationcoreapi/SelectionItemPattern_Select, winauto.uiauto_SelectionItemPattern_SelectConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

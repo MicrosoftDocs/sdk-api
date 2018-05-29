@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CloseMmiDialog
 title: IBDA_ConditionalAccessEx::CloseMmiDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the Conditional Access Service (CAS) that the media sink device (MSD) has closed a user interface (MMI) dialog.
 old-location: mstv\ibda_conditionalaccessex_closemmidialog.htm
 old-project: mstv
 ms.assetid: 30cba76b-ae52-4c87-a88e-faa9ad3f12f9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CloseMmiDialog, CloseMmiDialog method [Microsoft TV Technologies], CloseMmiDialog method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CloseMmiDialog method, IBDA_ConditionalAccessEx.CloseMmiDialog, IBDA_ConditionalAccessEx::CloseMmiDialog, bdaiface/IBDA_ConditionalAccessEx::CloseMmiDialog, mstv.ibda_conditionalaccessex_closemmidialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

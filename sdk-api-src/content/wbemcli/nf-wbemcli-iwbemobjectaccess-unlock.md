@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.Unlock
 title: IWbemObjectAccess::Unlock
-author: windows-driver-content
+author: windows-sdk-content
 description: The Unlock method allows other threads to update the property values of an IWbemObjectAccess object.
 old-location: wmi\iwbemobjectaccess_unlock.htm
 old-project: WmiSdk
 ms.assetid: a1b841b2-684e-4697-b802-b0534f752a13
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],Unlock method, IWbemObjectAccess.Unlock, IWbemObjectAccess::Unlock, Unlock, Unlock method [Windows Management Instrumentation], Unlock method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_unlock, wbemcli/IWbemObjectAccess::Unlock, wmi.iwbemobjectaccess_unlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

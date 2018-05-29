@@ -1,16 +1,16 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnEventCallback
 title: IMFCaptureEngineOnEventCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback interface for receiving events from the capture engine.
 old-location: mf\imfcaptureengineoneventcallback.htm
 old-project: medfound
 ms.assetid: 6F04F843-160C-4F49-9841-ECC1450F4A58
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureEngineOnEventCallback, IMFCaptureEngineOnEventCallback interface [Media Foundation], IMFCaptureEngineOnEventCallback interface [Media Foundation],described, mf.imfcaptureengineoneventcallback, mfcaptureengine/IMFCaptureEngineOnEventCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

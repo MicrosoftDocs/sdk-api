@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHEnumKeyExW
 title: SHEnumKeyExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key.
 old-location: shell\SHEnumKeyEx.htm
 old-project: shell
 ms.assetid: 51bf9cf7-87bc-407c-b2ee-18db3cdfe1dc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHEnumKeyEx, SHEnumKeyEx function [Windows Shell], SHEnumKeyExA, SHEnumKeyExW, _win32_SHEnumKeyEx, shell.SHEnumKeyEx, shlwapi/SHEnumKeyEx, shlwapi/SHEnumKeyExA, shlwapi/SHEnumKeyExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

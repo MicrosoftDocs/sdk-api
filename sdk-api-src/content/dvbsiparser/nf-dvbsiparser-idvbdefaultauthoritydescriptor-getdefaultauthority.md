@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbDefaultAuthorityDescriptor.GetDefaultAuthority
 title: IDvbDefaultAuthorityDescriptor::GetDefaultAuthority
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the string identifying the default authority from a Digital Video Broadcast (DVB) content reference identifier (CRID).
 old-location: mstv\idvbdefaultauthoritydescriptor_getdefaultauthority.htm
 old-project: mstv
 ms.assetid: dd615bd1-3db7-4577-aa10-d68ad61b068c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDefaultAuthority, GetDefaultAuthority method [Microsoft TV Technologies], GetDefaultAuthority method [Microsoft TV Technologies],IDvbDefaultAuthorityDescriptor interface, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],GetDefaultAuthority method, IDvbDefaultAuthorityDescriptor.GetDefaultAuthority, IDvbDefaultAuthorityDescriptor::GetDefaultAuthority, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetDefaultAuthority, mstv.idvbdefaultauthoritydescriptor_getdefaultauthority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

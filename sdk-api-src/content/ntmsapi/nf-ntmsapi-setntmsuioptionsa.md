@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SetNtmsUIOptionsA
 title: SetNtmsUIOptionsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object.
 old-location: fs\setntmsuioptions.htm
 old-project: Rsm
 ms.assetid: 1e76fddc-20b4-4645-9519-2033487dbbc5
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: NTMS_UIDEST_ADD, NTMS_UIDEST_DELETE, NTMS_UIDEST_DELETEALL, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, SetNtmsUIOptions, SetNtmsUIOptions function [Files], SetNtmsUIOptionsA, SetNtmsUIOptionsW, _zaw_setntmsuioptions, base.setntmsuioptions, fs.setntmsuioptions, ntmsapi/SetNtmsUIOptions, ntmsapi/SetNtmsUIOptionsA, ntmsapi/SetNtmsUIOptionsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

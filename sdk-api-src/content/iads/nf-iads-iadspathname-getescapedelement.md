@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPathname.GetEscapedElement
 title: IADsPathname::GetEscapedElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to escape special characters in the input path.
 old-location: adsi\iadspathname_getescapedelement.htm
 old-project: ADSI
 ms.assetid: a61702bd-26a8-4bd9-96c1-82a59dad7ead
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetEscapedElement, GetEscapedElement method [ADSI], GetEscapedElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetEscapedElement method, IADsPathname.GetEscapedElement, IADsPathname::GetEscapedElement, _ds_iadspathname_getescapedelement, adsi.iadspathname__getescapedelement, adsi.iadspathname_getescapedelement, iads/IADsPathname::GetEscapedElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

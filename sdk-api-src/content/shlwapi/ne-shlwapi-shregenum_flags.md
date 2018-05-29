@@ -1,16 +1,16 @@
 ---
 UID: NE:shlwapi.SHREGENUM_FLAGS
 title: SHREGENUM_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a set of values that indicate the base key that will be used for an enumeration.
 old-location: shell\SHREGENUM_FLAGS.htm
 old-project: shell
 ms.assetid: 4216a983-9d53-44b1-8273-e5a90ac4b3ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHREGENUM_BOTH, SHREGENUM_DEFAULT, SHREGENUM_FLAGS, SHREGENUM_FLAGS enumeration [Windows Shell], SHREGENUM_HKCU, SHREGENUM_HKLM, _win32_SHREGENUM_FLAGS, shell.SHREGENUM_FLAGS, shlwapi/SHREGENUM_BOTH, shlwapi/SHREGENUM_DEFAULT, shlwapi/SHREGENUM_FLAGS, shlwapi/SHREGENUM_HKCU, shlwapi/SHREGENUM_HKLM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 

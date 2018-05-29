@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.DoVerb
 title: IOleObject::DoVerb
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests that an object perform an action in response to an end-user's action. The possible actions are enumerated for the object in IOleObject::EnumVerbs.
 old-location: com\ioleobject_doverb.htm
 old-project: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

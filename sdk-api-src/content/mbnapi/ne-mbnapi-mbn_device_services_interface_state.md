@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_DEVICE_SERVICES_INTERFACE_STATE
 title: MBN_DEVICE_SERVICES_INTERFACE_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: mbn\mbn_device_services_interface_state.htm
 old-project: mbn
 ms.assetid: 0EDED390-CB60-4D6C-9E62-87B3BF6F9050
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL, MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_REMOVAL, MBN_DEVICE_SERVICES_INTERFACE_STATE, MBN_DEVICE_SERVICES_INTERFACE_STATE enumeration [Microsoft Broadband Networks], mbn.mbn_device_services_interface_state, mbnapi/MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL, mbnapi/MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_REMOVAL, mbnapi/MBN_DEVICE_SERVICES_INTERFACE_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

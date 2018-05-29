@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIFileExit
 title: AVIFileExit function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFileExit function exits the AVIFile library and decrements the reference count for the library.
 old-location: multimedia\avifileexit.htm
 old-project: Multimedia
 ms.assetid: 2daa509a-9e95-4f49-8195-97d3e7cd17b4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIFileExit, AVIFileExit function [Windows Multimedia], _win32_AVIFileExit, multimedia.avifileexit, vfw/AVIFileExit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

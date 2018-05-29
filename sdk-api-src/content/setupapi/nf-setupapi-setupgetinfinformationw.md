@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetInfInformationW
 title: SetupGetInfInformationW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetUpGetInfInformation function returns the SP_INF_INFORMATION structure for the specified INF file to a buffer.
 old-location: setup\setupgetinfinformation.htm
 old-project: SetupApi
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

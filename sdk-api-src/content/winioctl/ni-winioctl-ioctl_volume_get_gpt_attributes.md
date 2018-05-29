@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_GET_GPT_ATTRIBUTES
 title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attributes for a volume.
 old-location: fs\ioctl_volume_get_gpt_attributes.htm
 old-project: FileIO
 ms.assetid: 3e58e0d6-215a-47f3-b1bf-e8d53c224b68
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_VOLUME_GET_GPT_ATTRIBUTES, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code [Files], fs.ioctl_volume_get_gpt_attributes, winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutex
 title: IMFASFStreamSelector::GetOutputMutex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a mutual exclusion object for an output.
 old-location: mf\imfasfstreamselector_getoutputmutex.htm
 old-project: medfound
 ms.assetid: d134f4a9-9bca-454f-8dc1-2e152684a4bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetOutputMutex, GetOutputMutex method [Media Foundation], GetOutputMutex method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutex method, IMFASFStreamSelector.GetOutputMutex, IMFASFStreamSelector::GetOutputMutex, d134f4a9-9bca-454f-8dc1-2e152684a4bf, mf.imfasfstreamselector_getoutputmutex, wmcontainer/IMFASFStreamSelector::GetOutputMutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

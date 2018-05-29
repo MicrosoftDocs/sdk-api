@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAHtons
 title: WSAHtons function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAHtons function converts a u_short from host byte order to network byte order.
 old-location: winsock\wsahtons_2.htm
 old-project: WinSock
 ms.assetid: 95fb103b-f7dd-4fa4-bf68-ed8e87cdd96b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.wsahtons_2, winsock2/WSAHtons
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

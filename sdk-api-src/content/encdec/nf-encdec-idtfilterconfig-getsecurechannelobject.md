@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilterConfig.GetSecureChannelObject
 title: IDTFilterConfig::GetSecureChannelObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
 old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
 old-project: mstv
 ms.assetid: 84057a08-b15f-4738-814d-c016507ac590
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IDTFilterConfig interface, IDTFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
 title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the previous language exception error information object.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo.htm
 old-project: WinRT
 ms.assetid: 10A45EF1-AF8F-498D-B95B-FCE9EF8AB203
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetPreviousLanguageExceptionErrorInfo, GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPreviousLanguageExceptionErrorInfo method, ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo, ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: restrictederrorinfo.h
 req.include-header: 

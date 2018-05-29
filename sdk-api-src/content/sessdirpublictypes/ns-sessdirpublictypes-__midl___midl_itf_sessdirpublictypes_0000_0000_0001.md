@@ -1,16 +1,16 @@
 ---
 UID: NS:sessdirpublictypes.__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001
 title: "__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\client_display.htm
 old-project: TermServ
 ms.assetid: 6436c049-d710-4208-882a-0c7e83b4a079
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PCLIENT_DISPLAY, CLIENT_DISPLAY, CLIENT_DISPLAY structure [Remote Desktop Services], PCLIENT_DISPLAY, PCLIENT_DISPLAY structure pointer [Remote Desktop Services], __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001, sessdirpublictypes/CLIENT_DISPLAY, sessdirpublictypes/PCLIENT_DISPLAY, termserv.client_display"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sessdirpublictypes.h
 req.include-header: 

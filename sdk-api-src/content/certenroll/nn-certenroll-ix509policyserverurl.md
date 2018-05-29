@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509PolicyServerUrl
 title: IX509PolicyServerUrl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IX509PolicyServerUrl interface can be used to set or retrieve property values associated with the certificate enrollment policy (CEP) server and to update associated registry values.
 old-location: security\ix509policyserverurl.htm
 old-project: SecCertEnroll
 ms.assetid: ad9d61ec-f607-4f71-ad8a-28d821e29c27
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], IX509PolicyServerUrl interface [Security],described, certenroll/IX509PolicyServerUrl, security.ix509policyserverurl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetEnumerator
 title: IOpcRelationshipSet::GetEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator of IOpcRelationship interface pointers in the set.
 old-location: opc\iopcrelationshipset_getenumerator.htm
 old-project: OPC
 ms.assetid: bcffa20d-b86e-4bfe-9f67-7404d44acb03
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetEnumerator method, IOpcRelationshipSet.GetEnumerator, IOpcRelationshipSet::GetEnumerator, msopc/IOpcRelationshipSet::GetEnumerator, opc.iopcrelationshipset_getenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

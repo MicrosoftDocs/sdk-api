@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetCompositionStringW
 title: ImmGetCompositionStringW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the composition string.
 old-location: intl\immgetcompositionstring.htm
 old-project: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

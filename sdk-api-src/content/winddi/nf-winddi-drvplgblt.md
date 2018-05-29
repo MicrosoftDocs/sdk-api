@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvPlgBlt
 title: DrvPlgBlt function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvPlgBlt function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
 old-location: display\drvplgblt.htm
 old-project: display
 ms.assetid: 5bd478f1-0c01-4d7f-9ed1-af84e5bbe773
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvPlgBlt, DrvPlgBlt function [Display Devices], ddifncs_7ede9dd6-c295-42b1-96f0-966ce103cc2e.xml, display.drvplgblt, winddi/DrvPlgBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

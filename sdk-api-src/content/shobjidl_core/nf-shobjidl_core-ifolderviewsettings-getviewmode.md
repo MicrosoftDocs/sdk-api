@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetViewMode
 title: IFolderViewSettings::GetViewMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a folder's logical view mode.
 old-location: shell\IFolderViewSettings_GetViewMode.htm
 old-project: shell
 ms.assetid: 4b050a69-39df-41f8-8d54-8c576bad3c2d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetViewMode, GetViewMode method [Windows Shell], GetViewMode method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetViewMode method, IFolderViewSettings.GetViewMode, IFolderViewSettings::GetViewMode, _shell_IFolderViewSettings_GetViewMode, shell.IFolderViewSettings_GetViewMode, shobjidl_core/IFolderViewSettings::GetViewMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

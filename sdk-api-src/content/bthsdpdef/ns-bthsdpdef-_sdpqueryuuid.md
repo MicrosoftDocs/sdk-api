@@ -1,16 +1,16 @@
 ---
 UID: NS:bthsdpdef._SdpQueryUuid
 title: "_SdpQueryUuid"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SdpQueryUuid structure facilitates searching for UUIDs.
 old-location: bluetooth\sdpqueryuuid.htm
 old-project: Bluetooth
 ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: SdpQueryUuid, SdpQueryUuid structure [Bluetooth], _SdpQueryUuid, bluetooth.sdpqueryuuid, bthsdpdef/SdpQueryUuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthsdpdef.h
 req.include-header: 

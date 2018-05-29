@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDWORD
 title: ITfCategoryMgr::GetGUIDDWORD
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCategoryMgr::GetGUIDDWORD method
 old-location: tsf\itfcategorymgr_getguiddword.htm
 old-project: TSF
 ms.assetid: 016d77b5-fc08-4d2b-a9c4-50ae7926a057
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGUIDDWORD, GetGUIDDWORD method [Text Services Framework], GetGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDWORD method, ITfCategoryMgr.GetGUIDDWORD, ITfCategoryMgr::GetGUIDDWORD, _tsf_itfcategorymgr_getguiddword_ref, msctf/ITfCategoryMgr::GetGUIDDWORD, tsf.itfcategorymgr_getguiddword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

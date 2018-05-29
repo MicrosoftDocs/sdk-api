@@ -1,16 +1,16 @@
 ---
 UID: NF:websocket.WebSocketBeginServerHandshake
 title: WebSocketBeginServerHandshake function
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins the server-side handshake.
 old-location: websock\websocketbeginserverhandshake.htm
 old-project: WebSock
 ms.assetid: 4009b56c-a92c-43fe-9e7b-2c38048aa748
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WebSocketBeginServerHandshake, WebSocketBeginServerHandshake function [Websocket Protocol Component API], websock.websocketbeginserverhandshake, websocket/WebSocketBeginServerHandshake
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

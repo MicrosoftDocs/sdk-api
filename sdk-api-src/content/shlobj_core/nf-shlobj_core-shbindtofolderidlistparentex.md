@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHBindToFolderIDListParentEx
 title: SHBindToFolderIDListParentEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the SHBindToFolderIDListParent function by allowing the caller to specify a bind context.
 old-location: shell\SHBindToFolderIDListParentEx.htm
 old-project: shell
 ms.assetid: 4f9b68cb-d0ae-45f7-90f5-2db1da3ab599
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHBindToFolderIDListParentEx, SHBindToFolderIDListParentEx function [Windows Shell], _shell_SHBindToFolderIDListParentEx, shell.SHBindToFolderIDListParentEx, shlobj_core/SHBindToFolderIDListParentEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.ITuneRequest
 title: ITuneRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITuneRequest interface is the base interface for all tune requests.
 old-location: mstv\itunerequest.htm
 old-project: mstv
 ms.assetid: 34077b45-32b4-466b-b103-6a42fc869265
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], ITuneRequest interface [Microsoft TV Technologies],described, ITuneRequestInterface, mstv.itunerequest, tuner/ITuneRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

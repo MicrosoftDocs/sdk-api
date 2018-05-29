@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagMENUGETOBJECTINFO
 title: tagMENUGETOBJECTINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the menu that the mouse cursor is on.
 old-location: menurc\menugetobjectinfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menugetobjectinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PMENUGETOBJECTINFO, MENUGETOBJECTINFO, MENUGETOBJECTINFO structure [Menus and Other Resources], MNGOF_BOTTOMGAP, MNGOF_TOPGAP, PMENUGETOBJECTINFO, PMENUGETOBJECTINFO structure pointer [Menus and Other Resources], _win32_MENUGETOBJECTINFO_str, _win32_menugetobjectinfo_str_cpp, menurc.menugetobjectinfo, tagMENUGETOBJECTINFO, winui._win32_menugetobjectinfo_str, winuser/MENUGETOBJECTINFO, winuser/PMENUGETOBJECTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

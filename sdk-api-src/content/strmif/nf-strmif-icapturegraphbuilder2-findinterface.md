@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.FindInterface
 title: ICaptureGraphBuilder2::FindInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The FindInterface method searches the graph for a specified interface, starting from a specified filter.
 old-location: dshow\icapturegraphbuilder2_findinterface.htm
 old-project: DirectShow
 ms.assetid: 931b42bf-25d6-4f0a-8c45-baf8ed65e302
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindInterface method, ICaptureGraphBuilder2.FindInterface, ICaptureGraphBuilder2::FindInterface, ICaptureGraphBuilder2FindInterface, dshow.icapturegraphbuilder2_findinterface, strmif/ICaptureGraphBuilder2::FindInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.Recognize
 title: IInkLineInfo::Recognize
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved.
 old-location: tablet\iinklineinfo_recognize.htm
 old-project: tablet
 ms.assetid: b6a0f559-72e8-40db-ba9a-0f1b27ba6a96
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkLineInfo interface [Tablet PC],Recognize method, IInkLineInfo.Recognize, IInkLineInfo::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkLineInfo interface, b6a0f559-72e8-40db-ba9a-0f1b27ba6a96, msinkaut/IInkLineInfo::Recognize, tablet.iinklineinfo_recognize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

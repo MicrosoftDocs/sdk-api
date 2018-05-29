@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupIterateCabinetA
 title: SetupIterateCabinetA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupIterateCabinet function iterates through all the files in a cabinet and sends a notification to a callback function for each file found.
 old-location: setup\setupiteratecabinet.htm
 old-project: SetupApi
 ms.assetid: 2fa2d140-fa8e-41a8-9800-d10e5559fab4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], SetupIterateCabinetA, SetupIterateCabinetW, _setupapi_setupiteratecabinet, setup.setupiteratecabinet, setupapi/SetupIterateCabinet, setupapi/SetupIterateCabinetA, setupapi/SetupIterateCabinetW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:nb30._ADAPTER_STATUS
 title: "_ADAPTER_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADAPTER_STATUS structure contains information about a network adapter.
 old-location: netbios\adapter_status.htm
 old-project: NetBIOS
 ms.assetid: 402bc5ce-bce4-4ba9-b82d-13cd3dc7097b
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.author: windowssdkdev
+ms.date: 05/02/2018
 ms.keywords: "*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIOS], PADAPTER_STATUS, PADAPTER_STATUS structure pointer [NetBIOS], _ADAPTER_STATUS, nb30/ADAPTER_STATUS, nb30/PADAPTER_STATUS, netbios.adapter_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

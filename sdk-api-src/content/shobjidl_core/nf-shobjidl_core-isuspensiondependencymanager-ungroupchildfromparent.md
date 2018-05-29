@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.UngroupChildFromParent
 title: ISuspensionDependencyManager::UngroupChildFromParent
-author: windows-driver-content
+author: windows-sdk-content
 description: ISuspensionDependencyManager::UngroupChildFromParent method
 old-location: shell\ISuspensionDependencyManager_UngroupChildFromParent.htm
 old-project: shell
 ms.assetid: 4635FCD2-C49F-45F1-8D48-6BA418EBDFD0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISuspensionDependencyManager interface [Windows Shell],UngroupChildFromParent method, ISuspensionDependencyManager.UngroupChildFromParent, ISuspensionDependencyManager::UngroupChildFromParent, UngroupChildFromParent, UngroupChildFromParent method [Windows Shell], UngroupChildFromParent method [Windows Shell],ISuspensionDependencyManager interface, shell.ISuspensionDependencyManager_UngroupChildFromParent, shobjidl_core/ISuspensionDependencyManager::UngroupChildFromParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

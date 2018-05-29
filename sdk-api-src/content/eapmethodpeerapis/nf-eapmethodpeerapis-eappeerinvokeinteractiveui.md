@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeInteractiveUI
 title: EapPeerInvokeInteractiveUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Raises a custom interactive user interface dialog for the EAP method on the client.
 old-location: eaphost\eappeerinvokeinteractiveui.htm
 old-project: EAPHost
 ms.assetid: 16301c49-4415-4ebe-abdd-a03183db5f20
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerInvokeInteractiveUI, EapPeerInvokeInteractiveUI function [EAPHost], eaphost.eappeerinvokeinteractiveui, eapmethodpeerapis/EapPeerInvokeInteractiveUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_VPCAPS
 title: "_DXVAHD_VPCAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_vpcaps.htm
 old-project: medfound
 ms.assetid: 25ec6802-ca6e-42d4-b1d5-de7597e3d042
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_VPCAPS, DXVAHD_VPCAPS structure [Media Foundation], _DXVAHD_VPCAPS, dxvahd/DXVAHD_VPCAPS, mf.dxvahd_vpcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

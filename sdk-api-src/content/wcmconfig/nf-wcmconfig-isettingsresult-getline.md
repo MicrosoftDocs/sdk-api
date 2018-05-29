@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetLine
 title: ISettingsResult::GetLine
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the line number where the error has occurred.
 old-location: smi\isettingsresult_getline.htm
 old-project: SMI
 ms.assetid: c74beea9-5e81-4cd2-ade2-c812b6a035a1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetLine, GetLine method [SMI], GetLine method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetLine method, ISettingsResult.GetLine, ISettingsResult::GetLine, smi.isettingsresult_getline, wcmconfig/ISettingsResult::GetLine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

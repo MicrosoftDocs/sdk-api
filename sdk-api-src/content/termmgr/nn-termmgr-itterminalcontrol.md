@@ -1,16 +1,16 @@
 ---
 UID: NN:termmgr.ITTerminalControl
 title: ITTerminalControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITTerminalControl interface provides methods to get the MSP handle, connect and disconnect a terminal from a filter graph, and run or stop a renderer.
 old-location: tapi3\itterminalcontrol.htm
 old-project: Tapi
 ms.assetid: 6fe60002-3af3-45e9-a084-7296a48e7263
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTerminalControl, ITTerminalControl interface [TAPI 2.2], ITTerminalControl interface [TAPI 2.2],described, _tapi3_itterminalcontrol, tapi3.itterminalcontrol, termmgr/ITTerminalControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: termmgr.h
 req.include-header: 

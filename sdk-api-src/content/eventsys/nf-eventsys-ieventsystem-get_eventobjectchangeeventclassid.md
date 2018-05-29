@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSystem.get_EventObjectChangeEventClassID
 title: IEventSystem::get_EventObjectChangeEventClassID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the CLSID of an event class object that notifies the caller of changes to the event store.
 old-location: cos\ieventsystem_eventobjectchangeeventclassid.htm
 old-project: cossdk
 ms.assetid: 58cd529d-f1e5-4777-9999-3f223d27dc64
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventObjectChangeEventClassID property [COM+], EventObjectChangeEventClassID property [COM+],IEventSystem interface, IEventSystem interface [COM+],EventObjectChangeEventClassID property, IEventSystem.EventObjectChangeEventClassID, IEventSystem.get_EventObjectChangeEventClassID, IEventSystem::EventObjectChangeEventClassID, IEventSystem::get_EventObjectChangeEventClassID, _cos_IEventSystem_Properties, cos.ieventsystem_eventobjectchangeeventclassid, eventsys/IEventSystem::EventObjectChangeEventClassID, eventsys/IEventSystem::get_EventObjectChangeEventClassID, get_EventObjectChangeEventClassID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

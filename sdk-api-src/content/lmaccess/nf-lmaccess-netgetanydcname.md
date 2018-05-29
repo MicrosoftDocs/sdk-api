@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetGetAnyDCName
 title: NetGetAnyDCName function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetGetAnyDCName function returns the name of any domain controller (DC) for a domain that is directly trusted by the specified server.
 old-location: netmgmt\netgetanydcname.htm
 old-project: NetMgmt
 ms.assetid: 64dacbf4-46c2-4f82-b250-b7d338535e7c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetGetAnyDCName, NetGetAnyDCName function [Network Management], _win32_netgetanydcname, lmaccess/NetGetAnyDCName, netmgmt.netgetanydcname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

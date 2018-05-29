@@ -1,16 +1,16 @@
 ---
 UID: NF:dssec.DSEditSecurity
 title: DSEditSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a modal dialog box for editing security on a Directory Services (DS) object.
 old-location: security\dseditsecurity.htm
 old-project: SecAuthZ
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dssec.h
 req.include-header: 

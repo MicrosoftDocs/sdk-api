@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetTitle
 title: IXpsOMCoreProperties::SetTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the title property.
 old-location: xps\ixpsomcoreproperties_settitle.htm
 old-project: printdocs
 ms.assetid: 55562670-576f-483d-abcf-f69ce279245d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetTitle method, IXpsOMCoreProperties.SetTitle, IXpsOMCoreProperties::SetTitle, SetTitle, SetTitle method [XPS Documents and Packaging], SetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_settitle, xpsobjectmodel/IXpsOMCoreProperties::SetTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

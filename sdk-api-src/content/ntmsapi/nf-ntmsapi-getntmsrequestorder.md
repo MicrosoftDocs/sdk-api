@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.GetNtmsRequestOrder
 title: GetNtmsRequestOrder function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNtmsRequestOrder function gets the order that the specified request will be processed in the library queue.
 old-location: fs\getntmsrequestorder.htm
 old-project: Rsm
 ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

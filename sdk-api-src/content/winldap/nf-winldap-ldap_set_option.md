@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_set_option
 title: ldap_set_option function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets options on connection blocks.
 old-location: ldap\ldap_set_option.htm
 old-project: LDAP
 ms.assetid: b6d6b285-7302-4812-bbcb-0aeb5b53cf23
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_set_option, ldap.ldap__set__option, ldap.ldap_set_option, ldap_set_option, ldap_set_option function [LDAP], ldap_set_optionW, winldap/ldap_set_option, winldap/ldap_set_optionW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

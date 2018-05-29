@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_1.D2D1_LAYER_OPTIONS1
 title: D2D1_LAYER_OPTIONS1
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the layer contents should be prepared.
 old-location: direct2d\d2d1_layer_options1.htm
 old-project: Direct2D
 ms.assetid: 13C9EDE7-A1D0-4359-8EF3-77FF763B9244
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_LAYER_OPTIONS1, D2D1_LAYER_OPTIONS1 enumeration [Direct2D], D2D1_LAYER_OPTIONS1_IGNORE_ALPHA, D2D1_LAYER_OPTIONS1_INITIALIZE_FROM_BACKGROUND, D2D1_LAYER_OPTIONS1_NONE, d2d1_1/D2D1_LAYER_OPTIONS1, d2d1_1/D2D1_LAYER_OPTIONS1_IGNORE_ALPHA, d2d1_1/D2D1_LAYER_OPTIONS1_INITIALIZE_FROM_BACKGROUND, d2d1_1/D2D1_LAYER_OPTIONS1_NONE, direct2d.d2d1_layer_options1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanConnect
 title: WlanConnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Attempts to connect to a specific network.
 old-location: nwifi\wlanconnect.htm
 old-project: NativeWiFi
 ms.assetid: 24ab2024-e786-454f-860f-cf2431f001bb
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanConnect, WlanConnect function [NativeWIFI], nwifi.wlanconnect, wlanapi/WlanConnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

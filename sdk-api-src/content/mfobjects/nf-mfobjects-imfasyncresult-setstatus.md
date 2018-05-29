@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.SetStatus
 title: IMFAsyncResult::SetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the status of the asynchronous operation.
 old-location: mf\imfasyncresult_setstatus.htm
 old-project: medfound
 ms.assetid: 79dec067-ba54-435b-8744-9a6f43dd416d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 79dec067-ba54-435b-8744-9a6f43dd416d, IMFAsyncResult interface [Media Foundation],SetStatus method, IMFAsyncResult.SetStatus, IMFAsyncResult::SetStatus, SetStatus, SetStatus method [Media Foundation], SetStatus method [Media Foundation],IMFAsyncResult interface, mf.imfasyncresult_setstatus, mfobjects/IMFAsyncResult::SetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

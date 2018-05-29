@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdbase.IWSDAddress
 title: IWSDAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the individual components of a transport address.
 old-location: ncd\iwsdaddress.htm
 old-project: WsdApi
 ms.assetid: b19938b2-2fba-42fe-8c4e-5696c40acd58
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDAddress, IWSDAddress interface, IWSDAddress interface,described, ncd.iwsdaddress, wsdbase/IWSDAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

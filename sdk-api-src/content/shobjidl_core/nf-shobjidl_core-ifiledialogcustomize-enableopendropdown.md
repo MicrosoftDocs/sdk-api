@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.EnableOpenDropDown
 title: IFileDialogCustomize::EnableOpenDropDown
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a drop-down list on the Open or Save button in the dialog.
 old-location: shell\IFileDialogCustomize_EnableOpenDropDown.htm
 old-project: shell
 ms.assetid: b4626030-0fc7-4329-b897-01f4ce8728a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnableOpenDropDown, EnableOpenDropDown method [Windows Shell], EnableOpenDropDown method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EnableOpenDropDown method, IFileDialogCustomize.EnableOpenDropDown, IFileDialogCustomize::EnableOpenDropDown, shell.IFileDialogCustomize_EnableOpenDropDown, shell_IFileDialogCustomize_EnableOpenDropDown, shobjidl_core/IFileDialogCustomize::EnableOpenDropDown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

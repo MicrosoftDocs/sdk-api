@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY0_
 title: IPSEC_TUNNEL_POLICY0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the quick mode negotiation policy for tunnel mode IPsec.
 old-location: fwp\ipsec_tunnel_policy0_struct.htm
 old-project: FWP
 ms.assetid: 092b108c-47e1-4b2f-b7ed-184cf8abb392
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TUNNEL_POLICY0, IPSEC_TUNNEL_POLICY0 structure [Filtering], IPSEC_TUNNEL_POLICY0_, fwp.ipsec_tunnel_policy0_struct, ipsectypes/IPSEC_TUNNEL_POLICY0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

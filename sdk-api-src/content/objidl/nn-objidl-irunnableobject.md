@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IRunnableObject
 title: IRunnableObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a container to control the running of its embedded objects.
 old-location: com\irunnableobject.htm
 old-project: com
 ms.assetid: c682447b-5b12-41d5-a81d-fe94a117f740
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject interface [COM],described, _com_irunnableobject, com.irunnableobject, objidl/IRunnableObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

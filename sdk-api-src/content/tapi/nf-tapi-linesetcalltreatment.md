@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetCallTreatment
 title: lineSetCallTreatment function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetCallTreatment function sets the sounds a party on a call that is unanswered or on hold hears. Except for basic parameter validation, it is a straight pass-through by TAPI to the service provider.
 old-location: tapi2\linesetcalltreatment.htm
 old-project: Tapi
 ms.assetid: 0f1a3303-f6c3-4a5f-99bd-35e107c9b0b0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetcalltreatment, lineSetCallTreatment, lineSetCallTreatment function [TAPI 2.2], tapi/lineSetCallTreatment, tapi2.linesetcalltreatment"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

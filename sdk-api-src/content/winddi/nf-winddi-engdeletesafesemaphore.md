@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngDeleteSafeSemaphore
 title: EngDeleteSafeSemaphore function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngDeleteSafeSemaphore function removes a reference to the specified safe semaphore.
 old-location: display\engdeletesafesemaphore.htm
 old-project: display
 ms.assetid: d4789803-2343-4d9a-a146-79206d88d59e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngDeleteSafeSemaphore, EngDeleteSafeSemaphore function [Display Devices], display.engdeletesafesemaphore, gdifncs_ffbf0904-619e-48be-ada1-4269c8a92f55.xml, winddi/EngDeleteSafeSemaphore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

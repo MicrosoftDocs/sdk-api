@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_SuppressDefaults
 title: IX509CertificateRequest::get_SuppressDefaults
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether the default extensions and attributes are included in the request.
 old-location: security\ix509certificaterequest_suppressdefaults_property.htm
 old-project: SecCertEnroll
 ms.assetid: 3a7847b6-52b4-4058-8113-cbc3b9101a5b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequest interface [Security],SuppressDefaults property, IX509CertificateRequest.SuppressDefaults, IX509CertificateRequest.get_SuppressDefaults, IX509CertificateRequest::SuppressDefaults, IX509CertificateRequest::get_SuppressDefaults, IX509CertificateRequest::put_SuppressDefaults, SuppressDefaults property [Security], SuppressDefaults property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::SuppressDefaults, certenroll/IX509CertificateRequest::get_SuppressDefaults, certenroll/IX509CertificateRequest::put_SuppressDefaults, get_SuppressDefaults, security.ix509certificaterequest_suppressdefaults_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

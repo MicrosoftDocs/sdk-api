@@ -1,16 +1,16 @@
 ---
 UID: NE:msclus.CLUSTER_NETINTERFACE_STATE
 title: CLUSTER_NETINTERFACE_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the possible values of the state of a network interface.
 old-location: mscs\cluster_netinterface_state.htm
 old-project: MsCS
 ms.assetid: 8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_NETINTERFACE_STATE, CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], ClusterNetInterfaceFailed, ClusterNetInterfaceStateUnknown, ClusterNetInterfaceUnavailable, ClusterNetInterfaceUnreachable, ClusterNetInterfaceUp, _CLUSTER_NETINTERFACE_STATE, _CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETINTERFACE_STATE, clusapi/ClusterNetInterfaceFailed, clusapi/ClusterNetInterfaceStateUnknown, clusapi/ClusterNetInterfaceUnavailable, clusapi/ClusterNetInterfaceUnreachable, clusapi/ClusterNetInterfaceUp, clusapi/_CLUSTER_NETINTERFACE_STATE, msclus/CLUSTER_NETINTERFACE_STATE, msclus/ClusterNetInterfaceFailed, msclus/ClusterNetInterfaceStateUnknown, msclus/ClusterNetInterfaceUnavailable, msclus/ClusterNetInterfaceUnreachable, msclus/ClusterNetInterfaceUp, msclus/_CLUSTER_NETINTERFACE_STATE, mscs.cluster_netinterface_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:wsdtypes._WSDEventType
 title: "_WSDEventType"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of event produced by the session layer.
 old-location: ncd\wsdeventtype_enum.htm
 old-project: WsdApi
 ms.assetid: e65742da-57ef-44a8-be3b-5736714747d3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDET_INCOMING_FAULT, WSDET_INCOMING_MESSAGE, WSDET_NONE, WSDET_RESPONSE_TIMEOUT, WSDET_TRANSMISSION_FAILURE, WSDEventType, WSDEventType enumeration, _WSDEventType, ncd.wsdeventtype_enum, wsdtypes/WSDET_INCOMING_FAULT, wsdtypes/WSDET_INCOMING_MESSAGE, wsdtypes/WSDET_NONE, wsdtypes/WSDET_RESPONSE_TIMEOUT, wsdtypes/WSDET_TRANSMISSION_FAILURE, wsdtypes/WSDEventType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

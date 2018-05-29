@@ -1,16 +1,16 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffectsCustomFormats
 title: IAudioSystemEffectsCustomFormats
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioSystemEffectsCustomFormats interface is supported in Windows Vista and later versions of Windows.
 old-location: audio\iaudiosystemeffectscustomformats.htm
 old-project: audio
 ms.assetid: 29b758c0-5bbe-489c-9950-bc92a185fbaf
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats interface [Audio Devices], IAudioSystemEffectsCustomFormats interface [Audio Devices],described, audio.iaudiosystemeffectscustomformats, audio_syseffects_r_c8bb1589-9952-4e31-8153-653c3dd0f174.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 

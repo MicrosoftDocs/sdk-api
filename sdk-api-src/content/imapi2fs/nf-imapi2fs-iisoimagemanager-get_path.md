@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.get_Path
 title: IIsoImageManager::get_Path
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrives the logical path to an .iso image.
 old-location: imapi\iisoimagemanager_get_path.htm
 old-project: imapi
 ms.assetid: 56166789-8eeb-4468-a85e-b35e665170d6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IIsoImageManager interface [IMAPI],get_Path method, IIsoImageManager.get_Path, IIsoImageManager::get_Path, get_Path, get_Path method [IMAPI], get_Path method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_path, imapi2fs/IIsoImageManager::get_Path
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

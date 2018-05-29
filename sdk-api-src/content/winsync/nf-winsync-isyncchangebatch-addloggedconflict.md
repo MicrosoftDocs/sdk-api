@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.AddLoggedConflict
 title: ISyncChangeBatch::AddLoggedConflict
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds metadata that represents a conflict to the change batch.
 old-location: winsync\isyncchangebatch_addloggedconflict.htm
 old-project: winsync
 ms.assetid: e7f83c35-754a-4211-b893-2df6f65266a6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddLoggedConflict, AddLoggedConflict method [Windows Sync], AddLoggedConflict method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],AddLoggedConflict method, ISyncChangeBatch.AddLoggedConflict, ISyncChangeBatch::AddLoggedConflict, winsync.isyncchangebatch_addloggedconflict, winsync/ISyncChangeBatch::AddLoggedConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

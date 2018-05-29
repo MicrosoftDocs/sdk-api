@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDGETPOLARITYIN
 title: "_DDGETPOLARITYIN"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handles.
 old-location: display\ddgetpolarityin.htm
 old-project: display
 ms.assetid: 8ef7a1b7-1111-440d-8318-46d2135142e2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDGETPOLARITYIN, DDGETPOLARITYIN, DDGETPOLARITYIN structure [Display Devices], LPDDGETPOLARITYIN, LPDDGETPOLARITYIN structure pointer [Display Devices], _DDGETPOLARITYIN, ddkmapi/DDGETPOLARITYIN, ddkmapi/LPDDGETPOLARITYIN, ddstrcts_d84baddb-b5f0-4b66-86fd-504dbf05608c.xml, display.ddgetpolarityin"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

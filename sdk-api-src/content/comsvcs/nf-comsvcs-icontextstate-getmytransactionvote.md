@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IContextState.GetMyTransactionVote
 title: IContextState::GetMyTransactionVote
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the consistent flag.
 old-location: cos\icontextstate_getmytransactionvote.htm
 old-project: cossdk
 ms.assetid: 72384c53-ce4a-413e-8ff6-33925c8cd0df
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMyTransactionVote, GetMyTransactionVote method [COM+], GetMyTransactionVote method [COM+],IContextState interface, IContextState interface [COM+],GetMyTransactionVote method, IContextState.GetMyTransactionVote, IContextState::GetMyTransactionVote, _cos_IContextState_GetMyTransactionVote, comsvcs/IContextState::GetMyTransactionVote, cos.icontextstate_getmytransactionvote
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

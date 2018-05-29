@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoSetProxyBlanket
 title: CoSetProxyBlanket function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the authentication information that will be used to make calls on the specified proxy.
 old-location: com\cosetproxyblanket.htm
 old-project: com
 ms.assetid: c2e5e681-8fa5-4b02-b59d-ba796eb0dccf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoSetProxyBlanket, CoSetProxyBlanket function [COM], _com_CoSetProxyBlanket, com.cosetproxyblanket, combaseapi/CoSetProxyBlanket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

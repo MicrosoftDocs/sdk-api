@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem.BindToHandler
 title: IShellItem::BindToHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to a handler for an item as specified by the handler ID value (BHID).
 old-location: shell\IShellItem_BindToHandler.htm
 old-project: shell
 ms.assetid: fadd70cd-5018-4b71-af7b-d9c780ebddc5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_EnumAssocHandlers, BHID_EnumItems, BHID_FilePlaceholder, BHID_Filter, BHID_LinkTargetItem, BHID_PropertyStore, BHID_RandomAccessStream, BHID_SFObject, BHID_SFUIObject, BHID_SFViewObject, BHID_Storage, BHID_StorageEnum, BHID_Stream, BHID_ThumbnailHandler, BHID_Transfer, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],BindToHandler method, IShellItem.BindToHandler, IShellItem::BindToHandler, _win32_IShellItem_BindToHandler, shell.IShellItem_BindToHandler, shobjidl_core/IShellItem::BindToHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

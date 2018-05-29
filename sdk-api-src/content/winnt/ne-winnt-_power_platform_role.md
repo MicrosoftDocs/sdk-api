@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt._POWER_PLATFORM_ROLE
 title: "_POWER_PLATFORM_ROLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the OEM's preferred power management profile.
 old-location: base\power_platform_role.htm
 old-project: Power
 ms.assetid: ec94a0c4-8451-47a5-be48-9d5ed76c3585
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PPOWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE enumeration, PlatformRoleAppliancePC, PlatformRoleDesktop, PlatformRoleEnterpriseServer, PlatformRoleMaximum, PlatformRoleMobile, PlatformRolePerformanceServer, PlatformRoleSOHOServer, PlatformRoleSlate, PlatformRoleUnspecified, PlatformRoleWorkstation, _POWER_PLATFORM_ROLE, base.power_platform_role, winnt/POWER_PLATFORM_ROLE, winnt/PlatformRoleAppliancePC, winnt/PlatformRoleDesktop, winnt/PlatformRoleEnterpriseServer, winnt/PlatformRoleMaximum, winnt/PlatformRoleMobile, winnt/PlatformRolePerformanceServer, winnt/PlatformRoleSOHOServer, winnt/PlatformRoleSlate, winnt/PlatformRoleUnspecified, winnt/PlatformRoleWorkstation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

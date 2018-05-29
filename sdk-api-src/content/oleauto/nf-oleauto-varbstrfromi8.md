@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBstrFromI8
 title: VarBstrFromI8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an 8-byte unsigned integer value to a BSTR value.
 old-location: automat\varbstrfromi8.htm
 old-project: automat
 ms.assetid: c81118ce-fbd7-4ac1-a388-db4fef58f30c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarBstrFromI8, VarBstrFromI8 function [Automation], _oa96_VarBstrFromI8, automat.varbstrfromi8, oleauto/VarBstrFromI8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

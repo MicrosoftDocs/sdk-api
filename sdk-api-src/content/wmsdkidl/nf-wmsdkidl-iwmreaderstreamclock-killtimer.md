@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderStreamClock.KillTimer
 title: IWMReaderStreamClock::KillTimer
-author: windows-driver-content
+author: windows-sdk-content
 description: The KillTimer method cancels a timer that has been set on the clock.
 old-location: wmformat\iwmreaderstreamclock_killtimer.htm
 old-project: wmformat
 ms.assetid: ebcd965f-8ea1-44e2-b1b4-c34a229058b2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderStreamClock interface [windows Media Format],KillTimer method, IWMReaderStreamClock.KillTimer, IWMReaderStreamClock::KillTimer, IWMReaderStreamClockKillTimer, KillTimer, KillTimer method [windows Media Format], KillTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_killtimer, wmsdkidl/IWMReaderStreamClock::KillTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

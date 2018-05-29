@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.SendOneWayRequest
 title: IWSDEndpointProxy::SendOneWayRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a one-way request message.
 old-location: ncd\iwsdendpointproxy_sendonewayrequest.htm
 old-project: WsdApi
 ms.assetid: e610c68f-1fce-42fa-8527-8ca2d9267c90
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDEndpointProxy interface,SendOneWayRequest method, IWSDEndpointProxy.SendOneWayRequest, IWSDEndpointProxy::SendOneWayRequest, SendOneWayRequest, SendOneWayRequest method, SendOneWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendonewayrequest, wsdclient/IWSDEndpointProxy::SendOneWayRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

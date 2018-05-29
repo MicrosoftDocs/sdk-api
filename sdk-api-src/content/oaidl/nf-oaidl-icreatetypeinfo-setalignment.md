@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetAlignment
 title: ICreateTypeInfo::SetAlignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the data alignment for an item of TYPEKIND=TKIND_RECORD.
 old-location: automat\icreatetypeinfo_setalignment.htm
 old-project: automat
 ms.assetid: db21ab80-ea2f-4f9e-a43c-0d202e235516
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetAlignment method, ICreateTypeInfo.SetAlignment, ICreateTypeInfo::SetAlignment, SetAlignment, SetAlignment method [Automation], SetAlignment method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetAlignment, automat.icreatetypeinfo_setalignment, oaidl/ICreateTypeInfo::SetAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

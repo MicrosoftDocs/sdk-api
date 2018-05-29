@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateAudioRendererActivate
 title: MFCreateAudioRendererActivate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an activation object for the Streaming Audio Renderer.
 old-location: mf\mfcreateaudiorendereractivate.htm
 old-project: medfound
 ms.assetid: bce55c34-d64a-4f3b-8d09-6c9363e4eb11
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateAudioRendererActivate, MFCreateAudioRendererActivate function [Media Foundation], bce55c34-d64a-4f3b-8d09-6c9363e4eb11, mf.mfcreateaudiorendereractivate, mfidl/MFCreateAudioRendererActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

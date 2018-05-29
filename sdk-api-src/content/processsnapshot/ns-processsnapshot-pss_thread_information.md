@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_THREAD_INFORMATION
 title: PSS_THREAD_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds thread information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_thread_information.htm
 old-project: proc_snap
 ms.assetid: 68BC42FD-9A30-462F-AFB1-DF9587C50F45
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_THREAD_INFORMATION, PSS_THREAD_INFORMATION structure, proc_snap.pss_thread_information, processsnapshot/PSS_THREAD_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

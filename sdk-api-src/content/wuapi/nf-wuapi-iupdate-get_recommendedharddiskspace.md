@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedHardDiskSpace
 title: IUpdate::get_RecommendedHardDiskSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the recommended free space that should be available on the hard disk before you install the update. The free space is specified in megabytes (MB).
 old-location: wua\iupdate_recommendedharddiskspace.htm
 old-project: Wua_Sdk
 ms.assetid: 958d3de3-b2e0-47e0-9a71-b12ff6669242
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedHardDiskSpace property, IUpdate.RecommendedHardDiskSpace, IUpdate.get_RecommendedHardDiskSpace, IUpdate::RecommendedHardDiskSpace, IUpdate::get_RecommendedHardDiskSpace, RecommendedHardDiskSpace property [Windows Update Agent], RecommendedHardDiskSpace property [Windows Update Agent],IUpdate interface, get_RecommendedHardDiskSpace, wua.iupdate_recommendedharddiskspace, wuapi/IUpdate::RecommendedHardDiskSpace, wuapi/IUpdate::get_RecommendedHardDiskSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ISurrogateService.Init
 title: ISurrogateService::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the process server.
 old-location: com\isurrogateservice_init.htm
 old-project: com
 ms.assetid: ed2e628c-5c86-48fd-aa55-f532602247ea
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.Init, ISurrogateService::Init, Init, Init method [COM], Init method [COM],ISurrogateService interface, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

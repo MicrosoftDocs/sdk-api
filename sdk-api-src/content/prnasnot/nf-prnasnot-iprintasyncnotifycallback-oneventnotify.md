@@ -1,16 +1,16 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyCallback.OnEventNotify
 title: IPrintAsyncNotifyCallback::OnEventNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Alerts a listener that a notification is available on a specified channel. This method is called by the print system.
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify.htm
 old-project: printdocs
 ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 

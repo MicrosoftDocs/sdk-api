@@ -1,16 +1,16 @@
 ---
 UID: NS:vmr9._VMR9DeinterlaceCaps
 title: "_VMR9DeinterlaceCaps"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMR9DeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
 old-location: dshow\vmr9deinterlacecaps.htm
 old-project: DirectShow
 ms.assetid: ae71c9d6-2540-4679-927c-e1d759df7009
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMR9DeinterlaceCaps, VMR9DeinterlaceCaps structure [DirectShow], VMR9DeinterlaceCapsStructure, _VMR9DeinterlaceCaps, dshow.vmr9deinterlacecaps, vmr9/VMR9DeinterlaceCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

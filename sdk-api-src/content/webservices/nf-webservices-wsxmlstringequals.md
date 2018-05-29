@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsXmlStringEquals
 title: WsXmlStringEquals function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two WS_XML_STRING objects for equality. The operation performs an ordinal comparison of the character values contained by the String objects.
 old-location: wsw\wsxmlstringequals.htm
 old-project: wsw
 ms.assetid: 4fcff6d7-b17c-4cd6-9671-1aff7b84fa98
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Windows], webservices/WsXmlStringEquals, wsw.wsxmlstringequals
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.Initialize
 title: IDirectDraw7::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a DirectDraw object that was created by using the CoCreateInstance COM function.
 old-location: directdraw\idirectdraw7_initialize.htm
 old-project: directdraw
 ms.assetid: e641d8e7-ce29-454a-80fc-d404a27e9b63
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],Initialize method, IDirectDraw7.Initialize, IDirectDraw7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::Initialize, directdraw.idirectdraw7_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

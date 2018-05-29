@@ -1,16 +1,16 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_TERM
 title: PRADIUS_EXTENSION_TERM
-author: windows-driver-content
+author: windows-sdk-content
 description: The RadiusExtensionTerm function is an application-defined function and is called by NPS prior to unloading the Extension DLL. Use RadiusExtensionTerm to perform any clean-up operations for the Extension DLL.
 old-location: nps\IAS_radiusextensionterm.htm
 old-project: Nps
 ms.assetid: a3f6669f-bad5-4289-abbc-633851c1f5f8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRADIUS_EXTENSION_TERM, PRADIUS_EXTENSION_TERM callback, PRADIUS_EXTENSION_TERM callback function [Network Policy Server], RadiusExtensionTerm, _ias_radiusextensionterm, authif/PRADIUS_EXTENSION_TERM, ias.radiusextensionterm, nps.IAS_radiusextensionterm
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: authif.h
 req.include-header: 

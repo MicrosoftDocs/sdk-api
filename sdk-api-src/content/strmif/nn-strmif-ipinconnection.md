@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IPinConnection
 title: IPinConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface provides methods for reconnecting an input pin while the filter is still running.
 old-location: dshow\ipinconnection.htm
 old-project: DirectShow
 ms.assetid: 0843a01c-6f6a-4765-abca-dd562175fcee
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPinConnection, IPinConnection interface [DirectShow], IPinConnection interface [DirectShow],described, IPinConnectionInterface, dshow.ipinconnection, strmif/IPinConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

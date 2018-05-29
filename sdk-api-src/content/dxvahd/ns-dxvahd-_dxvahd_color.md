@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_COLOR
 title: "_DXVAHD_COLOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a color value for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_color.htm
 old-project: medfound
 ms.assetid: 833bb91b-d891-4c3f-be20-367b0a23e97e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_COLOR, DXVAHD_COLOR union [Media Foundation], _DXVAHD_COLOR, dxvahd/DXVAHD_COLOR, mf.dxvahd_color
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

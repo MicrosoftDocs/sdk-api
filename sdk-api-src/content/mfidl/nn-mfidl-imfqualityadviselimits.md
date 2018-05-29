@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFQualityAdviseLimits
 title: IMFQualityAdviseLimits
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries an object for the number of quality modes it supports.
 old-location: mf\imfqualityadviselimits.htm
 old-project: medfound
 ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

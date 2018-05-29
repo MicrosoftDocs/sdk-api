@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.FindNextAttrTransition
 title: ITextStoreAnchor::FindNextAttrTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreAnchor::FindNextAttrTransition method finds the location in the text stream where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
 old-location: tsf\itextstoreanchor_findnextattrtransition.htm
 old-project: TSF
 ms.assetid: 9bb21a4a-047e-4347-93b3-9c41cd2c20b7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],FindNextAttrTransition method, ITextStoreAnchor.FindNextAttrTransition, ITextStoreAnchor::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_UPDATESTART, TS_ATTR_FIND_WANT_OFFSET, textstor/ITextStoreAnchor::FindNextAttrTransition, tsf.itextstoreanchor_findnextattrtransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

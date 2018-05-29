@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamMediaTypeManager
 title: IMFMuxStreamMediaTypeManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the management of stream configurations for a multiplexed media source. A stream configuration defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager.htm
 old-project: medfound
 ms.assetid: BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], IMFMuxStreamMediaTypeManager interface [Media Foundation],described, mf.imfmuxstreammediatypemanager, mfobjects/IMFMuxStreamMediaTypeManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: 

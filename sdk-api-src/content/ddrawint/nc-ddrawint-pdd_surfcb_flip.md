@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_FLIP
 title: PDD_SURFCB_FLIP
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdFlip callback function causes the surface memory associated with the target surface to become the primary surface, and the current surface to become the nonprimary surface.
 old-location: display\ddflip.htm
 old-project: display
 ms.assetid: 4ce2e967-7b4a-4065-844d-d8852dec8a8f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdFlip, DdFlip callback function [Display Devices], PDD_SURFCB_FLIP, PDD_SURFCB_FLIP callback, ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml, ddrawint/DdFlip, display.ddflip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

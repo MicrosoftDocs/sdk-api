@@ -1,16 +1,16 @@
 ---
 UID: NF:amsi.AmsiCloseSession
 title: AmsiCloseSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Close a session that was opened by AmsiOpenSession.
 old-location: amsi\amsiclosesession.htm
 old-project: AMSI
 ms.assetid: 1DF760A2-22AE-427E-8395-1EE34BD7BCAB
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: AmsiCloseSession, AmsiCloseSession function [Antimalware Scan Interface], amsi.amsiclosesession, amsi/AmsiCloseSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

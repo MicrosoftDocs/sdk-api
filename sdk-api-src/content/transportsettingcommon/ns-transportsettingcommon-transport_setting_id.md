@@ -1,16 +1,16 @@
 ---
 UID: NS:transportsettingcommon.TRANSPORT_SETTING_ID
 title: TRANSPORT_SETTING_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the transport setting ID used by the SIO_APPLY_TRANSPORT_SETTING and SIO_QUERY_TRANSPORT_SETTING IOCTLs to apply or query the transport setting for a socket.
 old-location: winsock\transport_setting_id.htm
 old-project: WinSock
 ms.assetid: 8ECBF92A-0AF9-4419-A4E8-0EDEF63FCE16
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID structure pointer [Winsock], TRANSPORT_SETTING_ID, TRANSPORT_SETTING_ID structure [Winsock], transportsettingcommon/PTRANSPORT_SETTING_ID, transportsettingcommon/TRANSPORT_SETTING_ID, winsock.transport_setting_id"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: transportsettingcommon.h
 req.include-header: Mstcpip.h

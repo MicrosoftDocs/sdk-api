@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.RegisterActiveObject
 title: RegisterActiveObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers an object as the active object for its class.
 old-location: automat\registeractiveobject.htm
 old-project: automat
 ms.assetid: ba15bb69-7b65-47ea-b938-f235e3d9f9ee
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: RegisterActiveObject, RegisterActiveObject function [Automation], _oa96_RegisterActiveObject, automat.registeractiveobject, oleauto/RegisterActiveObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

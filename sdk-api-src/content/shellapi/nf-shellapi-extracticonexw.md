@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.ExtractIconExW
 title: ExtractIconExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.
 old-location: menurc\extracticonex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\extracticonex.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ExtractIconEx, ExtractIconEx function [Menus and Other Resources], ExtractIconExA, ExtractIconExW, _win32_ExtractIconEx, _win32_extracticonex_cpp, menurc.extracticonex, shellapi/ExtractIconEx, shellapi/ExtractIconExA, shellapi/ExtractIconExW, winui._win32_extracticonex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

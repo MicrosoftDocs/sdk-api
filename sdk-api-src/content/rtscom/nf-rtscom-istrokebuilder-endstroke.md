@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.EndStroke
 title: IStrokeBuilder::EndStroke
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends a stroke and returns the stroke object.
 old-location: tablet\istrokebuilder_endstroke.htm
 old-project: tablet
 ms.assetid: a535cd20-d24a-4044-a757-fb2b593650b9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EndStroke, EndStroke method [Tablet PC], EndStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],EndStroke method, IStrokeBuilder.EndStroke, IStrokeBuilder::EndStroke, a535cd20-d24a-4044-a757-fb2b593650b9, rtscom/IStrokeBuilder::EndStroke, tablet.istrokebuilder_endstroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

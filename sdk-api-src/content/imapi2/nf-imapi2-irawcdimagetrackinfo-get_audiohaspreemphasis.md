@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_AudioHasPreemphasis
 title: IRawCDImageTrackInfo::get_AudioHasPreemphasis
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value that specifies if an audio track has an additional pre-emphasis added to the audio data.
 old-location: imapi\irawcdimagetrackinfo_get_audiohaspreemphasis.htm
 old-project: imapi
 ms.assetid: 3e322485-4542-4229-9b3e-17c9774d14b5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_AudioHasPreemphasis method, IRawCDImageTrackInfo.get_AudioHasPreemphasis, IRawCDImageTrackInfo::get_AudioHasPreemphasis, get_AudioHasPreemphasis, get_AudioHasPreemphasis method [IMAPI], get_AudioHasPreemphasis method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_audiohaspreemphasis, imapi2/IRawCDImageTrackInfo::get_AudioHasPreemphasis
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

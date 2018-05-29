@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemImageFactory.GetImage
 title: IShellItemImageFactory::GetImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an HBITMAP that represents an IShellItem.
 old-location: shell\IShellItemImageFactory_GetImage.htm
 old-project: shell
 ms.assetid: b31a5eb7-f12f-41e0-9047-450240371424
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetImage, GetImage method [Windows Shell], GetImage method [Windows Shell],IShellItemImageFactory interface, IShellItemImageFactory interface [Windows Shell],GetImage method, IShellItemImageFactory.GetImage, IShellItemImageFactory::GetImage, SIIGBF_BIGGERSIZEOK, SIIGBF_CROPTOSQUARE, SIIGBF_ICONBACKGROUND, SIIGBF_ICONONLY, SIIGBF_INCACHEONLY, SIIGBF_MEMORYONLY, SIIGBF_RESIZETOFIT, SIIGBF_SCALEUP, SIIGBF_THUMBNAILONLY, SIIGBF_WIDETHUMBNAILS, _shell_IShellItemImageFactory_GetImage, shell.IShellItemImageFactory_GetImage, shobjidl_core/IShellItemImageFactory::GetImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.OpenEnlistment
 title: OpenEnlistment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing enlistment object, and returns a handle to the enlistment.
 old-location: fs\openenlistment.htm
 old-project: Ktm
 ms.assetid: 2c403e22-3feb-415a-b65b-572802764548
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: OpenEnlistment, OpenEnlistment function [Files], fs.openenlistment, ktmw32/OpenEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

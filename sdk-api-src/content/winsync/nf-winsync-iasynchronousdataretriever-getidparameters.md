@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.GetIdParameters
 title: IAsynchronousDataRetriever::GetIdParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the ID format schema of the provider.
 old-location: winsync\iasynchronousdataretriever_getidparameters.htm
 old-project: winsync
 ms.assetid: 20f42e0d-dacb-4362-843b-8bc2fb664203
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],IAsynchronousDataRetriever interface, IAsynchronousDataRetriever interface [Windows Sync],GetIdParameters method, IAsynchronousDataRetriever.GetIdParameters, IAsynchronousDataRetriever::GetIdParameters, winsync.iasynchronousdataretriever_getidparameters, winsync/IAsynchronousDataRetriever::GetIdParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

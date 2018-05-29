@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagTCKEYDOWN
 title: tagTCKEYDOWN
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a key press in a tab control. It is used with the TCN_KEYDOWN notification code. This structure supersedes the TC_KEYDOWN structure.
 old-location: controls\NMTCKEYDOWN.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\nmtckeydown.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NMTCKEYDOWN, NMTCKEYDOWN structure [Windows Controls], _win32_NMTCKEYDOWN, _win32_NMTCKEYDOWN_cpp, commctrl/NMTCKEYDOWN, controls.NMTCKEYDOWN, controls._win32_NMTCKEYDOWN, tagTCKEYDOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

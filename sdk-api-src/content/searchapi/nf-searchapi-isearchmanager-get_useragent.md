@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UserAgent
 title: ISearchManager::get_UserAgent
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the user agent string.
 old-location: search\_search_ISearchManager_get_UserAgent.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useragent.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchManager interface [search],get_UserAgent method, ISearchManager.get_UserAgent, ISearchManager::get_UserAgent, _search_ISearchManager_get_UserAgent, get_UserAgent, get_UserAgent method [search], get_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_get_UserAgent, searchapi/ISearchManager::get_UserAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

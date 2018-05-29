@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.get_PointerSpeed
 title: IRemoteDesktopClientTouchPointer::get_PointerSpeed
-author: windows-driver-content
+author: windows-sdk-content
 description: How fast the touch pointer cursor will move on the virtual desktop relative to the speed of the gesture on the client.
 old-location: termserv\iremotedesktopclienttouchpointer_pointerspeed.htm
 old-project: TermServ
 ms.assetid: 40c35308-cabe-4a71-b7bb-b5ada5eafa91
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],PointerSpeed property, IRemoteDesktopClientTouchPointer.PointerSpeed, IRemoteDesktopClientTouchPointer.get_PointerSpeed, IRemoteDesktopClientTouchPointer::PointerSpeed, IRemoteDesktopClientTouchPointer::get_PointerSpeed, PointerSpeed property [Remote Desktop Services], PointerSpeed property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, get_PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_PointerSpeed, termserv.iremotedesktopclienttouchpointer_pointerspeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

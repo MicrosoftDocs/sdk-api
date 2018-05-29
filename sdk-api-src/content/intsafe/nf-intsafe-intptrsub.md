@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntPtrSub
 title: IntPtrSub function
-author: windows-driver-content
+author: windows-sdk-content
 description: Subtracts one value of type INT_PTR from another.
 old-location: shell\IntPtrSub.htm
 old-project: shell
 ms.assetid: ad30f236-7412-401f-b6a9-76b74118092d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntPtrSub, IntPtrSub function [Windows Shell], intsafe/IntPtrSub, shell.IntPtrSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

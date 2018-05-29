@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Attributes.get_ItemByIndex
 title: IX509Attributes::get_ItemByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IX509Attribute object from the collection by index number.
 old-location: security\ix509attributes_itembyindex_property.htm
 old-project: SecCertEnroll
 ms.assetid: 2bcf46d9-93b5-4fbe-9be8-004b3653902e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Attributes interface [Security],ItemByIndex property, IX509Attributes.ItemByIndex, IX509Attributes.get_ItemByIndex, IX509Attributes::ItemByIndex, IX509Attributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509Attributes interface, certenroll/IX509Attributes::ItemByIndex, certenroll/IX509Attributes::get_ItemByIndex, get_ItemByIndex, security.ix509attributes_itembyindex_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.getnameinfo
 title: getnameinfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides protocol-independent name resolution from an address to an ANSI host name and from a port number to the ANSI service name.
 old-location: winsock\getnameinfo_2.htm
 old-project: WinSock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetNameInfoA, _win32_getnameinfo_2, getnameinfo, getnameinfo function [Winsock], winsock.getnameinfo_2, ws2tcpip/getnameinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationPrimaryContent
 title: IDirectManipulationPrimaryContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates the primary content inside a viewport.
 old-location: directmanipulation\idirectmanipulationprimarycontent.htm
 old-project: directmanipulation
 ms.assetid: 9910F5F5-950F-4099-9808-B46FA5BBA6FB
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationPrimaryContent, IDirectManipulationPrimaryContent interface [Direct Manipulation], IDirectManipulationPrimaryContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationprimarycontent, directmanipulation/IDirectManipulationPrimaryContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

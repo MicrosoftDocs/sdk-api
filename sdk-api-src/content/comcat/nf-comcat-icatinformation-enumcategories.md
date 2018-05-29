@@ -1,16 +1,16 @@
 ---
 UID: NF:comcat.ICatInformation.EnumCategories
 title: ICatInformation::EnumCategories
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator for the component categories registered on the system.
 old-location: com\icatinformation_enumcategories.htm
 old-project: com
 ms.assetid: d8e744f0-6e50-4260-89df-e2cc59937398
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumCategories, EnumCategories method [COM], EnumCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumCategories method, ICatInformation.EnumCategories, ICatInformation::EnumCategories, _com_icatinformation_enumcategories, com.icatinformation_enumcategories, comcat/ICatInformation::EnumCategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comcat.h
 req.include-header: 

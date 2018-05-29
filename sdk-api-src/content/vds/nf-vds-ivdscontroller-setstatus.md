@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsController.SetStatus
 title: IVdsController::SetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the status of a controller to the specified value.
 old-location: base\ivdscontroller_setstatus.htm
 old-project: VDS
 ms.assetid: f9bae451-ef47-46ad-a11e-b7b36a031a8a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsController interface [VDS],SetStatus method, IVdsController.SetStatus, IVdsController::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsController interface, base.ivdscontroller_setstatus, vds/IVdsController::SetStatus, vdshwprv/IVdsController::SetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

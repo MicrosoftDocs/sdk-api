@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.RectF.GetSize
 title: RectF::GetSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The RectF::GetSize method gets the width and height of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetSize_size_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getsize_61size.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],RectF class, RectF class [GDI+],GetSize method, RectF.GetSize, RectF::GetSize, _gdiplus_CLASS_RectF_GetSize_size_, gdiplus._gdiplus_CLASS_RectF_GetSize_size_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

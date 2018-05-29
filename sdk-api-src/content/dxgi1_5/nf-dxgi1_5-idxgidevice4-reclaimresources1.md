@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_5.IDXGIDevice4.ReclaimResources1
 title: IDXGIDevice4::ReclaimResources1
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores access to resources that were previously offered by calling IDXGIDevice4::OfferResources1.
 old-location: direct3ddxgi\idxgidevice4_reclaimresources1.htm
 old-project: direct3ddxgi
 ms.assetid: 83D09C41-CB96-4ADA-AE38-7D9542CCCFE0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],ReclaimResources1 method, IDXGIDevice4.ReclaimResources1, IDXGIDevice4::ReclaimResources1, ReclaimResources1, ReclaimResources1 method [DXGI], ReclaimResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_reclaimresources1, dxgi1_5/IDXGIDevice4::ReclaimResources1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_5.h
 req.include-header: 

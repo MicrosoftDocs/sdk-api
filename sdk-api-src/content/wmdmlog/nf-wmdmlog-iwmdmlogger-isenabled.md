@@ -1,16 +1,16 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.IsEnabled
 title: IWMDMLogger::IsEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsEnabled method determines whether logging is enabled.
 old-location: wmdm\iwmdmlogger_isenabled.htm
 old-project: WMDM
 ms.assetid: 10bf20bd-7457-4d37-82b5-7d761b4371c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],IsEnabled method, IWMDMLogger.IsEnabled, IWMDMLogger::IsEnabled, IWMDMLoggerIsEnabled, IsEnabled, IsEnabled method [windows Media Device Manager], IsEnabled method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_isenabled, wmdmlog/IWMDMLogger::IsEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 

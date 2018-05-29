@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHGetThreadRef
 title: SHGetThreadRef function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the per-thread object reference set by SHSetThreadRef.
 old-location: shell\SHGetThreadRef.htm
 old-project: shell
 ms.assetid: 307b284b-f493-4d24-a7be-17c150d62b34
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetThreadRef, SHGetThreadRef function [Windows Shell], _win32_SHGetThreadRef, shell.SHGetThreadRef, shlwapi/SHGetThreadRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

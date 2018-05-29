@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_SMS_CONSTANTS
 title: MBN_SMS_CONSTANTS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_SMS_CONSTANTS enumerated type contains SMS constant values.
 old-location: mbn\mbn_sms_constants.htm
 old-project: mbn
 ms.assetid: 2d81e9f7-5e1d-4291-84ad-56578d2f4ae4
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_CDMA_SHORT_MSG_SIZE_MAX, MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN, MBN_MESSAGE_INDEX_NONE, MBN_SMS_CONSTANTS, MBN_SMS_CONSTANTS enumeration [Microsoft Broadband Networks], WWAEXT_SMS_CONSTANTS, mbn.mbn_sms_constants, mbnapi/MBN_CDMA_SHORT_MSG_SIZE_MAX, mbnapi/MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN, mbnapi/MBN_MESSAGE_INDEX_NONE, mbnapi/MBN_SMS_CONSTANTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

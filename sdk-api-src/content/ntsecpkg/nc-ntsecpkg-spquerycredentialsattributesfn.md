@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpQueryCredentialsAttributesFn
 title: SpQueryCredentialsAttributesFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attributes for a credential.
 old-location: security\spquerycredentialsattributes.htm
 old-project: SecAuthN
 ms.assetid: e9174a42-3ccd-4c9a-bf80-fba062df4459
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SECPKG_ATTR_CIPHER_STRENGTHS, SECPKG_ATTR_SUPPORTED_ALGS, SECPKG_ATTR_SUPPORTED_PROTOCOLS, SECPKG_CRED_ATTR_NAMES, SpQueryCredentialsAttributes, SpQueryCredentialsAttributes function [Security], SpQueryCredentialsAttributesFn, _ssp_spquerycredentialsattributes, ntsecpkg/SpQueryCredentialsAttributes, security.spquerycredentialsattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

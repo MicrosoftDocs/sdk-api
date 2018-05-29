@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ComboBox_GetCount
 title: ComboBox_GetCount macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of items in the list box of a combo box. You can use this macro or send the CB_GETCOUNT message explicitly.
 old-location: controls\ComboBox_GetCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcount.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ComboBox_GetCount, ComboBox_GetCount macro [Windows Controls], _win32_ComboBox_GetCount, _win32_ComboBox_GetCount_cpp, controls.ComboBox_GetCount, controls._win32_ComboBox_GetCount, windowsx/ComboBox_GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

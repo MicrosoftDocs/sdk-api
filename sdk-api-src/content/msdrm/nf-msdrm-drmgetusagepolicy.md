@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetUsagePolicy
 title: DRMGetUsagePolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a usage policy that requires, or denies, access to content based on application name, version, or other application characteristics.
 old-location: rm\drmgetusagepolicy.htm
 old-project: AdRms_Sdk
 ms.assetid: 135ed2d0-17a9-46a2-9495-4102115f7bad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetUsagePolicy, DRMGetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsagePolicy, rm.drmgetusagepolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

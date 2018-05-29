@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPreRestore
 title: CVssWriter::OnPreRestore
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnPreRestore method is called by a writer following a PreRestore event.
 old-location: base\cvsswriter_onprerestore.htm
 old-project: VSS
 ms.assetid: 5f4a6168-4102-4790-81d6-d195a440471f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriter interface [VSS],OnPreRestore method, CVssWriter.OnPreRestore, CVssWriter::OnPreRestore, OnPreRestore, OnPreRestore method [VSS], OnPreRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onprerestore, base.cvsswriter_onprerestore, vswriter/CVssWriter::OnPreRestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

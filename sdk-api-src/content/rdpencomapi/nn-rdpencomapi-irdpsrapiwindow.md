@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIWindow
 title: IRDPSRAPIWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a one-to-one mapping to a sharable window.
 old-location: rdp\irdpsrapiwindow.htm
 old-project: Rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP],described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

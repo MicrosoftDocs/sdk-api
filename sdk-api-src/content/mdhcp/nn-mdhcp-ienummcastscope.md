@@ -1,16 +1,16 @@
 ---
 UID: NN:mdhcp.IEnumMcastScope
 title: IEnumMcastScope
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumMcastScope interface provides COM-standard enumeration methods for the IMcastScope interface. The IMcastAddressAllocation::EnumerateScopes method returns a pointer to IEnumMcastScope.
 old-location: tapi3\ienummcastscope.htm
 old-project: Tapi
 ms.assetid: edc8be8e-635b-43f3-a4c1-7566e354cc3e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumMcastScope, IEnumMcastScope interface [TAPI 2.2], IEnumMcastScope interface [TAPI 2.2],described, _tapi3_ienummcastscope, mdhcp/IEnumMcastScope, tapi3.ienummcastscope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mdhcp.h
 req.include-header: 

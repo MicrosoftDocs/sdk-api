@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethodImpls
 title: IMetaDataImport::EnumMethodImpls
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates MethodBody and MethodDeclaration tokens representing methods of the specified type.
 old-location: winrt\imetadataimport_enummethodimpls.htm
 old-project: WinRT
 ms.assetid: 48df8d5a-8fd2-4b36-9fb1-6f45551c1d37
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: EnumMethodImpls, EnumMethodImpls method [Windows Runtime], EnumMethodImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodImpls method, IMetaDataImport.EnumMethodImpls, IMetaDataImport::EnumMethodImpls, rometadataapi/IMetaDataImport::EnumMethodImpls, winrt.imetadataimport_enummethodimpls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

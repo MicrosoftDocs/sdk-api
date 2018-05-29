@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DDecompressShaders
 title: D3DDecompressShaders function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decompresses one or more shaders from a compressed set.
 old-location: direct3dhlsl\d3ddecompressshaders.htm
 old-project: direct3dhlsl
 ms.assetid: 9b62026f-0658-405c-8f45-ee921213148a
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DDecompressShaders, D3DDecompressShaders function [HLSL], d3dcompiler/D3DDecompressShaders, direct3dhlsl.d3ddecompressshaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

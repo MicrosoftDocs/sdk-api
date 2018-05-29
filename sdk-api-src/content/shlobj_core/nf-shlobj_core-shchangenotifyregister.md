@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHChangeNotifyRegister
 title: SHChangeNotifyRegister function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a window to receive notifications from the file system or Shell, if the file system supports notifications.
 old-location: shell\SHChangeNotifyRegister.htm
 old-project: shell
 ms.assetid: 73143865-ca2f-4578-a7a2-2ba4833eddd8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NTSHChangeNotifyRegister, SHCNRF_InterruptLevel, SHCNRF_NewDelivery, SHCNRF_RecursiveInterrupt, SHCNRF_ShellLevel, SHChangeNotifyRegister, SHChangeNotifyRegister function [Windows Shell], _win32_SHChangeNotifyRegister, shell.SHChangeNotifyRegister, shlobj_core/NTSHChangeNotifyRegister, shlobj_core/SHChangeNotifyRegister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

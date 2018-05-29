@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl.TitlePlay
 title: IDvdControl::TitlePlay
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Finds the media file with the specified title index and plays it back.
 old-location: dshow\idvdcontrol_titleplay.htm
 old-project: DirectShow
 ms.assetid: 5ca710f0-8f08-43d6-8cc1-a25068d5e0ef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl interface [DirectShow],TitlePlay method, IDvdControl.TitlePlay, IDvdControl::TitlePlay, IDvdControlTitlePlay, TitlePlay, TitlePlay method [DirectShow], TitlePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_titleplay, strmif/IDvdControl::TitlePlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

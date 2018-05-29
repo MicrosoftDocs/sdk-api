@@ -1,16 +1,16 @@
 ---
 UID: NF:dsparse.DsGetRdnW
 title: DsGetRdnW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.
 old-location: ad\dsgetrdnw.htm
 old-project: AD
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

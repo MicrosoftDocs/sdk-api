@@ -1,16 +1,16 @@
 ---
 UID: NE:photoacquire.tagUSER_INPUT_STRING_TYPE
 title: tagUSER_INPUT_STRING_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_INPUT_STRING_TYPE enumeration type indicates the type of string to obtain from the user in IPhotoAcquireProgressCB::GetUserInput.
 old-location: picacq\user_input_string_type.htm
 old-project: acquisition
 ms.assetid: ac05f51e-4762-4360-9c38-7baf84eeb1e9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: USER_INPUT_DEFAULT, USER_INPUT_PATH_ELEMENT, USER_INPUT_STRING_TYPE, USER_INPUT_STRING_TYPE enumeration [Picture Acquisition], enumeration [Picture Acquisition], photoacquire/USER_INPUT_DEFAULT, photoacquire/USER_INPUT_PATH_ELEMENT, photoacquire/USER_INPUT_STRING_TYPE, picacq.user_input_string_type, tagUSER_INPUT_STRING_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 

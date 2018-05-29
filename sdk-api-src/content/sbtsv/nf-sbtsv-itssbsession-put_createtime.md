@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_CreateTime
 title: ITsSbSession::put_CreateTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or specifies the time the session was created.
 old-location: termserv\itssbsession_createtime.htm
 old-project: TermServ
 ms.assetid: 227ac94a-2d04-4b94-9ba4-e0cc6e2496cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],CreateTime property, ITsSbSession.CreateTime, ITsSbSession.put_CreateTime, ITsSbSession::CreateTime, ITsSbSession::get_CreateTime, ITsSbSession::put_CreateTime, put_CreateTime, sbtsv/ITsSbSession::CreateTime, sbtsv/ITsSbSession::get_CreateTime, sbtsv/ITsSbSession::put_CreateTime, termserv.itssbsession_createtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h

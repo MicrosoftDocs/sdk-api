@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi1_2.DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 title: DXGI_SWAP_CHAIN_FULLSCREEN_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes full-screen mode for a swap chain.
 old-location: direct3ddxgi\dxgi_swap_chain_fullscreen_desc.htm
 old-project: direct3ddxgi
 ms.assetid: 0EE5683E-0623-4FD7-A77F-B64F90A25C6A
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_SWAP_CHAIN_FULLSCREEN_DESC, DXGI_SWAP_CHAIN_FULLSCREEN_DESC structure [DXGI], direct3ddxgi.dxgi_swap_chain_fullscreen_desc, dxgi1_2/DXGI_SWAP_CHAIN_FULLSCREEN_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

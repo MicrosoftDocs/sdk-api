@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get_Count
 title: IGPMStarterGPOBackupCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of GPMStarterGPOBackup objects in the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_count.htm
 old-project: GPMC
 ms.assetid: ae460d7b-7b33-4871-a6ab-edc7f6b9e36b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],IGPMStarterGPOBackupCollection interface, IGPMStarterGPOBackupCollection interface [GPMC],Count property, IGPMStarterGPOBackupCollection.Count, IGPMStarterGPOBackupCollection.get_Count, IGPMStarterGPOBackupCollection::Count, IGPMStarterGPOBackupCollection::get_Count, _win32_igpmstartergpobackupcollection_get_count, get_Count, gpmc.igpmstartergpobackupcollection_get_count, gpmgmt/IGPMStarterGPOBackupCollection::Count, gpmgmt/IGPMStarterGPOBackupCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

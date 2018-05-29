@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.Edit_GetLine
 title: Edit_GetLine macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a line of text from an edit or rich edit control. You can use this macro or send the EM_GETLINE message explicitly.
 old-location: controls\Edit_GetLine.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getline.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Edit_GetLine, Edit_GetLine macro [Windows Controls], _win32_Edit_GetLine, _win32_Edit_GetLine_cpp, controls.Edit_GetLine, controls._win32_Edit_GetLine, windowsx/Edit_GetLine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

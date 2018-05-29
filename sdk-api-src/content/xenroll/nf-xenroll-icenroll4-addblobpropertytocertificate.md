@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll4.addBlobPropertyToCertificate
 title: ICEnroll4::addBlobPropertyToCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a BLOB property to a certificate.
 old-location: security\icenroll4_addblobpropertytocertificate.htm
 old-project: SecCrypto
 ms.assetid: a21e2636-d49f-4490-867c-2ea95d7fdc69
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_DESCRIPTION_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CEnroll object [Security],addBlobPropertyToCertificate method, ICEnroll4 interface [Security],addBlobPropertyToCertificate method, ICEnroll4.addBlobPropertyToCertificate, ICEnroll4::addBlobPropertyToCertificate, addBlobPropertyToCertificate, addBlobPropertyToCertificate method [Security], addBlobPropertyToCertificate method [Security],CEnroll object, addBlobPropertyToCertificate method [Security],ICEnroll4 interface, security.icenroll4_addblobpropertytocertificate, xenroll/ICEnroll4::addBlobPropertyToCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

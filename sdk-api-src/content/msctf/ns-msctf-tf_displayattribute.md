@@ -1,16 +1,16 @@
 ---
 UID: NS:msctf.TF_DISPLAYATTRIBUTE
 title: TF_DISPLAYATTRIBUTE
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_DISPLAYATTRIBUTE structure contains display attribute data for rendering text.
 old-location: tsf\tf_displayattribute.htm
 old-project: TSF
 ms.assetid: 29faaa22-ea03-4a2e-a035-7979e2a89fc9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_DISPLAYATTRIBUTE, TF_DISPLAYATTRIBUTE structure [Text Services Framework], _tsf_tf_displayattribute_ref, msctf/TF_DISPLAYATTRIBUTE, tsf.tf_displayattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

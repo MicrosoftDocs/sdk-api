@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPSearchDialog
 title: NPSearchDialog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables network vendors to supply their own form of browsing and search, beyond the hierarchical view presented in the Connection dialog box.
 old-location: security\npsearchdialog.htm
 old-project: SecAuthN
 ms.assetid: df0d7149-4fb3-41b9-8037-d3c89eee0241
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPSearchDialog, NPSearchDialog function [Security], _mnp_npsearchdialog, npapi/NPSearchDialog, security.npsearchdialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

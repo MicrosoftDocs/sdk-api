@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.LogEx
 title: IWiaLogEx::LogEx
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaLogEx_LogEx.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\logex.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaLogEx interface [WIA],LogEx method, IWiaLogEx.LogEx, IWiaLogEx::LogEx, LogEx, LogEx method [WIA], LogEx method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_LogEx, wia._wia_IWiaLogEx_LogEx, wia_xp/IWiaLogEx::LogEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.IEnumTfContextViews
 title: IEnumTfContextViews
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: tsf\ienumtfcontextviews.htm
 old-project: TSF
 ms.assetid: d9b4be70-0ef3-421a-9c9a-18533d563170
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfContextViews, IEnumTfContextViews interface [Text Services Framework], IEnumTfContextViews interface [Text Services Framework],described, _tsf_ienumtfcontextviews_ref, msctf/IEnumTfContextViews, tsf.ienumtfcontextviews
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

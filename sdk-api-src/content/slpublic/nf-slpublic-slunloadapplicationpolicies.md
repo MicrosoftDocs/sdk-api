@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLUnloadApplicationPolicies
 title: SLUnloadApplicationPolicies function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the policy context handle returned by the SLLoadApplicationPolicies function.
 old-location: security\slunloadapplicationpolicies.htm
 old-project: SecSLApi
 ms.assetid: 56dae943-659a-4e75-81ef-0d58fa3cd6d2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLUnloadApplicationPolicies, SLUnloadApplicationPolicies function [Security], security.slunloadapplicationpolicies, slpublic/SLUnloadApplicationPolicies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

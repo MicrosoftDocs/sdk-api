@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetDpiForWindow
 title: GetDpiForWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the dots per inch (dpi) value for the associated window.
 old-location: hidpi\getdpiforwindow.htm
 old-project: hidpi
 ms.assetid: E9F7BCFA-4215-44C0-95FB-57C28325720C
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: GetDpiForWindow, GetDpiForWindow function [High DPI], hidpi.getdpiforwindow, winuser/GetDpiForWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineHold
 title: lineHold function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineHold function places the specified call on hold.
 old-location: tapi2\linehold.htm
 old-project: Tapi
 ms.assetid: d2fd450c-402c-4122-a785-a6b5216acfe9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linehold, lineHold, lineHold function [TAPI 2.2], tapi/lineHold, tapi2.linehold"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

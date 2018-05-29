@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.QuerySecurityContextToken
 title: QuerySecurityContextToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the access token for a client security context and uses it directly.
 old-location: security\querysecuritycontexttoken.htm
 old-project: SecAuthN
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: QuerySecurityContextToken, QuerySecurityContextToken function [Security], _ssp_querysecuritycontexttoken, security.querysecuritycontexttoken, sspi/QuerySecurityContextToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

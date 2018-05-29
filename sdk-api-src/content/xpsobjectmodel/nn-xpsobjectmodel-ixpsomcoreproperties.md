@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMCoreProperties
 title: IXpsOMCoreProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.
 old-location: xps\ixpsomcoreproperties.htm
 old-project: printdocs
 ms.assetid: 705ec9c7-5aa9-4fc5-ad2c-441cb545d056
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging],described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

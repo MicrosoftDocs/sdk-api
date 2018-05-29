@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.INewMenuClient
 title: INewMenuClient
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow manipulation of items in a Windows 7 menu.
 old-location: shell\INewMenuClient.htm
 old-project: shell
 ms.assetid: f122d728-5677-4fb7-89fe-9f0b21c4c38d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INewMenuClient, INewMenuClient interface [Windows Shell], INewMenuClient interface [Windows Shell],described, _shell_INewMenuClient, shell.INewMenuClient, shobjidl_core/INewMenuClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

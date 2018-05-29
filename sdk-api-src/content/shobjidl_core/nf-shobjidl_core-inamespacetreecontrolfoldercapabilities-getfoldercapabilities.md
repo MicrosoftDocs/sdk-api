@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControlFolderCapabilities.GetFolderCapabilities
 title: INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a folder's capability to be filtered through the System.IsPinnedToNameSpaceTree property key value and change notification registration status.
 old-location: shell\INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities.htm
 old-project: shell
 ms.assetid: 1534431c-21fc-4eb9-8f17-ddd7414bef94
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFolderCapabilities, GetFolderCapabilities method [Windows Shell], GetFolderCapabilities method [Windows Shell],INameSpaceTreeControlFolderCapabilities interface, INameSpaceTreeControlFolderCapabilities interface [Windows Shell],GetFolderCapabilities method, INameSpaceTreeControlFolderCapabilities.GetFolderCapabilities, INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities, NSTCFC_DELAY_REGISTER_NOTIFY, NSTCFC_NONE, NSTCFC_PINNEDITEMFILTERING, _shell_INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities, shell.INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities, shobjidl_core/INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

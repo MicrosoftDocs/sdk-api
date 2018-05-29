@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.InvokeFunc
 title: ITfFnLMProcessor::InvokeFunc
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfFnLMProcessor::InvokeFunc method
 old-location: tsf\itffnlmprocessor_invokefunc.htm
 old-project: TSF
 ms.assetid: 9545c715-ec31-4360-b8f9-bb0746164878
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeFunc method, ITfFnLMProcessor.InvokeFunc, ITfFnLMProcessor::InvokeFunc, InvokeFunc, InvokeFunc method [Text Services Framework], InvokeFunc method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokefunc_ref, ctffunc/ITfFnLMProcessor::InvokeFunc, tsf.itffnlmprocessor_invokefunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

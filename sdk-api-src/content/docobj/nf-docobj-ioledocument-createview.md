@@ -1,16 +1,16 @@
 ---
 UID: NF:docobj.IOleDocument.CreateView
 title: IOleDocument::CreateView
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a document view object in the caller's process and obtains a pointer to that object's IOleDocumentView interface.
 old-location: com\ioledocument_createview.htm
 old-project: com
 ms.assetid: 709d7ff4-d32d-405f-8839-b05df49ef751
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateView, CreateView method [COM], CreateView method [COM],IOleDocument interface, IOleDocument interface [COM],CreateView method, IOleDocument.CreateView, IOleDocument::CreateView, _ole_ioledocument_createview, com.ioledocument_createview, docobj/IOleDocument::CreateView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

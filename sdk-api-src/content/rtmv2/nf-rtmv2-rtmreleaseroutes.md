@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmReleaseRoutes
 title: RtmReleaseRoutes function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmReleaseRoutes function releases the route handles.
 old-location: rras\rtmreleaseroutes.htm
 old-project: RRAS
 ms.assetid: 4c893144-a2c5-4dc8-83c1-cae0d3024505
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmReleaseRoutes, RtmReleaseRoutes function [RAS], _rtmv2ref_rtmreleaseroutes, rras.rtmreleaseroutes, rtmv2/RtmReleaseRoutes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

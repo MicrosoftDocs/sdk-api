@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorContrast
 title: SetMonitorContrast function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a monitor's contrast value.
 old-location: monitor\setmonitorcontrast.htm
 old-project: Monitor
 ms.assetid: 7957702b-0ca2-4aaa-bae7-2518d2628f64
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetMonitorContrast, SetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorContrast, monitor.setmonitorcontrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

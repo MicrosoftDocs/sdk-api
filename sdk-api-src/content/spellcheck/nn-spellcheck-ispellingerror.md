@@ -1,16 +1,16 @@
 ---
 UID: NN:spellcheck.ISpellingError
 title: ISpellingError
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about a spelling error.
 old-location: intl\ispellingerror.htm
 old-project: Intl
 ms.assetid: 90a233a4-44a4-4f8f-92bb-ea65fa213616
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], ISpellingError interface [Internationalization for Windows Applications],described, intl.ispellingerror, spellcheck/ISpellingError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 

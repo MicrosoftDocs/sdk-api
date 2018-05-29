@@ -1,16 +1,16 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_PROTECTION_FLAGS
 title: MF_MEDIA_ENGINE_PROTECTION_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags that specify whether the Media Engine will play protected content, and whether the Media Engine will use the Protected Media Path (PMP).
 old-location: mf\mf_media_engine_protection_flags.htm
 old-project: medfound
 ms.assetid: 02326325-F122-4D6A-8CA7-3B201378BC15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT, MF_MEDIA_ENGINE_PROTECTION_FLAGS, MF_MEDIA_ENGINE_PROTECTION_FLAGS enumeration [Media Foundation], MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT, MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP, mf.mf_media_engine_protection_flags, mfmediaengine/MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT, mfmediaengine/MF_MEDIA_ENGINE_PROTECTION_FLAGS, mfmediaengine/MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT, mfmediaengine/MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

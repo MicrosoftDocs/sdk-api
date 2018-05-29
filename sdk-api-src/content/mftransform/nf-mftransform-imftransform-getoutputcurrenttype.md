@@ -1,16 +1,16 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputCurrentType
 title: IMFTransform::GetOutputCurrentType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current media type for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputcurrenttype.htm
 old-project: medfound
 ms.assetid: 433c1918-4b87-40b1-a32b-db5cdd74d769
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 433c1918-4b87-40b1-a32b-db5cdd74d769, GetOutputCurrentType, GetOutputCurrentType method [Media Foundation], GetOutputCurrentType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputCurrentType method, IMFTransform.GetOutputCurrentType, IMFTransform::GetOutputCurrentType, mf.imftransform_getoutputcurrenttype, mftransform/IMFTransform::GetOutputCurrentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Disconnect
 title: IWMSecureChannel::WMSC_Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMSC_Disconnect method destroys the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_disconnect.htm
 old-project: wmformat
 ms.assetid: 13956668-2fd3-45ac-a96c-7dfc5c8fcb26
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Disconnect method, IWMSecureChannel.WMSC_Disconnect, IWMSecureChannel::WMSC_Disconnect, WMSC_Disconnect, WMSC_Disconnect method [windows Media Format], WMSC_Disconnect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_disconnect, wmsecure/IWMSecureChannel::WMSC_Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 

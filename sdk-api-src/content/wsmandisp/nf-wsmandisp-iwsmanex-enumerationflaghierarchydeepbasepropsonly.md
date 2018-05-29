@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly
 title: IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyDeepBasePropsOnly for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchydeepbasepropsonly.htm
 old-project: WinRM
 ms.assetid: 72528ef3-3e38-4f1f-a686-45c3caa1d9d3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnumerationFlagHierarchyDeepBasePropsOnly, EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management], EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeepBasePropsOnly method, IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly, IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly, winrm.iwsmanex_enumerationflaghierarchydeepbasepropsonly, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

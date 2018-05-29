@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetServerBindingInfo
 title: DhcpGetServerBindingInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpGetServerBindingInfo function returns endpoint bindings set on the DHCP server.
 old-location: dhcp\dhcpgetserverbindinginfo.htm
 old-project: DHCP
 ms.assetid: c0f5c9c1-d421-4977-aa26-1b8b7406802d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpGetServerBindingInfo, DhcpGetServerBindingInfo function [DHCP], dhcp.dhcpgetserverbindinginfo, dhcpsapi/DhcpGetServerBindingInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

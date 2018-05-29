@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetConditionType
 title: ICondition::GetConditionType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the condition type for this search condition node, identifying it as a logical AND, OR, or NOT, or as a leaf node.
 old-location: search\_search_ICondition_GetConditionType.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getconditiontype.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetConditionType, GetConditionType method [search], GetConditionType method [search],ICondition interface, ICondition interface [search],GetConditionType method, ICondition.GetConditionType, ICondition::GetConditionType, _search_ICondition_GetConditionType, search._search_ICondition_GetConditionType, structuredquerycondition/ICondition::GetConditionType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h

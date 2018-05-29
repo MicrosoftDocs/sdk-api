@@ -1,16 +1,16 @@
 ---
 UID: NE:spellcheck.CORRECTIVE_ACTION
 title: CORRECTIVE_ACTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of corrective action to be taken for a spelling error.
 old-location: intl\corrective_action.htm
 old-project: Intl
 ms.assetid: 370CF89E-97BF-4AB5-8AD6-3B2DF08463E0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CORRECTIVE_ACTION, CORRECTIVE_ACTION enumeration [Internationalization for Windows Applications], CORRECTIVE_ACTION_DELETE, CORRECTIVE_ACTION_GET_SUGGESTIONS, CORRECTIVE_ACTION_NONE, CORRECTIVE_ACTION_REPLACE, intl.corrective_action, spellcheck/CORRECTIVE_ACTION, spellcheck/CORRECTIVE_ACTION_DELETE, spellcheck/CORRECTIVE_ACTION_GET_SUGGESTIONS, spellcheck/CORRECTIVE_ACTION_NONE, spellcheck/CORRECTIVE_ACTION_REPLACE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: spellcheck.h
 req.include-header: 

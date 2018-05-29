@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_ORIGINAL_FILE_INFO_W
 title: "_SP_ORIGINAL_FILE_INFO_W"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.
 old-location: setup\sp_original_file_info.htm
 old-project: SetupApi
 ms.assetid: 9ce09717-7f01-4044-ad6b-edd04a2445f5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PSP_ORIGINAL_FILE_INFO_W, PSP_ORIGINAL_FILE_INFO, PSP_ORIGINAL_FILE_INFO structure pointer [Setup API], SP_ORIGINAL_FILE_INFO, SP_ORIGINAL_FILE_INFO structure [Setup API], SP_ORIGINAL_FILE_INFO_W, _SP_ORIGINAL_FILE_INFO_W, _setupapi_sp_original_file_info, setup.sp_original_file_info, setupapi/PSP_ORIGINAL_FILE_INFO, setupapi/SP_ORIGINAL_FILE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

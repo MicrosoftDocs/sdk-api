@@ -1,16 +1,16 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetNext
 title: TRefPointerCollection::GetNext
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNext method gets a pointer to the next instance in the collection.
 old-location: wmi\trefpointercollection_getnext.htm
 old-project: WmiSdk
 ms.assetid: c0dfb2c7-71f6-4870-8018-145e890d4928
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h

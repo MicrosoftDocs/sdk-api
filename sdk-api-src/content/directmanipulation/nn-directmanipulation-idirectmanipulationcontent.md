@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationContent
 title: IDirectManipulationContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates content inside a viewport, where content represents a visual surface clipped inside the viewport.
 old-location: directmanipulation\idirectmanipulationcontent.htm
 old-project: directmanipulation
 ms.assetid: 4d69a503-f998-4197-824f-4df48825c941
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationContent, IDirectManipulationContent interface [Direct Manipulation], IDirectManipulationContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcontent, directmanipulation/IDirectManipulationContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

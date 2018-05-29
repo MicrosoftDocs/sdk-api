@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_Applications
 title: IAzAuthorizationStore::get_Applications
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IAzApplications object that is used to enumerate IAzApplication objects from the policy store.
 old-location: security\azauthorizationstore_applications.htm
 old-project: SecAuthZ
 ms.assetid: 7475fe41-b2fc-4a2c-a0db-c8c00bcc3ba4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Applications property [Security], Applications property [Security],AzAuthorizationStore object, Applications property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],Applications property, IAzAuthorizationStore interface [Security],Applications property, IAzAuthorizationStore.Applications, IAzAuthorizationStore.get_Applications, IAzAuthorizationStore::Applications, IAzAuthorizationStore::get_Applications, azroles/IAzAuthorizationStore::Applications, azroles/IAzAuthorizationStore::get_Applications, get_Applications, security.azauthorizationstore_applications
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

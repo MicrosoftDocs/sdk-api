@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiRecordIsNull
 title: MsiRecordIsNull function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports a null record field.
 old-location: setup\msirecordisnull.htm
 old-project: Msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

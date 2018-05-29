@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHQueryUserNotificationState
 title: SHQueryUserNotificationState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks the state of the computer for the current user to determine whether sending a notification is appropriate.
 old-location: shell\SHQueryUserNotificationState.htm
 old-project: shell
 ms.assetid: da6b3915-f4fe-4bab-9bae-9bff0b97b5a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHQueryUserNotificationState, SHQueryUserNotificationState function [Windows Shell], _shell_SHQueryUserNotificationState, shell.SHQueryUserNotificationState, shellapi/SHQueryUserNotificationState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

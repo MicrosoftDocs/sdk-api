@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterThroughFile
 title: CertSrvRestoreRegisterThroughFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a Certificate Services restore.
 old-location: security\certsrvrestoreregisterthroughfile.htm
 old-project: SecCrypto
 ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

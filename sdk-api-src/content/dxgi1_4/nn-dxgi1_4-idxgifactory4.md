@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_4.IDXGIFactory4
 title: IDXGIFactory4
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 old-location: direct3ddxgi\idxgifactory4.htm
 old-project: direct3ddxgi
 ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIFactory4, IDXGIFactory4 interface [DXGI], IDXGIFactory4 interface [DXGI],described, direct3ddxgi.idxgifactory4, dxgi1_4/IDXGIFactory4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.CLIPOBJ_cEnumStart
 title: CLIPOBJ_cEnumStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CLIPOBJ_cEnumStart function sets parameters for enumerating rectangles in a specified clip region.
 old-location: display\clipobj_cenumstart.htm
 old-project: display
 ms.assetid: e719f856-04a9-480d-b79a-df2307a48162
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLIPOBJ_cEnumStart, CLIPOBJ_cEnumStart function [Display Devices], display.clipobj_cenumstart, gdifncs_53ccc337-0aa7-442c-a612-facb369b66c6.xml, winddi/CLIPOBJ_cEnumStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

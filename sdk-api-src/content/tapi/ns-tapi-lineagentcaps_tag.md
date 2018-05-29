@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.lineagentcaps_tag
 title: lineagentcaps_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEAGENTCAPS structure describes the capabilities of an ACD agent. The lineGetAgentCaps function returns the LINEAGENTCAPS structure.
 old-location: tapi2\lineagentcaps_str.htm
 old-project: Tapi
 ms.assetid: e4c5ece8-7b29-4154-9b38-f2b17049446f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEAGENTCAPS, LINEAGENTCAPS, LINEAGENTCAPS structure [TAPI 2.2], LPLINEAGENTCAPS, LPLINEAGENTCAPS structure pointer [TAPI 2.2], _tapi2_lineagentcaps_str, lineagentcaps_tag, tapi/LINEAGENTCAPS, tapi/LPLINEAGENTCAPS, tapi2.lineagentcaps_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetStringValue
 title: ICredentialProviderUser::GetStringValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves string properties from the ICredentialProviderUser object based on the input value.
 old-location: shell\ICredentialProviderUser_GetStringValue.htm
 old-project: shell
 ms.assetid: 97FFD00F-6141-472c-A60C-A9A282190C9D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetStringValue method, ICredentialProviderUser.GetStringValue, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

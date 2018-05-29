@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.addExtensionToRequestWStr
 title: IEnroll4::addExtensionToRequestWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an extension to the request.
 old-location: security\ienroll4_addextensiontorequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 4ecca64b-a8f4-4816-8bf1-7b8e74262ac0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],addExtensionToRequestWStr method, IEnroll4.addExtensionToRequestWStr, IEnroll4::addExtensionToRequestWStr, addExtensionToRequestWStr, addExtensionToRequestWStr method [Security], addExtensionToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addextensiontorequestwstr, xenroll/IEnroll4::addExtensionToRequestWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

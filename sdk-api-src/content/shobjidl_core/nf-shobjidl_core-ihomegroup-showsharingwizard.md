@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.ShowSharingWizard
 title: IHomeGroup::ShowSharingWizard
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
 old-location: shell\IHomeGroup_ShowSharingWizard.htm
 old-project: shell
 ms.assetid: D73A97EE-B427-4c53-B023-3662D864E801
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HGSC_DOCUMENTSLIBRARY, HGSC_MUSICLIBRARY, HGSC_NONE, HGSC_PICTURESLIBRARY, HGSC_PRINTERS, HGSC_VIDEOSLIBRARY, IHomeGroup interface [Windows Shell],ShowSharingWizard method, IHomeGroup.ShowSharingWizard, IHomeGroup::ShowSharingWizard, ShowSharingWizard, ShowSharingWizard method [Windows Shell], ShowSharingWizard method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_ShowSharingWizard, shell.IHomeGroup_ShowSharingWizard, shobjidl_core/IHomeGroup::ShowSharingWizard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

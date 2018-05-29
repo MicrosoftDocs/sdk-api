@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.Close
 title: IOleObject::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes an embedded object from the running to the loaded state. Disconnects a linked object from its link source.
 old-location: com\ioleobject_close.htm
 old-project: com
 ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleObject interface, IOleObject interface [COM],Close method, IOleObject.Close, IOleObject::Close, _ole_ioleobject_close, com.ioleobject_close, oleidl/IOleObject::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

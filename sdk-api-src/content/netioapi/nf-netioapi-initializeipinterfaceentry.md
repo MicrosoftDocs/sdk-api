@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.InitializeIpInterfaceEntry
 title: InitializeIpInterfaceEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the members of an MIB_IPINTERFACE_ROW entry with default values.
 old-location: iphlp\initializeipinterfaceentry.htm
 old-project: IpHlp
 ms.assetid: 5e7aed65-63e1-4e7b-bccf-9a2485212432
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: InitializeIpInterfaceEntry, InitializeIpInterfaceEntry function [IP Helper], iphlp.initializeipinterfaceentry, netioapi/InitializeIpInterfaceEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Skip
 title: IEnumVARIANT::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Attempts to skip over the next celt elements in the enumeration sequence.
 old-location: automat\ienumvariant_skip.htm
 old-project: automat
 ms.assetid: 5fe6951f-1e21-4a3d-8694-96efb15e6d11
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IEnumVARIANT interface [Automation],Skip method, IEnumVARIANT.Skip, IEnumVARIANT::Skip, Skip, Skip method [Automation], Skip method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Skip, automat.ienumvariant_skip, oaidl/IEnumVARIANT::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

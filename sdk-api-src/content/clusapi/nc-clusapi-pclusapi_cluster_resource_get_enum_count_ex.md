@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX
 title: PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of cluster objects that are associated with a resource enumeration handle.
 old-location: mscs\clusterresourcegetenumcountex.htm
 old-project: MsCS
 ms.assetid: 97C22642-F968-4E41-90BC-28DF8DF5886C
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX callback, PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX, mscs.clusterresourcegetenumcountex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

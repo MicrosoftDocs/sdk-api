@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.GetClusterNetworkKey
 title: GetClusterNetworkKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a network.
 old-location: mscs\getclusternetworkkey.htm
 old-project: MsCS
 ms.assetid: c5d914b4-0419-4c03-bed4-ecb87e44db5e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetClusterNetworkKey, GetClusterNetworkKey function [Failover Cluster], _wolf_getclusternetworkkey, clusapi/GetClusterNetworkKey, mscs.getclusternetworkkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

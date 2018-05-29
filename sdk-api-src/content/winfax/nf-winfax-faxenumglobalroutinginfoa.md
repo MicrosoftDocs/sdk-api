@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxEnumGlobalRoutingInfoA
 title: FaxEnumGlobalRoutingInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxEnumGlobalRoutingInfo function enumerates all fax routing methods associated with a specific fax server.
 old-location: fax\_mfax_faxenumglobalroutinginfo.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5zvz.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxEnumGlobalRoutingInfo, FaxEnumGlobalRoutingInfo function [Fax Service], FaxEnumGlobalRoutingInfoA, FaxEnumGlobalRoutingInfoW, _mfax_faxenumglobalroutinginfo, fax._mfax_faxenumglobalroutinginfo, winfax/FaxEnumGlobalRoutingInfo, winfax/FaxEnumGlobalRoutingInfoA, winfax/FaxEnumGlobalRoutingInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

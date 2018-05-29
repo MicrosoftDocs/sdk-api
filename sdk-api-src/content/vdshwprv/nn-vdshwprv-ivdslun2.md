@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsLun2
 title: IVdsLun2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for applying and querying logical unit number (LUN) hints.
 old-location: base\ivdslun2.htm
 old-project: VDS
 ms.assetid: 1cc26b91-d77b-4f8d-8c01-40b58cb03038
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsLun2, IVdsLun2 interface, IVdsLun2 interface,described, base.ivdslun2, vds/IVdsLun2, vdshwprv/IVdsLun2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

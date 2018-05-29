@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFileSystemBindData2
 title: IFileSystemBindData2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends IFileSystemBindData, which stores file system information for optimizing calls to IShellFolder::ParseDisplayName. This interface adds the ability set or get file ID or junction class identifier (CLSID).
 old-location: shell\IFileSystemBindData2.htm
 old-project: shell
 ms.assetid: c9659147-e2b6-4040-b939-42b7efec32d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileSystemBindData2, IFileSystemBindData2 interface [Windows Shell], IFileSystemBindData2 interface [Windows Shell],described, _shell_IFileSystemBindData2, shell.IFileSystemBindData2, shobjidl_core/IFileSystemBindData2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

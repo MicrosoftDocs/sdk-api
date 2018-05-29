@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView2.HandleRename
 title: IShellView2::HandleRename
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to change an item's identifier.
 old-location: shell\IShellView2_HandleRename.htm
 old-project: shell
 ms.assetid: 0264df56-433f-4c54-a7e0-ccd92d3da602
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HandleRename, HandleRename method [Windows Shell], HandleRename method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],HandleRename method, IShellView2.HandleRename, IShellView2::HandleRename, _win32_IShellView2_HandleRename, shell.IShellView2_HandleRename, shobjidl_core/IShellView2::HandleRename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

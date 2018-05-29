@@ -1,16 +1,16 @@
 ---
 UID: NS:cfgmgr32._CM_NOTIFY_EVENT_DATA
 title: "_CM_NOTIFY_EVENT_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: This is a device notification event data structure.
 old-location: devinst\cm_notify_event_data.htm
 old-project: devinst
 ms.assetid: 61bd4ea3-9910-4feb-a330-3e0bcdac1ce2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PCM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA structure [Device and Driver Installation], PCM_NOTIFY_EVENT_DATA, PCM_NOTIFY_EVENT_DATA structure pointer [Device and Driver Installation], _CM_NOTIFY_EVENT_DATA, cfgmgr32/CM_NOTIFY_EVENT_DATA, cfgmgr32/PCM_NOTIFY_EVENT_DATA, devinst.cm_notify_event_data"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: 

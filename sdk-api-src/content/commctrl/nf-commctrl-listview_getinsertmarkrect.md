@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetInsertMarkRect
 title: ListView_GetInsertMarkRect macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the rectangle that bounds the insertion point. You can use this macro or send the LVM_GETINSERTMARKRECT message explicitly.
 old-location: controls\ListView_GetInsertMarkRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetInsertMarkRect, ListView_GetInsertMarkRect macro [Windows Controls], _win32_ListView_GetInsertMarkRect, _win32_ListView_GetInsertMarkRect_cpp, commctrl/ListView_GetInsertMarkRect, controls.ListView_GetInsertMarkRect, controls._win32_ListView_GetInsertMarkRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

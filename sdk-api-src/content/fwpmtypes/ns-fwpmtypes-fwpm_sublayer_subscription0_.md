@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_SUBSCRIPTION0_
 title: FWPM_SUBLAYER_SUBSCRIPTION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to subscribe for change notifications.
 old-location: fwp\fwpm_sublayer_subscription0_struct.htm
 old-project: FWP
 ms.assetid: bfd0f35a-7f56-42e4-b3da-cd7c4a2bae5e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_SUBLAYER_SUBSCRIPTION0, FWPM_SUBLAYER_SUBSCRIPTION0 structure [Filtering], FWPM_SUBLAYER_SUBSCRIPTION0_, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_sublayer_subscription0_struct, fwpmtypes/FWPM_SUBLAYER_SUBSCRIPTION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

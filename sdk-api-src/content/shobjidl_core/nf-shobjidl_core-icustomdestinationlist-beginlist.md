@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.BeginList
 title: ICustomDestinationList::BeginList
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates a building session for a custom Jump List.
 old-location: shell\ICustomDestinationList_BeginList.htm
 old-project: shell
 ms.assetid: 431ae6b0-1421-46ec-a06a-38158acb0275
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BeginList, BeginList method [Windows Shell], BeginList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],BeginList method, ICustomDestinationList.BeginList, ICustomDestinationList::BeginList, _shell_ICustomDestinationList_BeginList, shell.ICustomDestinationList_BeginList, shobjidl_core/ICustomDestinationList::BeginList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

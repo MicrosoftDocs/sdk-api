@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCPlayback
 title: IComQCEvents::OnQCPlayback
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a messages contents are replayed.
 old-location: cos\icomqcevents_onqcplayback.htm
 old-project: cossdk
 ms.assetid: 7cd9daf8-cc4d-4d48-b547-95b370f5a927
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCPlayback method, IComQCEvents.OnQCPlayback, IComQCEvents::OnQCPlayback, OnQCPlayback, OnQCPlayback method [COM+], OnQCPlayback method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCPlayback, comsvcs/IComQCEvents::OnQCPlayback, cos.icomqcevents_onqcplayback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

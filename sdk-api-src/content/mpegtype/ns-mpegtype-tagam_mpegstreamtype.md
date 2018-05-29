@@ -1,16 +1,16 @@
 ---
 UID: NS:mpegtype.tagAM_MPEGSTREAMTYPE
 title: tagAM_MPEGSTREAMTYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_MPEGSTREAMTYPE structure defines the media type for an MPEG-1 program stream.
 old-location: dshow\am_mpegstreamtype.htm
 old-project: DirectShow
 ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.am_mpegstreamtype, mpegtype/AM_MPEGSTREAMTYPE, tagAM_MPEGSTREAMTYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpegtype.h
 req.include-header: Dshow.h

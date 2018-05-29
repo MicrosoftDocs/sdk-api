@@ -1,16 +1,16 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
 title: "_EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: The EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration specifies the values used to get the status of a subscription or the status of a particular event source with respect to a subscription.
 old-location: wec\ec_subscription_runtime_status_info_id.htm
 old-project: WEC
 ms.assetid: cc4e58d5-22cf-4823-be5d-e056f6690a45
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration, EcSubscriptionRunTimeStatusActive, EcSubscriptionRunTimeStatusEventSources, EcSubscriptionRunTimeStatusLastError, EcSubscriptionRunTimeStatusLastErrorMessage, EcSubscriptionRunTimeStatusLastErrorTime, EcSubscriptionRunTimeStatusLastHeartbeatTime, EcSubscriptionRunTimeStatusNextRetryTime, _EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, evcoll/EcSubscriptionRunTimeStatusActive, evcoll/EcSubscriptionRunTimeStatusEventSources, evcoll/EcSubscriptionRunTimeStatusLastError, evcoll/EcSubscriptionRunTimeStatusLastErrorMessage, evcoll/EcSubscriptionRunTimeStatusLastErrorTime, evcoll/EcSubscriptionRunTimeStatusLastHeartbeatTime, evcoll/EcSubscriptionRunTimeStatusNextRetryTime, wec.ec_subscription_runtime_status_info_id, wes.ec_subscription_runtime_status_info_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 

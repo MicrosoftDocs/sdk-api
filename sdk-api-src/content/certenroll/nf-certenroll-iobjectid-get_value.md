@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IObjectId.get_Value
 title: IObjectId::get_Value
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string that contains the dotted decimal object identifier (OID).
 old-location: security\iobjectid_value_property.htm
 old-project: SecCertEnroll
 ms.assetid: 9ccb681a-f31b-4d31-ae56-25efd2af2b2c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IObjectId interface [Security],Value property, IObjectId.Value, IObjectId.get_Value, IObjectId::Value, IObjectId::get_Value, Value property [Security], Value property [Security],IObjectId interface, certenroll/IObjectId::Value, certenroll/IObjectId::get_Value, get_Value, security.iobjectid_value_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

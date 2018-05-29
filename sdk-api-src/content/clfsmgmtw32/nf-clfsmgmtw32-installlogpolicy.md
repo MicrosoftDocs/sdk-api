@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsmgmtw32.InstallLogPolicy
 title: InstallLogPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs (sets) a policy for a log.
 old-location: fs\installlogpolicy.htm
 old-project: Clfs
 ms.assetid: c397e506-b7a9-4189-bf1b-6df81db8e187
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: InstallLogPolicy, InstallLogPolicy function [Files], clfsmgmtw32/InstallLogPolicy, fs.installlogpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

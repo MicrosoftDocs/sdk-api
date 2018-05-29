@@ -1,16 +1,16 @@
 ---
 UID: NF:madcapcl.McastGenUID
 title: McastGenUID function
-author: windows-driver-content
+author: windows-sdk-content
 description: The McastGenUID function generates a unique identifier, subsequently used by clients to request and renew addresses.
 old-location: madcap\mcastgenuid.htm
 old-project: Madcap
 ms.assetid: 67d5f149-d9b3-4903-a859-1ad33e310997
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: McastGenUID, McastGenUID function [MADCAP], _mdhcp_mcastgenuid, madcap.mcastgenuid, madcapcl/McastGenUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 

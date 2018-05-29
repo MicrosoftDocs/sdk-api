@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_WindowVisualState
 title: IWindowProvider::get_WindowVisualState
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the visual state of the window; that is, whether the window is normal (restored), minimized, or maximized.
 old-location: winauto\uiauto_IWindowProvider_WindowVisualState.htm
 old-project: WinAuto
 ms.assetid: c65e8687-51b7-45ea-8183-6d9674f77012
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WindowVisualState property, IWindowProvider.WindowVisualState, IWindowProvider.get_WindowVisualState, IWindowProvider::WindowVisualState, IWindowProvider::get_WindowVisualState, WindowVisualState property [Windows Accessibility], WindowVisualState property [Windows Accessibility],IWindowProvider interface, get_WindowVisualState, uiauto.uiauto_IWindowProvider_WindowVisualState, uiauto_IWindowProvider_WindowVisualState, uiautomationcore/IWindowProvider::WindowVisualState, uiautomationcore/IWindowProvider::get_WindowVisualState, winauto.uiauto_IWindowProvider_WindowVisualState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

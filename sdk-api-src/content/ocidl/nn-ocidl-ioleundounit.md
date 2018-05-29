@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IOleUndoUnit
 title: IOleUndoUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Serves as the main interface on an undo unit. An undo unit encapsulates the information necessary to undo or redo a single action.
 old-location: com\ioleundounit.htm
 old-project: com
 ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface [COM],described, _ole_ioleundounit, com.ioleundounit, ocidl/IOleUndoUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncCallback.OnConflict
 title: ISyncCallback::OnConflict
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when a conflict is detected when the concurrency conflict resolution policy is set to CRP_NONE.
 old-location: winsync\isynccallback_onconflict.htm
 old-project: winsync
 ms.assetid: 439f2a73-b36c-4604-b739-9f9b68275ac5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnConflict method, ISyncCallback.OnConflict, ISyncCallback::OnConflict, OnConflict, OnConflict method [Windows Sync], OnConflict method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onconflict, winsync/ISyncCallback::OnConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IObjectIds.AddRange
 title: IObjectIds::AddRange
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a range of IObjectId objects to the collection.
 old-location: security\iobjectids_addrange_method.htm
 old-project: SecCertEnroll
 ms.assetid: bf7a85a3-201b-413e-a1da-1e54b55771cc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IObjectIds interface, IObjectIds interface [Security],AddRange method, IObjectIds.AddRange, IObjectIds::AddRange, certenroll/IObjectIds::AddRange, security.iobjectids_addrange_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

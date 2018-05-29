@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IRunningTask.get_State
 title: IRunningTask::get_State
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an identifier for the state of the running task.
 old-location: taskschd\irunningtask_state.htm
 old-project: TaskSchd
 ms.assetid: 50a1d81d-9762-4d1f-801a-b2c54ad9c5bc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRunningTask interface [Task Scheduler],State property, IRunningTask.State, IRunningTask.get_State, IRunningTask::State, IRunningTask::get_State, State property [Task Scheduler], State property [Task Scheduler],IRunningTask interface, TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, get_State, taskschd.irunningtask_state, taskschd/IRunningTask::State, taskschd/IRunningTask::get_State
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Lock
 title: IDirectDrawSurface7::Lock
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains a pointer to the surface memory.
 old-location: directdraw\idirectdrawsurface7_lock.htm
 old-project: directdraw
 ms.assetid: 0267ad70-e7cc-41e8-8325-7ede4a662d13
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DDLOCK_DISCARDCONTENTS, DDLOCK_DONOTWAIT, DDLOCK_EVENT, DDLOCK_NOOVERWRITE, DDLOCK_NOSYSLOCK, DDLOCK_OKTOSWAP, DDLOCK_READONLY, DDLOCK_SURFACEMEMORYPTR, DDLOCK_WAIT, DDLOCK_WRITEONLY, IDirectDrawSurface7 interface [DirectDraw],Lock method, IDirectDrawSurface7.Lock, IDirectDrawSurface7::Lock, Lock, Lock method [DirectDraw], Lock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Lock, directdraw.idirectdrawsurface7_lock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

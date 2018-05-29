@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHAssocEnumHandlersForProtocolByApplication
 title: SHAssocEnumHandlersForProtocolByApplication function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumeration interface that provides access to handlers associated with a given protocol.
 old-location: shell\SHAssocEnumHandlersForProtocolByApplication.htm
 old-project: shell
 ms.assetid: 8bc3b9ce-5909-46a0-b5f1-35ab808aaa55
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHAssocEnumHandlersForProtocolByApplication, SHAssocEnumHandlersForProtocolByApplication function [Windows Shell], _shell_SHAssocEnumHandlersForProtocolByApplication, shell.SHAssocEnumHandlersForProtocolByApplication, shobjidl_core/SHAssocEnumHandlersForProtocolByApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Title
 title: IProvideWinSATAssessmentInfo::get_Title
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the title of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_title.htm
 old-project: WinSAT
 ms.assetid: 11c9c59f-97d6-41d1-ab0e-7901e126b07c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Title property, IProvideWinSATAssessmentInfo.Title, IProvideWinSATAssessmentInfo.get_Title, IProvideWinSATAssessmentInfo::Title, IProvideWinSATAssessmentInfo::get_Title, Title property [WinSAT], Title property [WinSAT],IProvideWinSATAssessmentInfo interface, get_Title, winsat.iprovidewinsatassessmentinfo_title, winsatcominterfacei/IProvideWinSATAssessmentInfo::Title, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Title
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

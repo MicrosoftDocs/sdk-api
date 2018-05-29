@@ -1,16 +1,16 @@
 ---
 UID: NN:sbe.ISBE2GlobalEvent2
 title: ISBE2GlobalEvent2
-author: windows-driver-content
+author: windows-sdk-content
 description: Offers access to global spanning events and their data from the Stream Buffer Source filters. A global spanning event contains state information that applies to all the streams in a pipeline. This interface extends the ISBE2GlobalEvent interface.
 old-location: mstv\isbe2globalevent2.htm
 old-project: mstv
 ms.assetid: d03b2f9d-560d-4357-9388-ed287f4cc8db
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISBE2GlobalEvent2, ISBE2GlobalEvent2 interface [Microsoft TV Technologies], ISBE2GlobalEvent2 interface [Microsoft TV Technologies],described, mstv.isbe2globalevent2, sbe/ISBE2GlobalEvent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingServerFromClient
 title: RpcBindingServerFromClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: An application calls RpcBindingServerFromClient to convert a client binding handle into a partially-bound server binding handle.
 old-location: rpc\rpcbindingserverfromclient.htm
 old-project: Rpc
 ms.assetid: 9fdcdb99-be6c-4a3b-97dd-8d0eadd2754d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingServerFromClient, RpcBindingServerFromClient function [RPC], _rpc_rpcbindingserverfromclient, rpc.rpcbindingserverfromclient, rpcdce/RpcBindingServerFromClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

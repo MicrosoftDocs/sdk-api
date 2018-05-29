@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.CreateRefreshableObject
 title: IWbemHiPerfProvider::CreateRefreshableObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a refreshable instance object.
 old-location: wmi\iwbemhiperfprovider_createrefreshableobject.htm
 old-project: WmiSdk
 ms.assetid: 1eb414e0-cdf6-4caa-88a5-8da17a32449c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CreateRefreshableObject, CreateRefreshableObject method [Windows Management Instrumentation], CreateRefreshableObject method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableObject method, IWbemHiPerfProvider.CreateRefreshableObject, IWbemHiPerfProvider::CreateRefreshableObject, _hmm_iwbemhiperfprovider_createrefreshableobject, wbemprov/IWbemHiPerfProvider::CreateRefreshableObject, wmi.iwbemhiperfprovider_createrefreshableobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

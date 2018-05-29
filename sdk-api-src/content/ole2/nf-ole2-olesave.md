@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleSave
 title: OleSave function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves an object opened in transacted mode into the specified storage object.
 old-location: com\olesave.htm
 old-project: com
 ms.assetid: b8d8e1af-05a3-42f5-8672-910a2606e613
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleSave, OleSave function [COM], _ole_OleSave, com.olesave, ole2/OleSave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

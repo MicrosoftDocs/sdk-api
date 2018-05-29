@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Matrix(GpMatrix)
 title: Matrix::Matrix(GpMatrix)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_53.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(), Matrix.Matrix(GpMatrix), Matrix::Matrix, Matrix::Matrix(GpMatrix), _gdiplus_CLASS_Matrix_Matrix_, gdiplus._gdiplus_CLASS_Matrix_Matrix_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

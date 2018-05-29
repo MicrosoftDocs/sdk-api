@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadAssignApartment
 title: IComThreadEvents::OnThreadAssignApartment
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an activity is assigned to an apartment thread.
 old-location: cos\icomthreadevents_onthreadassignapartment.htm
 old-project: cossdk
 ms.assetid: 2711b4b9-f27c-42c4-8f78-f31ffba2cfcf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadAssignApartment method, IComThreadEvents.OnThreadAssignApartment, IComThreadEvents::OnThreadAssignApartment, OnThreadAssignApartment, OnThreadAssignApartment method [COM+], OnThreadAssignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadAssignApartment, comsvcs/IComThreadEvents::OnThreadAssignApartment, cos.icomthreadevents_onthreadassignapartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

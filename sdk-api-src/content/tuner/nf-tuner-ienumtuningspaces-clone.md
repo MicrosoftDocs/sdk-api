@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Clone
 title: IEnumTuningSpaces::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method creates a new copy of the collection and all its sub-objects.
 old-location: mstv\ienumtuningspaces_clone.htm
 old-project: mstv
 ms.assetid: 3f9ad46e-38a7-4f07-b04b-999c912f9965
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumTuningSpaces interface, IEnumTuningSpaces interface [Microsoft TV Technologies],Clone method, IEnumTuningSpaces.Clone, IEnumTuningSpaces::Clone, IEnumTuningSpacesClone, mstv.ienumtuningspaces_clone, tuner/IEnumTuningSpaces::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

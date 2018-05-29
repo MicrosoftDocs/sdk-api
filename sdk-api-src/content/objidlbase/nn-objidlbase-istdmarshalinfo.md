@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.IStdMarshalInfo
 title: IStdMarshalInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling.
 old-location: com\istdmarshalinfo.htm
 old-project: com
 ms.assetid: f034436f-e24e-4b99-9fb9-b0400d3ebb72
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

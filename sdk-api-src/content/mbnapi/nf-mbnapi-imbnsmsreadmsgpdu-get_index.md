@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Index
 title: IMbnSmsReadMsgPdu::get_Index
-author: windows-driver-content
+author: windows-sdk-content
 description: The index of the message in the device SMS store.
 old-location: mbn\imbnsmsreadmsgpdu_index.htm
 old-project: mbn
 ms.assetid: d464fd2f-40fe-4c94-9a6b-fdc45b566b6d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgPdu.Index, IMbnSmsReadMsgPdu.get_Index, IMbnSmsReadMsgPdu::Index, IMbnSmsReadMsgPdu::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Index, mbn.imbnsmsreadmsgpdu_index, mbnapi/IMbnSmsReadMsgPdu::Index, mbnapi/IMbnSmsReadMsgPdu::get_Index
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

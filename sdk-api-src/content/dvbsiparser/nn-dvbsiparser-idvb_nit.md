@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDVB_NIT
 title: IDVB_NIT
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit.htm
 old-project: mstv
 ms.assetid: 70b638ae-0152-4a44-aeb1-f3ac382c19ce
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], IDVB_NIT interface [Microsoft TV Technologies],described, IDVB_NITInterface, dvbsiparser/IDVB_NIT, mstv.idvb_nit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

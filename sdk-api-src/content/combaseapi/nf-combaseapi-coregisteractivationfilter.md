@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoRegisterActivationFilter
 title: CoRegisterActivationFilter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a process-wide filter to process activation requests.
 old-location: com\coregisteractivationfilter.htm
 old-project: com
 ms.assetid: 4189633F-9B14-4EAD-84BD-F74355376164
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoRegisterActivationFilter, CoRegisterActivationFilter function [COM], com.coregisteractivationfilter, combaseapi/CoRegisterActivationFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

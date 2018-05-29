@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateMetadataWriterFromReader
 title: IWICComponentFactory::CreateMetadataWriterFromReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWICMetadataWriter from the given IWICMetadataReader.
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatawriterfromreader.htm
 old-project: wic
 ms.assetid: f321483c-186b-4405-84f6-f58fddf6b60f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateMetadataWriterFromReader, CreateMetadataWriterFromReader method [Windows Imaging Component], CreateMetadataWriterFromReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataWriterFromReader method, IWICComponentFactory.CreateMetadataWriterFromReader, IWICComponentFactory::CreateMetadataWriterFromReader, _wic_codec_iwiccomponentfactory_createmetadatawriterfromreader, wic._wic_codec_iwiccomponentfactory_createmetadatawriterfromreader, wincodecsdk/IWICComponentFactory::CreateMetadataWriterFromReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

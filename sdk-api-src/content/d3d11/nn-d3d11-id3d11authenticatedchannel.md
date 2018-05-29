@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11AuthenticatedChannel
 title: ID3D11AuthenticatedChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a communication channel with the graphics driver or the Microsoft Direct3D runtime.
 old-location: mf\id3d11authenticatedchannel.htm
 old-project: medfound
 ms.assetid: B2DE8E06-1571-4D50-9296-8EB4BB74D6BA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11AuthenticatedChannel, ID3D11AuthenticatedChannel interface [Media Foundation], ID3D11AuthenticatedChannel interface [Media Foundation],described, d3d11/ID3D11AuthenticatedChannel, mf.id3d11authenticatedchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

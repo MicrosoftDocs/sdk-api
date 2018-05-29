@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantGetBooleanElem
 title: PropVariantGetBooleanElem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a single Boolean element from a PROPVARIANT structure of type VT_BOOL, VT_VECTOR | VT_BOOL, or VT_ARRAY | VT_BOOL.
 old-location: properties\PropVariantGetBooleanElem.htm
 old-project: properties
 ms.assetid: 830dca70-1777-418d-b3ac-78028411700e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantGetBooleanElem, PropVariantGetBooleanElem function [Windows Properties], _shell_PropVariantGetBooleanElem, properties.PropVariantGetBooleanElem, propvarutil/PropVariantGetBooleanElem, shell.PropVariantGetBooleanElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

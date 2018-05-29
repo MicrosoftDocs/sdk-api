@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.WSAImpersonateSocketPeer
 title: WSAImpersonateSocketPeer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.
 old-location: winsock\wsaimpersonatesocketpeer.htm
 old-project: WinSock
 ms.assetid: 8dd2c0dd-ca1d-40b8-8e58-a980e67b6941
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAImpersonateSocketPeer, WSAImpersonateSocketPeer function [Winsock], winsock.wsaimpersonatesocketpeer, ws2tcpip/WSAImpersonateSocketPeer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

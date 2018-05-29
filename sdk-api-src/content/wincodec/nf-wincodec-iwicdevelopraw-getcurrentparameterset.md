@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetCurrentParameterSet
 title: IWICDevelopRaw::GetCurrentParameterSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current set of parameters.
 old-location: wic\_wic_codec_iwicdevelopraw_getcurrentparameterset.htm
 old-project: wic
 ms.assetid: 06facc60-0d88-472d-827a-70e4006e947e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCurrentParameterSet, GetCurrentParameterSet method [Windows Imaging Component], GetCurrentParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetCurrentParameterSet method, IWICDevelopRaw.GetCurrentParameterSet, IWICDevelopRaw::GetCurrentParameterSet, _wic_codec_iwicdevelopraw_getcurrentparameterset, wic._wic_codec_iwicdevelopraw_getcurrentparameterset, wincodec/IWICDevelopRaw::GetCurrentParameterSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

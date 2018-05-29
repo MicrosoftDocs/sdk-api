@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertAddRefServerOcspResponse
 title: CertAddRefServerOcspResponse function
-author: windows-driver-content
+author: windows-sdk-content
 description: Increments the reference count for an HCERT_SERVER_OCSP_RESPONSE handle.
 old-location: security\certaddrefserverocspresponse.htm
 old-project: SecCrypto
 ms.assetid: 6ccc0e85-1fa0-480c-a5b4-b21ba811e5d0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertAddRefServerOcspResponse, CertAddRefServerOcspResponse function [Security], security.certaddrefserverocspresponse, wincrypt/CertAddRefServerOcspResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

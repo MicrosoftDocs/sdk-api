@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscribe1
 title: FwpmNetEventSubscribe1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding a particular net event.
 old-location: fwp\fwpmneteventsubscribe1.htm
 old-project: FWP
 ms.assetid: 1e079574-3ab0-48d4-84ab-b2b3f34f757b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmNetEventSubscribe1, FwpmNetEventSubscribe1 function [Filtering], fwp.fwpmneteventsubscribe1, fwpmu/FwpmNetEventSubscribe1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

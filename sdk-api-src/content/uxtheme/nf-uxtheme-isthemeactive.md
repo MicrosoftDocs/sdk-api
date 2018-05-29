@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.IsThemeActive
 title: IsThemeActive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests if a visual style for the current application is active.
 old-location: controls\IsThemeActive.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemeactive.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsThemeActive, IsThemeActive function [Windows Controls], controls.IsThemeActive, controls.inet_IsThemeActive, inet_IsThemeActive, inet_IsThemeActive_cpp, uxtheme/IsThemeActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

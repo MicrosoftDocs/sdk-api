@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiUseFeatureExW
 title: MsiUseFeatureExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiUseFeatureEx function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeatureex.htm
 old-project: Msi
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function, MsiUseFeatureExA, MsiUseFeatureExW, _msi_msiusefeatureex, msi/MsiUseFeatureEx, msi/MsiUseFeatureExA, msi/MsiUseFeatureExW, setup.msiusefeatureex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

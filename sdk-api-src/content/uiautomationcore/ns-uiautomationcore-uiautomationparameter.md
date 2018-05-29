@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcore.UIAutomationParameter
 title: UIAutomationParameter
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a parameter of a custom control pattern.
 old-location: winauto\uiauto_UIAutomationParameterStruct.htm
 old-project: WinAuto
 ms.assetid: 8287867d-5aaf-4c52-8a8b-d98de6a2ad4b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UIAutomationParameter, UIAutomationParameter structure [Windows Accessibility], uiauto.uiauto_UIAutomationParameterStruct, uiauto_UIAutomationParameterStruct, uiautomationcore/UIAutomationParameter, winauto.uiauto_UIAutomationParameterStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

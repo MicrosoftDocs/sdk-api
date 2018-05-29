@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICTiffCompressionOption
 title: WICTiffCompressionOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Tagged Image File Format (TIFF) compression options.
 old-location: wic\_wic_codec_wictiffcompressionoption.htm
 old-project: wic
 ms.assetid: 787f6d71-6481-4236-8c3f-1b18bfb7ee88
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICTiffCompressionCCITT3, WICTiffCompressionCCITT4, WICTiffCompressionDontCare, WICTiffCompressionLZW, WICTiffCompressionLZWHDifferencing, WICTiffCompressionNone, WICTiffCompressionOption, WICTiffCompressionOption enumeration [Windows Imaging Component], WICTiffCompressionRLE, WICTiffCompressionZIP, _wic_codec_wictiffcompressionoption, wic._wic_codec_wictiffcompressionoption, wincodec/WICTiffCompressionCCITT3, wincodec/WICTiffCompressionCCITT4, wincodec/WICTiffCompressionDontCare, wincodec/WICTiffCompressionLZW, wincodec/WICTiffCompressionLZWHDifferencing, wincodec/WICTiffCompressionNone, wincodec/WICTiffCompressionOption, wincodec/WICTiffCompressionRLE, wincodec/WICTiffCompressionZIP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

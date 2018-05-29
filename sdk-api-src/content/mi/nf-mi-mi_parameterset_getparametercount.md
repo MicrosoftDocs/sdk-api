@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetParameterCount
 title: MI_ParameterSet_GetParameterCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of parameters in a method's parameter set.
 old-location: wmi_v2\mi_parameterset_getparametercount.htm
 old-project: wmi_v2
 ms.assetid: 4b1ca06f-426c-483f-a571-b49eb06991e1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ParameterSet_GetParameterCount, MI_ParameterSet_GetParameterCount function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterCount, wmi_v2.mi_parameterset_getparametercount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

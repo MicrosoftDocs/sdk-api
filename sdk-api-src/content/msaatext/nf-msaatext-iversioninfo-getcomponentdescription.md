@@ -1,16 +1,16 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetComponentDescription
 title: IVersionInfo::GetComponentDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Clients call this method to retrieve a description of the component.
 old-location: winauto\iversioninfo_iversioninfo__getcomponentdescription.htm
 old-project: WinAuto
 ms.assetid: bb689adb-bd94-4c62-b408-33e1aa694c89
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetComponentDescription, GetComponentDescription method [Windows Accessibility], GetComponentDescription method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetComponentDescription method, IVersionInfo.GetComponentDescription, IVersionInfo::GetComponentDescription, _msaa_IVersionInfo_GetComponentDescription, msaa.iversioninfo_iversioninfo__getcomponentdescription, msaatext/IVersionInfo::GetComponentDescription, winauto.iversioninfo_iversioninfo__getcomponentdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 

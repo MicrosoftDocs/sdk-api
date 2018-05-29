@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Priority
 title: ITaskSettings::get_Priority
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the priority level of the task.
 old-location: taskschd\itasksettings_priority.htm
 old-project: TaskSchd
 ms.assetid: ce6ad1bc-0d19-4a5d-b29f-8df8400f8819
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],Priority property, ITaskSettings.Priority, ITaskSettings.get_Priority, ITaskSettings::Priority, ITaskSettings::get_Priority, ITaskSettings::put_Priority, Priority property [Task Scheduler], Priority property [Task Scheduler],ITaskSettings interface, get_Priority, taskschd.itasksettings_priority, taskschd/ITaskSettings::Priority, taskschd/ITaskSettings::get_Priority, taskschd/ITaskSettings::put_Priority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

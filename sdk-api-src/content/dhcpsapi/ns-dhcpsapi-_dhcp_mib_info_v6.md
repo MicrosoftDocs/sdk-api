@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_MIB_INFO_V6
 title: "_DHCP_MIB_INFO_V6"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains statistics for the DHCPv6 server.
 old-location: dhcp\dhcp_mib_info_v6.htm
 old-project: DHCP
 ms.assetid: 8b961666-4b55-47b4-be52-81b67c9d1cae
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6 structure [DHCP], PDHCP_MIB_INFO_V6, PDHCP_MIB_INFO_V6 structure pointer [DHCP], _DHCP_MIB_INFO_V6, dhcp.dhcp_mib_info_v6, dhcpsapi/DHCP_MIB_INFO_V6, dhcpsapi/PDHCP_MIB_INFO_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

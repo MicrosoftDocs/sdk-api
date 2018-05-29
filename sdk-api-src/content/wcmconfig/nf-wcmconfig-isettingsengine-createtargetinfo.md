@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateTargetInfo
 title: ISettingsEngine::CreateTargetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an empty target.
 old-location: smi\isettingsengine_createtargetinfo.htm
 old-project: SMI
 ms.assetid: f3d31643-c606-4fc1-96a8-cf5cb26bcf3f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateTargetInfo, CreateTargetInfo method [SMI], CreateTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateTargetInfo method, ISettingsEngine.CreateTargetInfo, ISettingsEngine::CreateTargetInfo, smi.isettingsengine_createtargetinfo, wcmconfig/ISettingsEngine::CreateTargetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

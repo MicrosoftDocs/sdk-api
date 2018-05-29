@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_2DREGION
 title: DISPLAYCONFIG_2DREGION
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_2DREGION structure represents a point or an offset in a two-dimensional space.
 old-location: display\displayconfig_2dregion.htm
 old-project: display
 ms.assetid: ea306268-53fc-488b-afae-b8e9e5d09f2b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Structures_3e3c709d-4dda-4a28-9aaa-2e0c54247601.xml, DISPLAYCONFIG_2DREGION, DISPLAYCONFIG_2DREGION structure [Display Devices], display.displayconfig_2dregion, wingdi/DISPLAYCONFIG_2DREGION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_InsertGroupSorted
 title: ListView_InsertGroupSorted macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts a group into an ordered list of groups. You can use this macro or send the LVM_INSERTGROUPSORTED message explicitly.
 old-location: controls\ListView_InsertGroupSorted.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroupsorted.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_InsertGroupSorted, ListView_InsertGroupSorted macro [Windows Controls], _win32_ListView_InsertGroupSorted, _win32_ListView_InsertGroupSorted_cpp, commctrl/ListView_InsertGroupSorted, controls.ListView_InsertGroupSorted, controls._win32_ListView_InsertGroupSorted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

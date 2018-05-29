@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.Resume
 title: IPackageDebugSettings::Resume
-author: windows-driver-content
+author: windows-sdk-content
 description: Resumes the processes of the package if they are currently suspended.
 old-location: shell\IPackageDebugSettings_Resume.htm
 old-project: shell
 ms.assetid: 2f0b3188-4c58-4ff6-983e-912131a7c934
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Resume method, IPackageDebugSettings.Resume, IPackageDebugSettings::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Resume, shobjidl_core/IPackageDebugSettings::Resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

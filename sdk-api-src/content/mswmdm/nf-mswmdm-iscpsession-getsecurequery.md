@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.ISCPSession.GetSecureQuery
 title: ISCPSession::GetSecureQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSecureQuery method is used to obtain a secure query object for the session.
 old-location: wmdm\iscpsession_getsecurequery.htm
 old-project: WMDM
 ms.assetid: c725f0ae-1f37-412d-ac2b-0833989d1bd6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSecureQuery, GetSecureQuery method [windows Media Device Manager], GetSecureQuery method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],GetSecureQuery method, ISCPSession.GetSecureQuery, ISCPSession::GetSecureQuery, ISCPSessionGetSecureQuerry, mswmdm/ISCPSession::GetSecureQuery, wmdm.iscpsession_getsecurequery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

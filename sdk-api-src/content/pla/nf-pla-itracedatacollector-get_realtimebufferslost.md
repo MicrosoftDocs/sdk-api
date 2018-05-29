@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_RealTimeBuffersLost
 title: ITraceDataCollector::get_RealTimeBuffersLost
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of buffers that were not delivered in real time to the consumer.
 old-location: pla\itracedatacollector_realtimebufferslost.htm
 old-project: PLA
 ms.assetid: d18169fd-4196-4844-b110-3747244b148c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],RealTimeBuffersLost property, ITraceDataCollector.RealTimeBuffersLost, ITraceDataCollector.get_RealTimeBuffersLost, ITraceDataCollector::RealTimeBuffersLost, ITraceDataCollector::get_RealTimeBuffersLost, RealTimeBuffersLost property [PLA], RealTimeBuffersLost property [PLA],ITraceDataCollector interface, base.itracedatacollector_realtimebufferslost, get_RealTimeBuffersLost, pla.itracedatacollector_realtimebufferslost, pla/ITraceDataCollector::RealTimeBuffersLost, pla/ITraceDataCollector::get_RealTimeBuffersLost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

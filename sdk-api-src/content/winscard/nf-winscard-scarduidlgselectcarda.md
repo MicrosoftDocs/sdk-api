@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardUIDlgSelectCardA
 title: SCardUIDlgSelectCardA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the smart card Select Card dialog box.
 old-location: security\scarduidlgselectcard.htm
 old-project: SecAuthN
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

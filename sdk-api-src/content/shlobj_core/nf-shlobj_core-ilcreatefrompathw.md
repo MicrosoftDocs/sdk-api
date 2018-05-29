@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILCreateFromPathW
 title: ILCreateFromPathW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the ITEMIDLIST structure associated with a specified file path.
 old-location: shell\ILCreateFromPathW.htm
 old-project: shell
 ms.assetid: dee5486c-8be9-46c1-b5a1-e917e7c1e528
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILCreateFromPath, ILCreateFromPath function [Windows Shell], ILCreateFromPathA, ILCreateFromPathW, _win32_ILCreateFromPathW, shell.ILCreateFromPathW, shlobj_core/ILCreateFromPath, shlobj_core/ILCreateFromPathA, shlobj_core/ILCreateFromPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h, Shlobj.h, Shlobj_core.h

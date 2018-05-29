@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32WithDefault
 title: PropVariantToUInt32WithDefault function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a ULONG value from a PROPVARIANT structure. If no value exists, then a specified default value is returned.
 old-location: properties\PropVariantToUInt32WithDefault.htm
 old-project: properties
 ms.assetid: 8ace8c3f-fea2-4b20-9e0b-3abfbd569b54
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToUInt32WithDefault, PropVariantToUInt32WithDefault function [Windows Properties], properties.PropVariantToUInt32WithDefault, propvarutil/PropVariantToUInt32WithDefault, shell.PropVariantToUInt32WithDefault, shell_PropVariantToUInt32WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

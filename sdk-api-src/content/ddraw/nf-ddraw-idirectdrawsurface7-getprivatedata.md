@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetPrivateData
 title: IDirectDrawSurface7::GetPrivateData
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the private data that is associated with this surface to a provided buffer.
 old-location: directdraw\idirectdrawsurface7_getprivatedata.htm
 old-project: directdraw
 ms.assetid: f8c0c882-329f-4cce-8cd0-ff71c18b1716
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetPrivateData, GetPrivateData method [DirectDraw], GetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPrivateData method, IDirectDrawSurface7.GetPrivateData, IDirectDrawSurface7::GetPrivateData, ddraw/IDirectDrawSurface7::GetPrivateData, directdraw.idirectdrawsurface7_getprivatedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

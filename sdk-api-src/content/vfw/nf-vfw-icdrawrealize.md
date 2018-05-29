@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDrawRealize
 title: ICDrawRealize macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDrawRealize macro notifies a rendering driver to realize its drawing palette while drawing. You can use this macro or explicitly call the ICM_DRAW_REALIZE message.
 old-location: multimedia\icdrawrealize.htm
 old-project: Multimedia
 ms.assetid: b6605223-ce66-49fc-bfa7-6e3dd98e214a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDrawRealize, ICDrawRealize macro [Windows Multimedia], _win32_ICDrawRealize, multimedia.icdrawrealize, vfw/ICDrawRealize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

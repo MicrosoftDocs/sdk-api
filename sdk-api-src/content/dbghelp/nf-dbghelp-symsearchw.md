@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymSearchW
 title: SymSearchW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches for PDB symbols that meet the specified criteria.
 old-location: base\symsearch.htm
 old-project: Debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactProperties.GetDate
 title: IContactProperties::GetDate
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the date and time value at a specified property into a caller's FILETIME structure. All times are stored and returned as Coordinated Universal Time (UTC).
 old-location: wincontacts\_wincontacts_IContactProperties_GetDate.htm
 old-project: wincontacts
 ms.assetid: 0ee9a870-ad51-4528-b830-bee72586b936
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetDate, GetDate method [Windows Contacts], GetDate method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetDate method, IContactProperties.GetDate, IContactProperties::GetDate, _wincontacts_IContactProperties_GetDate, icontact/IContactProperties::GetDate, wincontacts._wincontacts_IContactProperties_GetDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

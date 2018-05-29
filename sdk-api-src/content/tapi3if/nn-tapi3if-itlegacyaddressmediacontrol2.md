@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITLegacyAddressMediaControl2
 title: ITLegacyAddressMediaControl2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITLegacyAddressMediaControl2 interface derives from the ITLegacyAddressMediaControl interface. ITLegacyAddressMediaControl2 provides additional methods that allow the configuration of parameters related to line devices.
 old-location: tapi3\itlegacyaddressmediacontrol2.htm
 old-project: Tapi
 ms.assetid: 38e5f1ba-b31e-47c9-a24a-2e4d37a0961b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITLegacyAddressMediaControl2, ITLegacyAddressMediaControl2 interface [TAPI 2.2], ITLegacyAddressMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacyaddressmediacontrol2, tapi3.itlegacyaddressmediacontrol2, tapi3if/ITLegacyAddressMediaControl2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

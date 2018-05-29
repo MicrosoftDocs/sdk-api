@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMPEG2StreamIdMap.UnmapStreamId
 title: IMPEG2StreamIdMap::UnmapStreamId
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnmapStreamId method unmaps the Stream ID mapping created in a previous call to MapStreamId.
 old-location: dshow\impeg2streamidmap_unmapstreamid.htm
 old-project: DirectShow
 ms.assetid: 99e28b85-effd-4f86-b2da-ec02a05dde40
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],UnmapStreamId method, IMPEG2StreamIdMap.UnmapStreamId, IMPEG2StreamIdMap::UnmapStreamId, IMPEG2StreamIdMapUnmapStreamId, UnmapStreamId, UnmapStreamId method [DirectShow], UnmapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_unmapstreamid, strmif/IMPEG2StreamIdMap::UnmapStreamId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

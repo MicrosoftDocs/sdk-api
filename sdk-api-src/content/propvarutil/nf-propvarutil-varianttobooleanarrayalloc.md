@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToBooleanArrayAlloc
 title: VariantToBooleanArrayAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates an array of BOOL values then extracts data from a VARIANT structure into that array.
 old-location: properties\VariantToBooleanArrayAlloc.htm
 old-project: properties
 ms.assetid: 6a623ee0-d99e-47db-82f9-9008c618a526
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToBooleanArrayAlloc, VariantToBooleanArrayAlloc function [Windows Properties], _shell_VariantToBooleanArrayAlloc, properties.VariantToBooleanArrayAlloc, propvarutil/VariantToBooleanArrayAlloc, shell.VariantToBooleanArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

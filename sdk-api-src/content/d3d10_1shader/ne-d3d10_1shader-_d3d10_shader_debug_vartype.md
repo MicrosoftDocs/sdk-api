@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_VARTYPE
 title: "_D3D10_SHADER_DEBUG_VARTYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Distinguishes variables from functions in a scope.
 old-location: direct3d10\d3d10_shader_debug_vartype.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_vartype.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10_SHADER_DEBUG_VARTYPE, D3D10_SHADER_DEBUG_VARTYPE enumeration [Direct3D 10], D3D10_SHADER_DEBUG_VAR_FORCE_DWORD, D3D10_SHADER_DEBUG_VAR_FUNCTION, D3D10_SHADER_DEBUG_VAR_VARIABLE, _D3D10_SHADER_DEBUG_VARTYPE, b5386346-ff95-5c6c-abe3-00938e5aa5ea, d3d10_1shader/D3D10_SHADER_DEBUG_VARTYPE, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FORCE_DWORD, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FUNCTION, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_VARIABLE, direct3d10.d3d10_shader_debug_vartype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h

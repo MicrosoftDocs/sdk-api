@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcRegisterClient
 title: TcRegisterClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcRegisterClient function is used to register a client with the traffic control interface (TCI). The TcRegisterClient function must be the first function call a client makes to the TCI.
 old-location: qos\tcregisterclient.htm
 old-project: QOS
 ms.assetid: 10bbc08d-4bfa-4a64-b5b8-b720d7bc3185
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcRegisterClient, TcRegisterClient function [QOS], _gqos_tcregisterclient, qos.tcregisterclient, traffic/TcRegisterClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

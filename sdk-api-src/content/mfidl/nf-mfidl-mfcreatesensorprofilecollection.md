@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateSensorProfileCollection
 title: MFCreateSensorProfileCollection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a sensor profile collection.
 old-location: mf\mfcreatesensorprofilecollection.htm
 old-project: medfound
 ms.assetid: 0EEA1C89-4B8B-4ECC-AF34-EB516C91997A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateSensorProfileCollection, MFCreateSensorProfileCollection function [Media Foundation], mf.mfcreatesensorprofilecollection, mfidl/MFCreateSensorProfileCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

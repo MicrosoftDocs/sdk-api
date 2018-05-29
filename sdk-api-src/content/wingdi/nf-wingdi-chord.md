@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.Chord
 title: Chord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The Chord function draws a chord (a region bounded by the intersection of an ellipse and a line segment, called a secant). The chord is outlined by using the current pen and filled by using the current brush.
 old-location: gdi\chord.htm
 old-project: gdi
 ms.assetid: d6752c47-96a5-4fac-a1bb-0611a91f03f9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Chord, Chord function [Windows GDI], _win32_Chord, gdi.chord, wingdi/Chord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

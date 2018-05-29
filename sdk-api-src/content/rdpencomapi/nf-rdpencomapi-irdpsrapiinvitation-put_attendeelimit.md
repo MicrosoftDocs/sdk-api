@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.put_AttendeeLimit
 title: IRDPSRAPIInvitation::put_AttendeeLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: The maximum number of attendees that can connect to the session.
 old-location: rdp\irdpsrapiinvitation_attendeelimit.htm
 old-project: Rdp
 ms.assetid: ab16039f-210a-46ba-aaa8-0dcc840123b2
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: AttendeeLimit property [RDP], AttendeeLimit property [RDP],IRDPSRAPIInvitation interface, AttendeeLimit property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],AttendeeLimit property, IRDPSRAPIInvitation.AttendeeLimit, IRDPSRAPIInvitation.put_AttendeeLimit, IRDPSRAPIInvitation::AttendeeLimit, IRDPSRAPIInvitation::get_AttendeeLimit, IRDPSRAPIInvitation::put_AttendeeLimit, RDPSRAPIInvitation object [RDP],AttendeeLimit property, put_AttendeeLimit, rdp.irdpsrapiinvitation_attendeelimit, rdpencomapi/IRDPSRAPIInvitation::AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::get_AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::put_AttendeeLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

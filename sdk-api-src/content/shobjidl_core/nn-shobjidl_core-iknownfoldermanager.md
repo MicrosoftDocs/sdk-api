@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IKnownFolderManager
 title: IKnownFolderManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create, enumerate or manage existing known folders.
 old-location: shell\IKnownFolderManager.htm
 old-project: shell
 ms.assetid: ba7dbef7-2732-49e8-b573-a3b731bdc633
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IKnownFolderManager, IKnownFolderManager interface [Windows Shell], IKnownFolderManager interface [Windows Shell],described, _shell_IKnownFolderManager, shell.IKnownFolderManager, shobjidl_core/IKnownFolderManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

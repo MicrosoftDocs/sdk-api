@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithItem.Initialize
 title: IInitializeWithItem::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a handler with an IShellItem.
 old-location: shell\IInitializeWithItem_Initialize.htm
 old-project: shell
 ms.assetid: 61abf5c8-2847-4788-9d99-65f3b1c821d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInitializeWithItem interface [Windows Shell],Initialize method, IInitializeWithItem.Initialize, IInitializeWithItem::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithItem interface, STGM_READ, STGM_READWRITE, shell.IInitializeWithItem_Initialize, shell_IInitializeWithItem_Initialize, shobjidl_core/IInitializeWithItem::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Propsys.h

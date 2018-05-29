@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertDuplicateCertificateChain
 title: CertDuplicateCertificateChain function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertDuplicateCertificateChain function duplicates a pointer to a certificate chain by incrementing the chain's reference count.
 old-location: security\certduplicatecertificatechain.htm
 old-project: SecCrypto
 ms.assetid: fea72a3e-5a22-47c7-8f6e-0d76fc3339f8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertDuplicateCertificateChain, CertDuplicateCertificateChain function [Security], _crypto2_certduplicatecertificatechain, security.certduplicatecertificatechain, wincrypt/CertDuplicateCertificateChain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

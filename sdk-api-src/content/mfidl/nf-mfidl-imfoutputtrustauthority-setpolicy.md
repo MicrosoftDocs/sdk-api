@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFOutputTrustAuthority.SetPolicy
 title: IMFOutputTrustAuthority::SetPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets one or more policy objects on the output trust authority (OTA).
 old-location: mf\imfoutputtrustauthority_setpolicy.htm
 old-project: medfound
 ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy method, IMFOutputTrustAuthority.SetPolicy, IMFOutputTrustAuthority::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFOutputTrustAuthority interface, f5102ef3-472f-4a38-889c-e1c25dd46765, mf.imfoutputtrustauthority_setpolicy, mfidl/IMFOutputTrustAuthority::SetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

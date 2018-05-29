@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_create_sort_controlA
 title: ldap_create_sort_controlA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_create_sort_control function is used to format a list of sort keys into a search control. Support for controls is available effective with LDAP 3, but whether the sort control is supported or not is dependent on the particular server.
 old-location: ldap\ldap_create_sort_control.htm
 old-project: LDAP
 ms.assetid: bbf8f860-ead8-4b22-8efa-0697076267ad
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_create_sort_control, ldap.ldap__create__sort__control, ldap.ldap_create_sort_control, ldap_create_sort_control, ldap_create_sort_control function [LDAP], ldap_create_sort_controlA, ldap_create_sort_controlW, winldap/ldap_create_sort_control, winldap/ldap_create_sort_controlA, winldap/ldap_create_sort_controlW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

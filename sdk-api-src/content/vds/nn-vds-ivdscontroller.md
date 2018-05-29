@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsController
 title: IVdsController
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a controller.
 old-location: base\ivdscontroller.htm
 old-project: VDS
 ms.assetid: cc30a78a-78a4-49c2-a97d-228400da46a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsController, IVdsController interface [VDS], IVdsController interface [VDS],described, base.ivdscontroller, vds/IVdsController, vdshwprv/IVdsController
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

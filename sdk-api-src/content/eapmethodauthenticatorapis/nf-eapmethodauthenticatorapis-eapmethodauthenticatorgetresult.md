@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetResult
 title: EapMethodAuthenticatorGetResult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the authentication result from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetresult.htm
 old-project: EAPHost
 ms.assetid: 898b5465-a030-4df6-a51f-0725c6332e80
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorGetResult, EapMethodAuthenticatorGetResult function [EAPHost], eaphost.eapmethodauthenticatorgetresult, eapmethodauthenticatorapis/EapMethodAuthenticatorGetResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

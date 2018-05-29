@@ -1,16 +1,16 @@
 ---
 UID: NF:wct.OpenThreadWaitChainSession
 title: OpenThreadWaitChainSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new WCT session.
 old-location: base\openthreadwaitchainsession.htm
 old-project: Debug
 ms.assetid: 405d9f3d-c11b-4e20-acc8-9c4f7989685d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: OpenThreadWaitChainSession, OpenThreadWaitChainSession function, WCT_ASYNC_OPEN_FLAG, base.openthreadwaitchainsession, wct/OpenThreadWaitChainSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wct.h
 req.include-header: 

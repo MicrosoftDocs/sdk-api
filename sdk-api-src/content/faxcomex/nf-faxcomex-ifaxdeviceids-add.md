@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.Add
 title: IFaxDeviceIds::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: The Add method adds a fax device to the FaxDeviceIds collection, using the device's ID.
 old-location: fax\_mfax_faxdeviceids_add_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxDeviceIds object, FaxDeviceIds object [Fax Service],Add method, FaxDeviceIds.Add, IFaxDeviceIds.Add, IFaxDeviceIds::Add, _mfax_faxdeviceids.add, fax._mfax_faxdeviceids_add, fax._mfax_faxdeviceids_add_vb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

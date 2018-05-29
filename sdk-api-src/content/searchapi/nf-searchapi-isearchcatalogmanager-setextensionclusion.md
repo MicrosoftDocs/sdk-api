@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetExtensionClusion
 title: ISearchCatalogManager::SetExtensionClusion
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_SetExtensionClusion.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setextensionclusion.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchCatalogManager interface [search],SetExtensionClusion method, ISearchCatalogManager.SetExtensionClusion, ISearchCatalogManager::SetExtensionClusion, SetExtensionClusion, SetExtensionClusion method [search], SetExtensionClusion method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetExtensionClusion, search._search_ISearchCatalogManager_SetExtensionClusion, searchapi/ISearchCatalogManager::SetExtensionClusion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

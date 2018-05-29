@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.Validate
 title: IOpcDigitalSignatureManager::Validate
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates a specified package signature using a specified certificate.
 old-location: opc\iopcdigitalsignaturemanager_validate.htm
 old-project: OPC
 ms.assetid: 76a37ad6-caa0-4fa3-abc1-2eae63e3134b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Validate method, IOpcDigitalSignatureManager.Validate, IOpcDigitalSignatureManager::Validate, Validate, Validate method [Open Packaging Conventions], Validate method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Validate, opc.iopcdigitalsignaturemanager_validate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

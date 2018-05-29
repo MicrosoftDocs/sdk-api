@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.WICMatchMetadataContent
 title: WICMatchMetadataContent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains a metadata format GUID for a specified container format and vendor that best matches the content within a given stream.
 old-location: wic\_wic_codec_wicmatchmetadatacontent.htm
 old-project: wic
 ms.assetid: 2d1ab317-a77c-4e91-9455-e6738fd40e88
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICMatchMetadataContent, WICMatchMetadataContent function [Windows Imaging Component], _wic_codec_wicmatchmetadatacontent, wic._wic_codec_wicmatchmetadatacontent, wincodecsdk/WICMatchMetadataContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h

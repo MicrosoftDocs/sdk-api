@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IVisualTreeService.UnadviseVisualTreeChange
 title: IVisualTreeService::UnadviseVisualTreeChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_unadvisevisualtreechange.htm
 old-project: xaml_diagnostics
 ms.assetid: E77CBED8-F214-48AC-903E-F01B6EECA2ED
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: IVisualTreeService interface,UnadviseVisualTreeChange method, IVisualTreeService.UnadviseVisualTreeChange, IVisualTreeService::UnadviseVisualTreeChange, UnadviseVisualTreeChange, UnadviseVisualTreeChange method, UnadviseVisualTreeChange method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_unadvisevisualtreechange, xamlom/IVisualTreeService::UnadviseVisualTreeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

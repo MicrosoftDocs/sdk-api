@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetAttributes
 title: EapMethodAuthenticatorGetAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains an array of EAP authentication attributes from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetattributes.htm
 old-project: EAPHost
 ms.assetid: 531a95c9-b804-4151-b571-163f870672bb
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorGetAttributes, EapMethodAuthenticatorGetAttributes function [EAPHost], eaphost.eapmethodauthenticatorgetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

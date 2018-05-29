@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IObjectWithSelection.SetSelection
 title: IObjectWithSelection::SetSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the Shell item array that specifies the items included in the selection.
 old-location: shell\IObjectWithSelection_SetSelection.htm
 old-project: shell
 ms.assetid: e561b8f8-36e9-45ec-beb2-62d7f429dec4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectWithSelection interface [Windows Shell],SetSelection method, IObjectWithSelection.SetSelection, IObjectWithSelection::SetSelection, SetSelection, SetSelection method [Windows Shell], SetSelection method [Windows Shell],IObjectWithSelection interface, _shell_IObjectWithSelection_SetSelection, shell.IObjectWithSelection_SetSelection, shobjidl_core/IObjectWithSelection::SetSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

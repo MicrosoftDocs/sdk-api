@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSensorActivitiesReportCallback
 title: IMFSensorActivitiesReportCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Interface implemented by the client to receive callbacks when sensor activity reports are available.
 old-location: mf\imfsensoractivitiesreportcallback.htm
 old-project: medfound
 ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

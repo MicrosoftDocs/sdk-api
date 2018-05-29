@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IReferenceClock.GetTime
 title: IReferenceClock::GetTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTime method retrieves the current reference time.
 old-location: dshow\ireferenceclock_gettime.htm
 old-project: DirectShow
 ms.assetid: 1fcf8b8a-f449-4f42-8061-cc4116867d9d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],GetTime method, IReferenceClock.GetTime, IReferenceClock::GetTime, IReferenceClockGetTime, dshow.ireferenceclock_gettime, strmif/IReferenceClock::GetTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

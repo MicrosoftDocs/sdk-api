@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLockGranted
 title: ITextStoreAnchorSink::OnLockGranted
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchorSink::OnLockGranted method
 old-location: tsf\itextstoreanchorsink_onlockgranted.htm
 old-project: TSF
 ms.assetid: 4a2ab828-1eb8-4aae-bebd-dc8b406fd58f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLockGranted method, ITextStoreAnchorSink.OnLockGranted, ITextStoreAnchorSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreAnchorSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreanchorsink_onlockgranted_ref, textstor/ITextStoreAnchorSink::OnLockGranted, tsf.itextstoreanchorsink_onlockgranted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

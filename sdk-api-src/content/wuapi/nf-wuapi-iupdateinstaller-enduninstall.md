@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.EndUninstall
 title: IUpdateInstaller::EndUninstall
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_enduninstall.htm
 old-project: Wua_Sdk
 ms.assetid: a035f566-7ec6-41d5-b5b4-69c2acaa8aae
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EndUninstall, EndUninstall method [Windows Update Agent], EndUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndUninstall method, IUpdateInstaller.EndUninstall, IUpdateInstaller::EndUninstall, wua.iupdateinstaller_enduninstall, wuapi/IUpdateInstaller::EndUninstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

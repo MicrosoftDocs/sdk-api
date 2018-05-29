@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnSize
 title: IBrowserService2::OnSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_SIZE message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnSize.htm
 old-project: shell
 ms.assetid: 082eabc4-6807-4d40-aa06-f7d230039073
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnSize method, IBrowserService2.OnSize, IBrowserService2::OnSize, OnSize, OnSize method [Windows Shell], OnSize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnSize, shell.IBrowserService2_OnSize, zone_IBrowserService2_OnSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

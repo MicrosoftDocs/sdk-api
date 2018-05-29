@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateError
 title: WsCreateError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an error object that can passed to functions to record rich error information.
 old-location: wsw\wscreateerror.htm
 old-project: wsw
 ms.assetid: 0ec858f7-12a5-43cf-94a7-3838ab6d76ae
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], webservices/WsCreateError, wsw.wscreateerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

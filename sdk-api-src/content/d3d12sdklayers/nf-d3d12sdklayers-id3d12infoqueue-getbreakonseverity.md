@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetBreakOnSeverity
 title: ID3D12InfoQueue::GetBreakOnSeverity
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_getbreakonseverity.htm
 old-project: direct3d12
 ms.assetid: 255CB074-9C05-4402-9EDE-43AD8C6707E6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method, GetBreakOnSeverity method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnSeverity method, ID3D12InfoQueue.GetBreakOnSeverity, ID3D12InfoQueue::GetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity, direct3d12.id3d12infoqueue_getbreakonseverity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

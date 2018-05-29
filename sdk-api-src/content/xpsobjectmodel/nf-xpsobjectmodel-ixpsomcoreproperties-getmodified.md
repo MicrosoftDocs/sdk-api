@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetModified
 title: IXpsOMCoreProperties::GetModified
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the modified property.
 old-location: xps\ixpsomcoreproperties_getmodified.htm
 old-project: printdocs
 ms.assetid: 364beb9d-01e7-477c-92b2-f2fdb19a87f9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetModified, GetModified method [XPS Documents and Packaging], GetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetModified method, IXpsOMCoreProperties.GetModified, IXpsOMCoreProperties::GetModified, xps.ixpsomcoreproperties_getmodified, xpsobjectmodel/IXpsOMCoreProperties::GetModified
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

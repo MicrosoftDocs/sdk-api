@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Uint16A
 title: "_MI_Uint16A"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of MI_Uint16 types.
 old-location: wmi_v2\mi_uint16a.htm
 old-project: wmi_v2
 ms.assetid: 0168ca28-4d3e-4757-8729-b9f8206ffc85
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Uint16A, MI_Uint16A structure [Windows Management Infrastructure (MI)], _MI_Uint16A, mi/MI_Uint16A, wmi._mi_uint16a, wmi_v2.mi_uint16a
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

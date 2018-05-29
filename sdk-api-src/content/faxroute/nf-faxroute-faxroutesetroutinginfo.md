@@ -1,16 +1,16 @@
 ---
 UID: NF:faxroute.FaxRouteSetRoutingInfo
 title: FaxRouteSetRoutingInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxRouteSetRoutingInfo function modifies routing configuration data for a specific fax device. Each fax routing extension DLL must export the FaxRouteSetRoutingInfo function.
 old-location: fax\_mfax_faxroutesetroutinginfo.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_89nz.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRouteSetRoutingInfo, FaxRouteSetRoutingInfo function [Fax Service], _mfax_faxroutesetroutinginfo, fax._mfax_faxroutesetroutinginfo, faxroute/FaxRouteSetRoutingInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: faxroute.h
 req.include-header: 

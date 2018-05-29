@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.Attributes
 title: ISettingsItem::Attributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the dictionary of attributes.
 old-location: smi\isettingsitem_attributes.htm
 old-project: SMI
 ms.assetid: 7a6751f2-0934-4329-9ab2-9ae9802bc33e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Attributes, Attributes method [SMI], Attributes method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Attributes method, ISettingsItem.Attributes, ISettingsItem::Attributes, smi.isettingsitem_attributes, wcmconfig/ISettingsItem::Attributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

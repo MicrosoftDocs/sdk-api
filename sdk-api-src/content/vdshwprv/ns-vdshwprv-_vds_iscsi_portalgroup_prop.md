@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_PORTALGROUP_PROP
 title: "_VDS_ISCSI_PORTALGROUP_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of an iSCSI portal group.
 old-location: base\vds_iscsi_portalgroup_prop.htm
 old-project: VDS
 ms.assetid: 82f891a2-432b-4503-8b5a-a79bea800525
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP structure [VDS], _VDS_ISCSI_PORTALGROUP_PROP, base.vds_iscsi_portalgroup_prop, vds/VDS_ISCSI_PORTALGROUP_PROP, vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

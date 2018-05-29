@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.get_Owner
 title: IVideoWindow::get_Owner
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Owner method retrieves the video window's parent window, if any.
 old-location: dshow\ivideowindow_get_owner.htm
 old-project: DirectShow
 ms.assetid: 9bb21c2a-25c6-43fa-a1b0-9f09944f1326
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Owner method, IVideoWindow.get_Owner, IVideoWindow::get_Owner, IVideoWindowget_Owner, control/IVideoWindow::get_Owner, dshow.ivideowindow_get_owner, get_Owner, get_Owner method [DirectShow], get_Owner method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

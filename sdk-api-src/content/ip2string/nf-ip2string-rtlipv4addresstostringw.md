@@ -1,16 +1,16 @@
 ---
 UID: NF:ip2string.RtlIpv4AddressToStringW
 title: RtlIpv4AddressToStringW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an IPv4 address to a string in Internet standard dotted-decimal format.
 old-location: iphlp\rtlipv4addresstostring.htm
 old-project: IpHlp
 ms.assetid: f198b770-9429-4b51-9fb4-06cf9917bc21
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RtlIpv4AddressToString, RtlIpv4AddressToString function [IP Helper], RtlIpv4AddressToStringA, RtlIpv4AddressToStringW, ip2string/RtlIpv4AddressToString, ip2string/RtlIpv4AddressToStringA, ip2string/RtlIpv4AddressToStringW, iphlp.rtlipv4addresstostring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngQuerySystemAttribute
 title: EngQuerySystemAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngQuerySystemAttribute function queries processor-specific or system-specific capabilities.
 old-location: display\engquerysystemattribute.htm
 old-project: display
 ms.assetid: 7559075d-f2df-4c71-9523-22417d5cfd5a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngQuerySystemAttribute, EngQuerySystemAttribute function [Display Devices], display.engquerysystemattribute, gdifncs_8d196296-10a2-4118-9318-fe0267df4e60.xml, winddi/EngQuerySystemAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

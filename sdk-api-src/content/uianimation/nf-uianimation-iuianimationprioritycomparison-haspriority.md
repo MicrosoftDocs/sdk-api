@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationPriorityComparison.HasPriority
 title: IUIAnimationPriorityComparison::HasPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a new storyboard has priority over a scheduled storyboard.
 old-location: uianimation\iuianimationprioritycomparison_haspriority.htm
 old-project: UIAnimation
 ms.assetid: 82a90bd1-7bcf-4849-bad1-bae425169a2f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison interface, IUIAnimationPriorityComparison interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison.HasPriority, IUIAnimationPriorityComparison::HasPriority, uianimation.iuianimationprioritycomparison_haspriority, uianimation/IUIAnimationPriorityComparison::HasPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

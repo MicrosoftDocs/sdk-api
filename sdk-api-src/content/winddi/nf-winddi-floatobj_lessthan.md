@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_LessThan
 title: FLOATOBJ_LessThan function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_LessThan function determines whether the first FLOATOBJ is less than the second FLOATOBJ.
 old-location: display\floatobj_lessthan.htm
 old-project: display
 ms.assetid: acd1cc6d-c88f-4336-8a6c-a8b02cf726ee
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_LessThan, FLOATOBJ_LessThan function [Display Devices], display.floatobj_lessthan, gdifncs_226d15f4-cebd-45a4-b8e8-7ae7ee770b30.xml, winddi/FLOATOBJ_LessThan
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

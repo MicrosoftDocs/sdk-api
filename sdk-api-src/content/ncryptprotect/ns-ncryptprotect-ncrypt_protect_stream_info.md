@@ -1,16 +1,16 @@
 ---
 UID: NS:ncryptprotect.NCRYPT_PROTECT_STREAM_INFO
 title: NCRYPT_PROTECT_STREAM_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used by the NCryptStreamOpenToProtect and NCryptStreamOpenToUnprotect functions to pass blocks of processed data to your application.
 old-location: security\ncrypt_protect_stream_info.htm
 old-project: SecCNG
 ms.assetid: 77FADFC1-6C66-4801-B0BD-263963555C3C
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_PROTECT_STREAM_INFO, NCRYPT_PROTECT_STREAM_INFO structure [Security], PNCRYPT_PROTECT_STREAM_INFO, PNCRYPT_PROTECT_STREAM_INFO structure pointer [Security], ncryptprotect/NCRYPT_PROTECT_STREAM_INFO, ncryptprotect/PNCRYPT_PROTECT_STREAM_INFO, security.ncrypt_protect_stream_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ncryptprotect.h
 req.include-header: 

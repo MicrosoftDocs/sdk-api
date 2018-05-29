@@ -1,16 +1,16 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityUnion
 title: SpatialAudioHrtfDirectivityUnion
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a spatial audio directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivityunion.htm
 old-project: CoreAudio
 ms.assetid: BBBE4B0B-59C2-44E0-9BB4-B10CE5CE12E3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SpatialAudioHrtfDirectivityUnion, SpatialAudioHrtfDirectivityUnion union [Core Audio], coreaudio.spatialaudiohrtfdirectivityunion, spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 

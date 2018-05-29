@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpSetTimeout
 title: SnmpSetTimeout function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpSetTimeout function enables a WinSNMP application to change the time-out value for the transmission of SNMP message requests.
 old-location: snmp\snmpsettimeout.htm
 old-project: SNMP
 ms.assetid: ae72f775-9f2a-4c16-b866-14ab17fd3a6a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpSetTimeout, SnmpSetTimeout function [SNMP], _snmp_snmpsettimeout, snmp.snmpsettimeout, winsnmp/SnmpSetTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

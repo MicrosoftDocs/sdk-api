@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IDataObject.GetData
 title: IDataObject::GetData
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a data consumer to obtain data from a source data object.
 old-location: com\idataobject_getdata.htm
 old-project: com
 ms.assetid: 05118461-0438-4715-b2c2-fc2471ce38f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetData, GetData method [COM], GetData method [COM],IDataObject interface, IDataObject interface [COM],GetData method, IDataObject.GetData, IDataObject::GetData, _ole_idataobject_getdata, com.idataobject_getdata, objidl/IDataObject::GetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

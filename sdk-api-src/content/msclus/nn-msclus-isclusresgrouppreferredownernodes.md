@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusResGroupPreferredOwnerNodes
 title: ISClusResGroupPreferredOwnerNodes
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the nodes that belong to the preferred owner list for a group.
 old-location: mscs\clusresgrouppreferredownernodes_collection.htm
 old-project: MsCS
 ms.assetid: 3425825e-890c-4d3d-919e-a66963e1fc55
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes, ClusResGroupPreferredOwnerNodes collection [Failover Cluster], ClusResGroupPreferredOwnerNodes collection [Failover Cluster],described, ISClusResGroupPreferredOwnerNodes, _wolf_clusresgrouppreferredownernodes_collection, msclus/ClusResGroupPreferredOwnerNodes, mscs.clusresgrouppreferredownernodes_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymMatchStringW
 title: SymMatchStringW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares the specified string to the specified wildcard expression.
 old-location: base\symmatchstring.htm
 old-project: Debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITAgentHandlerEvent.get_Event
 title: ITAgentHandlerEvent::get_Event
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Event method gets the description for the event that has occurred.
 old-location: tapi3\itagenthandlerevent_get_event.htm
 old-project: Tapi
 ms.assetid: 3362964c-15d3-497c-876b-46e8d26389c0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgentHandlerEvent interface [TAPI 2.2],get_Event method, ITAgentHandlerEvent.get_Event, ITAgentHandlerEvent::get_Event, _tapi3_itagenthandlerevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentHandlerEvent interface, tapi3.itagenthandlerevent_get_event, tapi3cc/ITAgentHandlerEvent::get_Event
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.ShareExists
 title: ISharingConfigurationManager::ShareExists
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether the Users or Public folder is shared.
 old-location: shell\ISharingConfigurationManager_ShareExists.htm
 old-project: shell
 ms.assetid: d15d40a1-fdde-430a-bb8c-537ce58536dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],ShareExists method, ISharingConfigurationManager.ShareExists, ISharingConfigurationManager::ShareExists, ShareExists, ShareExists method [Windows Shell], ShareExists method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_ShareExists, shell.ISharingConfigurationManager_ShareExists, shobjidl_core/ISharingConfigurationManager::ShareExists
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

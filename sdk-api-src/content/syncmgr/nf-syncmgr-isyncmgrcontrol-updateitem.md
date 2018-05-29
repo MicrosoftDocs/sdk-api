@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateItem
 title: ISyncMgrControl::UpdateItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs Sync Center that properties of a sync item have changed.
 old-location: shell\ISyncMgrControl_UpdateItem.htm
 old-project: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncMgrControl.UpdateItem, ISyncMgrControl::UpdateItem, UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

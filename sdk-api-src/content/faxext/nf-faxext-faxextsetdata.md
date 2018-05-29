@@ -1,16 +1,16 @@
 ---
 UID: NF:faxext.FaxExtSetData
 title: FaxExtSetData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxExtSetData function sets configuration data for a specific device and GUID.
 old-location: fax\_mfax_faxextsetdata.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_7ba9.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtSetData, FaxExtSetData function [Fax Service], _mfax_faxextsetdata, fax._mfax_faxextsetdata, faxext/FaxExtSetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: faxext.h
 req.include-header: 

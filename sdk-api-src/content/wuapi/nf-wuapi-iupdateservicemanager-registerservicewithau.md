@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.RegisterServiceWithAU
 title: IUpdateServiceManager::RegisterServiceWithAU
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_registerservicewithau.htm
 old-project: Wua_Sdk
 ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RegisterServiceWithAU method, IUpdateServiceManager.RegisterServiceWithAU, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

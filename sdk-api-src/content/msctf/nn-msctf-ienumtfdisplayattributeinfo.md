@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.IEnumTfDisplayAttributeInfo
 title: IEnumTfDisplayAttributeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfDisplayAttributeInfo interface is implemented by the TSF manager to provide an enumeration of display attribute information objects.
 old-location: tsf\ienumtfdisplayattributeinfo.htm
 old-project: TSF
 ms.assetid: b222deb8-22dd-44c3-9ecc-0fb379682796
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfDisplayAttributeInfo, IEnumTfDisplayAttributeInfo interface [Text Services Framework], IEnumTfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_ienumtfdisplayattributeinfo_ref, msctf/IEnumTfDisplayAttributeInfo, tsf.ienumtfdisplayattributeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FONTOBJ_pfdg
 title: FONTOBJ_pfdg function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FONTOBJ_pfdg function retrieves the pointer to the FD_GLYPHSET structure associated with the specified font.
 old-location: display\fontobj_pfdg.htm
 old-project: display
 ms.assetid: 5813b06e-5fa8-4279-bd16-aa7b7129a181
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FONTOBJ_pfdg, FONTOBJ_pfdg function [Display Devices], display.fontobj_pfdg, gdifncs_858ebe0b-c792-4472-967d-cdf46ec12c28.xml, winddi/FONTOBJ_pfdg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

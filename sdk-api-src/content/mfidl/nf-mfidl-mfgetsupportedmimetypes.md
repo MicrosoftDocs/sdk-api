@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFGetSupportedMimeTypes
 title: MFGetSupportedMimeTypes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the MIME types that are registered for the source resolver.
 old-location: mf\mfgetsupportedmimetypes.htm
 old-project: medfound
 ms.assetid: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGetSupportedMimeTypes function [Media Foundation], mf.mfgetsupportedmimetypes, mfidl/MFGetSupportedMimeTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

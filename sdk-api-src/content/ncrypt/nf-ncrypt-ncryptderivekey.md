@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptDeriveKey
 title: NCryptDeriveKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Derives a key from a secret agreement value.
 old-location: security\ncryptderivekey.htm
 old-project: SecCNG
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, KDF_USE_SECRET_AS_HMAC_KEY_FLAG, NCryptDeriveKey, NCryptDeriveKey function [Security], ncrypt/NCryptDeriveKey, security.ncryptderivekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

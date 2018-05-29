@@ -1,16 +1,16 @@
 ---
 UID: NF:dsgetdc.DsGetDcSiteCoverageW
 title: DsGetDcSiteCoverageW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller.
 old-location: ad\dsgetdcsitecoverage.htm
 old-project: AD
 ms.assetid: e0f757d9-36b6-40f8-a1db-fb5b9862b46a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsGetDcSiteCoverage, DsGetDcSiteCoverage function [Active Directory], DsGetDcSiteCoverageA, DsGetDcSiteCoverageW, _glines_dsgetdcsitecoverage, ad.dsgetdcsitecoverage, dsgetdc/DsGetDcSiteCoverage, dsgetdc/DsGetDcSiteCoverageA, dsgetdc/DsGetDcSiteCoverageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

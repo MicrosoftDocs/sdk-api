@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertCreateContext
 title: CertCreateContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the specified context from the encoded bytes. The context created does not include any extended properties.
 old-location: security\certcreatecontext.htm
 old-project: SecCrypto
 ms.assetid: 0911054b-a47a-4046-b121-a236fc4b018b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_CREATE_CONTEXT_NOCOPY_FLAG, CERT_CREATE_CONTEXT_NO_ENTRY_FLAG, CERT_CREATE_CONTEXT_NO_HCRYPTMSG_FLAG, CERT_CREATE_CONTEXT_SORTED_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CertCreateContext, CertCreateContext function [Security], _crypto2_certcreatecontext, security.certcreatecontext, wincrypt/CertCreateContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

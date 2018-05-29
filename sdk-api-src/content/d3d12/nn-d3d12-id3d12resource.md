@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12.ID3D12Resource
 title: ID3D12Resource
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates a generalized ability of the CPU and GPU to read and write to physical memory, or heaps. It contains abstractions for organizing and manipulating simple arrays of data as well as multidimensional data optimized for shader sampling.
 old-location: direct3d12\id3d12resource.htm
 old-project: direct3d12
 ms.assetid: AF453D2F-F0FD-4552-A843-84119A829CD5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Resource, ID3D12Resource interface, ID3D12Resource interface,described, d3d12/ID3D12Resource, direct3d12.id3d12resource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

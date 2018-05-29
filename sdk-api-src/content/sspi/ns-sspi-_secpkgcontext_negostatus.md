@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_NegoStatus
 title: "_SecPkgContext_NegoStatus"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the error status of the last attempt to create a client context.
 old-location: security\secpkgcontext_negostatus.htm
 old-project: SecAuthN
 ms.assetid: 09201338-4743-44a2-b84f-35b26116976d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus structure pointer [Security], SecPkgContext_NegoStatus, SecPkgContext_NegoStatus structure [Security], _SecPkgContext_NegoStatus, security.secpkgcontext_negostatus, sspi/PSecPkgContext_NegoStatus, sspi/SecPkgContext_NegoStatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

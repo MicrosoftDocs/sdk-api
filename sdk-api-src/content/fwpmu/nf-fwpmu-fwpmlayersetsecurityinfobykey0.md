@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmLayerSetSecurityInfoByKey0
 title: FwpmLayerSetSecurityInfoByKey0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a layer object.
 old-location: fwp\fwpmlayersetsecurityinfobykey0_func.htm
 old-project: FWP
 ms.assetid: a6f1e50b-bce1-42db-bb6f-dc0c93859015
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmLayerSetSecurityInfoByKey0, FwpmLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmlayersetsecurityinfobykey0_func, fwpmu/FwpmLayerSetSecurityInfoByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IFilterGraph2
 title: IFilterGraph2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFilterGraph2 interface extends the IFilterGraph and IGraphBuilder interfaces, which contain methods for building filter graphs.The Filter Graph Manager implements this interface.
 old-location: dshow\ifiltergraph2.htm
 old-project: DirectShow
 ms.assetid: 1a1ef4fe-a054-4ba7-99c7-1f209472c5a6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], IFilterGraph2 interface [DirectShow],described, IFilterGraph2Interface, dshow.ifiltergraph2, strmif/IFilterGraph2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

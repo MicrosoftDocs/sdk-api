@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRule.get_Description
 title: INetFwRule::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the description of this rule.
 old-location: ics\inetfwrule_description.htm
 old-project: ICS
 ms.assetid: 47e5a5ff-d8a7-46e6-aa42-b9e7d544954b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Description property [ICS/ICF], Description property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Description property, INetFwRule.Description, INetFwRule.get_Description, INetFwRule::Description, INetFwRule::get_Description, INetFwRule::put_Description, get_Description, ics.inetfwrule_description, netfw/INetFwRule::Description, netfw/INetFwRule::get_Description, netfw/INetFwRule::put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

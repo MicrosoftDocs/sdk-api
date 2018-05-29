@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsFileService
 title: IADsFileService
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsFileService interface is a dual interface that inherits from IADsService.
 old-location: adsi\iadsfileservice.htm
 old-project: ADSI
 ms.assetid: 328eedfe-7fdc-4e90-8bac-ab30944b8fbf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsFileService, IADsFileService interface [ADSI], IADsFileService interface [ADSI],described, _ds_iadsfileservice, adsi.iadsfileservice, iads/IADsFileService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

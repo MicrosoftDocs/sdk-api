@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.PathCleanupSpec
 title: PathCleanupSpec function
-author: windows-driver-content
+author: windows-sdk-content
 description: PathCleanupSpec may be altered or unavailable.
 old-location: shell\PathCleanupSpec.htm
 old-project: shell
 ms.assetid: 593fd2b7-44ae-4309-a185-97e42f3cc0fa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCleanupSpec, PathCleanupSpec function [Windows Shell], _win32_PathCleanupSpec, shell.PathCleanupSpec, shlobj_core/PathCleanupSpec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

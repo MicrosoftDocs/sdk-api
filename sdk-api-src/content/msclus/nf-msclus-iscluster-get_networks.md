@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_Networks
 title: ISCluster::get_Networks
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a ClusNetworks collection providing access to the networks in a cluster.
 old-location: mscs\cluster_networks.htm
 old-project: MsCS
 ms.assetid: 352f186d-bf42-480a-9554-c764345dafe6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],Networks property, ISCluster interface [Failover Cluster],Networks property, ISCluster.get_Networks, ISCluster::Networks, ISCluster::get_Networks, Networks property [Failover Cluster], Networks property [Failover Cluster],Cluster object, Networks property [Failover Cluster],ISCluster interface, _wolf_cluster.networks, get_Networks, mscs.cluster_networks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFIsContentProtectionDeviceSupported
 title: MFIsContentProtectionDeviceSupported function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether a hardware security processor is supported for the specified media protection system.
 old-location: mf\mfiscontentprotectiondevicesupported.htm
 old-project: medfound
 ms.assetid: 8C91C204-49C0-41CF-A9E1-F9C53388604A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

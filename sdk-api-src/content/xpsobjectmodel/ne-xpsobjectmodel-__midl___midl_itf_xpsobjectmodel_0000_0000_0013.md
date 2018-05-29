@@ -1,16 +1,16 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0013
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0013"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the option for embedding a font.
 old-location: xps\xps_font_embedding.htm
 old-project: printdocs
 ms.assetid: 9701b1c2-a909-410e-b05b-76bbd5bc8b44
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_FONT_EMBEDDING, XPS_FONT_EMBEDDING enumeration [XPS Documents and Packaging], XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0013, xps.xps_font_embedding, xpsobjectmodel/XPS_FONT_EMBEDDING, xpsobjectmodel/XPS_FONT_EMBEDDING_NORMAL, xpsobjectmodel/XPS_FONT_EMBEDDING_OBFUSCATED, xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED, xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

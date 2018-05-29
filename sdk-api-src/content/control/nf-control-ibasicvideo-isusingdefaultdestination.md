@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.IsUsingDefaultDestination
 title: IBasicVideo::IsUsingDefaultDestination
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsUsingDefaultDestination method queries whether the renderer is using the default destination rectangle.
 old-location: dshow\ibasicvideo_isusingdefaultdestination.htm
 old-project: DirectShow
 ms.assetid: eceec24b-7743-4989-b112-e6a70283d397
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultDestination method, IBasicVideo.IsUsingDefaultDestination, IBasicVideo::IsUsingDefaultDestination, IBasicVideoIsUsingDefaultDestination, IsUsingDefaultDestination, IsUsingDefaultDestination method [DirectShow], IsUsingDefaultDestination method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultDestination, dshow.ibasicvideo_isusingdefaultdestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

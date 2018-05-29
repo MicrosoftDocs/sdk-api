@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsConfigurationChange
 title: IMbnSmsEvents::OnSmsConfigurationChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method that indicates that SMS configuration has changed or is available.
 old-location: mbn\imbnsmsevents_onsmsconfigurationchange.htm
 old-project: mbn
 ms.assetid: d6990732-60ef-43e5-b35c-9a3f0324d580
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsConfigurationChange method, IMbnSmsEvents.OnSmsConfigurationChange, IMbnSmsEvents::OnSmsConfigurationChange, OnSmsConfigurationChange, OnSmsConfigurationChange method [Microsoft Broadband Networks], OnSmsConfigurationChange method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsconfigurationchange, mbnapi/IMbnSmsEvents::OnSmsConfigurationChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

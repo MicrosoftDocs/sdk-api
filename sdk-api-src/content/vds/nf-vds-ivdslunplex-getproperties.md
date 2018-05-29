@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsLunPlex.GetProperties
 title: IVdsLunPlex::GetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the properties of the LUN plex.
 old-location: base\ivdslunplex_getproperties.htm
 old-project: VDS
 ms.assetid: ded24edd-fa6a-48f3-a448-690078f034bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetProperties method, IVdsLunPlex.GetProperties, IVdsLunPlex::GetProperties, base.ivdslunplex_getproperties, vds/IVdsLunPlex::GetProperties, vdshwprv/IVdsLunPlex::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

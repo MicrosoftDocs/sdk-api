@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamSourceRect
 title: ID3D11VideoContext::VideoProcessorSetStreamSourceRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the source rectangle for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamsourcerect.htm
 old-project: medfound
 ms.assetid: A2771C8A-13AB-4AFA-87A1-1390B582342A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamSourceRect method, ID3D11VideoContext.VideoProcessorSetStreamSourceRect, ID3D11VideoContext::VideoProcessorSetStreamSourceRect, VideoProcessorSetStreamSourceRect, VideoProcessorSetStreamSourceRect method [Media Foundation], VideoProcessorSetStreamSourceRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamSourceRect, mf.id3d11videocontext_videoprocessorsetstreamsourcerect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

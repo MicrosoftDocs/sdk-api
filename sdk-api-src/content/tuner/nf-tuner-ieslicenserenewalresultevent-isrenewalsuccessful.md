@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.IsRenewalSuccessful
 title: IESLicenseRenewalResultEvent::IsRenewalSuccessful
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a flag from a LicenseRenewalResult event that indicates whether the renewal was successful. In the event of failure, a client can call the GetRenewalResultCode or GetRenewalHResult method to get information about the reason for the failure.
 old-location: mstv\ieslicenserenewalresultevent_isrenewalsuccessful.htm
 old-project: mstv
 ms.assetid: 0c57e4e4-ee93-4e86-b1f8-eed5dd5aa931
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsRenewalSuccessful method, IESLicenseRenewalResultEvent.IsRenewalSuccessful, IESLicenseRenewalResultEvent::IsRenewalSuccessful, IsRenewalSuccessful, IsRenewalSuccessful method [DirectShow], IsRenewalSuccessful method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_isrenewalsuccessful, tuner/IESLicenseRenewalResultEvent::IsRenewalSuccessful
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

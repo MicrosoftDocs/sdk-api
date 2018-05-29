@@ -1,16 +1,16 @@
 ---
 UID: NE:xamlom.VisualMutationType
 title: VisualMutationType
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines constants that specify whether the element was added to or removed from the live visual tree.
 old-location: xaml_diagnostics\visualmutationtype.htm
 old-project: xaml_diagnostics
 ms.assetid: 9DAABF59-AC88-4B14-A7F1-470D4C0879FF
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: Add, Remove, VisualMutationType, VisualMutationType enumeration, xaml_diagnostics.visualmutationtype, xamlom/Add, xamlom/Remove, xamlom/VisualMutationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 

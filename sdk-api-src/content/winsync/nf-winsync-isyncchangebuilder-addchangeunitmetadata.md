@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBuilder.AddChangeUnitMetadata
 title: ISyncChangeBuilder::AddChangeUnitMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds change unit metadata to an item change.
 old-location: winsync\isyncchangebuilder_addchangeunitmetadata.htm
 old-project: winsync
 ms.assetid: 218e0f9d-9471-4b21-a424-b1298da2fb23
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddChangeUnitMetadata, AddChangeUnitMetadata method [Windows Sync], AddChangeUnitMetadata method [Windows Sync],ISyncChangeBuilder interface, ISyncChangeBuilder interface [Windows Sync],AddChangeUnitMetadata method, ISyncChangeBuilder.AddChangeUnitMetadata, ISyncChangeBuilder::AddChangeUnitMetadata, winsync.isyncchangebuilder_addchangeunitmetadata, winsync/ISyncChangeBuilder::AddChangeUnitMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

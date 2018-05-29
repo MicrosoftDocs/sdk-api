@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpOidCopy
 title: SnmpOidCopy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpOidCopy function copies an SNMP object identifier, allocating any necessary memory for the copy.
 old-location: snmp\snmpoidcopy.htm
 old-project: SNMP
 ms.assetid: ab121160-1c4f-41c0-a738-2e7605780ed2
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpOidCopy, SnmpOidCopy function [SNMP], _snmp_snmpoidcopy, snmp.snmpoidcopy, winsnmp/SnmpOidCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateDownloadContent2
 title: IUpdateDownloadContent2
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the download content of an update.
 old-location: wua\iupdatedownloadcontent2.htm
 old-project: Wua_Sdk
 ms.assetid: adf2e5df-42ca-41dc-aa84-60302c36a494
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateDownloadContent2, IUpdateDownloadContent2 interface [Windows Update Agent], IUpdateDownloadContent2 interface [Windows Update Agent],described, wua.iupdatedownloadcontent2, wuapi/IUpdateDownloadContent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

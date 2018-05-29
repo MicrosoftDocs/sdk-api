@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxAccountIncomingArchive
 title: IFaxAccountIncomingArchive
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by a fax client application to access a particular fax account's archive of successfully received inbound fax messages. Use this interface to retrieve messages and get the size of the archive.
 old-location: fax\_mfax_faxaccountincomingarchive_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\faxint_ifaxaccountincomingarchive.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxAccountIncomingArchive, IFaxAccountIncomingArchive interface [Fax Service], IFaxAccountIncomingArchive interface [Fax Service],described, _mfax_faxaccountincomingarchive_cpp, fax._mfax_faxaccountincomingarchive_cpp, faxcomex/IFaxAccountIncomingArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.item
 title: IWMPFolderMonitorServices::item
-author: windows-driver-content
+author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The item method retrieves the path to the folder corresponding to the specified index.
 old-location: wmp\iwmpfoldermonitorservices_item.htm
 old-project: WMP
 ms.assetid: d9c79b85-ac64-456c-95b2-fe28a8c99fac
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],item method, IWMPFolderMonitorServices.item, IWMPFolderMonitorServices::item, IWMPFolderMonitorServicesitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_item, wmp/IWMPFolderMonitorServices::item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

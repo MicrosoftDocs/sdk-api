@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToDoubleArrayAlloc
 title: VariantToDoubleArrayAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates an array of DOUBLE values then extracts data from a VARIANT structure into that array.
 old-location: properties\VariantToDoubleArrayAlloc.htm
 old-project: properties
 ms.assetid: 334d192e-7f63-47b4-88d4-9361e679cb15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToDoubleArrayAlloc, VariantToDoubleArrayAlloc function [Windows Properties], _shell_VariantToDoubleArrayAlloc, properties.VariantToDoubleArrayAlloc, propvarutil/VariantToDoubleArrayAlloc, shell.VariantToDoubleArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

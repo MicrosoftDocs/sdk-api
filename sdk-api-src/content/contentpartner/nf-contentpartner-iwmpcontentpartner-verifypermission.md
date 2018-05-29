@@ -1,16 +1,16 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.VerifyPermission
 title: IWMPContentPartner::VerifyPermission
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_verifypermission.htm
 old-project: WMP
 ms.assetid: 7ff45264-6e49-4953-bc0a-b3652aee965d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],VerifyPermission method, IWMPContentPartner.VerifyPermission, IWMPContentPartner::VerifyPermission, IWMPContentPartnerVerifyPermission, VerifyPermission, VerifyPermission method [Windows Media Player], VerifyPermission method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::VerifyPermission, wmp.iwmpcontentpartner_verifypermission
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

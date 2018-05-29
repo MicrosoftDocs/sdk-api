@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Deserializer_DeserializeInstance
 title: MI_Deserializer_DeserializeInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deserializes a serialized buffer into a MI_Instance object.
 old-location: wmi_v2\mi_deserializer_deserializeinstance.htm
 old-project: wmi_v2
 ms.assetid: 54b24a50-f700-4369-b6dc-8406000a5b30
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Deserializer_DeserializeInstance, MI_Deserializer_DeserializeInstance function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_DeserializeInstance, wmi_v2.mi_deserializer_deserializeinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture3D
 title: ID3D10Device::CreateTexture3D
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a single 3D texture (see Texture3D).
 old-location: direct3d10\id3d10device_createtexture3d.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture3d.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CreateTexture3D, CreateTexture3D method [Direct3D 10], CreateTexture3D method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateTexture3D method, ID3D10Device.CreateTexture3D, ID3D10Device::CreateTexture3D, c60533b9-1f88-143d-2e76-cc9dc35b462d, d3d10/ID3D10Device::CreateTexture3D, direct3d10.id3d10device_createtexture3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

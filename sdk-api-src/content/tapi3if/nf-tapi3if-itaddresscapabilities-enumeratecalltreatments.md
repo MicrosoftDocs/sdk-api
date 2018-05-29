@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateCallTreatments
 title: ITAddressCapabilities::EnumerateCallTreatments
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateCallTreatments method gets call treatments. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratecalltreatments.htm
 old-project: Tapi
 ms.assetid: 34a967ba-7d1f-4841-95be-9e83f927379b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumerateCallTreatments, EnumerateCallTreatments method [TAPI 2.2], EnumerateCallTreatments method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateCallTreatments method, ITAddressCapabilities.EnumerateCallTreatments, ITAddressCapabilities::EnumerateCallTreatments, _tapi3_itaddresscapabilities_enumeratecalltreatments, tapi3.itaddresscapabilities_enumeratecalltreatments, tapi3if/ITAddressCapabilities::EnumerateCallTreatments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

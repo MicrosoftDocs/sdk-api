@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_IsModal
 title: IWindowProvider::get_IsModal
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the window is modal.
 old-location: winauto\uiauto_IWindowProvider_IsModal.htm
 old-project: WinAuto
 ms.assetid: 16b1adb3-2816-4f7d-a805-8fc238ad78e4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],IsModal property, IWindowProvider.IsModal, IWindowProvider.get_IsModal, IWindowProvider::IsModal, IWindowProvider::get_IsModal, IsModal property [Windows Accessibility], IsModal property [Windows Accessibility],IWindowProvider interface, get_IsModal, uiauto.uiauto_IWindowProvider_IsModal, uiauto_IWindowProvider_IsModal, uiautomationcore/IWindowProvider::IsModal, uiautomationcore/IWindowProvider::get_IsModal, winauto.uiauto_IWindowProvider_IsModal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

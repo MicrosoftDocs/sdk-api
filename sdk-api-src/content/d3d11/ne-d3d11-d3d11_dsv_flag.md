@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_DSV_FLAG
 title: D3D11_DSV_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Depth-stencil view options.
 old-location: direct3d11\d3d11_dsv_flag.htm
 old-project: direct3d11
 ms.assetid: 8894ec55-9d56-4d41-a5d6-72ce064e3351
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_DSV_FLAG, D3D11_DSV_FLAG enumeration [Direct3D 11], D3D11_DSV_READ_ONLY_DEPTH, D3D11_DSV_READ_ONLY_STENCIL, d3d11/D3D11_DSV_FLAG, d3d11/D3D11_DSV_READ_ONLY_DEPTH, d3d11/D3D11_DSV_READ_ONLY_STENCIL, direct3d11.d3d11_dsv_flag, f62b0b22-d913-ed95-64ca-e81a26c5564b
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

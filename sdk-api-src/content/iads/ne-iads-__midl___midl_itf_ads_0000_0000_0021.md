@@ -1,16 +1,16 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0021
 title: "__MIDL___MIDL_itf_ads_0000_0000_0021"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the scope of a directory search.
 old-location: adsi\ads_scopeenum.htm
 old-project: ADSI
 ms.assetid: 403e45fa-bcd6-4422-9111-e9ca9859550a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADS_SCOPEENUM, ADS_SCOPEENUM enumeration [ADSI], ADS_SCOPE_BASE, ADS_SCOPE_ONELEVEL, ADS_SCOPE_SUBTREE, __MIDL___MIDL_itf_ads_0000_0000_0021, _ds_ads_scopeenum, adsi.ads__scopeenum, adsi.ads_scopeenum, iads/ADS_SCOPEENUM, iads/ADS_SCOPE_BASE, iads/ADS_SCOPE_ONELEVEL, iads/ADS_SCOPE_SUBTREE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

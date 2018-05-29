@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_QWORD_VALUE
 title: PRESUTIL_GET_QWORD_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD.
 old-location: mscs\resutilgetqwordvalue.htm
 old-project: MsCS
 ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE callback, PRESUTIL_GET_QWORD_VALUE callback function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

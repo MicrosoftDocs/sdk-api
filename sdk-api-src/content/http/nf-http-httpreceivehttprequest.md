@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpReceiveHttpRequest
 title: HttpReceiveHttpRequest function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the next available HTTP request from the specified request queue either synchronously or asynchronously.
 old-location: http\httpreceivehttprequest.htm
 old-project: Http
 ms.assetid: ad9e80f7-04c4-4108-a7ab-40eb57d00e3b
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: 0 (zero), HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY, HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY, HttpReceiveHttpRequest, HttpReceiveHttpRequest function [HTTP], _http_httpreceivehttprequest, http.httpreceivehttprequest, http/HttpReceiveHttpRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.DeleteProxyArpEntry
 title: DeleteProxyArpEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteProxyArpEntry function deletes the PARP entry on the local computer specified by the dwAddress and dwIfIndex parameters.
 old-location: iphlp\deleteproxyarpentry.htm
 old-project: IpHlp
 ms.assetid: 26e08e4d-ac69-49f8-8a1a-1ba1a04d085c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteProxyArpEntry, DeleteProxyArpEntry function [IP Helper], _iphlp_deleteproxyarpentry, iphlp.deleteproxyarpentry, iphlpapi/DeleteProxyArpEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

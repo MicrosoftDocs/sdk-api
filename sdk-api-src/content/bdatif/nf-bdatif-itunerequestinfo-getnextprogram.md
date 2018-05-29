@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetNextProgram
 title: ITuneRequestInfo::GetNextProgram
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNextProgram method creates a new tune request with channel or program locator information for the next service.
 old-location: mstv\itunerequestinfo_getnextprogram.htm
 old-project: mstv
 ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNextProgram, GetNextProgram method [Microsoft TV Technologies], GetNextProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextProgram method, ITuneRequestInfo.GetNextProgram, ITuneRequestInfo::GetNextProgram, ITuneRequestInfoGetNextProgram, bdatif/ITuneRequestInfo::GetNextProgram, mstv.itunerequestinfo_getnextprogram
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

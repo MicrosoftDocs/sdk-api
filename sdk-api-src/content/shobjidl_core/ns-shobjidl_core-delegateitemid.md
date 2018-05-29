@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.DELEGATEITEMID
 title: DELEGATEITEMID
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by delegate folders in place of a standard ITEMIDLIST structure.
 old-location: shell\DELEGATEITEMID.htm
 old-project: shell
 ms.assetid: 986591cf-97c5-4328-900e-b49f0f0859a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PDELEGATEITEMID, DELEGATEITEMID, DELEGATEITEMID structure [Windows Shell], shell.DELEGATEITEMID, shell_DELEGATEITEMID, shobjidl_core/DELEGATEITEMID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

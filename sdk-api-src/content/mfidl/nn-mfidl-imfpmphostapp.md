@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFPMPHostApp
 title: IMFPMPHostApp
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a media source to create a Windows Runtime object in the Protected Media Path (PMP) process.
 old-location: mf\imfpmphostapp.htm
 old-project: medfound
 ms.assetid: ca24930d-bd1e-4c12-8246-1e505a98944a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMPHostApp, IMFPMPHostApp interface [Media Foundation], IMFPMPHostApp interface [Media Foundation],described, mf.imfpmphostapp, mfidl/IMFPMPHostApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

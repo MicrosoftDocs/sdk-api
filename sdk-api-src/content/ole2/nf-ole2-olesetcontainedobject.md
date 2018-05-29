@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleSetContainedObject
 title: OleSetContainedObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.
 old-location: com\olesetcontainedobject.htm
 old-project: com
 ms.assetid: 154aa6f0-3c02-4139-8c8e-c2112b015fe0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleSetContainedObject, OleSetContainedObject function [COM], _ole_OleSetContainedObject, com.olesetcontainedobject, ole2/OleSetContainedObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

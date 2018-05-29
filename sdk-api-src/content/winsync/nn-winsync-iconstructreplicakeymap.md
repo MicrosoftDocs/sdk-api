@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IConstructReplicaKeyMap
 title: IConstructReplicaKeyMap
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds entries to an IReplicaKeyMap object.
 old-location: winsync\iconstructreplicakeymap.htm
 old-project: winsync
 ms.assetid: 742b5606-5d24-4494-9f96-e381af1145db
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IConstructReplicaKeyMap, IConstructReplicaKeyMap interface [Windows Sync], IConstructReplicaKeyMap interface [Windows Sync],described, winsync.iconstructreplicakeymap, winsync/IConstructReplicaKeyMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

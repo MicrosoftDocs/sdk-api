@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetIntArray
 title: ID3D10EffectScalarVariable::GetIntArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Get an array of integer variables.
 old-location: direct3d10\id3d10effectscalarvariable_getintarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getintarray.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 3b56ed87-da9a-3aec-33c5-66ed69d44a04, GetIntArray, GetIntArray method [Direct3D 10], GetIntArray method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetIntArray method, ID3D10EffectScalarVariable.GetIntArray, ID3D10EffectScalarVariable::GetIntArray, d3d10effect/ID3D10EffectScalarVariable::GetIntArray, direct3d10.id3d10effectscalarvariable_getintarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

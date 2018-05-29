@@ -1,16 +1,16 @@
 ---
 UID: NS:usp10.script_charprop
 title: script_charprop
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a single character in a run (input string). The information indicates if the character glyph is affected by surrounding letters of the run.
 old-location: intl\script_charprop.htm
 old-project: Intl
 ms.assetid: 2f3a4d8d-c7b1-4005-aebb-d3e9f2e3a37f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SCRIPT_CHARPROP, SCRIPT_CHARPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_CHARPROP, intl.script_charprop, script_charprop, usp10/SCRIPT_CHARPROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

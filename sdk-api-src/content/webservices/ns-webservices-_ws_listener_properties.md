@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_LISTENER_PROPERTIES
 title: "_WS_LISTENER_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a set of WS_LISTENER_PROPERTY structures.
 old-location: wsw\ws_listener_properties.htm
 old-project: wsw
 ms.assetid: 19619c20-d287-42d8-9326-15c810619f22
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_LISTENER_PROPERTIES, WS_LISTENER_PROPERTIES structure [Web Services for Windows], _WS_LISTENER_PROPERTIES, webservices/WS_LISTENER_PROPERTIES, wsw.ws_listener_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

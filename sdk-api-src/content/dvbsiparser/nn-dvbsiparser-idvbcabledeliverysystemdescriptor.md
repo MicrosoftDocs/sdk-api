@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbCableDeliverySystemDescriptor
 title: IDvbCableDeliverySystemDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor.htm
 old-project: mstv
 ms.assetid: b4fb2fd0-e32a-4737-8095-7d4df40a26a0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbCableDeliverySystemDescriptor, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbCableDeliverySystemDescriptorInterface, dvbsiparser/IDvbCableDeliverySystemDescriptor, mstv.idvbcabledeliverysystemdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

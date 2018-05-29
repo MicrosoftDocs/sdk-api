@@ -1,16 +1,16 @@
 ---
 UID: NS:compressapi._COMPRESS_ALLOCATION_ROUTINES
 title: "_COMPRESS_ALLOCATION_ROUTINES"
-author: windows-driver-content
+author: windows-sdk-content
 description: A structure containing optional memory allocation and deallocation routines.
 old-location: cmpapi\compress_allocation_routines.htm
 old-project: cmpapi
 ms.assetid: 91f541c8-36b9-4ec2-ae37-0b41aa6fd623
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: "*PCOMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES structure [Compression API], PCOMPRESS_ALLOCATION_ROUTINES, PCOMPRESS_ALLOCATION_ROUTINES structure pointer [Compression API], _COMPRESS_ALLOCATION_ROUTINES, cmpapi.compress_allocation_routines, compressapi/COMPRESS_ALLOCATION_ROUTINES, compressapi/PCOMPRESS_ALLOCATION_ROUTINES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: compressapi.h
 req.include-header: 

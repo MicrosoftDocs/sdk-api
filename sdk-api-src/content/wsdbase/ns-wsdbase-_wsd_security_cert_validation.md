@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdbase._WSD_SECURITY_CERT_VALIDATION
 title: "_WSD_SECURITY_CERT_VALIDATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the criteria for matching client certificates against those of an HTTPS server.
 old-location: ncd\wsd_security_cert_validation.htm
 old-project: WsdApi
 ms.assetid: 1bc157c2-f3c2-4b67-a6ae-251ba1cb0379
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PWSD_SECURITY_CERT_VALIDATION, WSDAPI_SSL_CERT_DEFAULT_CHECKS, WSDAPI_SSL_CERT_IGNORE_EXPIRY, WSDAPI_SSL_CERT_IGNORE_INVALID_CN, WSDAPI_SSL_CERT_IGNORE_REVOCATION, WSDAPI_SSL_CERT_IGNORE_UNKNOWN_CA, WSDAPI_SSL_CERT_IGNORE_WRONG_USAGE, WSD_SECURITY_CERT_VALIDATION, WSD_SECURITY_CERT_VALIDATION structure, _WSD_SECURITY_CERT_VALIDATION, ncd.wsd_security_cert_validation, wsdbase/WSD_SECURITY_CERT_VALIDATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Windows.h

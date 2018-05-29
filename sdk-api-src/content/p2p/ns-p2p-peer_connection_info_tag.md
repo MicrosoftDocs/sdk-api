@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_connection_info_tag
 title: peer_connection_info_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_CONNECTION_INFO structure contains information about a connection. This structure is returned when you are enumerating peer graphing or grouping connections.
 old-location: p2p\peer_connection_info.htm
 old-project: P2PSdk
 ms.assetid: 039fa00e-c193-46fd-b7e6-41eb7baeab3e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_CONNECTION_INFO, PEER_CONNECTION_INFO structure [Peer Networking], p2p.peer_connection_info, p2p/peer_connection_info_tag, peer_connection_info_tag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

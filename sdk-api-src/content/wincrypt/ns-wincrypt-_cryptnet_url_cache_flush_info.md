@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_FLUSH_INFO
 title: "_CRYPTNET_URL_CACHE_FLUSH_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_flush_info.htm
 old-project: SecCrypto
 ms.assetid: 68b52dbe-c521-4281-9a00-d91ee14dd697
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_DEFAULT_FLUSH, CRYPTNET_URL_CACHE_DISABLE_FLUSH, CRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_FLUSH_INFO structure [Security], PCRYPTNET_URL_CACHE_FLUSH_INFO, PCRYPTNET_URL_CACHE_FLUSH_INFO structure pointer [Security], _CRYPTNET_URL_CACHE_FLUSH_INFO, security.cryptnet_url_cache_flush_info, wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO, wincrypt/PCRYPTNET_URL_CACHE_FLUSH_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

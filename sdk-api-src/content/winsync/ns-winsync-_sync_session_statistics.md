@@ -1,16 +1,16 @@
 ---
 UID: NS:winsync._SYNC_SESSION_STATISTICS
 title: "_SYNC_SESSION_STATISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents statistics about a single, unidirectional synchronization session.
 old-location: winsync\sync_session_statistics.htm
 old-project: winsync
 ms.assetid: e6d1fe9e-6cf2-414a-9be6-b444af2c7525
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SYNC_SESSION_STATISTICS, SYNC_SESSION_STATISTICS structure [Windows Sync], _SYNC_SESSION_STATISTICS, winsync.sync_session_statistics, winsync/SYNC_SESSION_STATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

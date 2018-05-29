@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Clone
 title: IEnumEventObject::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enumerator that contains the same enumeration state as the current one.
 old-location: cos\ienumeventobject_clone.htm
 old-project: cossdk
 ms.assetid: 25bd3f8f-ba99-42e6-b7af-6b237343a17c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumEventObject interface, IEnumEventObject interface [COM+],Clone method, IEnumEventObject.Clone, IEnumEventObject::Clone, _cos_ienumeventobject_clone, cos.ienumeventobject_clone, eventsys/IEnumEventObject::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

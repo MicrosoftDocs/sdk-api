@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_DELETE_LOGON_SESSION
 title: LSA_DELETE_LOGON_SESSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Cleans up any logon sessions created while determining whether a user's authentication information is legitimate.
 old-location: security\deletelogonsession.htm
 old-project: SecAuthN
 ms.assetid: 72b9451c-8a94-4e64-bd78-0afef210671c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeleteLogonSession, DeleteLogonSession function [Security], LSA_DELETE_LOGON_SESSION, _lsa_deletelogonsession, ntsecpkg/DeleteLogonSession, security.deletelogonsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

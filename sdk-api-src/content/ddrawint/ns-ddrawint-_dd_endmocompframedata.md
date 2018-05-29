@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_ENDMOCOMPFRAMEDATA
 title: "_DD_ENDMOCOMPFRAMEDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_ENDMOCOMPFRAMEDATA structure contains information required to complete a decoded frame.
 old-location: display\dd_endmocompframedata.htm
 old-project: display
 ms.assetid: 4e604940-1c0f-43be-bac7-9936df0c4044
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA structure [Display Devices], _DD_ENDMOCOMPFRAMEDATA, ddrawint/DD_ENDMOCOMPFRAMEDATA, ddstrcts_4c526986-eaf4-40ea-890c-e90295ac9ee6.xml, display.dd_endmocompframedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

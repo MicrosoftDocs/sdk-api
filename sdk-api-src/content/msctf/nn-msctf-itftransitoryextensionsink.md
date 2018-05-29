@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfTransitoryExtensionSink
 title: ITfTransitoryExtensionSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfTransitoryExtensionSink interface is implemented by the application that uses Transitory Extension dim. The application can track the changes that happened in the transitory extension by using this sink interface.
 old-location: tsf\itftransitoryextensionsink.htm
 old-project: TSF
 ms.assetid: c2c11bd9-ae33-462e-8534-dc57a5131846
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfTransitoryExtensionSink, ITfTransitoryExtensionSink interface [Text Services Framework], ITfTransitoryExtensionSink interface [Text Services Framework],described, _tsf_itftransitoryextensionsink_ref, msctf/ITfTransitoryExtensionSink, tsf.itftransitoryextensionsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

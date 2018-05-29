@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAbortServiceHost
 title: WsAbortServiceHost function
-author: windows-driver-content
+author: windows-sdk-content
 description: Aborts all current operations on the specified service host.
 old-location: wsw\wsabortservicehost.htm
 old-project: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

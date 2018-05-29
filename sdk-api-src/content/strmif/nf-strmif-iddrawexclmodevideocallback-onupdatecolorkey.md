@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateColorKey
 title: IDDrawExclModeVideoCallback::OnUpdateColorKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnUpdateColorKey method informs the application that the color key has changed so that the application can use the new color key to overlay graphics on the video.
 old-location: dshow\iddrawexclmodevideocallback_onupdatecolorkey.htm
 old-project: DirectShow
 ms.assetid: 87d4a4b5-f67e-46f6-956a-1c9c309bfde7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateColorKey method, IDDrawExclModeVideoCallback.OnUpdateColorKey, IDDrawExclModeVideoCallback::OnUpdateColorKey, IDDrawExclModeVideoCallbackOnUpdateColorKey, OnUpdateColorKey, OnUpdateColorKey method [DirectShow], OnUpdateColorKey method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdatecolorkey, strmif/IDDrawExclModeVideoCallback::OnUpdateColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

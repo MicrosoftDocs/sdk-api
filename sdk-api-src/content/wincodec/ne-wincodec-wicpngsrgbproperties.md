@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICPngSrgbProperties
 title: WICPngSrgbProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
 old-location: wic\_wic_codec_wicpngsrgbproperties.htm
 old-project: wic
 ms.assetid: ec9bbdb7-9ce2-44bd-bd84-842394ce4c5f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICPngSrgbProperties, WICPngSrgbProperties enumeration [Windows Imaging Component], WICPngSrgbRenderingIntent, _wic_codec_wicpngsrgbproperties, wic._wic_codec_wicpngsrgbproperties, wincodec/WICPngSrgbProperties, wincodec/WICPngSrgbRenderingIntent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

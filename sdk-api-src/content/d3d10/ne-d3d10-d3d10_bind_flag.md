@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d10.D3D10_BIND_FLAG
 title: D3D10_BIND_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies how to bind a resource to the pipeline.
 old-location: direct3d10\d3d10_bind_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_bind_flag.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 7e986ece-3bd3-f96c-c7c8-27d21e16623f, D3D10_BIND_CONSTANT_BUFFER, D3D10_BIND_DEPTH_STENCIL, D3D10_BIND_FLAG, D3D10_BIND_FLAG enumeration [Direct3D 10], D3D10_BIND_INDEX_BUFFER, D3D10_BIND_RENDER_TARGET, D3D10_BIND_SHADER_RESOURCE, D3D10_BIND_STREAM_OUTPUT, D3D10_BIND_VERTEX_BUFFER, d3d10/D3D10_BIND_CONSTANT_BUFFER, d3d10/D3D10_BIND_DEPTH_STENCIL, d3d10/D3D10_BIND_FLAG, d3d10/D3D10_BIND_INDEX_BUFFER, d3d10/D3D10_BIND_RENDER_TARGET, d3d10/D3D10_BIND_SHADER_RESOURCE, d3d10/D3D10_BIND_STREAM_OUTPUT, d3d10/D3D10_BIND_VERTEX_BUFFER, direct3d10.d3d10_bind_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

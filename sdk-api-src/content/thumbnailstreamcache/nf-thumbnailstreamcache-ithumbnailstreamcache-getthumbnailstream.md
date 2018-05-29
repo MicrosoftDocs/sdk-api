@@ -1,16 +1,16 @@
 ---
 UID: NF:thumbnailstreamcache.IThumbnailStreamCache.GetThumbnailStream
 title: IThumbnailStreamCache::GetThumbnailStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache_getthumbnailstream.htm
 old-project: shell
 ms.assetid: 66A89AF9-DEBE-485C-B8E9-519F63386F7D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetThumbnailStream, GetThumbnailStream method [Windows Shell], GetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, IThumbnailStreamCache interface [Windows Shell],GetThumbnailStream method, IThumbnailStreamCache.GetThumbnailStream, IThumbnailStreamCache::GetThumbnailStream, shell.ithumbnailstreamcache_getthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: thumbnailstreamcache.h
 req.include-header: 

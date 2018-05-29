@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.MFP_GET_PAUSE_EVENT
 title: MFP_GET_PAUSE_EVENT macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PAUSE_EVENT pointer.
 old-location: mf\mfp_get_pause_event.htm
 old-project: medfound
 ms.assetid: 492b8c37-eae0-42ea-9a62-3c2e3ee0233f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_GET_PAUSE_EVENT, MFP_GET_PAUSE_EVENT macro [Media Foundation], mf.mfp_get_pause_event, mfplay/MFP_GET_PAUSE_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: mfplay.h
 req.include-header: 

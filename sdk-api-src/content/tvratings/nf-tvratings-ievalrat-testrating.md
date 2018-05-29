@@ -1,16 +1,16 @@
 ---
 UID: NF:tvratings.IEvalRat.TestRating
 title: IEvalRat::TestRating
-author: windows-driver-content
+author: windows-sdk-content
 description: The TestRating method determines whether a program with the specified rating should be blocked.
 old-location: mstv\ievalrat_testrating.htm
 old-project: mstv
 ms.assetid: 26144496-200c-49b8-9f5e-23a39fea20bc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],TestRating method, IEvalRat.TestRating, IEvalRat::TestRating, IEvalRatTestRating, TestRating, TestRating method [Microsoft TV Technologies], TestRating method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_testrating, tvratings/IEvalRat::TestRating
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tvratings.h
 req.include-header: 

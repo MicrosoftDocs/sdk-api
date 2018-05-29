@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi.IDiscMaster.Close
 title: IDiscMaster::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the interface so other applications can use it.
 old-location: imapi\idiscmaster_close.htm
 old-project: imapi
 ms.assetid: c5ebeca1-baaa-49ac-87ac-134d4b37e8c9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],Close method, IDiscMaster.Close, IDiscMaster::Close, _win32_idiscmaster_close, base.idiscmaster_close, imapi.idiscmaster_close, imapi/IDiscMaster::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

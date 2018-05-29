@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartRecord
 title: IMFCaptureEngine::StartRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts recording audio and/or video to a file.
 old-location: mf\imfcaptureengine_startrecord.htm
 old-project: medfound
 ms.assetid: 22084409-B2E6-47EF-A59B-A762E9A9191D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartRecord method, IMFCaptureEngine.StartRecord, IMFCaptureEngine::StartRecord, StartRecord, StartRecord method [Media Foundation], StartRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startrecord, mfcaptureengine/IMFCaptureEngine::StartRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

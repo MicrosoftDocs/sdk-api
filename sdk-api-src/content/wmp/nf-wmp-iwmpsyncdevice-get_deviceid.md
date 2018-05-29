@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_deviceId
 title: IWMPSyncDevice::get_deviceId
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_deviceId method retrieves the device identifier string.
 old-location: wmp\iwmpsyncdevice_get_deviceid.htm
 old-project: WMP
 ms.assetid: 36d40dc4-5641-49dd-9ef4-31d2acd0f41d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_deviceId method, IWMPSyncDevice.get_deviceId, IWMPSyncDevice::get_deviceId, IWMPSyncDeviceget_deviceId, get_deviceId, get_deviceId method [Windows Media Player], get_deviceId method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_deviceid, wmp/IWMPSyncDevice::get_deviceId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

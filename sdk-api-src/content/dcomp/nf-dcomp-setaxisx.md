@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetAxisX
 title: SetAxisX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisx_overloaded.htm
 old-project: directcomp
 ms.assetid: 6ADBB027-8F80-4DF3-9199-DDB6570DF81B
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRotateTransform3D::SetAxisX, SetAxisX, SetAxisX methods [DirectComposition], dcomp/SetAxisX, directcomp.idcompositionrotatetransform3d_setaxisx_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

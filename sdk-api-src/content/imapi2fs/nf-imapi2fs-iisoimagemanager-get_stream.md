@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.get_Stream
 title: IIsoImageManager::get_Stream
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IStream object associated with the .iso image.
 old-location: imapi\iisoimagemanager_get_stream.htm
 old-project: imapi
 ms.assetid: 0655edb2-5dce-4428-b883-984ef53712cd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IIsoImageManager interface [IMAPI],get_Stream method, IIsoImageManager.get_Stream, IIsoImageManager::get_Stream, get_Stream, get_Stream method [IMAPI], get_Stream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_stream, imapi2fs/IIsoImageManager::get_Stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

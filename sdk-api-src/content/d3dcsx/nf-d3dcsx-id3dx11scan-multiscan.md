@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcsx.ID3DX11Scan.Multiscan
 title: ID3DX11Scan::Multiscan
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a multiscan of a sequence.
 old-location: direct3d11\id3dx11scan_multiscan.htm
 old-project: direct3d11
 ms.assetid: 5b6c637b-747d-465c-8915-dba13725ee0b
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 370f6a70-577e-dd58-afb3-50bba688da70, ID3DX11Scan interface [Direct3D 11],Multiscan method, ID3DX11Scan.Multiscan, ID3DX11Scan::Multiscan, Multiscan, Multiscan method [Direct3D 11], Multiscan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Multiscan, direct3d11.id3dx11scan_multiscan
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3dcsx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntenclv.VBS_ENCLAVE_REPORT_MODULE
 title: VBS_ENCLAVE_REPORT_MODULE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a module loaded for the enclave.
 old-location: base\vbs_enclave_report_module.htm
 old-project: Memory
 ms.assetid: FB72B01D-B3FE-4FD7-8766-B209C6BC105E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VBS_ENCLAVE_REPORT_MODULE, VBS_ENCLAVE_REPORT_MODULE structure, base.vbs_enclave_report_module, ntenclv/VBS_ENCLAVE_REPORT_MODULE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntenclv.h
 req.include-header: 

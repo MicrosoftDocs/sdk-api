@@ -1,16 +1,16 @@
 ---
 UID: NF:fhsvcctl.FhServiceUnblockBackup
 title: FhServiceUnblockBackup function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function unblocks backups blocked via FhServiceBlockBackup.
 old-location: winprog\fhserviceunblockbackup.htm
 old-project: DevNotes
 ms.assetid: 4CCCEEA5-40BC-4862-ADF5-C8757E02916A
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhServiceUnblockBackup, FhServiceUnblockBackup function [Windows API], fhsvcctl/FhServiceUnblockBackup, winprog.fhserviceunblockbackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 

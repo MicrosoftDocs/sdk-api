@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_DrawIndirect
 title: ImageList_DrawIndirect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws an image list image based on an IMAGELISTDRAWPARAMS structure.
 old-location: controls\ImageList_DrawIndirect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawindirect.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_DrawIndirect, ImageList_DrawIndirect function [Windows Controls], _win32_ImageList_DrawIndirect, _win32_ImageList_DrawIndirect_cpp, commctrl/ImageList_DrawIndirect, controls.ImageList_DrawIndirect, controls._win32_ImageList_DrawIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

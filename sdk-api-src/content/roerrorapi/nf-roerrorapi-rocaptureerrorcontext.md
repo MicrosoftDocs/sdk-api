@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoCaptureErrorContext
 title: RoCaptureErrorContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the current error context so that it's available for later calls to the RoFailFastWithErrorContext function.
 old-location: winrt\rocaptureerrorcontext.htm
 old-project: WinRT
 ms.assetid: 4102CAD6-B5EC-4633-91CC-D56F6C0E287E
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoCaptureErrorContext, RoCaptureErrorContext function [Windows Runtime], roerrorapi/RoCaptureErrorContext, winrt.rocaptureerrorcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

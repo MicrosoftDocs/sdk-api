@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpCrackUrl
 title: WinHttpCrackUrl function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.
 old-location: http\winhttpcrackurl.htm
 old-project: WinHttp
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

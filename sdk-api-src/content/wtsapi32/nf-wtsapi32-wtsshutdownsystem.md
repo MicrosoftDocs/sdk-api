@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSShutdownSystem
 title: WTSShutdownSystem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down (and optionally restarts) the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsshutdownsystem.htm
 old-project: TermServ
 ms.assetid: 188df0d6-0e49-4608-bc70-83775584a1f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSShutdownSystem, WTSShutdownSystem function [Remote Desktop Services], WTS_WSD_FASTREBOOT, WTS_WSD_LOGOFF, WTS_WSD_POWEROFF, WTS_WSD_REBOOT, WTS_WSD_SHUTDOWN, _win32_wtsshutdownsystem, termserv.wtsshutdownsystem, wtsapi32/WTSShutdownSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

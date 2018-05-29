@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderAdviseEvents
 title: IRawElementProviderAdviseEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that are called to notify the root element of a fragment when a Microsoft UI Automation client application begins or ends listening for events on that fragment.
 old-location: winauto\uiauto_IRawElementProviderAdviseEvents.htm
 old-project: WinAuto
 ms.assetid: 6bc21bf8-8fe6-4b46-a79a-409c94a9bd42
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IRawElementProviderAdviseEvents, IRawElementProviderAdviseEvents interface [Windows Accessibility], IRawElementProviderAdviseEvents interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderAdviseEvents, uiauto_IRawElementProviderAdviseEvents, uiautomationcore/IRawElementProviderAdviseEvents, winauto.uiauto_IRawElementProviderAdviseEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

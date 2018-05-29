@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDFLIPVIDEOPORT
 title: "_DDFLIPVIDEOPORT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.
 old-location: display\ddflipvideoport.htm
 old-project: display
 ms.assetid: c30c100c-8c91-44e2-b75b-92ce73d44047
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDFLIPVIDEOPORT, DDFLIPVIDEOPORT, DDFLIPVIDEOPORT structure [Display Devices], LPDDFLIPVIDEOPORT, LPDDFLIPVIDEOPORT structure pointer [Display Devices], _DDFLIPVIDEOPORT, ddkmapi/DDFLIPVIDEOPORT, ddkmapi/LPDDFLIPVIDEOPORT, ddstrcts_b6a3e4ea-217b-40d5-a829-c9ca62632a3e.xml, display.ddflipvideoport"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

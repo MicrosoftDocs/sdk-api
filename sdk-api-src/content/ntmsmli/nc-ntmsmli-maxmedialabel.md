@@ -1,16 +1,16 @@
 ---
 UID: NC:ntmsmli.MAXMEDIALABEL
 title: MAXMEDIALABEL
-author: windows-driver-content
+author: windows-sdk-content
 description: The MaxMediaLabel callback function determines the maximum size of the media label for the applications supported by the media label library.
 old-location: fs\maxmedialabel.htm
 old-project: Rsm
 ms.assetid: b770cc63-e1dd-4d1a-8009-8e1bdc9ce69c
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntmsmli.h
 req.include-header: 

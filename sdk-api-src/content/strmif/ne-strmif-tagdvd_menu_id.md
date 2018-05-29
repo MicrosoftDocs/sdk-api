@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_MENU_ID
 title: tagDVD_MENU_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the DVD menu in a call to IDvdControl2::ShowMenu.
 old-location: dshow\dvd_menu_id.htm
 old-project: DirectShow
 ms.assetid: 2fd107d7-7531-4bce-89b9-b44388b47b91
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_MENU_Angle, DVD_MENU_Audio, DVD_MENU_Chapter, DVD_MENU_ID, DVD_MENU_ID , DVD_MENU_ID enumeration [DirectShow], DVD_MENU_IDEnumeration, DVD_MENU_Root, DVD_MENU_Subpicture, DVD_MENU_Title, dshow.dvd_menu_id, strmif/DVD_MENU_Angle, strmif/DVD_MENU_Audio, strmif/DVD_MENU_Chapter, strmif/DVD_MENU_ID, strmif/DVD_MENU_Root, strmif/DVD_MENU_Subpicture, strmif/DVD_MENU_Title, tagDVD_MENU_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

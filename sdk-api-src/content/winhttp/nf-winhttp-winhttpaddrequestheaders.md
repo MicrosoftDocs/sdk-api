@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpAddRequestHeaders
 title: WinHttpAddRequestHeaders function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: http\winhttpaddrequestheaders.htm
 old-project: WinHttp
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_ADDREQ_FLAG_COALESCE, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, WINHTTP_ADDREQ_FLAG_REPLACE, WinHttpAddRequestHeaders, WinHttpAddRequestHeaders function [WinHTTP], http.winhttpaddrequestheaders, winhttp/WinHttpAddRequestHeaders, winhttp_winhttpaddrequestheaders_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

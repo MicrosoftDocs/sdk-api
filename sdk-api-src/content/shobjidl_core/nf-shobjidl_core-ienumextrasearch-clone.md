@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Clone
 title: IEnumExtraSearch::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to request a duplicate of the enumerator object to preserve its current state.
 old-location: shell\IEnumExtraSearch_Clone.htm
 old-project: shell
 ms.assetid: 9d766cf9-784b-4e89-ad58-bab6415630fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExtraSearch interface, IEnumExtraSearch interface [Windows Shell],Clone method, IEnumExtraSearch.Clone, IEnumExtraSearch::Clone, _win32_IEnumExtraSearch_Clone, shell.IEnumExtraSearch_Clone, shobjidl_core/IEnumExtraSearch::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

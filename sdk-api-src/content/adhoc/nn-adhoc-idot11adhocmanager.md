@@ -1,16 +1,16 @@
 ---
 UID: NN:adhoc.IDot11AdHocManager
 title: IDot11AdHocManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and manages 802.11 ad hoc networks.
 old-location: nwifi\idot11adhocmanager.htm
 old-project: NativeWiFi
 ms.assetid: dcb93b9c-3292-4cbf-9d44-5367bdbd4878
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: IDot11AdHocManager, IDot11AdHocManager interface [NativeWIFI], IDot11AdHocManager interface [NativeWIFI],described, adhoc/IDot11AdHocManager, nwifi.idot11adhocmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

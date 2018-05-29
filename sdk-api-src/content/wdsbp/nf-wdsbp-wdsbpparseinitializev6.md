@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsbp.WdsBpParseInitializev6
 title: WdsBpParseInitializev6 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a handle to the packet sent by the network boot program.
 old-location: wds\wdsbpparseinitializev6.htm
 old-project: Wds
 ms.assetid: 6387DA64-CE65-4C6B-9313-B062FA24D8C9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitializev6, WdsBpParseInitializev6 function [Windows Deployment Services], wds.wdsbpparseinitializev6, wdsbp/WdsBpParseInitializev6
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 

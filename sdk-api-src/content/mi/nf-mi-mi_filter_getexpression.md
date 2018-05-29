@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Filter_GetExpression
 title: MI_Filter_GetExpression function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the filter language and expression.
 old-location: wmi_v2\mi_filter_getexpression.htm
 old-project: wmi_v2
 ms.assetid: a1ba9cf2-b613-4621-a4ac-39808b4bfd8e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Filter_GetExpression, MI_Filter_GetExpression function [Windows Management Infrastructure (MI)], mi/MI_Filter_GetExpression, wmi_v2.mi_filter_getexpression
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

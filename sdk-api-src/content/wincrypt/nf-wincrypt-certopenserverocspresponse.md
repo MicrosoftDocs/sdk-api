@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertOpenServerOcspResponse
 title: CertOpenServerOcspResponse function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a handle to an online certificate status protocol (OCSP) response associated with a server certificate chain.
 old-location: security\certopenserverocspresponse.htm
 old-project: SecCrypto
 ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

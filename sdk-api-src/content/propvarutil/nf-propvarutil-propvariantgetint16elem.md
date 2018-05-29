@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantGetInt16Elem
 title: PropVariantGetInt16Elem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a single Int16 element from a PROPVARIANT structure of type VT_I2, VT_VECTOR | VT_I2, or VT_ARRAY | VT_I2.
 old-location: properties\PropVariantGetInt16Elem.htm
 old-project: properties
 ms.assetid: 1dbb6887-81c9-411d-9fce-c9e2f3479a43
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantGetInt16Elem, PropVariantGetInt16Elem function [Windows Properties], _shell_PropVariantGetInt16Elem, properties.PropVariantGetInt16Elem, propvarutil/PropVariantGetInt16Elem, shell.PropVariantGetInt16Elem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

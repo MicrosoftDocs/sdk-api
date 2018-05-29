@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetProcessAffinityMask
 title: GetProcessAffinityMask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the process affinity mask for the specified process and the system affinity mask for the system.
 old-location: base\getprocessaffinitymask.htm
 old-project: ProcThread
 ms.assetid: f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetProcessAffinityMask, GetProcessAffinityMask function, _win32_getprocessaffinitymask, base.getprocessaffinitymask, winbase/GetProcessAffinityMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:contentpartner.WMPTaskType
 title: WMPTaskType
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTaskType enumeration represents Windows Media Player task panes.
 old-location: wmp\wmptasktype.htm
 old-project: WMP
 ms.assetid: 7abc17b1-5ce7-4741-9a6a-d5a444046418
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: WMPTaskType, WMPTaskType enumeration [Windows Media Player], contentpartner/WMPTaskType, contentpartner/wmpttBrowse, contentpartner/wmpttBurn, contentpartner/wmpttCurrent, contentpartner/wmpttSync, enumeration [Windows Media Player], wmp.wmptasktype, wmpttBrowse, wmpttBurn, wmpttCurrent, wmpttSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 

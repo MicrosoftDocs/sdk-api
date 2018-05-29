@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12.ID3D12VersionedRootSignatureDeserializer
 title: ID3D12VersionedRootSignatureDeserializer
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains methods to return the deserialized D3D12_ROOT_SIGNATURE_DESC1 data structure, of any version of a serialized root signature.
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer.htm
 old-project: direct3d12
 ms.assetid: 3B1E9837-72CA-4C44-B06C-C77E32480958
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12VersionedRootSignatureDeserializer, ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,described, d3d12/ID3D12VersionedRootSignatureDeserializer, direct3d12.id3d12versionedrootsignaturedeserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

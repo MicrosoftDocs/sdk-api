@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfReverseConversionList.GetLength
 title: ITfReverseConversionList::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of keystroke sequences in the list.
 old-location: tsf\itfreverseconversionlist_getlength.htm
 old-project: TSF
 ms.assetid: 0cf59b02-486b-412b-a8c2-b8a6e8e50248
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetLength, GetLength method [Text Services Framework], GetLength method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetLength method, ITfReverseConversionList.GetLength, ITfReverseConversionList::GetLength, msctf/ITfReverseConversionList::GetLength, tsf.itfreverseconversionlist_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.FolderItems2.InvokeVerbEx
 title: FolderItems2::InvokeVerbEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes a verb on a collection of FolderItem objects. This method is an extension of the InvokeVerb method, allowing additional control of the operation through a set of flags.
 old-location: shell\FolderItems2_InvokeVerbEx.htm
 old-project: shell
 ms.assetid: 2c02985d-8877-4a02-a232-6aeb1716928c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FolderItems2 object [Windows Shell],InvokeVerbEx method, FolderItems2.InvokeVerbEx, FolderItems2::InvokeVerbEx, InvokeVerbEx, InvokeVerbEx method [Windows Shell], InvokeVerbEx method [Windows Shell],FolderItems2 object, _win32_FolderItems2_InvokeVerbEx, shell.FolderItems2_InvokeVerbEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

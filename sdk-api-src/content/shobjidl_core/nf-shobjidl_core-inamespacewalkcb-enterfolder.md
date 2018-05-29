@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.EnterFolder
 title: INamespaceWalkCB::EnterFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when a folder is about to be entered during a namespace walk. Use this method for any initialization of the retrieved item.
 old-location: shell\INamespaceWalkCB_EnterFolder.htm
 old-project: shell
 ms.assetid: fd5c25f4-6e48-494b-9d5b-ba1d846ce4d2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnterFolder, EnterFolder method [Windows Shell], EnterFolder method [Windows Shell],INamespaceWalkCB interface, INamespaceWalkCB interface [Windows Shell],EnterFolder method, INamespaceWalkCB.EnterFolder, INamespaceWalkCB::EnterFolder, _win32_INamespaceWalkCB_EnterFolder, shell.INamespaceWalkCB_EnterFolder, shobjidl_core/INamespaceWalkCB::EnterFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

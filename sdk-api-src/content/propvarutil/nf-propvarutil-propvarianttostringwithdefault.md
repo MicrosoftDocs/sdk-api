@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToStringWithDefault
 title: PropVariantToStringWithDefault function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the string property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToStringWithDefault.htm
 old-project: properties
 ms.assetid: a5f50a32-033f-4bda-87db-c0a8515b6451
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToStringWithDefault, PropVariantToStringWithDefault function [Windows Properties], _shell_PropVariantToStringWithDefault, properties.PropVariantToStringWithDefault, propvarutil/PropVariantToStringWithDefault, shell.PropVariantToStringWithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

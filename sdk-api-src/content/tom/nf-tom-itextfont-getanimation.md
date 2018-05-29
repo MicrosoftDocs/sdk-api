@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetAnimation
 title: ITextFont::GetAnimation
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the animation type.
 old-location: controls\ITextFont_GetAnimation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getanimation.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAnimation, GetAnimation method [Windows Controls], GetAnimation method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAnimation method, ITextFont.GetAnimation, ITextFont::GetAnimation, _win32_ITextFont_GetAnimation, _win32_ITextFont_GetAnimation_cpp, controls.ITextFont_GetAnimation, controls._win32_ITextFont_GetAnimation, tom/ITextFont::GetAnimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

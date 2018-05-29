@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteFolder
 title: ITaskFolder::DeleteFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a subfolder from the parent folder.
 old-location: taskschd\itaskfolder_deletefolder.htm
 old-project: TaskSchd
 ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteFolder method, ITaskFolder.DeleteFolder, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

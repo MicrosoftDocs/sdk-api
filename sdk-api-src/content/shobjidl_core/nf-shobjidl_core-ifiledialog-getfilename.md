@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFileName
 title: IFileDialog::GetFileName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the text currently entered in the dialog's File name edit box.
 old-location: shell\IFileDialog_GetFileName.htm
 old-project: shell
 ms.assetid: d27acb22-906a-4e5e-9239-6de3162fd263
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFileName, GetFileName method [Windows Shell], GetFileName method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileName method, IFileDialog.GetFileName, IFileDialog::GetFileName, shell.IFileDialog_GetFileName, shell_IFileDialog_GetFileName, shobjidl_core/IFileDialog::GetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

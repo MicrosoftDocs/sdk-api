@@ -1,16 +1,16 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_SETTINGS
 title: "_SOCKET_SECURITY_SETTINGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies generic security requirements for a socket.
 old-location: winsock\socket_security_settings.htm
 old-project: WinSock
 ms.assetid: 9c47efb4-dd3e-4db9-a659-003292e2c5e9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS, SOCKET_SECURITY_SETTINGS structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, _SOCKET_SECURITY_SETTINGS, mstcpip/SOCKET_SECURITY_SETTINGS, winsock.socket_security_settings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 

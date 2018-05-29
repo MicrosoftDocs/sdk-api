@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.SetColor
 title: IXpsOMSolidColorBrush::SetColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the color value and color profile of the brush.
 old-location: xps\ixpsomsolidcolorbrush_setcolor.htm
 old-project: printdocs
 ms.assetid: f82fb087-c511-48b7-9e0b-9ec690a86ac7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMSolidColorBrush interface [XPS Documents and Packaging],SetColor method, IXpsOMSolidColorBrush.SetColor, IXpsOMSolidColorBrush::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, xps.ixpsomsolidcolorbrush_setcolor, xpsobjectmodel/IXpsOMSolidColorBrush::SetColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_EnumFsiItems
 title: IFsiDirectoryItem::get_EnumFsiItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of child items contained within the directory in the file system image.
 old-location: imapi\ifsidirectoryitem_get_enumfsiitems.htm
 old-project: imapi
 ms.assetid: 723f28ad-f77d-494f-9ae6-ba6120675cfd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_EnumFsiItems method, IFsiDirectoryItem.get_EnumFsiItems, IFsiDirectoryItem::get_EnumFsiItems, get_EnumFsiItems, get_EnumFsiItems method [IMAPI], get_EnumFsiItems method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_enumfsiitems, imapi2fs/IFsiDirectoryItem::get_EnumFsiItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

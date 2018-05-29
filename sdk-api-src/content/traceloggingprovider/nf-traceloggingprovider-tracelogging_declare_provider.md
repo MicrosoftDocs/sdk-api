@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DECLARE_PROVIDER
 title: TRACELOGGING_DECLARE_PROVIDER macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Forward declares a global TraceLogging provider handle.
 old-location: tracelogging\TRACELOGGING_DECLARE_PROVIDER.htm
 old-project: tracelogging
 ms.assetid: E9C0B622-77A5-498F-BB28-C6C181271276
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TRACELOGGING_DECLARE_PROVIDER, TRACELOGGING_DECLARE_PROVIDER macro, tracelogging.TRACELOGGING_DECLARE_PROVIDER, tracelogging.traceloggingdeclareprovider, traceloggingprovider/TRACELOGGING_DECLARE_PROVIDER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

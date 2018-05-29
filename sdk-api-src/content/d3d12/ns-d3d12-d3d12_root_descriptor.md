@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_DESCRIPTOR
 title: D3D12_ROOT_DESCRIPTOR
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes descriptors inline in the root signature version 1.0 that appear in shaders.
 old-location: direct3d12\d3d12_root_descriptor.htm
 old-project: direct3d12
 ms.assetid: F3ABC3B7-AD09-4CD6-9BE9-E30FAFD6E4F3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR, D3D12_ROOT_DESCRIPTOR structure, d3d12/D3D12_ROOT_DESCRIPTOR, direct3d12.d3d12_root_descriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

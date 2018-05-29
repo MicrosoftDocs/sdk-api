@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptDestroySecret
 title: BCryptDestroySecret function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a secret agreement handle that was created by using the BCryptSecretAgreement function.
 old-location: security\bcryptdestroysecret.htm
 old-project: SecCNG
 ms.assetid: 237743ff-ecb1-4c01-b4f9-192f27716f2c
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptDestroySecret, BCryptDestroySecret function [Security], bcrypt/BCryptDestroySecret, security.bcryptdestroysecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

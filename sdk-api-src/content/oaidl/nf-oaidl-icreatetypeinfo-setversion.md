@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVersion
 title: ICreateTypeInfo::SetVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the major and minor version number of the type information.
 old-location: automat\icreatetypeinfo_setversion.htm
 old-project: automat
 ms.assetid: ffa4d287-44c4-40ec-984a-70cbc0928274
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVersion method, ICreateTypeInfo.SetVersion, ICreateTypeInfo::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVersion, automat.icreatetypeinfo_setversion, oaidl/ICreateTypeInfo::SetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngGetType1FontList
 title: EngGetType1FontList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngGetType1FontList function retrieves a list of PostScript Type 1 fonts that are installed both locally and remotely.
 old-location: display\enggettype1fontlist.htm
 old-project: display
 ms.assetid: 66f8ca3d-2080-4560-8e64-1dc26ceaaad4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngGetType1FontList, EngGetType1FontList function [Display Devices], display.enggettype1fontlist, gdifncs_66e06beb-5f9a-4184-9ab8-a0aca467e59d.xml, winddi/EngGetType1FontList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

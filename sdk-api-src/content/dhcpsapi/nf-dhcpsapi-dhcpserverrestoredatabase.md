@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpServerRestoreDatabase
 title: DhcpServerRestoreDatabase function
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores the settings, configuration, and records for a client lease database from a specific backup location (path).
 old-location: dhcp\dhcpserverrestoredatabase.htm
 old-project: DHCP
 ms.assetid: b7003fcc-bff1-449d-8849-c02932880114
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpServerRestoreDatabase, DhcpServerRestoreDatabase function [DHCP], dhcp.dhcpserverrestoredatabase, dhcpsapi/DhcpServerRestoreDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

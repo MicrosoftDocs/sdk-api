@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstanceQueryService
 title: IFunctionDiscoveryProvider::InstanceQueryService
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a provider-specific COM object for the function instance.
 old-location: ncd\ifunctiondiscoveryprovider_instancequeryservice_method.htm
 old-project: FunDisc
 ms.assetid: 8fb955dd-f396-4473-a1c1-b0d83e2b4b07
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceQueryService method, IFunctionDiscoveryProvider.InstanceQueryService, IFunctionDiscoveryProvider::InstanceQueryService, InstanceQueryService, InstanceQueryService method, InstanceQueryService method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceQueryService, ncd.ifunctiondiscoveryprovider_instancequeryservice_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

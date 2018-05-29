@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetExportedTypeProps
 title: IMetaDataAssemblyImport::GetExportedTypeProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the set of properties of the exported type with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getexportedtypeprops.htm
 old-project: WinRT
 ms.assetid: bbdd4f9c-f070-463e-91af-4a7c6c6a45d2
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetExportedTypeProps, GetExportedTypeProps method [Windows Runtime], GetExportedTypeProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetExportedTypeProps method, IMetaDataAssemblyImport.GetExportedTypeProps, IMetaDataAssemblyImport::GetExportedTypeProps, rometadataapi/IMetaDataAssemblyImport::GetExportedTypeProps, winrt.imetadataassemblyimport_getexportedtypeprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

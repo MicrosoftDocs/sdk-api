@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetApplicationUserModelIdFromToken
 title: GetApplicationUserModelIdFromToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the application user model ID for the specified token.
 old-location: appxpkg\getapplicationusermodelidfromtoken.htm
 old-project: appxpkg
 ms.assetid: 80036518-927E-4CD0-B499-8EA472AB7E5A
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetApplicationUserModelIdFromToken, GetApplicationUserModelIdFromToken function [App packaging and management], appmodel/GetApplicationUserModelIdFromToken, appxpkg.getapplicationusermodelidfromtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

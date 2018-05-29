@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetProviderName
 title: IMbnRegistration::GetProviderName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the provider name for the currently registered network.
 old-location: mbn\imbnregistration_getprovidername.htm
 old-project: mbn
 ms.assetid: c6cf7cb2-5563-49dc-ac2a-6343ae2395b2
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetProviderName, GetProviderName method [Microsoft Broadband Networks], GetProviderName method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderName method, IMbnRegistration.GetProviderName, IMbnRegistration::GetProviderName, mbn.imbnregistration_getprovidername, mbnapi/IMbnRegistration::GetProviderName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

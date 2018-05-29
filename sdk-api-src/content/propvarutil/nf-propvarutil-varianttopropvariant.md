@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToPropVariant
 title: VariantToPropVariant function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the contents of a VARIANT structure to a PROPVARIANT structure.
 old-location: properties\VariantToPropVariant.htm
 old-project: properties
 ms.assetid: b321d0a5-310a-4a64-8f39-4487602fbd3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToPropVariant, VariantToPropVariant function [Windows Properties], properties.VariantToPropVariant, propvarutil/VariantToPropVariant, shell.VariantToPropVariant, shell_VariantToPropVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

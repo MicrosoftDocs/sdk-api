@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlGetTransforms
 title: CryptXmlGetTransforms function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information about the default transform chain engine.
 old-location: security\cryptxmlgettransforms.htm
 old-project: SecCrypto
 ms.assetid: 676f5216-70bd-455d-9e08-230b2599e166
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], cryptxml/CryptXmlGetTransforms, security.cryptxmlgettransforms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelCallback.OnDataReceived
 title: IWTSVirtualChannelCallback::OnDataReceived
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the user about data that is being received.
 old-location: termserv\iwtsvirtualchannelcallback_ondatareceived.htm
 old-project: TermServ
 ms.assetid: 5876ba1a-3f37-4140-b448-91978aa7b0c9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnDataReceived method, IWTSVirtualChannelCallback.OnDataReceived, IWTSVirtualChannelCallback::OnDataReceived, OnDataReceived, OnDataReceived method [Remote Desktop Services], OnDataReceived method [Remote Desktop Services],IWTSVirtualChannelCallback interface, termserv.iwtsvirtualchannelcallback_ondatareceived, tsvirtualchannels/IWTSVirtualChannelCallback::OnDataReceived
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 

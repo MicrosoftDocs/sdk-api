@@ -1,16 +1,16 @@
 ---
 UID: NF:shellscalingapi.UnregisterScaleChangeEvent
 title: UnregisterScaleChangeEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters for the scale change event registered through RegisterScaleChangeEvent. This function replaces RevokeScaleChangeNotifications.
 old-location: shell\UnregisterScaleChangeEvent.htm
 old-project: shell
 ms.assetid: 4BF2F912-857A-4122-A9E1-6704F92240E6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UnregisterScaleChangeEvent, UnregisterScaleChangeEvent function [Windows Shell], shell.UnregisterScaleChangeEvent, shellscalingapi/UnregisterScaleChangeEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

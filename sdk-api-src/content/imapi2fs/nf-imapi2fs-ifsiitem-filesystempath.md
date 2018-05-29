@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFsiItem.FileSystemPath
 title: IFsiItem::FileSystemPath
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the full path of the item as modified to conform to the specified file system.
 old-location: imapi\ifsiitem_filesystempath.htm
 old-project: imapi
 ms.assetid: c6b969e2-9b1c-402e-81ea-ced13fca4551
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FileSystemPath, FileSystemPath method [IMAPI], FileSystemPath method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemPath method, IFsiItem.FileSystemPath, IFsiItem::FileSystemPath, imapi.ifsiitem_filesystempath, imapi2fs/IFsiItem::FileSystemPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

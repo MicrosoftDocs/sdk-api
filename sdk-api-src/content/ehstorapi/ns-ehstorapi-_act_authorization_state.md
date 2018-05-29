@@ -1,16 +1,16 @@
 ---
 UID: NS:ehstorapi._ACT_AUTHORIZATION_STATE
 title: "_ACT_AUTHORIZATION_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: ACT_AUTHORIZATION_STATE structure contains data that describes the current authorization state of a Addressable Command Target (ACT).
 old-location: enstor\act_authorization_state.htm
 old-project: enstor
 ms.assetid: 385b2f9d-659e-451d-97da-15be70180e1f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ACT_AUTHORIZATION_STATE, ACT_AUTHORIZATION_STATE structure [Enhanced Storage], PACT_AUTHORIZATION_STATE, PACT_AUTHORIZATION_STATE structure pointer [Enhanced Storage], _ACT_AUTHORIZATION_STATE, ehstorapi/ACT_AUTHORIZATION_STATE, ehstorapi/PACT_AUTHORIZATION_STATE, enstor.act_authorization_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ehstorapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.WriteSample
 title: IMFSinkWriter::WriteSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers a sample to the sink writer.
 old-location: mf\imfsinkwriter_writesample.htm
 old-project: medfound
 ms.assetid: 1c65a5d0-cc1b-456e-9d88-a24da57ee30a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],WriteSample method, IMFSinkWriter.WriteSample, IMFSinkWriter::WriteSample, WriteSample, WriteSample method [Media Foundation], WriteSample method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_writesample, mfreadwrite/IMFSinkWriter::WriteSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

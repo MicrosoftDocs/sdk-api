@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupSucceeded
 title: IVssComponent::GetBackupSucceeded
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBackupSucceeded method returns the status of a complete attempt at backing up all the files of a selected component or component set as a VSS_FILE_RESTORE_STATUS enumeration.
 old-location: base\ivsscomponent_getbackupsucceeded.htm
 old-project: VSS
 ms.assetid: 9b2dce08-a4ab-4e55-aeef-819f71ddf9d2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBackupSucceeded, GetBackupSucceeded method [VSS], GetBackupSucceeded method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupSucceeded method, IVssComponent.GetBackupSucceeded, IVssComponent::GetBackupSucceeded, _win32_ivsscomponent_getbackupsucceeded, base.ivsscomponent_getbackupsucceeded, vswriter/IVssComponent::GetBackupSucceeded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

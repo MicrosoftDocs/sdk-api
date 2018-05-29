@@ -1,16 +1,16 @@
 ---
 UID: NS:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0009
 title: "__MIDL___MIDL_itf_devicetopology_0000_0000_0009"
-author: windows-driver-content
+author: windows-sdk-content
 description: The KSJACK_DESCRIPTION structure describes an audio jack.
 old-location: coreaudio\ksjack_description.htm
 old-project: CoreAudio
 ms.assetid: 4ee9fedf-4241-4678-b621-549a06e8949a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION structure [Core Audio], PKSJACK_DESCRIPTION, PKSJACK_DESCRIPTION structure pointer [Core Audio], __MIDL___MIDL_itf_devicetopology_0000_0000_0009, coreaudio.ksjack_description, devicetopology/KSJACK_DESCRIPTION, devicetopology/PKSJACK_DESCRIPTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: devicetopology.h
 req.include-header: 

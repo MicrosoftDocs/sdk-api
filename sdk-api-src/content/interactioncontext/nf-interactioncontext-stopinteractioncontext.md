@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.StopInteractionContext
 title: StopInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the interaction state to INTERACTION_STATE_IDLE and leaves all interaction configuration settings and parameters intact.
 old-location: input_intcontext\stopinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 52fb6054-c8f3-4dbe-af1f-0b8d39ebcf5b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: StopInteractionContext, StopInteractionContext function, input_intcontext.stopinteractioncontext, interactioncontext.stopinteractioncontext, interactioncontext/StopInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

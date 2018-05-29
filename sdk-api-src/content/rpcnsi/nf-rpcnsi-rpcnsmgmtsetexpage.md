@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtSetExpAge
 title: RpcNsMgmtSetExpAge function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsMgmtSetExpAge function modifies the application's global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtsetexpage.htm
 old-project: Rpc
 ms.assetid: 9433e8c3-2c52-4994-8661-6af089fa9bc9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsMgmtSetExpAge, RpcNsMgmtSetExpAge function [RPC], _rpc_rpcnsmgmtsetexpage, rpc.rpcnsmgmtsetexpage, rpcnsi/RpcNsMgmtSetExpAge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

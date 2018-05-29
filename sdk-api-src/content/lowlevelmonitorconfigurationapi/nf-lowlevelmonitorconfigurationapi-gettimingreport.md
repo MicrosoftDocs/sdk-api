@@ -1,16 +1,16 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetTimingReport
 title: GetTimingReport function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a monitor's horizontal and vertical synchronization frequencies.
 old-location: monitor\gettimingreport.htm
 old-project: Monitor
 ms.assetid: 17b5a7e4-936f-451f-b586-032f94a99be5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTimingReport, GetTimingReport function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetTimingReport, monitor.gettimingreport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

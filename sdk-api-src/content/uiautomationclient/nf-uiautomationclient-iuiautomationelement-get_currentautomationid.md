@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAutomationId
 title: IUIAutomationElement::get_CurrentAutomationId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Microsoft UI Automation identifier of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAutomationId.htm
 old-project: WinAuto
 ms.assetid: d8dbf803-44ad-4ec6-a1b3-098c85da2364
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentAutomationId property [Windows Accessibility], CurrentAutomationId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAutomationId property, IUIAutomationElement.CurrentAutomationId, IUIAutomationElement.get_CurrentAutomationId, IUIAutomationElement::CurrentAutomationId, IUIAutomationElement::get_CurrentAutomationId, get_CurrentAutomationId, uiauto.uiauto_IUIAutomationElement_CurrentAutomationId, uiauto_IUIAutomationElement_CurrentAutomationId, uiautomationclient/IUIAutomationElement::CurrentAutomationId, uiautomationclient/IUIAutomationElement::get_CurrentAutomationId, winauto.uiauto_IUIAutomationElement_CurrentAutomationId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

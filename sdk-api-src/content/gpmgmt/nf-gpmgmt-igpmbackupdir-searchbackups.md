@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMBackupDir.SearchBackups
 title: IGPMBackupDir::SearchBackups
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes a search for the GPMBackup object according to the specified criteria, and returns an GPMBackupCollection object.
 old-location: gpmc\igpmbackupdir_searchbackups.htm
 old-project: GPMC
 ms.assetid: 71e1991f-c24f-43fe-8f3e-83f5b02cec6b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMBackupDir object [GPMC],SearchBackups method, IGPMBackupDir interface [GPMC],SearchBackups method, IGPMBackupDir.SearchBackups, IGPMBackupDir::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDir object, SearchBackups method [GPMC],IGPMBackupDir interface, _win32_igpmbackupdir_searchbackups, backupMostRecent, gpmc.igpmbackupdir_searchbackups, gpmgmt/IGPMBackupDir::SearchBackups, gpoDisplayName, gpoDomain, gpoID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

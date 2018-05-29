@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetText
 title: TextRange_GetText function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the text in a text range, up to a specified number of characters.
 old-location: winauto\uiauto_TextRange_GetTextConPat.htm
 old-project: WinAuto
 ms.assetid: 1c8ba026-0c85-46a0-a667-daba0191b115
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TextRange_GetText, TextRange_GetText function [Windows Accessibility], uiauto.uiauto_TextRange_GetTextConPat, uiauto_TextRange_GetTextConPat, uiautomationcoreapi/TextRange_GetText, winauto.uiauto_TextRange_GetTextConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

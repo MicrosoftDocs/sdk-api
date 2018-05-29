@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisualCollection
 title: IXpsOMVisualCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IXpsOMVisual interface pointers.
 old-location: xps\ixpsomvisualcollection.htm
 old-project: printdocs
 ms.assetid: f373b437-3973-40aa-9cac-a6b196a3e5d1
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], IXpsOMVisualCollection interface [XPS Documents and Packaging],described, xps.ixpsomvisualcollection, xpsobjectmodel/IXpsOMVisualCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

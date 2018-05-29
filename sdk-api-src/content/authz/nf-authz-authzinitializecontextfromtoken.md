@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromToken
 title: AuthzInitializeContextFromToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a client authorization context from a kernel token. The kernel token must have been opened for TOKEN_QUERY.
 old-location: security\authzinitializecontextfromtoken.htm
 old-project: SecAuthZ
 ms.assetid: 75a7fb3f-6b3a-42ca-b467-f57baf6c60c6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzInitializeContextFromToken, AuthzInitializeContextFromToken function [Security], _win32_authzinitializecontextfromtoken, authz/AuthzInitializeContextFromToken, security.authzinitializecontextfromtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

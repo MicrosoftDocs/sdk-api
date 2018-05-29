@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngLoadModule
 title: EngLoadModule function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngLoadModule function loads the specified data module into system memory for reading.
 old-location: display\engloadmodule.htm
 old-project: display
 ms.assetid: 0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngLoadModule, EngLoadModule function [Display Devices], display.engloadmodule, gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml, winddi/EngLoadModule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

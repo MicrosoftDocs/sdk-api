@@ -1,16 +1,16 @@
 ---
 UID: NF:msajtransport.AllJoynEventSelect
 title: AllJoynEventSelect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides AllJoyn transport functionality similar to the TCP socket WSAEventSelect functionality.
 old-location: alljoyn\alljoyneventselect.htm
 old-project: AllJoyn
 ms.assetid: 8E3A3631-50D5-4947-9C0E-672C08D7292A
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AllJoynEventSelect, AllJoynEventSelect function [AllJoyn API], alljoyn.alljoyneventselect, msajtransport/AllJoynEventSelect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msajtransport.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig2.SetOverlaySurfaceColorControls
 title: IMixerPinConfig2::SetOverlaySurfaceColorControls
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the color control settings associated with the specified overlay surface.
 old-location: dshow\imixerpinconfig2_setoverlaysurfacecolorcontrols.htm
 old-project: DirectShow
 ms.assetid: c23c12c9-5621-4b1e-997a-51303f239175
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerPinConfig2 interface [DirectShow],SetOverlaySurfaceColorControls method, IMixerPinConfig2.SetOverlaySurfaceColorControls, IMixerPinConfig2::SetOverlaySurfaceColorControls, IMixerPinConfig2SetOverlaySurfaceColorControls, SetOverlaySurfaceColorControls, SetOverlaySurfaceColorControls method [DirectShow], SetOverlaySurfaceColorControls method [DirectShow],IMixerPinConfig2 interface, dshow.imixerpinconfig2_setoverlaysurfacecolorcontrols, mpconfig/IMixerPinConfig2::SetOverlaySurfaceColorControls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

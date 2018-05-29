@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_SERVICE_ACCEPT_CHANNEL_CALLBACK
 title: WS_SERVICE_ACCEPT_CHANNEL_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked when a channel is accepted on an endpoint listener by service host.
 old-location: wsw\ws_service_accept_channel_callback.htm
 old-project: wsw
 ms.assetid: 473af4be-d193-42a5-82ff-359b50a7bc58
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_ACCEPT_CHANNEL_CALLBACK, WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback, WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_ACCEPT_CHANNEL_CALLBACK, wsw.ws_service_accept_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

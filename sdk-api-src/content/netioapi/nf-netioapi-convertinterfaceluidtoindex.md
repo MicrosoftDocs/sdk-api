@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.ConvertInterfaceLuidToIndex
 title: ConvertInterfaceLuidToIndex function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a locally unique identifier (LUID) for a network interface to the local index for the interface.
 old-location: iphlp\convertinterfaceluidtoindex.htm
 old-project: IpHlp
 ms.assetid: 904cd94c-dd46-42ac-aef2-ffed4b3e5899
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConvertInterfaceLuidToIndex, ConvertInterfaceLuidToIndex function [IP Helper], iphlp.convertinterfaceluidtoindex, netioapi/ConvertInterfaceLuidToIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

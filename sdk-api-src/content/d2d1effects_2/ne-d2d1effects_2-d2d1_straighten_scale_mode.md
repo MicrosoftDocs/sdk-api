@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects_2.D2D1_STRAIGHTEN_SCALE_MODE
 title: D2D1_STRAIGHTEN_SCALE_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Values for the D2D1_STRAIGHTEN_PROP_SCALE_MODE property of the Straighten effect.
 old-location: direct2d\d2d1_straighten_scale_mode.htm
 old-project: Direct2D
 ms.assetid: EF6831AD-3D79-4A48-ACA5-7B8D80E8BAF3
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_STRAIGHTEN_SCALE_MODE, D2D1_STRAIGHTEN_SCALE_MODE enumeration [Direct2D], D2D1_STRAIGHTEN_SCALE_MODE_ANISOTROPIC, D2D1_STRAIGHTEN_SCALE_MODE_CUBIC, D2D1_STRAIGHTEN_SCALE_MODE_LINEAR, D2D1_STRAIGHTEN_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_STRAIGHTEN_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_ANISOTROPIC, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_CUBIC, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_LINEAR, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_straighten_scale_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 

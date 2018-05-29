@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackOffIOOnVolume
 title: CVssWriter::OnBackOffIOOnVolume
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onbackoffioonvolume.htm
 old-project: VSS
 ms.assetid: 64aaae49-1d78-48ba-a38f-cab2ef2c4271
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriter interface [VSS],OnBackOffIOOnVolume method, CVssWriter.OnBackOffIOOnVolume, CVssWriter::OnBackOffIOOnVolume, OnBackOffIOOnVolume, OnBackOffIOOnVolume method [VSS], OnBackOffIOOnVolume method [VSS],CVssWriter interface, _win32_cvsswriter_onbackoffioonvolume, base.cvsswriter_onbackoffioonvolume, vswriter/CVssWriter::OnBackOffIOOnVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

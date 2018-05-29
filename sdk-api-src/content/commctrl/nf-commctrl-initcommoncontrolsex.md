@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.InitCommonControlsEx
 title: InitCommonControlsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Ensures that the common control DLL (Comctl32.dll) is loaded, and registers specific common control classes from the DLL. An application must call this function before creating a common control.
 old-location: controls\InitCommonControlsEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitCommonControlsEx, InitCommonControlsEx function [Windows Controls], _win32_InitCommonControlsEx, _win32_InitCommonControlsEx_cpp, commctrl/InitCommonControlsEx, controls.InitCommonControlsEx, controls._win32_InitCommonControlsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

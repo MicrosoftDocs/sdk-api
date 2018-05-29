@@ -1,16 +1,16 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_100
 title: "_WKSTA_INFO_100"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a workstation environment, including platform-specific information, the names of the domain and the local computer, and information concerning the operating system.
 old-location: netmgmt\wksta_info_100_str.htm
 old-project: NetMgmt
 ms.assetid: c705dadd-cf55-44d9-bf36-09e078112479
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPWKSTA_INFO_100, *PWKSTA_INFO_100, LPWKSTA_INFO_100, LPWKSTA_INFO_100 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_100, PWKSTA_INFO_100 structure pointer [Network Management], WKSTA_INFO_100, WKSTA_INFO_100 structure [Network Management], _WKSTA_INFO_100, _win32_wksta_info_100_str, lmwksta/LPWKSTA_INFO_100, lmwksta/PWKSTA_INFO_100, lmwksta/WKSTA_INFO_100, netmgmt.wksta_info_100_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h

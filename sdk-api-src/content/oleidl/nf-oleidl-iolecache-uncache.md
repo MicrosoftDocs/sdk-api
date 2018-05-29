@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleCache.Uncache
 title: IOleCache::Uncache
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a cache connection created previously using IOleCache::Cache.
 old-location: com\iolecache_uncache.htm
 old-project: com
 ms.assetid: a6a57bdd-190f-485b-9b46-cbfc1a1d29a6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleCache interface [COM],Uncache method, IOleCache.Uncache, IOleCache::Uncache, Uncache, Uncache method [COM], Uncache method [COM],IOleCache interface, _ole_iolecache_uncache, com.iolecache_uncache, oleidl/IOleCache::Uncache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

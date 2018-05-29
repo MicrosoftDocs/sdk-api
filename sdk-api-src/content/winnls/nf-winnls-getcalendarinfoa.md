@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetCalendarInfoA
 title: GetCalendarInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a calendar for a locale specified by identifier.
 old-location: intl\getcalendarinfo.htm
 old-project: Intl
 ms.assetid: f32ca0d0-8fa2-41e5-9835-76cf51426c3b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCalendarInfo, GetCalendarInfo function [Internationalization for Windows Applications], GetCalendarInfoA, GetCalendarInfoW, _win32_GetCalendarInfo, intl.getcalendarinfo, winnls/GetCalendarInfo, winnls/GetCalendarInfoA, winnls/GetCalendarInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

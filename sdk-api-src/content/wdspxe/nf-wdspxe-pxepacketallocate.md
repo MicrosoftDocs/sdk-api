@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxePacketAllocate
 title: PxePacketAllocate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a packet to be sent with the PxeSendReply function.
 old-location: wds\pxepacketallocate.htm
 old-project: Wds
 ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

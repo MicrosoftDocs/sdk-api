@@ -1,16 +1,16 @@
 ---
 UID: NN:rometadataapi.IMetaDataDispenser
 title: IMetaDataDispenser
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to create a new metadata scope, or open an existing one.
 old-location: winrt\imetadatadispenser.htm
 old-project: WinRT
 ms.assetid: 3454193d-9068-4032-ae9e-b3087509b0b8
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IMetaDataDispenser, IMetaDataDispenser interface [Windows Runtime], IMetaDataDispenser interface [Windows Runtime],described, rometadataapi/IMetaDataDispenser, winrt.imetadatadispenser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 

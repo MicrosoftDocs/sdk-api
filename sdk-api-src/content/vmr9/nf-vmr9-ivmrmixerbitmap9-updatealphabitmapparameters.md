@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRMixerBitmap9.UpdateAlphaBitmapParameters
 title: IVMRMixerBitmap9::UpdateAlphaBitmapParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The UpdateAlphaBitmapParameters method changes the bitmap location, size and blending value.
 old-location: dshow\ivmrmixerbitmap9_updatealphabitmapparameters.htm
 old-project: DirectShow
 ms.assetid: 89aa0212-9311-4f23-9f55-7e7a1072a19a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap9.UpdateAlphaBitmapParameters, IVMRMixerBitmap9::UpdateAlphaBitmapParameters, IVMRMixerBitmap9UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_updatealphabitmapparameters, vmr9/IVMRMixerBitmap9::UpdateAlphaBitmapParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

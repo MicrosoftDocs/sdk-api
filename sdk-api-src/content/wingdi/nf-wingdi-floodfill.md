@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.FloodFill
 title: FloodFill function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FloodFill function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the crFill parameter.
 old-location: gdi\floodfill.htm
 old-project: gdi
 ms.assetid: e53bebb5-4e46-4ea4-8d41-c12f4c6645ef
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

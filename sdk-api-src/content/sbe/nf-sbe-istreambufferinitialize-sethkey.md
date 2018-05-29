@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferInitialize.SetHKEY
 title: IStreamBufferInitialize::SetHKEY
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetHKEY method sets the registry key where the stream buffer object stores its configuration information.
 old-location: mstv\istreambufferinitialize_sethkey.htm
 old-project: mstv
 ms.assetid: f8d85180-2575-4525-9b8a-bec354e2cd4c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetHKEY method, IStreamBufferInitialize.SetHKEY, IStreamBufferInitialize::SetHKEY, IStreamBufferInitializeSetHKEY, SetHKEY, SetHKEY method [Microsoft TV Technologies], SetHKEY method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_sethkey, sbe/IStreamBufferInitialize::SetHKEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

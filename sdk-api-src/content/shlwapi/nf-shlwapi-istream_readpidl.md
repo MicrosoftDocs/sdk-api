@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IStream_ReadPidl
 title: IStream_ReadPidl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a pointer to an item identifier list (PIDL) from an IStream object into a PIDLIST_RELATIVE object.
 old-location: shell\IStream_ReadPidl.htm
 old-project: shell
 ms.assetid: 63b1f842-139b-4558-8105-4986ce592b56
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStream_ReadPidl, IStream_ReadPidl function [Windows Shell], _shell_IStream_ReadPidl, shell.IStream_ReadPidl, shlwapi/IStream_ReadPidl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

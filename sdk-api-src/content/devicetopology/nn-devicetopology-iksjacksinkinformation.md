@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IKsJackSinkInformation
 title: IKsJackSinkInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: The IKsJackSinkInformation interface provides access to jack sink information if the jack is supported by the hardware.
 old-location: coreaudio\iksjacksinkinformation.htm
 old-project: CoreAudio
 ms.assetid: 4116a912-5ff2-4fc0-96c6-61d1e62cd973
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IKsJackSinkInformation, IKsJackSinkInformation interface [Core Audio], IKsJackSinkInformation interface [Core Audio],described, coreaudio.iksjacksinkinformation, devicetopology/IKsJackSinkInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

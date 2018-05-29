@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced2.GetInputSetting
 title: IWMWriterAdvanced2::GetInputSetting
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInputSetting method retrieves a setting for a particular input by name.
 old-location: wmformat\iwmwriteradvanced2_getinputsetting.htm
 old-project: wmformat
 ms.assetid: 3aea0bc6-94e7-41ab-aec3-7366f183bb01
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInputSetting, GetInputSetting method [windows Media Format], GetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, IWMWriterAdvanced2 interface [windows Media Format],GetInputSetting method, IWMWriterAdvanced2.GetInputSetting, IWMWriterAdvanced2::GetInputSetting, IWMWriterAdvanced2GetInputSetting, wmformat.iwmwriteradvanced2_getinputsetting, wmsdkidl/IWMWriterAdvanced2::GetInputSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

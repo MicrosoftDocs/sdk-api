@@ -1,16 +1,16 @@
 ---
 UID: NS:d3dcsx.D3DX11_FFT_BUFFER_INFO
 title: D3DX11_FFT_BUFFER_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes buffer requirements for an FFT.
 old-location: direct3d11\d3dx11_fft_buffer_info.htm
 old-project: direct3d11
 ms.assetid: 18db9e61-f1bc-4c70-8b2c-37305d9ac479
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3DX11_FFT_BUFFER_INFO, D3DX11_FFT_BUFFER_INFO structure [Direct3D 11], d3dcsx/D3DX11_FFT_BUFFER_INFO, direct3d11.d3dx11_fft_buffer_info, f06d9ab2-6da1-c0ae-f9cc-c42662b380f5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3dcsx.h
 req.include-header: 

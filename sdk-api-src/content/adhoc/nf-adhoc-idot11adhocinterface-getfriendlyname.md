@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetFriendlyName
 title: IDot11AdHocInterface::GetFriendlyName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the friendly name of the NIC.
 old-location: nwifi\idot11adhocinterface_getfriendlyname.htm
 old-project: NativeWiFi
 ms.assetid: 945947e9-99ea-4420-95db-5b831e59e894
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [NativeWIFI], GetFriendlyName method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetFriendlyName method, IDot11AdHocInterface.GetFriendlyName, IDot11AdHocInterface::GetFriendlyName, adhoc/IDot11AdHocInterface::GetFriendlyName, nwifi.idot11adhocinterface_getfriendlyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

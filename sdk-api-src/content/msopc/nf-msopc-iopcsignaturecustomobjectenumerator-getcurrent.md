@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.GetCurrent
 title: IOpcSignatureCustomObjectEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IOpcSignatureCustomObject interface at the current position of the enumerator.
 old-location: opc\iopcsignaturecustomobjectenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: a0197da5-e613-4aba-8098-901e192051ff
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignatureCustomObjectEnumerator.GetCurrent, IOpcSignatureCustomObjectEnumerator::GetCurrent, msopc/IOpcSignatureCustomObjectEnumerator::GetCurrent, opc.iopcsignaturecustomobjectenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

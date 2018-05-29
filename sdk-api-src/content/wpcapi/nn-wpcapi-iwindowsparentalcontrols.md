@@ -1,16 +1,16 @@
 ---
 UID: NN:wpcapi.IWindowsParentalControls
 title: IWindowsParentalControls
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables access to all settings interfaces of the Minimum Compliance API.
 old-location: parcon\iwindowsparentalcontrols.htm
 old-project: parcon
 ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertCloseServerOcspResponse
 title: CertCloseServerOcspResponse function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes an online certificate status protocol (OCSP) server response handle.
 old-location: security\certcloseserverocspresponse.htm
 old-project: SecCrypto
 ms.assetid: 6247e8ca-ba12-432f-9bf8-a6c644f253e9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertCloseServerOcspResponse, CertCloseServerOcspResponse function [Security], security.certcloseserverocspresponse, wincrypt/CertCloseServerOcspResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

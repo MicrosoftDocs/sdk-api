@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiIsAuthIdentityEncrypted
 title: SspiIsAuthIdentityEncrypted function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the specified identity structure is encrypted.
 old-location: security\sspiisauthidentityencrypted.htm
 old-project: SecAuthN
 ms.assetid: b85095f5-0ca5-4d75-866d-9b756404c1d9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiIsAuthIdentityEncrypted, SspiIsAuthIdentityEncrypted function [Security], security.sspiisauthidentityencrypted, sspi/SspiIsAuthIdentityEncrypted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

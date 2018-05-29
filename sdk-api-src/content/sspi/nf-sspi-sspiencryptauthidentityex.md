@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiEncryptAuthIdentityEx
 title: SspiEncryptAuthIdentityEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.
 old-location: security\sspiencryptauthidentityex.htm
 old-project: SecAuthN
 ms.assetid: 9290BEF8-24C9-47F0-B258-56ED7D67620B
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiEncryptAuthIdentityEx, SspiEncryptAuthIdentityEx function [Security], security.sspiencryptauthidentityex, sspi/SspiEncryptAuthIdentityEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

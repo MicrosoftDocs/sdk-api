@@ -1,16 +1,16 @@
 ---
 UID: NE:propsys.PROPDESC_AGGREGATION_TYPE
 title: PROPDESC_AGGREGATION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes how property values are displayed when multiple items are selected.
 old-location: properties\PROPDESC_AGGREGATION_TYPE.htm
 old-project: properties
 ms.assetid: 7f42d7dd-cc8e-444f-a4df-2d67362486f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PDAT_AVERAGE, PDAT_DATERANGE, PDAT_DEFAULT, PDAT_FIRST, PDAT_MAX, PDAT_MIN, PDAT_SUM, PDAT_UNION, PROPDESC_AGGREGATION_TYPE, PROPDESC_AGGREGATION_TYPE enumeration [Windows Properties], _shell_PROPDESC_AGGREGATION_TYPE, properties.PROPDESC_AGGREGATION_TYPE, propsys/PDAT_AVERAGE, propsys/PDAT_DATERANGE, propsys/PDAT_DEFAULT, propsys/PDAT_FIRST, propsys/PDAT_MAX, propsys/PDAT_MIN, propsys/PDAT_SUM, propsys/PDAT_UNION, propsys/PROPDESC_AGGREGATION_TYPE, shell.PROPDESC_AGGREGATION_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 

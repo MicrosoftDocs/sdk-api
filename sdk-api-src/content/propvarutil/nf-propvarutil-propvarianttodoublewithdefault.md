@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleWithDefault
 title: PropVariantToDoubleWithDefault function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a double property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToDoubleWithDefault.htm
 old-project: properties
 ms.assetid: 81584e13-0ef7-47ce-b78f-b4a79712ff1e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToDoubleWithDefault, PropVariantToDoubleWithDefault function [Windows Properties], properties.PropVariantToDoubleWithDefault, propvarutil/PropVariantToDoubleWithDefault, shell.PropVariantToDoubleWithDefault, shell_PropVariantToDoubleWithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

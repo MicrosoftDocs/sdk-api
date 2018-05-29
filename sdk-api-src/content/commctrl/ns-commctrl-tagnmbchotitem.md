@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMBCHOTITEM
 title: tagNMBCHOTITEM
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the movement of the mouse over a button control.
 old-location: controls\NMBCHOTITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbchotitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMBCHOTITEM, HICF_ENTERING, HICF_LEAVING, LPNMBCHOTITEM, LPNMBCHOTITEM structure pointer [Windows Controls], NMBCHOTITEM, NMBCHOTITEM structure [Windows Controls], _win32_NMBCHOTITEM_str, _win32_NMBCHOTITEM_str_cpp, commctrl/LPNMBCHOTITEM, commctrl/NMBCHOTITEM, controls.NMBCHOTITEM, controls._win32_NMBCHOTITEM_str, tagNMBCHOTITEM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

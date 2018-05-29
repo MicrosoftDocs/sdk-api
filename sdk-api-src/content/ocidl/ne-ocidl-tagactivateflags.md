@@ -1,16 +1,16 @@
 ---
 UID: NE:ocidl.tagACTIVATEFLAGS
 title: tagACTIVATEFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether an object is activated as a windowless object. It is used in IOleInPlaceSiteEx::OnInPlaceActivateEx.
 old-location: com\activateflags.htm
 old-project: com
 ms.assetid: 8748d3aa-3fea-4705-959c-3bc86b13a868
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ACTIVATEFLAGS, ACTIVATEFLAGS enumeration [COM], ACTIVATE_WINDOWLESS, _ole_ACTIVATEFLAGS, com.activateflags, ocidl/ACTIVATEFLAGS, ocidl/ACTIVATE_WINDOWLESS, tagACTIVATEFLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

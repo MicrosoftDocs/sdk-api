@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyEnumType
 title: IPropertyEnumType
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that extract data from enumeration information. IPropertyEnumType gives access to the enum and enumRange elements in the property schema in a programmatic way at run time.
 old-location: properties\IPropertyEnumType.htm
 old-project: properties
 ms.assetid: 05ae6763-a3e1-461d-af90-08bddbe82300
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

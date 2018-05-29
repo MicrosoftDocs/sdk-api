@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.InitializeUnicastIpAddressEntry
 title: InitializeUnicastIpAddressEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a MIB_UNICASTIPADDRESS_ROW structure with default values for a unicast IP address entry on the local computer.
 old-location: iphlp\initializeunicastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: 8cbdd972-060a-4e18-9490-450df21936ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: InitializeUnicastIpAddressEntry, InitializeUnicastIpAddressEntry function [IP Helper], iphlp.initializeunicastipaddressentry, netioapi/InitializeUnicastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

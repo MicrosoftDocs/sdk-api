@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.CompositingQuality
 title: CompositingQuality
-author: windows-driver-content
+author: windows-sdk-content
 description: The CompositingQuality enumeration specifies whether gamma correction is applied when colors are blended with background colors.
 old-location: gdiplus\_gdiplus_ENUM_CompositingQuality.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingquality.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CompositingQuality, CompositingQuality enumeration [GDI+], CompositingQualityAssumeLinear, CompositingQualityDefault, CompositingQualityGammaCorrected, CompositingQualityHighQuality, CompositingQualityHighSpeed, _gdiplus_ENUM_CompositingQuality, gdiplus._gdiplus_ENUM_CompositingQuality, gdiplusenums/CompositingQuality, gdiplusenums/CompositingQualityAssumeLinear, gdiplusenums/CompositingQualityDefault, gdiplusenums/CompositingQualityGammaCorrected, gdiplusenums/CompositingQualityHighQuality, gdiplusenums/CompositingQualityHighSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

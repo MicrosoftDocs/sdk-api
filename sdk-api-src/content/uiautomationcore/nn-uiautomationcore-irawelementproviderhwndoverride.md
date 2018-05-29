@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderHwndOverride
 title: IRawElementProviderHwndOverride
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that enables repositioning of window-based elements within the fragment's UI Automation tree.
 old-location: winauto\uiauto_IRawElementProviderHwndOverride.htm
 old-project: WinAuto
 ms.assetid: c2aa8f29-afec-474f-8ee5-55285f06ddff
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IRawElementProviderHwndOverride, IRawElementProviderHwndOverride interface [Windows Accessibility], IRawElementProviderHwndOverride interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderHwndOverride, uiauto_IRawElementProviderHwndOverride, uiautomationcore/IRawElementProviderHwndOverride, winauto.uiauto_IRawElementProviderHwndOverride
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

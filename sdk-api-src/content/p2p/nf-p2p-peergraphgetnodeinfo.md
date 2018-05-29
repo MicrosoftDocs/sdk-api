@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphGetNodeInfo
 title: PeerGraphGetNodeInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphGetNodeInfo function retrieves information about a specific node.
 old-location: p2p\peergraphgetnodeinfo.htm
 old-project: P2PSdk
 ms.assetid: 7149aba3-d44b-4492-aa56-4d8dbfba7b7c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphGetNodeInfo, PeerGraphGetNodeInfo function [Peer Networking], p2p.peergraphgetnodeinfo, p2p/PeerGraphGetNodeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

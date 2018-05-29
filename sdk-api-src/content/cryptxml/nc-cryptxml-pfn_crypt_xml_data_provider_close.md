@@ -1,16 +1,16 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
 title: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the data provider.
 old-location: security\pfn_crypt_xml_data_provider_close.htm
 old-project: SecCrypto
 ms.assetid: 886fbe92-f9ab-49d4-968a-afeadbf2f030
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, security.pfn_crypt_xml_data_provider_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

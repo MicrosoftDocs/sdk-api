@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_GetAdjustedFrameNumber
 title: WinUsb_GetAdjustedFrameNumber function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_GetAdjustedFrameNumber function computes what the current USB frame number should be based on the frame number value and timestamp.
 old-location: buses\winusb_getadjustedframenumber.htm
 old-project: usbref
 ms.assetid: 4FB5D8D5-992C-49D2-87FE-FA1F34D98D70
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_GetAdjustedFrameNumber, WinUsb_GetAdjustedFrameNumber routine [Buses], buses.winusb_getadjustedframenumber, winusb/WinUsb_GetAdjustedFrameNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

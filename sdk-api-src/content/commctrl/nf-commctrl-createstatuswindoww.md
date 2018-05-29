@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.CreateStatusWindowW
 title: CreateStatusWindowW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a status window, which is typically used to display the status of an application.
 old-location: controls\CreateStatusWindow.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateStatusWindow, CreateStatusWindow function [Windows Controls], CreateStatusWindowA, CreateStatusWindowW, _win32_CreateStatusWindow, _win32_CreateStatusWindow_cpp, commctrl/CreateStatusWindow, commctrl/CreateStatusWindowA, commctrl/CreateStatusWindowW, controls.CreateStatusWindow, controls._win32_CreateStatusWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

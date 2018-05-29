@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVolume.GetProperties
 title: IVdsVolume::GetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns property details of the current volume.
 old-location: base\ivdsvolume_getproperties.htm
 old-project: VDS
 ms.assetid: ba4a92c9-35f1-463a-8fa3-1a0d78720555
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetProperties method, IVdsVolume.GetProperties, IVdsVolume::GetProperties, base.ivdsvolume_getproperties, vds/IVdsVolume::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

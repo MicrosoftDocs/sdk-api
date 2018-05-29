@@ -1,16 +1,16 @@
 ---
 UID: NF:thrdbase.CThreadBase.EndWrite
 title: CThreadBase::EndWrite
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndWrite method provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_endwrite.htm
 old-project: WmiSdk
 ms.assetid: 8b57bcc0-f8ca-412a-87d9-9afeb5ac8446
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Management Instrumentation],EndWrite method, CThreadBase.EndWrite, CThreadBase::EndWrite, EndWrite, EndWrite method [Windows Management Instrumentation], EndWrite method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndWrite, wmi.cthreadbase_endwrite"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: thrdbase.h
 req.include-header: FwCommon.h

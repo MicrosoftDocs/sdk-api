@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetIntArray
 title: ID3D10EffectScalarVariable::SetIntArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Set an array of integer variables.
 old-location: direct3d10\id3d10effectscalarvariable_setintarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setintarray.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 557a34dc-1dce-4cb2-5269-cebf5fc86f76, ID3D10EffectScalarVariable interface [Direct3D 10],SetIntArray method, ID3D10EffectScalarVariable.SetIntArray, ID3D10EffectScalarVariable::SetIntArray, SetIntArray, SetIntArray method [Direct3D 10], SetIntArray method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetIntArray, direct3d10.id3d10effectscalarvariable_setintarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

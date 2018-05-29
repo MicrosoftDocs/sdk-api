@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHFindFiles
 title: SHFindFiles function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHFindFiles may be altered or unavailable.
 old-location: shell\SHFindFiles.htm
 old-project: shell
 ms.assetid: c54036c2-e6b9-4b21-b2b2-a6721c502ee5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHFindFiles, SHFindFiles function [Windows Shell], _win32_SHFindFiles, shell.SHFindFiles, shlobj_core/SHFindFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

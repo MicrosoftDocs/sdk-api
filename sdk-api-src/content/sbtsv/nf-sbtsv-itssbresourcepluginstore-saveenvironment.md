@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SaveEnvironment
 title: ITsSbResourcePluginStore::SaveEnvironment
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves an environment.
 old-location: termserv\itssbresourcepluginstore_saveenvironment.htm
 old-project: TermServ
 ms.assetid: 941d5040-e6e4-4f7e-be31-2b52eb16fa9f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveEnvironment method, ITsSbResourcePluginStore.SaveEnvironment, ITsSbResourcePluginStore::SaveEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveEnvironment method, ITsSbResourcePluginStoreEx::SaveEnvironment, SaveEnvironment, SaveEnvironment method [Remote Desktop Services], SaveEnvironment method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveEnvironment method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveEnvironment, sbtsv/ITsSbResourcePluginStoreEx::SaveEnvironment, termserv.itssbresourcepluginstore_saveenvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

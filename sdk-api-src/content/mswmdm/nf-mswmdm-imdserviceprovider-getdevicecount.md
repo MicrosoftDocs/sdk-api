@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider.GetDeviceCount
 title: IMDServiceProvider::GetDeviceCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDeviceCount method returns the number of installed physical or software devices that are currently attached and are known by the service provider.
 old-location: wmdm\imdserviceprovider_getdevicecount.htm
 old-project: WMDM
 ms.assetid: 9cca4cb7-f569-452f-92dc-409b996ede17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDeviceCount, GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],GetDeviceCount method, IMDServiceProvider.GetDeviceCount, IMDServiceProvider::GetDeviceCount, IMDServiceProviderGetDeviceCount, mswmdm/IMDServiceProvider::GetDeviceCount, wmdm.imdserviceprovider_getdevicecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

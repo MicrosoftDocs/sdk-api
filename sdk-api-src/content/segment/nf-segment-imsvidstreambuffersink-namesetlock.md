@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.NameSetLock
 title: IMSVidStreamBufferSink::NameSetLock
-author: windows-driver-content
+author: windows-sdk-content
 description: The NameSetLock method locks the stream buffer profile.
 old-location: mstv\imsvidstreambuffersink_namesetlock.htm
 old-project: mstv
 ms.assetid: 0195d515-4018-4a96-9af9-566fcdeffaf7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],NameSetLock method, IMSVidStreamBufferSink.NameSetLock, IMSVidStreamBufferSink::NameSetLock, IMSVidStreamBufferSinkNameSetLock, NameSetLock, NameSetLock method [Microsoft TV Technologies], NameSetLock method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_namesetlock, segment/IMSVidStreamBufferSink::NameSetLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

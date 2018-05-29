@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceQuery.Execute
 title: IFunctionInstanceQuery::Execute
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.
 old-location: ncd\ifunctioninstancequery_execute_method.htm
 old-project: FunDisc
 ms.assetid: 42618944-6ae6-45f0-85f9-3c958d719ed2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,Execute method, IFunctionInstanceQuery.Execute, IFunctionInstanceQuery::Execute, functiondiscoveryapi/IFunctionInstanceQuery::Execute, ncd.ifunctioninstancequery_execute_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

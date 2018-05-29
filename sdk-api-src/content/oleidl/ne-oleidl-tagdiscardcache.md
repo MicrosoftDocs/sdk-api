@@ -1,16 +1,16 @@
 ---
 UID: NE:oleidl.tagDISCARDCACHE
 title: tagDISCARDCACHE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies what to do with caches that are to be discarded from memory if their dirty bit has been set.
 old-location: com\discardcache.htm
 old-project: com
 ms.assetid: 879caecd-8231-449b-8329-e627c85030bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DISCARDCACHE, DISCARDCACHE enumeration [COM], DISCARDCACHE_NOSAVE, DISCARDCACHE_SAVEIFDIRTY, _ole_DISCARDCACHE, com.discardcache, oleidl/DISCARDCACHE, oleidl/DISCARDCACHE_NOSAVE, oleidl/DISCARDCACHE_SAVEIFDIRTY, tagDISCARDCACHE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

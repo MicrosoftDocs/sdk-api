@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamNextSample
 title: AVIStreamNextSample macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamNextSample macro locates the next nonempty sample from a specified position in a stream.
 old-location: multimedia\avistreamnextsample.htm
 old-project: Multimedia
 ms.assetid: 3ce1086f-4364-4d3c-a60e-7a82ecf8d708
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamNextSample, AVIStreamNextSample macro [Windows Multimedia], _win32_AVIStreamNextSample, multimedia.avistreamnextsample, vfw/AVIStreamNextSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

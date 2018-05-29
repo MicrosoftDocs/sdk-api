@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddObjectByPath
 title: IWbemConfigureRefresher::AddObjectByPath
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemConfigureRefresher::AddObjectByPath method adds an object to a refresher by specifying an object path.
 old-location: wmi\iwbemconfigurerefresher_addobjectbypath.htm
 old-project: WmiSdk
 ms.assetid: 85721e0c-863b-45af-91ca-8ee14af37181
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: AddObjectByPath, AddObjectByPath method [Windows Management Instrumentation], AddObjectByPath method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByPath method, IWbemConfigureRefresher.AddObjectByPath, IWbemConfigureRefresher::AddObjectByPath, _hmm_iwbemconfigurerefresher_addobjectbypath, wbemcli/IWbemConfigureRefresher::AddObjectByPath, wmi.iwbemconfigurerefresher_addobjectbypath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

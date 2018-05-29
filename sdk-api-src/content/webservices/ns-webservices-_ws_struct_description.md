@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_STRUCT_DESCRIPTION
 title: "_WS_STRUCT_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Information about C struct type, and how it maps to an XML element. This is used with WS_STRUCT_TYPE.
 old-location: wsw\ws_struct_description.htm
 old-project: wsw
 ms.assetid: b426a07e-9993-4cea-8847-fc80e9d0b451
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_STRUCT_DESCRIPTION, WS_STRUCT_DESCRIPTION structure [Web Services for Windows], _WS_STRUCT_DESCRIPTION, webservices/WS_STRUCT_DESCRIPTION, wsw.ws_struct_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

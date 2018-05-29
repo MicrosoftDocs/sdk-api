@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateRoundRectRgn
 title: CreateRoundRectRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateRoundRectRgn function creates a rectangular region with rounded corners.
 old-location: gdi\createroundrectrgn.htm
 old-project: gdi
 ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

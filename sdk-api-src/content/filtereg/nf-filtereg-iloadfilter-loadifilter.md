@@ -1,16 +1,16 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilter
 title: ILoadFilter::LoadIFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves and loads the most appropriate filter that is mapped to a Shell data source.
 old-location: search\iloadfilter_loadifilter.htm
 old-project: search
 ms.assetid: 920c976e-4dde-4e53-85b7-7547291736a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilter method, ILoadFilter.LoadIFilter, ILoadFilter::LoadIFilter, LoadIFilter, LoadIFilter method [search], LoadIFilter method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilter, search.iloadfilter_loadifilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: filtereg.h
 req.include-header: 

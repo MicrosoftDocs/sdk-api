@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.OpenOperation
 title: IAzApplication::OpenOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an IAzOperation object with the specified name.
 old-location: security\iazapplication_openoperation.htm
 old-project: SecAuthZ
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],OpenOperation method, IAzApplication interface [Security],OpenOperation method, IAzApplication.OpenOperation, IAzApplication::OpenOperation, OpenOperation, OpenOperation method [Security], OpenOperation method [Security],AzApplication object, OpenOperation method [Security],IAzApplication interface, azroles/IAzApplication::OpenOperation, security.iazapplication_openoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

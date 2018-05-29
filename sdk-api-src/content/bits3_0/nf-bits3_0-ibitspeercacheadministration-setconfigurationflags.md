@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.SetConfigurationFlags
 title: IBitsPeerCacheAdministration::SetConfigurationFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the configuration flags that determine if the computer can serve content to peers and can download content from peers.
 old-location: bits\ibitspeercacheadministration_setconfigurationflags.htm
 old-project: Bits
 ms.assetid: 1ede7c58-bc6d-4930-bca6-e4f26f97c648
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, IBitsPeerCacheAdministration interface [BITS],SetConfigurationFlags method, IBitsPeerCacheAdministration.SetConfigurationFlags, IBitsPeerCacheAdministration::SetConfigurationFlags, SetConfigurationFlags, SetConfigurationFlags method [BITS], SetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setconfigurationflags, bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

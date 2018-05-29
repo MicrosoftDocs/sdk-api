@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DeregisterEventSource
 title: DeregisterEventSource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified event log.
 old-location: base\deregistereventsource.htm
 old-project: EventLog
 ms.assetid: f5d1f4b0-5320-4aec-a129-cafff6f1fed1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeregisterEventSource, DeregisterEventSource function, _win32_deregistereventsource, base.deregistereventsource, winbase/DeregisterEventSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

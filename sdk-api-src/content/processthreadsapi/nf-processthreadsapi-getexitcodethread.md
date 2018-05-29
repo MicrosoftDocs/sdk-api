@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetExitCodeThread
 title: GetExitCodeThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the termination status of the specified thread.
 old-location: base\getexitcodethread.htm
 old-project: ProcThread
 ms.assetid: 67482c3d-b845-4c0f-8aa1-0e3cf8cb5127
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetExitCodeThread, GetExitCodeThread function, _win32_getexitcodethread, base.getexitcodethread, processthreadsapi/GetExitCodeThread, winbase/GetExitCodeThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

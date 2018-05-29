@@ -1,16 +1,16 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.GetProviderMgmtInterface
 title: IVssSnapshotMgmt::GetProviderMgmtInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an interface to further configure the system provider.
 old-location: base\ivsssnapshotmgmt_getprovidermgmtinterface.htm
 old-project: VSS
 ms.assetid: 814c6e2c-a5f8-4f44-b508-3a2e95bb1c54
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProviderMgmtInterface, GetProviderMgmtInterface method [VSS], GetProviderMgmtInterface method [VSS],IVssSnapshotMgmt interface, IVssSnapshotMgmt interface [VSS],GetProviderMgmtInterface method, IVssSnapshotMgmt.GetProviderMgmtInterface, IVssSnapshotMgmt::GetProviderMgmtInterface, base.ivsssnapshotmgmt_getprovidermgmtinterface, vsmgmt/IVssSnapshotMgmt::GetProviderMgmtInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

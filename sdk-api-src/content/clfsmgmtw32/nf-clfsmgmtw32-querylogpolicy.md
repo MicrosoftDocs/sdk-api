@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsmgmtw32.QueryLogPolicy
 title: QueryLogPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryLogPolicy function allows you to obtain a policy that is installed for the specified log.
 old-location: fs\querylogpolicy.htm
 old-project: Clfs
 ms.assetid: 45bed7c7-132e-48f9-8b9a-d8cb1580f456
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: QueryLogPolicy, QueryLogPolicy function [Files], clfsmgmtw32/QueryLogPolicy, fs.querylogpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

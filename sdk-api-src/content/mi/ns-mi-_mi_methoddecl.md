@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_MethodDecl
 title: "_MI_MethodDecl"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a CIM method.
 old-location: wmi_v2\mi_methoddecl.htm
 old-project: wmi_v2
 ms.assetid: 50087394-44C2-4CE5-8952-9795FE9B236A
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl structure [Windows Management Infrastructure (MI)], _MI_MethodDecl, mi/MI_MethodDecl, wmi_v2.mi_methoddecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDDrawObject
 title: IDDrawExclModeVideo::SetDDrawObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDDrawObject method sets the DirectDraw object to be used in subsequent drawing.
 old-location: dshow\iddrawexclmodevideo_setddrawobject.htm
 old-project: DirectShow
 ms.assetid: fce1b5df-c3df-475c-adde-392c25d05e4c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDDrawObject method, IDDrawExclModeVideo.SetDDrawObject, IDDrawExclModeVideo::SetDDrawObject, IDDrawExclModeVideoSetDDrawObject, SetDDrawObject, SetDDrawObject method [DirectShow], SetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setddrawobject, strmif/IDDrawExclModeVideo::SetDDrawObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.SSIZETAdd
 title: SSIZETAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds two SSIZE_T values together.
 old-location: shell\SSIZETAdd.htm
 old-project: shell
 ms.assetid: a9a2eb36-f70b-45fb-a84a-391a0bb77954
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SSIZETAdd, SSIZETAdd function [Windows Shell], intsafe/SSIZETAdd, shell.SSIZETAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

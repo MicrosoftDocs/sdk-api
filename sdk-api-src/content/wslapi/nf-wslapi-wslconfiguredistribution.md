@@ -1,16 +1,16 @@
 ---
 UID: NF:wslapi.WslConfigureDistribution
 title: WslConfigureDistribution function
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the behavior of a distribution registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslconfiguredistribution.htm
 old-project: wsl
 ms.assetid: 4E89F367-4E10-4E76-93BC-FD5E2450D430
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WslConfigureDistribution, WslConfigureDistribution function, wsl.wslconfiguredistribution, wslapi/WslConfigureDistribution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 

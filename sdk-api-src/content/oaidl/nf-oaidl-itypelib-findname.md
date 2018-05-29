@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeLib.FindName
 title: ITypeLib::FindName
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.
 old-location: automat\itypelib_findname.htm
 old-project: automat
 ms.assetid: 932014a8-3a35-487a-b035-788fc28dacc2
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: FindName, FindName method [Automation], FindName method [Automation],ITypeLib interface, ITypeLib interface [Automation],FindName method, ITypeLib.FindName, ITypeLib::FindName, _oa96_ITypeLib_FindName, automat.itypelib_findname, oaidl/ITypeLib::FindName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

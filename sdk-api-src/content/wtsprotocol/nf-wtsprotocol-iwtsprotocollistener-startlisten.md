@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListener.StartListen
 title: IWTSProtocolListener::StartListen
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolListener::StartListen is no longer available. Instead, use IWRdsProtocolListener::StartListen.
 old-location: termserv\iwtsprotocollistener_startlisten.htm
 old-project: TermServ
 ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StartListen method, IWTSProtocolListener.StartListen, IWTSProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

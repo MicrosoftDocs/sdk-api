@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.TlsSetValue
 title: TlsSetValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores a value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 old-location: base\tlssetvalue.htm
 old-project: ProcThread
 ms.assetid: 531b4a4a-a251-4ab4-b00a-754783a51283
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TlsSetValue, TlsSetValue function, _win32_tlssetvalue, base.tlssetvalue, processthreadsapi/TlsSetValue, winbase/TlsSetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

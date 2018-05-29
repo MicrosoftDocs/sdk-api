@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11SwitchToRef
 title: ID3D11SwitchToRef
-author: windows-driver-content
+author: windows-sdk-content
 description: ID3D11SwitchToRef interface
 old-location: direct3d11\id3d11switchtoref.htm
 old-project: direct3d11
 ms.assetid: 02295183-b117-4ca9-89ad-223fdd3b0aa5
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 6d6b602d-11ba-2e7a-07a9-f2af8fd90578, ID3D11SwitchToRef, ID3D11SwitchToRef interface [Direct3D 11], ID3D11SwitchToRef interface [Direct3D 11],described, d3d11sdklayers/ID3D11SwitchToRef, direct3d11.id3d11switchtoref
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11sdklayers.h
 req.include-header: 

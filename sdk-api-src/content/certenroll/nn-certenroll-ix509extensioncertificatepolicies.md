@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509ExtensionCertificatePolicies
 title: IX509ExtensionCertificatePolicies
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to specify a collection of policy information terms, each of which consists of an object identifier (OID) and optional policy qualifiers. A single policy term is defined by an ICertificatePolicy object.
 old-location: security\ix509extensioncertificatepolicies.htm
 old-project: SecCertEnroll
 ms.assetid: d35d155c-fb81-4d7e-b5c9-82ac5af4b79e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionCertificatePolicies, IX509ExtensionCertificatePolicies interface [Security], IX509ExtensionCertificatePolicies interface [Security],described, certenroll/IX509ExtensionCertificatePolicies, security.ix509extensioncertificatepolicies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

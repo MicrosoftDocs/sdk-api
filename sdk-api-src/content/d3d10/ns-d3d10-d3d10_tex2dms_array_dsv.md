@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_ARRAY_DSV
 title: D3D10_TEX2DMS_ARRAY_DSV
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the subresource(s) from an array of multisampled 2D textures for a depth-stencil view.
 old-location: direct3d10\d3d10_tex2dms_array_dsv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_dsv.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 3417c32f-389c-6873-2cf6-1c938da9d235, D3D10_TEX2DMS_ARRAY_DSV, D3D10_TEX2DMS_ARRAY_DSV structure [Direct3D 10], d3d10/D3D10_TEX2DMS_ARRAY_DSV, direct3d10.d3d10_tex2dms_array_dsv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

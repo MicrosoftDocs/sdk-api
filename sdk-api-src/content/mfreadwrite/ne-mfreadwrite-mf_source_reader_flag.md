@@ -1,16 +1,16 @@
 ---
 UID: NE:mfreadwrite.MF_SOURCE_READER_FLAG
 title: MF_SOURCE_READER_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags that indicate the status of the IMFSourceReader::ReadSample method.
 old-location: mf\mf_source_reader_flag.htm
 old-project: medfound
 ms.assetid: 8981a682-3c0b-458b-910a-d1462ed73e64
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_SOURCE_READERF_ALLEFFECTSREMOVED, MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, MF_SOURCE_READERF_ENDOFSTREAM, MF_SOURCE_READERF_ERROR, MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED, MF_SOURCE_READERF_NEWSTREAM, MF_SOURCE_READERF_STREAMTICK, MF_SOURCE_READER_FLAG, MF_SOURCE_READER_FLAG enumeration [Media Foundation], mf.mf_source_reader_flag, mfreadwrite/MF_SOURCE_READERF_ALLEFFECTSREMOVED, mfreadwrite/MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, mfreadwrite/MF_SOURCE_READERF_ENDOFSTREAM, mfreadwrite/MF_SOURCE_READERF_ERROR, mfreadwrite/MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED, mfreadwrite/MF_SOURCE_READERF_NEWSTREAM, mfreadwrite/MF_SOURCE_READERF_STREAMTICK, mfreadwrite/MF_SOURCE_READER_FLAG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfreadwrite.h
 req.include-header: 

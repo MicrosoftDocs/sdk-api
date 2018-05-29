@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.PlayBuffer
 title: IDirectMusicSynth::PlayBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: The PlayBuffer method downloads a stream of MIDI messages to the synthesizer.
 old-location: audio\idirectmusicsynth_playbuffer.htm
 old-project: audio
 ms.assetid: 96d0a2ef-1265-4e04-bb70-920f4c82058c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],PlayBuffer method, IDirectMusicSynth.PlayBuffer, IDirectMusicSynth::PlayBuffer, PlayBuffer, PlayBuffer method [Audio Devices], PlayBuffer method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_playbuffer, audmp-routines_1a5efe25-ef92-4baf-a4bc-fc2d043c832f.xml, dmusics/IDirectMusicSynth::PlayBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

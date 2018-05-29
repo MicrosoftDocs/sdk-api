@@ -1,16 +1,16 @@
 ---
 UID: NF:icmpapi.Icmp6SendEcho2
 title: Icmp6SendEcho2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The Icmp6SendEcho2 function sends an IPv6 ICMPv6 echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the IPv6 ICMPv6 echo response, if any.
 old-location: iphlp\icmp6sendecho2.htm
 old-project: IpHlp
 ms.assetid: 622c769b-ede8-4bc2-ac54-98de47ae1fed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Icmp6SendEcho2, Icmp6SendEcho2 function [IP Helper], icmpapi/Icmp6SendEcho2, iphlp.icmp6sendecho2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 

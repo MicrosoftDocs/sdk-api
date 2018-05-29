@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetFieldDescriptorCount
 title: ICredentialProvider::GetFieldDescriptorCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the count of fields in the needed to display this provider's credentials.
 old-location: shell\ICredentialProvider_GetFieldDescriptorCount.htm
 old-project: shell
 ms.assetid: dacaa846-1838-4348-ba63-c204cbe0e2ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFieldDescriptorCount, GetFieldDescriptorCount method [Windows Shell], GetFieldDescriptorCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorCount method, ICredentialProvider.GetFieldDescriptorCount, ICredentialProvider::GetFieldDescriptorCount, credentialprovider/ICredentialProvider::GetFieldDescriptorCount, shell.ICredentialProvider_GetFieldDescriptorCount, shell_ICredentialProvider_GetFieldDescriptorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

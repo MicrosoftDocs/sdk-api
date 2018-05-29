@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadSession
 title: IMFHttpDownloadSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.
 old-location: mf\imfhttpdownloadsession.htm
 old-project: medfound
 ms.assetid: 048B2922-3B77-4F2D-9437-0FA54F94C67E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFHttpDownloadSession, IMFHttpDownloadSession interface [Media Foundation], IMFHttpDownloadSession interface [Media Foundation],described, mf.imfhttpdownloadsession, mfidl/IMFHttpDownloadSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

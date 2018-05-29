@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetRangeSetValue
 title: IPropertyEnumType::GetRangeSetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a set value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetRangeSetValue.htm
 old-project: properties
 ms.assetid: 63c5d2cd-70bc-45f6-a620-7b68ab94f8ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRangeSetValue, GetRangeSetValue method [Windows Properties], GetRangeSetValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetRangeSetValue method, IPropertyEnumType.GetRangeSetValue, IPropertyEnumType::GetRangeSetValue, _shell_IPropertyEnumType_GetRangeSetValue, properties.IPropertyEnumType_GetRangeSetValue, propsys/IPropertyEnumType::GetRangeSetValue, shell.IPropertyEnumType_GetRangeSetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

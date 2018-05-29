@@ -1,16 +1,16 @@
 ---
 UID: NN:textstor.ITextStoreAnchorSink
 title: ITextStoreAnchorSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreAnchorSink interface is implemented by the TSF manager and is used by an anchor-based application to notify the manager when certain events occur. The manager installs this advise sink by calling ITextStoreAnchor::AdviseSink.
 old-location: tsf\itextstoreanchorsink.htm
 old-project: TSF
 ms.assetid: fb96b4fb-864f-4f32-bf7c-cf7f199e552a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], ITextStoreAnchorSink interface [Text Services Framework],described, _tsf_itextstoreanchorsink_ref, textstor/ITextStoreAnchorSink, tsf.itextstoreanchorsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 

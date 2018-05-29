@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetSecurityInfoByKey0
 title: FwpmCalloutGetSecurityInfoByKey0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a callout object.
 old-location: fwp\fwpmcalloutgetsecurityinfobykey0_func.htm
 old-project: FWP
 ms.assetid: 7b437ba0-c5c8-49a0-95be-051acf956bda
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmCalloutGetSecurityInfoByKey0, FwpmCalloutGetSecurityInfoByKey0 function [Filtering], fwp.fwpmcalloutgetsecurityinfobykey0_func, fwpmu/FwpmCalloutGetSecurityInfoByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

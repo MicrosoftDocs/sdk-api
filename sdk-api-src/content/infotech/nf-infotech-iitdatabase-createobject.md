@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITDatabase.CreateObject
 title: IITDatabase::CreateObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an unnamed object you can reference in the future through the *pdwObjInstance parameter.
 old-location: htmlhelp\iitdatabase_createobject.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasecreateobject.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateObject, CreateObject method [HTML Help Workshop], CreateObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],CreateObject method, IITDatabase.CreateObject, IITDatabase::CreateObject, htmlhelp.iitdatabase_createobject, infotech/IITDatabase::CreateObject, refIITDatabaseCreateObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

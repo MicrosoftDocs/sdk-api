@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE
 title: PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the name of a cluster's quorum resource.
 old-location: mscs\getclusterquorumresource.htm
 old-project: MsCS
 ms.assetid: 0f841070-9dc0-49e0-9112-8d46185470b5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE callback, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE callback function [Failover Cluster], _wolf_getclusterquorumresource, clusapi/PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, mscs.getclusterquorumresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

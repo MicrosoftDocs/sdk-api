@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetVersion
 title: IXpsOMCoreProperties::SetVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the version property.
 old-location: xps\ixpsomcoreproperties_setversion.htm
 old-project: printdocs
 ms.assetid: 1058f228-8b81-4590-b0af-08abe16a1510
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetVersion method, IXpsOMCoreProperties.SetVersion, IXpsOMCoreProperties::SetVersion, SetVersion, SetVersion method [XPS Documents and Packaging], SetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setversion, xpsobjectmodel/IXpsOMCoreProperties::SetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

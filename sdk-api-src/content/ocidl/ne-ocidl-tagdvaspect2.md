@@ -1,16 +1,16 @@
 ---
 UID: NE:ocidl.tagDVASPECT2
 title: tagDVASPECT2
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies new drawing aspects used to optimize the drawing process.
 old-location: com\dvaspect2.htm
 old-project: com
 ms.assetid: 9000b807-5a42-437f-a3e8-a7b23be1665b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DVASPECT2, DVASPECT2 enumeration [COM], DVASPECT_OPAQUE, DVASPECT_TRANSPARENT, _ole_DVASPECT2, com.dvaspect2, ocidl/DVASPECT2, ocidl/DVASPECT_OPAQUE, ocidl/DVASPECT_TRANSPARENT, tagDVASPECT2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

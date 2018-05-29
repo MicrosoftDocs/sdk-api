@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetAt
 title: IProviderProperties::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the property key at the specified index.
 old-location: ncd\iproviderproperties_getat_method.htm
 old-project: FunDisc
 ms.assetid: f76d010b-f9dd-46d7-9b1f-eba3d11aaef1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IProviderProperties interface, IProviderProperties interface,GetAt method, IProviderProperties.GetAt, IProviderProperties::GetAt, functiondiscoveryprovider/IProviderProperties::GetAt, ncd.iproviderproperties_getat_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

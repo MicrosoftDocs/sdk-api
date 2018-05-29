@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSensorProfile
 title: IMFSensorProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a media foundation sensor profile.
 old-location: mf\imfsensorprofile.htm
 old-project: medfound
 ms.assetid: 58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IMFSensorProfile interface [Media Foundation],described, mf.imfsensorprofile, mfidl/IMFSensorProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

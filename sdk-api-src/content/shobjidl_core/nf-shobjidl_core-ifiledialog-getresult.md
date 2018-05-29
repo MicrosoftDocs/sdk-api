@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetResult
 title: IFileDialog::GetResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the choice that the user made in the dialog.
 old-location: shell\IFileDialog_GetResult.htm
 old-project: shell
 ms.assetid: 6572f172-8b66-4b42-b087-d0133595b380
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetResult, GetResult method [Windows Shell], GetResult method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetResult method, IFileDialog.GetResult, IFileDialog::GetResult, shell.IFileDialog_GetResult, shell_IFileDialog_GetResult, shobjidl_core/IFileDialog::GetResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

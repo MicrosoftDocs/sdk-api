@@ -1,16 +1,16 @@
 ---
 UID: NS:udpmib._MIB_UDP6ROW_OWNER_PID
 title: "_MIB_UDP6ROW_OWNER_PID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. The entry also includes the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 old-location: mib\mib_udp6row_owner_pid.htm
 old-project: MIB
 ms.assetid: d3d02485-381b-4058-b4b9-0a2c9c365f43
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_UDP6ROW_OWNER_PID, MIB_UDP6ROW_OWNER_PID, MIB_UDP6ROW_OWNER_PID structure [MIB], PMIB_UDP6ROW_OWNER_PID, PMIB_UDP6ROW_OWNER_PID structure pointer [MIB], _MIB_UDP6ROW_OWNER_PID, iprtrmib/MIB_UDP6ROW_OWNER_PID, iprtrmib/PMIB_UDP6ROW_OWNER_PID, mib.mib_udp6row_owner_pid, udpmib/MIB_UDP6ROW_OWNER_PID, udpmib/PMIB_UDP6ROW_OWNER_PID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

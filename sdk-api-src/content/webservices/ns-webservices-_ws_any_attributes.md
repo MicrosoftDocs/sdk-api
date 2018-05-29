@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_ANY_ATTRIBUTES
 title: "_WS_ANY_ATTRIBUTES"
-author: windows-driver-content
+author: windows-sdk-content
 description: This type is used to store a set of attributes that have not been directly mapped to field of a structure.
 old-location: wsw\ws_any_attributes.htm
 old-project: wsw
 ms.assetid: 6c428c99-755f-40ab-bc9e-e1a7a3d70c1d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ANY_ATTRIBUTES, WS_ANY_ATTRIBUTES structure [Web Services for Windows], _WS_ANY_ATTRIBUTES, webservices/WS_ANY_ATTRIBUTES, wsw.ws_any_attributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToStrRet
 title: VariantToStrRet function
-author: windows-driver-content
+author: windows-sdk-content
 description: If the source variant is a VT_BSTR, extracts string and places it into a STRRET structure.
 old-location: properties\VariantToStrRet.htm
 old-project: properties
 ms.assetid: dfc1f52e-58c6-48fd-8da9-1d4d5115912c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToStrRet, VariantToStrRet function [Windows Properties], _shell_VariantToStrRet, properties.VariantToStrRet, propvarutil/VariantToStrRet, shell.VariantToStrRet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

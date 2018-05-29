@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetPath
 title: IWSDHttpAddress::GetPath
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_getpath.htm
 old-project: WsdApi
 ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPath, GetPath method, GetPath method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetPath method, IWSDHttpAddress.GetPath, IWSDHttpAddress::GetPath, ncd.iwsdhttpaddress_getpath, wsdbase/IWSDHttpAddress::GetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

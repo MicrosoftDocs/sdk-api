@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeave
 title: IComActivityEvents::OnActivityLeave
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an activity thread is left.
 old-location: cos\icomactivityevents_onactivityleave.htm
 old-project: cossdk
 ms.assetid: f39a8ce1-9c17-47eb-9405-c6a69dee88cc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityLeave method, IComActivityEvents.OnActivityLeave, IComActivityEvents::OnActivityLeave, OnActivityLeave, OnActivityLeave method [COM+], OnActivityLeave method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeave, comsvcs/IComActivityEvents::OnActivityLeave, cos.icomactivityevents_onactivityleave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

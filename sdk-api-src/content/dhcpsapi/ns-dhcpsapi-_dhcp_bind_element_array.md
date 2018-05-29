@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_BIND_ELEMENT_ARRAY
 title: "_DHCP_BIND_ELEMENT_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_BIND_ELEMENT_ARRAY structure defines an array of network binding elements used by a DHCP server.
 old-location: dhcp\dhcp_bind_element_array.htm
 old-project: DHCP
 ms.assetid: 9e43b2ab-f69d-4024-b6b1-8a36a3577767
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_BIND_ELEMENT_ARRAY, DHCP_BIND_ELEMENT_ARRAY, DHCP_BIND_ELEMENT_ARRAY structure [DHCP], LPDHCP_BIND_ELEMENT_ARRAY, LPDHCP_BIND_ELEMENT_ARRAY structure pointer [DHCP], _DHCP_BIND_ELEMENT_ARRAY, dhcp.dhcp_bind_element_array, dhcpsapi/LPDHCP_BIND_ELEMENT_ARRAY, dhcpsapi/_DHCP_BIND_ELEMENT_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

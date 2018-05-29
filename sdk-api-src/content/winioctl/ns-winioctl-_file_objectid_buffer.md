@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._FILE_OBJECTID_BUFFER
 title: "_FILE_OBJECTID_BUFFER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an object identifier and user-defined metadata associated with the object identifier.
 old-location: fs\file_objectid_buffer_str.htm
 old-project: FileIO
 ms.assetid: 4d58921c-a3ec-44f3-b077-528db6b1211c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER structure [Files], PFILE_OBJECTID_BUFFER, PFILE_OBJECTID_BUFFER structure pointer [Files], _FILE_OBJECTID_BUFFER, _win32_file_objectid_buffer_str, base.file_objectid_buffer_str, fs.file_objectid_buffer_str, winioctl/FILE_OBJECTID_BUFFER, winioctl/PFILE_OBJECTID_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

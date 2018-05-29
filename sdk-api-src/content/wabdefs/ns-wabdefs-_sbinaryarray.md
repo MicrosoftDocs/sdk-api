@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs._SBinaryArray
 title: "_SBinaryArray"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as SBinaryArray.
 old-location: wab\_wab_ENTRYLIST.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entrylist.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPENTRYLIST, ENTRYLIST, ENTRYLIST structure [Windows Address Book], LPENTRYLIST, LPENTRYLIST structure pointer [Windows Address Book], SBinaryArray, _SBinaryArray, _wab_ENTRYLIST, wab._wab_ENTRYLIST, wabdefs/ENTRYLIST, wabdefs/LPENTRYLIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

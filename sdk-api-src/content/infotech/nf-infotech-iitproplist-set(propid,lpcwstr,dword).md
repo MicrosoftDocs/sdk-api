@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITPropList.Set(PROPID,LPCWSTR,DWORD)
 title: IITPropList::Set(PROPID,LPCWSTR,DWORD)
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a property to a given value or deletes a property from the list.
 old-location: htmlhelp\iitproplist_set3.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetunicodestring.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,LPCWSTR,DWORD), IITPropList::Set, IITPropList::Set(PROPID,LPCWSTR,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set3, infotech/IITPropList::Set, refIITPropListSetUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0017_0001
 title: "__MIDL___MIDL_itf_ads_0001_0017_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADS_SYSTEMFLAG_ENUM enumeration defines some of the values that can be assigned to the systemFlags attribute. Some of the values in the enumeration are specific to attributeSchema objects; other values can be set on objects of any class.
 old-location: adsi\ads_systemflag_enum.htm
 old-project: ADSI
 ms.assetid: 7b77bcf0-8db9-4b27-96a4-953a4fa426f5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADS_SYSTEMFLAG_ATTR_IS_CONSTRUCTED, ADS_SYSTEMFLAG_ATTR_NOT_REPLICATED, ADS_SYSTEMFLAG_CONFIG_ALLOW_LIMITED_MOVE, ADS_SYSTEMFLAG_CONFIG_ALLOW_MOVE, ADS_SYSTEMFLAG_CONFIG_ALLOW_RENAME, ADS_SYSTEMFLAG_CR_NTDS_DOMAIN, ADS_SYSTEMFLAG_CR_NTDS_NC, ADS_SYSTEMFLAG_DISALLOW_DELETE, ADS_SYSTEMFLAG_DOMAIN_DISALLOW_MOVE, ADS_SYSTEMFLAG_DOMAIN_DISALLOW_RENAME, ADS_SYSTEMFLAG_ENUM, ADS_SYSTEMFLAG_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0001_0017_0001, _ds_ads_systemflag_enum, adsi.ads__systemflag__enum, adsi.ads_systemflag_enum, iads/ADS_SYSTEMFLAG_ATTR_IS_CONSTRUCTED, iads/ADS_SYSTEMFLAG_ATTR_NOT_REPLICATED, iads/ADS_SYSTEMFLAG_CONFIG_ALLOW_LIMITED_MOVE, iads/ADS_SYSTEMFLAG_CONFIG_ALLOW_MOVE, iads/ADS_SYSTEMFLAG_CONFIG_ALLOW_RENAME, iads/ADS_SYSTEMFLAG_CR_NTDS_DOMAIN, iads/ADS_SYSTEMFLAG_CR_NTDS_NC, iads/ADS_SYSTEMFLAG_DISALLOW_DELETE, iads/ADS_SYSTEMFLAG_DOMAIN_DISALLOW_MOVE, iads/ADS_SYSTEMFLAG_DOMAIN_DISALLOW_RENAME, iads/ADS_SYSTEMFLAG_ENUM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

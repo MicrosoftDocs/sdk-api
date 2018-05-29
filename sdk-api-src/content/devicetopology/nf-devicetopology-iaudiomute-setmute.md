@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IAudioMute.SetMute
 title: IAudioMute::SetMute
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetMute method enables or disables the mute control.
 old-location: coreaudio\iaudiomute_setmute.htm
 old-project: CoreAudio
 ms.assetid: e99cb894-b39e-42ec-be8f-dc3fa6e7abcd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioMute interface [Core Audio],SetMute method, IAudioMute.SetMute, IAudioMute::SetMute, IAudioMuteSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioMute interface, coreaudio.iaudiomute_setmute, devicetopology/IAudioMute::SetMute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

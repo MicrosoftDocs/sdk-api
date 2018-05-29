@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICImagingFactory2
 title: IWICImagingFactory2
-author: windows-driver-content
+author: windows-sdk-content
 description: An extension of the WIC factory interface that includes the ability to create an IWICImageEncoder.
 old-location: wic\iwicimagingfactory2.htm
 old-project: wic
 ms.assetid: 95F64E01-6174-4C1C-B0BE-331380E583C2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICImagingFactory2, IWICImagingFactory2 interface [Windows Imaging Component], IWICImagingFactory2 interface [Windows Imaging Component],described, wic.iwicimagingfactory2, wincodec/IWICImagingFactory2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

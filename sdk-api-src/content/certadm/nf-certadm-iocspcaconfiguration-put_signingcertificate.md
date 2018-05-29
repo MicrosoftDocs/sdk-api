@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningCertificate
 title: IOCSPCAConfiguration::put_SigningCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a signing certificate that has been encoded by using Distinguished Encoding Rules (DER). An Online Certificate Status Protocol (OCSP) responder service uses this certificate to sign its responses to certificate status requests.
 old-location: security\iocspcaconfiguration_signingcertificate_method.htm
 old-project: SecCrypto
 ms.assetid: 8635c9f0-3c70-4037-8633-7a3440aff6c8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificate property, IOCSPCAConfiguration.SigningCertificate, IOCSPCAConfiguration.put_SigningCertificate, IOCSPCAConfiguration::SigningCertificate, IOCSPCAConfiguration::get_SigningCertificate, IOCSPCAConfiguration::put_SigningCertificate, SigningCertificate property [Security], SigningCertificate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificate, certadm/IOCSPCAConfiguration::get_SigningCertificate, certadm/IOCSPCAConfiguration::put_SigningCertificate, put_SigningCertificate, security.iocspcaconfiguration_signingcertificate_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

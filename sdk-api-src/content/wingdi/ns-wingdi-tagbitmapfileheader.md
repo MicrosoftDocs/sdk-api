@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagBITMAPFILEHEADER
 title: tagBITMAPFILEHEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: The BITMAPFILEHEADER structure contains information about the type, size, and layout of a file that contains a DIB.
 old-location: gdi\bitmapfileheader.htm
 old-project: gdi
 ms.assetid: ae24c4db-fc29-4c97-bf78-069794c8d844
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPBITMAPFILEHEADER, *PBITMAPFILEHEADER, BITMAPFILEHEADER, BITMAPFILEHEADER structure [Windows GDI], PBITMAPFILEHEADER, PBITMAPFILEHEADER structure pointer [Windows GDI], _win32_BITMAPFILEHEADER_str, gdi.bitmapfileheader, tagBITMAPFILEHEADER, wingdi/BITMAPFILEHEADER, wingdi/PBITMAPFILEHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

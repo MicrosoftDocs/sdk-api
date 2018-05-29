@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_IsNamedStream
 title: IFsiFileItem2::get_IsNamedStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the item is a named stream.
 old-location: imapi\ifsifileitem2_get_isnamedstream.htm
 old-project: imapi
 ms.assetid: 56e89b63-6fb5-4509-b90f-f25ec0cf2bd2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsNamedStream method, IFsiFileItem2.get_IsNamedStream, IFsiFileItem2::get_IsNamedStream, get_IsNamedStream, get_IsNamedStream method [IMAPI], get_IsNamedStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isnamedstream, imapi2fs/IFsiFileItem2::get_IsNamedStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

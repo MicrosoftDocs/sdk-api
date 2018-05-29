@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.EndScene
 title: IDirect3DDevice9::EndScene
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends a scene that was begun by calling IDirect3DDevice9::BeginScene.
 old-location: direct3d9\idirect3ddevice9__endscene.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__endscene.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 5a0213d4-1bba-e7fc-0a90-704668833b85, EndScene, EndScene method [Direct3D 9], EndScene method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],EndScene method, IDirect3DDevice9.EndScene, IDirect3DDevice9::EndScene, d3d9helper/IDirect3DDevice9::EndScene, direct3d9.idirect3ddevice9__endscene
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

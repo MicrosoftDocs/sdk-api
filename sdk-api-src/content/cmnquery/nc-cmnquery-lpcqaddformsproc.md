@@ -1,16 +1,16 @@
 ---
 UID: NC:cmnquery.LPCQADDFORMSPROC
 title: LPCQADDFORMSPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a query form extension to add a form to the query dialog box.
 old-location: ad\cqaddformsproc.htm
 old-project: AD
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cmnquery.h
 req.include-header: 

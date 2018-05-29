@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IWizardSite
 title: IWizardSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods used by a wizard extension to navigate the borders between itself and the rest of the wizard.
 old-location: shell\IWizardSite.htm
 old-project: shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

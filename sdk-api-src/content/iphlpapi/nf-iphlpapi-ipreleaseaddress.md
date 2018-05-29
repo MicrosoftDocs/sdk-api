@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.IpReleaseAddress
 title: IpReleaseAddress function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IpReleaseAddress function releases an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP).
 old-location: iphlp\ipreleaseaddress.htm
 old-project: IpHlp
 ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipreleaseaddress, iphlp.ipreleaseaddress, iphlpapi/IpReleaseAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataManager.get_CheckBeforeRunning
 title: IDataManager::get_CheckBeforeRunning
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the data manager should check imposed limits, such as the minimum available free disk space, before collecting data.
 old-location: pla\idatamanager_checkbeforerunning.htm
 old-project: PLA
 ms.assetid: 23c7aced-d159-4d5e-a9ff-f0ca5b3e4470
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CheckBeforeRunning property [PLA], CheckBeforeRunning property [PLA],IDataManager interface, IDataManager interface [PLA],CheckBeforeRunning property, IDataManager.CheckBeforeRunning, IDataManager.get_CheckBeforeRunning, IDataManager::CheckBeforeRunning, IDataManager::get_CheckBeforeRunning, IDataManager::put_CheckBeforeRunning, base.idatamanager_checkbeforerunning, get_CheckBeforeRunning, pla.idatamanager_checkbeforerunning, pla/IDataManager::CheckBeforeRunning, pla/IDataManager::get_CheckBeforeRunning, pla/IDataManager::put_CheckBeforeRunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

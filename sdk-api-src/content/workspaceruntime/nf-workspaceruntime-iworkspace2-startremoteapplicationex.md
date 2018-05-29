@@ -1,16 +1,16 @@
 ---
 UID: NF:workspaceruntime.IWorkspace2.StartRemoteApplicationEx
 title: IWorkspace2::StartRemoteApplicationEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: termserv\iworkspace2_startremoteapplicationex.htm
 old-project: TermServ
 ms.assetid: df901da6-6464-4ed3-abbb-16756f90ccf1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWorkspace2 interface [Remote Desktop Services],StartRemoteApplicationEx method, IWorkspace2.StartRemoteApplicationEx, IWorkspace2::StartRemoteApplicationEx, IWorkspace3 interface [Remote Desktop Services],StartRemoteApplicationEx method, IWorkspace3::StartRemoteApplicationEx, StartRemoteApplicationEx, StartRemoteApplicationEx method [Remote Desktop Services], StartRemoteApplicationEx method [Remote Desktop Services],IWorkspace2 interface, StartRemoteApplicationEx method [Remote Desktop Services],IWorkspace3 interface, StartRemoteApplicationEx method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],StartRemoteApplicationEx method, termserv.iworkspace2_startremoteapplicationex, workspaceruntime/IWorkspace2::StartRemoteApplicationEx, workspaceruntime/IWorkspace3::StartRemoteApplicationEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngSetPointerShape
 title: EngSetPointerShape function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngSetPointerShape function sets the pointer shape for the calling driver.
 old-location: display\engsetpointershape.htm
 old-project: display
 ms.assetid: 9b3a1e44-f3c6-4160-8d5d-d114511ad201
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngSetPointerShape, EngSetPointerShape function [Display Devices], display.engsetpointershape, gdifncs_468e4611-6696-4535-af00-014999695d6e.xml, winddi/EngSetPointerShape
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

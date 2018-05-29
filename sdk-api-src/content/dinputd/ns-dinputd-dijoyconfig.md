@@ -1,16 +1,16 @@
 ---
 UID: NS:dinputd.DIJOYCONFIG
 title: DIJOYCONFIG
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIJOYCONFIG structure contains information about a joystick's configuration.
 old-location: hid\dijoyconfig.htm
 old-project: hid
 ms.assetid: 2b17432f-fa5e-4ce3-9814-c24a45a49343
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPDIJOYCONFIG, DIJOYCONFIG, DIJOYCONFIG structure [Human Input Devices], di_ref_dc34a740-8987-4012-9e22-e59de2544445.xml, dinputd/DIJOYCONFIG, hid.dijoyconfig"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 

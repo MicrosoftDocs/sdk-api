@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetProcessTimes
 title: GetProcessTimes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves timing information for the specified process.
 old-location: base\getprocesstimes.htm
 old-project: ProcThread
 ms.assetid: 4c1e8bd4-5ed2-4c97-bc4f-1083a8b24623
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetProcessTimes, GetProcessTimes function, _win32_getprocesstimes, base.getprocesstimes, processthreadsapi/GetProcessTimes, winbase/GetProcessTimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

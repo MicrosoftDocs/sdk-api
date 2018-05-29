@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetCurrentThreads
 title: IThreadPoolKnobs::GetCurrentThreads
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of threads currently in the pool.
 old-location: cos\ithreadpoolknobs_getcurrentthreads.htm
 old-project: cossdk
 ms.assetid: 138f6c25-5a64-469d-b3fd-d399d43f5084
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentThreads, GetCurrentThreads method [COM+], GetCurrentThreads method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetCurrentThreads method, IThreadPoolKnobs.GetCurrentThreads, IThreadPoolKnobs::GetCurrentThreads, _cos_IThreadPoolKnobs_GetCurrentThreads, comsvcs/IThreadPoolKnobs::GetCurrentThreads, cos.ithreadpoolknobs_getcurrentthreads
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

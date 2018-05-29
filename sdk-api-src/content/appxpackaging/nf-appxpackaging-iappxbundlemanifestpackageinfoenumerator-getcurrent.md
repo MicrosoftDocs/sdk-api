@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfoEnumerator.GetCurrent
 title: IAppxBundleManifestPackageInfoEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the &lt;Package&gt; element at the current position of the enumerator.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_getcurrent.htm
 old-project: appxpkg
 ms.assetid: 52F525CB-162B-47E9-BF85-B920CBCCD983
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBundleManifestPackageInfoEnumerator interface, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],GetCurrent method, IAppxBundleManifestPackageInfoEnumerator.GetCurrent, IAppxBundleManifestPackageInfoEnumerator::GetCurrent, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetCurrent, appxpkg.iappxbundlemanifestpackageinfoenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

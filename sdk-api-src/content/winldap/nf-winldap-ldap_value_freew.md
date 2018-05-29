@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_value_freeW
 title: ldap_value_freeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a structure returned by ldap_get_values.
 old-location: ldap\ldap_value_free.htm
 old-project: LDAP
 ms.assetid: 67c9f04c-4b8e-4e97-902d-fceccf27f522
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_value_free, ldap.ldap__value__free, ldap.ldap_value_free, ldap_value_free, ldap_value_free function [LDAP], ldap_value_freeA, ldap_value_freeW, winldap/ldap_value_free, winldap/ldap_value_freeA, winldap/ldap_value_freeW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

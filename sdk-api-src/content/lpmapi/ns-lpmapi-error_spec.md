@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.ERROR_SPEC
 title: ERROR_SPEC
-author: windows-driver-content
+author: windows-sdk-content
 description: The ERROR_SPEC structure contains RSVP error messages.
 old-location: qos\error_spec.htm
 old-project: QOS
 ms.assetid: 4d20cbb8-c29a-4c0c-bf06-532144da3e33
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ERROR_SPEC, ERROR_SPEC structure [QOS], lpmapi/ERROR_SPEC, qos.error_spec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

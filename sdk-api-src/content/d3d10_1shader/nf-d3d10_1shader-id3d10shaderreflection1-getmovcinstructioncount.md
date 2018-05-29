@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetMovcInstructionCount
 title: ID3D10ShaderReflection1::GetMovcInstructionCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of Movc instructions.
 old-location: direct3d10\id3d10shaderreflection1_getmovcinstructioncount.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getmovcinstructioncount.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 602ae34b-87e8-63f9-28a6-7285d8f08527, GetMovcInstructionCount, GetMovcInstructionCount method [Direct3D 10], GetMovcInstructionCount method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetMovcInstructionCount method, ID3D10ShaderReflection1.GetMovcInstructionCount, ID3D10ShaderReflection1::GetMovcInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetMovcInstructionCount, direct3d10.id3d10shaderreflection1_getmovcinstructioncount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10_1shader.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPartUriCollection
 title: IXpsOMPartUriCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IOpcPartUri interface pointers.
 old-location: xps\ixpsomparturicollection.htm
 old-project: printdocs
 ms.assetid: 05fe9700-19e6-4e63-9693-cfa4b019f643
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], IXpsOMPartUriCollection interface [XPS Documents and Packaging],described, xps.ixpsomparturicollection, xpsobjectmodel/IXpsOMPartUriCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

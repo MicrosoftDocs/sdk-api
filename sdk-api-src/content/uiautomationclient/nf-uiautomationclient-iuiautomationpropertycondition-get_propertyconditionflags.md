@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyConditionFlags
 title: IUIAutomationPropertyCondition::get_PropertyConditionFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a set of flags that specify how the condition is applied.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags.htm
 old-project: WinAuto
 ms.assetid: 509013fa-61d7-4330-b32f-3ae70dc01e74
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyConditionFlags property, IUIAutomationPropertyCondition.PropertyConditionFlags, IUIAutomationPropertyCondition.get_PropertyConditionFlags, IUIAutomationPropertyCondition::PropertyConditionFlags, IUIAutomationPropertyCondition::get_PropertyConditionFlags, PropertyConditionFlags property [Windows Accessibility], PropertyConditionFlags property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyConditionFlags, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags, uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags, uiautomationclient/IUIAutomationPropertyCondition::PropertyConditionFlags, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyConditionFlags, winauto.uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

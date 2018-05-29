@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm
 old-project: VDS
 ms.assetid: 3da426d0-9fa7-4dec-a0bb-416ec14b69a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiPortalLocal interface [VDS],SetIpsecSecurityLocal method, IVdsIscsiPortalLocal.SetIpsecSecurityLocal, IVdsIscsiPortalLocal::SetIpsecSecurityLocal, SetIpsecSecurityLocal, SetIpsecSecurityLocal method [VDS], SetIpsecSecurityLocal method [VDS],IVdsIscsiPortalLocal interface, base.ivdsiscsiportallocal_setipsecsecuritylocal, vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

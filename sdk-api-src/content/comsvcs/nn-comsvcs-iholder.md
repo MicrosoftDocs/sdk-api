@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IHolder
 title: IHolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates or frees resources for an installed Resource Dispenser.
 old-location: cos\iholder.htm
 old-project: cossdk
 ms.assetid: 3c852e72-2fdc-4fd0-b523-f5601154da2a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IHolder, IHolder interface [COM+], IHolder interface [COM+],described, _dtc_IHolder_Interface, comsvcs/IHolder, cos.iholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

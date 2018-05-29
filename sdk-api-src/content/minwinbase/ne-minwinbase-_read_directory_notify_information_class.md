@@ -1,16 +1,16 @@
 ---
 UID: NE:minwinbase._READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
 title: "_READ_DIRECTORY_NOTIFY_INFORMATION_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the possible types of information that an application that calls the ReadDirectoryChangesExW function can request.
 old-location: fs\read_directory_notify_information_class.htm
 old-project: FileIO
 ms.assetid: 193D018B-80FE-45B2-826A-A00D173E32D3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration pointer [Files], READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, READ_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Files], ReadDirectoryNotifyExtendedInformation, ReadDirectoryNotifyInformation, _READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, fs.read_directory_notify_information_class, minwinbase/PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, minwinbase/READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, minwinbase/ReadDirectoryNotifyExtendedInformation, minwinbase/ReadDirectoryNotifyInformation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: minwinbase.h
 req.include-header: 

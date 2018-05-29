@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayAccessData
 title: SafeArrayAccessData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Increments the lock count of an array, and retrieves a pointer to the array data.
 old-location: automat\safearrayaccessdata.htm
 old-project: automat
 ms.assetid: ded2112e-f6cd-4982-bacb-b95370e80187
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayAccessData, SafeArrayAccessData function [Automation], _oa96_SafeArrayAccessData, automat.safearrayaccessdata, oleauto/SafeArrayAccessData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

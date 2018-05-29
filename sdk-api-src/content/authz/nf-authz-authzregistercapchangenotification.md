@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzRegisterCapChangeNotification
 title: AuthzRegisterCapChangeNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a CAP update notification callback.
 old-location: security\authzregistercapchangenotification.htm
 old-project: SecAuthZ
 ms.assetid: B0675BB3-62FA-462E-8DFB-55C47576DFEC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzRegisterCapChangeNotification, AuthzRegisterCapChangeNotification function [Security], authz/AuthzRegisterCapChangeNotification, security.authzregistercapchangenotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

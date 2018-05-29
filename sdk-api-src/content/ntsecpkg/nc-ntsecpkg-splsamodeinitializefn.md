@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpLsaModeInitializeFn
 title: SpLsaModeInitializeFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the LSA with pointers to the functions implemented by each security package in the SSP/AP DLL.
 old-location: security\splsamodeinitialize.htm
 old-project: SecAuthN
 ms.assetid: 1ef3770b-197f-4d5b-9933-b7f6f63e5627
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpLsaModeInitialize, SpLsaModeInitialize function [Security], SpLsaModeInitializeFn, _ssp_splsamodeinitialize, ntsecpkg/SpLsaModeInitialize, security.splsamodeinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

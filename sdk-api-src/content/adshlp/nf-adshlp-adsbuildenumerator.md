@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ADsBuildEnumerator
 title: ADsBuildEnumerator function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADsBuildEnumerator function creates an enumerator object for the specified ADSI container object.
 old-location: adsi\adsbuildenumerator.htm
 old-project: ADSI
 ms.assetid: e4fdec19-bccf-49ec-8a95-29e096c4c9c1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuildenumerator, adshlp/ADsBuildEnumerator, adsi.adsbuildenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

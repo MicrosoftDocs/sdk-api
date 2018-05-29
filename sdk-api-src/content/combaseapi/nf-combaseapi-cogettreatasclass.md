@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetTreatAsClass
 title: CoGetTreatAsClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the CLSID of an object that can emulate the specified object.
 old-location: com\cogettreatasclass.htm
 old-project: com
 ms.assetid: f95fefe6-dc37-45f4-93be-87c996990ab9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTreatAsClass, com.cogettreatasclass, combaseapi/CoGetTreatAsClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

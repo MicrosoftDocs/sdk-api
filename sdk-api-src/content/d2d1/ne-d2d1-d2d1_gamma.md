@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1.D2D1_GAMMA
 title: D2D1_GAMMA
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which gamma is used for interpolation.
 old-location: direct2d\D2D1_GAMMA.htm
 old-project: Direct2D
 ms.assetid: c84c66c6-5f4a-41de-938c-76a409145971
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_GAMMA, D2D1_GAMMA enumeration [Direct2D], D2D1_GAMMA_1_0, D2D1_GAMMA_2_2, d2d1/D2D1_GAMMA, d2d1/D2D1_GAMMA_1_0, d2d1/D2D1_GAMMA_2_2, direct2d.D2D1_GAMMA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

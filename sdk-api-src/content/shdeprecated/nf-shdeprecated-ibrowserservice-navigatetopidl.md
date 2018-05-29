@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.NavigateToPidl
 title: IBrowserService::NavigateToPidl
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Navigates the browser to the location indicated by a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_NavigateToPidl.htm
 old-project: shell
 ms.assetid: eb329a61-1c1a-49c6-9d5e-ccfc7fd8b10c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HLNF_ALLOW_AUTONAVIGATE, HLNF_CALLERUNTRUSTED, HLNF_DISABLEWINDOWRESTRICTIONS, HLNF_EXTERNALNAVIGATE, HLNF_NAVIGATINGBACK, HLNF_NAVIGATINGFORWARD, HLNF_NEWWINDOWSMANAGED, HLNF_TRUSTEDFORACTIVEX, HLNF_TRUSTFIRSTDOWNLOAD, HLNF_UNTRUSTEDFORDOWNLOAD, IBrowserService interface [Windows Shell],NavigateToPidl method, IBrowserService.NavigateToPidl, IBrowserService::NavigateToPidl, NavigateToPidl, NavigateToPidl method [Windows Shell], NavigateToPidl method [Windows Shell],IBrowserService interface, SHHLNF_NOAUTOSELECT, SHHLNF_WRITENOHISTORY, shdeprecated/IBrowserService::NavigateToPidl, shell.IBrowserService_NavigateToPidl, zone_IBrowserService_NavigateToPidl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

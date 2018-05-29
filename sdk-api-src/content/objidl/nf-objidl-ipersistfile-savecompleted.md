@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPersistFile.SaveCompleted
 title: IPersistFile::SaveCompleted
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the object that it can write to its file.
 old-location: com\ipersistfile_savecompleted.htm
 old-project: com
 ms.assetid: eda29981-0c24-409a-8fb9-2dc2eb96d108
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistFile interface [COM],SaveCompleted method, IPersistFile.SaveCompleted, IPersistFile::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistFile interface, _com_ipersistfile_savecompleted, com.ipersistfile_savecompleted, objidl/IPersistFile::SaveCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

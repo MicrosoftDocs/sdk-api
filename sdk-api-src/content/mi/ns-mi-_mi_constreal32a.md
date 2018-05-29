@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstReal32A
 title: "_MI_ConstReal32A"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of MI_Real32 types.
 old-location: wmi_v2\mi_constreal32a.htm
 old-project: wmi_v2
 ms.assetid: faffc6a4-bbb2-47f3-b1f3-c8bd1cdadc9f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstReal32A, MI_ConstReal32A structure [Windows Management Infrastructure (MI)], _MI_ConstReal32A, mi/MI_ConstReal32A, wmi._mi_constreal32a, wmi_v2.mi_constreal32a
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

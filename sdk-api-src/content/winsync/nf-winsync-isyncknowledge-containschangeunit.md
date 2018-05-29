@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsChangeUnit
 title: ISyncKnowledge::ContainsChangeUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the specified change unit change is known by this knowledge.
 old-location: winsync\isyncknowledge_containschangeunit.htm
 old-project: winsync
 ms.assetid: 67fc3b59-ad82-47a4-9fc6-2d980b9e26fe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ContainsChangeUnit, ContainsChangeUnit method [Windows Sync], ContainsChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChangeUnit method, ISyncKnowledge.ContainsChangeUnit, ISyncKnowledge::ContainsChangeUnit, winsync.isyncknowledge_containschangeunit, winsync/ISyncKnowledge::ContainsChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

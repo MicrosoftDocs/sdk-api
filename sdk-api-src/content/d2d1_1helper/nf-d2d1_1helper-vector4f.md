@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1helper.Vector4F
 title: Vector4F function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a filled D2D1_VECTOR_4F structure.
 old-location: direct2d\vector4f.htm
 old-project: Direct2D
 ms.assetid: 0664EEFB-E3F7-4393-A595-D2BEF74E0492
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: Vector4F, Vector4F function [Direct2D], d2d1_1helper/Vector4F, direct2d.vector4f
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

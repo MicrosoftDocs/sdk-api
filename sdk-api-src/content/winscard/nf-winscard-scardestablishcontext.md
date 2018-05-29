@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardEstablishContext
 title: SCardEstablishContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes the resource manager context (the scope) within which database operations are performed.
 old-location: security\scardestablishcontext.htm
 old-project: SecAuthN
 ms.assetid: 1cf9b005-b76c-4fc9-b4bd-a1ad8552535f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCARD_SCOPE_SYSTEM, SCARD_SCOPE_USER, SCardEstablishContext, SCardEstablishContext function [Security], _smart_scardestablishcontext, security.scardestablishcontext, winscard/SCardEstablishContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

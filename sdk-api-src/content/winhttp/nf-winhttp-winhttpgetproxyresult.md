@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyResult
 title: WinHttpGetProxyResult function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinHttpGetProxyResult function retrieves the results of a call to WinHttpGetProxyForUrlEx.
 old-location: http\winhttpgetproxyresult.htm
 old-project: WinHttp
 ms.assetid: f594e588-b3da-4afb-a5f9-552759bca148
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpGetProxyResult, WinHttpGetProxyResult function [WinHTTP], http.winhttpgetproxyresult, winhttp/WinHttpGetProxyResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

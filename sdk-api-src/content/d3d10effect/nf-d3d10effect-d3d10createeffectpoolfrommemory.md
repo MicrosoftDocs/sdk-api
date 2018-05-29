@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.D3D10CreateEffectPoolFromMemory
 title: D3D10CreateEffectPoolFromMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Create an effect pool (or shared memory location), to enable sharing variables between effects.
 old-location: direct3d10\d3d10createeffectpoolfrommemory.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createeffectpoolfrommemory.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10CreateEffectPoolFromMemory, D3D10CreateEffectPoolFromMemory function [Direct3D 10], d3d10effect/D3D10CreateEffectPoolFromMemory, direct3d10.d3d10createeffectpoolfrommemory, fe38c43e-d460-f70d-5972-0c60fb75b532
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 

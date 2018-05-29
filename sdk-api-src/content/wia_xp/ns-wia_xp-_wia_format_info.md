@@ -1,16 +1,16 @@
 ---
 UID: NS:wia_xp._WIA_FORMAT_INFO
 title: "_WIA_FORMAT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WIA_FORMAT_INFO structure specifies valid format and media type pairs for a device.
 old-location: wia\_wia_WIA_FORMAT_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_format_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: "*PWIA_FORMAT_INFO, PWIA_FORMAT_INFO, PWIA_FORMAT_INFO structure pointer [WIA], WIA_FORMAT_INFO, WIA_FORMAT_INFO structure [WIA], _WIA_FORMAT_INFO, _wia_WIA_FORMAT_INFO, wia._wia_WIA_FORMAT_INFO, wia_xp/PWIA_FORMAT_INFO, wia_xp/WIA_FORMAT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

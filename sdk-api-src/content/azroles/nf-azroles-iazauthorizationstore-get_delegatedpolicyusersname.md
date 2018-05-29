@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_DelegatedPolicyUsersName
 title: IAzAuthorizationStore::get_DelegatedPolicyUsersName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the account names of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_delegatedpolicyusersname.htm
 old-project: SecAuthZ
 ms.assetid: 495cdba4-7127-48aa-9542-7ccbedbad589
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzAuthorizationStore object [Security],DelegatedPolicyUsersName property, DelegatedPolicyUsersName property [Security], DelegatedPolicyUsersName property [Security],AzAuthorizationStore object, DelegatedPolicyUsersName property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DelegatedPolicyUsersName property, IAzAuthorizationStore.DelegatedPolicyUsersName, IAzAuthorizationStore.get_DelegatedPolicyUsersName, IAzAuthorizationStore::DelegatedPolicyUsersName, IAzAuthorizationStore::get_DelegatedPolicyUsersName, azroles/IAzAuthorizationStore::DelegatedPolicyUsersName, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsersName, get_DelegatedPolicyUsersName, security.azauthorizationstore_delegatedpolicyusersname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

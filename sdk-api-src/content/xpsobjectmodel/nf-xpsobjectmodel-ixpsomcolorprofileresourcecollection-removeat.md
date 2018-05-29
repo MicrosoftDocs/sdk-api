@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.RemoveAt
 title: IXpsOMColorProfileResourceCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and releases an IXpsOMColorProfileResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_removeat.htm
 old-project: printdocs
 ms.assetid: c1c112fc-5b9d-4db8-b7b9-94a75755801e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMColorProfileResourceCollection.RemoveAt, IXpsOMColorProfileResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_removeat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

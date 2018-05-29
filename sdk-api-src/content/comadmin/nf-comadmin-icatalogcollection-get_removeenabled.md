@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_RemoveEnabled
 title: ICatalogCollection::get_RemoveEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the Remove method is enabled for the collection.
 old-location: cos\icatalogcollection_removeenabled.htm
 old-project: cossdk
 ms.assetid: eda0812f-a0e4-4239-87b5-c252e9e3492c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection interface [COM+],RemoveEnabled property, ICatalogCollection.RemoveEnabled, ICatalogCollection.get_RemoveEnabled, ICatalogCollection::RemoveEnabled, ICatalogCollection::get_RemoveEnabled, RemoveEnabled property [COM+], RemoveEnabled property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_RemoveEnabled, comadmin/ICatalogCollection::RemoveEnabled, comadmin/ICatalogCollection::get_RemoveEnabled, cos.icatalogcollection_removeenabled, get_RemoveEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_PROVIDER_NAME
 title: "_BCRYPT_PROVIDER_NAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the name of a CNG provider.
 old-location: security\bcrypt_provider_name_struct.htm
 old-project: SecCNG
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], _BCRYPT_PROVIDER_NAME, bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

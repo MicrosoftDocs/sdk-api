@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptVerifyMessageSignatureWithKey
 title: CryptVerifyMessageSignatureWithKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies a signed message's signature by using specified public key information.
 old-location: security\cryptverifymessagesignaturewithkey.htm
 old-project: SecCrypto
 ms.assetid: 6fe0f9ee-1838-4eb7-8254-05b878eb8f56
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptVerifyMessageSignatureWithKey, CryptVerifyMessageSignatureWithKey function [Security], security.cryptverifymessagesignaturewithkey, wincrypt/CryptVerifyMessageSignatureWithKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

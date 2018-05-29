@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoReportFailedDelegate
 title: RoReportFailedDelegate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Triggers the Global Error Handler when a delegate failure occurs.
 old-location: winrt\roreportfaileddelegate.htm
 old-project: WinRT
 ms.assetid: 0A35A174-9020-438E-94CF-3A790D158144
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoReportFailedDelegate, RoReportFailedDelegate function [Windows Runtime], roerrorapi/RoReportFailedDelegate, winrt.roreportfaileddelegate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

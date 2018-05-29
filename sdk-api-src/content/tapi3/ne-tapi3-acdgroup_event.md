@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3.ACDGROUP_EVENT
 title: ACDGROUP_EVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACDGROUP_EVENT enum describes ACD group events. The ITACDGroupEvent::get_Event method returns a member of this enum to indicate the type of ACD group event that occurred.
 old-location: tapi3\acdgroup_event.htm
 old-project: Tapi
 ms.assetid: fb3de7e5-5a29-4f7b-8b2a-252536dedae6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ACDGE_GROUP_REMOVED, ACDGE_NEW_GROUP, ACDGROUP_EVENT, ACDGROUP_EVENT enumeration [TAPI 2.2], _tapi3_acdgroup_event, tapi3.acdgroup_event, tapi3cc/ACDGE_GROUP_REMOVED, tapi3cc/ACDGE_NEW_GROUP, tapi3cc/ACDGROUP_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3.h
 req.include-header: Tapi3.h

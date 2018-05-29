@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallStateEvent.get_State
 title: ITCallStateEvent::get_State
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_State method gets information on the new call state.
 old-location: tapi3\itcallstateevent_get_state.htm
 old-project: Tapi
 ms.assetid: 45e46b99-c65f-4296-9537-7fb7a4210727
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_State method, ITCallStateEvent.get_State, ITCallStateEvent::get_State, _tapi3_itcallstateevent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_state, tapi3if/ITCallStateEvent::get_State
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

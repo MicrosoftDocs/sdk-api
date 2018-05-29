@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextNumberOfLanguages
 title: IDvdInfo2::GetDVDTextNumberOfLanguages
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDVDTextNumberOfLanguages method retrieves the number of languages in which DVD text strings appear.
 old-location: dshow\idvdinfo2_getdvdtextnumberoflanguages.htm
 old-project: DirectShow
 ms.assetid: 20c6ee1f-f20b-40c5-bc84-5ec1c07c0681
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDVDTextNumberOfLanguages, GetDVDTextNumberOfLanguages method [DirectShow], GetDVDTextNumberOfLanguages method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextNumberOfLanguages method, IDvdInfo2.GetDVDTextNumberOfLanguages, IDvdInfo2::GetDVDTextNumberOfLanguages, IDvdInfo2GetDVDTextNumberOfLanguages, dshow.idvdinfo2_getdvdtextnumberoflanguages, strmif/IDvdInfo2::GetDVDTextNumberOfLanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

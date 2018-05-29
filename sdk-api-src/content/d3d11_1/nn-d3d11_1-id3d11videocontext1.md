@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_1.ID3D11VideoContext1
 title: ID3D11VideoContext1
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the video functionality of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videocontext1.htm
 old-project: medfound
 ms.assetid: 64D12F68-C2AA-4C1D-9608-5F97CF7AD430
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext1, ID3D11VideoContext1 interface [Media Foundation], ID3D11VideoContext1 interface [Media Foundation],described, d3d11_1/ID3D11VideoContext1, mf.id3d11videocontext1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 

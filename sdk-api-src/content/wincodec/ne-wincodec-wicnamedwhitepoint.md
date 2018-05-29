@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICNamedWhitePoint
 title: WICNamedWhitePoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies named white balances for raw images.
 old-location: wic\_wic_codec_wicnamedwhitepoint.htm
 old-project: wic
 ms.assetid: e256a6d6-a035-47c3-a82c-d9aec284de17
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICNamedWhitePoint, WICNamedWhitePoint enumeration [Windows Imaging Component], WICWhitePointAsShot, WICWhitePointAutoWhiteBalance, WICWhitePointCloudy, WICWhitePointCustom, WICWhitePointDaylight, WICWhitePointDefault, WICWhitePointFlash, WICWhitePointFluorescent, WICWhitePointShade, WICWhitePointTungsten, WICWhitePointUnderwater, _wic_codec_wicnamedwhitepoint, wic._wic_codec_wicnamedwhitepoint, wincodec/WICNamedWhitePoint, wincodec/WICWhitePointAsShot, wincodec/WICWhitePointAutoWhiteBalance, wincodec/WICWhitePointCloudy, wincodec/WICWhitePointCustom, wincodec/WICWhitePointDaylight, wincodec/WICWhitePointDefault, wincodec/WICWhitePointFlash, wincodec/WICWhitePointFluorescent, wincodec/WICWhitePointShade, wincodec/WICWhitePointTungsten, wincodec/WICWhitePointUnderwater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

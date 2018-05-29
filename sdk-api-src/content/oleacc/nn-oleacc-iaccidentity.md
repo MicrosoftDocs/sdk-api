@@ -1,16 +1,16 @@
 ---
 UID: NN:oleacc.IAccIdentity
 title: IAccIdentity
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that provides a unique identifier for an accessible element.
 old-location: winauto\iaccidentity.htm
 old-project: WinAuto
 ms.assetid: 59fde1a5-42bd-40e0-8143-edd082b2b166
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccIdentity, IAccIdentity interface [Windows Accessibility], IAccIdentity interface [Windows Accessibility],described, msaa.iaccidentity, oleacc/IAccIdentity, winauto.iaccidentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleacc.h
 req.include-header: 

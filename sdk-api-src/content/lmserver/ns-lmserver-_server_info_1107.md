@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1107
 title: "_SERVER_INFO_1107"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_1107 structure specifies the number of users that can simultaneously log on to the specified server.
 old-location: netmgmt\server_info_1107_str.htm
 old-project: NetMgmt
 ms.assetid: 8e0b9157-5f06-4555-ab9e-b98b99e0f20d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_1107, *PSERVER_INFO_1107, LPSERVER_INFO_1107, LPSERVER_INFO_1107 structure pointer [Network Management], PSERVER_INFO_1107, PSERVER_INFO_1107 structure pointer [Network Management], SERVER_INFO_1107, SERVER_INFO_1107 structure [Network Management], _SERVER_INFO_1107, _win32_server_info_1107_str, lmserver/LPSERVER_INFO_1107, lmserver/PSERVER_INFO_1107, lmserver/SERVER_INFO_1107, netmgmt.server_info_1107_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

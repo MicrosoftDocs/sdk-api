@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetSynthSink
 title: IDirectMusicSynth::SetSynthSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetSynthSink method establishes the connection of the synth to the wave sink.
 old-location: audio\idirectmusicsynth_setsynthsink.htm
 old-project: audio
 ms.assetid: 51153ea3-7c61-458a-8879-10efbd678b53
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetSynthSink method, IDirectMusicSynth.SetSynthSink, IDirectMusicSynth::SetSynthSink, SetSynthSink, SetSynthSink method [Audio Devices], SetSynthSink method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setsynthsink, audmp-routines_4a1e1c4d-af5d-4141-8740-308cf711184e.xml, dmusics/IDirectMusicSynth::SetSynthSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_IPV4Filter
 title: IBDA_IPV4Filter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_ IPV4Filter interface is implemented on a Network Provider.
 old-location: mstv\ibda_ipv4filter.htm
 old-project: mstv
 ms.assetid: 3db86e21-6d05-4b7f-be83-a3fa506a0e3b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologies], IBDA_IPV4Filter interface [Microsoft TV Technologies],described, IBDA_IPV4FilterInterface, bdaiface/IBDA_IPV4Filter, mstv.ibda_ipv4filter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

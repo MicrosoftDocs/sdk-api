@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevel
 title: IPerChannelDbLevel::SetLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetLevel method sets the volume level, in decibels, of the specified channel.
 old-location: coreaudio\iperchanneldblevel_setlevel.htm
 old-project: CoreAudio
 ms.assetid: 103efe46-bca5-40a7-815b-d2a1f6e29cbc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevel method, IPerChannelDbLevel.SetLevel, IPerChannelDbLevel::SetLevel, IPerChannelDbLevelSetLevel, SetLevel, SetLevel method [Core Audio], SetLevel method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setlevel, devicetopology/IPerChannelDbLevel::SetLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

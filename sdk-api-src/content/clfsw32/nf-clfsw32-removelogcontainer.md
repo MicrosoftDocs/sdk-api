@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.RemoveLogContainer
 title: RemoveLogContainer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes one container from a log that is associated with a dedicated or multiplexed log handle.
 old-location: fs\removelogcontainer.htm
 old-project: Clfs
 ms.assetid: e6571cb0-8453-4db0-9a33-17339c4ea223
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: RemoveLogContainer, RemoveLogContainer function [Files], clfsw32/RemoveLogContainer, fs.removelogcontainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

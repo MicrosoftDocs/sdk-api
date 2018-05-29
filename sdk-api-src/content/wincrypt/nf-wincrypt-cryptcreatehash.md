@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptCreateHash
 title: CryptCreateHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates the hashing of a stream of data. It creates and returns to the calling application a handle to a cryptographic service provider (CSP) hash object.
 old-location: security\cryptcreatehash.htm
 old-project: SecCrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnID
 title: IDXGIInfoQueue::SetBreakOnID
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a message identifier to break on when a message with that identifier passes through the storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakonid.htm
 old-project: direct3ddxgi
 ms.assetid: C225B262-B062-40D5-ADC0-491F47B111C9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnID method, IDXGIInfoQueue.SetBreakOnID, IDXGIInfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method [DXGI], SetBreakOnID method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakonid, dxgidebug/IDXGIInfoQueue::SetBreakOnID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

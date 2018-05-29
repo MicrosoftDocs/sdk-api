@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetEnforcementBans
 title: IXblIdpAuthTokenResult::GetEnforcementBans
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getenforcementbans.htm
 old-project: xblidp
 ms.assetid: 813D030B-73CD-463E-A548-E32380075524
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetEnforcementBans, GetEnforcementBans method, GetEnforcementBans method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnforcementBans method, IXblIdpAuthTokenResult.GetEnforcementBans, IXblIdpAuthTokenResult::GetEnforcementBans, xblidp.ixblidpauthtokenresult_getenforcementbans, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnforcementBans
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

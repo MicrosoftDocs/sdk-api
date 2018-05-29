@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IFilterMapper3
 title: IFilterMapper3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFilterMapper3 interface extends the IFilterMapper2 interface. The Filter Mapper object implements this interface.Note  This interface is deprecated. .
 old-location: dshow\ifiltermapper3.htm
 old-project: DirectShow
 ms.assetid: 385a4d15-08b5-40c6-8444-a22bec86a981
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterMapper3, IFilterMapper3 interface [DirectShow], IFilterMapper3 interface [DirectShow],described, IFilterMapper3Interface, dshow.ifiltermapper3, strmif/IFilterMapper3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

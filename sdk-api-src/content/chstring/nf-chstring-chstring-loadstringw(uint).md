@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.LoadStringW(UINT)
 title: CHString::LoadStringW(UINT)
-author: windows-driver-content
+author: windows-sdk-content
 description: The LoadStringW method reads a Windows string resource (identified by nID) into an existing CHString object.
 old-location: wmi\chstring_loadstringw.htm
 old-project: WmiSdk
 ms.assetid: b5dca7ce-41b2-4290-bb15-23e0a8d64bd1
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],LoadStringW method, CHString.LoadStringW, CHString.LoadStringW(UINT), CHString::LoadStringW, CHString::LoadStringW(UINT), LoadStringW, LoadStringW method [Windows Management Instrumentation], LoadStringW method [Windows Management Instrumentation],CHString interface, _hmm_chstring_loadstringw, chstring/CHString::LoadStringW, wmi.chstring_loadstringw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:ipsectypes.IPSEC_TRAFFIC_TYPE_
 title: IPSEC_TRAFFIC_TYPE_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of IPsec traffic being described.
 old-location: fwp\ipsec_traffic_type_enum.htm
 old-project: FWP
 ms.assetid: e87154ce-7f19-424c-a577-04e2eb81560e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_TRAFFIC_TYPE, IPSEC_TRAFFIC_TYPE enumeration [Filtering], IPSEC_TRAFFIC_TYPE_, IPSEC_TRAFFIC_TYPE_MAX, IPSEC_TRAFFIC_TYPE_TRANSPORT, IPSEC_TRAFFIC_TYPE_TUNNEL, fwp.ipsec_traffic_type_enum, ipsectypes/IPSEC_TRAFFIC_TYPE, ipsectypes/IPSEC_TRAFFIC_TYPE_MAX, ipsectypes/IPSEC_TRAFFIC_TYPE_TRANSPORT, ipsectypes/IPSEC_TRAFFIC_TYPE_TUNNEL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 

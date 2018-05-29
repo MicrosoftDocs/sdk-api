@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglShareLists
 title: wglShareLists function
-author: windows-driver-content
+author: windows-sdk-content
 description: The wglShareLists function enables multiple OpenGL rendering contexts to share a single display-list space.
 old-location: opengl\wglsharelists.htm
 old-project: OpenGL
 ms.assetid: 587ea116-c70b-41ca-bf9b-a0c666f4e948
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglShareLists, opengl.wglsharelists, wglShareLists, wglShareLists function [OpenGL], wingdi/wglShareLists"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

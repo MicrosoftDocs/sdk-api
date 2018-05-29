@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.CLUSPROP_PROPERTY_NAME_DECLARE
 title: CLUSPROP_PROPERTY_NAME_DECLARE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a CLUSPROP_PROPERTY_NAME structure with the sz member set to a size determined by the caller.
 old-location: mscs\clusprop_property_name_declare.htm
 old-project: MsCS
 ms.assetid: 8947baed-3a96-4986-94ea-4b275908acdc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSPROP_PROPERTY_NAME_DECLARE, CLUSPROP_PROPERTY_NAME_DECLARE macro [Failover Cluster], _wolf_clusprop_property_name_declare, clusapi/CLUSPROP_PROPERTY_NAME_DECLARE, mscs.clusprop_property_name_declare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 

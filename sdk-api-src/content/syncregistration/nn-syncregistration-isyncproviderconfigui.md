@@ -1,16 +1,16 @@
 ---
 UID: NN:syncregistration.ISyncProviderConfigUI
 title: ISyncProviderConfigUI
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents configuration UI information used to build and register a synchronization provider.
 old-location: winsync\isyncproviderconfigui.htm
 old-project: winsync
 ms.assetid: 27757aa1-a42d-4f66-99a8-bf66385fbec1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], ISyncProviderConfigUI interface [Windows Sync],described, syncregistration/ISyncProviderConfigUI, winsync.isyncproviderconfigui
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 

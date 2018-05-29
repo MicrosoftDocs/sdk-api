@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueryInfOriginalFileInformationA
 title: SetupQueryInfOriginalFileInformationA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueryInfOriginalFileInformation function returns the original name of an OEM INF file.
 old-location: setup\setupqueryinforiginalfileinformation.htm
 old-project: SetupApi
 ms.assetid: bc7c08ff-3d6b-4d45-b634-1358302f6fc6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueryInfOriginalFileInformation, SetupQueryInfOriginalFileInformation function [Setup API], SetupQueryInfOriginalFileInformationA, SetupQueryInfOriginalFileInformationW, _setupapi_setupqueryinforiginalfileinformation, setup.setupqueryinforiginalfileinformation, setupapi/SetupQueryInfOriginalFileInformation, setupapi/SetupQueryInfOriginalFileInformationA, setupapi/SetupQueryInfOriginalFileInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

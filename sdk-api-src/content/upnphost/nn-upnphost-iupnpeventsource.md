@@ -1,16 +1,16 @@
 ---
 UID: NN:upnphost.IUPnPEventSource
 title: IUPnPEventSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPEventSource interface allows the device host to manage event subscriptions for the hosted service.
 old-location: upnp\iupnpeventsource.htm
 old-project: UPnP
 ms.assetid: f20dfcaa-b8fe-43c8-b353-067dad4cf2b4
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPEventSource, IUPnPEventSource interface [UPnP APIs], IUPnPEventSource interface [UPnP APIs],described, _upnp_iupnpeventsource, upnp.iupnpeventsource, upnphost/IUPnPEventSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

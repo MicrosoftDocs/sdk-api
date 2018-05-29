@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsUser
 title: IADsUser
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsUser interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsuser.htm
 old-project: ADSI
 ms.assetid: 6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsUser, IADsUser interface [ADSI], IADsUser interface [ADSI],described, _ds_iadsuser, adsi.iadsuser, iads/IADsUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_STATUS_ROUTINE
 title: PSET_RESOURCE_STATUS_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Called to update the status of a resource.
 old-location: mscs\setresourcestatus.htm
 old-project: MsCS
 ms.assetid: 8ddb4578-f8c4-462e-af04-8c537d585e8b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE, PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster], SetResourceStatus, SetResourceStatus callback, SetResourceStatus callback function [Failover Cluster], _wolf_setresourcestatus, mscs.setresourcestatus, resapi/PSET_RESOURCE_STATUS_ROUTINE, resapi/SetResourceStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

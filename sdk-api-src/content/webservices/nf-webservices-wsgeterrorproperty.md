@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetErrorProperty
 title: WsGetErrorProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property of an WS_ERROR object referenced by the error parameter.
 old-location: wsw\wsgeterrorproperty.htm
 old-project: wsw
 ms.assetid: 35a1f4a8-aad6-43ad-81db-b1071a77d5f4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetErrorProperty, WsGetErrorProperty function [Web Services for Windows], webservices/WsGetErrorProperty, wsw.wsgeterrorproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

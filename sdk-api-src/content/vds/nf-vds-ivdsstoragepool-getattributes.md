@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsStoragePool.GetAttributes
 title: IVdsStoragePool::GetAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the attributes of a storage pool.
 old-location: base\ivdsstoragepool_getattributes.htm
 old-project: VDS
 ms.assetid: 44906c1f-ecb2-4701-9392-a9b5924e9d65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetAttributes, GetAttributes method, GetAttributes method,IVdsStoragePool interface, IVdsStoragePool interface,GetAttributes method, IVdsStoragePool.GetAttributes, IVdsStoragePool::GetAttributes, base.ivdsstoragepool_getattributes, vds/IVdsStoragePool::GetAttributes, vdshwprv/IVdsStoragePool::GetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

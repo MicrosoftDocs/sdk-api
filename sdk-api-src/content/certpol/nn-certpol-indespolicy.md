@@ -1,16 +1,16 @@
 ---
 UID: NN:certpol.INDESPolicy
 title: INDESPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: The NDES Policy Module Interface. When installed against an enterprise CA, NDES generates a password after checking that the user has enrollment permission on the configured NDES templates, both user and machine templates.
 old-location: security\indespolicy.htm
 old-project: SecCrypto
 ms.assetid: 9ed31493-832a-4f66-bb95-02ef1ad7ca15
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interface [Security],described, certpol/INDESPolicy, security.indespolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certpol.h
 req.include-header: 

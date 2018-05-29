@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DUPLICATE_EXTENTS_DATA
 title: "_DUPLICATE_EXTENTS_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters for the FSCTL_DUPLICATE_EXTENTS control code that performs the Block Cloning operation.
 old-location: fs\duplicate_extents_data.htm
 old-project: FileIO
 ms.assetid: 9E2B3AA1-BC28-4458-9882-13F7EFB23756
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA structure [Files], PDUPLICATE_EXTENTS_DATA, PDUPLICATE_EXTENTS_DATA structure pointer [Files], _DUPLICATE_EXTENTS_DATA, fs.duplicate_extents_data, winioctl/DUPLICATE_EXTENTS_DATA, winioctl/PDUPLICATE_EXTENTS_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

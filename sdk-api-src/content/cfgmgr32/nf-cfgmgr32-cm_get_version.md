@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Version
 title: CM_Get_Version function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Version function returns version 4.0 of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) for a local machine.
 old-location: devinst\cm_get_version.htm
 old-project: devinst
 ms.assetid: 998c6c57-b242-4aa0-8c9f-cfff61d2a642
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Version, CM_Get_Version function [Device and Driver Installation], cfgmgr32/CM_Get_Version, cfgmgrfn_505306b1-3e78-4de2-aa51-128fe87c17ed.xml, devinst.cm_get_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

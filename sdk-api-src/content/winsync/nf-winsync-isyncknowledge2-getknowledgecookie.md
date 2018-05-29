@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetKnowledgeCookie
 title: ISyncKnowledge2::GetKnowledgeCookie
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a lightweight, read-only representation of this knowledge object that can be used for fast comparisons.
 old-location: winsync\isyncknowledge2_getknowledgecookie.htm
 old-project: winsync
 ms.assetid: d182f81d-131c-4f18-85e4-ff675ae99888
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetKnowledgeCookie, GetKnowledgeCookie method [Windows Sync], GetKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetKnowledgeCookie method, ISyncKnowledge2.GetKnowledgeCookie, ISyncKnowledge2::GetKnowledgeCookie, winsync.isyncknowledge2_getknowledgecookie, winsync/ISyncKnowledge2::GetKnowledgeCookie
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

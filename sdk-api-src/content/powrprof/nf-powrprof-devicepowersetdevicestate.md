@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.DevicePowerSetDeviceState
 title: DevicePowerSetDeviceState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the specified data on the specified device.
 old-location: base\devicepowersetdevicestate.htm
 old-project: Power
 ms.assetid: 300842ae-d7d4-42c2-959c-e1713f466d32
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

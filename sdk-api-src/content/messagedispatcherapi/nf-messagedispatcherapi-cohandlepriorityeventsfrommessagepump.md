@@ -1,16 +1,16 @@
 ---
 UID: NF:messagedispatcherapi.CoHandlePriorityEventsFromMessagePump
 title: CoHandlePriorityEventsFromMessagePump function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by message dispatchers on an ASTA thread after dispatching a windows message to provide an opportunity for short-running infrastructural COM calls and other high-priority or short-running COM work to be dispatched between messages.
 old-location: com\cohandlepriorityeventsfrommessagepump.htm
 old-project: com
 ms.assetid: 24EA766D-82F8-4E57-AAB8-A06ECE644319
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoHandlePriorityEventsFromMessagePump, CoHandlePriorityEventsFromMessagePump function [COM], com.cohandlepriorityeventsfrommessagepump, messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: messagedispatcherapi.h
 req.include-header: 

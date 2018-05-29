@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpAcceptCredentialsFn
 title: SpAcceptCredentialsFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the Local Security Authority (LSA) to pass the security package any credentials stored for the authenticated security principal.
 old-location: security\spacceptcredentials.htm
 old-project: SecAuthN
 ms.assetid: bb382937-e5d6-452b-b166-505d0c80412c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpAcceptCredentials, SpAcceptCredentials function [Security], SpAcceptCredentialsFn, _ssp_spacceptcredentials, ntsecpkg/SpAcceptCredentials, security.spacceptcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

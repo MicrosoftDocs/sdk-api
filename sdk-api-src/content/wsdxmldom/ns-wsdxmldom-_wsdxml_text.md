@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxmldom._WSDXML_TEXT
 title: "_WSDXML_TEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the text in an XML node.
 old-location: ncd\wsdxml_text_struct.htm
 old-project: WsdApi
 ms.assetid: 44b24ddb-b669-43d0-b8db-0a24f7d020d6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXML_TEXT, WSDXML_TEXT structure, _WSDXML_TEXT, ncd.wsdxml_text_struct, wsdxmldom/WSDXML_TEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

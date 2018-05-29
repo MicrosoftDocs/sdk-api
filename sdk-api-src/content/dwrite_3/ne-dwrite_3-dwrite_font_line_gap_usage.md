@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_LINE_GAP_USAGE
 title: DWRITE_FONT_LINE_GAP_USAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specify whether DWRITE_FONT_METRICS::lineGap value should be part of the line metrics.
 old-location: directwrite\dwrite_font_line_gap_usage.htm
 old-project: DirectWrite
 ms.assetid: 43d38cca-429d-7ee5-e94c-fba542e19bb5
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_FONT_LINE_GAP_USAGE, DWRITE_FONT_LINE_GAP_USAGE enumeration [Direct Write], DWRITE_FONT_LINE_GAP_USAGE_DEFAULT, DWRITE_FONT_LINE_GAP_USAGE_DISABLED, DWRITE_FONT_LINE_GAP_USAGE_ENABLED, directwrite.dwrite_font_line_gap_usage, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DEFAULT, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DISABLED, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_ENABLED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_3.h
 req.include-header: 

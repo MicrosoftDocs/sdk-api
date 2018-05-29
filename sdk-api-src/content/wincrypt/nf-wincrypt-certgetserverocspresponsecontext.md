@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertGetServerOcspResponseContext
 title: CertGetServerOcspResponseContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a non-blocking, time valid online certificate status protocol (OCSP) response context for the specified handle.
 old-location: security\certgetserverocspresponsecontext.htm
 old-project: SecCrypto
 ms.assetid: 07476e43-db6b-4119-8d6b-41143b98744e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertGetServerOcspResponseContext, CertGetServerOcspResponseContext function [Security], security.certgetserverocspresponsecontext, wincrypt/CertGetServerOcspResponseContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

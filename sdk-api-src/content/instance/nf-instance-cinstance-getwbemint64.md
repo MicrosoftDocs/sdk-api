@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.GetWBEMINT64
 title: CInstance::GetWBEMINT64
-author: windows-driver-content
+author: windows-sdk-content
 description: The CInstance::GetWBEMINT64 method retrieves a 64-bit integer property.
 old-location: wmi\cinstance_getwbemint64.htm
 old-project: WmiSdk
 ms.assetid: b51d0c51-3b72-4358-8fc3-d1dbc298b4d9
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CInstance.GetWBEMINT64, CInstance::GetWBEMINT64, CInstance::GetWBEMINT64 methods [Windows Management Instrumentation], GetWBEMINT64, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

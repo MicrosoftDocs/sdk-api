@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagAspectInfo
 title: tagAspectInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that is used by the IViewObject::Draw method to optimize rendering of an inactive object by making more efficient use of the GDI.
 old-location: com\dvaspectinfo.htm
 old-project: com
 ms.assetid: c9375b9d-c822-4322-ba6f-967792257672
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.dvaspectinfo, ocidl/DVASPECTINFO, tagAspectInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

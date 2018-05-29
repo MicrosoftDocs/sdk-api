@@ -1,16 +1,16 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.EndEnum
 title: TRefPointerCollection::EndEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndEnum method ends the enumeration of the collection.
 old-location: wmi\trefpointercollection_endenum.htm
 old-project: WmiSdk
 ms.assetid: 86dcfc2e-fc73-4030-a63f-5284c2123a21
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: EndEnum, EndEnum method [Windows Management Instrumentation], EndEnum method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],EndEnum method, TRefPointerCollection.EndEnum, TRefPointerCollection::EndEnum, _hmm_trefpointercollection_endenum, refptrco/TRefPointerCollection::EndEnum, wmi.trefpointercollection_endenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h

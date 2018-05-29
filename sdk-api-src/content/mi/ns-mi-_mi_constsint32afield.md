@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstSint32AField
 title: "_MI_ConstSint32AField"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constsint32afield.htm
 old-project: wmi_v2
 ms.assetid: 4059fe2a-65c6-4c56-a04a-8a7e79d05f66
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstSint32AField, MI_ConstSint32AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstSint32AField, mi/MI_ConstSint32AField, wmi._mi_constsint32afield, wmi_v2.mi_constsint32afield
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

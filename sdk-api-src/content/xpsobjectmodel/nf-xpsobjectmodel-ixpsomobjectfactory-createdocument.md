@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDocument
 title: IXpsOMObjectFactory::CreateDocument
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMDocument interface, which can contain a set of IXpsOMPageReference interfaces in an ordered sequence.
 old-location: xps\ixpsomobjectfactory_createdocument.htm
 old-project: printdocs
 ms.assetid: d181c62b-e1a5-45ee-9ffd-85bb6be24892
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateDocument, CreateDocument method [XPS Documents and Packaging], CreateDocument method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocument method, IXpsOMObjectFactory.CreateDocument, IXpsOMObjectFactory::CreateDocument, xps.ixpsomobjectfactory_createdocument, xpsobjectmodel/IXpsOMObjectFactory::CreateDocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

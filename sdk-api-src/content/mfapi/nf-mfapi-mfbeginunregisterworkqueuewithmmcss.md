@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFBeginUnregisterWorkQueueWithMMCSS
 title: MFBeginUnregisterWorkQueueWithMMCSS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfbeginunregisterworkqueuewithmmcss.htm
 old-project: medfound
 ms.assetid: e164785f-9899-45f0-805f-b091508e35aa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFBeginUnregisterWorkQueueWithMMCSS, MFBeginUnregisterWorkQueueWithMMCSS function [Media Foundation], e164785f-9899-45f0-805f-b091508e35aa, mf.mfbeginunregisterworkqueuewithmmcss, mfapi/MFBeginUnregisterWorkQueueWithMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

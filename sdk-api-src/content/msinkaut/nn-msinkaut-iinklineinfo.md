@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkLineInfo
 title: IInkLineInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IInkLineInfo interface provides access to the display properties and recognition result list of a text ink object (tInk).
 old-location: tablet\iinklineinfo.htm
 old-project: tablet
 ms.assetid: 58774f49-6af2-4b81-bbd5-709eb694af2d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 58774f49-6af2-4b81-bbd5-709eb694af2d, IInkLineInfo, IInkLineInfo interface [Tablet PC], IInkLineInfo interface [Tablet PC],described, msinkaut/IInkLineInfo, tablet.iinklineinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

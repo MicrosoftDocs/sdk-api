@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzApplicationGroup
 title: IAzApplicationGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a collection of principals.
 old-location: security\iazapplicationgroup.htm
 old-project: SecAuthZ
 ms.assetid: 6a15acde-e582-4c49-b7e4-82d4e54012b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzApplicationGroup, IAzApplicationGroup interface [Security], IAzApplicationGroup interface [Security],described, azroles/IAzApplicationGroup, security.iazapplicationgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfSource
 title: ITfSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfSource interface is implemented by the TSF manager. It is used by applications and text services to install and uninstall advise sinks.
 old-location: tsf\itfsource.htm
 old-project: TSF
 ms.assetid: 2ff77f09-1b4c-4115-9bb4-4040097d1f90
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfSource, ITfSource interface [Text Services Framework], ITfSource interface [Text Services Framework],described, _tsf_itfsource_ref, msctf/ITfSource, tsf.itfsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

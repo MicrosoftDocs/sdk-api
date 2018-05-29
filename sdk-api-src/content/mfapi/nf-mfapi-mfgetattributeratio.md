@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFGetAttributeRatio
 title: MFGetAttributeRatio function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an attribute whose value is a ratio.
 old-location: mf\mfgetattributeratio.htm
 old-project: medfound
 ms.assetid: 2572c30c-4ae1-42b7-b1f7-6c564d936c60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2572c30c-4ae1-42b7-b1f7-6c564d936c60, MFGetAttributeRatio, MFGetAttributeRatio function [Media Foundation], mf.mfgetattributeratio, mfapi/MFGetAttributeRatio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

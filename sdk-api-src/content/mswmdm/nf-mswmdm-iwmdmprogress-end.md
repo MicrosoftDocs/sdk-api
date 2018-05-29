@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.End
 title: IWMDMProgress::End
-author: windows-driver-content
+author: windows-sdk-content
 description: The End method indicates that an operation is finished.
 old-location: wmdm\iwmdmprogress_end.htm
 old-project: WMDM
 ms.assetid: 0edddd8c-8144-40dc-801c-eb8c899be249
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],End method, IWMDMProgress.End, IWMDMProgress::End, IWMDMProgressEnd, mswmdm/IWMDMProgress::End, wmdm.iwmdmprogress_end
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

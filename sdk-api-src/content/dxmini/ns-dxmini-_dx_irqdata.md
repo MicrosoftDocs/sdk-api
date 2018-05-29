@@ -1,16 +1,16 @@
 ---
 UID: NS:dxmini._DX_IRQDATA
 title: "_DX_IRQDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DX_IRQDATA structure contains the IRQ information supplied by the driver.
 old-location: display\dx_irqdata.htm
 old-project: display
 ms.assetid: 258cfaa3-8de2-45d9-b61b-683cf41c127f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDX_IRQDATA, DX_IRQDATA, DX_IRQDATA structure [Display Devices], PDX_IRQDATA, PDX_IRQDATA structure pointer [Display Devices], _DX_IRQDATA, ddstrcts_abf413a4-709e-4458-930c-93f21c368892.xml, display.dx_irqdata, dxmini/DX_IRQDATA, dxmini/PDX_IRQDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

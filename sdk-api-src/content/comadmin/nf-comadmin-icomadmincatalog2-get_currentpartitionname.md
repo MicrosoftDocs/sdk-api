@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_CurrentPartitionName
 title: ICOMAdminCatalog2::get_CurrentPartitionName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the current partition.
 old-location: cos\icomadmincatalog2_currentpartitionname.htm
 old-project: cossdk
 ms.assetid: 51254edf-420b-42a3-a3b8-a71c23a4cb49
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CurrentPartitionName property [COM+], CurrentPartitionName property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionName property, ICOMAdminCatalog2.CurrentPartitionName, ICOMAdminCatalog2.get_CurrentPartitionName, ICOMAdminCatalog2::CurrentPartitionName, ICOMAdminCatalog2::get_CurrentPartitionName, _cos_IComAdminCatalog2_get_CurrentPartitionName, comadmin/ICOMAdminCatalog2::CurrentPartitionName, comadmin/ICOMAdminCatalog2::get_CurrentPartitionName, cos.icomadmincatalog2_currentpartitionname, get_CurrentPartitionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

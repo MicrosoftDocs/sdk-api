@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.StartPage
 title: StartPage function
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartPage function prepares the printer driver to accept data.
 old-location: gdi\startpage.htm
 old-project: printdocs
 ms.assetid: b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: StartPage, StartPage function [Windows GDI], _win32_StartPage, gdi.startpage, wingdi/StartPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

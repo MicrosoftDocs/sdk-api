@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetOutputConnectorInfo
 title: IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IMILBitmapEffectConnectorInfo associated with the given output pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getoutputconnectorinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: GetOutputConnectorInfo, GetOutputConnectorInfo method [WPF Bitmap Effects], GetOutputConnectorInfo method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetOutputConnectorInfo method, IMILBitmapEffectConnectionsInfo.GetOutputConnectorInfo, IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

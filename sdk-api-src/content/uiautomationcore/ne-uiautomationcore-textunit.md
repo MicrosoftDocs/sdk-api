@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.TextUnit
 title: TextUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify units of text for the purposes of navigation.
 old-location: winauto\uiauto_TextUnitEnum.htm
 old-project: WinAuto
 ms.assetid: 518318fc-d60f-41b7-a6da-1f2bf5c2e494
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TextUnit, TextUnit enumeration [Windows Accessibility], TextUnit_Character, TextUnit_Document, TextUnit_Format, TextUnit_Line, TextUnit_Page, TextUnit_Paragraph, TextUnit_Word, uiauto.uiauto_TextUnitEnum, uiauto_TextUnitEnum, uiautomationcore/TextUnit, uiautomationcore/TextUnit_Character, uiautomationcore/TextUnit_Document, uiautomationcore/TextUnit_Format, uiautomationcore/TextUnit_Line, uiautomationcore/TextUnit_Page, uiautomationcore/TextUnit_Paragraph, uiautomationcore/TextUnit_Word, winauto.uiauto_TextUnitEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

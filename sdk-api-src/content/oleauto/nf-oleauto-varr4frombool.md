@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarR4FromBool
 title: VarR4FromBool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Boolean value to a float value.
 old-location: automat\varr4frombool.htm
 old-project: automat
 ms.assetid: 9070ccdb-8e10-440d-9851-5b596467f7a2
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarR4FromBool, VarR4FromBool function [Automation], _oa96_VarR4FromBool, automat.varr4frombool, oleauto/VarR4FromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

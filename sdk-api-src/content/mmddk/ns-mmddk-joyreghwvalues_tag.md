@@ -1,16 +1,16 @@
 ---
 UID: NS:mmddk.joyreghwvalues_tag
 title: joyreghwvalues_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The JOYREGHWVALUES structure contains the range of values returned by the hardware (filled in by calibration).
 old-location: hid\joyreghwvalues.htm
 old-project: hid
 ms.assetid: cd59611f-7bf2-4bba-80dc-f54c815af3e6
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES structure [Human Input Devices], JOYREGHWVALUES, JOYREGHWVALUES structure [Human Input Devices], di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml, hid.joyreghwvalues, joyreghwvalues_tag, mmddk/FAR *LPJOYREGHWVALUES, mmddk/JOYREGHWVALUES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmddk.h
 req.include-header: 

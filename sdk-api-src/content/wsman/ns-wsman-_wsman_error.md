@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_ERROR
 title: "_WSMAN_ERROR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains error information that is returned by a Windows Remote Management (WinRM) client.
 old-location: winrm\wsman_error_struct.htm
 old-project: WinRM
 ms.assetid: 6705b560-9c72-4cb9-a290-f7c65cd470b2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_ERROR, WSMAN_ERROR structure [Windows Remote Management], _WSMAN_ERROR, winrm.wsman_error_struct, wsman/WSMAN_ERROR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

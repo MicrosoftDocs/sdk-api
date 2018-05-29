@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Enable
 title: IUIAnimationTimer::Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the animation timer.
 old-location: uianimation\iuianimationtimer_enable.htm
 old-project: UIAnimation
 ms.assetid: b2efd694-67ff-4e6e-9a47-d0ce70dbd85a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Enable method, IUIAnimationTimer.Enable, IUIAnimationTimer::Enable, uianimation.iuianimationtimer_enable, uianimation/IUIAnimationTimer::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

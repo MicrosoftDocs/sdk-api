@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Namespace
 title: IWdsTransportContent::get_Namespace
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a pointer to an object of an IWdsTransportNamespace interface that represents the namespace associated with this content.
 old-location: wds\iwdstransportcontent_namespace.htm
 old-project: Wds
 ms.assetid: 8b116f8d-bcbc-4313-9527-07f871e00842
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Namespace property, IWdsTransportContent.Namespace, IWdsTransportContent.get_Namespace, IWdsTransportContent::Namespace, IWdsTransportContent::get_Namespace, Namespace property [Windows Deployment Services], Namespace property [Windows Deployment Services],IWdsTransportContent interface, get_Namespace, wds.iwdstransportcontent_namespace, wdstptmgmt/IWdsTransportContent::Namespace, wdstptmgmt/IWdsTransportContent::get_Namespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

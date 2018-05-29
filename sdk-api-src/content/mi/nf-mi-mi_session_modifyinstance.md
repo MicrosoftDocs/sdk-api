@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Session_ModifyInstance
 title: MI_Session_ModifyInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates an existing instance in the server represented by the session.
 old-location: wmi_v2\mi_session_modifyinstance.htm
 old-project: wmi_v2
 ms.assetid: 4a01ac01-5d47-47ff-a331-6009a5c57204
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Session_ModifyInstance, MI_Session_ModifyInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_ModifyInstance, wmi_v2.mi_session_modifyinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

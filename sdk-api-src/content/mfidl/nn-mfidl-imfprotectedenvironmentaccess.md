@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFProtectedEnvironmentAccess
 title: IMFProtectedEnvironmentAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that allows content protection systems to perform a handshake with the protected environment. This is needed because the CreateFile and DeviceIoControl APIs are not available to Windows Store apps.
 old-location: mf\imfprotectedenvironmentaccess.htm
 old-project: medfound
 ms.assetid: 2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFProtectedEnvironmentAccess, IMFProtectedEnvironmentAccess interface [Media Foundation], IMFProtectedEnvironmentAccess interface [Media Foundation],described, mf.imfprotectedenvironmentaccess, mfidl/IMFProtectedEnvironmentAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsReplicaConsistencyCheck
 title: DsReplicaConsistencyCheck function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the Knowledge Consistency Checker (KCC) to verify the replication topology.
 old-location: ad\dsreplicaconsistencycheck.htm
 old-project: AD
 ms.assetid: 2a83ffcb-1ebd-4024-a186-9c079896f4e1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_KCC_FLAG_ASYNC_OP, DS_KCC_FLAG_DAMPED, DsReplicaConsistencyCheck, DsReplicaConsistencyCheck function [Active Directory], _glines_dsreplicaconsistencycheck, ad.dsreplicaconsistencycheck, ntdsapi/DsReplicaConsistencyCheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

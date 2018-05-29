@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.CreateEnlistment
 title: CreateEnlistment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enlistment, sets its initial state, and opens a handle to the enlistment with the specified access.
 old-location: fs\createenlistment.htm
 old-project: Ktm
 ms.assetid: 7bc06468-947f-48ec-8e58-20df58ed93bd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateEnlistment, CreateEnlistment function [Files], ENLISTMENT_SUPERIOR, fs.createenlistment, ktmw32/CreateEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

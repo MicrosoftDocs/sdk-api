@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptGetCMap
 title: ScriptGetCMap function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the glyph indexes of the Unicode characters in a string according to either the TrueType cmap table or the standard cmap table implemented for old-style fonts.
 old-location: intl\scriptgetcmap.htm
 old-project: Intl
 ms.assetid: 577c356d-a22d-422c-bec7-cfbc228f1066
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SGCM_RTL, ScriptGetCMap, ScriptGetCMap function [Internationalization for Windows Applications], _win32_ScriptGetCMap, intl.scriptgetcmap, usp10/ScriptGetCMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

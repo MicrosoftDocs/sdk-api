@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MF_TOPONODE_FLUSH_MODE
 title: "_MF_TOPONODE_FLUSH_MODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines when a transform in a topology is flushed.
 old-location: mf\mf_toponode_flush_mode.htm
 old-project: medfound
 ms.assetid: e7eec3c1-f4be-4d7f-9d4c-e98a6a05e85a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_TOPONODE_FLUSH_ALWAYS, MF_TOPONODE_FLUSH_MODE, MF_TOPONODE_FLUSH_MODE enumeration [Media Foundation], MF_TOPONODE_FLUSH_NEVER, MF_TOPONODE_FLUSH_SEEK, _MF_TOPONODE_FLUSH_MODE, e7eec3c1-f4be-4d7f-9d4c-e98a6a05e85a, mf.mf_toponode_flush_mode, mfidl/MF_TOPONODE_FLUSH_ALWAYS, mfidl/MF_TOPONODE_FLUSH_MODE, mfidl/MF_TOPONODE_FLUSH_NEVER, mfidl/MF_TOPONODE_FLUSH_SEEK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

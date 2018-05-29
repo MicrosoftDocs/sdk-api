@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.GetBorder
 title: IOleInPlaceUIWindow::GetBorder
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the outer rectange for toolbars and controls while the object is active in place.
 old-location: com\ioleinplaceuiwindow_getborder.htm
 old-project: com
 ms.assetid: 9ee9970a-b937-4538-b3b8-460647086db1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBorder, GetBorder method [COM], GetBorder method [COM],IOleInPlaceUIWindow interface, IOleInPlaceUIWindow interface [COM],GetBorder method, IOleInPlaceUIWindow.GetBorder, IOleInPlaceUIWindow::GetBorder, _ole_ioleinplaceuiwindow_getborder, com.ioleinplaceuiwindow_getborder, oleidl/IOleInPlaceUIWindow::GetBorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

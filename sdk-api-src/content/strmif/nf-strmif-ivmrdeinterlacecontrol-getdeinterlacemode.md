@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetDeinterlaceMode
 title: IVMRDeinterlaceControl::GetDeinterlaceMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDeinterlaceMode method retrieves the deinterlacing mode for the specified video stream.
 old-location: dshow\ivmrdeinterlacecontrol_getdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: 558b4902-596a-45f9-ad95-f8e868ba4a30
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlaceMode method, IVMRDeinterlaceControl.GetDeinterlaceMode, IVMRDeinterlaceControl::GetDeinterlaceMode, IVMRDeinterlaceControlGetDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getdeinterlacemode, strmif/IVMRDeinterlaceControl::GetDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

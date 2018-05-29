@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.PutInstance(IWbemClassObject,long,MethodContext)
 title: Provider::PutInstance(IWbemClassObject,long,MethodContext)
-author: windows-driver-content
+author: windows-sdk-content
 description: The PutInstance method updates an instance.
 old-location: wmi\provider_putinstance.htm
 old-project: WmiSdk
 ms.assetid: c9921a00-b966-47d0-a2f3-982812ab249c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],PutInstance method, Provider.PutInstance, Provider.PutInstance(IWbemClassObject,long,MethodContext), Provider::PutInstance, Provider::PutInstance(IWbemClassObject,long,MethodContext), PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],Provider interface, _hmm_provider_putinstance, provider/Provider::PutInstance, wmi.provider_putinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

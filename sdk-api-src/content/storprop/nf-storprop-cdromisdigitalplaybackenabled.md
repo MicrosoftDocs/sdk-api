@@ -1,16 +1,16 @@
 ---
 UID: NF:storprop.CdromIsDigitalPlaybackEnabled
 title: CdromIsDigitalPlaybackEnabled function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether digital playback is enabled for the specified CD-ROM or DVD drive.
 old-location: base\cdromisdigitalplaybackenabled.htm
 old-project: DevIO
 ms.assetid: 17d1ccc6-a552-434f-84f5-471455e97dc2
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: storprop.h
 req.include-header: 

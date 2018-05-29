@@ -1,16 +1,16 @@
 ---
 UID: NF:wscapi.WscGetSecurityProviderHealth
 title: WscGetSecurityProviderHealth function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the aggregate health state of the security provider categories represented by the specified WSC_SECURITY_PROVIDER enumeration values.
 old-location: winprog\wscgetsecurityproviderhealth.htm
 old-project: DevNotes
 ms.assetid: 1193eba3-a01b-4ee3-a83d-25dcdbc15de0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wscapi.h
 req.include-header: 

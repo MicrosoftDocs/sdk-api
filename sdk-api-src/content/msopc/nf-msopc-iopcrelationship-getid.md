@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetId
 title: IOpcRelationship::GetId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the unique identifier of the relationship.
 old-location: opc\iopcrelationship_getid.htm
 old-project: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetId method, IOpcRelationship.GetId, IOpcRelationship::GetId, msopc/IOpcRelationship::GetId, opc.iopcrelationship_getid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

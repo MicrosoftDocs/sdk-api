@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_ENUM_DESCRIPTION
 title: "_WS_ENUM_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: A type description that is used with WS_ENUM_TYPE and is required. It provides information used in serializing and deserializing values of an enumeration.
 old-location: wsw\ws_enum_description.htm
 old-project: wsw
 ms.assetid: cf7c9254-c806-4ada-8852-beb6be5e81d9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ENUM_DESCRIPTION, WS_ENUM_DESCRIPTION structure [Web Services for Windows], _WS_ENUM_DESCRIPTION, webservices/WS_ENUM_DESCRIPTION, wsw.ws_enum_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_STRONG_SIGN_SERIALIZED_INFO
 title: "_CERT_STRONG_SIGN_SERIALIZED_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.
 old-location: security\cert_strong_sign_serialized_info.htm
 old-project: SecCrypto
 ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_ENABLE_CRL_CHECK, CERT_STRONG_SIGN_ENABLE_OCSP_CHECK, CERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security], PCERT_STRONG_SIGN_SERIALIZED_INFO, PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security], _CERT_STRONG_SIGN_SERIALIZED_INFO, security.cert_strong_sign_serialized_info, wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO, wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

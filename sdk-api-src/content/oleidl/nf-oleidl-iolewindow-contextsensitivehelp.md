@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleWindow.ContextSensitiveHelp
 title: IOleWindow::ContextSensitiveHelp
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether context-sensitive help mode should be entered during an in-place activation session.
 old-location: com\iolewindow_contextsensitivehelp.htm
 old-project: com
 ms.assetid: 253f26c6-b5dd-4837-9135-96e11b4688c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [COM], ContextSensitiveHelp method [COM],IOleWindow interface, IOleInPlaceSiteWindowless.ContextSensitiveHelp, IOleWindow interface [COM],ContextSensitiveHelp method, IOleWindow.ContextSensitiveHelp, IOleWindow::ContextSensitiveHelp, _ole_iolewindow_contextsensitivehelp, com.iolewindow_contextsensitivehelp, oleidl/IOleWindow::ContextSensitiveHelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndClose
 title: MCIWndClose macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndClose macro closes an MCI device or file associated with an MCIWnd window.
 old-location: multimedia\mciwndclose.htm
 old-project: Multimedia
 ms.assetid: f0adc980-c7f6-4937-b844-f65b98047e84
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndClose, MCIWndClose macro [Windows Multimedia], _win32_MCIWndClose, multimedia.mciwndclose, vfw/MCIWndClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

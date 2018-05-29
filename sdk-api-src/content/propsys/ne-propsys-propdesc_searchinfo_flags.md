@@ -1,16 +1,16 @@
 ---
 UID: NE:propsys.PROPDESC_SEARCHINFO_FLAGS
 title: PROPDESC_SEARCHINFO_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether and how a property is indexed by Windows Search.
 old-location: properties\PROPDESC_SEARCHINFO_FLAGS.htm
 old-project: properties
 ms.assetid: 49e858e3-0231-45ce-a5a8-a1c4536577a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PDSIF_ALWAYSINCLUDE, PDSIF_DEFAULT, PDSIF_ININVERTEDINDEX, PDSIF_ISCOLUMN, PDSIF_ISCOLUMNSPARSE, PDSIF_USEFORTYPEAHEAD, PROPDESC_SEARCHINFO_FLAGS, PROPDESC_SEARCHINFO_FLAGS enumeration [Windows Properties], _shell_PROPDESC_SEARCHINFO_FLAGS, properties.PROPDESC_SEARCHINFO_FLAGS, propsys/PDSIF_ALWAYSINCLUDE, propsys/PDSIF_DEFAULT, propsys/PDSIF_ININVERTEDINDEX, propsys/PDSIF_ISCOLUMN, propsys/PDSIF_ISCOLUMNSPARSE, propsys/PDSIF_USEFORTYPEAHEAD, propsys/PROPDESC_SEARCHINFO_FLAGS, shell.PROPDESC_SEARCHINFO_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 

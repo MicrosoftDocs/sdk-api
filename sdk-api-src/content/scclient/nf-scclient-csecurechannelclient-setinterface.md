@@ -1,16 +1,16 @@
 ---
 UID: NF:scclient.CSecureChannelClient.SetInterface
 title: CSecureChannelClient::SetInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetInterface method is used by applications to set the IComponentAuthenticate interface to use for Secure Authenticated Channel (SAC) operations.
 old-location: wmdm\csecurechannelclient_setinterface.htm
 old-project: WMDM
 ms.assetid: b1af8f10-7bad-4f85-89f1-b983af6d4dc9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetInterface method, CSecureChannelClient.SetInterface, CSecureChannelClient::SetInterface, CSecureChannelClientSetInterface, SetInterface, SetInterface method [windows Media Device Manager], SetInterface method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetInterface, wmdm.csecurechannelclient_setinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

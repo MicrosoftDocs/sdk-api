@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.DisableWdsTransportServices
 title: IWdsTransportConfigurationManager::DisableWdsTransportServices
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets all WDS transport services to Disabled mode.
 old-location: wds\iwdstransportconfigurationmanager_disablewdstransportservices.htm
 old-project: Wds
 ms.assetid: 46ded55b-f371-405a-bfcd-c361ac6fb5bd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DisableWdsTransportServices, DisableWdsTransportServices method [Windows Deployment Services], DisableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DisableWdsTransportServices method, IWdsTransportConfigurationManager.DisableWdsTransportServices, IWdsTransportConfigurationManager::DisableWdsTransportServices, wds.iwdstransportconfigurationmanager_disablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::DisableWdsTransportServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

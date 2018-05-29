@@ -1,16 +1,16 @@
 ---
 UID: NF:errorrep.ReportFault
 title: ReportFault function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application that performs its own exception handling to report faults to Microsoft.
 old-location: wer\reportfault.htm
 old-project: wer
 ms.assetid: 9f7c2abc-4d9a-4f3b-a540-e4546ed709de
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: errorrep.h
 req.include-header: 

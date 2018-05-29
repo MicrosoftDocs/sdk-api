@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.InsertAt
 title: IXpsOMPartUriCollection::InsertAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts an IOpcPartUri interface pointer at a specified location in the collection.
 old-location: xps\ixpsomparturicollection_insertat.htm
 old-project: printdocs
 ms.assetid: 672e3cc7-ac25-4d9d-9983-66cf6d26f574
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPartUriCollection.InsertAt, IXpsOMPartUriCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_insertat, xpsobjectmodel/IXpsOMPartUriCollection::InsertAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

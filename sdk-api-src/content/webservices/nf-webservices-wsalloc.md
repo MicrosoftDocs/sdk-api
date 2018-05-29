@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAlloc
 title: WsAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a segment of memory from the specified heap.
 old-location: wsw\wsalloc.htm
 old-project: wsw
 ms.assetid: 633b6a11-09ba-48a7-a1ad-940846c65d79
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAlloc, WsAlloc function [Web Services for Windows], webservices/WsAlloc, wsw.wsalloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

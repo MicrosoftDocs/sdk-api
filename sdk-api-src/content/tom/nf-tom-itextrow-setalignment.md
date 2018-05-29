@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.SetAlignment
 title: ITextRow::SetAlignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the horizontal alignment of a row.
 old-location: controls\itextrow_setalignment.htm
 old-project: Controls
 ms.assetid: bfcc900d-2bec-4314-a2c5-09f55e27a626
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetAlignment method, ITextRow.SetAlignment, ITextRow::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setalignment, tom/ITextRow::SetAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

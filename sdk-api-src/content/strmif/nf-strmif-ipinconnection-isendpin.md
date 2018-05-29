@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPinConnection.IsEndPin
 title: IPinConnection::IsEndPin
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsEndPin method indicates whether a reconnection search should end at this pin.
 old-location: dshow\ipinconnection_isendpin.htm
 old-project: DirectShow
 ms.assetid: e078c952-2c3b-48cd-a898-ac2de9fc359a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPinConnection interface [DirectShow],IsEndPin method, IPinConnection.IsEndPin, IPinConnection::IsEndPin, IPinConnectionIsEndPin, IsEndPin, IsEndPin method [DirectShow], IsEndPin method [DirectShow],IPinConnection interface, dshow.ipinconnection_isendpin, strmif/IPinConnection::IsEndPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

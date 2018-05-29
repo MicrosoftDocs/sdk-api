@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_HTTP_REDIRECT_CALLBACK
 title: WS_HTTP_REDIRECT_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked when a message is about to be automatically redirected to another service utilizing HTTP auto redirect functionality as described in RFC2616.
 old-location: wsw\ws_http_redirect_callback.htm
 old-project: wsw
 ms.assetid: 14bd68f9-1b0d-4667-823a-afb159d7dc80
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_REDIRECT_CALLBACK, WS_HTTP_REDIRECT_CALLBACK callback, WS_HTTP_REDIRECT_CALLBACK callback function [Web Services for Windows], webservices/WS_HTTP_REDIRECT_CALLBACK, wsw.ws_http_redirect_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Add
 title: IInkCustomStrokes::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an InkStrokes collection to an IInkCustomStrokes collection.
 old-location: tablet\iinkcustomstrokes_add.htm
 old-project: tablet
 ms.assetid: 482906b2-131e-4baa-8ed7-c11f79f05e4b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 482906b2-131e-4baa-8ed7-c11f79f05e4b, Add, Add method [Tablet PC], Add method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Add method, IInkCustomStrokes.Add, IInkCustomStrokes::Add, msinkaut/IInkCustomStrokes::Add, tablet.iinkcustomstrokes_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

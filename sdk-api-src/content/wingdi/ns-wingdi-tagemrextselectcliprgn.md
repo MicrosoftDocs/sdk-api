@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMREXTSELECTCLIPRGN
 title: tagEMREXTSELECTCLIPRGN
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMREXTSELECTCLIPRGN structure contains members for the ExtSelectClipRgn enhanced metafile record.
 old-location: gdi\emrextselectcliprgn.htm
 old-project: gdi
 ms.assetid: fcfa0ae1-06e0-4313-9140-496aa4eec9da
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN structure [Windows GDI], PEMREXTSELECTCLIPRGN, PEMREXTSELECTCLIPRGN structure pointer [Windows GDI], _win32_EMREXTSELECTCLIPRGN_str, gdi.emrextselectcliprgn, tagEMREXTSELECTCLIPRGN, wingdi/EMREXTSELECTCLIPRGN, wingdi/PEMREXTSELECTCLIPRGN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

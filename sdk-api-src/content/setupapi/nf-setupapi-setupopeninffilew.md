@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupOpenInfFileW
 title: SetupOpenInfFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupOpenInfFile function opens an INF file and returns a handle to it.
 old-location: setup\setupopeninffile.htm
 old-project: SetupApi
 ms.assetid: a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupOpenInfFile, SetupOpenInfFile function [Setup API], SetupOpenInfFileA, SetupOpenInfFileW, _setupapi_setupopeninffile, setup.setupopeninffile, setupapi/SetupOpenInfFile, setupapi/SetupOpenInfFileA, setupapi/SetupOpenInfFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

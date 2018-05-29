@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheMoved
 title: IOfflineFilesEvents::CacheMoved
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cachemoved.htm
 old-project: OfflineFiles
 ms.assetid: 73d9bb7b-4844-4d7c-9e50-8d63727f5309
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CacheMoved, CacheMoved method [Offline Files], CacheMoved method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheMoved method, IOfflineFilesEvents.CacheMoved, IOfflineFilesEvents::CacheMoved, cscobj/IOfflineFilesEvents::CacheMoved, of.iofflinefilesevents_cachemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

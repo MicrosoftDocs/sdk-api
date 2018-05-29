@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHmenuPropStr
 title: IAccPropServices::SetHmenuPropStr
-author: windows-driver-content
+author: windows-sdk-content
 description: This method wraps SetPropValue, providing a more convenient entry point for callers who are annotating HMENU-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__sethmenupropstr.htm
 old-project: WinAuto
 ms.assetid: 891af40a-819b-4fce-a1bb-28db145b87f1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHmenuPropStr method, IAccPropServices.SetHmenuPropStr, IAccPropServices::SetHmenuPropStr, SetHmenuPropStr, SetHmenuPropStr method [Windows Accessibility], SetHmenuPropStr method [Windows Accessibility],IAccPropServices interface, oleacc/IAccPropServices::SetHmenuPropStr, winauto.iaccpropservices_iaccpropservices__sethmenupropstr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsDiskPartitionMF2
 title: IVdsDiskPartitionMF2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method to format a partition with additional formatting options.
 old-location: base\ivdsdiskpartitionmf2.htm
 old-project: VDS
 ms.assetid: 94a8ef66-3daf-46d4-be5f-dd56739c773a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsDiskPartitionMF2, IVdsDiskPartitionMF2 interface, IVdsDiskPartitionMF2 interface,described, base.ivdsdiskpartitionmf2, vds/IVdsDiskPartitionMF2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

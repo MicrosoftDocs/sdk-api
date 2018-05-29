@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_CCCounter
 title: IMSVidStreamBufferSink3::get_CCCounter
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_cccounter.htm
 old-project: mstv
 ms.assetid: 76c3e3e5-521a-40d3-98b9-c5a757fc2bec
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_CCCounter method, IMSVidStreamBufferSink3.get_CCCounter, IMSVidStreamBufferSink3::get_CCCounter, IMSVidStreamBufferSink3get_CCCounter, get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_cccounter, segment/IMSVidStreamBufferSink3::get_CCCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

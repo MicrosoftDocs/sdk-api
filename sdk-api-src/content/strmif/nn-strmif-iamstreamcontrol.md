@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMStreamControl
 title: IAMStreamControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMStreamControl interface controls individual streams on a filter.
 old-location: dshow\iamstreamcontrol.htm
 old-project: DirectShow
 ms.assetid: 126c7ed7-acc0-4248-a3ab-c91c9f1c5cee
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxDisplayLockedNotice
 title: WlxDisplayLockedNotice function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.
 old-location: security\wlxdisplaylockednotice.htm
 old-project: SecAuthN
 ms.assetid: f8209ac4-e79b-4997-8dc3-c9224e10822b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WlxDisplayLockedNotice, WlxDisplayLockedNotice function [Security], _gina_wlxdisplaylockednotice, security.wlxdisplaylockednotice, winwlx/WlxDisplayLockedNotice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

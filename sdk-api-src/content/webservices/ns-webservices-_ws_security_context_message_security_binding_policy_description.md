@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
 title: "_WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.
 old-location: wsw\ws_security_context_message_security_binding_policy_description.htm
 old-project: wsw
 ms.assetid: 6727d9d5-9c8c-41f9-90f2-e82ecf309d98
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_security_context_message_security_binding_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.Collapse
 title: ITextRange::Collapse
-author: windows-driver-content
+author: windows-sdk-content
 description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.
 old-location: controls\ITextRange_Collapse.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\collapse.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Collapse, Collapse method [Windows Controls], Collapse method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Collapse method, ITextRange.Collapse, ITextRange::Collapse, _win32_ITextRange_Collapse, _win32_ITextRange_Collapse_cpp, controls.ITextRange_Collapse, controls._win32_ITextRange_Collapse, tom/ITextRange::Collapse, tomEnd or tomFalse, tomStart or tomTrue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

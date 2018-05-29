@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_TransmissionMode
 title: IBDA_DigitalDemodulator2::get_TransmissionMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the demodulator's transmission mode.
 old-location: mstv\ibda_digitaldemodulator2_get_transmissionmode.htm
 old-project: mstv
 ms.assetid: b5722904-24a4-491f-8563-bfb2d5695d86
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_TransmissionMode method, IBDA_DigitalDemodulator2.get_TransmissionMode, IBDA_DigitalDemodulator2::get_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::get_TransmissionMode, get_TransmissionMode, get_TransmissionMode method [Microsoft TV Technologies], get_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_transmissionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRule.put_Enabled
 title: INetFwRule::put_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables a rule.
 old-location: ics\inetfwrule_enabled.htm
 old-project: ICS
 ms.assetid: 42533aca-3273-46fa-a9a1-add7f9fde351
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Enabled property, INetFwRule.Enabled, INetFwRule.put_Enabled, INetFwRule::Enabled, INetFwRule::get_Enabled, INetFwRule::put_Enabled, ics.inetfwrule_enabled, netfw/INetFwRule::Enabled, netfw/INetFwRule::get_Enabled, netfw/INetFwRule::put_Enabled, put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

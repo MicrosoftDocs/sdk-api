@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IGraphConfig.SetFilterFlags
 title: IGraphConfig::SetFilterFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetFilterFlags method sets a filter's configuration information.
 old-location: dshow\igraphconfig_setfilterflags.htm
 old-project: DirectShow
 ms.assetid: 1f2ed50e-8bb9-4076-ad0e-a7311acb8285
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGraphConfig interface [DirectShow],SetFilterFlags method, IGraphConfig.SetFilterFlags, IGraphConfig::SetFilterFlags, IGraphConfigSetFilterFlags, SetFilterFlags, SetFilterFlags method [DirectShow], SetFilterFlags method [DirectShow],IGraphConfig interface, dshow.igraphconfig_setfilterflags, strmif/IGraphConfig::SetFilterFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

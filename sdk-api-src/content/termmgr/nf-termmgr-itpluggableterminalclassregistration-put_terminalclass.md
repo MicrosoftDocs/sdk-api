@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_TerminalClass
 title: ITPluggableTerminalClassRegistration::put_TerminalClass
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_TerminalClass method sets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassregistration_put_terminalclass.htm
 old-project: Tapi
 ms.assetid: 257adef8-f578-4c8c-9fe9-df59572b7f6e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_TerminalClass method, ITPluggableTerminalClassRegistration.put_TerminalClass, ITPluggableTerminalClassRegistration::put_TerminalClass, _tapi3_itpluggableterminalclassregistration_put_terminalclass, put_TerminalClass, put_TerminalClass method [TAPI 2.2], put_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_terminalclass, termmgr/ITPluggableTerminalClassRegistration::put_TerminalClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

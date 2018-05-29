@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegSetPathW
 title: SHRegSetPathW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry.
 old-location: shell\SHRegSetPath.htm
 old-project: shell
 ms.assetid: 3ee6ec69-5d16-4bdd-a591-651af05bf944
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRegSetPath, SHRegSetPath function [Windows Shell], SHRegSetPathA, SHRegSetPathW, _win32_SHRegSetPath, shell.SHRegSetPath, shlwapi/SHRegSetPath, shlwapi/SHRegSetPathA, shlwapi/SHRegSetPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

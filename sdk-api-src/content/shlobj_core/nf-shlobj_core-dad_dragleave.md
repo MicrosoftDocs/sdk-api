@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.DAD_DragLeave
 title: DAD_DragLeave function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks the window locked by the DAD_DragEnterEx function.
 old-location: shell\DAD_DragLeave.htm
 old-project: shell
 ms.assetid: 5b2b8f04-c746-48d0-9fca-eda2c6b9ff2a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DAD_DragLeave, DAD_DragLeave function [Windows Shell], shell.DAD_DragLeave, shell_DAD_DragLeave, shlobj_core/DAD_DragLeave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

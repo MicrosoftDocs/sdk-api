@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetVisibleItem
 title: IFolderView2::GetVisibleItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the next visible item in relation to a given index in the view.
 old-location: shell\IFolderView2_GetVisibleItem.htm
 old-project: shell
 ms.assetid: 5b196377-53c4-49a1-be35-39d34b1638e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVisibleItem, GetVisibleItem method [Windows Shell], GetVisibleItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetVisibleItem method, IFolderView2.GetVisibleItem, IFolderView2::GetVisibleItem, _shell_IFolderView2_GetVisibleItem, shell.IFolderView2_GetVisibleItem, shobjidl_core/IFolderView2::GetVisibleItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

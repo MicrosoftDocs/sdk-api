@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._MAT2
 title: "_MAT2"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MAT2 structure contains the values for a transformation matrix used by the GetGlyphOutline function.
 old-location: gdi\mat2.htm
 old-project: gdi
 ms.assetid: 841883d6-bc4d-46ef-abf4-f179771d255b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPMAT2, LPMAT2, LPMAT2 structure pointer [Windows GDI], MAT2, MAT2 structure [Windows GDI], _MAT2, _win32_MAT2_str, gdi.mat2, wingdi/LPMAT2, wingdi/MAT2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

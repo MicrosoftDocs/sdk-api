@@ -1,16 +1,16 @@
 ---
 UID: NE:imapi2._IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
 title: "_IMAPI_CD_TRACK_DIGITAL_COPY_SETTING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the digital copy setting values available for a given track.
 old-location: imapi\imapi_cd_track_digital_copy_setting.htm
 old-project: imapi
 ms.assetid: 6bc38584-2e44-4c1a-b5bb-a91c0ffe7e6b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PIMAPI_CD_TRACK_DIGITAL_COPY_SETTING, IMAPI_CD_TRACK_DIGITAL_COPY_PERMITTED, IMAPI_CD_TRACK_DIGITAL_COPY_PROHIBITED, IMAPI_CD_TRACK_DIGITAL_COPY_SCMS, IMAPI_CD_TRACK_DIGITAL_COPY_SETTING, IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration [IMAPI], _IMAPI_CD_TRACK_DIGITAL_COPY_SETTING, imapi.imapi_cd_track_digital_copy_setting, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_PERMITTED, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_PROHIBITED, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_SCMS, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_SETTING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 

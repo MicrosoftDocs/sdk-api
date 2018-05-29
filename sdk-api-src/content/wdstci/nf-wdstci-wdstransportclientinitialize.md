@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstci.WdsTransportClientInitialize
 title: WdsTransportClientInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the Multicast Client.
 old-location: wds\wdstransportclientinitialize.htm
 old-project: Wds
 ms.assetid: 6494a155-61de-40bd-a29a-79134da96bbe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportClientInitialize, WdsTransportClientInitialize function [Windows Deployment Services], wds.wdstransportclientinitialize, wdstci/WdsTransportClientInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 

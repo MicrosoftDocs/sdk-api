@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsSyntax
 title: IADsSyntax
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsSyntax interface specifies methods to identify and modify the available Automation data types used to represent its data.
 old-location: adsi\iadssyntax.htm
 old-project: ADSI
 ms.assetid: 1ff8703f-b89d-435d-81af-e5c9a2dc01e2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsSyntax, IADsSyntax interface [ADSI], IADsSyntax interface [ADSI],described, _ds_iadssyntax, adsi.iadssyntax, iads/IADsSyntax
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

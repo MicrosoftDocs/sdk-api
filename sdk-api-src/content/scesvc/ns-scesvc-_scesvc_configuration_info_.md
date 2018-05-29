@@ -1,16 +1,16 @@
 ---
 UID: NS:scesvc._SCESVC_CONFIGURATION_INFO_
 title: "_SCESVC_CONFIGURATION_INFO_"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_INFO structure provides configuration information for a service. This structure is used by the PFSCE_QUERY_INFO and PFSCE_SET_INFO functions when the configuration information is specified.
 old-location: security\scesvc_configuration_info.htm
 old-project: SecMgmt
 ms.assetid: a89ab072-7b7c-4ecd-83fa-26e2689778df
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO structure pointer [Security], SCESVC_CONFIGURATION_INFO, SCESVC_CONFIGURATION_INFO structure [Security], _SCESVC_CONFIGURATION_INFO_, _config_scesvc_configuration_info, scesvc/PSCESVC_CONFIGURATION_INFO, scesvc/SCESVC_CONFIGURATION_INFO, security.scesvc_configuration_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 

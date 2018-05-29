@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.ResetEx
 title: IDirect3DDevice9Ex::ResetEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the type, size, and format of the swap chain with all other surfaces persistent.
 old-location: direct3d9\idirect3ddevice9ex_resetex.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_resetex.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],ResetEx method, IDirect3DDevice9Ex.ResetEx, IDirect3DDevice9Ex::ResetEx, ResetEx, ResetEx method [Direct3D 9], ResetEx method [Direct3D 9],IDirect3DDevice9Ex interface, a1ff1bc9-55df-22e8-e64e-5ba6de2759f4, d3d9/IDirect3DDevice9Ex::ResetEx, direct3d9.idirect3ddevice9ex_resetex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

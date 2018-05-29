@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqRemovePeriodicCallback
 title: RtwqRemovePeriodicCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a callback function that was set by the RtwqAddPeriodicCallback function.
 old-location: base\rtwqremoveperiodiccallback.htm
 old-project: ProcThread
 ms.assetid: 308910e3-dae8-4f23-9782-adf2996a58aa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqRemovePeriodicCallback, RtwqRemovePeriodicCallback function, base.rtwqremoveperiodiccallback, rtworkq/RtwqRemovePeriodicCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

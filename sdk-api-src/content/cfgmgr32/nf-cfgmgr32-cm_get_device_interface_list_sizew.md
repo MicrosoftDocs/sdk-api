@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_List_SizeW
 title: CM_Get_Device_Interface_List_SizeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function.
 old-location: devinst\cm_get_device_interface_list_size.htm
 old-project: devinst
 ms.assetid: f3e1ceb7-9812-4339-889f-dade2efb3998
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES, CM_GET_DEVICE_INTERFACE_LIST_PRESENT, CM_Get_Device_Interface_List_Size, CM_Get_Device_Interface_List_Size function [Device and Driver Installation], CM_Get_Device_Interface_List_SizeA, CM_Get_Device_Interface_List_SizeW, cfgmgr32/CM_Get_Device_Interface_List_Size, cfgmgr32/CM_Get_Device_Interface_List_SizeA, cfgmgr32/CM_Get_Device_Interface_List_SizeW, cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml, devinst.cm_get_device_interface_list_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

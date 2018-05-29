@@ -1,16 +1,16 @@
 ---
 UID: NS:lsalookup._LSA_TRUST_INFORMATION
 title: "_LSA_TRUST_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a domain.
 old-location: security\lsa_trust_information.htm
 old-project: SecMgmt
 ms.assetid: 2b5e6f79-b97a-4018-a45a-37c300c3dc0d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PLSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION structure [Security], PLSA_TRUST_INFORMATION, PLSA_TRUST_INFORMATION structure pointer [Security], _LSA_TRUST_INFORMATION, _lsa_lsa_trust_information, lsalookup/LSA_TRUST_INFORMATION, lsalookup/PLSA_TRUST_INFORMATION, security.lsa_trust_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
@@ -67,6 +67,19 @@ An
 ### -field Sid
 
 Pointer to the SID of the domain.
+
+
+## -remarks
+
+
+
+
+<a href="https://msdn.microsoft.com/9363fb34-4eb8-4811-a421-7ed16820eabc">TRUSTED_DOMAIN_INFORMATION_BASIC</a> is an alias for this structure.
+
+The <a href="https://msdn.microsoft.com/9363fb34-4eb8-4811-a421-7ed16820eabc">TRUSTED_DOMAIN_INFORMATION_BASIC</a> structure identifies a domain. This structure is used by the 
+<a href="https://msdn.microsoft.com/62925515-a6f3-4b5f-bf97-edb968af19a3">LsaQueryTrustedDomainInfo</a> function when its <i>InformationClass</i> parameter is set to <b>TrustedDomainInformationBasic</b>.
+
+
 
 
 ## -see-also

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetAddressIDW
 title: lineGetAddressIDW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line.
 old-location: tapi2\linegetaddressid.htm
 old-project: Tapi
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetaddressid, lineGetAddressID, lineGetAddressID function [TAPI 2.2], lineGetAddressIDA, lineGetAddressIDW, tapi/lineGetAddressID, tapi/lineGetAddressIDA, tapi/lineGetAddressIDW, tapi2.linegetaddressid"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetSubEntryPropertiesW
 title: RasGetSubEntryPropertiesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry.
 old-location: rras\rasgetsubentryproperties.htm
 old-project: RRAS
 ms.assetid: 6efe7824-54a1-491c-a568-21e23e98ed46
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasGetSubEntryProperties, RasGetSubEntryProperties function [RAS], RasGetSubEntryPropertiesA, RasGetSubEntryPropertiesW, _ras_rasgetsubentryproperties, ras/RasGetSubEntryProperties, ras/RasGetSubEntryPropertiesA, ras/RasGetSubEntryPropertiesW, rras.rasgetsubentryproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

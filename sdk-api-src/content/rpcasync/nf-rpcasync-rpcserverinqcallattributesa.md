@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcServerInqCallAttributesA
 title: RpcServerInqCallAttributesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes.
 old-location: rpc\rpcserverinqcallattributes.htm
 old-project: Rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RPC], RpcServerInqCallAttributesA, RpcServerInqCallAttributesW, _rpc_rpcserverinqcallattributes, rpc.rpcserverinqcallattributes, rpcasync/RpcServerInqCallAttributes, rpcasync/RpcServerInqCallAttributesA, rpcasync/RpcServerInqCallAttributesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

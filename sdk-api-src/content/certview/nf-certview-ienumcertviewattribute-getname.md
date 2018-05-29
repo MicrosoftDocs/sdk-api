@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.GetName
 title: IEnumCERTVIEWATTRIBUTE::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the current attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_getname.htm
 old-project: SecCrypto
 ms.assetid: c2409bf1-0571-479e-8499-010d52cfb776
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetName method, IEnumCERTVIEWATTRIBUTE.GetName, IEnumCERTVIEWATTRIBUTE::GetName, _certsrv_ienumcertviewattribute_getname, certview/IEnumCERTVIEWATTRIBUTE::GetName, security.ienumcertviewattribute_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

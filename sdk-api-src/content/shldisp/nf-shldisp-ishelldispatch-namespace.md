@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.NameSpace
 title: IShellDispatch::NameSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and returns a Folder object for the specified folder.
 old-location: shell\IShellDispatch_NameSpace.htm
 old-project: shell
 ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],NameSpace method, IShellDispatch.NameSpace, IShellDispatch::NameSpace, NameSpace, NameSpace method [Windows Shell], NameSpace method [Windows Shell],IShellDispatch object, shell.IShellDispatch_NameSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

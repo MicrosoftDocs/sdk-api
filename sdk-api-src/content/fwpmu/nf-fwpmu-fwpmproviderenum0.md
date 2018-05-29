@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderEnum0
 title: FwpmProviderEnum0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next page of results from the provider enumerator.
 old-location: fwp\fwpmproviderenum0_func.htm
 old-project: FWP
 ms.assetid: 7c178688-64f4-49a9-907c-890f7d5030be
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderEnum0, FwpmProviderEnum0 function [Filtering], fwp.fwpmproviderenum0_func, fwpmu/FwpmProviderEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

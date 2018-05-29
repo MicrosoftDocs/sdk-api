@@ -1,16 +1,16 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetNumberOfApps
 title: IAppPublisher::GetNumberOfApps
-author: windows-driver-content
+author: windows-sdk-content
 description: Obsolete. Clients of Add/Remove Programs Control Panel Application can return E_NOTIMPL.
 old-location: shell\IAppPublisher_GetNumberOfApps.htm
 old-project: shell
 ms.assetid: 175beedc-49fa-42a3-aee1-ed2f254bfbb4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNumberOfApps, GetNumberOfApps method [Windows Shell], GetNumberOfApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetNumberOfApps method, IAppPublisher.GetNumberOfApps, IAppPublisher::GetNumberOfApps, inet_IAppPublisher_GetNumberOfApps, shappmgr/IAppPublisher::GetNumberOfApps, shell.IAppPublisher_GetNumberOfApps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 

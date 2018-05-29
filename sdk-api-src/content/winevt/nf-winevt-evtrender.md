@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtRender
 title: EvtRender function
-author: windows-driver-content
+author: windows-sdk-content
 description: Renders an XML fragment based on the rendering context that you specify.
 old-location: wes\evtrender.htm
 old-project: WES
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

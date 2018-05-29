@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocCount
 title: ITocParser::GetTocCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTocCount method retrieves the number of tables of contents, of a specified position type, in the TOC Parser object.
 old-location: mf\itocparser_gettoccount.htm
 old-project: medfound
 ms.assetid: 8ad80a20-cadb-4a0d-a39e-b627324df425
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTocCount, GetTocCount method [Media Foundation], GetTocCount method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocCount method, ITocParser.GetTocCount, ITocParser::GetTocCount, codecapi.itocparser_gettoccount, mf.itocparser_gettoccount, wmcodecdsp/ITocParser::GetTocCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

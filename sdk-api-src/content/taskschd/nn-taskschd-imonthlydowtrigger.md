@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IMonthlyDOWTrigger
 title: IMonthlyDOWTrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a trigger that starts a task on a monthly day-of-week schedule.
 old-location: taskschd\imonthlydowtrigger.htm
 old-project: TaskSchd
 ms.assetid: a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], IMonthlyDOWTrigger interface [Task Scheduler],described, monthly DOW trigger [Task Scheduler], taskschd.imonthlydowtrigger, taskschd/IMonthlyDOWTrigger, triggers [Task Scheduler],types,monthly DOW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

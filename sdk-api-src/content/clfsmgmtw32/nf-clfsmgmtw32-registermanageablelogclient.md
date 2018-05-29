@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsmgmtw32.RegisterManageableLogClient
 title: RegisterManageableLogClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a client with the log manager. A client can specify whether to receive notifications by using callbacks, or have the notifications queued for retrieval by using ReadLogNotification.
 old-location: fs\registermanageablelogclient.htm
 old-project: Clfs
 ms.assetid: ca7969a1-e391-4e3f-96a8-5fb23c400d7e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: RegisterManageableLogClient, RegisterManageableLogClient function [Files], clfsmgmtw32/RegisterManageableLogClient, fs.registermanageablelogclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

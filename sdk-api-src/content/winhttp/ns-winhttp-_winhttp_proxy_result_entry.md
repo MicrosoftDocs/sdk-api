@@ -1,16 +1,16 @@
 ---
 UID: NS:winhttp._WINHTTP_PROXY_RESULT_ENTRY
 title: "_WINHTTP_PROXY_RESULT_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WINHTTP_PROXY_RESULT_ENTRY structure contains a result entry from a call to WinHttpGetProxyResult.
 old-location: http\winhttp_proxy_result_entry.htm
 old-project: WinHttp
 ms.assetid: d1652b34-67a9-40ad-a495-836147e5cc88
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WINHTTP_PROXY_RESULT_ENTRY, WINHTTP_PROXY_RESULT_ENTRY structure [HTTP], _WINHTTP_PROXY_RESULT_ENTRY, http.winhttp_proxy_result_entry, winhttp/WINHTTP_PROXY_RESULT_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

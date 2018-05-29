@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.CreateMediaKeys
 title: IMFMediaEngineClassFactoryEx::CreateMediaKeys
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media keys object based on the specified key system.
 old-location: mf\imfmediaengineclassfactoryex_createmediakeys.htm
 old-project: medfound
 ms.assetid: 40b2b978-f12c-4066-acf5-e0c68b0fa928
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateMediaKeys, CreateMediaKeys method [Media Foundation], CreateMediaKeys method [Media Foundation],IMFMediaEngineClassFactoryEx interface, IMFMediaEngineClassFactoryEx interface [Media Foundation],CreateMediaKeys method, IMFMediaEngineClassFactoryEx.CreateMediaKeys, IMFMediaEngineClassFactoryEx::CreateMediaKeys, mf.imfmediaengineclassfactoryex_createmediakeys, mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITTerminalManager.CreateDynamicTerminal
 title: ITTerminalManager::CreateDynamicTerminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateDynamicTerminal method creates a dynamic terminal of a specified terminal class, media type, and direction.
 old-location: tapi3\itterminalmanager_createdynamicterminal.htm
 old-project: Tapi
 ms.assetid: a6590503-8c95-496d-a35a-1bbb34c728e1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateDynamicTerminal, CreateDynamicTerminal method [TAPI 2.2], CreateDynamicTerminal method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],CreateDynamicTerminal method, ITTerminalManager.CreateDynamicTerminal, ITTerminalManager::CreateDynamicTerminal, _tapi3_itterminalmanager_createdynamicterminal, tapi3.itterminalmanager_createdynamicterminal, termmgr/ITTerminalManager::CreateDynamicTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

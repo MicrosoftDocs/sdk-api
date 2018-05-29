@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeTransitionDuration
 title: GetThemeTransitionDuration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the duration for the specified transition.
 old-location: controls\GetThemeTransitionDuration.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetransitionduration.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeTransitionDuration, GetThemeTransitionDuration function [Windows Controls], _shell_GetThemeTransitionDuration, _shell_GetThemeTransitionDuration_cpp, controls.GetThemeTransitionDuration, controls._shell_GetThemeTransitionDuration, uxtheme/GetThemeTransitionDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

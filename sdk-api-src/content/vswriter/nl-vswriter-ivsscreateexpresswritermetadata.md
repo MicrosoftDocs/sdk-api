@@ -1,16 +1,16 @@
 ---
 UID: NL:vswriter.IVssCreateExpressWriterMetadata
 title: IVssCreateExpressWriterMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVssCreateExpressWriterMetadata interface is a COM interface containing methods to construct the Writer Metadata Document for an express writer.
 old-location: base\ivsscreateexpresswritermetadata.htm
 old-project: VSS
 ms.assetid: 49112cff-9e61-4218-a013-5ae5eb58b534
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,described, base.ivsscreateexpresswritermetadata, vswriter/IVssCreateExpressWriterMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

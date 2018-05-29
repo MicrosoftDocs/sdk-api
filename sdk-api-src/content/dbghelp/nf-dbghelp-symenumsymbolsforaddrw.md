@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsForAddrW
 title: SymEnumSymbolsForAddrW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the symbols for the specified address.
 old-location: base\symenumsymbolsforaddr.htm
 old-project: Debug
 ms.assetid: 1c622d1d-e7be-4b02-8d6d-68b5f07f2e35
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymEnumSymbolsForAddr, SymEnumSymbolsForAddr function, SymEnumSymbolsForAddrW, _win32_symenumsymbolsforaddr, base.symenumsymbolsforaddr, dbghelp/SymEnumSymbolsForAddr, dbghelp/SymEnumSymbolsForAddrW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

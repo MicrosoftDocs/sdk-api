@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._objectpositions
 title: "_objectpositions"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains object position information.
 old-location: controls\OBJECTPOSITIONS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\objectpositions.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OBJECTPOSITIONS, OBJECTPOSITIONS structure [Windows Controls], _objectpositions, _win32_OBJECTPOSITIONS_str, _win32_OBJECTPOSITIONS_str_cpp, controls.OBJECTPOSITIONS, controls._win32_OBJECTPOSITIONS_str, richedit/OBJECTPOSITIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

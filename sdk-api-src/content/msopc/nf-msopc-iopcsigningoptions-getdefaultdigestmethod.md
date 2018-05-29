@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetDefaultDigestMethod
 title: IOpcSigningOptions::GetDefaultDigestMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the default digest method that will be used to compute digest values for objects to be signed.
 old-location: opc\iopcsigningoptions_getdefaultdigestmethod.htm
 old-project: OPC
 ms.assetid: c8ec81e6-7807-4a1e-9e0c-f5512bd605fa
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetDefaultDigestMethod, GetDefaultDigestMethod method [Open Packaging Conventions], GetDefaultDigestMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetDefaultDigestMethod method, IOpcSigningOptions.GetDefaultDigestMethod, IOpcSigningOptions::GetDefaultDigestMethod, msopc/IOpcSigningOptions::GetDefaultDigestMethod, opc.iopcsigningoptions_getdefaultdigestmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

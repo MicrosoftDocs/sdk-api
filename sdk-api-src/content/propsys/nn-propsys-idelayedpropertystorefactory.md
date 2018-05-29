@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IDelayedPropertyStoreFactory
 title: IDelayedPropertyStoreFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method to create a specified IPropertyStore object in circumstances where property access is potentially slow.
 old-location: shell\IDelayedPropertyStoreFactory.htm
 old-project: shell
 ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

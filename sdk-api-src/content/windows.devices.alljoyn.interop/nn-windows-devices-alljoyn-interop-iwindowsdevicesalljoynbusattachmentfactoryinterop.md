@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface allows for the creation of alljoyn_busattachment without taking ownership of the reference.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentfactoryinterop.htm
 old-project: AllJoyn
 ms.assetid: 2E9FE6B4-E8F0-4627-A712-F7A4CE5404BE
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],described, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 

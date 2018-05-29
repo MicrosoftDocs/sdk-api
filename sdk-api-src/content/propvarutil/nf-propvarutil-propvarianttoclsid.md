@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToCLSID
 title: PropVariantToCLSID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts class identifier (CLSID) property value of a PROPVARIANT structure.
 old-location: properties\PropVariantToCLSID.htm
 old-project: properties
 ms.assetid: 35b638e3-7610-49d6-92f3-5e4021fea635
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToCLSID, PropVariantToCLSID function [Windows Properties], _shell_PropVariantToCLSID, properties.PropVariantToCLSID, propvarutil/PropVariantToCLSID, shell.PropVariantToCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

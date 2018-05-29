@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IMPEG2Component.put_PID
 title: IMPEG2Component::put_PID
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_PID method sets the packet identifier (PID) for this substream.
 old-location: mstv\impeg2component_put_pid.htm
 old-project: mstv
 ms.assetid: 0bc19b79-1586-470d-85d5-3ef1babe60e2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PID method, IMPEG2Component.put_PID, IMPEG2Component::put_PID, IMPEG2Componentput_PID, mstv.impeg2component_put_pid, put_PID, put_PID method [Microsoft TV Technologies], put_PID method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_PID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

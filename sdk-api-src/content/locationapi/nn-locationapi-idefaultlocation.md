@@ -1,16 +1,16 @@
 ---
 UID: NN:locationapi.IDefaultLocation
 title: IDefaultLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: IDefaultLocation provides methods used to specify or retrieve the default location.
 old-location: winlocation\idefaultlocation.htm
 old-project: LocationAPI
 ms.assetid: 408062c8-2fea-4734-a243-e4ed21b7b3c3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDefaultLocation, IDefaultLocation interface [WinLocation], IDefaultLocation interface [WinLocation],described, locationapi/IDefaultLocation, winlocation.idefaultlocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_beginsubscribetomultipleoperations.htm
 old-project: WsdApi
 ms.assetid: 54c6ac58-4272-45ad-80cc-2114ba6f466e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: BeginSubscribeToMultipleOperations, BeginSubscribeToMultipleOperations method, BeginSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginSubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

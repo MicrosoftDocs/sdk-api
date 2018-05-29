@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetSourceRect
 title: IDXGIDecodeSwapChain::GetSourceRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the source region that is used for the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_getsourcerect.htm
 old-project: direct3ddxgi
 ms.assetid: 67DD1267-997A-4D84-BC91-D124ED1E8946
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetSourceRect, GetSourceRect method [DXGI], GetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetSourceRect method, IDXGIDecodeSwapChain.GetSourceRect, IDXGIDecodeSwapChain::GetSourceRect, direct3ddxgi.idxgidecodeswapchain_getsourcerect, dxgi1_3/IDXGIDecodeSwapChain::GetSourceRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

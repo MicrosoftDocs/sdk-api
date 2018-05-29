@@ -1,16 +1,16 @@
 ---
 UID: NS:lmmsg._MSG_INFO_0
 title: "_MSG_INFO_0"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MSG_INFO_0 structure specifies a message alias.
 old-location: netmgmt\msg_info_0_str.htm
 old-project: NetMgmt
 ms.assetid: bc409abd-8c76-4310-b9e3-05fc4e0d253e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPMSG_INFO_0, *PMSG_INFO_0, LPMSG_INFO_0, LPMSG_INFO_0 structure pointer [Network Management], MSG_INFO_0, MSG_INFO_0 structure [Network Management], PMSG_INFO_0, PMSG_INFO_0 structure pointer [Network Management], _MSG_INFO_0, _win32_msg_info_0_str, lmmsg/LPMSG_INFO_0, lmmsg/MSG_INFO_0, lmmsg/PMSG_INFO_0, netmgmt.msg_info_0_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmmsg.h
 req.include-header: Lm.h

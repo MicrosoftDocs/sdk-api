@@ -1,16 +1,16 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.AuthenticateUser
 title: ITSGAuthenticationEngine::AuthenticateUser
-author: windows-driver-content
+author: windows-sdk-content
 description: Authenticates a user.
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm
 old-project: TermServ
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthenticateUser, AuthenticateUser method [Remote Desktop Services], AuthenticateUser method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],AuthenticateUser method, ITSGAuthenticationEngine.AuthenticateUser, ITSGAuthenticationEngine::AuthenticateUser, termserv.itsgauthenticationengine_authenticateuser, tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 

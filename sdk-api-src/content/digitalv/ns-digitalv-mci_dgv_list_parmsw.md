@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_LIST_PARMSW
 title: MCI_DGV_LIST_PARMSW
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_LIST_PARMS structure contains the information for the MCI_LIST command for digital-video devices.
 old-location: multimedia\mci_dgv_list_parms.htm
 old-project: Multimedia
 ms.assetid: f1b44fca-6c33-4883-911c-7b18fc3084c2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_LIST_PARMSW, MCI_DGV_LIST_PARMS, MCI_DGV_LIST_PARMS structure [Windows Multimedia], MCI_DGV_LIST_PARMSW, _win32_MCI_DGV_LIST_PARMS_str, digitalv/MCI_DGV_LIST_PARMS, multimedia.mci_dgv_list_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

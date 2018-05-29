@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_OPEN_CLUSTER
 title: PCLUSAPI_OPEN_CLUSTER
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a connection to a cluster and returns a handle to it.
 old-location: mscs\opencluster.htm
 old-project: MsCS
 ms.assetid: b2ee2575-cc1e-4696-8e95-9798fb556c58
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER, PCLUSAPI_OPEN_CLUSTER callback, PCLUSAPI_OPEN_CLUSTER callback function [Failover Cluster], _wolf_opencluster, clusapi/PCLUSAPI_OPEN_CLUSTER, mscs.opencluster
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

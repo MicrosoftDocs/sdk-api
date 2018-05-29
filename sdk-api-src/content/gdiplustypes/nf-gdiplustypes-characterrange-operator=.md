@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.operator=
 title: CharacterRange::operator=
-author: windows-driver-content
+author: windows-sdk-content
 description: The CharacterRange::operator= method sets this CharacterRange object equal to the specified CharacterRange object.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_operator_rhs_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\operator.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CharacterRange class [GDI+],operator= method, CharacterRange.operator=, CharacterRange::operator=, _gdiplus_CLASS_CharacterRange_operator_rhs_, gdiplus._gdiplus_CLASS_CharacterRange_operator_rhs_, operator=, operator= method [GDI+], operator= method [GDI+],CharacterRange class
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

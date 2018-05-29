@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetDestinationRectangle
 title: IMFVideoProcessorControl::SetDestinationRectangle
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the destination rectangle.
 old-location: mf\imfvideoprocessorcontrol_setdestinationrectangle.htm
 old-project: medfound
 ms.assetid: 8AD1BDF4-2508-4A99-85A1-9DBC969D511B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetDestinationRectangle method, IMFVideoProcessorControl.SetDestinationRectangle, IMFVideoProcessorControl::SetDestinationRectangle, SetDestinationRectangle, SetDestinationRectangle method [Media Foundation], SetDestinationRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setdestinationrectangle, mfidl/IMFVideoProcessorControl::SetDestinationRectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

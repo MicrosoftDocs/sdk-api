@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetAddressStatus
 title: lineGetAddressStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetAddressStatus function allows an application to query the specified address for its current status.
 old-location: tapi2\linegetaddressstatus.htm
 old-project: Tapi
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

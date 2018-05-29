@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.GetOwner
 title: IXpsOMDocumentSequence::GetOwner
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMPackage interface that contains the document sequence.
 old-location: xps\ixpsomdocumentsequence_getowner.htm
 old-project: printdocs
 ms.assetid: c5c59e70-d7b5-42cf-a979-6da4899203ba
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetOwner method, IXpsOMDocumentSequence.GetOwner, IXpsOMDocumentSequence::GetOwner, xps.ixpsomdocumentsequence_getowner, xpsobjectmodel/IXpsOMDocumentSequence::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

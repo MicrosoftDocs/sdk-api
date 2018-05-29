@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfMouseTracker
 title: ITfMouseTracker
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfMouseTracker interface is implemented by the TSF manager and is used by a text service to manage mouse event notification sinks. An instance of this interface is obtained by querying an ITfContext object for IID_ITfMouseTracker.
 old-location: tsf\itfmousetracker.htm
 old-project: TSF
 ms.assetid: aad07b35-99e0-4c76-ba65-93c2c972303d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfMouseTracker, ITfMouseTracker interface [Text Services Framework], ITfMouseTracker interface [Text Services Framework],described, _tsf_itfmousetracker_ref, msctf/ITfMouseTracker, tsf.itfmousetracker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

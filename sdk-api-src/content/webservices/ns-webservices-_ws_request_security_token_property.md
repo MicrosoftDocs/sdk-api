@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_REQUEST_SECURITY_TOKEN_PROPERTY
 title: "_WS_REQUEST_SECURITY_TOKEN_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a property for requesting a security token from an issuer.
 old-location: wsw\ws_request_security_token_property.htm
 old-project: wsw
 ms.assetid: ebf6d821-f540-4c89-a2f8-c795a3688e0d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY, WS_REQUEST_SECURITY_TOKEN_PROPERTY structure [Web Services for Windows], _WS_REQUEST_SECURITY_TOKEN_PROPERTY, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY, wsw.ws_request_security_token_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

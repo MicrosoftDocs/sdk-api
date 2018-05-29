@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_IS_RESOURCE_CLASS_EQUAL
 title: PRESUTIL_IS_RESOURCE_CLASS_EQUAL
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests whether the resource class of a specified resource is equal to a specified resource class. The PRESUTIL_IS_RESOURCE_CLASS_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilisresourceclassequal.htm
 old-project: MsCS
 ms.assetid: 3200abd3-5f95-48c5-acd9-8094c0072039
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_IS_RESOURCE_CLASS_EQUAL, PRESUTIL_IS_RESOURCE_CLASS_EQUAL callback, PRESUTIL_IS_RESOURCE_CLASS_EQUAL callback function [Failover Cluster], _wolf_resutilisresourceclassequal, mscs.resutilisresourceclassequal, resapi/PRESUTIL_IS_RESOURCE_CLASS_EQUAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

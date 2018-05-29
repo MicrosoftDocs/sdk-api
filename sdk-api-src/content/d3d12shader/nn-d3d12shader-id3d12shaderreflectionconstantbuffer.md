@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflectionConstantBuffer
 title: ID3D12ShaderReflectionConstantBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: This shader-reflection interface provides access to a constant buffer.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer.htm
 old-project: direct3d12
 ms.assetid: 4102AF77-3EC7-42CD-8B9C-6D0CC999529A
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,described, d3d12shader/ID3D12ShaderReflectionConstantBuffer, direct3d12.id3d12shaderreflectionconstantbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 

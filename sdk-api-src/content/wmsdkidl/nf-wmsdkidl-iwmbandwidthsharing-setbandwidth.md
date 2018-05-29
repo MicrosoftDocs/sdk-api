@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.SetBandwidth
 title: IWMBandwidthSharing::SetBandwidth
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetBandwidth method sets the bandwidth and maximum buffer size for a combined stream.
 old-location: wmformat\iwmbandwidthsharing_setbandwidth.htm
 old-project: wmformat
 ms.assetid: 1f2ac613-3674-46d9-ae7c-26389dbede02
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetBandwidth method, IWMBandwidthSharing.SetBandwidth, IWMBandwidthSharing::SetBandwidth, IWMBandwidthSharingSetBandwidth, SetBandwidth, SetBandwidth method [windows Media Format], SetBandwidth method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_setbandwidth, wmsdkidl/IWMBandwidthSharing::SetBandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

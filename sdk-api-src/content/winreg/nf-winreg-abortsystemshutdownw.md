@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.AbortSystemShutdownW
 title: AbortSystemShutdownW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops a system shutdown that has been initiated.
 old-location: base\abortsystemshutdown.htm
 old-project: Shutdown
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutdownA, AbortSystemShutdownW, _win32_abortsystemshutdown, base.abortsystemshutdown, winreg/AbortSystemShutdown, winreg/AbortSystemShutdownA, winreg/AbortSystemShutdownW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

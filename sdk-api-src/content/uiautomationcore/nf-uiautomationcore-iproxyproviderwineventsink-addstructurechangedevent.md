@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddStructureChangedEvent
 title: IProxyProviderWinEventSink::AddStructureChangedEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Raises an event to notify clients that the structure of the UI Automation tree has changed.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent.htm
 old-project: WinAuto
 ms.assetid: 03be09a6-da4d-4071-bd7c-df79688c20d3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AddStructureChangedEvent, AddStructureChangedEvent method [Windows Accessibility], AddStructureChangedEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddStructureChangedEvent method, IProxyProviderWinEventSink.AddStructureChangedEvent, IProxyProviderWinEventSink::AddStructureChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddStructureChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

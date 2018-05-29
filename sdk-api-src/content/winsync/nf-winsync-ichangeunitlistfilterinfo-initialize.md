@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.Initialize
 title: IChangeUnitListFilterInfo::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a new instance of the IChangeUnitListFilterInfo class that contains the specified array of change unit IDs.
 old-location: winsync\ichangeunitlistfilterinfo_initialize.htm
 old-project: winsync
 ms.assetid: ee3f86dc-8f5a-4b9b-ac06-b836898392ba
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IChangeUnitListFilterInfo interface [Windows Sync],Initialize method, IChangeUnitListFilterInfo.Initialize, IChangeUnitListFilterInfo::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IChangeUnitListFilterInfo interface, winsync.ichangeunitlistfilterinfo_initialize, winsync/IChangeUnitListFilterInfo::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateHandlerCollection
 title: ISyncMgrControl::UpdateHandlerCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs Sync Center to reenumerate the handler collection, or informs it that properties of a handler in the handler collection have changed.
 old-location: shell\ISyncMgrControl_UpdateHandlerCollection.htm
 old-project: shell
 ms.assetid: 752f197e-0dad-4b3d-9f70-352f5f50e9ee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandlerCollection method, ISyncMgrControl.UpdateHandlerCollection, ISyncMgrControl::UpdateHandlerCollection, UpdateHandlerCollection, UpdateHandlerCollection method [Windows Shell], UpdateHandlerCollection method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandlerCollection, shell.ISyncMgrControl_UpdateHandlerCollection, syncmgr/ISyncMgrControl::UpdateHandlerCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

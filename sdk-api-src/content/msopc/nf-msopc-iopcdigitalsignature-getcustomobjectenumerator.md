@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCustomObjectEnumerator
 title: IOpcDigitalSignature::GetCustomObjectEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator of IOpcSignatureCustomObject interface pointers that represent application-specific Object elements in the signature markup.
 old-location: opc\iopcdigitalsignature_getcustomobjectenumerator.htm
 old-project: OPC
 ms.assetid: 1263ca86-8b4f-4be9-a88a-f11e76178d0d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [Open Packaging Conventions], GetCustomObjectEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCustomObjectEnumerator method, IOpcDigitalSignature.GetCustomObjectEnumerator, IOpcDigitalSignature::GetCustomObjectEnumerator, msopc/IOpcDigitalSignature::GetCustomObjectEnumerator, opc.iopcdigitalsignature_getcustomobjectenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewExtension
 title: IEnumCERTVIEWROW::EnumCertViewExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewextension.htm
 old-project: SecCrypto
 ms.assetid: 41028000-fa87-4ad0-93fc-314c5d3870f9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: EnumCertViewExtension, EnumCertViewExtension method [Security], EnumCertViewExtension method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewExtension method, IEnumCERTVIEWROW.EnumCertViewExtension, IEnumCERTVIEWROW::EnumCertViewExtension, _certsrv_ienumcertviewrow_enumcertviewextension, certview/IEnumCERTVIEWROW::EnumCertViewExtension, security.ienumcertviewrow_enumcertviewextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

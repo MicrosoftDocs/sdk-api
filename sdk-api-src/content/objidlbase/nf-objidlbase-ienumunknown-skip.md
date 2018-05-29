@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IEnumUnknown.Skip
 title: IEnumUnknown::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumunknown_skip.htm
 old-project: com
 ms.assetid: 6d73a119-0da8-4754-92c3-53f75d7be9e0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumUnknown interface [COM],Skip method, IEnumUnknown.Skip, IEnumUnknown::Skip, Skip, Skip method [COM], Skip method [COM],IEnumUnknown interface, _com_ienumunknown_skip, com.ienumunknown_skip, objidlbase/IEnumUnknown::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

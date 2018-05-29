@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetBlackPointY
 title: SetBlackPointY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the y value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointy_overloaded.htm
 old-project: directcomp
 ms.assetid: 8d0aa548-90ad-4025-2e7a-8e5b07134665
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetBlackPointY, SetBlackPointY methods [DirectComposition], dcomp/SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy_overloaded, idcompositionbrightnesseffect::SetBlackPointY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

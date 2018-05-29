@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.SetInputType
 title: IMediaObject::SetInputType
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetInputType method sets the media type on an input stream, or tests whether a media type is acceptable.
 old-location: dshow\imediaobject_setinputtype.htm
 old-project: DirectShow
 ms.assetid: 6b466fe4-97a0-46f9-9e4b-461ee66095f1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaObject interface [DirectShow],SetInputType method, IMediaObject.SetInputType, IMediaObject::SetInputType, IMediaObjectSetInputType, SetInputType, SetInputType method [DirectShow], SetInputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputtype, mediaobj/IMediaObject::SetInputType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

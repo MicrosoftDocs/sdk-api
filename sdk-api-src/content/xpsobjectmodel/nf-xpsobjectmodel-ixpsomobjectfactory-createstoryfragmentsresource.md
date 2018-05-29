@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateStoryFragmentsResource
 title: IXpsOMObjectFactory::CreateStoryFragmentsResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMStoryFragmentsResource interface that provides access to the content of the resource stream of a page's StoryFragments part.
 old-location: xps\ixpsomobjectfactory_createstoryfragmentsresource.htm
 old-project: printdocs
 ms.assetid: b0e3f538-4af9-4d86-8899-6ea4e601eaad
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateStoryFragmentsResource, CreateStoryFragmentsResource method [XPS Documents and Packaging], CreateStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateStoryFragmentsResource method, IXpsOMObjectFactory.CreateStoryFragmentsResource, IXpsOMObjectFactory::CreateStoryFragmentsResource, xps.ixpsomobjectfactory_createstoryfragmentsresource, xpsobjectmodel/IXpsOMObjectFactory::CreateStoryFragmentsResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

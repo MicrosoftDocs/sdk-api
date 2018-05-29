@@ -1,16 +1,16 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0012_0001
 title: "__MIDL___MIDL_itf_UIAnimation_0000_0012_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the behavior of a timer when the animation manager is idle.
 old-location: uianimation\ui_animation_idle_behavior.htm
 old-project: UIAnimation
 ms.assetid: 70016fbd-060c-4f2a-89d3-d474850f9d01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UI_ANIMATION_IDLE_BEHAVIOR, UI_ANIMATION_IDLE_BEHAVIOR enumeration [Windows Animation], UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, UI_ANIMATION_IDLE_BEHAVIOR_DISABLE, __MIDL___MIDL_itf_UIAnimation_0000_0012_0001, uianimation.ui_animation_idle_behavior, uianimation/UI_ANIMATION_IDLE_BEHAVIOR, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_DISABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

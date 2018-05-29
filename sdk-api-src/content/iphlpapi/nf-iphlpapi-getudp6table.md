@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetUdp6Table
 title: GetUdp6Table function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IPv6 User Datagram Protocol (UDP) listener table.
 old-location: iphlp\getudp6table.htm
 old-project: IpHlp
 ms.assetid: 5e86483c-aa39-4d6c-a9b4-9b046b3dcc74
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetUdp6Table, GetUdp6Table function [IP Helper], iphlp.getudp6table, iphlpapi/GetUdp6Table
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

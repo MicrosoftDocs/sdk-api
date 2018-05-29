@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.RadialGradientBrushProperties
 title: RadialGradientBrushProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES structure.
 old-location: direct2d\radialgradientbrushproperties.htm
 old-project: Direct2D
 ms.assetid: d65ee26c-28d4-4b58-9089-1aab959246cc
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: RadialGradientBrushProperties, RadialGradientBrushProperties function [Direct2D], d2d1helper/RadialGradientBrushProperties, direct2d.radialgradientbrushproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

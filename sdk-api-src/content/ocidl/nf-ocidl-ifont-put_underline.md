@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IFont.put_Underline
 title: IFont::put_Underline
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the font's Underline property.
 old-location: com\ifont_put_underline.htm
 old-project: com
 ms.assetid: c763c050-cf69-4c9d-83a9-66ccc1d4376c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFont interface [COM],put_Underline method, IFont.put_Underline, IFont::put_Underline, _ctrl_ifont_put_underline, com.ifont_put_underline, ocidl/IFont::put_Underline, put_Underline, put_Underline method [COM], put_Underline method [COM],IFont interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

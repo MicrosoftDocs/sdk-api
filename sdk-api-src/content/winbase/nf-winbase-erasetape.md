@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.EraseTape
 title: EraseTape function
-author: windows-driver-content
+author: windows-sdk-content
 description: Erases all or part of a tape.
 old-location: backup\erasetape.htm
 old-project: Backup
 ms.assetid: af262e79-ebdb-4ec5-9b59-ed6725a48bdf
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: EraseTape, EraseTape function [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _win32_erasetape, backup.erasetape, base.erasetape, winbase/EraseTape
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

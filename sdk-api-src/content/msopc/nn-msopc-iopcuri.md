@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcUri
 title: IOpcUri
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the URI of the package root or of a part that is relative to the package root.
 old-location: opc\iopcuri.htm
 old-project: OPC
 ms.assetid: 35ce7946-f7e7-4ac3-852f-e3fcca23d6d4
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcUri, IOpcUri interface [Open Packaging Conventions], IOpcUri interface [Open Packaging Conventions],described, msopc/IOpcUri, opc.iopcuri
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

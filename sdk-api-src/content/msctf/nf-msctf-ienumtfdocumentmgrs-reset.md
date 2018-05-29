@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Reset
 title: IEnumTfDocumentMgrs::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfDocumentMgrs::Reset method
 old-location: tsf\ienumtfdocumentmgrs_reset.htm
 old-project: TSF
 ms.assetid: 9f7b016d-ff67-4b73-b373-b5a04cd25b58
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Reset method, IEnumTfDocumentMgrs.Reset, IEnumTfDocumentMgrs::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_reset_ref, msctf/IEnumTfDocumentMgrs::Reset, tsf.ienumtfdocumentmgrs_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

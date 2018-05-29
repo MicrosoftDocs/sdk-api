@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphsEditor
 title: IXpsOMGlyphs::GetGlyphsEditor
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMGlyphsEditor interface that will be used to edit the glyphs in the object.
 old-location: xps\ixpsomglyphs_getglyphseditor.htm
 old-project: printdocs
 ms.assetid: 1c641d99-9303-484d-82e0-2d71e2c43561
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGlyphsEditor, GetGlyphsEditor method [XPS Documents and Packaging], GetGlyphsEditor method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphsEditor method, IXpsOMGlyphs.GetGlyphsEditor, IXpsOMGlyphs::GetGlyphsEditor, xps.ixpsomglyphs_getglyphseditor, xpsobjectmodel/IXpsOMGlyphs::GetGlyphsEditor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xinput.XInputSetState
 title: XInputSetState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends data to a connected controller. This function is used to activate the vibration function of a controller.
 old-location: xinput\xinputsetstate.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputSetState(DWORD,XINPUT_VIBRATION*@)
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller APIs], xinput.xinputsetstate, xinput/XInputSetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: xinput.h
 req.include-header: 

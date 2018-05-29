@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportGetInfo
 title: MprAdminInterfaceTransportGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminInterfaceTransportGetInfo function retrieves information about a transport running on a specified interface.
 old-location: rras\mpradmininterfacetransportgetinfo.htm
 old-project: RRAS
 ms.assetid: 4e8d7fdf-668e-496a-977a-7a0306173495
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInterfaceTransportGetInfo, MprAdminInterfaceTransportGetInfo function [RAS], _mpr_mpradmininterfacetransportgetinfo, mprapi/MprAdminInterfaceTransportGetInfo, rras.mpradmininterfacetransportgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

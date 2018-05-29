@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ISharingConfigurationManager
 title: ISharingConfigurationManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that set and retrieve information about a computer's default sharing settings for the Users (C:\Users) or Public (C:\Users\Public) folder. Also exposes a set of methods that allow control of printer sharing.
 old-location: shell\ISharingConfigurationManager.htm
 old-project: shell
 ms.assetid: 64bf628d-4e9b-42a8-a9cf-04d321645d9a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISharingConfigurationManager, ISharingConfigurationManager interface [Windows Shell], ISharingConfigurationManager interface [Windows Shell],described, _shell_ISharingConfigurationManager, shell.ISharingConfigurationManager, shobjidl_core/ISharingConfigurationManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

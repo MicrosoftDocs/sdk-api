@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDocumentLists.SetAppID
 title: IApplicationDocumentLists::SetAppID
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application whose destination lists are being retrieved. This method is optional.
 old-location: shell\IApplicationDocumentLists_SetAppID.htm
 old-project: shell
 ms.assetid: 1c5135c1-b98d-4d27-8437-5ca57af9a525
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IApplicationDocumentLists interface [Windows Shell],SetAppID method, IApplicationDocumentLists.SetAppID, IApplicationDocumentLists::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IApplicationDocumentLists interface, _shell_IApplicationDocumentLists_SetAppID, shell.IApplicationDocumentLists_SetAppID, shobjidl_core/IApplicationDocumentLists::SetAppID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:shlwapi.tagSFBS_FLAGS
 title: tagSFBS_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the StrFormatByteSizeEx function should handle rounding of undisplayed digits.
 old-location: shell\SFBS_FLAGS.htm
 old-project: shell
 ms.assetid: 9b26734b-bda4-4b60-92a3-fe5b3d360dd0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SFBS_FLAGS, SFBS_FLAGS enumeration [Windows Shell], SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT, SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS, _shell_SFBS_FLAGS, shell.SFBS_FLAGS, shlwapi/SFBS_FLAGS, shlwapi/SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT, shlwapi/SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS, tagSFBS_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 

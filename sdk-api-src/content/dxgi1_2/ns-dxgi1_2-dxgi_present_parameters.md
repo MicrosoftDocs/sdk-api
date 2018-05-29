@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi1_2.DXGI_PRESENT_PARAMETERS
 title: DXGI_PRESENT_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes information about present that helps the operating system optimize presentation.
 old-location: direct3ddxgi\dxgi_present_parameters.htm
 old-project: direct3ddxgi
 ms.assetid: C2C69457-5415-4CAA-901B-A3A8591C6CB0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_PRESENT_PARAMETERS, DXGI_PRESENT_PARAMETERS structure [DXGI], direct3ddxgi.dxgi_present_parameters, dxgi1_2/DXGI_PRESENT_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextDestroyEnumHandle0
 title: FwpmProviderContextDestroyEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a handle returned by FwpmProviderContextCreateEnumHandle0.
 old-location: fwp\fwpmprovidercontextdestroyenumhandle0_func.htm
 old-project: FWP
 ms.assetid: 85ec36f8-c6e0-4dcf-aad2-15d61aa6bd64
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderContextDestroyEnumHandle0, FwpmProviderContextDestroyEnumHandle0 function [Filtering], fwp.fwpmprovidercontextdestroyenumhandle0_func, fwpmu/FwpmProviderContextDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif._DVENCODERFORMAT
 title: "_DVENCODERFORMAT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the digital video (DV) format.
 old-location: dshow\dvencoderformat.htm
 old-project: DirectShow
 ms.assetid: 462c8034-5931-435d-8f18-b58842f2e234
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVENCODERFORMAT, DVENCODERFORMATEnumeration, DVENCODERFORMAT_DVHD, DVENCODERFORMAT_DVSD, DVENCODERFORMAT_DVSL, _DVENCODERFORMAT, _DVENCODERFORMAT enumeration [DirectShow], dshow.dvencoderformat, strmif/DVENCODERFORMAT_DVHD, strmif/DVENCODERFORMAT_DVSD, strmif/DVENCODERFORMAT_DVSL, strmif/_DVENCODERFORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

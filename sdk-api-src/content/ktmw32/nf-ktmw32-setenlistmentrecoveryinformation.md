@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.SetEnlistmentRecoveryInformation
 title: SetEnlistmentRecoveryInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an opaque, user-defined structure of recovery data from KTM.
 old-location: fs\setenlistmentrecoveryinformation.htm
 old-project: Ktm
 ms.assetid: 54e7526f-57f0-40cd-9624-fce0644a0884
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetEnlistmentRecoveryInformation, SetEnlistmentRecoveryInformation function [Files], fs.setenlistmentrecoveryinformation, ktmw32/SetEnlistmentRecoveryInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

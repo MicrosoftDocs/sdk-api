@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglUseFontBitmapsW
 title: wglUseFontBitmapsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The wglUseFontBitmaps function creates a set of bitmap display lists for use in the current OpenGL rendering context.
 old-location: opengl\wglusefontbitmaps.htm
 old-project: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:icmpapi.IcmpCloseHandle
 title: IcmpCloseHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IcmpCloseHandle function closes a handle opened by a call to the IcmpCreateFile or Icmp6CreateFile functions.
 old-location: iphlp\icmpclosehandle.htm
 old-project: IpHlp
 ms.assetid: ce8f11bb-1e33-41bd-adb9-c18efadd4d0b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IcmpCloseHandle, IcmpCloseHandle function [IP Helper], _iphlp_icmpclosehandle, icmpapi/IcmpCloseHandle, iphlp.icmpclosehandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPCdrom
 title: IWMPCdrom
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPCdrom interface provides a way to access a CD or DVD in its drive.
 old-location: wmp\iwmpcdrom.htm
 old-project: WMP
 ms.assetid: 323a6841-ffbd-4bbb-ac04-1d121cf5bd06
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCdrom, IWMPCdrom interface [Windows Media Player], IWMPCdrom interface [Windows Media Player],described, IWMPCdromInterface, wmp.iwmpcdrom, wmp/IWMPCdrom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

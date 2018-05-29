@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMemAllocatorCallbackTemp
 title: IMemAllocatorCallbackTemp
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMemAllocatorCallbackTemp interface enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list.The use of this interface is deprecated.
 old-location: dshow\imemallocatorcallbacktemp.htm
 old-project: DirectShow
 ms.assetid: 6213faaa-86ff-46e7-80da-a043cae40805
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], IMemAllocatorCallbackTemp interface [DirectShow],described, IMemAllocatorCallbackTempInterface, dshow.imemallocatorcallbacktemp, strmif/IMemAllocatorCallbackTemp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI2FromDate
 title: VarUI2FromDate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a date value to an unsigned short value.
 old-location: automat\varui2fromdate.htm
 old-project: automat
 ms.assetid: b611526d-3bc1-4943-9fb4-319e5899426a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI2FromDate, VarUI2FromDate function [Automation], _oa96_VarUI2FromDate, automat.varui2fromdate, oleauto/VarUI2FromDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

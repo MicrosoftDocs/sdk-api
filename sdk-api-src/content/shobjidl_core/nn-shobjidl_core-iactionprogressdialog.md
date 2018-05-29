@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IActionProgressDialog
 title: IActionProgressDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that initialize and stop a progress dialog.
 old-location: shell\IActionProgressDialog.htm
 old-project: shell
 ms.assetid: f3c0e4ae-f93f-4ee2-873a-d9370044e922
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IActionProgressDialog, IActionProgressDialog interface [Windows Shell], IActionProgressDialog interface [Windows Shell],described, _shell_IActionProgressDialog, shell.IActionProgressDialog, shobjidl_core/IActionProgressDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capGrabFrame
 title: capGrabFrame macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capGrabFrame macro retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can use this macro or explicitly call the WM_CAP_GRAB_FRAME message.
 old-location: multimedia\capgrabframe.htm
 old-project: Multimedia
 ms.assetid: bd306414-74a9-4683-ad63-797a37152e8f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capGrabFrame, capGrabFrame, capGrabFrame macro [Windows Multimedia], multimedia.capgrabframe, vfw/capGrabFrame"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

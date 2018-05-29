@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.get_MinorVersion
 title: IX509ExtensionTemplate::get_MinorVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the minimum minor version number of the certificate template.
 old-location: security\ix509extensiontemplate_minorversion_property.htm
 old-project: SecCertEnroll
 ms.assetid: 0fb17099-4bf6-405c-8b54-4280a8023256
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],MinorVersion property, IX509ExtensionTemplate.MinorVersion, IX509ExtensionTemplate.get_MinorVersion, IX509ExtensionTemplate::MinorVersion, IX509ExtensionTemplate::get_MinorVersion, MinorVersion property [Security], MinorVersion property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MinorVersion, certenroll/IX509ExtensionTemplate::get_MinorVersion, get_MinorVersion, security.ix509extensiontemplate_minorversion_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

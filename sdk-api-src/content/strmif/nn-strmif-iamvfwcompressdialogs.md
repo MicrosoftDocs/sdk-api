@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMVfwCompressDialogs
 title: IAMVfwCompressDialogs
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMVfwCompressDialogs interface displays a dialog box provided by a Video for Windows (VFW) codec.
 old-location: dshow\iamvfwcompressdialogs.htm
 old-project: DirectShow
 ms.assetid: 5cc23d68-e0e6-401a-8d16-63c8c68af241
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVfwCompressDialogs, IAMVfwCompressDialogs interface [DirectShow], IAMVfwCompressDialogs interface [DirectShow],described, IAMVfwCompressDialogsInterface, dshow.iamvfwcompressdialogs, strmif/IAMVfwCompressDialogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

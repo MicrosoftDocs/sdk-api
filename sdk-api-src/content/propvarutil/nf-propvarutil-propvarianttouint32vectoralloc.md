@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32VectorAlloc
 title: PropVariantToUInt32VectorAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated ULONG vector.
 old-location: properties\PropVariantToUInt32VectorAlloc.htm
 old-project: properties
 ms.assetid: 8127b569-aa20-4a15-9da5-cc7c3a7c5243
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToUInt32VectorAlloc, PropVariantToUInt32VectorAlloc function [Windows Properties], _shell_PropVariantToUInt32VectorAlloc, properties.PropVariantToUInt32VectorAlloc, propvarutil/PropVariantToUInt32VectorAlloc, shell.PropVariantToUInt32VectorAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

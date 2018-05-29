@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegEnumUSKeyW
 title: SHRegEnumUSKeyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegEnumUSKey.htm
 old-project: shell
 ms.assetid: 9418ad45-f451-4976-afd7-fa1e0088038d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRegEnumUSKey, SHRegEnumUSKey function [Windows Shell], SHRegEnumUSKeyA, SHRegEnumUSKeyW, _win32_SHRegEnumUSKey, shell.SHRegEnumUSKey, shlwapi/SHRegEnumUSKey, shlwapi/SHRegEnumUSKeyA, shlwapi/SHRegEnumUSKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

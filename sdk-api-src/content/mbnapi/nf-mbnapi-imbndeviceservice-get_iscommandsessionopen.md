@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsCommandSessionOpen
 title: IMbnDeviceService::get_IsCommandSessionOpen
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports if the device service command session is open.
 old-location: mbn\imbndeviceservice_iscommandsessionopen.htm
 old-project: mbn
 ms.assetid: 7A986AD8-9DC3-4543-8FB9-5F633DEC95C7
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsCommandSessionOpen property, IMbnDeviceService.IsCommandSessionOpen, IMbnDeviceService.get_IsCommandSessionOpen, IMbnDeviceService::IsCommandSessionOpen, IMbnDeviceService::get_IsCommandSessionOpen, IsCommandSessionOpen property [Microsoft Broadband Networks], IsCommandSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsCommandSessionOpen, mbn.imbndeviceservice_iscommandsessionopen, mbnapi/IMbnDeviceService::IsCommandSessionOpen, mbnapi/IMbnDeviceService::get_IsCommandSessionOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

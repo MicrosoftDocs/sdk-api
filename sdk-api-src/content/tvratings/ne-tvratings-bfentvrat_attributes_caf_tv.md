@@ -1,16 +1,16 @@
 ---
 UID: NE:tvratings.BfEnTvRat_Attributes_CAF_TV
 title: BfEnTvRat_Attributes_CAF_TV
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_attributes_caf_tv.htm
 old-project: mstv
 ms.assetid: f6d10852-f28e-492e-9687-d09cd132d06e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BfEnTvRat_Attributes_CAF_TV, BfEnTvRat_Attributes_CAF_TV enumeration [Microsoft TV Technologies], CAF_IsBlocked, CAF_ValidAttrSubmask, mstv.bfentvrat_attributes_caf_tv, tvratings/BfEnTvRat_Attributes_CAF_TV, tvratings/CAF_IsBlocked, tvratings/CAF_ValidAttrSubmask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 

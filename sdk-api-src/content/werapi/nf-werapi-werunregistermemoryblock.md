@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerUnregisterMemoryBlock
 title: WerUnregisterMemoryBlock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a memory block from the list of data to be collected during error reporting for the application.
 old-location: wer\werunregistermemoryblock.htm
 old-project: wer
 ms.assetid: 016800e8-4a03-40f6-9dba-54cd9082eb48
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

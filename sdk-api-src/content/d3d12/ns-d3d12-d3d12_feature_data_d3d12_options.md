@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes Direct3D 12 feature options in the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_d3d12_options.htm
 old-project: direct3d12
 ms.assetid: 3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS, D3D12_FEATURE_DATA_D3D12_OPTIONS structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS, direct3d12.d3d12_feature_data_d3d12_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

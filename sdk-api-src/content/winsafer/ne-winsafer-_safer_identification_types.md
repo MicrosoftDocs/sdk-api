@@ -1,16 +1,16 @@
 ---
 UID: NE:winsafer._SAFER_IDENTIFICATION_TYPES
 title: "_SAFER_IDENTIFICATION_TYPES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible types of identification rule structures that can be identified by the SAFER_IDENTIFICATION_HEADER structure.
 old-location: security\safer_identification_types.htm
 old-project: SecMgmt
 ms.assetid: ced40d58-e9f1-47cc-9e05-fdaa253bb16b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SAFER_IDENTIFICATION_TYPES, SAFER_IDENTIFICATION_TYPES enumeration [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, _SAFER_IDENTIFICATION_TYPES, security.safer_identification_types, winsafer/SAFER_IDENTIFICATION_TYPES, winsafer/SaferIdentityDefault, winsafer/SaferIdentityTypeCertificate, winsafer/SaferIdentityTypeImageHash, winsafer/SaferIdentityTypeImageName, winsafer/SaferIdentityTypeUrlZone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsafer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientZip
 title: IFaxDoc::put_RecipientZip
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the RecipientZip property of a FaxDoc object. The RecipientZip property is a null-terminated string that contains the ZIP code of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientzip_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2pww.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientZip property, FaxDoc.RecipientZip, IFaxDoc.put_RecipientZip, IFaxDoc::put_RecipientZip, RecipientZip property [Fax Service], RecipientZip property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip_vb, put_RecipientZip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

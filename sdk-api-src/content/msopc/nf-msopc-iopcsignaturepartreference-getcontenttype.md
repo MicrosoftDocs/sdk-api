@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetContentType
 title: IOpcSignaturePartReference::GetContentType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the content type of the referenced part.
 old-location: opc\iopcsignaturepartreference_getcontenttype.htm
 old-project: OPC
 ms.assetid: 1384a0ab-d2dc-49c6-b180-648e256a875d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetContentType, GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetContentType method, IOpcSignaturePartReference.GetContentType, IOpcSignaturePartReference::GetContentType, msopc/IOpcSignaturePartReference::GetContentType, opc.iopcsignaturepartreference_getcontenttype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

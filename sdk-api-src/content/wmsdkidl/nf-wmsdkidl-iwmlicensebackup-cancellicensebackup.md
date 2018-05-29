@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseBackup.CancelLicenseBackup
 title: IWMLicenseBackup::CancelLicenseBackup
-author: windows-driver-content
+author: windows-sdk-content
 description: The CancelLicenseBackup method cancels a current backup operation.
 old-location: wmformat\iwmlicensebackup_cancellicensebackup.htm
 old-project: wmformat
 ms.assetid: aa226875-d59f-4fac-b38b-f94727fa2f4a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CancelLicenseBackup, CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],CancelLicenseBackup method, IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

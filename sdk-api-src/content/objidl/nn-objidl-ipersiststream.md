@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IPersistStream
 title: IPersistStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the saving and loading of objects that use a simple serial stream for their storage needs.
 old-location: com\ipersiststream.htm
 old-project: com
 ms.assetid: 97ea64ee-d950-4872-add6-1f532a6eb33f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistStream, IPersistStream interface [COM], IPersistStream interface [COM],described, _com_ipersiststream, com.ipersiststream, objidl/IPersistStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmDisableIME
 title: ImmDisableIME function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disables the IME for a thread or for all threads in a process.
 old-location: intl\immdisableime.htm
 old-project: Intl
 ms.assetid: c563fc24-3c56-40ac-8539-8336d5231537
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmDisableIME, ImmDisableIME function [Internationalization for Windows Applications], _win32_ImmDisableIME, imm/ImmDisableIME, intl.immdisableime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

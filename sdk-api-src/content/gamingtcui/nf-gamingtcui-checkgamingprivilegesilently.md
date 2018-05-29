@@ -1,16 +1,16 @@
 ---
 UID: NF:gamingtcui.CheckGamingPrivilegeSilently
 title: CheckGamingPrivilegeSilently function
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\CheckGamingPrivilegeSilently.htm
 old-project: tcui
 ms.assetid: 1C67C36E-E6E8-45C8-8B89-ED7740F5827C
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: CheckGamingPrivilegeSilently, CheckGamingPrivilegeSilently function, gamingtcui/CheckGamingPrivilegeSilently, tcui.CheckGamingPrivilegeSilently
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

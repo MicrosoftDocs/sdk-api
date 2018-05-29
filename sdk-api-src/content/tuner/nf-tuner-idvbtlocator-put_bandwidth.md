@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_Bandwidth
 title: IDVBTLocator::put_Bandwidth
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BandWidth method sets the bandwidth of the frequency.
 old-location: mstv\idvbtlocator_put_bandwidth.htm
 old-project: mstv
 ms.assetid: a842e905-cd4a-4d62-a9da-153832e44382
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Bandwidth method, IDVBTLocator.put_Bandwidth, IDVBTLocator::put_Bandwidth, IDVBTLocatorput_Bandwidth, mstv.idvbtlocator_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Bandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

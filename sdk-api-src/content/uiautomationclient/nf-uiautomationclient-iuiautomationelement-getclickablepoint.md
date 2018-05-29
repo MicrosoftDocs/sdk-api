@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetClickablePoint
 title: IUIAutomationElement::GetClickablePoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a point on the element that can be clicked.
 old-location: winauto\uiauto_IUIAutomationElement_GetClickablePoint.htm
 old-project: WinAuto
 ms.assetid: 3762aac6-5bd8-43a6-8fe6-e79d8724622b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetClickablePoint, GetClickablePoint method [Windows Accessibility], GetClickablePoint method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetClickablePoint method, IUIAutomationElement.GetClickablePoint, IUIAutomationElement::GetClickablePoint, uiauto.uiauto_IUIAutomationElement_GetClickablePoint, uiauto_IUIAutomationElement_GetClickablePoint, uiautomationclient/IUIAutomationElement::GetClickablePoint, winauto.uiauto_IUIAutomationElement_GetClickablePoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

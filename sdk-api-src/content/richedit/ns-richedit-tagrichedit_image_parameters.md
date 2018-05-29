@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit.tagRICHEDIT_IMAGE_PARAMETERS
 title: tagRICHEDIT_IMAGE_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the attributes of an image to be inserted by the EM_INSERTIMAGE message.
 old-location: controls\richedit_image_parameters.htm
 old-project: Controls
 ms.assetid: 9FBEB9BE-B27E-4AC6-AB39-1DBCF74AED8B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RICHEDIT_IMAGE_PARAMETERS, RICHEDIT_IMAGE_PARAMETERS structure [Windows Controls], TA_BASELINE, TA_BOTTOM, TA_TOP, controls.richedit_image_parameters, richedit/RICHEDIT_IMAGE_PARAMETERS, tagRICHEDIT_IMAGE_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

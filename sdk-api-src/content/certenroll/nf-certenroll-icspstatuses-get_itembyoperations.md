@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByOperations
 title: ICspStatuses::get_ItemByOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an ICspStatus object that has the same name as the provider specified on input and the same algorithm but identifies a different cryptographic operation.
 old-location: security\icspstatuses_itembyoperations_property.htm
 old-project: SecCertEnroll
 ms.assetid: ae314b76-61b7-4e28-87bb-f58ea14d7b71
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOperations property, ICspStatuses.ItemByOperations, ICspStatuses.get_ItemByOperations, ICspStatuses::ItemByOperations, ICspStatuses::get_ItemByOperations, ItemByOperations property [Security], ItemByOperations property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOperations, certenroll/ICspStatuses::get_ItemByOperations, get_ItemByOperations, security.icspstatuses_itembyoperations_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

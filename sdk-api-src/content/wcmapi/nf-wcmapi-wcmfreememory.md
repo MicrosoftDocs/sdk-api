@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmapi.WcmFreeMemory
 title: WcmFreeMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to release memory resources allocated by the WCM functions.
 old-location: wcm\wcmfreememory.htm
 old-project: wcm
 ms.assetid: 43377f58-9702-472d-874a-898f29b743d8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WcmFreeMemory, WcmFreeMemory function [Windows Connection Manager], wcm.wcmfreememory, wcmapi/WcmFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetQueryServiceAccount
 title: NetQueryServiceAccount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about the specified managed service account.
 old-location: security\netqueryserviceaccount.htm
 old-project: SecMgmt
 ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 

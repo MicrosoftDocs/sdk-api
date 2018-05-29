@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.IRdcSimilarityGenerator
 title: IRdcSimilarityGenerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for enabling the signature generator to generate similarity data and for retrieving the similarity data after it is generated.
 old-location: rdc\irdcsimilaritygenerator.htm
 old-project: Rdc
 ms.assetid: 60133763-9678-4927-9d3a-3e431310b601
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRdcSimilarityGenerator, IRdcSimilarityGenerator interface [Remote Differential Compression], IRdcSimilarityGenerator interface [Remote Differential Compression],described, fs.irdcsimilaritygenerator, msrdc/IRdcSimilarityGenerator, rdc.irdcsimilaritygenerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

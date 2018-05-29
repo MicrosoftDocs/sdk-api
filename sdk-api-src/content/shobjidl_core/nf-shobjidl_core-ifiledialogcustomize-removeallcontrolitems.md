@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.RemoveAllControlItems
 title: IFileDialogCustomize::RemoveAllControlItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IFileDialogCustomize_RemoveAllControlItems.htm
 old-project: shell
 ms.assetid: 2b706b8a-9c67-4f76-8ebe-af412fcd14cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],RemoveAllControlItems method, IFileDialogCustomize.RemoveAllControlItems, IFileDialogCustomize::RemoveAllControlItems, RemoveAllControlItems, RemoveAllControlItems method [Windows Shell], RemoveAllControlItems method [Windows Shell],IFileDialogCustomize interface, _shell_IFileDialogCustomize_RemoveAllControlItems, shell.IFileDialogCustomize_RemoveAllControlItems, shobjidl_core/IFileDialogCustomize::RemoveAllControlItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

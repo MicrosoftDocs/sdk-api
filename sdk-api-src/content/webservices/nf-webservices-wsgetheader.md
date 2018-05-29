@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetHeader
 title: WsGetHeader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds a particular standard header in the message and deserializes it.
 old-location: wsw\wsgetheader.htm
 old-project: wsw
 ms.assetid: ff6e639f-715d-4a4f-b0ef-35202aa54dc5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetHeader, WsGetHeader function [Web Services for Windows], webservices/WsGetHeader, wsw.wsgetheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

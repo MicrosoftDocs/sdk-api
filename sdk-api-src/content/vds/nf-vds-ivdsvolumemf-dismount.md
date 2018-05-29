@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVolumeMF.Dismount
 title: IVdsVolumeMF::Dismount
-author: windows-driver-content
+author: windows-sdk-content
 description: Dismounts a mounted volume.
 old-location: base\ivdsvolumemf_dismount.htm
 old-project: VDS
 ms.assetid: 1ef5a1e6-0e41-4077-9ae8-fe266f2623cc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Dismount, Dismount method [VDS], Dismount method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Dismount method, IVdsVolumeMF.Dismount, IVdsVolumeMF::Dismount, base.ivdsvolumemf_dismount, vds/IVdsVolumeMF::Dismount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

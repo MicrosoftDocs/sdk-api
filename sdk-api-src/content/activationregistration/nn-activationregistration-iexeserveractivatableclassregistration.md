@@ -1,16 +1,16 @@
 ---
 UID: NN:activationregistration.IExeServerActivatableClassRegistration
 title: IExeServerActivatableClassRegistration
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables getting the registration info for an out-of-process server.
 old-location: winrt\iexeserveractivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: activationregistration.h
 req.include-header: 

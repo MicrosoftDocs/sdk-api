@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.SetProperty
 title: IMDSPDevice3::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetProperty method sets a specific device property that is writable.
 old-location: wmdm\imdspdevice3_setproperty.htm
 old-project: WMDM
 ms.assetid: 72bbf8c3-a7e1-4289-b5b0-a57f50d6f46e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPDevice3 interface [windows Media Device Manager],SetProperty method, IMDSPDevice3.SetProperty, IMDSPDevice3::SetProperty, IMDSPDevice3TransferSessionEnd, SetProperty, SetProperty method [windows Media Device Manager], SetProperty method [windows Media Device Manager],IMDSPDevice3 interface, mswmdm/IMDSPDevice3::SetProperty, wmdm.imdspdevice3_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xinput.XInputEnable
 title: XInputEnable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the reporting state of XInput.
 old-location: xinput\xinputenable.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputEnable(BOOL)
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: XInputEnable, XInputEnable function [XInput Game Controller APIs], xinput.xinputenable, xinput/XInputEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: xinput.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentStructureResource
 title: IXpsOMDocumentStructureResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the XML content of the resource stream of the DocumentStructure part.
 old-location: xps\ixpsomdocumentstructureresource.htm
 old-project: printdocs
 ms.assetid: a0cc8748-08b2-4471-9961-603786e983a4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMDocumentStructureResource, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging], IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],described, xps.ixpsomdocumentstructureresource, xpsobjectmodel/IXpsOMDocumentStructureResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

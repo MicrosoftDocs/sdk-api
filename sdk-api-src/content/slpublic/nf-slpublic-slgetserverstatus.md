@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetServerStatus
 title: SLGetServerStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks the server status according to the specified URL and RequestType.
 old-location: security\slgetserverstatus.htm
 old-project: SecSLApi
 ms.assetid: 3c07fdcc-2282-4d94-ac60-001571cd5da8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetServerStatus, SLGetServerStatus function [Security], SL_INFO_KEY_PRODUCT_ACTIVATION_URL, SL_INFO_KEY_PRODUCT_KEY_ACTIVATION_URL, SL_INFO_KEY_RIGHT_ACCOUNT_ACTIVATION_URL, SL_INFO_KEY_SECURE_PROCESSOR_ACTIVATION_URL, SL_INFO_KEY_USE_LICENSE_ACTIVATION_URL, security.slgetserverstatus, slpublic/SLGetServerStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mspcall.CMSPCallBase.MSPCallRelease
 title: CMSPCallBase::MSPCallRelease
-author: windows-driver-content
+author: windows-sdk-content
 description: The MSPCallRelease method is the private Release method for the call object.
 old-location: tapi3\cmspcallbase_mspcallrelease.htm
 old-project: Tapi
 ms.assetid: 662361f2-ce0c-4c07-88c1-30393a236bf6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],MSPCallRelease method, CMSPCallBase.MSPCallRelease, CMSPCallBase::MSPCallRelease, MSPCallRelease, MSPCallRelease method [TAPI 2.2], MSPCallRelease method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_mspcallrelease, mspcall/CMSPCallBase::MSPCallRelease, tapi3.cmspcallbase_mspcallrelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 

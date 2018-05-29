@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
 title: ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the closed upper bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedupperbounditemid.htm
 old-project: winsync
 ms.assetid: b06b01b2-2f31-4117-92eb-e72e31a2f20b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetClosedUpperBoundItemId, GetClosedUpperBoundItemId method [Windows Sync], GetClosedUpperBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedUpperBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedupperbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

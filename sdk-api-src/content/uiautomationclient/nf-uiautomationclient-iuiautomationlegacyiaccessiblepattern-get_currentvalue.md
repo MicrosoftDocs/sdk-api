@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentValue
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility value property.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue.htm
 old-project: WinAuto
 ms.assetid: 48f960f1-113a-4ab8-809d-e83a7a66c28c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentValue property [Windows Accessibility], CurrentValue property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentValue property, IUIAutomationLegacyIAccessiblePattern.CurrentValue, IUIAutomationLegacyIAccessiblePattern.get_CurrentValue, IUIAutomationLegacyIAccessiblePattern::CurrentValue, IUIAutomationLegacyIAccessiblePattern::get_CurrentValue, get_CurrentValue, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

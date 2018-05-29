@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesSetting
 title: IOfflineFilesSetting
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a setting that controls the behavior the Offline Files service.
 old-location: of\iofflinefilessetting.htm
 old-project: OfflineFiles
 ms.assetid: 6f47c67b-9438-4229-89b2-6b3f9da8fb68
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], IOfflineFilesSetting interface [Offline Files],described, cscobj/IOfflineFilesSetting, of.iofflinefilessetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

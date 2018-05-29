@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpApplyControlTokenFn
 title: SpApplyControlTokenFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies a control token to a security context. This function is not currently called by the Local Security Authority (LSA).
 old-location: security\spapplycontroltoken.htm
 old-project: SecAuthN
 ms.assetid: 60c5e310-dd80-4bf7-9480-ac614c98d75f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpApplyControlToken, SpApplyControlToken function [Security], SpApplyControlTokenFn, _ssp_spapplycontroltoken, ntsecpkg/SpApplyControlToken, security.spapplycontroltoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

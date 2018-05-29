@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptEncrypt
 title: CryptEncrypt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts data. The algorithm used to encrypt the data is designated by the key held by the CSP module and is referenced by the hKey parameter.
 old-location: security\cryptencrypt.htm
 old-project: SecCrypto
 ms.assetid: 697c4960-552b-4c3a-95cf-4632af56945b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_OAEP, CryptEncrypt, CryptEncrypt function [Security], _crypto2_cryptencrypt, security.cryptencrypt, wincrypt/CryptEncrypt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

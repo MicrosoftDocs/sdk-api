@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.InitializeDecode
 title: IX509AttributeArchiveKey::InitializeDecode
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the encrypted private key.
 old-location: security\ix509attributearchivekey_initializedecode_method.htm
 old-project: SecCertEnroll
 ms.assetid: d6c39eaa-53d1-4cc4-bed3-34c9ef62e9d0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeDecode method, IX509AttributeArchiveKey.InitializeDecode, IX509AttributeArchiveKey::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeDecode, security.ix509attributearchivekey_initializedecode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

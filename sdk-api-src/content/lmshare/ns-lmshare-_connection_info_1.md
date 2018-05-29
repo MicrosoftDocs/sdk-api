@@ -1,16 +1,16 @@
 ---
 UID: NS:lmshare._CONNECTION_INFO_1
 title: "_CONNECTION_INFO_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the identification number of a connection, number of open files, connection time, number of users on the connection, and the type of connection.
 old-location: fs\connection_info_1_str.htm
 old-project: NetShare
 ms.assetid: 9904c448-dcc4-47cc-a2e0-7df8d4d37f3f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPCONNECTION_INFO_1, *PCONNECTION_INFO_1, CONNECTION_INFO_1, CONNECTION_INFO_1 structure [Files], LPCONNECTION_INFO_1, LPCONNECTION_INFO_1 structure pointer [Files], PCONNECTION_INFO_1, PCONNECTION_INFO_1 structure pointer [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _CONNECTION_INFO_1, _win32_connection_info_1_str, fs.connection_info_1_str, lmshare/CONNECTION_INFO_1, lmshare/LPCONNECTION_INFO_1, lmshare/PCONNECTION_INFO_1, netmgmt.connection_info_1_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

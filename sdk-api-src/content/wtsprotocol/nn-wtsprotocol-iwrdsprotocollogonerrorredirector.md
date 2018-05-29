@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolLogonErrorRedirector
 title: IWRdsProtocolLogonErrorRedirector
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods called by the Remote Desktop Services service to update logon status and determine how to direct logon error messages.
 old-location: termserv\iwrdsprotocollogonerrorredirector.htm
 old-project: TermServ
 ms.assetid: 43c283f5-c902-49cc-81a0-15fc6316c7d4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwrdsprotocollogonerrorredirector, wtsprotocol/IWRdsProtocolLogonErrorRedirector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

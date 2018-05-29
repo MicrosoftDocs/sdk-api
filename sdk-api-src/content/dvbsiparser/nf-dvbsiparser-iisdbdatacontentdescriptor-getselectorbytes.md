@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorBytes
 title: IIsdbDataContentDescriptor::GetSelectorBytes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the selector data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. The contents of the selector depend on the type of data transmitted in the data component.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorbytes.htm
 old-project: mstv
 ms.assetid: b02c315e-322d-478e-8be1-c833df49ed56
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSelectorBytes, GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorBytes method, IIsdbDataContentDescriptor.GetSelectorBytes, IIsdbDataContentDescriptor::GetSelectorBytes, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorBytes, mstv.iisdbdatacontentdescriptor_getselectorbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

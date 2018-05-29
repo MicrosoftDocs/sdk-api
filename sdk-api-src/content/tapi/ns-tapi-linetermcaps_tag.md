@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linetermcaps_tag
 title: linetermcaps_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINETERMCAPS structure describes the capabilities of a line's terminal device. The LINEDEVCAPS structure can contain an array of LINETERMCAPS structures.
 old-location: tapi2\linetermcaps_str.htm
 old-project: Tapi
 ms.assetid: 54d36126-a032-4baa-8484-6ebeb9c4adf9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINETERMCAPS, LINETERMCAPS, LINETERMCAPS structure [TAPI 2.2], LPLINETERMCAPS, LPLINETERMCAPS structure pointer [TAPI 2.2], _tapi2_linetermcaps_str, linetermcaps_tag, tapi/LINETERMCAPS, tapi/LPLINETERMCAPS, tapi2.linetermcaps_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

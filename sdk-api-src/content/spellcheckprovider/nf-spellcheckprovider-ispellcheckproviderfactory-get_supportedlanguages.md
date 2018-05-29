@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProviderFactory.get_SupportedLanguages
 title: ISpellCheckProviderFactory::get_SupportedLanguages
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the set of languages/dialects supported by the spell checker.
 old-location: intl\ispellcheckproviderfactory_supportedlanguages.htm
 old-project: Intl
 ms.assetid: 52690D99-4E14-44CE-BFD8-D0931F250280
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckProviderFactory interface [Internationalization for Windows Applications],SupportedLanguages property, ISpellCheckProviderFactory.SupportedLanguages, ISpellCheckProviderFactory.get_SupportedLanguages, ISpellCheckProviderFactory::SupportedLanguages, ISpellCheckProviderFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, get_SupportedLanguages, intl.ispellcheckproviderfactory_supportedlanguages, spellcheckprovider/ISpellCheckProviderFactory::SupportedLanguages, spellcheckprovider/ISpellCheckProviderFactory::get_SupportedLanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

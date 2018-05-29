@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdbase.IWSDUdpAddress
 title: IWSDUdpAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the individual components of a UDP address.
 old-location: ncd\iwsdudpaddress.htm
 old-project: WsdApi
 ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, IWSDUdpAddress interface,described, ncd.iwsdudpaddress, wsdbase/IWSDUdpAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_ALGORITHM_IDENTIFIER
 title: "_BCRYPT_ALGORITHM_IDENTIFIER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used with the BCryptEnumAlgorithms function to contain a cryptographic algorithm identifier.
 old-location: security\bcrypt_algorithm_identifier_struct.htm
 old-project: SecCNG
 ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], _BCRYPT_ALGORITHM_IDENTIFIER, bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

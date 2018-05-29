@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.GetInteractionConfigurationInteractionContext
 title: GetInteractionConfigurationInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets interaction configuration state for the Interaction Context object.
 old-location: input_intcontext\getinteractionconfigurationinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 30996835-420a-4141-838f-10b62b562992
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetInteractionConfigurationInteractionContext, GetInteractionConfigurationInteractionContext function, input_intcontext.getinteractionconfigurationinteractioncontext, interactioncontext.getinteractionconfigurationinteractioncontext, interactioncontext/GetInteractionConfigurationInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

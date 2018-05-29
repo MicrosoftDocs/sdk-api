@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICCompressGetFormatSize
 title: ICCompressGetFormatSize macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICCompressGetFormatSize macro requests the size of the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the ICM_COMPRESS_GET_FORMAT message.
 old-location: multimedia\iccompressgetformatsize.htm
 old-project: Multimedia
 ms.assetid: 50d73009-1f8e-4e2e-950c-0c1262ea61f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICCompressGetFormatSize, ICCompressGetFormatSize macro [Windows Multimedia], _win32_ICCompressGetFormatSize, multimedia.iccompressgetformatsize, vfw/ICCompressGetFormatSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

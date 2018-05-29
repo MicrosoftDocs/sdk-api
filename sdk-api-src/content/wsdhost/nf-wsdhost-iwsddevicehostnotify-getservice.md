@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHostNotify.GetService
 title: IWSDDeviceHostNotify::GetService
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a service object that is not currently registered.
 old-location: ncd\iwsddevicehostnotify_getservice_method.htm
 old-project: WsdApi
 ms.assetid: 5222b99a-b438-4775-91f0-8bcc7d3b73e8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetService, GetService method, GetService method,IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface,GetService method, IWSDDeviceHostNotify.GetService, IWSDDeviceHostNotify::GetService, ncd.iwsddevicehostnotify_getservice_method, wsdhost/IWSDDeviceHostNotify::GetService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

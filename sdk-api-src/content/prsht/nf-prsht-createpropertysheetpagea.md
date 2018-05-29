@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.CreatePropertySheetPageA
 title: CreatePropertySheetPageA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new page for a property sheet.
 old-location: controls\CreatePropertySheetPage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\createpropertysheetpage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreatePropertySheetPage, CreatePropertySheetPage function [Windows Controls], CreatePropertySheetPageA, CreatePropertySheetPageW, _win32_CreatePropertySheetPage, _win32_CreatePropertySheetPage_cpp, controls.CreatePropertySheetPage, controls._win32_CreatePropertySheetPage, prsht/CreatePropertySheetPage, prsht/CreatePropertySheetPageA, prsht/CreatePropertySheetPageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: prsht.h
 req.include-header: 

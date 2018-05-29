@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketCount
 title: IInkStrokeDisp::get_PacketCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of packets received for an IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_packetcount.htm
 old-project: tablet
 ms.assetid: f7cd47f8-809b-455d-873f-81dba80549b9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],PacketCount property, IInkStrokeDisp.PacketCount, IInkStrokeDisp.get_PacketCount, IInkStrokeDisp::PacketCount, IInkStrokeDisp::get_PacketCount, PacketCount property [Tablet PC], PacketCount property [Tablet PC],IInkStrokeDisp interface, f7cd47f8-809b-455d-873f-81dba80549b9, get_PacketCount, msinkaut/IInkStrokeDisp::PacketCount, msinkaut/IInkStrokeDisp::get_PacketCount, tablet.iinkstrokedisp_packetcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetProtocolStatus
 title: IWTSProtocolConnection::GetProtocolStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolConnection::GetProtocolStatus is no longer available. Instead, use IWRdsProtocolConnection::GetProtocolStatus.
 old-location: termserv\iwtsprotocolconnection_getprotocolstatus.htm
 old-project: TermServ
 ms.assetid: d224877a-649a-4ac2-a5e7-831592e6a0d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetProtocolStatus method, IWTSProtocolConnection.GetProtocolStatus, IWTSProtocolConnection::GetProtocolStatus, termserv.iwtsprotocolconnection_getprotocolstatus, wtsprotocol/IWTSProtocolConnection::GetProtocolStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

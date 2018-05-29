@@ -1,16 +1,16 @@
 ---
 UID: NS:lmshare._SHARE_INFO_503
 title: "_SHARE_INFO_503"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the shared resource. It is identical to the SHARE_INFO_502 structure, except that it also contains the server name.
 old-location: fs\share_info_503_str.htm
 old-project: NetShare
 ms.assetid: 12650bc0-f67d-464e-8386-a0fd53cdc749
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPSHARE_INFO_503, *PSHARE_INFO_503, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_503, LPSHARE_INFO_503 structure pointer [Files], PSHARE_INFO_503, PSHARE_INFO_503 structure pointer [Files], SHARE_INFO_503, SHARE_INFO_503 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _SHARE_INFO_503, fs.share_info_503, fs.share_info_503_str, lmshare/LPSHARE_INFO_503, lmshare/PSHARE_INFO_503, lmshare/SHARE_INFO_503"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

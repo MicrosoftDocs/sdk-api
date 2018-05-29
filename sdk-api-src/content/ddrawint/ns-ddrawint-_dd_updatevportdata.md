@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_UPDATEVPORTDATA
 title: "_DD_UPDATEVPORTDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_UPDATEVPORTDATA structure contains the information required to start, stop, and change the video port extensions (VPE) object.
 old-location: display\dd_updatevportdata.htm
 old-project: display
 ms.assetid: e1ba7851-570e-4ddc-8981-766294011409
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA structure [Display Devices], _DD_UPDATEVPORTDATA, ddrawint/DD_UPDATEVPORTDATA, ddstrcts_a266490e-9cac-45ca-9129-63f3dcef6a6f.xml, display.dd_updatevportdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

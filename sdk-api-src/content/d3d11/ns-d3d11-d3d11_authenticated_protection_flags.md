@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_PROTECTION_FLAGS
 title: D3D11_AUTHENTICATED_PROTECTION_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the protection level for video content.
 old-location: mf\d3d11_authenticated_protection_flags.htm
 old-project: medfound
 ms.assetid: 037AB541-2E68-460C-8626-7F22C6C3E425
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_AUTHENTICATED_PROTECTION_FLAGS, D3D11_AUTHENTICATED_PROTECTION_FLAGS union [Media Foundation], d3d11/D3D11_AUTHENTICATED_PROTECTION_FLAGS, mf.d3d11_authenticated_protection_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.CreateRecognizerContext
 title: IInkRecognizer::CreateRecognizerContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new InkRecognizerContext object.
 old-location: tablet\iinkrecognizer_createrecognizercontext.htm
 old-project: tablet
 ms.assetid: b6aeec3f-8d57-4667-b171-1d8cad95f45c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateRecognizerContext, CreateRecognizerContext method [Tablet PC], CreateRecognizerContext method [Tablet PC],IInkRecognizer interface, IInkRecognizer interface [Tablet PC],CreateRecognizerContext method, IInkRecognizer.CreateRecognizerContext, IInkRecognizer::CreateRecognizerContext, b6aeec3f-8d57-4667-b171-1d8cad95f45c, msinkaut/IInkRecognizer::CreateRecognizerContext, tablet.iinkrecognizer_createrecognizercontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

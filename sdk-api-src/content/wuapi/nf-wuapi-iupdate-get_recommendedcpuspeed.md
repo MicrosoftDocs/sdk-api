@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedCpuSpeed
 title: IUpdate::get_RecommendedCpuSpeed
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the recommended CPU speed used to install the update, in megahertz (MHz).
 old-location: wua\iupdate_recommendedcpuspeed.htm
 old-project: Wua_Sdk
 ms.assetid: 21003be2-c14e-48d4-a51f-ed75b1b47284
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedCPUSpeed property, IUpdate.RecommendedCPUSpeed, IUpdate.get_RecommendedCpuSpeed, IUpdate::RecommendedCPUSpeed, IUpdate::get_RecommendedCPUSpeed, IUpdate::get_RecommendedCpuSpeed, RecommendedCPUSpeed property [Windows Update Agent], RecommendedCPUSpeed property [Windows Update Agent],IUpdate interface, get_RecommendedCpuSpeed, wua.iupdate_recommendedcpuspeed, wuapi/IUpdate::RecommendedCPUSpeed, wuapi/IUpdate::get_RecommendedCPUSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

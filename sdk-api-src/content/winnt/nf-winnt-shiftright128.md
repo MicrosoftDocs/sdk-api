@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.ShiftRight128
 title: ShiftRight128 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shifts 128-bit right.
 old-location: winprog\shiftright128.htm
 old-project: WinProg
 ms.assetid: 36DF1BEE-A3C4-46A4-B512-0A8FC9F80EDE
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: ShiftRight128, ShiftRight128 function [Windows API], winnt/ShiftRight128, winprog.shiftright128
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

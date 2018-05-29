@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IAutoComplete
 title: IAutoComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows applications to initialize, enable, and disable the object.
 old-location: shell\IAutoComplete.htm
 old-project: shell
 ms.assetid: bed6eb41-3086-4af7-8c75-651da9dba3b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAutoComplete, IAutoComplete interface [Windows Shell], IAutoComplete interface [Windows Shell],described, _win32_IAutoComplete, shell.IAutoComplete, shldisp/IAutoComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

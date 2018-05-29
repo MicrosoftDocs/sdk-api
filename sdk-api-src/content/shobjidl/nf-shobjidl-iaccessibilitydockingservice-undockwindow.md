@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.UndockWindow
 title: IAccessibilityDockingService::UndockWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Undocks the specified window handle if it is currently docked.
 old-location: com\iaccessibilitydockingservice_undockwindow.htm
 old-project: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

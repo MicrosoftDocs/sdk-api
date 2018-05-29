@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetRangeExceptions
 title: ISyncKnowledge::GetRangeExceptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an object that can enumerate the IRangeException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getrangeexceptions.htm
 old-project: winsync
 ms.assetid: 9dd945bf-a3e4-408a-bdfe-5163a7dbdc3f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetRangeExceptions, GetRangeExceptions method [Windows Sync], GetRangeExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetRangeExceptions method, ISyncKnowledge.GetRangeExceptions, ISyncKnowledge::GetRangeExceptions, winsync.isyncknowledge_getrangeexceptions, winsync/ISyncKnowledge::GetRangeExceptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

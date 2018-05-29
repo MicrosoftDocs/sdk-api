@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.get_VITCLine
 title: IAMTimecodeGenerator::get_VITCLine
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_VITCLine method retrieves which line(s) the vertical interval timecode information has been inserted into.
 old-location: dshow\iamtimecodegenerator_get_vitcline.htm
 old-project: DirectShow
 ms.assetid: 0a1595a6-30ae-46ab-bfda-102b4dbc67ef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],get_VITCLine method, IAMTimecodeGenerator.get_VITCLine, IAMTimecodeGenerator::get_VITCLine, IAMTimecodeGeneratorget_VITCLine, dshow.iamtimecodegenerator_get_vitcline, get_VITCLine, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow],IAMTimecodeGenerator interface, strmif/IAMTimecodeGenerator::get_VITCLine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

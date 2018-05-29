@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Button_GetSplitInfo
 title: Button_GetSplitInfo macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information for a specified split button control. Use this macro or send the BCM_GETSPLITINFO message explicitly.
 old-location: controls\Button_GetSplitInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getsplitinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Button_GetSplitInfo, Button_GetSplitInfo macro [Windows Controls], _shell_Button_GetSplitInfo, _shell_Button_GetSplitInfo_cpp, commctrl/Button_GetSplitInfo, controls.Button_GetSplitInfo, controls._shell_Button_GetSplitInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

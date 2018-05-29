@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.ITypeLib2
 title: ITypeLib2
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a type library, the data that describes a set of objects.
 old-location: automat\itypelib2.htm
 old-project: automat
 ms.assetid: 47561b53-3f7b-4939-8b86-5acb5eaeea5a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ITypeLib2, ITypeLib2 interface [Automation], ITypeLib2 interface [Automation],described, _oa96_ITypeLib2_Interface, automat.itypelib2, oaidl/ITypeLib2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

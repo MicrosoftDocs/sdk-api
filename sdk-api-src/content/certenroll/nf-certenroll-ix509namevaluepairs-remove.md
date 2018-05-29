@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Remove
 title: IX509NameValuePairs::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an IX509NameValuePair object from the collection by index number.
 old-location: security\ix509namevaluepairs_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: f66dbfd1-331f-4e1b-a17e-f8071044d073
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509NameValuePairs interface [Security],Remove method, IX509NameValuePairs.Remove, IX509NameValuePairs::Remove, Remove, Remove method [Security], Remove method [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::Remove, security.ix509namevaluepairs_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

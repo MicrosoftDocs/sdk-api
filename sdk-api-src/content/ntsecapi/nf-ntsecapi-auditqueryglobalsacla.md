@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditQueryGlobalSaclA
 title: AuditQueryGlobalSaclA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a global system access control list (SACL) that delegates access to the audit messages.
 old-location: security\auditqueryglobalsacl.htm
 old-project: SecAuthZ
 ms.assetid: 133BBC94-9C89-437A-9146-75A9898A6566
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditQueryGlobalSacl, AuditQueryGlobalSacl function [Security], AuditQueryGlobalSaclA, AuditQueryGlobalSaclW, ntsecapi/AuditQueryGlobalSacl, ntsecapi/AuditQueryGlobalSaclA, ntsecapi/AuditQueryGlobalSaclW, security.auditqueryglobalsacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

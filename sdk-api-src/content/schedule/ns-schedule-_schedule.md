@@ -1,16 +1,16 @@
 ---
 UID: NS:schedule._SCHEDULE
 title: "_SCHEDULE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the DsReplicaAdd and DsReplicaModify functions to contain replication schedule data for a replication source.
 old-location: ad\schedule.htm
 old-project: AD
 ms.assetid: d86890db-b34a-415a-820a-6d4790914218
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directory], SCHEDULE, SCHEDULE structure [Active Directory], _SCHEDULE, ad.schedule, schedule/PSCHEDULE, schedule/SCHEDULE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schedule.h
 req.include-header: 

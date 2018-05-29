@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMLoadShortN4
 title: XMLoadShortN4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads an XMSHORTN4 into an XMVECTOR.
 old-location: dxmath\xmloadshortn4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShortN4(const XMSHORTN4)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadShortN4, XMLoadShortN4, XMLoadShortN4 method [DirectX Math Support APIs], dxmath.xmloadshortn4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

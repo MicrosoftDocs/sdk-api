@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerSetResponseAttributes
 title: EapHostPeerSetResponseAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides updated EAP authentication attributes to EAPHost.
 old-location: eaphost\eaphostpeersetresponseattributes.htm
 old-project: EAPHost
 ms.assetid: b8ce5510-f5ba-403c-8709-940ae58cd10d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerSetResponseAttributes, EapHostPeerSetResponseAttributes function [EAPHost], eaphost.eaphostpeersetresponseattributes, eappapis/EapHostPeerSetResponseAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

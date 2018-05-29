@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_search_abandon_page
 title: ldap_search_abandon_page function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_search_abandon_page function terminates a paged-results search.
 old-location: ldap\ldap_search_abandon_page.htm
 old-project: LDAP
 ms.assetid: 0c434611-b4d0-46e4-8e81-fc221e63de9f
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_search_abandon_page, ldap.ldap__search__abandon__page, ldap.ldap_search_abandon_page, ldap_search_abandon_page, ldap_search_abandon_page function [LDAP], winldap/ldap_search_abandon_page"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

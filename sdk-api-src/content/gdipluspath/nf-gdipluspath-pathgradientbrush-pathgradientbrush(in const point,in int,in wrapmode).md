@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode)
 title: PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathGradientBrush, PathGradientBrush constructors [GDI+], PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode), _gdiplus_CLASS_PathGradientBrush_Constructors, gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors, gdipluspath/PathGradientBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

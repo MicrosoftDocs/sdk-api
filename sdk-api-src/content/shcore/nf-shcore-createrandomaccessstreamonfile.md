@@ -1,16 +1,16 @@
 ---
 UID: NF:shcore.CreateRandomAccessStreamOnFile
 title: CreateRandomAccessStreamOnFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Windows Runtime random access stream for a file.
 old-location: winrt\createrandomaccessstreamonfile.htm
 old-project: WinRT
 ms.assetid: 6D3D2B25-7373-4BA5-BF6B-FB461C2DE982
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile function [Windows Runtime], shcore/CreateRandomAccessStreamOnFile, winrt.createrandomaccessstreamonfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shcore.h
 req.include-header: 

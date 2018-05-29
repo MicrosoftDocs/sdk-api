@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPSkinManager
 title: IWMPSkinManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPSkinManager interface provides a method used to synchronize the current skin with the current desktop theme in Microsoft Windows XP.
 old-location: wmp\iwmpskinmanager.htm
 old-project: WMP
 ms.assetid: c1f27a79-837f-4833-af62-2181406ed725
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSkinManager, IWMPSkinManager interface [Windows Media Player], IWMPSkinManager interface [Windows Media Player],described, IWMPSkinManagerInterface, wmp.iwmpskinmanager, wmp/IWMPSkinManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

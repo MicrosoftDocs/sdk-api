@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_OUTPUT_ARG
 title: "_NET_VALIDATE_OUTPUT_ARG"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NET_VALIDATE_OUTPUT_ARG structure contains information about persistent password-related data that has changed since the user's last logon as well as the result of the function's password validation check.
 old-location: netmgmt\net_validate_output_arg.htm
 old-project: NetMgmt
 ms.assetid: 833c89c3-34ba-485b-a310-1d709aa618cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PNET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG structure [Network Management], PNET_VALIDATE_OUTPUT_ARG, PNET_VALIDATE_OUTPUT_ARG structure pointer [Network Management], _NET_VALIDATE_OUTPUT_ARG, lmaccess/NET_VALIDATE_OUTPUT_ARG, lmaccess/PNET_VALIDATE_OUTPUT_ARG, netmgmt.net_validate_output_arg"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

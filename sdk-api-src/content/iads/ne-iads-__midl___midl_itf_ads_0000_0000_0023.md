@@ -1,16 +1,16 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0023
 title: "__MIDL___MIDL_itf_ads_0000_0000_0023"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADSI_DIALECT_ENUM enumeration specifies query dialects used in the OLE DB provider for ADSI.
 old-location: adsi\adsi_dialect_enum.htm
 old-project: ADSI
 ms.assetid: 049b9367-c80b-47c2-97d8-b25537a9c0ba
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADSI_DIALECT_ENUM, ADSI_DIALECT_ENUM enumeration [ADSI], ADSI_DIALECT_LDAP, ADSI_DIALECT_SQL, __MIDL___MIDL_itf_ads_0000_0000_0023, _ds_adsi_dialect_enum, adsi.adsi__dialect__enum, adsi.adsi_dialect_enum, iads/ADSI_DIALECT_ENUM, iads/ADSI_DIALECT_LDAP, iads/ADSI_DIALECT_SQL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:dxmini.PDX_GETIRQINFO
 title: PDX_GETIRQINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DxGetIRQInfo callback function indicates that the driver manages the interrupt request.
 old-location: display\dxgetirqinfo.htm
 old-project: display
 ms.assetid: bc7463ab-1cb1-4ce5-a929-1513507a16ff
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DxGetIRQInfo, DxGetIRQInfo callback function [Display Devices], PDX_GETIRQINFO, PDX_GETIRQINFO callback, VideoMiniPort_DxApiFunctions_1e787efc-ec94-4fa0-bc13-22142c16cc8d.xml, display.dxgetirqinfo, dxmini/DxGetIRQInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h

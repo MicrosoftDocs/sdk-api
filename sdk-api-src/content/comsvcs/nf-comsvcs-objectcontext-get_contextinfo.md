@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_ContextInfo
 title: ObjectContext::get_ContextInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the context information object of the current object's context.
 old-location: cos\objectcontext_get_contextinfo.htm
 old-project: cossdk
 ms.assetid: 1974edd5-3348-4ac4-a80c-c549f2d79161
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ObjectContext interface [COM+],get_ContextInfo method, ObjectContext.get_ContextInfo, ObjectContext::get_ContextInfo, _cos_ObjectContext_get_ContextInfo, comsvcs/ObjectContext::get_ContextInfo, cos.objectcontext_get_contextinfo, get_ContextInfo, get_ContextInfo method [COM+], get_ContextInfo method [COM+],ObjectContext interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

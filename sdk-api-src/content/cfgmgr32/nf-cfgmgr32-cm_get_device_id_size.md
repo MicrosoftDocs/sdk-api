@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_Size
 title: CM_Get_Device_ID_Size function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Device_ID_Size function retrieves the buffer size required to hold a device instance ID for a device instance on the local machine.
 old-location: devinst\cm_get_device_id_size.htm
 old-project: devinst
 ms.assetid: 3ae682d0-d9fa-4a29-8258-c6f72f1940b7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Device_ID_Size, CM_Get_Device_ID_Size function [Device and Driver Installation], cfgmgr32/CM_Get_Device_ID_Size, cfgmgrfn_7e0a024a-355c-4c4d-8aa2-9ec4078c3a3a.xml, devinst.cm_get_device_id_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

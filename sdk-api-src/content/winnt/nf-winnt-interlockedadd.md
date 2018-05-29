@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.InterlockedAdd
 title: InterlockedAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONG values.
 old-location: base\interlockedadd.htm
 old-project: Sync
 ms.assetid: c3ff4c2f-ac84-4046-ac4e-600569b874be
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedAdd, InterlockedAdd function, base.interlockedadd, winnt/InterlockedAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

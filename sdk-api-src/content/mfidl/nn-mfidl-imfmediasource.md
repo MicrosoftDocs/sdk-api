@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFMediaSource
 title: IMFMediaSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by media source objects.
 old-location: mf\imfmediasource.htm
 old-project: medfound
 ms.assetid: 8b579f61-6fea-4b20-a051-7633fc01fa05
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 8b579f61-6fea-4b20-a051-7633fc01fa05, IMFMediaSource, IMFMediaSource interface [Media Foundation], IMFMediaSource interface [Media Foundation],described, mf.imfmediasource, mfidl/IMFMediaSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

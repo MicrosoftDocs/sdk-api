@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecDospStateDestroyEnumHandle0
 title: IPsecDospStateDestroyEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a handle returned by IPsecDospStateCreateEnumHandle0.
 old-location: fwp\ipsecdospstatedestroyenumhandle0.htm
 old-project: FWP
 ms.assetid: d7e1710d-8142-4583-a7b6-960fbdb2fcbb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecDospStateDestroyEnumHandle0, IPsecDospStateDestroyEnumHandle0 function [Filtering], fwp.ipsecdospstatedestroyenumhandle0, fwpmu/IPsecDospStateDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

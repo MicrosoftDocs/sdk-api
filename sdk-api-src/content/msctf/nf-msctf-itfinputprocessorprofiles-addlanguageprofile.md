@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.AddLanguageProfile
 title: ITfInputProcessorProfiles::AddLanguageProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfInputProcessorProfiles::AddLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_addlanguageprofile.htm
 old-project: TSF
 ms.assetid: d132bff1-24de-4e43-859b-2425ba7de8f0
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AddLanguageProfile, AddLanguageProfile method [Text Services Framework], AddLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],AddLanguageProfile method, ITfInputProcessorProfiles.AddLanguageProfile, ITfInputProcessorProfiles::AddLanguageProfile, _tsf_itfinputprocessorprofiles_addlanguageprofile_ref, msctf/ITfInputProcessorProfiles::AddLanguageProfile, tsf.itfinputprocessorprofiles_addlanguageprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

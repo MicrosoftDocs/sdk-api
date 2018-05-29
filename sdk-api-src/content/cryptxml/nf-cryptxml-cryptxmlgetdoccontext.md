@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlGetDocContext
 title: CryptXmlGetDocContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the document context specified by the supplied handle.
 old-location: security\cryptxmlgetdoccontext.htm
 old-project: SecCrypto
 ms.assetid: 0532c790-381c-4a91-8211-725b0fa73830
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptXmlGetDocContext, CryptXmlGetDocContext function [Security], cryptxml/CryptXmlGetDocContext, security.cryptxmlgetdoccontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

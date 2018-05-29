@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiDecryptAuthIdentity
 title: SspiDecryptAuthIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts the specified encrypted credential.
 old-location: security\sspidecryptauthidentity.htm
 old-project: SecAuthN
 ms.assetid: aef0206c-c376-4877-b1a6-5e86d2e35dea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiDecryptAuthIdentity, SspiDecryptAuthIdentity function [Security], security.sspidecryptauthidentity, sspi/SspiDecryptAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IEnumExtraSearch
 title: IEnumExtraSearch
-author: windows-driver-content
+author: windows-sdk-content
 description: A standard OLE enumerator used by a client to determine the available search objects for a folder.
 old-location: shell\IEnumExtraSearch.htm
 old-project: shell
 ms.assetid: 63b71cd2-483b-482f-b3f4-6d5c937e7708
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumExtraSearch, IEnumExtraSearch interface [Windows Shell], IEnumExtraSearch interface [Windows Shell],described, _win32_IEnumExtraSearch, shell.IEnumExtraSearch, shobjidl_core/IEnumExtraSearch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

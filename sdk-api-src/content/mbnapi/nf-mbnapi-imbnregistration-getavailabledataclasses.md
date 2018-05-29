@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetAvailableDataClasses
 title: IMbnRegistration::GetAvailableDataClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the available data classes in the current network.
 old-location: mbn\imbnregistration_getavailabledataclasses.htm
 old-project: mbn
 ms.assetid: fb799232-0ef5-4fbd-9b7f-a106ef440a68
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetAvailableDataClasses, GetAvailableDataClasses method [Microsoft Broadband Networks], GetAvailableDataClasses method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetAvailableDataClasses method, IMbnRegistration.GetAvailableDataClasses, IMbnRegistration::GetAvailableDataClasses, mbn.imbnregistration_getavailabledataclasses, mbnapi/IMbnRegistration::GetAvailableDataClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

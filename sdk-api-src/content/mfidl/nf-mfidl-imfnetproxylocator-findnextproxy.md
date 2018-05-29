@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.FindNextProxy
 title: IMFNetProxyLocator::FindNextProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the next proxy to use.
 old-location: mf\imfnetproxylocator_findnextproxy.htm
 old-project: medfound
 ms.assetid: 91a6046f-f5c3-4239-af71-d25e9d5b5838
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 91a6046f-f5c3-4239-af71-d25e9d5b5838, FindNextProxy, FindNextProxy method [Media Foundation], FindNextProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],FindNextProxy method, IMFNetProxyLocator.FindNextProxy, IMFNetProxyLocator::FindNextProxy, mf.imfnetproxylocator_findnextproxy, mfidl/IMFNetProxyLocator::FindNextProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

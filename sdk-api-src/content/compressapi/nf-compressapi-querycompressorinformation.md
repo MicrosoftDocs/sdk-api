@@ -1,16 +1,16 @@
 ---
 UID: NF:compressapi.QueryCompressorInformation
 title: QueryCompressorInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries a compressor for information for a particular compression algorithm.
 old-location: cmpapi\querycompressorinformation.htm
 old-project: cmpapi
 ms.assetid: 90b2ef29-c488-4d32-a315-312b25a0e585
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: QueryCompressorInformation, QueryCompressorInformation function [Compression API], cmpapi.querycompressorinformation, compressapi/QueryCompressorInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

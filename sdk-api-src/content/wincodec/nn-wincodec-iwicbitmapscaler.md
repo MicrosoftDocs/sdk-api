@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICBitmapScaler
 title: IWICBitmapScaler
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a resized version of the input bitmap using a resampling or filtering algorithm.
 old-location: wic\_wic_codec_iwicbitmapscaler.htm
 old-project: wic
 ms.assetid: cc14be9d-d750-40db-a95f-309b392cefe8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapScaler, IWICBitmapScaler interface [Windows Imaging Component], IWICBitmapScaler interface [Windows Imaging Component],described, _wic_codec_iwicbitmapscaler, wic._wic_codec_iwicbitmapscaler, wincodec/IWICBitmapScaler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

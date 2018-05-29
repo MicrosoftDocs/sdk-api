@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetStatus
 title: IUIAnimationManager::GetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the status of the animation manager.
 old-location: uianimation\iuianimationmanager_getstatus.htm
 old-project: UIAnimation
 ms.assetid: 838140c3-12ca-4909-a0f8-713b5472e5a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetStatus method, IUIAnimationManager.GetStatus, IUIAnimationManager::GetStatus, uianimation.iuianimationmanager_getstatus, uianimation/IUIAnimationManager::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

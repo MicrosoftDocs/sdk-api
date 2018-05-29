@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Item
 title: ITriggerCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified trigger from the collection.
 old-location: taskschd\itriggercollection_item.htm
 old-project: TaskSchd
 ms.assetid: 007e5792-bb91-435f-abe9-27366e6ec58a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Item property, ITriggerCollection.Item, ITriggerCollection.get_Item, ITriggerCollection::Item, ITriggerCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITriggerCollection interface, get_Item, taskschd.itriggercollection_item, taskschd/ITriggerCollection::Item, taskschd/ITriggerCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsHwProvider.QuerySubSystems
 title: IVdsHwProvider::QuerySubSystems
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an enumeration of the subsystems managed by the provider.
 old-location: base\ivdshwprovider_querysubsystems.htm
 old-project: VDS
 ms.assetid: ae327655-3db9-44b0-934a-458ee90b1d07
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsHwProvider interface [VDS],QuerySubSystems method, IVdsHwProvider.QuerySubSystems, IVdsHwProvider::QuerySubSystems, QuerySubSystems, QuerySubSystems method [VDS], QuerySubSystems method [VDS],IVdsHwProvider interface, base.ivdshwprovider_querysubsystems, vds/IVdsHwProvider::QuerySubSystems, vdshwprv/IVdsHwProvider::QuerySubSystems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.FreeIDListArrayChild
 title: FreeIDListArrayChild function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the memory space for the array of pointers to child item IDs. This releases both the PITEMID_CHILDs within the array and the array itself.
 old-location: shell\FreeIDListArrayChild.htm
 old-project: shell
 ms.assetid: 89abceae-1aed-401d-82ab-57215ec22d00
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FreeIDListArrayChild, FreeIDListArrayChild function [Windows Shell], _shell_FreeIDListArrayChild, shell.FreeIDListArrayChild, shobjidl_core/FreeIDListArrayChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

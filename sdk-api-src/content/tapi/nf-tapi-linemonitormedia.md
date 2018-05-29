@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineMonitorMedia
 title: lineMonitorMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineMonitorMedia function enables and disables the detection of media types (modes) on the specified call. When a media type is detected, a message is sent to the application. For more information, see ITLegacyCallMediaControl::MonitorMedia.
 old-location: tapi2\linemonitormedia.htm
 old-project: Tapi
 ms.assetid: d79a5469-2248-466b-a5ca-32a568b135d2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linemonitormedia, lineMonitorMedia, lineMonitorMedia function [TAPI 2.2], tapi/lineMonitorMedia, tapi2.linemonitormedia"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

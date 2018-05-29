@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegReadBatchReplyNextCommand
 title: ClusterRegReadBatchReplyNextCommand function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the next command from a read batch result.
 old-location: mscs\clusterregreadbatchreplynextcommand.htm
 old-project: MsCS
 ms.assetid: 4E0DEB5C-36AA-480C-913C-235DE9AEA58D
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegReadBatchReplyNextCommand, ClusterRegReadBatchReplyNextCommand function [Failover Cluster], clusapi/ClusterRegReadBatchReplyNextCommand, mscs.clusterregreadbatchreplynextcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

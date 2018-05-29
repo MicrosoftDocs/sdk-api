@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetID
 title: IFunctionInstance::GetID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier string for the function instance.
 old-location: ncd\ifunctioninstance_getid_method.htm
 old-project: FunDisc
 ms.assetid: 8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetID, GetID method, GetID method,IFunctionInstance interface, IFunctionInstance interface,GetID method, IFunctionInstance.GetID, IFunctionInstance::GetID, functiondiscoveryapi/IFunctionInstance::GetID, ncd.ifunctioninstance_getid_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryProviderNotify
 title: IWSDiscoveryProviderNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Is implemented by the client program to receive callback notifications from IWSDiscoveryProvider.
 old-location: ncd\iwsdiscoveryprovidernotify.htm
 old-project: WsdApi
 ms.assetid: e186f721-14d9-4d9b-942a-1c05ada2bee6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,described, ncd.iwsdiscoveryprovidernotify, wsddisco/IWSDiscoveryProviderNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

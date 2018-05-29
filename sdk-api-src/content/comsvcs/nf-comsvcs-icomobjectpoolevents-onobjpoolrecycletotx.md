@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolRecycleToTx
 title: IComObjectPoolEvents::OnObjPoolRecycleToTx
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a transactional object is returned to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolrecycletotx.htm
 old-project: cossdk
 ms.assetid: 6acae10b-9fda-4c73-b781-62a480271fd1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolRecycleToTx method, IComObjectPoolEvents.OnObjPoolRecycleToTx, IComObjectPoolEvents::OnObjPoolRecycleToTx, OnObjPoolRecycleToTx, OnObjPoolRecycleToTx method [COM+], OnObjPoolRecycleToTx method [COM+],IComObjectPoolEvents interface, _dtc_icomobjectpoolevents_onobjpoolrecycletotx, comsvcs/IComObjectPoolEvents::OnObjPoolRecycleToTx, cos.icomobjectpoolevents_onobjpoolrecycletotx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

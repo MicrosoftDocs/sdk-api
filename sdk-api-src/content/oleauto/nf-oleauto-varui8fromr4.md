@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI8FromR4
 title: VarUI8FromR4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a float value to an 8-byte unsigned integer value.
 old-location: automat\varui8fromr4.htm
 old-project: automat
 ms.assetid: 53d2e497-d75a-4fe1-a59d-705298301e2d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI8FromR4, VarUI8FromR4 function [Automation], _oa96_VarUI8FromR4, automat.varui8fromr4, oleauto/VarUI8FromR4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

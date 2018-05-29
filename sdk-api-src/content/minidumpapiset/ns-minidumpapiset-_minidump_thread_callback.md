@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_CALLBACK
 title: "_MINIDUMP_THREAD_CALLBACK"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains thread information for the MiniDumpCallback function when the callback type is ThreadCallback.
 old-location: base\minidump_thread_callback_str.htm
 old-project: Debug
 ms.assetid: 31da83e6-af8c-440c-b715-78c9c6ac4b9f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_THREAD_CALLBACK, MINIDUMP_THREAD_CALLBACK, MINIDUMP_THREAD_CALLBACK structure, PMINIDUMP_THREAD_CALLBACK, PMINIDUMP_THREAD_CALLBACK structure pointer, _MINIDUMP_THREAD_CALLBACK, _win32_minidump_thread_callback_str, base.minidump_thread_callback_str, minidumpapiset/MINIDUMP_THREAD_CALLBACK, minidumpapiset/PMINIDUMP_THREAD_CALLBACK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

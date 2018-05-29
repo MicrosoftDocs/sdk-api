@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.SetRenderTarget
 title: ID3D10EffectRenderTargetViewVariable::SetRenderTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a render-target.
 old-location: direct3d10\id3d10effectrendertargetviewvariable_setrendertarget.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_setrendertarget.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 00c5c4c0-9f39-2185-d3de-467f8f4a84e9, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],SetRenderTarget method, ID3D10EffectRenderTargetViewVariable.SetRenderTarget, ID3D10EffectRenderTargetViewVariable::SetRenderTarget, SetRenderTarget, SetRenderTarget method [Direct3D 10], SetRenderTarget method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, d3d10effect/ID3D10EffectRenderTargetViewVariable::SetRenderTarget, direct3d10.id3d10effectrendertargetviewvariable_setrendertarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: D3d10

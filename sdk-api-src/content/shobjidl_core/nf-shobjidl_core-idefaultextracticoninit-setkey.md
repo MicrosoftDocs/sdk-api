@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetKey
 title: IDefaultExtractIconInit::SetKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the registry key from which to load the &#0034;DefaultIcon&#0034; value.
 old-location: shell\IDefaultExtractIconInit_SetKey.htm
 old-project: shell
 ms.assetid: dce75b90-f569-4983-a540-82a021377287
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetKey method, IDefaultExtractIconInit.SetKey, IDefaultExtractIconInit::SetKey, SetKey, SetKey method [Windows Shell], SetKey method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetKey, shell.IDefaultExtractIconInit_SetKey, shobjidl_core/IDefaultExtractIconInit::SetKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

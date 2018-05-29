@@ -1,16 +1,16 @@
 ---
 UID: NS:mmreg.waveformat_tag
 title: waveformat_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The WAVEFORMAT structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the WAVEFORMATEX structure.
 old-location: multimedia\waveformat.htm
 old-project: Multimedia
 ms.assetid: 48871868-792a-4479-9e92-95306c25673a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX, waveformat_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: Mmreg.h

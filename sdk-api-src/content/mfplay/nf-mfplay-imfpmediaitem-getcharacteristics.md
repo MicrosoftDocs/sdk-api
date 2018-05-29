@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetCharacteristics
 title: IMFPMediaItem::GetCharacteristics
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets various flags that describe the media item.
 old-location: mf\imfpmediaitem_getcharacteristics.htm
 old-project: medfound
 ms.assetid: 9fe65644-c7a0-4af5-9765-f933215f5f83
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetCharacteristics method, IMFPMediaItem.GetCharacteristics, IMFPMediaItem::GetCharacteristics, mf.imfpmediaitem_getcharacteristics, mfplay/IMFPMediaItem::GetCharacteristics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

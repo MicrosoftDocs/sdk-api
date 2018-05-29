@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmEngineSetSecurityInfo0
 title: FwpmEngineSetSecurityInfo0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets specified security information in the security descriptor of the filter engine.
 old-location: fwp\fwpmenginesetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 31a7f409-26c9-4804-bd74-b9ee356da84c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmEngineSetSecurityInfo0, FwpmEngineSetSecurityInfo0 function [Filtering], fwp.fwpmenginesetsecurityinfo0, fwpmu/FwpmEngineSetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

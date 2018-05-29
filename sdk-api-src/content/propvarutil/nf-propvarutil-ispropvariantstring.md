@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.IsPropVariantString
 title: IsPropVariantString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether a specified PROPVARIANT structure is a string type.
 old-location: properties\IsPropVariantString.htm
 old-project: properties
 ms.assetid: 3f580098-6bfb-41bd-b43d-986ee00b9c75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsPropVariantString, IsPropVariantString function [Windows Properties], properties.IsPropVariantString, propvarutil/IsPropVariantString, shell.IsPropVariantString, shell_IsPropVariantString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

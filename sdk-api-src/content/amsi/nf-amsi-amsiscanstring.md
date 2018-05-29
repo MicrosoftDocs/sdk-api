@@ -1,16 +1,16 @@
 ---
 UID: NF:amsi.AmsiScanString
 title: AmsiScanString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Scans a string for malware.
 old-location: amsi\amsiscanstring.htm
 old-project: AMSI
 ms.assetid: 7D26C57B-014B-4506-A29D-33699808B111
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: AmsiScanString, AmsiScanString function [Antimalware Scan Interface], amsi.amsiscanstring, amsi/AmsiScanString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarity.Append
 title: ISimilarity::Append
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the file ID and similarity data information to the tables in the similarity file.
 old-location: rdc\isimilarity_append.htm
 old-project: Rdc
 ms.assetid: f8896d9e-ca6a-404f-b80f-ef739ec97b53
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],Append method, ISimilarity.Append, ISimilarity::Append, fs.isimilarity_append, msrdc/ISimilarity::Append, rdc.isimilarity_append
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

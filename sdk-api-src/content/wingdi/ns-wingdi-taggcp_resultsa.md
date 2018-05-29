@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagGCP_RESULTSA
 title: tagGCP_RESULTSA
-author: windows-driver-content
+author: windows-sdk-content
 description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.
 old-location: gdi\gcp_results.htm
 old-project: gdi
 ms.assetid: 7692637e-963a-4e0a-8a04-e05a6d01c417
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPGCP_RESULTSA, GCPCLASS_ARABIC, GCPCLASS_HEBREW, GCPCLASS_LATIN, GCPCLASS_LATINNUMBER, GCPCLASS_LATINNUMERICSEPARATOR, GCPCLASS_LATINNUMERICTERMINATOR, GCPCLASS_LOCALNUMBER, GCPCLASS_NEUTRAL, GCPCLASS_NUMERICSEPARATOR, GCPCLASS_POSTBOUNDLTR, GCPCLASS_POSTBOUNDRTL, GCPCLASS_PREBOUNDLTR, GCPCLASS_PREBOUNDRTL, GCP_RESULTS, GCP_RESULTS structure [Windows GDI], GCP_RESULTSA, GCP_RESULTSW, LPGCP_RESULTS, LPGCP_RESULTS structure pointer [Windows GDI], _win32_GCP_RESULTS_str, gdi.gcp_results, tagGCP_RESULTSA, wingdi/GCP_RESULTS, wingdi/GCP_RESULTSA, wingdi/GCP_RESULTSW, wingdi/LPGCP_RESULTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

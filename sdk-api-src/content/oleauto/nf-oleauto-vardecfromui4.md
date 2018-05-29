@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDecFromUI4
 title: VarDecFromUI4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an unsigned long value to a decimal value.
 old-location: automat\vardecfromui4.htm
 old-project: automat
 ms.assetid: 16cc817f-f232-49ec-aa16-34e518d5cb31
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDecFromUI4, VarDecFromUI4 function [Automation], _oa96_VarDecFromUI4, automat.vardecfromui4, oleauto/VarDecFromUI4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

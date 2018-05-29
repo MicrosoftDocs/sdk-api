@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetRemoteInfo
 title: IOfflineFilesSyncErrorInfo::GetRemoteInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the remote copy of the item involved in the synchronization.
 old-location: of\iofflinefilessyncerrorinfo_getremoteinfo.htm
 old-project: OfflineFiles
 ms.assetid: 8b036680-b74c-485f-adae-88e59fc5e84c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetRemoteInfo, GetRemoteInfo method [Offline Files], GetRemoteInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetRemoteInfo method, IOfflineFilesSyncErrorInfo.GetRemoteInfo, IOfflineFilesSyncErrorInfo::GetRemoteInfo, cscobj/IOfflineFilesSyncErrorInfo::GetRemoteInfo, of.iofflinefilessyncerrorinfo_getremoteinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

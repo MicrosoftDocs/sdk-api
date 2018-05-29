@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetEditStyle
 title: ITextHost2::TxGetEditStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether a rich edit control is in a dialog box.
 old-location: controls\itexthost2_txgeteditstyle.htm
 old-project: Controls
 ms.assetid: 8C5468C9-D152-4F57-9E8A-23B4852BFD69
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetEditStyle method, ITextHost2.TxGetEditStyle, ITextHost2::TxGetEditStyle, TXES_ISDIALOG, TxGetEditStyle, TxGetEditStyle method [Windows Controls], TxGetEditStyle method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgeteditstyle, textserv/ITextHost2::TxGetEditStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

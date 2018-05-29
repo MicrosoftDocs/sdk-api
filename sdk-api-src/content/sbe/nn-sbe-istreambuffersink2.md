@@ -1,16 +1,16 @@
 ---
 UID: NN:sbe.IStreamBufferSink2
 title: IStreamBufferSink2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStreamBufferSink2 interface is exposed by the Stream Buffer Sink filter.
 old-location: mstv\istreambuffersink2.htm
 old-project: mstv
 ms.assetid: ae97e1e2-011d-4bb1-ae11-eda401e1d337
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferSink2, IStreamBufferSink2 interface [Microsoft TV Technologies], IStreamBufferSink2 interface [Microsoft TV Technologies],described, IStreamBufferSink2Interface, mstv.istreambuffersink2, sbe/IStreamBufferSink2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

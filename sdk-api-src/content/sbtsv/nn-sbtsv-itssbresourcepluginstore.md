@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbResourcePluginStore
 title: ITsSbResourcePluginStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enable resource plug-ins to store objects such as sessions and targets.
 old-location: termserv\itssbresourcepluginstore.htm
 old-project: TermServ
 ms.assetid: b8b54827-6c6b-4531-8ae3-73baed6125cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], ITsSbResourcePluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbResourcePluginStore, termserv.itssbresourcepluginstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

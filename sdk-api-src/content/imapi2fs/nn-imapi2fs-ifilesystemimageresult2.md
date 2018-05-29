@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IFileSystemImageResult2
 title: IFileSystemImageResult2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFileSystemImageResult2 interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs.
 old-location: imapi\ifilesystemimageresult2.htm
 old-project: imapi
 ms.assetid: 83834da1-fa5a-42ef-8e59-7ba133d3e6cb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImageResult2, IFileSystemImageResult2 interface [IMAPI], IFileSystemImageResult2 interface [IMAPI],described, imapi.ifilesystemimageresult2, imapi2fs/IFileSystemImageResult2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

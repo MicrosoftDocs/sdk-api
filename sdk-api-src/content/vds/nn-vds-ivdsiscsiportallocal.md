@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsIscsiPortalLocal
 title: IVdsIscsiPortalLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for setting local-initiator-specific IPSEC pre-shared keys on an iSCSI portal.
 old-location: base\ivdsiscsiportallocal.htm
 old-project: VDS
 ms.assetid: eec436c4-73a6-43c5-aae2-dcdd37eb5767
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiPortalLocal, IVdsIscsiPortalLocal interface [VDS], IVdsIscsiPortalLocal interface [VDS],described, base.ivdsiscsiportallocal, vds/IVdsIscsiPortalLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

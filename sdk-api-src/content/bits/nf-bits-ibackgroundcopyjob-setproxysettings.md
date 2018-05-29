@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetProxySettings
 title: IBackgroundCopyJob::SetProxySettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which proxy to use to transfer files.
 old-location: bits\ibackgroundcopyjob_setproxysettings.htm
 old-project: Bits
 ms.assetid: fd21a17b-1049-4dd9-a08b-da84699b8006
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetProxySettings method, IBackgroundCopyJob.SetProxySettings, IBackgroundCopyJob::SetProxySettings, SetProxySettings, SetProxySettings method [BITS], SetProxySettings method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setproxysettings, bits.ibackgroundcopyjob_setproxysettings, bits/IBackgroundCopyJob::SetProxySettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

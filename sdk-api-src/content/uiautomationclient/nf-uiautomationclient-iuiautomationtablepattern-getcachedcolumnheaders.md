@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCachedColumnHeaders
 title: IUIAutomationTablePattern::GetCachedColumnHeaders
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached collection of UI Automation elements representing all the column headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders.htm
 old-project: WinAuto
 ms.assetid: 817a13b3-6de5-4473-8286-e3d728d06819
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCachedColumnHeaders, GetCachedColumnHeaders method [Windows Accessibility], GetCachedColumnHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCachedColumnHeaders method, IUIAutomationTablePattern.GetCachedColumnHeaders, IUIAutomationTablePattern::GetCachedColumnHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders, uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders, uiautomationclient/IUIAutomationTablePattern::GetCachedColumnHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

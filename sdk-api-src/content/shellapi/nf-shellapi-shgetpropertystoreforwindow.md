@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHGetPropertyStoreForWindow
 title: SHGetPropertyStoreForWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object that represents a specific window's collection of properties, which allows those properties to be queried or set.
 old-location: properties\SHGetPropertyStoreForWindow.htm
 old-project: properties
 ms.assetid: 772aa2c8-6dd1-480c-a008-58f30902cb80
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SHGetPropertyStoreForWindow, SHGetPropertyStoreForWindow function [Windows Properties], _shell_SHGetPropertyStoreForWindow, properties.SHGetPropertyStoreForWindow, shell.SHGetPropertyStoreForWindow, shellapi/SHGetPropertyStoreForWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

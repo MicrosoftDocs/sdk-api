@@ -1,16 +1,16 @@
 ---
 UID: NS:ndhelper.tagHYPOTHESIS
 title: tagHYPOTHESIS
-author: windows-driver-content
+author: windows-sdk-content
 description: The HYPOTHESIS structure contains data used to submit a hypothesis to NDF for another helper class.
 old-location: ndf\hypothesis.htm
 old-project: NDF
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS, tagHYPOTHESIS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndhelper.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexString
 title: SymSrvGetFileIndexString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the index string for the specified .pdb, .dbg, or image file.
 old-location: base\symsrvgetfileindexstring.htm
 old-project: Debug
 ms.assetid: e66598fb-d7c7-4fde-a995-bfd1e7ceb24b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymSrvGetFileIndexString, SymSrvGetFileIndexString function, SymSrvGetFileIndexStringW, base.symsrvgetfileindexstring, dbghelp/SymSrvGetFileIndexString, dbghelp/SymSrvGetFileIndexStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

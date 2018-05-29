@@ -1,16 +1,16 @@
 ---
 UID: NS:pnrpns._PNRPINFO_V1
 title: "_PNRPINFO_V1"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PNRPINFO_V1 structure is pointed to by the lpBlob member of the WSAQUERYSET structure.
 old-location: p2p\pnrpinfo.htm
 old-project: P2PSdk
 ms.assetid: 02031191-3682-45f6-a6c5-8546153bc681
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPNRPINFO_V1, PNRPINFO, PNRPINFO structure [Peer Networking], PNRPINFO_V1, PNRPINFO_V1 structure [Peer Networking], PPNRPINFO, PPNRPINFO structure pointer [Peer Networking], PPNRPINFO_V1, PPNRPINFO_V1 structure pointer [Peer Networking], _PNRPINFO_V1, p2p.pnrpinfo, pnrpns/PNRPINFO, pnrpns/PNRPINFO_V1, pnrpns/PPNRPINFO, pnrpns/PPNRPINFO_V1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: pnrpns.h
 req.include-header: 

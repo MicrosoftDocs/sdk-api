@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UpdateIdentity
 title: IUpdateHistoryEntry::get_UpdateIdentity
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IUpdateIdentity interface that contains the identity of the update.
 old-location: wua\iupdatehistoryentry_updateidentity.htm
 old-project: Wua_Sdk
 ms.assetid: 428206f9-4812-4a9a-8b8f-8a22db401c19
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UpdateIdentity property, IUpdateHistoryEntry.UpdateIdentity, IUpdateHistoryEntry.get_UpdateIdentity, IUpdateHistoryEntry::UpdateIdentity, IUpdateHistoryEntry::get_UpdateIdentity, UpdateIdentity property [Windows Update Agent], UpdateIdentity property [Windows Update Agent],IUpdateHistoryEntry interface, get_UpdateIdentity, wua.iupdatehistoryentry_updateidentity, wuapi/IUpdateHistoryEntry::UpdateIdentity, wuapi/IUpdateHistoryEntry::get_UpdateIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

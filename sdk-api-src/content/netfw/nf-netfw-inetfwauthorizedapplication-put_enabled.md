@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Enabled
 title: INetFwAuthorizedApplication::put_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the settings for this application are currently enabled.
 old-location: ics\inetfwauthorizedapplication_enabled.htm
 old-project: ICS
 ms.assetid: 03a1503e-aee5-484f-8a4c-a7e10dffe401
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwAuthorizedApplication interface, INetFwAuthorizedApplication interface [ICS/ICF],Enabled property, INetFwAuthorizedApplication.Enabled, INetFwAuthorizedApplication.put_Enabled, INetFwAuthorizedApplication::Enabled, INetFwAuthorizedApplication::get_Enabled, INetFwAuthorizedApplication::put_Enabled, ics.inetfwauthorizedapplication_enabled, netfw/INetFwAuthorizedApplication::Enabled, netfw/INetFwAuthorizedApplication::get_Enabled, netfw/INetFwAuthorizedApplication::put_Enabled, put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

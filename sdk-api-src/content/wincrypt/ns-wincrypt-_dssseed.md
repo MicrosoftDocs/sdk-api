@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._DSSSEED
 title: "_DSSSEED"
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds the seed and counter values that can be used to verify the primes of the DSS public key.
 old-location: security\dssseed.htm
 old-project: SecCrypto
 ms.assetid: fbf2b5e4-b572-4b2c-907d-281570a0f26b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DSSSEED, DSSSEED structure [Security], _DSSSEED, _crypto2_dssseed, security.dssseed, wincrypt/DSSSEED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

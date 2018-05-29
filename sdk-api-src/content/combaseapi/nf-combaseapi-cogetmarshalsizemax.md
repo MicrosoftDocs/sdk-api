@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetMarshalSizeMax
 title: CoGetMarshalSizeMax function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an upper bound on the number of bytes needed to marshal the specified interface pointer to the specified object.
 old-location: com\cogetmarshalsizemax.htm
 old-project: com
 ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

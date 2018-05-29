@@ -1,16 +1,16 @@
 ---
 UID: NS:evr9.MFVideoAlphaBitmapParams
 title: MFVideoAlphaBitmapParams
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
 old-location: mf\mfvideoalphabitmapparams.htm
 old-project: medfound
 ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce, MFVideoAlphaBitmapParams, MFVideoAlphaBitmapParams structure [Media Foundation], evr9/MFVideoAlphaBitmapParams, mf.mfvideoalphabitmapparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evr9.h
 req.include-header: 

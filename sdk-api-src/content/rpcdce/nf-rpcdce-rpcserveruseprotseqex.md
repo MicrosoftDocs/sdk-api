@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqEx
 title: RpcServerUseProtseqEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerUseProtseqEx function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqex.htm
 old-project: Rpc
 ms.assetid: a8cedfe9-9c16-4c35-9cc4-5ccaa9e130a8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerUseProtseqEx, RpcServerUseProtseqEx function [RPC], RpcServerUseProtseqExA, RpcServerUseProtseqExW, _rpc_rpcserveruseprotseqex, rpc.rpcserveruseprotseqex, rpcdce/RpcServerUseProtseqEx, rpcdce/RpcServerUseProtseqExA, rpcdce/RpcServerUseProtseqExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

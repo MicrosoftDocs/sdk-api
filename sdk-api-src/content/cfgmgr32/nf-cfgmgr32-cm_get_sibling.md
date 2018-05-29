@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Sibling
 title: CM_Get_Sibling function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Sibling function obtains a device instance handle to the next sibling node of a specified device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_sibling.htm
 old-project: devinst
 ms.assetid: ac3b7bca-1504-465a-8dcf-dcde9da686a9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Sibling, CM_Get_Sibling function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling, cfgmgrfn_cc0cd494-9629-4915-a0b3-e634516eb62f.xml, devinst.cm_get_sibling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

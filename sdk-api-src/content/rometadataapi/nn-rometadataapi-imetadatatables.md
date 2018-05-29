@@ -1,16 +1,16 @@
 ---
 UID: NN:rometadataapi.IMetaDataTables
 title: IMetaDataTables
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for the storage and retrieval of metadata information in tables.
 old-location: winrt\imetadatatables.htm
 old-project: WinRT
 ms.assetid: 30d06e87-93a2-4a9c-8843-4c42d7d9e3c8
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IMetaDataTables, IMetaDataTables interface [Windows Runtime], IMetaDataTables interface [Windows Runtime],described, rometadataapi/IMetaDataTables, winrt.imetadatatables
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 

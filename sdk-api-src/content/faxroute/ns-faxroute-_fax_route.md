@@ -1,16 +1,16 @@
 ---
 UID: NS:faxroute._FAX_ROUTE
 title: "_FAX_ROUTE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_ROUTE structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the FaxRouteMethod function.
 old-location: fax\_mfax_fax_route_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3gj6.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PFAX_ROUTE, FAX_ROUTE, FAX_ROUTE structure [Fax Service], PFAX_ROUTE, PFAX_ROUTE structure pointer [Fax Service], _FAX_ROUTE, _mfax_fax_route_str, fax._mfax_fax_route_str, faxroute/FAX_ROUTE, faxroute/PFAX_ROUTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: faxroute.h
 req.include-header: 

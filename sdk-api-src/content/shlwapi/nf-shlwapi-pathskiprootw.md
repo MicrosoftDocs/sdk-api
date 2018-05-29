@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathSkipRootW
 title: PathSkipRootW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.
 old-location: shell\PathSkipRoot.htm
 old-project: shell
 ms.assetid: 528a3953-26d7-4fff-be31-9c9788d429ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathSkipRoot, PathSkipRoot function [Windows Shell], PathSkipRootA, PathSkipRootW, _win32_PathSkipRoot, shell.PathSkipRoot, shlwapi/PathSkipRoot, shlwapi/PathSkipRootA, shlwapi/PathSkipRootW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

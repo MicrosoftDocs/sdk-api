@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.TF_CreateLangBarMgr
 title: TF_CreateLangBarMgr function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_CreateLangBarMgr function creates a language bar manager object without having to initialize COM. Usage of this method is not recommended, because the calling process must maintain a proper reference count on an object that is owned by Msctf.dll.
 old-location: tsf\tf_createlangbarmgr.htm
 old-project: TSF
 ms.assetid: 202c5496-fc64-498e-a6f6-fffacc218990
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_CreateLangBarMgr, TF_CreateLangBarMgr function [Text Services Framework], msctf/TF_CreateLangBarMgr, tsf.tf_createlangbarmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msctf.h
 req.include-header: 

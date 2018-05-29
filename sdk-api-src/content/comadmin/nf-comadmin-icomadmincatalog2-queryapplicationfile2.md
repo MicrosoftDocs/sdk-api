@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.QueryApplicationFile2
 title: ICOMAdminCatalog2::QueryApplicationFile2
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about an application that is about to be installed.
 old-location: cos\icomadmincatalog2_queryapplicationfile2.htm
 old-project: cossdk
 ms.assetid: 8b2f9ce5-f2d8-4359-ac58-5069d6d58bb7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],QueryApplicationFile2 method, ICOMAdminCatalog2.QueryApplicationFile2, ICOMAdminCatalog2::QueryApplicationFile2, QueryApplicationFile2, QueryApplicationFile2 method [COM+], QueryApplicationFile2 method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_QueryApplicationFile2, comadmin/ICOMAdminCatalog2::QueryApplicationFile2, cos.icomadmincatalog2_queryapplicationfile2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NL:vswriter.IVssExpressWriter
 title: IVssExpressWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods to manage metadata for a VSS express writer.
 old-location: base\ivssexpresswriter.htm
 old-project: VSS
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface,described, base.ivssexpresswriter, vswriter/IVssExpressWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: vswriter.h
 req.include-header: 

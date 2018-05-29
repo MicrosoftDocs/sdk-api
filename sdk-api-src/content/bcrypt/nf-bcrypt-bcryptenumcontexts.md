@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptEnumContexts
 title: BCryptEnumContexts function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the identifiers of the contexts in the specified configuration table.
 old-location: security\bcryptenumcontexts.htm
 old-project: SecCNG
 ms.assetid: 02646a80-6e93-4169-83da-0488ff3da56f
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptEnumContexts, BCryptEnumContexts function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptEnumContexts, security.bcryptenumcontexts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

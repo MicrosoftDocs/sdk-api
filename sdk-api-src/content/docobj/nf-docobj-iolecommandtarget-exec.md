@@ -1,16 +1,16 @@
 ---
 UID: NF:docobj.IOleCommandTarget.Exec
 title: IOleCommandTarget::Exec
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes the specified command or displays help for the command.
 old-location: com\iolecommandtarget_exec.htm
 old-project: com
 ms.assetid: a2071ca9-8675-4f53-b30e-8c7198c2acca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Exec, Exec method [COM], Exec method [COM],IOleCommandTarget interface, IOleCommandTarget interface [COM],Exec method, IOleCommandTarget.Exec, IOleCommandTarget::Exec, _ole_iolecommandtarget_exec, com.iolecommandtarget_exec, docobj/IOleCommandTarget::Exec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:commdlg.tagCHOOSECOLORW
 title: tagCHOOSECOLORW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information the ChooseColor function uses to initialize the Color dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 old-location: dlgbox\choosecolor_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\choosecolor.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPCHOOSECOLORW, CC_ANYCOLOR, CC_ENABLEHOOK, CC_ENABLETEMPLATE, CC_ENABLETEMPLATEHANDLE, CC_FULLOPEN, CC_PREVENTFULLOPEN, CC_RGBINIT, CC_SHOWHELP, CC_SOLIDCOLOR, CHOOSECOLOR, CHOOSECOLOR structure [Dialog Boxes], CHOOSECOLORA, CHOOSECOLORW, LPCHOOSECOLOR, LPCHOOSECOLOR structure pointer [Dialog Boxes], _win32_CHOOSECOLOR_str, _win32_choosecolor_str_cpp, commdlg/CHOOSECOLOR, commdlg/CHOOSECOLORA, commdlg/CHOOSECOLORW, commdlg/LPCHOOSECOLOR, dlgbox.choosecolor_str, tagCHOOSECOLORA, tagCHOOSECOLORW, winui._win32_choosecolor_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h

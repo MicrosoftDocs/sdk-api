@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAsyncReader
 title: IAsyncReader
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAsyncReader interface performs an asynchronous data request on a filter.This interface is exposed by output pins that perform asynchronous read operations.
 old-location: dshow\iasyncreader.htm
 old-project: DirectShow
 ms.assetid: 54a18567-e9d4-4b12-b486-cdd70d719184
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], IAsyncReader interface [DirectShow],described, IAsyncReaderInterface, dshow.iasyncreader, strmif/IAsyncReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

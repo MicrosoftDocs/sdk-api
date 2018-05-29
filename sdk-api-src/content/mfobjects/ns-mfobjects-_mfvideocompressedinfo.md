@@ -1,16 +1,16 @@
 ---
 UID: NS:mfobjects._MFVideoCompressedInfo
 title: "_MFVideoCompressedInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a video compression format. This structure is used in the MFVIDEOFORMAT structure.
 old-location: mf\mfvideocompressedinfo.htm
 old-project: medfound
 ms.assetid: fe9aa287-33e9-4413-8bc5-0e7b2da1112e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFVideoCompressedInfo, MFVideoCompressedInfo structure [Media Foundation], _MFVideoCompressedInfo, fe9aa287-33e9-4413-8bc5-0e7b2da1112e, mf.mfvideocompressedinfo, mfobjects/MFVideoCompressedInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueueCopyW
 title: SetupQueueCopyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueueCopy function adds a single file copy operation to a setup file queue.
 old-location: setup\setupqueuecopy.htm
 old-project: SetupApi
 ms.assetid: c8683438-7a28-4713-8781-45f9bd75b72c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueueCopy, SetupQueueCopy function [Setup API], SetupQueueCopyA, SetupQueueCopyW, _setupapi_setupqueuecopy, setup.setupqueuecopy, setupapi/SetupQueueCopy, setupapi/SetupQueueCopyA, setupapi/SetupQueueCopyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetBestResultString
 title: GetBestResultString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the best result string.
 old-location: tablet\getbestresultstring.htm
 old-project: tablet
 ms.assetid: 97d60330-c808-4d16-a197-7bad7ca9080e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 97d60330-c808-4d16-a197-7bad7ca9080e, GetBestResultString, GetBestResultString function [Tablet PC], recapis/GetBestResultString, tablet.getbestresultstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

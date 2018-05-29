@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkRecognitionModes
 title: InkRecognitionModes
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the recognizer interprets the ink and determines the result string.
 old-location: tablet\inkrecognitionmodes.htm
 old-project: tablet
 ms.assetid: ab9f4164-ea07-41d1-be6a-50009fa9464d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRM_AutoSpace, IRM_Coerce, IRM_DisablePersonalization, IRM_LineMode, IRM_Max, IRM_None, IRM_PrefixOk, IRM_TopInkBreaksOnly, IRM_WordModeOnly, InkRecognitionModes, InkRecognitionModes enumeration [Tablet PC], ab9f4164-ea07-41d1-be6a-50009fa9464d, msinkaut/IRM_AutoSpace, msinkaut/IRM_Coerce, msinkaut/IRM_DisablePersonalization, msinkaut/IRM_LineMode, msinkaut/IRM_Max, msinkaut/IRM_None, msinkaut/IRM_PrefixOk, msinkaut/IRM_TopInkBreaksOnly, msinkaut/IRM_WordModeOnly, msinkaut/InkRecognitionModes, tablet.inkrecognitionmodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

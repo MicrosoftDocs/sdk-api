@@ -1,16 +1,16 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CANCEL_REQUEST
 title: SYNCMGR_CANCEL_REQUEST
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a request by the user to cancel a synchronization.
 old-location: shell\SYNCMGR_CANCEL_REQUEST.htm
 old-project: shell
 ms.assetid: 81cf8dcc-c847-41e0-82e2-b5f547fc03cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SYNCMGR_CANCEL_REQUEST, SYNCMGR_CANCEL_REQUEST enumeration [Windows Shell], SYNCMGR_CR_CANCEL_ALL, SYNCMGR_CR_CANCEL_ITEM, SYNCMGR_CR_MAX, SYNCMGR_CR_NONE, shell.SYNCMGR_CANCEL_REQUEST, shell_SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CR_CANCEL_ALL, syncmgr/SYNCMGR_CR_CANCEL_ITEM, syncmgr/SYNCMGR_CR_MAX, syncmgr/SYNCMGR_CR_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 

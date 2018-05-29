@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.QueryUmsThreadInformation
 title: QueryUmsThreadInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the specified user-mode scheduling (UMS) worker thread.
 old-location: base\queryumsthreadinformation.htm
 old-project: ProcThread
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

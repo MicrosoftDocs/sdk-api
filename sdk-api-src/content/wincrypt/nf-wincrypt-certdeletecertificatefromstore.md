@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertDeleteCertificateFromStore
 title: CertDeleteCertificateFromStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertDeleteCertificateFromStore function deletes the specified certificate context from the certificate store.
 old-location: security\certdeletecertificatefromstore.htm
 old-project: SecCrypto
 ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertDeleteCertificateFromStore, CertDeleteCertificateFromStore function [Security], _crypto2_certdeletecertificatefromstore, security.certdeletecertificatefromstore, wincrypt/CertDeleteCertificateFromStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

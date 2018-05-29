@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.DoDragDrop
 title: DoDragDrop function
-author: windows-driver-content
+author: windows-sdk-content
 description: Carries out an OLE drag and drop operation.
 old-location: com\dodragdrop.htm
 old-project: com
 ms.assetid: 095172ac-9e08-4797-b9da-41a4e5a61315
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DoDragDrop, DoDragDrop function [COM], _ole_DoDragDrop, com.dodragdrop, ole2/DoDragDrop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

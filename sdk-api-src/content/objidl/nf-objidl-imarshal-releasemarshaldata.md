@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMarshal.ReleaseMarshalData
 title: IMarshal::ReleaseMarshalData
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a marshaled data packet.
 old-location: com\imarshal_releasemarshaldata.htm
 old-project: com
 ms.assetid: c58c7768-9200-4370-930c-89a6c6d2b430
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMarshal interface [COM],ReleaseMarshalData method, IMarshal.ReleaseMarshalData, IMarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],IMarshal interface, _com_imarshal_releasemarshaldata, com.imarshal_releasemarshaldata, objidlbase/IMarshal::ReleaseMarshalData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

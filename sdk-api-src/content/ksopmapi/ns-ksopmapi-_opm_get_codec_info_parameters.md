@@ -1,16 +1,16 @@
 ---
 UID: NS:ksopmapi._OPM_GET_CODEC_INFO_PARAMETERS
 title: "_OPM_GET_CODEC_INFO_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information for the OPM_GET_CODEC_INFO command.
 old-location: mf\opm_get_codec_info_parameters.htm
 old-project: medfound
 ms.assetid: 9fb130e5-fd87-4a11-9c9e-7a106a091b35
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPM_GET_CODEC_INFO_PARAMETERS, OPM_GET_CODEC_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_CODEC_INFO_PARAMETERS, ksopmapi/OPM_GET_CODEC_INFO_PARAMETERS, mf.opm_get_codec_info_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ksopmapi.h
 req.include-header: Opmapi.h

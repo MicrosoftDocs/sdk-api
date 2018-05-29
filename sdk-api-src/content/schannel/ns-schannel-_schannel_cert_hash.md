@@ -1,16 +1,16 @@
 ---
 UID: NS:schannel._SCHANNEL_CERT_HASH
 title: "_SCHANNEL_CERT_HASH"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the hash store data for the certificate that Schannel uses.
 old-location: security\schannel_cert_hash.htm
 old-project: SecAuthN
 ms.assetid: BC068062-6644-4296-990F-7C533DC80C02
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH structure pointer [Security], SCHANNEL_CERT_HASH, SCHANNEL_CERT_HASH structure [Security], SCH_MACHINE_CERT_HASH, _SCHANNEL_CERT_HASH, schannel/PSCHANNEL_CERT_HASH, schannel/SCHANNEL_CERT_HASH, security.schannel_cert_hash"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

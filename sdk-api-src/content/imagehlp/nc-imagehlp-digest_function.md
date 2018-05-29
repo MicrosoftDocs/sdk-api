@@ -1,16 +1,16 @@
 ---
 UID: NC:imagehlp.DIGEST_FUNCTION
 title: DIGEST_FUNCTION
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used by the ImageGetDigestStream function to process data.
 old-location: base\digestfunction.htm
 old-project: Debug
 ms.assetid: 4d5d2593-d9e2-43e8-914b-11f578192085
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DIGEST_FUNCTION, DigestFunction, DigestFunction callback, DigestFunction callback function, _win32_digestfunction, base.digestfunction, imagehlp/DigestFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: imagehlp.h
 req.include-header: 

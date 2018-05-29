@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITQueueEvent.get_Queue
 title: ITQueueEvent::get_Queue
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Queue method gets a pointer to the queue on which the event occurred.
 old-location: tapi3\itqueueevent_get_queue.htm
 old-project: Tapi
 ms.assetid: 59a4be82-0118-4a9c-9f85-0febfe1b3e18
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Queue method, ITQueueEvent.get_Queue, ITQueueEvent::get_Queue, _tapi3_itqueueevent_get_queue, get_Queue, get_Queue method [TAPI 2.2], get_Queue method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_queue, tapi3cc/ITQueueEvent::get_Queue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEYINFO_PARAM
 title: "_CRYPT_XML_KEYINFO_PARAM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used by the CryptXmlSign function to specify the members of the KeyInfo element to be encoded.
 old-location: security\crypt_xml_keyinfo_param.htm
 old-project: SecCrypto
 ms.assetid: cbde3f67-d948-452a-9958-52563dc7a8b5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_XML_KEYINFO_PARAM, CRYPT_XML_KEYINFO_PARAM structure [Security], _CRYPT_XML_KEYINFO_PARAM, cryptxml/CRYPT_XML_KEYINFO_PARAM, security.crypt_xml_keyinfo_param
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

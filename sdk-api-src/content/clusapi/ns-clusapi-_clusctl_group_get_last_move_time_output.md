@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 title: "_CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies information about the last time a group was moved to another node.
 old-location: mscs\clusctl_group_get_last_move_time_output.htm
 old-project: MsCS
 ms.assetid: C8292546-4220-4A5D-91C6-03687DD06A9B
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure [Failover Cluster], PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure pointer [Failover Cluster], _CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, clusapi/CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, clusapi/PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, mscs.clusctl_group_get_last_move_time_output"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

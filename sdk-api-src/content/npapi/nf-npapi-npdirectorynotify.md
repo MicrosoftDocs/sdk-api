@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPDirectoryNotify
 title: NPDirectoryNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the network provider of certain directory operations.
 old-location: security\npdirectorynotify.htm
 old-project: SecAuthN
 ms.assetid: e76642b1-4af1-46f4-92c0-f10ff57dd808
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPDirectoryNotify, NPDirectoryNotify function [Security], WNDN_MKDIR, WNDN_MVDIR, WNDN_RMDIR, _mnp_npdirectorynotify, npapi/NPDirectoryNotify, security.npdirectorynotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

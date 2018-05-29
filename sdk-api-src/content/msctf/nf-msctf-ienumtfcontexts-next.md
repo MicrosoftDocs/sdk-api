@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Next
 title: IEnumTfContexts::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfContexts::Next method
 old-location: tsf\ienumtfcontexts_next.htm
 old-project: TSF
 ms.assetid: 0727ae8b-a66f-42a7-bc74-4c01bfff3855
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Next method, IEnumTfContexts.Next, IEnumTfContexts::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_next_ref, msctf/IEnumTfContexts::Next, tsf.ienumtfcontexts_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

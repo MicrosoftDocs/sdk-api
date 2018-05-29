@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationWindowPattern
 title: IUIAutomationWindowPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the fundamental functionality of a window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern.htm
 old-project: WinAuto
 ms.assetid: 251fefdf-48c7-444a-89fc-fb27b10dcb0a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], IUIAutomationWindowPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationWindowPattern, uiauto_IUIAutomationWindowPattern, uiautomationclient/IUIAutomationWindowPattern, winauto.uiauto_IUIAutomationWindowPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

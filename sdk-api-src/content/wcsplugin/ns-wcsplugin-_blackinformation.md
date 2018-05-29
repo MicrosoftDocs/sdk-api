@@ -1,16 +1,16 @@
 ---
 UID: NS:wcsplugin._BlackInformation
 title: "_BlackInformation"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information for device models that have a black color channel.
 old-location: wcs\blackinformation.htm
 old-project: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _BlackInformation, _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

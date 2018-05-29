@@ -1,16 +1,16 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Delete
 title: IPNPXAssociation::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an entry from the association database.
 old-location: ncd\ipnpxassociation_delete.htm
 old-project: FunDisc
 ms.assetid: cc00c135-140d-4e05-9180-779917d88688
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXAssociation interface, IPNPXAssociation interface,Delete method, IPNPXAssociation.Delete, IPNPXAssociation::Delete, ncd.ipnpxassociation_delete, pnpxassoc/IPNPXAssociation::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 

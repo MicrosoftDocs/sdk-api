@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.DeletePwrScheme
 title: DeletePwrScheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified power scheme.
 old-location: base\deletepwrscheme.htm
 old-project: Power
 ms.assetid: c9513835-00c4-4260-a8b6-d947539c9dd1
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: DeletePwrScheme, DeletePwrScheme function, _win32_deletepwrscheme, base.deletepwrscheme, powrprof/DeletePwrScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

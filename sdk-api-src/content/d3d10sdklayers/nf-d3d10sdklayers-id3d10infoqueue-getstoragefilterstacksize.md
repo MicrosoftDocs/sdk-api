@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetStorageFilterStackSize
 title: ID3D10InfoQueue::GetStorageFilterStackSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the size of the storage-filter stack in bytes.
 old-location: direct3d10\id3d10infoqueue_getstoragefilterstacksize.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getstoragefilterstacksize.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 42bd12bf-1f25-ab24-7650-a67bea7a9458, GetStorageFilterStackSize, GetStorageFilterStackSize method [Direct3D 10], GetStorageFilterStackSize method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetStorageFilterStackSize method, ID3D10InfoQueue.GetStorageFilterStackSize, ID3D10InfoQueue::GetStorageFilterStackSize, d3d10sdklayers/ID3D10InfoQueue::GetStorageFilterStackSize, direct3d10.id3d10infoqueue_getstoragefilterstacksize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

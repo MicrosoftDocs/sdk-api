@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLinkReference
 title: ISyncMgrEvent::GetLinkReference
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the reference for the hot link for the event. The hot link is a displayed property that the user can click to execute an action. This allows the handler to show an available action that the user can see at a glance in the folder.
 old-location: shell\ISyncMgrEvent_GetLinkReference.htm
 old-project: shell
 ms.assetid: de625328-59ba-4574-9b7b-3e8fc643c8ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLinkReference, GetLinkReference method [Windows Shell], GetLinkReference method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLinkReference method, ISyncMgrEvent.GetLinkReference, ISyncMgrEvent::GetLinkReference, _shell_ISyncMgrEvent_GetLinkReference, shell.ISyncMgrEvent_GetLinkReference, syncmgr/ISyncMgrEvent::GetLinkReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

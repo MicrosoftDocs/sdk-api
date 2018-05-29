@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.InitOnceExecuteOnce
 title: InitOnceExecuteOnce function
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes the specified function successfully one time. No other threads that specify the same one-time initialization structure can execute the specified function while it is being executed by the current thread.
 old-location: base\initonceexecuteonce.htm
 old-project: Sync
 ms.assetid: 04c161ed-d1b0-4995-b246-cb64cb67ae47
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitOnceExecuteOnce, InitOnceExecuteOnce function, base.initonceexecuteonce, synchapi/InitOnceExecuteOnce, winbase/InitOnceExecuteOnce
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

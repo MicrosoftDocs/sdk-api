@@ -1,16 +1,16 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.GetAlphaBitmapParameters
 title: IMFVideoMixerBitmap::GetAlphaBitmapParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current settings that the enhanced video renderer (EVR) uses to alpha-blend the bitmap with the video.
 old-location: mf\imfvideomixerbitmap_getalphabitmapparameters.htm
 old-project: medfound
 ms.assetid: 0361e340-9de7-47f3-80fd-61d5e914d44e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0361e340-9de7-47f3-80fd-61d5e914d44e, GetAlphaBitmapParameters, GetAlphaBitmapParameters method [Media Foundation], GetAlphaBitmapParameters method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],GetAlphaBitmapParameters method, IMFVideoMixerBitmap.GetAlphaBitmapParameters, IMFVideoMixerBitmap::GetAlphaBitmapParameters, evr9/IMFVideoMixerBitmap::GetAlphaBitmapParameters, mf.imfvideomixerbitmap_getalphabitmapparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

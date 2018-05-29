@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLicenseConnection
 title: IWRdsProtocolConnection::GetLicenseConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IWRdsProtocolLicenseConnection object that is used to begin the client licensing process.
 old-location: termserv\iwrdsprotocolconnection_getlicenseconnection.htm
 old-project: TermServ
 ms.assetid: 6c75f80a-0d47-489d-b684-f718326e2b0d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLicenseConnection method, IWRdsProtocolConnection.GetLicenseConnection, IWRdsProtocolConnection::GetLicenseConnection, termserv.iwrdsprotocolconnection_getlicenseconnection, wtsprotocol/IWRdsProtocolConnection::GetLicenseConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

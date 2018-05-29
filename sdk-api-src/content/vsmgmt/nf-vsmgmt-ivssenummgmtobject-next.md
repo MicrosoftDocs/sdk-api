@@ -1,16 +1,16 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Next
 title: IVssEnumMgmtObject::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the specified number of objects from the specified list of enumerated objects.
 old-location: base\ivssenummgmtobject_next.htm
 old-project: VSS
 ms.assetid: 0ddcf25d-dc3e-4522-a98e-98d867230d42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Next method, IVssEnumMgmtObject.Next, IVssEnumMgmtObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_next, vsmgmt/IVssEnumMgmtObject::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

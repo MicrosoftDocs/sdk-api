@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Reverse
 title: GraphicsPath::Reverse
-author: windows-driver-content
+author: windows-sdk-content
 description: The GraphicsPath::Reverse method reverses the order of the points that define this path's lines and curves.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Reverse_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\reverse.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GraphicsPath class [GDI+],Reverse method, GraphicsPath.Reverse, GraphicsPath::Reverse, Reverse, Reverse method [GDI+], Reverse method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Reverse_, gdiplus._gdiplus_CLASS_GraphicsPath_Reverse_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

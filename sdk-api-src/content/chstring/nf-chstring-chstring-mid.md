@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.Mid
 title: CHString::Mid
-author: windows-driver-content
+author: windows-sdk-content
 description: The Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). The method returns a copy of the extracted substring.
 old-location: wmi\chstring_mid.htm
 old-project: WmiSdk
 ms.assetid: 2036813b-f991-4ca3-95d3-8bbe858aae09
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString.Mid, CHString::Mid, CHString::Mid methods [Windows Management Instrumentation], Mid, chstring/CHString::Mid, wmi.chstring_mid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

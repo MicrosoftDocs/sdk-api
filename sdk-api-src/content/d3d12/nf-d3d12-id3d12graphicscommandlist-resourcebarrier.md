@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResourceBarrier
 title: ID3D12GraphicsCommandList::ResourceBarrier
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the driver that it needs to synchronize multiple accesses to resources.
 old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 old-project: direct3d12
 ms.assetid: AA788F94-122B-4132-BED5-162EAC683676
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResourceBarrier method, ID3D12GraphicsCommandList.ResourceBarrier, ID3D12GraphicsCommandList::ResourceBarrier, ResourceBarrier, ResourceBarrier method, ResourceBarrier method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResourceBarrier, direct3d12.id3d12graphicscommandlist_resourcebarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

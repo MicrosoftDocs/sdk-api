@@ -1,16 +1,16 @@
 ---
 UID: NF:midles.MesEncodeDynBufferHandleCreate
 title: MesEncodeDynBufferHandleCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MesEncodeDynBufferHandleCreate function creates an encoding handle and then initializes it for a dynamic buffer style of serialization.
 old-location: rpc\mesencodedynbufferhandlecreate.htm
 old-project: Rpc
 ms.assetid: 4d8cb8e3-aa5a-4354-87e7-57543baa57e8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MesEncodeDynBufferHandleCreate, MesEncodeDynBufferHandleCreate function [RPC], _rpc_mesencodedynbufferhandlecreate, midles/MesEncodeDynBufferHandleCreate, rpc.mesencodedynbufferhandlecreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: midles.h
 req.include-header: Rpc.h

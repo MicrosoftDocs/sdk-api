@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetText
 title: IUIAutomationTextRange::GetText
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the plain text of the text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_GetText.htm
 old-project: WinAuto
 ms.assetid: 704e222d-1e1e-4953-bfa1-bbaa1c5ba833
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetText, GetText method [Windows Accessibility], GetText method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetText method, IUIAutomationTextRange.GetText, IUIAutomationTextRange::GetText, uiauto.uiauto_IUIAutomationTextRange_GetText, uiauto_IUIAutomationTextRange_GetText, uiautomationclient/IUIAutomationTextRange::GetText, winauto.uiauto_IUIAutomationTextRange_GetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

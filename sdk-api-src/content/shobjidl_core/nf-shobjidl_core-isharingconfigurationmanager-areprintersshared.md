@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.ArePrintersShared
 title: ISharingConfigurationManager::ArePrintersShared
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether any printers connected to this computer are shared.
 old-location: shell\ISharingConfigurationManager_ArePrintersShared.htm
 old-project: shell
 ms.assetid: 331ccf4d-c769-43b9-a2db-c464ffaef58e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ArePrintersShared, ArePrintersShared method [Windows Shell], ArePrintersShared method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],ArePrintersShared method, ISharingConfigurationManager.ArePrintersShared, ISharingConfigurationManager::ArePrintersShared, _shell_ISharingConfigurationManager_ArePrintersShared, shell.ISharingConfigurationManager_ArePrintersShared, shobjidl_core/ISharingConfigurationManager::ArePrintersShared
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

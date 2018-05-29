@@ -1,16 +1,16 @@
 ---
 UID: NE:shlobj_core._tagAUTOCOMPLETELISTOPTIONS
 title: "_tagAUTOCOMPLETELISTOPTIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which objects are enumerated for autocompletion lists.
 old-location: shell\AUTOCOMPLETELISTOPTIONS.htm
 old-project: shell
 ms.assetid: 9bcd031c-afcd-4e3d-97d0-fb2095f9d0fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, ACLO_VIRTUALNAMESPACE, AUTOCOMPLETELISTOPTIONS, AUTOCOMPLETELISTOPTIONS enumeration [Windows Shell], _shell_AUTOCOMPLETELISTOPTIONS, _tagAUTOCOMPLETELISTOPTIONS, shell.AUTOCOMPLETELISTOPTIONS, shlobj_core/ACLO_CURRENTDIR, shlobj_core/ACLO_DESKTOP, shlobj_core/ACLO_FAVORITES, shlobj_core/ACLO_FILESYSDIRS, shlobj_core/ACLO_FILESYSONLY, shlobj_core/ACLO_MYCOMPUTER, shlobj_core/ACLO_NONE, shlobj_core/ACLO_VIRTUALNAMESPACE, shlobj_core/AUTOCOMPLETELISTOPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

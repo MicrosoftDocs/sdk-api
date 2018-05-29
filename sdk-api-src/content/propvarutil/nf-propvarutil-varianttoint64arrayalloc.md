@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToInt64ArrayAlloc
 title: VariantToInt64ArrayAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a vector structure into a newly-allocated Int64 array.
 old-location: properties\VariantToInt64ArrayAlloc.htm
 old-project: properties
 ms.assetid: 15a583bd-fdef-4802-a18b-0a21b9be5448
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToInt64ArrayAlloc, VariantToInt64ArrayAlloc function [Windows Properties], _shell_VariantToInt64ArrayAlloc, properties.VariantToInt64ArrayAlloc, propvarutil/VariantToInt64ArrayAlloc, shell.VariantToInt64ArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

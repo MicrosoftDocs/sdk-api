@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ReportManualSync
 title: ISyncMgrSyncCallback::ReportManualSync
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that a synchronization operation is being performed that was requested manually from outside the Sync Center UI.
 old-location: shell\ISyncMgrSyncCallback_ReportManualSync.htm
 old-project: shell
 ms.assetid: 1e503f8f-ebfa-4ac9-a6de-e9127919c758
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportManualSync method, ISyncMgrSyncCallback.ReportManualSync, ISyncMgrSyncCallback::ReportManualSync, ReportManualSync, ReportManualSync method [Windows Shell], ReportManualSync method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportManualSync, shell.ISyncMgrSyncCallback_ReportManualSync, syncmgr/ISyncMgrSyncCallback::ReportManualSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

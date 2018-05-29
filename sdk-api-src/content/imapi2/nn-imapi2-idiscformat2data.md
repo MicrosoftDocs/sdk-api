@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IDiscFormat2Data
 title: IDiscFormat2Data
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to write a data stream to a disc.
 old-location: imapi\idiscformat2data.htm
 old-project: imapi
 ms.assetid: 6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], IDiscFormat2Data interface [IMAPI],described, imapi.idiscformat2data, imapi2/IDiscFormat2Data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

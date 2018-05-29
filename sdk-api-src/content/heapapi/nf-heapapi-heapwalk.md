@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.HeapWalk
 title: HeapWalk function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the memory blocks in the specified heap.
 old-location: base\heapwalk.htm
 old-project: Memory
 ms.assetid: ba4b7372-973b-4dea-9a93-faf847a047e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HeapWalk, HeapWalk function, _win32_heapwalk, base.heapwalk, heapapi/HeapWalk, winbase/HeapWalk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

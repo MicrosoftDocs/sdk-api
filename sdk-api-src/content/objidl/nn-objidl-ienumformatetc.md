@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IEnumFORMATETC
 title: IEnumFORMATETC
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the FORMATETC structures that define the formats and media supported by a given data object.
 old-location: com\ienumformatetc.htm
 old-project: com
 ms.assetid: 4d180fdd-2d58-4d26-9242-6552dda0d3e6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], IEnumFORMATETC interface [COM],described, _ole_ienumformatetc, com.ienumformatetc, objidl/IEnumFORMATETC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

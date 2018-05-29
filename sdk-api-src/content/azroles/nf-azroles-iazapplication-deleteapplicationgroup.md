@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteApplicationGroup
 title: IAzApplication::DeleteApplicationGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the IAzApplicationGroup object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleteapplicationgroup.htm
 old-project: SecAuthZ
 ms.assetid: e2ec7ba1-5998-45bf-aacf-e519bb944d5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzApplication object, DeleteApplicationGroup method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteApplicationGroup method, IAzApplication.DeleteApplicationGroup, IAzApplication::DeleteApplicationGroup, azroles/IAzApplication::DeleteApplicationGroup, security.iazapplication_deleteapplicationgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetSelectedControlItem
 title: IFileDialogCustomize::SetSelectedControlItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the selected state of a particular item in an option button group or a combo box found in the dialog.
 old-location: shell\IFileDialogCustomize_SetSelectedControlItem.htm
 old-project: shell
 ms.assetid: ff0287db-fdd8-415c-9c78-607ec79b5e2d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetSelectedControlItem method, IFileDialogCustomize.SetSelectedControlItem, IFileDialogCustomize::SetSelectedControlItem, SetSelectedControlItem, SetSelectedControlItem method [Windows Shell], SetSelectedControlItem method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetSelectedControlItem, shell_IFileDialogCustomize_SetSelectedControlItem, shobjidl_core/IFileDialogCustomize::SetSelectedControlItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

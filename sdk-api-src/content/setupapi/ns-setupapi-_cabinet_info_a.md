@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._CABINET_INFO_A
 title: "_CABINET_INFO_A"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CABINET_INFO structure stores information about a cabinet file. The SetupIterateCabinet function specifies this structure as a parameter when it sends a SPFILENOTIFY_NEEDNEWCABINET notification to the cabinet callback routine.
 old-location: setup\cabinet_info_str.htm
 old-project: SetupApi
 ms.assetid: 205bff19-d9ac-4dc0-ab11-92cf70a3bd49
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PCABINET_INFO_A, CABINET_INFO, CABINET_INFO structure [Setup API], CABINET_INFO_A, PCABINET_INFO, PCABINET_INFO structure pointer [Setup API], _CABINET_INFO_A, _setupapi_cabinet_info_str, setup.cabinet_info_str, setupapi/CABINET_INFO, setupapi/PCABINET_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

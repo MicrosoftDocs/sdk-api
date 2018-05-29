@@ -1,16 +1,16 @@
 ---
 UID: NS:netioapi._MIB_INVERTEDIFSTACK_TABLE
 title: "_MIB_INVERTEDIFSTACK_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of inverted network interface stack row entries. This specifies the relationship of the network interfaces on an interface stack in reverse order.
 old-location: mib\mib_invertedifstack_table.htm
 old-project: MIB
 ms.assetid: b3508bb5-4e36-4088-afcc-4a75a01d1fe6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE structure [MIB], PMIB_INVERTEDIFSTACK_TABLE, PMIB_INVERTEDIFSTACK_TABLE structure pointer [MIB], _MIB_INVERTEDIFSTACK_TABLE, mib.mib_invertedifstack_table, netioapi/MIB_INVERTEDIFSTACK_TABLE, netioapi/PMIB_INVERTEDIFSTACK_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wrdsgraphicschannels.IWRdsGraphicsChannelManager
 title: IWRdsGraphicsChannelManager
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is used by the RemoteFX graphics services API to create the graphics virtual channels necessary for remoting graphics data.
 old-location: termserv\iwrdsgraphicschannelmanager.htm
 old-project: TermServ
 ms.assetid: 629589cb-9879-491d-a224-6ae2ce8b0ea3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsGraphicsChannelManager, IWRdsGraphicsChannelManager interface [Remote Desktop Services], IWRdsGraphicsChannelManager interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelmanager, wrdsgraphicschannels/IWRdsGraphicsChannelManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wrdsgraphicschannels.h
 req.include-header: 

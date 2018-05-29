@@ -1,16 +1,16 @@
 ---
 UID: NF:chstrarr.CHStringArray.FreeExtra
 title: CHStringArray::FreeExtra
-author: windows-driver-content
+author: windows-sdk-content
 description: The FreeExtra method frees any extra memory allocated while the array increased. This method has no effect on the size or upper bound of the array.
 old-location: wmi\chstringarray_freeextra.htm
 old-project: WmiSdk
 ms.assetid: 5ed54cc4-284b-4cd7-80c1-e9c5ff27c4bf
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],FreeExtra method, CHStringArray.FreeExtra, CHStringArray::FreeExtra, FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_freeextra, chstrarr/CHStringArray::FreeExtra, wmi.chstringarray_freeextra
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

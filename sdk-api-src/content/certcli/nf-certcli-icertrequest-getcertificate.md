@@ -1,16 +1,16 @@
 ---
 UID: NF:certcli.ICertRequest.GetCertificate
 title: ICertRequest::GetCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the certificate issued for the request as an X.509 certificate, or optionally packaged in a Public Key Cryptography Standards (PKCS) #7 message that contains the complete certificate chain for the Certificate Services server.
 old-location: security\icertrequest2_getcertificate.htm
 old-project: SecCrypto
 ms.assetid: ba8fc725-c376-4e66-8417-777ce13f2954
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertRequest object [Security],GetCertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, CR_OUT_CRLS, GetCertificate, GetCertificate method [Security], GetCertificate method [Security],CCertRequest object, GetCertificate method [Security],ICertRequest interface, GetCertificate method [Security],ICertRequest2 interface, GetCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCertificate method, ICertRequest.GetCertificate, ICertRequest2 interface [Security],GetCertificate method, ICertRequest2::GetCertificate, ICertRequest3 interface [Security],GetCertificate method, ICertRequest3::GetCertificate, ICertRequest::GetCertificate, certcli/ICertRequest2::GetCertificate, certcli/ICertRequest3::GetCertificate, certcli/ICertRequest::GetCertificate, security.icertrequest2_getcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h

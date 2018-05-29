@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_MAP_FLAG
 title: D3D11_MAP_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the CPU should respond when an application calls the ID3D11DeviceContext::Map method on a resource that is being used by the GPU.
 old-location: direct3d11\d3d11_map_flag.htm
 old-project: direct3d11
 ms.assetid: 986400c4-2a81-4d43-9564-d26eeaf7bd28
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 629d7d2f-642f-963f-2dce-b5f72d629978, D3D11_MAP_FLAG, D3D11_MAP_FLAG enumeration [Direct3D 11], D3D11_MAP_FLAG_DO_NOT_WAIT, d3d11/D3D11_MAP_FLAG, d3d11/D3D11_MAP_FLAG_DO_NOT_WAIT, direct3d11.d3d11_map_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

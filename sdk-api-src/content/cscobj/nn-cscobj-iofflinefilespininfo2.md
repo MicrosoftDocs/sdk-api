@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesPinInfo2
 title: IOfflineFilesPinInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a method to determine whether an item in the Offline Files cache is partly pinned.
 old-location: of\iofflinefilespininfo2.htm
 old-project: OfflineFiles
 ms.assetid: 80aa7e38-dbd7-42c6-b4b8-df4f104dfdc8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesPinInfo2, IOfflineFilesPinInfo2 interface [Offline Files], IOfflineFilesPinInfo2 interface [Offline Files],described, cscobj/IOfflineFilesPinInfo2, of.iofflinefilespininfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:windowsstoragecom.IOplockBreakingHandler
 title: IOplockBreakingHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is not currently implemented.
 old-location: winrt\ioplockbreakinghandler.htm
 old-project: WinRT
 ms.assetid: 76466E25-C3F1-4170-921E-8BE6B36B6BA3
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IOplockBreakingHandler, IOplockBreakingHandler interface [Windows Runtime], IOplockBreakingHandler interface [Windows Runtime],described, windowsstoragecom/IOplockBreakingHandler, winrt.ioplockbreakinghandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 

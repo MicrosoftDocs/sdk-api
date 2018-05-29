@@ -1,16 +1,16 @@
 ---
 UID: NS:winnetwk._NETRESOURCEW
 title: "_NETRESOURCEW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection.
 old-location: security\netresource.htm
 old-project: SecAuthN
 ms.assetid: c7e22694-2dfd-4a9e-bd40-277611476f97
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPNETRESOURCEW, LPNETRESOURCE, LPNETRESOURCE structure pointer [Security], NETRESOURCE, NETRESOURCE structure [Security], NETRESOURCEA, NETRESOURCEW, RESOURCEDISPLAYTYPE_DIRECTORY, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_NETWORK, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, _NETRESOURCEW, _mnp_netresource, security.netresource, winnetwk/LPNETRESOURCE, winnetwk/NETRESOURCE, winnetwk/NETRESOURCEA, winnetwk/NETRESOURCEW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 

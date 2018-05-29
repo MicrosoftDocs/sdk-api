@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.get_accChildCount
 title: IAccessible::get_accChildCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::get_accChildCount method retrieves the number of children that belong to this object. All objects must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accchildcount.htm
 old-project: WinAuto
 ms.assetid: d80d59c0-7694-4cc6-9887-2fec7186f32e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChildCount method, IAccessible.get_accChildCount, IAccessible::get_accChildCount, _msaa_IAccessible_get_accChildCount, get_accChildCount, get_accChildCount method [Windows Accessibility], get_accChildCount method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchildcount, oleacc/IAccessible::get_accChildCount, winauto.iaccessible_iaccessible__get_accchildcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

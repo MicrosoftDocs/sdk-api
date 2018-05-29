@@ -1,16 +1,16 @@
 ---
 UID: NN:control.IMediaControl
 title: IMediaControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaControl interface provides methods for controlling the flow of data through the filter graph.
 old-location: dshow\imediacontrol.htm
 old-project: DirectShow
 ms.assetid: bce64088-3751-420c-b9de-b9b5f3119198
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl interface [DirectShow],described, IMediaControlInterface, control/IMediaControl, dshow.imediacontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._POLICY_AUDIT_EVENTS_INFO
 title: "_POLICY_AUDIT_EVENTS_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The POLICY_AUDIT_EVENTS_INFO structure is used to set and query the system's auditing rules.
 old-location: security\policy_audit_events_info.htm
 old-project: SecMgmt
 ms.assetid: 3442e5e5-78cf-4bda-ba11-0f51ee40df16
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPOLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO structure [Security], POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, PPOLICY_AUDIT_EVENTS_INFO, PPOLICY_AUDIT_EVENTS_INFO structure pointer [Security], _POLICY_AUDIT_EVENTS_INFO, _lsa_policy_audit_events_info, ntsecapi/POLICY_AUDIT_EVENTS_INFO, ntsecapi/PPOLICY_AUDIT_EVENTS_INFO, security.policy_audit_events_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

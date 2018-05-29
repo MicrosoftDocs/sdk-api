@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpmib._MIB_TCP6TABLE
 title: "_MIB_TCP6TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of TCP connections for IPv6 on the local computer.
 old-location: mib\mib_tcp6table.htm
 old-project: MIB
 ms.assetid: 62bb8544-0a0a-40b5-92cf-9631c9a9987c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_TCP6TABLE, MIB_TCP6TABLE, MIB_TCP6TABLE structure [MIB], PMIB_TCP6TABLE, PMIB_TCP6TABLE structure pointer [MIB], _MIB_TCP6TABLE, mib.mib_tcp6table, tcpmib/MIB_TCP6TABLE, tcpmib/PMIB_TCP6TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

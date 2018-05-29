@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidPlayback.Pause
 title: IMSVidPlayback::Pause
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pause method pauses the playback device.
 old-location: mstv\imsvidplayback_pause.htm
 old-project: mstv
 ms.assetid: 430528b7-3b3a-4df9-8093-9b0f9262f106
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Pause method, IMSVidPlayback.Pause, IMSVidPlayback::Pause, IMSVidPlaybackPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_pause, segment/IMSVidPlayback::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

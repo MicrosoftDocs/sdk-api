@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetParameterAt
 title: MI_ParameterSet_GetParameterAt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a method's parameter information at the specified index.
 old-location: wmi_v2\mi_parameterset_getparameterat.htm
 old-project: wmi_v2
 ms.assetid: fcfd7104-dd63-4a48-9a20-dcec0dc33242
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ParameterSet_GetParameterAt, MI_ParameterSet_GetParameterAt function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterAt, wmi_v2.mi_parameterset_getparameterat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

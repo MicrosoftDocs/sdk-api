@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Scope
 title: INetFwOpenPort::get_Scope
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwopenport_scope.htm
 old-project: ICS
 ms.assetid: a5bd787f-e00c-4a57-adc7-a9618809198a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Scope property, INetFwOpenPort.Scope, INetFwOpenPort.get_Scope, INetFwOpenPort::Scope, INetFwOpenPort::get_Scope, INetFwOpenPort::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwOpenPort interface, get_Scope, ics.inetfwopenport_scope, netfw/INetFwOpenPort::Scope, netfw/INetFwOpenPort::get_Scope, netfw/INetFwOpenPort::put_Scope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSetComponentStateW
 title: MsiSetComponentStateW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSetComponentState function sets a component to the requested state.
 old-location: setup\msisetcomponentstate.htm
 old-project: Msi
 ms.assetid: d538c81f-130b-4522-9f85-47f04e24f125
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetComponentState, MsiSetComponentState function, MsiSetComponentStateA, MsiSetComponentStateW, _msi_msisetcomponentstate, msiquery/MsiSetComponentState, msiquery/MsiSetComponentStateA, msiquery/MsiSetComponentStateW, setup.msisetcomponentstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

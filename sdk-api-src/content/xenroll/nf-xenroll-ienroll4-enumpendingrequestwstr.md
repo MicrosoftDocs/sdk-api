@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.enumPendingRequestWStr
 title: IEnroll4::enumPendingRequestWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates pending certificate requests and retrieves a specified property from each.
 old-location: security\ienroll4_enumpendingrequestwstr.htm
 old-project: SecCrypto
 ms.assetid: ae1ac12c-0332-4796-8269-a3b6f72b8bff
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],enumPendingRequestWStr method, IEnroll4.enumPendingRequestWStr, IEnroll4::enumPendingRequestWStr, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, enumPendingRequestWStr, enumPendingRequestWStr method [Security], enumPendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_enumpendingrequestwstr, xenroll/IEnroll4::enumPendingRequestWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

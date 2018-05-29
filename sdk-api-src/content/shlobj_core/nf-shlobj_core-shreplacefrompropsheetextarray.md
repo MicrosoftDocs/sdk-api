@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHReplaceFromPropSheetExtArray
 title: SHReplaceFromPropSheetExtArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests each property sheet in a property sheet extension array to replace pages. Each page is allowed up to one replacement.
 old-location: shell\SHReplaceFromPropSheetExtArray.htm
 old-project: shell
 ms.assetid: a8bdde44-d668-46c4-9e58-7a45b775fe09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray function [Windows Shell], _win32_SHReplaceFromPropSheetExtArray, shell.SHReplaceFromPropSheetExtArray, shlobj_core/SHReplaceFromPropSheetExtArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

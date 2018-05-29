@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertVerifyCRLTimeValidity
 title: CertVerifyCRLTimeValidity function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertVerifyCRLTimeValidity function verifies the time validity of a CRL.
 old-location: security\certverifycrltimevalidity.htm
 old-project: SecCrypto
 ms.assetid: ff321fe8-df45-4a1d-b626-055fb0696438
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertVerifyCRLTimeValidity, CertVerifyCRLTimeValidity function [Security], _crypto2_certverifycrltimevalidity, security.certverifycrltimevalidity, wincrypt/CertVerifyCRLTimeValidity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

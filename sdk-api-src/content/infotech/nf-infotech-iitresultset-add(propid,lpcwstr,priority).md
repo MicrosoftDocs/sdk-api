@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITResultSet.Add(PROPID,LPCWSTR,PRIORITY)
 title: IITResultSet::Add(PROPID,LPCWSTR,PRIORITY)
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a column to the result set.
 old-location: htmlhelp\iitresultset_add3.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddstring.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,LPCWSTR,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,LPCWSTR,PRIORITY), htmlhelp.iitresultset_add3, infotech/IITResultSet::Add, refIITResultSetAddString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

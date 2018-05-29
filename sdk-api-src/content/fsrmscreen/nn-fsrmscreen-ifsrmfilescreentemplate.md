@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenTemplate
 title: IFsrmFileScreenTemplate
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to configure templates from which new file screens can be derived.
 old-location: fsrm\ifsrmfilescreentemplate.htm
 old-project: Fsrm
 ms.assetid: c8e612f5-e7cd-45ff-9eaf-9d1674231161
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], IFsrmFileScreenTemplate interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplate, fsrm.ifsrmfilescreentemplate, fsrmscreen/IFsrmFileScreenTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: 

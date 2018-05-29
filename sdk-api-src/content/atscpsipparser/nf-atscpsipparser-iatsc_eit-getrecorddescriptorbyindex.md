@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetRecordDescriptorByIndex
 title: IATSC_EIT::GetRecordDescriptorByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 06144d3d-b789-4ba3-b313-958de366764f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IATSC_EIT.GetRecordDescriptorByIndex, IATSC_EIT::GetRecordDescriptorByIndex, IATSC_EITGetRecordDescriptorByIndex, atscpsipparser/IATSC_EIT::GetRecordDescriptorByIndex, mstv.iatsc_eit_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

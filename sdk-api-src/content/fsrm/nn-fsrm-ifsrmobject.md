@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmObject
 title: IFsrmObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Base class for all FSRM objects.
 old-location: fsrm\ifsrmobject.htm
 old-project: Fsrm
 ms.assetid: bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmObject, IFsrmObject interface [File Server Resource Manager], IFsrmObject interface [File Server Resource Manager],described, fs.ifsrmobject, fsrm.ifsrmobject, fsrm/IFsrmObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

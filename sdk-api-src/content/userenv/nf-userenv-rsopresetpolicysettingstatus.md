@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.RsopResetPolicySettingStatus
 title: RsopResetPolicySettingStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RSoPResetPolicySettingStatus function unlinks the RSOP_PolicySettingStatus instance from its RSOP_PolicySetting instance.
 old-location: policy\rsopresetpolicysettingstatus.htm
 old-project: Policy
 ms.assetid: fd849efe-1ee7-4034-aea2-1a2bdb5e46bc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: RSoPResetPolicySettingStatus, RSoPResetPolicySettingStatus function [Group Policy], RsopResetPolicySettingStatus, _win32_rsopresetpolicysettingstatus, policy.rsopresetpolicysettingstatus, userenv/RSoPResetPolicySettingStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.IsSmartCard
 title: IX509CertificateRequestPkcs10::IsSmartCard
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether any of the cryptographic providers associated with the request object is a smart card provider.
 old-location: security\ix509certificaterequestpkcs10_issmartcard_method.htm
 old-project: SecCertEnroll
 ms.assetid: 663ca7dd-f108-46bf-9564-cd2d7ec2bb1f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],IsSmartCard method, IX509CertificateRequestPkcs10.IsSmartCard, IX509CertificateRequestPkcs10::IsSmartCard, IsSmartCard, IsSmartCard method [Security], IsSmartCard method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::IsSmartCard, security.ix509certificaterequestpkcs10_issmartcard_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

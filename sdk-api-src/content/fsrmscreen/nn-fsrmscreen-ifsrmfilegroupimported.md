@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroupImported
 title: IFsrmFileGroupImported
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to configure imported file group objects.
 old-location: fsrm\ifsrmfilegroupimported.htm
 old-project: Fsrm
 ms.assetid: fb4f6b03-01cc-4855-8bc7-de5191068040
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileGroupImported, IFsrmFileGroupImported interface [File Server Resource Manager], IFsrmFileGroupImported interface [File Server Resource Manager],described, fs.ifsrmfilegroupimported, fsrm.ifsrmfilegroupimported, fsrm/IFsrmFileGroupImported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

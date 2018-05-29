@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISessionProperties
 title: IRDPSRAPISessionProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to get or set session properties.
 old-location: rdp\irdpsrapisessionproperties.htm
 old-project: Rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

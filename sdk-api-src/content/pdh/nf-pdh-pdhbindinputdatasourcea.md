@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhBindInputDataSourceA
 title: PdhBindInputDataSourceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds one or more binary log files together for reading log data.
 old-location: perf\pdhbindinputdatasource.htm
 old-project: PerfCtrs
 ms.assetid: eaed9b28-eb09-4123-9317-5d3d50e2d77a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], PdhBindInputDataSourceA, PdhBindInputDataSourceW, _win32_pdhbindinputdatasource, base.pdhbindinputdatasource, pdh/PdhBindInputDataSource, pdh/PdhBindInputDataSourceA, pdh/PdhBindInputDataSourceW, perf.pdhbindinputdatasource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

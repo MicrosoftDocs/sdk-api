@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMOpenProgress
 title: IAMOpenProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMOpenProgress interface reports the progress of a file-open operation and enables the application to cancel the operation.Filters that open files over a network can expose this interface.
 old-location: dshow\iamopenprogress.htm
 old-project: DirectShow
 ms.assetid: 31021c83-ee83-49c3-a089-31184756fb0d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenProgress interface [DirectShow],described, IAMOpenProgressInterface, dshow.iamopenprogress, strmif/IAMOpenProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

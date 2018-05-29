@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetVersionNumber
 title: IISDB_EMM::GetVersionNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getversionnumber.htm
 old-project: mstv
 ms.assetid: 3eebc1cc-044b-4a0a-8259-cb225f829df8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_EMM.GetVersionNumber, IISDB_EMM::GetVersionNumber, dvbsiparser/IISDB_EMM::GetVersionNumber, mstv.iisdb_emm_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkSetProperty
 title: WlanHostedNetworkSetProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets static properties of the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworksetproperty.htm
 old-project: NativeWiFi
 ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

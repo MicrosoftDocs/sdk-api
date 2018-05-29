@@ -1,16 +1,16 @@
 ---
 UID: NN:netcon.IEnumNetSharingPortMapping
 title: IEnumNetSharingPortMapping
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumNetSharingPortMapping interface provides methods to enumerate the port mappings for a particular connection.
 old-location: ics\ienumnetsharingportmapping.htm
 old-project: ICS
 ms.assetid: 68334bd2-353f-457d-a2c7-1271816f10f5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], IEnumNetSharingPortMapping interface [ICS/ICF],described, _ics_ienumnetsharingportmapping, ics.ienumnetsharingportmapping, netcon/IEnumNetSharingPortMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.StgGetIFillLockBytesOnFile
 title: StgGetIFillLockBytesOnFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a wrapper object on a temporary file.
 old-location: stg\stggetifilllockbytesonfile.htm
 old-project: Stg
 ms.assetid: 948724ff-d1eb-43ca-b498-6296909cfb28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgGetIFillLockBytesOnFile, StgGetIFillLockBytesOnFile function [Structured Storage], _stg_stggetifilllockbytesonfile, objbase/StgGetIFillLockBytesOnFile, stg.stggetifilllockbytesonfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

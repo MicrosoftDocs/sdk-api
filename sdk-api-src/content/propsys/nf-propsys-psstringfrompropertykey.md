@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSStringFromPropertyKey
 title: PSStringFromPropertyKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a string that identifies a property from that property's key.
 old-location: properties\PSStringFromPropertyKey.htm
 old-project: properties
 ms.assetid: 081f8e6d-9189-44f9-9b27-e85f4793da48
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSStringFromPropertyKey, PSStringFromPropertyKey function [Windows Properties], _shell_PSStringFromPropertyKey, properties.PSStringFromPropertyKey, propsys/PSStringFromPropertyKey, shell.PSStringFromPropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.INewWindowManager
 title: INewWindowManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that determines whether a window that is launched by another window should be displayed or blocked, allowing control of pop-up windows.
 old-location: shell\INewWindowManager.htm
 old-project: shell
 ms.assetid: 63fbdd29-fe5e-4216-afb3-041320a8c496
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INewWindowManager, INewWindowManager interface [Windows Shell], INewWindowManager interface [Windows Shell],described, _shell_INewWindowManager, shell.INewWindowManager, shobjidl_core/INewWindowManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

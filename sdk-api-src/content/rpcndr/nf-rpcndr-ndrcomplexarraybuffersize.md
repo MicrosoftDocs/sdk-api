@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrComplexArrayBufferSize
 title: NdrComplexArrayBufferSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrComplexArrayBufferSize function calculates the required buffer size, in bytes, to marshal the complex array.
 old-location: winprog\ndrcomplexarraybuffersize.htm
 old-project: DevNotes
 ms.assetid: 8efd63c5-7444-4b30-b642-18dfecb7d026
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NdrComplexArrayBufferSize, NdrComplexArrayBufferSize function [Windows API], rpcndr/NdrComplexArrayBufferSize, winprog.ndrcomplexarraybuffersize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 

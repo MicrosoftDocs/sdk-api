@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlUnescapeA
 title: UrlUnescapeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts escape sequences back into ordinary characters.
 old-location: shell\UrlUnescape.htm
 old-project: shell
 ms.assetid: 5bff5161-3b57-4f12-b126-42eac3f60267
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, URL_UNESCAPE_AS_UTF8, URL_UNESCAPE_INPLACE, UrlUnescape, UrlUnescape function [Windows Shell], UrlUnescapeA, UrlUnescapeW, _win32_UrlUnescape, shell.UrlUnescape, shlwapi/UrlUnescape, shlwapi/UrlUnescapeA, shlwapi/UrlUnescapeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

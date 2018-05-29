@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_SIMPLE_CHAIN
 title: "_CERT_SIMPLE_CHAIN"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_SIMPLE_CHAIN structure contains an array of chain elements and a summary trust status for the chain that the array represents.
 old-location: security\cert_simple_chain.htm
 old-project: SecCrypto
 ms.assetid: c130cab4-bf8d-429a-beb7-04cb5d37d466
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_SIMPLE_CHAIN, CERT_SIMPLE_CHAIN, CERT_SIMPLE_CHAIN structure [Security], PCERT_SIMPLE_CHAIN, PCERT_SIMPLE_CHAIN structure pointer [Security], _CERT_SIMPLE_CHAIN, _crypto2_cert_simple_chain, security.cert_simple_chain, wincrypt/CERT_SIMPLE_CHAIN, wincrypt/PCERT_SIMPLE_CHAIN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

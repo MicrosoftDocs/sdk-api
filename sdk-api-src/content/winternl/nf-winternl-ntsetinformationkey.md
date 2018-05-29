@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.NtSetInformationKey
 title: NtSetInformationKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information for the specified registry key.
 old-location: winprog\ntsetinformationkey.htm
 old-project: DevNotes
 ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

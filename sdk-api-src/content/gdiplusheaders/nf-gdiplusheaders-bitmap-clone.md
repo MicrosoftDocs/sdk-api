@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Clone
 title: Bitmap::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the Clone methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\bitmapclonemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Bitmap.Clone, Bitmap::Clone, Clone, Clone methods [GDI+], _gdiplus_CLASS_Bitmap_Clone_Methods, gdiplus._gdiplus_CLASS_Bitmap_Clone_Methods, gdiplusheaders/Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

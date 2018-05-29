@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionUIElement.GetDocumentMgr
 title: ITfTransitoryExtensionUIElement::GetDocumentMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfTransitoryExtensionUIElement::GetDocumentMgr method returns the pointer of the transitory document manager.
 old-location: tsf\itftransitoryextensionuielement_getdocumentmgr.htm
 old-project: TSF
 ms.assetid: 199598fc-09e8-4d3b-b460-c76a1e4ee623
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfTransitoryExtensionUIElement interface, ITfTransitoryExtensionUIElement interface [Text Services Framework],GetDocumentMgr method, ITfTransitoryExtensionUIElement.GetDocumentMgr, ITfTransitoryExtensionUIElement::GetDocumentMgr, msctf/ITfTransitoryExtensionUIElement::GetDocumentMgr, tsf.itftransitoryextensionuielement_getdocumentmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

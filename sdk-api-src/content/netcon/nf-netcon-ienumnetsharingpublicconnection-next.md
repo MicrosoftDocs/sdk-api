@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Next
 title: IEnumNetSharingPublicConnection::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method retrieves the specified number of privately-shared connections that start from the current enumeration position.
 old-location: ics\ienumnetsharingpublicconnection_next.htm
 old-project: ICS
 ms.assetid: 36df4f20-785f-4335-ba75-094533068685
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Next method, IEnumNetSharingPublicConnection.Next, IEnumNetSharingPublicConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_next, ics.ienumnetsharingpublicconnection_next, netcon/IEnumNetSharingPublicConnection::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

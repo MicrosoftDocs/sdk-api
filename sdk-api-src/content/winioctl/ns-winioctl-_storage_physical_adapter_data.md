@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_ADAPTER_DATA
 title: "_STORAGE_PHYSICAL_ADAPTER_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a physical storage adapter.
 old-location: fs\storage_physical_adapter_data.htm
 old-project: FileIO
 ms.assetid: 8CC7CF43-61C8-4561-BA9C-473878818858
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Files], _STORAGE_PHYSICAL_ADAPTER_DATA, fs.storage_physical_adapter_data, winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA, winioctl/STORAGE_PHYSICAL_ADAPTER_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

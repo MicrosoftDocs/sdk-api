@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedNativeWindowHandle
 title: IUIAutomationElement::get_CachedNativeWindowHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached window handle of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedNativeWindowHandle.htm
 old-project: WinAuto
 ms.assetid: d7f14d89-20a2-4cfe-9a1b-31df442a5b77
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedNativeWindowHandle property [Windows Accessibility], CachedNativeWindowHandle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedNativeWindowHandle property, IUIAutomationElement.CachedNativeWindowHandle, IUIAutomationElement.get_CachedNativeWindowHandle, IUIAutomationElement::CachedNativeWindowHandle, IUIAutomationElement::get_CachedNativeWindowHandle, get_CachedNativeWindowHandle, uiauto.uiauto_IUIAutomationElement_CachedNativeWindowHandle, uiauto_IUIAutomationElement_CachedNativeWindowHandle, uiautomationclient/IUIAutomationElement::CachedNativeWindowHandle, uiautomationclient/IUIAutomationElement::get_CachedNativeWindowHandle, winauto.uiauto_IUIAutomationElement_CachedNativeWindowHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

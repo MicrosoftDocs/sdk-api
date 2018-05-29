@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Reset
 title: IEnumComponentTypes::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: mstv\ienumcomponenttypes_reset.htm
 old-project: mstv
 ms.assetid: 7eead32c-a02c-41c1-8cfb-a52180219697
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumComponentTypes interface [Microsoft TV Technologies],Reset method, IEnumComponentTypes.Reset, IEnumComponentTypes::Reset, IEnumComponentTypesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumComponentTypes interface, mstv.ienumcomponenttypes_reset, tuner/IEnumComponentTypes::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

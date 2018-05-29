@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IGraphConfig.AddFilterToCache
 title: IGraphConfig::AddFilterToCache
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddFilterToCache method adds a filter to the filter cache.
 old-location: dshow\igraphconfig_addfiltertocache.htm
 old-project: DirectShow
 ms.assetid: 8d5c6d55-1628-462b-828a-50541b6da3e7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AddFilterToCache, AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],AddFilterToCache method, IGraphConfig.AddFilterToCache, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

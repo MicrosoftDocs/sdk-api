@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiRegisterDeviceInfo
 title: SetupDiRegisterDeviceInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiRegisterDeviceInfo function is the default handler for the DIF_REGISTERDEVICE request.
 old-location: devinst\setupdiregisterdeviceinfo.htm
 old-project: devinst
 ms.assetid: 76b2d1ab-3efb-46e6-8c44-d6913b0eecd5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiRegisterDeviceInfo, SetupDiRegisterDeviceInfo function [Device and Driver Installation], devinst.setupdiregisterdeviceinfo, di-rtns_ab9a56a2-3256-472f-a818-32918efd5673.xml, setupapi/SetupDiRegisterDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

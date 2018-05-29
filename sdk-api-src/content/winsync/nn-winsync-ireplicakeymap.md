@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IReplicaKeyMap
 title: IReplicaKeyMap
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a mapping between replica keys and replica IDs.
 old-location: winsync\ireplicakeymap.htm
 old-project: winsync
 ms.assetid: 3c195842-316a-4c49-ace4-444fa4a38ad2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IReplicaKeyMap, IReplicaKeyMap interface [Windows Sync], IReplicaKeyMap interface [Windows Sync],described, winsync.ireplicakeymap, winsync/IReplicaKeyMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

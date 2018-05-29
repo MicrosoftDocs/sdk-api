@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAbortChannel
 title: WsAbortChannel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels all pending I/O for a specified channel.
 old-location: wsw\wsabortchannel.htm
 old-project: wsw
 ms.assetid: 67af85d7-db75-4e26-a7cc-8115ac3f2d59
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAbortChannel, WsAbortChannel function [Web Services for Windows], webservices/WsAbortChannel, wsw.wsabortchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

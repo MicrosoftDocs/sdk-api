@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportContentProvider
 title: IWdsTransportContentProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to describe a content provider.
 old-location: wds\iwdstransportcontentprovider.htm
 old-project: Wds
 ms.assetid: DF94E03F-0A9A-4467-B932-28227B6BB3C4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], IWdsTransportContentProvider interface [Windows Deployment Services],described, wds.iwdstransportcontentprovider, wdstptmgmt/IWdsTransportContentProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

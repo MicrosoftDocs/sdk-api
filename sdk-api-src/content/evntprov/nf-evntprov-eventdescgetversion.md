@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventDescGetVersion
 title: EventDescGetVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the version from the event descriptor.
 old-location: etw\eventdescgetversion_func.htm
 old-project: ETW
 ms.assetid: 3881f089-d0c6-4d46-929a-09777df13f61
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventDescGetVersion, EventDescGetVersion function [ETW], base.eventdescgetversion_func, etw.eventdescgetversion_func, evntprov/EventDescGetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

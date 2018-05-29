@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagCHARSETINFO
 title: tagCHARSETINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a character set.
 old-location: intl\charsetinfo.htm
 old-project: Intl
 ms.assetid: 4f815f53-9fac-41f3-9493-bd8d68cff543
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCHARSETINFO, *NPCHARSETINFO, *PCHARSETINFO, CHARSETINFO, CHARSETINFO structure [Internationalization for Windows Applications], PCHARSETINFO, PCHARSETINFO structure pointer [Internationalization for Windows Applications], _win32_CHARSETINFO_str, intl.charsetinfo, tagCHARSETINFO, wingdi/CHARSETINFO, wingdi/PCHARSETINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

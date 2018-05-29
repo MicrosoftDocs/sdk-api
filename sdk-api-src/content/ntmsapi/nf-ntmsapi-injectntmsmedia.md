@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.InjectNtmsMedia
 title: InjectNtmsMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The InjectNtmsMedia function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues InjectNtmsMedia and returns success.
 old-location: fs\injectntmsmedia.htm
 old-project: Rsm
 ms.assetid: c4274c9c-f052-42dd-859b-85606d455001
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETRACT, NTMS_INJECT_START, NTMS_INJECT_START_MANY, NTMS_INJECT_STOP, _zaw_injectntmsmedia, base.injectntmsmedia, fs.injectntmsmedia, ntmsapi/InjectNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

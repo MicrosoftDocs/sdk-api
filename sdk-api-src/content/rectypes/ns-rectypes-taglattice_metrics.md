@@ -1,16 +1,16 @@
 ---
 UID: NS:rectypes.tagLATTICE_METRICS
 title: tagLATTICE_METRICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the baseline and the midline height.
 old-location: tablet\lattice_metrics.htm
 old-project: tablet
 ms.assetid: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32, LATTICE_METRICS, LATTICE_METRICS structure [Tablet PC], rectypes/LATTICE_METRICS, tablet.lattice_metrics, tagLATTICE_METRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

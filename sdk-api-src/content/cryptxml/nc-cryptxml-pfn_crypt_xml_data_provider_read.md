@@ -1,16 +1,16 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_DATA_PROVIDER_READ
 title: PFN_CRYPT_XML_DATA_PROVIDER_READ
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads XML data.
 old-location: security\pfn_crypt_xml_data_provider_read.htm
 old-project: SecCrypto
 ms.assetid: 86c7003e-eee2-4adf-adf4-8f9d1acb5c45
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_READ, PFN_CRYPT_XML_DATA_PROVIDER_READ callback, PFN_CRYPT_XML_DATA_PROVIDER_READ callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ, security.pfn_crypt_xml_data_provider_read
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

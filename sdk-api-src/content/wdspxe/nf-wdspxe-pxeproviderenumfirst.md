@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeProviderEnumFirst
 title: PxeProviderEnumFirst function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts an enumeration of registered providers.
 old-location: wds\pxeproviderenumfirst.htm
 old-project: Wds
 ms.assetid: b810455b-219b-49da-a4eb-c1a170711c68
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PxeProviderEnumFirst, PxeProviderEnumFirst function [Windows Deployment Services], wds.pxeproviderenumfirst, wdspxe/PxeProviderEnumFirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

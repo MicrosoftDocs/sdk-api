@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Enrollment.Initialize
 title: IX509Enrollment::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the enrollment object and creates a default PKCS #10 request.
 old-location: security\ix509enrollment_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 3bf4ce4a-6556-403c-8334-a6bf01f074a3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Enrollment interface [Security],Initialize method, IX509Enrollment.Initialize, IX509Enrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Initialize, security.ix509enrollment_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

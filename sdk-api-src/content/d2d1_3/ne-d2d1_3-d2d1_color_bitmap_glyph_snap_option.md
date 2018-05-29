@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_3.D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
 title: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the pixel snapping policy when rendering color bitmap glyphs.
 old-location: direct2d\d2d1_color_bitmap_glyph_snap_option.htm
 old-project: Direct2D
 ms.assetid: 14D99AFE-8072-4EAC-8932-6BD8D6EACB48
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION, D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION enumeration [Direct2D], D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DEFAULT, D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DISABLE, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DEFAULT, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DISABLE, direct2d.d2d1_color_bitmap_glyph_snap_option
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_3.h
 req.include-header: 

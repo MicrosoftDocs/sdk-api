@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMVideoDecimationProperties
 title: IAMVideoDecimationProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMVideoDecimationProperties interface controls how the Overlay Mixer performs video decimationIf a video window is smaller than the native size of the video being displayed, the video renderer must decimate the incoming video&#8212;that is, scale the video down to the smaller size. Decimation can be performed in one of the following places.The overlay hardware on the VGA chip.The scaler built in to the video port (if the connection is through a video port).The decoder supplying video to the renderer.An application can call methods on this interface to select a particular decimation strategy, in order to optimize performance. However, most applications will have no occasion to use this interface. Unless your application is designed to support particular hardware, there is no reason to modify the Overlay Mixer filter's default behavior for decimation.
 old-location: dshow\iamvideodecimationproperties.htm
 old-project: DirectShow
 ms.assetid: fd435eff-a4bc-40b3-8aa7-50d78d17e4ce
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVideoDecimationProperties, IAMVideoDecimationProperties interface [DirectShow], IAMVideoDecimationProperties interface [DirectShow],described, IAMVideoDecimationPropertiesInterface, dshow.iamvideodecimationproperties, strmif/IAMVideoDecimationProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

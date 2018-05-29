@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SERVICE_METADATA_DOCUMENT
 title: "_WS_SERVICE_METADATA_DOCUMENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the individual documents that make up the service metadata.
 old-location: wsw\ws_service_metadata_document.htm
 old-project: wsw
 ms.assetid: d15fb735-9f82-4dd2-8586-f67999ab9727
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_METADATA_DOCUMENT, WS_SERVICE_METADATA_DOCUMENT structure [Web Services for Windows], _WS_SERVICE_METADATA_DOCUMENT, webservices/WS_SERVICE_METADATA_DOCUMENT, wsw.ws_service_metadata_document
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

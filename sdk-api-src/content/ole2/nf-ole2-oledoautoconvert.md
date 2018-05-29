@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleDoAutoConvert
 title: OleDoAutoConvert function
-author: windows-driver-content
+author: windows-sdk-content
 description: Automatically converts an object to a new class if automatic conversion for that object class is set in the registry.
 old-location: com\oledoautoconvert.htm
 old-project: com
 ms.assetid: fe470f8a-b2f0-48a4-a270-77420bd1472a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleDoAutoConvert, OleDoAutoConvert function [COM], _com_OleDoAutoConvert, com.oledoautoconvert, ole2/OleDoAutoConvert
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

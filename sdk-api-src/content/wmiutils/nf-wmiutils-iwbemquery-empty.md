@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemQuery.Empty
 title: IWbemQuery::Empty
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemQuery::Empty method frees the memory that the parser is holding.
 old-location: wmi\iwbemquery_empty.htm
 old-project: WmiSdk
 ms.assetid: 42f6542e-2aab-40c1-81d5-d08b54b8aa40
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],Empty method, IWbemQuery.Empty, IWbemQuery::Empty, _hmm_iwbemquery_empty, wmi.iwbemquery_empty, wmiutils/IWbemQuery::Empty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

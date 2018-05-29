@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.SetURL
 title: ITextRange2::SetURL
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the text in this range to that of the specified URL.
 old-location: controls\itextrange2_seturl.htm
 old-project: Controls
 ms.assetid: f8e62056-5177-4c88-99d8-32ca30bc71e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetURL method, ITextRange2.SetURL, ITextRange2::SetURL, SetURL, SetURL method [Windows Controls], SetURL method [Windows Controls],ITextRange2 interface, controls.itextrange2_seturl, tom/ITextRange2::SetURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

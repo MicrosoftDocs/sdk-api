@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager2.get_TftpCapabilities
 title: IWdsTransportSetupManager2::get_TftpCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a mask of WDSTRANSPORT_TFTP_CAPABILITY values that indicates which WDS TFTP features are supported by the WDS TFTP server.
 old-location: wds\iwdstransportsetupmanager2_tftpcapabilities.htm
 old-project: Wds
 ms.assetid: 8F8655E8-4842-411B-B408-00815B2998A5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportSetupManager2 interface [Windows Deployment Services],TftpCapabilities property, IWdsTransportSetupManager2.TftpCapabilities, IWdsTransportSetupManager2.get_TftpCapabilities, IWdsTransportSetupManager2::TftpCapabilities, IWdsTransportSetupManager2::get_TftpCapabilities, TftpCapabilities property [Windows Deployment Services], TftpCapabilities property [Windows Deployment Services],IWdsTransportSetupManager2 interface, get_TftpCapabilities, wds.iwdstransportsetupmanager2_tftpcapabilities, wdstptmgmt/IWdsTransportSetupManager2::TftpCapabilities, wdstptmgmt/IWdsTransportSetupManager2::get_TftpCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

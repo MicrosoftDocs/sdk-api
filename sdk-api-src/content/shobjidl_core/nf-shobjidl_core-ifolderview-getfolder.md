@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetFolder
 title: IFolderView::GetFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the folder object.
 old-location: shell\IFolderView_GetFolder.htm
 old-project: shell
 ms.assetid: 4fdeb995-2220-4461-a4d6-80bce08153b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetFolder method, IFolderView.GetFolder, IFolderView::GetFolder, _shell_IFolderView_GetFolder, shell.IFolderView_GetFolder, shobjidl_core/IFolderView::GetFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

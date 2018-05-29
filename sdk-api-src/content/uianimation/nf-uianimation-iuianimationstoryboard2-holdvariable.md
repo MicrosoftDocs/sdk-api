@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.HoldVariable
 title: IUIAnimationStoryboard2::HoldVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
 old-location: uianimation\iuianimationstoryboard2_holdvariable.htm
 old-project: UIAnimation
 ms.assetid: E6B7C4F9-2377-4968-A16F-15F174EC5439
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],HoldVariable method, IUIAnimationStoryboard2.HoldVariable, IUIAnimationStoryboard2::HoldVariable, uianimation.iuianimationstoryboard2_holdvariable, uianimation/IUIAnimationStoryboard2::HoldVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

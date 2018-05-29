@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcoreapi.UiaFindParams
 title: UiaFindParams
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains parameters used in the UiaFind function.
 old-location: winauto\uiauto_UiaFindParamsStruct.htm
 old-project: WinAuto
 ms.assetid: eb3c16d1-3e64-4f8e-aa03-c72c7a87b67f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaFindParams, UiaFindParams structure [Windows Accessibility], uiauto.uiauto_UiaFindParamsStruct, uiauto_UiaFindParamsStruct, uiautomationcoreapi/UiaFindParams, winauto.uiauto_UiaFindParamsStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

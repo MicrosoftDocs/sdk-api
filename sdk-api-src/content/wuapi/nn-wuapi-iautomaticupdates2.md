@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IAutomaticUpdates2
 title: IAutomaticUpdates2
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the functionality of Automatic Updates.
 old-location: wua\iautomaticupdates2.htm
 old-project: Wua_Sdk
 ms.assetid: 9cb09bb2-5532-446b-9441-0987d50c6228
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAutomaticUpdates2, IAutomaticUpdates2 interface [Windows Update Agent], IAutomaticUpdates2 interface [Windows Update Agent],described, wua.iautomaticupdates2, wuapi/IAutomaticUpdates2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestore.Restore
 title: IWbemBackupRestore::Restore
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemBackupRestore::Restore method deletes the contents of the current repository and restores them with the contents of a previously specified backup.
 old-location: wmi\iwbembackuprestore_restore.htm
 old-project: WmiSdk
 ms.assetid: 73a61c69-0a78-4c38-aaec-a72b644f19b4
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemBackupRestore interface [Windows Management Instrumentation],Restore method, IWbemBackupRestore.Restore, IWbemBackupRestore::Restore, Restore, Restore method [Windows Management Instrumentation], Restore method [Windows Management Instrumentation],IWbemBackupRestore interface, WBEM_FLAG_BACKUP_RESTORE_DEFAULT, WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN, _hmm_iwbembackuprestore_restore, wbemcli/IWbemBackupRestore::Restore, wmi.iwbembackuprestore_restore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

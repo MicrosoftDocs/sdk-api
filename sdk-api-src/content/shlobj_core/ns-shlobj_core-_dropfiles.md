@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._DROPFILES
 title: "_DROPFILES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the CF_HDROP clipboard format. The data that follows is a double null-terminated list of file names.
 old-location: shell\DROPFILES.htm
 old-project: shell
 ms.assetid: e1f80529-2151-4ff6-95e0-afff67f2f117
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPDROPFILES, DROPFILES, DROPFILES structure [Windows Shell], LPDROPFILES, LPDROPFILES structure pointer [Windows Shell], _DROPFILES, _win32_DROPFILES, shell.DROPFILES, shlobj_core/DROPFILES, shlobj_core/LPDROPFILES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

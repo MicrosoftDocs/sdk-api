@@ -1,16 +1,16 @@
 ---
 UID: NS:opmapi._OPM_SET_PROTECTION_LEVEL_PARAMETERS
 title: "_OPM_SET_PROTECTION_LEVEL_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).
 old-location: mf\opm_set_protection_level_parameters.htm
 old-project: medfound
 ms.assetid: 074c30b2-ad79-4ace-89fb-859fac016ebf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPM_SET_PROTECTION_LEVEL_PARAMETERS, OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation], _OPM_SET_PROTECTION_LEVEL_PARAMETERS, mf.opm_set_protection_level_parameters, opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 

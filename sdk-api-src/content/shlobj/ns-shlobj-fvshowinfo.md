@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj.FVSHOWINFO
 title: FVSHOWINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the file viewer uses to display a file.
 old-location: shell\FVSHOWINFO.htm
 old-project: shell
 ms.assetid: 8f399964-1ce4-4a9c-8cea-650a698783d3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPFVSHOWINFO, FVSHOWINFO, FVSHOWINFO structure [Windows Shell], FVSIF_CANVIEWIT, FVSIF_NEWFAILED, FVSIF_NEWFILE, FVSIF_PINNED, FVSIF_RECT, LPFVSHOWINFO, LPFVSHOWINFO structure pointer [Windows Shell], _win32_FVSHOWINFO, shell.FVSHOWINFO, shlobj/FVSHOWINFO, shlobj/LPFVSHOWINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 

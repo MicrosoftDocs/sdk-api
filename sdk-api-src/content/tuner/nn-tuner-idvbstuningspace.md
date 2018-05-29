@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IDVBSTuningSpace
 title: IDVBSTuningSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDVBSTuningSpace interface is implemented on the DVBTuningSpace object and provides methods for working with tuning spaces with a DVBS network type.
 old-location: mstv\idvbstuningspace.htm
 old-project: mstv
 ms.assetid: 46c143d7-b9ec-4808-a4d2-337e6e0252dd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], IDVBSTuningSpace interface [Microsoft TV Technologies],described, IDVBSTuningSpaceInterface, mstv.idvbstuningspace, tuner/IDVBSTuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

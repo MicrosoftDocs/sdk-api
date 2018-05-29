@@ -1,16 +1,16 @@
 ---
 UID: NN:iaccess.IAccessControl
 title: IAccessControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the management of access to objects and properties on the objects.
 old-location: com\iaccesscontrol.htm
 old-project: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iaccess.h
 req.include-header: 

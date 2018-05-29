@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgCreatePropStg
 title: StgCreatePropStg function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and opens a property set in a specified storage or stream object.
 old-location: stg\stgcreatepropstg.htm
 old-project: Stg
 ms.assetid: fc171888-3723-4894-a356-1b234352c4e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgCreatePropStg, StgCreatePropStg function [Structured Storage], _stg_stgcreatepropstg, coml2api/StgCreatePropStg, stg.stgcreatepropstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h

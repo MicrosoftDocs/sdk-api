@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.AbortList
 title: ICustomDestinationList::AbortList
-author: windows-driver-content
+author: windows-sdk-content
 description: Discontinues a Jump List building session initiated by ICustomDestinationList::BeginList without committing any changes.
 old-location: shell\ICustomDestinationList_AbortList.htm
 old-project: shell
 ms.assetid: 922eb957-8031-4b4c-9b13-78a86f199bfa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AbortList, AbortList method [Windows Shell], AbortList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AbortList method, ICustomDestinationList.AbortList, ICustomDestinationList::AbortList, _shell_ICustomDestinationList_AbortList, shell.ICustomDestinationList_AbortList, shobjidl_core/ICustomDestinationList::AbortList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

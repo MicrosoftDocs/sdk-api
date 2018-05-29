@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiIsProductElevatedA
 title: MsiIsProductElevatedA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiIsProductElevated function returns whether or not the product is managed.
 old-location: setup\msiisproductelevated.htm
 old-project: Msi
 ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductElevatedA, MsiIsProductElevatedW, _msi_msiisproductelevated, msi/MsiIsProductElevated, msi/MsiIsProductElevatedA, msi/MsiIsProductElevatedW, setup.msiisproductelevated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

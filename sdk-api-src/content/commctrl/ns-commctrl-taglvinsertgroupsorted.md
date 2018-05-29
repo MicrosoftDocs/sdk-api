@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVINSERTGROUPSORTED
 title: tagLVINSERTGROUPSORTED
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to sort groups. It is used with LVM_INSERTGROUPSORTED.
 old-location: controls\LVINSERTGROUPSORTED.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertgroupsorted.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PLVINSERTGROUPSORTED, LVINSERTGROUPSORTED, LVINSERTGROUPSORTED structure [Windows Controls], PLVINSERTGROUPSORTED, PLVINSERTGROUPSORTED structure pointer [Windows Controls], commctrl/LVINSERTGROUPSORTED, commctrl/PLVINSERTGROUPSORTED, controls.LVINSERTGROUPSORTED, controls.inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED_cpp, tagLVINSERTGROUPSORTED"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

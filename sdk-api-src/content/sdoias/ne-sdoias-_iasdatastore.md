@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._IASDATASTORE
 title: "_IASDATASTORE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the IASDATASTORE enumeration indicate the possible storage locations for SDO data.
 old-location: nps\SDO_iasdatastore.htm
 old-project: Nps
 ms.assetid: 1eec69f9-b82e-48e5-a471-0a0626d91957
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PIASDATASTORE, DATA_STORE_DIRECTORY, DATA_STORE_LOCAL, IASDATASTORE, IASDATASTORE enumeration [Network Policy Server], PIASDATASTORE, PIASDATASTORE enumeration pointer [Network Policy Server], _IASDATASTORE, _sdo_iasdatastore, nps.SDO_iasdatastore, sdo.iasdatastore, sdoias/DATA_STORE_DIRECTORY, sdoias/DATA_STORE_LOCAL, sdoias/IASDATASTORE, sdoias/PIASDATASTORE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

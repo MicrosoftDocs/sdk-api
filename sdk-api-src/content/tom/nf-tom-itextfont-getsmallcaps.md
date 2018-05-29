@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetSmallCaps
 title: ITextFont::GetSmallCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether characters are in small capital letters.
 old-location: controls\ITextFont_GetSmallCaps.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsmallcaps.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSmallCaps, GetSmallCaps method [Windows Controls], GetSmallCaps method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSmallCaps method, ITextFont.GetSmallCaps, ITextFont::GetSmallCaps, _win32_ITextFont_GetSmallCaps, _win32_ITextFont_GetSmallCaps_cpp, controls.ITextFont_GetSmallCaps, controls._win32_ITextFont_GetSmallCaps, tom/ITextFont::GetSmallCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

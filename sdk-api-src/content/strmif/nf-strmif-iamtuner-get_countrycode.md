@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTuner.get_CountryCode
 title: IAMTuner::get_CountryCode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CountryCode method retrieves the country/region code that establishes the current channel-to-frequency mapping.
 old-location: dshow\iamtuner_get_countrycode.htm
 old-project: DirectShow
 ms.assetid: 8b459ad8-c9e0-4b35-aec4-113c8a67d907
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTuner interface [DirectShow],get_CountryCode method, IAMTuner.get_CountryCode, IAMTuner::get_CountryCode, IAMTunerget_CountryCode, dshow.iamtuner_get_countrycode, get_CountryCode, get_CountryCode method [DirectShow], get_CountryCode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_CountryCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

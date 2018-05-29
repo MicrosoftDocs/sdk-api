@@ -1,16 +1,16 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthManager
 title: IXblIdpAuthManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager.htm
 old-project: xblidp
 ms.assetid: BD421B26-241F-46C4-9B77-ADCFFBEA24B0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, IXblIdpAuthManager interface,described, xblidp.ixblidpauthmanager, xblidpauthmanager/IXblIdpAuthManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xblidpauthmanager.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia.tagMPEG2VIDEOINFO
 title: tagMPEG2VIDEOINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG2VIDEOINFO structure describes an MPEG-2 video stream.
 old-location: dshow\mpeg2videoinfo.htm
 old-project: DirectShow
 ms.assetid: 1a6ab686-99a1-40c2-addf-7fa215e2311a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AMMPEG2_27MhzTimebase, AMMPEG2_DSS_UserData, AMMPEG2_DVB_UserData, AMMPEG2_DVDLine21Field1, AMMPEG2_DVDLine21Field2, AMMPEG2_DoPanScan, AMMPEG2_FilmCameraMode, AMMPEG2_LetterboxAnalogOut, AMMPEG2_SourceIsLetterboxed, AMMPEG2_WidescreenAnalogOut, MPEG2VIDEOINFO, MPEG2VIDEOINFO structure [DirectShow], MPEG2VIDEOINFOStructure, dshow.mpeg2videoinfo, dvdmedia/MPEG2VIDEOINFO, tagMPEG2VIDEOINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

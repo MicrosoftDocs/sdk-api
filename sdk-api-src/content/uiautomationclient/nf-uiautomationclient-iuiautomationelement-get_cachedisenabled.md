@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsEnabled
 title: IUIAutomationElement::get_CachedIsEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element is enabled.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsEnabled.htm
 old-project: WinAuto
 ms.assetid: e3b6bf79-51a7-46bf-91af-4448df8e4be7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedIsEnabled property [Windows Accessibility], CachedIsEnabled property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsEnabled property, IUIAutomationElement.CachedIsEnabled, IUIAutomationElement.get_CachedIsEnabled, IUIAutomationElement::CachedIsEnabled, IUIAutomationElement::get_CachedIsEnabled, get_CachedIsEnabled, uiauto.uiauto_IUIAutomationElement_CachedIsEnabled, uiauto_IUIAutomationElement_CachedIsEnabled, uiautomationclient/IUIAutomationElement::CachedIsEnabled, uiautomationclient/IUIAutomationElement::get_CachedIsEnabled, winauto.uiauto_IUIAutomationElement_CachedIsEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

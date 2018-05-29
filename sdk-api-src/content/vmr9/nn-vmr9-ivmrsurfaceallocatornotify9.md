@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRSurfaceAllocatorNotify9
 title: IVMRSurfaceAllocatorNotify9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRSurfaceAllocatorNotify9 interface is implemented by the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrsurfaceallocatornotify9.htm
 old-project: DirectShow
 ms.assetid: f275b835-e5b3-46f4-8b26-a4b0e2554c7c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9, IVMRSurfaceAllocatorNotify9 interface [DirectShow], IVMRSurfaceAllocatorNotify9 interface [DirectShow],described, IVMRSurfaceAllocatorNotify9Interface, dshow.ivmrsurfaceallocatornotify9, vmr9/IVMRSurfaceAllocatorNotify9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

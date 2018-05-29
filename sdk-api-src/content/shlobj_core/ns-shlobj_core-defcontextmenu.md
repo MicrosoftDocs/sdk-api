@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core.DEFCONTEXTMENU
 title: DEFCONTEXTMENU
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains context menu information used by SHCreateDefaultContextMenu.
 old-location: shell\DEFCONTEXTMENU.htm
 old-project: shell
 ms.assetid: 007861f6-1e66-4c5f-a459-3cfbe9f8cec2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DEFCONTEXTMENU, DEFCONTEXTMENU structure [Windows Shell], _shell_DEFCONTEXTMENU, shell.DEFCONTEXTMENU, shlobj_core/DEFCONTEXTMENU
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

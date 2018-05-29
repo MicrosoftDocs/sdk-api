@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Clone
 title: IEnumTfLangBarItems::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfLangBarItems::Clone method
 old-location: tsf\ienumtflangbaritems_clone.htm
 old-project: TSF
 ms.assetid: 2a1f4a40-cf2c-4872-bb15-c4622ab2bfd1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLangBarItems interface, IEnumTfLangBarItems interface [Text Services Framework],Clone method, IEnumTfLangBarItems.Clone, IEnumTfLangBarItems::Clone, _tsf_ienumtflangbaritems_clone_ref, ctfutb/IEnumTfLangBarItems::Clone, tsf.ienumtflangbaritems_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

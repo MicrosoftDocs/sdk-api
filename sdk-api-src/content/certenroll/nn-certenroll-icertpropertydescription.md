@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertPropertyDescription
 title: ICertPropertyDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to specify and retrieve a string that contains descriptive information for a certificate.
 old-location: security\icertpropertydescription.htm
 old-project: SecCertEnroll
 ms.assetid: 229e8ce9-fe18-45f4-8f91-cd741052a134
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], ICertPropertyDescription interface [Security],described, certenroll/ICertPropertyDescription, security.icertpropertydescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

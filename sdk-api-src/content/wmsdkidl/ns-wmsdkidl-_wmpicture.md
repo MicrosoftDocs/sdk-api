@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMPicture
 title: "_WMPicture"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_PICTURE structure is used as the data item for the WM/Picture complex metadata attribute.
 old-location: wmformat\wm_picture.htm
 old-project: wmformat
 ms.assetid: d3670cce-5b57-4624-b10d-2e4d9e9e263c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_PICTURE, WM_PICTURE structure [windows Media Format], _WMPicture, wmformat.wm_picture, wmsdkidl/WM_PICTURE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

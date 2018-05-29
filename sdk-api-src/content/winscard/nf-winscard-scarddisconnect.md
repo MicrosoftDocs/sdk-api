@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardDisconnect
 title: SCardDisconnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates a connection previously opened between the calling application and a smart card in the target reader.
 old-location: security\scarddisconnect.htm
 old-project: SecAuthN
 ms.assetid: d087a006-bd2d-4ad7-965b-36ea8d712ec8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardDisconnect, SCardDisconnect function [Security], _smart_scarddisconnect, security.scarddisconnect, winscard/SCardDisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

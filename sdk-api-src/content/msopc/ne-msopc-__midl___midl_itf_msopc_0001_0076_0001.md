@@ -1,16 +1,16 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0001
 title: "__MIDL___MIDL_itf_msopc_0001_0076_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the canonicalization method to be applied to XML markup.
 old-location: opc\opc_canonicalization_method.htm
 old-project: OPC
 ms.assetid: f8401d12-da2e-4b35-b473-ebe3d1f91abd
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: OPC_CANONICALIZATION_C14N, OPC_CANONICALIZATION_C14N_WITH_COMMENTS, OPC_CANONICALIZATION_METHOD, OPC_CANONICALIZATION_METHOD enumeration [Open Packaging Conventions], OPC_CANONICALIZATION_NONE, __MIDL___MIDL_itf_msopc_0001_0076_0001, msopc/OPC_CANONICALIZATION_C14N, msopc/OPC_CANONICALIZATION_C14N_WITH_COMMENTS, msopc/OPC_CANONICALIZATION_METHOD, msopc/OPC_CANONICALIZATION_NONE, opc.opc_canonicalization_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 

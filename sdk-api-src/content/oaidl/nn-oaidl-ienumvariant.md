@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.IEnumVARIANT
 title: IEnumVARIANT
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method for enumerating a collection of variants, including heterogeneous collections of objects and intrinsic types.
 old-location: automat\ienumvariant.htm
 old-project: automat
 ms.assetid: 139e3c93-faef-4003-9079-e0e94494db3e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], IEnumVARIANT interface [Automation],described, _oa96_IEnumVARIANT_Interface, automat.ienumvariant, oaidl/IEnumVARIANT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

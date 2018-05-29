@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.CharacterRange~r2
 title: CharacterRange::CharacterRange~r2
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a CharacterRange::CharacterRange object with the data members set to zero.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_54.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(), CharacterRange.CharacterRange~r2, CharacterRange::CharacterRange, CharacterRange::CharacterRange~r2, _gdiplus_CLASS_CharacterRange_CharacterRange_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

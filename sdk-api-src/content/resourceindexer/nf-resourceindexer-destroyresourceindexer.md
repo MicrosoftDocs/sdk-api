@@ -1,16 +1,16 @@
 ---
 UID: NF:resourceindexer.DestroyResourceIndexer
 title: DestroyResourceIndexer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the computational resources associated with the specified resource indexer.
 old-location: menurc\destroyresourceindexer.htm
 old-project: menurc
 ms.assetid: 42DCE463-B883-4564-9B7E-DEFF0A17CC1C
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DestroyResourceIndexer, DestroyResourceIndexer function [Menus and Other Resources], menurc.destroyresourceindexer, resourceindexer/DestroyResourceIndexer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 

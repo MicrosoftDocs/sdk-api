@@ -1,16 +1,16 @@
 ---
 UID: NS:mfidl._ASFFlatSynchronisedLyrics
 title: "_ASFFlatSynchronisedLyrics"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains synchronized lyrics stored as metadata for a media source. This structure is used as the data item for the WM/Lyrics_Synchronised metadata attribute.
 old-location: mf\asf_flat_synchronised_lyrics.htm
 old-project: medfound
 ms.assetid: 518c7e81-6492-40f9-a8e8-222c19de6cc0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 518c7e81-6492-40f9-a8e8-222c19de6cc0, ASF_FLAT_SYNCHRONISED_LYRICS, ASF_FLAT_SYNCHRONISED_LYRICS structure [Media Foundation], _ASFFlatSynchronisedLyrics, mf.asf_flat_synchronised_lyrics, mfidl/ASF_FLAT_SYNCHRONISED_LYRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

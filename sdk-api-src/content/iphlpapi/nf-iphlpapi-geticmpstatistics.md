@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetIcmpStatistics
 title: GetIcmpStatistics function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIcmpStatistics function retrieves the Internet Control Message Protocol (ICMP) for IPv4 statistics for the local computer.
 old-location: iphlp\geticmpstatistics.htm
 old-project: IpHlp
 ms.assetid: b10ec58b-54fe-4068-beb9-6909ad7cecf7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIcmpStatistics, GetIcmpStatistics function [IP Helper], _iphlp_geticmpstatistics, iphlp.geticmpstatistics, iphlpapi/GetIcmpStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

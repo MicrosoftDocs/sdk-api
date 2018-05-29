@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.RpcSmEnableAllocate
 title: RpcSmEnableAllocate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcSmEnableAllocate function establishes the stub memory&#8211;management environment.
 old-location: rpc\rpcsmenableallocate.htm
 old-project: Rpc
 ms.assetid: a0b144fc-873e-4884-b842-ac0eea84487b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcSmEnableAllocate, RpcSmEnableAllocate function [RPC], _rpc_rpcsmenableallocate, rpc.rpcsmenableallocate, rpcndr/RpcSmEnableAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

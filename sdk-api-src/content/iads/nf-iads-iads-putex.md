@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADs.PutEx
 title: IADs::PutEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the values of an attribute in the ADSI attribute cache.
 old-location: adsi\iads_putex.htm
 old-project: ADSI
 ms.assetid: fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADs interface [ADSI],PutEx method, IADs.PutEx, IADs::PutEx, PutEx, PutEx method [ADSI], PutEx method [ADSI],IADs interface, _ds_iads_putex, adsi.iads__putex, adsi.iads_putex, iads/IADs::PutEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

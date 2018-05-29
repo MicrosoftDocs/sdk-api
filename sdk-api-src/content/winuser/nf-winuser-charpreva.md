@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CharPrevA
 title: CharPrevA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters.
 old-location: menurc\charprev.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprev.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CharPrev, CharPrev function [Menus and Other Resources], CharPrevA, CharPrevW, _win32_CharPrev, _win32_charprev_cpp, menurc.charprev, winui._win32_charprev, winuser/CharPrev, winuser/CharPrevA, winuser/CharPrevW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

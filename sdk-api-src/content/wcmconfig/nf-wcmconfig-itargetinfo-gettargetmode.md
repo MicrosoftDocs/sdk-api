@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetMode
 title: ITargetInfo::GetTargetMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current target mode.
 old-location: smi\itargetinfo_gettargetmode.htm
 old-project: SMI
 ms.assetid: b21137a0-537f-43a4-857b-158a1642ea1c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTargetMode, GetTargetMode method [SMI], GetTargetMode method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetMode method, ITargetInfo.GetTargetMode, ITargetInfo::GetTargetMode, smi.itargetinfo_gettargetmode, wcmconfig/ITargetInfo::GetTargetMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

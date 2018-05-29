@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerUninitialize
 title: EapHostPeerUninitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uninitializes all EAPHost authentication sessions.
 old-location: eaphost\eaphostpeeruninitialize.htm
 old-project: EAPHost
 ms.assetid: 5d3a101a-4de3-4da2-8c03-e672e206ffb0
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerUninitialize, EapHostPeerUninitialize function [EAPHost], eaphost.eaphostpeeruninitialize, eappapis/EapHostPeerUninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

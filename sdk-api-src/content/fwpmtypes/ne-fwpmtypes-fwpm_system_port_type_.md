@@ -1,16 +1,16 @@
 ---
 UID: NE:fwpmtypes.FWPM_SYSTEM_PORT_TYPE_
 title: FWPM_SYSTEM_PORT_TYPE_
-author: windows-driver-content
+author: windows-sdk-content
 description: The FWPM_SYSTEM_PORT_TYPE enumerated type.
 old-location: fwp\fwpm_system_port_type.htm
 old-project: FWP
 ms.assetid: 7e4fbcbd-a8c5-4ae5-ba69-46d8e7cbcbc9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_SYSTEM_PORT_IPHTTPS_IN, FWPM_SYSTEM_PORT_IPHTTPS_OUT, FWPM_SYSTEM_PORT_RPC_EPMAP, FWPM_SYSTEM_PORT_TEREDO, FWPM_SYSTEM_PORT_TYPE, FWPM_SYSTEM_PORT_TYPE enumeration [Filtering], FWPM_SYSTEM_PORT_TYPE_, FWPM_SYSTEM_PORT_TYPE_MAX, fwp.fwpm_system_port_type, fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_IN, fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_OUT, fwpmtypes/FWPM_SYSTEM_PORT_RPC_EPMAP, fwpmtypes/FWPM_SYSTEM_PORT_TEREDO, fwpmtypes/FWPM_SYSTEM_PORT_TYPE, fwpmtypes/FWPM_SYSTEM_PORT_TYPE_MAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: 

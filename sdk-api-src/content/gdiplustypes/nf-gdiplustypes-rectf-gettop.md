@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.RectF.GetTop
 title: RectF::GetTop
-author: windows-driver-content
+author: windows-sdk-content
 description: The RectF::GetTop method gets the y-coordinate of the top edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetTop_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\gettop_7.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTop, GetTop method [GDI+], GetTop method [GDI+],RectF class, RectF class [GDI+],GetTop method, RectF.GetTop, RectF::GetTop, _gdiplus_CLASS_RectF_GetTop_, gdiplus._gdiplus_CLASS_RectF_GetTop_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

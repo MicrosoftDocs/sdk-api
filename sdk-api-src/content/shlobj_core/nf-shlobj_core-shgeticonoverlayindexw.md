@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetIconOverlayIndexW
 title: SHGetIconOverlayIndexW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the index of the overlay icon in the system image list.
 old-location: shell\SHGetIconOverlayIndex.htm
 old-project: shell
 ms.assetid: 20001ae0-05d0-46a7-8bb8-9bb722f5d795
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDO_SHGIOI_DEFAULT, IDO_SHGIOI_LINK, IDO_SHGIOI_SHARE, IDO_SHGIOI_SLOWFILE, SHGetIconOverlayIndex, SHGetIconOverlayIndex function [Windows Shell], SHGetIconOverlayIndexA, SHGetIconOverlayIndexW, _win32_SHGetIconOverlayIndex, shell.SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndexA, shlobj_core/SHGetIconOverlayIndexW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

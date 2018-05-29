@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfReadingInformationUIElement
 title: ITfReadingInformationUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCandidateListUIElement interface is implemented by a text service that has a UI for reading information UI at the near caret.
 old-location: tsf\itfreadinginformationuielement.htm
 old-project: TSF
 ms.assetid: 60f7c6e2-7821-4be6-a1c1-35bacaa60bf4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfReadingInformationUIElement, ITfReadingInformationUIElement interface [Text Services Framework], ITfReadingInformationUIElement interface [Text Services Framework],described, msctf/ITfReadingInformationUIElement, tsf.itfreadinginformationuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

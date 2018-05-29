@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.NtQueryInformationProcess
 title: NtQueryInformationProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the specified process.
 old-location: base\ntqueryinformationprocess.htm
 old-project: ProcThread
 ms.assetid: 0eae7899-c40b-4a5f-9e9c-adae021885e7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NtQueryInformationProcess, NtQueryInformationProcess function, PROCESS_BASIC_INFORMATION, PROCESS_BASIC_INFORMATION structure, ProcessBasicInformation, ProcessBreakOnTermination, ProcessDebugPort, ProcessImageFileName, ProcessSubsystemInformation, ProcessWow64Information, base.ntqueryinformationprocess, winternl/NtQueryInformationProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

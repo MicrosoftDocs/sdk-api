@@ -1,16 +1,16 @@
 ---
 UID: NS:tbs.tdTBS_CONTEXT_PARAMS
 title: tdTBS_CONTEXT_PARAMS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the version of the TBS context implementation.
 old-location: tbs\tbs_context_params.htm
 old-project: TBS
 ms.assetid: 1b2093b3-6e5e-4289-9b1b-48027ded0fac
-ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.author: windowssdkdev
+ms.date: 03/01/2018
 ms.keywords: "*PTBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS structure [TBS], tbs.tbs_context_params, tbs/TBS_CONTEXT_PARAMS, tdTBS_CONTEXT_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tbs.h
 req.include-header: 

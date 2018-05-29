@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Clone
 title: IEnumITfCompositionView::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumITfCompositionView::Clone method
 old-location: tsf\ienumitfcompositionview_clone.htm
 old-project: TSF
 ms.assetid: 536b89ee-c2bd-4713-aa2c-2a2e4841a8de
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumITfCompositionView interface, IEnumITfCompositionView interface [Text Services Framework],Clone method, IEnumITfCompositionView.Clone, IEnumITfCompositionView::Clone, _tsf_ienumitfcompositionview_clone_ref, msctf/IEnumITfCompositionView::Clone, tsf.ienumitfcompositionview_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

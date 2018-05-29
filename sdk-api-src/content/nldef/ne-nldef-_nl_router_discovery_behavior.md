@@ -1,16 +1,16 @@
 ---
 UID: NE:nldef._NL_ROUTER_DISCOVERY_BEHAVIOR
 title: "_NL_ROUTER_DISCOVERY_BEHAVIOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery behavior, as described in RFC 2461.
 old-location: netvista\nl_router_discovery_behavior.htm
 old-project: netvista
 ms.assetid: d3a0d872-c90a-4eb5-9011-c5913b9912c6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: NL_ROUTER_DISCOVERY_BEHAVIOR, NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _NL_ROUTER_DISCOVERY_BEHAVIOR, iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml, netvista.nl_router_discovery_behavior, nldef/NL_ROUTER_DISCOVERY_BEHAVIOR, nldef/RouterDiscoveryDhcp, nldef/RouterDiscoveryDisabled, nldef/RouterDiscoveryEnabled, nldef/RouterDiscoveryUnchanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib
-req.dll: Newdev.dll
+req.dll: 
 req.irql: 
 req.product: Rights Management Services client 1.0 or later
 ---

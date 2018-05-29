@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get__NewEnum
 title: IOCSPCAConfigurationCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator for the configuration set.
 old-location: security\iocspcaconfigurationcollection__newenum_method.htm
 old-project: SecCrypto
 ms.assetid: 71f14b78-2b3e-44eb-8bca-6fff6b9a2293
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],_NewEnum property, IOCSPCAConfigurationCollection._NewEnum, IOCSPCAConfigurationCollection.get__NewEnum, IOCSPCAConfigurationCollection::_NewEnum, IOCSPCAConfigurationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::_NewEnum, certadm/IOCSPCAConfigurationCollection::get__NewEnum, get__NewEnum, security.iocspcaconfigurationcollection__newenum_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

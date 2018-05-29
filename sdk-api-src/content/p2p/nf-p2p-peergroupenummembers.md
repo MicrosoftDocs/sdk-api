@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupEnumMembers
 title: PeerGroupEnumMembers function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupEnumMembers function creates an enumeration of available peer group members and the associated membership information.
 old-location: p2p\peergroupenummembers.htm
 old-project: P2PSdk
 ms.assetid: 1201ce0b-961a-4848-9b9c-ad6491e3ff4a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_MEMBER_PRESENT, PeerGroupEnumMembers, PeerGroupEnumMembers function [Peer Networking], p2p.peergroupenummembers, p2p/PeerGroupEnumMembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_QUERY_BY_SUBJECT_FN
 title: PIBIO_STORAGE_QUERY_BY_SUBJECT_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the database that is currently open for templates associated with a specified identity and sub-factor.
 old-location: secbiomet\storageadapterquerybysubject.htm
 old-project: SecBioMet
 ms.assetid: b2c93122-fae1-44ad-97d4-f90115194a31
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_STORAGE_QUERY_BY_SUBJECT_FN, PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback, StorageAdapterQueryBySubject, StorageAdapterQueryBySubject callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybysubject, winbio_adapter/StorageAdapterQueryBySubject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

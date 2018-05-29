@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.ITDirectoryObjectUser.get_IPPhonePrimary
 title: ITDirectoryObjectUser::get_IPPhonePrimary
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.
 old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm
 old-project: Tapi
 ms.assetid: 43bb9ce5-28ff-4a6f-a55c-a84633e22dfe
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],get_IPPhonePrimary method, ITDirectoryObjectUser.get_IPPhonePrimary, ITDirectoryObjectUser::get_IPPhonePrimary, _tapi3_itdirectoryobjectuser_get_ipphoneprimary, get_IPPhonePrimary, get_IPPhonePrimary method [TAPI 2.2], get_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::get_IPPhonePrimary, tapi3.itdirectoryobjectuser_get_ipphoneprimary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

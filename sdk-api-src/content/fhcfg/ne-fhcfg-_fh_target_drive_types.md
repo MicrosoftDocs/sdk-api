@@ -1,16 +1,16 @@
 ---
 UID: NE:fhcfg._FH_TARGET_DRIVE_TYPES
 title: "_FH_TARGET_DRIVE_TYPES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of a File History backup target.
 old-location: winprog\fh_target_drive_types.htm
 old-project: DevNotes
 ms.assetid: 4D3F3B57-BD6E-4334-8DF6-ECD317A051EC
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FH_DRIVE_FIXED, FH_DRIVE_REMOTE, FH_DRIVE_REMOVABLE, FH_DRIVE_UNKNOWN, FH_TARGET_DRIVE_TYPES, FH_TARGET_DRIVE_TYPES enumeration [Windows API], _FH_TARGET_DRIVE_TYPES, fhcfg/FH_DRIVE_FIXED, fhcfg/FH_DRIVE_REMOTE, fhcfg/FH_DRIVE_REMOVABLE, fhcfg/FH_DRIVE_UNKNOWN, fhcfg/FH_TARGET_DRIVE_TYPES, winprog.fh_target_drive_types
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSink.Shutdown
 title: IMFMediaSink::Shutdown
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down the media sink and releases the resources it is using.
 old-location: mf\imfmediasink_shutdown.htm
 old-project: medfound
 ms.assetid: acda4e37-2dd0-4322-90fc-8f48d6842054
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],Shutdown method, IMFMediaSink.Shutdown, IMFMediaSink::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSink interface, acda4e37-2dd0-4322-90fc-8f48d6842054, mf.imfmediasink_shutdown, mfidl/IMFMediaSink::Shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

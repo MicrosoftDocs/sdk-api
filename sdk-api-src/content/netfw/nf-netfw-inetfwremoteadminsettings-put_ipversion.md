@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.put_IpVersion
 title: INetFwRemoteAdminSettings::put_IpVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the IP version.
 old-location: ics\inetfwremoteadminsettings_ipversion.htm
 old-project: ICS
 ms.assetid: 55303549-84d7-42d1-b722-a281acd50648
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],IpVersion property, INetFwRemoteAdminSettings.IpVersion, INetFwRemoteAdminSettings.put_IpVersion, INetFwRemoteAdminSettings::IpVersion, INetFwRemoteAdminSettings::get_IpVersion, INetFwRemoteAdminSettings::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_ipversion, netfw/INetFwRemoteAdminSettings::IpVersion, netfw/INetFwRemoteAdminSettings::get_IpVersion, netfw/INetFwRemoteAdminSettings::put_IpVersion, put_IpVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

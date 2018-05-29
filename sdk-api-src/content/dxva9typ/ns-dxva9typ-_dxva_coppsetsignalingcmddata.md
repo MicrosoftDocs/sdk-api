@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPSetSignalingCmdData
 title: "_DXVA_COPPSetSignalingCmdData"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information for the Set Signal command in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppsetsignalingcmddata.htm
 old-project: DirectShow
 ms.assetid: f104b0c6-2b2f-4e6a-97e6-d73008cb80ef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [DirectShow], DXVA_COPPSetSignalingCmdDataStructure, _DXVA_COPPSetSignalingCmdData, dshow.dxva_coppsetsignalingcmddata, dxva9typ/DXVA_COPPSetSignalingCmdData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h

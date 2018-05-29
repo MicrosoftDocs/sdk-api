@@ -1,16 +1,16 @@
 ---
 UID: NS:windns._DNS_QUERY_REQUEST
 title: "_DNS_QUERY_REQUEST"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.
 old-location: dns\dns_query_request.htm
 old-project: DNS
 ms.assetid: 9C382800-DE71-4481-AC8D-9F89D6F59EE6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_QUERY_REQUEST, DNS_QUERY_REQUEST, DNS_QUERY_REQUEST structure [DNS], DNS_QUERY_REQUEST_VERSION1, PDNS_QUERY_REQUEST, PDNS_QUERY_REQUEST structure pointer [DNS], _DNS_QUERY_REQUEST, dns.dns_query_request, windns/DNS_QUERY_REQUEST, windns/PDNS_QUERY_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

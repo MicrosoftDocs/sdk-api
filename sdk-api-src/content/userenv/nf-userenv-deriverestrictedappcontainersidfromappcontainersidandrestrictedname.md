@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 title: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function
-author: windows-driver-content
+author: windows-sdk-content
 description: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName is reserved for future use.
 old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestrictedname.htm
 old-project: shell
 ms.assetid: D9E34178-3AC2-4C7A-906B-A42D69428C63
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

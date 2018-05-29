@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorRADIUSSharedSecret
 title: SetIScsiInitiatorRADIUSSharedSecret function
-author: windows-driver-content
+author: windows-sdk-content
 description: SetIscsiInitiatorRADIUSSharedSecret function establishes the Remote Authentication Dial-In User Service (RADIUS) shared secret.
 old-location: iscsidisc\setiscsiinitiatorradiussharedsecret.htm
 old-project: iSCSIDisc
 ms.assetid: a723256f-adde-4bf2-aab7-152693fa9a21
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: SetIScsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorradiussharedsecret, iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

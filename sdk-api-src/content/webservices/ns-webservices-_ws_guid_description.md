@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_GUID_DESCRIPTION
 title: "_WS_GUID_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: An optional type description used with WS_GUID_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_guid_description.htm
 old-project: wsw
 ms.assetid: e0a98163-66c3-4b6d-a91c-f143b3aad864
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_GUID_DESCRIPTION, WS_GUID_DESCRIPTION structure [Web Services for Windows], _WS_GUID_DESCRIPTION, webservices/WS_GUID_DESCRIPTION, wsw.ws_guid_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

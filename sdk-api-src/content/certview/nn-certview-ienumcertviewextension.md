@@ -1,16 +1,16 @@
 ---
 UID: NN:certview.IEnumCERTVIEWEXTENSION
 title: IEnumCERTVIEWEXTENSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an extension-enumeration sequence that contains the certificate extension data for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewextension.htm
 old-project: SecCrypto
 ms.assetid: d5acff51-06f8-4a6f-aa9e-97ba052b1b34
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], IEnumCERTVIEWEXTENSION interface [Security],described, _certsrv_ienumcertviewextension, certview/IEnumCERTVIEWEXTENSION, security.ienumcertviewextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h

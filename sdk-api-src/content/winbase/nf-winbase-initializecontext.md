@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InitializeContext
 title: InitializeContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a CONTEXT structure inside a buffer with the necessary size and alignment.
 old-location: base\initializecontext.htm
 old-project: Debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

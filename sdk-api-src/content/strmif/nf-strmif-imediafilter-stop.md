@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaFilter.Stop
 title: IMediaFilter::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: The Stop method stops the filter.
 old-location: dshow\imediafilter_stop.htm
 old-project: DirectShow
 ms.assetid: 8c415b5c-1aee-4ea4-b182-fd95da4898aa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaFilter interface [DirectShow],Stop method, IMediaFilter.Stop, IMediaFilter::Stop, IMediaFilterStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaFilter interface, dshow.imediafilter_stop, strmif/IMediaFilter::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:vds._VDS_VDISK_STATE
 title: "_VDS_VDISK_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of status values for a virtual disk object.
 old-location: base\vds_vdisk_state.htm
 old-project: VDS
 ms.assetid: 62906f28-f6ae-488c-bf1f-655de5c7b95e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_VDISK_STATE, VDS_VDISK_STATE enumeration, VDS_VST_ADDED, VDS_VST_ATTACHED, VDS_VST_ATTACHED_NOT_OPEN, VDS_VST_ATTACH_PENDING, VDS_VST_COMPACTING, VDS_VST_DELETED, VDS_VST_DETACH_PENDING, VDS_VST_EXPANDING, VDS_VST_MAX, VDS_VST_MERGING, VDS_VST_OPEN, VDS_VST_UNKNOWN, _VDS_VDISK_STATE, base.vds_vdisk_state, vds/VDS_VDISK_STATE, vds/VDS_VST_ADDED, vds/VDS_VST_ATTACHED, vds/VDS_VST_ATTACHED_NOT_OPEN, vds/VDS_VST_ATTACH_PENDING, vds/VDS_VST_COMPACTING, vds/VDS_VST_DELETED, vds/VDS_VST_DETACH_PENDING, vds/VDS_VST_EXPANDING, vds/VDS_VST_MAX, vds/VDS_VST_MERGING, vds/VDS_VST_OPEN, vds/VDS_VST_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

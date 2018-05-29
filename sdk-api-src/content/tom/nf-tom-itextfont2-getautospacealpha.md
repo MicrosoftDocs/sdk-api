@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceAlpha
 title: ITextFont2::GetAutospaceAlpha
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the East Asian &#0034;autospace alphabetics&#0034; state.
 old-location: controls\itextfont2_getautospacealpha.htm
 old-project: Controls
 ms.assetid: 3f2070e9-2909-4642-ade2-54ef9af9cfc8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAutospaceAlpha, GetAutospaceAlpha method [Windows Controls], GetAutospaceAlpha method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceAlpha method, ITextFont2.GetAutospaceAlpha, ITextFont2::GetAutospaceAlpha, controls.itextfont2_getautospacealpha, tom/ITextFont2::GetAutospaceAlpha
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

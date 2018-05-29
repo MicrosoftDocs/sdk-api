@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsNameTranslate.Init
 title: IADsNameTranslate::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the credentials of the current user.
 old-location: adsi\iadsnametranslate_init.htm
 old-project: ADSI
 ms.assetid: dad31301-b18b-44ec-b32f-93d0bb5b6189
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsNameTranslate interface [ADSI],Init method, IADsNameTranslate.Init, IADsNameTranslate::Init, Init, Init method [ADSI], Init method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_init, adsi.iadsnametranslate__init, adsi.iadsnametranslate_init, iads/IADsNameTranslate::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

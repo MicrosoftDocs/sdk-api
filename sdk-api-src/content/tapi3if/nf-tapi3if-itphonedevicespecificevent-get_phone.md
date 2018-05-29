@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhoneDeviceSpecificEvent.get_Phone
 title: ITPhoneDeviceSpecificEvent::get_Phone
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Phone method retrieves the ITPhone interface pointer for a phone device event.
 old-location: tapi3\itphonedevicespecificevent_get_phone.htm
 old-project: Tapi
 ms.assetid: 068f4172-92a4-41cc-b554-c6e4014505eb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_Phone method, ITPhoneDeviceSpecificEvent.get_Phone, ITPhoneDeviceSpecificEvent::get_Phone, _tapi3_itphonedevicespecificevent_get_phone, get_Phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_phone, tapi3if/ITPhoneDeviceSpecificEvent::get_Phone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

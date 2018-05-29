@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtGetSearchResultSize
 title: DrtGetSearchResultSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtGetSearchResultSize function returns the size of the next available search result.
 old-location: p2p\drtgetsearchresultsize.htm
 old-project: P2PSdk
 ms.assetid: ef17c42e-4cf9-4b5c-b6ef-430500fddff2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Networking], drt/DrtGetSearchResultSize, p2p.drtgetsearchresultsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

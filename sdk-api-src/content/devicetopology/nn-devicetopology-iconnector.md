@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IConnector
 title: IConnector
-author: windows-driver-content
+author: windows-sdk-content
 description: The IConnector interface represents a point of connection between components.
 old-location: coreaudio\iconnector.htm
 old-project: CoreAudio
 ms.assetid: 6eb5b439-3ac7-4c0b-84e2-b246c1b946a5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IConnector, IConnector interface [Core Audio], IConnector interface [Core Audio],described, coreaudio.iconnector, devicetopology/IConnector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

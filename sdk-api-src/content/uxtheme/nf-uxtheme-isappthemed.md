@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.IsAppThemed
 title: IsAppThemed function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports whether the current application's user interface displays using visual styles.
 old-location: controls\IsAppThemed.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isappthemed.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsAppThemed, IsAppThemed function [Windows Controls], controls.IsAppThemed, controls.inet_IsAppThemed, inet_IsAppThemed, inet_IsAppThemed_cpp, uxtheme/IsAppThemed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

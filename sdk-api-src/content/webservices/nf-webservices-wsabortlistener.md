@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAbortListener
 title: WsAbortListener function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels any pending I/O for the specified listener.
 old-location: wsw\wsabortlistener.htm
 old-project: wsw
 ms.assetid: 894a325b-53ac-4f45-ac24-87ed3a40b03d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAbortListener, WsAbortListener function [Web Services for Windows], webservices/WsAbortListener, wsw.wsabortlistener
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

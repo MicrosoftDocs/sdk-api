@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.SetDiacriticSensitivity
 title: ISearchLanguageSupport::SetDiacriticSensitivity
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value that indicates whether an implemented ISearchLanguageSupport interface is sensitive to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchLanguageSupport_SetDiacriticSensitivity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\setdiacriticsensitivity.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchLanguageSupport interface [search],SetDiacriticSensitivity method, ISearchLanguageSupport.SetDiacriticSensitivity, ISearchLanguageSupport::SetDiacriticSensitivity, SetDiacriticSensitivity, SetDiacriticSensitivity method [search], SetDiacriticSensitivity method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_SetDiacriticSensitivity, search._search_ISearchLanguageSupport_SetDiacriticSensitivity, searchapi/ISearchLanguageSupport::SetDiacriticSensitivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

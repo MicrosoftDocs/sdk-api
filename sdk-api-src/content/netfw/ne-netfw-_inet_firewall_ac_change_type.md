@@ -1,16 +1,16 @@
 ---
 UID: NE:netfw._INET_FIREWALL_AC_CHANGE_TYPE
 title: "_INET_FIREWALL_AC_CHANGE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which type of app container change occurred.
 old-location: ics\inet_firewall_ac_change_type.htm
 old-project: ICS
 ms.assetid: 196f7150-185f-4234-a585-1a94d6dc24d7
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INET_FIREWALL_AC_CHANGE_CREATE, INET_FIREWALL_AC_CHANGE_DELETE, INET_FIREWALL_AC_CHANGE_INVALID, INET_FIREWALL_AC_CHANGE_MAX, INET_FIREWALL_AC_CHANGE_TYPE, INET_FIREWALL_AC_CHANGE_TYPE enumeration [ICS/ICF], _INET_FIREWALL_AC_CHANGE_TYPE, ics.inet_firewall_ac_change_type, networkisolation/INET_FIREWALL_AC_CHANGE_CREATE, networkisolation/INET_FIREWALL_AC_CHANGE_DELETE, networkisolation/INET_FIREWALL_AC_CHANGE_INVALID, networkisolation/INET_FIREWALL_AC_CHANGE_MAX, networkisolation/INET_FIREWALL_AC_CHANGE_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netfw.h
 req.include-header: Netfw.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptStringXtoCP
 title: ScriptStringXtoCP function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an x coordinate to a character position.
 old-location: intl\scriptstringxtocp.htm
 old-project: Intl
 ms.assetid: ae37f58a-cc9c-4414-a8ac-e70691e54c5e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptStringXtoCP, ScriptStringXtoCP function [Internationalization for Windows Applications], _win32_ScriptStringXtoCP, intl.scriptstringxtocp, usp10/ScriptStringXtoCP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.get_Actions
 title: IRemoteDesktopClient::get_Actions
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_actions.htm
 old-project: TermServ
 ms.assetid: 54ff5568-046e-42de-9b7c-b8c8c9be815c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Actions property [Remote Desktop Services], Actions property [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Actions property, IRemoteDesktopClient.Actions, IRemoteDesktopClient.get_Actions, IRemoteDesktopClient::Actions, IRemoteDesktopClient::get_Actions, get_Actions, rdpappcontainerclient/IRemoteDesktopClient::Actions, rdpappcontainerclient/IRemoteDesktopClient::get_Actions, termserv.iremotedesktopclient_actions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

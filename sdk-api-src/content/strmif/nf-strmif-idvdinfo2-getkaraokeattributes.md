@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetKaraokeAttributes
 title: IDvdInfo2::GetKaraokeAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetKaraokeAttributes method retrieves the karaoke attributes of the specified audio stream in the current title or menu.
 old-location: dshow\idvdinfo2_getkaraokeattributes.htm
 old-project: DirectShow
 ms.assetid: c69ea1e0-8d8a-4cd3-86a4-a2d481160a2e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetKaraokeAttributes, GetKaraokeAttributes method [DirectShow], GetKaraokeAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetKaraokeAttributes method, IDvdInfo2.GetKaraokeAttributes, IDvdInfo2::GetKaraokeAttributes, IDvdInfo2GetKaraokeAttributes, dshow.idvdinfo2_getkaraokeattributes, strmif/IDvdInfo2::GetKaraokeAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

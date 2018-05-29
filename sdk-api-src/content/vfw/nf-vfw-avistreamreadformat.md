@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamReadFormat
 title: AVIStreamReadFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamReadFormat function reads the stream format data.
 old-location: multimedia\avistreamreadformat.htm
 old-project: Multimedia
 ms.assetid: 312b7d20-89b2-4102-acf6-f603610dadd6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamReadFormat, AVIStreamReadFormat function [Windows Multimedia], _win32_AVIStreamReadFormat, multimedia.avistreamreadformat, vfw/AVIStreamReadFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

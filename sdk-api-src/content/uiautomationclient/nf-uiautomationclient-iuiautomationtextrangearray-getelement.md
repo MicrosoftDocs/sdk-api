@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRangeArray.GetElement
 title: IUIAutomationTextRangeArray::GetElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a text range from the collection.
 old-location: winauto\uiauto_IUIAutomationTextRangeArray_GetElement.htm
 old-project: WinAuto
 ms.assetid: b5077152-b06a-4391-a0c2-013362014b2b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetElement, GetElement method [Windows Accessibility], GetElement method [Windows Accessibility],IUIAutomationTextRangeArray interface, IUIAutomationTextRangeArray interface [Windows Accessibility],GetElement method, IUIAutomationTextRangeArray.GetElement, IUIAutomationTextRangeArray::GetElement, uiauto.uiauto_IUIAutomationTextRangeArray_GetElement, uiauto_IUIAutomationTextRangeArray_GetElement, uiautomationclient/IUIAutomationTextRangeArray::GetElement, winauto.uiauto_IUIAutomationTextRangeArray_GetElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

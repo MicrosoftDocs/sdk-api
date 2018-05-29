@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_Resources
 title: ISCluster::get_Resources
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a ClusResources collection providing access to the resources in a cluster.
 old-location: mscs\cluster_resources.htm
 old-project: MsCS
 ms.assetid: fdfdd1de-fa4a-4bfb-80e1-15b2141d488b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],Resources property, Cluster.Resources, ISCluster.get_Resources, ISCluster::get_Resources, Resources property [Failover Cluster], Resources property [Failover Cluster],Cluster object, _wolf_cluster.resources, get_Resources, mscs.cluster_resources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

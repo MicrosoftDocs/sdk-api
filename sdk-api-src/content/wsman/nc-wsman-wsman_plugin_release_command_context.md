@@ -1,16 +1,16 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
 title: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the release command callback for the plug-in.
 old-location: winrm\wsman_plugin_release_command_context.htm
 old-project: WinRM
 ms.assetid: 9a81f8da-1c71-4eab-aa21-002cee4f1164
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT, WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback, WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback function [Windows Remote Management], WSManPluginReleaseCommandContext, winrm.wsman_plugin_release_command_context, wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 

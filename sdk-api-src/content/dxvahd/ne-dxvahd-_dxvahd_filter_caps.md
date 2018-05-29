@@ -1,16 +1,16 @@
 ---
 UID: NE:dxvahd._DXVAHD_FILTER_CAPS
 title: "_DXVAHD_FILTER_CAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines capabilities related to image adjustment and filtering for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_filter_caps.htm
 old-project: medfound
 ms.assetid: 2f4e0b48-fbce-49e8-9ea8-1b6f0a022d60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_FILTER_CAPS, DXVAHD_FILTER_CAPS enumeration [Media Foundation], DXVAHD_FILTER_CAPS_ANAMORPHIC_SCALING, DXVAHD_FILTER_CAPS_BRIGHTNESS, DXVAHD_FILTER_CAPS_CONTRAST, DXVAHD_FILTER_CAPS_EDGE_ENHANCEMENT, DXVAHD_FILTER_CAPS_HUE, DXVAHD_FILTER_CAPS_NOISE_REDUCTION, DXVAHD_FILTER_CAPS_SATURATION, _DXVAHD_FILTER_CAPS, dxvahd/DXVAHD_FILTER_CAPS, dxvahd/DXVAHD_FILTER_CAPS_ANAMORPHIC_SCALING, dxvahd/DXVAHD_FILTER_CAPS_BRIGHTNESS, dxvahd/DXVAHD_FILTER_CAPS_CONTRAST, dxvahd/DXVAHD_FILTER_CAPS_EDGE_ENHANCEMENT, dxvahd/DXVAHD_FILTER_CAPS_HUE, dxvahd/DXVAHD_FILTER_CAPS_NOISE_REDUCTION, dxvahd/DXVAHD_FILTER_CAPS_SATURATION, mf.dxvahd_filter_caps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxvahd.h
 req.include-header: 

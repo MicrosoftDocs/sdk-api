@@ -1,16 +1,16 @@
 ---
 UID: NS:msctf.TF_HALTCOND
 title: TF_HALTCOND
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_HALTCOND structure is used to contain conditions of a range shift.
 old-location: tsf\tf_haltcond.htm
 old-project: TSF
 ms.assetid: 055f3228-1e3b-4e31-9035-e509a98016a8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_HALTCOND, TF_HALTCOND structure [Text Services Framework], _tsf_tf_haltcond_ref, msctf/TF_HALTCOND, tsf.tf_haltcond
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

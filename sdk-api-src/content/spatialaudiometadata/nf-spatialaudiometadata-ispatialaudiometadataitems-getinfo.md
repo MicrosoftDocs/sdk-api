@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetInfo
 title: ISpatialAudioMetadataItems::GetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the total frame count for the ISpatialAudioMetadataItems, which defines valid item offsets.
 old-location: coreaudio\ispatialaudiometadataitems_getinfo.htm
 old-project: CoreAudio
 ms.assetid: F54BF2B9-B9A4-47EF-8C18-DC58B24B617E
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInfo, GetInfo method [Core Audio], GetInfo method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetInfo method, ISpatialAudioMetadataItems.GetInfo, ISpatialAudioMetadataItems::GetInfo, coreaudio.ispatialaudiometadataitems_getinfo, spatialaudiometadata/ISpatialAudioMetadataItems::GetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

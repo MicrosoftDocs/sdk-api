@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetIssuanceLicenseTemplate
 title: DRMGetIssuanceLicenseTemplate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains an issuance license template from an existing issuance license.
 old-location: rm\drmgetissuancelicensetemplate.htm
 old-project: AdRms_Sdk
 ms.assetid: 6667bab3-5022-4279-846a-61a0a37e9d33
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetIssuanceLicenseTemplate, DRMGetIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIssuanceLicenseTemplate, rm.drmgetissuancelicensetemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

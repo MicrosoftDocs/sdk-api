@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_Sizes
 title: "_SecPkgContext_Sizes"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgContext_Sizes structure indicates the sizes of important structures used in the message support functions. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_sizes.htm
 old-project: SecAuthN
 ms.assetid: 46b6a155-8855-4aa0-a513-aa5b3760fcd4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_Sizes, PSecPkgContext_Sizes, PSecPkgContext_Sizes structure pointer [Security], SecPkgContext_Sizes, SecPkgContext_Sizes structure [Security], _SecPkgContext_Sizes, _ssp_secpkgcontext_sizes, security.secpkgcontext_sizes, sspi/PSecPkgContext_Sizes, sspi/SecPkgContext_Sizes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

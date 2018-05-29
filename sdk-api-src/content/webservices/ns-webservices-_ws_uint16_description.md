@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_UINT16_DESCRIPTION
 title: "_WS_UINT16_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: An optional type description used with WS_UINT16_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_uint16_description.htm
 old-project: wsw
 ms.assetid: 62bc0e6c-a8f0-4b57-89bc-a2832d785703
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_UINT16_DESCRIPTION, WS_UINT16_DESCRIPTION structure [Web Services for Windows], _WS_UINT16_DESCRIPTION, webservices/WS_UINT16_DESCRIPTION, wsw.ws_uint16_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

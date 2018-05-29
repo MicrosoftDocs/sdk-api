@@ -1,16 +1,16 @@
 ---
 UID: NS:dsclient._DOMAINDESC
 title: "_DOMAINDESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data about an element in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method.
 old-location: ad\domaindesc.htm
 old-project: AD
 ms.assetid: c788d106-2cc7-4d67-8568-23e858c0075f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDOMAINDESC, *PDOMAIN_DESC, DOMAINDESC, DOMAINDESC structure [Active Directory], DOMAIN_DESC, DOMAIN_DESC structure [Active Directory], LPDOMAINDESC, LPDOMAINDESC structure pointer [Active Directory], PDOMAIN_DESC, PDOMAIN_DESC structure pointer [Active Directory], _DOMAINDESC, _glines_domaindesc, ad.domaindesc, dsclient/DOMAINDESC, dsclient/LPDOMAINDESC, dsclient/PDOMAIN_DESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InterlockedCompareExchange
 title: InterlockedCompareExchange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 32-bit values and exchanges with another 32-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange.htm
 old-project: Sync
 ms.assetid: c0da780c-5fd0-4c88-a283-8d057db812ac
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange function, _win32_interlockedcompareexchange, base.interlockedcompareexchange, winbase/InterlockedCompareExchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

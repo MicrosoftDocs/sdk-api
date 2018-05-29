@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyExceptionList
 title: IWMPNetwork::getProxyExceptionList
-author: windows-driver-content
+author: windows-sdk-content
 description: The getProxyExceptionList method retrieves the proxy exception list.
 old-location: wmp\iwmpnetwork_getproxyexceptionlist.htm
 old-project: WMP
 ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyExceptionList method, IWMPNetwork.getProxyExceptionList, IWMPNetwork::getProxyExceptionList, IWMPNetworkgetProxyExceptionList, getProxyExceptionList, getProxyExceptionList method [Windows Media Player], getProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyexceptionlist, wmp/IWMPNetwork::getProxyExceptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

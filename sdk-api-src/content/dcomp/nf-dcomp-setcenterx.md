@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetCenterX
 title: SetCenterX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcenterx_overloaded.htm
 old-project: directcomp
 ms.assetid: 2E4924A5-64D0-4415-B345-0DE9A0900258
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRotateTransform3D::SetCenterX, SetCenterX, SetCenterX methods [DirectComposition], dcomp/SetCenterX, directcomp.idcompositionrotatetransform3d_setcenterx_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

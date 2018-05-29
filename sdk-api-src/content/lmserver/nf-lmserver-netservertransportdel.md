@@ -1,16 +1,16 @@
 ---
 UID: NF:lmserver.NetServerTransportDel
 title: NetServerTransportDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetServerTransportDel function unbinds (or disconnects) the transport protocol from the server. Effectively, the server can no longer communicate with clients using the specified transport protocol (such as TCP or XNS).
 old-location: netmgmt\netservertransportdel.htm
 old-project: NetMgmt
 ms.assetid: 69b22f30-62b1-4dcb-bbb0-aceae8d77f61
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, NetServerTransportDel, NetServerTransportDel function [Network Management], _win32_netservertransportdel, lmserver/NetServerTransportDel, netmgmt.netservertransportdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IWizardExtension.GetFirstPage
 title: IWizardExtension::GetFirstPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a handle to the first page of the wizard extension.
 old-location: shell\IWizardExtension_GetFirstPage.htm
 old-project: shell
 ms.assetid: 1276b63d-6d5e-4e60-b936-b307cd922b4b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetFirstPage method, IWizardExtension.GetFirstPage, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

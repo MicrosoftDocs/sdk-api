@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamAutoProcessingMode
 title: ID3D11VideoContext::VideoProcessorGetStreamAutoProcessingMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether automatic processing features of the video processor are enabled.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamautoprocessingmode.htm
 old-project: medfound
 ms.assetid: FD7B20C2-5418-4CA5-A64E-FA84D4070A10
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamAutoProcessingMode method, ID3D11VideoContext.VideoProcessorGetStreamAutoProcessingMode, ID3D11VideoContext::VideoProcessorGetStreamAutoProcessingMode, VideoProcessorGetStreamAutoProcessingMode, VideoProcessorGetStreamAutoProcessingMode method [Media Foundation], VideoProcessorGetStreamAutoProcessingMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamAutoProcessingMode, mf.id3d11videocontext_videoprocessorgetstreamautoprocessingmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

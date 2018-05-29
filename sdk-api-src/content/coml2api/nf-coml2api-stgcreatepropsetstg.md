@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgCreatePropSetStg
 title: StgCreatePropSetStg function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a property set storage object from a specified storage object.
 old-location: stg\stgcreatepropsetstg.htm
 old-project: Stg
 ms.assetid: 0113b29d-23aa-4590-b8ac-33789a7a2ed4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgCreatePropSetStg, StgCreatePropSetStg function [Structured Storage], _stg_stgcreatepropsetstg, coml2api/StgCreatePropSetStg, stg.stgcreatepropsetstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h

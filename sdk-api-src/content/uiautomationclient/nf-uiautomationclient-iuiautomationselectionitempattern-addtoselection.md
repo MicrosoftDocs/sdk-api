@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.AddToSelection
 title: IUIAutomationSelectionItemPattern::AddToSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the current element to the collection of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_AddToSelection.htm
 old-project: WinAuto
 ms.assetid: e3d90861-1926-4294-b14b-f4c61a4f9176
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],AddToSelection method, IUIAutomationSelectionItemPattern.AddToSelection, IUIAutomationSelectionItemPattern::AddToSelection, uiauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiautomationclient/IUIAutomationSelectionItemPattern::AddToSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

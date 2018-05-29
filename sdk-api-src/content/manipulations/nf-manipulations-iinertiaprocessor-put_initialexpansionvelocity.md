@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialExpansionVelocity
 title: IInertiaProcessor::put_InitialExpansionVelocity
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitialExpansionVelocity property specifies the rate of radius expansion for a target when the target was affected by inertia.
 old-location: wintouch\iinertiaprocessor_initialexpansionvelocity.htm
 old-project: wintouch
 ms.assetid: c0e60b1c-98d0-4b50-ba5d-deda44debf56
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialExpansionVelocity property, IInertiaProcessor.InitialExpansionVelocity, IInertiaProcessor.put_InitialExpansionVelocity, IInertiaProcessor::InitialExpansionVelocity, IInertiaProcessor::get_InitialExpansionVelocity, IInertiaProcessor::put_InitialExpansionVelocity, InitialExpansionVelocity property [Windows Touch], InitialExpansionVelocity property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialExpansionVelocity, manipulations/IInertiaProcessor::get_InitialExpansionVelocity, manipulations/IInertiaProcessor::put_InitialExpansionVelocity, put_InitialExpansionVelocity, wintouch.iinertiaprocessor_initialexpansionvelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

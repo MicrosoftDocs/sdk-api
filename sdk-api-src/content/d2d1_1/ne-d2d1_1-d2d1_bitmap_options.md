@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_1.D2D1_BITMAP_OPTIONS
 title: D2D1_BITMAP_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how a bitmap can be used.
 old-location: direct2d\__d2d1_bitmap_options.htm
 old-project: Direct2D
 ms.assetid: c080e23e-99c4-46ed-8b21-be26dec288af
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_BITMAP_OPTIONS, D2D1_BITMAP_OPTIONS enumeration [Direct2D], D2D1_BITMAP_OPTIONS_CANNOT_DRAW, D2D1_BITMAP_OPTIONS_CPU_READ, D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE, D2D1_BITMAP_OPTIONS_NONE, D2D1_BITMAP_OPTIONS_TARGET, d2d1_1/D2D1_BITMAP_OPTIONS, d2d1_1/D2D1_BITMAP_OPTIONS_CANNOT_DRAW, d2d1_1/D2D1_BITMAP_OPTIONS_CPU_READ, d2d1_1/D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE, d2d1_1/D2D1_BITMAP_OPTIONS_NONE, d2d1_1/D2D1_BITMAP_OPTIONS_TARGET, direct2d.__d2d1_bitmap_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

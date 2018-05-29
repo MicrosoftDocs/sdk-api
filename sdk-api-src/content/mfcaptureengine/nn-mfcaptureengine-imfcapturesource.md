@@ -1,16 +1,16 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSource
 title: IMFCaptureSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the capture source object. The capture source manages the audio and video capture devices.
 old-location: mf\imfcapturesource.htm
 old-project: medfound
 ms.assetid: 864B6B5D-EB7E-4C49-A326-9B6704A27635
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], IMFCaptureSource interface [Media Foundation],described, mf.imfcapturesource, mfcaptureengine/IMFCaptureSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

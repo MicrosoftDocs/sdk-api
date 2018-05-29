@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyFromStr
 title: VarCyFromStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an OLECHAR string to a currency value.
 old-location: automat\varcyfromstr.htm
 old-project: automat
 ms.assetid: ad67fa19-f927-47ec-83b5-45a4f1f9cbe2
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarCyFromStr, VarCyFromStr function [Automation], _oa96_VarCyFromStr, automat.varcyfromstr, oleauto/VarCyFromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

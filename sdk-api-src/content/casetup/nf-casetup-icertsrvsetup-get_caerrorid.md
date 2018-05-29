@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetup.get_CAErrorId
 title: ICertSrvSetup::get_CAErrorId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the ID for additional error information related to a failed certification authority (CA) specification.
 old-location: security\icertsrvsetup_caerrorid.htm
 old-project: SecCrypto
 ms.assetid: 462fb4a6-2aad-46d4-98e0-32c095eff5c7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CAErrorId property [Security], CAErrorId property [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAErrorId property, ICertSrvSetup.CAErrorId, ICertSrvSetup.get_CAErrorId, ICertSrvSetup::CAErrorId, ICertSrvSetup::get_CAErrorId, IDS_ERR_CREATE_DIR, IDS_IDINFO_CAEXISTINDS, IDS_PATH_TOO_LONG_CANAME, IDS_PATH_TOO_LONG_DIRECTORY, IDS_STORELOC_PATHTOOLONG, IDS_STORELOC_UNCMUSTEXIST, IDS_WRN_DBFILEINUSE, IDS_WRN_DBSPECIALCHARACTERS, IDS_WRN_IDINFO_INVALIDDNEX, IDS_WRN_KEYNAMETOOLONG, IDS_WRN_OVERWRITEEXISTINGKEY, IDS_WRN_STORELOC_DB_FULLPATH, IDS_WRN_STORELOC_EXISTINGDB, IDS_WRN_STORELOC_LOG_FULLPATH, IDS_WRN_STORELOC_SHAREDFOLDER_FULLPATH, IDS_WRN_UNICODESTRINGENCODING, casetup/ICertSrvSetup::CAErrorId, casetup/ICertSrvSetup::get_CAErrorId, get_CAErrorId, security.icertsrvsetup_caerrorid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

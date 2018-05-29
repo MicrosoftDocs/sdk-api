@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_Recorder
 title: IDiscFormat2Data::get_Recorder
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the recording device to use for the write operation.
 old-location: imapi\idiscformat2data_get_recorder.htm
 old-project: imapi
 ms.assetid: 313ba824-b54a-4b3a-a669-49067c71798d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_Recorder method, IDiscFormat2Data.get_Recorder, IDiscFormat2Data::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_recorder, imapi2/IDiscFormat2Data::get_Recorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

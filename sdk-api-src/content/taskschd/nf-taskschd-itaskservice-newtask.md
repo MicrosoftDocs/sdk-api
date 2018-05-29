@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskService.NewTask
 title: ITaskService::NewTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.
 old-location: taskschd\itaskservice_newtask.htm
 old-project: TaskSchd
 ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

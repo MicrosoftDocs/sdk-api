@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPCore.get_versionInfo
 title: IWMPCore::get_versionInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_versionInfo method retrieves a String value specifying the version of Windows Media Player.
 old-location: wmp\iwmpcore_get_versioninfo.htm
 old-project: WMP
 ms.assetid: 8c8bb30b-8f8e-4f49-9506-d4735bccf847
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_versionInfo method, IWMPCore.get_versionInfo, IWMPCore::get_versionInfo, IWMPCoreget_versionInfo, get_versionInfo, get_versionInfo method [Windows Media Player], get_versionInfo method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_versioninfo, wmp/IWMPCore::get_versionInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

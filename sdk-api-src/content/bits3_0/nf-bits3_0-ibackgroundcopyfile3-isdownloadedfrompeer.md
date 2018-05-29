@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.IsDownloadedFromPeer
 title: IBackgroundCopyFile3::IsDownloadedFromPeer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that determines if any part of the file was downloaded from a peer.
 old-location: bits\ibackgroundcopyfile3_isdownloadedfrompeer.htm
 old-project: Bits
 ms.assetid: b6084cfe-b3ab-4c9f-b335-2696e5839451
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],IsDownloadedFromPeer method, IBackgroundCopyFile3.IsDownloadedFromPeer, IBackgroundCopyFile3::IsDownloadedFromPeer, IsDownloadedFromPeer, IsDownloadedFromPeer method [BITS], IsDownloadedFromPeer method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_isdownloadedfrompeer, bits3_0/IBackgroundCopyFile3::IsDownloadedFromPeer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

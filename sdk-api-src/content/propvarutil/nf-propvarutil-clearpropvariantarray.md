@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.ClearPropVariantArray
 title: ClearPropVariantArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory and references used by an array of PROPVARIANT structures stored in an array.
 old-location: properties\ClearPropVariantArray.htm
 old-project: properties
 ms.assetid: e8d7f951-8a9e-441b-9fa7-bf21cf08c8ac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ClearPropVariantArray, ClearPropVariantArray function [Windows Properties], _shell_ClearPropVariantArray, properties.ClearPropVariantArray, propvarutil/ClearPropVariantArray, shell.ClearPropVariantArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

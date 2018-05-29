@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlFreeAnsiString
 title: RtlFreeAnsiString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the string buffer allocated by RtlUnicodeStringToAnsiString.
 old-location: winprog\rtlfreeansistring.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeansistring.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString function [Windows API], winprog.rtlfreeansistring, winternl/RtlFreeAnsiString, winui.rtlfreeansistring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

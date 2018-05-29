@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IShellFolderViewDual3
 title: IShellFolderViewDual3
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that modify the current folder view.
 old-location: shell\IShellFolderViewDual3.htm
 old-project: shell
 ms.assetid: 1aa70db8-4225-49de-8b8f-ec86b1aafa22
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], IShellFolderViewDual3 interface [Windows Shell],described, _shell_IShellFolderViewDual3, shell.IShellFolderViewDual3, shldisp/IShellFolderViewDual3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

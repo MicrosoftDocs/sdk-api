@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncProgress.SyncItemResult
 title: IOfflineFilesSyncProgress::SyncItemResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an item has been processed during the synchronization operation.
 old-location: of\iofflinefilessyncprogress_syncitemresult.htm
 old-project: OfflineFiles
 ms.assetid: 2a93d52e-6b91-4d91-9372-5f0718621841
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesSyncProgress interface [Offline Files],SyncItemResult method, IOfflineFilesSyncProgress.SyncItemResult, IOfflineFilesSyncProgress::SyncItemResult, SyncItemResult, SyncItemResult method [Offline Files], SyncItemResult method [Offline Files],IOfflineFilesSyncProgress interface, cscobj/IOfflineFilesSyncProgress::SyncItemResult, of.iofflinefilessyncprogress_syncitemresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

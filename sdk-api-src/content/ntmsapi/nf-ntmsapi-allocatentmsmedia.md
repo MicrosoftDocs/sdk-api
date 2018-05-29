@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.AllocateNtmsMedia
 title: AllocateNtmsMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateNtmsMedia function allocates a piece of available media.
 old-location: fs\allocatentmsmedia.htm
 old-project: Rsm
 ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE, NTMS_ALLOCATE_NEW, NTMS_ALLOCATE_NEXT, _zaw_allocatentmsmedia, base.allocatentmsmedia, fs.allocatentmsmedia, ntmsapi/AllocateNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

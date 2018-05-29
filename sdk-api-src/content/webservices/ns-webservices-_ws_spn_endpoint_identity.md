@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SPN_ENDPOINT_IDENTITY
 title: "_WS_SPN_ENDPOINT_IDENTITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Type for specifying an endpoint identity represented by an SPN (service principal name).
 old-location: wsw\ws_spn_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 99a484f0-4d04-4998-90d9-c39194ecf3f8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SPN_ENDPOINT_IDENTITY, WS_SPN_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_SPN_ENDPOINT_IDENTITY, webservices/WS_SPN_ENDPOINT_IDENTITY, wsw.ws_spn_endpoint_identity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

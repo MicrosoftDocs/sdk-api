@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetFontData
 title: GetFontData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFontData function retrieves font metric data for a TrueType font.
 old-location: gdi\getfontdata.htm
 old-project: gdi
 ms.assetid: ec716ad8-bdc2-4f61-968e-f86288123cec
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFontData, GetFontData function [Windows GDI], _win32_GetFontData, gdi.getfontdata, wingdi/GetFontData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

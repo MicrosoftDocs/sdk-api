@@ -1,16 +1,16 @@
 ---
 UID: NF:certpol.INDESPolicy.Uninitialize
 title: INDESPolicy::Uninitialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Uninitializes the NDES policy module.
 old-location: security\indespolicy_uninitialize.htm
 old-project: SecCrypto
 ms.assetid: 47e9f422-a46a-486f-bbed-94dcd04b7f65
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: INDESPolicy interface [Security],Uninitialize method, INDESPolicy.Uninitialize, INDESPolicy::Uninitialize, Uninitialize, Uninitialize method [Security], Uninitialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Uninitialize, security.indespolicy_uninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certpol.h
 req.include-header: 

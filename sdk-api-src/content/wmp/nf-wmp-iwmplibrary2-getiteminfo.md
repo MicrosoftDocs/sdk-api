@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPLibrary2.getItemInfo
 title: IWMPLibrary2::getItemInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The getItemInfo method retrieves the value of the LibraryID attribute.
 old-location: wmp\iwmplibrary2_getiteminfo.htm
 old-project: WMP
 ms.assetid: 38de9e72-b942-4c09-be9e-ff9f345c778d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPLibrary2 interface [Windows Media Player],getItemInfo method, IWMPLibrary2.getItemInfo, IWMPLibrary2::getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPLibrary2 interface, wmp.iwmplibrary2_getiteminfo, wmp/IWMPLibrary2::getItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

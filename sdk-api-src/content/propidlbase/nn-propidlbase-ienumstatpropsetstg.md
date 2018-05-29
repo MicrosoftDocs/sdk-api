@@ -1,16 +1,16 @@
 ---
 UID: NN:propidlbase.IEnumSTATPROPSETSTG
 title: IEnumSTATPROPSETSTG
-author: windows-driver-content
+author: windows-sdk-content
 description: Iterates through an array of STATPROPSETSTG structures. The STATPROPSETSTG structures contain statistical data about the property sets managed by the current IPropertySetStorage instance.
 old-location: stg\ienumstatpropsetstg.htm
 old-project: Stg
 ms.assetid: 8d5e658f-312c-4c91-8794-808b2e8dd182
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], IEnumSTATPROPSETSTG interface [Structured Storage],described, _stg_ienumstatpropsetstg, propidlbase/IEnumSTATPROPSETSTG, stg.ienumstatpropsetstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propidlbase.h
 req.include-header: Propidl.h
