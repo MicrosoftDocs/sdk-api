@@ -1,8 +1,0 @@
-{
-  "tech": "vhd",
-  "headers": [
-    "vdssys.h",
-    "virtdisk.h"
-  ],
-  "displayName": "Virtual Storage"
-}

@@ -1,8 +1,0 @@
-{
-  "tech": "winrm",
-  "headers": [
-    "wsman.h",
-    "wsmandisp.h"
-  ],
-  "displayName": "Windows Remote Management"
-}

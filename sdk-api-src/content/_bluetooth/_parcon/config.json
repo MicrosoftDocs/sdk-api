@@ -1,8 +1,0 @@
-{
-  "tech": "parcon",
-  "headers": [
-    "wpcevent.h",
-    "wpcapi.h"
-  ],
-  "displayName": "Parental Controls"
-}

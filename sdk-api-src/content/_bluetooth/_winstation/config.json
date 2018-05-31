@@ -1,7 +1,0 @@
-{
-  "tech": "winstation",
-  "headers": [
-    "winbase.h",
-    "winuser.h"
-  ]
-}

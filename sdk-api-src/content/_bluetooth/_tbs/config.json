@@ -1,7 +1,0 @@
-{
-  "tech": "tbs",
-  "headers": [
-    "tbs.h"
-  ],
-  "displayName": "TPM Base Services"
-}

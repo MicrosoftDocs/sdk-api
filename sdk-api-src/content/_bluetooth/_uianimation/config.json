@@ -1,8 +1,0 @@
-{
-  "tech": "uianimation",
-  "headers": [
-    "winerror.h",
-    "uianimation.h"
-  ],
-  "displayName": "Windows Animation Manager"
-}

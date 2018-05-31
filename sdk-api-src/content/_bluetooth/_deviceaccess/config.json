@@ -1,7 +1,0 @@
-{
-  "tech": "deviceaccess",
-  "headers": [
-    "deviceaccess.h"
-  ],
-  "displayName": "Device Access API"
-}

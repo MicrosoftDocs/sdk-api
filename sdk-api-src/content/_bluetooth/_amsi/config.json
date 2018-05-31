@@ -1,7 +1,0 @@
-{
-  "tech": "amsi",
-  "headers": [
-    "amsi.h"
-  ],
-  "displayName": "Antimalware Scan Interface"
-}

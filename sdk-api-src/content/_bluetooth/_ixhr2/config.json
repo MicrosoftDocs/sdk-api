@@ -1,7 +1,0 @@
-{
-  "tech": "ixhr2",
-  "headers": [
-    "msxml6.h"
-  ],
-  "displayName": "XML HTTP Extended Request"
-}

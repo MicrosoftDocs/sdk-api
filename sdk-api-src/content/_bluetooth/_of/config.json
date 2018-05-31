@@ -1,8 +1,0 @@
-{
-  "tech": "of",
-  "headers": [
-    "cscobj.h",
-    "cscapi.h"
-  ],
-  "displayName": "Offline Files"
-}

@@ -1,9 +1,0 @@
-{
-  "tech": "kernel",
-  "headers": [
-    "winnt.h",
-    "evntrace.h",
-    "ktmtypes.h",
-    "ntdef.h"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "tech": "rm",
-  "headers": [
-    "msdrmdefs.h",
-    "msdrm.h",
-    "msdrmerror.h"
-  ],
-  "displayName": "Active Directory Rights Management Services SDK"
-}

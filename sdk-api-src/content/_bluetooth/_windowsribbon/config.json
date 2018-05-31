@@ -1,7 +1,0 @@
-{
-  "tech": "windowsribbon",
-  "headers": [
-    "uiribbon.h"
-  ],
-  "displayName": "Windows Ribbon Framework"
-}

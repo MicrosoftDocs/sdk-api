@@ -1,6 +1,0 @@
-{
-  "tech": "inputmsg",
-  "headers": [
-    "winuser.h"
-  ]
-}

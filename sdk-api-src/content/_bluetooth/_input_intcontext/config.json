@@ -1,7 +1,0 @@
-{
-  "tech": "input_intcontext",
-  "headers": [
-    "interactioncontext.h"
-  ],
-  "displayName": "Interaction Context"
-}

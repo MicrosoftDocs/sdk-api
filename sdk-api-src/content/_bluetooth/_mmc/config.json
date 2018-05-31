@@ -1,9 +1,0 @@
-{
-  "tech": "mmc",
-  "headers": [
-    "prsht.h",
-    "mmcobj.h",
-    "mmc.h",
-    "dsclient.h"
-  ]
-}

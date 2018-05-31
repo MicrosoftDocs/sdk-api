@@ -1,7 +1,0 @@
-{
-  "tech": "winlocation",
-  "headers": [
-    "locationapi.h"
-  ],
-  "displayName": "Location API"
-}
