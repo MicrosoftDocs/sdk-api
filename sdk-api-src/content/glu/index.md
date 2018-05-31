@@ -18,4 +18,4 @@ tech.root: opengl
 
 This header is used by opengl. For more information, see:
 
-- [<built-in method title of str object at 0x0000027F2DCA8B90>](../_opengl/index.md)
+- [<built-in method title of str object at 0x00000172470C8C38>](../_opengl/index.md)

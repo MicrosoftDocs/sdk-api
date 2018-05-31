@@ -19,4 +19,4 @@ tech.root: stillimg
 
 This header is used by stillimg. For more information, see:
 
-- [<built-in method title of str object at 0x0000027F2DCDCE30>](../_stillimg/index.md)
+- [<built-in method title of str object at 0x00000172470FCE70>](../_stillimg/index.md)
