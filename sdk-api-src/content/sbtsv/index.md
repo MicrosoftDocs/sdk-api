@@ -2,12 +2,11 @@
 UID: NA:sbtsv
 ms.assetid: 2ea00425-4363-3cce-a58d-20d7e5db43ec
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: termserv
 ---
 

@@ -7,7 +7,7 @@ old-location: controls\ListView_SetHotItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotitem.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_SetHotItem, ListView_SetHotItem macro [Windows Controls], _win32_ListView_SetHotItem, _win32_ListView_SetHotItem_cpp, commctrl/ListView_SetHotItem, controls.ListView_SetHotItem, controls._win32_ListView_SetHotItem
 ms.prod: windows
 ms.technology: windows-sdk

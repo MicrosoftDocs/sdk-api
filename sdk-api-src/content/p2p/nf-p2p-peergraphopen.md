@@ -7,7 +7,7 @@ old-location: p2p\peergraphopen.htm
 old-project: P2PSdk
 ms.assetid: a34656f1-3e29-4bcb-a8a7-0eed19368184
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGraphOpen, PeerGraphOpen function [Peer Networking], p2p.peergraphopen, p2p/PeerGraphOpen
 ms.prod: windows
 ms.technology: windows-sdk

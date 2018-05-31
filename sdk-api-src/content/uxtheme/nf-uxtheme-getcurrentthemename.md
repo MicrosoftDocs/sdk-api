@@ -7,7 +7,7 @@ old-location: controls\GetCurrentThemeName.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getcurrentthemename.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetCurrentThemeName, GetCurrentThemeName function [Windows Controls], controls.GetCurrentThemeName, controls.inet_GetCurrentThemeName, inet_GetCurrentThemeName, inet_GetCurrentThemeName_cpp, uxtheme/GetCurrentThemeName
 ms.prod: windows
 ms.technology: windows-sdk

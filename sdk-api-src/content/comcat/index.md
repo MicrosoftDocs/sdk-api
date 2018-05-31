@@ -2,12 +2,11 @@
 UID: NA:comcat
 ms.assetid: 65650daf-ed77-35e1-bc89-cd88d0ca1d64
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: com
 ---
 

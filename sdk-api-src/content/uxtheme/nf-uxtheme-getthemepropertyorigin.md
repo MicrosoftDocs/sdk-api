@@ -7,7 +7,7 @@ old-location: controls\GetThemePropertyOrigin.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepropertyorigin.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetThemePropertyOrigin, GetThemePropertyOrigin function [Windows Controls], controls.GetThemePropertyOrigin, controls.inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin_cpp, uxtheme/GetThemePropertyOrigin
 ms.prod: windows
 ms.technology: windows-sdk

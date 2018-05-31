@@ -1,6 +1,0 @@
-{
-  "tech": "xperf",
-  "headers": [
-    "kerneltracecontrol.h"
-  ]
-}

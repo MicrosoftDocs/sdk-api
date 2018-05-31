@@ -7,7 +7,7 @@ old-location: controls\NMOBJECTNOTIFY.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmobjectnotify.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPNMOBJECTNOTIFY, LPNMOBJECTNOTIFY, LPNMOBJECTNOTIFY structure pointer [Windows Controls], NMOBJECTNOTIFY, NMOBJECTNOTIFY structure [Windows Controls], _win32_NMOBJECTNOTIFY, _win32_NMOBJECTNOTIFY_cpp, commctrl/LPNMOBJECTNOTIFY, commctrl/NMOBJECTNOTIFY, controls.NMOBJECTNOTIFY, controls._win32_NMOBJECTNOTIFY, tagNMOBJECTNOTIFY"
 ms.prod: windows
 ms.technology: windows-sdk

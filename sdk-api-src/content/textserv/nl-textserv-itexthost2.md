@@ -7,7 +7,7 @@ old-location: controls\itexthost2.htm
 old-project: Controls
 ms.assetid: A715E70C-E8BB-4796-BDA6-90B745EC7761
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], ITextHost2 interface [Windows Controls],described, controls.itexthost2, textserv/ITextHost2
 ms.prod: windows
 ms.technology: windows-sdk

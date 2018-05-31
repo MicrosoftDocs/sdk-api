@@ -2,7 +2,7 @@
 UID: TP:wab
 ms.assetid: 56a65500-d04e-3d2e-85d2-62accfb13a81
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

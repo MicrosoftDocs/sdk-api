@@ -7,7 +7,7 @@ old-location: controls\ListView_SetHotCursor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotcursor.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_SetHotCursor, ListView_SetHotCursor macro [Windows Controls], _win32_ListView_SetHotCursor, _win32_ListView_SetHotCursor_cpp, commctrl/ListView_SetHotCursor, controls.ListView_SetHotCursor, controls._win32_ListView_SetHotCursor
 ms.prod: windows
 ms.technology: windows-sdk

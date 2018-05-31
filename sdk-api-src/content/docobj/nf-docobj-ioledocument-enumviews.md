@@ -7,7 +7,7 @@ old-location: com\ioledocument_enumviews.htm
 old-project: com
 ms.assetid: ca186853-0792-4a34-b718-46927a73e670
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: EnumViews, EnumViews method [COM], EnumViews method [COM],IOleDocument interface, IOleDocument interface [COM],EnumViews method, IOleDocument.EnumViews, IOleDocument::EnumViews, _ole_ioledocument_enumviews, com.ioledocument_enumviews, docobj/IOleDocument::EnumViews
 ms.prod: windows
 ms.technology: windows-sdk

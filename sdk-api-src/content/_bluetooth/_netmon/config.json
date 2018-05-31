@@ -1,9 +1,0 @@
-{
-  "tech": "netmon",
-  "headers": [
-    "process.h",
-    "netmon.h",
-    "sql_1.h"
-  ],
-  "displayName": "Network Monitor"
-}

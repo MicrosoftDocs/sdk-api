@@ -7,7 +7,7 @@ old-location: controls\DateTime_SetMonthCalFont.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalfont.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DateTime_SetMonthCalFont, DateTime_SetMonthCalFont macro [Windows Controls], _win32_DateTime_SetMonthCalFont, _win32_DateTime_SetMonthCalFont_cpp, commctrl/DateTime_SetMonthCalFont, controls.DateTime_SetMonthCalFont, controls._win32_DateTime_SetMonthCalFont
 ms.prod: windows
 ms.technology: windows-sdk

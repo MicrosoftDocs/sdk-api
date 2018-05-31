@@ -1,9 +1,0 @@
-{
-  "tech": "backup",
-  "headers": [
-    "winbase.h",
-    "sisbkup.h",
-    "winnt.h"
-  ],
-  "displayName": "Backup"
-}

@@ -7,7 +7,7 @@ old-location: properties\VariantToInt64WithDefault.htm
 old-project: properties
 ms.assetid: c4a5fc5c-19f9-4313-9d98-a486bfdfb359
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: VariantToInt64WithDefault, VariantToInt64WithDefault function [Windows Properties], _shell_VariantToInt64WithDefault, properties.VariantToInt64WithDefault, propvarutil/VariantToInt64WithDefault, shell.VariantToInt64WithDefault
 ms.prod: windows
 ms.technology: windows-sdk

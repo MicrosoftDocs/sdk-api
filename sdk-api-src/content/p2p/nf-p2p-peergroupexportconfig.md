@@ -7,7 +7,7 @@ old-location: p2p\peergroupexportconfig.htm
 old-project: P2PSdk
 ms.assetid: 95fe1336-4bf2-4a4b-a451-90f2ae2639c2
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGroupExportConfig, PeerGroupExportConfig function [Peer Networking], p2p.peergroupexportconfig, p2p/PeerGroupExportConfig
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\DrawShadowText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\drawshadowtext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DrawShadowText, DrawShadowText function [Windows Controls], commctrl/DrawShadowText, controls.DrawShadowText, controls.inet_DrawShadowText, inet_DrawShadowText, inet_DrawShadowText_cpp
 ms.prod: windows
 ms.technology: windows-sdk

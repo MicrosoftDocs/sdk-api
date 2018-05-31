@@ -7,7 +7,7 @@ old-location: controls\DrawStatusText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\drawstatustext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DrawStatusText, DrawStatusText function [Windows Controls], DrawStatusTextA, DrawStatusTextW, SBT_NOBORDERS, SBT_POPOUT, SBT_RTLREADING, _win32_DrawStatusText, _win32_DrawStatusText_cpp, commctrl/DrawStatusText, commctrl/DrawStatusTextA, commctrl/DrawStatusTextW, controls.DrawStatusText, controls._win32_DrawStatusText
 ms.prod: windows
 ms.technology: windows-sdk

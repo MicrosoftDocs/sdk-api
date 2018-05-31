@@ -7,7 +7,7 @@ old-location: dshow\regfilter2.htm
 old-project: DirectShow
 ms.assetid: 651b94e6-b343-4957-9781-768b04c098dd
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: REGFILTER2, REGFILTER2 structure [DirectShow], REGFILTER2Structure, dshow.regfilter2, strmif/REGFILTER2
 ms.prod: windows
 ms.technology: windows-sdk

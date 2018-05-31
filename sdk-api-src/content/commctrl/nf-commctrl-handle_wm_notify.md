@@ -7,7 +7,7 @@ old-location: controls\HANDLE_WM_NOTIFY.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\handle_wm_notify.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: HANDLE_WM_NOTIFY, HANDLE_WM_NOTIFY macro [Windows Controls], _win32_HANDLE_WM_NOTIFY, _win32_HANDLE_WM_NOTIFY_cpp, commctrl/HANDLE_WM_NOTIFY, controls.HANDLE_WM_NOTIFY, controls._win32_HANDLE_WM_NOTIFY
 ms.prod: windows
 ms.technology: windows-sdk

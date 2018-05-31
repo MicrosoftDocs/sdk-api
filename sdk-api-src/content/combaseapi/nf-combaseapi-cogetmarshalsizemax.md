@@ -7,7 +7,7 @@ old-location: com\cogetmarshalsizemax.htm
 old-project: com
 ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,11 @@
 UID: NA:dsadmin
 ms.assetid: 671782ad-42cf-371d-a017-fbd9fa3dbccd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ad
 ---
 

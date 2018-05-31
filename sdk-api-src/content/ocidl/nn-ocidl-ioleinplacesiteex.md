@@ -7,7 +7,7 @@ old-location: com\ioleinplacesiteex.htm
 old-project: com
 ms.assetid: d93e6d23-7867-43e4-8ab9-efe609362c18
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleInPlaceSiteEx, IOleInPlaceSiteEx interface [COM], IOleInPlaceSiteEx interface [COM],described, _ole_ioleinplacesiteex, com.ioleinplacesiteex, ocidl/IOleInPlaceSiteEx
 ms.prod: windows
 ms.technology: windows-sdk

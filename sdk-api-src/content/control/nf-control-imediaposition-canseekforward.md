@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_canseekforward.htm
 old-project: DirectShow
 ms.assetid: 0647d629-79f0-4c62-a346-8d99646469c6
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: CanSeekForward, CanSeekForward method [DirectShow], CanSeekForward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekForward method, IMediaPosition.CanSeekForward, IMediaPosition::CanSeekForward, IMediaPositionCanSeekForward, control/IMediaPosition::CanSeekForward, dshow.imediaposition_canseekforward
 ms.prod: windows
 ms.technology: windows-sdk

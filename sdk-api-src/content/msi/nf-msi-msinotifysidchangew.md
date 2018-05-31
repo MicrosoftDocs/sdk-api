@@ -7,7 +7,7 @@ old-location: setup\msinotifysidchange.htm
 old-project: Msi
 ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
 ms.prod: windows
 ms.technology: windows-sdk

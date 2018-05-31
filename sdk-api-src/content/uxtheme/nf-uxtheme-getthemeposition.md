@@ -7,7 +7,7 @@ old-location: controls\GetThemePosition.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeposition.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetThemePosition, GetThemePosition function [Windows Controls], controls.GetThemePosition, controls.inet_GetThemePosition, inet_GetThemePosition, inet_GetThemePosition_cpp, uxtheme/GetThemePosition
 ms.prod: windows
 ms.technology: windows-sdk

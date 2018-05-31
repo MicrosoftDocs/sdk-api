@@ -7,7 +7,7 @@ old-location: com\ioleinplaceuiwindow_requestborderspace.htm
 old-project: com
 ms.assetid: fd477b1d-e9a5-4b99-adf1-8e62de975730
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],RequestBorderSpace method, IOleInPlaceUIWindow.RequestBorderSpace, IOleInPlaceUIWindow::RequestBorderSpace, RequestBorderSpace, RequestBorderSpace method [COM], RequestBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_requestborderspace, com.ioleinplaceuiwindow_requestborderspace, oleidl/IOleInPlaceUIWindow::RequestBorderSpace
 ms.prod: windows
 ms.technology: windows-sdk

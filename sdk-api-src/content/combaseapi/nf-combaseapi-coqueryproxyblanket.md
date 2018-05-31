@@ -7,7 +7,7 @@ old-location: com\coqueryproxyblanket.htm
 old-project: com
 ms.assetid: e613e06a-0900-413e-bde2-39ce1612fed1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CoQueryProxyBlanket, CoQueryProxyBlanket function [COM], _com_CoQueryProxyBlanket, com.coqueryproxyblanket, combaseapi/CoQueryProxyBlanket
 ms.prod: windows
 ms.technology: windows-sdk

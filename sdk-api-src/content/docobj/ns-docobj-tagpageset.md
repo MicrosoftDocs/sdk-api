@@ -7,7 +7,7 @@ old-location: com\pageset.htm
 old-project: com
 ms.assetid: 9639c743-2509-4611-833b-16d16fce420a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET, tagPAGESET
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ipersistfile.htm
 old-project: com
 ms.assetid: 7d34507f-8a16-43b4-8225-010798abc546
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IPersistFile, IPersistFile interface [COM], IPersistFile interface [COM],described, _com_ipersistfile, com.ipersistfile, objidl/IPersistFile
 ms.prod: windows
 ms.technology: windows-sdk

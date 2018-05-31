@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_cancel.htm
 old-project: ETW
 ms.assetid: d195f746-7f56-443f-9232-e95a6b026331
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: Cancel, Cancel method [ETW], Cancel method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],Cancel method, ITraceRelogger.Cancel, ITraceRelogger::Cancel, etw.itracerelogger_cancel, relogger/ITraceRelogger::Cancel
 ms.prod: windows
 ms.technology: windows-sdk

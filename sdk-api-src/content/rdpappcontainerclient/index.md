@@ -2,12 +2,11 @@
 UID: NA:rdpappcontainerclient
 ms.assetid: fe2973f5-3e9c-35dc-9e25-5c7926e39a3a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: termserv
 ---
 

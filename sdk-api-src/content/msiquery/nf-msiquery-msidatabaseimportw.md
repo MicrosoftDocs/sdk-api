@@ -7,7 +7,7 @@ old-location: setup\msidatabaseimport.htm
 old-project: Msi
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, MsiDatabaseImportW, _msi_msidatabaseimport, msiquery/MsiDatabaseImport, msiquery/MsiDatabaseImportA, msiquery/MsiDatabaseImportW, setup.msidatabaseimport
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,13 +7,13 @@ old-location: vhd\expandvirtualdisk.htm
 old-project: VStor
 ms.assetid: 96d1b603-c019-4868-9b81-3a5628fbb50c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: ExpandVirtualDisk, ExpandVirtualDisk function [VHD], vhd.expandvirtualdisk, virtdisk/ExpandVirtualDisk
+ms.date: 05/29/2018
+ms.keywords: ExpandVirtualDisk, ExpandVirtualDisk function [VHD], vdssys/ExpandVirtualDisk, vhd.expandvirtualdisk, virtdisk/ExpandVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

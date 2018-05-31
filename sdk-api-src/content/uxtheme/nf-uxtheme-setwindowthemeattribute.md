@@ -7,7 +7,7 @@ old-location: controls\SetWindowThemeAttribute.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemeattribute.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: SetWindowThemeAttribute, SetWindowThemeAttribute function [Windows Controls], WTA_NONCLIENT, controls.SetWindowThemeAttribute, controls.inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute_cpp, uxtheme/SetWindowThemeAttribute
 ms.prod: windows
 ms.technology: windows-sdk

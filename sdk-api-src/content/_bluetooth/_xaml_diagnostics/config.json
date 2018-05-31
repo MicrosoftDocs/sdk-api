@@ -1,7 +1,0 @@
-{
-  "tech": "xaml_diagnostics",
-  "headers": [
-    "xamlom.h"
-  ],
-  "displayName": "XAML Diagnostics"
-}

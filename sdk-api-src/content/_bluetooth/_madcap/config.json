@@ -1,7 +1,0 @@
-{
-  "tech": "madcap",
-  "headers": [
-    "madcapcl.h"
-  ],
-  "displayName": "Multicast Address Dynamic Client Allocation Protocol (MADCAP)"
-}

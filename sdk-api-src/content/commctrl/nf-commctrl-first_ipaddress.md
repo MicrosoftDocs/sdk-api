@@ -7,7 +7,7 @@ old-location: controls\FIRST_IPADDRESS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\first_ipaddress.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: FIRST_IPADDRESS, FIRST_IPADDRESS macro [Windows Controls], _win32_FIRST_IPADDRESS, _win32_FIRST_IPADDRESS_cpp, commctrl/FIRST_IPADDRESS, controls.FIRST_IPADDRESS, controls._win32_FIRST_IPADDRESS
 ms.prod: windows
 ms.technology: windows-sdk

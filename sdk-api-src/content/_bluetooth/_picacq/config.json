@@ -1,7 +1,0 @@
-{
-  "tech": "picacq",
-  "headers": [
-    "photoacquire.h"
-  ],
-  "displayName": "Picture Acquisition"
-}

@@ -1,9 +1,0 @@
-{
-  "tech": "wer",
-  "headers": [
-    "none",
-    "werapi.h",
-    "errorrep.h"
-  ],
-  "displayName": "Windows Error Reporting"
-}

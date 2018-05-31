@@ -7,7 +7,7 @@ old-location: com\coqueryclientblanket.htm
 old-project: com
 ms.assetid: 58a2c121-c324-4c33-aaca-490b5a09738c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CoQueryClientBlanket, CoQueryClientBlanket function [COM], _com_CoQueryClientBlanket, com.coqueryclientblanket, combaseapi/CoQueryClientBlanket
 ms.prod: windows
 ms.technology: windows-sdk

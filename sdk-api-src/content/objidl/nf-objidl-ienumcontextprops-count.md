@@ -7,7 +7,7 @@ old-location: com\ienumcontextprops_count.htm
 old-project: com
 ms.assetid: ad3194f7-0df4-4f26-8a98-2715188fb63f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Count, Count method [COM], Count method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Count method, IEnumContextProps.Count, IEnumContextProps::Count, _com_ienumcontextprops_count, com.ienumcontextprops_count, objidlbase/IEnumContextProps::Count
 ms.prod: windows
 ms.technology: windows-sdk

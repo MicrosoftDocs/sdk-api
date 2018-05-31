@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder.htm
 old-project: DirectShow
 ms.assetid: 64ee80cd-9f63-4f38-853a-1ecfc03e6076
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], ICaptureGraphBuilder interface [DirectShow],described, ICaptureGraphBuilderInterface, dshow.icapturegraphbuilder, strmif/ICaptureGraphBuilder
 ms.prod: windows
 ms.technology: windows-sdk

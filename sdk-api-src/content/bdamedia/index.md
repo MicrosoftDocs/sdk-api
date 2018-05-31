@@ -2,7 +2,7 @@
 UID: NA:bdamedia
 ms.assetid: e5093c55-273b-3721-852a-4f94c45d88bf
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

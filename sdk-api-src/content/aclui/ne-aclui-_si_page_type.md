@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: TreeSetNamedSecurityInfoW (Unicode) and TreeSetNamedSecurityInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -38,6 +38,9 @@ api_name:
 -	SI_PAGE_TYPE
 product: Windows
 targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 ---
 
 # _SI_PAGE_TYPE enumeration

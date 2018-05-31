@@ -7,7 +7,7 @@ old-location: controls\irichedituiainformation_isvisible.htm
 old-project: Controls
 ms.assetid: E989851B-E03C-42A2-A088-E89DF986D7AC
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IRichEditUiaInformation interface [Windows Controls],IsVisible method, IRichEditUiaInformation.IsVisible, IRichEditUiaInformation::IsVisible, IsVisible, IsVisible method [Windows Controls], IsVisible method [Windows Controls],IRichEditUiaInformation interface, controls.irichedituiainformation_isvisible, textserv/IRichEditUiaInformation::IsVisible
 ms.prod: windows
 ms.technology: windows-sdk

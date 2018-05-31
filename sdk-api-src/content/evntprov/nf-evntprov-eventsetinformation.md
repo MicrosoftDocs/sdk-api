@@ -7,7 +7,7 @@ old-location: etw\eventsetinformation.htm
 old-project: ETW
 ms.assetid: e8b408ba-4bb5-4166-bf43-d18e4fe8de32
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.eventsetinformation, evntprov/EventSetInformation
 ms.prod: windows
 ms.technology: windows-sdk

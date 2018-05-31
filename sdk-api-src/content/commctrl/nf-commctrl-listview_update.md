@@ -7,7 +7,7 @@ old-location: controls\ListView_Update.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_update.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_Update, ListView_Update macro [Windows Controls], _win32_ListView_Update, _win32_ListView_Update_cpp, commctrl/ListView_Update, controls.ListView_Update, controls._win32_ListView_Update
 ms.prod: windows
 ms.technology: windows-sdk

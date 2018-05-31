@@ -7,7 +7,7 @@ old-location: controls\itextstrings_add.htm
 old-project: Controls
 ms.assetid: 59630068-e3c7-4c3b-bd89-f1127759f979
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Add method, ITextStrings.Add, ITextStrings::Add, controls.itextstrings_add, tom/ITextStrings::Add
 ms.prod: windows
 ms.technology: windows-sdk

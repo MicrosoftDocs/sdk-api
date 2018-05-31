@@ -7,7 +7,7 @@ old-location: p2p\peerdistregisterforstatuschangenotificationex.htm
 old-project: P2PSdk
 ms.assetid: 84de2b23-5536-43e9-9336-0c1d3b70891d
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotificationEx, PeerDistRegisterForStatusChangeNotificationEx function [Peer Networking], p2p.peerdistregisterforstatuschangenotificationex, peerdist/PeerDistRegisterForStatusChangeNotificationEx
 ms.prod: windows
 ms.technology: windows-sdk

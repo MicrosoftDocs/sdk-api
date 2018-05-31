@@ -7,13 +7,13 @@ old-location: vhd\getstoragedependencyinformation.htm
 old-project: VStor
 ms.assetid: 9ed3ec7c-5e50-4e81-bba7-798f2fbcf29d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: GetStorageDependencyInformation, GetStorageDependencyInformation function [VHD], vhd.getstoragedependencyinformation, virtdisk/GetStorageDependencyInformation
+ms.date: 05/29/2018
+ms.keywords: GetStorageDependencyInformation, GetStorageDependencyInformation function [VHD], vdssys/GetStorageDependencyInformation, vhd.getstoragedependencyinformation, virtdisk/GetStorageDependencyInformation
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

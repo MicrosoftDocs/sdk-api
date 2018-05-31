@@ -7,7 +7,7 @@ old-location: controls\TreeView_Select.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_select.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TVGN_CARET, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TreeView_Select, TreeView_Select macro [Windows Controls], _win32_TreeView_Select, _win32_TreeView_Select_cpp, commctrl/TreeView_Select, controls.TreeView_Select, controls._win32_TreeView_Select
 ms.prod: windows
 ms.technology: windows-sdk

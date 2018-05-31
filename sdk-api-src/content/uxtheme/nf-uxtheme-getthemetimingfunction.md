@@ -7,7 +7,7 @@ old-location: controls\getthemetimingfunction.htm
 old-project: Controls
 ms.assetid: 640E1933-E23D-4852-95A2-4FD630162D2C
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Controls], controls.getthemetimingfunction, uxtheme/GetThemeTimingFunction
 ms.prod: windows
 ms.technology: windows-sdk

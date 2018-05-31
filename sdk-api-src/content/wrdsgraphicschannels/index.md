@@ -2,12 +2,11 @@
 UID: NA:wrdsgraphicschannels
 ms.assetid: 2300415a-7842-3e17-849f-2ea7ed0d2a68
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: termserv
 ---
 

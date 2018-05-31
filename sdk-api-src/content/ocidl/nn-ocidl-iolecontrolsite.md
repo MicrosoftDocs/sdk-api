@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite.htm
 old-project: com
 ms.assetid: 8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], IOleControlSite interface [COM],described, _ctrl_iolecontrolsite, com.iolecontrolsite, ocidl/IOleControlSite
 ms.prod: windows
 ms.technology: windows-sdk

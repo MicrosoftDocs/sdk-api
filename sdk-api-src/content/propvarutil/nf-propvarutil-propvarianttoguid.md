@@ -7,7 +7,7 @@ old-location: properties\PropVariantToGUID.htm
 old-project: properties
 ms.assetid: cf1d884b-41d4-429a-afb7-c66c67526796
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropVariantToGUID, PropVariantToGUID function [Windows Properties], properties.PropVariantToGUID, propvarutil/PropVariantToGUID, shell.PropVariantToGUID, shell_PropVariantToGUID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,13 +7,13 @@ old-location: vhd\merge_virtual_disk_flag.htm
 old-project: VStor
 ms.assetid: a7f7701d-a9d9-4bc9-8d3c-a1a14222abc2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: MERGE_VIRTUAL_DISK_FLAG, MERGE_VIRTUAL_DISK_FLAG enumeration [VHD], MERGE_VIRTUAL_DISK_FLAG_NONE, _MERGE_VIRTUAL_DISK_FLAG, vhd.merge_virtual_disk_flag, virtdisk/MERGE_VIRTUAL_DISK_FLAG, virtdisk/MERGE_VIRTUAL_DISK_FLAG_NONE
+ms.date: 05/29/2018
+ms.keywords: MERGE_VIRTUAL_DISK_FLAG, MERGE_VIRTUAL_DISK_FLAG enumeration [VHD], MERGE_VIRTUAL_DISK_FLAG_NONE, _MERGE_VIRTUAL_DISK_FLAG, vdssys/MERGE_VIRTUAL_DISK_FLAG, vdssys/MERGE_VIRTUAL_DISK_FLAG_NONE, vhd.merge_virtual_disk_flag, virtdisk/MERGE_VIRTUAL_DISK_FLAG, virtdisk/MERGE_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	MERGE_VIRTUAL_DISK_FLAG
 product: Windows

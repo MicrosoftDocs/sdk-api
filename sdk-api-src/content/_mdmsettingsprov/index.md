@@ -2,7 +2,7 @@
 UID: TP:mdmsettingsprov
 ms.assetid: cad0a72c-f837-3cab-8a58-a0d068bcf3b3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

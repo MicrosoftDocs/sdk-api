@@ -7,7 +7,7 @@ old-location: p2p\peergroupgetrecord.htm
 old-project: P2PSdk
 ms.assetid: cf24bf5f-8ffc-4b86-80f7-dcb7621f49d2
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGroupGetRecord, PeerGroupGetRecord function [Peer Networking], p2p.peergroupgetrecord, p2p/PeerGroupGetRecord
 ms.prod: windows
 ms.technology: windows-sdk

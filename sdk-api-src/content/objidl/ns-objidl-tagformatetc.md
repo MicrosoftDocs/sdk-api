@@ -7,7 +7,7 @@ old-location: com\formatetc.htm
 old-project: com
 ms.assetid: 4478eb9a-84a1-4f3a-8290-94b8dd20c081
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPFORMATETC, FORMATETC, FORMATETC structure [COM], LPFORMATETC, LPFORMATETC structure pointer [COM], _ole_FORMATETC, com.formatetc, objidl/FORMATETC, objidl/LPFORMATETC, tagFORMATETC"
 ms.prod: windows
 ms.technology: windows-sdk

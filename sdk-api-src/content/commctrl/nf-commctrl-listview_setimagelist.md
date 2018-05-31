@@ -7,7 +7,7 @@ old-location: controls\ListView_SetImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setimagelist.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_SetImageList, ListView_SetImageList macro [Windows Controls], _win32_ListView_SetImageList, _win32_ListView_SetImageList_cpp, commctrl/ListView_SetImageList, controls.ListView_SetImageList, controls._win32_ListView_SetImageList
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt16Vector.htm
 old-project: properties
 ms.assetid: 34fe404c-cef6-47d9-9eaf-8ab151bd4726
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropVariantToUInt16Vector, PropVariantToUInt16Vector function [Windows Properties], _shell_PropVariantToUInt16Vector, properties.PropVariantToUInt16Vector, propvarutil/PropVariantToUInt16Vector, shell.PropVariantToUInt16Vector
 ms.prod: windows
 ms.technology: windows-sdk

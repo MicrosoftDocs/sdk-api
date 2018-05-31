@@ -2,7 +2,7 @@
 UID: NA:msvidctl
 ms.assetid: 7fede5d9-758c-3018-bfd4-2e756e7a19bc
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

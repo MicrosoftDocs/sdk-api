@@ -7,7 +7,7 @@ old-location: com\icallframe_unmarshal.htm
 old-project: com
 ms.assetid: 9f604366-0e1f-4e04-9843-13c77ea573ab
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ICallFrame interface [COM],Unmarshal method, ICallFrame.Unmarshal, ICallFrame::Unmarshal, Unmarshal, Unmarshal method [COM], Unmarshal method [COM],ICallFrame interface, _com_icallframe_unmarshal, callobj/ICallFrame::Unmarshal, com.icallframe_unmarshal
 ms.prod: windows
 ms.technology: windows-sdk

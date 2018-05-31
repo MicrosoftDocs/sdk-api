@@ -7,7 +7,7 @@ old-location: p2p\peergroupopen.htm
 old-project: P2PSdk
 ms.assetid: cfaf244f-8786-4801-926d-f6c79bfa4275
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGroupOpen, PeerGroupOpen function [Peer Networking], p2p.peergroupopen, p2p/PeerGroupOpen
 ms.prod: windows
 ms.technology: windows-sdk

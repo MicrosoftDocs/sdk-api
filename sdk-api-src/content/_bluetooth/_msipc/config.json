@@ -1,9 +1,0 @@
-{
-  "tech": "msipc",
-  "headers": [
-    "ipcprot.h",
-    "ipcfile.h",
-    "ipcerror.h",
-    "ipcbase.h"
-  ]
-}

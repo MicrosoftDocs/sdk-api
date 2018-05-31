@@ -7,13 +7,13 @@ old-location: vhd\delete_snapshot_vhdset_flag.htm
 old-project: VStor
 ms.assetid: 42B56389-8ECE-4127-A641-7F0A0A1E7D2D
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PDELETE_SNAPSHOT_VHDSET_FLAG, DELETE_SNAPSHOT_VHDSET_FLAG, DELETE_SNAPSHOT_VHDSET_FLAG enumeration [VHD], DELETE_SNAPSHOT_VHDSET_FLAG_NONE, DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, PDELETE_SNAPSHOT_VHDSET_FLAG, PDELETE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], _DELETE_SNAPSHOT_VHDSET_FLAG, vhd.delete_snapshot_vhdset_flag, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, virtdisk/PDELETE_SNAPSHOT_VHDSET_FLAG"
+ms.date: 05/29/2018
+ms.keywords: "*PDELETE_SNAPSHOT_VHDSET_FLAG, DELETE_SNAPSHOT_VHDSET_FLAG, DELETE_SNAPSHOT_VHDSET_FLAG enumeration [VHD], DELETE_SNAPSHOT_VHDSET_FLAG_NONE, DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, PDELETE_SNAPSHOT_VHDSET_FLAG, PDELETE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], _DELETE_SNAPSHOT_VHDSET_FLAG, vdssys/DELETE_SNAPSHOT_VHDSET_FLAG, vdssys/DELETE_SNAPSHOT_VHDSET_FLAG_NONE, vdssys/DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, vdssys/PDELETE_SNAPSHOT_VHDSET_FLAG, vhd.delete_snapshot_vhdset_flag, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, virtdisk/PDELETE_SNAPSHOT_VHDSET_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	DELETE_SNAPSHOT_VHDSET_FLAG
 product: Windows

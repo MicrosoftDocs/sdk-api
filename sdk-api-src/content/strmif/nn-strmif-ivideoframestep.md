@@ -7,7 +7,7 @@ old-location: dshow\ivideoframestep.htm
 old-project: DirectShow
 ms.assetid: 7bf45473-144c-49f8-8178-aff5b60112b6
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], IVideoFrameStep interface [DirectShow],described, IVideoFrameStepInterface, dshow.ivideoframestep, strmif/IVideoFrameStep
 ms.prod: windows
 ms.technology: windows-sdk

@@ -1,7 +1,0 @@
-{
-  "tech": "rdp",
-  "headers": [
-    "rdpencomapi.h"
-  ],
-  "displayName": "Windows Desktop Sharing"
-}

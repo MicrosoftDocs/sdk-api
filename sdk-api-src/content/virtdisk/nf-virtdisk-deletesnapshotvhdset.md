@@ -7,13 +7,13 @@ old-location: vhd\deletesnapshotvhdset.htm
 old-project: VStor
 ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
+ms.date: 05/29/2018
+ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vdssys/DeleteSnapshotVhdSet, vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]

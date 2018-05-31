@@ -7,7 +7,7 @@ old-location: controls\Animate_Close.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_close.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Animate_Close, Animate_Close macro [Windows Controls], _win32_Animate_Close, _win32_Animate_Close_cpp, commctrl/Animate_Close, controls.Animate_Close, controls._win32_Animate_Close
 ms.prod: windows
 ms.technology: windows-sdk

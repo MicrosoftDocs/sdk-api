@@ -7,7 +7,7 @@ old-location: com\ienumconnections_clone.htm
 old-project: com
 ms.assetid: 00edeff3-a2e4-4e25-8771-32e3e4353274
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumConnections interface, IEnumConnections interface [COM],Clone method, IEnumConnections.Clone, IEnumConnections::Clone, _com_ienumconnections_clone, com.ienumconnections_clone, ocidl/IEnumConnections::Clone
 ms.prod: windows
 ms.technology: windows-sdk

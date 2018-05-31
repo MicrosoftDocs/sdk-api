@@ -7,13 +7,13 @@ old-location: vhd\compact_virtual_disk_flag.htm
 old-project: VStor
 ms.assetid: e0efa6e3-e691-4854-a09e-9504a37621a2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: COMPACT_VIRTUAL_DISK_FLAG, COMPACT_VIRTUAL_DISK_FLAG enumeration [VHD], COMPACT_VIRTUAL_DISK_FLAG_NONE, _COMPACT_VIRTUAL_DISK_FLAG, vhd.compact_virtual_disk_flag, virtdisk/COMPACT_VIRTUAL_DISK_FLAG, virtdisk/COMPACT_VIRTUAL_DISK_FLAG_NONE
+ms.date: 05/29/2018
+ms.keywords: COMPACT_VIRTUAL_DISK_FLAG, COMPACT_VIRTUAL_DISK_FLAG enumeration [VHD], COMPACT_VIRTUAL_DISK_FLAG_NONE, _COMPACT_VIRTUAL_DISK_FLAG, vdssys/COMPACT_VIRTUAL_DISK_FLAG, vdssys/COMPACT_VIRTUAL_DISK_FLAG_NONE, vhd.compact_virtual_disk_flag, virtdisk/COMPACT_VIRTUAL_DISK_FLAG, virtdisk/COMPACT_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	COMPACT_VIRTUAL_DISK_FLAG
 product: Windows

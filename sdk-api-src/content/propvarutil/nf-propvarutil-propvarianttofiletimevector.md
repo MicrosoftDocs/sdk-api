@@ -7,7 +7,7 @@ old-location: properties\PropVariantToFileTimeVector.htm
 old-project: properties
 ms.assetid: ef665f50-3f3b-47db-9133-490305da5341
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropVariantToFileTimeVector, PropVariantToFileTimeVector function [Windows Properties], _shell_PropVariantToFileTimeVector, properties.PropVariantToFileTimeVector, propvarutil/PropVariantToFileTimeVector, shell.PropVariantToFileTimeVector
 ms.prod: windows
 ms.technology: windows-sdk

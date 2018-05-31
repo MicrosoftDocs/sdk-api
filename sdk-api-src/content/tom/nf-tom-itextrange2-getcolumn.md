@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getcolumn.htm
 old-project: Controls
 ms.assetid: d8e2c985-9799-42c9-b23d-43c16bae5c69
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetColumn, GetColumn method [Windows Controls], GetColumn method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetColumn method, ITextRange2.GetColumn, ITextRange2::GetColumn, controls.itextrange2_getcolumn, tom/ITextRange2::GetColumn
 ms.prod: windows
 ms.technology: windows-sdk

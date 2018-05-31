@@ -1,7 +1,0 @@
-{
-  "tech": "directdraw",
-  "headers": [
-    "ddraw.h"
-  ],
-  "displayName": "DirectDraw"
-}

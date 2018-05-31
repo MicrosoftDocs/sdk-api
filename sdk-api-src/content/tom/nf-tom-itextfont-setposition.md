@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetPosition.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setposition.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextFont interface [Windows Controls],SetPosition method, ITextFont.SetPosition, ITextFont::SetPosition, SetPosition, SetPosition method [Windows Controls], SetPosition method [Windows Controls],ITextFont interface, _win32_ITextFont_SetPosition, _win32_ITextFont_SetPosition_cpp, controls.ITextFont_SetPosition, controls._win32_ITextFont_SetPosition, tom/ITextFont::SetPosition
 ms.prod: windows
 ms.technology: windows-sdk

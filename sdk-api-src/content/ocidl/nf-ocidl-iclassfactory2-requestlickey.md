@@ -7,7 +7,7 @@ old-location: com\iclassfactory2_requestlickey.htm
 old-project: com
 ms.assetid: 6c0211d2-1cdd-4d1a-a1fe-44c89b750af6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IClassFactory2 interface [COM],RequestLicKey method, IClassFactory2.RequestLicKey, IClassFactory2::RequestLicKey, RequestLicKey, RequestLicKey method [COM], RequestLicKey method [COM],IClassFactory2 interface, _com_iclassfactory2_requestlickey, com.iclassfactory2_requestlickey, ocidl/IClassFactory2::RequestLicKey
 ms.prod: windows
 ms.technology: windows-sdk

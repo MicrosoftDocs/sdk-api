@@ -7,7 +7,7 @@ old-location: setup\msigetfilesignatureinformation.htm
 old-project: Msi
 ms.assetid: a3f8b8ef-2d2e-4375-a2bb-08a53a94fb16
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MSI_INVALID_HASH_IS_FATAL, MsiGetFileSignatureInformation, MsiGetFileSignatureInformation function, MsiGetFileSignatureInformationA, MsiGetFileSignatureInformationW, _msi_msigetfilesignatureinformation, msi/MsiGetFileSignatureInformation, msi/MsiGetFileSignatureInformationA, msi/MsiGetFileSignatureInformationW, setup.msigetfilesignatureinformation
 ms.prod: windows
 ms.technology: windows-sdk

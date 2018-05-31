@@ -7,7 +7,7 @@ old-location: dshow\filter_info.htm
 old-project: DirectShow
 ms.assetid: 43d1951e-448d-4139-879b-3fe021490d7d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: FILTER_INFO, FILTER_INFO structure [DirectShow], FILTER_INFOStructure, _FilterInfo, dshow.filter_info, strmif/FILTER_INFO
 ms.prod: windows
 ms.technology: windows-sdk

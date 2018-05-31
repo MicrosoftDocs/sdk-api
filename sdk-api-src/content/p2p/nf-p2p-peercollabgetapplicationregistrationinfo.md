@@ -7,7 +7,7 @@ old-location: p2p\peercollabgetapplicationregistrationinfo.htm
 old-project: P2PSdk
 ms.assetid: d1a8888e-4153-4486-9384-615ae7ed7031
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerCollabGetApplicationRegistrationInfo, PeerCollabGetApplicationRegistrationInfo function [Peer Networking], p2p.peercollabgetapplicationregistrationinfo, p2p/PeerCollabGetApplicationRegistrationInfo
 ms.prod: windows
 ms.technology: windows-sdk

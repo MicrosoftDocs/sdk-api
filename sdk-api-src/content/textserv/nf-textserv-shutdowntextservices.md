@@ -7,7 +7,7 @@ old-location: controls\shutdowntextservices.htm
 old-project: Controls
 ms.assetid: 3367D22B-1F9E-4D70-8907-0F218A23AE7E
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Controls], controls.shutdowntextservices, textserv/ShutdownTextServices
 ms.prod: windows
 ms.technology: windows-sdk

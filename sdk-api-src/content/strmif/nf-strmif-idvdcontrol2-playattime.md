@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playattime.htm
 old-project: DirectShow
 ms.assetid: 75b66e8d-3107-48ca-a887-20cf3c0b9234
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTime method, IDvdControl2.PlayAtTime, IDvdControl2::PlayAtTime, IDvdControl2PlayAtTime, PlayAtTime, PlayAtTime method [DirectShow], PlayAtTime method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattime, strmif/IDvdControl2::PlayAtTime
 ms.prod: windows
 ms.technology: windows-sdk

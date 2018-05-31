@@ -7,7 +7,7 @@ old-location: controls\GetScrollBarInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollbarinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetScrollBarInfo, GetScrollBarInfo function [Windows Controls], OBJID_CLIENT, OBJID_HSCROLL, OBJID_VSCROLL, _win32_GetScrollBarInfo, _win32_GetScrollBarInfo_cpp, controls.GetScrollBarInfo, controls._win32_GetScrollBarInfo, winuser/GetScrollBarInfo
 ms.prod: windows
 ms.technology: windows-sdk

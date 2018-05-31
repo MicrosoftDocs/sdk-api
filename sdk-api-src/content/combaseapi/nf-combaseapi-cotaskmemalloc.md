@@ -7,7 +7,7 @@ old-location: com\cotaskmemalloc.htm
 old-project: com
 ms.assetid: c4cb588d-9482-4f90-a92e-75b604540d5c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CoTaskMemAlloc, CoTaskMemAlloc function [COM], _com_CoTaskMemAlloc, com.cotaskmemalloc, combaseapi/CoTaskMemAlloc
 ms.prod: windows
 ms.technology: windows-sdk

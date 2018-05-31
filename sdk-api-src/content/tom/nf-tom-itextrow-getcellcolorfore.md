@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellcolorfore.htm
 old-project: Controls
 ms.assetid: 92c8bff3-a56b-4adc-9f49-728f22c1089b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetCellColorFore, GetCellColorFore method [Windows Controls], GetCellColorFore method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellColorFore method, ITextRow.GetCellColorFore, ITextRow::GetCellColorFore, controls.itextrow_getcellcolorfore, tom/ITextRow::GetCellColorFore
 ms.prod: windows
 ms.technology: windows-sdk

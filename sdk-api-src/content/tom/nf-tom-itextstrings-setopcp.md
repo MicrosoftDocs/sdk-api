@@ -7,7 +7,7 @@ old-location: controls\itextstrings_setopcp.htm
 old-project: Controls
 ms.assetid: c869a42a-0937-4051-9cb0-d454255989d2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextStrings interface [Windows Controls],SetOpCp method, ITextStrings.SetOpCp, ITextStrings::SetOpCp, SetOpCp, SetOpCp method [Windows Controls], SetOpCp method [Windows Controls],ITextStrings interface, controls.itextstrings_setopcp, tom/ITextStrings::SetOpCp
 ms.prod: windows
 ms.technology: windows-sdk

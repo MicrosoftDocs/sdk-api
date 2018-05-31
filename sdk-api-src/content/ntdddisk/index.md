@@ -2,7 +2,7 @@
 UID: NA:ntdddisk
 ms.assetid: 2395b2bc-8867-39af-9b0d-1b0147c01cac
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

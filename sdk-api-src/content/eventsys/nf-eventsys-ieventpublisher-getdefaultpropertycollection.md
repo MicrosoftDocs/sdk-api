@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_getdefaultpropertycollection.htm
 old-project: com
 ms.assetid: ca5d116a-b995-4311-9c58-6b957fca6b53
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetDefaultPropertyCollection, GetDefaultPropertyCollection method [COM], GetDefaultPropertyCollection method [COM],IEventPublisher interface, IEventPublisher interface [COM],GetDefaultPropertyCollection method, IEventPublisher.GetDefaultPropertyCollection, IEventPublisher::GetDefaultPropertyCollection, _com_ieventpublisher_getdefaultpropertycollection, com.ieventpublisher_getdefaultpropertycollection, eventsys/IEventPublisher::GetDefaultPropertyCollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_setmenu.htm
 old-project: com
 ms.assetid: dc26a399-846d-4d15-b406-752350e528c2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleInPlaceFrame interface [COM],SetMenu method, IOleInPlaceFrame.SetMenu, IOleInPlaceFrame::SetMenu, SetMenu, SetMenu method [COM], SetMenu method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setmenu, com.ioleinplaceframe_setmenu, oleidl/IOleInPlaceFrame::SetMenu
 ms.prod: windows
 ms.technology: windows-sdk

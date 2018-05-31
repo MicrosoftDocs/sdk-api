@@ -2,7 +2,7 @@
 UID: NA:pnrpns
 ms.assetid: 314a6c89-efa2-3ccd-81ea-0feafa231770
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

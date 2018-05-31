@@ -7,7 +7,7 @@ old-location: controls\iricheditwindowlessaccessibility.htm
 old-project: Controls
 ms.assetid: E58E9577-4004-4627-A0D6-CF8166C0C43F
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility interface [Windows Controls], IRicheditWindowlessAccessibility interface [Windows Controls],described, controls.iricheditwindowlessaccessibility, textserv/IRicheditWindowlessAccessibility
 ms.prod: windows
 ms.technology: windows-sdk

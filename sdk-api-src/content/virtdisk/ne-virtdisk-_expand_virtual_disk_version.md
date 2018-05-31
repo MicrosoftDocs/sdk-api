@@ -7,13 +7,13 @@ old-location: vhd\expand_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 28651993-81ad-4dfc-9c8b-3768fab5d3ae
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD], EXPAND_VIRTUAL_DISK_VERSION_1, EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, _EXPAND_VIRTUAL_DISK_VERSION, vhd.expand_virtual_disk_version, virtdisk/EXPAND_VIRTUAL_DISK_VERSION, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
+ms.date: 05/29/2018
+ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD], EXPAND_VIRTUAL_DISK_VERSION_1, EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, _EXPAND_VIRTUAL_DISK_VERSION, vdssys/EXPAND_VIRTUAL_DISK_VERSION, vdssys/EXPAND_VIRTUAL_DISK_VERSION_1, vdssys/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.expand_virtual_disk_version, virtdisk/EXPAND_VIRTUAL_DISK_VERSION, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	EXPAND_VIRTUAL_DISK_VERSION
 product: Windows

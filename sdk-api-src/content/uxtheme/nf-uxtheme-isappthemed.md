@@ -7,7 +7,7 @@ old-location: controls\IsAppThemed.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isappthemed.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IsAppThemed, IsAppThemed function [Windows Controls], controls.IsAppThemed, controls.inet_IsAppThemed, inet_IsAppThemed, inet_IsAppThemed_cpp, uxtheme/IsAppThemed
 ms.prod: windows
 ms.technology: windows-sdk

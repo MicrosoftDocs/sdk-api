@@ -7,7 +7,7 @@ old-location: p2p\peer_invitation_response_type.htm
 old-project: P2PSdk
 ms.assetid: ad456eb5-a28c-4826-976f-e38e2f269ff0
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PEER_INVITATION_RESPONSE_ACCEPTED, PEER_INVITATION_RESPONSE_DECLINED, PEER_INVITATION_RESPONSE_ERROR, PEER_INVITATION_RESPONSE_EXPIRED, PEER_INVITATION_RESPONSE_TYPE, PEER_INVITATION_RESPONSE_TYPE enumeration [Peer Networking], p2p.peer_invitation_response_type, p2p/PEER_INVITATION_RESPONSE_ACCEPTED, p2p/PEER_INVITATION_RESPONSE_DECLINED, p2p/PEER_INVITATION_RESPONSE_ERROR, p2p/PEER_INVITATION_RESPONSE_EXPIRED, p2p/PEER_INVITATION_RESPONSE_TYPE, peer_invitation_response_type_tag
 ms.prod: windows
 ms.technology: windows-sdk

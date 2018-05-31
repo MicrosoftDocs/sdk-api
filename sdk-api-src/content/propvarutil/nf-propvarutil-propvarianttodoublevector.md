@@ -7,7 +7,7 @@ old-location: properties\PropVariantToDoubleVector.htm
 old-project: properties
 ms.assetid: 2d90bf96-8a3f-4949-8480-bb75f0deeb2e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropVariantToDoubleVector, PropVariantToDoubleVector function [Windows Properties], _shell_PropVariantToDoubleVector, properties.PropVariantToDoubleVector, propvarutil/PropVariantToDoubleVector, shell.PropVariantToDoubleVector
 ms.prod: windows
 ms.technology: windows-sdk

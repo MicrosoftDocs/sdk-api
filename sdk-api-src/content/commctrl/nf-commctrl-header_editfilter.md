@@ -7,7 +7,7 @@ old-location: controls\Header_EditFilter.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_editfilter.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: FALSE, Header_EditFilter, Header_EditFilter macro [Windows Controls], TRUE, _win32_Header_EditFilter, _win32_Header_EditFilter_cpp, commctrl/Header_EditFilter, controls.Header_EditFilter, controls._win32_Header_EditFilter
 ms.prod: windows
 ms.technology: windows-sdk

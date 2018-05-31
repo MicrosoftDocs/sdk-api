@@ -7,7 +7,7 @@ old-location: properties\SYNC_TRANSFER_STATUS.htm
 old-project: properties
 ms.assetid: B772BF05-0E82-48E6-9A0B-A3C53FBC5F60
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: STS_FETCHING_METADATA, STS_HASERROR, STS_NEEDSDOWNLOAD, STS_NEEDSUPLOAD, STS_NONE, STS_PAUSED, STS_TRANSFERRING, SYNC_TRANSFER_STATUS, SYNC_TRANSFER_STATUS enumeration [Windows Properties], properties.SYNC_TRANSFER_STATUS, shobjidl_core/STS_FETCHING_METADATA, shobjidl_core/STS_HASERROR, shobjidl_core/STS_NEEDSDOWNLOAD, shobjidl_core/STS_NEEDSUPLOAD, shobjidl_core/STS_NONE, shobjidl_core/STS_PAUSED, shobjidl_core/STS_TRANSFERRING, shobjidl_core/SYNC_TRANSFER_STATUS
 ms.prod: windows
 ms.technology: windows-sdk

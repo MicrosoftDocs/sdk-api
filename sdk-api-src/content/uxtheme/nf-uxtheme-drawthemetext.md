@@ -7,7 +7,7 @@ old-location: controls\DrawThemeText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DrawThemeText, DrawThemeText function [Windows Controls], controls.DrawThemeText, controls.inet_DrawThemeText, inet_DrawThemeText, inet_DrawThemeText_cpp, uxtheme/DrawThemeText
 ms.prod: windows
 ms.technology: windows-sdk

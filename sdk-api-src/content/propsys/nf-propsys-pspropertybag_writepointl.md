@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WritePOINTL.htm
 old-project: properties
 ms.assetid: 881A9D35-DF77-44d1-86DF-D6BC97AC0DD4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSPropertyBag_WritePOINTL, PSPropertyBag_WritePOINTL function [Windows Properties], properties.PSPropertyBag_WritePOINTL, propsys/PSPropertyBag_WritePOINTL, shell.PSPropertyBag_WritePOINTL, shell_PSPropertyBag_WritePOINTL
 ms.prod: windows
 ms.technology: windows-sdk

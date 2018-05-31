@@ -7,7 +7,7 @@ old-location: controls\Pager_GetDropTarget.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getdroptarget.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Pager_GetDropTarget, Pager_GetDropTarget macro [Windows Controls], _win32_Pager_GetDropTarget, _win32_Pager_GetDropTarget_cpp, commctrl/Pager_GetDropTarget, controls.Pager_GetDropTarget, controls._win32_Pager_GetDropTarget
 ms.prod: windows
 ms.technology: windows-sdk

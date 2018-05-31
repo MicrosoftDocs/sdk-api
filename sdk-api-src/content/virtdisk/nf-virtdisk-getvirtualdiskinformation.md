@@ -7,13 +7,13 @@ old-location: vhd\getvirtualdiskinformation.htm
 old-project: VStor
 ms.assetid: c3832be0-e9b8-4f6a-a663-06349c7fd639
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: GetVirtualDiskInformation, GetVirtualDiskInformation function [VHD], vhd.getvirtualdiskinformation, virtdisk/GetVirtualDiskInformation
+ms.date: 05/29/2018
+ms.keywords: GetVirtualDiskInformation, GetVirtualDiskInformation function [VHD], vdssys/GetVirtualDiskInformation, vhd.getvirtualdiskinformation, virtdisk/GetVirtualDiskInformation
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

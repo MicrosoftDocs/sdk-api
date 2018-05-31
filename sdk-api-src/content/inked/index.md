@@ -2,7 +2,7 @@
 UID: NA:inked
 ms.assetid: 9d8b5187-1dd9-36ba-a92d-7b58ceff402d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

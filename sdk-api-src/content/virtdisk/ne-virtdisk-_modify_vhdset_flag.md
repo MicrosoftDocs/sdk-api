@@ -7,13 +7,13 @@ old-location: vhd\modify_vhdset_flag.htm
 old-project: VStor
 ms.assetid: E983A928-CE3A-4B68-BDB5-CC21CB2BCC6F
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PMODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG enumeration [VHD], MODIFY_VHDSET_FLAG_NONE, PMODIFY_VHDSET_FLAG, PMODIFY_VHDSET_FLAG enumeration pointer [VHD], _MODIFY_VHDSET_FLAG, vhd.modify_vhdset_flag, virtdisk/MODIFY_VHDSET_FLAG, virtdisk/MODIFY_VHDSET_FLAG_NONE, virtdisk/PMODIFY_VHDSET_FLAG"
+ms.date: 05/29/2018
+ms.keywords: "*PMODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG enumeration [VHD], MODIFY_VHDSET_FLAG_NONE, PMODIFY_VHDSET_FLAG, PMODIFY_VHDSET_FLAG enumeration pointer [VHD], _MODIFY_VHDSET_FLAG, vdssys/MODIFY_VHDSET_FLAG, vdssys/MODIFY_VHDSET_FLAG_NONE, vdssys/PMODIFY_VHDSET_FLAG, vhd.modify_vhdset_flag, virtdisk/MODIFY_VHDSET_FLAG, virtdisk/MODIFY_VHDSET_FLAG_NONE, virtdisk/PMODIFY_VHDSET_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	MODIFY_VHDSET_FLAG
 product: Windows

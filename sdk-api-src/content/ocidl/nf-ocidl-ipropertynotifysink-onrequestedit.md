@@ -7,7 +7,7 @@ old-location: com\ipropertynotifysink_onrequestedit.htm
 old-project: com
 ms.assetid: 52f4c45d-d658-4de2-a494-2ae164604681
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnRequestEdit method, IPropertyNotifySink.OnRequestEdit, IPropertyNotifySink::OnRequestEdit, OnRequestEdit, OnRequestEdit method [COM], OnRequestEdit method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onrequestedit, com.ipropertynotifysink_onrequestedit, ocidl/IPropertyNotifySink::OnRequestEdit
 ms.prod: windows
 ms.technology: windows-sdk

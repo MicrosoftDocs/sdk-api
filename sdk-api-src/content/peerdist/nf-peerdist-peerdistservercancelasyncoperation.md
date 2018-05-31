@@ -7,7 +7,7 @@ old-location: p2p\peerdistservercancelasyncoperation.htm
 old-project: P2PSdk
 ms.assetid: b8daa90a-f184-40cb-a62b-b1d122eb7781
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerDistServerCancelAsyncOperation, PeerDistServerCancelAsyncOperation function [Peer Networking], p2p.peerdistservercancelasyncoperation, peerdist/PeerDistServerCancelAsyncOperation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PSCreatePropertyChangeArray.htm
 old-project: properties
 ms.assetid: 5e0fdf09-a688-4297-9abe-2f1d67fce1a2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSCreatePropertyChangeArray, PSCreatePropertyChangeArray function [Windows Properties], _shell_PSCreatePropertyChangeArray, properties.PSCreatePropertyChangeArray, propsys/PSCreatePropertyChangeArray, shell.PSCreatePropertyChangeArray
 ms.prod: windows
 ms.technology: windows-sdk

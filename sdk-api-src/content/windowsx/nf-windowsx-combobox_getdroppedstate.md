@@ -7,7 +7,7 @@ old-location: controls\ComboBox_GetDroppedState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getdroppedstate.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ComboBox_GetDroppedState, ComboBox_GetDroppedState macro [Windows Controls], _win32_ComboBox_GetDroppedState, _win32_ComboBox_GetDroppedState_cpp, controls.ComboBox_GetDroppedState, controls._win32_ComboBox_GetDroppedState, windowsx/ComboBox_GetDroppedState
 ms.prod: windows
 ms.technology: windows-sdk

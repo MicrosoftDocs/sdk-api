@@ -7,7 +7,7 @@ old-location: etw\tdhunloadmanifest.htm
 old-project: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
 ms.prod: windows
 ms.technology: windows-sdk

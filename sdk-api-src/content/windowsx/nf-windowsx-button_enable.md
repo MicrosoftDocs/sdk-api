@@ -7,7 +7,7 @@ old-location: controls\Button_Enable.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_enable.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Button_Enable, Button_Enable macro [Windows Controls], _win32_Button_Enable, _win32_Button_Enable_cpp, controls.Button_Enable, controls._win32_Button_Enable, windowsx/Button_Enable
 ms.prod: windows
 ms.technology: windows-sdk

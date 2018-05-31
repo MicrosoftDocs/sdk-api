@@ -7,7 +7,7 @@ old-location: dshow\iamparse_flush.htm
 old-project: DirectShow
 ms.assetid: 8ff33099-3dc4-4f43-8852-4bd6a8877f29
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],Flush method, IAMParse.Flush, IAMParse::Flush, IAMParseFlush, amparse/IAMParse::Flush, dshow.iamparse_flush
 ms.prod: windows
 ms.technology: windows-sdk

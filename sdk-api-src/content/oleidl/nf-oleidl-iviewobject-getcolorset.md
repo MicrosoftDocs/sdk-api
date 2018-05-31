@@ -7,7 +7,7 @@ old-location: com\iviewobject_getcolorset.htm
 old-project: com
 ms.assetid: 68454266-ca31-44ec-8847-4d47001d9849
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetColorSet, GetColorSet method [COM], GetColorSet method [COM],IViewObject interface, IViewObject interface [COM],GetColorSet method, IViewObject.GetColorSet, IViewObject::GetColorSet, _ole_iviewobject_getcolorset, com.iviewobject_getcolorset, oleidl/IViewObject::GetColorSet
 ms.prod: windows
 ms.technology: windows-sdk

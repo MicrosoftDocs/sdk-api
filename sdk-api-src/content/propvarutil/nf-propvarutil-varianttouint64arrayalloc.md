@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt64ArrayAlloc.htm
 old-project: properties
 ms.assetid: 898edef6-a688-4a39-897c-70f29952db49
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: VariantToUInt64ArrayAlloc, VariantToUInt64ArrayAlloc function [Windows Properties], _shell_VariantToUInt64ArrayAlloc, properties.VariantToUInt64ArrayAlloc, propvarutil/VariantToUInt64ArrayAlloc, shell.VariantToUInt64ArrayAlloc
 ms.prod: windows
 ms.technology: windows-sdk

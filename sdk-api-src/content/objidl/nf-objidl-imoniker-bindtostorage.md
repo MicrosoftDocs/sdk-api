@@ -7,7 +7,7 @@ old-location: com\imoniker_bindtostorage.htm
 old-project: com
 ms.assetid: 94c8219f-8131-45dd-b350-878ffd6161ea
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: BindToStorage, BindToStorage method [COM], BindToStorage method [COM],IMoniker interface, IMoniker interface [COM],BindToStorage method, IMoniker.BindToStorage, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
 ms.prod: windows
 ms.technology: windows-sdk

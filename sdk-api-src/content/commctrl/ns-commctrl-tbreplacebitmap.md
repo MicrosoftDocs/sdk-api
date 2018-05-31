@@ -7,7 +7,7 @@ old-location: controls\TBREPLACEBITMAP.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbreplacebitmap.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPTBREPLACEBITMAP, LPTBREPLACEBITMAP, LPTBREPLACEBITMAP structure pointer [Windows Controls], TBREPLACEBITMAP, TBREPLACEBITMAP structure [Windows Controls], _win32_TBREPLACEBITMAP, _win32_TBREPLACEBITMAP_cpp, commctrl/LPTBREPLACEBITMAP, commctrl/TBREPLACEBITMAP, controls.TBREPLACEBITMAP, controls._win32_TBREPLACEBITMAP"
 ms.prod: windows
 ms.technology: windows-sdk

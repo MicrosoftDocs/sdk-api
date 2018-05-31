@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_geteditproperty.htm
 old-project: DirectShow
 ms.assetid: c36b1fb1-f0a7-49df-8a6c-fb90ab268b23
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetEditProperty, GetEditProperty method [DirectShow], GetEditProperty method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetEditProperty method, IAMExtTransport.GetEditProperty, IAMExtTransport::GetEditProperty, IAMExtTransportGetEditProperty, dshow.iamexttransport_geteditproperty, strmif/IAMExtTransport::GetEditProperty
 ms.prod: windows
 ms.technology: windows-sdk

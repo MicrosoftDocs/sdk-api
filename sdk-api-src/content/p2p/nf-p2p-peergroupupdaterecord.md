@@ -7,7 +7,7 @@ old-location: p2p\peergroupupdaterecord.htm
 old-project: P2PSdk
 ms.assetid: bfff0422-452c-4780-8df7-d3e8d5ad385c
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGroupUpdateRecord, PeerGroupUpdateRecord function [Peer Networking], p2p.peergroupupdaterecord, p2p/PeerGroupUpdateRecord
 ms.prod: windows
 ms.technology: windows-sdk

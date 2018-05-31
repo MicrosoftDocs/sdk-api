@@ -7,7 +7,7 @@ old-location: setup\msigetfileversion.htm
 old-project: Msi
 ms.assetid: 9dd7d71e-2e76-4755-a979-f3dcdcd6ebec
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiGetFileVersion, MsiGetFileVersion function, MsiGetFileVersionA, MsiGetFileVersionW, _msi_msigetfileversion, msi/MsiGetFileVersion, msi/MsiGetFileVersionA, msi/MsiGetFileVersionW, setup.msigetfileversion
 ms.prod: windows
 ms.technology: windows-sdk

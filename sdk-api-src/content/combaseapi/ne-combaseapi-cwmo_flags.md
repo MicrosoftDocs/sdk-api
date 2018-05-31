@@ -7,7 +7,7 @@ old-location: com\cwmo_flags.htm
 old-project: com
 ms.assetid: 5FE605A9-DE92-4CD9-9390-6C9F5189A7CB
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CWMO_DISPATCH_CALLS, CWMO_DISPATCH_WINDOW_MESSAGE, CWMO_FLAGS, CWMO_FLAGS enumeration [COM], com.cwmo_flags, combaseapi/CWMO_DISPATCH_CALLS, combaseapi/CWMO_DISPATCH_WINDOW_MESSAGE, combaseapi/CWMO_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

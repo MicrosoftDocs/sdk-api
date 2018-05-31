@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectimpl_outputtype.htm
 old-project: DirectShow
 ms.assetid: 46831756-ed3b-40de-80ad-21874db283c4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputType method, IMediaObjectImpl.OutputType, IMediaObjectImpl::OutputType, IMediaObjectImplOutputType, OutputType, OutputType method [DirectShow], OutputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputType, dshow.imediaobjectimpl_outputtype
 ms.prod: windows
 ms.technology: windows-sdk

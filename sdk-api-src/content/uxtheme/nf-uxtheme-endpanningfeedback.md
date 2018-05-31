@@ -7,7 +7,7 @@ old-location: controls\EndPanningFeedback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endpanningfeedback.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: EndPanningFeedback, EndPanningFeedback function [Windows Controls], _controls_EndPanningFeedback, _controls_EndPanningFeedback_cpp, controls.EndPanningFeedback, controls._controls_EndPanningFeedback, uxtheme/EndPanningFeedback
 ms.prod: windows
 ms.technology: windows-sdk

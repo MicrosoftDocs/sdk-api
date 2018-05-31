@@ -7,7 +7,7 @@ old-location: properties\SHGetPropertyStoreFromParsingName.htm
 old-project: properties
 ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
 ms.prod: windows
 ms.technology: windows-sdk

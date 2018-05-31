@@ -7,7 +7,7 @@ old-location: controls\itextstrings_prefixtop.htm
 old-project: Controls
 ms.assetid: fbdae612-1d6e-4f10-9b55-5ee038f27b79
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextStrings interface [Windows Controls],PrefixTop method, ITextStrings.PrefixTop, ITextStrings::PrefixTop, PrefixTop, PrefixTop method [Windows Controls], PrefixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_prefixtop, tom/ITextStrings::PrefixTop
 ms.prod: windows
 ms.technology: windows-sdk

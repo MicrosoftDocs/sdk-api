@@ -7,7 +7,7 @@ old-location: controls\Pager_GetButtonSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonsize.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Pager_GetButtonSize, Pager_GetButtonSize macro [Windows Controls], _win32_Pager_GetButtonSize, _win32_Pager_GetButtonSize_cpp, commctrl/Pager_GetButtonSize, controls.Pager_GetButtonSize, controls._win32_Pager_GetButtonSize
 ms.prod: windows
 ms.technology: windows-sdk

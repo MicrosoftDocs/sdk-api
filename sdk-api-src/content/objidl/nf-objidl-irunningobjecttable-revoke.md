@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_revoke.htm
 old-project: com
 ms.assetid: d3d83966-035d-4077-a770-cb62c8011132
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IRunningObjectTable interface [COM],Revoke method, IRunningObjectTable.Revoke, IRunningObjectTable::Revoke, Revoke, Revoke method [COM], Revoke method [COM],IRunningObjectTable interface, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
 ms.prod: windows
 ms.technology: windows-sdk

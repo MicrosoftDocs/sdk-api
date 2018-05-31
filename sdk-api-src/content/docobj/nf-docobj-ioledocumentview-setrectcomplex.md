@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_setrectcomplex.htm
 old-project: com
 ms.assetid: d220b200-85cb-43ff-a59d-147c14eef544
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleDocumentView interface [COM],SetRectComplex method, IOleDocumentView.SetRectComplex, IOleDocumentView::SetRectComplex, SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
 ms.prod: windows
 ms.technology: windows-sdk

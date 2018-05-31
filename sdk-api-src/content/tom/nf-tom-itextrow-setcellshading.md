@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellshading.htm
 old-project: Controls
 ms.assetid: 9163a9a3-6f8c-4318-a5a1-4b00a9037f6a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellShading method, ITextRow.SetCellShading, ITextRow::SetCellShading, SetCellShading, SetCellShading method [Windows Controls], SetCellShading method [Windows Controls],ITextRow interface, controls.itextrow_setcellshading, tom/ITextRow::SetCellShading
 ms.prod: windows
 ms.technology: windows-sdk

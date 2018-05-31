@@ -7,13 +7,13 @@ old-location: vhd\take_snapshot_vhdset_flag.htm
 old-project: VStor
 ms.assetid: 2A714FFB-E462-418E-B0AC-E7929619604B
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], TAKE_SNAPSHOT_VHDSET_FLAG, TAKE_SNAPSHOT_VHDSET_FLAG enumeration [VHD], TAKE_SNAPSHOT_VHDSET_FLAG_NONE, _TAKE_SNAPSHOT_VHDSET_FLAG, vhd.take_snapshot_vhdset_flag, virtdisk/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/PTAKE_SNAPSHOT_VHDSET_FLAG, virtdisk/TAKE_SNAPSHOT_VHDSET_FLAG"
+ms.date: 05/29/2018
+ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], TAKE_SNAPSHOT_VHDSET_FLAG, TAKE_SNAPSHOT_VHDSET_FLAG enumeration [VHD], TAKE_SNAPSHOT_VHDSET_FLAG_NONE, _TAKE_SNAPSHOT_VHDSET_FLAG, vdssys/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE, vdssys/PTAKE_SNAPSHOT_VHDSET_FLAG, vdssys/TAKE_SNAPSHOT_VHDSET_FLAG, vhd.take_snapshot_vhdset_flag, virtdisk/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/PTAKE_SNAPSHOT_VHDSET_FLAG, virtdisk/TAKE_SNAPSHOT_VHDSET_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	TAKE_SNAPSHOT_VHDSET_FLAG
 product: Windows

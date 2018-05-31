@@ -7,7 +7,7 @@ old-location: properties\IsVarTypeSignedInteger.htm
 old-project: properties
 ms.assetid: 8d5510c6-6c1c-4cc5-85a6-00514278029d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IsVarTypeSignedInteger, IsVarTypeSignedInteger function [Windows Properties], _shell_IsVarTypeSignedInteger, properties.IsVarTypeSignedInteger, propvarutil/IsVarTypeSignedInteger, shell.IsVarTypeSignedInteger
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig.htm
 old-project: DirectShow
 ms.assetid: 611b43dc-7f6d-404e-90a4-b109b9475fb6
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], IAMNetShowConfig interface [DirectShow],described, IAMNetShowConfigInterface, dshow.iamnetshowconfig, qnetwork/IAMNetShowConfig
 ms.prod: windows
 ms.technology: windows-sdk

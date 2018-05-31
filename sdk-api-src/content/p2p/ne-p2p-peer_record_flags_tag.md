@@ -7,7 +7,7 @@ old-location: p2p\peer_record_flags.htm
 old-project: P2PSdk
 ms.assetid: 2ae2411d-3409-442a-8655-e54a34bf3938
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PEER_RECORD_FLAGS, PEER_RECORD_FLAGS enumeration [Peer Networking], PEER_RECORD_FLAG_AUTOREFRESH, PEER_RECORD_FLAG_DELETED, p2p.peer_record_flags, p2p/PEER_RECORD_FLAGS, p2p/PEER_RECORD_FLAG_AUTOREFRESH, p2p/PEER_RECORD_FLAG_DELETED, peer_record_flags_tag
 ms.prod: windows
 ms.technology: windows-sdk

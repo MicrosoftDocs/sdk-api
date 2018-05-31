@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getmodwidthspace.htm
 old-project: Controls
 ms.assetid: 6ce6250f-94e6-4a20-89cd-f3e9a83a9408
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetModWidthSpace, GetModWidthSpace method [Windows Controls], GetModWidthSpace method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetModWidthSpace method, ITextFont2.GetModWidthSpace, ITextFont2::GetModWidthSpace, controls.itextfont2_getmodwidthspace, tom/ITextFont2::GetModWidthSpace
 ms.prod: windows
 ms.technology: windows-sdk

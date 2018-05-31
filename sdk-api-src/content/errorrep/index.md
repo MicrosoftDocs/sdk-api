@@ -2,7 +2,7 @@
 UID: NA:errorrep
 ms.assetid: e736288e-b73c-3d88-b465-87413e1b606d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

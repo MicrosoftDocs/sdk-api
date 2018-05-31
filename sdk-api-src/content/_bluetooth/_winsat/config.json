@@ -1,7 +1,0 @@
-{
-  "tech": "winsat",
-  "headers": [
-    "winsatcominterfacei.h"
-  ],
-  "displayName": "Windows System Assessment Tool"
-}

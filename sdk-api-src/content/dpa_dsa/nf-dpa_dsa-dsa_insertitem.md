@@ -7,7 +7,7 @@ old-location: controls\DSA_InsertItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DSA_InsertItem, DSA_InsertItem function [Windows Controls], _win32_DSA_InsertItem, _win32_DSA_InsertItem_cpp, controls.DSA_InsertItem, controls._win32_DSA_InsertItem, dpa_dsa/DSA_InsertItem
 ms.prod: windows
 ms.technology: windows-sdk

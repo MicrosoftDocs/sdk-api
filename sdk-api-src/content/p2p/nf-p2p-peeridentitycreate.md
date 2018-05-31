@@ -7,7 +7,7 @@ old-location: p2p\peeridentitycreate.htm
 old-project: P2PSdk
 ms.assetid: 24600215-afa0-4e6b-8455-b19b0de60b65
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerIdentityCreate, PeerIdentityCreate function [Peer Networking], p2p.peeridentitycreate, p2p/PeerIdentityCreate
 ms.prod: windows
 ms.technology: windows-sdk

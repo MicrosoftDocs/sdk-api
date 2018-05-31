@@ -7,7 +7,7 @@ old-location: etw\tdhenumerateproviderfilters.htm
 old-project: ETW
 ms.assetid: bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder_alloccapfile.htm
 old-project: DirectShow
 ms.assetid: 116ee108-ae03-4761-84db-9391ebddaae2
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: AllocCapFile, AllocCapFile method [DirectShow], AllocCapFile method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],AllocCapFile method, ICaptureGraphBuilder.AllocCapFile, ICaptureGraphBuilder::AllocCapFile, ICaptureGraphBuilderAllocCapFile, dshow.icapturegraphbuilder_alloccapfile, strmif/ICaptureGraphBuilder::AllocCapFile
 ms.prod: windows
 ms.technology: windows-sdk

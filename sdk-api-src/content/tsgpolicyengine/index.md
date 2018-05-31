@@ -2,12 +2,11 @@
 UID: NA:tsgpolicyengine
 ms.assetid: e10a2b62-7ae2-38df-8c08-1cae3a20664b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: termserv
 ---
 

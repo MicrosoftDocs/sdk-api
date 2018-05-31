@@ -2,7 +2,7 @@
 UID: NA:rometadataresolution
 ms.assetid: 74150d70-82ee-3cc3-a9ef-9095d8220554
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

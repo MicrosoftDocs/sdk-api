@@ -2,12 +2,11 @@
 UID: NA:winevt
 ms.assetid: 76c5e28b-3d78-38dc-8a0d-f64c5f3f001d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: wes
 ---
 

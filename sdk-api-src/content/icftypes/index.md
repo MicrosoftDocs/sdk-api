@@ -2,7 +2,7 @@
 UID: NA:icftypes
 ms.assetid: 08aa9064-3b43-3595-8942-7682f54aa15f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

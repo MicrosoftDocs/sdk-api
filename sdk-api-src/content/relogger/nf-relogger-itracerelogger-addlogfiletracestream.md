@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_addlogfiletracestream.htm
 old-project: ETW
 ms.assetid: 2bdf6175-f4c6-4217-a37a-b2af32ad38c6
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: AddLogfileTraceStream, AddLogfileTraceStream method [ETW], AddLogfileTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddLogfileTraceStream method, ITraceRelogger.AddLogfileTraceStream, ITraceRelogger::AddLogfileTraceStream, etw.itracerelogger_addlogfiletracestream, relogger/ITraceRelogger::AddLogfileTraceStream
 ms.prod: windows
 ms.technology: windows-sdk

@@ -1,7 +1,0 @@
-{
-  "tech": "anticheat",
-  "headers": [
-    "gamemonitor.h"
-  ],
-  "displayName": "TruePlay"
-}

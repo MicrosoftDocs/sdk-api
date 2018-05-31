@@ -2,7 +2,7 @@
 UID: TP:gdiplus
 ms.assetid: 7cb49be5-6f39-391f-a093-c2e9fa92c4fc
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ For the programming guide, see [GDI+](/windows/desktop/gdiplus).
 | Title   | Description   |
 | ---- |:---- |
 | [BlurParams structure](..\gdipluseffects\ns-gdipluseffects-blurparams.md) | A BlurParams structure contains members that specify the nature of a Gaussian blur. |
-| [BrightnessContrastParams structure](..\gdipluseffects\ns-gdipluseffects-brightnesscontrastparams.md) | A BlurParams structure contains members that specify the nature of a Gaussian blur. |
+| [BrightnessContrastParams structure](..\gdipluseffects\ns-gdipluseffects-brightnesscontrastparams.md) | A BrightnessContrastParams structure contains members that specify the nature of a brightness or contrast adjustment. |
 | [ColorBalanceParams structure](..\gdipluseffects\ns-gdipluseffects-colorbalanceparams.md) | A ColorBalanceParams structure contains members that specify the nature of a color balance adjustment. |
 | [ColorCurveParams structure](..\gdipluseffects\ns-gdipluseffects-colorcurveparams.md) | A ColorCurveParams structure contains members that specify an adjustment to the colors of a bitmap. |
 | [ColorLUTParams structure](..\gdipluseffects\ns-gdipluseffects-colorlutparams.md) | A ColorLUTParams structure contains members (color lookup tables) that specify color adjustments to a bitmap. |

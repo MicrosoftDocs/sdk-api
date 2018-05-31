@@ -7,7 +7,7 @@ old-location: com\ioleclientsite.htm
 old-project: com
 ms.assetid: dafee149-926a-4d08-a43d-5847682db645
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM],described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
 ms.prod: windows
 ms.technology: windows-sdk

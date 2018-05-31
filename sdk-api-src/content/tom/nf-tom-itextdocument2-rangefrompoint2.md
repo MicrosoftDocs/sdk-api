@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_rangefrompoint2.htm
 old-project: Controls
 ms.assetid: 3212c6cc-a1fb-44ca-aba9-2234414e7a39
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],RangeFromPoint2 method, ITextDocument2.RangeFromPoint2, ITextDocument2::RangeFromPoint2, RangeFromPoint2, RangeFromPoint2 method [Windows Controls], RangeFromPoint2 method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_rangefrompoint2, tom/ITextDocument2::RangeFromPoint2
 ms.prod: windows
 ms.technology: windows-sdk

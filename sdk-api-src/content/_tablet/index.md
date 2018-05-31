@@ -2,7 +2,7 @@
 UID: TP:tablet
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -274,6 +274,80 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IInkDivisionUnit::get_Strokes](..\msinkaut15\nf-msinkaut15-iinkdivisionunit-get_strokes.md) | Gets the collection of strokes that are contained in an object or used to create an object. |
 | [IInkDivisionUnits::Item](..\msinkaut15\nf-msinkaut15-iinkdivisionunits-item.md) | Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection. |
 | [IInkDivisionUnits::get_Count](..\msinkaut15\nf-msinkaut15-iinkdivisionunits-get_count.md) | Gets the number of objects or collections contained in a collection. |
+| [IInkEdit::GetGestureStatus](..\inked\nf-inked-iinkedit-getgesturestatus.md) | Indicates whether the InkEdit control is interested in a particular application gesture. |
+| [IInkEdit::Recognize](..\inked\nf-inked-iinkedit-recognize.md) | Performs recognition on an InkStrokes collection and returns recognition results. |
+| [IInkEdit::Refresh](..\inked\nf-inked-iinkedit-refresh.md) | Causes the InkEdit control to redraw. |
+| [IInkEdit::SetGestureStatus](..\inked\nf-inked-iinkedit-setgesturestatus.md) | Modifies the interest of the InkEdit control in a known application gesture. |
+| [IInkEdit::get_Appearance](..\inked\nf-inked-iinkedit-get_appearance.md) | Gets or sets a value that determines the appearance of the InkEdit control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects). |
+| [IInkEdit::get_BackColor](..\inked\nf-inked-iinkedit-get_backcolor.md) | Gets or sets the background color for the InkEdit control. |
+| [IInkEdit::get_BorderStyle](..\inked\nf-inked-iinkedit-get_borderstyle.md) | Gets or sets a value that determines whether the InkEdit control has a border. |
+| [IInkEdit::get_DisableNoScroll](..\inked\nf-inked-iinkedit-get_disablenoscroll.md) | Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled. |
+| [IInkEdit::get_DrawingAttributes](..\inked\nf-inked-iinkedit-get_drawingattributes.md) | Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control. |
+| [IInkEdit::get_Enabled](..\inked\nf-inked-iinkedit-get_enabled.md) | Gets or sets a value that determines whether the InkEdit control can respond to user-generated events. |
+| [IInkEdit::get_Factoid](..\inked\nf-inked-iinkedit-get_factoid.md) | Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result. |
+| [IInkEdit::get_Font](..\inked\nf-inked-iinkedit-get_font.md) | Gets or sets a Font object. |
+| [IInkEdit::get_Hwnd](..\inked\nf-inked-iinkedit-get_hwnd.md) | Gets a handle to the InkEdit control. |
+| [IInkEdit::get_InkInsertMode](..\inked\nf-inked-iinkedit-get_inkinsertmode.md) | Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink. |
+| [IInkEdit::get_InkMode](..\inked\nf-inked-iinkedit-get_inkmode.md) | Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected. |
+| [IInkEdit::get_Locked](..\inked\nf-inked-iinkedit-get_locked.md) | Gets or sets a value indicating whether the contents of the InkEdit control can be edited. |
+| [IInkEdit::get_MaxLength](..\inked\nf-inked-iinkedit-get_maxlength.md) | Gets or sets a value indicating whether there is a maximum number of characters an InkEdit control can hold and, if so, specifies the maximum number of characters. |
+| [IInkEdit::get_MouseIcon](..\inked\nf-inked-iinkedit-get_mouseicon.md) | Gets or sets the custom mouse icon for the InkEdit control. |
+| [IInkEdit::get_MousePointer](..\inked\nf-inked-iinkedit-get_mousepointer.md) | Gets or sets a value indicating the type of mouse pointer to be displayed. |
+| [IInkEdit::get_MultiLine](..\inked\nf-inked-iinkedit-get_multiline.md) | Gets or sets a value indicating whether an InkEdit control can accept and display multiple lines of text. |
+| [IInkEdit::get_RecognitionTimeout](..\inked\nf-inked-iinkedit-get_recognitiontimeout.md) | Gets or sets the length of time, in milliseconds, between the last IInkStrokeDisp object collected and the beginning of text recognition. |
+| [IInkEdit::get_Recognizer](..\inked\nf-inked-iinkedit-get_recognizer.md) | Gets or sets the IInkRecognizer object to use for recognition. |
+| [IInkEdit::get_ScrollBars](..\inked\nf-inked-iinkedit-get_scrollbars.md) | Gets or sets the type of scroll bars, if any, to display in the InkEdit control. |
+| [IInkEdit::get_SelAlignment](..\inked\nf-inked-iinkedit-get_selalignment.md) | Gets or sets a value that controls the alignment of the paragraphs in an InkEdit control. |
+| [IInkEdit::get_SelBold](..\inked\nf-inked-iinkedit-get_selbold.md) | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold. |
+| [IInkEdit::get_SelCharOffset](..\inked\nf-inked-iinkedit-get_selcharoffset.md) | Returns or sets a value that determines whether text in the InkEdit control appears on the baseline (normal), as a superscript above the baseline, or as a subscript below the baseline. |
+| [IInkEdit::get_SelColor](..\inked\nf-inked-iinkedit-get_selcolor.md) | Gets or sets the text color of the current text selection or insertion point (run time only). |
+| [IInkEdit::get_SelFontName](..\inked\nf-inked-iinkedit-get_selfontname.md) | Gets or sets the font name of the selected text within the InkEdit control (run time only). |
+| [IInkEdit::get_SelFontSize](..\inked\nf-inked-iinkedit-get_selfontsize.md) | Gets or sets the font size of the selected text within the InkEdit control (run time only). |
+| [IInkEdit::get_SelInksDisplayMode](..\inked\nf-inked-iinkedit-get_selinksdisplaymode.md) | Gets or sets a value that allows for toggling the appearance of the selection between ink and text. |
+| [IInkEdit::get_SelInks](..\inked\nf-inked-iinkedit-get_selinks.md) | Gets or sets the array of embedded InkDisp objects (if displayed as ink) in the current selection. |
+| [IInkEdit::get_SelItalic](..\inked\nf-inked-iinkedit-get_selitalic.md) | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only). |
+| [IInkEdit::get_SelLength](..\inked\nf-inked-iinkedit-get_sellength.md) | Gets or sets the number of characters that are selected in the InkEdit control (run time only). |
+| [IInkEdit::get_SelRTF](..\inked\nf-inked-iinkedit-get_selrtf.md) | Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only). |
+| [IInkEdit::get_SelStart](..\inked\nf-inked-iinkedit-get_selstart.md) | Gets or sets the starting point of the text that is selected in the InkEdit control (run time only). |
+| [IInkEdit::get_SelText](..\inked\nf-inked-iinkedit-get_seltext.md) | Gets or sets the selected text within the InkEdit control (run time only). |
+| [IInkEdit::get_SelUnderline](..\inked\nf-inked-iinkedit-get_selunderline.md) | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only). |
+| [IInkEdit::get_Status](..\inked\nf-inked-iinkedit-get_status.md) | Gets a value that specifies whether the InkEdit control is idle, collecting ink, or recognizing ink. |
+| [IInkEdit::get_TextRTF](..\inked\nf-inked-iinkedit-get_textrtf.md) | Gets or sets the text of the InkEdit control, including all RTF codes. |
+| [IInkEdit::get_Text](..\inked\nf-inked-iinkedit-get_text.md) | Gets or sets the current text in the InkEdit control. |
+| [IInkEdit::get_UseMouseForInput](..\inked\nf-inked-iinkedit-get_usemouseforinput.md) | Gets or sets a value that indicates whether the mouse can be used as an input device. |
+| [IInkEdit::put_Appearance](..\inked\nf-inked-iinkedit-put_appearance.md) | Gets or sets a value that determines the appearance of the InkEdit control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects). |
+| [IInkEdit::put_BackColor](..\inked\nf-inked-iinkedit-put_backcolor.md) | Gets or sets the background color for the InkEdit control. |
+| [IInkEdit::put_BorderStyle](..\inked\nf-inked-iinkedit-put_borderstyle.md) | Gets or sets a value that determines whether the InkEdit control has a border. |
+| [IInkEdit::put_DisableNoScroll](..\inked\nf-inked-iinkedit-put_disablenoscroll.md) | Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled. |
+| [IInkEdit::put_Enabled](..\inked\nf-inked-iinkedit-put_enabled.md) | Gets or sets a value that determines whether the InkEdit control can respond to user-generated events. |
+| [IInkEdit::put_Factoid](..\inked\nf-inked-iinkedit-put_factoid.md) | Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result. |
+| [IInkEdit::put_InkInsertMode](..\inked\nf-inked-iinkedit-put_inkinsertmode.md) | Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink. |
+| [IInkEdit::put_InkMode](..\inked\nf-inked-iinkedit-put_inkmode.md) | Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected. |
+| [IInkEdit::put_Locked](..\inked\nf-inked-iinkedit-put_locked.md) | Gets or sets a value indicating whether the contents of the InkEdit control can be edited. |
+| [IInkEdit::put_MaxLength](..\inked\nf-inked-iinkedit-put_maxlength.md) | Gets or sets a value indicating whether there is a maximum number of characters an InkEdit control can hold and, if so, specifies the maximum number of characters. |
+| [IInkEdit::put_MouseIcon](..\inked\nf-inked-iinkedit-put_mouseicon.md) | Gets or sets the custom mouse icon for the InkEdit control. |
+| [IInkEdit::put_MousePointer](..\inked\nf-inked-iinkedit-put_mousepointer.md) | Gets or sets a value indicating the type of mouse pointer to be displayed. |
+| [IInkEdit::put_MultiLine](..\inked\nf-inked-iinkedit-put_multiline.md) | Gets or sets a value indicating whether an InkEdit control can accept and display multiple lines of text. |
+| [IInkEdit::put_RecognitionTimeout](..\inked\nf-inked-iinkedit-put_recognitiontimeout.md) | Gets or sets the length of time, in milliseconds, between the last IInkStrokeDisp object collected and the beginning of text recognition. |
+| [IInkEdit::put_ScrollBars](..\inked\nf-inked-iinkedit-put_scrollbars.md) | Gets or sets the type of scroll bars, if any, to display in the InkEdit control. |
+| [IInkEdit::put_SelAlignment](..\inked\nf-inked-iinkedit-put_selalignment.md) | Gets or sets a value that controls the alignment of the paragraphs in an InkEdit control. |
+| [IInkEdit::put_SelBold](..\inked\nf-inked-iinkedit-put_selbold.md) | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold. |
+| [IInkEdit::put_SelCharOffset](..\inked\nf-inked-iinkedit-put_selcharoffset.md) | Returns or sets a value that determines whether text in the InkEdit control appears on the baseline (normal), as a superscript above the baseline, or as a subscript below the baseline. |
+| [IInkEdit::put_SelColor](..\inked\nf-inked-iinkedit-put_selcolor.md) | Gets or sets the text color of the current text selection or insertion point (run time only). |
+| [IInkEdit::put_SelFontName](..\inked\nf-inked-iinkedit-put_selfontname.md) | Gets or sets the font name of the selected text within the InkEdit control (run time only). |
+| [IInkEdit::put_SelFontSize](..\inked\nf-inked-iinkedit-put_selfontsize.md) | Gets or sets the font size of the selected text within the InkEdit control (run time only). |
+| [IInkEdit::put_SelInksDisplayMode](..\inked\nf-inked-iinkedit-put_selinksdisplaymode.md) | Gets or sets a value that allows for toggling the appearance of the selection between ink and text. |
+| [IInkEdit::put_SelInks](..\inked\nf-inked-iinkedit-put_selinks.md) | Gets or sets the array of embedded InkDisp objects (if displayed as ink) in the current selection. |
+| [IInkEdit::put_SelItalic](..\inked\nf-inked-iinkedit-put_selitalic.md) | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only). |
+| [IInkEdit::put_SelLength](..\inked\nf-inked-iinkedit-put_sellength.md) | Gets or sets the number of characters that are selected in the InkEdit control (run time only). |
+| [IInkEdit::put_SelRTF](..\inked\nf-inked-iinkedit-put_selrtf.md) | Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only). |
+| [IInkEdit::put_SelStart](..\inked\nf-inked-iinkedit-put_selstart.md) | Gets or sets the starting point of the text that is selected in the InkEdit control (run time only). |
+| [IInkEdit::put_SelText](..\inked\nf-inked-iinkedit-put_seltext.md) | Gets or sets the selected text within the InkEdit control (run time only). |
+| [IInkEdit::put_SelUnderline](..\inked\nf-inked-iinkedit-put_selunderline.md) | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only). |
+| [IInkEdit::put_TextRTF](..\inked\nf-inked-iinkedit-put_textrtf.md) | Gets or sets the text of the InkEdit control, including all RTF codes. |
+| [IInkEdit::put_Text](..\inked\nf-inked-iinkedit-put_text.md) | Gets or sets the current text in the InkEdit control. |
+| [IInkEdit::put_UseMouseForInput](..\inked\nf-inked-iinkedit-put_usemouseforinput.md) | Gets or sets a value that indicates whether the mouse can be used as an input device. |
+| [IInkEdit::putref_DrawingAttributes](..\inked\nf-inked-iinkedit-putref_drawingattributes.md) | Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control. |
 | [IInkExtendedProperties::Add](..\msinkaut\nf-msinkaut-iinkextendedproperties-add.md) | Creates and adds an IInkExtendedProperty object to the IInkExtendedProperties collection. |
 | [IInkExtendedProperties::Clear](..\msinkaut\nf-msinkaut-iinkextendedproperties-clear.md) | Clears all of the IInkExtendedProperty objects from the IInkExtendedProperties collection. |
 | [IInkExtendedProperties::DoesPropertyExist](..\msinkaut\nf-msinkaut-iinkextendedproperties-doespropertyexist.md) | Retrieves a value that indicates whether an IInkExtendedProperty object exists within an IInkExtendedProperties collection. |

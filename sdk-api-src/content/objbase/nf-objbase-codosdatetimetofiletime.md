@@ -7,7 +7,7 @@ old-location: com\codosdatetimetofiletime.htm
 old-project: com
 ms.assetid: eb7af6a3-7547-405e-b96e-3e68a1ac273b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CoDosDateTimeToFileTime, CoDosDateTimeToFileTime function [COM], _com_CoDosDateTimeToFileTime, com.codosdatetimetofiletime, objbase/CoDosDateTimeToFileTime
 ms.prod: windows
 ms.technology: windows-sdk

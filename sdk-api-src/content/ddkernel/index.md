@@ -2,7 +2,7 @@
 UID: NA:ddkernel
 ms.assetid: ffcc9cf7-b1a2-3b79-be74-05d52a927b03
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

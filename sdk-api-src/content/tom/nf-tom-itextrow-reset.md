@@ -7,7 +7,7 @@ old-location: controls\itextrow_reset.htm
 old-project: Controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRow interface [Windows Controls],Reset method, ITextRow.Reset, ITextRow::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextRow interface, controls.itextrow_reset, tom/ITextRow::Reset
 ms.prod: windows
 ms.technology: windows-sdk

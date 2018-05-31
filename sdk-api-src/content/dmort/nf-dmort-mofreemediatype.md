@@ -7,7 +7,7 @@ old-location: dshow\mofreemediatype.htm
 old-project: DirectShow
 ms.assetid: a1f0949d-a590-4759-87b5-f47307bc3ec0
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype
 ms.prod: windows
 ms.technology: windows-sdk

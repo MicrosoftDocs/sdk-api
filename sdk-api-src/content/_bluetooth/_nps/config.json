@@ -1,8 +1,0 @@
-{
-  "tech": "nps",
-  "headers": [
-    "sdoias.h",
-    "authif.h"
-  ],
-  "displayName": "Network Policy Server"
-}

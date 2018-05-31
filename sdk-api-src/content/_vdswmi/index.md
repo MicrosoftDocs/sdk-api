@@ -2,7 +2,7 @@
 UID: TP:vdswmi
 ms.assetid: ae6821c9-59eb-3c66-aea2-099b0d06ded4
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

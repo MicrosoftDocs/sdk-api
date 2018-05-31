@@ -7,7 +7,7 @@ old-location: controls\itextrange2_unicodetohex.htm
 old-project: Controls
 ms.assetid: 538f7db4-0739-421c-9d51-8144b2d52334
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange2 interface [Windows Controls],UnicodeToHex method, ITextRange2.UnicodeToHex, ITextRange2::UnicodeToHex, UnicodeToHex, UnicodeToHex method [Windows Controls], UnicodeToHex method [Windows Controls],ITextRange2 interface, controls.itextrange2_unicodetohex, tom/ITextRange2::UnicodeToHex
 ms.prod: windows
 ms.technology: windows-sdk

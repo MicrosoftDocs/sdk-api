@@ -7,7 +7,7 @@ old-location: controls\UDACCEL.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\udaccel.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPUDACCEL, LPUDACCEL, LPUDACCEL structure pointer [Windows Controls], UDACCEL, UDACCEL structure [Windows Controls], _UDACCEL, _win32_UDACCEL, _win32_UDACCEL_cpp, commctrl/LPUDACCEL, commctrl/UDACCEL, controls.UDACCEL, controls._win32_UDACCEL"
 ms.prod: windows
 ms.technology: windows-sdk

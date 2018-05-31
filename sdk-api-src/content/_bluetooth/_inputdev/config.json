@@ -1,7 +1,0 @@
-{
-  "tech": "inputdev",
-  "headers": [
-    "commctrl.h",
-    "winuser.h"
-  ]
-}

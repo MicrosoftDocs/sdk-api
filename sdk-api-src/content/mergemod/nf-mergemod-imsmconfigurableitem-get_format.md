@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_format.htm
 old-project: Msi
 ms.assetid: 85db7d8b-e3f2-4a7a-840f-2d690aa82917
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: IMsmConfigurableItem interface,get_Format method, IMsmConfigurableItem.get_Format, IMsmConfigurableItem::get_Format, _msi_get_format_function, get_Format, get_Format method, get_Format method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Format, setup.imsmconfigurableitem_get_format
 ms.prod: windows
 ms.technology: windows-sdk

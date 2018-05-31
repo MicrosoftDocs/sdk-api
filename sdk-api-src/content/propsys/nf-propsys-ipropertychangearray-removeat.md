@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_RemoveAt.htm
 old-project: properties
 ms.assetid: 59d98675-c934-4f2d-8018-f581017d5441
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],RemoveAt method, IPropertyChangeArray.RemoveAt, IPropertyChangeArray::RemoveAt, RemoveAt, RemoveAt method [Windows Properties], RemoveAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_RemoveAt, properties.IPropertyChangeArray_RemoveAt, propsys/IPropertyChangeArray::RemoveAt, shell.IPropertyChangeArray_RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

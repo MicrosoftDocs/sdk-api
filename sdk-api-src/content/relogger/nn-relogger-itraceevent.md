@@ -7,8 +7,8 @@ old-location: etw\ievent.htm
 old-project: ETW
 ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143
 ms.author: windowssdkdev
-ms.date: 05/16/2018
-ms.keywords: IEvent, IEvent interface [ETW], IEvent interface [ETW],described, ITraceEvent, etw.ievent, relogger/ITraceEvent
+ms.date: 05/29/2018
+ms.keywords: ITraceEvent, ITraceEvent interface [ETW], ITraceEvent interface [ETW],described, etw.ievent, relogger/ITraceEvent
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Relogger.h
 api_name:
--	IEvent
+-	ITraceEvent
 product: Windows
 targetos: Windows
 req.lib: 
@@ -55,14 +55,14 @@ The <b>ITraceEvent</b> interface  provides access to data relating to a specific
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITraceEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITraceEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
 
-The <b>IEvent</b> interface has these methods.
+The <b>ITraceEvent</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

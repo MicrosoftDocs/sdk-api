@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_get_treble.htm
 old-project: DirectShow
 ms.assetid: 6876e121-cb04-49f9-aee4-27759f93529b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Treble method, IAMAudioInputMixer.get_Treble, IAMAudioInputMixer::get_Treble, IAMAudioInputMixerget_Treble, dshow.iamaudioinputmixer_get_treble, get_Treble, get_Treble method [DirectShow], get_Treble method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Treble
 ms.prod: windows
 ms.technology: windows-sdk

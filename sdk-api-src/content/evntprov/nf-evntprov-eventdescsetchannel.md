@@ -7,7 +7,7 @@ old-location: etw\eventdescsetchannel_func.htm
 old-project: ETW
 ms.assetid: 3580935d-ab7e-4409-b4ac-58f3c6019514
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: EventDescSetChannel, EventDescSetChannel function [ETW], base.eventdescsetchannel_func, etw.eventdescsetchannel_func, evntprov/EventDescSetChannel
 ms.prod: windows
 ms.technology: windows-sdk

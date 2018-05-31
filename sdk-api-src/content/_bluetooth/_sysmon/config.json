@@ -1,7 +1,0 @@
-{
-  "tech": "sysmon",
-  "headers": [
-    "isysmon.h"
-  ],
-  "displayName": "System Monitor"
-}

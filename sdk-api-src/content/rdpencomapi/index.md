@@ -2,12 +2,11 @@
 UID: NA:rdpencomapi
 ms.assetid: 319da130-d8d3-329d-a985-0c9eccf7efad
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: rdp
 ---
 

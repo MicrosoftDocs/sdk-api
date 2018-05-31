@@ -1,7 +1,0 @@
-# [TruePlay](index.md)
-## [Gamemonitor.h](../gamemonitor/index.md)
-### [EnableActiveGameMonitoring function](../gamemonitor/nf-gamemonitor-enableactivegamemonitoring.md)
-### [GAME_MONITORING_PERMISSION_STATE enumeration](../gamemonitor/ne-gamemonitor-game_monitoring_permission_state.md)
-### [GetGameMonitoringPermissionState function](../gamemonitor/nf-gamemonitor-getgamemonitoringpermissionstate.md)
-### [ReportGameActivity function](../gamemonitor/nf-gamemonitor-reportgameactivity.md)
-### [SetGameActivityCorrelationId function](../gamemonitor/nf-gamemonitor-setgameactivitycorrelationid.md)

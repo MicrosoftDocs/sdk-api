@@ -2,7 +2,7 @@
 UID: NA:wmistr
 ms.assetid: 7909a6e9-b4dc-390c-a3f3-8abcbc0cfb2a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

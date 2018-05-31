@@ -7,13 +7,13 @@ old-location: vhd\compactvirtualdisk.htm
 old-project: VStor
 ms.assetid: 8f887ef9-6be5-455a-8904-2047f2efe13c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: CompactVirtualDisk, CompactVirtualDisk function [VHD], vhd.compactvirtualdisk, virtdisk/CompactVirtualDisk
+ms.date: 05/29/2018
+ms.keywords: CompactVirtualDisk, CompactVirtualDisk function [VHD], vdssys/CompactVirtualDisk, vhd.compactvirtualdisk, virtdisk/CompactVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

@@ -7,7 +7,7 @@ old-location: controls\Header_GetBitmapMargin.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getbitmapmargin.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Header_GetBitmapMargin, Header_GetBitmapMargin macro [Windows Controls], _win32_Header_GetBitmapMargin, _win32_Header_GetBitmapMargin_cpp, commctrl/Header_GetBitmapMargin, controls.Header_GetBitmapMargin, controls._win32_Header_GetBitmapMargin
 ms.prod: windows
 ms.technology: windows-sdk

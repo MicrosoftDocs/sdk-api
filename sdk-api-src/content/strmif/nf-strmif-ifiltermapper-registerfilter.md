@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_registerfilter.htm
 old-project: DirectShow
 ms.assetid: e21da510-f4e6-417e-978d-bb53bf78cf94
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterFilter method, IFilterMapper.RegisterFilter, IFilterMapper::RegisterFilter, IFilterMapperRegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilter, strmif/IFilterMapper::RegisterFilter
 ms.prod: windows
 ms.technology: windows-sdk

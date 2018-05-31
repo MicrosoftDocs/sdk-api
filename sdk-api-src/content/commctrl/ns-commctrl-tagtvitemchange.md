@@ -7,7 +7,7 @@ old-location: controls\NMTVITEMCHANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvitemchange.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: NMTVITEMCHANGE, NMTVITEMCHANGE structure [Windows Controls], _shell_NMTVITEMCHANGE, _shell_NMTVITEMCHANGE_cpp, commctrl/NMTVITEMCHANGE, controls.NMTVITEMCHANGE, controls._shell_NMTVITEMCHANGE, tagTVITEMCHANGE
 ms.prod: windows
 ms.technology: windows-sdk

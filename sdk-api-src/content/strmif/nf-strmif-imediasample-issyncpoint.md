@@ -7,7 +7,7 @@ old-location: dshow\imediasample_issyncpoint.htm
 old-project: DirectShow
 ms.assetid: eed64bd9-1300-4db3-a3ed-c7e8ff9c7c8f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IMediaSample interface [DirectShow],IsSyncPoint method, IMediaSample.IsSyncPoint, IMediaSample::IsSyncPoint, IMediaSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IMediaSample interface, dshow.imediasample_issyncpoint, strmif/IMediaSample::IsSyncPoint
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\am_copy_macrovision.htm
 old-project: DirectShow
 ms.assetid: 7fb1b12a-92f4-48e2-8ebe-359ebc33cd09
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: "*PAM_COPY_MACROVISION, AM_COPY_MACROVISION, AM_COPY_MACROVISION structure [DirectShow], PAM_COPY_MACROVISION, PAM_COPY_MACROVISION structure pointer [DirectShow], _AM_COPY_MACROVISION, dshow.am_copy_macrovision, dvdmedia/AM_COPY_MACROVISION, dvdmedia/PAM_COPY_MACROVISION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

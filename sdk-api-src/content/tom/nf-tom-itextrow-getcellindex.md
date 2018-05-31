@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellindex.htm
 old-project: Controls
 ms.assetid: 7768e073-929c-43a4-8c4f-a67f89a0e7ee
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetCellIndex, GetCellIndex method [Windows Controls], GetCellIndex method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellIndex method, ITextRow.GetCellIndex, ITextRow::GetCellIndex, controls.itextrow_getcellindex, tom/ITextRow::GetCellIndex
 ms.prod: windows
 ms.technology: windows-sdk

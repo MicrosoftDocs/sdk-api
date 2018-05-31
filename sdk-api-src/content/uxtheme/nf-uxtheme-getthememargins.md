@@ -7,7 +7,7 @@ old-location: controls\GetThemeMargins.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememargins.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetThemeMargins, GetThemeMargins function [Windows Controls], controls.GetThemeMargins, controls.inet_GetThemeMargins, inet_GetThemeMargins, inet_GetThemeMargins_cpp, uxtheme/GetThemeMargins
 ms.prod: windows
 ms.technology: windows-sdk

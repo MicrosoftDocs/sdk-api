@@ -7,7 +7,7 @@ old-location: controls\itextrow_setalignment.htm
 old-project: Controls
 ms.assetid: bfcc900d-2bec-4314-a2c5-09f55e27a626
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRow interface [Windows Controls],SetAlignment method, ITextRow.SetAlignment, ITextRow::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setalignment, tom/ITextRow::SetAlignment
 ms.prod: windows
 ms.technology: windows-sdk

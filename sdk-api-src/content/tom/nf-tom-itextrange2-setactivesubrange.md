@@ -7,7 +7,7 @@ old-location: controls\itextrange2_setactivesubrange.htm
 old-project: Controls
 ms.assetid: a635edd3-dcb9-4f1f-bf6e-774ce3f0c505
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetActiveSubrange method, ITextRange2.SetActiveSubrange, ITextRange2::SetActiveSubrange, SetActiveSubrange, SetActiveSubrange method [Windows Controls], SetActiveSubrange method [Windows Controls],ITextRange2 interface, controls.itextrange2_setactivesubrange, tom/ITextRange2::SetActiveSubrange
 ms.prod: windows
 ms.technology: windows-sdk

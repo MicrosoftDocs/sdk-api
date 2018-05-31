@@ -7,7 +7,7 @@ old-location: controls\DrawThemeEdge.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeedge.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DrawThemeEdge, DrawThemeEdge function [Windows Controls], controls.DrawThemeEdge, controls.inet_DrawThemeEdge, inet_DrawThemeEdge, inet_DrawThemeEdge_cpp, uxtheme/DrawThemeEdge
 ms.prod: windows
 ms.technology: windows-sdk

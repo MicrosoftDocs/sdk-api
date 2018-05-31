@@ -7,13 +7,13 @@ old-location: vhd\virtual_storage_type.htm
 old-project: VStor
 ms.assetid: 9f0c1848-fa8e-4747-a3b1-71a274695280
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE structure pointer [VHD], VIRTUAL_STORAGE_TYPE, VIRTUAL_STORAGE_TYPE structure [VHD], VIRTUAL_STORAGE_TYPE_DEVICE_ISO, VIRTUAL_STORAGE_TYPE_DEVICE_UNKNOWN, VIRTUAL_STORAGE_TYPE_DEVICE_VHD, VIRTUAL_STORAGE_TYPE_DEVICE_VHDX, VIRTUAL_STORAGE_TYPE_VENDOR_MICROSOFT, VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN, _VIRTUAL_STORAGE_TYPE, vhd.virtual_storage_type, virtdisk/PVIRTUAL_STORAGE_TYPE, virtdisk/VIRTUAL_STORAGE_TYPE"
+ms.date: 05/29/2018
+ms.keywords: "*PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE structure pointer [VHD], VIRTUAL_STORAGE_TYPE, VIRTUAL_STORAGE_TYPE structure [VHD], VIRTUAL_STORAGE_TYPE_DEVICE_ISO, VIRTUAL_STORAGE_TYPE_DEVICE_UNKNOWN, VIRTUAL_STORAGE_TYPE_DEVICE_VHD, VIRTUAL_STORAGE_TYPE_DEVICE_VHDX, VIRTUAL_STORAGE_TYPE_VENDOR_MICROSOFT, VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN, _VIRTUAL_STORAGE_TYPE, vdssys/PVIRTUAL_STORAGE_TYPE, vdssys/VIRTUAL_STORAGE_TYPE, vhd.virtual_storage_type, virtdisk/PVIRTUAL_STORAGE_TYPE, virtdisk/VIRTUAL_STORAGE_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	VIRTUAL_STORAGE_TYPE
 product: Windows
@@ -130,6 +131,12 @@ Vendor-unique identifier.
 
 
 #### VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN (0)
+
+
+##### - VendorId.VIRTUAL_STORAGE_TYPE_VENDOR_MICROSOFT (EC984AEC-A0F9-47e9-901F-71415A66345B)
+
+
+##### - VendorId.VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN (0)
 
 
 ## -see-also

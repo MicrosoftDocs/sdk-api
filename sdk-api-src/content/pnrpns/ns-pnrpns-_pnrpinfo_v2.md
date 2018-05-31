@@ -7,7 +7,7 @@ old-location: p2p\pnrpinfo.htm
 old-project: P2PSdk
 ms.assetid: 02031191-3682-45f6-a6c5-8546153bc681
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: "*PPNRPINFO_V2, PNRPINFO, PNRPINFO structure [Peer Networking], PNRPINFO_V1, PNRPINFO_V1 structure [Peer Networking], PNRPINFO_V2, PPNRPINFO, PPNRPINFO structure pointer [Peer Networking], PPNRPINFO_V1, PPNRPINFO_V1 structure pointer [Peer Networking], _PNRPINFO_V2, p2p.pnrpinfo, pnrpns/PNRPINFO, pnrpns/PNRPINFO_V1, pnrpns/PPNRPINFO, pnrpns/PPNRPINFO_V1"
 ms.prod: windows
 ms.technology: windows-sdk

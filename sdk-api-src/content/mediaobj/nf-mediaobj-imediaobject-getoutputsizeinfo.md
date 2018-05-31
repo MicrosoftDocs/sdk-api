@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getoutputsizeinfo.htm
 old-project: DirectShow
 ms.assetid: 497bc88e-4e26-409f-9d42-6a214a5d56e9
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetOutputSizeInfo, GetOutputSizeInfo method [DirectShow], GetOutputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputSizeInfo method, IMediaObject.GetOutputSizeInfo, IMediaObject::GetOutputSizeInfo, IMediaObjectGetOutputSizeInfo, dshow.imediaobject_getoutputsizeinfo, mediaobj/IMediaObject::GetOutputSizeInfo
 ms.prod: windows
 ms.technology: windows-sdk

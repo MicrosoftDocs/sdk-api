@@ -1,9 +1,0 @@
-{
-  "tech": "htmlhelp",
-  "headers": [
-    "htmlhelp.h",
-    "hherror.h",
-    "infotech.h"
-  ],
-  "displayName": "Microsoft HTML Help 1.4"
-}

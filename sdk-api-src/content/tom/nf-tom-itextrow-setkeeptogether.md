@@ -7,7 +7,7 @@ old-location: controls\itextrow_setkeeptogether.htm
 old-project: Controls
 ms.assetid: ca2130b4-3e29-43d7-b03d-a6c45897e447
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepTogether method, ITextRow.SetKeepTogether, ITextRow::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextRow interface, controls.itextrow_setkeeptogether, tom/ITextRow::SetKeepTogether
 ms.prod: windows
 ms.technology: windows-sdk

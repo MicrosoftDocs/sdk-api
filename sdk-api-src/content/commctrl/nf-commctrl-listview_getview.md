@@ -7,7 +7,7 @@ old-location: controls\ListView_GetView.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getview.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_GetView, ListView_GetView macro [Windows Controls], _win32_ListView_GetView, _win32_ListView_GetView_cpp, commctrl/ListView_GetView, controls.ListView_GetView, controls._win32_ListView_GetView
 ms.prod: windows
 ms.technology: windows-sdk

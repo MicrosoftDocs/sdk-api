@@ -7,7 +7,7 @@ old-location: p2p\peergroupdelete.htm
 old-project: P2PSdk
 ms.assetid: e98df845-71d9-41f9-bf05-b46014e861df
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGroupDelete, PeerGroupDelete function [Peer Networking], p2p.peergroupdelete, p2p/PeerGroupDelete
 ms.prod: windows
 ms.technology: windows-sdk

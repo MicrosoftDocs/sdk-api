@@ -2,7 +2,7 @@
 UID: NA:wdsclientapi
 ms.assetid: fd49be50-414b-3ea2-aae1-e7001cc6271b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

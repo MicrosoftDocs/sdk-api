@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt64WithDefault.htm
 old-project: properties
 ms.assetid: 6ff75c81-519b-4539-9aa5-c6b39b3e2d94
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: VariantToUInt64WithDefault, VariantToUInt64WithDefault function [Windows Properties], _shell_VariantToUInt64WithDefault, properties.VariantToUInt64WithDefault, propvarutil/VariantToUInt64WithDefault, shell.VariantToUInt64WithDefault
 ms.prod: windows
 ms.technology: windows-sdk

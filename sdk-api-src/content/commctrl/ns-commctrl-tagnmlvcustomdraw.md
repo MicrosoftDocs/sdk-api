@@ -7,7 +7,7 @@ old-location: controls\NMLVCUSTOMDRAW.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcustomdraw.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW structure pointer [Windows Controls], LVCDI_GROUP, LVCDI_ITEM, LVCDI_ITEMSLIST, LVGA_HEADER_CENTER, LVGA_HEADER_LEFT, LVGA_HEADER_RIGHT, NMLVCUSTOMDRAW, NMLVCUSTOMDRAW structure [Windows Controls], _win32_NMLVCUSTOMDRAW, _win32_NMLVCUSTOMDRAW_cpp, commctrl/LPNMLVCUSTOMDRAW, commctrl/NMLVCUSTOMDRAW, controls.NMLVCUSTOMDRAW, controls._win32_NMLVCUSTOMDRAW, tagNMLVCUSTOMDRAW"
 ms.prod: windows
 ms.technology: windows-sdk

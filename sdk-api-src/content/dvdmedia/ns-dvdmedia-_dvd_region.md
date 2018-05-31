@@ -7,7 +7,7 @@ old-location: dshow\dvd_region.htm
 old-project: DirectShow
 ms.assetid: 2a555f98-5037-4a99-a1b7-bea36527309b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [DirectShow], DVD_REGIONStructure, PDVD_REGION, PDVD_REGION structure pointer [DirectShow], _DVD_REGION, dshow.dvd_region, dvdmedia/DVD_REGION, dvdmedia/PDVD_REGION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

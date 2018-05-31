@@ -1,6 +1,0 @@
-{
-  "tech": "input_touchhittest",
-  "headers": [
-    "winuser.h"
-  ]
-}

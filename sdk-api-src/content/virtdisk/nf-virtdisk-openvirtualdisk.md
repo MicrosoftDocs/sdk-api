@@ -7,13 +7,13 @@ old-location: vhd\openvirtualdisk.htm
 old-project: VStor
 ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
+ms.date: 05/29/2018
+ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

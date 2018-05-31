@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getmodwidthpairs.htm
 old-project: Controls
 ms.assetid: 8fcbc781-42da-46aa-b231-3a8246eccd36
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetModWidthPairs, GetModWidthPairs method [Windows Controls], GetModWidthPairs method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetModWidthPairs method, ITextFont2.GetModWidthPairs, ITextFont2::GetModWidthPairs, controls.itextfont2_getmodwidthpairs, tom/ITextFont2::GetModWidthPairs
 ms.prod: windows
 ms.technology: windows-sdk

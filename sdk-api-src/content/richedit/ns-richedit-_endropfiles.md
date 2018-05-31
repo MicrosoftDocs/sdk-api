@@ -7,7 +7,7 @@ old-location: controls\ENDROPFILES.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\endropfiles.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ENDROPFILES, ENDROPFILES structure [Windows Controls], _endropfiles, _win32_ENDROPFILES_str, _win32_ENDROPFILES_str_cpp, controls.ENDROPFILES, controls._win32_ENDROPFILES_str, richedit/ENDROPFILES
 ms.prod: windows
 ms.technology: windows-sdk

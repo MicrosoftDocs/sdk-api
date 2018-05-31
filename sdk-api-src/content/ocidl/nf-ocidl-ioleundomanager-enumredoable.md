@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_enumredoable.htm
 old-project: com
 ms.assetid: f78c7130-34c9-410a-9b9c-222b5e237ad1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: EnumRedoable, EnumRedoable method [COM], EnumRedoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumRedoable method, IOleUndoManager.EnumRedoable, IOleUndoManager::EnumRedoable, _ole_ioleundomanager_enumredoable, com.ioleundomanager_enumredoable, ocidl/IOleUndoManager::EnumRedoable
 ms.prod: windows
 ms.technology: windows-sdk

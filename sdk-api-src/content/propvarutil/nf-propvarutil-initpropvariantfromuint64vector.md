@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt64Vector.htm
 old-project: properties
 ms.assetid: 17c52a7d-c3d3-4132-8f44-7d0b250aa7ad
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: InitPropVariantFromUInt64Vector, InitPropVariantFromUInt64Vector function [Windows Properties], properties.InitPropVariantFromUInt64Vector, propvarutil/InitPropVariantFromUInt64Vector, shell.InitPropVariantFromUInt64Vector, shell_InitPropVariantFromUInt64Vector
 ms.prod: windows
 ms.technology: windows-sdk

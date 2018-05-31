@@ -7,7 +7,7 @@ old-location: setup\msigetactivedatabase.htm
 old-project: Msi
 ms.assetid: 148d467f-fecd-42a9-b838-22799a159f97
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiGetActiveDatabase, MsiGetActiveDatabase function, _msi_msigetactivedatabase, msiquery/MsiGetActiveDatabase, setup.msigetactivedatabase
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ListView_GetEmptyText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getemptytext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_GetEmptyText, ListView_GetEmptyText macro [Windows Controls], _shell_ListView_GetEmptyText, _shell_ListView_GetEmptyText_cpp, commctrl/ListView_GetEmptyText, controls.ListView_GetEmptyText, controls._shell_ListView_GetEmptyText
 ms.prod: windows
 ms.technology: windows-sdk

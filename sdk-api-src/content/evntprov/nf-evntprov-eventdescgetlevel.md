@@ -7,7 +7,7 @@ old-location: etw\eventdescgetlevel_func.htm
 old-project: ETW
 ms.assetid: 29f356ad-c957-4a1e-abf8-5c7e6212c92e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: EventDescGetLevel, EventDescGetLevel function [ETW], base.eventdescgetlevel_func, etw.eventdescgetlevel_func, evntprov/EventDescGetLevel
 ms.prod: windows
 ms.technology: windows-sdk
