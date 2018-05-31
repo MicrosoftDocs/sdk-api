@@ -7,7 +7,6 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Cloud Filter API

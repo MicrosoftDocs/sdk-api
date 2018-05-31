@@ -18,4 +18,4 @@ tech.root: ifsk
 
 This header is used by kernel. For more information, see:
 
-- [<built-in method title of str object at 0x0000017247165180>](../_kernel/index.md)
+- [<built-in method title of str object at 0x000002CD0ECD5148>](../_kernel/index.md)
