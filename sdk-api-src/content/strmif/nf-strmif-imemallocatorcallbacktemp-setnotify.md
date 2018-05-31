@@ -7,7 +7,7 @@ old-location: dshow\imemallocatorcallbacktemp_setnotify.htm
 old-project: DirectShow
 ms.assetid: 70e885d6-8b8d-479f-a3c5-095446dfc58e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IMemAllocatorCallbackTemp interface [DirectShow],SetNotify method, IMemAllocatorCallbackTemp.SetNotify, IMemAllocatorCallbackTemp::SetNotify, IMemAllocatorCallbackTempSetNotify, SetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow],IMemAllocatorCallbackTemp interface, dshow.imemallocatorcallbacktemp_setnotify, strmif/IMemAllocatorCallbackTemp::SetNotify
 ms.prod: windows
 ms.technology: windows-sdk

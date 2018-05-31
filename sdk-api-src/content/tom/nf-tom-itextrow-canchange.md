@@ -7,7 +7,7 @@ old-location: controls\itextrow_canchange.htm
 old-project: Controls
 ms.assetid: 721f3841-a50b-4569-b988-71a9fb96f16f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],CanChange method, ITextRow.CanChange, ITextRow::CanChange, controls.itextrow_canchange, tom/ITextRow::CanChange
 ms.prod: windows
 ms.technology: windows-sdk

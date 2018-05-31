@@ -7,13 +7,13 @@ old-location: vhd\take_snapshot_vhdset_version.htm
 old-project: VStor
 ms.assetid: E544AC22-6865-4ECF-92F8-B8027746C231
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: TAKE_SNAPSHOT_VHDSET_VERSION, TAKE_SNAPSHOT_VHDSET_VERSION enumeration [VHD], TAKE_SNAPSHOT_VHDSET_VERSION_1, TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, _TAKE_SNAPSHOT_VHDSET_VERSION, vhd.take_snapshot_vhdset_version, virtdisk/ TAKE_SNAPSHOT_VHDSET_VERSION_1, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
+ms.date: 05/29/2018
+ms.keywords: TAKE_SNAPSHOT_VHDSET_VERSION, TAKE_SNAPSHOT_VHDSET_VERSION enumeration [VHD], TAKE_SNAPSHOT_VHDSET_VERSION_1, TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, _TAKE_SNAPSHOT_VHDSET_VERSION, vdssys/ TAKE_SNAPSHOT_VHDSET_VERSION_1, vdssys/TAKE_SNAPSHOT_VHDSET_VERSION, vdssys/TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, vhd.take_snapshot_vhdset_version, virtdisk/ TAKE_SNAPSHOT_VHDSET_VERSION_1, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	TAKE_SNAPSHOT_VHDSET_VERSION
 product: Windows

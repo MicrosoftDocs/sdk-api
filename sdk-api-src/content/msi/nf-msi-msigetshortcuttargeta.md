@@ -7,7 +7,7 @@ old-location: setup\msigetshortcuttarget.htm
 old-project: Msi
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiGetShortcutTarget, MsiGetShortcutTarget function, MsiGetShortcutTargetA, MsiGetShortcutTargetW, _msi_msigetshortcuttarget, msi/MsiGetShortcutTarget, msi/MsiGetShortcutTargetA, msi/MsiGetShortcutTargetW, setup.msigetshortcuttarget
 ms.prod: windows
 ms.technology: windows-sdk

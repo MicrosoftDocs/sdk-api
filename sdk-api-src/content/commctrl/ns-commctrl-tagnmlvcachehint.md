@@ -7,7 +7,7 @@ old-location: controls\NMLVCACHEHINT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcachehint.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPNMLVCACHEHINT, NMLVCACHEHINT, NMLVCACHEHINT structure [Windows Controls], PNMLVCACHEHINT, PNMLVCACHEHINT structure pointer [Windows Controls], _win32_NMLVCACHEHINT, _win32_NMLVCACHEHINT_cpp, commctrl/NMLVCACHEHINT, commctrl/PNMLVCACHEHINT, controls.NMLVCACHEHINT, controls._win32_NMLVCACHEHINT, tagNMLVCACHEHINT"
 ms.prod: windows
 ms.technology: windows-sdk

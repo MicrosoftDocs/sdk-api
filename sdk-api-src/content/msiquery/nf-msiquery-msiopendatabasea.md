@@ -7,7 +7,7 @@ old-location: setup\msiopendatabase.htm
 old-project: Msi
 ms.assetid: 984996e3-aa2c-49ff-9067-ebefd3afdecb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MSIDBOPEN_CREATE, MSIDBOPEN_CREATEDIRECT, MSIDBOPEN_DIRECT, MSIDBOPEN_PATCHFILE, MSIDBOPEN_READONLY, MSIDBOPEN_TRANSACT, MsiOpenDatabase, MsiOpenDatabase function, MsiOpenDatabaseA, MsiOpenDatabaseW, _msi_msiopendatabase, msiquery/MsiOpenDatabase, msiquery/MsiOpenDatabaseA, msiquery/MsiOpenDatabaseW, setup.msiopendatabase
 ms.prod: windows
 ms.technology: windows-sdk

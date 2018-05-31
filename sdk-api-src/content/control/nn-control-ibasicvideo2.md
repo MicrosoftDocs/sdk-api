@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo2.htm
 old-project: DirectShow
 ms.assetid: a21fe7b9-75db-4c5b-bb29-42d305f048a1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IBasicVideo2, IBasicVideo2 interface [DirectShow], IBasicVideo2 interface [DirectShow],described, IBasicVideo2Interface, control/IBasicVideo2, dshow.ibasicvideo2
 ms.prod: windows
 ms.technology: windows-sdk

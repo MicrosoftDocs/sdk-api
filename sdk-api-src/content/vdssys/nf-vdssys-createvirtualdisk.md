@@ -1,45 +1,45 @@
 ---
 UID: NF:vdssys.CreateVirtualDisk
 title: CreateVirtualDisk function
-author: windows-driver-content
-description: Creates a virtual disk using the resources of the storage pool.
-old-location: stormgmt\createvirtualdisk_msft_storagepool.htm
-old-project: stormgmt
-ms.assetid: 1a5bf78d-356c-44a7-8f76-2cad85d3c171
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: Composite VirtualDisk Member, Composite Volume Member, CreateVirtualDisk, CreateVirtualDisk method [Windows Storage Management API], CreateVirtualDisk method [Windows Storage Management API], MSFT_StoragePool class, Delta Replica Target, Element Component, Fixed, Local Replica Source, Local Replica Source or Target, Local Replica Target, MSFT_StoragePool class [Windows Storage Management API], CreateVirtualDisk method, MSFT_StoragePool.CreateVirtualDisk, Other, Remote Replica Source, Remote Replica Source or Target, Remote Replica Target, Reserved as Pool Contributor, Reserved by Migration Services, Reserved by Replication Services, Reserved for ComputerSystem (the block server), Reserved for Sparing, Thin, Unknown, Unrestricted, stormgmt.createvirtualdisk_msft_storagepool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+author: windows-sdk-content
+description: Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing virtual disk or physical disk.
+old-location: vhd\createvirtualdisk.htm
+old-project: VStor
+ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vdssys.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: Root\Microsoft\Windows\Storage
+req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RAW_SCSI_VIRTUAL_DISK_VERSION
+req.typenames: VIRTUAL_DISK_ACCESS_MASK
 topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	COM
+-	DllExport
 api_location:
--	vdssys.h
+-	VirtDisk.dll
 api_name:
--	MSFT_StoragePool.CreateVirtualDisk
+-	CreateVirtualDisk
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
 req.irql: 
 req.product: Windows UI
 ---
@@ -50,7 +50,8 @@ req.product: Windows UI
 ## -description
 
 
-Creates a virtual disk using the resources of the storage pool.
+Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing 
+    virtual disk or physical disk.
 
 
 ## -parameters
@@ -58,295 +59,74 @@ Creates a virtual disk using the resources of the storage pool.
 
 
 
-### -param VirtualStorageType
+### -param VirtualStorageType [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure 
+     that contains the desired disk type and vendor information.
 
 
-### -param Path
+### -param Path [in]
 
-TBD
+A pointer to a valid string that represents the path to the new virtual disk image file.
 
 
-### -param VirtualDiskAccessMask
+### -param VirtualDiskAccessMask [in]
 
-TBD
+The <a href="https://msdn.microsoft.com/2b1f02ab-dc32-4af1-880b-73e7db8602be">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
+     when opening the newly created virtual disk file. If the <b>Version</b> member of the 
+     <i>Parameters</i> parameter is set to 
+     <b>CREATE_VIRTUAL_DISK_VERSION_2</b> then only the 
+     <b>VIRTUAL_DISK_ACCESS_NONE</b> (0) value may be specified.
 
 
-### -param SecurityDescriptor
+### -param SecurityDescriptor [in, optional]
 
-TBD
+An optional pointer to a 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> to apply to the virtual 
+     disk image file. If this parameter is <b>NULL</b>, the parent directory's security descriptor 
+     will be used.
 
 
-### -param Flags
+### -param Flags [in]
 
-TBD
+Creation flags, which must be a valid combination of the 
+     <a href="https://msdn.microsoft.com/35dba6c6-2825-425a-b432-a6ac8ad4ea4b">CREATE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
-### -param ProviderSpecificFlags
+### -param ProviderSpecificFlags [in]
 
-TBD
+Flags specific to the type of virtual disk being created. May be zero if none are required.
 
 
-### -param Parameters
+### -param Parameters [in]
 
-TBD
+A pointer to a valid 
+     <a href="https://msdn.microsoft.com/797e21ae-a4c4-48df-8124-e5c2fad22f33">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+     that contains creation parameter data.
 
 
-### -param Overlapped
+### -param Overlapped [in, optional]
 
-TBD
+An optional pointer to a valid <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure 
+     if <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">asynchronous</a> operation 
+     is desired.
 
 
-### -param Handle
+### -param Handle [out]
 
-TBD
-
-
-
-
-#### - AutoNumberOfColumns [in]
-
-If <b>TRUE</b>, this field instructs the storage provider (or subsystem) to automatically choose what it determines to be the best number of columns for the virtual disk. If this field is <b>TRUE</b>,  the <i>NumberOfColumns</i> parameter must be <b>NULL</b>.
-
-
-#### - AutoWriteCacheSize [in]
-
-<b>TRUE</b> if the provider should pick up the auto write cache size; otherwise, <b>FALSE</b>.
-
-
-#### - CreatedStorageJob [out]
-
-If <i>RunAsJob</i> is set to <b>TRUE</b> and this method takes a long time to execute, this parameter receives a reference to the storage job object that is used to track the long-running operation.
-
-
-#### - CreatedVirtualDisk [out]
-
-Receives a <a href="https://msdn.microsoft.com/4f0d6967-ab9c-494f-a991-f62fda8c2fa8">MSFT_VirtualDisk</a> object if this method is run normally (with <i>RunAsJob</i> set to <b>FALSE</b>) and the virtual disk is successfully created.
-
-
-#### - ExtendedStatus [out]
-
-A string that contains an embedded <a href="https://msdn.microsoft.com/BD1268B5-A1B6-4ADB-90FA-C270E23B4844">MSFT_StorageExtendedStatus</a> object.
-
-This parameter allows the storage provider to return extended (implementation-specific) error information.
-
-
-#### - FriendlyName [in]
-
-The friendly name for the virtual disk.
-
-Friendly names are expected to be descriptive, but they are not required to be unique. Note that some storage pools do not allow setting a friendly name during virtual disk creation. If a storage pool doesn't support this, virtual disk creation should still succeed, however the virtual disk may have a different name assigned to it.
-
-This parameter is required and cannot be <b>NULL</b>.
-
-
-#### - Interleave [in]
-
-Specifies the number of bytes that should for a strip in the common striping-based resiliency settings. The strip is defined as the size of the portion of a stripe that lies on one physical disk. Thus <i>Interleave</i> * <i>NumberOfColumns</i> will yield the size of one stripe of user data.
-
-If this parameter is specified, this value will override the <b>InterleaveDefault</b> which would have been inherited from the resiliency setting specified by <i>ResiliencySettingName</i>.
-
-
-#### - IsEnclosureAware [in]
-
-Determines the allocation behavior for this virtual disk. Enclosure aware virtual disks will intelligently pick the physical disks to use for their redundancy. If <b>TRUE</b>, the virtual disk will attempt to use physical disks from different enclosures to balance the fault tolerance between two or more physical enclosures.
-
-
-#### - NumberOfColumns [in]
-
-Specifies the number of underlying physical disks across which data should be striped. If specified, this value will override the <b>NumberOfColumnsDefault</b> which would have been inherited from the resiliency setting specified by <i>ResiliencySettingName</i>.
-
-
-#### - NumberOfDataCopies [in]
-
-Specifies the number of complete data copies to maintain for the virtual disk.
-
-If specified, this value will override the <b>NumberOfDataCopiesDefault</b> which would have been inherited from the resiliency setting specified by <i>ResiliencySettingName</i>.
-
-
-#### - OtherUsageDescription [in]
-
-A vendor specific usage for the new virtual disk. This parameter can only be specified if the <b>Usage</b> property is set to <b>Other</b>.
-
-
-#### - PhysicalDiskRedundancy [in]
-
-Specifies how many physical disk failures the virtual disk should be able to withstand before data loss occurs. If specified, this value will override the <b>PhysicalDiskRedundancyDefault</b> which would have been inherited from the resiliency setting specified by <i>ResiliencySettingName</i>.
-
-
-#### - PhysicalDisksToUse [in]
-
-If this parameter contains a list of physical disks, allocation of this virtual disk's storage is limited to the physical disks in the list. These physical disks must already be added to this storage pool.
-
-
-#### - ProvisioningType [in]
-
-Specifies the provisioning type for the virtual disk.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="Unknown"></a><a id="unknown"></a><a id="UNKNOWN"></a><dl>
-<dt><b>Unknown</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-The provisioning type is unknown. This could mean that this information is unavailable, or that the storage subsystem uses a proprietary method of allocation.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Thin"></a><a id="thin"></a><a id="THIN"></a><dl>
-<dt><b>Thin</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-The storage for the virtual disk is allocated on demand.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Fixed"></a><a id="fixed"></a><a id="FIXED"></a><dl>
-<dt><b>Fixed</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The storage for the virtual disk is allocated when the disk is created.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - ResiliencySettingName [in]
-
-The desired resiliency setting to use as a template for this virtual disk. This parameter's value should correspond to the particular <a href="https://msdn.microsoft.com/8F8981DB-50D7-424D-BD5B-C646FD8E434F">MSFT_ResiliencySetting</a> object's <b>Name</b> property. Only resiliency settings associated with this storage pool may be used.
-
-
-#### - RunAsJob [in]
-
-If <b>TRUE</b>, this method uses the <i>CreatedStorageJob</i> parameter when the request is taking a long time to service. If a storage job has been created to track the operation, this method will return <b>Method Parameters Checked - Job Started</b>. <div class="alert"><b>Note</b>  Even if <i>RunAsJob</i> is <b>TRUE</b>, this method can still return a result if it has finished in sufficient time.</div>
-<div> </div>
-
-
-If <b>FALSE</b> or <b>NULL</b>, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
-
-
-#### - Size [in]
-
-Indicates the desired size, in bytes, of the virtual disk. Note that some storage subsystems will round the size up or down to a multiple of its allocation unit size. On output, this parameter indicates the actual size of the virtual disk that was created. This parameter cannot be used if <i>UseMaximumSize</i> is set to <b>TRUE</b>.
-
-
-#### - StorageTierSizes [in]
-
-Sizes of the storage tiers.
-
-
-#### - StorageTiers [in]
-
-Storage tiers on this virtual disk. Each element of the array is an <a href="https://msdn.microsoft.com/0E049D07-DD37-4F64-8483-3ECF32211567">MSFT_StorageTier</a> object.
-
-
-#### - Usage [in]
-
-Specifies the intended usage for the virtual disk.
-
-You can specify a  predefined description or a custom description. To specify a predefined description, use a value other than <b>Other</b>. 
-
-To specify a custom description, use <b>Other</b> and specify a non-NULL value for the <b>OtherUsageDescription</b> property.
-
-
-
-#### Other (1)
-
-
-
-#### Unrestricted (2)
-
-
-
-#### Reserved for ComputerSystem (the block server) (3)
-
-
-
-#### Reserved by Replication Services (4)
-
-
-
-#### Reserved by Migration Services (5)
-
-
-
-#### Local Replica Source (6)
-
-
-
-#### Remote Replica Source (7)
-
-
-
-#### Local Replica Target (8)
-
-
-
-#### Remote Replica Target (9)
-
-
-
-#### Local Replica Source or Target (10)
-
-
-
-#### Remote Replica Source or Target (11)
-
-
-
-#### Delta Replica Target (12)
-
-
-
-#### Element Component (13)
-
-
-
-#### Reserved as Pool Contributor (14)
-
-
-
-#### Composite Volume Member (15)
-
-
-
-#### Composite VirtualDisk Member (16)
-
-
-
-#### Reserved for Sparing (17)
-
-
-#### - UseMaximumSize [in]
-
-If <b>TRUE</b>, this parameter instructs the storage array to create the largest possible virtual disk given the available resources of this storage pool. This parameter cannot be used if the <i>Size</i> parameter is set.
-
-
-#### - WriteCacheSize [in]
-
-Size of write cache on the virtual disk.
+A pointer to the handle object that represents the newly created virtual disk.
 
 
 ## -returns
 
 
 
-This function returns DWORD.
+If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the 
+      <i>Handle</i> parameter contains a valid pointer to the new virtual disk object.
+
+If the function fails, the return value is an error code and the value of the <i>Handle</i> 
+      parameter is undefined. For more information, see 
+      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
 
 
 
@@ -355,21 +135,60 @@ This function returns DWORD.
 
 
 
-This method is only available when the <b>SupportsVirtualDiskCreation</b> property on the storage subsystem is set to <b>TRUE</b>. If it is set to <b>FALSE</b>, this method will fail with <b>MI_RESULT_NOT_SUPPORTED</b>. 
+If the <b>CreateVirtualDisk</b> function fails with an 
+    error code value of <b>ERROR_INVALID_PARAMETER</b>, the cause may be due to any of the 
+    following conditions:
 
-This method is not supported for primordial pools.
+<ul>
+<li>The <i>VirtualStorageType</i> parameter is <b>NULL</b>.</li>
+<li>The <i>Parameters</i> parameter is <b>NULL</b>.</li>
+<li>The <b>Version</b> member of the <i>Parameters</i> parameter is not 
+      set to <b>CREATE_VIRTUAL_DISK_VERSION_1</b> or 
+      <b>CREATE_VIRTUAL_DISK_VERSION_2</b>.</li>
+<li>The <b>Version</b> member of the <i>Parameters</i> parameter is set 
+      to <b>CREATE_VIRTUAL_DISK_VERSION_2</b> but the 
+      <i>VirtualDiskAccessMask</i> parameter is not set to 
+      <b>VIRTUAL_DISK_ACCESS_NONE</b>.</li>
+<li>The <b>BlockSizeInBytes</b> member of the  <i>Parameters</i> 
+      parameter is not set to  <b>CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE</b> (0), 
+      0x80000 (512 KB), or 0x200000 (2 MB).</li>
+<li>The <b>MaximumSize</b> member of the <i>Parameters</i> parameter is 
+      less than 3 MB.</li>
+<li>The <b>MaximumSize</b> member of the <i>Parameters</i> parameter is 
+      not aligned with the value of the <b>SectorSizeInBytes</b> member.</li>
+<li>The <i>VirtualDiskAccessMask</i> parameter is set to a value of 
+      <code>(VirtualDiskAccessMask &amp; ~VIRTUAL_DISK_ACCESS_ALL)</code>.</li>
+<li>The <i>Flags</i> parameter is larger than 
+      <b>CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION</b>.</li>
+</ul>
+The host volume containing the new virtual disk image file cannot be compressed or EFS encrypted.
 
-This method only requires a <i>FriendlyName</i> and <i>Size</i> to be specified. Sizes can be specified explicitly through the <i>Size</i> parameter, or told to use the maximum available space from the storage pool by using the <i>UseMaximumSize</i> parameter. Both <i>FriendlyName</i> and <i>Size</i> are treated as goals rather than hard requirements. For example, not all SMI-S based arrays may support custom friendly names, however the virtual disk creation will still succeed. If the size specified is not achieved, then the actual size used for the virtual disk will be returned in the out parameter structure.
+When creating the various types of virtual disks, the following combinations of creation parameters are 
+      recommended:
 
-The usage of this virtual disk can be set using the <i>Usage</i> and <i>OtherUsageDescription</i> parameters. If a value for <i>OtherUsageDescription</i> is given, <i>Usage</i> must be set to 1 - 'Other', otherwise an error will be returned.
-
-By default, the resiliency setting applied to this virtual disk will be whatever is specified in the storage pool's <b>ResiliencySettingNameDefault</b> property. This can be overridden using the <i>ResiliencySettingName</i> parameter. Note that the name given here must correspond to a resiliency setting associated with this storage pool. Any other value will result in an error.
-
-Individual settings of the resiliency setting can be overridden using the <i>NumberOfDataCopies</i>, <i>PhysicalDiskRedundancy</i>, <i>NumberOfColumns</i>, and <i>Interleave</i> parameters. If these parameters are not used, the defaults from the resiliency setting will be used. These overrides will not persist back to the particular resiliency setting instance; however some storage providers may choose to create a new resiliency setting instance to capture this new configuration. If any of the goals specified in the override parameters are out of range, or are not supported by the storage pool, an error will be returned.
-
-The provisioning policy for the virtual disk is determined in a similar way to the resiliency setting. If no preference is specified in the <i>ProvisioningType</i> parameter, the policy is determined by the storage pool's <b>ProvisioningTypeDefault</b> property. If the <i>ProvisioningType</i> parameter is specified, the default is ignored and the value specified will be used instead.
-
-Allocation can be further controlled by the <i>PhysicalDisksToUse</i> parameter. There may be certain scenarios where a storage administrator wants to manually choose which physical disks should back the virtual disk. When this parameter is specified, data for the virtual disk will only be stored on the physical disks in this array and not on any others.
+<ul>
+<li>The <b>CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION</b> flag should be 
+        specified.</li>
+<li><b>ParentPath</b> should not be specified.</li>
+<li><b>SourcePath</b> can be specified if desired.</li>
+</ul>
+<ul>
+<li>The <b>CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION</b> flag should not be 
+        specified.</li>
+<li><b>ParentPath</b> should not be specified.</li>
+<li><b>SourcePath</b> can be specified if desired.</li>
+</ul>
+<ul>
+<li>The <b>CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION</b> flag should not be 
+        specified.</li>
+<li><b>ParentPath</b> should be specified.</li>
+<li><b>SourcePath</b> should not be specified.</li>
+</ul>
+The <b>CreateVirtualDisk</b> function can also be used 
+    as a mechanism for converting one type of virtual disk to another, or a physical disk to a virtual disk. This is 
+    accomplished through the use of the <b>SourcePath</b> member of the 
+    <a href="https://msdn.microsoft.com/797e21ae-a4c4-48df-8124-e5c2fad22f33">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+    to pre-populate the new virtual disk with block data from the source disk.
 
 
 
@@ -379,7 +198,15 @@ Allocation can be further controlled by the <i>PhysicalDisksToUse</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/135414e0-3e43-4ee4-ab5d-1ec5aceb5695">MSFT_StoragePool</a>
+<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+
+
+
+<a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a>
+
+
+
+<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
  
 
  

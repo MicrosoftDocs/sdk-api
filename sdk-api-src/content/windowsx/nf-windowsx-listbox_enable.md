@@ -7,7 +7,7 @@ old-location: controls\ListBox_Enable.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_enable.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListBox_Enable, ListBox_Enable macro [Windows Controls], _win32_ListBox_Enable, _win32_ListBox_Enable_cpp, controls.ListBox_Enable, controls._win32_ListBox_Enable, windowsx/ListBox_Enable
 ms.prod: windows
 ms.technology: windows-sdk

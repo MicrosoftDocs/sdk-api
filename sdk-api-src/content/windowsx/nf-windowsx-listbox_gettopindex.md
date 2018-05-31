@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetTopIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettopindex.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListBox_GetTopIndex, ListBox_GetTopIndex macro [Windows Controls], _win32_ListBox_GetTopIndex, _win32_ListBox_GetTopIndex_cpp, controls.ListBox_GetTopIndex, controls._win32_ListBox_GetTopIndex, windowsx/ListBox_GetTopIndex
 ms.prod: windows
 ms.technology: windows-sdk

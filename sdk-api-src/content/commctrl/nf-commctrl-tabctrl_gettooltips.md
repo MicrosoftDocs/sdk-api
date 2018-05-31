@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetToolTips.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_gettooltips.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TabCtrl_GetToolTips, TabCtrl_GetToolTips macro [Windows Controls], _win32_TabCtrl_GetToolTips, _win32_TabCtrl_GetToolTips_cpp, commctrl/TabCtrl_GetToolTips, controls.TabCtrl_GetToolTips, controls._win32_TabCtrl_GetToolTips
 ms.prod: windows
 ms.technology: windows-sdk

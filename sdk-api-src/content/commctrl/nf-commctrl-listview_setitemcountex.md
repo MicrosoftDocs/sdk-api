@@ -7,7 +7,7 @@ old-location: controls\ListView_SetItemCountEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcountex.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: LVSICF_NOINVALIDATEALL, LVSICF_NOSCROLL, ListView_SetItemCountEx, ListView_SetItemCountEx macro [Windows Controls], _win32_ListView_SetItemCountEx, _win32_ListView_SetItemCountEx_cpp, commctrl/ListView_SetItemCountEx, controls.ListView_SetItemCountEx, controls._win32_ListView_SetItemCountEx
 ms.prod: windows
 ms.technology: windows-sdk

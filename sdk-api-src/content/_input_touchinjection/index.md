@@ -2,7 +2,7 @@
 UID: TP:input_touchinjection
 ms.assetid: 095df767-a299-390f-810e-ca89066d19a9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

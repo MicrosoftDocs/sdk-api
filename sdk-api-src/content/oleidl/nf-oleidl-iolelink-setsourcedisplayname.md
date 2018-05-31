@@ -7,7 +7,7 @@ old-location: com\iolelink_setsourcedisplayname.htm
 old-project: com
 ms.assetid: 762d021f-4bf1-4f90-bf41-065b8810de47
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleLink interface [COM],SetSourceDisplayName method, IOleLink.SetSourceDisplayName, IOleLink::SetSourceDisplayName, SetSourceDisplayName, SetSourceDisplayName method [COM], SetSourceDisplayName method [COM],IOleLink interface, _ole_iolelink_setsourcedisplayname, com.iolelink_setsourcedisplayname, oleidl/IOleLink::SetSourceDisplayName
 ms.prod: windows
 ms.technology: windows-sdk

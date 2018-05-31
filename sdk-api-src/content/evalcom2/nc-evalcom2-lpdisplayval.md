@@ -7,7 +7,7 @@ old-location: setup\lpdisplayval.htm
 old-project: Msi
 ms.assetid: ff7b2789-a825-4fa4-b00c-a538f37d0eba
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback, LPDISPLAYVAL callback function, evalcom2/LPDISPLAYVAL, ieError, ieInfo, ieUnknown, ieWarning, setup.lpdisplayval
 ms.prod: windows
 ms.technology: windows-sdk

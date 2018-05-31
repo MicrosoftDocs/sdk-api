@@ -7,7 +7,7 @@ old-location: controls\GetThemeSysBool.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysbool.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetThemeSysBool, GetThemeSysBool function [Windows Controls], TMT_FLATMENUS, controls.GetThemeSysBool, controls.inet_GetThemeSysBool, inet_GetThemeSysBool, inet_GetThemeSysBool_cpp, uxtheme/GetThemeSysBool
 ms.prod: windows
 ms.technology: windows-sdk

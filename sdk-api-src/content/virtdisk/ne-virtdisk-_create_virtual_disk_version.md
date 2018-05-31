@@ -7,13 +7,13 @@ old-location: vhd\create_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 8a9f186a-88aa-43dc-97e0-2ffa43d7ffe5
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: CREATE_VIRTUAL_DISK_VERSION, CREATE_VIRTUAL_DISK_VERSION enumeration [VHD], CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED, _CREATE_VIRTUAL_DISK_VERSION, vhd.create_virtual_disk_version, virtdisk/CREATE_VIRTUAL_DISK_VERSION, virtdisk/CREATE_VIRTUAL_DISK_VERSION_1, virtdisk/CREATE_VIRTUAL_DISK_VERSION_2, virtdisk/CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED
+ms.date: 05/29/2018
+ms.keywords: CREATE_VIRTUAL_DISK_VERSION, CREATE_VIRTUAL_DISK_VERSION enumeration [VHD], CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED, _CREATE_VIRTUAL_DISK_VERSION, vdssys/CREATE_VIRTUAL_DISK_VERSION, vdssys/CREATE_VIRTUAL_DISK_VERSION_1, vdssys/CREATE_VIRTUAL_DISK_VERSION_2, vdssys/CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.create_virtual_disk_version, virtdisk/CREATE_VIRTUAL_DISK_VERSION, virtdisk/CREATE_VIRTUAL_DISK_VERSION_1, virtdisk/CREATE_VIRTUAL_DISK_VERSION_2, virtdisk/CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	CREATE_VIRTUAL_DISK_VERSION
 product: Windows

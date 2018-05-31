@@ -7,7 +7,7 @@ old-location: setup\msigetfeaturevalidstates.htm
 old-project: Msi
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates function, MsiGetFeatureValidStatesA, MsiGetFeatureValidStatesW, _msi_msigetfeaturevalidstates, msiquery/MsiGetFeatureValidStates, msiquery/MsiGetFeatureValidStatesA, msiquery/MsiGetFeatureValidStatesW, setup.msigetfeaturevalidstates
 ms.prod: windows
 ms.technology: windows-sdk

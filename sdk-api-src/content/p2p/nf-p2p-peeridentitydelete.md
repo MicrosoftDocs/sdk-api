@@ -7,7 +7,7 @@ old-location: p2p\peeridentitydelete.htm
 old-project: P2PSdk
 ms.assetid: 9738f6b1-cd88-4950-bab1-f97613a49e03
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], p2p.peeridentitydelete, p2p/PeerIdentityDelete
 ms.prod: windows
 ms.technology: windows-sdk

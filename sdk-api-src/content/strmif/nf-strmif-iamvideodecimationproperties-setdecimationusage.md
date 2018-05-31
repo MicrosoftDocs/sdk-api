@@ -7,7 +7,7 @@ old-location: dshow\iamvideodecimationproperties_setdecimationusage.htm
 old-project: DirectShow
 ms.assetid: c6456154-48f5-41d9-b6f5-863b30a53596
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],SetDecimationUsage method, IAMVideoDecimationProperties.SetDecimationUsage, IAMVideoDecimationProperties::SetDecimationUsage, IAMVideoDecimationPropertiesSetDecimationUsage, SetDecimationUsage, SetDecimationUsage method [DirectShow], SetDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_setdecimationusage, strmif/IAMVideoDecimationProperties::SetDecimationUsage
 ms.prod: windows
 ms.technology: windows-sdk

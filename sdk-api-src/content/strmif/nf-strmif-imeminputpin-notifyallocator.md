@@ -7,7 +7,7 @@ old-location: dshow\imeminputpin_notifyallocator.htm
 old-project: DirectShow
 ms.assetid: dbc9c0ce-3e9c-4402-9d3e-1c7295e94ad9
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IMemInputPin interface [DirectShow],NotifyAllocator method, IMemInputPin.NotifyAllocator, IMemInputPin::NotifyAllocator, IMemInputPinNotifyAllocator, NotifyAllocator, NotifyAllocator method [DirectShow], NotifyAllocator method [DirectShow],IMemInputPin interface, dshow.imeminputpin_notifyallocator, strmif/IMemInputPin::NotifyAllocator
 ms.prod: windows
 ms.technology: windows-sdk

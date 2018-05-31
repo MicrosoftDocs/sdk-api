@@ -2,7 +2,7 @@
 UID: NA:upnphost
 ms.assetid: d4747082-a0c1-37e4-9f31-77dd34574d16
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

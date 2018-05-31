@@ -7,7 +7,7 @@ old-location: com\iprint_getpageinfo.htm
 old-project: com
 ms.assetid: 8f3a2d21-5345-4c4e-9928-37dcd6ec5fcc
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPrint interface, IPrint interface [COM],GetPageInfo method, IPrint.GetPageInfo, IPrint::GetPageInfo, _ctrl_iprint_getpageinfo, com.iprint_getpageinfo, docobj/IPrint::GetPageInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetPropertyKey.htm
 old-project: properties
 ms.assetid: 10942dff-234e-4f85-827b-f27a6f099818
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Properties], GetPropertyKey method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyKey method, IPropertyDescription.GetPropertyKey, IPropertyDescription::GetPropertyKey, properties.IPropertyDescription_GetPropertyKey, propsys/IPropertyDescription::GetPropertyKey, shell.IPropertyDescription_GetPropertyKey, shell_IPropertyDescription_GetPropertyKey
 ms.prod: windows
 ms.technology: windows-sdk

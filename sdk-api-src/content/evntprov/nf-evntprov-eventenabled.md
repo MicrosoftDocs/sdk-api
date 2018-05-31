@@ -7,7 +7,7 @@ old-location: etw\eventenabled_func.htm
 old-project: ETW
 ms.assetid: b332b6d4-6921-40bd-bebc-6646b5b9bcde
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: EventEnabled, EventEnabled function [ETW], base.eventenabled_func, etw.eventenabled_func, evntprov/EventEnabled
 ms.prod: windows
 ms.technology: windows-sdk

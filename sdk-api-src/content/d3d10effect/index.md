@@ -2,7 +2,7 @@
 UID: NA:d3d10effect
 ms.assetid: bf99cf0b-02b4-3ff6-bcf5-70a97c32691a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

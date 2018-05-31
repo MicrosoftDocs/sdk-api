@@ -7,7 +7,7 @@ old-location: com\oleloadfromstream.htm
 old-project: com
 ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
 ms.prod: windows
 ms.technology: windows-sdk

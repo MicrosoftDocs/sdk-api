@@ -7,7 +7,7 @@ old-location: controls\ENLINK.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlink.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ENLINK, ENLINK structure [Windows Controls], _enlink, _win32_ENLINK_str, _win32_ENLINK_str_cpp, controls.ENLINK, controls._win32_ENLINK_str, richedit/ENLINK
 ms.prod: windows
 ms.technology: windows-sdk

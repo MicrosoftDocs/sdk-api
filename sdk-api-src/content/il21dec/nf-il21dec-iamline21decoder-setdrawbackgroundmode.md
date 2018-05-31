@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_setdrawbackgroundmode.htm
 old-project: DirectShow
 ms.assetid: 56301cc2-8f27-4530-bb6e-9909eb5bb390
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetDrawBackgroundMode method, IAMLine21Decoder.SetDrawBackgroundMode, IAMLine21Decoder::SetDrawBackgroundMode, IAMLine21DecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setdrawbackgroundmode, il21dec/IAMLine21Decoder::SetDrawBackgroundMode
 ms.prod: windows
 ms.technology: windows-sdk

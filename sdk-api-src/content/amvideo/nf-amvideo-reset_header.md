@@ -7,7 +7,7 @@ old-location: dshow\reset_header.htm
 old-project: DirectShow
 ms.assetid: bd976ff0-fbfb-4911-bee6-d53044eb3d23
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: RESET_HEADER, RESET_HEADER macro [DirectShow], amvideo/RESET_HEADER, dshow.reset_header
 ms.prod: windows
 ms.technology: windows-sdk

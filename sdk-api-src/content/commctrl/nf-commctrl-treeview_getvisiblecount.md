@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetVisibleCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getvisiblecount.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TreeView_GetVisibleCount, TreeView_GetVisibleCount macro [Windows Controls], _win32_TreeView_GetVisibleCount, _win32_TreeView_GetVisibleCount_cpp, commctrl/TreeView_GetVisibleCount, controls.TreeView_GetVisibleCount, controls._win32_TreeView_GetVisibleCount
 ms.prod: windows
 ms.technology: windows-sdk

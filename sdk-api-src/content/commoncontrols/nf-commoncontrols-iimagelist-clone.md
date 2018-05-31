@@ -7,7 +7,7 @@ old-location: controls\IImageList_Clone.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\clone.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Clone, Clone method [Windows Controls], Clone method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Clone method, IImageList.Clone, IImageList::Clone, comctl_IImageList_Clone, comctl_IImageList_Clone_cpp, commoncontrols/IImageList::Clone, controls.IImageList_Clone, controls.comctl_IImageList_Clone
 ms.prod: windows
 ms.technology: windows-sdk

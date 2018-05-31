@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetPosition.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getposition.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetPosition, GetPosition method [Windows Controls], GetPosition method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetPosition method, ITextFont.GetPosition, ITextFont::GetPosition, _win32_ITextFont_GetPosition, _win32_ITextFont_GetPosition_cpp, controls.ITextFont_GetPosition, controls._win32_ITextFont_GetPosition, tom/ITextFont::GetPosition
 ms.prod: windows
 ms.technology: windows-sdk

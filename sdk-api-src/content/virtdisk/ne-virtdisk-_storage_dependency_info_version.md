@@ -7,13 +7,13 @@ old-location: vhd\storage_dependency_info_version.htm
 old-project: VStor
 ms.assetid: 80437477-3f5e-4dac-a773-9339c5b742e2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: STORAGE_DEPENDENCY_INFO_VERSION, STORAGE_DEPENDENCY_INFO_VERSION enumeration [VHD], STORAGE_DEPENDENCY_INFO_VERSION_1, STORAGE_DEPENDENCY_INFO_VERSION_2, STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED, _STORAGE_DEPENDENCY_INFO_VERSION, vhd.storage_dependency_info_version, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_1, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_2, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED
+ms.date: 05/29/2018
+ms.keywords: STORAGE_DEPENDENCY_INFO_VERSION, STORAGE_DEPENDENCY_INFO_VERSION enumeration [VHD], STORAGE_DEPENDENCY_INFO_VERSION_1, STORAGE_DEPENDENCY_INFO_VERSION_2, STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED, _STORAGE_DEPENDENCY_INFO_VERSION, vdssys/STORAGE_DEPENDENCY_INFO_VERSION, vdssys/STORAGE_DEPENDENCY_INFO_VERSION_1, vdssys/STORAGE_DEPENDENCY_INFO_VERSION_2, vdssys/STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED, vhd.storage_dependency_info_version, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_1, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_2, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	STORAGE_DEPENDENCY_INFO_VERSION
 product: Windows

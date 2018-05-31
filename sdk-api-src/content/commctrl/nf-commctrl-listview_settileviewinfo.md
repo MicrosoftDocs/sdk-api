@@ -7,7 +7,7 @@ old-location: controls\ListView_SetTileViewInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileviewinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_SetTileViewInfo, ListView_SetTileViewInfo macro [Windows Controls], _win32_ListView_SetTileViewInfo, _win32_ListView_SetTileViewInfo_cpp, commctrl/ListView_SetTileViewInfo, controls.ListView_SetTileViewInfo, controls._win32_ListView_SetTileViewInfo
 ms.prod: windows
 ms.technology: windows-sdk

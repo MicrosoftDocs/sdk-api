@@ -7,7 +7,7 @@ old-location: com\bindmoniker.htm
 old-project: com
 ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
 ms.prod: windows
 ms.technology: windows-sdk

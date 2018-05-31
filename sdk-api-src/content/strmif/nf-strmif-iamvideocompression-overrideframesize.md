@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_overrideframesize.htm
 old-project: DirectShow
 ms.assetid: 19f5d231-965e-4b0a-bd0b-e85b03d79c71
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],OverrideFrameSize method, IAMVideoCompression.OverrideFrameSize, IAMVideoCompression::OverrideFrameSize, IAMVideoCompressionOverrideFrameSize, OverrideFrameSize, OverrideFrameSize method [DirectShow], OverrideFrameSize method [DirectShow],IAMVideoCompression interface, dshow.iamvideocompression_overrideframesize, strmif/IAMVideoCompression::OverrideFrameSize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\NMREBARCHILDSIZE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchildsize.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE structure pointer [Windows Controls], NMREBARCHILDSIZE, NMREBARCHILDSIZE structure [Windows Controls], _win32_NMREBARCHILDSIZE, _win32_NMREBARCHILDSIZE_cpp, commctrl/LPNMREBARCHILDSIZE, commctrl/NMREBARCHILDSIZE, controls.NMREBARCHILDSIZE, controls._win32_NMREBARCHILDSIZE, tagNMREBARCHILDSIZE"
 ms.prod: windows
 ms.technology: windows-sdk

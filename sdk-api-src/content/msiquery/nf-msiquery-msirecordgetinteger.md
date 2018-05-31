@@ -7,7 +7,7 @@ old-location: setup\msirecordgetinteger.htm
 old-project: Msi
 ms.assetid: f04d4d61-ebe0-4eb1-b0e7-b94d9ef3c900
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiRecordGetInteger, MsiRecordGetInteger function, _msi_msirecordgetinteger, msiquery/MsiRecordGetInteger, setup.msirecordgetinteger
 ms.prod: windows
 ms.technology: windows-sdk

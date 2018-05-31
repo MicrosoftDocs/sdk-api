@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyDescriptionByName.htm
 old-project: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
 ms.prod: windows
 ms.technology: windows-sdk

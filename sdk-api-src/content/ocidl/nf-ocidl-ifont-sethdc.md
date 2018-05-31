@@ -7,7 +7,7 @@ old-location: com\ifont_sethdc.htm
 old-project: com
 ms.assetid: daba0cfa-1628-415a-8161-75f7edfeeca8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IFont interface [COM],SetHdc method, IFont.SetHdc, IFont::SetHdc, SetHdc, SetHdc method [COM], SetHdc method [COM],IFont interface, _ctrl_ifont_sethdc, com.ifont_sethdc, ocidl/IFont::SetHdc
 ms.prod: windows
 ms.technology: windows-sdk

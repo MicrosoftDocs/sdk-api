@@ -7,7 +7,7 @@ old-location: com\isurrogateservice.htm
 old-project: com
 ms.assetid: 01773aa6-3eb5-43dd-8a10-d1351a07fe1f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ISurrogateService, ISurrogateService interface [COM], ISurrogateService interface [COM],described, _com_isurrogateservice, com.isurrogateservice, objidl/ISurrogateService
 ms.prod: windows
 ms.technology: windows-sdk

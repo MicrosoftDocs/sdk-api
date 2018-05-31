@@ -7,13 +7,13 @@ old-location: vhd\open_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: ad67bc3e-a0fe-4198-9307-819577abef7f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*POPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD], OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT, OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, POPEN_VIRTUAL_DISK_PARAMETERS, POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _OPEN_VIRTUAL_DISK_PARAMETERS, vhd.open_virtual_disk_parameters, virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS, virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS"
+ms.date: 05/29/2018
+ms.keywords: "*POPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD], OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT, OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, POPEN_VIRTUAL_DISK_PARAMETERS, POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/POPEN_VIRTUAL_DISK_PARAMETERS, vhd.open_virtual_disk_parameters, virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS, virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	OPEN_VIRTUAL_DISK_PARAMETERS
 product: Windows

@@ -2,7 +2,7 @@
 UID: TP:sidebar
 ms.assetid: 5b5f5c9e-0112-3ee8-962d-1fc7c54df431
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

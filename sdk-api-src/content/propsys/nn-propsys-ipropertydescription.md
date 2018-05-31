@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription.htm
 old-project: properties
 ms.assetid: 9abd476c-450e-4381-b28e-afca00d4b179
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IPropertyDescription, IPropertyDescription interface [Windows Properties], IPropertyDescription interface [Windows Properties],described, properties.IPropertyDescription, propsys/IPropertyDescription, shell.IPropertyDescription, shell_IPropertyDescription
 ms.prod: windows
 ms.technology: windows-sdk

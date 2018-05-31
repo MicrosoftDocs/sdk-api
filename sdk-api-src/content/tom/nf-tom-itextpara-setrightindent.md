@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetRightIndent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrightindent.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextPara interface [Windows Controls],SetRightIndent method, ITextPara.SetRightIndent, ITextPara::SetRightIndent, SetRightIndent, SetRightIndent method [Windows Controls], SetRightIndent method [Windows Controls],ITextPara interface, _win32_ITextPara_SetRightIndent, _win32_ITextPara_SetRightIndent_cpp, controls.ITextPara_SetRightIndent, controls._win32_ITextPara_SetRightIndent, tom/ITextPara::SetRightIndent
 ms.prod: windows
 ms.technology: windows-sdk

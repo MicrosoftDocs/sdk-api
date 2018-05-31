@@ -7,7 +7,7 @@ old-location: controls\ImageList_AddMasked.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_addmasked.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ImageList_AddMasked, ImageList_AddMasked function [Windows Controls], _win32_ImageList_AddMasked, _win32_ImageList_AddMasked_cpp, commctrl/ImageList_AddMasked, controls.ImageList_AddMasked, controls._win32_ImageList_AddMasked
 ms.prod: windows
 ms.technology: windows-sdk

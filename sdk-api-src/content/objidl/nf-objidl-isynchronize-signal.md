@@ -7,7 +7,7 @@ old-location: com\isynchronize_signal.htm
 old-project: com
 ms.assetid: c55b9ffc-2e28-427b-8c77-349f554469e5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ISynchronize interface [COM],Signal method, ISynchronize.Signal, ISynchronize::Signal, Signal, Signal method [COM], Signal method [COM],ISynchronize interface, _com_isynchronize_signal, com.isynchronize_signal, objidlbase/ISynchronize::Signal
 ms.prod: windows
 ms.technology: windows-sdk

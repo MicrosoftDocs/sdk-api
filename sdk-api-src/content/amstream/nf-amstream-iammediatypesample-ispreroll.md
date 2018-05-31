@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_ispreroll.htm
 old-project: DirectShow
 ms.assetid: 57ae9d67-65b9-458e-ad94-f5d5c89d1984
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsPreroll method, IAMMediaTypeSample.IsPreroll, IAMMediaTypeSample::IsPreroll, IAMMediaTypeSampleIsPreroll, IsPreroll, IsPreroll method [DirectShow], IsPreroll method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsPreroll, dshow.iammediatypesample_ispreroll
 ms.prod: windows
 ms.technology: windows-sdk

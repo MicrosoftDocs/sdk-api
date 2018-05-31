@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_gettimeformat.htm
 old-project: DirectShow
 ms.assetid: aa6dc75e-f124-4404-b8fd-ef227d8cada0
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [DirectShow], GetTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetTimeFormat method, IMediaSeeking.GetTimeFormat, IMediaSeeking::GetTimeFormat, IMediaSeekingGetTimeFormat, dshow.imediaseeking_gettimeformat, strmif/IMediaSeeking::GetTimeFormat
 ms.prod: windows
 ms.technology: windows-sdk

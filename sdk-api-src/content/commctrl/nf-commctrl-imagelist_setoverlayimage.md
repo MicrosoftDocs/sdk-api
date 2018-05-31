@@ -7,7 +7,7 @@ old-location: controls\ImageList_SetOverlayImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setoverlayimage.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ImageList_SetOverlayImage, ImageList_SetOverlayImage function [Windows Controls], _win32_ImageList_SetOverlayImage, _win32_ImageList_SetOverlayImage_cpp, commctrl/ImageList_SetOverlayImage, controls.ImageList_SetOverlayImage, controls._win32_ImageList_SetOverlayImage
 ms.prod: windows
 ms.technology: windows-sdk

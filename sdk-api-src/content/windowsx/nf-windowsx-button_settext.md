@@ -7,7 +7,7 @@ old-location: controls\Button_SetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_Button_SetText, _win32_Button_SetText_cpp, controls.Button_SetText, controls._win32_Button_SetText, windowsx/Button_SetText
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\dmoregister.htm
 old-project: DirectShow
 ms.assetid: 4e70569b-8502-4eee-bd23-173269b345d1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister
 ms.prod: windows
 ms.technology: windows-sdk

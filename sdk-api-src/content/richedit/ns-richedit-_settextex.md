@@ -7,7 +7,7 @@ old-location: controls\SETTEXTEX.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\settextex.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: SETTEXTEX, SETTEXTEX structure [Windows Controls], ST_DEFAULT, ST_KEEPUNDO, ST_NEWCHARS, ST_SELECTION, ST_UNICODE, _settextex, _win32_SETTEXTEX_str, _win32_SETTEXTEX_str_cpp, controls.SETTEXTEX, controls._win32_SETTEXTEX_str, richedit/SETTEXTEX
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\PropSheet_IdToIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_idtoindex.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropSheet_IdToIndex, PropSheet_IdToIndex macro [Windows Controls], _win32_PropSheet_IdToIndex, _win32_PropSheet_IdToIndex_cpp, controls.PropSheet_IdToIndex, controls._win32_PropSheet_IdToIndex, prsht/PropSheet_IdToIndex
 ms.prod: windows
 ms.technology: windows-sdk

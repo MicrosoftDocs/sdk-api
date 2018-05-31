@@ -7,7 +7,7 @@ old-location: controls\PropSheet_Apply.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_apply.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropSheet_Apply, PropSheet_Apply macro [Windows Controls], _win32_PropSheet_Apply, _win32_PropSheet_Apply_cpp, controls.PropSheet_Apply, controls._win32_PropSheet_Apply, prsht/PropSheet_Apply
 ms.prod: windows
 ms.technology: windows-sdk

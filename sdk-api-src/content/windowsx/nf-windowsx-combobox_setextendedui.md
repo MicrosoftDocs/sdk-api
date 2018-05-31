@@ -7,7 +7,7 @@ old-location: controls\ComboBox_SetExtendedUI.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setextendedui.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ComboBox_SetExtendedUI, ComboBox_SetExtendedUI macro [Windows Controls], _win32_ComboBox_SetExtendedUI, _win32_ComboBox_SetExtendedUI_cpp, controls.ComboBox_SetExtendedUI, controls._win32_ComboBox_SetExtendedUI, windowsx/ComboBox_SetExtendedUI
 ms.prod: windows
 ms.technology: windows-sdk

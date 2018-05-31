@@ -2,21 +2,21 @@
 UID: NF:propvarutil.StgSerializePropVariant
 title: StgSerializePropVariant function
 author: windows-sdk-content
-description: Serializes a specified PROPVARIANT structure, creating a SERIALIZEDPROPERTYVALUE structure.
-old-location: properties\StgSerializePropVariant.htm
-old-project: properties
-ms.assetid: c588e239-616f-4569-88b5-6bfb504cefa1
+description: The StgSerializePropVariant function converts a PROPVARIANT data type to a SERIALIZEDPROPERTYVALUE data type.
+old-location: stg\StgSerializePropVariant.htm
+old-project: Stg
+ms.assetid: e1382c1e-3f9e-41a2-8e95-fc3702e516d3
 ms.author: windowssdkdev
 ms.date: 05/22/2018
-ms.keywords: StgSerializePropVariant, StgSerializePropVariant function [Windows Properties], _shell_StgSerializePropVariant, properties.StgSerializePropVariant, propvarutil/StgSerializePropVariant, shell.StgSerializePropVariant
+ms.keywords: StgSerializePropVariant, StgSerializePropVariant function [Structured Storage], propvarutil/StgSerializePropVariant, stg.StgSerializePropVariant
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
+req.dll: Propsys.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 or later
 ---
@@ -50,7 +50,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Serializes a specified <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure, creating a <a href="https://msdn.microsoft.com/ab64a16e-624d-427a-8f9c-5c8c4a9df625">SERIALIZEDPROPERTYVALUE</a> structure.
+The <b>StgSerializePropVariant</b> function converts a <b>PROPVARIANT</b> data type to a <b>SERIALIZEDPROPERTYVALUE</b> data type.
 
 
 ## -parameters
@@ -58,35 +58,56 @@ Serializes a specified <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d
 
 
 
-### -param ppropvar [in]
+### -param ppropvar
 
-Type: <b>const <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
-
-A constant pointer to the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+TBD
 
 
 ### -param ppProp [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ab64a16e-624d-427a-8f9c-5c8c4a9df625">SERIALIZEDPROPERTYVALUE</a>**</b>
-
-The address of a pointer to the <a href="https://msdn.microsoft.com/ab64a16e-624d-427a-8f9c-5c8c4a9df625">SERIALIZEDPROPERTYVALUE</a> structure.
+A pointer to the newly allocated  <b>SERIALIZEDPROPERTYVALUE</b>.
 
 
 ### -param pcb [out]
 
-Type: <b>ULONG*</b>
+A pointer to the size of the newly allocated  <b>SERIALIZEDPROPERTYVALUE</b>.
 
-                  A pointer to the value representing the size of the <a href="https://msdn.microsoft.com/ab64a16e-624d-427a-8f9c-5c8c4a9df625">SERIALIZEDPROPERTYVALUE</a> structure.
-                
+
+#### - pVar [in]
+
+A pointer to <b>PROPVARIANT</b>.
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+This function can return one of these values.
 
 
+
+
+## -remarks
+
+
+
+The 
+ <b>StgSerializePropVariant</b> function serializes a <b>PROPVARIANT</b>.  The function is similar to the <a href="https://msdn.microsoft.com/3d35b808-4fa6-44ec-9c46-96ceee1dafd0">StgConvertVariantToProperty</a> function, but   the <b>StgSerializePropVariant</b> function automatically handles memory allocation for the new <b>SERIALIZEDPROPERTYVALUE</b>.  In addition, <b>StgSerializePropVariant</b> uses the default values <b>CP_WINUNICODE</b> and PID_ILLEGAL for code page and property ID respectively.  Use <b>StgSerializePropVariant</b> unless control over these arguments is specifically needed.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3d35b808-4fa6-44ec-9c46-96ceee1dafd0">StgConvertVariantToProperty</a>
+
+
+
+<a href="https://msdn.microsoft.com/55b4de40-d81d-4989-8f57-a286815fa495">StgDeserializePropVariant</a>
+ 
+
+ 
 

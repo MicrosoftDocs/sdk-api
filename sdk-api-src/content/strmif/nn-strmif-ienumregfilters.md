@@ -7,7 +7,7 @@ old-location: dshow\ienumregfilters.htm
 old-project: DirectShow
 ms.assetid: 59cb809d-84f5-42c4-a385-0f586af4d048
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], IEnumRegFilters interface [DirectShow],described, IEnumRegFiltersInterface, dshow.ienumregfilters, strmif/IEnumRegFilters
 ms.prod: windows
 ms.technology: windows-sdk

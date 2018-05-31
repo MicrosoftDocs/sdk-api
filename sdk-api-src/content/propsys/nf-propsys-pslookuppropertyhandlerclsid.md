@@ -7,7 +7,7 @@ old-location: properties\PSLookupPropertyHandlerCLSID.htm
 old-project: properties
 ms.assetid: 43f90a33-9bd6-4e47-ab92-5e0d01ba268a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSLookupPropertyHandlerCLSID, PSLookupPropertyHandlerCLSID function [Windows Properties], _shell_PSLookupPropertyHandlerCLSID, properties.PSLookupPropertyHandlerCLSID, propsys/PSLookupPropertyHandlerCLSID, shell.PSLookupPropertyHandlerCLSID
 ms.prod: windows
 ms.technology: windows-sdk

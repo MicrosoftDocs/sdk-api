@@ -7,7 +7,7 @@ old-location: controls\Header_GetStateImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getstateimagelist.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Header_GetStateImageList, Header_GetStateImageList macro [Windows Controls], _win32_Header_GetStateImageList, _win32_Header_GetStateImageList_cpp, commctrl/Header_GetStateImageList, controls.Header_GetStateImageList, controls._win32_Header_GetStateImageList
 ms.prod: windows
 ms.technology: windows-sdk

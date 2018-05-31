@@ -7,7 +7,7 @@ old-location: dshow\imixerocxnotify_onstatuschange.htm
 old-project: DirectShow
 ms.assetid: b6e49306-59bc-45a2-826b-cea2cf77214b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnStatusChange method, IMixerOCXNotify.OnStatusChange, IMixerOCXNotify::OnStatusChange, IMixerOCXNotifyOnStatusChange, OnStatusChange, OnStatusChange method [DirectShow], OnStatusChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_onstatuschange, mixerocx/IMixerOCXNotify::OnStatusChange
 ms.prod: windows
 ms.technology: windows-sdk

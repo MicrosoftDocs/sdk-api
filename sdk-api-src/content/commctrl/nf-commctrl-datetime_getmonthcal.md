@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetMonthCal.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcal.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DateTime_GetMonthCal, DateTime_GetMonthCal macro [Windows Controls], _win32_DateTime_GetMonthCal, _win32_DateTime_GetMonthCal_cpp, commctrl/DateTime_GetMonthCal, controls.DateTime_GetMonthCal, controls._win32_DateTime_GetMonthCal
 ms.prod: windows
 ms.technology: windows-sdk

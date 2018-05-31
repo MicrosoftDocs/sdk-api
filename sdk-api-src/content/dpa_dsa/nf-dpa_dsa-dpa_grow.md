@@ -7,7 +7,7 @@ old-location: controls\DPA_Grow.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_grow.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DPA_Grow, DPA_Grow function [Windows Controls], _shell_DPA_Grow, _shell_DPA_Grow_cpp, controls.DPA_Grow, controls._shell_DPA_Grow, dpa_dsa/DPA_Grow
 ms.prod: windows
 ms.technology: windows-sdk

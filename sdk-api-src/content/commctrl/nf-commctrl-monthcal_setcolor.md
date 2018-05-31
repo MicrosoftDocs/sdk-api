@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcolor.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_SetColor, MonthCal_SetColor macro [Windows Controls], _win32_MonthCal_SetColor, _win32_MonthCal_SetColor_cpp, commctrl/MonthCal_SetColor, controls.MonthCal_SetColor, controls._win32_MonthCal_SetColor
 ms.prod: windows
 ms.technology: windows-sdk

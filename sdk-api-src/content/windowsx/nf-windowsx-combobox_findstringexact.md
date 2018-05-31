@@ -7,7 +7,7 @@ old-location: controls\ComboBox_FindStringExact.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_findstringexact.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ComboBox_FindStringExact, ComboBox_FindStringExact macro [Windows Controls], _win32_ComboBox_FindStringExact, _win32_ComboBox_FindStringExact_cpp, controls.ComboBox_FindStringExact, controls._win32_ComboBox_FindStringExact, windowsx/ComboBox_FindStringExact
 ms.prod: windows
 ms.technology: windows-sdk

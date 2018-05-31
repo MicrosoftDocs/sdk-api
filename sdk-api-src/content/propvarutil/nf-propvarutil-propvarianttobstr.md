@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBSTR.htm
 old-project: properties
 ms.assetid: a3aec16e-4fe3-4da4-a06d-f58412ac84b9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropVariantToBSTR, PropVariantToBSTR function [Windows Properties], _shell_PropVariantToBSTR, properties.PropVariantToBSTR, propvarutil/PropVariantToBSTR, shell.PropVariantToBSTR
 ms.prod: windows
 ms.technology: windows-sdk

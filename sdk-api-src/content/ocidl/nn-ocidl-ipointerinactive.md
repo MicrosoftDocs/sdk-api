@@ -7,7 +7,7 @@ old-location: com\ipointerinactive.htm
 old-project: com
 ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
 ms.prod: windows
 ms.technology: windows-sdk

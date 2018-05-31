@@ -7,7 +7,7 @@ old-location: controls\ImageList_DragEnter.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragenter.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ImageList_DragEnter, ImageList_DragEnter function [Windows Controls], _win32_ImageList_DragEnter, _win32_ImageList_DragEnter_cpp, commctrl/ImageList_DragEnter, controls.ImageList_DragEnter, controls._win32_ImageList_DragEnter
 ms.prod: windows
 ms.technology: windows-sdk

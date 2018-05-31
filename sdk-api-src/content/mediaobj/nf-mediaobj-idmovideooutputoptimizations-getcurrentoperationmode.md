@@ -7,7 +7,7 @@ old-location: dshow\idmovideooutputoptimizations_getcurrentoperationmode.htm
 old-project: DirectShow
 ms.assetid: ddfc65ea-e336-40b8-a901-53ebc3ee7d86
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetCurrentOperationMode, GetCurrentOperationMode method [DirectShow], GetCurrentOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentOperationMode method, IDMOVideoOutputOptimizations.GetCurrentOperationMode, IDMOVideoOutputOptimizations::GetCurrentOperationMode, IDMOVideoOutputOptimizationsGetCurrentOperationMode, dshow.idmovideooutputoptimizations_getcurrentoperationmode, mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode
 ms.prod: windows
 ms.technology: windows-sdk

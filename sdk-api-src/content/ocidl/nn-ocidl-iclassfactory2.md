@@ -7,7 +7,7 @@ old-location: com\iclassfactory2.htm
 old-project: com
 ms.assetid: c49c7612-3b1f-4535-baf3-8458b3f34f95
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IClassFactory2, IClassFactory2 interface [COM], IClassFactory2 interface [COM],described, _com_iclassfactory2, com.iclassfactory2, ocidl/IClassFactory2
 ms.prod: windows
 ms.technology: windows-sdk

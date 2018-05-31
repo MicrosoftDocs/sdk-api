@@ -7,7 +7,7 @@ old-location: com\coserverinfo.htm
 old-project: com
 ms.assetid: 88c94a7f-5cf0-4d61-833f-91cba45d8624
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: COSERVERINFO, COSERVERINFO structure [COM], _COSERVERINFO, _com_COSERVERINFO, com.coserverinfo, objidlbase/COSERVERINFO
 ms.prod: windows
 ms.technology: windows-sdk

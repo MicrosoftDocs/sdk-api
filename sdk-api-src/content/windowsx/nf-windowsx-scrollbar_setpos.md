@@ -7,7 +7,7 @@ old-location: controls\ScrollBar_SetPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_setpos.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ScrollBar_SetPos, ScrollBar_SetPos macro [Windows Controls], _win32_ScrollBar_SetPos, _win32_ScrollBar_SetPos_cpp, controls.ScrollBar_SetPos, controls._win32_ScrollBar_SetPos, windowsx/ScrollBar_SetPos
 ms.prod: windows
 ms.technology: windows-sdk

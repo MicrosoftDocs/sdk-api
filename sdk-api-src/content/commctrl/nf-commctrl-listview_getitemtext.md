@@ -7,7 +7,7 @@ old-location: controls\ListView_GetItemText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_GetItemText, ListView_GetItemText macro [Windows Controls], _win32_ListView_GetItemText, _win32_ListView_GetItemText_cpp, commctrl/ListView_GetItemText, controls.ListView_GetItemText, controls._win32_ListView_GetItemText
 ms.prod: windows
 ms.technology: windows-sdk

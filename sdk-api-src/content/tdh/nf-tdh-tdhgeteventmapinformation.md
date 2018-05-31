@@ -7,7 +7,7 @@ old-location: etw\tdhgeteventmapinformation_func.htm
 old-project: ETW
 ms.assetid: 2625b65c-7f9e-4a87-85c6-d16857ef4987
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: TdhGetEventMapInformation, TdhGetEventMapInformation function [ETW], etw.tdhgeteventmapinformation_func, tdh.tdhgeteventmapinformation_func, tdh/TdhGetEventMapInformation
 ms.prod: windows
 ms.technology: windows-sdk

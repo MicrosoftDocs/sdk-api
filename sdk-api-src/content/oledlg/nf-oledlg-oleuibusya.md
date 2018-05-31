@@ -7,7 +7,7 @@ old-location: com\oleuibusy.htm
 old-project: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_OleUIBusy, com.oleuibusy, oledlg/OleUIBusy, oledlg/OleUIBusyA, oledlg/OleUIBusyW
 ms.prod: windows
 ms.technology: windows-sdk

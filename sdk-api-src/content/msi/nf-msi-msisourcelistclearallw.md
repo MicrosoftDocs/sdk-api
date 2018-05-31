@@ -7,7 +7,7 @@ old-location: setup\msisourcelistclearall.htm
 old-project: Msi
 ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiSourceListClearAll, MsiSourceListClearAll function, MsiSourceListClearAllA, MsiSourceListClearAllW, _msi_msisourcelistclearall, msi/MsiSourceListClearAll, msi/MsiSourceListClearAllA, msi/MsiSourceListClearAllW, setup.msisourcelistclearall
 ms.prod: windows
 ms.technology: windows-sdk

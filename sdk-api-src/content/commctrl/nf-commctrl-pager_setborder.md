@@ -7,7 +7,7 @@ old-location: controls\Pager_SetBorder.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setborder.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Pager_SetBorder, Pager_SetBorder macro [Windows Controls], _win32_Pager_SetBorder, _win32_Pager_SetBorder_cpp, commctrl/Pager_SetBorder, controls.Pager_SetBorder, controls._win32_Pager_SetBorder
 ms.prod: windows
 ms.technology: windows-sdk

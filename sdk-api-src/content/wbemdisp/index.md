@@ -2,7 +2,7 @@
 UID: NA:wbemdisp
 ms.assetid: 1d409fb1-dea2-3beb-af51-aa5733485c34
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

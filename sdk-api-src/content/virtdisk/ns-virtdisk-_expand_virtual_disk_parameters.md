@@ -7,13 +7,13 @@ old-location: vhd\expand_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: 8a8a4d1c-7dbc-4dfe-9f21-94a3370553b8
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PEXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS structure [VHD], PEXPAND_VIRTUAL_DISK_PARAMETERS, PEXPAND_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _EXPAND_VIRTUAL_DISK_PARAMETERS, vhd.expand_virtual_disk_parameters, virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS, virtdisk/PEXPAND_VIRTUAL_DISK_PARAMETERS"
+ms.date: 05/29/2018
+ms.keywords: "*PEXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS structure [VHD], PEXPAND_VIRTUAL_DISK_PARAMETERS, PEXPAND_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/PEXPAND_VIRTUAL_DISK_PARAMETERS, vhd.expand_virtual_disk_parameters, virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS, virtdisk/PEXPAND_VIRTUAL_DISK_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	EXPAND_VIRTUAL_DISK_PARAMETERS
 product: Windows

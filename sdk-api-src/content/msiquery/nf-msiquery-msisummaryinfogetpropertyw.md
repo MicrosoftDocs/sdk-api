@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfogetproperty.htm
 old-project: Msi
 ms.assetid: 7df4bd31-85a7-4b61-beaf-5c1f2117e6f5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiSummaryInfoGetProperty, MsiSummaryInfoGetProperty function, MsiSummaryInfoGetPropertyA, MsiSummaryInfoGetPropertyW, _msi_msisummaryinfogetproperty, msiquery/MsiSummaryInfoGetProperty, msiquery/MsiSummaryInfoGetPropertyA, msiquery/MsiSummaryInfoGetPropertyW, setup.msisummaryinfogetproperty
 ms.prod: windows
 ms.technology: windows-sdk

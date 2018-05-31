@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientcompletecontentinformation.htm
 old-project: P2PSdk
 ms.assetid: 0951e5e5-ad00-463e-8aa8-21b11a8acedc
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerDistClientCompleteContentInformation, PeerDistClientCompleteContentInformation function [Peer Networking], p2p.peerdistclientcompletecontentinformation, peerdist/PeerDistClientCompleteContentInformation
 ms.prod: windows
 ms.technology: windows-sdk

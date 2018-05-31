@@ -7,7 +7,7 @@ old-location: controls\ListView_GetCountPerPage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcountperpage.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_GetCountPerPage, ListView_GetCountPerPage macro [Windows Controls], _win32_ListView_GetCountPerPage, _win32_ListView_GetCountPerPage_cpp, commctrl/ListView_GetCountPerPage, controls.ListView_GetCountPerPage, controls._win32_ListView_GetCountPerPage
 ms.prod: windows
 ms.technology: windows-sdk

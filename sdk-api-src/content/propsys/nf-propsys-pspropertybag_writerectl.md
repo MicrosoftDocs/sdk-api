@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteRECTL.htm
 old-project: properties
 ms.assetid: 83C29519-CAB0-4989-85B5-70AD79E69D04
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSPropertyBag_WriteRECTL, PSPropertyBag_WriteRECTL function [Windows Properties], properties.PSPropertyBag_WriteRECTL, propsys/PSPropertyBag_WriteRECTL, shell.PSPropertyBag_WriteRECTL, shell_PSPropertyBag_WriteRECTL
 ms.prod: windows
 ms.technology: windows-sdk

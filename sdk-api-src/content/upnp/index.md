@@ -2,7 +2,7 @@
 UID: NA:upnp
 ms.assetid: 99e57801-310a-32df-bdd4-8cfc1004985b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

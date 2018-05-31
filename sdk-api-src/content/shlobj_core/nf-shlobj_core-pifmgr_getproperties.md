@@ -7,7 +7,7 @@ old-location: properties\PifMgr_GetProperties.htm
 old-project: properties
 ms.assetid: 62933ddf-9b0d-427a-8b5f-a0117a3b4885
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PifMgr_GetProperties, PifMgr_GetProperties function [Windows Properties], _win32_PifMgr_GetProperties, properties.PifMgr_GetProperties, shell.PifMgr_GetProperties, shlobj_core/PifMgr_GetProperties
 ms.prod: windows
 ms.technology: windows-sdk

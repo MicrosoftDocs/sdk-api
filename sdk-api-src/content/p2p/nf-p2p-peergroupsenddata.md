@@ -7,7 +7,7 @@ old-location: p2p\peergroupsenddata.htm
 old-project: P2PSdk
 ms.assetid: 8dcc484d-2b96-4186-990d-c32b7b254d91
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGroupSendData, PeerGroupSendData function [Peer Networking], p2p.peergroupsenddata, p2p/PeerGroupSendData
 ms.prod: windows
 ms.technology: windows-sdk

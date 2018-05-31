@@ -7,7 +7,7 @@ old-location: com\ieventpublisher.htm
 old-project: com
 ms.assetid: 132b79c8-d7f4-49c1-87c7-9bdf311ae697
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IEventPublisher, IEventPublisher interface [COM], IEventPublisher interface [COM],described, _com_ieventpublisher, com.ieventpublisher, eventsys/IEventPublisher
 ms.prod: windows
 ms.technology: windows-sdk

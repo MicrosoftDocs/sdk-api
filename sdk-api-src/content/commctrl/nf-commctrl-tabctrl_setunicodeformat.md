@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetUnicodeFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TabCtrl_SetUnicodeFormat, TabCtrl_SetUnicodeFormat macro [Windows Controls], _win32_TabCtrl_SetUnicodeFormat, _win32_TabCtrl_SetUnicodeFormat_cpp, commctrl/TabCtrl_SetUnicodeFormat, controls.TabCtrl_SetUnicodeFormat, controls._win32_TabCtrl_SetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk

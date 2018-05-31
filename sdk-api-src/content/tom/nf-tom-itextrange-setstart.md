@@ -7,7 +7,7 @@ old-location: controls\ITextRange_SetStart.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setstart.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange interface [Windows Controls],SetStart method, ITextRange.SetStart, ITextRange::SetStart, SetStart, SetStart method [Windows Controls], SetStart method [Windows Controls],ITextRange interface, _win32_ITextRange_SetStart, _win32_ITextRange_SetStart_cpp, controls.ITextRange_SetStart, controls._win32_ITextRange_SetStart, tom/ITextRange::SetStart
 ms.prod: windows
 ms.technology: windows-sdk

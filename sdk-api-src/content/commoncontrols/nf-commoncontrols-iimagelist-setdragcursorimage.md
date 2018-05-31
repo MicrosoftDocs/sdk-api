@@ -7,7 +7,7 @@ old-location: controls\IImageList_SetDragCursorImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setdragcursorimage.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IImageList interface [Windows Controls],SetDragCursorImage method, IImageList.SetDragCursorImage, IImageList::SetDragCursorImage, SetDragCursorImage, SetDragCursorImage method [Windows Controls], SetDragCursorImage method [Windows Controls],IImageList interface, comctl_IImageList_SetDragCursorImage, comctl_IImageList_SetDragCursorImage_cpp, commoncontrols/IImageList::SetDragCursorImage, controls.IImageList_SetDragCursorImage, controls.comctl_IImageList_SetDragCursorImage
 ms.prod: windows
 ms.technology: windows-sdk

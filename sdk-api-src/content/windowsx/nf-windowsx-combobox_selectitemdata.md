@@ -7,7 +7,7 @@ old-location: controls\ComboBox_SelectItemData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectitemdata.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ComboBox_SelectItemData, ComboBox_SelectItemData macro [Windows Controls], _win32_ComboBox_SelectItemData, _win32_ComboBox_SelectItemData_cpp, controls.ComboBox_SelectItemData, controls._win32_ComboBox_SelectItemData, windowsx/ComboBox_SelectItemData
 ms.prod: windows
 ms.technology: windows-sdk

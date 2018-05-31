@@ -7,7 +7,7 @@ old-location: controls\ITextRange_Move.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\move.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange interface [Windows Controls],Move method, ITextRange.Move, ITextRange::Move, Move, Move method [Windows Controls], Move method [Windows Controls],ITextRange interface, _win32_ITextRange_Move, _win32_ITextRange_Move_cpp, controls.ITextRange_Move, controls._win32_ITextRange_Move, tom/ITextRange::Move
 ms.prod: windows
 ms.technology: windows-sdk

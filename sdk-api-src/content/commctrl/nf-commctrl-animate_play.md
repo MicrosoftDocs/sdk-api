@@ -7,7 +7,7 @@ old-location: controls\Animate_Play.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_play.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Animate_Play, Animate_Play macro [Windows Controls], _win32_Animate_Play, _win32_Animate_Play_cpp, commctrl/Animate_Play, controls.Animate_Play, controls._win32_Animate_Play
 ms.prod: windows
 ms.technology: windows-sdk

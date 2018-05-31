@@ -7,7 +7,7 @@ old-location: controls\Static_Enable.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_enable.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Static_Enable, Static_Enable macro [Windows Controls], _win32_Static_Enable, _win32_Static_Enable_cpp, controls.Static_Enable, controls._win32_Static_Enable, windowsx/Static_Enable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellmargin.htm
 old-project: Controls
 ms.assetid: fc477a0f-2368-40c8-9b75-caec3afedea0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetCellMargin, GetCellMargin method [Windows Controls], GetCellMargin method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellMargin method, ITextRow.GetCellMargin, ITextRow::GetCellMargin, controls.itextrow_getcellmargin, tom/ITextRow::GetCellMargin
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\igetvbaobject.htm
 old-project: com
 ms.assetid: dda96834-7fc9-4361-9861-b9831fc7e6fe
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interface [COM],described, _com_IGetVBAObject, com.igetvbaobject, vbinterf/IGetVBAObject
 ms.prod: windows
 ms.technology: windows-sdk

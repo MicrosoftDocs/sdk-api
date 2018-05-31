@@ -7,7 +7,7 @@ old-location: properties\PSGetItemPropertyHandlerWithCreateObject.htm
 old-project: properties
 ms.assetid: 82e0aa15-b67c-4c0a-bafb-f1dc5f822aec
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSGetItemPropertyHandlerWithCreateObject, PSGetItemPropertyHandlerWithCreateObject function [Windows Properties], _shell_PSGetItemPropertyHandlerWithCreateObject, properties.PSGetItemPropertyHandlerWithCreateObject, propsys/PSGetItemPropertyHandlerWithCreateObject, shell.PSGetItemPropertyHandlerWithCreateObject
 ms.prod: windows
 ms.technology: windows-sdk

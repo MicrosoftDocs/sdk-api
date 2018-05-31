@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveStartUntil.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestartuntil.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStartUntil method, ITextRange.MoveStartUntil, ITextRange::MoveStartUntil, MoveStartUntil, MoveStartUntil method [Windows Controls], MoveStartUntil method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStartUntil, _win32_ITextRange_MoveStartUntil_cpp, controls.ITextRange_MoveStartUntil, controls._win32_ITextRange_MoveStartUntil, tom/ITextRange::MoveStartUntil
 ms.prod: windows
 ms.technology: windows-sdk

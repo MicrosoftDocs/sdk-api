@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_backlightcompensation.htm
 old-project: DirectShow
 ms.assetid: 52a9a841-b3d0-41fe-b531-70fa6bac4517
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_BacklightCompensation method, IVideoProcAmp.put_BacklightCompensation, IVideoProcAmp::put_BacklightCompensation, IVideoProcAmpput_BacklightCompensation, dshow.ivideoprocamp_put_backlightcompensation, put_BacklightCompensation, put_BacklightCompensation method [DirectShow], put_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_BacklightCompensation
 ms.prod: windows
 ms.technology: windows-sdk

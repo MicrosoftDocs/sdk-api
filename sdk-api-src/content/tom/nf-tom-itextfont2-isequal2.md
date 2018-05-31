@@ -7,7 +7,7 @@ old-location: controls\itextfont2_isequal2.htm
 old-project: Controls
 ms.assetid: c423bbdb-a108-4f29-8dc4-3dd35849f39a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextFont2 interface [Windows Controls],IsEqual2 method, ITextFont2.IsEqual2, ITextFont2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_isequal2, tom/ITextFont2::IsEqual2
 ms.prod: windows
 ms.technology: windows-sdk

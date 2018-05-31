@@ -7,7 +7,7 @@ old-location: com\cogetcurrentlogicalthreadid.htm
 old-project: com
 ms.assetid: eced2f1e-9f2b-476c-bea8-945fb4804a89
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CoGetCurrentLogicalThreadId, CoGetCurrentLogicalThreadId function [COM], _com_CoGetCurrentLogicalThreadId, com.cogetcurrentlogicalthreadid, combaseapi/CoGetCurrentLogicalThreadId
 ms.prod: windows
 ms.technology: windows-sdk

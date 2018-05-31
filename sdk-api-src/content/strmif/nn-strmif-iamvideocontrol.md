@@ -7,7 +7,7 @@ old-location: dshow\iamvideocontrol.htm
 old-project: DirectShow
 ms.assetid: bd114977-c76c-4429-a835-98601b350a93
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], IAMVideoControl interface [DirectShow],described, IAMVideoControlInterface, dshow.iamvideocontrol, strmif/IAMVideoControl
 ms.prod: windows
 ms.technology: windows-sdk

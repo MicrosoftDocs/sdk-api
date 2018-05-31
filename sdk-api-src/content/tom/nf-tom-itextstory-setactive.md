@@ -7,7 +7,7 @@ old-location: controls\itextstory_setactive.htm
 old-project: Controls
 ms.assetid: fa0177be-2016-4205-b121-921dbdbf5b71
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextStory interface [Windows Controls],SetActive method, ITextStory.SetActive, ITextStory::SetActive, SetActive, SetActive method [Windows Controls], SetActive method [Windows Controls],ITextStory interface, controls.itextstory_setactive, tom/ITextStory::SetActive
 ms.prod: windows
 ms.technology: windows-sdk

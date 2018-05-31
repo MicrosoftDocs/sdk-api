@@ -7,7 +7,7 @@ old-location: controls\ListView_InsertMarkHitTest.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertmarkhittest.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_InsertMarkHitTest, ListView_InsertMarkHitTest macro [Windows Controls], _win32_ListView_InsertMarkHitTest, _win32_ListView_InsertMarkHitTest_cpp, commctrl/ListView_InsertMarkHitTest, controls.ListView_InsertMarkHitTest, controls._win32_ListView_InsertMarkHitTest
 ms.prod: windows
 ms.technology: windows-sdk

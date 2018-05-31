@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBooleanVectorAlloc.htm
 old-project: properties
 ms.assetid: 241f43b6-5ff0-4ce6-b0a4-59dc9cb6cf8f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropVariantToBooleanVectorAlloc, PropVariantToBooleanVectorAlloc function [Windows Properties], _shell_PropVariantToBooleanVectorAlloc, properties.PropVariantToBooleanVectorAlloc, propvarutil/PropVariantToBooleanVectorAlloc, shell.PropVariantToBooleanVectorAlloc
 ms.prod: windows
 ms.technology: windows-sdk

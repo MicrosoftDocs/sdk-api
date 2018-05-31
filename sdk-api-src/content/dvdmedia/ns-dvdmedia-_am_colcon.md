@@ -7,7 +7,7 @@ old-location: dshow\am_colcon.htm
 old-project: DirectShow
 ms.assetid: 9358d860-6187-48d9-81b6-d5d65d73786d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: "*PAM_COLCON, AM_COLCON, AM_COLCON structure [DirectShow], PAM_COLCON, PAM_COLCON structure pointer [DirectShow], _AM_COLCON, dshow.am_colcon, dvdmedia/AM_COLCON, dvdmedia/PAM_COLCON"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

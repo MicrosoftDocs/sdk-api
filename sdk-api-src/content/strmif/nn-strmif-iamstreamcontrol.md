@@ -7,7 +7,7 @@ old-location: dshow\iamstreamcontrol.htm
 old-project: DirectShow
 ms.assetid: 126c7ed7-acc0-4248-a3ab-c91c9f1c5cee
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl
 ms.prod: windows
 ms.technology: windows-sdk

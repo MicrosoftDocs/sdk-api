@@ -7,7 +7,7 @@ old-location: controls\TTGETTITLE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\ttgettitle.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows Controls], TTGETTITLE, TTGETTITLE structure [Windows Controls], _TTGETTITLE, commctrl/PTTGETTITLE, commctrl/TTGETTITLE, controls.TTGETTITLE, controls.inet_TTGETTITLE, inet_TTGETTITLE, inet_TTGETTITLE_cpp"
 ms.prod: windows
 ms.technology: windows-sdk

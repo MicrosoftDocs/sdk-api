@@ -7,7 +7,7 @@ old-location: p2p\drtgeteventdatasize.htm
 old-project: P2PSdk
 ms.assetid: b73431fc-6b5a-41f7-8616-6d82dc8844f4
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: DrtGetEventDataSize, DrtGetEventDataSize function [Peer Networking], drt/DrtGetEventDataSize, p2p.drtgeteventdatasize
 ms.prod: windows
 ms.technology: windows-sdk

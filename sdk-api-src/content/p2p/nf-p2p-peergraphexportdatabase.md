@@ -7,7 +7,7 @@ old-location: p2p\peergraphexportdatabase.htm
 old-project: P2PSdk
 ms.assetid: 0f198952-c6d4-4da7-9086-7abd635172cb
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGraphExportDatabase, PeerGraphExportDatabase function [Peer Networking], p2p.peergraphexportdatabase, p2p/PeerGraphExportDatabase
 ms.prod: windows
 ms.technology: windows-sdk

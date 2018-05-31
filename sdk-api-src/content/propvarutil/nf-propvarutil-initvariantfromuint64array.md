@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt64Array.htm
 old-project: properties
 ms.assetid: 67886e29-c3dd-4bfd-b53f-761c16daaf63
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: InitVariantFromUInt64Array, InitVariantFromUInt64Array function [Windows Properties], _shell_InitVariantFromUInt64Array, properties.InitVariantFromUInt64Array, propvarutil/InitVariantFromUInt64Array, shell.InitVariantFromUInt64Array
 ms.prod: windows
 ms.technology: windows-sdk

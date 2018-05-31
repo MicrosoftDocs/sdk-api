@@ -7,7 +7,7 @@ old-location: p2p\peerdistserveropencontentinformationex.htm
 old-project: P2PSdk
 ms.assetid: cba9a9e8-2397-4c78-925f-ee5d817d1ee4
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerDistServerOpenContentInformationEx, PeerDistServerOpenContentInformationEx function [Peer Networking], p2p.peerdistserveropencontentinformationex, peerdist/PeerDistServerOpenContentInformationEx
 ms.prod: windows
 ms.technology: windows-sdk

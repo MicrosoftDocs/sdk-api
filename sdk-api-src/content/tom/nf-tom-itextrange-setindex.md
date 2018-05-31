@@ -7,7 +7,7 @@ old-location: controls\ITextRange_SetIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindex.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange interface [Windows Controls],SetIndex method, ITextRange.SetIndex, ITextRange::SetIndex, SetIndex, SetIndex method [Windows Controls], SetIndex method [Windows Controls],ITextRange interface, _win32_ITextRange_SetIndex, _win32_ITextRange_SetIndex_cpp, controls.ITextRange_SetIndex, controls._win32_ITextRange_SetIndex, tom/ITextRange::SetIndex
 ms.prod: windows
 ms.technology: windows-sdk

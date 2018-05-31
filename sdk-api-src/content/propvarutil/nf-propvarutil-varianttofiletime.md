@@ -7,7 +7,7 @@ old-location: properties\VariantToFileTime.htm
 old-project: properties
 ms.assetid: e3094bd1-e641-43d8-8bc5-926c8d5a6ebe
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSTF_LOCAL, PSTF_UTC, VariantToFileTime, VariantToFileTime function [Windows Properties], _shell_VariantToFileTime, properties.VariantToFileTime, propvarutil/VariantToFileTime, shell.VariantToFileTime
 ms.prod: windows
 ms.technology: windows-sdk

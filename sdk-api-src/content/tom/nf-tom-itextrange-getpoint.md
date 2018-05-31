@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetPoint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpoint.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetPoint, GetPoint method [Windows Controls], GetPoint method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetPoint method, ITextRange.GetPoint, ITextRange::GetPoint, _win32_ITextRange_GetPoint, _win32_ITextRange_GetPoint_cpp, controls.ITextRange_GetPoint, controls._win32_ITextRange_GetPoint, tom/ITextRange::GetPoint, tomAllowOffClient, tomClientCoord, tomEnd, tomObjectArg, tomStart, tomTransform
 ms.prod: windows
 ms.technology: windows-sdk

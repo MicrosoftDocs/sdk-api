@@ -7,7 +7,7 @@ old-location: com\irunnableobject_isrunning.htm
 old-project: com
 ms.assetid: 0a4cdd21-8256-4533-9cad-d9e8450a17e9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IRunnableObject interface [COM],IsRunning method, IRunnableObject.IsRunning, IRunnableObject::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunnableObject interface, _com_irunnableobject_isrunning, com.irunnableobject_isrunning, objidl/IRunnableObject::IsRunning
 ms.prod: windows
 ms.technology: windows-sdk

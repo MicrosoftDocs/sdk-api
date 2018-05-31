@@ -7,13 +7,13 @@ old-location: vhd\storage_dependency_info_type_2.htm
 old-project: VStor
 ms.assetid: f3e57773-0008-4715-9136-a9b990beea58
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PSTORAGE_DEPENDENCY_INFO_TYPE_2, PSTORAGE_DEPENDENCY_INFO_TYPE_2, PSTORAGE_DEPENDENCY_INFO_TYPE_2 structure pointer [VHD], STORAGE_DEPENDENCY_INFO_TYPE_2, STORAGE_DEPENDENCY_INFO_TYPE_2 structure [VHD], _STORAGE_DEPENDENCY_INFO_TYPE_2, vhd.storage_dependency_info_type_2, virtdisk/PSTORAGE_DEPENDENCY_INFO_TYPE_2, virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_2"
+ms.date: 05/29/2018
+ms.keywords: "*PSTORAGE_DEPENDENCY_INFO_TYPE_2, PSTORAGE_DEPENDENCY_INFO_TYPE_2, PSTORAGE_DEPENDENCY_INFO_TYPE_2 structure pointer [VHD], STORAGE_DEPENDENCY_INFO_TYPE_2, STORAGE_DEPENDENCY_INFO_TYPE_2 structure [VHD], _STORAGE_DEPENDENCY_INFO_TYPE_2, vdssys/PSTORAGE_DEPENDENCY_INFO_TYPE_2, vdssys/STORAGE_DEPENDENCY_INFO_TYPE_2, vhd.storage_dependency_info_type_2, virtdisk/PSTORAGE_DEPENDENCY_INFO_TYPE_2, virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	STORAGE_DEPENDENCY_INFO_TYPE_2
 product: Windows

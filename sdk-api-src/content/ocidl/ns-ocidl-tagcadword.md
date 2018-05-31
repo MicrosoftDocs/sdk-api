@@ -7,7 +7,7 @@ old-location: com\cadword.htm
 old-project: com
 ms.assetid: 4e7f8e1a-53cc-40db-9651-00f5d912e768
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPCADWORD, CADWORD, CADWORD structure [COM], LPCADWORD, LPCADWORD structure pointer [COM], _ctrl_CADWORD, com.cadword, ocidl/CADWORD, ocidl/LPCADWORD, tagCADWORD"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamextendederrorinfo.htm
 old-project: DirectShow
 ms.assetid: 0e3274e6-7c22-4175-8b2e-cdf4afc1225e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], IAMExtendedErrorInfo interface [DirectShow],described, IAMExtendedErrorInfoInterface, dshow.iamextendederrorinfo, qnetwork/IAMExtendedErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

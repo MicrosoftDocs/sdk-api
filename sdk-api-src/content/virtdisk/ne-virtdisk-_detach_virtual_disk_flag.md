@@ -7,13 +7,13 @@ old-location: vhd\detach_virtual_disk_flag.htm
 old-project: VStor
 ms.assetid: 43f0687d-edb5-48d9-885c-530261c485fa
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: DETACH_VIRTUAL_DISK_FLAG, DETACH_VIRTUAL_DISK_FLAG enumeration [VHD], DETACH_VIRTUAL_DISK_FLAG_NONE, _DETACH_VIRTUAL_DISK_FLAG, vhd.detach_virtual_disk_flag, vhd.unsurface_virtual_disk_flag, virtdisk/DETACH_VIRTUAL_DISK_FLAG, virtdisk/DETACH_VIRTUAL_DISK_FLAG_NONE
+ms.date: 05/29/2018
+ms.keywords: DETACH_VIRTUAL_DISK_FLAG, DETACH_VIRTUAL_DISK_FLAG enumeration [VHD], DETACH_VIRTUAL_DISK_FLAG_NONE, _DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG_NONE, vhd.detach_virtual_disk_flag, vhd.unsurface_virtual_disk_flag, virtdisk/DETACH_VIRTUAL_DISK_FLAG, virtdisk/DETACH_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	DETACH_VIRTUAL_DISK_FLAG
 product: Windows

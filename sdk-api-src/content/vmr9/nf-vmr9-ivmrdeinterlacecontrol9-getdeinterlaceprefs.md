@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 0ada3e78-f093-4b03-8db6-793cf80f0000
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetDeinterlacePrefs, GetDeinterlacePrefs method [DirectShow], GetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetDeinterlacePrefs method, IVMRDeinterlaceControl9.GetDeinterlacePrefs, IVMRDeinterlaceControl9::GetDeinterlacePrefs, IVMRDeinterlaceControl9GetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol9_getdeinterlaceprefs, vmr9/IVMRDeinterlaceControl9::GetDeinterlacePrefs
 ms.prod: windows
 ms.technology: windows-sdk

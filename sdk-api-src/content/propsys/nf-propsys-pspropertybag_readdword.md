@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadDWORD.htm
 old-project: properties
 ms.assetid: 31977E3F-FA2F-4c2d-8A95-6BF937EDC45C
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PSPropertyBag_ReadDWORD, PSPropertyBag_ReadDWORD function [Windows Properties], properties.PSPropertyBag_ReadDWORD, propsys/PSPropertyBag_ReadDWORD, shell.PSPropertyBag_ReadDWORD, shell_PSPropertyBag_ReadDWORD
 ms.prod: windows
 ms.technology: windows-sdk

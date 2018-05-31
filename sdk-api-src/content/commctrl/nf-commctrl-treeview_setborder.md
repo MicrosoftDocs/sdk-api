@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetBorder.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setborder.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TVSBF_XBORDER, TVSBF_YBORDER, TreeView_SetBorder, TreeView_SetBorder macro [Windows Controls], _win32_TreeView_SetBorder, _win32_TreeView_SetBorder_cpp, commctrl/TreeView_SetBorder, controls.TreeView_SetBorder, controls._win32_TreeView_SetBorder
 ms.prod: windows
 ms.technology: windows-sdk

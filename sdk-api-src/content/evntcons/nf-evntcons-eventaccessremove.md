@@ -7,7 +7,7 @@ old-location: etw\eventaccessremove_func.htm
 old-project: ETW
 ms.assetid: 9f25f163-046c-41b0-82f9-0b214b74b87e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventaccessremove_func, etw.eventaccessremove_func, evntcons/EventAccessRemove
 ms.prod: windows
 ms.technology: windows-sdk

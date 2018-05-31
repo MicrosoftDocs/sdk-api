@@ -7,7 +7,7 @@ old-location: p2p\peer_graph_scope.htm
 old-project: P2PSdk
 ms.assetid: 103f0493-05b9-46a6-8304-0c38ec7dc674
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PEER_GRAPH_SCOPE, PEER_GRAPH_SCOPE enumeration [Peer Networking], PEER_GRAPH_SCOPE_ANY, PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_LOOPBACK, PEER_GRAPH_SCOPE_SITELOCAL, p2p.peer_graph_scope, p2p/PEER_GRAPH_SCOPE, p2p/PEER_GRAPH_SCOPE_ANY, p2p/PEER_GRAPH_SCOPE_GLOBAL, p2p/PEER_GRAPH_SCOPE_LINKLOCAL, p2p/PEER_GRAPH_SCOPE_LOOPBACK, p2p/PEER_GRAPH_SCOPE_SITELOCAL, peer_graph_scope_tag
 ms.prod: windows
 ms.technology: windows-sdk

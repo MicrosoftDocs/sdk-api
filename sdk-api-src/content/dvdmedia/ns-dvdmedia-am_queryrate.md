@@ -7,7 +7,7 @@ old-location: dshow\am_queryrate.htm
 old-project: DirectShow
 ms.assetid: a791f6ac-f415-4641-bac1-26db983a1ef7
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStructure, dshow.am_queryrate, dvdmedia/AM_QueryRate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

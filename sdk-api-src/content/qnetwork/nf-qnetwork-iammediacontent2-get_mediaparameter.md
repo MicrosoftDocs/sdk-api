@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent2_get_mediaparameter.htm
 old-project: DirectShow
 ms.assetid: 87e018bb-2073-46df-860a-c4de99a88189
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameter method, IAMMediaContent2.get_MediaParameter, IAMMediaContent2::get_MediaParameter, IAMMediaContent2get_MediaParameter, dshow.iammediacontent2_get_mediaparameter, get_MediaParameter, get_MediaParameter method [DirectShow], get_MediaParameter method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_MediaParameter
 ms.prod: windows
 ms.technology: windows-sdk

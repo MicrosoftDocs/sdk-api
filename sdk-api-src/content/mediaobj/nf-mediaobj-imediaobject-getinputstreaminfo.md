@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getinputstreaminfo.htm
 old-project: DirectShow
 ms.assetid: 9e18bf5e-cf29-4446-a1ba-422b41e02edc
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [DirectShow], GetInputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStreamInfo method, IMediaObject.GetInputStreamInfo, IMediaObject::GetInputStreamInfo, IMediaObjectGetInputStreamInfo, dshow.imediaobject_getinputstreaminfo, mediaobj/IMediaObject::GetInputStreamInfo
 ms.prod: windows
 ms.technology: windows-sdk

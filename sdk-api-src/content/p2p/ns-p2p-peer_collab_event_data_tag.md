@@ -7,7 +7,7 @@ old-location: p2p\peer_collab_event_data.htm
 old-project: P2PSdk
 ms.assetid: 4ddf200d-0b7a-4e99-b7db-19b4e0412711
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: "*PPEER_COLLAB_EVENT_DATA, PEER_COLLAB_EVENT_DATA, PEER_COLLAB_EVENT_DATA union [Peer Networking], PPEER_COLLAB_EVENT_DATA, PPEER_COLLAB_EVENT_DATA union pointer [Peer Networking], p2p.peer_collab_event_data, p2p/PEER_COLLAB_EVENT_DATA, p2p/PPEER_COLLAB_EVENT_DATA, peer_collab_event_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:wuapicommon
 ms.assetid: dc973ffc-d9e6-3b90-8eff-c56a3d671c92
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

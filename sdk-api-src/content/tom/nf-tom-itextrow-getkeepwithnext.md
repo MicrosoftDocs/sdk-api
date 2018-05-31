@@ -7,7 +7,7 @@ old-location: controls\itextrow_getkeepwithnext.htm
 old-project: Controls
 ms.assetid: 67c5f06c-9f45-430b-ae9f-0ca1931df411
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepWithNext method, ITextRow.GetKeepWithNext, ITextRow::GetKeepWithNext, controls.itextrow_getkeepwithnext, tom/ITextRow::GetKeepWithNext
 ms.prod: windows
 ms.technology: windows-sdk

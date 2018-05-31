@@ -7,7 +7,7 @@ old-location: controls\EnableThemeDialogTexture.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enablethemedialogtexture.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: EnableThemeDialogTexture, EnableThemeDialogTexture function [Windows Controls], controls.EnableThemeDialogTexture, controls.inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture_cpp, uxtheme/EnableThemeDialogTexture
 ms.prod: windows
 ms.technology: windows-sdk

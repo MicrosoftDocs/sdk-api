@@ -7,7 +7,7 @@ old-location: setup\msidoaction.htm
 old-project: Msi
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\EndBufferedAnimation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedanimation.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: EndBufferedAnimation, EndBufferedAnimation function [Windows Controls], _shell_EndBufferedAnimation, _shell_EndBufferedAnimation_cpp, controls.EndBufferedAnimation, controls._shell_EndBufferedAnimation, uxtheme/EndBufferedAnimation
 ms.prod: windows
 ms.technology: windows-sdk

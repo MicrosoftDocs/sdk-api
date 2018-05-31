@@ -7,7 +7,7 @@ old-location: controls\DPA_AppendPtr.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_appendptr.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DPA_AppendPtr, DPA_AppendPtr macro [Windows Controls], _shell_DPA_AppendPtr, _shell_DPA_AppendPtr_cpp, controls.DPA_AppendPtr, controls._shell_DPA_AppendPtr, dpa_dsa/DPA_AppendPtr
 ms.prod: windows
 ms.technology: windows-sdk

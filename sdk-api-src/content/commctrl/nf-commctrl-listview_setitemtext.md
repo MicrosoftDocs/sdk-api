@@ -7,7 +7,7 @@ old-location: controls\ListView_SetItemText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemtext.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_SetItemText, ListView_SetItemText macro [Windows Controls], _win32_ListView_SetItemText, _win32_ListView_SetItemText_cpp, commctrl/ListView_SetItemText, controls.ListView_SetItemText, controls._win32_ListView_SetItemText
 ms.prod: windows
 ms.technology: windows-sdk

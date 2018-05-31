@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBuffer.htm
 old-project: properties
 ms.assetid: 8adfc942-ad91-43bb-8d23-8994026666ff
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropVariantToBuffer, PropVariantToBuffer function [Windows Properties], properties.PropVariantToBuffer, propvarutil/PropVariantToBuffer, shell.PropVariantToBuffer, shell_PropVariantToBuffer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetDuplicate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetduplicate.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetDuplicate method, ITextFont.GetDuplicate, ITextFont::GetDuplicate, _win32_ITextFont_GetDuplicate, _win32_ITextFont_GetDuplicate_cpp, controls.ITextFont_GetDuplicate, controls._win32_ITextFont_GetDuplicate, tom/ITextFont::GetDuplicate
 ms.prod: windows
 ms.technology: windows-sdk

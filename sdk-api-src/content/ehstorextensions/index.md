@@ -2,7 +2,7 @@
 UID: NA:ehstorextensions
 ms.assetid: 76031899-9961-3bf4-935c-302de8f4c1af
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

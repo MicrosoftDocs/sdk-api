@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetNextSibling.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextsibling.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TreeView_GetNextSibling, TreeView_GetNextSibling macro [Windows Controls], _win32_TreeView_GetNextSibling, _win32_TreeView_GetNextSibling_cpp, commctrl/TreeView_GetNextSibling, controls.TreeView_GetNextSibling, controls._win32_TreeView_GetNextSibling
 ms.prod: windows
 ms.technology: windows-sdk

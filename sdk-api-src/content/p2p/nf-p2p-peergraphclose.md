@@ -7,7 +7,7 @@ old-location: p2p\peergraphclose.htm
 old-project: P2PSdk
 ms.assetid: 7600da14-7641-4b5c-b5ba-e33ffc28097c
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGraphClose, PeerGraphClose function [Peer Networking], p2p.peergraphclose, p2p/PeerGraphClose
 ms.prod: windows
 ms.technology: windows-sdk

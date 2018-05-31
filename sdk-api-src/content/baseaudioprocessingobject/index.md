@@ -2,7 +2,7 @@
 UID: NA:baseaudioprocessingobject
 ms.assetid: 2d494446-d1ae-3f4f-89e6-9a166b669923
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

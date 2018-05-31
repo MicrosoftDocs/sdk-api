@@ -7,7 +7,7 @@ old-location: controls\FlatSB_SetScrollRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: FlatSB_SetScrollRange, FlatSB_SetScrollRange function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollRange, _win32_FlatSB_SetScrollRange_cpp, commctrl/FlatSB_SetScrollRange, controls.FlatSB_SetScrollRange, controls._win32_FlatSB_SetScrollRange
 ms.prod: windows
 ms.technology: windows-sdk

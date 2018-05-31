@@ -7,7 +7,7 @@ old-location: controls\Edit_GetLine.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getline.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Edit_GetLine, Edit_GetLine macro [Windows Controls], _win32_Edit_GetLine, _win32_Edit_GetLine_cpp, controls.Edit_GetLine, controls._win32_Edit_GetLine, windowsx/Edit_GetLine
 ms.prod: windows
 ms.technology: windows-sdk

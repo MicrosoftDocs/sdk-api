@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetHeaderSubTitle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadersubtitle.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: PropSheet_SetHeaderSubTitle, PropSheet_SetHeaderSubTitle macro [Windows Controls], _win32_PropSheet_SetHeaderSubTitle, _win32_PropSheet_SetHeaderSubTitle_cpp, controls.PropSheet_SetHeaderSubTitle, controls._win32_PropSheet_SetHeaderSubTitle, prsht/PropSheet_SetHeaderSubTitle
 ms.prod: windows
 ms.technology: windows-sdk

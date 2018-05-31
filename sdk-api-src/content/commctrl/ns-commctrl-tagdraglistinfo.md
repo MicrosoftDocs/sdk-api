@@ -7,7 +7,7 @@ old-location: controls\DRAGLISTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\draglb\structures\draglistinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPDRAGLISTINFO, DL_BEGINDRAG, DL_CANCELDRAG, DL_DRAGGING, DL_DROPPED, DRAGLISTINFO, DRAGLISTINFO structure [Windows Controls], LPDRAGLISTINFO, LPDRAGLISTINFO structure pointer [Windows Controls], _win32_DRAGLISTINFO, _win32_DRAGLISTINFO_cpp, commctrl/DRAGLISTINFO, commctrl/LPDRAGLISTINFO, controls.DRAGLISTINFO, controls._win32_DRAGLISTINFO, tagDRAGLISTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

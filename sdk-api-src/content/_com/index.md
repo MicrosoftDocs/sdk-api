@@ -2,7 +2,7 @@
 UID: TP:com
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -789,6 +789,8 @@ For the programming guide, see [Component Object Model (COM)](/windows/desktop/c
 | [IDropTarget::DragLeave](..\oleidl\nf-oleidl-idroptarget-dragleave.md) | Removes target feedback and releases the data object. |
 | [IDropTarget::DragOver](..\oleidl\nf-oleidl-idroptarget-dragover.md) | Provides target feedback to the user and communicates the drop's effect to the DoDragDrop function so it can communicate the effect of the drop back to the source. |
 | [IDropTarget::Drop](..\oleidl\nf-oleidl-idroptarget-drop.md) | Incorporates the source data into the target window, removes target feedback, and releases the data object. |
+| [IEnterpriseDropTarget::IsEvaluatingEdpPolicy](..\oleidl\nf-oleidl-ienterprisedroptarget-isevaluatingedppolicy.md) | Indicates whether the drop target is intends to handle the evaluation of the enterprise protection policy. |
+| [IEnterpriseDropTarget::SetDropSourceEnterpriseId](..\oleidl\nf-oleidl-ienterprisedroptarget-setdropsourceenterpriseid.md) | Provides the drop target with the enterprise ID of the drop source. |
 | [IEnumCATEGORYINFO::Clone](..\comcat\nf-comcat-ienumcategoryinfo-clone.md) | Creates a new enumerator that contains the same enumeration state as the current one. |
 | [IEnumCATEGORYINFO::Next](..\comcat\nf-comcat-ienumcategoryinfo-next.md) | Retrieves the specified number of items in the enumeration sequence. |
 | [IEnumCATEGORYINFO::Reset](..\comcat\nf-comcat-ienumcategoryinfo-reset.md) | Resets the enumeration sequence to the beginning. |
@@ -1140,6 +1142,8 @@ For the programming guide, see [Component Object Model (COM)](/windows/desktop/c
 | [IOleUILinkContainerW::SetLinkSource](..\oledlg\nf-oledlg-ioleuilinkcontainerw-setlinksource.md) | Changes the source of a link. |
 | [IOleUILinkContainerW::SetLinkUpdateOptions](..\oledlg\nf-oledlg-ioleuilinkcontainerw-setlinkupdateoptions.md) | Sets a link's update options to automatic or manual. |
 | [IOleUILinkContainerW::UpdateLink](..\oledlg\nf-oledlg-ioleuilinkcontainerw-updatelink.md) | Forces selected links to connect to their source and retrieve current information. |
+| [IOleUILinkInfoA::GetLastUpdate](..\oledlg\nf-oledlg-ioleuilinkinfoa-getlastupdate.md) | Determines the last time the object was updated. |
+| [IOleUILinkInfoW::GetLastUpdate](..\oledlg\nf-oledlg-ioleuilinkinfow-getlastupdate.md) | Determines the last time the object was updated. |
 | [IOleUIObjInfoA::ConvertObject](..\oledlg\nf-oledlg-ioleuiobjinfoa-convertobject.md) | Converts the object to the type of the specified CLSID. |
 | [IOleUIObjInfoA::GetConvertInfo](..\oledlg\nf-oledlg-ioleuiobjinfoa-getconvertinfo.md) | Gets the conversion information associated with the specified object. |
 | [IOleUIObjInfoA::GetObjectInfo](..\oledlg\nf-oledlg-ioleuiobjinfoa-getobjectinfo.md) | Gets the size, type, name, and location information for an object. |

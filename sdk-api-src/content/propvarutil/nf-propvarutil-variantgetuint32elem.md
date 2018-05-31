@@ -7,7 +7,7 @@ old-location: properties\VariantGetUInt32Elem.htm
 old-project: properties
 ms.assetid: b950d051-2500-4523-8307-5817274878f2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: VariantGetUInt32Elem, VariantGetUInt32Elem function [Windows Properties], _shell_VariantGetUInt32Elem, properties.VariantGetUInt32Elem, propvarutil/VariantGetUInt32Elem, shell.VariantGetUInt32Elem
 ms.prod: windows
 ms.technology: windows-sdk

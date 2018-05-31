@@ -7,7 +7,7 @@ old-location: controls\CHARFORMAT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_ITALIC, CFE_PROTECTED, CFE_STRIKEOUT, CFE_UNDERLINE, CFM_ALL, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_EFFECTS, CFM_FACE, CFM_ITALIC, CFM_OFFSET, CFM_PROTECTED, CFM_SIZE, CFM_STRIKEOUT, CFM_UNDERLINE., CHARFORMAT, CHARFORMAT structure [Windows Controls], CHARFORMATA, CHARFORMATW, _charformat, _win32_CHARFORMAT_str, _win32_CHARFORMAT_str_cpp, controls.CHARFORMAT, controls._win32_CHARFORMAT_str, richedit/CHARFORMAT, richedit/CHARFORMATA, richedit/CHARFORMATW
 ms.prod: windows
 ms.technology: windows-sdk

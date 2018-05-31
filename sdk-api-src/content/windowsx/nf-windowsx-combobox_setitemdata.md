@@ -7,7 +7,7 @@ old-location: controls\ComboBox_SetItemData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemdata.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ComboBox_SetItemData, ComboBox_SetItemData macro [Windows Controls], _win32_ComboBox_SetItemData, _win32_ComboBox_SetItemData_cpp, controls.ComboBox_SetItemData, controls._win32_ComboBox_SetItemData, windowsx/ComboBox_SetItemData
 ms.prod: windows
 ms.technology: windows-sdk

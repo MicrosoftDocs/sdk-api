@@ -7,7 +7,7 @@ old-location: p2p\peergraphsetproperties.htm
 old-project: P2PSdk
 ms.assetid: a9cdf715-bbef-4b5b-96b9-b7c1e35c76ec
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerGraphSetProperties, PeerGraphSetProperties function [Peer Networking], p2p.peergraphsetproperties, p2p/PeerGraphSetProperties
 ms.prod: windows
 ms.technology: windows-sdk

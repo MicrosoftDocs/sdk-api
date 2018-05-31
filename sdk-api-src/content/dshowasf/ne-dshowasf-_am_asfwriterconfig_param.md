@@ -7,7 +7,7 @@ old-location: dshow\_am_asfwriterconfig_param.htm
 old-project: DirectShow
 ms.assetid: aa274c86-f75d-40ee-8c46-918ccffdfd03
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: AM_CONFIGASFWRITER_PARAM_AUTOINDEX, AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, AM_CONFIGASFWRITER_PARAM_MULTIPASS, _AM_ASFWRITERCONFIG_PARAM, _AM_ASFWRITERCONFIG_PARAM , _AM_ASFWRITERCONFIG_PARAM enumeration [DirectShow], dshow._am_asfwriterconfig_param, dshowasf/AM_CONFIGASFWRITER_PARAM_AUTOINDEX, dshowasf/AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, dshowasf/AM_CONFIGASFWRITER_PARAM_MULTIPASS, dshowasf/_AM_ASFWRITERCONFIG_PARAM
 ms.prod: windows
 ms.technology: windows-sdk

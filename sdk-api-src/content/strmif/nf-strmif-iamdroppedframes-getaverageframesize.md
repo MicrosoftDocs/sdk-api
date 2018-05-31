@@ -7,7 +7,7 @@ old-location: dshow\iamdroppedframes_getaverageframesize.htm
 old-project: DirectShow
 ms.assetid: 49b63a9f-8192-4fce-8cfe-c92bd39ca2b0
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetAverageFrameSize, GetAverageFrameSize method [DirectShow], GetAverageFrameSize method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetAverageFrameSize method, IAMDroppedFrames.GetAverageFrameSize, IAMDroppedFrames::GetAverageFrameSize, IAMDroppedFramesGetAverageFrameSize, dshow.iamdroppedframes_getaverageframesize, strmif/IAMDroppedFrames::GetAverageFrameSize
 ms.prod: windows
 ms.technology: windows-sdk

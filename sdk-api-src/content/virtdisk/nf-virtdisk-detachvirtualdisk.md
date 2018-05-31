@@ -7,13 +7,13 @@ old-location: vhd\detachvirtualdisk.htm
 old-project: VStor
 ms.assetid: 9b3874e1-e107-42f8-9ede-eb1eb6164ed2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vhd.detachvirtualdisk, vhd.unsurfacevirtualdisk, virtdisk/DetachVirtualDisk
+ms.date: 05/29/2018
+ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vdssys/DetachVirtualDisk, vhd.detachvirtualdisk, vhd.unsurfacevirtualdisk, virtdisk/DetachVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

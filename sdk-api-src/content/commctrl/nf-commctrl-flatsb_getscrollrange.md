@@ -7,7 +7,7 @@ old-location: controls\FlatSB_GetScrollRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: FlatSB_GetScrollRange, FlatSB_GetScrollRange function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_GetScrollRange, _win32_FlatSB_GetScrollRange_cpp, commctrl/FlatSB_GetScrollRange, controls.FlatSB_GetScrollRange, controls._win32_FlatSB_GetScrollRange
 ms.prod: windows
 ms.technology: windows-sdk

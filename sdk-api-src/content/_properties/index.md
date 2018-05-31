@@ -2,7 +2,7 @@
 UID: TP:properties
 ms.assetid: ad4462be-c0de-3130-918e-217804db0bf6
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -228,8 +228,6 @@ For the programming guide, see [Windows Property System](/windows/desktop/proper
 | [PropVariantToWinRTPropertyValue function](..\propsys\nf-propsys-propvarianttowinrtpropertyvalue.md) | Extracts data from a PROPVARIANT structure into a Windows Runtime property value. |
 | [SHGetPropertyStoreFromIDList function](..\shobjidl_core\nf-shobjidl_core-shgetpropertystorefromidlist.md) | Retrieves an object that supports IPropertyStore or related interfaces from a pointer to an item identifier list (PIDL). |
 | [SHGetPropertyStoreFromParsingName function](..\shobjidl_core\nf-shobjidl_core-shgetpropertystorefromparsingname.md) | Returns a property store for an item, given a path or parsing name. |
-| [StgDeserializePropVariant function](..\propvarutil\nf-propvarutil-stgdeserializepropvariant.md) | Deserializes a specified SERIALIZEDPROPERTYVALUE structure, creating a PROPVARIANT structure. |
-| [StgSerializePropVariant function](..\propvarutil\nf-propvarutil-stgserializepropvariant.md) | Serializes a specified PROPVARIANT structure, creating a SERIALIZEDPROPERTYVALUE structure. |
 | [VariantCompare function](..\propvarutil\nf-propvarutil-variantcompare.md) | Compares two variant structures, based on default comparison rules. |
 | [VariantGetBooleanElem function](..\propvarutil\nf-propvarutil-variantgetbooleanelem.md) | Extracts a single Boolean element from a variant structure. |
 | [VariantGetDoubleElem function](..\propvarutil\nf-propvarutil-variantgetdoubleelem.md) | Extracts one double element from a variant structure. |

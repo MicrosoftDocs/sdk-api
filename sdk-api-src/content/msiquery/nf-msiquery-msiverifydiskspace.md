@@ -7,7 +7,7 @@ old-location: setup\msiverifydiskspace.htm
 old-project: Msi
 ms.assetid: 5b1ded22-37a4-4026-872a-20ac3a69fe86
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiVerifyDiskSpace, MsiVerifyDiskSpace function, _msi_msiverifydiskspace, msiquery/MsiVerifyDiskSpace, setup.msiverifydiskspace
 ms.prod: windows
 ms.technology: windows-sdk

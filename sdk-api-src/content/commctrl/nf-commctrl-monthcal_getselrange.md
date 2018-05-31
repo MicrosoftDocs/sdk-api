@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetSelRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getselrange.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: MonthCal_GetSelRange, MonthCal_GetSelRange macro [Windows Controls], _win32_MonthCal_GetSelRange, _win32_MonthCal_GetSelRange_cpp, commctrl/MonthCal_GetSelRange, controls.MonthCal_GetSelRange, controls._win32_MonthCal_GetSelRange
 ms.prod: windows
 ms.technology: windows-sdk

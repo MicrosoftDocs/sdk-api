@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_addrealtimetracestream.htm
 old-project: ETW
 ms.assetid: 68bb5715-49b8-45bc-ae98-0b4a519c8e62
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: AddRealtimeTraceStream, AddRealtimeTraceStream method [ETW], AddRealtimeTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddRealtimeTraceStream method, ITraceRelogger.AddRealtimeTraceStream, ITraceRelogger::AddRealtimeTraceStream, etw.itracerelogger_addrealtimetracestream, relogger/ITraceRelogger::AddRealtimeTraceStream
 ms.prod: windows
 ms.technology: windows-sdk

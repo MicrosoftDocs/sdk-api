@@ -7,7 +7,7 @@ old-location: controls\OpenThemeData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: OpenThemeData, OpenThemeData function [Windows Controls], controls.OpenThemeData, controls.inet_OpenThemeData, inet_OpenThemeData, inet_OpenThemeData_cpp, uxtheme/OpenThemeData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ListView_SetExtendedListViewStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setextendedlistviewstyle.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_SetExtendedListViewStyle, ListView_SetExtendedListViewStyle macro [Windows Controls], _win32_ListView_SetExtendedListViewStyle, _win32_ListView_SetExtendedListViewStyle_cpp, commctrl/ListView_SetExtendedListViewStyle, controls.ListView_SetExtendedListViewStyle, controls._win32_ListView_SetExtendedListViewStyle
 ms.prod: windows
 ms.technology: windows-sdk

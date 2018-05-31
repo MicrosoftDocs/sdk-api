@@ -7,7 +7,7 @@ old-location: controls\ImageList_GetDragImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getdragimage.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ImageList_GetDragImage, ImageList_GetDragImage function [Windows Controls], _win32_ImageList_GetDragImage, _win32_ImageList_GetDragImage_cpp, commctrl/ImageList_GetDragImage, controls.ImageList_GetDragImage, controls._win32_ImageList_GetDragImage
 ms.prod: windows
 ms.technology: windows-sdk

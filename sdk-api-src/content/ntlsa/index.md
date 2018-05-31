@@ -2,7 +2,7 @@
 UID: NA:ntlsa
 ms.assetid: 08e0e748-4c44-342b-9e5b-e566b32af933
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

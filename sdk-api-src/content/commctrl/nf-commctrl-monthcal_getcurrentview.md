@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetCurrentView.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcurrentview.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: MonthCal_GetCurrentView, MonthCal_GetCurrentView macro [Windows Controls], _shell_MonthCal_GetCurrentView, _shell_MonthCal_GetCurrentView_cpp, commctrl/MonthCal_GetCurrentView, controls.MonthCal_GetCurrentView, controls._shell_MonthCal_GetCurrentView
 ms.prod: windows
 ms.technology: windows-sdk

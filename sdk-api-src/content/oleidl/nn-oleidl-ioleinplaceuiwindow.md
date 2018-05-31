@@ -7,7 +7,7 @@ old-location: com\ioleinplaceuiwindow.htm
 old-project: com
 ms.assetid: 3cfb31aa-9746-438c-af64-8236c170fe88
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], IOleInPlaceUIWindow interface [COM],described, _ole_ioleinplaceuiwindow, com.ioleinplaceuiwindow, oleidl/IOleInPlaceUIWindow
 ms.prod: windows
 ms.technology: windows-sdk

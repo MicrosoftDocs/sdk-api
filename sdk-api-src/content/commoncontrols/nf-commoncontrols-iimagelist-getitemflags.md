@@ -7,7 +7,7 @@ old-location: controls\IImageList_GetItemFlags.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getitemflags.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetItemFlags, GetItemFlags method [Windows Controls], GetItemFlags method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetItemFlags method, IImageList.GetItemFlags, IImageList::GetItemFlags, ILIF_ALPHA, ILIF_LOWQUALITY, comctl_IImageList_GetItemFlags, comctl_IImageList_GetItemFlags_cpp, commoncontrols/IImageList::GetItemFlags, controls.IImageList_GetItemFlags, controls.comctl_IImageList_GetItemFlags
 ms.prod: windows
 ms.technology: windows-sdk

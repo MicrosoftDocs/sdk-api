@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetTextColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settextcolor.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TreeView_SetTextColor, TreeView_SetTextColor macro [Windows Controls], _win32_TreeView_SetTextColor, _win32_TreeView_SetTextColor_cpp, commctrl/TreeView_SetTextColor, controls.TreeView_SetTextColor, controls._win32_TreeView_SetTextColor
 ms.prod: windows
 ms.technology: windows-sdk

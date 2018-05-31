@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientaddcontentinformation.htm
 old-project: P2PSdk
 ms.assetid: 933ca20c-8a28-4b6a-9ec8-85608fd02990
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerDistClientAddContentInformation, PeerDistClientAddContentInformation function [Peer Networking], p2p.peerdistclientaddcontentinformation, peerdist/PeerDistClientAddContentInformation
 ms.prod: windows
 ms.technology: windows-sdk

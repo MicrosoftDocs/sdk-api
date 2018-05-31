@@ -7,7 +7,7 @@ old-location: controls\Button_GetImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Button_GetImageList, Button_GetImageList macro [Windows Controls], _win32_Button_GetImageList, _win32_Button_GetImageList_cpp, commctrl/Button_GetImageList, controls.Button_GetImageList, controls._win32_Button_GetImageList
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\irunnableobject_run.htm
 old-project: com
 ms.assetid: fb79e81c-0655-48ea-afb5-dab3529676d0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IRunnableObject interface [COM],Run method, IRunnableObject.Run, IRunnableObject::Run, Run, Run method [COM], Run method [COM],IRunnableObject interface, _com_irunnableobject_run, com.irunnableobject_run, objidl/IRunnableObject::Run
 ms.prod: windows
 ms.technology: windows-sdk

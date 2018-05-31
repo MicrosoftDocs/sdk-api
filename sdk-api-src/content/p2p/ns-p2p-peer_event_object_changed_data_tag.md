@@ -7,7 +7,7 @@ old-location: p2p\peer_event_object_changed_data.htm
 old-project: P2PSdk
 ms.assetid: bba6a282-7ccd-45b2-a74c-3258449b990e
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: "*PPEER_EVENT_OBJECT_CHANGED_DATA, PEER_EVENT_OBJECT_CHANGED_DATA, PEER_EVENT_OBJECT_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_OBJECT_CHANGED_DATA, PPEER_EVENT_OBJECT_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_object_changed_data, p2p/PEER_EVENT_OBJECT_CHANGED_DATA, p2p/PPEER_EVENT_OBJECT_CHANGED_DATA, peer_event_object_changed_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

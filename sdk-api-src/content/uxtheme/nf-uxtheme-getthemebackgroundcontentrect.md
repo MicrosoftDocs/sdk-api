@@ -7,7 +7,7 @@ old-location: controls\GetThemeBackgroundContentRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundcontentrect.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetThemeBackgroundContentRect, GetThemeBackgroundContentRect function [Windows Controls], controls.GetThemeBackgroundContentRect, controls.inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect_cpp, uxtheme/GetThemeBackgroundContentRect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\GetThemeFilename.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefilename.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetThemeFilename, GetThemeFilename function [Windows Controls], controls.GetThemeFilename, controls.inet_GetThemeFilename, inet_GetThemeFilename, inet_GetThemeFilename_cpp, uxtheme/GetThemeFilename
 ms.prod: windows
 ms.technology: windows-sdk

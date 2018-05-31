@@ -2,7 +2,7 @@
 UID: NA:dxgicommon
 ms.assetid: a6941204-e5d2-32fb-b437-a739bfdd5e92
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

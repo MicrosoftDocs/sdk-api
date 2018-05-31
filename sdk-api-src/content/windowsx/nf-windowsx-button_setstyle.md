@@ -7,7 +7,7 @@ old-location: controls\Button_SetStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setstyle.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Button_SetStyle, Button_SetStyle macro [Windows Controls], _win32_Button_SetStyle, _win32_Button_SetStyle_cpp, controls.Button_SetStyle, controls._win32_Button_SetStyle, windowsx/Button_SetStyle
 ms.prod: windows
 ms.technology: windows-sdk

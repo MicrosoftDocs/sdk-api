@@ -2,7 +2,7 @@
 UID: NA:ndattrib
 ms.assetid: b46801ad-3080-30d3-892e-f72e227339f1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

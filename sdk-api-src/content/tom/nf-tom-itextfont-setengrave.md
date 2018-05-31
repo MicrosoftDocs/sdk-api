@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetEngrave.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setengrave.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextFont interface [Windows Controls],SetEngrave method, ITextFont.SetEngrave, ITextFont::SetEngrave, SetEngrave, SetEngrave method [Windows Controls], SetEngrave method [Windows Controls],ITextFont interface, _win32_ITextFont_SetEngrave, _win32_ITextFont_SetEngrave_cpp, controls.ITextFont_SetEngrave, controls._win32_ITextFont_SetEngrave, tom/ITextFont::SetEngrave
 ms.prod: windows
 ms.technology: windows-sdk

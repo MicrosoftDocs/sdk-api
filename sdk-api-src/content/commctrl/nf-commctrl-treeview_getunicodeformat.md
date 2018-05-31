@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetUnicodeFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: TreeView_GetUnicodeFormat, TreeView_GetUnicodeFormat macro [Windows Controls], _win32_TreeView_GetUnicodeFormat, _win32_TreeView_GetUnicodeFormat_cpp, commctrl/TreeView_GetUnicodeFormat, controls.TreeView_GetUnicodeFormat, controls._win32_TreeView_GetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk

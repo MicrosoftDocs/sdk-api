@@ -7,7 +7,7 @@ old-location: com\ioleobject_getusertype.htm
 old-project: com
 ms.assetid: 8ffffa01-d118-4955-84d1-a4659ba9ddc9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetUserType, GetUserType method [COM], GetUserType method [COM],IOleObject interface, IOleObject interface [COM],GetUserType method, IOleObject.GetUserType, IOleObject::GetUserType, _ole_ioleobject_getusertype, com.ioleobject_getusertype, oleidl/IOleObject::GetUserType
 ms.prod: windows
 ms.technology: windows-sdk

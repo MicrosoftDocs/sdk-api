@@ -7,7 +7,7 @@ old-location: controls\richedit_image_parameters.htm
 old-project: Controls
 ms.assetid: 9FBEB9BE-B27E-4AC6-AB39-1DBCF74AED8B
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: RICHEDIT_IMAGE_PARAMETERS, RICHEDIT_IMAGE_PARAMETERS structure [Windows Controls], TA_BASELINE, TA_BOTTOM, TA_TOP, controls.richedit_image_parameters, richedit/RICHEDIT_IMAGE_PARAMETERS, tagRICHEDIT_IMAGE_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk

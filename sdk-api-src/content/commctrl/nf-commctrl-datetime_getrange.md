@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getrange.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DateTime_GetRange, DateTime_GetRange macro [Windows Controls], _win32_DateTime_GetRange, _win32_DateTime_GetRange_cpp, commctrl/DateTime_GetRange, controls.DateTime_GetRange, controls._win32_DateTime_GetRange
 ms.prod: windows
 ms.technology: windows-sdk

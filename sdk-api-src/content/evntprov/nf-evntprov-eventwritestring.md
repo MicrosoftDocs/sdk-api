@@ -7,7 +7,7 @@ old-location: etw\eventwritestring_func.htm
 old-project: ETW
 ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwritestring_func, etw.eventwritestring_func, evntprov/EventWriteString
 ms.prod: windows
 ms.technology: windows-sdk

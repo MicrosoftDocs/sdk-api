@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getallgprms.htm
 old-project: DirectShow
 ms.assetid: 994f57b5-8514-4768-a679-21133ec92e32
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllGPRMs method, IDvdInfo2.GetAllGPRMs, IDvdInfo2::GetAllGPRMs, IDvdInfo2GetAllGPRMs, dshow.idvdinfo2_getallgprms, strmif/IDvdInfo2::GetAllGPRMs
 ms.prod: windows
 ms.technology: windows-sdk

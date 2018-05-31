@@ -7,7 +7,7 @@ old-location: controls\DSA_DestroyCallback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroycallback.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DSA_DestroyCallback, DSA_DestroyCallback function [Windows Controls], _win32_DSA_DestroyCallback, _win32_DSA_DestroyCallback_cpp, controls.DSA_DestroyCallback, controls._win32_DSA_DestroyCallback, dpa_dsa/DSA_DestroyCallback
 ms.prod: windows
 ms.technology: windows-sdk

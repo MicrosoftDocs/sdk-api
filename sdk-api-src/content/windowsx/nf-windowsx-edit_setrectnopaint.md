@@ -7,7 +7,7 @@ old-location: controls\Edit_SetRectNoPaint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setrectnopaint.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Edit_SetRectNoPaint, Edit_SetRectNoPaint macro [Windows Controls], _win32_Edit_SetRectNoPaint, _win32_Edit_SetRectNoPaint_cpp, controls.Edit_SetRectNoPaint, controls._win32_Edit_SetRectNoPaint, windowsx/Edit_SetRectNoPaint
 ms.prod: windows
 ms.technology: windows-sdk

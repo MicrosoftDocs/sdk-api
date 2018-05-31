@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromCLSID.htm
 old-project: properties
 ms.assetid: a48a8927-2718-4f9c-96f2-ab370206550b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: InitPropVariantFromCLSID, InitPropVariantFromCLSID function [Windows Properties], properties.InitPropVariantFromCLSID, propvarutil/InitPropVariantFromCLSID, shell.InitPropVariantFromCLSID, shell_InitPropVariantFromCLSID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_chapterplay.htm
 old-project: DirectShow
 ms.assetid: c51524d0-5935-4e14-bcaf-4739fd0f21bb
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: ChapterPlay, ChapterPlay method [DirectShow], ChapterPlay method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlay method, IDvdControl.ChapterPlay, IDvdControl::ChapterPlay, IDvdControlChapterPlay, dshow.idvdcontrol_chapterplay, strmif/IDvdControl::ChapterPlay
 ms.prod: windows
 ms.technology: windows-sdk

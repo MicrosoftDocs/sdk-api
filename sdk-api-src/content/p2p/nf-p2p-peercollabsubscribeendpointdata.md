@@ -7,7 +7,7 @@ old-location: p2p\peercollabsubscribeendpointdata.htm
 old-project: P2PSdk
 ms.assetid: dfe17235-34dd-4694-9ee5-4268b4406731
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/29/2018
 ms.keywords: PeerCollabSubscribeEndpointData, PeerCollabSubscribeEndpointData function [Peer Networking], p2p.peercollabsubscribeendpointdata, p2p/PeerCollabSubscribeEndpointData
 ms.prod: windows
 ms.technology: windows-sdk

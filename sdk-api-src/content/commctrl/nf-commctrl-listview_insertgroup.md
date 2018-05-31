@@ -7,7 +7,7 @@ old-location: controls\ListView_InsertGroup.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroup.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_InsertGroup, ListView_InsertGroup macro [Windows Controls], _win32_ListView_InsertGroup, _win32_ListView_InsertGroup_cpp, commctrl/ListView_InsertGroup, controls.ListView_InsertGroup, controls._win32_ListView_InsertGroup
 ms.prod: windows
 ms.technology: windows-sdk

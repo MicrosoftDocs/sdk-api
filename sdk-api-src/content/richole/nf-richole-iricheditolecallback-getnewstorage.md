@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_GetNewStorage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetnewstorage.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetNewStorage, GetNewStorage method [Windows Controls], GetNewStorage method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetNewStorage method, IRichEditOleCallback.GetNewStorage, IRichEditOleCallback::GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage_cpp, controls.IRichEditOleCallback_GetNewStorage, controls._win32_IRichEditOleCallback_GetNewStorage, richole/IRichEditOleCallback::GetNewStorage
 ms.prod: windows
 ms.technology: windows-sdk

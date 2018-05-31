@@ -2,7 +2,7 @@
 UID: NA:ras
 ms.assetid: 14fb1b47-db34-32d2-b06a-97ac35547419
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

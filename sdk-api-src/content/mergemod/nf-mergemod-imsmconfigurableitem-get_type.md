@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_type.htm
 old-project: Msi
 ms.assetid: 18745546-1aa7-4f52-9eba-adfedb46753a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: IMsmConfigurableItem interface,get_Type method, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, _msi_get_type_function_configurableitem_object_, get_Type, get_Type method, get_Type method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Type, setup.imsmconfigurableitem_get_type
 ms.prod: windows
 ms.technology: windows-sdk

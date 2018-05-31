@@ -7,7 +7,7 @@ old-location: controls\ListView_SetColumn.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumn.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_SetColumn, ListView_SetColumn macro [Windows Controls], _win32_ListView_SetColumn, _win32_ListView_SetColumn_cpp, commctrl/ListView_SetColumn, controls.ListView_SetColumn, controls._win32_ListView_SetColumn
 ms.prod: windows
 ms.technology: windows-sdk

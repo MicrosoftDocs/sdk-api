@@ -7,7 +7,7 @@ old-location: com\olecreatepropertyframeindirect.htm
 old-project: com
 ms.assetid: ccd01d38-2d8e-4509-b44f-fef6ff718558
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect
 ms.prod: windows
 ms.technology: windows-sdk

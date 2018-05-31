@@ -7,7 +7,7 @@ old-location: controls\ListView_GetFooterItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritem.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_GetFooterItem, ListView_GetFooterItem macro [Windows Controls], _shell_ListView_GetFooterItem, _shell_ListView_GetFooterItem_cpp, commctrl/ListView_GetFooterItem, controls.ListView_GetFooterItem, controls._shell_ListView_GetFooterItem
 ms.prod: windows
 ms.technology: windows-sdk

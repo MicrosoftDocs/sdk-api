@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetKerning.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkerning.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetKerning, GetKerning method [Windows Controls], GetKerning method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetKerning method, ITextFont.GetKerning, ITextFont::GetKerning, _win32_ITextFont_GetKerning, _win32_ITextFont_GetKerning_cpp, controls.ITextFont_GetKerning, controls._win32_ITextFont_GetKerning, tom/ITextFont::GetKerning
 ms.prod: windows
 ms.technology: windows-sdk

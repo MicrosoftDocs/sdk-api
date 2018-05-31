@@ -7,13 +7,13 @@ old-location: vhd\createvirtualdisk.htm
 old-project: VStor
 ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
+ms.date: 05/29/2018
+ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

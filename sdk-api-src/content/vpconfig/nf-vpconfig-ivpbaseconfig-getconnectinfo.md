@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_getconnectinfo.htm
 old-project: DirectShow
 ms.assetid: b428e77a-83c3-42ce-95e4-1cdde4da066d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: GetConnectInfo, GetConnectInfo method [DirectShow], GetConnectInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetConnectInfo method, IVPBaseConfig.GetConnectInfo, IVPBaseConfig::GetConnectInfo, IVPBaseConfigGetConnectInfo, dshow.ivpbaseconfig_getconnectinfo, vpconfig/IVPBaseConfig::GetConnectInfo
 ms.prod: windows
 ms.technology: windows-sdk

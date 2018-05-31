@@ -7,13 +7,13 @@ old-location: vhd\delete_snapshot_vhdset_parameters.htm
 old-project: VStor
 ms.assetid: A10EB006-2FE5-4445-9E2F-DF2C1AF0A44F
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PDELETE_SNAPSHOT_VHDSET_PARAMETERS, DELETE_SNAPSHOT_VHDSET_PARAMETERS, DELETE_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], PDELETE_SNAPSHOT_VHDSET_PARAMETERS, PDELETE_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], _DELETE_SNAPSHOT_VHDSET_PARAMETERS, vhd.delete_snapshot_vhdset_parameters, virtdisk/DELETE_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/PDELETE_SNAPSHOT_VHDSET_PARAMETERS"
+ms.date: 05/29/2018
+ms.keywords: "*PDELETE_SNAPSHOT_VHDSET_PARAMETERS, DELETE_SNAPSHOT_VHDSET_PARAMETERS, DELETE_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], PDELETE_SNAPSHOT_VHDSET_PARAMETERS, PDELETE_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], _DELETE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/DELETE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PDELETE_SNAPSHOT_VHDSET_PARAMETERS, vhd.delete_snapshot_vhdset_parameters, virtdisk/DELETE_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/PDELETE_SNAPSHOT_VHDSET_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	DELETE_SNAPSHOT_VHDSET_PARAMETERS
 product: Windows

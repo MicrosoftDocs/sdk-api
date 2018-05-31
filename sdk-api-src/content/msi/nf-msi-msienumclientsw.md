@@ -7,7 +7,7 @@ old-location: setup\msienumclients.htm
 old-project: Msi
 ms.assetid: 681c1c77-e3b2-4bb5-81f6-4eeadafcc404
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiEnumClients, MsiEnumClients function, MsiEnumClientsA, MsiEnumClientsW, _msi_msienumclients, msi/MsiEnumClients, msi/MsiEnumClientsA, msi/MsiEnumClientsW, setup.msienumclients
 ms.prod: windows
 ms.technology: windows-sdk

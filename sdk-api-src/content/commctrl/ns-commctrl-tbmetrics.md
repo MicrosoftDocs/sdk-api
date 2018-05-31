@@ -7,7 +7,7 @@ old-location: controls\TBMETRICS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbmetrics.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: "*LPTBMETRICS, LPTBMETRICS, LPTBMETRICS structure pointer [Windows Controls], TBMETRICS, TBMETRICS structure [Windows Controls], commctrl/LPTBMETRICS, commctrl/TBMETRICS, controls.TBMETRICS, controls.inet_TBMETRICS, inet_TBMETRICS, inet_TBMETRICS_cpp"
 ms.prod: windows
 ms.technology: windows-sdk

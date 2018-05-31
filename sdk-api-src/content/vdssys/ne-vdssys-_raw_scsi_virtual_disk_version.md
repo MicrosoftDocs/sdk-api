@@ -7,13 +7,13 @@ old-location: vhd\raw_scsi_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: EE0567C8-D479-436B-B1AC-7D1C4AC3B403
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: RAW_SCSI_VIRTUAL_DISK_VERSION, RAW_SCSI_VIRTUAL_DISK_VERSION enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_VERSION_1, RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, _RAW_SCSI_VIRTUAL_DISK_VERSION, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/RAW_SCSI_VIRTUAL_DISK_VERSION, vhd.raw_scsi_virtual_disk_version
+ms.date: 05/29/2018
+ms.keywords: RAW_SCSI_VIRTUAL_DISK_VERSION, RAW_SCSI_VIRTUAL_DISK_VERSION enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_VERSION_1, RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, _RAW_SCSI_VIRTUAL_DISK_VERSION, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/RAW_SCSI_VIRTUAL_DISK_VERSION, vhd.raw_scsi_virtual_disk_version, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, virtdisk/RAW_SCSI_VIRTUAL_DISK_VERSION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdssys.h
-req.include-header: TBD
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
+-	virtdisk.h
 -	vdssys.h
 api_name:
 -	RAW_SCSI_VIRTUAL_DISK_VERSION

@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetSmallCaps.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsmallcaps.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSmallCaps method, ITextFont.SetSmallCaps, ITextFont::SetSmallCaps, SetSmallCaps, SetSmallCaps method [Windows Controls], SetSmallCaps method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSmallCaps, _win32_ITextFont_SetSmallCaps_cpp, controls.ITextFont_SetSmallCaps, controls._win32_ITextFont_SetSmallCaps, tom/ITextFont::SetSmallCaps
 ms.prod: windows
 ms.technology: windows-sdk

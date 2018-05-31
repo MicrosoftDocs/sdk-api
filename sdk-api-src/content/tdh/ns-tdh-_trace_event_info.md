@@ -7,7 +7,7 @@ old-location: etw\trace_event_info_struct.htm
 old-project: ETW
 ms.assetid: ecf57a23-0dd2-4954-82ac-e92f651c226f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: "*PTRACE_EVENT_INFO, TRACE_EVENT_INFO, TRACE_EVENT_INFO structure [ETW], _TRACE_EVENT_INFO, etw.trace_event_info_struct, tdh.trace_event_info_struct, tdh/TRACE_EVENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

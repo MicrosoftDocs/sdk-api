@@ -7,7 +7,7 @@ old-location: controls\HIMAGELIST_QueryInterface.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\himagelist_queryinterface.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: HIMAGELIST_QueryInterface, HIMAGELIST_QueryInterface function [Windows Controls], _shell_HIMAGELIST_QueryInterface, _shell_HIMAGELIST_QueryInterface_cpp, commctrl/HIMAGELIST_QueryInterface, controls.HIMAGELIST_QueryInterface, controls._shell_HIMAGELIST_QueryInterface
 ms.prod: windows
 ms.technology: windows-sdk

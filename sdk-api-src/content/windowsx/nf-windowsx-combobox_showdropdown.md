@@ -7,7 +7,7 @@ old-location: controls\ComboBox_ShowDropdown.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_showdropdown.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ComboBox_ShowDropdown, ComboBox_ShowDropdown macro [Windows Controls], _win32_ComboBox_ShowDropdown, _win32_ComboBox_ShowDropdown_cpp, controls.ComboBox_ShowDropdown, controls._win32_ComboBox_ShowDropdown, windowsx/ComboBox_ShowDropdown
 ms.prod: windows
 ms.technology: windows-sdk

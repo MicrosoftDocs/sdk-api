@@ -7,7 +7,7 @@ old-location: controls\Pager_SetScrollInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: Pager_SetScrollInfo, Pager_SetScrollInfo macro [Windows Controls], _win32_Pager_SetScrollInfo, _win32_Pager_SetScrollInfo_cpp, commctrl/Pager_SetScrollInfo, controls.Pager_SetScrollInfo, controls._win32_Pager_SetScrollInfo
 ms.prod: windows
 ms.technology: windows-sdk

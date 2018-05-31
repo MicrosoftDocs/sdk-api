@@ -7,13 +7,13 @@ old-location: vhd\setvirtualdiskinformation.htm
 old-project: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
+ms.date: 05/29/2018
+ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vdssys/SetVirtualDiskInformation, vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

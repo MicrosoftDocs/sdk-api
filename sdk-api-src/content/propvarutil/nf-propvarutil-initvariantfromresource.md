@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromResource.htm
 old-project: properties
 ms.assetid: ae309a04-7b21-46ef-b481-2593dc162e19
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: InitVariantFromResource, InitVariantFromResource function [Windows Properties], _shell_InitVariantFromResource, properties.InitVariantFromResource, propvarutil/InitVariantFromResource, shell.InitVariantFromResource
 ms.prod: windows
 ms.technology: windows-sdk

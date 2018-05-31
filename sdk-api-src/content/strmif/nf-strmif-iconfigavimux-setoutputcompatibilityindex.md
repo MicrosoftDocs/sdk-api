@@ -7,7 +7,7 @@ old-location: dshow\iconfigavimux_setoutputcompatibilityindex.htm
 old-project: DirectShow
 ms.assetid: 3b9793e6-e5f4-432f-95f6-62053b955348
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IConfigAviMux interface [DirectShow],SetOutputCompatibilityIndex method, IConfigAviMux.SetOutputCompatibilityIndex, IConfigAviMux::SetOutputCompatibilityIndex, IConfigAviMuxSetOutputCompatibilityIndex, SetOutputCompatibilityIndex, SetOutputCompatibilityIndex method [DirectShow], SetOutputCompatibilityIndex method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setoutputcompatibilityindex, strmif/IConfigAviMux::SetOutputCompatibilityIndex
 ms.prod: windows
 ms.technology: windows-sdk

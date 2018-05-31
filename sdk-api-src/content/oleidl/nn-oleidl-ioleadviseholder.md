@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder.htm
 old-project: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
 ms.prod: windows
 ms.technology: windows-sdk

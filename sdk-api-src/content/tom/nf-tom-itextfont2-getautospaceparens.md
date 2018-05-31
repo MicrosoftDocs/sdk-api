@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getautospaceparens.htm
 old-project: Controls
 ms.assetid: fce60349-cded-4cab-b2e5-4fad02d11195
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: GetAutospaceParens, GetAutospaceParens method [Windows Controls], GetAutospaceParens method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceParens method, ITextFont2.GetAutospaceParens, ITextFont2::GetAutospaceParens, controls.itextfont2_getautospaceparens, tom/ITextFont2::GetAutospaceParens
 ms.prod: windows
 ms.technology: windows-sdk

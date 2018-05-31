@@ -7,7 +7,7 @@ old-location: etw\property_flags_enum.htm
 old-project: ETW
 ms.assetid: 517c1662-4230-44dc-94f0-a1996291bbee
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: PROPERTY_FLAGS, PROPERTY_FLAGS enumeration [ETW], PropertyHasCustomSchema, PropertyHasTags, PropertyParamCount, PropertyParamFixedCount, PropertyParamFixedLength, PropertyParamLength, PropertyStruct, PropertyWBEMXmlFragment, _PROPERTY_FLAGS, etw.property_flags_enum, tdh.property_flags_enum, tdh/, tdh/PROPERTY_FLAGS, tdh/PropertyHasCustomSchema, tdh/PropertyHasTags, tdh/PropertyParamCount, tdh/PropertyParamFixedCount, tdh/PropertyParamFixedLength, tdh/PropertyParamLength, tdh/PropertyStruct, tdh/PropertyWBEMXmlFragment
 ms.prod: windows
 ms.technology: windows-sdk

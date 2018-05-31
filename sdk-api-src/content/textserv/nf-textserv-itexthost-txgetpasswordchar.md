@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxGetPasswordChar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetpasswordchar.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetPasswordChar method, ITextHost.TxGetPasswordChar, ITextHost::TxGetPasswordChar, TxGetPasswordChar, TxGetPasswordChar method [Windows Controls], TxGetPasswordChar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetPasswordChar, _win32_ITextHost_TxGetPasswordChar_cpp, controls.ITextHost_TxGetPasswordChar, controls._win32_ITextHost_TxGetPasswordChar, textserv/ITextHost::TxGetPasswordChar
 ms.prod: windows
 ms.technology: windows-sdk

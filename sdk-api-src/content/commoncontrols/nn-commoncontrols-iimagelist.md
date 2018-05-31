@@ -7,7 +7,7 @@ old-location: controls\IImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\iimagelist.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], IImageList interface [Windows Controls],described, comctl_IImageList, comctl_IImageList_cpp, commoncontrols/IImageList, controls.IImageList, controls.comctl_IImageList
 ms.prod: windows
 ms.technology: windows-sdk

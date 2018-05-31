@@ -7,13 +7,13 @@ old-location: vhd\raw_scsi_virtual_disk_flag.htm
 old-project: VStor
 ms.assetid: 7E90EA65-F0A1-44C5-9254-ABE89E1F35A5
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_FLAG, PRAW_SCSI_VIRTUAL_DISK_FLAG, PRAW_SCSI_VIRTUAL_DISK_FLAG enumeration pointer [VHD], RAW_SCSI_VIRTUAL_DISK_FLAG, RAW_SCSI_VIRTUAL_DISK_FLAG enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_FLAG_NONE, _RAW_SCSI_VIRTUAL_DISK_FLAG, vhd.raw_scsi_virtual_disk_flag, virtdisk/PRAW_SCSI_VIRTUAL_DISK_FLAG, virtdisk/RAW_SCSI_VIRTUAL_DISK_FLAG, virtdisk/RAW_SCSI_VIRTUAL_DISK_FLAG_NONE"
+ms.date: 05/29/2018
+ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_FLAG, PRAW_SCSI_VIRTUAL_DISK_FLAG, PRAW_SCSI_VIRTUAL_DISK_FLAG enumeration pointer [VHD], RAW_SCSI_VIRTUAL_DISK_FLAG, RAW_SCSI_VIRTUAL_DISK_FLAG enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_FLAG_NONE, _RAW_SCSI_VIRTUAL_DISK_FLAG, vdssys/PRAW_SCSI_VIRTUAL_DISK_FLAG, vdssys/RAW_SCSI_VIRTUAL_DISK_FLAG, vdssys/RAW_SCSI_VIRTUAL_DISK_FLAG_NONE, vhd.raw_scsi_virtual_disk_flag, virtdisk/PRAW_SCSI_VIRTUAL_DISK_FLAG, virtdisk/RAW_SCSI_VIRTUAL_DISK_FLAG, virtdisk/RAW_SCSI_VIRTUAL_DISK_FLAG_NONE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	RAW_SCSI_VIRTUAL_DISK_FLAG
 product: Windows

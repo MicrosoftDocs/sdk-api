@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_autoshow.htm
 old-project: DirectShow
 ms.assetid: 6f42e37d-af67-4f9e-8a02-d1f4154df391
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_AutoShow method, IVideoWindow.get_AutoShow, IVideoWindow::get_AutoShow, IVideoWindowget_AutoShow, control/IVideoWindow::get_AutoShow, dshow.ivideowindow_get_autoshow, get_AutoShow, get_AutoShow method [DirectShow], get_AutoShow method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

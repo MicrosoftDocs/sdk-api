@@ -7,7 +7,7 @@ old-location: dshow\imemallocatorcallbacktemp.htm
 old-project: DirectShow
 ms.assetid: 6213faaa-86ff-46e7-80da-a043cae40805
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], IMemAllocatorCallbackTemp interface [DirectShow],described, IMemAllocatorCallbackTempInterface, dshow.imemallocatorcallbacktemp, strmif/IMemAllocatorCallbackTemp
 ms.prod: windows
 ms.technology: windows-sdk

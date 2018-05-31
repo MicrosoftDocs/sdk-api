@@ -7,7 +7,7 @@ old-location: com\qacontainer.htm
 old-project: com
 ms.assetid: 8f3975eb-7cd2-449f-92cc-2b8773d9f37e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER, tagQACONTAINER
 ms.prod: windows
 ms.technology: windows-sdk

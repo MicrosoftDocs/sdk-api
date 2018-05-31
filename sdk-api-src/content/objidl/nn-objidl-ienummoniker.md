@@ -7,7 +7,7 @@ old-location: com\ienummoniker.htm
 old-project: com
 ms.assetid: c8dec22b-946d-48ae-9315-54d353f3b853
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], IEnumMoniker interface [COM],described, _ole_ienummoniker, com.ienummoniker, objidl/IEnumMoniker
 ms.prod: windows
 ms.technology: windows-sdk

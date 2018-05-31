@@ -7,7 +7,7 @@ old-location: setup\msidatabaseopenview.htm
 old-project: Msi
 ms.assetid: 1ef23f9a-7d79-4d07-9349-8e9c132f1b94
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiDatabaseOpenView, MsiDatabaseOpenView function, MsiDatabaseOpenViewA, MsiDatabaseOpenViewW, _msi_msidatabaseopenview, msiquery/MsiDatabaseOpenView, msiquery/MsiDatabaseOpenViewA, msiquery/MsiDatabaseOpenViewW, setup.msidatabaseopenview
 ms.prod: windows
 ms.technology: windows-sdk

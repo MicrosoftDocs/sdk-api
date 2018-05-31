@@ -2,7 +2,7 @@
 UID: NA:pwm
 ms.assetid: f2b86540-240b-3e8f-af5e-b516acb7f661
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

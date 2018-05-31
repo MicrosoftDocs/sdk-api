@@ -7,7 +7,7 @@ old-location: com\imoniker_issystemmoniker.htm
 old-project: com
 ms.assetid: a61c0df9-786e-45e7-8b3d-f950decc596d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IMoniker interface [COM],IsSystemMoniker method, IMoniker.IsSystemMoniker, IMoniker::IsSystemMoniker, IsSystemMoniker, IsSystemMoniker method [COM], IsSystemMoniker method [COM],IMoniker interface, _com_imoniker_issystemmoniker, com.imoniker_issystemmoniker, objidl/IMoniker::IsSystemMoniker
 ms.prod: windows
 ms.technology: windows-sdk

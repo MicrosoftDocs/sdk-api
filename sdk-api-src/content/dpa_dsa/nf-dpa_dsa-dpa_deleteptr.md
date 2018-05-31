@@ -7,7 +7,7 @@ old-location: controls\DPA_DeletePtr.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DPA_DeletePtr, DPA_DeletePtr function [Windows Controls], _win32_DPA_DeletePtr, _win32_DPA_DeletePtr_cpp, controls.DPA_DeletePtr, controls._win32_DPA_DeletePtr, dpa_dsa/DPA_DeletePtr
 ms.prod: windows
 ms.technology: windows-sdk

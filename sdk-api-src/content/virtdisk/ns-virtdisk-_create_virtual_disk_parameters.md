@@ -7,13 +7,13 @@ old-location: vhd\create_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: 797e21ae-a4c4-48df-8124-e5c2fad22f33
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: "*PCREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD], CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE, CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE, CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, PCREATE_VIRTUAL_DISK_PARAMETERS, PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _CREATE_VIRTUAL_DISK_PARAMETERS, vhd.create_virtual_disk_parameters, virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS, virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS"
+ms.date: 05/29/2018
+ms.keywords: "*PCREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD], CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE, CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE, CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, PCREATE_VIRTUAL_DISK_PARAMETERS, PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS, vhd.create_virtual_disk_parameters, virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS, virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	VirtDisk.h
+-	vdssys.h
 api_name:
 -	CREATE_VIRTUAL_DISK_PARAMETERS
 product: Windows

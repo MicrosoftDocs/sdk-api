@@ -7,13 +7,13 @@ old-location: vhd\mirrorvirtualdisk.htm
 old-project: VStor
 ms.assetid: eb72043a-7515-42c0-900d-feed4503ea7a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
-ms.keywords: MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, MirrorVirtualDisk, MirrorVirtualDisk function [VHD], vhd.mirrorvirtualdisk, virtdisk/MirrorVirtualDisk
+ms.date: 05/29/2018
+ms.keywords: MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, MirrorVirtualDisk, MirrorVirtualDisk function [VHD], vdssys/MirrorVirtualDisk, vhd.mirrorvirtualdisk, virtdisk/MirrorVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012

@@ -7,7 +7,7 @@ old-location: controls\ImageList_SetDragCursorImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setdragcursorimage.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ImageList_SetDragCursorImage, ImageList_SetDragCursorImage function [Windows Controls], _win32_ImageList_SetDragCursorImage, _win32_ImageList_SetDragCursorImage_cpp, commctrl/ImageList_SetDragCursorImage, controls.ImageList_SetDragCursorImage, controls._win32_ImageList_SetDragCursorImage
 ms.prod: windows
 ms.technology: windows-sdk

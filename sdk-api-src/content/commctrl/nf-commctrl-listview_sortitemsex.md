@@ -7,7 +7,7 @@ old-location: controls\ListView_SortItemsEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortitemsex.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_SortItemsEx, ListView_SortItemsEx macro [Windows Controls], _win32_ListView_SortItemsEx, _win32_ListView_SortItemsEx_cpp, commctrl/ListView_SortItemsEx, controls.ListView_SortItemsEx, controls._win32_ListView_SortItemsEx
 ms.prod: windows
 ms.technology: windows-sdk

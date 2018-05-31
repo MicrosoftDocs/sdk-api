@@ -7,7 +7,7 @@ old-location: com\iprocesslock.htm
 old-project: com
 ms.assetid: 49ec5657-d54e-4af7-8c20-00de383ecf89
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IProcessLock, IProcessLock interface [COM], IProcessLock interface [COM],described, _com_iprocesslock, com.iprocesslock, objidl/IProcessLock
 ms.prod: windows
 ms.technology: windows-sdk

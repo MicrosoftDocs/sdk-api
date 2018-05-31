@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetWidowControl.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setwidowcontrol.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextPara interface [Windows Controls],SetWidowControl method, ITextPara.SetWidowControl, ITextPara::SetWidowControl, SetWidowControl, SetWidowControl method [Windows Controls], SetWidowControl method [Windows Controls],ITextPara interface, _win32_ITextPara_SetWidowControl, _win32_ITextPara_SetWidowControl_cpp, controls.ITextPara_SetWidowControl, controls._win32_ITextPara_SetWidowControl, tom/ITextPara::SetWidowControl
 ms.prod: windows
 ms.technology: windows-sdk

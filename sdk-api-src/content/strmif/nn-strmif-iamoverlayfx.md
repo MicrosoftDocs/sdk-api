@@ -7,7 +7,7 @@ old-location: dshow\iamoverlayfx.htm
 old-project: DirectShow
 ms.assetid: 6bc78464-8c9e-4016-b9aa-6589d53d45bf
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IAMOverlayFX, IAMOverlayFX interface [DirectShow], IAMOverlayFX interface [DirectShow],described, IAMOverlayFXInterface, dshow.iamoverlayfx, strmif/IAMOverlayFX
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PifMgr_OpenProperties.htm
 old-project: properties
 ms.assetid: 0bc11528-7278-4765-b3cb-671ba82c9155
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: OPENPROPS_INHIBITPIF, OPENPROPS_NONE, PifMgr_OpenProperties, PifMgr_OpenProperties function [Windows Properties], _win32_PifMgr_OpenProperties, properties.PifMgr_OpenProperties, shell.PifMgr_OpenProperties, shlobj_core/PifMgr_OpenProperties
 ms.prod: windows
 ms.technology: windows-sdk

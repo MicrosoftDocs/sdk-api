@@ -7,7 +7,7 @@ old-location: com\ipropertynotifysink_onchanged.htm
 old-project: com
 ms.assetid: 71ab5206-5127-45f1-a2b5-3fbcc867d678
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnChanged method, IPropertyNotifySink.OnChanged, IPropertyNotifySink::OnChanged, OnChanged, OnChanged method [COM], OnChanged method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onchanged, com.ipropertynotifysink_onchanged, ocidl/IPropertyNotifySink::OnChanged
 ms.prod: windows
 ms.technology: windows-sdk

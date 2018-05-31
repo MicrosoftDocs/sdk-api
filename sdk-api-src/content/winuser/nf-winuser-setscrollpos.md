@@ -7,7 +7,7 @@ old-location: controls\SetScrollPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollpos.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollPos, SetScrollPos function [Windows Controls], _win32_SetScrollPos, _win32_SetScrollPos_cpp, controls.SetScrollPos, controls._win32_SetScrollPos, winuser/SetScrollPos
 ms.prod: windows
 ms.technology: windows-sdk

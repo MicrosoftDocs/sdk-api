@@ -2,7 +2,7 @@
 UID: NA:d2d1effecthelpers
 ms.assetid: 1f8dc6ba-e6be-346e-b022-2f781a9becb1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

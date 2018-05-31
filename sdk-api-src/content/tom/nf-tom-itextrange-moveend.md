@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveEnd.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveend.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveEnd method, ITextRange.MoveEnd, ITextRange::MoveEnd, MoveEnd, MoveEnd method [Windows Controls], MoveEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveEnd, _win32_ITextRange_MoveEnd_cpp, controls.ITextRange_MoveEnd, controls._win32_ITextRange_MoveEnd, tom/ITextRange::MoveEnd
 ms.prod: windows
 ms.technology: windows-sdk

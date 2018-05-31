@@ -2,7 +2,7 @@
 UID: NA:msi
 ms.assetid: 2d56ac71-6310-3ead-a52c-c20d65287609
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

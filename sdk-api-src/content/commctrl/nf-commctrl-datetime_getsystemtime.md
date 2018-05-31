@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetSystemtime.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getsystemtime.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: DateTime_GetSystemtime, DateTime_GetSystemtime macro [Windows Controls], _win32_DateTime_GetSystemtime, _win32_DateTime_GetSystemtime_cpp, commctrl/DateTime_GetSystemtime, controls.DateTime_GetSystemtime, controls._win32_DateTime_GetSystemtime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\IsVariantArray.htm
 old-project: properties
 ms.assetid: 3e3a4eb0-c50a-4e4a-b3e3-dc760a519901
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IsVariantArray, IsVariantArray function [Windows Properties], _shell_IsVariantArray, properties.IsVariantArray, propvarutil/IsVariantArray, shell.IsVariantArray
 ms.prod: windows
 ms.technology: windows-sdk

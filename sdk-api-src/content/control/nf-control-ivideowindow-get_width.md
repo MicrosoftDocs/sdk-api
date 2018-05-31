@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_width.htm
 old-project: DirectShow
 ms.assetid: 179b065a-7269-40fa-8772-b336f27d69de
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/29/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Width method, IVideoWindow.get_Width, IVideoWindow::get_Width, IVideoWindowget_Width, control/IVideoWindow::get_Width, dshow.ivideowindow_get_width, get_Width, get_Width method [DirectShow], get_Width method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

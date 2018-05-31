@@ -7,7 +7,7 @@ old-location: setup\msigetlanguage.htm
 old-project: Msi
 ms.assetid: e959dbdc-141c-41be-8752-220aa8e96064
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/29/2018
 ms.keywords: MsiGetLanguage, MsiGetLanguage function, _msi_msigetlanguage, msiquery/MsiGetLanguage, setup.msigetlanguage
 ms.prod: windows
 ms.technology: windows-sdk

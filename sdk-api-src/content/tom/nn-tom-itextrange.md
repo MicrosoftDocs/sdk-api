@@ -7,7 +7,7 @@ old-location: controls\ITextRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], ITextRange interface [Windows Controls],described, _win32_ITextRange, _win32_ITextRange_cpp, controls.ITextRange, controls._win32_ITextRange, tom/ITextRange
 ms.prod: windows
 ms.technology: windows-sdk

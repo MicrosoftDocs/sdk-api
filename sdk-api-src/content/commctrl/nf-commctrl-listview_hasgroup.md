@@ -7,7 +7,7 @@ old-location: controls\ListView_HasGroup.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hasgroup.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_HasGroup, ListView_HasGroup macro [Windows Controls], _win32_ListView_HasGroup, _win32_ListView_HasGroup_cpp, commctrl/ListView_HasGroup, controls.ListView_HasGroup, controls._win32_ListView_HasGroup
 ms.prod: windows
 ms.technology: windows-sdk

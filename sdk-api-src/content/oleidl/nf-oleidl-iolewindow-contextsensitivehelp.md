@@ -7,7 +7,7 @@ old-location: com\iolewindow_contextsensitivehelp.htm
 old-project: com
 ms.assetid: 253f26c6-b5dd-4837-9135-96e11b4688c8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [COM], ContextSensitiveHelp method [COM],IOleWindow interface, IOleInPlaceSiteWindowless.ContextSensitiveHelp, IOleWindow interface [COM],ContextSensitiveHelp method, IOleWindow.ContextSensitiveHelp, IOleWindow::ContextSensitiveHelp, _ole_iolewindow_contextsensitivehelp, com.iolewindow_contextsensitivehelp, oleidl/IOleWindow::ContextSensitiveHelp
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt16.htm
 old-project: properties
 ms.assetid: ec919626-6af3-4e33-85a5-134274220c67
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: InitVariantFromUInt16, InitVariantFromUInt16 function [Windows Properties], _shell_InitVariantFromUInt16, properties.InitVariantFromUInt16, propvarutil/InitVariantFromUInt16, shell.InitVariantFromUInt16
 ms.prod: windows
 ms.technology: windows-sdk

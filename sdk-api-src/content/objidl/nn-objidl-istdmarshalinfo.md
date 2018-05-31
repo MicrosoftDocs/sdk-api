@@ -7,7 +7,7 @@ old-location: com\istdmarshalinfo.htm
 old-project: com
 ms.assetid: f034436f-e24e-4b99-9fb9-b0400d3ebb72
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
 ms.prod: windows
 ms.technology: windows-sdk

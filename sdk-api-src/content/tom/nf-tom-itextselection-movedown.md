@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_MoveDown.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movedown.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveDown method, ITextSelection.MoveDown, ITextSelection::MoveDown, MoveDown, MoveDown method [Windows Controls], MoveDown method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveDown, _win32_ITextSelection_MoveDown_cpp, controls.ITextSelection_MoveDown, controls._win32_ITextSelection_MoveDown, tom/ITextSelection::MoveDown
 ms.prod: windows
 ms.technology: windows-sdk

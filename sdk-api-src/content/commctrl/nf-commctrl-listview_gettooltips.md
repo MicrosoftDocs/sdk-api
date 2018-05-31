@@ -7,7 +7,7 @@ old-location: controls\ListView_GetToolTips.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettooltips.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/29/2018
 ms.keywords: ListView_GetToolTips, ListView_GetToolTips macro [Windows Controls], _win32_ListView_GetToolTips, _win32_ListView_GetToolTips_cpp, commctrl/ListView_GetToolTips, controls.ListView_GetToolTips, controls._win32_ListView_GetToolTips
 ms.prod: windows
 ms.technology: windows-sdk
