@@ -26,22 +26,57 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
 req.typenames: ACTRL_PROPERTY_ENTRYW, *PACTRL_PROPERTY_ENTRYW
 topic_type:
 -	APIRef
 -	kbSyntax
+ - apiref
+: 
 api_type:
 -	HeaderDef
+ - HeaderDef
+: 
 api_location:
 -	AccCtrl.h
+ - accctrl.h
+: 
 api_name:
 -	ACTRL_PROPERTY_ENTRY
 -	ACTRL_PROPERTY_ENTRYA
 -	ACTRL_PROPERTY_ENTRYW
+ - _ACCESS_MODE
+: 
 product: Windows
 targetos: Windows
+ - _MULTIPLE_TRUSTEE_OPERATION
+: 
+ - _PROGRESS_INVOKE_SETTING
+: 
+ - _SE_OBJECT_TYPE
+: 
+ - _TRUSTEE_FORM
+: 
+ - _TRUSTEE_TYPE
+: 
 req.lib: 
 req.dll: 
+ - _ACTRL_ACCESS_ENTRYA
+: 
+ - _ACTRL_ACCESS_ENTRYW
+: 
+ - _ACTRL_ACCESS_ENTRY_LISTA
+: 
+ - _ACTRL_ACCESS_ENTRY_LISTW
+: 
+ - _ACTRL_ALISTA
+: 
+ - _ACTRL_ALISTW
+: 
+ - _ACTRL_PROPERTY_ENTRYA
+: 
+ - _ACTRL_PROPERTY_ENTRYW
+: 
 ---
 
 # _ACTRL_PROPERTY_ENTRYW structure

@@ -26,16 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
 req.typenames: ACCESS_MODE
 topic_type:
 -	APIRef
 -	kbSyntax
+ - apiref
+: 
 api_type:
 -	HeaderDef
+ - HeaderDef
+: 
 api_location:
 -	AccCtrl.h
+ - accctrl.h
+: 
 api_name:
 -	ACCESS_MODE
+ - _ACCESS_MODE
+: 
 product: Windows
 targetos: Windows
 ---

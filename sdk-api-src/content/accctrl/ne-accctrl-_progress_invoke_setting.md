@@ -26,18 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
 req.typenames: PROG_INVOKE_SETTING, *PPROG_INVOKE_SETTING
 topic_type:
 -	APIRef
 -	kbSyntax
+ - apiref
+: 
 api_type:
 -	HeaderDef
+ - HeaderDef
+: 
 api_location:
 -	AccCtrl.h
+ - accctrl.h
+: 
 api_name:
 -	PROG_INVOKE_SETTING
+ - _ACCESS_MODE
+: 
 product: Windows
 targetos: Windows
+ - _MULTIPLE_TRUSTEE_OPERATION
+: 
+ - _PROGRESS_INVOKE_SETTING
+: 
 ---
 
 # _PROGRESS_INVOKE_SETTING enumeration

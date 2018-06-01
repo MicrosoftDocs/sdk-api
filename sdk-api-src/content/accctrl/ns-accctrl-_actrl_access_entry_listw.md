@@ -26,22 +26,49 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
 req.typenames: ACTRL_ACCESS_ENTRY_LISTW, *PACTRL_ACCESS_ENTRY_LISTW
 topic_type:
 -	APIRef
 -	kbSyntax
+ - apiref
+: 
 api_type:
 -	HeaderDef
+ - HeaderDef
+: 
 api_location:
 -	AccCtrl.h
+ - accctrl.h
+: 
 api_name:
 -	ACTRL_ACCESS_ENTRY_LIST
 -	ACTRL_ACCESS_ENTRY_LISTA
 -	ACTRL_ACCESS_ENTRY_LISTW
+ - _ACCESS_MODE
+: 
 product: Windows
 targetos: Windows
+ - _MULTIPLE_TRUSTEE_OPERATION
+: 
+ - _PROGRESS_INVOKE_SETTING
+: 
+ - _SE_OBJECT_TYPE
+: 
+ - _TRUSTEE_FORM
+: 
+ - _TRUSTEE_TYPE
+: 
 req.lib: 
 req.dll: 
+ - _ACTRL_ACCESS_ENTRYA
+: 
+ - _ACTRL_ACCESS_ENTRYW
+: 
+ - _ACTRL_ACCESS_ENTRY_LISTA
+: 
+ - _ACTRL_ACCESS_ENTRY_LISTW
+: 
 ---
 
 # _ACTRL_ACCESS_ENTRY_LISTW structure

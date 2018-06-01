@@ -26,18 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
 req.typenames: TRUSTEE_FORM
 topic_type:
 -	APIRef
 -	kbSyntax
+ - apiref
+: 
 api_type:
 -	HeaderDef
+ - HeaderDef
+: 
 api_location:
 -	AccCtrl.h
+ - accctrl.h
+: 
 api_name:
 -	TRUSTEE_FORM
+ - _ACCESS_MODE
+: 
 product: Windows
 targetos: Windows
+ - _MULTIPLE_TRUSTEE_OPERATION
+: 
+ - _PROGRESS_INVOKE_SETTING
+: 
+ - _SE_OBJECT_TYPE
+: 
+ - _TRUSTEE_FORM
+: 
 ---
 
 # _TRUSTEE_FORM enumeration

@@ -26,21 +26,178 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
 req.typenames: SI_ACCESS, *PSI_ACCESS
 topic_type:
 -	APIRef
 -	kbSyntax
+ - apiref
+: 
 api_type:
 -	HeaderDef
+ - HeaderDef
+: 
 api_location:
 -	Aclui.h
+ - accctrl.h
+: 
 api_name:
 -	SI_ACCESS
+ - _ACCESS_MODE
+: 
 product: Windows
 targetos: Windows
+ - _MULTIPLE_TRUSTEE_OPERATION
+: 
+ - _PROGRESS_INVOKE_SETTING
+: 
+ - _SE_OBJECT_TYPE
+: 
+ - _TRUSTEE_FORM
+: 
+ - _TRUSTEE_TYPE
+: 
 req.lib: 
 req.dll: 
+ - _ACTRL_ACCESS_ENTRYA
+: 
+ - _ACTRL_ACCESS_ENTRYW
+: 
+ - _ACTRL_ACCESS_ENTRY_LISTA
+: 
+ - _ACTRL_ACCESS_ENTRY_LISTW
+: 
+ - _ACTRL_ALISTA
+: 
+ - _ACTRL_ALISTW
+: 
+ - _ACTRL_PROPERTY_ENTRYA
+: 
+ - _ACTRL_PROPERTY_ENTRYW
+: 
+ - _EXPLICIT_ACCESS_A
+: 
+ - _EXPLICIT_ACCESS_W
+: 
+ - _INHERITED_FROMA
+: 
+ - _INHERITED_FROMW
+: 
+ - _OBJECTS_AND_NAME_A
+: 
+ - _OBJECTS_AND_NAME_W
+: 
+ - _OBJECTS_AND_SID
+: 
+ - _TRUSTEE_A
+: 
+ - _TRUSTEE_W
+: 
 req.irql: 
+ - 
+: 
+ - BuildExplicitAccessWithNameA
+: 
+ - BuildExplicitAccessWithNameW
+: 
+ - BuildSecurityDescriptorA
+: 
+ - BuildSecurityDescriptorW
+: 
+ - BuildTrusteeWithNameA
+: 
+ - BuildTrusteeWithNameW
+: 
+ - BuildTrusteeWithObjectsAndNameA
+: 
+ - BuildTrusteeWithObjectsAndNameW
+: 
+ - BuildTrusteeWithObjectsAndSidA
+: 
+ - BuildTrusteeWithObjectsAndSidW
+: 
+ - BuildTrusteeWithSidA
+: 
+ - BuildTrusteeWithSidW
+: 
+ - FreeInheritedFromArray
+: 
+ - GetAuditedPermissionsFromAclA
+: 
+ - GetAuditedPermissionsFromAclW
+: 
+ - GetEffectiveRightsFromAclA
+: 
+ - GetEffectiveRightsFromAclW
+: 
+ - GetExplicitEntriesFromAclA
+: 
+ - GetExplicitEntriesFromAclW
+: 
+ - GetInheritanceSourceA
+: 
+ - GetInheritanceSourceW
+: 
+ - GetNamedSecurityInfoA
+: 
+ - GetNamedSecurityInfoW
+: 
+ - GetSecurityInfo
+: 
+ - GetTrusteeFormA
+: 
+ - GetTrusteeFormW
+: 
+ - GetTrusteeNameA
+: 
+ - GetTrusteeNameW
+: 
+ - GetTrusteeTypeA
+: 
+ - GetTrusteeTypeW
+: 
+ - LookupSecurityDescriptorPartsA
+: 
+ - LookupSecurityDescriptorPartsW
+: 
+ - SetEntriesInAclA
+: 
+ - SetEntriesInAclW
+: 
+ - SetNamedSecurityInfoA
+: 
+ - SetNamedSecurityInfoW
+: 
+ - SetSecurityInfo
+: 
+ - TreeResetNamedSecurityInfoA
+: 
+ - TreeResetNamedSecurityInfoW
+: 
+ - TreeSetNamedSecurityInfoA
+: 
+ - TreeSetNamedSecurityInfoW
+: 
+ - aclui.h
+: 
+ - _SI_PAGE_TYPE
+: 
+ - CreateSecurityPage
+: 
+ - EditSecurity
+: 
+ - EditSecurityAdvanced
+: 
+ - _EFFPERM_RESULT_LIST
+: 
+ - _SECURITY_OBJECT
+: 
+ - _SID_INFO
+: 
+ - _SID_INFO_LIST
+: 
+ - _SI_ACCESS
+: 
 ---
 
 # _SI_ACCESS structure
