@@ -2,12 +2,11 @@
 UID: NA:dssec
 ms.assetid: 5f549b69-b5f5-3588-bcc6-2cf4c79520f1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: security
 ---
 
 # Dssec.h header

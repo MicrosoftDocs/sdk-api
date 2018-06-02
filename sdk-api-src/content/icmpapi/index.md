@@ -2,12 +2,11 @@
 UID: NA:icmpapi
 ms.assetid: 5b83b7d2-6c5a-3c65-852e-c8c1e9c9c0a4
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: iphlp
 ---
 
 # Icmpapi.h header

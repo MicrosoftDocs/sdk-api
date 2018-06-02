@@ -2,12 +2,11 @@
 UID: NA:functiondiscoveryapi
 ms.assetid: a3472a20-20e1-397a-8bf3-816b1cf1e6fd
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: ncd
 ---
 
 # Functiondiscoveryapi.h header

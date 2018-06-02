@@ -2,12 +2,11 @@
 UID: NA:wininet
 ms.assetid: cfa0b87e-f033-358a-aa2b-383f900343b9
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wininet
 ---
 
 # Wininet.h header

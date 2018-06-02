@@ -2,12 +2,11 @@
 UID: NA:imepad
 ms.assetid: e693bacb-64d8-316d-8dee-5eda5da5144c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: intl
 ---
 
 # Imepad.h header

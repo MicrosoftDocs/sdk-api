@@ -2,12 +2,11 @@
 UID: NA:dcomptypes
 ms.assetid: 20a66ae4-e14a-374a-899e-997c5d448900
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: directcomp
 ---
 
 # Dcomptypes.h header

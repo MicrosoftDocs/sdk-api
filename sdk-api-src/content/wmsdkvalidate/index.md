@@ -2,12 +2,11 @@
 UID: NA:wmsdkvalidate
 ms.assetid: 6811ee4b-adad-30c8-9b76-7cbeff9348ab
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wmformat
 ---
 
 # Wmsdkvalidate.h header

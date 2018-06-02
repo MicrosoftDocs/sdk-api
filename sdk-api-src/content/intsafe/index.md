@@ -2,12 +2,11 @@
 UID: NA:intsafe
 ms.assetid: 794d13ce-06be-360e-a29e-f3e6062f516c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: shell
 ---
 
 # Intsafe.h header

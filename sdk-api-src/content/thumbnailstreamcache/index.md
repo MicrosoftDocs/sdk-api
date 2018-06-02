@@ -2,12 +2,11 @@
 UID: NA:thumbnailstreamcache
 ms.assetid: c2d12ac4-72ff-3ea3-bb19-7d90db1388e7
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: shell
 ---
 
 # Thumbnailstreamcache.h header

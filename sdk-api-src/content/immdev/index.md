@@ -2,12 +2,11 @@
 UID: NA:immdev
 ms.assetid: 5b6a3964-dc81-322f-bed5-9efda946f817
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: intl
 ---
 
 # Immdev.h header

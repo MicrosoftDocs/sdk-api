@@ -2,12 +2,11 @@
 UID: NA:tssbx
 ms.assetid: 6f94fcf5-4429-3e2f-9af2-158daca66609
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: termserv
 ---
 
 # Tssbx.h header

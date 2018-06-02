@@ -2,12 +2,11 @@
 UID: NA:stringapiset
 ms.assetid: b0a163cd-d95c-3cca-b637-b21e2c1741bc
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: intl
 ---
 
 # Stringapiset.h header

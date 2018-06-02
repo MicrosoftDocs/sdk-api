@@ -2,12 +2,11 @@
 UID: NA:objpath
 ms.assetid: 06686335-a3b3-3926-92eb-291e94854ecb
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wmi
 ---
 
 # Objpath.h header

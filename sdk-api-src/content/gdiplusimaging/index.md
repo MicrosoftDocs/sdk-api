@@ -2,12 +2,11 @@
 UID: NA:gdiplusimaging
 ms.assetid: 94b6f27c-995e-336a-b084-40d41214618e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: gdiplus
 ---
 
 # Gdiplusimaging.h header

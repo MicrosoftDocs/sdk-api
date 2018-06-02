@@ -2,12 +2,11 @@
 UID: NA:tcpioctl
 ms.assetid: 2b698fce-bd98-3a50-89b5-2a40b928f028
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winprog
 ---
 
 # Tcpioctl.h header

@@ -2,12 +2,11 @@
 UID: NA:tsuserex
 ms.assetid: 8f46dce6-d499-3abf-a561-0ba7eaa5bc12
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: termserv
 ---
 
 # Tsuserex.h header

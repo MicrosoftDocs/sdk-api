@@ -2,12 +2,11 @@
 UID: NA:wiadef
 ms.assetid: 25a58e2f-786c-3239-9c86-c63743c42300
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wia
 ---
 
 # Wiadef.h header

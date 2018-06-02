@@ -2,12 +2,11 @@
 UID: NA:xaudio2
 ms.assetid: 145ad793-3734-3735-a02b-7de3fd601fa1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: xaudio2
 ---
 
 # Xaudio2.h header

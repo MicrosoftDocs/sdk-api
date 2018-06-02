@@ -2,12 +2,11 @@
 UID: NA:ws2ipdef
 ms.assetid: 0b5e9c34-d4cb-3d5e-adb7-89d7a9f8f532
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: iphlp
 ---
 
 # Ws2Ipdef.h header

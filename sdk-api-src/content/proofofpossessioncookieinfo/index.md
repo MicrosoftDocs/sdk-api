@@ -2,12 +2,11 @@
 UID: NA:proofofpossessioncookieinfo
 ms.assetid: 9bf43ccb-9843-3be5-ba59-3dea2bfe00cf
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wininet
 ---
 
 # Proofofpossessioncookieinfo.h header

@@ -2,12 +2,11 @@
 UID: NA:d3d12shader
 ms.assetid: 8c4fe87f-6578-3287-bba3-43be88640acc
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: direct3d12
 ---
 
 # D3D12Shader.h header

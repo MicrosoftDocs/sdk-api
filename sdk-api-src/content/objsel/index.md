@@ -2,12 +2,11 @@
 UID: NA:objsel
 ms.assetid: 78313162-7e00-3e94-bf00-b4b948941323
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: ad
 ---
 
 # Objsel.h header

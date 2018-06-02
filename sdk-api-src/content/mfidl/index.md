@@ -2,12 +2,11 @@
 UID: NA:mfidl
 ms.assetid: 18649fc4-e301-3952-9662-48f1c9a4e6bb
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: stream
 ---
 
 # Mfidl.h header

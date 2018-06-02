@@ -2,12 +2,11 @@
 UID: NA:wintrust
 ms.assetid: de0d201d-2eb7-3873-a003-d104b3cc7f57
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: security
 ---
 
 # Wintrust.h header

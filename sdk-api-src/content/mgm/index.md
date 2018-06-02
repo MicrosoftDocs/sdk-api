@@ -2,12 +2,11 @@
 UID: NA:mgm
 ms.assetid: d047a683-0ea2-316a-8def-c5549c7bc855
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: rras
 ---
 
 # Mgm.h header

@@ -2,12 +2,11 @@
 UID: NA:windows.graphics.imaging.interop
 ms.assetid: 79a1faa0-5343-3d8b-b1cb-77a394593ff1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winrt
 ---
 
 # Windows.Graphics.Imaging.Interop.h header

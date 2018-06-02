@@ -2,12 +2,11 @@
 UID: NA:mstask
 ms.assetid: ee24e518-a7b3-3029-9e89-3a815727ab3e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: taskschd
 ---
 
 # Mstask.h header

@@ -2,12 +2,11 @@
 UID: NA:ipxrtdef
 ms.assetid: b37109dc-4bfd-32a5-8382-30f9516d3f3d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: rras
 ---
 
 # Ipxrtdef.h header

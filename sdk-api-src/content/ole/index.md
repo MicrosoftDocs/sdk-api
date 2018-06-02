@@ -2,12 +2,11 @@
 UID: NA:ole
 ms.assetid: 1f7743cf-ff42-3f55-819c-17a532d68409
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: com
 ---
 
 # Ole.h header

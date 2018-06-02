@@ -2,12 +2,11 @@
 UID: NA:provider
 ms.assetid: 09eb144e-543b-3fbc-978b-78648fe423f5
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: lwef
 ---
 
 # Provider.h header

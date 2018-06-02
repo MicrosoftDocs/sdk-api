@@ -2,12 +2,11 @@
 UID: NA:recapis
 ms.assetid: 33d1b3ba-350d-318d-b102-05913390c283
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: tablet
 ---
 
 # Recapis.h header

@@ -2,12 +2,11 @@
 UID: NA:mswmdm
 ms.assetid: 0c12fb5b-3edb-3d86-9989-eadf5b4c38eb
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wmdm
 ---
 
 # Mswmdm.h header

@@ -2,12 +2,11 @@
 UID: NA:x3daudio
 ms.assetid: 07b380d5-6a4d-380a-b05e-6d9912f83b2b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: xaudio2
 ---
 
 # X3Daudio.h header

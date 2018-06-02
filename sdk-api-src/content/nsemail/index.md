@@ -2,12 +2,11 @@
 UID: NA:nsemail
 ms.assetid: eaf7ba32-c687-3088-9d7e-e1eadfe0646e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winsock
 ---
 
 # Nsemail.h header

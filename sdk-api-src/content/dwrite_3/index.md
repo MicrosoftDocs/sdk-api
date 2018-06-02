@@ -2,12 +2,11 @@
 UID: NA:dwrite_3
 ms.assetid: af1d7d21-37bd-3fb5-af34-0d792e9a54ad
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: directwrite
 ---
 
 # Dwrite_3.h header

@@ -2,12 +2,11 @@
 UID: NA:routprot
 ms.assetid: 3ed4e743-acd6-3f77-9ada-3f5fde23262c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: rras
 ---
 
 # Routprot.h header

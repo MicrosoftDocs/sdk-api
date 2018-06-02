@@ -2,12 +2,11 @@
 UID: NA:strsafe
 ms.assetid: 78dcf013-3681-341c-ba02-94f4150489b6
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: menurc
 ---
 
 # Strsafe.h header

@@ -2,12 +2,11 @@
 UID: NA:dinput
 ms.assetid: b3863d7e-5815-3deb-b7ae-defb8eb6e15a
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: hid
 ---
 
 # Dinput.h header

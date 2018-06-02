@@ -2,12 +2,11 @@
 UID: NA:wtshintapi
 ms.assetid: 4d9a39cc-3c75-346a-aec9-3d79d787f384
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: termserv
 ---
 
 # Wtshintapi.h header

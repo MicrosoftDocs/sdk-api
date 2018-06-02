@@ -2,12 +2,11 @@
 UID: NA:lmapibuf
 ms.assetid: b954c882-6e1d-3d59-b534-1d53c4b3e6c1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: netmgmt
 ---
 
 # Lmapibuf.h header

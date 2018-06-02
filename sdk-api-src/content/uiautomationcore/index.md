@@ -2,12 +2,11 @@
 UID: NA:uiautomationcore
 ms.assetid: c5d51e94-22a9-36a9-af43-bb5874168aac
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winauto
 ---
 
 # Uiautomationcore.h header

@@ -2,12 +2,11 @@
 UID: NA:windows.media.streaming
 ms.assetid: 9b4f8128-bd7f-360f-973e-176b548774c2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mediastreaming
 ---
 
 # Windows.Media.Streaming.h header

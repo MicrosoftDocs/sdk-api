@@ -2,12 +2,11 @@
 UID: NA:genericusbfnioctl
 ms.assetid: b457291b-e7cf-39db-9412-32cd4e08f8da
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: buses
 ---
 
 # Genericusbfnioctl.h header

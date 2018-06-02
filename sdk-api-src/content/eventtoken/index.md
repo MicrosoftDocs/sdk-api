@@ -2,12 +2,11 @@
 UID: NA:eventtoken
 ms.assetid: f394bf7b-526a-3ccd-805f-842fd8e475b4
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winrt
 ---
 
 # Eventtoken.h header

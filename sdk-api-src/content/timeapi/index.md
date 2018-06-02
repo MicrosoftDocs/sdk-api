@@ -2,12 +2,11 @@
 UID: NA:timeapi
 ms.assetid: 2edbce99-7063-381b-8699-e8e1ddea7a6b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: multimedia
 ---
 
 # Timeapi.h header

@@ -2,12 +2,11 @@
 UID: NA:objidl
 ms.assetid: 61129341-18f7-3ab8-95b4-b450e7060c31
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winrt
 ---
 
 # Objidl.h header

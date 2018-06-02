@@ -2,12 +2,11 @@
 UID: NA:ws2atm
 ms.assetid: fcbc2a0c-da3b-380a-bb46-c237a3d33317
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winsock
 ---
 
 # Ws2Atm.h header

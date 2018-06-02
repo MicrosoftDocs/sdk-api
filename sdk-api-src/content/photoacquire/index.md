@@ -2,12 +2,11 @@
 UID: NA:photoacquire
 ms.assetid: 8578d389-ba4d-38b4-a2fd-3ab1943b6394
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: setup
 ---
 
 # Photoacquire.h header

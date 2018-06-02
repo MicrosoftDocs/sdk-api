@@ -2,12 +2,11 @@
 UID: NA:unknwn
 ms.assetid: 2465b4db-f3c3-37e4-8e60-1750924704d8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: multimedia
 ---
 
 # Unknwn.h header

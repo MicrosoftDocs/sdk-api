@@ -2,12 +2,11 @@
 UID: NA:winbio_types
 ms.assetid: 628c8ccb-7d9b-34de-a75a-7126646798ee
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: secbiomet
 ---
 
 # Winbio_Types.h header

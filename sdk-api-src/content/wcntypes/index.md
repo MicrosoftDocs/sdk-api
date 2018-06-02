@@ -2,12 +2,11 @@
 UID: NA:wcntypes
 ms.assetid: 8c51489e-b819-31c3-9ad5-afd92ca63608
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wcn
 ---
 
 # Wcntypes.h header

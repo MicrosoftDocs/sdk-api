@@ -2,12 +2,11 @@
 UID: NA:dxgidebug
 ms.assetid: a1d3e485-0721-3cd3-b78c-50d60d5c6821
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: direct3ddxgi
 ---
 
 # Dxgidebug.h header

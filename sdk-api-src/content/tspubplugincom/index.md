@@ -2,12 +2,11 @@
 UID: NA:tspubplugincom
 ms.assetid: db5925cd-1105-35d1-afda-0717160667d6
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: termserv
 ---
 
 # Tspubplugincom.h header

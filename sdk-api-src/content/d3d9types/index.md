@@ -2,12 +2,11 @@
 UID: NA:d3d9types
 ms.assetid: aecfe4b9-a3a7-3fee-a0a5-e69e3cfbf81c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: direct3d9
 ---
 
 # D3D9Types.h header

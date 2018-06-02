@@ -2,12 +2,11 @@
 UID: NA:wmcontainer
 ms.assetid: bc85a06e-51f0-3104-9a96-35b003f555ac
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mf
 ---
 
 # Wmcontainer.h header

@@ -2,12 +2,11 @@
 UID: NA:winsxs
 ms.assetid: 712d9914-8cf8-3b2f-b55b-e6c64a26f40f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: setup
 ---
 
 # Winsxs.h header

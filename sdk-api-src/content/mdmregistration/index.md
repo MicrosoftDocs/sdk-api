@@ -2,12 +2,11 @@
 UID: NA:mdmregistration
 ms.assetid: c9640eec-4d08-33fa-b57b-ca59880510c7
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mdmreg
 ---
 
 # Mdmregistration.h header

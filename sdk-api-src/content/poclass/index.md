@@ -2,12 +2,11 @@
 UID: NA:poclass
 ms.assetid: e8e59bde-a107-30c0-9d4b-dd962feae2e4
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: base
 ---
 
 # Poclass.h header

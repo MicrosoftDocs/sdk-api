@@ -2,12 +2,11 @@
 UID: NA:shimgdata
 ms.assetid: 7b77db2a-4604-307f-bc83-37695e86a40b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: shell
 ---
 
 # Shimgdata.h header

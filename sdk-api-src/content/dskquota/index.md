@@ -2,12 +2,11 @@
 UID: NA:dskquota
 ms.assetid: a87db4c7-8a13-3e20-9dbd-1468d67768a3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: fs
 ---
 
 # Dskquota.h header

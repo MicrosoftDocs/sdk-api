@@ -2,12 +2,11 @@
 UID: NA:usbuser
 ms.assetid: 4c366795-5d02-392f-8b00-48074d301df6
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: buses
 ---
 
 # Usbuser.h header

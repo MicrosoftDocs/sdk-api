@@ -2,12 +2,11 @@
 UID: NA:newdev
 ms.assetid: 9bbde2b6-c7c6-393d-9e42-7e4747fe36f9
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: devinst
 ---
 
 # Newdev.h header

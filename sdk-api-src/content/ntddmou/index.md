@@ -2,12 +2,11 @@
 UID: NA:ntddmou
 ms.assetid: 3d739718-a93c-3c79-98ae-f230261063b5
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: hid
 ---
 
 # Ntddmou.h header

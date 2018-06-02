@@ -2,13 +2,12 @@
 UID: NA:syncregistration
 ms.assetid: 05194385-47f4-366f-94d1-ba46ad648cba
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 archived: true
-tech.root: winsync
 ---
 
 # Syncregistration.h header

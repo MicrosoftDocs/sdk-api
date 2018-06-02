@@ -2,7 +2,7 @@
 UID: TP:tablet
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -183,7 +183,7 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IInkDivisionResult interface](..\msinkaut15\nn-msinkaut15-iinkdivisionresult.md) | Represents the layout analysis of the collection of strokes contained by the InkDivider object. |
 | [IInkDivisionUnit interface](..\msinkaut15\nn-msinkaut15-iinkdivisionunit.md) | Represents a single structural element within an IInkDivisionResult object. |
 | [IInkDivisionUnits interface](..\msinkaut15\nn-msinkaut15-iinkdivisionunits.md) | Contains a collection of IInkDivisionUnit objects that are contained in an IInkDivisionResult object. |
-| [IInkEdit interface](..\inked\nn-inked-iinkedit.md) | TBD. |
+| [IInkEdit interface](..\inked\nn-inked-iinkedit.md) | "." |
 | [IInkExtendedProperties interface](..\msinkaut\nn-msinkaut-iinkextendedproperties.md) | Represents a collection of IInkExtendedProperty objects that contain application-defined data. |
 | [IInkExtendedProperty interface](..\msinkaut\nn-msinkaut-iinkextendedproperty.md) | Represents the ability to add your own data to a variety of objects within the Tablet PC object model. |
 | [IInkGesture interface](..\msinkaut\nn-msinkaut-iinkgesture.md) | Represents the ability to query particular properties of a gesture returned from a gesture recognition. |
@@ -266,6 +266,7 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IInkCustomStrokes::Add](..\msinkaut\nf-msinkaut-iinkcustomstrokes-add.md) | Adds an InkStrokes collection to an IInkCustomStrokes collection. |
 | [IInkCustomStrokes::Clear](..\msinkaut\nf-msinkaut-iinkcustomstrokes-clear.md) | Clears all InkStrokes collections from the IInkCustomStrokes collection. |
 | [IInkCustomStrokes::Item](..\msinkaut\nf-msinkaut-iinkcustomstrokes-item.md) | Retrieves the InkStrokes Collection at the location specified within the IInkCustomStrokes Interface. |
+| [IInkCustomStrokes::Remove](..\msinkaut\nf-msinkaut-iinkcustomstrokes-remove.md) | Removes the InkStrokes collection from the IInkCustomStrokes collection. |
 | [IInkCustomStrokes::get_Count](..\msinkaut\nf-msinkaut-iinkcustomstrokes-get_count.md) | Gets the number of objects or collections contained in a collection. |
 | [IInkDivisionResult::ResultByType](..\msinkaut15\nf-msinkaut15-iinkdivisionresult-resultbytype.md) | Gets the requested structural units of the analysis results for an IInkDivisionUnits collection. |
 | [IInkDivisionResult::get_Strokes](..\msinkaut15\nf-msinkaut15-iinkdivisionresult-get_strokes.md) | Gets the collection of strokes that are contained in an object or used to create an object. |

@@ -2,12 +2,11 @@
 UID: NA:vsadmin
 ms.assetid: 06dcee59-b6e3-3bcc-936b-905c2a845f5f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: base
 ---
 
 # Vsadmin.h header

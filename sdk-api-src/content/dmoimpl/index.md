@@ -2,12 +2,11 @@
 UID: NA:dmoimpl
 ms.assetid: 5a9622e6-a7c0-30e6-aeeb-81d3ef481887
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dshow
 ---
 
 # Dmoimpl.h header

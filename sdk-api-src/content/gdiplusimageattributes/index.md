@@ -2,12 +2,11 @@
 UID: NA:gdiplusimageattributes
 ms.assetid: d8928016-85de-319c-96ff-1fa2295a4199
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: gdiplus
 ---
 
 # Gdiplusimageattributes.h header

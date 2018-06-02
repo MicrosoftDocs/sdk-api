@@ -2,12 +2,11 @@
 UID: NA:directxmath
 ms.assetid: 76b0c74d-e0c1-3e0a-9ce0-89c07ed6f8da
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dxmath
 ---
 
 # Directxmath.h header

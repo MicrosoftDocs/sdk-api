@@ -2,12 +2,11 @@
 UID: NA:windows.ui.xaml.hosting.referencetracker
 ms.assetid: 2a725ab0-ccd3-39eb-9d42-341832c712bd
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winrt
 ---
 
 # Windows.Ui.Xaml.Hosting.Referencetracker.h header

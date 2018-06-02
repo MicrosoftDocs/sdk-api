@@ -2,12 +2,11 @@
 UID: NA:fhcfg
 ms.assetid: c4428648-2da6-3eab-beae-9c81995dff38
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winprog
 ---
 
 # Fhcfg.h header

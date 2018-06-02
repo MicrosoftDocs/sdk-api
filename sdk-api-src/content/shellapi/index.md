@@ -2,12 +2,11 @@
 UID: NA:shellapi
 ms.assetid: 5c77399b-7447-3462-b5ca-6a7010237ca8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: menurc
 ---
 
 # Shellapi.h header

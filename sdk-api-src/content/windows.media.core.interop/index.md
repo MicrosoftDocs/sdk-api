@@ -2,12 +2,11 @@
 UID: NA:windows.media.core.interop
 ms.assetid: ac82089b-5833-36c5-961e-38216f91cd89
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winrt
 ---
 
 # Windows.Media.Core.Interop.h header

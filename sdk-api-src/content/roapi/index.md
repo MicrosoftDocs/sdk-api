@@ -2,12 +2,11 @@
 UID: NA:roapi
 ms.assetid: 78043285-299a-3f62-a9bc-545bcd8ee6f4
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winrt
 ---
 
 # Roapi.h header

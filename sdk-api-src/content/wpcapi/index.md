@@ -2,12 +2,11 @@
 UID: NA:wpcapi
 ms.assetid: aa101964-29d6-3a16-a9ba-b679c3b2f453
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: parcon
 ---
 
 # Wpcapi.h header

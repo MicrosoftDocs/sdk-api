@@ -2,12 +2,11 @@
 UID: NA:msports
 ms.assetid: a2437d99-676b-374a-b0ad-07ff2eac5eec
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: serports
 ---
 
 # Msports.h header

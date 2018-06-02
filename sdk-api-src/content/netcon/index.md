@@ -2,13 +2,12 @@
 UID: NA:netcon
 ms.assetid: 820ce7f2-c0aa-3bb8-8657-e4bdd3dfd09c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 archived: true
-tech.root: ics
 ---
 
 # Netcon.h header

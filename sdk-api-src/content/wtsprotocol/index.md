@@ -2,12 +2,11 @@
 UID: NA:wtsprotocol
 ms.assetid: ae3052a1-4a72-3aa4-a6f7-f7a0dcafde83
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: termserv
 ---
 
 # Wtsprotocol.h header

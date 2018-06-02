@@ -2,12 +2,11 @@
 UID: NA:spatialaudiohrtf
 ms.assetid: ddbf89fe-c8b2-3dcf-85f9-b8f875fd37e7
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: coreaudio
 ---
 
 # Spatialaudiohrtf.h header

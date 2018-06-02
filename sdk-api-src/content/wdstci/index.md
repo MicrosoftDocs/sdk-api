@@ -2,12 +2,11 @@
 UID: NA:wdstci
 ms.assetid: 99907bac-e07a-38b4-afcd-be1c08ac8854
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wds
 ---
 
 # Wdstci.h header

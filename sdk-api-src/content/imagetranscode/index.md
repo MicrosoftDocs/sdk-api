@@ -2,12 +2,11 @@
 UID: NA:imagetranscode
 ms.assetid: 7ffd173f-c94a-3b37-bbad-716c34aaa3b1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: shell
 ---
 
 # Imagetranscode.h header

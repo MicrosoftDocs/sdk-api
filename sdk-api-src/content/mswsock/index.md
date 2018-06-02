@@ -2,12 +2,11 @@
 UID: NA:mswsock
 ms.assetid: 30a43468-acbe-3e87-acb1-8eb3b02b5c85
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winsock
 ---
 
 # Mswsock.h header

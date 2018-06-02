@@ -2,12 +2,11 @@
 UID: NA:vds
 ms.assetid: e0f296a4-ccbc-378e-85b8-f04b91873ba3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/01/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: vdswmi
 ---
 
 # Vds.h header
