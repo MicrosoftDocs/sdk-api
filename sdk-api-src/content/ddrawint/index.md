@@ -1,0 +1,21 @@
+---
+UID: NA:ddrawint
+ms.assetid: 954b5e65-fa11-3768-9767-46435bb4ee33
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+tech.root: display
+---
+
+# Ddrawint.h header
+
+
+## -description
+
+
+This header is used by display. For more information, see:
+
+- [Display Devices Reference](../_display/index.md)

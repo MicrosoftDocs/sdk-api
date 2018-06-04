@@ -1,0 +1,21 @@
+---
+UID: NA:shellapi
+ms.assetid: 5c77399b-7447-3462-b5ca-6a7010237ca8
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+tech.root: menurc
+---
+
+# Shellapi.h header
+
+
+## -description
+
+
+This header is used by menurc. For more information, see:
+
+- [Menus and Other Resources](../_menurc/index.md)

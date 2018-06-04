@@ -1,0 +1,181 @@
+---
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+---
+
+# IInkDisp::NearestPoint
+
+
+## -description
+
+
+
+Retrieves the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> within the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object that is nearest to a known point, optionally providing the index of the nearest point and the distance to the stroke from the specified point.
+
+
+
+
+## -parameters
+
+
+
+
+### -param X [in]
+
+The <code>x-</code>position in ink space of the point.
+
+
+### -param Y [in]
+
+Specifies the <code>y-</code>position in ink space of the point.
+
+
+### -param PointOnStroke [in, out, optional]
+
+Optional. Retrieves the point on the line of the stroke that is closest to the specified point within the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. For example, a value of 1.5 indicates that the point falls halfway between the first and second packets of the stroke. This parameter can be <b>NULL</b>. The default value is 0.
+
+
+### -param DistanceFromPacket [in, out, optional]
+
+Optional. Retrieves the distance between the specified point in ink space and the nearest stroke in the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. This parameter can be <b>NULL</b>. the default value is 0.
+
+
+### -param Stroke [out, retval]
+
+When this method returns, contains the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> that contains a point that is closest to the specified point in the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. If more than one stroke contains a point that is the same distance from the specified point, the value of this result is arbitrary.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A parameter contained an invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INK_EXCEPTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+An exception occurred inside the method.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Cannot allocate memory operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The output <i>point</i> parameter is defined as a floating-point number because the point on the line of the stroke can fall between two physical coordinate points. Use this value to split the stroke with the <a href="https://msdn.microsoft.com/1ae627e9-c546-485a-880c-e59d2191884d">Split</a> method, or round the value up or down to index a packet in the stroke.
+
+The <i>distanceFromPacket</i> parameter describes the distance from the point to the envelope of the stroke. This is the distance between the two points minus half the width of the stroke.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="tablet.iinkdisp">IInkDisp</a>
+
+
+
+<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/87c01f9d-b48a-459c-99f8-9634e1693fa0">NearestPoint Method [IInkStrokeDisp Interface]</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ae627e9-c546-485a-880c-e59d2191884d">Split Method</a>
+ 
+
+ 
+

@@ -1,0 +1,95 @@
+---
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+---
+
+# tagMIXERCAPSW structure
+
+
+## -description
+
+
+
+The <b>MIXERCAPS</b> structure describes the capabilities of a mixer device.
+
+
+
+
+## -struct-fields
+
+
+
+
+### -field wMid
+
+A manufacturer identifier for the mixer device driver. Manufacturer identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
+
+
+### -field wPid
+
+A product identifier for the mixer device driver. Product identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
+
+
+### -field vDriverVersion
+
+Version number of the mixer device driver. The high-order byte is the major version number, and the low-order byte is the minor version number.
+
+
+### -field szPname
+
+Name of the product. If the mixer device driver supports multiple cards, this string must uniquely and easily identify (potentially to a user) the specific card.
+
+
+### -field fdwSupport
+
+Various support information for the mixer device driver. No extended support bits are currently defined.
+
+
+### -field cDestinations
+
+The number of audio line destinations available through the mixer device. All mixer devices must support at least one destination line, so this member cannot be zero. Destination indexes used in the <b>dwDestination</b> member of the <a href="https://msdn.microsoft.com/a314cdcd-dd52-49f1-92b4-c8e3775dcbe2">MIXERLINE</a> structure range from zero to the value specified in the <b>cDestinations</b> member minus one.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/82101519-6906-45fd-908f-137e51a56fb8">Audio Mixer Structures</a>
+
+
+
+Audio Mixers
+
+
+
+<a href="https://msdn.microsoft.com/a314cdcd-dd52-49f1-92b4-c8e3775dcbe2">MIXERLINE</a>
+ 
+
+ 
+

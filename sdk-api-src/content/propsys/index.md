@@ -1,0 +1,21 @@
+---
+UID: NA:propsys
+ms.assetid: 165088b4-d689-36a0-a379-9c0eac613e05
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+tech.root: audio
+---
+
+# Propsys.h header
+
+
+## -description
+
+
+This header is used by properties. For more information, see:
+
+- [Windows Property System](../_properties/index.md)

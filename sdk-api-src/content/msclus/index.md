@@ -1,0 +1,22 @@
+---
+UID: NA:msclus
+ms.assetid: 71c6d7e5-b3c1-3f09-bdc5-f9e9421816be
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+archived: true
+tech.root: mscs
+---
+
+# Msclus.h header
+
+
+## -description
+
+
+This header is used by mscs. For more information, see:
+
+- [Windows Clustering](../_mscs/index.md)

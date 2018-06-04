@@ -1,0 +1,22 @@
+---
+UID: NA:eapauthenticatortypes
+ms.assetid: 0d23718a-e379-3023-8412-598fbba7b01b
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+archived: true
+tech.root: eaphost
+---
+
+# Eapauthenticatortypes.h header
+
+
+## -description
+
+
+This header is used by eaphost. For more information, see:
+
+- [Extensible Authentication Protocol Host](../_eaphost/index.md)

@@ -1,0 +1,22 @@
+---
+UID: NA:regbag
+ms.assetid: 58224248-7176-32f2-ae6f-57666dad29aa
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+archived: true
+tech.root: mstv
+---
+
+# Regbag.h header
+
+
+## -description
+
+
+This header is used by mstv. For more information, see:
+
+- [Microsoft TV Technologies](../_mstv/index.md)

@@ -1,0 +1,22 @@
+---
+UID: NA:qos2
+ms.assetid: 763b1312-8c59-3fb2-a278-3e3af4c10385
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+archived: true
+tech.root: qos
+---
+
+# Qos2.h header
+
+
+## -description
+
+
+This header is used by qos. For more information, see:
+
+- [Quality of Service (QOS)](../_qos/index.md)

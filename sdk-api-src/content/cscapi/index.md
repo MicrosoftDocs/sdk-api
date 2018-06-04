@@ -1,0 +1,22 @@
+---
+UID: NA:cscapi
+ms.assetid: 598b385b-173a-3709-a828-b99a978ee252
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+archived: true
+tech.root: of
+---
+
+# Cscapi.h header
+
+
+## -description
+
+
+This header is used by of. For more information, see:
+
+- [Offline Files](../_of/index.md)

@@ -1,0 +1,21 @@
+---
+UID: NA:portabledeviceapi
+ms.assetid: 3ed45925-7f08-3e59-8a9f-1fa770403c30
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+tech.root: wpdauto
+---
+
+# Portabledeviceapi.h header
+
+
+## -description
+
+
+This header is used by wpdsdk. For more information, see:
+
+- [WPD Application Programming Interface](../_wpdsdk/index.md)

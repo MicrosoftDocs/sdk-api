@@ -1,0 +1,183 @@
+---
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+---
+
+# IInkStrokes::ToString
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>ToString</b> is no longer available for use as of Windows Vista. Instead, see the <a href="https://msdn.microsoft.com/1f603794-3b6a-4e8f-9804-fa4c85d82d1c">String</a> property for the equivalent of this method for the <a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate</a> object.
+]
+
+Has the default recognizer perform recognition on the collection of strokes and returns the top string of the top alternate of the recognition result.
+
+
+## -parameters
+
+
+
+
+### -param ToString [out, retval]
+
+The top string of the <a href="https://msdn.microsoft.com/6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d">TopAlternate</a> property of the <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult</a> object, after the default recognizer performs recognition on the collection of strokes.
+
+For more information about the <b>BSTR</b> data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                Success.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                A parameter contained an invalid pointer.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                Operation failed.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                Out of memory.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INK_EXCEPTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                An exception occurred inside the method.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TPC_E_RECOGNIZER_NOT_REGISTERED</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                No recognizers are installed, the recognizers registry key is corrupted, or your environment does not support handwriting recognition.
+              
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>ToString</b> should not be used for handwriting recognition applications; it can be used for debugging purposes.
+
+<b>ToString</b> returns <b>NULL</b> if:
+
+<ul>
+<li>The <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection is empty.</li>
+<li>A default recognizer cannot be created.</li>
+<li>The default recognizer does not support free input.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer Interface</a>
+
+
+
+<a href="tablet.iinkstrokes">IInkStrokes</a>
+
+
+
+<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+ 
+
+ 
+

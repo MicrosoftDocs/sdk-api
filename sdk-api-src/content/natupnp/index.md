@@ -1,0 +1,22 @@
+---
+UID: NA:natupnp
+ms.assetid: ae744464-3199-3f47-8a25-33051e201798
+ms.author: windowssdkdev
+ms.date: 06/04/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+archived: true
+tech.root: ics
+---
+
+# Natupnp.h header
+
+
+## -description
+
+
+This header is used by ics. For more information, see:
+
+- [Windows Firewall Technologies](../_ics/index.md)
