@@ -1,7 +1,0 @@
-# [Windows Runtime C++ reference](../_winrt/index.md)
-## [Windows.Graphics.Imaging.Interop.h](index.md)
-### [ISoftwareBitmapNative::imaging](../windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnative-getdata.md)
-### [ISoftwareBitmapNativeFactory::imaging](../windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnativefactory-createfrommf2dbuffer2.md)
-### [ISoftwareBitmapNativeFactory::imaging](../windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnativefactory-createfromwicbitmap.md)
-### [ISoftwareBitmapNative interface](../windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative.md)
-### [ISoftwareBitmapNativeFactory interface](../windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnativefactory.md)

@@ -1,8 +1,0 @@
-# [DirectComposition](../_directcomp/index.md)
-## [Dcomptypes.h](index.md)
-### [DCOMPOSITION_BACKFACE_VISIBILITY enumeration](../dcomptypes/ne-dcomptypes-dcomposition_backface_visibility.md)
-### [DCOMPOSITION_BITMAP_INTERPOLATION_MODE enumeration](../dcomptypes/ne-dcomptypes-dcomposition_bitmap_interpolation_mode.md)
-### [DCOMPOSITION_BORDER_MODE enumeration](../dcomptypes/ne-dcomptypes-dcomposition_border_mode.md)
-### [DCOMPOSITION_COMPOSITE_MODE enumeration](../dcomptypes/ne-dcomptypes-dcomposition_composite_mode.md)
-### [DCOMPOSITION_OPACITY_MODE enumeration](../dcomptypes/ne-dcomptypes-dcomposition_opacity_mode.md)
-### [DCOMPOSITION_FRAME_STATISTICS structure](../dcomptypes/ns-dcomptypes-dcomposition_frame_statistics.md)

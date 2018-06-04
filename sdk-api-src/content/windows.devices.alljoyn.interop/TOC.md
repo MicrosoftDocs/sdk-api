@@ -1,6 +1,0 @@
-# [AllJoyn API](../_alljoyn/index.md)
-## [Windows.Devices.Alljoyn.Interop.h](index.md)
-### [IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn](../windows.devices.alljoyn.interop/nf-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentfactoryinterop-createfromwin32handle.md)
-### [IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn](../windows.devices.alljoyn.interop/nf-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop-get_win32handle.md)
-### [IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface](../windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentfactoryinterop.md)
-### [IWindowsDevicesAllJoynBusAttachmentInterop interface](../windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop.md)

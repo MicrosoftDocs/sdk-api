@@ -1,8 +1,0 @@
-# [Windows Media Format 11 SDK](../_wmformat/index.md)
-## [Wmdxva.h](index.md)
-### [IWMCodecAMVideoAccelerator::NegotiateConnection](../wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-negotiateconnection.md)
-### [IWMCodecAMVideoAccelerator::SetAcceleratorInterface](../wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-setacceleratorinterface.md)
-### [IWMCodecAMVideoAccelerator::SetPlayerNotify](../wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-setplayernotify.md)
-### [IWMPlayerTimestampHook::MapTimestamp](../wmdxva/nf-wmdxva-iwmplayertimestamphook-maptimestamp.md)
-### [IWMCodecAMVideoAccelerator interface](../wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator.md)
-### [IWMPlayerTimestampHook interface](../wmdxva/nn-wmdxva-iwmplayertimestamphook.md)

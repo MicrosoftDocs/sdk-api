@@ -1,5 +1,0 @@
-# [Removable Storage Manager](../_fs/index.md)
-## [Clfsmgmt.h](index.md)
-### [_CLFS_MGMT_POLICY_TYPE enumeration](../clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type.md)
-### [_CLFS_MGMT_NOTIFICATION structure](../clfsmgmt/ns-clfsmgmt-_clfs_mgmt_notification.md)
-### [_CLFS_MGMT_POLICY structure](../clfsmgmt/ns-clfsmgmt-_clfs_mgmt_policy.md)

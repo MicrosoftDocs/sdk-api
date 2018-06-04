@@ -1,241 +1,31 @@
 ---
-UID: NE:adhoc.tagDOT11_ADHOC_CIPHER_ALGORITHM
-title: tagDOT11_ADHOC_CIPHER_ALGORITHM
-author: windows-sdk-content
-description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.
-old-location: nwifi\dot11_adhoc_cipher_algorithm.htm
-old-project: NativeWiFi
-ms.assetid: 2ea8173d-f528-4065-90ce-71a455a6b35f
-ms.author: windowssdkdev
-ms.date: 04/13/2018
-ms.keywords: DOT11_ADHOC_CIPHER_ALGORITHM, DOT11_ADHOC_CIPHER_ALGORITHM enumeration [NativeWIFI], DOT11_ADHOC_CIPHER_ALGO_CCMP, DOT11_ADHOC_CIPHER_ALGO_INVALID, DOT11_ADHOC_CIPHER_ALGO_NONE, DOT11_ADHOC_CIPHER_ALGO_WEP, adhoc/DOT11_ADHOC_CIPHER_ALGORITHM, adhoc/DOT11_ADHOC_CIPHER_ALGO_CCMP, adhoc/DOT11_ADHOC_CIPHER_ALGO_INVALID, adhoc/DOT11_ADHOC_CIPHER_ALGO_NONE, adhoc/DOT11_ADHOC_CIPHER_ALGO_WEP, nwifi.dot11_adhoc_cipher_algorithm, tagDOT11_ADHOC_CIPHER_ALGORITHM
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: enum
-req.header: adhoc.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Adhoc.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_CIPHER_ALGORITHM
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	HeaderDef
- - HeaderDef
-: 
-api_location:
--	adhoc.h
- - accctrl.h
-: 
-api_name:
--	DOT11_ADHOC_CIPHER_ALGORITHM
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: 
-req.dll: 
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
- - _EXPLICIT_ACCESS_W
-: 
- - _INHERITED_FROMA
-: 
- - _INHERITED_FROMW
-: 
- - _OBJECTS_AND_NAME_A
-: 
- - _OBJECTS_AND_NAME_W
-: 
- - _OBJECTS_AND_SID
-: 
- - _TRUSTEE_A
-: 
- - _TRUSTEE_W
-: 
-req.irql: 
- - 
-: 
- - BuildExplicitAccessWithNameA
-: 
- - BuildExplicitAccessWithNameW
-: 
- - BuildSecurityDescriptorA
-: 
- - BuildSecurityDescriptorW
-: 
- - BuildTrusteeWithNameA
-: 
- - BuildTrusteeWithNameW
-: 
- - BuildTrusteeWithObjectsAndNameA
-: 
- - BuildTrusteeWithObjectsAndNameW
-: 
- - BuildTrusteeWithObjectsAndSidA
-: 
- - BuildTrusteeWithObjectsAndSidW
-: 
- - BuildTrusteeWithSidA
-: 
- - BuildTrusteeWithSidW
-: 
- - FreeInheritedFromArray
-: 
- - GetAuditedPermissionsFromAclA
-: 
- - GetAuditedPermissionsFromAclW
-: 
- - GetEffectiveRightsFromAclA
-: 
- - GetEffectiveRightsFromAclW
-: 
- - GetExplicitEntriesFromAclA
-: 
- - GetExplicitEntriesFromAclW
-: 
- - GetInheritanceSourceA
-: 
- - GetInheritanceSourceW
-: 
- - GetNamedSecurityInfoA
-: 
- - GetNamedSecurityInfoW
-: 
- - GetSecurityInfo
-: 
- - GetTrusteeFormA
-: 
- - GetTrusteeFormW
-: 
- - GetTrusteeNameA
-: 
- - GetTrusteeNameW
-: 
- - GetTrusteeTypeA
-: 
- - GetTrusteeTypeW
-: 
- - LookupSecurityDescriptorPartsA
-: 
- - LookupSecurityDescriptorPartsW
-: 
- - SetEntriesInAclA
-: 
- - SetEntriesInAclW
-: 
- - SetNamedSecurityInfoA
-: 
- - SetNamedSecurityInfoW
-: 
- - SetSecurityInfo
-: 
- - TreeResetNamedSecurityInfoA
-: 
- - TreeResetNamedSecurityInfoW
-: 
- - TreeSetNamedSecurityInfoA
-: 
- - TreeSetNamedSecurityInfoW
-: 
- - aclui.h
-: 
- - _SI_PAGE_TYPE
-: 
- - CreateSecurityPage
-: 
- - EditSecurity
-: 
- - EditSecurityAdvanced
-: 
- - _EFFPERM_RESULT_LIST
-: 
- - _SECURITY_OBJECT
-: 
- - _SID_INFO
-: 
- - _SID_INFO_LIST
-: 
- - _SI_ACCESS
-: 
- - _SI_INHERIT_TYPE
-: 
- - _SI_OBJECT_INFO
-: 
- - COM
-: 
- - activation.h
-: 
- - IActivationFactory.ActivateInstance
-: 
- - IActivationFactory
-: 
- - activationregistration.h
-: 
- - ActivationType
-: 
- - IdentityType
-: 
- - InstancingType
-: 
- - RegistrationScope
-: 
- - ThreadingType
-: 
- - IActivatableClassRegistration
-: 
- - IDllServerActivatableClassRegistration
-: 
- - IExeServerActivatableClassRegistration
-: 
- - IExeServerRegistration
-: 
- - adhoc.h
-: 
- - tagDOT11_ADHOC_AUTH_ALGORITHM
-: 
- - tagDOT11_ADHOC_CIPHER_ALGORITHM
-: 
 ---
 
 # tagDOT11_ADHOC_CIPHER_ALGORITHM enumeration

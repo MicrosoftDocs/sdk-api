@@ -1,6 +1,0 @@
-# [Direct3D 10 Graphics](../_direct3d10/index.md)
-## [D3D10Misc.h](index.md)
-### [D3D10_DRIVER_TYPE enumeration](../d3d10misc/ne-d3d10misc-d3d10_driver_type.md)
-### [D3D10CreateBlob function](../d3d10misc/nf-d3d10misc-d3d10createblob.md)
-### [D3D10CreateDevice function](../d3d10misc/nf-d3d10misc-d3d10createdevice.md)
-### [D3D10CreateDeviceAndSwapChain function](../d3d10misc/nf-d3d10misc-d3d10createdeviceandswapchain.md)

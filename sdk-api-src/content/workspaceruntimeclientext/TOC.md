@@ -1,6 +1,0 @@
-# [Remote Desktop Services](../_termserv/index.md)
-## [Workspaceruntimeclientext.h](index.md)
-### [IWorkspaceClientExt::GetResourceDisplayName](../workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourcedisplayname.md)
-### [IWorkspaceClientExt::GetResourceId](../workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourceid.md)
-### [IWorkspaceClientExt::IssueDisconnect](../workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-issuedisconnect.md)
-### [IWorkspaceClientExt interface](../workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext.md)

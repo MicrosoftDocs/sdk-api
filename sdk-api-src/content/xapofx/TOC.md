@@ -1,8 +1,0 @@
-# [XAudio2 APIs](../_xaudio2/index.md)
-## [Xapofx.h](index.md)
-### [CreateFX function](../xapofx/nf-xapofx-createfx.md)
-### [FXECHO_INITDATA structure](../xapofx/ns-xapofx-fxecho_initdata.md)
-### [FXECHO_PARAMETERS structure](../xapofx/ns-xapofx-fxecho_parameters.md)
-### [FXEQ_PARAMETERS structure](../xapofx/ns-xapofx-fxeq_parameters.md)
-### [FXMASTERINGLIMITER_PARAMETERS structure](../xapofx/ns-xapofx-fxmasteringlimiter_parameters.md)
-### [FXREVERB_PARAMETERS structure](../xapofx/ns-xapofx-fxreverb_parameters.md)

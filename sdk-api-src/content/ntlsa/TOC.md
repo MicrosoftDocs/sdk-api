@@ -1,7 +1,0 @@
-# [Authentication](../_security/index.md)
-## [Ntlsa.h](index.md)
-### [LsaGetAppliedCAPIDs function](../ntlsa/nf-ntlsa-lsagetappliedcapids.md)
-### [LsaLookupPrivilegeValue function](../ntlsa/nf-ntlsa-lsalookupprivilegevalue.md)
-### [LsaQueryCAPs function](../ntlsa/nf-ntlsa-lsaquerycaps.md)
-### [_CENTRAL_ACCESS_POLICY structure](../ntlsa/ns-ntlsa-_central_access_policy.md)
-### [_CENTRAL_ACCESS_POLICY_ENTRY structure](../ntlsa/ns-ntlsa-_central_access_policy_entry.md)

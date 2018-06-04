@@ -1,90 +1,31 @@
 ---
-UID: NS:accctrl._INHERITED_FROMW
-title: "_INHERITED_FROMW"
-author: windows-sdk-content
-description: Provides information about an object's inherited access control entry (ACE).
-old-location: security\inherited_from.htm
-old-project: SecAuthZ
-ms.assetid: 6839f67a-6c72-406d-b55e-bc366aaad107
-ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: "*PINHERITED_FROMW, INHERITED_FROM, INHERITED_FROM structure [Security], INHERITED_FROMA, INHERITED_FROMW, PINHERITED_FROM, PINHERITED_FROM structure pointer [Security], _INHERITED_FROMA, _INHERITED_FROMW, accctrl/INHERITED_FROM, accctrl/INHERITED_FROMA, accctrl/INHERITED_FROMW, accctrl/PINHERITED_FROM, security.inherited_from"
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: struct
-req.header: accctrl.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: INHERITED_FROMW (Unicode) and INHERITED_FROMA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INHERITED_FROMW, *PINHERITED_FROMW
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	HeaderDef
- - HeaderDef
-: 
-api_location:
--	AccCtrl.h
- - accctrl.h
-: 
-api_name:
--	INHERITED_FROM
--	INHERITED_FROMA
--	INHERITED_FROMW
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: 
-req.dll: 
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
- - _EXPLICIT_ACCESS_W
-: 
- - _INHERITED_FROMA
-: 
- - _INHERITED_FROMW
-: 
 ---
 
 # _INHERITED_FROMW structure

@@ -1,6 +1,0 @@
-# [Windows Sockets 2](../_winsock/index.md)
-## [Ws2Atm.h](index.md)
-### [ATM_ADDRESS structure](../ws2atm/ns-ws2atm-atm_address.md)
-### [ATM_BHLI structure](../ws2atm/ns-ws2atm-atm_bhli.md)
-### [ATM_BLLI structure](../ws2atm/ns-ws2atm-atm_blli.md)
-### [sockaddr_atm structure](../ws2atm/ns-ws2atm-sockaddr_atm.md)

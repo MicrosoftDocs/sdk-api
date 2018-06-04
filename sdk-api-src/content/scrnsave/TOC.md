@@ -1,6 +1,0 @@
-# [The Windows Shell](../_shell/index.md)
-## [Scrnsave.h](index.md)
-### [DefScreenSaverProc function](../scrnsave/nf-scrnsave-defscreensaverproc.md)
-### [RegisterDialogClasses function](../scrnsave/nf-scrnsave-registerdialogclasses.md)
-### [ScreenSaverConfigureDialog function](../scrnsave/nf-scrnsave-screensaverconfiguredialog.md)
-### [ScreenSaverProc function](../scrnsave/nf-scrnsave-screensaverproc.md)

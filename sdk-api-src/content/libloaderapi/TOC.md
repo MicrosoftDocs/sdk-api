@@ -1,8 +1,0 @@
-# [Error Handling](../_debug/index.md)
-## [Libloaderapi.h](index.md)
-### [AddDllDirectory function](../libloaderapi/nf-libloaderapi-adddlldirectory.md)
-### [FindStringOrdinal function](../libloaderapi/nf-libloaderapi-findstringordinal.md)
-### [LoadLibraryExA function](../libloaderapi/nf-libloaderapi-loadlibraryexa.md)
-### [LoadLibraryExW function](../libloaderapi/nf-libloaderapi-loadlibraryexw.md)
-### [RemoveDllDirectory function](../libloaderapi/nf-libloaderapi-removedlldirectory.md)
-### [SetDefaultDllDirectories function](../libloaderapi/nf-libloaderapi-setdefaultdlldirectories.md)

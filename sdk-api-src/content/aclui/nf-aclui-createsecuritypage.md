@@ -1,22 +1,22 @@
 ---
-UID: NF:aclui.CreateSecurityPage
-title: CreateSecurityPage function
-author: windows-sdk-content
-description: Creates a basic security property page that enables the user to view and edit the access rights allowed or denied by the access control entries (ACEs) in an object's discretionary access control list (DACL).
-old-location: security\createsecuritypage.htm
-old-project: SecAuthZ
-ms.assetid: 52cb20fd-7f3a-4984-a898-f4b9e9738e1a
-ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: CreateSecurityPage, CreateSecurityPage function [Security], _win32_createsecuritypage, aclui/CreateSecurityPage, security.createsecuritypage
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: function
-req.header: aclui.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,164 +26,6 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	DllExport
- - HeaderDef
-: 
-api_location:
--	Aclui.dll
- - accctrl.h
-: 
-api_name:
--	CreateSecurityPage
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: Aclui.lib
-req.dll: Aclui.dll
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
- - _EXPLICIT_ACCESS_W
-: 
- - _INHERITED_FROMA
-: 
- - _INHERITED_FROMW
-: 
- - _OBJECTS_AND_NAME_A
-: 
- - _OBJECTS_AND_NAME_W
-: 
- - _OBJECTS_AND_SID
-: 
- - _TRUSTEE_A
-: 
- - _TRUSTEE_W
-: 
-req.irql: 
- - 
-: 
- - BuildExplicitAccessWithNameA
-: 
- - BuildExplicitAccessWithNameW
-: 
- - BuildSecurityDescriptorA
-: 
- - BuildSecurityDescriptorW
-: 
- - BuildTrusteeWithNameA
-: 
- - BuildTrusteeWithNameW
-: 
- - BuildTrusteeWithObjectsAndNameA
-: 
- - BuildTrusteeWithObjectsAndNameW
-: 
- - BuildTrusteeWithObjectsAndSidA
-: 
- - BuildTrusteeWithObjectsAndSidW
-: 
- - BuildTrusteeWithSidA
-: 
- - BuildTrusteeWithSidW
-: 
- - FreeInheritedFromArray
-: 
- - GetAuditedPermissionsFromAclA
-: 
- - GetAuditedPermissionsFromAclW
-: 
- - GetEffectiveRightsFromAclA
-: 
- - GetEffectiveRightsFromAclW
-: 
- - GetExplicitEntriesFromAclA
-: 
- - GetExplicitEntriesFromAclW
-: 
- - GetInheritanceSourceA
-: 
- - GetInheritanceSourceW
-: 
- - GetNamedSecurityInfoA
-: 
- - GetNamedSecurityInfoW
-: 
- - GetSecurityInfo
-: 
- - GetTrusteeFormA
-: 
- - GetTrusteeFormW
-: 
- - GetTrusteeNameA
-: 
- - GetTrusteeNameW
-: 
- - GetTrusteeTypeA
-: 
- - GetTrusteeTypeW
-: 
- - LookupSecurityDescriptorPartsA
-: 
- - LookupSecurityDescriptorPartsW
-: 
- - SetEntriesInAclA
-: 
- - SetEntriesInAclW
-: 
- - SetNamedSecurityInfoA
-: 
- - SetNamedSecurityInfoW
-: 
- - SetSecurityInfo
-: 
- - TreeResetNamedSecurityInfoA
-: 
- - TreeResetNamedSecurityInfoW
-: 
- - TreeSetNamedSecurityInfoA
-: 
- - TreeSetNamedSecurityInfoW
-: 
- - aclui.h
-: 
- - _SI_PAGE_TYPE
-: 
- - CreateSecurityPage
-: 
 ---
 
 # CreateSecurityPage function

@@ -1,6 +1,0 @@
-# [Windows Media Format 11 SDK](../_wmformat/index.md)
-## [Wmsdkvalidate.h](index.md)
-### [WMCheckURLExtension function](../wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension.md)
-### [WMCheckURLScheme function](../wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme.md)
-### [WMIsAvailableOffline function](../wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline.md)
-### [WMValidateData function](../wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata.md)

@@ -1,5 +1,0 @@
-# [Windows Runtime C++ reference](../_winrt/index.md)
-## [Printmanagerinterop.h](index.md)
-### [IPrintManagerInterop::GetForWindow](../printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-getforwindow.md)
-### [IPrintManagerInterop::ShowPrintUIForWindowAsync](../printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync.md)
-### [IPrintManagerInterop interface](../printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop.md)

@@ -1,8 +1,0 @@
-# [Error Handling](../_debug/index.md)
-## [Interlockedapi.h](index.md)
-### [InitializeSListHead function](../interlockedapi/nf-interlockedapi-initializeslisthead.md)
-### [InterlockedFlushSList function](../interlockedapi/nf-interlockedapi-interlockedflushslist.md)
-### [InterlockedPopEntrySList function](../interlockedapi/nf-interlockedapi-interlockedpopentryslist.md)
-### [InterlockedPushEntrySList function](../interlockedapi/nf-interlockedapi-interlockedpushentryslist.md)
-### [InterlockedPushListSListEx function](../interlockedapi/nf-interlockedapi-interlockedpushlistslistex.md)
-### [QueryDepthSList function](../interlockedapi/nf-interlockedapi-querydepthslist.md)

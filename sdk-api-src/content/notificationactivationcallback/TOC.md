@@ -1,5 +1,0 @@
-# [Tiles, badges, and notifications for Classic desktop applications](../_win32_tile_badge_notif/index.md)
-## [Notificationactivationcallback.h](index.md)
-### [INotificationActivationCallback::Activate](../notificationactivationcallback/nf-notificationactivationcallback-inotificationactivationcallback-activate.md)
-### [INotificationActivationCallback interface](../notificationactivationcallback/nn-notificationactivationcallback-inotificationactivationcallback.md)
-### [NOTIFICATION_USER_INPUT_DATA structure](../notificationactivationcallback/ns-notificationactivationcallback-notification_user_input_data.md)

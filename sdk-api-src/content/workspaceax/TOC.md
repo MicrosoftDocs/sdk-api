@@ -1,8 +1,0 @@
-# [Remote Desktop Services](../_termserv/index.md)
-## [Workspaceax.h](index.md)
-### [IWorkspaceResTypeRegistry::AddResourceType](../workspaceax/nf-workspaceax-iworkspacerestyperegistry-addresourcetype.md)
-### [IWorkspaceResTypeRegistry::DeleteResourceType](../workspaceax/nf-workspaceax-iworkspacerestyperegistry-deleteresourcetype.md)
-### [IWorkspaceResTypeRegistry::GetRegisteredFileExtensions](../workspaceax/nf-workspaceax-iworkspacerestyperegistry-getregisteredfileextensions.md)
-### [IWorkspaceResTypeRegistry::GetResourceTypeInfo](../workspaceax/nf-workspaceax-iworkspacerestyperegistry-getresourcetypeinfo.md)
-### [IWorkspaceResTypeRegistry::ModifyResourceType](../workspaceax/nf-workspaceax-iworkspacerestyperegistry-modifyresourcetype.md)
-### [IWorkspaceResTypeRegistry interface](../workspaceax/nn-workspaceax-iworkspacerestyperegistry.md)

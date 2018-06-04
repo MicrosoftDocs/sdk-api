@@ -1,253 +1,31 @@
 ---
-UID: NF:adhoc.IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
-title: IDot11AdHocInterface::GetIEnumDot11AdHocNetworks
-author: windows-sdk-content
-description: Gets the collection of networks associated with this NIC.
-old-location: nwifi\idot11adhocinterface_getienumdot11adhocnetworks.htm
-old-project: NativeWiFi
-ms.assetid: 997acc8d-a4e7-43dc-917d-7a2b69f3c049
-ms.author: windowssdkdev
-ms.date: 04/13/2018
-ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [NativeWIFI], GetIEnumDot11AdHocNetworks method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumDot11AdHocNetworks method, IDot11AdHocInterface.GetIEnumDot11AdHocNetworks, IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, adhoc/IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, nwifi.idot11adhocinterface_getienumdot11adhocnetworks
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: method
-req.header: adhoc.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Adhoc.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	COM
- - HeaderDef
-: 
-api_location:
--	adhoc.h
- - accctrl.h
-: 
-api_name:
--	IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: 
-req.dll: 
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
- - _EXPLICIT_ACCESS_W
-: 
- - _INHERITED_FROMA
-: 
- - _INHERITED_FROMW
-: 
- - _OBJECTS_AND_NAME_A
-: 
- - _OBJECTS_AND_NAME_W
-: 
- - _OBJECTS_AND_SID
-: 
- - _TRUSTEE_A
-: 
- - _TRUSTEE_W
-: 
-req.irql: 
- - 
-: 
- - BuildExplicitAccessWithNameA
-: 
- - BuildExplicitAccessWithNameW
-: 
- - BuildSecurityDescriptorA
-: 
- - BuildSecurityDescriptorW
-: 
- - BuildTrusteeWithNameA
-: 
- - BuildTrusteeWithNameW
-: 
- - BuildTrusteeWithObjectsAndNameA
-: 
- - BuildTrusteeWithObjectsAndNameW
-: 
- - BuildTrusteeWithObjectsAndSidA
-: 
- - BuildTrusteeWithObjectsAndSidW
-: 
- - BuildTrusteeWithSidA
-: 
- - BuildTrusteeWithSidW
-: 
- - FreeInheritedFromArray
-: 
- - GetAuditedPermissionsFromAclA
-: 
- - GetAuditedPermissionsFromAclW
-: 
- - GetEffectiveRightsFromAclA
-: 
- - GetEffectiveRightsFromAclW
-: 
- - GetExplicitEntriesFromAclA
-: 
- - GetExplicitEntriesFromAclW
-: 
- - GetInheritanceSourceA
-: 
- - GetInheritanceSourceW
-: 
- - GetNamedSecurityInfoA
-: 
- - GetNamedSecurityInfoW
-: 
- - GetSecurityInfo
-: 
- - GetTrusteeFormA
-: 
- - GetTrusteeFormW
-: 
- - GetTrusteeNameA
-: 
- - GetTrusteeNameW
-: 
- - GetTrusteeTypeA
-: 
- - GetTrusteeTypeW
-: 
- - LookupSecurityDescriptorPartsA
-: 
- - LookupSecurityDescriptorPartsW
-: 
- - SetEntriesInAclA
-: 
- - SetEntriesInAclW
-: 
- - SetNamedSecurityInfoA
-: 
- - SetNamedSecurityInfoW
-: 
- - SetSecurityInfo
-: 
- - TreeResetNamedSecurityInfoA
-: 
- - TreeResetNamedSecurityInfoW
-: 
- - TreeSetNamedSecurityInfoA
-: 
- - TreeSetNamedSecurityInfoW
-: 
- - aclui.h
-: 
- - _SI_PAGE_TYPE
-: 
- - CreateSecurityPage
-: 
- - EditSecurity
-: 
- - EditSecurityAdvanced
-: 
- - _EFFPERM_RESULT_LIST
-: 
- - _SECURITY_OBJECT
-: 
- - _SID_INFO
-: 
- - _SID_INFO_LIST
-: 
- - _SI_ACCESS
-: 
- - _SI_INHERIT_TYPE
-: 
- - _SI_OBJECT_INFO
-: 
- - COM
-: 
- - activation.h
-: 
- - IActivationFactory.ActivateInstance
-: 
- - IActivationFactory
-: 
- - activationregistration.h
-: 
- - ActivationType
-: 
- - IdentityType
-: 
- - InstancingType
-: 
- - RegistrationScope
-: 
- - ThreadingType
-: 
- - IActivatableClassRegistration
-: 
- - IDllServerActivatableClassRegistration
-: 
- - IExeServerActivatableClassRegistration
-: 
- - IExeServerRegistration
-: 
- - adhoc.h
-: 
- - tagDOT11_ADHOC_AUTH_ALGORITHM
-: 
- - tagDOT11_ADHOC_CIPHER_ALGORITHM
-: 
- - tagDOT11_ADHOC_CONNECT_FAIL_REASON
-: 
- - tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
-: 
- - IDot11AdHocInterface.GetActiveNetwork
-: 
- - IDot11AdHocInterface.GetDeviceSignature
-: 
- - IDot11AdHocInterface.GetFriendlyName
-: 
- - IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
-: 
 ---
 
 # IDot11AdHocInterface::GetIEnumDot11AdHocNetworks

@@ -1,5 +1,0 @@
-# [Remote Procedure Call (RPC)](../_rpc/index.md)
-## [Rpcssl.h](index.md)
-### [RpcCertGeneratePrincipalName function](../rpcssl/nf-rpcssl-rpccertgenerateprincipalname.md)
-### [RpcCertGeneratePrincipalNameA function](../rpcssl/nf-rpcssl-rpccertgenerateprincipalnamea.md)
-### [RpcCertGeneratePrincipalNameW function](../rpcssl/nf-rpcssl-rpccertgenerateprincipalnamew.md)

@@ -1,8 +1,0 @@
-# [System Monitor](../_sysmon/index.md)
-## [Isysmon.h](index.md)
-### [eDataSourceTypeConstant enumeration](../isysmon/ne-isysmon-edatasourcetypeconstant.md)
-### [eDisplayTypeConstant enumeration](../isysmon/ne-isysmon-edisplaytypeconstant.md)
-### [eReportValueTypeConstant enumeration](../isysmon/ne-isysmon-ereportvaluetypeconstant.md)
-### [__MIDL___MIDL_itf_sysmon_0000_0000_0001 enumeration](../isysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0001.md)
-### [__MIDL___MIDL_itf_sysmon_0000_0000_0002 enumeration](../isysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0002.md)
-### [__MIDL___MIDL_itf_sysmon_0000_0000_0003 enumeration](../isysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0003.md)

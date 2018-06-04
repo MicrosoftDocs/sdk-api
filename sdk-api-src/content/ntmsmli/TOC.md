@@ -1,5 +1,0 @@
-# [Removable Storage Manager](../_fs/index.md)
-## [Ntmsmli.h](index.md)
-### [CLAIMMEDIALABEL callback function](../ntmsmli/nc-ntmsmli-claimmedialabel.md)
-### [MAXMEDIALABEL callback function](../ntmsmli/nc-ntmsmli-maxmedialabel.md)
-### [MediaLabelInfo structure](../ntmsmli/ns-ntmsmli-medialabelinfo.md)

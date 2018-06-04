@@ -1,6 +1,0 @@
-# [Active Directory Domain Services](../_ad/index.md)
-## [Dsquery.h](index.md)
-### [DSCOLUMN structure](../dsquery/ns-dsquery-dscolumn.md)
-### [DSQUERYCLASSLIST structure](../dsquery/ns-dsquery-dsqueryclasslist.md)
-### [DSQUERYINITPARAMS structure](../dsquery/ns-dsquery-dsqueryinitparams.md)
-### [DSQUERYPARAMS structure](../dsquery/ns-dsquery-dsqueryparams.md)

@@ -1,6 +1,0 @@
-# [Windows Management Instrumentation](../_wmi/index.md)
-## [Methodco.h](index.md)
-### [MethodContext::GetStatusObject](../methodco/nf-methodco-methodcontext-getstatusobject.md)
-### [MethodContext::SetStatusObject](../methodco/nf-methodco-methodcontext-setstatusobject.md)
-### [MethodContext class](../methodco/nl-methodco-methodcontext.md)
-### [MethodContext class](../methodco/nl-methodco-methodcontext~r1.md)

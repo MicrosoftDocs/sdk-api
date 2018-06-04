@@ -1,22 +1,22 @@
 ---
-UID: NS:aclui._SID_INFO
-title: "_SID_INFO"
-author: windows-sdk-content
-description: Contains the list of common names corresponding to the SID structures returned by ISecurityInformation2::LookupSids.
-old-location: security\sid_info.htm
-old-project: SecAuthZ
-ms.assetid: 6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c
-ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: "*PSID_INFO, PSID_INFO, PSID_INFO structure pointer [Security], SID_INFO, SID_INFO structure [Security], _SID_INFO, _win32_sid_info_str, aclui/PSID_INFO, aclui/SID_INFO, security.sid_info"
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: struct
-req.header: aclui.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,174 +26,6 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SID_INFO, *PSID_INFO
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	HeaderDef
- - HeaderDef
-: 
-api_location:
--	Aclui.h
- - accctrl.h
-: 
-api_name:
--	SID_INFO
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: 
-req.dll: 
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
- - _EXPLICIT_ACCESS_W
-: 
- - _INHERITED_FROMA
-: 
- - _INHERITED_FROMW
-: 
- - _OBJECTS_AND_NAME_A
-: 
- - _OBJECTS_AND_NAME_W
-: 
- - _OBJECTS_AND_SID
-: 
- - _TRUSTEE_A
-: 
- - _TRUSTEE_W
-: 
-req.irql: 
- - 
-: 
- - BuildExplicitAccessWithNameA
-: 
- - BuildExplicitAccessWithNameW
-: 
- - BuildSecurityDescriptorA
-: 
- - BuildSecurityDescriptorW
-: 
- - BuildTrusteeWithNameA
-: 
- - BuildTrusteeWithNameW
-: 
- - BuildTrusteeWithObjectsAndNameA
-: 
- - BuildTrusteeWithObjectsAndNameW
-: 
- - BuildTrusteeWithObjectsAndSidA
-: 
- - BuildTrusteeWithObjectsAndSidW
-: 
- - BuildTrusteeWithSidA
-: 
- - BuildTrusteeWithSidW
-: 
- - FreeInheritedFromArray
-: 
- - GetAuditedPermissionsFromAclA
-: 
- - GetAuditedPermissionsFromAclW
-: 
- - GetEffectiveRightsFromAclA
-: 
- - GetEffectiveRightsFromAclW
-: 
- - GetExplicitEntriesFromAclA
-: 
- - GetExplicitEntriesFromAclW
-: 
- - GetInheritanceSourceA
-: 
- - GetInheritanceSourceW
-: 
- - GetNamedSecurityInfoA
-: 
- - GetNamedSecurityInfoW
-: 
- - GetSecurityInfo
-: 
- - GetTrusteeFormA
-: 
- - GetTrusteeFormW
-: 
- - GetTrusteeNameA
-: 
- - GetTrusteeNameW
-: 
- - GetTrusteeTypeA
-: 
- - GetTrusteeTypeW
-: 
- - LookupSecurityDescriptorPartsA
-: 
- - LookupSecurityDescriptorPartsW
-: 
- - SetEntriesInAclA
-: 
- - SetEntriesInAclW
-: 
- - SetNamedSecurityInfoA
-: 
- - SetNamedSecurityInfoW
-: 
- - SetSecurityInfo
-: 
- - TreeResetNamedSecurityInfoA
-: 
- - TreeResetNamedSecurityInfoW
-: 
- - TreeSetNamedSecurityInfoA
-: 
- - TreeSetNamedSecurityInfoW
-: 
- - aclui.h
-: 
- - _SI_PAGE_TYPE
-: 
- - CreateSecurityPage
-: 
- - EditSecurity
-: 
- - EditSecurityAdvanced
-: 
- - _EFFPERM_RESULT_LIST
-: 
- - _SECURITY_OBJECT
-: 
- - _SID_INFO
-: 
 ---
 
 # _SID_INFO structure

@@ -1,8 +1,0 @@
-# [DirectShow](../_dshow/index.md)
-## [Ksproxy.h](index.md)
-### [IKsPin::KsQueryMediums method](../ksproxy/nf-ksproxy-ikspin-ksquerymediums.md)
-### [IKsPropertySet::Get method](../ksproxy/nf-ksproxy-ikspropertyset-get.md)
-### [IKsPropertySet::QuerySupported method](../ksproxy/nf-ksproxy-ikspropertyset-querysupported.md)
-### [IKsPropertySet::Set method](../ksproxy/nf-ksproxy-ikspropertyset-set.md)
-### [IKsPin interface](../ksproxy/nn-ksproxy-ikspin.md)
-### [IKsPropertySet interface](../ksproxy/nn-ksproxy-ikspropertyset.md)

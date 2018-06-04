@@ -1,7 +1,0 @@
-# [Remote Procedure Call (RPC)](../_rpc/index.md)
-## [Rpcdcep.h](index.md)
-### [I_RpcBindingInqLocalClientPID function](../rpcdcep/nf-rpcdcep-i_rpcbindinginqlocalclientpid.md)
-### [RPC_DISPATCH_TABLE structure](../rpcdcep/ns-rpcdcep-rpc_dispatch_table.md)
-### [_RPC_CLIENT_INTERFACE structure](../rpcdcep/ns-rpcdcep-_rpc_client_interface.md)
-### [_RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure](../rpcdcep/ns-rpcdcep-_rpc_c_opt_cookie_auth_descriptor.md)
-### [_RPC_MESSAGE structure](../rpcdcep/ns-rpcdcep-_rpc_message.md)

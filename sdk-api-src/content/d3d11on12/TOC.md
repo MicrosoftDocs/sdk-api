@@ -1,8 +1,0 @@
-# [Direct3D 12 Graphics](../_direct3d12/index.md)
-## [D3D11On12.h](index.md)
-### [D3D11On12CreateDevice function](../d3d11on12/nf-d3d11on12-d3d11on12createdevice.md)
-### [ID3D11On12Device::AcquireWrappedResources](../d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources.md)
-### [ID3D11On12Device::CreateWrappedResource](../d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource.md)
-### [ID3D11On12Device::ReleaseWrappedResources](../d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources.md)
-### [ID3D11On12Device interface](../d3d11on12/nn-d3d11on12-id3d11on12device.md)
-### [D3D11_RESOURCE_FLAGS structure](../d3d11on12/ns-d3d11on12-d3d11_resource_flags.md)

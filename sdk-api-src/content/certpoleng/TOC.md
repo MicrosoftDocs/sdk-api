@@ -1,8 +1,0 @@
-# [Authentication](../_security/index.md)
-## [Certpoleng.h](index.md)
-### [PstAcquirePrivateKey function](../certpoleng/nf-certpoleng-pstacquireprivatekey.md)
-### [PstGetCertificates function](../certpoleng/nf-certpoleng-pstgetcertificates.md)
-### [PstGetTrustAnchors function](../certpoleng/nf-certpoleng-pstgettrustanchors.md)
-### [PstGetUserNameForCertificate function](../certpoleng/nf-certpoleng-pstgetusernameforcertificate.md)
-### [PstMapCertificate function](../certpoleng/nf-certpoleng-pstmapcertificate.md)
-### [PstValidate function](../certpoleng/nf-certpoleng-pstvalidate.md)

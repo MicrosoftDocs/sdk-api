@@ -1,8 +1,0 @@
-# [Windows Runtime C++ reference](../_winrt/index.md)
-## [Windows.Media.Core.Interop.h](index.md)
-### [IAudioFrameNativeFactory::core](../windows.media.core.interop/nf-windows-media-core-interop-iaudioframenativefactory-createfrommfsample.md)
-### [IVideoFrameNativeFactory::core](../windows.media.core.interop/nf-windows-media-core-interop-ivideoframenativefactory-createfrommfsample.md)
-### [IAudioFrameNative interface](../windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative.md)
-### [IAudioFrameNativeFactory interface](../windows.media.core.interop/nn-windows-media-core-interop-iaudioframenativefactory.md)
-### [IVideoFrameNative interface](../windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative.md)
-### [IVideoFrameNativeFactory interface](../windows.media.core.interop/nn-windows-media-core-interop-ivideoframenativefactory.md)

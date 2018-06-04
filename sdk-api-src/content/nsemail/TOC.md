@@ -1,6 +1,0 @@
-# [Windows Sockets 2](../_winsock/index.md)
-## [Nsemail.h](index.md)
-### [napi_provider_level_tag enumeration](../nsemail/ne-nsemail-napi_provider_level_tag.md)
-### [napi_provider_type_tag enumeration](../nsemail/ne-nsemail-napi_provider_type_tag.md)
-### [napi_domain_description_blob_tag structure](../nsemail/ns-nsemail-napi_domain_description_blob_tag.md)
-### [napi_provider_installation_blob_tag structure](../nsemail/ns-nsemail-napi_provider_installation_blob_tag.md)

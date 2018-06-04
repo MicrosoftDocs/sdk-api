@@ -1,6 +1,0 @@
-# [Error Handling](../_debug/index.md)
-## [Dispatcherqueue.h](index.md)
-### [DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration](../dispatcherqueue/ne-dispatcherqueue-dispatcherqueue_thread_apartmenttype.md)
-### [DISPATCHERQUEUE_THREAD_TYPE enumeration](../dispatcherqueue/ne-dispatcherqueue-dispatcherqueue_thread_type.md)
-### [CreateDispatcherQueueController function](../dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller.md)
-### [DispatcherQueueOptions structure](../dispatcherqueue/ns-dispatcherqueue-dispatcherqueueoptions.md)

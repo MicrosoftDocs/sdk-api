@@ -1,8 +1,0 @@
-# [The Windows Shell](../_shell/index.md)
-## [Storageprovider.h](index.md)
-### [IStorageProviderHandler::GetPropertyHandlerFromFileId](../storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromfileid.md)
-### [IStorageProviderHandler::GetPropertyHandlerFromPath](../storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfrompath.md)
-### [IStorageProviderHandler::GetPropertyHandlerFromUri](../storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromuri.md)
-### [IStorageProviderPropertyHandler::RetrieveProperties](../storageprovider/nf-storageprovider-istorageproviderpropertyhandler-retrieveproperties.md)
-### [IStorageProviderHandler interface](../storageprovider/nn-storageprovider-istorageproviderhandler.md)
-### [IStorageProviderPropertyHandler interface](../storageprovider/nn-storageprovider-istorageproviderpropertyhandler.md)

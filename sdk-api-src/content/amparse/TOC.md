@@ -1,6 +1,0 @@
-# [DirectShow](../_dshow/index.md)
-## [Amparse.h](index.md)
-### [IAMParse::Flush](../amparse/nf-amparse-iamparse-flush.md)
-### [IAMParse::GetParseTime](../amparse/nf-amparse-iamparse-getparsetime.md)
-### [IAMParse::SetParseTime](../amparse/nf-amparse-iamparse-setparsetime.md)
-### [IAMParse interface](../amparse/nn-amparse-iamparse.md)

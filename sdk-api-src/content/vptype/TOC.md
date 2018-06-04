@@ -1,7 +1,0 @@
-# [DirectShow](../_dshow/index.md)
-## [Vptype.h](index.md)
-### [_AMVP_MODE enumeration](../vptype/ne-vptype-_amvp_mode.md)
-### [_AMVP_SELECT_FORMAT_BY enumeration](../vptype/ne-vptype-_amvp_select_format_by.md)
-### [_AMVPDATAINFO structure](../vptype/ns-vptype-_amvpdatainfo.md)
-### [_AMVPDIMINFO structure](../vptype/ns-vptype-_amvpdiminfo.md)
-### [_AMVPSIZE structure](../vptype/ns-vptype-_amvpsize.md)

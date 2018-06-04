@@ -1,84 +1,31 @@
 ---
-UID: NS:accctrl._EXPLICIT_ACCESS_A
-title: "_EXPLICIT_ACCESS_A"
-author: windows-sdk-content
-description: Defines access control information for a specified trustee.
-old-location: security\explicit_access.htm
-old-project: SecAuthZ
-ms.assetid: 6fe09542-10dd-439c-adf8-a4e06943ddb2
-ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: "*PEXPLICIT_ACCESSA, *PEXPLICIT_ACCESS_A, CONTAINER_INHERIT_ACE, EXPLICIT_ACCESS, EXPLICIT_ACCESS structure [Security], EXPLICIT_ACCESSA, EXPLICIT_ACCESS_, EXPLICIT_ACCESS_A, EXPLICIT_ACCESS_W, INHERIT_NO_PROPAGATE, INHERIT_ONLY, INHERIT_ONLY_ACE, NO_INHERITANCE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PEXPLICIT_ACCESS, PEXPLICIT_ACCESS structure pointer [Security], SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, _EXPLICIT_ACCESS_A, _EXPLICIT_ACCESS_W, _win32_explicit_access_str, accctrl/EXPLICIT_ACCESS, accctrl/EXPLICIT_ACCESS_A, accctrl/EXPLICIT_ACCESS_W, accctrl/PEXPLICIT_ACCESS, security.explicit_access"
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: struct
-req.header: accctrl.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: EXPLICIT_ACCESS_W (Unicode) and EXPLICIT_ACCESS_A (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXPLICIT_ACCESS_A, *PEXPLICIT_ACCESS_A, EXPLICIT_ACCESSA, *PEXPLICIT_ACCESSA
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	HeaderDef
- - HeaderDef
-: 
-api_location:
--	AccCtrl.h
- - accctrl.h
-: 
-api_name:
--	EXPLICIT_ACCESS
--	EXPLICIT_ACCESS_A
--	EXPLICIT_ACCESS_W
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: 
-req.dll: 
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
 ---
 
 # _EXPLICIT_ACCESS_A structure

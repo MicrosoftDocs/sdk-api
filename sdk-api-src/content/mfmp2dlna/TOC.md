@@ -1,5 +1,0 @@
-# [Microsoft Media Foundation](../_mf/index.md)
-## [Mfmp2Dlna.h](index.md)
-### [IMFDLNASinkInit::Initialize](../mfmp2dlna/nf-mfmp2dlna-imfdlnasinkinit-initialize.md)
-### [IMFDLNASinkInit interface](../mfmp2dlna/nn-mfmp2dlna-imfdlnasinkinit.md)
-### [_MFMPEG2DLNASINKSTATS structure](../mfmp2dlna/ns-mfmp2dlna-_mfmpeg2dlnasinkstats.md)

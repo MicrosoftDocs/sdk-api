@@ -1,6 +1,0 @@
-# [Using the Windows Headers](../_winprog/index.md)
-## [Tdiinfo.h](index.md)
-### [tcp_request_query_information_ex_w2k structure](../tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k.md)
-### [tcp_request_query_information_ex_xp structure](../tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_xp.md)
-### [TDIEntityID structure](../tdiinfo/ns-tdiinfo-tdientityid.md)
-### [TDIObjectID structure](../tdiinfo/ns-tdiinfo-tdiobjectid.md)

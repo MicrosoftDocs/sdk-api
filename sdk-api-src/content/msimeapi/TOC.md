@@ -1,5 +1,0 @@
-# [Internationalization for Windows Applications](../_intl/index.md)
-## [Msimeapi.h](index.md)
-### [IImePlugInDictDictionaryList::DeleteDictionary](../msimeapi/nf-msimeapi-iimeplugindictdictionarylist-deletedictionary.md)
-### [IImePlugInDictDictionaryList::GetDictionariesInUse](../msimeapi/nf-msimeapi-iimeplugindictdictionarylist-getdictionariesinuse.md)
-### [IImePlugInDictDictionaryList interface](../msimeapi/nn-msimeapi-iimeplugindictdictionarylist.md)

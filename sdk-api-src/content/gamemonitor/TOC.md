@@ -1,7 +1,0 @@
-# [TruePlay](../_anticheat/index.md)
-## [Gamemonitor.h](index.md)
-### [GAME_MONITORING_PERMISSION_STATE enumeration](../gamemonitor/ne-gamemonitor-game_monitoring_permission_state.md)
-### [EnableActiveGameMonitoring function](../gamemonitor/nf-gamemonitor-enableactivegamemonitoring.md)
-### [GetGameMonitoringPermissionState function](../gamemonitor/nf-gamemonitor-getgamemonitoringpermissionstate.md)
-### [ReportGameActivity function](../gamemonitor/nf-gamemonitor-reportgameactivity.md)
-### [SetGameActivityCorrelationId function](../gamemonitor/nf-gamemonitor-setgameactivitycorrelationid.md)

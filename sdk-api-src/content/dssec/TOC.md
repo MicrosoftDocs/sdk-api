@@ -1,6 +1,0 @@
-# [Authentication](../_security/index.md)
-## [Dssec.h](index.md)
-### [DSCreateISecurityInfoObject function](../dssec/nf-dssec-dscreateisecurityinfoobject.md)
-### [DSCreateISecurityInfoObjectEx function](../dssec/nf-dssec-dscreateisecurityinfoobjectex.md)
-### [DSCreateSecurityPage function](../dssec/nf-dssec-dscreatesecuritypage.md)
-### [DSEditSecurity function](../dssec/nf-dssec-dseditsecurity.md)

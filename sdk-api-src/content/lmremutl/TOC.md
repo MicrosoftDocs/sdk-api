@@ -1,5 +1,0 @@
-# [Network Management](../_netmgmt/index.md)
-## [Lmremutl.h](index.md)
-### [NetRemoteComputerSupports function](../lmremutl/nf-lmremutl-netremotecomputersupports.md)
-### [NetRemoteTOD function](../lmremutl/nf-lmremutl-netremotetod.md)
-### [_TIME_OF_DAY_INFO structure](../lmremutl/ns-lmremutl-_time_of_day_info.md)

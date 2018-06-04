@@ -1,8 +1,0 @@
-# [Documents and Printing](../_xps/index.md)
-## [Xpsobjectmodel_2.h](index.md)
-### [IXpsDocumentPackageTarget3D::GetXpsOMFactory](../xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsdocumentpackagetarget3d-getxpsomfactory.md)
-### [IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D](../xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsdocumentpackagetarget3d-getxpsompackagewriter3d.md)
-### [IXpsOMPackageWriter3D::AddModelTexture](../xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsompackagewriter3d-addmodeltexture.md)
-### [IXpsOMPackageWriter3D::SetModelPrintTicket](../xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsompackagewriter3d-setmodelprintticket.md)
-### [IXpsDocumentPackageTarget3D interface](../xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d.md)
-### [IXpsOMPackageWriter3D interface](../xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d.md)

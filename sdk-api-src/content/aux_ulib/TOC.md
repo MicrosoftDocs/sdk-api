@@ -1,5 +1,0 @@
-# [Using the Windows Headers](../_winprog/index.md)
-## [Aux_Ulib.h](index.md)
-### [AuxUlibInitialize function](../aux_ulib/nf-aux_ulib-auxulibinitialize.md)
-### [AuxUlibIsDLLSynchronizationHeld function](../aux_ulib/nf-aux_ulib-auxulibisdllsynchronizationheld.md)
-### [AuxUlibSetSystemFileCacheSize function](../aux_ulib/nf-aux_ulib-auxulibsetsystemfilecachesize.md)

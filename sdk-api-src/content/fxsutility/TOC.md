@@ -1,5 +1,0 @@
-# [Fax Service](../_fax/index.md)
-## [Fxsutility.h](index.md)
-### [SendToMode enumeration](../fxsutility/ne-fxsutility-sendtomode.md)
-### [CanSendToFaxRecipient function](../fxsutility/nf-fxsutility-cansendtofaxrecipient.md)
-### [SendToFaxRecipient function](../fxsutility/nf-fxsutility-sendtofaxrecipient.md)

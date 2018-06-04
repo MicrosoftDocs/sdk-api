@@ -1,8 +1,0 @@
-# [Removable Storage Manager](../_fs/index.md)
-## [Dskquota.h](index.md)
-### [DeleteUser function](../dskquota/nf-dskquota-deleteuser.md)
-### [GiveUserNameResolutionPriority function](../dskquota/nf-dskquota-giveusernameresolutionpriority.md)
-### [InvalidateSidNameCache function](../dskquota/nf-dskquota-invalidatesidnamecache.md)
-### [OnUserNameChanged function](../dskquota/nf-dskquota-onusernamechanged.md)
-### [ShutdownNameResolution function](../dskquota/nf-dskquota-shutdownnameresolution.md)
-### [DiskQuotaUserInformation structure](../dskquota/ns-dskquota-diskquotauserinformation.md)

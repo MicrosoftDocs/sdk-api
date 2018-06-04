@@ -1,8 +1,0 @@
-# [Windows Sockets 2](../_winsock/index.md)
-## [Wsipv6Ok.h](index.md)
-### [gethostbyaddr macro](../wsipv6ok/nf-wsipv6ok-gethostbyaddr.md)
-### [gethostbyname macro](../wsipv6ok/nf-wsipv6ok-gethostbyname.md)
-### [inet_addr macro](../wsipv6ok/nf-wsipv6ok-inet_addr.md)
-### [inet_ntoa macro](../wsipv6ok/nf-wsipv6ok-inet_ntoa.md)
-### [WSAAsyncGetHostByAddr macro](../wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyaddr.md)
-### [WSAAsyncGetHostByName macro](../wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname.md)

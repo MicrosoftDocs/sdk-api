@@ -1,22 +1,22 @@
 ---
-UID: NS:aclui._SI_OBJECT_INFO
-title: "_SI_OBJECT_INFO"
-author: windows-sdk-content
-description: Used to initialize the access control editor.
-old-location: security\si_object_info.htm
-old-project: SecAuthZ
-ms.assetid: bdfd0753-4727-4ca1-ac36-0a77db0a16c5
-ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: "*PSI_OBJECT_INFO, PSI_OBJECT_INFO, PSI_OBJECT_INFO structure pointer [Security], SI_ADVANCED, SI_AUDITS_ELEVATION_REQUIRED, SI_CONTAINER, SI_DISABLE_DENY_ACE, SI_EDIT_ALL, SI_EDIT_AUDITS, SI_EDIT_EFFECTIVE, SI_EDIT_OWNER, SI_EDIT_PERMS, SI_EDIT_PROPERTIES, SI_ENABLE_CENTRAL_POLICY, SI_ENABLE_EDIT_ATTRIBUTE_CONDITION, SI_MAY_WRITE, SI_NO_ACL_PROTECT, SI_NO_ADDITIONAL_PERMISSION, SI_NO_TREE_APPLY, SI_OBJECT_GUID, SI_OBJECT_INFO, SI_OBJECT_INFO structure [Security], SI_OWNER_ELEVATION_REQUIRED, SI_OWNER_READONLY, SI_OWNER_RECURSE, SI_PAGE_TITLE, SI_PERMS_ELEVATION_REQUIRED, SI_READONLY, SI_RESET, SI_RESET_DACL, SI_RESET_DACL_TREE, SI_RESET_OWNER, SI_RESET_SACL, SI_RESET_SACL_TREE, SI_SCOPE_ELEVATION_REQUIRED, SI_SERVER_IS_DC, SI_VIEW_ONLY, _SI_OBJECT_INFO, _win32_si_object_info_str, aclui/PSI_OBJECT_INFO, aclui/SI_OBJECT_INFO, security.si_object_info"
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: struct
-req.header: aclui.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,182 +26,6 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	HeaderDef
- - HeaderDef
-: 
-api_location:
--	Aclui.h
- - accctrl.h
-: 
-api_name:
--	SI_OBJECT_INFO
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: 
-req.dll: 
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
- - _EXPLICIT_ACCESS_W
-: 
- - _INHERITED_FROMA
-: 
- - _INHERITED_FROMW
-: 
- - _OBJECTS_AND_NAME_A
-: 
- - _OBJECTS_AND_NAME_W
-: 
- - _OBJECTS_AND_SID
-: 
- - _TRUSTEE_A
-: 
- - _TRUSTEE_W
-: 
-req.irql: 
- - 
-: 
- - BuildExplicitAccessWithNameA
-: 
- - BuildExplicitAccessWithNameW
-: 
- - BuildSecurityDescriptorA
-: 
- - BuildSecurityDescriptorW
-: 
- - BuildTrusteeWithNameA
-: 
- - BuildTrusteeWithNameW
-: 
- - BuildTrusteeWithObjectsAndNameA
-: 
- - BuildTrusteeWithObjectsAndNameW
-: 
- - BuildTrusteeWithObjectsAndSidA
-: 
- - BuildTrusteeWithObjectsAndSidW
-: 
- - BuildTrusteeWithSidA
-: 
- - BuildTrusteeWithSidW
-: 
- - FreeInheritedFromArray
-: 
- - GetAuditedPermissionsFromAclA
-: 
- - GetAuditedPermissionsFromAclW
-: 
- - GetEffectiveRightsFromAclA
-: 
- - GetEffectiveRightsFromAclW
-: 
- - GetExplicitEntriesFromAclA
-: 
- - GetExplicitEntriesFromAclW
-: 
- - GetInheritanceSourceA
-: 
- - GetInheritanceSourceW
-: 
- - GetNamedSecurityInfoA
-: 
- - GetNamedSecurityInfoW
-: 
- - GetSecurityInfo
-: 
- - GetTrusteeFormA
-: 
- - GetTrusteeFormW
-: 
- - GetTrusteeNameA
-: 
- - GetTrusteeNameW
-: 
- - GetTrusteeTypeA
-: 
- - GetTrusteeTypeW
-: 
- - LookupSecurityDescriptorPartsA
-: 
- - LookupSecurityDescriptorPartsW
-: 
- - SetEntriesInAclA
-: 
- - SetEntriesInAclW
-: 
- - SetNamedSecurityInfoA
-: 
- - SetNamedSecurityInfoW
-: 
- - SetSecurityInfo
-: 
- - TreeResetNamedSecurityInfoA
-: 
- - TreeResetNamedSecurityInfoW
-: 
- - TreeSetNamedSecurityInfoA
-: 
- - TreeSetNamedSecurityInfoW
-: 
- - aclui.h
-: 
- - _SI_PAGE_TYPE
-: 
- - CreateSecurityPage
-: 
- - EditSecurity
-: 
- - EditSecurityAdvanced
-: 
- - _EFFPERM_RESULT_LIST
-: 
- - _SECURITY_OBJECT
-: 
- - _SID_INFO
-: 
- - _SID_INFO_LIST
-: 
- - _SI_ACCESS
-: 
- - _SI_INHERIT_TYPE
-: 
- - _SI_OBJECT_INFO
-: 
 ---
 
 # _SI_OBJECT_INFO structure

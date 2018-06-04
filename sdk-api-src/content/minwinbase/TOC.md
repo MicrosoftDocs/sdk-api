@@ -1,8 +1,0 @@
-# [Removable Storage Manager](../_fs/index.md)
-## [Minwinbase.h](index.md)
-### [_READ_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration](../minwinbase/ne-minwinbase-_read_directory_notify_information_class.md)
-### [_OVERLAPPED structure](../minwinbase/ns-minwinbase-_overlapped.md)
-### [_OVERLAPPED_ENTRY structure](../minwinbase/ns-minwinbase-_overlapped_entry.md)
-### [_REASON_CONTEXT structure](../minwinbase/ns-minwinbase-_reason_context.md)
-### [_WIN32_FIND_DATAA structure](../minwinbase/ns-minwinbase-_win32_find_dataa.md)
-### [_WIN32_FIND_DATAW structure](../minwinbase/ns-minwinbase-_win32_find_dataw.md)

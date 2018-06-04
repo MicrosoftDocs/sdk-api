@@ -1,6 +1,0 @@
-# [Direct2D](../_direct2d/index.md)
-## [D2D1Effecthelpers.h](index.md)
-### [StringGetter function](../d2d1effecthelpers/nf-d2d1effecthelpers-stringgetter.md)
-### [StringSetter function](../d2d1effecthelpers/nf-d2d1effecthelpers-stringsetter.md)
-### [ValueGetter function](../d2d1effecthelpers/nf-d2d1effecthelpers-valuegetter.md)
-### [ValueSetter function](../d2d1effecthelpers/nf-d2d1effecthelpers-valuesetter.md)

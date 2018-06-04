@@ -1,7 +1,0 @@
-# [Using the Windows Headers](../_winprog/index.md)
-## [Wscapi.h](index.md)
-### [_WSC_SECURITY_PROVIDER enumeration](../wscapi/ne-wscapi-_wsc_security_provider.md)
-### [_WSC_SECURITY_PROVIDER_HEALTH enumeration](../wscapi/ne-wscapi-_wsc_security_provider_health.md)
-### [WscGetSecurityProviderHealth function](../wscapi/nf-wscapi-wscgetsecurityproviderhealth.md)
-### [WscRegisterForChanges function](../wscapi/nf-wscapi-wscregisterforchanges.md)
-### [WscUnRegisterChanges function](../wscapi/nf-wscapi-wscunregisterchanges.md)

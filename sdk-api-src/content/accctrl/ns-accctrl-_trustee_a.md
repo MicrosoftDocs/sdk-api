@@ -1,98 +1,31 @@
 ---
-UID: NS:accctrl._TRUSTEE_A
-title: "_TRUSTEE_A"
-author: windows-sdk-content
-description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
-old-location: security\trustee.htm
-old-project: SecAuthZ
-ms.assetid: 120e93eb-680f-4f86-879d-bc2de10d4641
-ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: "*PTRUSTEEA, *PTRUSTEE_A, PTRUSTEE, PTRUSTEE structure pointer [Security], TRUSTEE, TRUSTEE structure [Security], TRUSTEEA, TRUSTEE_, TRUSTEE_A, TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, TRUSTEE_W, _TRUSTEE_A, _win32_trustee_str, accctrl/PTRUSTEE, accctrl/TRUSTEE, accctrl/TRUSTEE_A, accctrl/TRUSTEE_W, security.trustee"
-ms.prod: windows
-ms.technology: windows-sdk
-ms.topic: struct
-req.header: accctrl.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+UID: The unique id of the API.
+title: The title of the API.
+author: Authoring type of the API(ie windows-driver-content)
+description: Description of API
+old-location: 
+old-project: 
+ms.assetid: The MSDN ID of the API
+ms.author: The Author of the API
+ms.date: The date of API publishing
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: The topic type of the API (ie enum)
+req.header: The main header of the API
+req.include-header: The included headers of the API
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: TRUSTEE_W (Unicode) and TRUSTEE_A (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA
-topic_type:
--	APIRef
--	kbSyntax
- - apiref
-: 
-api_type:
--	HeaderDef
- - HeaderDef
-: 
-api_location:
--	AccCtrl.h
- - accctrl.h
-: 
-api_name:
--	TRUSTEE
--	TRUSTEE_A
--	TRUSTEE_W
- - _ACCESS_MODE
-: 
-product: Windows
-targetos: Windows
- - _MULTIPLE_TRUSTEE_OPERATION
-: 
- - _PROGRESS_INVOKE_SETTING
-: 
- - _SE_OBJECT_TYPE
-: 
- - _TRUSTEE_FORM
-: 
- - _TRUSTEE_TYPE
-: 
-req.lib: 
-req.dll: 
- - _ACTRL_ACCESS_ENTRYA
-: 
- - _ACTRL_ACCESS_ENTRYW
-: 
- - _ACTRL_ACCESS_ENTRY_LISTA
-: 
- - _ACTRL_ACCESS_ENTRY_LISTW
-: 
- - _ACTRL_ALISTA
-: 
- - _ACTRL_ALISTW
-: 
- - _ACTRL_PROPERTY_ENTRYA
-: 
- - _ACTRL_PROPERTY_ENTRYW
-: 
- - _EXPLICIT_ACCESS_A
-: 
- - _EXPLICIT_ACCESS_W
-: 
- - _INHERITED_FROMA
-: 
- - _INHERITED_FROMW
-: 
- - _OBJECTS_AND_NAME_A
-: 
- - _OBJECTS_AND_NAME_W
-: 
- - _OBJECTS_AND_SID
-: 
- - _TRUSTEE_A
-: 
 ---
 
 # _TRUSTEE_A structure

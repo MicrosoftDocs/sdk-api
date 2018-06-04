@@ -1,8 +1,0 @@
-# [Quality of Service (QOS)](../_qos/index.md)
-## [Ntddpsch.h](index.md)
-### [_PS_ADAPTER_STATS structure](../ntddpsch/ns-ntddpsch-_ps_adapter_stats.md)
-### [_PS_COMPONENT_STATS structure](../ntddpsch/ns-ntddpsch-_ps_component_stats.md)
-### [_PS_CONFORMER_STATS structure](../ntddpsch/ns-ntddpsch-_ps_conformer_stats.md)
-### [_PS_DRRSEQ_STATS structure](../ntddpsch/ns-ntddpsch-_ps_drrseq_stats.md)
-### [_PS_FLOW_STATS structure](../ntddpsch/ns-ntddpsch-_ps_flow_stats.md)
-### [_PS_SHAPER_STATS structure](../ntddpsch/ns-ntddpsch-_ps_shaper_stats.md)

@@ -1,7 +1,0 @@
-# [Extensible Authentication Protocol Host](../_eaphost/index.md)
-## [Eapauthenticatoractiondefine.h](index.md)
-### [tagEapPeerMethodResponseAction enumeration](../eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction.md)
-### [tagEapPeerMethodResultReason enumeration](../eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-tageappeermethodresultreason.md)
-### [_EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION enumeration](../eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action.md)
-### [tagEapPeerMethodOuput structure](../eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-tageappeermethodouput.md)
-### [_EAP_METHOD_AUTHENTICATOR_RESULT structure](../eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-_eap_method_authenticator_result.md)

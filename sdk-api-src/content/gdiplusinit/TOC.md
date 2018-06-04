@@ -1,6 +1,0 @@
-# [GDI+](../_gdiplus/index.md)
-## [Gdiplusinit.h](index.md)
-### [GdiplusShutdown function](../gdiplusinit/nf-gdiplusinit-gdiplusshutdown.md)
-### [GdiplusStartup function](../gdiplusinit/nf-gdiplusinit-gdiplusstartup.md)
-### [GdiplusStartupInput structure](../gdiplusinit/ns-gdiplusinit-gdiplusstartupinput.md)
-### [GdiplusStartupOutput structure](../gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput.md)

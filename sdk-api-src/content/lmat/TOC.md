@@ -1,8 +1,0 @@
-# [Network Management](../_netmgmt/index.md)
-## [Lmat.h](index.md)
-### [NetScheduleJobAdd function](../lmat/nf-lmat-netschedulejobadd.md)
-### [NetScheduleJobDel function](../lmat/nf-lmat-netschedulejobdel.md)
-### [NetScheduleJobEnum function](../lmat/nf-lmat-netschedulejobenum.md)
-### [NetScheduleJobGetInfo function](../lmat/nf-lmat-netschedulejobgetinfo.md)
-### [_AT_ENUM structure](../lmat/ns-lmat-_at_enum.md)
-### [_AT_INFO structure](../lmat/ns-lmat-_at_info.md)

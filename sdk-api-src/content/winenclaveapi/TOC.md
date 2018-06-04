@@ -1,7 +1,0 @@
-# [Error Handling](../_debug/index.md)
-## [Winenclaveapi.h](index.md)
-### [EnclaveGetAttestationReport function](../winenclaveapi/nf-winenclaveapi-enclavegetattestationreport.md)
-### [EnclaveGetEnclaveInformation function](../winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation.md)
-### [EnclaveSealData function](../winenclaveapi/nf-winenclaveapi-enclavesealdata.md)
-### [EnclaveUnsealData function](../winenclaveapi/nf-winenclaveapi-enclaveunsealdata.md)
-### [EnclaveVerifyAttestationReport function](../winenclaveapi/nf-winenclaveapi-enclaveverifyattestationreport.md)

@@ -1,6 +1,0 @@
-# [Removable Storage Manager](../_fs/index.md)
-## [Ntdddisk.h](index.md)
-### [IOCTL_DISK_ARE_VOLUMES_READY IOCTL](../ntdddisk/ni-ntdddisk-ioctl_disk_are_volumes_ready.md)
-### [IOCTL_DISK_GET_CLUSTER_INFO IOCTL](../ntdddisk/ni-ntdddisk-ioctl_disk_get_cluster_info.md)
-### [IOCTL_DISK_SET_CLUSTER_INFO IOCTL](../ntdddisk/ni-ntdddisk-ioctl_disk_set_cluster_info.md)
-### [_DISK_CLUSTER_INFO structure](../ntdddisk/ns-ntdddisk-_disk_cluster_info.md)

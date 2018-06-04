@@ -1,5 +1,0 @@
-# [DirectShow](../_dshow/index.md)
-## [Ddstream.h](index.md)
-### [IDirectDrawMediaStream::GetTimePerFrame](../ddstream/nf-ddstream-idirectdrawmediastream-gettimeperframe.md)
-### [IDirectDrawMediaStream interface](../ddstream/nn-ddstream-idirectdrawmediastream.md)
-### [IDirectDrawStreamSample interface](../ddstream/nn-ddstream-idirectdrawstreamsample.md)

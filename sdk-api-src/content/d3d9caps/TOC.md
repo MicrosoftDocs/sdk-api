@@ -1,7 +1,0 @@
-# [Direct3D 9 Graphics](../_direct3d9/index.md)
-## [D3D9Caps.h](index.md)
-### [_D3DCAPS9 structure](../d3d9caps/ns-d3d9caps-_d3dcaps9.md)
-### [_D3DCONTENTPROTECTIONCAPS structure](../d3d9caps/ns-d3d9caps-_d3dcontentprotectioncaps.md)
-### [_D3DOVERLAYCAPS structure](../d3d9caps/ns-d3d9caps-_d3doverlaycaps.md)
-### [_D3DPSHADERCAPS2_0 structure](../d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0.md)
-### [_D3DVSHADERCAPS2_0 structure](../d3d9caps/ns-d3d9caps-_d3dvshadercaps2_0.md)

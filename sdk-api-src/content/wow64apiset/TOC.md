@@ -1,7 +1,0 @@
-# [Error Handling](../_debug/index.md)
-## [Wow64Apiset.h](index.md)
-### [GetSystemWow64Directory2A function](../wow64apiset/nf-wow64apiset-getsystemwow64directory2a.md)
-### [GetSystemWow64Directory2W function](../wow64apiset/nf-wow64apiset-getsystemwow64directory2w.md)
-### [IsWow64GuestMachineSupported function](../wow64apiset/nf-wow64apiset-iswow64guestmachinesupported.md)
-### [IsWow64Process function](../wow64apiset/nf-wow64apiset-iswow64process.md)
-### [IsWow64Process2 function](../wow64apiset/nf-wow64apiset-iswow64process2.md)

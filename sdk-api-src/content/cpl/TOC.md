@@ -1,6 +1,0 @@
-# [The Windows Shell](../_shell/index.md)
-## [Cpl.h](index.md)
-### [APPLET_PROC callback](../cpl/nc-cpl-applet_proc.md)
-### [tagCPLINFO structure](../cpl/ns-cpl-tagcplinfo.md)
-### [tagNEWCPLINFOA structure](../cpl/ns-cpl-tagnewcplinfoa.md)
-### [tagNEWCPLINFOW structure](../cpl/ns-cpl-tagnewcplinfow.md)

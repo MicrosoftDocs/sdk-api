@@ -1,6 +1,0 @@
-# [Error Handling](../_debug/index.md)
-## [Vsadmin.h](index.md)
-### [IVssAdmin::QueryProviders](../vsadmin/nf-vsadmin-ivssadmin-queryproviders.md)
-### [IVssAdmin::RegisterProvider](../vsadmin/nf-vsadmin-ivssadmin-registerprovider.md)
-### [IVssAdmin::UnregisterProvider](../vsadmin/nf-vsadmin-ivssadmin-unregisterprovider.md)
-### [IVssAdmin interface](../vsadmin/nn-vsadmin-ivssadmin.md)

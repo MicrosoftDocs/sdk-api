@@ -1,8 +1,0 @@
-# [Forefront Threat Management Gateway (TMG)](../_tmg/index.md)
-## [Ntdef.h](index.md)
-### [COMPARTMENT_ID enumeration](../ntdef/ne-ntdef-compartment_id.md)
-### [FIELD_OFFSET macro](../ntdef/nf-ntdef-field_offset.md)
-### [_LIST_ENTRY structure](../ntdef/ns-ntdef-_list_entry.md)
-### [_LUID structure](../ntdef/ns-ntdef-_luid.md)
-### [_SINGLE_LIST_ENTRY structure](../ntdef/ns-ntdef-_single_list_entry.md)
-### [_STRING structure](../ntdef/ns-ntdef-_string.md)

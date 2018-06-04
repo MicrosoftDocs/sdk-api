@@ -1,6 +1,0 @@
-# [DirectShow](../_dshow/index.md)
-## [Amxmlgraphbuilder.h](index.md)
-### [IXMLGraphBuilder::BuildFromXML](../amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxml.md)
-### [IXMLGraphBuilder::BuildFromXMLFile](../amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxmlfile.md)
-### [IXMLGraphBuilder::SaveToXML](../amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-savetoxml.md)
-### [IXMLGraphBuilder interface](../amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder.md)

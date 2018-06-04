@@ -1,7 +1,0 @@
-# [Microsoft TV Technologies](../_mstv/index.md)
-## [Bdatypes.h](index.md)
-### [PID_MAP structure](../bdatypes/ns-bdatypes-pid_map.md)
-### [_BDANODE_DESCRIPTOR structure](../bdatypes/ns-bdatypes-_bdanode_descriptor.md)
-### [_BDA_ISDBCAS_EMG_REQ structure](../bdatypes/ns-bdatypes-_bda_isdbcas_emg_req.md)
-### [_BDA_MUX_PIDLISTITEM structure](../bdatypes/ns-bdatypes-_bda_mux_pidlistitem.md)
-### [_MPEG2_TRANSPORT_STRIDE structure](../bdatypes/ns-bdatypes-_mpeg2_transport_stride.md)

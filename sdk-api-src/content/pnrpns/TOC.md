@@ -1,5 +1,0 @@
-# [Peer-to-Peer](../_p2p/index.md)
-## [Pnrpns.h](index.md)
-### [_PNRPCLOUDINFO structure](../pnrpns/ns-pnrpns-_pnrpcloudinfo.md)
-### [_PNRPINFO_V1 structure](../pnrpns/ns-pnrpns-_pnrpinfo_v1.md)
-### [_PNRPINFO_V2 structure](../pnrpns/ns-pnrpns-_pnrpinfo_v2.md)

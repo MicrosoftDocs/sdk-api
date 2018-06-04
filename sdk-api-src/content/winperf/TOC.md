@@ -1,7 +1,0 @@
-# [Performance Counters](../_perf/index.md)
-## [Winperf.h](index.md)
-### [_PERF_COUNTER_BLOCK structure](../winperf/ns-winperf-_perf_counter_block.md)
-### [_PERF_COUNTER_DEFINITION structure](../winperf/ns-winperf-_perf_counter_definition.md)
-### [_PERF_DATA_BLOCK structure](../winperf/ns-winperf-_perf_data_block.md)
-### [_PERF_INSTANCE_DEFINITION structure](../winperf/ns-winperf-_perf_instance_definition.md)
-### [_PERF_OBJECT_TYPE structure](../winperf/ns-winperf-_perf_object_type.md)

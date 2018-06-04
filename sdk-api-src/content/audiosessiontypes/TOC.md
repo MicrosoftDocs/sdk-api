@@ -1,5 +1,0 @@
-# [Core Audio APIs](../_coreaudio/index.md)
-## [Audiosessiontypes.h](index.md)
-### [_AUDCLNT_SHAREMODE enumeration](../audiosessiontypes/ne-audiosessiontypes-_audclnt_sharemode.md)
-### [_AudioSessionState enumeration](../audiosessiontypes/ne-audiosessiontypes-_audiosessionstate.md)
-### [_AUDIO_STREAM_CATEGORY enumeration](../audiosessiontypes/ne-audiosessiontypes-_audio_stream_category.md)

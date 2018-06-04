@@ -1,8 +1,0 @@
-# [Microsoft Media Foundation](../_mf/index.md)
-## [Mfmediacapture.h](index.md)
-### [IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings](../mfmediacapture/nf-mfmediacapture-iadvancedmediacapture-getadvancedmediacapturesettings.md)
-### [IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager](../mfmediacapture/nf-mfmediacapture-iadvancedmediacaptureinitializationsettings-setdirectxdevicemanager.md)
-### [IAdvancedMediaCaptureSettings::GetDirectxDeviceManager](../mfmediacapture/nf-mfmediacapture-iadvancedmediacapturesettings-getdirectxdevicemanager.md)
-### [IAdvancedMediaCapture interface](../mfmediacapture/nn-mfmediacapture-iadvancedmediacapture.md)
-### [IAdvancedMediaCaptureInitializationSettings interface](../mfmediacapture/nn-mfmediacapture-iadvancedmediacaptureinitializationsettings.md)
-### [IAdvancedMediaCaptureSettings interface](../mfmediacapture/nn-mfmediacapture-iadvancedmediacapturesettings.md)

@@ -1,7 +1,0 @@
-# [Using the Windows Headers](../_winprog/index.md)
-## [Iwscapi.h](index.md)
-### [WSC_SECURITY_PRODUCT_STATE enumeration](../iwscapi/ne-iwscapi-wsc_security_product_state.md)
-### [_WSC_SECURITY_SIGNATURE_STATUS enumeration](../iwscapi/ne-iwscapi-_wsc_security_signature_status.md)
-### [IWSCProductList::Initialize](../iwscapi/nf-iwscapi-iwscproductlist-initialize.md)
-### [IWscProduct interface](../iwscapi/nn-iwscapi-iwscproduct.md)
-### [IWSCProductList interface](../iwscapi/nn-iwscapi-iwscproductlist.md)

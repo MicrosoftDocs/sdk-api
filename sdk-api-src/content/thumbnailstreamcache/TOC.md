@@ -1,6 +1,0 @@
-# [The Windows Shell](../_shell/index.md)
-## [Thumbnailstreamcache.h](index.md)
-### [ThumbnailStreamCacheOptions enumeration](../thumbnailstreamcache/ne-thumbnailstreamcache-thumbnailstreamcacheoptions.md)
-### [IThumbnailStreamCache::GetThumbnailStream](../thumbnailstreamcache/nf-thumbnailstreamcache-ithumbnailstreamcache-getthumbnailstream.md)
-### [IThumbnailStreamCache::SetThumbnailStream](../thumbnailstreamcache/nf-thumbnailstreamcache-ithumbnailstreamcache-setthumbnailstream.md)
-### [IThumbnailStreamCache interface](../thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache.md)

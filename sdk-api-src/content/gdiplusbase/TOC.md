@@ -1,6 +1,0 @@
-# [GDI+](../_gdiplus/index.md)
-## [Gdiplusbase.h](index.md)
-### [GdiplusBase::operator delete](../gdiplusbase/nf-gdiplusbase-gdiplusbase-operator delete.md)
-### [GdiplusBase::operator delete[]](../gdiplusbase/nf-gdiplusbase-gdiplusbase-operator delete[].md)
-### [GdiplusBase::operator new](../gdiplusbase/nf-gdiplusbase-gdiplusbase-operator new.md)
-### [GdiplusBase::operator new[]](../gdiplusbase/nf-gdiplusbase-gdiplusbase-operator new[].md)

@@ -1,6 +1,0 @@
-# [Bluetooth](../_bluetooth/index.md)
-## [Ws2Bth.h](index.md)
-### [_BTH_QUERY_DEVICE structure](../ws2bth/ns-ws2bth-_bth_query_device.md)
-### [_BTH_QUERY_SERVICE structure](../ws2bth/ns-ws2bth-_bth_query_service.md)
-### [_BTH_SET_SERVICE structure](../ws2bth/ns-ws2bth-_bth_set_service.md)
-### [_SOCKADDR_BTH structure](../ws2bth/ns-ws2bth-_sockaddr_bth.md)

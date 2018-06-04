@@ -1,8 +1,0 @@
-# [Component Object Model (COM)](../_com/index.md)
-## [Wtypesbase.h](index.md)
-### [tagMSHCTX enumeration](../wtypesbase/ne-wtypesbase-tagmshctx.md)
-### [tagMSHLFLAGS enumeration](../wtypesbase/ne-wtypesbase-tagmshlflags.md)
-### [OLESTR macro](../wtypesbase/nf-wtypesbase-olestr.md)
-### [tagBLOB structure](../wtypesbase/ns-wtypesbase-tagblob.md)
-### [_COAUTHIDENTITY structure](../wtypesbase/ns-wtypesbase-_coauthidentity.md)
-### [_COAUTHINFO structure](../wtypesbase/ns-wtypesbase-_coauthinfo.md)
