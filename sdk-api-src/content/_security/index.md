@@ -2,7 +2,7 @@
 UID: TP:security
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,6 @@ To develop Security and Identity, you need these headers:
  * [winnetwk.h](..\winnetwk\index.md)
  * [winsafer.h](..\winsafer\index.md)
  * [winscard.h](..\winscard\index.md)
- * [winsmcrd.h](..\winsmcrd\index.md)
  * [winsvc.h](..\winsvc\index.md)
  * [wintrust.h](..\wintrust\index.md)
  * [winwlx.h](..\winwlx\index.md)

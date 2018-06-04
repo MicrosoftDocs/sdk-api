@@ -2,7 +2,7 @@
 UID: TP:upnp
 ms.assetid: c3b0bda6-483a-3b34-92b5-8e06e3b07799
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

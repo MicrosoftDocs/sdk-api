@@ -2,7 +2,7 @@
 UID: TP:vpc
 ms.assetid: dd7271cc-ebc1-369a-9ee2-f14414a4a2f6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,6 @@ ms.topic: portal
 
 Overview of the Windows Virtual PC technology.
 
-To develop Windows Virtual PC, you need these headers:
-
- * [mshtmlc.h](..\mshtmlc\index.md)
+The Windows Virtual PC technology is not associated with any headers.
 
 For the programming guide, see [Windows Virtual PC](/windows/desktop/vpc).

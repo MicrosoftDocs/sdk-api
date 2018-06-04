@@ -2,7 +2,7 @@
 UID: TP:winprog
 ms.assetid: 83e6e3dc-b151-3e86-ac66-a7eabe59b7b6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -25,7 +25,6 @@ To develop Developer Notes, you need these headers:
  * [comppkgsup.h](..\comppkgsup\index.md)
  * [dciman.h](..\dciman\index.md)
  * [ddrawgdi.h](..\ddrawgdi\index.md)
- * [dsound.h](..\dsound\index.md)
  * [editionupgradehelper.h](..\editionupgradehelper\index.md)
  * [exdisp.h](..\exdisp\index.md)
  * [exposeenums2managed.h](..\exposeenums2managed\index.md)
@@ -46,7 +45,6 @@ To develop Developer Notes, you need these headers:
  * [ntsecpkg.h](..\ntsecpkg\index.md)
  * [rpcndr.h](..\rpcndr\index.md)
  * [rtlsupportapi.h](..\rtlsupportapi\index.md)
- * [scsi.h](..\scsi\index.md)
  * [stralign.h](..\stralign\index.md)
  * [tcpioctl.h](..\tcpioctl\index.md)
  * [tdiinfo.h](..\tdiinfo\index.md)

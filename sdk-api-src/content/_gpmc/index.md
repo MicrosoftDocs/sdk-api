@@ -2,7 +2,7 @@
 UID: TP:gpmc
 ms.assetid: 85cebf89-1c3d-31d7-bd1a-e4548abebf06
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

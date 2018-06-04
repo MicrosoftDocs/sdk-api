@@ -2,7 +2,7 @@
 UID: TP:base
 ms.assetid: e0daa3a7-613f-39bd-87ba-ff1ef0bec914
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -34,10 +34,7 @@ To develop System Services, you need these headers:
  * [mcx.h](..\mcx\index.md)
  * [memoryapi.h](..\memoryapi\index.md)
  * [minidumpapiset.h](..\minidumpapiset\index.md)
- * [ntddstor.h](..\ntddstor\index.md)
- * [ntddvdeo.h](..\ntddvdeo\index.md)
  * [ntenclv.h](..\ntenclv\index.md)
- * [poclass.h](..\poclass\index.md)
  * [powerbase.h](..\powerbase\index.md)
  * [powersetting.h](..\powersetting\index.md)
  * [powrprof.h](..\powrprof\index.md)
