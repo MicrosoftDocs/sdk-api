@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ACTRL_ACCESSA, *PACTRL_ACCESSA, ACTRL_AUDITA, *PACTRL_AUDITA
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	AccCtrl.h
+- AccCtrl.h
 api_name:
--	ACTRL_ACCESS
--	ACTRL_ACCESSA
--	ACTRL_ACCESSW
+- ACTRL_ACCESS
+ - ACTRL_ACCESSA
+ - ACTRL_ACCESSW
 product: Windows
 targetos: Windows
 req.lib: 

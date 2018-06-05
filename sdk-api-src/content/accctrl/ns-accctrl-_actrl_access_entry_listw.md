@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ACTRL_ACCESS_ENTRY_LISTW, *PACTRL_ACCESS_ENTRY_LISTW
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	AccCtrl.h
+- AccCtrl.h
 api_name:
--	ACTRL_ACCESS_ENTRY_LIST
--	ACTRL_ACCESS_ENTRY_LISTA
--	ACTRL_ACCESS_ENTRY_LISTW
+- ACTRL_ACCESS_ENTRY_LIST
+ - ACTRL_ACCESS_ENTRY_LISTA
+ - ACTRL_ACCESS_ENTRY_LISTW
 product: Windows
 targetos: Windows
 req.lib: 

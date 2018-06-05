@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ACTRL_PROPERTY_ENTRYA, *PACTRL_PROPERTY_ENTRYA
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	AccCtrl.h
+- AccCtrl.h
 api_name:
--	ACTRL_PROPERTY_ENTRY
--	ACTRL_PROPERTY_ENTRYA
--	ACTRL_PROPERTY_ENTRYW
+- ACTRL_PROPERTY_ENTRY
+ - ACTRL_PROPERTY_ENTRYA
+ - ACTRL_PROPERTY_ENTRYW
 product: Windows
 targetos: Windows
 req.lib: 

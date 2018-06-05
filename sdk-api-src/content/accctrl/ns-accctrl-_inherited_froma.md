@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: INHERITED_FROMA, *PINHERITED_FROMA
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	AccCtrl.h
+- AccCtrl.h
 api_name:
--	INHERITED_FROM
--	INHERITED_FROMA
--	INHERITED_FROMW
+- INHERITED_FROM
+ - INHERITED_FROMA
+ - INHERITED_FROMW
 product: Windows
 targetos: Windows
 req.lib: 

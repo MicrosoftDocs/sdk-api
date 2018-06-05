@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACCESS_MODE
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	AccCtrl.h
+- AccCtrl.h
 api_name:
--	ACCESS_MODE
+- ACCESS_MODE
 product: Windows
 targetos: Windows
 ---

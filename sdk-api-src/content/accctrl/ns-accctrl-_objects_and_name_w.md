@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OBJECTS_AND_NAME_W, *POBJECTS_AND_NAME_W
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	AccCtrl.h
+- AccCtrl.h
 api_name:
--	OBJECTS_AND_NAME
--	OBJECTS_AND_NAME_A
--	OBJECTS_AND_NAME_W
+- OBJECTS_AND_NAME
+ - OBJECTS_AND_NAME_A
+ - OBJECTS_AND_NAME_W
 product: Windows
 targetos: Windows
 req.lib: 
