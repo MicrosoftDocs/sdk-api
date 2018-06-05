@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA
 topic_type:
-- APIRef
+ - APIRef
  - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- AccCtrl.h
+ - AccCtrl.h
 api_name:
-- TRUSTEE
+ - TRUSTEE
  - TRUSTEE_A
  - TRUSTEE_W
 product: Windows
